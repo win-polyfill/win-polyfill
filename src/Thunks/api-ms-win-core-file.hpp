@@ -8,9 +8,9 @@ namespace YY
 
 		enum _FILE_ID_TYPE_win7
 		{
-			FileIdType,
-			ObjectIdType,
-			MaximumFileIdType
+			FileIdType_win7,
+			ObjectIdType_win7,
+			MaximumFileIdType_win7
 		};
 
 		struct FILE_ID_DESCRIPTOR_win7
@@ -863,7 +863,7 @@ namespace YY
 				return pOpenFileById(hVolumeHint, lpFileId, dwDesiredAccess, dwShareMode, lpSecurityAttributes, dwFlagsAndAttributes);
 			}
 
-			if (lpFileId == nullptr || lpFileId->dwSize < sizeof(FILE_ID_DESCRIPTOR_win7) || lpFileId->Type >= _FILE_ID_TYPE_win7::MaximumFileIdType)
+			if (lpFileId == nullptr || lpFileId->dwSize < sizeof(FILE_ID_DESCRIPTOR_win7) || lpFileId->Type >= _FILE_ID_TYPE_win7::MaximumFileIdType_win7)
 			{
 				SetLastError(ERROR_INVALID_PARAMETER);
 				return INVALID_HANDLE_VALUE;
@@ -880,7 +880,7 @@ namespace YY
 
 			UNICODE_STRING ObjectName;
 
-			if (FileIdType == lpFileId->Type)
+			if (FileIdType_win7 == lpFileId->Type)
 			{
 				ObjectName.Buffer = (PWSTR)(&lpFileId->FileId);
 				ObjectName.Length = ObjectName.MaximumLength = sizeof(lpFileId->FileId);
