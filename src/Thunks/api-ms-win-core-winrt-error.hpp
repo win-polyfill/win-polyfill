@@ -53,5 +53,5 @@ namespace YY
 			return FALSE;
 		}
 #endif
-	}
-}
+	} //namespace Thunks
+} //namespace YY

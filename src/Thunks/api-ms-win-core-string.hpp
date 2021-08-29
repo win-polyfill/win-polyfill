@@ -265,5 +265,5 @@ namespace YY
             return 0;
         }
 #endif
-	}
-}
+	} //namespace Thunks
+} //namespace YY

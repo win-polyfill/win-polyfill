@@ -173,5 +173,5 @@ namespace YY
 			return internal::StrToInt64ExT(pszString, dwFlags, pllRet);
 		}
 #endif //YY_Thunks_Support_Version < NTDDI_WINXP
-	}
-}
+	} //namespace Thunks
+} //namespace YY

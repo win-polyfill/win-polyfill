@@ -269,5 +269,5 @@ namespace YY
 			return MapViewOfFileEx(hFileMappingObject, dwDesiredAccess, dwFileOffsetHigh, dwFileOffsetLow, dwNumberOfBytesToMap, lpBaseAddress);
 		}
 #endif
-	}
-}
+	} //namespace Thunks
+} //namespace YY
