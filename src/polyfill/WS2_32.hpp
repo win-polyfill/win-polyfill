@@ -1,6 +1,10 @@
 ﻿
 #include <ws2tcpip.h>
 
+/* Extract begin open */
+#if !defined(WIN_POLYFILL_DISABLE_SOCKET)
+/* Extract begin close */
+
 #if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 // Windows 8.1, Windows Vista [desktop apps | UWP apps]
@@ -905,3 +909,7 @@ __DEFINE_THUNK(
     return result;
 }
 #endif
+
+/* Extract end open */
+#endif /* !defined(WIN_POLYFILL_DISABLE_SOCKET) */
+/* Extract end close */

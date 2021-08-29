@@ -1,34 +1,9 @@
 ﻿#pragma once
 
-#define WIN32_LEAN_AND_MEAN // Exclude rarely-used stuff from Windows headers
+#include "win-polyfill-export.h"
 
-// win-polyfill保证STDIO新老模式兼容
-#define _CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS
-
-#include <Windows.h>
-#include <crtdbg.h>
-#include <intrin.h>
-
-#if defined(_M_IX86)
-#define _LCRT_DEFINE_IAT_SYMBOL_MAKE_NAME(_FUNCTION, _SIZE)                                        \
-    _CRT_CONCATENATE(_CRT_CONCATENATE(_imp__, _FUNCTION), _CRT_CONCATENATE(_, _SIZE))
-#elif defined(_M_AMD64)
-#define _LCRT_DEFINE_IAT_SYMBOL_MAKE_NAME(_FUNCTION, _SIZE) _CRT_CONCATENATE(__imp_, _FUNCTION)
-#else
-#error "不支持此体系"
-#endif
-
-#if defined(_M_IX86)
-// x86的符号存在@ 我们使用 identifier 特性解决
-#define _LCRT_DEFINE_IAT_SYMBOL(_FUNCTION, _SIZE)                                                  \
-    __pragma(warning(suppress : 4483)) extern "C" __declspec(                                      \
-        selectany) void const *const __identifier(_CRT_STRINGIZE_(_imp__##_FUNCTION##@##_SIZE)) =  \
-        reinterpret_cast<void const *>(_FUNCTION)
-#else
-#define _LCRT_DEFINE_IAT_SYMBOL(_FUNCTION, _SIZE)                                                  \
-    extern "C" __declspec(selectany) void const *const _LCRT_DEFINE_IAT_SYMBOL_MAKE_NAME(          \
-        _FUNCTION, _SIZE) = reinterpret_cast<void const *>(_FUNCTION)
-#endif
+#define _Disallow_WP_KM_Namespace
+#include "win-polyfill-km.h"
 
 #ifdef __WP_Thunks_Unit_Test
 #define __APPLY_UNIT_TEST_BOOL(_FUNCTION)                                                          \
@@ -119,10 +94,6 @@ static uintptr_t __security_cookie_yy_thunks;
 #define _APPLY(_SYMBOL, _NAME, ...)                                                                \
     constexpr const wchar_t *_CRT_CONCATENATE(module_name_, _SYMBOL) = _CRT_WIDE(_NAME);
 _WP_APPLY_TO_LATE_BOUND_MODULES(_APPLY)
-#undef _APPLY
-
-#define _APPLY(_FUNCTION, _MODULES) using _CRT_CONCATENATE(_FUNCTION, _pft) = decltype(_FUNCTION) *;
-_WP_APPLY_TO_LATE_BOUND_FUNCTIONS(_APPLY)
 #undef _APPLY
 
 // Implements wcsncpmp for ASCII chars only.
@@ -378,10 +349,7 @@ static void *__fastcall wp_get_function(
     return new_fp;
 }
 
-#define _APPLY(_FUNCTION, _MODULE)                                                                 \
-    __APPLY_UNIT_TEST_BOOL(_FUNCTION);                                                             \
-    static _CRT_CONCATENATE(_FUNCTION, _pft) __cdecl _CRT_CONCATENATE(                             \
-        wp_get_, _FUNCTION)() noexcept                                                             \
+#define WP_GET_FUNCTION_APPLY(_MODULE, _FUNCTION, _FUNCTION_TYPE)                                  \
     {                                                                                              \
         __CHECK_UNIT_TEST_BOOL(_FUNCTION);                                                         \
         __declspec(allocate(".YYThr$AAA")) static void *_CRT_CONCATENATE(pInit_, _FUNCTION) =      \
@@ -389,13 +357,11 @@ static void *__fastcall wp_get_function(
         /* In order to avoid the compiler optimize section YYThr$AAA out */                        \
         __foreinclude(_CRT_CONCATENATE(pInit_, _FUNCTION));                                        \
         __declspec(allocate(".YYThu$AAB")) static void *_CRT_CONCATENATE(pFun_, _FUNCTION);        \
-        return reinterpret_cast<_CRT_CONCATENATE(_FUNCTION, _pft)>(wp_get_function(                \
+        return reinterpret_cast<_FUNCTION_TYPE>(wp_get_function(                                   \
             &_CRT_CONCATENATE(pFun_, _FUNCTION),                                                   \
             _CRT_STRINGIZE(_FUNCTION),                                                             \
             &_CRT_CONCATENATE(wp_get_module_, _MODULE)));                                          \
     }
-_WP_APPLY_TO_LATE_BOUND_FUNCTIONS(_APPLY)
-#undef _APPLY
 
 static void __cdecl __WP_uninitialize_winapi_thunks()
 {

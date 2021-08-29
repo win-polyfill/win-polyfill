@@ -1,0 +1,96 @@
+﻿#ifndef _WIN_POLYFILL_EXPORT_SHARED_H_
+#define _WIN_POLYFILL_EXPORT_SHARED_H_
+
+#pragma once
+
+#if defined(_WIN32)
+
+#include "win-polyfill-version.h"
+
+#include <crtdbg.h>
+#include <intrin.h>
+
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
+#define INITKNOWNFOLDERS
+#endif /* (WP_SUPPORT_VERSION < NTDDI_WIN6) */
+
+/* win-polyfill 保证STDIO新老模式兼容 */
+#define _CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS
+
+/* Disable include of sockets from Windows.h */
+#define _WINSOCKAPI_
+
+#ifndef PSAPI_VERSION
+#define PSAPI_VERSION 1
+#endif
+
+#define PATHCCH_NO_DEPRECATE
+
+#ifndef UMDF_USING_NTSTATUS
+#define UMDF_USING_NTSTATUS
+#endif
+
+#include <windows.h>
+
+#include <ntstatus.h>
+#include <winnt.h>
+
+#include <d3d11.h>
+#include <d3d9.h>
+#include <dbghelp.h>
+#include <dwmapi.h>
+#include <dxgi.h>
+#include <evntprov.h>
+#include <ncrypt.h>
+#include <pathcch.h>
+#include <psapi.h>
+#include <roapi.h>
+#include <roerrorapi.h>
+#include <setupapi.h>
+#include <shellapi.h>
+#include <shellscalingapi.h>
+#include <shlobj.h>
+#include <shlwapi.h>
+#include <strsafe.h>
+#include <threadpoolapiset.h>
+#include <timezoneapi.h>
+#include <uxtheme.h>
+#include <winnls.h>
+#include <winstring.h>
+
+#if !defined(WIN_POLYFILL_DISABLE_SOCKET)
+#include <winsock2.h>
+#include <ws2tcpip.h>
+#endif
+
+/* iphlpapi should after them all */
+#include <iphlpapi.h>
+
+#ifdef __cplusplus
+#include <dwrite.h>
+#endif
+
+#if defined(WIN_POLYFILL_EXPORT_STATIC)
+#define WP_EXPORT
+#elif defined(WIN_POLYFILL_EXPORT_SHARED)
+#define WP_EXPORT __declspec(dllexport)
+#else
+#define WP_EXPORT __declspec(dllimport)
+#pragma comment(lib, "win-polyfill.lib")
+#endif
+
+#define WP_EXTERN_C EXTERN_C WP_EXPORT
+#define ComputeOsVersionNumber(major, minor) ((((ULONGLONG)(major)) << 32) | (minor))
+static const LONGLONG WP_OS_VERSION_WIN2000 = ComputeOsVersionNumber(5, 0);
+static const LONGLONG WP_OS_VERSION_XP = ComputeOsVersionNumber(5, 1);
+static const LONGLONG WP_OS_VERSION_VISTA = ComputeOsVersionNumber(6, 0);
+static const LONGLONG WP_OS_VERSION_WIN7 = ComputeOsVersionNumber(6, 1);
+static const LONGLONG WP_OS_VERSION_WIN8 = ComputeOsVersionNumber(6, 2);
+static const LONGLONG WP_OS_VERSION_WIN8_1 = ComputeOsVersionNumber(6, 3);
+static const LONGLONG WP_OS_VERSION_WIN10 = ComputeOsVersionNumber(10, 0);
+
+WP_EXTERN_C LONGLONG WINAPI wpWinVersion();
+
+#endif /* defined(_WIN32) */
+
+#endif /* _WIN_POLYFILL_EXPORT_SHARED_H_ */

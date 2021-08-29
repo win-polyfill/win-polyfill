@@ -1,16 +1,7 @@
 ﻿#pragma once
 
-#ifndef SDK_KM_H
-#define SDK_KM_H
-
-#ifndef UMDF_USING_NTSTATUS
-#define UMDF_USING_NTSTATUS
-#endif
-#include <Windows.h>
-#include <ntstatus.h>
-#include <winnt.h>
-
-//#pragma comment(lib,"ntdll.lib")
+#ifndef _WIN_POLYFILL_KM_H_
+#define _WIN_POLYFILL_KM_H_
 
 #define FILE_SUPERSEDE 0x00000000
 #define FILE_OPEN 0x00000001
@@ -4661,4 +4652,4 @@ LdrAddRefDll(IN ULONG Flags, IN PVOID BaseAddress);
 } // namespace YY
 #endif
 
-#endif
+#endif /* _WIN_POLYFILL_KM_H_ */
