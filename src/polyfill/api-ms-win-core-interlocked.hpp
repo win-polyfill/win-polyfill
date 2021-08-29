@@ -1,11 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WS03)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03)
 
         #pragma push_macro("InterlockedCompareExchange64")
         #undef InterlockedCompareExchange64
@@ -30,7 +25,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXP)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
 
         //Windows XP [desktop apps | UWP apps]
         //Windows Server 2003 [desktop apps | UWP apps]
@@ -48,7 +43,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXP)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
 
         //Windows XP [desktop apps | UWP apps]
         //Windows Server 2003 [desktop apps | UWP apps]
@@ -61,7 +56,7 @@ namespace YY
             _Inout_ PSLIST_HEADER ListHead
             )
         {
-            if (const auto pInterlockedFlushSList = try_get_InterlockedFlushSList())
+            if (const auto pInterlockedFlushSList = wp_get_InterlockedFlushSList())
             {
                 return pInterlockedFlushSList(ListHead);
             }
@@ -88,7 +83,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXP)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
 
         //Windows XP [desktop apps | UWP apps]
         //Windows Server 2003 [desktop apps | UWP apps]
@@ -101,7 +96,7 @@ namespace YY
             _In_ PSLIST_HEADER ListHead
             )
         {
-            if (const auto pQueryDepthSList = try_get_QueryDepthSList())
+            if (const auto pQueryDepthSList = wp_get_QueryDepthSList())
             {
                 return pQueryDepthSList(ListHead);
             }
@@ -111,7 +106,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXP)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
 
         //Windows XP [desktop apps | UWP apps]
         //Windows Server 2003 [desktop apps | UWP apps]
@@ -125,7 +120,7 @@ namespace YY
             _Inout_ __drv_aliasesMem PSLIST_ENTRY ListEntry
             )
         {
-            if (const auto pInterlockedPushEntrySList = try_get_InterlockedPushEntrySList())
+            if (const auto pInterlockedPushEntrySList = wp_get_InterlockedPushEntrySList())
             {
                 return pInterlockedPushEntrySList(ListHead, ListEntry);
             }
@@ -150,7 +145,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXP)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
 
         //Windows XP [desktop apps | UWP apps]
         //Windows Server 2003 [desktop apps | UWP apps]
@@ -163,7 +158,7 @@ namespace YY
             _Inout_ PSLIST_HEADER ListHead
             )
         {
-            if (const auto pInterlockedPopEntrySList = try_get_InterlockedPopEntrySList())
+            if (const auto pInterlockedPopEntrySList = wp_get_InterlockedPopEntrySList())
             {
                 return pInterlockedPopEntrySList(ListHead);
             }
@@ -187,7 +182,3 @@ namespace YY
             //asm 会修改eax
         }
 #endif
-
-	}//namespace Thunks
-
-} //namespace YY

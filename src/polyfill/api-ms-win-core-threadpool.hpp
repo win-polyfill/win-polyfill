@@ -1,7 +1,7 @@
 ﻿
 #include <threadpoolapiset.h>
 
-#ifdef YY_Thunks_Implemented
+#ifdef WP_Thunks_Implemented
 
 struct _TP_CLEANUP_GROUP_FUNCS
 {
@@ -147,12 +147,7 @@ struct _TP_CALLBACK_INSTANCE
 
 #endif
 
-
-namespace YY
-{
-	namespace Thunks
-	{
-#if defined(YY_Thunks_Implemented) && (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if defined(WP_Thunks_Implemented) && (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		namespace Fallback
 		{
@@ -730,7 +725,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -745,7 +740,7 @@ namespace YY
 			_In_opt_ PTP_CALLBACK_ENVIRON pcbe
 			)
 		{
-			if (auto const pCreateThreadpoolWork = try_get_CreateThreadpoolWork())
+			if (auto const pCreateThreadpoolWork = wp_get_CreateThreadpoolWork())
 			{
 				return pCreateThreadpoolWork(pfnwk, pv, pcbe);
 			}
@@ -766,7 +761,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -779,7 +774,7 @@ namespace YY
 			_Inout_ PTP_WORK pwk
 			)
 		{
-			if (auto const pCloseThreadpoolWork = try_get_CloseThreadpoolWork())
+			if (auto const pCloseThreadpoolWork = wp_get_CloseThreadpoolWork())
 			{
 				return pCloseThreadpoolWork(pwk);
 			}
@@ -790,7 +785,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		__DEFINE_THUNK(
 		kernel32,
@@ -801,7 +796,7 @@ namespace YY
 			_Inout_ PTP_WORK pwk
 			)
 		{
-			if (auto const pSubmitThreadpoolWork = try_get_SubmitThreadpoolWork())
+			if (auto const pSubmitThreadpoolWork = wp_get_SubmitThreadpoolWork())
 			{
 				return pSubmitThreadpoolWork(pwk);
 			}
@@ -821,7 +816,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -835,7 +830,7 @@ namespace YY
 			_In_ BOOL fCancelPendingCallbacks
 			)
 		{
-			if (auto const pWaitForThreadpoolWorkCallbacks = try_get_WaitForThreadpoolWorkCallbacks())
+			if (auto const pWaitForThreadpoolWorkCallbacks = wp_get_WaitForThreadpoolWorkCallbacks())
 			{
 				return pWaitForThreadpoolWorkCallbacks(pwk, fCancelPendingCallbacks);
 			}
@@ -877,7 +872,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -892,7 +887,7 @@ namespace YY
 			_In_opt_ PTP_CALLBACK_ENVIRON pcbe
 			)
 		{
-			if (auto const pCreateThreadpoolTimer = try_get_CreateThreadpoolTimer())
+			if (auto const pCreateThreadpoolTimer = wp_get_CreateThreadpoolTimer())
 			{
 				return pCreateThreadpoolTimer(pfnti, pv, pcbe);
 			}
@@ -913,7 +908,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -929,7 +924,7 @@ namespace YY
 			_In_opt_ DWORD msWindowLength
 			)
 		{
-			if (auto const pSetThreadpoolTimer = try_get_SetThreadpoolTimer())
+			if (auto const pSetThreadpoolTimer = wp_get_SetThreadpoolTimer())
 			{
 				return pSetThreadpoolTimer(pti, pftDueTime, msPeriod, msWindowLength);
 			}
@@ -1059,7 +1054,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1073,7 +1068,7 @@ namespace YY
 			_In_ BOOL CancelPendingCallbacks
 			)
 		{
-			if (auto const pWaitForThreadpoolTimerCallbacks = try_get_WaitForThreadpoolTimerCallbacks())
+			if (auto const pWaitForThreadpoolTimerCallbacks = wp_get_WaitForThreadpoolTimerCallbacks())
 			{
 				return pWaitForThreadpoolTimerCallbacks(Timer, CancelPendingCallbacks);
 			}
@@ -1100,7 +1095,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1113,7 +1108,7 @@ namespace YY
 			_Inout_ PTP_TIMER Timer
 			)
 		{
-			if (auto const pCloseThreadpoolTimer = try_get_CloseThreadpoolTimer())
+			if (auto const pCloseThreadpoolTimer = wp_get_CloseThreadpoolTimer())
 			{
 				return pCloseThreadpoolTimer(Timer);
 			}
@@ -1148,7 +1143,7 @@ namespace YY
 #endif
 
 		
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1162,7 +1157,7 @@ namespace YY
 			_In_ HANDLE Event
 			)
 		{
-			if (auto const pSetEventWhenCallbackReturns = try_get_SetEventWhenCallbackReturns())
+			if (auto const pSetEventWhenCallbackReturns = wp_get_SetEventWhenCallbackReturns())
 			{
 				return pSetEventWhenCallbackReturns(Instance, Event);
 			}
@@ -1183,7 +1178,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1198,7 +1193,7 @@ namespace YY
 			_In_ DWORD ReleaseCount
 			)
 		{
-			if (auto const pReleaseSemaphoreWhenCallbackReturns = try_get_ReleaseSemaphoreWhenCallbackReturns())
+			if (auto const pReleaseSemaphoreWhenCallbackReturns = wp_get_ReleaseSemaphoreWhenCallbackReturns())
 			{
 				return pReleaseSemaphoreWhenCallbackReturns(Instance, Semaphore, ReleaseCount);
 			}
@@ -1220,7 +1215,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1234,7 +1229,7 @@ namespace YY
 			_In_ HANDLE Mutex
 			)
 		{
-			if (auto const pReleaseMutexWhenCallbackReturns = try_get_ReleaseMutexWhenCallbackReturns())
+			if (auto const pReleaseMutexWhenCallbackReturns = wp_get_ReleaseMutexWhenCallbackReturns())
 			{
 				return pReleaseMutexWhenCallbackReturns(Instance, Mutex);
 			}
@@ -1254,7 +1249,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1268,7 +1263,7 @@ namespace YY
 			_Inout_ PCRITICAL_SECTION CriticalSection
 			)
 		{
-			if (auto const pLeaveCriticalSectionWhenCallbackReturns = try_get_LeaveCriticalSectionWhenCallbackReturns())
+			if (auto const pLeaveCriticalSectionWhenCallbackReturns = wp_get_LeaveCriticalSectionWhenCallbackReturns())
 			{
 				return pLeaveCriticalSectionWhenCallbackReturns(Instance, CriticalSection);
 			}
@@ -1287,7 +1282,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1301,7 +1296,7 @@ namespace YY
 			_In_ HMODULE DllHandle
 			)
 		{
-			if (auto const pFreeLibraryWhenCallbackReturns = try_get_FreeLibraryWhenCallbackReturns())
+			if (auto const pFreeLibraryWhenCallbackReturns = wp_get_FreeLibraryWhenCallbackReturns())
 			{
 				return pFreeLibraryWhenCallbackReturns(Instance, DllHandle);
 			}
@@ -1321,7 +1316,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1336,7 +1331,7 @@ namespace YY
 			_In_opt_ PTP_CALLBACK_ENVIRON CallbackEnviron
 			)
 		{
-			if (auto const pTrySubmitThreadpoolCallback = try_get_TrySubmitThreadpoolCallback())
+			if (auto const pTrySubmitThreadpoolCallback = wp_get_TrySubmitThreadpoolCallback())
 			{
 				return pTrySubmitThreadpoolCallback(Callback, Context, CallbackEnviron);
 			}
@@ -1357,7 +1352,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1372,7 +1367,7 @@ namespace YY
 			_In_opt_ PTP_CALLBACK_ENVIRON CallbackEnviron
 			)
 		{
-			if (auto const pCreateThreadpoolWait = try_get_CreateThreadpoolWait())
+			if (auto const pCreateThreadpoolWait = wp_get_CreateThreadpoolWait())
 			{
 				return pCreateThreadpoolWait(Callback, Context, CallbackEnviron);
 			}
@@ -1430,7 +1425,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1443,7 +1438,7 @@ namespace YY
 			_Inout_ PTP_WAIT Wait
 			)
 		{
-			if (auto const pCloseThreadpoolWait = try_get_CloseThreadpoolWait())
+			if (auto const pCloseThreadpoolWait = wp_get_CloseThreadpoolWait())
 			{
 				return pCloseThreadpoolWait(Wait);
 			}
@@ -1477,7 +1472,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1492,7 +1487,7 @@ namespace YY
 			_In_opt_ PFILETIME Timeout
 			)
 		{
-			if (auto const pSetThreadpoolWait = try_get_SetThreadpoolWait())
+			if (auto const pSetThreadpoolWait = wp_get_SetThreadpoolWait())
 			{
 				return pSetThreadpoolWait(Wait, Handle, Timeout);
 			}
@@ -1649,7 +1644,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1663,7 +1658,7 @@ namespace YY
 			_In_ BOOL CancelPendingCallbacks
 			)
 		{
-			if (auto const pWaitForThreadpoolWaitCallbacks = try_get_WaitForThreadpoolWaitCallbacks())
+			if (auto const pWaitForThreadpoolWaitCallbacks = wp_get_WaitForThreadpoolWaitCallbacks())
 			{
 				return pWaitForThreadpoolWaitCallbacks(Wait, CancelPendingCallbacks);
 			}
@@ -1688,6 +1683,4 @@ namespace YY
 
 		}
 #endif
-	} //namespace Thunks
-} //namespace YY
 

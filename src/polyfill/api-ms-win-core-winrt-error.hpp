@@ -1,11 +1,7 @@
 ﻿
 #include <roerrorapi.h>
 
-namespace YY
-{
-	namespace Thunks
-	{
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps]
@@ -19,7 +15,7 @@ namespace YY
 			_In_opt_ HSTRING message
 			)
 		{
-			if (auto pRoOriginateError = try_get_RoOriginateError())
+			if (auto pRoOriginateError = wp_get_RoOriginateError())
 			{
 				return pRoOriginateError(error, message);
 			}
@@ -28,7 +24,7 @@ namespace YY
 		}
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps]
@@ -45,7 +41,7 @@ namespace YY
 					 _When_(cchMax >= MAX_ERROR_MESSAGE_CHARS, _In_reads_or_z_(MAX_ERROR_MESSAGE_CHARS) ) PCWSTR message
 			)
 		{
-			if (auto pRoOriginateErrorW = try_get_RoOriginateErrorW())
+			if (auto pRoOriginateErrorW = wp_get_RoOriginateErrorW())
 			{
 				return pRoOriginateErrorW(error, cchMax, message);
 			}
@@ -53,5 +49,4 @@ namespace YY
 			return FALSE;
 		}
 #endif
-	} //namespace Thunks
-} //namespace YY
+

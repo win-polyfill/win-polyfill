@@ -1,11 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -19,7 +14,7 @@ namespace YY
 			_In_opt_ LPOVERLAPPED lpOverlapped
 			)
 		{
-			if (auto pCancelIoEx = try_get_CancelIoEx())
+			if (auto pCancelIoEx = wp_get_CancelIoEx())
 			{
 				return pCancelIoEx(hFile, lpOverlapped);
 			}
@@ -28,7 +23,3 @@ namespace YY
 			return CancelIo(hFile);
 		}
 #endif
-
-	}//namespace Thunks
-
-} //namespace YY

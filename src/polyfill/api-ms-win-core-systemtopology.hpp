@@ -1,11 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WINXPSP2)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXPSP2)
 
 		//Windows Vista, Windows XP Professional x64 Edition, Windows XP with SP2, Windows Server 2003
 		__DEFINE_THUNK(
@@ -18,7 +13,7 @@ namespace YY
 			_Out_ PULONGLONG ProcessorMask
 			)
 		{
-			if (auto pGetNumaNodeProcessorMask = try_get_GetNumaNodeProcessorMask())
+			if (auto pGetNumaNodeProcessorMask = wp_get_GetNumaNodeProcessorMask())
 			{
 				return pGetNumaNodeProcessorMask(Node, ProcessorMask);
 			}
@@ -44,7 +39,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Windows 7, Windows Server 2008 R2
 		__DEFINE_THUNK(
@@ -57,7 +52,7 @@ namespace YY
 			_Out_ PGROUP_AFFINITY ProcessorMask
 			)
 		{
-			if (auto pGetNumaNodeProcessorMaskEx = try_get_GetNumaNodeProcessorMaskEx())
+			if (auto pGetNumaNodeProcessorMaskEx = wp_get_GetNumaNodeProcessorMaskEx())
 			{
 				return pGetNumaNodeProcessorMaskEx(Node, ProcessorMask);
 			}
@@ -83,7 +78,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Windows 7, Windows Server 2008 R2
 		__DEFINE_THUNK(
@@ -97,7 +92,7 @@ namespace YY
 			_Out_opt_ PGROUP_AFFINITY PreviousGroupAffinity
 			)
 		{
-			if (auto pSetThreadGroupAffinity = try_get_SetThreadGroupAffinity())
+			if (auto pSetThreadGroupAffinity = wp_get_SetThreadGroupAffinity())
 			{
 				return pSetThreadGroupAffinity(hThread, GroupAffinity, PreviousGroupAffinity);
 			}
@@ -123,7 +118,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXPSP2)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXPSP2)
 
 		//Windows Vista, Windows XP Professional x64 Edition, Windows XP with SP2 [desktop apps only]
 		//Windows Server 2003 [desktop apps only]
@@ -136,7 +131,7 @@ namespace YY
 			_Out_ PULONG HighestNodeNumber
 			)
 		{
-			if (auto pGetNumaHighestNodeNumber = try_get_GetNumaHighestNodeNumber())
+			if (auto pGetNumaHighestNodeNumber = wp_get_GetNumaHighestNodeNumber())
 			{
 				return pGetNumaHighestNodeNumber(HighestNodeNumber);
 			}
@@ -149,7 +144,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Minimum supported client	Windows 7 [desktop apps only]
 		//Minimum supported server	Windows Server 2008 R2 [desktop apps only]
@@ -164,7 +159,7 @@ namespace YY
 			_Out_ PUSHORT NodeNumber
 			)
 		{
-			if (const auto pGetNumaProximityNodeEx = try_get_GetNumaProximityNodeEx())
+			if (const auto pGetNumaProximityNodeEx = wp_get_GetNumaProximityNodeEx())
 			{
 				return pGetNumaProximityNodeEx(ProximityId, NodeNumber);
 			}
@@ -179,7 +174,3 @@ namespace YY
 			return bRet;
 		}
 #endif
-
-	}//namespace Thunks
-
-} //namespace YY

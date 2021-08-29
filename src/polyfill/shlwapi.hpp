@@ -1,12 +1,7 @@
 ﻿
 #include <Shlwapi.h>
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#ifdef YY_Thunks_Implemented
+#ifdef WP_Thunks_Implemented
 		namespace internal
 		{
 			template<class Char>
@@ -123,7 +118,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXP)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
 
 		// Windows 2000 Professional, Windows XP [desktop apps only] 
 		// Windows 2000 Server [desktop apps only]
@@ -139,17 +134,17 @@ namespace YY
 			_Out_ LONGLONG* pllRet
 			)
 		{
-			if (const auto pStrToInt64ExA = try_get_StrToInt64ExA())
+			if (const auto pStrToInt64ExA = wp_get_StrToInt64ExA())
 			{
 				return pStrToInt64ExA(pszString, dwFlags, pllRet);
 			}
 
 			return internal::StrToInt64ExT(pszString, dwFlags, pllRet);
 		}
-#endif //YY_Thunks_Support_Version < NTDDI_WINXP
+#endif //WP_SUPPORT_VERSION < NTDDI_WINXP
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXP)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
 
 		// Windows 2000 Professional, Windows XP [desktop apps only] 
 		// Windows 2000 Server [desktop apps only]
@@ -165,13 +160,12 @@ namespace YY
 			_Out_ LONGLONG* pllRet
 			)
 		{
-			if (const auto pStrToInt64ExW = try_get_StrToInt64ExW())
+			if (const auto pStrToInt64ExW = wp_get_StrToInt64ExW())
 			{
 				return pStrToInt64ExW(pszString, dwFlags, pllRet);
 			}
 
 			return internal::StrToInt64ExT(pszString, dwFlags, pllRet);
 		}
-#endif //YY_Thunks_Support_Version < NTDDI_WINXP
-	} //namespace Thunks
-} //namespace YY
+#endif //WP_SUPPORT_VERSION < NTDDI_WINXP
+

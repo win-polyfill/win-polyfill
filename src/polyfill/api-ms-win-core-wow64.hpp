@@ -1,11 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WS03)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03)
 
 		//Windows XP Professional x64 Edition, Windows Server 2003
 		__DEFINE_THUNK(
@@ -17,7 +12,7 @@ namespace YY
 			_Out_ PVOID* OldValue
 			)
 		{
-			if (auto const pWow64DisableWow64FsRedirection = try_get_Wow64DisableWow64FsRedirection())
+			if (auto const pWow64DisableWow64FsRedirection = wp_get_Wow64DisableWow64FsRedirection())
 			{
 				return pWow64DisableWow64FsRedirection(OldValue);
 			}
@@ -30,7 +25,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03)
 
 		//Windows XP Professional x64 Edition, Windows Server 2003
 		__DEFINE_THUNK(
@@ -42,7 +37,7 @@ namespace YY
 			_In_ PVOID OlValue
 			)
 		{
-			if (auto const pWow64RevertWow64FsRedirection = try_get_Wow64RevertWow64FsRedirection())
+			if (auto const pWow64RevertWow64FsRedirection = wp_get_Wow64RevertWow64FsRedirection())
 			{
 				return pWow64RevertWow64FsRedirection(OlValue);
 			}
@@ -55,7 +50,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03)
 
 		//Windows XP Professional x64 Edition, Windows Server 2003
 		__DEFINE_THUNK(
@@ -67,7 +62,7 @@ namespace YY
 			_In_ BOOLEAN Wow64FsEnableRedirection
 			)
 		{
-			if (auto const pWow64EnableWow64FsRedirection = try_get_Wow64EnableWow64FsRedirection())
+			if (auto const pWow64EnableWow64FsRedirection = wp_get_Wow64EnableWow64FsRedirection())
 			{
 				return pWow64EnableWow64FsRedirection(Wow64FsEnableRedirection);
 			}
@@ -81,7 +76,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03SP1)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03SP1)
 
 		//Windows XP with SP2, Windows Server 2003 with SP1
 		__DEFINE_THUNK(
@@ -94,7 +89,7 @@ namespace YY
 			_Out_ PBOOL Wow64Process
 			)
 		{
-			if (auto const pIsWow64Process = try_get_IsWow64Process())
+			if (auto const pIsWow64Process = wp_get_IsWow64Process())
 			{
 				return pIsWow64Process(hProcess, Wow64Process);
 			}
@@ -107,7 +102,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN10_RS3) && (defined _X86_ || defined _AMD64_)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10_RS3) && (defined _X86_ || defined _AMD64_)
 
 		//Windows 10, Version 1511
 		//微软文档有点问题，实际x86以及amd64系统中，16299（RS3）才开始有此API。
@@ -123,7 +118,7 @@ namespace YY
 			_Out_opt_ USHORT* pNativeMachine
 			)
 		{
-			if (auto const pIsWow64Process2 = try_get_IsWow64Process2())
+			if (auto const pIsWow64Process2 = wp_get_IsWow64Process2())
 			{
 				return pIsWow64Process2(hProcess, pProcessMachine, pNativeMachine);
 			}
@@ -164,7 +159,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN10_RS3) && (defined _X86_ || defined _AMD64_)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10_RS3) && (defined _X86_ || defined _AMD64_)
 
 		//Windows 10, version 1709
 		__DEFINE_THUNK(
@@ -178,7 +173,7 @@ namespace YY
 			_Out_ BOOL* MachineIsSupported
 			)
 		{
-			if (auto const pIsWow64GuestMachineSupported = try_get_IsWow64GuestMachineSupported())
+			if (auto const pIsWow64GuestMachineSupported = wp_get_IsWow64GuestMachineSupported())
 			{
 				return pIsWow64GuestMachineSupported(WowGuestMachine, MachineIsSupported);
 			}
@@ -203,6 +198,3 @@ namespace YY
 			return S_OK;
 		}
 #endif
-	}//namespace Thunks
-
-} //namespace YY

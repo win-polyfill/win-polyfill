@@ -1,11 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista, Windows Server 2008
 		__DEFINE_THUNK(
@@ -17,7 +12,7 @@ namespace YY
 			VOID
 			)
 		{
-			if (auto const pGetTickCount64 = try_get_GetTickCount64())
+			if (auto const pGetTickCount64 = wp_get_GetTickCount64())
 			{
 				return pGetTickCount64();
 			}
@@ -28,7 +23,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8, Windows Server 2012
 		__DEFINE_THUNK(
@@ -40,7 +35,7 @@ namespace YY
 			_Out_ LPFILETIME lpSystemTimeAsFileTime
 			)
 		{
-			if (auto const pGetSystemTimePreciseAsFileTime = try_get_GetSystemTimePreciseAsFileTime())
+			if (auto const pGetSystemTimePreciseAsFileTime = wp_get_GetSystemTimePreciseAsFileTime())
 			{
 				return pGetSystemTimePreciseAsFileTime(lpSystemTimeAsFileTime);
 			}
@@ -50,7 +45,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXPSP3)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXPSP3)
 
 		//Windows Vista, Windows XP Professional x64 Edition, Windows XP with SP3 [desktop apps | UWP apps]
 		//Windows Server 2003 [desktop apps | UWP apps]
@@ -64,7 +59,7 @@ namespace YY
 			_Inout_ PDWORD ReturnedLength
 			)
 		{
-			if (auto pGetLogicalProcessorInformation = try_get_GetLogicalProcessorInformation())
+			if (auto pGetLogicalProcessorInformation = wp_get_GetLogicalProcessorInformation())
 			{
 				return pGetLogicalProcessorInformation(Buffer, ReturnedLength);
 			}
@@ -75,7 +70,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Windows 7, Windows Server 2008 R2
 		__DEFINE_THUNK(
@@ -90,7 +85,7 @@ namespace YY
 			_Inout_ PDWORD ReturnedLength
 			)
 		{
-			if (auto pGetLogicalProcessorInformationEx = try_get_GetLogicalProcessorInformationEx())
+			if (auto pGetLogicalProcessorInformationEx = wp_get_GetLogicalProcessorInformationEx())
 			{
 				return pGetLogicalProcessorInformationEx(RelationshipType, Buffer, ReturnedLength);
 			}
@@ -312,7 +307,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXP)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
 
 		//Windows XP [desktop apps | UWP apps]
 		//Windows Server 2003 [desktop apps | UWP apps]
@@ -325,7 +320,7 @@ namespace YY
 			_Out_ LPSYSTEM_INFO lpSystemInfo
 			)
 		{
-			if (const auto pGetNativeSystemInfo = try_get_GetNativeSystemInfo())
+			if (const auto pGetNativeSystemInfo = wp_get_GetNativeSystemInfo())
 			{
 				return pGetNativeSystemInfo(lpSystemInfo);
 			}
@@ -336,7 +331,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows XP [desktop apps | UWP apps]
 		//Windows Server 2003 [desktop apps | UWP apps]
@@ -353,7 +348,7 @@ namespace YY
 			_Out_ PDWORD pdwReturnedProductType
 			)
 		{
-			if (const auto pGetProductInfo = try_get_GetProductInfo())
+			if (const auto pGetProductInfo = wp_get_GetProductInfo())
 			{
 				return pGetProductInfo(dwOSMajorVersion, dwOSMinorVersion, dwSpMajorVersion, dwSpMinorVersion, pdwReturnedProductType);
 			}
@@ -436,6 +431,3 @@ namespace YY
 			return dwReturnedProductType != PRODUCT_UNDEFINED;
 		}
 #endif
-	}//namespace Thunks
-
-} //namespace YY

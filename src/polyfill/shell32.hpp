@@ -2,14 +2,10 @@
 
 #include <Shlobj.h>
 
-namespace YY
-{
-	namespace Thunks
-	{
-#ifdef YY_Thunks_Implemented
+#ifdef WP_Thunks_Implemented
 		namespace internal
 		{
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 			struct KnownFoldersIdKey
 			{
 				const GUID& rfid;
@@ -420,7 +416,7 @@ namespace YY
 
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -436,7 +432,7 @@ namespace YY
 			_Outptr_ PWSTR* ppszPath
 			)
 		{
-			if (const auto pSHGetKnownFolderPath = try_get_SHGetKnownFolderPath())
+			if (const auto pSHGetKnownFolderPath = wp_get_SHGetKnownFolderPath())
 			{
 				return pSHGetKnownFolderPath(rfid, dwFlags, hToken, ppszPath);
 			}
@@ -469,7 +465,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -485,7 +481,7 @@ namespace YY
 			_In_ PCWSTR pszPath
 			)
 		{
-			if (const auto pSHSetKnownFolderPath = try_get_SHSetKnownFolderPath())
+			if (const auto pSHSetKnownFolderPath = wp_get_SHSetKnownFolderPath())
 			{
 				return pSHSetKnownFolderPath(rfid, dwFlags, hToken, pszPath);
 			}
@@ -502,7 +498,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -518,7 +514,7 @@ namespace YY
 			_Outptr_ PIDLIST_ABSOLUTE *ppidl
 			)
 		{
-			if (const auto pSHGetKnownFolderIDList = try_get_SHGetKnownFolderIDList())
+			if (const auto pSHGetKnownFolderIDList = wp_get_SHGetKnownFolderIDList())
 			{
 				return pSHGetKnownFolderIDList(rfid, dwFlags, hToken, ppidl);
 			}
@@ -535,7 +531,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -552,7 +548,7 @@ namespace YY
 			_Outptr_opt_ PCUITEMID_CHILD *ppidlLast
 			)
 		{
-			if (const auto pSHBindToFolderIDListParent = try_get_SHBindToFolderIDListParent())
+			if (const auto pSHBindToFolderIDListParent = wp_get_SHBindToFolderIDListParent())
 			{
 				return pSHBindToFolderIDListParent(psfRoot, pidl, riid, ppv, ppidlLast);
 			}
@@ -562,7 +558,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -580,7 +576,7 @@ namespace YY
 			_Outptr_opt_ PCUITEMID_CHILD *ppidlLast
 			)
 		{
-			if (const auto pSHBindToFolderIDListParentEx = try_get_SHBindToFolderIDListParentEx())
+			if (const auto pSHBindToFolderIDListParentEx = wp_get_SHBindToFolderIDListParentEx())
 			{
 				return pSHBindToFolderIDListParentEx(psfRoot, pidl, ppbc, riid, ppv, ppidlLast);
 			}
@@ -590,7 +586,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -607,7 +603,7 @@ namespace YY
 			_Outptr_ void **ppv
 			)
 		{
-			if (const auto pSHBindToObject = try_get_SHBindToObject())
+			if (const auto pSHBindToObject = wp_get_SHBindToObject())
 			{
 				return pSHBindToObject(psf, pidl, pbc, riid, ppv);
 			}
@@ -617,7 +613,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -632,7 +628,7 @@ namespace YY
 			_Outptr_ void **ppv
 			)
 		{
-			if (const auto pSHCreateItemFromIDList = try_get_SHCreateItemFromIDList())
+			if (const auto pSHCreateItemFromIDList = wp_get_SHCreateItemFromIDList())
 			{
 				return pSHCreateItemFromIDList(pidl, riid, ppv);
 			}
@@ -643,7 +639,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -660,7 +656,7 @@ namespace YY
 			_Outptr_ void **ppvItem
 			)
 		{
-			if (const auto pSHCreateItemWithParent = try_get_SHCreateItemWithParent())
+			if (const auto pSHCreateItemWithParent = wp_get_SHCreateItemWithParent())
 			{
 				return pSHCreateItemWithParent(pidlParent, psfParent, pidl, riid, ppvItem);
 			}
@@ -670,7 +666,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -687,7 +683,7 @@ namespace YY
 			_Outptr_ void **ppv
 			)
 		{
-			if (const auto pSHCreateItemFromRelativeName = try_get_SHCreateItemFromRelativeName())
+			if (const auto pSHCreateItemFromRelativeName = wp_get_SHCreateItemFromRelativeName())
 			{
 				return pSHCreateItemFromRelativeName(psiParent, pszName, pbc, riid, ppv);
 			}
@@ -719,7 +715,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -734,7 +730,7 @@ namespace YY
 			_Outptr_ PWSTR *ppszName
 			)
 		{
-			if (const auto pSHGetNameFromIDList = try_get_SHGetNameFromIDList())
+			if (const auto pSHGetNameFromIDList = wp_get_SHGetNameFromIDList())
 			{
 				return pSHGetNameFromIDList(pidl, sigdnName, ppszName);
 			}
@@ -758,7 +754,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXPSP1)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXPSP1)
 
 		//Windows XP with SP1 [desktop apps only] 
 		//Windows Server 2003 [desktop apps only]
@@ -774,7 +770,7 @@ namespace YY
 			_Outptr_ IShellItem **ppsi
 			)
 		{
-			if (const auto pSHCreateShellItem = try_get_SHCreateShellItem())
+			if (const auto pSHCreateShellItem = wp_get_SHCreateShellItem())
 			{
 				return pSHCreateShellItem(pidlParent, psfParent, pidl, ppsi);
 			}
@@ -787,7 +783,3 @@ namespace YY
 				return internal::SHCreateItemFromIDList(pidl, __uuidof(IShellItem), (void**)ppsi);
 		}
 #endif
-
-	}//namespace Thunks
-
-} //namespace YY

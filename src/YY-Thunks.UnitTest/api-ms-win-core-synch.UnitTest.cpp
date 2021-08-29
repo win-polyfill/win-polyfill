@@ -9,8 +9,8 @@ namespace api_ms_win_core_synch
 	public:
 		WaitOnAddress()
 		{
-			YY::Thunks::aways_null_try_get_WaitOnAddress = true;
-			YY::Thunks::aways_null_try_get_WakeByAddressSingle = true;
+			YY::Thunks::aways_null_wp_get_WaitOnAddress = true;
+			YY::Thunks::aways_null_wp_get_WakeByAddressSingle = true;
 		}
 
 		TEST_METHOD(结果本身不同)
@@ -42,8 +42,8 @@ namespace api_ms_win_core_synch
 	public:
 		WakeByAddressSingle()
 		{
-			YY::Thunks::aways_null_try_get_WaitOnAddress = true;
-			YY::Thunks::aways_null_try_get_WakeByAddressSingle = true;
+			YY::Thunks::aways_null_wp_get_WaitOnAddress = true;
+			YY::Thunks::aways_null_wp_get_WakeByAddressSingle = true;
 		}
 
 		TEST_METHOD(只唤醒了一个线程)
@@ -112,8 +112,8 @@ namespace api_ms_win_core_synch
 	public:
 		WakeByAddressAll()
 		{
-			YY::Thunks::aways_null_try_get_WaitOnAddress = true;
-			YY::Thunks::aways_null_try_get_WakeByAddressAll = true;
+			YY::Thunks::aways_null_wp_get_WaitOnAddress = true;
+			YY::Thunks::aways_null_wp_get_WakeByAddressAll = true;
 		}
 
 		TEST_METHOD(唤醒所有线程)

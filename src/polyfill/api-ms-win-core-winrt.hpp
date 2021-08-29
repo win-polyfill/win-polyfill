@@ -1,12 +1,7 @@
 ﻿
 #include <roapi.h>
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps]
@@ -19,7 +14,7 @@ namespace YY
 			_In_ RO_INIT_TYPE initType
 			)
 		{
-			if (auto const pRoInitialize = try_get_RoInitialize())
+			if (auto const pRoInitialize = wp_get_RoInitialize())
 			{
 				return pRoInitialize(initType);
 			}
@@ -33,7 +28,7 @@ namespace YY
 		}
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps]
@@ -45,7 +40,7 @@ namespace YY
 		RoUninitialize,
 			)
 		{
-			if (auto const pRoUninitialize = try_get_RoUninitialize())
+			if (auto const pRoUninitialize = wp_get_RoUninitialize())
 			{
 				return pRoUninitialize();
 			}
@@ -54,7 +49,7 @@ namespace YY
 		}
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps]
@@ -68,7 +63,7 @@ namespace YY
 			_COM_Outptr_ IInspectable** instance
 			)
 		{
-			if (auto const pRoActivateInstance = try_get_RoActivateInstance())
+			if (auto const pRoActivateInstance = wp_get_RoActivateInstance())
 			{
 				return pRoActivateInstance(activatableClassId, instance);
 			}
@@ -80,7 +75,7 @@ namespace YY
 		}
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps]
@@ -96,7 +91,7 @@ namespace YY
 			_Out_ RO_REGISTRATION_COOKIE* cookie
 			)
 		{
-			if (auto const pRoRegisterActivationFactories = try_get_RoRegisterActivationFactories())
+			if (auto const pRoRegisterActivationFactories = wp_get_RoRegisterActivationFactories())
 			{
 				return pRoRegisterActivationFactories(activatableClassIds, activationFactoryCallbacks, count, cookie);
 			}
@@ -109,7 +104,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps]
@@ -122,14 +117,14 @@ namespace YY
 			_In_ RO_REGISTRATION_COOKIE cookie
 			)
 		{
-			if (auto const pRoRevokeActivationFactories = try_get_RoRevokeActivationFactories())
+			if (auto const pRoRevokeActivationFactories = wp_get_RoRevokeActivationFactories())
 			{
 				return pRoRevokeActivationFactories(cookie);
 			}
 		}
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps]
@@ -144,7 +139,7 @@ namespace YY
 			_COM_Outptr_ void** factory
 			)
 		{
-			if (auto const pRoGetActivationFactory = try_get_RoGetActivationFactory())
+			if (auto const pRoGetActivationFactory = wp_get_RoGetActivationFactory())
 			{
 				return pRoGetActivationFactory(activatableClassId, iid, factory);
 			}
@@ -158,7 +153,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps]
@@ -173,7 +168,7 @@ namespace YY
 			_Out_ APARTMENT_SHUTDOWN_REGISTRATION_COOKIE* regCookie
 			)
 		{
-			if (auto const pRoRegisterForApartmentShutdown = try_get_RoRegisterForApartmentShutdown())
+			if (auto const pRoRegisterForApartmentShutdown = wp_get_RoRegisterForApartmentShutdown())
 			{
 				return pRoRegisterForApartmentShutdown(callbackObject, apartmentIdentifier, regCookie);
 			}
@@ -188,7 +183,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps]
@@ -201,7 +196,7 @@ namespace YY
 			_In_ APARTMENT_SHUTDOWN_REGISTRATION_COOKIE regCookie
 			)
 		{
-			if (auto const pRoUnregisterForApartmentShutdown = try_get_RoUnregisterForApartmentShutdown())
+			if (auto const pRoUnregisterForApartmentShutdown = wp_get_RoUnregisterForApartmentShutdown())
 			{
 				return pRoUnregisterForApartmentShutdown(regCookie);
 			}
@@ -211,7 +206,7 @@ namespace YY
 		}
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps]
@@ -224,7 +219,7 @@ namespace YY
 			_Out_ UINT64* apartmentIdentifier
 			)
 		{
-			if (auto const pRoGetApartmentIdentifier = try_get_RoGetApartmentIdentifier())
+			if (auto const pRoGetApartmentIdentifier = wp_get_RoGetApartmentIdentifier())
 			{
 				return pRoGetApartmentIdentifier(apartmentIdentifier);
 			}
@@ -233,5 +228,4 @@ namespace YY
 
 		}
 #endif
-	} //namespace Thunks
-} //namespace YY
+

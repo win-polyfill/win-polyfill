@@ -1,9 +1,6 @@
 ﻿
-namespace YY
-{
-	namespace Thunks
-	{
-#ifdef YY_Thunks_Implemented
+
+#ifdef WP_Thunks_Implemented
 		namespace Downlevel
 		{
 			//我们Windows 7以后才引入了组的概念，因此我们可以统一的假定 只有一组，并且不支持CPU热插拔。
@@ -28,7 +25,7 @@ namespace YY
 		}
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Minimum supported client	Windows 7 [desktop apps only]
 		//Minimum supported server	Windows Server 2008 R2 [desktop apps only]
@@ -41,7 +38,7 @@ namespace YY
 			_In_ WORD GroupNumber
 			)
 		{
-			if (auto pGetMaximumProcessorCount = try_get_GetMaximumProcessorCount())
+			if (auto pGetMaximumProcessorCount = wp_get_GetMaximumProcessorCount())
 			{
 				return pGetMaximumProcessorCount(GroupNumber);
 			}
@@ -51,7 +48,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Minimum supported client	Windows 7 [desktop apps only]
 		//Minimum supported server	Windows Server 2008 R2 [desktop apps only]
@@ -64,7 +61,7 @@ namespace YY
 			_In_ WORD GroupNumber
 			)
 		{
-			if (auto pGetActiveProcessorCount = try_get_GetActiveProcessorCount())
+			if (auto pGetActiveProcessorCount = wp_get_GetActiveProcessorCount())
 			{
 				return pGetActiveProcessorCount(GroupNumber);
 			}
@@ -74,7 +71,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Minimum supported client	Windows 7 [desktop apps only]
 		//Minimum supported server	Windows Server 2008 R2 [desktop apps only]
@@ -87,7 +84,7 @@ namespace YY
 			VOID
 			)
 		{
-			if (auto pGetActiveProcessorGroupCount = try_get_GetActiveProcessorGroupCount())
+			if (auto pGetActiveProcessorGroupCount = wp_get_GetActiveProcessorGroupCount())
 			{
 				return pGetActiveProcessorGroupCount();
 			}
@@ -98,7 +95,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Minimum supported client	Windows 7 [desktop apps only]
 		//Minimum supported server	Windows Server 2008 R2 [desktop apps only]
@@ -111,7 +108,7 @@ namespace YY
 			VOID
 			)
 		{
-			if (auto pGetMaximumProcessorGroupCount = try_get_GetMaximumProcessorGroupCount())
+			if (auto pGetMaximumProcessorGroupCount = wp_get_GetMaximumProcessorGroupCount())
 			{
 				return pGetMaximumProcessorGroupCount();
 			}
@@ -120,5 +117,4 @@ namespace YY
 			return 1;
 		}
 #endif
-	} //namespace Thunks
-} //namespace YY
+

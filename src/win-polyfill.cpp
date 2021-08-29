@@ -3,7 +3,7 @@
 
 
 
-#define _YY_APPLY_TO_LATE_BOUND_MODULES(_APPLY)                                                                     \
+#define _WP_APPLY_TO_LATE_BOUND_MODULES(_APPLY)                                                                     \
     _APPLY(ntdll,                                        "ntdll"                              , USING_UNSAFE_LOAD ) \
     _APPLY(kernel32,                                     "kernel32"                           , USING_UNSAFE_LOAD ) \
     _APPLY(psapi,                                        "psapi"                              , 0                 ) \
@@ -23,7 +23,7 @@
 
 
 //全局可能使用到的函数
-#define _YY_APPLY_TO_LATE_BOUND_FUNCTIONS(_APPLY)                                                        \
+#define _WP_APPLY_TO_LATE_BOUND_FUNCTIONS(_APPLY)                                                        \
     _APPLY(NtCreateFile,                                 ntdll                                         ) \
     _APPLY(NtClose,                                      ntdll                                         ) \
     _APPLY(NtQueryDirectoryFile,                         ntdll                                         ) \
@@ -52,31 +52,31 @@
 
 #include <sdkddkver.h>
 
-#ifndef YY_Thunks_Support_Version
-#define YY_Thunks_Support_Version WDK_NTDDI_VERSION
+#ifndef WP_SUPPORT_VERSION
+#define WP_SUPPORT_VERSION WDK_NTDDI_VERSION
 #endif
 
 #define _WINSOCKAPI_
 #define PSAPI_VERSION 1
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 #define INITKNOWNFOLDERS
 #endif
 
-#define _Disallow_YY_KM_Namespace
+#define _Disallow_WP_KM_Namespace
 #include "km.h"
 #include <Shlwapi.h>
 #include <WinSock2.h>
 #include <ws2tcpip.h>
 #include <psapi.h>
 #include <winnls.h>
-#include "YY_Thunks.h"
+#include "WP_Thunks.h"
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03SP1)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03SP1)
 #pragma comment(lib, "Advapi32.lib")
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 #pragma comment(lib, "Shlwapi.lib")
 #pragma comment(lib, "Ws2_32.lib")
 #pragma comment(lib, "version.lib")
@@ -84,46 +84,42 @@
 #pragma comment(lib, "shell32.lib")
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 #pragma comment(lib, "psapi.lib")
 #endif
 
-#if (YY_Thunks_Support_Version >= NTDDI_WINBLUE)
+#if (WP_SUPPORT_VERSION >= NTDDI_WINBLUE)
 #pragma comment(lib, "Shcore.lib")
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WINBLUE)
+#if (WP_SUPPORT_VERSION < NTDDI_WINBLUE)
 #pragma comment(lib, "Gdi32.lib")
 #endif
 
-//展开函数的所有的 声明 以及 try_get_ 函数
+//展开函数的所有的 声明 以及 wp_get_ 函数
 #define __DEFINE_THUNK(_MODULE, _SIZE, _RETURN_, _CONVENTION_, _FUNCTION, ...)                 \
     __APPLY_UNIT_TEST_BOOL(_FUNCTION);                                                         \
     EXTERN_C _RETURN_ _CONVENTION_ _FUNCTION(__VA_ARGS__);                                     \
-	static decltype(_FUNCTION)* __cdecl _CRT_CONCATENATE(try_get_, _FUNCTION)() noexcept       \
+	static decltype(_FUNCTION)* __cdecl _CRT_CONCATENATE(wp_get_, _FUNCTION)() noexcept       \
 	{                                                                                          \
         __CHECK_UNIT_TEST_BOOL(_FUNCTION);                                                     \
         __declspec(allocate(".YYThr$AAA")) static void* _CRT_CONCATENATE(pInit_ ,_FUNCTION) =  \
-              reinterpret_cast<void*>(&_CRT_CONCATENATE(try_get_, _FUNCTION));                 \
+              reinterpret_cast<void*>(&_CRT_CONCATENATE(wp_get_, _FUNCTION));                 \
         /* In order to avoid the compiler optimize section YYThr$AAA out */                    \
         __foreinclude(_CRT_CONCATENATE(pInit_ ,_FUNCTION));                                    \
 		__declspec(allocate(".YYThu$AAB")) static void* _CRT_CONCATENATE(pFun_, _FUNCTION);    \
-		return reinterpret_cast<decltype(_FUNCTION)*>(try_get_function(                        \
+		return reinterpret_cast<decltype(_FUNCTION)*>(wp_get_function(                        \
 		&_CRT_CONCATENATE(pFun_ ,_FUNCTION),                                                   \
 		_CRT_STRINGIZE(_FUNCTION),                                                             \
-        &_CRT_CONCATENATE(try_get_module_, _MODULE)));                                         \
+        &_CRT_CONCATENATE(wp_get_module_, _MODULE)));                                         \
 	}                                                                                          \
-	__if_not_exists(_CRT_CONCATENATE(try_get_, _FUNCTION))
+	__if_not_exists(_CRT_CONCATENATE(wp_get_, _FUNCTION))
 
 
-#include "Thunks\YY_Thunks_List.hpp"
+#include "Thunks\WP_Thunks_List.hpp"
 
 #undef __DEFINE_THUNK
 
-namespace YY
-{
-	namespace Thunks
-	{
 		namespace internal
 		{
 			//代码块，分割任务
@@ -140,13 +136,13 @@ namespace YY
 				if (STATUS_TIMEOUT == Status)
 				{
 					/*
-					https://github.com/Chuyu-Team/YY-Thunks/issues/10
+					https://github.com/Chuyu-Team/win-polyfill/issues/10
 
 					用户报告，Windows XP 无法转换 STATUS_TIMEOUT。实际结果也是rubin，因此，特殊处理一下。
 					*/
 					return ERROR_TIMEOUT;
 				}
-				else if (auto pRtlNtStatusToDosError = try_get_RtlNtStatusToDosError())
+				else if (auto pRtlNtStatusToDosError = wp_get_RtlNtStatusToDosError())
 				{
 					return pRtlNtStatusToDosError(Status);
 				}
@@ -249,17 +245,13 @@ namespace YY
 			}
 
 		}
-	}//namespace Thunks
-
-} //namespace YY
-
 //导入实际的实现
-#define YY_Thunks_Implemented
+#define WP_Thunks_Implemented
 #define __DEFINE_THUNK(_MODULE, _SIZE, _RETURN_, _CONVENTION_, _FUNCTION, ...)     \
     _LCRT_DEFINE_IAT_SYMBOL(_FUNCTION, _SIZE);                                     \
     EXTERN_C _RETURN_ _CONVENTION_ _FUNCTION(__VA_ARGS__)
 
-#include "YY_Thunks_List.hpp"
+#include "WP_Thunks_List.hpp"
 
 #undef __DEFINE_THUNK
-#undef YY_Thunks_Implemented
+#undef WP_Thunks_Implemented

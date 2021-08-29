@@ -1,10 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-#if (YY_Thunks_Support_Version < NTDDI_WINXP)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
 
 		//Minimum supported client	Windows Vista
 		//Minimum supported server	Windows Server 2008
@@ -18,7 +14,7 @@ namespace YY
 			VOID
 			)
 		{
-			if (const auto pWTSGetActiveConsoleSessionId = try_get_WTSGetActiveConsoleSessionId())
+			if (const auto pWTSGetActiveConsoleSessionId = wp_get_WTSGetActiveConsoleSessionId())
 			{
 				return pWTSGetActiveConsoleSessionId();
 			}
@@ -29,7 +25,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXPSP2)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXPSP2)
 
 		//Minimum supported client	Windows Vista, Windows XP Professional x64 Edition, Windows XP with SP2[desktop apps only]
 		//Minimum supported server	Windows Server 2003 [desktop apps only]
@@ -43,7 +39,7 @@ namespace YY
 			_Out_ PUCHAR NodeNumber
 			)
 		{
-			if (const auto pGetNumaProcessorNode = try_get_GetNumaProcessorNode())
+			if (const auto pGetNumaProcessorNode = wp_get_GetNumaProcessorNode())
 			{
 				return pGetNumaProcessorNode(Processor, NodeNumber);
 			}
@@ -69,7 +65,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Minimum supported client	Windows 7 [desktop apps only]
 		//Minimum supported server	Windows Server 2008 R2 [desktop apps only]
@@ -83,7 +79,7 @@ namespace YY
 			_Out_ PUSHORT NodeNumber
 			)
 		{
-			if (const auto pGetNumaNodeNumberFromHandle = try_get_GetNumaNodeNumberFromHandle())
+			if (const auto pGetNumaNodeNumberFromHandle = wp_get_GetNumaNodeNumberFromHandle())
 			{
 				return pGetNumaNodeNumberFromHandle(hFile, NodeNumber);
 			}
@@ -96,7 +92,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Minimum supported client	Windows 7 [desktop apps only]
 		//Minimum supported server	Windows Server 2008 R2 [desktop apps only]
@@ -110,7 +106,7 @@ namespace YY
 			_Out_ PUSHORT NodeNumber
 			)
 		{
-			if (const auto pGetNumaProcessorNodeEx = try_get_GetNumaProcessorNodeEx())
+			if (const auto pGetNumaProcessorNodeEx = wp_get_GetNumaProcessorNodeEx())
 			{
 				return pGetNumaProcessorNodeEx(Processor, NodeNumber);
 			}
@@ -141,7 +137,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXPSP2)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXPSP2)
 
 		//Minimum supported client	Windows Vista, Windows XP Professional x64 Edition, Windows XP with SP2 [desktop apps only]
 		//Minimum supported server	Windows Server 2003 [desktop apps only]
@@ -156,7 +152,7 @@ namespace YY
 			_Out_ PULONGLONG AvailableBytes
 			)
 		{
-			if (const auto pGetNumaAvailableMemoryNode = try_get_GetNumaAvailableMemoryNode())
+			if (const auto pGetNumaAvailableMemoryNode = wp_get_GetNumaAvailableMemoryNode())
 			{
 				return pGetNumaAvailableMemoryNode(Node, AvailableBytes);
 			}
@@ -182,7 +178,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Minimum supported client	Windows 7 [desktop apps only]
 		//Minimum supported server	Windows Server 2008 R2 [desktop apps only]
@@ -197,7 +193,7 @@ namespace YY
 			_Out_ PULONGLONG AvailableBytes
 			)
 		{
-			if (const auto pGetNumaAvailableMemoryNodeEx = try_get_GetNumaAvailableMemoryNodeEx())
+			if (const auto pGetNumaAvailableMemoryNodeEx = wp_get_GetNumaAvailableMemoryNodeEx())
 			{
 				return pGetNumaAvailableMemoryNodeEx(Node, AvailableBytes);
 			}
@@ -215,7 +211,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps only]
 		//Minimum supported server	Windows Server 2008 [desktop apps only]
@@ -229,7 +225,7 @@ namespace YY
 			_Out_ PUCHAR NodeNumber
 			)
 		{
-			if (const auto pGetNumaProximityNode = try_get_GetNumaProximityNode())
+			if (const auto pGetNumaProximityNode = wp_get_GetNumaProximityNode())
 			{
 				return pGetNumaProximityNode(ProximityId, NodeNumber);
 			}
@@ -242,7 +238,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps only]
 		//Minimum supported server	Windows Server 2008 [desktop apps only]
@@ -261,7 +257,7 @@ namespace YY
 			_In_     DWORD nndPreferred
 			)
 		{
-			if (const auto pMapViewOfFileExNuma = try_get_MapViewOfFileExNuma())
+			if (const auto pMapViewOfFileExNuma = wp_get_MapViewOfFileExNuma())
 			{
 				return pMapViewOfFileExNuma(hFileMappingObject, dwDesiredAccess, dwFileOffsetHigh, dwFileOffsetLow, dwNumberOfBytesToMap, lpBaseAddress, nndPreferred);
 			}
@@ -269,5 +265,4 @@ namespace YY
 			return MapViewOfFileEx(hFileMappingObject, dwDesiredAccess, dwFileOffsetHigh, dwFileOffsetLow, dwNumberOfBytesToMap, lpBaseAddress);
 		}
 #endif
-	} //namespace Thunks
-} //namespace YY
+

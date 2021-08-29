@@ -10,7 +10,7 @@ namespace api_ms_win_core_localization
 	public:
 		GetThreadPreferredUILanguages()
 		{
-			YY::Thunks::aways_null_try_get_GetThreadPreferredUILanguages = true;
+			YY::Thunks::aways_null_wp_get_GetThreadPreferredUILanguages = true;
 		}
 
 		TEST_METHOD(无效参数验证)
@@ -198,7 +198,7 @@ namespace api_ms_win_core_localization
 	public:
 		ResolveLocaleName()
 		{
-			YY::Thunks::aways_null_try_get_ResolveLocaleName = true;
+			YY::Thunks::aways_null_wp_get_ResolveLocaleName = true;
 		}
 
 		TEST_METHOD(中性语言验证)
