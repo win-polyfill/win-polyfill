@@ -43,12 +43,26 @@ set(win_polyfill_api_public_headers
 list(APPEND win_polyfill_api_public_headers
   SetupAPI.hpp
   WS2_32.hpp
+  advapi32.hpp
+  d3d9.hpp
+  d3d11.hpp
+  dbghelp.hpp
+  dwmapi.hpp
+  dwrite.hpp
+  dxgi.hpp
+  gdi32.hpp
+  iphlpapi.hpp
+  kernel32-polyfill.hpp
   kernel32.hpp
+  ncrypt.hpp
   psapi.hpp
   shcore.hpp
+  shell32-polyfill.hpp
   shell32.hpp
   shlwapi.hpp
   user32.hpp
+  user32-polyfill.hpp
+  uxtheme.hpp
 )
 
 list(TRANSFORM win_polyfill_public_headers PREPEND ${CMAKE_CURRENT_LIST_DIR}/src/)
