@@ -1,14 +1,10 @@
 ﻿
 #include <setupapi.h>
 
-namespace YY
-{
-	namespace Thunks
-	{
-#ifdef YY_Thunks_Implemented
+#ifdef WP_Thunks_Implemented
         namespace internal
         {
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
             #pragma comment(lib, "Setupapi.lib")
 
@@ -110,7 +106,7 @@ namespace YY
         }
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
         //Available in Windows Vista and later versions of Windows.
         __DEFINE_THUNK(
@@ -130,7 +126,7 @@ namespace YY
             _In_         DWORD            Flags
             )
         {
-            if(const auto pSetupDiGetDevicePropertyW = try_get_SetupDiGetDevicePropertyW())
+            if(const auto pSetupDiGetDevicePropertyW = wp_get_SetupDiGetDevicePropertyW())
             {
                 return pSetupDiGetDevicePropertyW(DeviceInfoSet, DeviceInfoData, PropertyKey, PropertyType, PropertyBuffer, PropertyBufferSize, RequiredSize, Flags);
             }
@@ -162,10 +158,10 @@ namespace YY
 
             return TRUE;
         }
-#endif //!YY_Thunks_Support_Version < NTDDI_WIN6
+#endif //!WP_SUPPORT_VERSION < NTDDI_WIN6
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
         //Available in Windows Vista and later versions of Windows.
         __DEFINE_THUNK(
@@ -183,7 +179,7 @@ namespace YY
             _In_         DWORD            Flags
             )
         {
-            if (const auto pSetupDiSetDevicePropertyW = try_get_SetupDiSetDevicePropertyW())
+            if (const auto pSetupDiSetDevicePropertyW = wp_get_SetupDiSetDevicePropertyW())
             {
                 return pSetupDiSetDevicePropertyW(DeviceInfoSet, DeviceInfoData, PropertyKey, PropertyType, PropertyBuffer, PropertyBufferSize, Flags);
             }
@@ -215,7 +211,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
         //Available in Windows Vista and later versions of Windows.
         __DEFINE_THUNK(
@@ -234,7 +230,7 @@ namespace YY
             _In_         DWORD            Flags
             )
         {
-            if(const auto pSetupDiGetClassPropertyW = try_get_SetupDiGetClassPropertyW())
+            if(const auto pSetupDiGetClassPropertyW = wp_get_SetupDiGetClassPropertyW())
             {
                 return pSetupDiGetClassPropertyW(ClassGuid, PropertyKey, PropertyType, PropertyBuffer, PropertyBufferSize, RequiredSize, Flags);
             }
@@ -264,7 +260,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
         //Available in Windows Vista and later versions of Windows.
         __DEFINE_THUNK(
@@ -284,7 +280,7 @@ namespace YY
             _Reserved_   PVOID            Reserved
             )
         {
-            if (const auto pSetupDiGetClassPropertyExW = try_get_SetupDiGetClassPropertyExW())
+            if (const auto pSetupDiGetClassPropertyExW = wp_get_SetupDiGetClassPropertyExW())
             {
                 return pSetupDiGetClassPropertyExW(ClassGuid, PropertyKey, PropertyType, PropertyBuffer, PropertyBufferSize, RequiredSize, Flags, MachineName, Reserved);
             }
@@ -314,7 +310,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
         //Available in Windows Vista and later versions of Windows.
         __DEFINE_THUNK(
@@ -331,7 +327,7 @@ namespace YY
             _In_         DWORD            Flags
             )
         {
-            if (const auto pSetupDiSetClassPropertyW = try_get_SetupDiSetClassPropertyW())
+            if (const auto pSetupDiSetClassPropertyW = wp_get_SetupDiSetClassPropertyW())
             {
                 return pSetupDiSetClassPropertyW(ClassGuid, PropertyKey, PropertyType, PropertyBuffer, PropertyBufferSize, Flags);
             }
@@ -357,7 +353,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
         //Available in Windows Vista and later versions of Windows.
         __DEFINE_THUNK(
@@ -376,7 +372,7 @@ namespace YY
             _Reserved_   PVOID            Reserved
             )
         {
-            if (const auto pSetupDiSetClassPropertyExW = try_get_SetupDiSetClassPropertyExW())
+            if (const auto pSetupDiSetClassPropertyExW = wp_get_SetupDiSetClassPropertyExW())
             {
                 return pSetupDiSetClassPropertyExW(ClassGuid, PropertyKey, PropertyType, PropertyBuffer, PropertyBufferSize, Flags, MachineName, Reserved);
             }
@@ -400,7 +396,3 @@ namespace YY
             return SetupDiSetClassRegistryPropertyW(ClassGuid, Property, PropertyBuffer, PropertyBufferSize, MachineName, Reserved);
         }
 #endif
-
-
-	} //namespace Thunks
-} //namespace YY

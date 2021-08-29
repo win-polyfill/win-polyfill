@@ -2,7 +2,7 @@
 
 
 
-#ifdef YY_Thunks_Implemented
+#ifdef WP_Thunks_Implemented
 
 //结构体来源：http://www.rohitab.com/discuss/topic/38601-proc-thread-attribute-list-structure-documentation/
 
@@ -28,11 +28,7 @@ typedef struct _PROC_THREAD_ATTRIBUTE_LIST
 
 #endif
 
-namespace YY
-{
-	namespace Thunks
-	{
-#if defined(YY_Thunks_Implemented) && (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if defined(WP_Thunks_Implemented) && (WP_SUPPORT_VERSION < NTDDI_WIN6)
 		namespace Fallback
 		{
 			static void __cdecl UninitPageVirtualProtect();
@@ -63,7 +59,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03)
 
 		//Windows Vista, Windows Server 2003
 		__DEFINE_THUNK(
@@ -75,7 +71,7 @@ namespace YY
 			VOID
 			)
 		{
-			if (auto pGetCurrentProcessorNumber = try_get_GetCurrentProcessorNumber())
+			if (auto pGetCurrentProcessorNumber = wp_get_GetCurrentProcessorNumber())
 			{
 				return pGetCurrentProcessorNumber();
 			}
@@ -88,7 +84,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Windows 7, Windows Server 2008 R2
 		__DEFINE_THUNK(
@@ -100,7 +96,7 @@ namespace YY
 			_Out_ PPROCESSOR_NUMBER ProcNumber
 			)
 		{
-			if (auto pGetCurrentProcessorNumberEx = try_get_GetCurrentProcessorNumberEx())
+			if (auto pGetCurrentProcessorNumberEx = wp_get_GetCurrentProcessorNumberEx())
 			{
 				pGetCurrentProcessorNumberEx(ProcNumber);
 			}
@@ -115,7 +111,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2003 [desktop apps | UWP apps]
@@ -129,11 +125,11 @@ namespace YY
 			_In_ HANDLE Thread
 			)
 		{
-			if (auto pGetThreadId = try_get_GetThreadId())
+			if (auto pGetThreadId = wp_get_GetThreadId())
 			{
 				return pGetThreadId(Thread);
 			}
-			else if (auto pNtQueryInformationThread = try_get_NtQueryInformationThread())
+			else if (auto pNtQueryInformationThread = wp_get_NtQueryInformationThread())
 			{
 				THREAD_BASIC_INFORMATION ThreadBasicInfo;
 
@@ -158,7 +154,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2003 [desktop apps | UWP apps]
@@ -171,11 +167,11 @@ namespace YY
 			_In_ HANDLE Thread
 			)
 		{
-			if (auto pGetProcessIdOfThread = try_get_GetProcessIdOfThread())
+			if (auto pGetProcessIdOfThread = wp_get_GetProcessIdOfThread())
 			{
 				return pGetProcessIdOfThread(Thread);
 			}
-			else if (auto pNtQueryInformationThread = try_get_NtQueryInformationThread())
+			else if (auto pNtQueryInformationThread = wp_get_NtQueryInformationThread())
 			{
 				THREAD_BASIC_INFORMATION ThreadBasicInfo;
 
@@ -200,7 +196,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXPSP1)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXPSP1)
 
 		//Windows Vista, Windows XP with SP1 [desktop apps | UWP apps]
 		//Windows Server 2003 [desktop apps | UWP apps]
@@ -213,11 +209,11 @@ namespace YY
 			_In_ HANDLE Process
 			)
 		{
-			if (auto pGetProcessId = try_get_GetProcessId())
+			if (auto pGetProcessId = wp_get_GetProcessId())
 			{
 				return pGetProcessId(Process);
 			}
-			else if (auto pNtQueryInformationProcess = try_get_NtQueryInformationProcess())
+			else if (auto pNtQueryInformationProcess = wp_get_NtQueryInformationProcess())
 			{
 				PROCESS_BASIC_INFORMATION ProcessBasicInfo;
 
@@ -242,7 +238,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -255,7 +251,7 @@ namespace YY
 			VOID
 			)
 		{
-			if (auto pFlushProcessWriteBuffers = try_get_FlushProcessWriteBuffers())
+			if (auto pFlushProcessWriteBuffers = wp_get_FlushProcessWriteBuffers())
 			{
 				return pFlushProcessWriteBuffers();
 			}
@@ -345,7 +341,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps only]
 		//Minimum supported server	Windows Server 2008 [desktop apps only]
@@ -362,7 +358,7 @@ namespace YY
 			_When_(lpAttributeList == nullptr,_Out_) _When_(lpAttributeList != nullptr,_Inout_) PSIZE_T lpSize
 			)
 		{
-			if (const auto pInitializeProcThreadAttributeList = try_get_InitializeProcThreadAttributeList())
+			if (const auto pInitializeProcThreadAttributeList = wp_get_InitializeProcThreadAttributeList())
 			{
 				return pInitializeProcThreadAttributeList(lpAttributeList, dwAttributeCount, dwFlags, lpSize);
 			}
@@ -413,7 +409,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps only]
 		//Minimum supported server	Windows Server 2008 [desktop apps only]
@@ -426,7 +422,7 @@ namespace YY
 			_Inout_ LPPROC_THREAD_ATTRIBUTE_LIST lpAttributeList
 			)
 		{
-			if (const auto pDeleteProcThreadAttributeList = try_get_DeleteProcThreadAttributeList())
+			if (const auto pDeleteProcThreadAttributeList = wp_get_DeleteProcThreadAttributeList())
 			{
 				return pDeleteProcThreadAttributeList(lpAttributeList);
 			}
@@ -437,7 +433,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps only]
 		//Minimum supported server	Windows Server 2008 [desktop apps only]
@@ -456,7 +452,7 @@ namespace YY
 			_In_opt_ PSIZE_T lpReturnSize
 			)
 		{
-			if (const auto pUpdateProcThreadAttribute = try_get_UpdateProcThreadAttribute())
+			if (const auto pUpdateProcThreadAttribute = wp_get_UpdateProcThreadAttribute())
 			{
 				return pUpdateProcThreadAttribute(lpAttributeList, dwFlags, Attribute, lpValue, cbSize, lpPreviousValue, lpReturnSize);
 			}
@@ -622,6 +618,3 @@ namespace YY
 			return FALSE;
 		}
 #endif
-	}//namespace Thunks
-
-} //namespace YY

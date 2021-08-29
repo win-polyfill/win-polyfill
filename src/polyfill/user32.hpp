@@ -1,11 +1,6 @@
 ﻿
 
-
-namespace YY
-{
-	namespace Thunks
-	{
-#ifdef YY_Thunks_Implemented
+#ifdef WP_Thunks_Implemented
 		namespace internal
 		{
 			static
@@ -34,7 +29,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03SP1)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03SP1)
 
 		//Windows XP with SP2, Windows Server 2003 with SP1
 		__DEFINE_THUNK(
@@ -46,7 +41,7 @@ namespace YY
 			VOID
 			)
 		{
-			if (auto const pIsWow64Message = try_get_IsWow64Message())
+			if (auto const pIsWow64Message = wp_get_IsWow64Message())
 			{
 				return pIsWow64Message();
 			}
@@ -56,7 +51,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -69,7 +64,7 @@ namespace YY
 			VOID
 			)
 		{
-			if (auto const pSetProcessDPIAware = try_get_SetProcessDPIAware())
+			if (auto const pSetProcessDPIAware = wp_get_SetProcessDPIAware())
 			{
 				return pSetProcessDPIAware();
 			}
@@ -83,7 +78,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN10_RS2)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10_RS2)
 
 		//Windows 10, version 1703 [desktop apps only]
 		//Windows Server 2016 [desktop apps only]
@@ -96,7 +91,7 @@ namespace YY
 			_In_ DPI_AWARENESS_CONTEXT value
 			)
 		{
-			if (auto const pSetProcessDpiAwarenessContext = try_get_SetProcessDpiAwarenessContext())
+			if (auto const pSetProcessDpiAwarenessContext = wp_get_SetProcessDpiAwarenessContext())
 			{
 				return pSetProcessDpiAwarenessContext(value);
 			}
@@ -160,7 +155,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN10_RS1)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10_RS1)
 
 		//Windows 10, version 1607 [desktop apps only]
 		__DEFINE_THUNK(
@@ -172,7 +167,7 @@ namespace YY
 			VOID
 			)
 		{
-			if (auto const pGetDpiForSystem = try_get_GetDpiForSystem())
+			if (auto const pGetDpiForSystem = wp_get_GetDpiForSystem())
 			{
 				return pGetDpiForSystem();
 			}
@@ -182,7 +177,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN10_RS1)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10_RS1)
 
 		//Windows 10, version 1607 [desktop apps only]
 		__DEFINE_THUNK(
@@ -194,7 +189,7 @@ namespace YY
 			_In_ HWND hwnd
 			)
 		{
-			if (auto const pGetDpiForWindow = try_get_GetDpiForWindow())
+			if (auto const pGetDpiForWindow = wp_get_GetDpiForWindow())
 			{
 				return pGetDpiForWindow(hwnd);
 			}
@@ -213,7 +208,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN10_RS1)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10_RS1)
 
 		//Windows 10, version 1607 [desktop apps only]
 		__DEFINE_THUNK(
@@ -226,7 +221,7 @@ namespace YY
 			_In_ UINT dpi
 			)
 		{
-			if (auto const pGetSystemMetricsForDpi = try_get_GetSystemMetricsForDpi())
+			if (auto const pGetSystemMetricsForDpi = wp_get_GetSystemMetricsForDpi())
 			{
 				return pGetSystemMetricsForDpi(nIndex, dpi);
 			}
@@ -290,7 +285,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN10_RS1)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10_RS1)
 
 		//Windows 10, version 1607 [desktop apps only]
 		__DEFINE_THUNK(
@@ -306,7 +301,7 @@ namespace YY
 			_In_ UINT dpi
 			)
 		{
-			if (auto const pAdjustWindowRectExForDpi = try_get_AdjustWindowRectExForDpi())
+			if (auto const pAdjustWindowRectExForDpi = wp_get_AdjustWindowRectExForDpi())
 			{
 				return pAdjustWindowRectExForDpi(lpRect, dwStyle, bMenu, dwExStyle, dpi);
 			}
@@ -338,7 +333,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN10_RS1)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10_RS1)
 
 		//Windows 10, version 1607 [desktop apps only]
 		__DEFINE_THUNK(
@@ -354,7 +349,7 @@ namespace YY
 			_In_ UINT dpi
 			)
 		{
-			if (auto const pSystemParametersInfoForDpi = try_get_SystemParametersInfoForDpi())
+			if (auto const pSystemParametersInfoForDpi = wp_get_SystemParametersInfoForDpi())
 			{
 				return pSystemParametersInfoForDpi(uiAction, uiParam, pvParam, fWinIni, dpi);
 			}
@@ -447,7 +442,3 @@ namespace YY
 			return TRUE;
 		}
 #endif
-
-	}//namespace Thunks
-
-} //namespace YY

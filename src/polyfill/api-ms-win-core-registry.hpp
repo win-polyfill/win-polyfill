@@ -1,10 +1,6 @@
 ﻿
-namespace YY
-{
-	namespace Thunks
-	{
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03SP1)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03SP1)
 
 		//Windows XP Professional x64 Edition, Windows Server 2003 with SP1
 		__DEFINE_THUNK(
@@ -19,7 +15,7 @@ namespace YY
 			_Reserved_ DWORD Reserved
 			)
 		{
-			if(auto const pRegDeleteKeyExW = try_get_RegDeleteKeyExW())
+			if(auto const pRegDeleteKeyExW = wp_get_RegDeleteKeyExW())
 			{
 				return pRegDeleteKeyExW(hKey, lpSubKey, samDesired, Reserved);
 			}
@@ -30,7 +26,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03SP1)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03SP1)
 
 		//Windows XP Professional x64 Edition, Windows Server 2003 with SP1
 		__DEFINE_THUNK(
@@ -45,7 +41,7 @@ namespace YY
 			_Reserved_ DWORD Reserved
 			)
 		{
-			if (auto const pRegDeleteKeyExA = try_get_RegDeleteKeyExA())
+			if (auto const pRegDeleteKeyExA = wp_get_RegDeleteKeyExA())
 			{
 				return pRegDeleteKeyExA(hKey, lpSubKey, samDesired, Reserved);
 			}
@@ -55,7 +51,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista, Windows Server 2008
 		__DEFINE_THUNK(
@@ -95,7 +91,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista, Windows Server 2008
 		__DEFINE_THUNK(
@@ -135,7 +131,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista, Windows Server 2008
 		__DEFINE_THUNK(
@@ -163,7 +159,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista, Windows Server 2008
 		__DEFINE_THUNK(
@@ -191,7 +187,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista, Windows Server 2008
 		__DEFINE_THUNK(
@@ -209,7 +205,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista, Windows Server 2008
 		__DEFINE_THUNK(
@@ -227,7 +223,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03SP1)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03SP1)
 
 		//Windows Vista, Windows XP Professional x64 Edition, Windows Server 2008, Windows Server 2003 with SP1
 		__DEFINE_THUNK(
@@ -245,10 +241,10 @@ namespace YY
 			LPDWORD pcbData
 			)
 		{
-#if (YY_Thunks_Support_Version >= NTDDI_WINXPSP2)
+#if (WP_SUPPORT_VERSION >= NTDDI_WINXPSP2)
 			return SHRegGetValueW(hkey, lpSubKey, lpValue, dwFlags, pdwType, pvData, pcbData);
 #else
-			if (auto const pRegGetValueW = try_get_RegGetValueW())
+			if (auto const pRegGetValueW = wp_get_RegGetValueW())
 			{
 				return pRegGetValueW(hkey, lpSubKey, lpValue, dwFlags, pdwType, pvData, pcbData);
 			}
@@ -479,7 +475,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03SP1)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03SP1)
 
 		//Windows Vista, Windows XP Professional x64 Edition, Windows Server 2008, Windows Server 2003 with SP1
 		__DEFINE_THUNK(
@@ -497,10 +493,10 @@ namespace YY
 			LPDWORD pcbData
 			)
 		{
-#if (YY_Thunks_Support_Version >= NTDDI_WINXPSP2)
+#if (WP_SUPPORT_VERSION >= NTDDI_WINXPSP2)
 			return SHRegGetValueA(hkey, lpSubKey, lpValue, dwFlags, pdwType, pvData, pcbData);
 #else
-			if (auto const pRegGetValueA = try_get_RegGetValueA())
+			if (auto const pRegGetValueA = wp_get_RegGetValueA())
 			{
 				return pRegGetValueA(hkey, lpSubKey, lpValue, dwFlags, pdwType, pvData, pcbData);
 			}
@@ -699,7 +695,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -714,7 +710,7 @@ namespace YY
 			_In_ HKEY hKeyDest
 			)
 		{
-			if (auto const pRegCopyTreeW = try_get_RegCopyTreeW())
+			if (auto const pRegCopyTreeW = wp_get_RegCopyTreeW())
 			{
 				return pRegCopyTreeW(hKeySrc, lpSubKey, hKeyDest);
 			}
@@ -724,7 +720,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -739,7 +735,7 @@ namespace YY
 			_In_        HKEY     hKeyDest
 			)
 		{
-			if (auto const pRegCopyTreeA = try_get_RegCopyTreeA())
+			if (auto const pRegCopyTreeA = wp_get_RegCopyTreeA())
 			{
 				return pRegCopyTreeA(hKeySrc, lpSubKey, hKeyDest);
 			}
@@ -747,7 +743,3 @@ namespace YY
 			return SHCopyKeyA(hKeySrc, lpSubKey, hKeyDest, 0);
 		}
 #endif
-
-	}//namespace Thunks
-
-} //namespace YY

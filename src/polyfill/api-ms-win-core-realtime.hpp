@@ -1,12 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -21,7 +15,7 @@ namespace YY
 			_Out_ PULONG64 CycleTime
 			)
 		{
-			if (auto pQueryThreadCycleTime = try_get_QueryThreadCycleTime())
+			if (auto pQueryThreadCycleTime = wp_get_QueryThreadCycleTime())
 			{
 				return pQueryThreadCycleTime(ThreadHandle, CycleTime);
 			}
@@ -46,7 +40,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -61,7 +55,7 @@ namespace YY
 			_Out_ PULONG64 CycleTime
 			)
 		{
-			if (auto pQueryProcessCycleTime = try_get_QueryProcessCycleTime())
+			if (auto pQueryProcessCycleTime = wp_get_QueryProcessCycleTime())
 			{
 				return pQueryProcessCycleTime(ProcessHandle, CycleTime);
 			}
@@ -83,7 +77,3 @@ namespace YY
 			return TRUE;
 		}
 #endif
-
-	}//namespace Thunks
-
-} //namespace YY

@@ -1,12 +1,7 @@
 ﻿
 #include <ShellScalingAPI.h>
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WINBLUE)
+#if (WP_SUPPORT_VERSION < NTDDI_WINBLUE)
 
 		//Windows 8.1 [desktop apps only]
 		//Windows Server 2012 R2 [desktop apps only]
@@ -22,7 +17,7 @@ namespace YY
 			_Out_ UINT* dpiY
 			)
 		{
-			if (auto const pGetDpiForMonitor = try_get_GetDpiForMonitor())
+			if (auto const pGetDpiForMonitor = wp_get_GetDpiForMonitor())
 			{
 				return pGetDpiForMonitor(hmonitor, dpiType, dpiX, dpiY);
 			}
@@ -42,7 +37,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINBLUE)
+#if (WP_SUPPORT_VERSION < NTDDI_WINBLUE)
 
 		//Windows 8.1 [desktop apps only]
 		//Windows Server 2012 R2 [desktop apps only]
@@ -55,7 +50,7 @@ namespace YY
 			_In_ PROCESS_DPI_AWARENESS value
 			)
 		{
-			if (auto const pSetProcessDpiAwareness = try_get_SetProcessDpiAwareness())
+			if (auto const pSetProcessDpiAwareness = wp_get_SetProcessDpiAwareness())
 			{
 				return pSetProcessDpiAwareness(value);
 			}
@@ -68,7 +63,3 @@ namespace YY
 			return S_OK;
 		}
 #endif
-
-	}//namespace Thunks
-
-} //namespace YY

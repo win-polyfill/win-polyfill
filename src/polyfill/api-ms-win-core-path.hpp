@@ -2,11 +2,7 @@
 #define PATHCCH_NO_DEPRECATE
 #include <pathcch.h>
 
-namespace YY
-{
-	namespace Thunks
-	{
-#ifdef YY_Thunks_Implemented
+#ifdef WP_Thunks_Implemented
 		namespace internal
 		{
 			static bool __fastcall IsHexDigitWorker(wchar_t ch)
@@ -143,7 +139,7 @@ namespace YY
 		}
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -197,7 +193,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -291,7 +287,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -358,7 +354,7 @@ namespace YY
 		}
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -377,7 +373,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -437,7 +433,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -456,7 +452,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -532,7 +528,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -589,7 +585,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -646,7 +642,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -700,7 +696,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -799,7 +795,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -881,7 +877,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -927,7 +923,7 @@ namespace YY
 #endif
 		
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -943,7 +939,7 @@ namespace YY
 			_In_ ULONG dwFlags
 			)
 		{
-			if (const auto pPathCchCanonicalizeEx = try_get_PathCchCanonicalizeEx())
+			if (const auto pPathCchCanonicalizeEx = wp_get_PathCchCanonicalizeEx())
 			{
 				return pPathCchCanonicalizeEx(pszPathOut, cchPathOut, pszPathIn, dwFlags);
 			}
@@ -1305,7 +1301,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -1325,7 +1321,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -1484,7 +1480,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -1505,7 +1501,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -1532,7 +1528,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -1552,7 +1548,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -1598,7 +1594,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -1614,7 +1610,7 @@ namespace YY
 			_Outptr_ PWSTR* ppszPathOut
 			)
 		{
-			if (const auto pPathAllocCombine = try_get_PathAllocCombine())
+			if (const auto pPathAllocCombine = wp_get_PathAllocCombine())
 			{
 				return pPathAllocCombine(pszPathIn, pszMore, dwFlags, ppszPathOut);
 			}
@@ -1684,7 +1680,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -1699,7 +1695,7 @@ namespace YY
 			_Outptr_ PWSTR* ppszPathOut
 			)
 		{
-			if (const auto pPathAllocCanonicalize = try_get_PathAllocCanonicalize())
+			if (const auto pPathAllocCanonicalize = wp_get_PathAllocCanonicalize())
 			{
 				return pPathAllocCanonicalize(pszPathIn, dwFlags, ppszPathOut);
 			}
@@ -1758,5 +1754,3 @@ namespace YY
 		}
 #endif
 
-	} //namespace Thunks
-} //namespace YY

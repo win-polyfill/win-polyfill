@@ -1,9 +1,6 @@
 ﻿
-namespace YY
-{
-	namespace Thunks
-	{
-#ifdef YY_Thunks_Implemented
+
+#ifdef WP_Thunks_Implemented
 		namespace internal
 		{
 			/*LSTATUS __fastcall BasepGetModuleHandleExParameterValidation(
@@ -36,7 +33,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXP)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
 
 		//Windows XP [desktop apps only]
 		//Windows Server 2003 [desktop apps only]
@@ -51,7 +48,7 @@ namespace YY
 			_Out_ HMODULE* phModule
 			)
 		{
-			if (const auto pGetModuleHandleExA = try_get_GetModuleHandleExA())
+			if (const auto pGetModuleHandleExA = wp_get_GetModuleHandleExA())
 			{
 				return pGetModuleHandleExA(dwFlags, lpModuleName, phModule);
 			}
@@ -71,7 +68,7 @@ namespace YY
 
 				if (dwFlags & GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS)
 				{
-					auto pRtlPcToFileHeader = try_get_RtlPcToFileHeader();
+					auto pRtlPcToFileHeader = wp_get_RtlPcToFileHeader();
 					if (!pRtlPcToFileHeader)
 					{
 						lStatus = ERROR_NOT_SUPPORTED;
@@ -97,7 +94,7 @@ namespace YY
 				}
 				else
 				{
-					const auto pLdrAddRefDll = try_get_LdrAddRefDll();
+					const auto pLdrAddRefDll = wp_get_LdrAddRefDll();
 					if (!pLdrAddRefDll)
 					{
 						lStatus = ERROR_NOT_SUPPORTED;
@@ -135,7 +132,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXP)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
 
 		//Windows XP [desktop apps only]
 		//Windows Server 2003 [desktop apps only]
@@ -150,7 +147,7 @@ namespace YY
 			_Out_ HMODULE* phModule
 			)
 		{
-			if (const auto pGetModuleHandleExW = try_get_GetModuleHandleExW())
+			if (const auto pGetModuleHandleExW = wp_get_GetModuleHandleExW())
 			{
 				return pGetModuleHandleExW(dwFlags, lpModuleName, phModule);
 			}
@@ -170,7 +167,7 @@ namespace YY
 
 				if (dwFlags & GET_MODULE_HANDLE_EX_FLAG_FROM_ADDRESS)
 				{
-					const auto pRtlPcToFileHeader = try_get_RtlPcToFileHeader();
+					const auto pRtlPcToFileHeader = wp_get_RtlPcToFileHeader();
 					if (!pRtlPcToFileHeader)
 					{
 						lStatus = ERROR_NOT_SUPPORTED;
@@ -196,7 +193,7 @@ namespace YY
 				}
 				else
 				{
-					const auto pLdrAddRefDll = try_get_LdrAddRefDll();
+					const auto pLdrAddRefDll = wp_get_LdrAddRefDll();
 					if (!pLdrAddRefDll)
 					{
 						lStatus = ERROR_NOT_SUPPORTED;
@@ -234,7 +231,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//虽然这个早就有了，但是只有Windows 8以及打了KB2533623补丁的系统才支持 LOAD_LIBRARY_SEARCH_SYSTEM32 等特性
 		__DEFINE_THUNK(
@@ -249,7 +246,7 @@ namespace YY
 			_In_ DWORD dwFlags
 			)
 		{
-			const auto pLoadLibraryExW = try_get_LoadLibraryExW();
+			const auto pLoadLibraryExW = wp_get_LoadLibraryExW();
 
 			if (!pLoadLibraryExW)
 			{
@@ -258,14 +255,14 @@ namespace YY
 			}
 
 
-			if (try_get_AddDllDirectory() != nullptr)
+			if (wp_get_AddDllDirectory() != nullptr)
 			{
 				//存在AddDllDirectory说明支持 LOAD_LIBRARY_SEARCH_SYSTEM32 等功能，直接调用pLoadLibraryExW即可。
 
 				return pLoadLibraryExW(lpLibFileName, hFile, dwFlags);
 			}
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 			//Windows Vista开始才支持 LOAD_LIBRARY_AS_DATAFILE_EXCLUSIVE | LOAD_LIBRARY_AS_IMAGE_RESOURCE，对于不支持的系统我们只能Fallblack到 LOAD_LIBRARY_AS_DATAFILE
 			if (dwFlags & (LOAD_LIBRARY_AS_DATAFILE_EXCLUSIVE | LOAD_LIBRARY_AS_IMAGE_RESOURCE))
 			{
@@ -315,7 +312,7 @@ namespace YY
 					break;
 				}
 
-				const auto pRtlDetermineDosPathNameType_U = try_get_RtlDetermineDosPathNameType_U();
+				const auto pRtlDetermineDosPathNameType_U = wp_get_RtlDetermineDosPathNameType_U();
 
 				const auto PathType = pRtlDetermineDosPathNameType_U ? pRtlDetermineDosPathNameType_U(lpLibFileName) : RtlPathTypeUnknown;
 
@@ -456,7 +453,7 @@ namespace YY
 
 				//以模块方式加载
 
-				const auto pLdrLoadDll = try_get_LdrLoadDll();
+				const auto pLdrLoadDll = wp_get_LdrLoadDll();
 				if (!pLdrLoadDll)
 				{
 					SetLastError(ERROR_FUNCTION_FAILED);
@@ -590,7 +587,7 @@ namespace YY
 				//我们先关闭重定向，再加载DLL，Windows 7 SP1以前的系统不会关闭重定向，而导致某些线程关闭重定向后DLL加载问题。
 				PVOID OldFsRedirectionLevel;
 
-				auto pRtlWow64EnableFsRedirectionEx = try_get_RtlWow64EnableFsRedirectionEx();
+				auto pRtlWow64EnableFsRedirectionEx = wp_get_RtlWow64EnableFsRedirectionEx();
 				auto StatusFsRedir = pRtlWow64EnableFsRedirectionEx ? pRtlWow64EnableFsRedirectionEx(nullptr, &OldFsRedirectionLevel) : 0;
 #endif
 
@@ -612,7 +609,7 @@ namespace YY
 			//我们先关闭重定向，再加载DLL，Windows 7 SP1以前的系统不会关闭重定向，而导致某些线程关闭重定向后DLL加载问题。
 			PVOID OldFsRedirectionLevel;
 
-			auto pRtlWow64EnableFsRedirectionEx = try_get_RtlWow64EnableFsRedirectionEx();
+			auto pRtlWow64EnableFsRedirectionEx = wp_get_RtlWow64EnableFsRedirectionEx();
 			auto StatusFsRedir = pRtlWow64EnableFsRedirectionEx ? pRtlWow64EnableFsRedirectionEx(nullptr, &OldFsRedirectionLevel) : 0;
 #endif
 
@@ -631,7 +628,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//虽然这个早就有了，但是只有Windows 8以及打了KB2533623补丁的系统才支持 LOAD_LIBRARY_SEARCH_SYSTEM32 等特性
 		__DEFINE_THUNK(
@@ -646,7 +643,7 @@ namespace YY
 			_In_ DWORD dwFlags
 			)
 		{
-			const auto pLoadLibraryExA = try_get_LoadLibraryExA();
+			const auto pLoadLibraryExA = wp_get_LoadLibraryExA();
 
 			if (!pLoadLibraryExA)
 			{
@@ -655,7 +652,7 @@ namespace YY
 			}
 
 
-			if (try_get_AddDllDirectory() != nullptr)
+			if (wp_get_AddDllDirectory() != nullptr)
 			{
 				//存在AddDllDirectory说明支持 LOAD_LIBRARY_SEARCH_SYSTEM32 等功能，直接调用pLoadLibraryExW即可。
 
@@ -677,5 +674,3 @@ namespace YY
 		}
 #endif
 
-	} //namespace Thunks
-} //namespace YY

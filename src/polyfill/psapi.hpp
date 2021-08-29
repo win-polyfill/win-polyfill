@@ -5,12 +5,7 @@
 
 #include <psapi.h>
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -27,7 +22,7 @@ namespace YY
 			_In_ DWORD dwFilterFlag
 			)
 		{
-			if (auto pEnumProcessModulesEx = try_get_EnumProcessModulesEx())
+			if (auto pEnumProcessModulesEx = wp_get_EnumProcessModulesEx())
 			{
 				return pEnumProcessModulesEx(hProcess, lphModule, cb, lpcbNeeded, dwFilterFlag);
 			}
@@ -37,7 +32,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -52,7 +47,7 @@ namespace YY
 			_Inout_ PDWORD cb
 			)
 		{
-			if (auto pGetWsChangesEx = try_get_GetWsChangesEx())
+			if (auto pGetWsChangesEx = wp_get_GetWsChangesEx())
 			{
 				return pGetWsChangesEx(hProcess, lpWatchInfoEx, cb);
 			}
@@ -155,7 +150,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03SP1)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03SP1)
 
 		//Windows Vista, Windows XP Professional x64 Edition [desktop apps only]
 		//Windows Server 2008, Windows Server 2003 with SP1 [desktop apps only]
@@ -170,7 +165,7 @@ namespace YY
 			_In_ DWORD cb
 			)
 		{
-			if (const auto pQueryWorkingSetEx = try_get_QueryWorkingSetEx())
+			if (const auto pQueryWorkingSetEx = wp_get_QueryWorkingSetEx())
 			{
 				return pQueryWorkingSetEx(hProcess, pv, cb);
 			}
@@ -181,6 +176,3 @@ namespace YY
 			}
 		}
 #endif
-	}//namespace Thunks
-
-} //namespace YY

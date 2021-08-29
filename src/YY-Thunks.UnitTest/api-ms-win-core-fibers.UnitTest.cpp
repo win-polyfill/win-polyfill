@@ -4,17 +4,17 @@
 
 namespace api_ms_win_core_fibers
 {
-	__if_exists(YY::Thunks::aways_null_try_get_FlsAlloc)
+	__if_exists(YY::Thunks::aways_null_wp_get_FlsAlloc)
 	{
 		TEST_CLASS(FlsGet_SetValue)
 		{
 		public:
 			FlsGet_SetValue()
 			{
-				YY::Thunks::aways_null_try_get_FlsAlloc = true;
-				YY::Thunks::aways_null_try_get_FlsFree = true;
-				YY::Thunks::aways_null_try_get_FlsGetValue = true;
-				YY::Thunks::aways_null_try_get_FlsSetValue = true;
+				YY::Thunks::aways_null_wp_get_FlsAlloc = true;
+				YY::Thunks::aways_null_wp_get_FlsFree = true;
+				YY::Thunks::aways_null_wp_get_FlsGetValue = true;
+				YY::Thunks::aways_null_wp_get_FlsSetValue = true;
 			}
 
 			TEST_METHOD(单线程验证)

@@ -1,10 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-#ifdef YY_Thunks_Implemented
+#ifdef WP_Thunks_Implemented
 
 		enum _FILE_ID_TYPE_win7
 		{
@@ -25,7 +21,7 @@ namespace YY
 
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -41,7 +37,7 @@ namespace YY
 			_In_  DWORD dwBufferSize
 			)
 		{
-			if (auto const pGetFileInformationByHandleEx = try_get_GetFileInformationByHandleEx())
+			if (auto const pGetFileInformationByHandleEx = wp_get_GetFileInformationByHandleEx())
 			{
 				return pGetFileInformationByHandleEx(hFile, FileInformationClass, lpFileInformation, dwBufferSize);
 			}
@@ -107,7 +103,7 @@ namespace YY
 
 			if (bNtQueryDirectoryFile)
 			{
-				auto pNtQueryDirectoryFile = try_get_NtQueryDirectoryFile();
+				auto pNtQueryDirectoryFile = wp_get_NtQueryDirectoryFile();
 				if (!pNtQueryDirectoryFile)
 				{
 					SetLastError(ERROR_INVALID_FUNCTION);
@@ -141,7 +137,7 @@ namespace YY
 			}
 			else
 			{
-				auto pNtQueryInformationFile = try_get_NtQueryInformationFile();
+				auto pNtQueryInformationFile = wp_get_NtQueryInformationFile();
 
 				if (!pNtQueryInformationFile)
 				{
@@ -174,7 +170,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -189,13 +185,13 @@ namespace YY
 			_In_ DWORD dwBufferSize
 			)
 		{
-			if (auto pSetFileInformationByHandle = try_get_SetFileInformationByHandle())
+			if (auto pSetFileInformationByHandle = wp_get_SetFileInformationByHandle())
 			{
 				return pSetFileInformationByHandle(hFile, FileInformationClass, lpFileInformation, dwBufferSize);
 			}
 
 
-			auto pNtSetInformationFile = try_get_NtSetInformationFile();
+			auto pNtSetInformationFile = wp_get_NtSetInformationFile();
 			if (!pNtSetInformationFile)
 			{
 				SetLastError(ERROR_INVALID_FUNCTION);
@@ -234,8 +230,8 @@ namespace YY
 
 					if (pRenameInfo->FileNameLength < sizeof(wchar_t) || pRenameInfo->FileName[0] != L':')
 					{
-						auto pRtlDosPathNameToNtPathName_U = try_get_RtlDosPathNameToNtPathName_U();
-						auto pRtlFreeUnicodeString = try_get_RtlFreeUnicodeString();
+						auto pRtlDosPathNameToNtPathName_U = wp_get_RtlDosPathNameToNtPathName_U();
+						auto pRtlFreeUnicodeString = wp_get_RtlFreeUnicodeString();
 
 						if (pRtlDosPathNameToNtPathName_U == nullptr || pRtlFreeUnicodeString ==nullptr)
 						{
@@ -352,7 +348,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -367,7 +363,7 @@ namespace YY
 			_In_ DWORD dwFlags
 			)
 		{
-			if (auto pGetFinalPathNameByHandleW = try_get_GetFinalPathNameByHandleW())
+			if (auto pGetFinalPathNameByHandleW = wp_get_GetFinalPathNameByHandleW())
 			{
 				return pGetFinalPathNameByHandleW(hFile, lpszFilePath, cchFilePath, dwFlags);
 			}
@@ -397,8 +393,8 @@ namespace YY
 			}
 
 
-			auto pNtQueryObject = try_get_NtQueryObject();
-			auto pNtQueryInformationFile = try_get_NtQueryInformationFile();
+			auto pNtQueryObject = wp_get_NtQueryObject();
+			auto pNtQueryInformationFile = wp_get_NtQueryInformationFile();
 
 			if (nullptr == pNtQueryObject
 				|| nullptr == pNtQueryInformationFile)
@@ -698,7 +694,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -713,7 +709,7 @@ namespace YY
 			_In_ DWORD dwFlags
 			)
 		{
-			if (auto pGetFinalPathNameByHandleA = try_get_GetFinalPathNameByHandleA())
+			if (auto pGetFinalPathNameByHandleA = wp_get_GetFinalPathNameByHandleA())
 			{
 				return pGetFinalPathNameByHandleA(hFile, lpszFilePath, cchFilePath, dwFlags);
 			}
@@ -792,7 +788,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps]
@@ -809,7 +805,7 @@ namespace YY
 			_In_opt_ LPCREATEFILE2_EXTENDED_PARAMETERS pCreateExParams
 			)
 		{
-			if (auto pCreateFile2 = try_get_CreateFile2())
+			if (auto pCreateFile2 = wp_get_CreateFile2())
 			{
 				return pCreateFile2(lpFileName, dwDesiredAccess, dwShareMode, dwCreationDisposition, pCreateExParams);
 			}
@@ -840,7 +836,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -858,7 +854,7 @@ namespace YY
 			_In_     DWORD dwFlagsAndAttributes
 			)
 		{
-			if (const auto pOpenFileById = try_get_OpenFileById())
+			if (const auto pOpenFileById = wp_get_OpenFileById())
 			{
 				return pOpenFileById(hVolumeHint, lpFileId, dwDesiredAccess, dwShareMode, lpSecurityAttributes, dwFlagsAndAttributes);
 			}
@@ -869,7 +865,7 @@ namespace YY
 				return INVALID_HANDLE_VALUE;
 			}
 
-			const auto pNtCreateFile = try_get_NtCreateFile();
+			const auto pNtCreateFile = wp_get_NtCreateFile();
 			if (!pNtCreateFile)
 			{
 				SetLastError(ERROR_FUNCTION_FAILED);
@@ -958,7 +954,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008[desktop apps only]
@@ -973,7 +969,7 @@ namespace YY
 			_In_ DWORD dwFlags
 			)
 		{
-			if (const auto pCreateSymbolicLinkW = try_get_CreateSymbolicLinkW())
+			if (const auto pCreateSymbolicLinkW = wp_get_CreateSymbolicLinkW())
 			{
 				return pCreateSymbolicLinkW(lpSymlinkFileName, lpTargetFileName, dwFlags);
 			}
@@ -985,7 +981,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008[desktop apps only]
@@ -1000,7 +996,7 @@ namespace YY
 			_In_ DWORD dwFlags
 			)
 		{
-			if (const auto pCreateSymbolicLinkA = try_get_CreateSymbolicLinkA())
+			if (const auto pCreateSymbolicLinkA = wp_get_CreateSymbolicLinkA())
 			{
 				return pCreateSymbolicLinkA(lpSymlinkFileName, lpTargetFileName, dwFlags);
 			}
@@ -1012,7 +1008,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2003 [desktop apps only]
@@ -1028,7 +1024,7 @@ namespace YY
 			_In_ DWORD   dwFlagsAndAttributes
 			)
 		{
-			if (const auto pReOpenFile = try_get_ReOpenFile())
+			if (const auto pReOpenFile = wp_get_ReOpenFile())
 			{
 				return pReOpenFile(hOriginalFile, dwDesiredAccess, dwShareMode, dwFlagsAndAttributes);
 			}
@@ -1037,7 +1033,7 @@ namespace YY
 
 			do
 			{
-				const auto pNtCreateFile = try_get_NtCreateFile();
+				const auto pNtCreateFile = wp_get_NtCreateFile();
 				if (!pNtCreateFile)
 				{
 					Status = STATUS_INVALID_INFO_CLASS;
@@ -1186,7 +1182,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WINXP)
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
 
 		//Windows XP [desktop apps | UWP apps]
 		//Windows Server 2003 [desktop apps | UWP apps]
@@ -1203,7 +1199,7 @@ namespace YY
 			_In_ DWORD dwMoveMethod
 			)
 		{
-			if (const auto pSetFilePointerEx = try_get_SetFilePointerEx())
+			if (const auto pSetFilePointerEx = wp_get_SetFilePointerEx())
 			{
 				return pSetFilePointerEx(hFile, liDistanceToMove, lpNewFilePointer, dwMoveMethod);
 			}
@@ -1221,7 +1217,3 @@ namespace YY
 			return TRUE;
 		}
 #endif
-
-	}//namespace Thunks
-
-} //namespace YY

@@ -1,12 +1,7 @@
 ﻿
 #include <strsafe.h>
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
         //Windows Vista [desktop apps | UWP apps]
         //Windows Server 2008 [desktop apps | UWP apps]
@@ -27,7 +22,7 @@ namespace YY
             _Reserved_ LPARAM lParam
             )
         {
-            if (auto const pCompareStringEx = try_get_CompareStringEx())
+            if (auto const pCompareStringEx = wp_get_CompareStringEx())
             {
                 return pCompareStringEx(lpLocaleName, dwCmpFlags, lpString1, cchCount1, lpString2, cchCount2, lpVersionInformation, lpReserved, lParam);
             }
@@ -43,7 +38,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
         //Windows Vista [desktop apps | UWP apps]
         //Windows Server 2008 [desktop apps | UWP apps]
@@ -60,7 +55,7 @@ namespace YY
             _In_ BOOL bIgnoreCase
             )
         {
-            if (auto const pCompareStringOrdinal = try_get_CompareStringOrdinal())
+            if (auto const pCompareStringOrdinal = wp_get_CompareStringOrdinal())
             {
                 return pCompareStringOrdinal(lpString1, cchCount1, lpString2, cchCount2, bIgnoreCase);
             }
@@ -265,5 +260,4 @@ namespace YY
             return 0;
         }
 #endif
-	} //namespace Thunks
-} //namespace YY
+

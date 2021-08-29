@@ -117,7 +117,7 @@ typedef _Return_type_success_(return >= 0) LONG NTSTATUS;
 typedef NTSTATUS *PNTSTATUS;
 
 
-#if defined __cplusplus && !defined _Disallow_YY_KM_Namespace
+#if defined __cplusplus && !defined _Disallow_WP_KM_Namespace
 namespace YY {
 #endif
 
@@ -5073,7 +5073,7 @@ LdrAddRefDll(
 	IN PVOID  BaseAddress
 	);
 
-#if defined __cplusplus && !defined _Disallow_YY_KM_Namespace
+#if defined __cplusplus && !defined _Disallow_WP_KM_Namespace
 } //namespace YY
 #endif
 

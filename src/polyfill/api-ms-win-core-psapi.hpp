@@ -1,11 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -21,7 +16,7 @@ namespace YY
 			_Inout_ PDWORD lpdwSize
 			)
 		{
-			if (auto pQueryFullProcessImageNameW = try_get_QueryFullProcessImageNameW())
+			if (auto pQueryFullProcessImageNameW = wp_get_QueryFullProcessImageNameW())
 			{
 				return pQueryFullProcessImageNameW(hProcess, dwFlags, lpExeName, lpdwSize);
 			}
@@ -50,7 +45,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -66,7 +61,7 @@ namespace YY
 			_Inout_ PDWORD lpdwSize
 			)
 		{
-			if (auto pQueryFullProcessImageNameA = try_get_QueryFullProcessImageNameA())
+			if (auto pQueryFullProcessImageNameA = wp_get_QueryFullProcessImageNameA())
 			{
 				return pQueryFullProcessImageNameA(hProcess, dwFlags, lpExeName, lpdwSize);
 			}
@@ -93,7 +88,3 @@ namespace YY
 			}
 		}
 #endif
-
-	}//namespace Thunks
-
-} //namespace YY

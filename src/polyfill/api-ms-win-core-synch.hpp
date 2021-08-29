@@ -1,30 +1,30 @@
 ﻿
 
-#ifdef YY_Thunks_Implemented
+#ifdef WP_Thunks_Implemented
 
 //读写锁参考了https://blog.csdn.net/yichigo/article/details/36898561
-#define YY_SRWLOCK_Locked_BIT           0
-#define YY_SRWLOCK_Waiting_BIT          1
-#define YY_SRWLOCK_Waking_BIT           2
-#define YY_SRWLOCK_MultipleShared_BIT   3
+#define WP_SRWLOCK_Locked_BIT           0
+#define WP_SRWLOCK_Waiting_BIT          1
+#define WP_SRWLOCK_Waking_BIT           2
+#define WP_SRWLOCK_MultipleShared_BIT   3
 //已经有人获得这个锁
-#define YY_SRWLOCK_Locked               0x00000001ul
+#define WP_SRWLOCK_Locked               0x00000001ul
 //有人正在等待锁
-#define YY_SRWLOCK_Waiting              0x00000002ul
+#define WP_SRWLOCK_Waiting              0x00000002ul
 //有人正在唤醒锁
-#define YY_SRWLOCK_Waking               0x00000004ul
+#define WP_SRWLOCK_Waking               0x00000004ul
 //
-#define YY_SRWLOCK_MultipleShared       0x00000008ul
+#define WP_SRWLOCK_MultipleShared       0x00000008ul
 
-#define YY_SRWLOCK_MASK    (size_t(0xF))
-#define YY_SRWLOCK_BITS    4
-#define YY_SRWLOCK_GET_BLOCK(SRWLock) ((YY_SRWLOCK_WAIT_BLOCK*)(SRWLock & (~YY_SRWLOCK_MASK)))
+#define WP_SRWLOCK_MASK    (size_t(0xF))
+#define WP_SRWLOCK_BITS    4
+#define WP_SRWLOCK_GET_BLOCK(SRWLock) ((WP_SRWLOCK_WAIT_BLOCK*)(SRWLock & (~WP_SRWLOCK_MASK)))
 
 //SRWLock自旋次数
 #define SRWLockSpinCount 1024
 
 //取自Win7
-struct _YY_RTL_SRWLOCK
+struct _WP_RTL_SRWLOCK
 {
 	union
 	{
@@ -45,84 +45,78 @@ struct _YY_RTL_SRWLOCK
 	};
 };
 
-typedef struct __declspec(align(16)) _YY_SRWLOCK_WAIT_BLOCK
+typedef struct __declspec(align(16)) _WP_SRWLOCK_WAIT_BLOCK
 {
-	_YY_SRWLOCK_WAIT_BLOCK* back;
-	_YY_SRWLOCK_WAIT_BLOCK* notify;
-	_YY_SRWLOCK_WAIT_BLOCK* next;
+	_WP_SRWLOCK_WAIT_BLOCK* back;
+	_WP_SRWLOCK_WAIT_BLOCK* notify;
+	_WP_SRWLOCK_WAIT_BLOCK* next;
 	volatile size_t         shareCount;
 	volatile size_t         flag;
-} YY_SRWLOCK_WAIT_BLOCK;
+} WP_SRWLOCK_WAIT_BLOCK;
 
 
 //正在优化锁
-#define YY_CV_OPTIMIZE_LOCK 0x00000008ul
-#define YY_CV_MASK size_t(0x0000000F)
-#define YY_CV_GET_BLOCK(CV) ((YY_CV_WAIT_BLOCK*)(CV & (~YY_CV_MASK)))
+#define WP_CV_OPTIMIZE_LOCK 0x00000008ul
+#define WP_CV_MASK size_t(0x0000000F)
+#define WP_CV_GET_BLOCK(CV) ((WP_CV_WAIT_BLOCK*)(CV & (~WP_CV_MASK)))
 
 #define ConditionVariableSpinCount 1024
 
-typedef struct __declspec(align(16)) _YY_CV_WAIT_BLOCK
+typedef struct __declspec(align(16)) _WP_CV_WAIT_BLOCK
 {
-	_YY_CV_WAIT_BLOCK* back;
-	_YY_CV_WAIT_BLOCK* notify;
-	_YY_CV_WAIT_BLOCK* next;
+	_WP_CV_WAIT_BLOCK* back;
+	_WP_CV_WAIT_BLOCK* notify;
+	_WP_CV_WAIT_BLOCK* next;
 	volatile size_t    shareCount;
 	volatile size_t    flag;
 	volatile PSRWLOCK  SRWLock;
-} YY_CV_WAIT_BLOCK;
+} WP_CV_WAIT_BLOCK;
 
 
-#define YY_ADDRESS_GET_BLOCK(AW) ((YY_ADDRESS_WAIT_BLOCK*)(size_t(AW) & (~size_t(0x3))))
+#define WP_ADDRESS_GET_BLOCK(AW) ((WP_ADDRESS_WAIT_BLOCK*)(size_t(AW) & (~size_t(0x3))))
 
 //WaitOnAddress自旋次数
 #define RtlpWaitOnAddressSpinCount 1024
 
-typedef struct __declspec(align(8)) _YY_ADDRESS_WAIT_BLOCK
+typedef struct __declspec(align(8)) _WP_ADDRESS_WAIT_BLOCK
 {
 	volatile void* Address;
 	//因为Windows 8以及更高版本才支持 ZwWaitForAlertByThreadId，所以我们直接把 ThreadId 砍掉了，反正没鸟用
 	//ULONG_PTR            ThreadId;
 
-	_YY_ADDRESS_WAIT_BLOCK* back;
-	_YY_ADDRESS_WAIT_BLOCK* notify;
-	_YY_ADDRESS_WAIT_BLOCK* next;
+	_WP_ADDRESS_WAIT_BLOCK* back;
+	_WP_ADDRESS_WAIT_BLOCK* notify;
+	_WP_ADDRESS_WAIT_BLOCK* next;
 	volatile size_t         flag;
 
-} YY_ADDRESS_WAIT_BLOCK;
+} WP_ADDRESS_WAIT_BLOCK;
 
 
-//YY-Thunks中Barrier采用了Windows 8实现
-typedef struct _YY_BARRIER {
+//win-polyfill中Barrier采用了Windows 8实现
+typedef struct _WP_BARRIER {
 	volatile LONG  lRemainderThreads;
 	volatile LONG  lTotalThreads;
 	HANDLE         hEvent[2];
 	DWORD          dwNumProcessors;
 	DWORD          dwSpinCount;
-} YY_BARRIER;
+} WP_BARRIER;
 
-static_assert(sizeof(SYNCHRONIZATION_BARRIER) >= sizeof(YY_BARRIER), "必须跟系统ABI兼容！！！！");
+static_assert(sizeof(SYNCHRONIZATION_BARRIER) >= sizeof(WP_BARRIER), "必须跟系统ABI兼容！！！！");
 
 #endif
 
-
-
-namespace YY
-{
-	namespace Thunks
-	{
-#ifdef YY_Thunks_Implemented
+#ifdef WP_Thunks_Implemented
 		namespace internal
 		{
 			static HANDLE __fastcall GetGlobalKeyedEventHandle()
 			{
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 				//Windows XP等平台则 使用系统自身的 CritSecOutOfMemoryEvent，Vista或者更高平台 我们直接返回 nullptr 即可。
 				if (NtCurrentTeb()->ProcessEnvironmentBlock->OSMajorVersion < 6)
 				{
 					if (_GlobalKeyedEventHandle == nullptr)
 					{
-						auto pNtOpenKeyedEvent = try_get_NtOpenKeyedEvent();
+						auto pNtOpenKeyedEvent = wp_get_NtOpenKeyedEvent();
 
 						if(pNtOpenKeyedEvent == nullptr)
 							RaiseStatus(STATUS_RESOURCE_NOT_OWNED);
@@ -152,12 +146,12 @@ namespace YY
 				return nullptr;
 			}
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 			static void __fastcall RtlpWakeSRWLock(SRWLOCK* SRWLock, size_t Status)
 			{
 				auto GlobalKeyedEventHandle = GetGlobalKeyedEventHandle();
-				auto pNtReleaseKeyedEvent = try_get_NtReleaseKeyedEvent();
+				auto pNtReleaseKeyedEvent = wp_get_NtReleaseKeyedEvent();
 
 				if (!pNtReleaseKeyedEvent)
 				{
@@ -166,12 +160,12 @@ namespace YY
 
 				for (;;)
 				{
-					if ((Status & YY_SRWLOCK_Locked) == 0)
+					if ((Status & WP_SRWLOCK_Locked) == 0)
 					{
 						//微软就不判断下空指针？如此自信？
-						auto pWatiBlock = YY_SRWLOCK_GET_BLOCK(Status);
+						auto pWatiBlock = WP_SRWLOCK_GET_BLOCK(Status);
 						
-						YY_SRWLOCK_WAIT_BLOCK* notify;
+						WP_SRWLOCK_WAIT_BLOCK* notify;
 
 						for (auto pBlock = pWatiBlock; (notify = pBlock->notify) == nullptr;)
 						{
@@ -190,11 +184,11 @@ namespace YY
 							pWatiBlock->notify = notify->next;
 							notify->next = nullptr;
 
-							//SRWLock & (~YY_SRWLOCK_Waking)
+							//SRWLock & (~WP_SRWLOCK_Waking)
 #ifdef _WIN64
-							_InterlockedAnd64((volatile LONG_PTR *)SRWLock, ~LONG_PTR(YY_SRWLOCK_Waking));
+							_InterlockedAnd64((volatile LONG_PTR *)SRWLock, ~LONG_PTR(WP_SRWLOCK_Waking));
 #else
-							_InterlockedAnd((volatile LONG_PTR *)SRWLock, ~LONG_PTR(YY_SRWLOCK_Waking));
+							_InterlockedAnd((volatile LONG_PTR *)SRWLock, ~LONG_PTR(WP_SRWLOCK_Waking));
 #endif
 							if (!InterlockedBitTestAndReset((volatile LONG*)&notify->flag, 1))
 							{
@@ -242,7 +236,7 @@ namespace YY
 					}
 					else
 					{
-						auto NewStatus = InterlockedCompareExchange((volatile LONG *)SRWLock, Status & ~YY_SRWLOCK_Waking, Status);
+						auto NewStatus = InterlockedCompareExchange((volatile LONG *)SRWLock, Status & ~WP_SRWLOCK_Waking, Status);
 						if (NewStatus == Status)
 							return;
 
@@ -255,9 +249,9 @@ namespace YY
 			{
 				for (;;)
 				{
-					if (Status & YY_SRWLOCK_Locked)
+					if (Status & WP_SRWLOCK_Locked)
 					{
-						if (auto WatiBlock = (YY_SRWLOCK_WAIT_BLOCK*)(Status & (~YY_SRWLOCK_MASK)))
+						if (auto WatiBlock = (WP_SRWLOCK_WAIT_BLOCK*)(Status & (~WP_SRWLOCK_MASK)))
 						{
 							auto pBlock = WatiBlock;
 
@@ -272,8 +266,8 @@ namespace YY
 							WatiBlock->notify = pBlock->notify;
 						}
 
-						//微软为什么用 Status - YY_SRWLOCK_Waking，而为什么不用 Status & ~YY_SRWLOCK_Waking ？
-						auto CurrentStatus = InterlockedCompareExchange((volatile size_t *)SRWLock, Status - YY_SRWLOCK_Waking, Status);
+						//微软为什么用 Status - WP_SRWLOCK_Waking，而为什么不用 Status & ~WP_SRWLOCK_Waking ？
+						auto CurrentStatus = InterlockedCompareExchange((volatile size_t *)SRWLock, Status - WP_SRWLOCK_Waking, Status);
 						if (CurrentStatus == Status)
 							break;
 
@@ -288,7 +282,7 @@ namespace YY
 			}
 
 			//将等待块插入 SRWLock 中
-			static BOOL __fastcall RtlpQueueWaitBlockToSRWLock(YY_CV_WAIT_BLOCK* pBolck, PSRWLOCK SRWLock, DWORD SRWLockMark)
+			static BOOL __fastcall RtlpQueueWaitBlockToSRWLock(WP_CV_WAIT_BLOCK* pBolck, PSRWLOCK SRWLock, DWORD SRWLockMark)
 			{
 				for (;;)
 				{
@@ -302,7 +296,7 @@ namespace YY
 					{
 						pBolck->flag |= 0x1;
 					}
-					else if ((Current & 0x2) == 0 && YY_SRWLOCK_GET_BLOCK(Current))
+					else if ((Current & 0x2) == 0 && WP_SRWLOCK_GET_BLOCK(Current))
 					{
 						return FALSE;
 					}
@@ -316,10 +310,10 @@ namespace YY
 						pBolck->notify = nullptr;
 						pBolck->shareCount = 0;
 
-						//_YY_CV_WAIT_BLOCK 结构体跟 _YY_SRWLOCK_WAIT_BLOCK兼容，所以能这样强转
-						pBolck->back = (_YY_CV_WAIT_BLOCK*)YY_SRWLOCK_GET_BLOCK(Current);
+						//_WP_CV_WAIT_BLOCK 结构体跟 _WP_SRWLOCK_WAIT_BLOCK兼容，所以能这样强转
+						pBolck->back = (_WP_CV_WAIT_BLOCK*)WP_SRWLOCK_GET_BLOCK(Current);
 
-						New = size_t(pBolck) | (Current & YY_CV_MASK);
+						New = size_t(pBolck) | (Current & WP_CV_MASK);
 					}
 					else
 					{
@@ -345,7 +339,7 @@ namespace YY
 			static void __fastcall RtlpWakeConditionVariable(PCONDITION_VARIABLE ConditionVariable, size_t ConditionVariableStatus, size_t WakeCount)
 			{
 				auto GlobalKeyedEventHandle = GetGlobalKeyedEventHandle();
-				auto pNtReleaseKeyedEvent = try_get_NtReleaseKeyedEvent();
+				auto pNtReleaseKeyedEvent = wp_get_NtReleaseKeyedEvent();
 
 				if (!pNtReleaseKeyedEvent)
 				{
@@ -354,22 +348,22 @@ namespace YY
 
 
 				//v16
-				YY_CV_WAIT_BLOCK* notify = nullptr;
+				WP_CV_WAIT_BLOCK* notify = nullptr;
 
-				YY_CV_WAIT_BLOCK* pWake = nullptr;
-				YY_CV_WAIT_BLOCK** ppInsert = &pWake;
+				WP_CV_WAIT_BLOCK* pWake = nullptr;
+				WP_CV_WAIT_BLOCK** ppInsert = &pWake;
 
 				size_t Count = 0;
 
 				for (;;)
 				{
-					auto pWaitBlock = YY_CV_GET_BLOCK(ConditionVariableStatus);
+					auto pWaitBlock = WP_CV_GET_BLOCK(ConditionVariableStatus);
 
 					if ((ConditionVariableStatus & 0x7) == 0x7)
 					{
 						ConditionVariableStatus = InterlockedExchange((volatile size_t*)ConditionVariable, 0);
 
-						*ppInsert = YY_CV_GET_BLOCK(ConditionVariableStatus);
+						*ppInsert = WP_CV_GET_BLOCK(ConditionVariableStatus);
 
 						break;
 					}
@@ -468,7 +462,7 @@ namespace YY
 			{
 				for (;;)
 				{
-					auto pWaitBlock = YY_CV_GET_BLOCK(ConditionVariableStatus);
+					auto pWaitBlock = WP_CV_GET_BLOCK(ConditionVariableStatus);
 					auto pItem = pWaitBlock;
 
 					for (; pItem->notify == nullptr;)
@@ -495,7 +489,7 @@ namespace YY
 				}
 			}
 
-			static BOOL __fastcall RtlpWakeSingle(PCONDITION_VARIABLE ConditionVariable, YY_CV_WAIT_BLOCK* pBlock)
+			static BOOL __fastcall RtlpWakeSingle(PCONDITION_VARIABLE ConditionVariable, WP_CV_WAIT_BLOCK* pBlock)
 			{
 				auto Current = *(volatile size_t*)ConditionVariable;
 
@@ -520,10 +514,10 @@ namespace YY
 						{
 							Current = New;
 
-							YY_CV_WAIT_BLOCK* notify = nullptr;
+							WP_CV_WAIT_BLOCK* notify = nullptr;
 							BOOL bRet = FALSE;
 
-							auto pWaitBlock = YY_CV_GET_BLOCK(Current);
+							auto pWaitBlock = WP_CV_GET_BLOCK(Current);
 							auto pSuccessor = pWaitBlock;
 
 							if (pWaitBlock)
@@ -565,7 +559,7 @@ namespace YY
 												Current = Last;
 											}
 
-											pSuccessor = pWaitBlock = YY_CV_GET_BLOCK(Current);
+											pSuccessor = pWaitBlock = WP_CV_GET_BLOCK(Current);
 											notify = nullptr;
 										}
 									}
@@ -599,7 +593,7 @@ namespace YY
 				)
 			{
 				auto GlobalKeyedEventHandle = internal::GetGlobalKeyedEventHandle();
-				auto pNtWaitForKeyedEvent = try_get_NtWaitForKeyedEvent();
+				auto pNtWaitForKeyedEvent = wp_get_NtWaitForKeyedEvent();
 				if (!pNtWaitForKeyedEvent)
 					internal::RaiseStatus(STATUS_RESOURCE_NOT_OWNED);
 
@@ -699,7 +693,7 @@ namespace YY
 			static void __fastcall RtlpRunOnceWakeAll(size_t* pWake)
 			{
 				auto GlobalKeyedEventHandle = internal::GetGlobalKeyedEventHandle();
-				auto pNtReleaseKeyedEvent = try_get_NtReleaseKeyedEvent();
+				auto pNtReleaseKeyedEvent = wp_get_NtReleaseKeyedEvent();
 				if (!pNtReleaseKeyedEvent)
 					internal::RaiseStatus(STATUS_RESOURCE_NOT_OWNED);
 
@@ -782,7 +776,7 @@ namespace YY
 
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 			static auto __fastcall GetBlockByWaitOnAddressHashTable(LPVOID Address)
 			{
 				static volatile ULONG_PTR WaitOnAddressHashTable[128];
@@ -792,10 +786,10 @@ namespace YY
 				return &WaitOnAddressHashTable[Index];
 			}
 
-			static void __fastcall RtlpWaitOnAddressWakeEntireList(YY_ADDRESS_WAIT_BLOCK* pBlock)
+			static void __fastcall RtlpWaitOnAddressWakeEntireList(WP_ADDRESS_WAIT_BLOCK* pBlock)
 			{
 				auto GlobalKeyedEventHandle = GetGlobalKeyedEventHandle();
-				auto pNtReleaseKeyedEvent = try_get_NtReleaseKeyedEvent();
+				auto pNtReleaseKeyedEvent = wp_get_NtReleaseKeyedEvent();
 				if (!pNtReleaseKeyedEvent)
 					internal::RaiseStatus(STATUS_NOT_FOUND);
 
@@ -819,7 +813,7 @@ namespace YY
 
 				for (;;)
 				{
-					auto pBlock = YY_ADDRESS_GET_BLOCK(Current);
+					auto pBlock = WP_ADDRESS_GET_BLOCK(Current);
 
 					for (auto pItem = pBlock;;)
 					{
@@ -852,7 +846,7 @@ namespace YY
 			}
 
 
-			static void __fastcall RtlpAddWaitBlockToWaitList(YY_ADDRESS_WAIT_BLOCK* pWaitBlock)
+			static void __fastcall RtlpAddWaitBlockToWaitList(WP_ADDRESS_WAIT_BLOCK* pWaitBlock)
 			{
 				auto ppFirstBlock = GetBlockByWaitOnAddressHashTable((LPVOID)pWaitBlock->Address);
 
@@ -862,7 +856,7 @@ namespace YY
 				{
 					auto New = size_t(pWaitBlock) | (size_t(Current) & 0x3);
 
-					auto back = YY_ADDRESS_GET_BLOCK(Current);
+					auto back = WP_ADDRESS_GET_BLOCK(Current);
 					pWaitBlock->back = back;
 					if (back)
 					{
@@ -892,12 +886,12 @@ namespace YY
 				}
 			}
 
-			static NTSTATUS __fastcall RtlpWaitOnAddressWithTimeout(YY_ADDRESS_WAIT_BLOCK* pWaitBlock, LARGE_INTEGER *TimeOut);
+			static NTSTATUS __fastcall RtlpWaitOnAddressWithTimeout(WP_ADDRESS_WAIT_BLOCK* pWaitBlock, LARGE_INTEGER *TimeOut);
 
-			static void __fastcall RtlpWaitOnAddressRemoveWaitBlock(YY_ADDRESS_WAIT_BLOCK* pWaitBlock)
+			static void __fastcall RtlpWaitOnAddressRemoveWaitBlock(WP_ADDRESS_WAIT_BLOCK* pWaitBlock)
 			{
 				auto GlobalKeyedEventHandle = GetGlobalKeyedEventHandle();
-				auto pNtWaitForKeyedEvent = try_get_NtWaitForKeyedEvent();
+				auto pNtWaitForKeyedEvent = wp_get_NtWaitForKeyedEvent();
 				if (!pNtWaitForKeyedEvent)
 					internal::RaiseStatus(STATUS_NOT_FOUND);
 
@@ -929,11 +923,11 @@ namespace YY
 							bool bFind = false;
 
 							//同步成功！
-							auto pBlock = YY_ADDRESS_GET_BLOCK(New);
+							auto pBlock = WP_ADDRESS_GET_BLOCK(New);
 							auto pItem = pBlock;
 
 							auto pNotify = pBlock->notify;
-							YY_ADDRESS_WAIT_BLOCK* Tmp;
+							WP_ADDRESS_WAIT_BLOCK* Tmp;
 
 							do
 							{
@@ -986,7 +980,7 @@ namespace YY
 								{
 									Current = Last;
 
-									Tmp = pBlock = YY_ADDRESS_GET_BLOCK(Current);
+									Tmp = pBlock = WP_ADDRESS_GET_BLOCK(Current);
 									pNotify = pBlock->notify;
 								}
 
@@ -1004,7 +998,7 @@ namespace YY
 
 							for (;;)
 							{
-								const auto Last = InterlockedCompareExchange(ppFirstBlock, (Current & 1) == 0 ? size_t(YY_ADDRESS_GET_BLOCK(Current)) : 0, Current);
+								const auto Last = InterlockedCompareExchange(ppFirstBlock, (Current & 1) == 0 ? size_t(WP_ADDRESS_GET_BLOCK(Current)) : 0, Current);
 
 								if (Last == Current)
 									break;
@@ -1013,7 +1007,7 @@ namespace YY
 							}
 
 							if (Current & 1)
-								RtlpWaitOnAddressWakeEntireList(YY_ADDRESS_GET_BLOCK(Current));
+								RtlpWaitOnAddressWakeEntireList(WP_ADDRESS_GET_BLOCK(Current));
 
 
 							return;
@@ -1027,7 +1021,7 @@ namespace YY
 				RtlpWaitOnAddressWithTimeout(pWaitBlock, 0);
 			}
 
-			static NTSTATUS __fastcall RtlpWaitOnAddressWithTimeout(YY_ADDRESS_WAIT_BLOCK* pWaitBlock, LARGE_INTEGER *TimeOut)
+			static NTSTATUS __fastcall RtlpWaitOnAddressWithTimeout(WP_ADDRESS_WAIT_BLOCK* pWaitBlock, LARGE_INTEGER *TimeOut)
 			{
 				//单核 我们无需自旋，直接进入等待过程即可
 				if (NtCurrentTeb()->ProcessEnvironmentBlock->NumberOfProcessors > 1 && RtlpWaitOnAddressSpinCount)
@@ -1051,7 +1045,7 @@ namespace YY
 				}
 
 				auto GlobalKeyedEventHandle = GetGlobalKeyedEventHandle();
-				auto pNtWaitForKeyedEvent = try_get_NtWaitForKeyedEvent();
+				auto pNtWaitForKeyedEvent = wp_get_NtWaitForKeyedEvent();
 				if (!pNtWaitForKeyedEvent)
 					internal::RaiseStatus(STATUS_NOT_FOUND);
 
@@ -1073,14 +1067,14 @@ namespace YY
 			}
 
 #if defined(_X86_)
-			#define RtlpWakeByAddress(Address, bWakeAll) YY_RtlpWakeByAddress(0, bWakeAll, Address)
-			static void __fastcall YY_RtlpWakeByAddress(DWORD dwReserved/*用于平衡栈需要，利于编译器优化成jmp*/, BOOL bWakeAll, LPVOID Address)
+			#define RtlpWakeByAddress(Address, bWakeAll) WP_RtlpWakeByAddress(0, bWakeAll, Address)
+			static void __fastcall WP_RtlpWakeByAddress(DWORD dwReserved/*用于平衡栈需要，利于编译器优化成jmp*/, BOOL bWakeAll, LPVOID Address)
 #else
 			static void __fastcall RtlpWakeByAddress(LPVOID Address, BOOL bWakeAll)
 #endif
 			{
 				auto ppFirstBlock = GetBlockByWaitOnAddressHashTable(Address);
-				YY_ADDRESS_WAIT_BLOCK* LastWake = nullptr;
+				WP_ADDRESS_WAIT_BLOCK* LastWake = nullptr;
 
 				auto Current = *ppFirstBlock;
 				size_t Last;
@@ -1109,7 +1103,7 @@ namespace YY
 						__retry:
 
 
-							auto pBlock = YY_ADDRESS_GET_BLOCK(Current);
+							auto pBlock = WP_ADDRESS_GET_BLOCK(Current);
 							auto pItem = pBlock;
 
 							for (; pItem->next == nullptr;)
@@ -1147,7 +1141,7 @@ namespace YY
 											goto __retry;
 										}
 
-										pBlock = YY_ADDRESS_GET_BLOCK(Last);
+										pBlock = WP_ADDRESS_GET_BLOCK(Last);
 
 										bNoRemove = New == 0;
 										if (back)
@@ -1192,7 +1186,7 @@ namespace YY
 							}
 
 							auto GlobalKeyedEventHandle = GetGlobalKeyedEventHandle();
-							auto pNtReleaseKeyedEvent = try_get_NtReleaseKeyedEvent();
+							auto pNtReleaseKeyedEvent = wp_get_NtReleaseKeyedEvent();
 							if (!pNtReleaseKeyedEvent)
 								internal::RaiseStatus(STATUS_NOT_FOUND);
 
@@ -1214,12 +1208,12 @@ namespace YY
 
 								for (auto Current = *ppFirstBlock;;)
 								{
-									const auto Last = InterlockedCompareExchange(ppFirstBlock, (Current & 1) == 0 ? size_t(YY_ADDRESS_GET_BLOCK(Current)) : 0, Current);
+									const auto Last = InterlockedCompareExchange(ppFirstBlock, (Current & 1) == 0 ? size_t(WP_ADDRESS_GET_BLOCK(Current)) : 0, Current);
 
 									if (Last == Current)
 									{
 										if(Current & 1)
-											RtlpWaitOnAddressWakeEntireList(YY_ADDRESS_GET_BLOCK(Current));
+											RtlpWaitOnAddressWakeEntireList(WP_ADDRESS_GET_BLOCK(Current));
 
 										break;
 									}
@@ -1239,7 +1233,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista, Windows Server 2008
 		__DEFINE_THUNK(
@@ -1253,7 +1247,7 @@ namespace YY
 			_In_ DWORD Flags
 			)
 		{
-			if (auto const pInitializeCriticalSectionEx = try_get_InitializeCriticalSectionEx())
+			if (auto const pInitializeCriticalSectionEx = wp_get_InitializeCriticalSectionEx())
 			{
 				return pInitializeCriticalSectionEx(lpCriticalSection, dwSpinCount, Flags);
 			}
@@ -1263,7 +1257,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1281,7 +1275,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1298,7 +1292,7 @@ namespace YY
 			_Outptr_opt_result_maybenull_ LPVOID* lpContext
 			)
 		{
-			if (auto const pInitOnceBeginInitialize = try_get_InitOnceBeginInitialize())
+			if (auto const pInitOnceBeginInitialize = wp_get_InitOnceBeginInitialize())
 			{
 				return pInitOnceBeginInitialize(lpInitOnce, dwFlags, fPending, lpContext);
 			}
@@ -1319,7 +1313,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1334,7 +1328,7 @@ namespace YY
 			_In_opt_ LPVOID lpContext
 			)
 		{
-			if (auto const pInitOnceComplete = try_get_InitOnceComplete())
+			if (auto const pInitOnceComplete = wp_get_InitOnceComplete())
 			{
 				return pInitOnceComplete(lpInitOnce, dwFlags, lpContext);
 			}
@@ -1354,7 +1348,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1370,7 +1364,7 @@ namespace YY
 			_Outptr_opt_result_maybenull_ LPVOID* Context
 			)
 		{
-			if (auto const pInitOnceExecuteOnce = try_get_InitOnceExecuteOnce())
+			if (auto const pInitOnceExecuteOnce = wp_get_InitOnceExecuteOnce())
 			{
 				return pInitOnceExecuteOnce(InitOnce, InitFn, Parameter, Context);
 			}
@@ -1426,7 +1420,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1442,7 +1436,7 @@ namespace YY
 			_In_ DWORD dwDesiredAccess
 			)
 		{
-			if (auto pCreateEventExW = try_get_CreateEventExW())
+			if (auto pCreateEventExW = wp_get_CreateEventExW())
 			{
 				return pCreateEventExW(lpEventAttributes, lpName, dwFlags, dwDesiredAccess);
 			}
@@ -1452,7 +1446,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1468,7 +1462,7 @@ namespace YY
 			_In_ DWORD dwDesiredAccess
 			)
 		{
-			if (auto pCreateEventExA = try_get_CreateEventExA())
+			if (auto pCreateEventExA = wp_get_CreateEventExA())
 			{
 				return pCreateEventExA(lpEventAttributes, lpName, dwFlags, dwDesiredAccess);
 			}
@@ -1478,7 +1472,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1494,7 +1488,7 @@ namespace YY
 			_In_ DWORD dwDesiredAccess
 			)
 		{
-			if (auto pCreateMutexExW = try_get_CreateMutexExW())
+			if (auto pCreateMutexExW = wp_get_CreateMutexExW())
 			{
 				return pCreateMutexExW(lpMutexAttributes, lpName, dwFlags, dwDesiredAccess);
 			}
@@ -1504,7 +1498,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1520,7 +1514,7 @@ namespace YY
 			_In_ DWORD dwDesiredAccess
 			)
 		{
-			if (auto pCreateMutexExA = try_get_CreateMutexExA())
+			if (auto pCreateMutexExA = wp_get_CreateMutexExA())
 			{
 				return pCreateMutexExA(lpMutexAttributes, lpName, dwFlags, dwDesiredAccess);
 			}
@@ -1530,7 +1524,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1548,7 +1542,7 @@ namespace YY
 			_In_ DWORD dwDesiredAccess
 			)
 		{
-			if (auto pCreateSemaphoreExW = try_get_CreateSemaphoreExW())
+			if (auto pCreateSemaphoreExW = wp_get_CreateSemaphoreExW())
 			{
 				return pCreateSemaphoreExW(lpSemaphoreAttributes, lInitialCount, lMaximumCount, lpName, dwFlags, dwDesiredAccess);
 			}
@@ -1558,7 +1552,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1574,7 +1568,7 @@ namespace YY
 			_In_ DWORD dwDesiredAccess
 			)
 		{
-			if (auto pCreateWaitableTimerExW = try_get_CreateWaitableTimerExW())
+			if (auto pCreateWaitableTimerExW = wp_get_CreateWaitableTimerExW())
 			{
 				return pCreateWaitableTimerExW(lpTimerAttributes, lpTimerName, dwFlags, dwDesiredAccess);
 			}
@@ -1584,7 +1578,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1602,7 +1596,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1615,19 +1609,19 @@ namespace YY
 			_Inout_ PSRWLOCK SRWLock
 			)
 		{
-			if (auto const pAcquireSRWLockExclusive = try_get_AcquireSRWLockExclusive())
+			if (auto const pAcquireSRWLockExclusive = wp_get_AcquireSRWLockExclusive())
 			{
 				return pAcquireSRWLockExclusive(SRWLock);
 			}
 
-			YY_SRWLOCK_WAIT_BLOCK StackWaitBlock;
+			WP_SRWLOCK_WAIT_BLOCK StackWaitBlock;
 			bool bOptimize;
 
 			//尝试加锁一次
 #if defined(_WIN64)
-			auto OldBit = InterlockedBitTestAndSet64((volatile LONG_PTR*)SRWLock, YY_SRWLOCK_Locked_BIT);
+			auto OldBit = InterlockedBitTestAndSet64((volatile LONG_PTR*)SRWLock, WP_SRWLOCK_Locked_BIT);
 #else
-			auto OldBit = InterlockedBitTestAndSet((volatile LONG_PTR*)SRWLock, YY_SRWLOCK_Locked_BIT);
+			auto OldBit = InterlockedBitTestAndSet((volatile LONG_PTR*)SRWLock, WP_SRWLOCK_Locked_BIT);
 #endif
 
 			if(OldBit == false)
@@ -1640,7 +1634,7 @@ namespace YY
 			{
 				auto SRWLockOld =  *(volatile size_t*)SRWLock;
 
-				if (YY_SRWLOCK_Locked & SRWLockOld)
+				if (WP_SRWLOCK_Locked & SRWLockOld)
 				{
 					/*
 					if (RtlpWaitCouldDeadlock())
@@ -1653,16 +1647,16 @@ namespace YY
 
 					size_t SRWLockNew;
 
-					if (YY_SRWLOCK_Waiting & SRWLockOld)
+					if (WP_SRWLOCK_Waiting & SRWLockOld)
 					{
 						//有人正在等待连接
 						StackWaitBlock.notify = nullptr;
 						StackWaitBlock.shareCount = 0;
-						StackWaitBlock.back = (YY_SRWLOCK_WAIT_BLOCK*)(SRWLockOld & (~YY_SRWLOCK_MASK));
+						StackWaitBlock.back = (WP_SRWLOCK_WAIT_BLOCK*)(SRWLockOld & (~WP_SRWLOCK_MASK));
 
-						SRWLockNew = (size_t)(&StackWaitBlock) | (SRWLockOld & YY_SRWLOCK_MultipleShared) | YY_SRWLOCK_Waking | YY_SRWLOCK_Waiting | YY_SRWLOCK_Locked;
+						SRWLockNew = (size_t)(&StackWaitBlock) | (SRWLockOld & WP_SRWLOCK_MultipleShared) | WP_SRWLOCK_Waking | WP_SRWLOCK_Waiting | WP_SRWLOCK_Locked;
 
-						if ((YY_SRWLOCK_Waking & SRWLockOld) == 0)
+						if ((WP_SRWLOCK_Waking & SRWLockOld) == 0)
 						{
 							bOptimize = true;
 						}
@@ -1670,13 +1664,13 @@ namespace YY
 					else
 					{
 						//没有其他人没有等待，所以我们需要创建一个
-						StackWaitBlock.notify = (YY_SRWLOCK_WAIT_BLOCK*)&StackWaitBlock;
-						StackWaitBlock.shareCount = (SRWLockOld >> YY_SRWLOCK_BITS);
+						StackWaitBlock.notify = (WP_SRWLOCK_WAIT_BLOCK*)&StackWaitBlock;
+						StackWaitBlock.shareCount = (SRWLockOld >> WP_SRWLOCK_BITS);
 
 
 						SRWLockNew = StackWaitBlock.shareCount > 1 ?
-							(size_t)(&StackWaitBlock) | YY_SRWLOCK_MultipleShared | YY_SRWLOCK_Waiting | YY_SRWLOCK_Locked
-							: (size_t)(&StackWaitBlock) | YY_SRWLOCK_Waiting | YY_SRWLOCK_Locked;
+							(size_t)(&StackWaitBlock) | WP_SRWLOCK_MultipleShared | WP_SRWLOCK_Waiting | WP_SRWLOCK_Locked
+							: (size_t)(&StackWaitBlock) | WP_SRWLOCK_Waiting | WP_SRWLOCK_Locked;
 					}
 
 					if (InterlockedCompareExchange((volatile size_t*)SRWLock, SRWLockNew, SRWLockOld) != SRWLockOld)
@@ -1697,7 +1691,7 @@ namespace YY
 					}
 
 					auto GlobalKeyedEventHandle = internal::GetGlobalKeyedEventHandle();
-					auto pNtWaitForKeyedEvent = try_get_NtWaitForKeyedEvent();
+					auto pNtWaitForKeyedEvent = wp_get_NtWaitForKeyedEvent();
 					if (!pNtWaitForKeyedEvent)
 					{
 						internal::RaiseStatus(STATUS_RESOURCE_NOT_OWNED);
@@ -1720,7 +1714,7 @@ namespace YY
 				else
 				{
 					//尝试获取锁的所有权
-					if (InterlockedCompareExchange((volatile size_t*)SRWLock, SRWLockOld | YY_SRWLOCK_Locked, SRWLockOld) == SRWLockOld)
+					if (InterlockedCompareExchange((volatile size_t*)SRWLock, SRWLockOld | WP_SRWLOCK_Locked, SRWLockOld) == SRWLockOld)
 					{
 						//成功加锁
 						return;
@@ -1734,7 +1728,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Windows 7 [desktop apps | UWP apps]
 		//Windows Server 2008 R2 [desktop apps | UWP apps]
@@ -1747,21 +1741,21 @@ namespace YY
 			_Inout_ PSRWLOCK SRWLock
 			)
 		{
-			if (auto const pTryAcquireSRWLockExclusive = try_get_TryAcquireSRWLockExclusive())
+			if (auto const pTryAcquireSRWLockExclusive = wp_get_TryAcquireSRWLockExclusive())
 			{
 				return pTryAcquireSRWLockExclusive(SRWLock);
 			}
 
 #if defined(_WIN64)
-			return InterlockedBitTestAndSet64((volatile LONG_PTR*)SRWLock, YY_SRWLOCK_Locked_BIT);
+			return InterlockedBitTestAndSet64((volatile LONG_PTR*)SRWLock, WP_SRWLOCK_Locked_BIT);
 #else
-			return InterlockedBitTestAndSet((volatile LONG_PTR*)SRWLock, YY_SRWLOCK_Locked_BIT);
+			return InterlockedBitTestAndSet((volatile LONG_PTR*)SRWLock, WP_SRWLOCK_Locked_BIT);
 #endif
 		}
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1774,22 +1768,22 @@ namespace YY
 			_Inout_ PSRWLOCK SRWLock
 			)
 		{
-			if (auto const pReleaseSRWLockExclusive = try_get_ReleaseSRWLockExclusive())
+			if (auto const pReleaseSRWLockExclusive = wp_get_ReleaseSRWLockExclusive())
 			{
 				return pReleaseSRWLockExclusive(SRWLock);
 			}
 
 			auto OldSRWLock = InterlockedExchangeAdd((volatile size_t *)SRWLock, size_t(-1));
-			if ((OldSRWLock & YY_SRWLOCK_Locked) == 0)
+			if ((OldSRWLock & WP_SRWLOCK_Locked) == 0)
 			{
 				internal::RaiseStatus(STATUS_RESOURCE_NOT_OWNED);
 			}
 
-			if ((OldSRWLock & YY_SRWLOCK_Waiting) && (OldSRWLock & YY_SRWLOCK_Waking) == 0)
+			if ((OldSRWLock & WP_SRWLOCK_Waiting) && (OldSRWLock & WP_SRWLOCK_Waking) == 0)
 			{
-				OldSRWLock -= YY_SRWLOCK_Locked;
+				OldSRWLock -= WP_SRWLOCK_Locked;
 
-				auto NewSRWLock = OldSRWLock | YY_SRWLOCK_Waking;
+				auto NewSRWLock = OldSRWLock | WP_SRWLOCK_Waking;
 				auto CurrentSRWLock = InterlockedCompareExchange((volatile size_t *)SRWLock, NewSRWLock, OldSRWLock);
 
 				if (CurrentSRWLock == OldSRWLock)
@@ -1799,7 +1793,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1812,12 +1806,12 @@ namespace YY
 			_Inout_ PSRWLOCK SRWLock
 			)
 		{
-			if (auto const pAcquireSRWLockShared = try_get_AcquireSRWLockShared())
+			if (auto const pAcquireSRWLockShared = wp_get_AcquireSRWLockShared())
 			{
 				return pAcquireSRWLockShared(SRWLock);
 			}
 
-			YY_SRWLOCK_WAIT_BLOCK StackWaitBlock;
+			WP_SRWLOCK_WAIT_BLOCK StackWaitBlock;
 			bool bOptimize;
 
 			//尝试给全新的锁加锁	
@@ -1834,7 +1828,7 @@ namespace YY
 
 			for (;; OldSRWLock = *(volatile size_t *)SRWLock)
 			{
-				if ((OldSRWLock & YY_SRWLOCK_Locked) && ((OldSRWLock & YY_SRWLOCK_Waiting) || YY_SRWLOCK_GET_BLOCK(OldSRWLock) == nullptr))
+				if ((OldSRWLock & WP_SRWLOCK_Locked) && ((OldSRWLock & WP_SRWLOCK_Waiting) || WP_SRWLOCK_GET_BLOCK(OldSRWLock) == nullptr))
 				{
 					//if ( RtlpWaitCouldDeadlock() )
 					//    ZwTerminateProcess((HANDLE)0xFFFFFFFF, 0xC000004B);
@@ -1846,15 +1840,15 @@ namespace YY
 
 					bOptimize = false;
 
-					if (OldSRWLock & YY_SRWLOCK_Waiting)
+					if (OldSRWLock & WP_SRWLOCK_Waiting)
 					{
 						//已经有人等待，我们插入一个新的等待块
-						StackWaitBlock.back = YY_SRWLOCK_GET_BLOCK(OldSRWLock);
+						StackWaitBlock.back = WP_SRWLOCK_GET_BLOCK(OldSRWLock);
 						StackWaitBlock.notify = nullptr;
 
-						NewSRWLock = size_t(&StackWaitBlock) | (OldSRWLock & YY_SRWLOCK_MultipleShared) | (YY_SRWLOCK_Waking | YY_SRWLOCK_Waiting | YY_SRWLOCK_Locked);
+						NewSRWLock = size_t(&StackWaitBlock) | (OldSRWLock & WP_SRWLOCK_MultipleShared) | (WP_SRWLOCK_Waking | WP_SRWLOCK_Waiting | WP_SRWLOCK_Locked);
 
-						if ((OldSRWLock & YY_SRWLOCK_Waking) == 0)
+						if ((OldSRWLock & WP_SRWLOCK_Waking) == 0)
 						{
 							bOptimize = true;
 						}
@@ -1862,7 +1856,7 @@ namespace YY
 					else
 					{
 						StackWaitBlock.notify = &StackWaitBlock;
-						NewSRWLock = size_t(&StackWaitBlock) | (YY_SRWLOCK_Waiting | YY_SRWLOCK_Locked);
+						NewSRWLock = size_t(&StackWaitBlock) | (WP_SRWLOCK_Waiting | WP_SRWLOCK_Locked);
 					}
 
 
@@ -1876,7 +1870,7 @@ namespace YY
 						}
 
 						auto GlobalKeyedEventHandle = internal::GetGlobalKeyedEventHandle();
-						auto pNtWaitForKeyedEvent = try_get_NtWaitForKeyedEvent();
+						auto pNtWaitForKeyedEvent = wp_get_NtWaitForKeyedEvent();
 						if (!pNtWaitForKeyedEvent)
 						{
 							internal::RaiseStatus(STATUS_RESOURCE_NOT_OWNED);
@@ -1901,15 +1895,15 @@ namespace YY
 				}
 				else
 				{
-					if (OldSRWLock & YY_SRWLOCK_Waiting)
+					if (OldSRWLock & WP_SRWLOCK_Waiting)
 					{
-						//既然有人在等待锁，那么YY_SRWLOCK_Locked应该重新加上
-						NewSRWLock = OldSRWLock | YY_SRWLOCK_Locked;
+						//既然有人在等待锁，那么WP_SRWLOCK_Locked应该重新加上
+						NewSRWLock = OldSRWLock | WP_SRWLOCK_Locked;
 					}
 					else
 					{
 						//没有人等待，那么单纯加个 0x10即可
-						NewSRWLock = (OldSRWLock + 0x10) | YY_SRWLOCK_Locked;
+						NewSRWLock = (OldSRWLock + 0x10) | WP_SRWLOCK_Locked;
 					}
 
 					if (InterlockedCompareExchange((volatile size_t *)SRWLock, NewSRWLock, OldSRWLock) == OldSRWLock)
@@ -1924,7 +1918,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Windows 7 [desktop apps | UWP apps] 
 		//Windows Server 2008 R2 [desktop apps | UWP apps]
@@ -1937,7 +1931,7 @@ namespace YY
 			_Inout_ PSRWLOCK SRWLock
 			)
 		{
-			if (auto const pTryAcquireSRWLockShared = try_get_TryAcquireSRWLockShared())
+			if (auto const pTryAcquireSRWLockShared = wp_get_TryAcquireSRWLockShared())
 			{
 				return pTryAcquireSRWLockShared(SRWLock);
 			}
@@ -1953,7 +1947,7 @@ namespace YY
 
 			for (;;)
 			{
-				if ((OldSRWLock & YY_SRWLOCK_Locked) && ((OldSRWLock & YY_SRWLOCK_Waiting) || YY_SRWLOCK_GET_BLOCK(OldSRWLock) == nullptr))
+				if ((OldSRWLock & WP_SRWLOCK_Locked) && ((OldSRWLock & WP_SRWLOCK_Waiting) || WP_SRWLOCK_GET_BLOCK(OldSRWLock) == nullptr))
 				{
 					//正在被锁定中
 					return FALSE;
@@ -1962,10 +1956,10 @@ namespace YY
 				{
 					size_t NewSRWLock;
 
-					if (OldSRWLock & YY_SRWLOCK_Waiting)
-						NewSRWLock = OldSRWLock | YY_SRWLOCK_Locked;
+					if (OldSRWLock & WP_SRWLOCK_Waiting)
+						NewSRWLock = OldSRWLock | WP_SRWLOCK_Locked;
 					else
-						NewSRWLock = (OldSRWLock + 0x10) | YY_SRWLOCK_Locked;
+						NewSRWLock = (OldSRWLock + 0x10) | WP_SRWLOCK_Locked;
 
 					if (InterlockedCompareExchange((volatile size_t*)SRWLock, NewSRWLock, OldSRWLock) == OldSRWLock)
 					{
@@ -1982,7 +1976,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -1995,7 +1989,7 @@ namespace YY
 			_Inout_ PSRWLOCK SRWLock
 			)
 		{
-			if (auto const pReleaseSRWLockShared = try_get_ReleaseSRWLockShared())
+			if (auto const pReleaseSRWLockShared = wp_get_ReleaseSRWLockShared())
 			{
 				return pReleaseSRWLockShared(SRWLock);
 			}
@@ -2010,18 +2004,18 @@ namespace YY
 				return;
 			}
 
-			if ((OldSRWLock & YY_SRWLOCK_Locked) == 0)
+			if ((OldSRWLock & WP_SRWLOCK_Locked) == 0)
 			{
 				internal::RaiseStatus(STATUS_RESOURCE_NOT_OWNED);
 			}
 
 			for (;;)
 			{
-				if (OldSRWLock & YY_SRWLOCK_Waiting)
+				if (OldSRWLock & WP_SRWLOCK_Waiting)
 				{
-					if (OldSRWLock & YY_SRWLOCK_MultipleShared)
+					if (OldSRWLock & WP_SRWLOCK_MultipleShared)
 					{
-						auto pLastNode = YY_SRWLOCK_GET_BLOCK(OldSRWLock);
+						auto pLastNode = WP_SRWLOCK_GET_BLOCK(OldSRWLock);
 
 						for (; pLastNode->notify == nullptr; pLastNode = pLastNode->back);
 
@@ -2040,10 +2034,10 @@ namespace YY
 
 					for (;;)
 					{
-						auto NewSRWLock = OldSRWLock & (~(YY_SRWLOCK_MultipleShared | YY_SRWLOCK_Locked));
+						auto NewSRWLock = OldSRWLock & (~(WP_SRWLOCK_MultipleShared | WP_SRWLOCK_Locked));
 						size_t LastSRWLock;
 
-						if (OldSRWLock & YY_SRWLOCK_Waking)
+						if (OldSRWLock & WP_SRWLOCK_Waking)
 						{
 							LastSRWLock = InterlockedCompareExchange((volatile size_t *)SRWLock, NewSRWLock, OldSRWLock);
 
@@ -2052,7 +2046,7 @@ namespace YY
 						}
 						else
 						{
-							NewSRWLock |= YY_SRWLOCK_Waking;
+							NewSRWLock |= WP_SRWLOCK_Waking;
 
 							LastSRWLock = InterlockedCompareExchange((volatile size_t *)SRWLock, NewSRWLock, OldSRWLock);
 							if (LastSRWLock == OldSRWLock)
@@ -2066,7 +2060,7 @@ namespace YY
 				}
 				else
 				{
-					auto NewSRWLock = size_t(YY_SRWLOCK_GET_BLOCK(OldSRWLock)) <= 0x10 ? 0 : OldSRWLock - 0x10;
+					auto NewSRWLock = size_t(WP_SRWLOCK_GET_BLOCK(OldSRWLock)) <= 0x10 ? 0 : OldSRWLock - 0x10;
 
 					auto LastSRWLock = InterlockedCompareExchange((volatile size_t *)SRWLock, NewSRWLock, OldSRWLock);
 					if (LastSRWLock == OldSRWLock)
@@ -2079,7 +2073,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -2097,7 +2091,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -2112,12 +2106,12 @@ namespace YY
 			_In_    DWORD               dwMilliseconds
 			)
 		{
-			if (auto const pSleepConditionVariableCS = try_get_SleepConditionVariableCS())
+			if (auto const pSleepConditionVariableCS = wp_get_SleepConditionVariableCS())
 			{
 				return pSleepConditionVariableCS(ConditionVariable, CriticalSection, dwMilliseconds);
 			}
 
-			YY_CV_WAIT_BLOCK StackWaitBlock;
+			WP_CV_WAIT_BLOCK StackWaitBlock;
 
 			StackWaitBlock.next = nullptr;
 			StackWaitBlock.flag = 2;
@@ -2129,8 +2123,8 @@ namespace YY
 
 			for (;;)
 			{
-				NewConditionVariable = size_t(&StackWaitBlock) | (OldConditionVariable & YY_CV_MASK);
-				StackWaitBlock.back = YY_CV_GET_BLOCK(OldConditionVariable);
+				NewConditionVariable = size_t(&StackWaitBlock) | (OldConditionVariable & WP_CV_MASK);
+				StackWaitBlock.back = WP_CV_GET_BLOCK(OldConditionVariable);
 
 				if (StackWaitBlock.back)
 				{
@@ -2161,7 +2155,7 @@ namespace YY
 
 
 			auto GlobalKeyedEventHandle = internal::GetGlobalKeyedEventHandle();
-			auto pNtWaitForKeyedEvent = try_get_NtWaitForKeyedEvent();
+			auto pNtWaitForKeyedEvent = wp_get_NtWaitForKeyedEvent();
 			if (!pNtWaitForKeyedEvent)
 			{
 				internal::RaiseStatus(STATUS_RESOURCE_NOT_OWNED);
@@ -2200,7 +2194,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -2216,12 +2210,12 @@ namespace YY
 			_In_ ULONG Flags
 			)
 		{
-			if (auto const pSleepConditionVariableSRW = try_get_SleepConditionVariableSRW())
+			if (auto const pSleepConditionVariableSRW = wp_get_SleepConditionVariableSRW())
 			{
 				return pSleepConditionVariableSRW(ConditionVariable, SRWLock, dwMilliseconds, Flags);
 			}
 
-			YY_CV_WAIT_BLOCK StackWaitBlock;
+			WP_CV_WAIT_BLOCK StackWaitBlock;
 
 			NTSTATUS Status = 0;
 
@@ -2247,9 +2241,9 @@ namespace YY
 
 				for (;;)
 				{
-					New = size_t(&StackWaitBlock) | (Current & YY_CV_MASK);
+					New = size_t(&StackWaitBlock) | (Current & WP_CV_MASK);
 
-					if (StackWaitBlock.back = YY_CV_GET_BLOCK(Current))
+					if (StackWaitBlock.back = WP_CV_GET_BLOCK(Current))
 					{
 						StackWaitBlock.notify = nullptr;
 
@@ -2283,7 +2277,7 @@ namespace YY
 				}
 
 				auto GlobalKeyedEventHandle = internal::GetGlobalKeyedEventHandle();
-				auto pNtWaitForKeyedEvent = try_get_NtWaitForKeyedEvent();
+				auto pNtWaitForKeyedEvent = wp_get_NtWaitForKeyedEvent();
 				if (!pNtWaitForKeyedEvent)
 				{
 					internal::RaiseStatus(STATUS_RESOURCE_NOT_OWNED);
@@ -2327,7 +2321,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -2340,7 +2334,7 @@ namespace YY
 			_Inout_ PCONDITION_VARIABLE ConditionVariable
 			)
 		{
-			if (auto const pWakeConditionVariable = try_get_WakeConditionVariable())
+			if (auto const pWakeConditionVariable = wp_get_WakeConditionVariable())
 			{
 				return pWakeConditionVariable(ConditionVariable);
 			}
@@ -2375,7 +2369,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -2388,7 +2382,7 @@ namespace YY
 			_Inout_ PCONDITION_VARIABLE ConditionVariable
 			)
 		{
-			if (auto const pWakeAllConditionVariable = try_get_WakeAllConditionVariable())
+			if (auto const pWakeAllConditionVariable = wp_get_WakeAllConditionVariable())
 			{
 				return pWakeAllConditionVariable(ConditionVariable);
 			}
@@ -2410,14 +2404,14 @@ namespace YY
 					if (Last == Current)
 					{
 						auto GlobalKeyedEventHandle = internal::GetGlobalKeyedEventHandle();
-						auto pNtReleaseKeyedEvent = try_get_NtReleaseKeyedEvent();
+						auto pNtReleaseKeyedEvent = wp_get_NtReleaseKeyedEvent();
 
 						if (!pNtReleaseKeyedEvent)
 						{
 							internal::RaiseStatus(STATUS_RESOURCE_NOT_OWNED);
 						}
 
-						for (auto pBlock = YY_CV_GET_BLOCK(Current); pBlock;)
+						for (auto pBlock = WP_CV_GET_BLOCK(Current); pBlock;)
 						{
 							auto Tmp = pBlock->back;
 
@@ -2437,7 +2431,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps only]
 		//Windows Server 2012 [desktop apps only]
@@ -2452,12 +2446,12 @@ namespace YY
 			_In_ LONG lSpinCount
 			)
 		{
-			if (auto const pEnterSynchronizationBarrier = try_get_InitializeSynchronizationBarrier())
+			if (auto const pEnterSynchronizationBarrier = wp_get_InitializeSynchronizationBarrier())
 			{
 				return pEnterSynchronizationBarrier(lpBarrier, lTotalThreads, lSpinCount);
 			}
 
-			auto pYYBarrier = (YY_BARRIER*)lpBarrier;
+			auto pYYBarrier = (WP_BARRIER*)lpBarrier;
 
 			pYYBarrier->lTotalThreads = lTotalThreads;
 			pYYBarrier->lRemainderThreads = lTotalThreads;
@@ -2480,7 +2474,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps only]
 		//Windows Server 2012 [desktop apps only]
@@ -2494,7 +2488,7 @@ namespace YY
 			_In_ DWORD dwFlags
 			)
 		{
-			if (auto const pEnterSynchronizationBarrier = try_get_EnterSynchronizationBarrier())
+			if (auto const pEnterSynchronizationBarrier = wp_get_EnterSynchronizationBarrier())
 			{
 				return pEnterSynchronizationBarrier(lpBarrier, dwFlags);
 			}
@@ -2510,7 +2504,7 @@ namespace YY
 				dwRtlBarrierFlags |= 0x10000;
 
 
-			auto pYYBarrier = (YY_BARRIER*)lpBarrier;
+			auto pYYBarrier = (WP_BARRIER*)lpBarrier;
 
 
 			auto Current = InterlockedDecrement(&pYYBarrier->lRemainderThreads);
@@ -2617,7 +2611,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps only]
 		//Windows Server 2012 [desktop apps only]
@@ -2630,12 +2624,12 @@ namespace YY
 			_Inout_ LPSYNCHRONIZATION_BARRIER lpBarrier
 			)
 		{
-			if (auto const pDeleteSynchronizationBarrier = try_get_DeleteSynchronizationBarrier())
+			if (auto const pDeleteSynchronizationBarrier = wp_get_DeleteSynchronizationBarrier())
 			{
 				return pDeleteSynchronizationBarrier(lpBarrier);
 			}
 
-			auto pYYBarrier = (YY_BARRIER*)lpBarrier;
+			auto pYYBarrier = (WP_BARRIER*)lpBarrier;
 
 			//自旋等待所有 EnterSynchronizationBarrier 都进入就绪
 			for (; pYYBarrier->lTotalThreads != (pYYBarrier->lRemainderThreads & 0x7FFFFFFF);)
@@ -2657,7 +2651,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps] 
@@ -2673,7 +2667,7 @@ namespace YY
 			_In_opt_ DWORD dwMilliseconds
 			)
 		{
-			if (auto const pWaitOnAddress = try_get_WaitOnAddress())
+			if (auto const pWaitOnAddress = wp_get_WaitOnAddress())
 			{
 				return pWaitOnAddress(Address, CompareAddress, AddressSize, dwMilliseconds);
 			}
@@ -2686,7 +2680,7 @@ namespace YY
 				return FALSE;
 			}
 
-			YY_ADDRESS_WAIT_BLOCK WaitBlock;
+			WP_ADDRESS_WAIT_BLOCK WaitBlock;
 			WaitBlock.Address = Address;
 			WaitBlock.back = nullptr;
 			WaitBlock.notify = nullptr;
@@ -2740,7 +2734,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps] 
@@ -2753,7 +2747,7 @@ namespace YY
 			_In_ PVOID Address
 			)
 		{
-			if (auto const pWakeByAddressSingle = try_get_WakeByAddressSingle())
+			if (auto const pWakeByAddressSingle = wp_get_WakeByAddressSingle())
 			{
 				return pWakeByAddressSingle(Address);
 			}
@@ -2763,7 +2757,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Windows 8 [desktop apps | UWP apps]
 		//Windows Server 2012 [desktop apps | UWP apps] 
@@ -2776,7 +2770,7 @@ namespace YY
 			_In_ PVOID Address
 			)
 		{
-			if (auto const pWakeByAddressAll = try_get_WakeByAddressAll())
+			if (auto const pWakeByAddressAll = wp_get_WakeByAddressAll())
 			{
 				return pWakeByAddressAll(Address);
 			}
@@ -2784,6 +2778,3 @@ namespace YY
 			internal::RtlpWakeByAddress(Address, TRUE);
 		}
 #endif
-	}//namespace Thunks
-
-} //namespace YY
