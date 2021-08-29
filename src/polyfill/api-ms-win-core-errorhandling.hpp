@@ -63,7 +63,7 @@ __DEFINE_THUNK(kernel32, 0, DWORD, WINAPI, GetThreadErrorMode, VOID)
         return pGetThreadErrorMode();
     }
 
-    return GetErrorMode();
+    return wp_GetErrorMode();
 }
 #endif
 

@@ -92,7 +92,7 @@ __DEFINE_THUNK(
     {
         //不支持GetCurrentProcessorNumberEx时假定用户只有一组CPU
         ProcNumber->Group = 0;
-        ProcNumber->Number = GetCurrentProcessorNumber();
+        ProcNumber->Number = wp_GetCurrentProcessorNumber();
         ProcNumber->Reserved = 0;
     }
 }

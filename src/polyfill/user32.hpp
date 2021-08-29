@@ -13,10 +13,10 @@ static UINT __fastcall GetDpiForSystemDownlevel()
 
     int nDpiX = USER_DEFAULT_SCREEN_DPI;
 
-    if (HDC hdc = GetDC(NULL))
+    if (HDC hdc = wp_get_GetDC()(NULL))
     {
-        nDpiX = GetDeviceCaps(hdc, LOGPIXELSX);
-        ReleaseDC(NULL, hdc);
+        nDpiX = wp_get_GetDeviceCaps()(hdc, LOGPIXELSX);
+        wp_get_ReleaseDC()(NULL, hdc);
     }
 
     return nDPICache = nDpiX;
@@ -101,7 +101,7 @@ __DEFINE_THUNK(
             break;
         }
 
-        auto hr = SetProcessDpiAwareness(DpiAwareness);
+        auto hr = wp_SetProcessDpiAwareness(DpiAwareness);
 
         if (SUCCEEDED(hr))
         {
@@ -156,10 +156,10 @@ __DEFINE_THUNK(user32, 4, UINT, WINAPI, GetDpiForWindow, _In_ HWND hwnd)
         return pGetDpiForWindow(hwnd);
     }
 
-    if (HMONITOR hMonitor = MonitorFromWindow(hwnd, MONITOR_DEFAULTTOPRIMARY))
+    if (HMONITOR hMonitor = wp_get_MonitorFromWindow()(hwnd, MONITOR_DEFAULTTOPRIMARY))
     {
         UINT nDpiX, nDpiY;
-        if (SUCCEEDED(GetDpiForMonitor(hMonitor, MDT_EFFECTIVE_DPI, &nDpiX, &nDpiY)))
+        if (SUCCEEDED(wp_GetDpiForMonitor(hMonitor, MDT_EFFECTIVE_DPI, &nDpiX, &nDpiY)))
         {
             return nDpiX;
         }
@@ -179,7 +179,7 @@ __DEFINE_THUNK(user32, 8, int, WINAPI, GetSystemMetricsForDpi, _In_ int nIndex, 
         return pGetSystemMetricsForDpi(nIndex, dpi);
     }
 
-    auto nValue = GetSystemMetrics(nIndex);
+    auto nValue = wp_get_GetSystemMetrics()(nIndex);
 
     if (nValue != 0)
     {
@@ -259,7 +259,7 @@ __DEFINE_THUNK(
 
     RECT FrameRect = {};
 
-    if (!AdjustWindowRectEx(&FrameRect, dwStyle, bMenu, dwExStyle))
+    if (!wp_get_AdjustWindowRectEx()(&FrameRect, dwStyle, bMenu, dwExStyle))
     {
         return FALSE;
     }
@@ -303,7 +303,7 @@ __DEFINE_THUNK(
         return pSystemParametersInfoForDpi(uiAction, uiParam, pvParam, fWinIni, dpi);
     }
 
-    if (!SystemParametersInfoW(uiAction, uiParam, pvParam, fWinIni))
+    if (!wp_get_SystemParametersInfoW()(uiAction, uiParam, pvParam, fWinIni))
         return FALSE;
 
     if (SPI_GETICONTITLELOGFONT == uiAction || SPI_GETICONMETRICS == uiAction ||

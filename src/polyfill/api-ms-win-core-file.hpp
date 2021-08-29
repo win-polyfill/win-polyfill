@@ -746,7 +746,7 @@ __DEFINE_THUNK(
         }
 
         auto cchReturn =
-            GetFinalPathNameByHandleW(hFile, szFilePathUnicode, cchszFilePathUnicode, dwFlags);
+            wp_GetFinalPathNameByHandleW(hFile, szFilePathUnicode, cchszFilePathUnicode, dwFlags);
 
         if (cchReturn == 0)
         {
