@@ -107,5 +107,5 @@ namespace YY
 			return SetTimeZoneInformation((TIME_ZONE_INFORMATION*)lpTimeZoneInformation);
 		}
 #endif
-	}
-}
+	} //namespace Thunks
+} //namespace YY

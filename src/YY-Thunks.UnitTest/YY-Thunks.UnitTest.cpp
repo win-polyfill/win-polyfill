@@ -242,8 +242,8 @@ namespace YY
 
 			}
 		}
-	}
-}
+	} //namespace Thunks
+} //namespace YY
 
 
 #ifdef __DEFINE_THUNK
