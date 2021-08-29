@@ -3,15 +3,6 @@
 #ifndef _WIN_POLYFILL_KM_H_
 #define _WIN_POLYFILL_KM_H_
 
-#ifndef UMDF_USING_NTSTATUS
-#define UMDF_USING_NTSTATUS
-#endif
-#include <Windows.h>
-#include <ntstatus.h>
-#include <winnt.h>
-
-// #pragma comment(lib,"ntdll.lib")
-
 #define FILE_SUPERSEDE 0x00000000
 #define FILE_OPEN 0x00000001
 #define FILE_CREATE 0x00000002

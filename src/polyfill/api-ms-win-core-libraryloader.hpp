@@ -607,7 +607,7 @@ __DEFINE_THUNK(
 #endif
         if (Status < 0)
         {
-            YY::Thunks::internal::BaseSetLastNTError(Status);
+            internal::BaseSetLastNTError(Status);
         }
 
         return hModule;
