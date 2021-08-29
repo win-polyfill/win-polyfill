@@ -1,12 +1,14 @@
-﻿# YY-Thunks Thunks 清单
+﻿# win-polyfill list
 
-此表展示了YY-Thunks（鸭船）可以解决的函数不存在问题，欢迎大家扩充！
+A list of Win32 APIs that polyfilled for old Windows.
+Polyfill more Win32 APIs are welcome.
 
-> 开头带`*`的函数并不建议使用，仅用于编译通过处理，如果使用可能导致老版本系统无法充分发挥性能。
+> Do not use API with leading `*`, just getting the compiling procedure working. If we used, then
+> the old Windows system will have performance penaty.
 
-| 函数                                                                                                                           | Fallback
+| Function                                                                                                                           | Fallback
 | ----                                                                                                                           | -----------
-| [DecodePointer](https://msdn.microsoft.com/library/bb432242.aspx)                                                              | 不存在时，返回指针本身。
+| [DecodePointer](https://msdn.microsoft.com/library/bb432242.aspx)                                                              | When not exist, return the pointer itself.
 | [EncodePointer](https://msdn.microsoft.com/library/bb432254.aspx)                                                              | 不存在时，返回指针本身。
 | [RegDeleteKeyExW(A)](https://msdn.microsoft.com/library/windows/desktop/ms724847.aspx)                                         | 不存在时，调用RegDeleteKeyW(A)。
 | [Wow64DisableWow64FsRedirection](https://msdn.microsoft.com/library/windows/desktop/aa365743.aspx)                             | 不存在时，返回FALSE，并设置 LastError = ERROR_INVALID_FUNCTION。
