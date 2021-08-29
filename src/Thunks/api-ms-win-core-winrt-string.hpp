@@ -234,5 +234,5 @@ namespace YY
         }
 #endif
 
-    }
-}
+	} //namespace Thunks
+} //namespace YY

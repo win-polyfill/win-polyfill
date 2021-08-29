@@ -569,5 +569,5 @@ namespace YY
 			return ConvertThreadToFiber(lpParameter);
 		}
 #endif
-	}
-}
+	} //namespace Thunks
+} //namespace YY
