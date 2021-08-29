@@ -130,6 +130,30 @@
         },
         {
             "lib": "user32",
+            "name": "MapWindowPoints"
+        },
+        {
+            "lib": "user32",
+            "name": "UpdateLayeredWindow"
+        },
+        {
+            "lib": "user32",
+            "name": "FindWindowW"
+        },
+        {
+            "lib": "user32",
+            "name": "FindWindowExW"
+        },
+        {
+            "lib": "user32",
+            "name": "GetWindowThreadProcessId"
+        },
+        {
+            "lib": "user32",
+            "name": "ChangeWindowMessageFilter"
+        },
+        {
+            "lib": "user32",
             "name": "GetMessageW"
         },
         {
@@ -481,6 +505,20 @@
         "shlwapi.hpp",
         "user32.hpp",
         "userenv.hpp",
-        "WS2_32.hpp"
+        "WS2_32.hpp",
+        "advapi32.hpp",
+        "d3d11.hpp",
+        "d3d9.hpp",
+        "dbghelp.hpp",
+        "dwmapi-polyfill.hpp",
+        "dwrite.hpp",
+        "dxgi.hpp",
+        "gdi32.hpp",
+        "iphlpapi-polyfill.hpp",
+        "kernel32-polyfill.hpp",
+        "ncrypt.hpp",
+        "shell32-polyfill.hpp",
+        "user32-polyfill.hpp",
+        "uxtheme.hpp"
     ]
 }

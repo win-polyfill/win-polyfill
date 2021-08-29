@@ -95,6 +95,27 @@ static HMODULE try_get_module(WinPolyfillModuleId module_id) noexcept
     case WinPolyfillModuleId::WinPolyfillModuleIdUserenv: {
       return try_get_module_by_name(module_id, L"userenv.dll");
     }
+    case WinPolyfillModuleId::WinPolyfillModuleIdD3d11: {
+      return try_get_module_by_name(module_id, L"d3d11.dll");
+    }
+    case WinPolyfillModuleId::WinPolyfillModuleIdD3d9: {
+      return try_get_module_by_name(module_id, L"d3d9.dll");
+    }
+    case WinPolyfillModuleId::WinPolyfillModuleIdDbghelp: {
+      return try_get_module_by_name(module_id, L"dbghelp.dll");
+    }
+    case WinPolyfillModuleId::WinPolyfillModuleIdDwrite: {
+      return try_get_module_by_name(module_id, L"dwrite.dll");
+    }
+    case WinPolyfillModuleId::WinPolyfillModuleIdDxgi: {
+      return try_get_module_by_name(module_id, L"dxgi.dll");
+    }
+    case WinPolyfillModuleId::WinPolyfillModuleIdNcrypt: {
+      return try_get_module_by_name(module_id, L"ncrypt.dll");
+    }
+    case WinPolyfillModuleId::WinPolyfillModuleIdUxtheme: {
+      return try_get_module_by_name(module_id, L"uxtheme.dll");
+    }
     default: break;
     }
     return nullptr;
@@ -344,6 +365,54 @@ namespace YY
                 return (decltype(&::GetDeviceCaps))try_get_function(
                         &function_info, "GetDeviceCaps",
                         WinPolyfillModuleId::WinPolyfillModuleIdGdi32);
+            }
+
+            decltype(&::MapWindowPoints) try_get_MapWindowPoints()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&::MapWindowPoints))try_get_function(
+                        &function_info, "MapWindowPoints",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUser32);
+            }
+
+            decltype(&::UpdateLayeredWindow) try_get_UpdateLayeredWindow()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&::UpdateLayeredWindow))try_get_function(
+                        &function_info, "UpdateLayeredWindow",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUser32);
+            }
+
+            decltype(&::FindWindowW) try_get_FindWindowW()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&::FindWindowW))try_get_function(
+                        &function_info, "FindWindowW",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUser32);
+            }
+
+            decltype(&::FindWindowExW) try_get_FindWindowExW()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&::FindWindowExW))try_get_function(
+                        &function_info, "FindWindowExW",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUser32);
+            }
+
+            decltype(&::GetWindowThreadProcessId) try_get_GetWindowThreadProcessId()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&::GetWindowThreadProcessId))try_get_function(
+                        &function_info, "GetWindowThreadProcessId",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUser32);
+            }
+
+            decltype(&::ChangeWindowMessageFilter) try_get_ChangeWindowMessageFilter()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&::ChangeWindowMessageFilter))try_get_function(
+                        &function_info, "ChangeWindowMessageFilter",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUser32);
             }
 
             decltype(&::GetMessageW) try_get_GetMessageW()
@@ -3585,6 +3654,302 @@ namespace YY
                         &function_info, "WSAPoll",
                         WinPolyfillModuleId::WinPolyfillModuleIdWs2_32);
             }
+
+            decltype(&YY::Thunks::wp_EventWriteTransfer) try_get_EventWriteTransfer()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_EventWriteTransfer))try_get_function(
+                        &function_info, "EventWriteTransfer",
+                        WinPolyfillModuleId::WinPolyfillModuleIdAdvapi32);
+            }
+
+            decltype(&YY::Thunks::wp_D3D11CreateDevice) try_get_D3D11CreateDevice()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_D3D11CreateDevice))try_get_function(
+                        &function_info, "D3D11CreateDevice",
+                        WinPolyfillModuleId::WinPolyfillModuleIdD3d11);
+            }
+
+            decltype(&YY::Thunks::wp_Direct3DCreate9Ex) try_get_Direct3DCreate9Ex()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_Direct3DCreate9Ex))try_get_function(
+                        &function_info, "Direct3DCreate9Ex",
+                        WinPolyfillModuleId::WinPolyfillModuleIdD3d9);
+            }
+
+            decltype(&YY::Thunks::wp_SymGetSearchPathW) try_get_SymGetSearchPathW()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_SymGetSearchPathW))try_get_function(
+                        &function_info, "SymGetSearchPathW",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDbghelp);
+            }
+
+            decltype(&YY::Thunks::wp_SymSetSearchPathW) try_get_SymSetSearchPathW()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_SymSetSearchPathW))try_get_function(
+                        &function_info, "SymSetSearchPathW",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDbghelp);
+            }
+
+            decltype(&YY::Thunks::wp_DwmDefWindowProc) try_get_DwmDefWindowProc()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_DwmDefWindowProc))try_get_function(
+                        &function_info, "DwmDefWindowProc",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDwmapi);
+            }
+
+            decltype(&YY::Thunks::wp_DwmIsCompositionEnabled) try_get_DwmIsCompositionEnabled()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_DwmIsCompositionEnabled))try_get_function(
+                        &function_info, "DwmIsCompositionEnabled",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDwmapi);
+            }
+
+            decltype(&YY::Thunks::wp_DwmExtendFrameIntoClientArea) try_get_DwmExtendFrameIntoClientArea()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_DwmExtendFrameIntoClientArea))try_get_function(
+                        &function_info, "DwmExtendFrameIntoClientArea",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDwmapi);
+            }
+
+            decltype(&YY::Thunks::wp_DwmInvalidateIconicBitmaps) try_get_DwmInvalidateIconicBitmaps()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_DwmInvalidateIconicBitmaps))try_get_function(
+                        &function_info, "DwmInvalidateIconicBitmaps",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDwmapi);
+            }
+
+            decltype(&YY::Thunks::wp_DwmSetIconicLivePreviewBitmap) try_get_DwmSetIconicLivePreviewBitmap()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_DwmSetIconicLivePreviewBitmap))try_get_function(
+                        &function_info, "DwmSetIconicLivePreviewBitmap",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDwmapi);
+            }
+
+            decltype(&YY::Thunks::wp_DwmSetIconicThumbnail) try_get_DwmSetIconicThumbnail()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_DwmSetIconicThumbnail))try_get_function(
+                        &function_info, "DwmSetIconicThumbnail",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDwmapi);
+            }
+
+            decltype(&YY::Thunks::wp_DwmSetWindowAttribute) try_get_DwmSetWindowAttribute()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_DwmSetWindowAttribute))try_get_function(
+                        &function_info, "DwmSetWindowAttribute",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDwmapi);
+            }
+
+            decltype(&YY::Thunks::wp_DwmGetWindowAttribute) try_get_DwmGetWindowAttribute()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_DwmGetWindowAttribute))try_get_function(
+                        &function_info, "DwmGetWindowAttribute",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDwmapi);
+            }
+
+            decltype(&YY::Thunks::wp_DwmGetColorizationColor) try_get_DwmGetColorizationColor()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_DwmGetColorizationColor))try_get_function(
+                        &function_info, "DwmGetColorizationColor",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDwmapi);
+            }
+
+            decltype(&YY::Thunks::wp_DwmEnableComposition) try_get_DwmEnableComposition()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_DwmEnableComposition))try_get_function(
+                        &function_info, "DwmEnableComposition",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDwmapi);
+            }
+
+            decltype(&YY::Thunks::wp_DWriteCreateFactory) try_get_DWriteCreateFactory()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_DWriteCreateFactory))try_get_function(
+                        &function_info, "DWriteCreateFactory",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDwrite);
+            }
+
+            decltype(&YY::Thunks::wp_CreateDXGIFactory1) try_get_CreateDXGIFactory1()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_CreateDXGIFactory1))try_get_function(
+                        &function_info, "CreateDXGIFactory1",
+                        WinPolyfillModuleId::WinPolyfillModuleIdDxgi);
+            }
+
+            decltype(&YY::Thunks::wp_ConvertInterfaceNameToLuidW) try_get_ConvertInterfaceNameToLuidW()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_ConvertInterfaceNameToLuidW))try_get_function(
+                        &function_info, "ConvertInterfaceNameToLuidW",
+                        WinPolyfillModuleId::WinPolyfillModuleIdIphlpapi);
+            }
+
+            decltype(&YY::Thunks::wp_ConvertInterfaceLuidToNameW) try_get_ConvertInterfaceLuidToNameW()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_ConvertInterfaceLuidToNameW))try_get_function(
+                        &function_info, "ConvertInterfaceLuidToNameW",
+                        WinPolyfillModuleId::WinPolyfillModuleIdIphlpapi);
+            }
+
+            decltype(&YY::Thunks::wp_ConvertInterfaceLuidToIndex) try_get_ConvertInterfaceLuidToIndex()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_ConvertInterfaceLuidToIndex))try_get_function(
+                        &function_info, "ConvertInterfaceLuidToIndex",
+                        WinPolyfillModuleId::WinPolyfillModuleIdIphlpapi);
+            }
+
+            decltype(&YY::Thunks::wp_ConvertInterfaceIndexToLuid) try_get_ConvertInterfaceIndexToLuid()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_ConvertInterfaceIndexToLuid))try_get_function(
+                        &function_info, "ConvertInterfaceIndexToLuid",
+                        WinPolyfillModuleId::WinPolyfillModuleIdIphlpapi);
+            }
+
+            decltype(&YY::Thunks::wp_CreateNamedPipeW) try_get_CreateNamedPipeW()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_CreateNamedPipeW))try_get_function(
+                        &function_info, "CreateNamedPipeW",
+                        WinPolyfillModuleId::WinPolyfillModuleIdKernel32);
+            }
+
+            decltype(&YY::Thunks::wp_GetUserPreferredUILanguages) try_get_GetUserPreferredUILanguages()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_GetUserPreferredUILanguages))try_get_function(
+                        &function_info, "GetUserPreferredUILanguages",
+                        WinPolyfillModuleId::WinPolyfillModuleIdKernel32);
+            }
+
+            decltype(&YY::Thunks::wp_QueryUnbiasedInterruptTime) try_get_QueryUnbiasedInterruptTime()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_QueryUnbiasedInterruptTime))try_get_function(
+                        &function_info, "QueryUnbiasedInterruptTime",
+                        WinPolyfillModuleId::WinPolyfillModuleIdKernel32);
+            }
+
+            decltype(&YY::Thunks::wp_NCryptFreeObject) try_get_NCryptFreeObject()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_NCryptFreeObject))try_get_function(
+                        &function_info, "NCryptFreeObject",
+                        WinPolyfillModuleId::WinPolyfillModuleIdNcrypt);
+            }
+
+            decltype(&YY::Thunks::wp_NCryptSignHash) try_get_NCryptSignHash()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_NCryptSignHash))try_get_function(
+                        &function_info, "NCryptSignHash",
+                        WinPolyfillModuleId::WinPolyfillModuleIdNcrypt);
+            }
+
+            decltype(&YY::Thunks::wp_SHGetStockIconInfo) try_get_SHGetStockIconInfo()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_SHGetStockIconInfo))try_get_function(
+                        &function_info, "SHGetStockIconInfo",
+                        WinPolyfillModuleId::WinPolyfillModuleIdShell32);
+            }
+
+            decltype(&YY::Thunks::wp_Shell_NotifyIconGetRect) try_get_Shell_NotifyIconGetRect()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_Shell_NotifyIconGetRect))try_get_function(
+                        &function_info, "Shell_NotifyIconGetRect",
+                        WinPolyfillModuleId::WinPolyfillModuleIdShell32);
+            }
+
+            decltype(&YY::Thunks::wp_SetCurrentProcessExplicitAppUserModelID) try_get_SetCurrentProcessExplicitAppUserModelID()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_SetCurrentProcessExplicitAppUserModelID))try_get_function(
+                        &function_info, "SetCurrentProcessExplicitAppUserModelID",
+                        WinPolyfillModuleId::WinPolyfillModuleIdShell32);
+            }
+
+            decltype(&YY::Thunks::wp_UpdateLayeredWindowIndirect) try_get_UpdateLayeredWindowIndirect()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_UpdateLayeredWindowIndirect))try_get_function(
+                        &function_info, "UpdateLayeredWindowIndirect",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUser32);
+            }
+
+            decltype(&YY::Thunks::wp_RegisterPowerSettingNotification) try_get_RegisterPowerSettingNotification()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_RegisterPowerSettingNotification))try_get_function(
+                        &function_info, "RegisterPowerSettingNotification",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUser32);
+            }
+
+            decltype(&YY::Thunks::wp_UnregisterPowerSettingNotification) try_get_UnregisterPowerSettingNotification()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_UnregisterPowerSettingNotification))try_get_function(
+                        &function_info, "UnregisterPowerSettingNotification",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUser32);
+            }
+
+            decltype(&YY::Thunks::wp_ChangeWindowMessageFilterEx) try_get_ChangeWindowMessageFilterEx()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_ChangeWindowMessageFilterEx))try_get_function(
+                        &function_info, "ChangeWindowMessageFilterEx",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUser32);
+            }
+
+            decltype(&YY::Thunks::wp_DrawThemeTextEx) try_get_DrawThemeTextEx()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_DrawThemeTextEx))try_get_function(
+                        &function_info, "DrawThemeTextEx",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUxtheme);
+            }
+
+            decltype(&YY::Thunks::wp_SetWindowThemeAttribute) try_get_SetWindowThemeAttribute()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_SetWindowThemeAttribute))try_get_function(
+                        &function_info, "SetWindowThemeAttribute",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUxtheme);
+            }
+
+            decltype(&YY::Thunks::wp_GetThemeTransitionDuration) try_get_GetThemeTransitionDuration()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_GetThemeTransitionDuration))try_get_function(
+                        &function_info, "GetThemeTransitionDuration",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUxtheme);
+            }
+
+            decltype(&YY::Thunks::wp_GetThemePartSize) try_get_GetThemePartSize()
+            {
+                static internal::WinPolyfillFunction function_info;
+                return (decltype(&YY::Thunks::wp_GetThemePartSize))try_get_function(
+                        &function_info, "GetThemePartSize",
+                        WinPolyfillModuleId::WinPolyfillModuleIdUxtheme);
+            }
         }
     }
 }
@@ -3619,6 +3984,12 @@ namespace YY
 #define AddDllDirectory try_get_AddDllDirectory()
 #define SystemFunction036 try_get_SystemFunction036()
 #define GetDeviceCaps try_get_GetDeviceCaps()
+#define MapWindowPoints try_get_MapWindowPoints()
+#define UpdateLayeredWindow try_get_UpdateLayeredWindow()
+#define FindWindowW try_get_FindWindowW()
+#define FindWindowExW try_get_FindWindowExW()
+#define GetWindowThreadProcessId try_get_GetWindowThreadProcessId()
+#define ChangeWindowMessageFilter try_get_ChangeWindowMessageFilter()
 #define GetMessageW try_get_GetMessageW()
 #define TranslateMessage try_get_TranslateMessage()
 #define DispatchMessageW try_get_DispatchMessageW()
@@ -4025,3 +4396,40 @@ namespace YY
 #define inet_ntop wp_inet_ntop
 #define InetNtopW wp_InetNtopW
 #define WSAPoll wp_WSAPoll
+#define EventWriteTransfer wp_EventWriteTransfer
+#define D3D11CreateDevice wp_D3D11CreateDevice
+#define Direct3DCreate9Ex wp_Direct3DCreate9Ex
+#define SymGetSearchPathW wp_SymGetSearchPathW
+#define SymSetSearchPathW wp_SymSetSearchPathW
+#define DwmDefWindowProc wp_DwmDefWindowProc
+#define DwmIsCompositionEnabled wp_DwmIsCompositionEnabled
+#define DwmExtendFrameIntoClientArea wp_DwmExtendFrameIntoClientArea
+#define DwmInvalidateIconicBitmaps wp_DwmInvalidateIconicBitmaps
+#define DwmSetIconicLivePreviewBitmap wp_DwmSetIconicLivePreviewBitmap
+#define DwmSetIconicThumbnail wp_DwmSetIconicThumbnail
+#define DwmSetWindowAttribute wp_DwmSetWindowAttribute
+#define DwmGetWindowAttribute wp_DwmGetWindowAttribute
+#define DwmGetColorizationColor wp_DwmGetColorizationColor
+#define DwmEnableComposition wp_DwmEnableComposition
+#define DWriteCreateFactory wp_DWriteCreateFactory
+#define CreateDXGIFactory1 wp_CreateDXGIFactory1
+#define ConvertInterfaceNameToLuidW wp_ConvertInterfaceNameToLuidW
+#define ConvertInterfaceLuidToNameW wp_ConvertInterfaceLuidToNameW
+#define ConvertInterfaceLuidToIndex wp_ConvertInterfaceLuidToIndex
+#define ConvertInterfaceIndexToLuid wp_ConvertInterfaceIndexToLuid
+#define CreateNamedPipeW wp_CreateNamedPipeW
+#define GetUserPreferredUILanguages wp_GetUserPreferredUILanguages
+#define QueryUnbiasedInterruptTime wp_QueryUnbiasedInterruptTime
+#define NCryptFreeObject wp_NCryptFreeObject
+#define NCryptSignHash wp_NCryptSignHash
+#define SHGetStockIconInfo wp_SHGetStockIconInfo
+#define Shell_NotifyIconGetRect wp_Shell_NotifyIconGetRect
+#define SetCurrentProcessExplicitAppUserModelID wp_SetCurrentProcessExplicitAppUserModelID
+#define UpdateLayeredWindowIndirect wp_UpdateLayeredWindowIndirect
+#define RegisterPowerSettingNotification wp_RegisterPowerSettingNotification
+#define UnregisterPowerSettingNotification wp_UnregisterPowerSettingNotification
+#define ChangeWindowMessageFilterEx wp_ChangeWindowMessageFilterEx
+#define DrawThemeTextEx wp_DrawThemeTextEx
+#define SetWindowThemeAttribute wp_SetWindowThemeAttribute
+#define GetThemeTransitionDuration wp_GetThemeTransitionDuration
+#define GetThemePartSize wp_GetThemePartSize

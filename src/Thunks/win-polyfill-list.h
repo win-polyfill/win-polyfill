@@ -51,3 +51,24 @@
 #include "WS2_32.hpp"
 
 #include "shcore.hpp"
+
+namespace YY
+{
+    namespace Thunks
+    {
+#include "advapi32.hpp"
+#include "d3d11.hpp"
+#include "d3d9.hpp"
+#include "dbghelp.hpp"
+#include "dwmapi-polyfill.hpp"
+#include "dwrite.hpp"
+#include "dxgi.hpp"
+#include "gdi32.hpp"
+#include "iphlpapi-polyfill.hpp"
+#include "kernel32-polyfill.hpp"
+#include "ncrypt.hpp"
+#include "shell32-polyfill.hpp"
+#include "user32-polyfill.hpp"
+#include "uxtheme.hpp"
+    }
+}
