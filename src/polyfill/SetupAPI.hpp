@@ -4,8 +4,6 @@
 namespace internal {
 #if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
-#pragma comment(lib, "Setupapi.lib")
-
 static int __fastcall DevicePropertyKeyToPropertyType(
     CONST DEVPROPKEY *PropertyKey,
     _Out_ DEVPROPTYPE *pPropertyType)
@@ -156,7 +154,7 @@ __DEFINE_THUNK(
         return FALSE;
     }
 
-    if (!SetupDiGetDeviceRegistryPropertyW(
+    if (!wp_get_SetupDiGetDeviceRegistryPropertyW()(
             DeviceInfoSet,
             DeviceInfoData,
             Property,
@@ -226,7 +224,7 @@ __DEFINE_THUNK(
         return FALSE;
     }
 
-    return SetupDiSetDeviceRegistryPropertyW(
+    return wp_get_SetupDiSetDeviceRegistryPropertyW()(
         DeviceInfoSet, DeviceInfoData, Property, PropertyBuffer, PropertyBufferSize);
 }
 #endif
@@ -270,7 +268,7 @@ __DEFINE_THUNK(
         return FALSE;
     }
 
-    if (!SetupDiGetClassRegistryPropertyW(
+    if (!wp_get_SetupDiGetClassRegistryPropertyW()(
             ClassGuid,
             Property,
             nullptr,
@@ -335,7 +333,7 @@ __DEFINE_THUNK(
         return FALSE;
     }
 
-    if (!SetupDiGetClassRegistryPropertyW(
+    if (!wp_get_SetupDiGetClassRegistryPropertyW()(
             ClassGuid,
             Property,
             nullptr,
@@ -395,7 +393,7 @@ __DEFINE_THUNK(
         return FALSE;
     }
 
-    return SetupDiSetClassRegistryPropertyW(
+    return wp_get_SetupDiSetClassRegistryPropertyW()(
         ClassGuid, Property, PropertyBuffer, PropertyBufferSize, nullptr, nullptr);
 }
 #endif
@@ -447,7 +445,7 @@ __DEFINE_THUNK(
         return FALSE;
     }
 
-    return SetupDiSetClassRegistryPropertyW(
+    return wp_get_SetupDiSetClassRegistryPropertyW()(
         ClassGuid, Property, PropertyBuffer, PropertyBufferSize, MachineName, Reserved);
 }
 #endif

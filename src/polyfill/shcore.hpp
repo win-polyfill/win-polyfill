@@ -53,7 +53,7 @@ __DEFINE_THUNK(
 
     if (value != PROCESS_DPI_UNAWARE)
     {
-        return SetProcessDPIAware() ? S_OK : E_FAIL;
+        return wp_SetProcessDPIAware() ? S_OK : E_FAIL;
     }
 
     return S_OK;

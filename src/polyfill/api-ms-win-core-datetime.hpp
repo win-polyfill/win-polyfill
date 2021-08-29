@@ -23,7 +23,7 @@ __DEFINE_THUNK(
             lpLocaleName, dwFlags, lpDate, lpFormat, lpDateStr, cchDate, lpCalendar);
     }
 
-    auto Locale = LocaleNameToLCID(lpLocaleName, 0);
+    auto Locale = wp_LocaleNameToLCID(lpLocaleName, 0);
 
     if (Locale == 0)
     {
@@ -56,7 +56,7 @@ __DEFINE_THUNK(
         return pGetTimeFormatEx(lpLocaleName, dwFlags, lpTime, lpFormat, lpTimeStr, cchTime);
     }
 
-    auto Locale = LocaleNameToLCID(lpLocaleName, 0);
+    auto Locale = wp_LocaleNameToLCID(lpLocaleName, 0);
 
     if (Locale == 0)
     {

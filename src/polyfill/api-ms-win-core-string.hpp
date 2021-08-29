@@ -34,7 +34,7 @@ __DEFINE_THUNK(
             lParam);
     }
 
-    const auto Locale = LocaleNameToLCID(lpLocaleName, 0);
+    const auto Locale = wp_LocaleNameToLCID(lpLocaleName, 0);
     if (Locale == 0)
     {
         return 0;

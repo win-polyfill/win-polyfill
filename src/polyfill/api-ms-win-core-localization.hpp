@@ -1358,7 +1358,7 @@ __DEFINE_THUNK(
         return pGetLocaleInfoEx(lpLocaleName, LCType, lpLCData, cchData);
     }
 
-    auto Locale = LocaleNameToLCID(lpLocaleName, 0);
+    auto Locale = wp_LocaleNameToLCID(lpLocaleName, 0);
 
     if (Locale == 0)
     {
@@ -1390,7 +1390,7 @@ __DEFINE_THUNK(
         return pGetNumberFormatEx(lpLocaleName, dwFlags, lpValue, lpFormat, lpNumberStr, cchNumber);
     }
 
-    auto Locale = LocaleNameToLCID(lpLocaleName, 0);
+    auto Locale = wp_LocaleNameToLCID(lpLocaleName, 0);
 
     if (Locale == 0)
     {
@@ -1424,7 +1424,7 @@ __DEFINE_THUNK(
             lpLocaleName, dwFlags, lpValue, lpFormat, lpCurrencyStr, cchCurrency);
     }
 
-    auto Locale = LocaleNameToLCID(lpLocaleName, 0);
+    auto Locale = wp_LocaleNameToLCID(lpLocaleName, 0);
 
     if (Locale == 0)
     {
@@ -1453,7 +1453,7 @@ __DEFINE_THUNK(
         return pGetUserDefaultLocaleName(lpLocaleName, cchLocaleName);
     }
 
-    return LCIDToLocaleName(LOCALE_USER_DEFAULT, lpLocaleName, cchLocaleName, 0);
+    return wp_LCIDToLocaleName(LOCALE_USER_DEFAULT, lpLocaleName, cchLocaleName, 0);
 }
 #endif
 
@@ -1474,7 +1474,7 @@ __DEFINE_THUNK(
         return pGetSystemDefaultLocaleName(lpLocaleName, cchLocaleName);
     }
 
-    return LCIDToLocaleName(LOCALE_SYSTEM_DEFAULT, lpLocaleName, cchLocaleName, 0);
+    return wp_LCIDToLocaleName(LOCALE_SYSTEM_DEFAULT, lpLocaleName, cchLocaleName, 0);
 }
 #endif
 
@@ -1510,7 +1510,7 @@ __DEFINE_THUNK(
             break;
         }
 
-        auto Locale = LocaleNameToLCID(lpLocaleName, 0);
+        auto Locale = wp_LocaleNameToLCID(lpLocaleName, 0);
 
         if (Locale == 0)
         {
@@ -1644,7 +1644,7 @@ __DEFINE_THUNK(
             break;
         }
 
-        auto Locale = LocaleNameToLCID(lpLocaleName, 0);
+        auto Locale = wp_LocaleNameToLCID(lpLocaleName, 0);
 
         if (Locale == 0)
         {
@@ -1781,7 +1781,7 @@ __DEFINE_THUNK(
             sortHandle);
     }
 
-    auto Locale = LocaleNameToLCID(lpLocaleName, 0);
+    auto Locale = wp_LocaleNameToLCID(lpLocaleName, 0);
 
     if (Locale == 0)
     {
@@ -2244,7 +2244,7 @@ __DEFINE_THUNK(
 
         for (;;)
         {
-            lcid = LocaleNameToLCID(Buffer, 0);
+            lcid = wp_LocaleNameToLCID(Buffer, 0);
 
             // 成功找到了区域，那么停止搜索
             if (lcid != 0 && lcid != LOCALE_CUSTOM_UNSPECIFIED)
@@ -2276,7 +2276,7 @@ __DEFINE_THUNK(
         }
 
         // 删除排序规则，然后重新转换名称。
-        auto result = LCIDToLocaleName(LANGIDFROMLCID(lcid), lpLocaleName, cchLocaleName, 0);
+        auto result = wp_LCIDToLocaleName(LANGIDFROMLCID(lcid), lpLocaleName, cchLocaleName, 0);
 
         if (result)
             return result;

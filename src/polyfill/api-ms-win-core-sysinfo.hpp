@@ -97,7 +97,8 @@ __DEFINE_THUNK(
     SYSTEM_LOGICAL_PROCESSOR_INFORMATION *pProcessorInfo = nullptr;
     DWORD cbLogicalProcessorInformation = 0;
 
-    for (; GetLogicalProcessorInformation(pProcessorInfo, &cbLogicalProcessorInformation) == FALSE;)
+    for (; wp_GetLogicalProcessorInformation(pProcessorInfo, &cbLogicalProcessorInformation) ==
+           FALSE;)
     {
         lStatus = GetLastError();
 
