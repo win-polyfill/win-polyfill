@@ -146,7 +146,7 @@ __DEFINE_THUNK(
     }
 
     UCHAR NodeNumberTmp;
-    auto bRet = GetNumaProximityNode(ProximityId, &NodeNumberTmp);
+    auto bRet = wp_GetNumaProximityNode(ProximityId, &NodeNumberTmp);
     if (bRet)
     {
         *NodeNumber = NodeNumberTmp;

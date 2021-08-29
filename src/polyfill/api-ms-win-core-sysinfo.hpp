@@ -9,8 +9,22 @@ __DEFINE_THUNK(kernel32, 0, ULONGLONG, WINAPI, GetTickCount64, VOID)
     {
         return pGetTickCount64();
     }
+    auto tickCount32Bit = GetTickCount();
+    // https://docs.microsoft.com/en-us/windows/win32/api/winternl/nf-winternl-ntquerysysteminformation
+    if (auto const pNtQuerySystemInformation = wp_get_NtQuerySystemInformation())
+    {
+        SYSTEM_TIMEOFDAY_INFORMATION st = {0};
+        ULONG oSize = 0;
+        // https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-ntstatus-values
+        if (0 == pNtQuerySystemInformation(SystemTimeOfDayInformation, &st, sizeof(st), &oSize) &&
+            (oSize == sizeof(st)))
+        {
+            ULONGLONG timeElapsed = (st.CurrentTime.QuadPart - st.BootTime.QuadPart) / 10000;
+            return ((timeElapsed >> 32) << 32) + tickCount32Bit;
+        }
+    }
 
-    __pragma(warning(suppress : 28159)) return GetTickCount();
+    __pragma(warning(suppress : 28159)) return tickCount32Bit;
 }
 #endif
 
@@ -97,7 +111,8 @@ __DEFINE_THUNK(
     SYSTEM_LOGICAL_PROCESSOR_INFORMATION *pProcessorInfo = nullptr;
     DWORD cbLogicalProcessorInformation = 0;
 
-    for (; GetLogicalProcessorInformation(pProcessorInfo, &cbLogicalProcessorInformation) == FALSE;)
+    for (; wp_GetLogicalProcessorInformation(pProcessorInfo, &cbLogicalProcessorInformation) ==
+           FALSE;)
     {
         lStatus = GetLastError();
 
@@ -299,8 +314,9 @@ __End:
 }
 #endif
 
-#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
-
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10_RS3)
+// wp_GetNativeSystemInfo are called by wp_IsWow64GuestMachineSupported
+// so make the guard of wp_GetNativeSystemInfo to be same as wp_IsWow64GuestMachineSupported
 // Windows XP [desktop apps | UWP apps]
 // Windows Server 2003 [desktop apps | UWP apps]
 __DEFINE_THUNK(kernel32, 4, VOID, WINAPI, GetNativeSystemInfo, _Out_ LPSYSTEM_INFO lpSystemInfo)

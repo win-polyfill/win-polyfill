@@ -153,7 +153,7 @@ __DEFINE_THUNK(
         *MachineIsSupported = TRUE;
 #else
         SYSTEM_INFO SystemInfo;
-        GetNativeSystemInfo(&SystemInfo);
+        wp_GetNativeSystemInfo(&SystemInfo);
 
         *MachineIsSupported = SystemInfo.wProcessorArchitecture != PROCESSOR_ARCHITECTURE_INTEL;
 #endif
