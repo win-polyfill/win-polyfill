@@ -1,4 +1,4 @@
-#pragma once
+ï»¿#pragma once
 
 #ifndef SDK_KM_H
 #define SDK_KM_H
@@ -1252,7 +1252,7 @@ enum SYSTEM_INFORMATION_CLASS
 	SystemSpecialPoolInformation = 0x57,
 	SystemProcessIdInformation = 0x58,
 	SystemErrorPortInformation = 0x59,
-	SystemBootEnvironmentInformation = 0x5a,			//ÏµÍ³µÄÆô¶¯ĞÅÏ¢
+	SystemBootEnvironmentInformation = 0x5a,			//ç³»ç»Ÿçš„å¯åŠ¨ä¿¡æ¯
 	SystemHypervisorInformation = 0x5b,
 	SystemVerifierInformationEx = 0x5c,
 	SystemTimeZoneInformation = 0x5d,
@@ -1260,8 +1260,8 @@ enum SYSTEM_INFORMATION_CLASS
 	SystemCoverageInformation = 0x5f,
 	SystemPrefetchPatchInformation = 0x60,
 	SystemVerifierFaultsInformation = 0x61,
-	MaxSystemInfoClassWinXP,                 //WinXP×î´óÖ§³Öµ½´Ë´¦
-	SystemSystemPartitionInformation = 0x62,	//ÓÃÓÚ»ñÈ¡ÏµÍ³·ÖÇøĞÅÏ¢£¬Æä½á¹¹ÎªUNICODE_STRING
+	MaxSystemInfoClassWinXP,                 //WinXPæœ€å¤§æ”¯æŒåˆ°æ­¤å¤„
+	SystemSystemPartitionInformation = 0x62,	//ç”¨äºè·å–ç³»ç»Ÿåˆ†åŒºä¿¡æ¯ï¼Œå…¶ç»“æ„ä¸ºUNICODE_STRING
 	SystemSystemDiskInformation = 0x63,
 	SystemProcessorPerformanceDistribution = 0x64,
 	SystemNumaProximityNodeInformation = 0x65,
@@ -1908,7 +1908,7 @@ NtQueryDirectoryFile (
 		ProcessSessionInformation,
 		ProcessForegroundInformation,
 		ProcessWow64Information,
-		ProcessImageFileName,			//»ñÈ¡½ø³ÌµÄNTÂ·¾¶£¬½á¹¹ÎªUNICODE_STRING
+		ProcessImageFileName,			//è·å–è¿›ç¨‹çš„NTè·¯å¾„ï¼Œç»“æ„ä¸ºUNICODE_STRING
 		ProcessLUIDDeviceMapsEnabled,
 		ProcessBreakOnTermination,
 		ProcessDebugObjectHandle,
@@ -1925,7 +1925,7 @@ NtQueryDirectoryFile (
 		ProcessInstrumentationCallback,
 		ProcessThreadStackAllocation,
 		ProcessWorkingSetWatchEx,
-		ProcessImageFileNameWin32,			//»ñÈ¡½ø³ÌµÄDosÂ·¾¶£¬½á¹¹ÎªUNICODE_STRING
+		ProcessImageFileNameWin32,			//è·å–è¿›ç¨‹çš„Dosè·¯å¾„ï¼Œç»“æ„ä¸ºUNICODE_STRING
 		ProcessImageFileMapping,			// buffer is a pointer to a file handle open with SYNCHRONIZE | FILE_EXECUTE access, return value is whether the handle is the same used to start the process
 		ProcessAffinityUpdateMode,
 		ProcessMemoryAllocationMode,
@@ -4697,7 +4697,7 @@ NtQueryDirectoryFile (
 		);
 #endif
 
-	//UEFIÖ§³ÖÏà¹Øº¯Êı
+	//UEFIæ”¯æŒç›¸å…³å‡½æ•°
 
 	EXTERN_C NTSYSAPI NTSTATUS NTAPI ZwQueryBootEntryOrder(
 			OUT PULONG Ids,
@@ -5049,7 +5049,7 @@ NtReleaseKeyedEvent(
 	IN PLARGE_INTEGER       Timeout OPTIONAL
 	);
 
-//Ö¸Ê¾½ø³ÌÊÇ·ñÕıÔÚ½øĞĞÍË³ö¡£
+//æŒ‡ç¤ºè¿›ç¨‹æ˜¯å¦æ­£åœ¨è¿›è¡Œé€€å‡ºã€‚
 EXTERN_C
 NTSYSAPI
 BOOLEAN
