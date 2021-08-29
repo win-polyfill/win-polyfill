@@ -2220,9 +2220,9 @@ __DEFINE_THUNK(
         }
 
         if (Flags & CONDITION_VARIABLE_LOCKMODE_SHARED)
-            YY::Thunks::ReleaseSRWLockShared(SRWLock);
+            wp_ReleaseSRWLockShared(SRWLock);
         else
-            YY::Thunks::ReleaseSRWLockExclusive(SRWLock);
+            wp_ReleaseSRWLockExclusive(SRWLock);
 
         if ((Current ^ New) & 0x8)
         {
@@ -2265,9 +2265,9 @@ __DEFINE_THUNK(
         }
 
         if (Flags & CONDITION_VARIABLE_LOCKMODE_SHARED)
-            YY::Thunks::AcquireSRWLockShared(SRWLock);
+            wp_AcquireSRWLockShared(SRWLock);
         else
-            YY::Thunks::AcquireSRWLockExclusive(SRWLock);
+            wp_AcquireSRWLockExclusive(SRWLock);
 
     } while (false);
 

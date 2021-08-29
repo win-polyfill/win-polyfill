@@ -6,7 +6,17 @@
     _APPLY(psapi, "psapi", 0)                                                                      \
     _APPLY(version, "version", 0)                                                                  \
     _APPLY(advapi32, "advapi32", 0)                                                                \
+    _APPLY(d3d11, "d3d11", 0)                                                                      \
+    _APPLY(d3d9, "d3d9", 0)                                                                        \
+    _APPLY(dbghelp, "dbghelp", 0)                                                                  \
+    _APPLY(dwmapi, "dwmapi", 0)                                                                    \
+    _APPLY(dwrite, "dwrite", 0)                                                                    \
+    _APPLY(dxgi, "dxgi", 0)                                                                        \
+    _APPLY(gdi32, "gdi32", 0)                                                                      \
+    _APPLY(iphlpapi, "iphlpapi", 0)                                                                \
+    _APPLY(ncrypt, "ncrypt", 0)                                                                    \
     _APPLY(user32, "user32", 0)                                                                    \
+    _APPLY(uxtheme, "uxtheme", 0)                                                                  \
     _APPLY(ws2_32, "ws2_32", 0)                                                                    \
     _APPLY(shell32, "shell32", 0)                                                                  \
     _APPLY(shcore, "shcore", 0)                                                                    \
@@ -18,53 +28,17 @@
     _APPLY(api_ms_win_core_path_l1_1_0, "api-ms-win-core-path-l1-1-0", 0)                          \
     _APPLY(api_ms_win_core_synch_l1_2_0, "api-ms-win-core-synch-l1-2-0", 0)
 
-//全局可能使用到的函数
-#define _WP_APPLY_TO_LATE_BOUND_FUNCTIONS(_APPLY)                                                  \
-    _APPLY(NtCreateFile, ntdll)                                                                    \
-    _APPLY(NtClose, ntdll)                                                                         \
-    _APPLY(NtQueryDirectoryFile, ntdll)                                                            \
-    _APPLY(NtQueryInformationFile, ntdll)                                                          \
-    _APPLY(NtSetInformationFile, ntdll)                                                            \
-    _APPLY(RtlNtStatusToDosError, ntdll)                                                           \
-    _APPLY(RtlDetermineDosPathNameType_U, ntdll)                                                   \
-    _APPLY(RtlDosPathNameToNtPathName_U, ntdll)                                                    \
-    _APPLY(RtlDosPathNameToNtPathName_U_WithStatus, ntdll)                                         \
-    _APPLY(RtlFreeUnicodeString, ntdll)                                                            \
-    _APPLY(NtQueryObject, ntdll)                                                                   \
-    _APPLY(NtQueryInformationThread, ntdll)                                                        \
-    _APPLY(NtQueryInformationProcess, ntdll)                                                       \
-    _APPLY(NtOpenKeyedEvent, ntdll)                                                                \
-    _APPLY(NtWaitForKeyedEvent, ntdll)                                                             \
-    _APPLY(NtReleaseKeyedEvent, ntdll)                                                             \
-    _APPLY(RtlAdjustPrivilege, ntdll)                                                              \
-    _APPLY(RtlPcToFileHeader, ntdll)                                                               \
-    _APPLY(LdrAddRefDll, ntdll)                                                                    \
-    _APPLY(RtlWow64EnableFsRedirectionEx, ntdll)                                                   \
-    _APPLY(LdrLoadDll, ntdll)                                                                      \
-    _APPLY(RtlDllShutdownInProgress, ntdll)                                                        \
-    _APPLY(AddDllDirectory, kernel32)
+#include "win-polyfill.h"
 
-#include <sdkddkver.h>
+/* Basic function getter */
+#define __wp_expand_function(_MODULE, _FUNCTION, _SIZE)                                            \
+    EXTERN_C decltype(_FUNCTION) *_CRT_CONCATENATE(                                                \
+        wp_get_,                                                                                   \
+        _FUNCTION)() noexcept WP_GET_FUNCTION_APPLY(_MODULE, _FUNCTION, decltype(_FUNCTION) *)
 
-#ifndef WP_SUPPORT_VERSION
-#define WP_SUPPORT_VERSION WDK_NTDDI_VERSION
-#endif
+#include "polyfill/basic.hpp"
 
-#define _WINSOCKAPI_
-#define PSAPI_VERSION 1
-
-#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
-#define INITKNOWNFOLDERS
-#endif
-
-#define _Disallow_WP_KM_Namespace
-#include "WP_Thunks.h"
-#include "km.h"
-#include <Shlwapi.h>
-#include <WinSock2.h>
-#include <psapi.h>
-#include <winnls.h>
-#include <ws2tcpip.h>
+#undef __wp_expand_function
 
 #if (WP_SUPPORT_VERSION < NTDDI_WS03SP1)
 #pragma comment(lib, "Advapi32.lib")
@@ -81,37 +55,6 @@
 #if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 #pragma comment(lib, "psapi.lib")
 #endif
-
-#if (WP_SUPPORT_VERSION >= NTDDI_WINBLUE)
-#pragma comment(lib, "Shcore.lib")
-#endif
-
-#if (WP_SUPPORT_VERSION < NTDDI_WINBLUE)
-#pragma comment(lib, "Gdi32.lib")
-#endif
-
-//展开函数的所有的 声明 以及 wp_get_ 函数
-#define __DEFINE_THUNK(_MODULE, _SIZE, _RETURN_, _CONVENTION_, _FUNCTION, ...)                     \
-    __APPLY_UNIT_TEST_BOOL(_FUNCTION);                                                             \
-    EXTERN_C _RETURN_ _CONVENTION_ _FUNCTION(__VA_ARGS__);                                         \
-    static decltype(_FUNCTION) *__cdecl _CRT_CONCATENATE(wp_get_, _FUNCTION)() noexcept            \
-    {                                                                                              \
-        __CHECK_UNIT_TEST_BOOL(_FUNCTION);                                                         \
-        __declspec(allocate(".YYThr$AAA")) static void *_CRT_CONCATENATE(pInit_, _FUNCTION) =      \
-            reinterpret_cast<void *>(&_CRT_CONCATENATE(wp_get_, _FUNCTION));                       \
-        /* In order to avoid the compiler optimize section YYThr$AAA out */                        \
-        __foreinclude(_CRT_CONCATENATE(pInit_, _FUNCTION));                                        \
-        __declspec(allocate(".YYThu$AAB")) static void *_CRT_CONCATENATE(pFun_, _FUNCTION);        \
-        return reinterpret_cast<decltype(_FUNCTION) *>(wp_get_function(                            \
-            &_CRT_CONCATENATE(pFun_, _FUNCTION),                                                   \
-            _CRT_STRINGIZE(_FUNCTION),                                                             \
-            &_CRT_CONCATENATE(wp_get_module_, _MODULE)));                                          \
-    }                                                                                              \
-    __if_not_exists(_CRT_CONCATENATE(wp_get_, _FUNCTION))
-
-#include "Thunks\WP_Thunks_List.hpp"
-
-#undef __DEFINE_THUNK
 
 namespace internal {
 //代码块，分割任务
@@ -248,14 +191,17 @@ static BOOL __fastcall BasepGetVolumeDosLetterNameFromNTName(
     return TRUE;
 }
 
+static UINT __fastcall GetDpiForSystemDownlevel();
+
 } // namespace internal
 //导入实际的实现
 #define WP_Thunks_Implemented
 #define __DEFINE_THUNK(_MODULE, _SIZE, _RETURN_, _CONVENTION_, _FUNCTION, ...)                     \
-    _LCRT_DEFINE_IAT_SYMBOL(_FUNCTION, _SIZE);                                                     \
-    EXTERN_C _RETURN_ _CONVENTION_ _FUNCTION(__VA_ARGS__)
+    WP_EXTERN_C _CRT_CONCATENATE(wp_function_, _FUNCTION) _CRT_CONCATENATE(wp_get_, _FUNCTION)()   \
+        WP_GET_FUNCTION_APPLY(_MODULE, _FUNCTION, _CRT_CONCATENATE(wp_function_, _FUNCTION));      \
+    WP_EXTERN_C _RETURN_ _CONVENTION_ _CRT_CONCATENATE(wp_, _FUNCTION)(__VA_ARGS__)
 
-#include "WP_Thunks_List.hpp"
+#include "win-polyfill-list.inc.h"
 
 #undef __DEFINE_THUNK
 #undef WP_Thunks_Implemented
