@@ -1,14 +1,11 @@
 ﻿#ifndef _WIN_POLYFILL_EXPORT_SHARED_H_
 #define _WIN_POLYFILL_EXPORT_SHARED_H_
 
+/* This file should be included before any windows header when possible */
+
 #pragma once
 
 #if defined(_WIN32)
-
-#include "win-polyfill-version.h"
-
-#include <crtdbg.h>
-#include <intrin.h>
 
 #if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 #define INITKNOWNFOLDERS
@@ -18,7 +15,12 @@
 #define _CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS
 
 /* Disable include of sockets from Windows.h */
+#if defined(_WINSOCKAPI_) || defined(_INC_WINDOWS)
+#define _WIN_POLYFILL_WINDOWS_ALREADY_INCLUDED
+#define WIN_POLYFILL_DISABLE_SOCKET
+#else
 #define _WINSOCKAPI_
+#endif
 
 #ifndef PSAPI_VERSION
 #define PSAPI_VERSION 1
@@ -30,10 +32,23 @@
 #define UMDF_USING_NTSTATUS
 #endif
 
+#include "win-polyfill-version.h"
+
+#include <crtdbg.h>
+#include <intrin.h>
+
+#if !defined(WIN_POLYFILL_DISABLE_SOCKET)
+#include <winsock2.h>
+#include <ws2def.h>
+#include <ws2tcpip.h>
+#endif
+
 #include <windows.h>
 
+#if !defined(_WIN_POLYFILL_WINDOWS_ALREADY_INCLUDED)
 #include <ntstatus.h>
 #include <winnt.h>
+#endif
 
 #include <d3d11.h>
 #include <d3d9.h>
@@ -57,11 +72,6 @@
 #include <uxtheme.h>
 #include <winnls.h>
 #include <winstring.h>
-
-#if !defined(WIN_POLYFILL_DISABLE_SOCKET)
-#include <winsock2.h>
-#include <ws2tcpip.h>
-#endif
 
 /* iphlpapi should after them all */
 #include <iphlpapi.h>
