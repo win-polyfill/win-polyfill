@@ -1,9 +1,4 @@
 ﻿
-#ifndef PSAPI_VERSION
-#define PSAPI_VERSION 1
-#endif
-
-#include <psapi.h>
 
 #if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 

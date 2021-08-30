@@ -1,4 +1,4 @@
-﻿#include <winstring.h>
+﻿
 
 #if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 

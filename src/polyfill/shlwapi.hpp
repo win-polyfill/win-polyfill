@@ -1,5 +1,4 @@
 ﻿
-#include <Shlwapi.h>
 
 #ifdef WP_Thunks_Implemented
 namespace internal {

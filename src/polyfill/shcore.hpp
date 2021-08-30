@@ -1,5 +1,4 @@
 ﻿
-#include <ShellScalingAPI.h>
 
 #if (WP_SUPPORT_VERSION < NTDDI_WINBLUE)
 
