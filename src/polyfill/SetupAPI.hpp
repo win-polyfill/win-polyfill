@@ -1,5 +1,4 @@
 ﻿
-#include <setupapi.h>
 
 #ifdef WP_Thunks_Implemented
 namespace internal {

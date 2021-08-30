@@ -1,5 +1,4 @@
 ﻿
-#include <ws2tcpip.h>
 
 /* Extract begin open */
 #if !defined(WIN_POLYFILL_DISABLE_SOCKET)
