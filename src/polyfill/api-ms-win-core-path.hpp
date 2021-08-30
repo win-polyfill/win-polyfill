@@ -1,6 +1,4 @@
 ﻿
-#define PATHCCH_NO_DEPRECATE
-#include <pathcch.h>
 
 #ifdef WP_Thunks_Implemented
 namespace internal {

@@ -1,5 +1,4 @@
 ﻿
-#include <threadpoolapiset.h>
 
 #ifdef WP_Thunks_Implemented
 

@@ -1,7 +1,5 @@
 ﻿
 
-#include <Shlobj.h>
-
 #ifdef WP_Thunks_Implemented
 namespace internal {
 #if (WP_SUPPORT_VERSION < NTDDI_WIN6)
