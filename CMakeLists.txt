@@ -100,6 +100,9 @@ target_compile_definitions(win-polyfill PRIVATE -DWIN_POLYFILL_EXPORT_SHARED)
 target_include_directories(win-polyfill PUBLIC src)
 set_target_properties(win-polyfill PROPERTIES CPK_PUBLIC_FILES "${win_polyfill_public_headers}")
 
+target_compile_definitions(win-polyfill-static PUBLIC -DUNICODE -D_UNICODE)
+target_compile_definitions(win-polyfill PUBLIC -DUNICODE -D_UNICODE)
+
 install(TARGETS win-polyfill)
 if (MSVC)
   install(FILES $<TARGET_PDB_FILE:win-polyfill> DESTINATION bin)
