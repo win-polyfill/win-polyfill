@@ -5,11 +5,17 @@
 
 #include "win-polyfill-export-shared.h"
 
+#ifndef _WP_POLYFILL_IMPLEMENTATION
 /* 展开函数的所有的 声明 以及 wp_get_ 函数 */
 #define __DEFINE_THUNK(_MODULE, _SIZE, _RETURN_, _CONVENTION_, _FUNCTION, ...)                     \
     typedef _RETURN_(_CONVENTION_ *_CRT_CONCATENATE(wp_function_, _FUNCTION))(__VA_ARGS__);        \
     WP_EXTERN_C _RETURN_ _CONVENTION_ _CRT_CONCATENATE(wp_, _FUNCTION)(__VA_ARGS__);               \
     WP_EXTERN_C _CRT_CONCATENATE(wp_function_, _FUNCTION) _CRT_CONCATENATE(wp_get_, _FUNCTION)();
+#else
+#define __DEFINE_THUNK(_MODULE, _SIZE, _RETURN_, _CONVENTION_, _FUNCTION, ...)                     \
+    typedef _RETURN_(_CONVENTION_ *_CRT_CONCATENATE(wp_function_, _FUNCTION))(__VA_ARGS__);        \
+    WP_EXTERN_C _RETURN_ _CONVENTION_ _FUNCTION(__VA_ARGS__){};
+#endif
 
 #pragma push_macro("InterlockedCompareExchange64")
 #undef InterlockedCompareExchange64
