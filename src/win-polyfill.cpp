@@ -207,13 +207,23 @@ static LPOSVERSIONINFOW GetOSVersion()
     return &g_win32_osversion;
 };
 
-WP_EXTERN_C LONGLONG WINAPI wpWinVersion()
+} // namespace internal
+
+#define ComputeOsVersionNumber(major, minor) ((((ULONGLONG)(major)) << 32) | (minor))
+static const LONGLONG WP_OS_VERSION_WIN2000 = ComputeOsVersionNumber(5, 0);
+static const LONGLONG WP_OS_VERSION_XP = ComputeOsVersionNumber(5, 1);
+static const LONGLONG WP_OS_VERSION_VISTA = ComputeOsVersionNumber(6, 0);
+static const LONGLONG WP_OS_VERSION_WIN7 = ComputeOsVersionNumber(6, 1);
+static const LONGLONG WP_OS_VERSION_WIN8 = ComputeOsVersionNumber(6, 2);
+static const LONGLONG WP_OS_VERSION_WIN8_1 = ComputeOsVersionNumber(6, 3);
+static const LONGLONG WP_OS_VERSION_WIN10 = ComputeOsVersionNumber(10, 0);
+
+static LONGLONG WINAPI wpWinVersion()
 {
-    auto osvi = GetOSVersion();
+    auto osvi = internal::GetOSVersion();
     return ComputeOsVersionNumber(osvi->dwMajorVersion, osvi->dwMinorVersion);
 }
 
-} // namespace internal
 //导入实际的实现
 #define WP_Thunks_Implemented
 #define __DEFINE_THUNK(_MODULE, _SIZE, _RETURN_, _CONVENTION_, _FUNCTION, ...)                     \
