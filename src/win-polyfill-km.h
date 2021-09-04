@@ -1360,6 +1360,7 @@ enum SYSTEM_INFORMATION_CLASS
     SystemSpeculationControlInformation = 0x00C9,
     MaxSystemInfoClass,
 };
+typedef enum SYSTEM_INFORMATION_CLASS SYSTEM_INFORMATION_CLASS;
 
 typedef struct _SYSTEM_SPECULATION_CONTROL_INFORMATION
 {
@@ -1583,6 +1584,8 @@ enum OBJECT_INFORMATION_CLASS
     ObjectDataInformation
 
 };
+
+typedef enum OBJECT_INFORMATION_CLASS OBJECT_INFORMATION_CLASS;
 
 typedef struct _OBJECT_NAME_INFORMATION
 {
@@ -3212,18 +3215,6 @@ typedef struct _TEB
     GUID EffectiveContainerId;
 } TEB, *PTEB;
 
-__if_not_exists(NtCurrentTeb) { PTEB NTAPI NtCurrentTeb(void); }
-
-#if _WIN32_WINNT <= 0x0500
-
-inline PPEB NTAPI RtlGetCurrentPeb(void)
-{
-    PTEB pTeb = NtCurrentTeb();
-    return pTeb->Peb;
-}
-
-#else
-
 EXTERN_C NTSYSAPI PPEB NTAPI RtlGetCurrentPeb(void);
 EXTERN_C
 NTSYSAPI
@@ -3238,7 +3229,6 @@ NtDuplicateObject(
     __in ULONG HandleAttributes,
     __in ULONG Options);
 
-#endif
 //
 // This enumerated type is used as the function return value of the function
 // that is used to search the tree for a key. FoundNode indicates that the

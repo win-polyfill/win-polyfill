@@ -7,13 +7,15 @@ cpk_add_test(
 )
 
 cpk_add_test(
-  NAME win-polyfill-basic-static
-  SOURCES win-polyfill-basic.UnitTest.c
-  LINK_LIBRARIES win-polyfill-static
+  NAME win-polyfill-font
+  SOURCES win-polyfill-font.UnitTest.c
+  LINK_LIBRARIES win-polyfill gdi32
 )
 
 cpk_add_test(
-  NAME win-polyfill-font
-  SOURCES win-polyfill-font.UnitTest.c
-  LINK_LIBRARIES win-polyfill-static gdi32
+  NAME win-polyfill-static.UnitTest
+  SOURCES
+    win-polyfill-static.UnitTest.c
+    "${WIN_POLYFILL_ROOT_DIR}/src/win-polyfill-static.cpp"
+  LINK_LIBRARIES gdi32
 )
