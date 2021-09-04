@@ -1,4 +1,4 @@
-#include <win-polyfill-export-clean.h>
+#include <win-polyfill-export-shared.h>
 
 #include <stdio.h>
 
@@ -8,10 +8,10 @@ int main(int argc, char **argv)
     FILE_INFO_BY_HANDLE_CLASS FileInformationClass = FileBasicInfo;
     LPVOID lpFileInformation = NULL;
     DWORD dwBufferSize = 0;
-    ULONGLONG wp_tick64bit = wp_GetTickCount64();
+    ULONGLONG wp_tick64bit = GetTickCount64();
     DWORD tick32bit = GetTickCount();
-    ULONGLONG tick64Bit = wp_GetTickCount64();
+    ULONGLONG tick64Bit = GetTickCount64();
     printf("tick32bit: %u tick64Bit:%llu wp_tick64bit:%llu\n", tick32bit, tick64Bit, wp_tick64bit);
-    wp_GetFileInformationByHandleEx(hFile, FileInformationClass, lpFileInformation, dwBufferSize);
+    GetFileInformationByHandleEx(hFile, FileInformationClass, lpFileInformation, dwBufferSize);
     return 0;
 }

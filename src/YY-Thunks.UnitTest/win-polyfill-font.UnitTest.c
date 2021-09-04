@@ -1,13 +1,12 @@
-#include <win-polyfill-export-clean.h>
-
+#include <Windows.h>
 #include <stdbool.h>
 #include <stdio.h>
-// ### fixme Qt 6 (QTBUG-58610): See comment at QWindowsFontDatabase::systemDefaultFont()
+
 HFONT systemFont() { return (HFONT)GetStockObject(DEFAULT_GUI_FONT); }
 
 bool systemParametersInfo(unsigned action, unsigned param, void *out, unsigned dpi)
 {
-    const BOOL result = wp_SystemParametersInfoForDpi(action, param, out, 0, dpi);
+    const BOOL result = SystemParametersInfoForDpi(action, param, out, 0, dpi);
     return result == TRUE;
 }
 

@@ -51,10 +51,11 @@ void *wp_load_identifier(const void **identifer, enum win_polyfill_identifier id
 #define PASS_PARAMETERS(X) STRIP_PARENS(_Args X)
 
 #define DEFINE_THUNK(                                                                              \
-    _FUNCTION,                                                                                     \
-    _CONVENTION_,                                                                                  \
+    _MODULE,                                                                                       \
     _NT_API_VERSION,                                                                               \
     _RETURN_,                                                                                      \
+    _CONVENTION_,                                                                                  \
+    _FUNCTION,                                                                                     \
     _RETURN_DEFAULT,                                                                               \
     _DECLARE_ARGS,                                                                                 \
     _CALLING_ARGS)                                                                                 \
@@ -87,10 +88,11 @@ void *wp_load_identifier(const void **identifer, enum win_polyfill_identifier id
     __pragma(warning(pop));
 
 DEFINE_THUNK(
-    SystemParametersInfoForDpi,
-    WINAPI,
+    user32,
     NTDDI_WIN6,
     BOOL,
+    WINAPI,
+    SystemParametersInfoForDpi,
     FALSE,
     (_In_ UINT uiAction,
      _In_ UINT uiParam,

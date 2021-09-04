@@ -85,6 +85,15 @@
 
 #include "win-polyfill-abi.h"
 
+#if defined(WIN_POLYFILL_EXPORT_STATIC)
+#define WP_EXPORT
+#elif defined(WIN_POLYFILL_EXPORT_SHARED)
+#define WP_EXPORT __declspec(dllexport)
+#else
+#define WP_EXPORT __declspec(dllimport)
+#endif
+
+#define WP_EXTERN_C EXTERN_C WP_EXPORT
 #endif /* defined(_WIN32) */
 
 #endif /* _WIN_POLYFILL_EXPORT_SHARED_H_ */

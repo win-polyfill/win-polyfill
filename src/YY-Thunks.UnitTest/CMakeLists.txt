@@ -7,12 +7,6 @@ cpk_add_test(
 )
 
 cpk_add_test(
-  NAME win-polyfill-font
-  SOURCES win-polyfill-font.UnitTest.c
-  LINK_LIBRARIES win-polyfill gdi32
-)
-
-cpk_add_test(
   NAME win-polyfill-static.UnitTest
   SOURCES
     win-polyfill-static.UnitTest.c
