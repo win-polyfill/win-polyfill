@@ -7,10 +7,6 @@
 
 #if defined(_WIN32)
 
-#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
-#define INITKNOWNFOLDERS
-#endif /* (WP_SUPPORT_VERSION < NTDDI_WIN6) */
-
 /* win-polyfill 保证STDIO新老模式兼容 */
 #define _CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS
 
@@ -34,6 +30,10 @@
 
 #include "win-polyfill-version.h"
 
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
+#define INITKNOWNFOLDERS
+#endif /* (WP_SUPPORT_VERSION < NTDDI_WIN6) */
+
 #include <crtdbg.h>
 #include <intrin.h>
 
@@ -43,11 +43,14 @@
 #include <ws2tcpip.h>
 #endif
 
+#ifndef WIN32_NO_STATUS
+#define WIN32_NO_STATUS
+#endif
 #include <windows.h>
 
 #if !defined(_WIN_POLYFILL_WINDOWS_ALREADY_INCLUDED)
+#undef WIN32_NO_STATUS
 #include <ntstatus.h>
-#include <winnt.h>
 #endif
 
 #include <d3d11.h>
@@ -80,16 +83,7 @@
 #include <dwrite.h>
 #endif
 
-#if defined(WIN_POLYFILL_EXPORT_STATIC)
-#define WP_EXPORT
-#elif defined(WIN_POLYFILL_EXPORT_SHARED)
-#define WP_EXPORT __declspec(dllexport)
-#else
-#define WP_EXPORT __declspec(dllimport)
-#pragma comment(lib, "win-polyfill.lib")
-#endif
-
-#define WP_EXTERN_C EXTERN_C WP_EXPORT
+#include "win-polyfill-abi.h"
 
 #endif /* defined(_WIN32) */
 

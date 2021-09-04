@@ -9,6 +9,8 @@ if ("${CMAKE_BINARY_DIR}" STREQUAL "${CMAKE_CURRENT_BINARY_DIR}")
   set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_BINARY_DIR}/bin)
 endif()
 
+set (WIN_POLYFILL_ROOT_DIR ${CMAKE_CURRENT_LIST_DIR})
+
 set(win_polyfill_public_headers
   win-polyfill-export.h
   win-polyfill-export-clean.h
@@ -86,13 +88,6 @@ add_custom_command(
     ${CMAKE_CURRENT_LIST_DIR}/src/win-polyfill-export-end.inc.h
 )
 
-add_library(win-polyfill-static STATIC
-  "${CMAKE_CURRENT_LIST_DIR}/src/win-polyfill-export.h"
-  src/win-polyfill.cpp
-)
-target_compile_definitions(win-polyfill-static PUBLIC -DWIN_POLYFILL_EXPORT_STATIC)
-target_include_directories(win-polyfill-static PUBLIC src)
-
 add_library(win-polyfill SHARED
   "${CMAKE_CURRENT_LIST_DIR}/src/win-polyfill-export.h"
   src/win-polyfill.cpp
@@ -100,15 +95,12 @@ add_library(win-polyfill SHARED
 target_compile_definitions(win-polyfill PRIVATE -DWIN_POLYFILL_EXPORT_SHARED)
 target_include_directories(win-polyfill PUBLIC src)
 set_target_properties(win-polyfill PROPERTIES CPK_PUBLIC_FILES "${win_polyfill_public_headers}")
-
-target_compile_definitions(win-polyfill-static PUBLIC -DUNICODE -D_UNICODE)
 target_compile_definitions(win-polyfill PUBLIC -DUNICODE -D_UNICODE)
 
 install(TARGETS win-polyfill)
 if (MSVC)
   install(FILES $<TARGET_PDB_FILE:win-polyfill> DESTINATION bin)
 endif()
-install(TARGETS win-polyfill-static)
 
 include(cmake/CpkHelpers.cmake)
 cpk_install_public_files(

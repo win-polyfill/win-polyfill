@@ -7,5 +7,7 @@ enum win_polyfill_identifier
 };
 
 /* 0 means success, other are NTSTATUS error code */
-typedef void *(*wp_load_identifier_function)(enum win_polyfill_identifier id);
-void *wp_load_identifier(enum win_polyfill_identifier id);
+typedef void *(
+    *wp_load_identifier_function)(const void **identifer, enum win_polyfill_identifier id);
+
+void *wp_load_identifier(const void **identifer, enum win_polyfill_identifier id);
