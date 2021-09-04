@@ -13,3 +13,11 @@ cpk_add_test(
     "${WIN_POLYFILL_ROOT_DIR}/src/win-polyfill-static.cpp"
   LINK_LIBRARIES gdi32
 )
+
+cpk_add_test(
+  NAME win-polyfill-static-cpp.UnitTes
+  SOURCES
+    win-polyfill-static-cpp.UnitTest.cpp
+    "${WIN_POLYFILL_ROOT_DIR}/src/win-polyfill-static.cpp"
+  LINK_LIBRARIES gdi32
+)

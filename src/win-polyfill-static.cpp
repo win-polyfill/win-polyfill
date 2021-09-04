@@ -18,10 +18,14 @@ static ULONG __stdcall load_module(
     HMODULE module = LoadLibraryW(L"win-polyfill.dll");
     if (module == NULL)
     {
-        return STATUS_DLL_NOT_FOUND;
+        return FALSE;
     }
     *Context = GetProcAddress(module, "load_identifier");
-    return STATUS_SUCCESS;
+    if (*Context == NULL)
+    {
+        return FALSE;
+    }
+    return TRUE;
 }
 
 /* https://docs.microsoft.com/en-us/windows/win32/sync/using-one-time-initialization */
@@ -46,13 +50,22 @@ void *wp_load_identifier(const void **identifer, enum win_polyfill_identifier id
     }
 }
 
+#if defined(_M_IX86)
+#define _LCRT_DEFINE_IAT_SYMBOL_MAKE_NAME(_FUNCTION, _SIZE)                                        \
+    _CRT_STRINGIZE_(_imp__##_FUNCTION##@##_SIZE)
+#elif defined(_M_AMD64)
+#define _LCRT_DEFINE_IAT_SYMBOL_MAKE_NAME(_FUNCTION, _SIZE) _CRT_STRINGIZE_(__imp_##_FUNCTION)
+#else
+#error "不支持此体系"
+#endif
+
 #define _Args(...) __VA_ARGS__
 #define STRIP_PARENS(X) X
 #define PASS_PARAMETERS(X) STRIP_PARENS(_Args X)
-
 #define DEFINE_THUNK(                                                                              \
-    _MODULE,                                                                                       \
     _NT_API_VERSION,                                                                               \
+    _MODULE,                                                                                       \
+    _SIZE,                                                                                         \
     _RETURN_,                                                                                      \
     _CONVENTION_,                                                                                  \
     _FUNCTION,                                                                                     \
@@ -60,7 +73,7 @@ void *wp_load_identifier(const void **identifer, enum win_polyfill_identifier id
     _DECLARE_ARGS,                                                                                 \
     _CALLING_ARGS)                                                                                 \
     __pragma(warning(push));                                                                       \
-    __pragma(warning(disable : 4483 4273));                                                        \
+    __pragma(warning(disable : 4483));                                                             \
     typedef _RETURN_(_CONVENTION_ *_CRT_CONCATENATE(wp_function_, _FUNCTION))(                     \
         PASS_PARAMETERS(_DECLARE_ARGS));                                                           \
     static _RETURN_ _CONVENTION_ _CRT_CONCATENATE(wp_function_default_, _FUNCTION)(                \
@@ -85,11 +98,24 @@ void *wp_load_identifier(const void **identifer, enum win_polyfill_identifier id
     {                                                                                              \
         return _CRT_CONCATENATE(wp_function_private_, _FUNCTION)(PASS_PARAMETERS(_CALLING_ARGS));  \
     }                                                                                              \
+    EXTERN_C __declspec(selectany) void const *const __identifier(                                 \
+        _LCRT_DEFINE_IAT_SYMBOL_MAKE_NAME(_FUNCTION, _SIZE)) =                                     \
+        reinterpret_cast<void const *>(_FUNCTION);                                                 \
     __pragma(warning(pop));
 
+#if 0
+    EXTERN_C _RETURN_ _CONVENTION_ _CRT_CONCATENATE(imp__, _FUNCTION)(                             \
+        PASS_PARAMETERS(_DECLARE_ARGS))                                                            \
+    {                                                                                              \
+        return _CRT_CONCATENATE(wp_function_private_, _FUNCTION)(PASS_PARAMETERS(_CALLING_ARGS));  \
+    }
+#endif
+namespace {
+
 DEFINE_THUNK(
-    user32,
     NTDDI_WIN6,
+    user32,
+    20,
     BOOL,
     WINAPI,
     SystemParametersInfoForDpi,
@@ -100,3 +126,4 @@ DEFINE_THUNK(
      _In_ UINT fWinIni,
      _In_ UINT dpi),
     (uiAction, uiParam, pvParam, fWinIni, dpi))
+}
