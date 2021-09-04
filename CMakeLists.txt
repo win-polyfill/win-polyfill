@@ -88,6 +88,14 @@ add_custom_command(
     ${CMAKE_CURRENT_LIST_DIR}/src/win-polyfill-export-end.inc.h
 )
 
+add_library(win-polyfill-static STATIC
+  "${CMAKE_CURRENT_LIST_DIR}/src/win-polyfill-export.h"
+  src/win-polyfill-static.cpp
+)
+target_compile_definitions(win-polyfill-static PUBLIC -DWIN_POLYFILL_EXPORT_STATIC)
+target_include_directories(win-polyfill-static PUBLIC src)
+target_compile_definitions(win-polyfill-static PUBLIC -DUNICODE -D_UNICODE)
+
 add_library(win-polyfill SHARED
   "${CMAKE_CURRENT_LIST_DIR}/src/win-polyfill-export.h"
   src/win-polyfill.cpp
@@ -98,6 +106,7 @@ set_target_properties(win-polyfill PROPERTIES CPK_PUBLIC_FILES "${win_polyfill_p
 target_compile_definitions(win-polyfill PUBLIC -DUNICODE -D_UNICODE)
 
 install(TARGETS win-polyfill)
+install(TARGETS win-polyfill-static)
 if (MSVC)
   install(FILES $<TARGET_PDB_FILE:win-polyfill> DESTINATION bin)
 endif()
