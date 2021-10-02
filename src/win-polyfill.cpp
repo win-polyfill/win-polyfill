@@ -224,6 +224,10 @@ static LONGLONG WINAPI wpWinVersion()
     return ComputeOsVersionNumber(osvi->dwMajorVersion, osvi->dwMinorVersion);
 }
 
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
+EXTERN_C BOOL __WP_Thunks_Process_Terminating = 0;
+#endif
+
 //导入实际的实现
 #define WP_Thunks_Implemented
 #define __DEFINE_THUNK(_MODULE, _SIZE, _RETURN_, _CONVENTION_, _FUNCTION, ...)                     \
