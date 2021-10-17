@@ -100,7 +100,6 @@ static const LONGLONG WP_OS_VERSION_WIN8_1 = ComputeOsVersionNumber(6, 3);
 static const LONGLONG WP_OS_VERSION_WIN10 = ComputeOsVersionNumber(10, 0);
 
 WP_EXTERN_C LONGLONG WINAPI wpWinVersion();
-
 #endif /* defined(_WIN32) */
 
 #endif /* _WIN_POLYFILL_EXPORT_SHARED_H_ */

@@ -49,6 +49,7 @@
 #pragma comment(lib, "version.lib")
 #pragma comment(lib, "ole32.lib")
 #pragma comment(lib, "shell32.lib")
+#pragma comment(lib, "user32.lib")
 #endif
 
 #if (WP_SUPPORT_VERSION < NTDDI_WIN7)

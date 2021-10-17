@@ -314,6 +314,7 @@ __DEFINE_THUNK(
      */
     if (wpWinVersion() < WP_OS_VERSION_VISTA)
     {
+        printf("winVersion:%lld\n", wpWinVersion());
         if (SPI_GETNONCLIENTMETRICS == uiAction)
         {
             auto pInfo = (NONCLIENTMETRICSW *)pvParam;
@@ -321,9 +322,12 @@ __DEFINE_THUNK(
             uiParam -= sizeof(pInfo->iPaddedBorderWidth);
         }
     }
+    printf("Start SystemParametersInfoW %d %d %p %d\n", uiAction, uiParam, pvParam, fWinIni);
+    printf("wp_get_SystemParametersInfoW():%p", wp_get_SystemParametersInfoW());
     if (!wp_get_SystemParametersInfoW()(uiAction, uiParam, pvParam, fWinIni))
         return FALSE;
 
+    printf("Finished SystemParametersInfoW\n");
     if (SPI_GETICONTITLELOGFONT == uiAction || SPI_GETICONMETRICS == uiAction ||
         SPI_GETNONCLIENTMETRICS == uiAction)
     {

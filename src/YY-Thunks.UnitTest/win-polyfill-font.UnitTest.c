@@ -15,6 +15,16 @@ static bool nonClientMetrics(NONCLIENTMETRICSW *ncm, unsigned dpi)
 {
     memset(ncm, 0, sizeof(NONCLIENTMETRICSW));
     ncm->cbSize = sizeof(NONCLIENTMETRICSW);
+    SystemParametersInfoW(SPI_GETNONCLIENTMETRICS, ncm->cbSize, ncm, 0);
+    printf(
+        "Call SystemParametersInfoW directly %d %d %p %d\n",
+        SPI_GETNONCLIENTMETRICS,
+        ncm->cbSize,
+        ncm,
+        0);
+
+    memset(ncm, 0, sizeof(NONCLIENTMETRICSW));
+    ncm->cbSize = sizeof(NONCLIENTMETRICSW);
     return systemParametersInfo(SPI_GETNONCLIENTMETRICS, ncm->cbSize, ncm, dpi);
 }
 int main(int argc, char **argv)

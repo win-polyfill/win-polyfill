@@ -241,6 +241,7 @@ static HMODULE __fastcall wp_get_module(
     HMODULE const new_handle = (Flags & USING_UNSAFE_LOAD)
                                    ? LoadLibraryW(module_name)
                                    : try_load_library_from_system_directory(module_name);
+    wprintf(L"get moudle %s:%p\n", module_name, new_handle);
     if (!new_handle)
     {
         if (HMODULE const cached_handle =
@@ -299,11 +300,13 @@ static void *__fastcall wp_get_function(
     char const *const name,
     wp_get_module_fun get_module) noexcept
 {
+    printf("Get function:%s %p:%p\n", name, ppFunAddress, *ppFunAddress);
     // First check to see if we've cached the function pointer:
     {
         void *const cached_fp =
             __crt_fast_decode_pointer(__crt_interlocked_read_pointer(ppFunAddress));
 
+        printf("Cached fp: %s %p\n", name, cached_fp);
         if (cached_fp == invalid_function_sentinel())
         {
             return nullptr;
@@ -328,6 +331,7 @@ static void *__fastcall wp_get_function(
         {
             _ASSERTE(cached_fp == invalid_function_sentinel());
         }
+        printf("get failed:%s\n", name);
 
         return nullptr;
     }
@@ -414,11 +418,12 @@ static void __cdecl __WP_uninitialize_winapi_thunks()
 static int __cdecl _WP_initialize_winapi_thunks()
 {
     __security_cookie_yy_thunks = __security_cookie;
-
+    printf("_WP_initialize_winapi_thunks\n");
     void *const encoded_nullptr = __crt_fast_encode_pointer((void *)nullptr);
 
     for (auto p = __WP_THUNKS_FUN_START; p != __WP_THUNKS_FUN_END; ++p)
     {
+        printf("_WP_initialize_winapi_thunks %p\n", p);
         *p = encoded_nullptr;
     }
 
