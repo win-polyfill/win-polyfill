@@ -318,6 +318,7 @@ __DEFINE_THUNK(
         {
             auto pInfo = (NONCLIENTMETRICSW *)pvParam;
             pInfo->cbSize -= sizeof(pInfo->iPaddedBorderWidth);
+            uiParam -= sizeof(pInfo->iPaddedBorderWidth);
         }
     }
     if (!wp_get_SystemParametersInfoW()(uiAction, uiParam, pvParam, fWinIni))
