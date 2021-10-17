@@ -3,25 +3,25 @@
 #define _WP_APPLY_TO_LATE_BOUND_MODULES(_APPLY)                                                    \
     _APPLY(ntdll, "ntdll", USING_UNSAFE_LOAD)                                                      \
     _APPLY(kernel32, "kernel32", USING_UNSAFE_LOAD)                                                \
-    _APPLY(psapi, "psapi", 0)                                                                      \
-    _APPLY(version, "version", 0)                                                                  \
-    _APPLY(advapi32, "advapi32", 0)                                                                \
-    _APPLY(d3d11, "d3d11", 0)                                                                      \
-    _APPLY(d3d9, "d3d9", 0)                                                                        \
-    _APPLY(dbghelp, "dbghelp", 0)                                                                  \
-    _APPLY(dwmapi, "dwmapi", 0)                                                                    \
-    _APPLY(dwrite, "dwrite", 0)                                                                    \
-    _APPLY(dxgi, "dxgi", 0)                                                                        \
-    _APPLY(gdi32, "gdi32", 0)                                                                      \
-    _APPLY(iphlpapi, "iphlpapi", 0)                                                                \
-    _APPLY(ncrypt, "ncrypt", 0)                                                                    \
-    _APPLY(user32, "user32", 0)                                                                    \
-    _APPLY(uxtheme, "uxtheme", 0)                                                                  \
-    _APPLY(ws2_32, "ws2_32", 0)                                                                    \
-    _APPLY(shell32, "shell32", 0)                                                                  \
-    _APPLY(shcore, "shcore", 0)                                                                    \
-    _APPLY(shlwapi, "shlwapi", 0)                                                                  \
-    _APPLY(setupapi, "setupapi", 0)                                                                \
+    _APPLY(psapi, "psapi", USING_UNSAFE_LOAD)                                                      \
+    _APPLY(version, "version", USING_UNSAFE_LOAD)                                                  \
+    _APPLY(advapi32, "advapi32", USING_UNSAFE_LOAD)                                                \
+    _APPLY(d3d11, "d3d11", USING_UNSAFE_LOAD)                                                      \
+    _APPLY(d3d9, "d3d9", USING_UNSAFE_LOAD)                                                        \
+    _APPLY(dbghelp, "dbghelp", USING_UNSAFE_LOAD)                                                  \
+    _APPLY(dwmapi, "dwmapi", USING_UNSAFE_LOAD)                                                    \
+    _APPLY(dwrite, "dwrite", USING_UNSAFE_LOAD)                                                    \
+    _APPLY(dxgi, "dxgi", USING_UNSAFE_LOAD)                                                        \
+    _APPLY(gdi32, "gdi32", USING_UNSAFE_LOAD)                                                      \
+    _APPLY(iphlpapi, "iphlpapi", USING_UNSAFE_LOAD)                                                \
+    _APPLY(ncrypt, "ncrypt", USING_UNSAFE_LOAD)                                                    \
+    _APPLY(user32, "user32", USING_UNSAFE_LOAD)                                                    \
+    _APPLY(uxtheme, "uxtheme", USING_UNSAFE_LOAD)                                                  \
+    _APPLY(ws2_32, "ws2_32", USING_UNSAFE_LOAD)                                                    \
+    _APPLY(shell32, "shell32", USING_UNSAFE_LOAD)                                                  \
+    _APPLY(shcore, "shcore", USING_UNSAFE_LOAD)                                                    \
+    _APPLY(shlwapi, "shlwapi", USING_UNSAFE_LOAD)                                                  \
+    _APPLY(setupapi, "setupapi", USING_UNSAFE_LOAD)                                                \
     _APPLY(api_ms_win_core_winrt_l1_1_0, "api-ms-win-core-winrt-l1-1-0", 0)                        \
     _APPLY(api_ms_win_core_winrt_string_l1_1_0, "api-ms-win-core-winrt-string-l1-1-0", 0)          \
     _APPLY(api_ms_win_core_winrt_error_l1_1_0, "api-ms-win-core-winrt-error-l1-1-0", 0)            \
