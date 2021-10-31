@@ -2,7 +2,7 @@
 cpk_add_test(
   NAME win-polyfill-basic
   SOURCES win-polyfill-basic.UnitTest.c
-  LINK_LIBRARIES win-polyfill
+  LINK_LIBRARIES win-polyfill-static
   COMPILE_DEFINITIONS -DWIN_POLYFILL_DISABLE_SOCKET
 )
 

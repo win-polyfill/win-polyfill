@@ -15,3 +15,6 @@
 #ifndef NOMINMAX
 #define NOMINMAX
 #endif
+#ifndef WIN_POLYFILL_EXPORT_STATIC
+#define WIN_POLYFILL_EXPORT_STATIC
+#endif
