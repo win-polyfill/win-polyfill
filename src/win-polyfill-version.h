@@ -12,3 +12,6 @@
 #ifndef WP_SUPPORT_VERSION
 #define WP_SUPPORT_VERSION NTDDI_WINXP
 #endif
+#ifndef NOMINMAX
+#define NOMINMAX
+#endif

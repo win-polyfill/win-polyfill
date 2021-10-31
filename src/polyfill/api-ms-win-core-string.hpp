@@ -143,7 +143,7 @@ __DEFINE_THUNK(
                 return 0;
             }
 
-            DWORD cchLength = min(__cchCount1, __cchCount2);
+            DWORD cchLength = __cchCount1 < __cchCount2 ? __cchCount1 : __cchCount2;
 
             if (bIgnoreCase)
             {
