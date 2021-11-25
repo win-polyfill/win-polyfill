@@ -32,7 +32,7 @@ __DEFINE_THUNK(
 
 // Windows 8 [desktop apps | UWP apps]
 // Windows Server 2012 [desktop apps | UWP apps]
-__DEFINE_THUNK(api_ms_win_core_winrt_l1_1_0, 0, void, WINAPI, RoUninitialize, )
+__DEFINE_THUNK(api_ms_win_core_winrt_l1_1_0, 0, void, WINAPI, RoUninitialize, VOID)
 {
     if (auto const pRoUninitialize = wp_get_RoUninitialize())
     {
