@@ -1,7 +1,7 @@
 ﻿#pragma once
 
-#ifndef SDK_KM_H
-#define SDK_KM_H
+#ifndef _WIN_POLYFILL_KM_H_
+#define _WIN_POLYFILL_KM_H_
 
 #ifndef UMDF_USING_NTSTATUS
 #define UMDF_USING_NTSTATUS
@@ -4661,4 +4661,4 @@ LdrAddRefDll(IN ULONG Flags, IN PVOID BaseAddress);
 } // namespace YY
 #endif
 
-#endif
+#endif /* _WIN_POLYFILL_KM_H_ */
