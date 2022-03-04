@@ -820,6 +820,135 @@ __DEFINE_THUNK(
 
 #if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
+static int poll_win32_select(LPWSAPOLLFD fdArray, ULONG fds, INT timeout)
+{
+    uintptr_t *fd_set_memory = NULL;
+    ULONG i = 0;
+    int count = 0;
+    fd_set *readfds = NULL;
+    fd_set *writefds = NULL;
+    fd_set *exceptfds = NULL;
+    struct timeval *__ptimeout = NULL;
+    struct timeval time_out;
+    int result = -1;
+
+    for (count = 0; count < 2; ++count)
+    {
+        int read_count = 0;
+        int write_count = 0;
+        int except_count = 0;
+        for (i = 0; i < fds; i++)
+        {
+            struct pollfd *fd = fdArray + i;
+            if (fd->fd == INVALID_SOCKET)
+            {
+                continue;
+            }
+
+            // Read (in) socket
+            if (fd->events & (POLLRDNORM | POLLRDBAND | POLLPRI))
+            {
+                if (readfds != NULL)
+                {
+                    readfds->fd_array[read_count] = fd->fd;
+                }
+                ++read_count;
+            }
+
+            // Write (out) socket
+            if (fd->events & (POLLWRNORM | POLLWRBAND))
+            {
+                if (writefds != NULL)
+                {
+                    writefds->fd_array[write_count] = fd->fd;
+                }
+                ++write_count;
+            }
+
+            // Exception
+            if (fd->events & (POLLERR | POLLHUP | POLLNVAL))
+            {
+                if (exceptfds != NULL)
+                {
+                    exceptfds->fd_array[except_count] = fd->fd;
+                }
+                ++except_count;
+            }
+        }
+
+        if (fd_set_memory == NULL)
+        {
+            size_t mem_size = 0;
+            read_count = max(64, read_count);
+            write_count = max(64, write_count);
+            except_count = max(64, except_count);
+            mem_size = ((read_count + write_count + except_count) + 3) * sizeof(uintptr_t);
+            fd_set_memory = (uintptr_t *)HeapAlloc(GetProcessHeap(), 0, mem_size);
+        }
+        else
+        {
+            readfds->fd_count = read_count;
+            writefds->fd_count = write_count;
+            exceptfds->fd_count = except_count;
+            break;
+        }
+        if (fd_set_memory == NULL)
+        {
+            return -1;
+        }
+        readfds = (fd_set *)fd_set_memory;
+        writefds = (fd_set *)(fd_set_memory + (read_count + 1));
+        exceptfds = (fd_set *)(fd_set_memory + (read_count + 1) + (write_count + 1));
+    }
+
+    /*
+    timeout  < 0 , infinite
+    timeout == 0 , nonblock
+    timeout  > 0 , the time to wait
+    */
+    if (timeout >= 0)
+    {
+        time_out.tv_sec = timeout / 1000;
+        time_out.tv_usec = (timeout % 1000) * 1000;
+        __ptimeout = &time_out;
+    }
+
+    result = select(1, readfds, writefds, exceptfds, __ptimeout);
+
+    if (result > 0)
+    {
+        for (i = 0; i < fds; i++)
+        {
+            struct pollfd *fd = fdArray + i;
+            fd->revents = 0;
+            if (fd->fd == INVALID_SOCKET)
+            {
+                continue;
+            }
+            if (FD_ISSET(fd->fd, readfds))
+            {
+                fd->revents |= fd->events & // NOLINT
+                               (POLLRDNORM | POLLRDBAND | POLLPRI);
+            }
+
+            if (FD_ISSET(fd->fd, writefds))
+            {
+                fd->revents |= fd->events & // NOLINT
+                               (POLLWRNORM | POLLWRBAND);
+            }
+
+            if (FD_ISSET(fd->fd, exceptfds))
+            {
+                fd->revents |= fd->events & // NOLINT
+                               (POLLERR | POLLHUP | POLLNVAL);
+            }
+        }
+    }
+
+    HeapFree(GetProcessHeap(), 0, fd_set_memory);
+    return result;
+}
+
 // Windows 8.1, Windows Vista [desktop apps | UWP apps]
 // Windows Server 2008 [desktop apps | UWP apps]
 // 参考 https://blog.csdn.net/liangzhao_jay/article/details/53261684 实现
@@ -838,74 +967,7 @@ __DEFINE_THUNK(
         return pWSAPoll(fdArray, fds, timeout);
     }
 
-    fd_set readfds;
-    fd_set writefds;
-    fd_set exceptfds;
-
-    FD_ZERO(&readfds);
-    FD_ZERO(&writefds);
-    FD_ZERO(&exceptfds);
-
-    for (ULONG i = 0; i < fds; i++)
-    {
-        auto &fd = fdArray[i];
-
-        // Read (in) socket
-        if (fd.events & (POLLRDNORM | POLLRDBAND | POLLPRI))
-        {
-            FD_SET(fd.fd, &readfds);
-        }
-
-        // Write (out) socket
-        if (fd.events & (POLLWRNORM | POLLWRBAND))
-        {
-            FD_SET(fd.fd, &writefds);
-        }
-
-        // 异常
-        if (fd.events & (POLLERR | POLLHUP | POLLNVAL))
-        {
-            FD_SET(fd.fd, &exceptfds);
-        }
-    }
-
-    /*
-    timeout  < 0 ，无限等待
-    timeout == 0 ，马上回来
-    timeout  >0  ，最长等这个时间
-    */
-    timeval *__ptimeout = nullptr;
-
-    timeval time_out;
-
-    if (timeout >= 0)
-    {
-        time_out.tv_sec = timeout / 1000;
-        time_out.tv_usec = (timeout % 1000) * 1000;
-        __ptimeout = &time_out;
-    }
-
-    const auto result = select(1, &readfds, &writefds, &exceptfds, __ptimeout);
-
-    if (result > 0)
-    {
-        for (ULONG i = 0; i < fds; i++)
-        {
-            auto &fd = fdArray[i];
-
-            fd.revents = 0;
-            if (FD_ISSET(fd.fd, &readfds))
-                fd.revents |= fd.events & (POLLRDNORM | POLLRDBAND | POLLPRI);
-
-            if (FD_ISSET(fd.fd, &writefds))
-                fd.revents |= fd.events & (POLLWRNORM | POLLWRBAND);
-
-            if (FD_ISSET(fd.fd, &exceptfds))
-                fd.revents |= fd.events & (POLLERR | POLLHUP | POLLNVAL);
-        }
-    }
-
-    return result;
+    return poll_win32_select(fdArray, fds, timeout);
 }
 #endif
 
