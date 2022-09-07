@@ -1,168 +1,161 @@
-﻿#include "pch.h"
-#include "Thunks/api-ms-win-core-synch.hpp"
+﻿#include "Thunks/api-ms-win-core-synch.hpp"
+#include "pch.h"
 
+namespace api_ms_win_core_synch {
+TEST_CLASS(WaitOnAddress){public :
+                              WaitOnAddress(){YY::Thunks::aways_null_wp_get_WaitOnAddress = true;
+YY::Thunks::aways_null_wp_get_WakeByAddressSingle = true;
+} // namespace api_ms_win_core_synch
 
-namespace api_ms_win_core_synch
+TEST_METHOD(结果本身不同)
 {
-	TEST_CLASS(WaitOnAddress)
-	{
-	public:
-		WaitOnAddress()
-		{
-			YY::Thunks::aways_null_wp_get_WaitOnAddress = true;
-			YY::Thunks::aways_null_wp_get_WakeByAddressSingle = true;
-		}
+    // 本身不同时，数据应该立即返回
 
-		TEST_METHOD(结果本身不同)
-		{
-			//本身不同时，数据应该立即返回
+    ULONG TargetValue = 0x2;
+    ULONG UndesiredValue = 0;
 
-			ULONG TargetValue = 0x2;
-			ULONG UndesiredValue = 0;
+    auto bRet = ::WaitOnAddress(&TargetValue, &UndesiredValue, sizeof(UndesiredValue), 500);
 
-			auto bRet = ::WaitOnAddress(&TargetValue, &UndesiredValue, sizeof(UndesiredValue), 500);
+    Assert::IsTrue(bRet);
+}
 
-			Assert::IsTrue(bRet);
-		}
+TEST_METHOD(结果本身相同)
+{
+    ULONG TargetValue = 0x2;
+    ULONG UndesiredValue = 0x2;
 
-		TEST_METHOD(结果本身相同)
-		{
-			ULONG TargetValue = 0x2;
-			ULONG UndesiredValue = 0x2;
+    auto bRet = ::WaitOnAddress(&TargetValue, &UndesiredValue, sizeof(UndesiredValue), 500);
 
-			auto bRet = ::WaitOnAddress(&TargetValue, &UndesiredValue, sizeof(UndesiredValue), 500);
+    Assert::IsFalse(bRet);
+}
+}
+;
 
-			Assert::IsFalse(bRet);
-		}
-	};
+TEST_CLASS(WakeByAddressSingle){
+    public : WakeByAddressSingle(){YY::Thunks::aways_null_wp_get_WaitOnAddress = true;
+YY::Thunks::aways_null_wp_get_WakeByAddressSingle = true;
+}
 
+TEST_METHOD(只唤醒了一个线程)
+{
 
-	TEST_CLASS(WakeByAddressSingle)
-	{
-	public:
-		WakeByAddressSingle()
-		{
-			YY::Thunks::aways_null_wp_get_WaitOnAddress = true;
-			YY::Thunks::aways_null_wp_get_WakeByAddressSingle = true;
-		}
+    struct MyData
+    {
+        ULONG TargetValue;
+        volatile long RunCount;
+    };
 
-		TEST_METHOD(只唤醒了一个线程)
-		{
-			
-			struct MyData
-			{
-				ULONG TargetValue;
-				volatile long RunCount;
-			};
+    MyData Data = {0x2, 0};
 
-			MyData Data = { 0x2,0 };
+    HANDLE hThreadHandles[100];
 
+    for (auto &hThreadHandle : hThreadHandles)
+    {
+        hThreadHandle = (HANDLE)_beginthreadex(
+            nullptr,
+            0,
+            [](void *pMyData) -> unsigned {
+                auto &Data = *(MyData *)pMyData;
 
-			HANDLE hThreadHandles[100];
+                ULONG UndesiredValue = 0x2;
+                auto bRet = ::WaitOnAddress(
+                    &Data.TargetValue, &UndesiredValue, sizeof(UndesiredValue), INFINITE);
 
-			for (auto& hThreadHandle : hThreadHandles)
-			{
-				hThreadHandle = (HANDLE)_beginthreadex(nullptr, 0, [](void* pMyData) -> unsigned
-					{
-						auto& Data = *(MyData*)pMyData;
+                Assert::IsTrue(bRet);
 
-						ULONG UndesiredValue = 0x2;
-						auto bRet = ::WaitOnAddress(&Data.TargetValue, &UndesiredValue, sizeof(UndesiredValue), INFINITE);
+                InterlockedIncrement(&Data.RunCount);
 
-						Assert::IsTrue(bRet);
+                return 0;
+            },
+            &Data,
+            0,
+            nullptr);
 
-						InterlockedIncrement(&Data.RunCount);
+        Assert::IsNotNull(hThreadHandle);
+    }
 
-						return 0;
-					}, & Data, 0, nullptr);
+    Sleep(200);
 
-				Assert::IsNotNull(hThreadHandle);
-			}
+    Assert::AreEqual(0l, (long)Data.RunCount);
 
-			Sleep(200);
+    Data.TargetValue = 0;
+    ::WakeByAddressSingle(&Data.TargetValue);
 
-			Assert::AreEqual(0l, (long)Data.RunCount);
+    Sleep(200);
 
-			Data.TargetValue = 0;
-			::WakeByAddressSingle(&Data.TargetValue);
+    Assert::AreEqual(1l, (long)Data.RunCount);
 
-			Sleep(200);
+    for (int i = 0; i != 99; ++i)
+    {
+        ::WakeByAddressSingle(&Data.TargetValue);
+    }
 
-			Assert::AreEqual(1l, (long)Data.RunCount);
+    for (auto hThreadHandle : hThreadHandles)
+    {
+        Assert::AreEqual(WaitForSingleObject(hThreadHandle, 500), WAIT_OBJECT_0);
+    }
 
+    Assert::AreEqual(100l, (long)Data.RunCount);
+}
+}
+;
 
-			for (int i = 0; i != 99; ++i)
-			{
-				::WakeByAddressSingle(&Data.TargetValue);
-			}
+TEST_CLASS(WakeByAddressAll){
+    public : WakeByAddressAll(){YY::Thunks::aways_null_wp_get_WaitOnAddress = true;
+YY::Thunks::aways_null_wp_get_WakeByAddressAll = true;
+}
 
-			for (auto hThreadHandle : hThreadHandles)
-			{
-				Assert::AreEqual(WaitForSingleObject(hThreadHandle, 500), WAIT_OBJECT_0);
-			}
+TEST_METHOD(唤醒所有线程)
+{
+    struct MyData
+    {
+        ULONG TargetValue;
+        volatile long RunCount;
+    };
 
-			Assert::AreEqual(100l, (long)Data.RunCount);
+    MyData Data = {0x2, 0};
 
-		}
-	};
+    HANDLE hThreadHandles[100];
 
+    for (auto &hThreadHandle : hThreadHandles)
+    {
+        hThreadHandle = (HANDLE)_beginthreadex(
+            nullptr,
+            0,
+            [](void *pMyData) -> unsigned {
+                auto &Data = *(MyData *)pMyData;
 
-	TEST_CLASS(WakeByAddressAll)
-	{
-	public:
-		WakeByAddressAll()
-		{
-			YY::Thunks::aways_null_wp_get_WaitOnAddress = true;
-			YY::Thunks::aways_null_wp_get_WakeByAddressAll = true;
-		}
+                ULONG UndesiredValue = 0x2;
+                auto bRet = ::WaitOnAddress(
+                    &Data.TargetValue, &UndesiredValue, sizeof(UndesiredValue), INFINITE);
 
-		TEST_METHOD(唤醒所有线程)
-		{
-			struct MyData
-			{
-				ULONG TargetValue;
-				volatile long RunCount;
-			};
+                Assert::IsTrue(bRet);
 
-			MyData Data = { 0x2,0 };
+                InterlockedIncrement(&Data.RunCount);
 
+                return 0;
+            },
+            &Data,
+            0,
+            nullptr);
 
-			HANDLE hThreadHandles[100];
+        Assert::IsNotNull(hThreadHandle);
+    }
 
-			for (auto& hThreadHandle : hThreadHandles)
-			{
-				hThreadHandle = (HANDLE)_beginthreadex(nullptr, 0, [](void* pMyData) -> unsigned
-					{
-						auto& Data = *(MyData*)pMyData;
+    Sleep(200);
 
-						ULONG UndesiredValue = 0x2;
-						auto bRet = ::WaitOnAddress(&Data.TargetValue, &UndesiredValue, sizeof(UndesiredValue), INFINITE);
+    Assert::AreEqual(0l, (long)Data.RunCount);
 
-						Assert::IsTrue(bRet);
+    Data.TargetValue = 0;
+    ::WakeByAddressAll(&Data.TargetValue);
 
-						InterlockedIncrement(&Data.RunCount);
+    for (auto hThreadHandle : hThreadHandles)
+    {
+        Assert::AreEqual(WaitForSingleObject(hThreadHandle, 500), WAIT_OBJECT_0);
+    }
 
-						return 0;
-					}, &Data, 0, nullptr);
-
-				Assert::IsNotNull(hThreadHandle);
-			}
-
-			Sleep(200);
-
-			Assert::AreEqual(0l, (long)Data.RunCount);
-
-			Data.TargetValue = 0;
-			::WakeByAddressAll(&Data.TargetValue);
-
-			for (auto hThreadHandle : hThreadHandles)
-			{
-				Assert::AreEqual(WaitForSingleObject(hThreadHandle, 500), WAIT_OBJECT_0);
-			}
-
-			Assert::AreEqual(100l, (long)Data.RunCount);
-
-
-		}
-	};
+    Assert::AreEqual(100l, (long)Data.RunCount);
+}
+}
+;
 }
