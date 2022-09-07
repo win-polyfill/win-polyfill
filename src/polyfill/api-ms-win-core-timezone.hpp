@@ -1,11 +1,7 @@
 ﻿
 #include <timezoneapi.h>
 
-namespace YY
-{
-	namespace Thunks
-	{
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -19,7 +15,7 @@ namespace YY
 			_Out_ PDYNAMIC_TIME_ZONE_INFORMATION pTimeZoneInformation
 			)
 		{
-			if (const auto pGetDynamicTimeZoneInformation = try_get_GetDynamicTimeZoneInformation())
+			if (const auto pGetDynamicTimeZoneInformation = wp_get_GetDynamicTimeZoneInformation())
 			{
 				return pGetDynamicTimeZoneInformation(pTimeZoneInformation);
 			}
@@ -86,7 +82,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps only]
 		//Minimum supported server	Windows Server 2008 [desktop apps only]
@@ -99,7 +95,7 @@ namespace YY
 			_In_ CONST DYNAMIC_TIME_ZONE_INFORMATION* lpTimeZoneInformation
 			)
 		{
-			if (const auto pSetDynamicTimeZoneInformation = try_get_SetDynamicTimeZoneInformation())
+			if (const auto pSetDynamicTimeZoneInformation = wp_get_SetDynamicTimeZoneInformation())
 			{
 				return pSetDynamicTimeZoneInformation(lpTimeZoneInformation);
 			}
@@ -107,5 +103,4 @@ namespace YY
 			return SetTimeZoneInformation((TIME_ZONE_INFORMATION*)lpTimeZoneInformation);
 		}
 #endif
-	} //namespace Thunks
-} //namespace YY
+

@@ -1,12 +1,7 @@
 ﻿
 #include <ws2tcpip.h>
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows 8.1, Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -23,7 +18,7 @@ namespace YY
 													  PVOID           pAddrBuf
 			)
 		{
-			if (auto pinet_pton = try_get_inet_pton())
+			if (auto pinet_pton = wp_get_inet_pton())
 			{
 				return pinet_pton(Family, pszAddrString, pAddrBuf);
 			}
@@ -230,7 +225,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows 8.1, Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -247,7 +242,7 @@ namespace YY
 													  PVOID           pAddrBuf
 			)
 		{
-			if (auto pInetPtonW = try_get_InetPtonW())
+			if (auto pInetPtonW = wp_get_InetPtonW())
 			{
 				return pInetPtonW(Family, pszAddrString, pAddrBuf);
 			}
@@ -454,7 +449,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows 8.1, Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -470,7 +465,7 @@ namespace YY
 			_In_                                size_t          StringBufSize
 			)
 		{
-			if (auto pinet_ntop = try_get_inet_ntop())
+			if (auto pinet_ntop = wp_get_inet_ntop())
 			{
 				return pinet_ntop(Family, pAddr, pStringBuf, StringBufSize);
 			}
@@ -650,7 +645,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows 8.1, Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -666,7 +661,7 @@ namespace YY
 			_In_                                size_t          StringBufSize
 			)
 		{
-			if (auto pInetNtopW = try_get_InetNtopW())
+			if (auto pInetNtopW = wp_get_InetNtopW())
 			{
 				return pInetNtopW(Family, pAddr, pStringBuf, StringBufSize);
 			}
@@ -846,7 +841,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows 8.1, Windows Vista [desktop apps | UWP apps]
 		//Windows Server 2008 [desktop apps | UWP apps]
@@ -862,7 +857,7 @@ namespace YY
 			_In_ INT timeout
 			)
 		{
-			if (auto const pWSAPoll = try_get_WSAPoll())
+			if (auto const pWSAPoll = wp_get_WSAPoll())
 			{
 				return pWSAPoll(fdArray, fds, timeout);
 			}
@@ -938,6 +933,3 @@ namespace YY
 			return result;
 		}
 #endif
-	}//namespace Thunks
-
-} //namespace YY

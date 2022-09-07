@@ -6,10 +6,6 @@
 #pragma push_macro("InterlockedCompareExchange64")
 #undef InterlockedCompareExchange64
 
-namespace YY
-{
-	namespace Thunks
-	{
 		//某些头文件在全局有重载，所以我们复制一份，让符号检测可以正常的工作。
 		namespace TopFix
 		{
@@ -242,10 +238,6 @@ namespace YY
 
 			}
 		}
-	} //namespace Thunks
-} //namespace YY
-
-
 #ifdef __DEFINE_THUNK
 #undef __DEFINE_THUNK
 #endif
@@ -266,7 +258,7 @@ __declspec(allocate("TMP$__a")) LPCSTR _CRT_CONCATENATE(FunctionName, _FUNCTION)
 __if_not_exists(_CRT_CONCATENATE(FunctionName, _FUNCTION))
 
 
-#include "Thunks/YY_Thunks_List.hpp"
+#include "Thunks/WP_Thunks_List.hpp"
 
 #undef __DEFINE_THUNK
 #pragma pop_macro("InterlockedCompareExchange64")

@@ -1,11 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WS03SP1)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03SP1)
 
 		//Windows XP with SP2, Windows Server 2003 with SP1
 		__DEFINE_THUNK(
@@ -17,7 +12,7 @@ namespace YY
 			_In_opt_ PVOID Ptr
 			)
 		{
-			if (auto const pDecodePointer = try_get_DecodePointer())
+			if (auto const pDecodePointer = wp_get_DecodePointer())
 			{
 				return pDecodePointer(Ptr);
 			}
@@ -29,7 +24,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03SP1)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03SP1)
 
 		//Windows XP with SP2, Windows Server 2003 with SP1
 		__DEFINE_THUNK(
@@ -41,7 +36,7 @@ namespace YY
 			_In_opt_ PVOID Ptr
 			)
 		{
-			if (auto const pEncodePointer = try_get_EncodePointer())
+			if (auto const pEncodePointer = wp_get_EncodePointer())
 			{
 				return pEncodePointer(Ptr);
 			}
@@ -51,8 +46,3 @@ namespace YY
 			}
 		}
 #endif
-
-
-	}//namespace Thunks
-
-} //namespace YY

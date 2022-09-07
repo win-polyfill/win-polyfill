@@ -1,11 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Windows 7 [desktop apps | UWP apps]
 		//Windows Server 2008 R2 [desktop apps | UWP apps]
@@ -20,7 +15,7 @@ namespace YY
 			_In_ DWORD dwFlags
 			)
 		{
-			if (auto pRaiseFailFastException = try_get_RaiseFailFastException())
+			if (auto pRaiseFailFastException = wp_get_RaiseFailFastException())
 			{
 				return pRaiseFailFastException(pExceptionRecord, pContextRecord, dwFlags);
 			}
@@ -31,7 +26,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Windows 7 [desktop apps | UWP apps]
 		//Windows Server 2008 R2 [desktop apps | UWP apps]
@@ -45,7 +40,7 @@ namespace YY
 			_In_opt_ LPDWORD lpOldMode
 			)
 		{
-			if (auto pSetThreadErrorMode = try_get_SetThreadErrorMode())
+			if (auto pSetThreadErrorMode = wp_get_SetThreadErrorMode())
 			{
 				return pSetThreadErrorMode(dwNewMode, lpOldMode);
 			}
@@ -59,7 +54,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Windows 7 [desktop apps | UWP apps]
 		//Windows Server 2008 R2 [desktop apps | UWP apps]
@@ -72,7 +67,7 @@ namespace YY
 			VOID
 			)
 		{
-			if (auto pGetThreadErrorMode = try_get_GetThreadErrorMode())
+			if (auto pGetThreadErrorMode = wp_get_GetThreadErrorMode())
 			{
 				return pGetThreadErrorMode();
 			}
@@ -82,7 +77,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -95,11 +90,11 @@ namespace YY
 			VOID
 			)
 		{
-			if (auto pGetErrorMode = try_get_GetErrorMode())
+			if (auto pGetErrorMode = wp_get_GetErrorMode())
 			{
 				return pGetErrorMode();
 			}
-			else if (auto pNtQueryInformationProcess = try_get_NtQueryInformationProcess())
+			else if (auto pNtQueryInformationProcess = wp_get_NtQueryInformationProcess())
 			{
 				DWORD dwDefaultHardErrorMode;
 
@@ -128,7 +123,3 @@ namespace YY
 			}
 		}
 #endif
-
-	}//namespace Thunks
-
-} //namespace YY

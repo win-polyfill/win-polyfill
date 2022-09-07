@@ -1,11 +1,6 @@
 ﻿
 
-
-namespace YY
-{
-	namespace Thunks
-	{
-#if defined(YY_Thunks_Implemented) && (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if defined(WP_Thunks_Implemented) && (WP_SUPPORT_VERSION < NTDDI_WIN6)
 		namespace internal
 		{
 			struct FastDownlevelCallbackInfo
@@ -942,7 +937,7 @@ namespace YY
 		}
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -955,7 +950,7 @@ namespace YY
 			_In_ DWORD dwFlags
 			)
 		{
-			if (auto pLocaleNameToLCID = try_get_LocaleNameToLCID())
+			if (auto pLocaleNameToLCID = wp_get_LocaleNameToLCID())
 			{
 				return pLocaleNameToLCID(lpName, dwFlags);
 			}
@@ -1380,7 +1375,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -1395,7 +1390,7 @@ namespace YY
 			_In_ DWORD    dwFlags
 			)
 		{
-			if (auto pLCIDToLocaleName = try_get_LCIDToLocaleName())
+			if (auto pLCIDToLocaleName = wp_get_LCIDToLocaleName())
 			{
 				return pLCIDToLocaleName(Locale, lpName, cchName, dwFlags);
 			}
@@ -1438,7 +1433,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -1453,7 +1448,7 @@ namespace YY
 			_In_ int cchData
 			)
 		{
-			if (auto pGetLocaleInfoEx = try_get_GetLocaleInfoEx())
+			if (auto pGetLocaleInfoEx = wp_get_GetLocaleInfoEx())
 			{
 				return pGetLocaleInfoEx(lpLocaleName, LCType, lpLCData, cchData);
 			}
@@ -1470,7 +1465,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -1487,7 +1482,7 @@ namespace YY
 			_In_ int cchNumber
 			)
 		{
-			if (auto pGetNumberFormatEx = try_get_GetNumberFormatEx())
+			if (auto pGetNumberFormatEx = wp_get_GetNumberFormatEx())
 			{
 				return pGetNumberFormatEx(lpLocaleName, dwFlags, lpValue, lpFormat, lpNumberStr, cchNumber);
 			}
@@ -1506,7 +1501,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -1523,7 +1518,7 @@ namespace YY
 			_In_ int cchCurrency
 			)
 		{
-			if (auto pGetCurrencyFormatEx = try_get_GetCurrencyFormatEx())
+			if (auto pGetCurrencyFormatEx = wp_get_GetCurrencyFormatEx())
 			{
 				return pGetCurrencyFormatEx(lpLocaleName, dwFlags, lpValue, lpFormat, lpCurrencyStr, cchCurrency);
 			}
@@ -1542,7 +1537,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -1555,7 +1550,7 @@ namespace YY
 			_In_ int cchLocaleName
 			)
 		{
-			if (auto pGetUserDefaultLocaleName = try_get_GetUserDefaultLocaleName())
+			if (auto pGetUserDefaultLocaleName = wp_get_GetUserDefaultLocaleName())
 			{
 				return pGetUserDefaultLocaleName(lpLocaleName, cchLocaleName);
 			}
@@ -1566,7 +1561,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -1579,7 +1574,7 @@ namespace YY
 			_In_ int cchLocaleName
 			)
 		{
-			if (auto pGetSystemDefaultLocaleName = try_get_GetSystemDefaultLocaleName())
+			if (auto pGetSystemDefaultLocaleName = wp_get_GetSystemDefaultLocaleName())
 			{
 				return pGetSystemDefaultLocaleName(lpLocaleName, cchLocaleName);
 			}
@@ -1590,7 +1585,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -1607,7 +1602,7 @@ namespace YY
 			_In_ LPARAM lParam
 			)
 		{
-			if (auto pEnumCalendarInfoExEx = try_get_EnumCalendarInfoExEx())
+			if (auto pEnumCalendarInfoExEx = wp_get_EnumCalendarInfoExEx())
 			{
 				return pEnumCalendarInfoExEx(pCalInfoEnumProcExEx, lpLocaleName, Calendar, lpReserved, CalType, lParam);
 			}
@@ -1726,7 +1721,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -1741,7 +1736,7 @@ namespace YY
 			_In_ LPARAM lParam
 			)
 		{
-			if (auto pEnumDateFormatsExEx = try_get_EnumDateFormatsExEx())
+			if (auto pEnumDateFormatsExEx = wp_get_EnumDateFormatsExEx())
 			{
 				return pEnumDateFormatsExEx(lpDateFmtEnumProcExEx, lpLocaleName, dwFlags, lParam);
 			}
@@ -1857,7 +1852,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1878,7 +1873,7 @@ namespace YY
 			_In_opt_ LPARAM sortHandle
 			)
 		{
-			if (const auto pLCMapStringEx = try_get_LCMapStringEx())
+			if (const auto pLCMapStringEx = wp_get_LCMapStringEx())
 			{
 				return pLCMapStringEx(lpLocaleName, dwMapFlags, lpSrcStr, cchSrc, lpDestStr, cchDest, lpVersionInformation, lpReserved, sortHandle);
 			}
@@ -1896,7 +1891,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -1912,7 +1907,7 @@ namespace YY
 			_In_opt_ LPVOID lpReserved
 			)
 		{
-			if (const auto pEnumSystemLocalesEx = try_get_EnumSystemLocalesEx())
+			if (const auto pEnumSystemLocalesEx = wp_get_EnumSystemLocalesEx())
 			{
 				return pEnumSystemLocalesEx(lpLocaleEnumProcEx, dwFlags, lParam, lpReserved);
 			}
@@ -2038,7 +2033,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -2054,7 +2049,7 @@ namespace YY
 			_Inout_ PULONG pcchLanguagesBuffer
 			)
 		{
-			if (auto const pGetThreadPreferredUILanguages = try_get_GetThreadPreferredUILanguages())
+			if (auto const pGetThreadPreferredUILanguages = wp_get_GetThreadPreferredUILanguages())
 			{
 				return pGetThreadPreferredUILanguages(dwFlags, pulNumLanguages, pwszLanguagesBuffer, pcchLanguagesBuffer);
 			}
@@ -2284,7 +2279,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps only]
 		//Minimum supported server	Windows Server 2008 [desktop apps only]
@@ -2297,7 +2292,7 @@ namespace YY
 			void
 			)
 		{
-			if (auto const pGetThreadUILanguage = try_get_GetThreadUILanguage())
+			if (auto const pGetThreadUILanguage = wp_get_GetThreadUILanguage())
 			{
 				return pGetThreadUILanguage();
 			}
@@ -2307,7 +2302,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Minimum supported client	Windows 7 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 R2 [desktop apps | UWP apps]
@@ -2322,7 +2317,7 @@ namespace YY
 			_In_                            int     cchLocaleName
 			)
 		{
-			if (auto const pResolveLocaleName = try_get_ResolveLocaleName())
+			if (auto const pResolveLocaleName = wp_get_ResolveLocaleName())
 			{
 				return pResolveLocaleName(lpNameToResolve, lpLocaleName, cchLocaleName);
 			}
@@ -2400,6 +2395,3 @@ namespace YY
 			return 1;
 		}
 #endif
-	}//namespace Thunks
-
-} //namespace YY

@@ -1,12 +1,6 @@
 ﻿
 
-
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -24,7 +18,7 @@ namespace YY
 			_In_opt_ LPCWSTR lpCalendar
 			)
 		{
-			if (auto pGetDateFormatEx = try_get_GetDateFormatEx())
+			if (auto pGetDateFormatEx = wp_get_GetDateFormatEx())
 			{
 				return pGetDateFormatEx(lpLocaleName, dwFlags, lpDate, lpFormat, lpDateStr, cchDate, lpCalendar);
 			}
@@ -42,7 +36,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista,  Windows Server 2008
 		__DEFINE_THUNK(
@@ -59,7 +53,7 @@ namespace YY
 			_In_ int cchTime
 			)
 		{
-			if (auto pGetTimeFormatEx = try_get_GetTimeFormatEx())
+			if (auto pGetTimeFormatEx = wp_get_GetTimeFormatEx())
 			{
 				return pGetTimeFormatEx(lpLocaleName, dwFlags, lpTime, lpFormat, lpTimeStr, cchTime);
 			}
@@ -75,7 +69,3 @@ namespace YY
 			return GetTimeFormatW(Locale, dwFlags, lpTime, lpFormat, lpTimeStr, cchTime);
 		}
 #endif
-
-	}//namespace Thunks
-
-} //namespace YY

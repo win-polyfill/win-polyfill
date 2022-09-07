@@ -1,11 +1,6 @@
 ﻿#include <winstring.h>
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
         //Windows 8 [desktop apps | UWP apps]
         //Windows Server 2012 [desktop apps | UWP apps]
@@ -20,7 +15,7 @@ namespace YY
             _Outptr_result_maybenull_ _Result_nullonfailure_ HSTRING* string
             )
         {
-            if (auto const pWindowsCreateString = try_get_WindowsCreateString())
+            if (auto const pWindowsCreateString = wp_get_WindowsCreateString())
             {
                 return pWindowsCreateString(sourceString, length, string);
             }
@@ -33,7 +28,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
         //Windows 8 [desktop apps | UWP apps]
         //Windows Server 2012 [desktop apps | UWP apps]
@@ -49,7 +44,7 @@ namespace YY
             _Outptr_result_maybenull_ _Result_nullonfailure_ HSTRING* string
             )
         {
-            if (auto const pWindowsCreateStringReference = try_get_WindowsCreateStringReference())
+            if (auto const pWindowsCreateStringReference = wp_get_WindowsCreateStringReference())
             {
                 return pWindowsCreateStringReference(sourceString, length, hstringHeader, string);
             }
@@ -62,7 +57,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
         //Windows 8 [desktop apps | UWP apps]
         //Windows Server 2012 [desktop apps | UWP apps]
@@ -75,7 +70,7 @@ namespace YY
             _In_opt_ HSTRING string
             )
         {
-            if (auto const pWindowsDeleteString = try_get_WindowsDeleteString())
+            if (auto const pWindowsDeleteString = wp_get_WindowsDeleteString())
             {
                 return pWindowsDeleteString(string);
             }
@@ -85,7 +80,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
         //Windows 8 [desktop apps | UWP apps]
         //Windows Server 2012 [desktop apps | UWP apps]
@@ -99,7 +94,7 @@ namespace YY
             _Outptr_result_maybenull_ _Result_nullonfailure_ HSTRING* newString
             )
         {
-            if (auto const pWindowsDuplicateString = try_get_WindowsDuplicateString())
+            if (auto const pWindowsDuplicateString = wp_get_WindowsDuplicateString())
             {
                 return pWindowsDuplicateString(string, newString);
             }
@@ -113,7 +108,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
         //Windows 8 [desktop apps | UWP apps]
         //Windows Server 2012 [desktop apps | UWP apps]
@@ -126,7 +121,7 @@ namespace YY
             _In_opt_ HSTRING string
             )
         {
-            if (auto const pWindowsGetStringLen = try_get_WindowsGetStringLen())
+            if (auto const pWindowsGetStringLen = wp_get_WindowsGetStringLen())
             {
                 return pWindowsGetStringLen(string);
             }
@@ -136,7 +131,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
         //Windows 8 [desktop apps | UWP apps]
         //Windows Server 2012 [desktop apps | UWP apps]
@@ -150,7 +145,7 @@ namespace YY
             _Out_opt_ UINT32* length
             )
         {
-            if (auto const pWindowsGetStringRawBuffer = try_get_WindowsGetStringRawBuffer())
+            if (auto const pWindowsGetStringRawBuffer = wp_get_WindowsGetStringRawBuffer())
             {
                 return pWindowsGetStringRawBuffer(string, length);
             }
@@ -163,7 +158,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
         //Windows 8 [desktop apps | UWP apps]
         //Windows Server 2012 [desktop apps | UWP apps]
@@ -176,7 +171,7 @@ namespace YY
             _In_opt_ HSTRING string
             )
         {
-            if (auto const pWindowsIsStringEmpty = try_get_WindowsIsStringEmpty())
+            if (auto const pWindowsIsStringEmpty = wp_get_WindowsIsStringEmpty())
             {
                 return pWindowsIsStringEmpty(string);
             }
@@ -186,7 +181,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
         //Windows 8 [desktop apps | UWP apps]
         //Windows Server 2012 [desktop apps | UWP apps]
@@ -200,7 +195,7 @@ namespace YY
             _Out_ BOOL* hasEmbedNull
             )
         {
-            if (auto const pWindowsStringHasEmbeddedNull = try_get_WindowsStringHasEmbeddedNull())
+            if (auto const pWindowsStringHasEmbeddedNull = wp_get_WindowsStringHasEmbeddedNull())
             {
                 return pWindowsStringHasEmbeddedNull(string, hasEmbedNull);
             }
@@ -210,7 +205,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
         //Windows 8 [desktop apps | UWP apps]
         //Windows Server 2012 [desktop apps | UWP apps]
@@ -225,7 +220,7 @@ namespace YY
             _Out_ INT32* result
             )
         {
-            if (auto const pWindowsCompareStringOrdinal = try_get_WindowsCompareStringOrdinal())
+            if (auto const pWindowsCompareStringOrdinal = wp_get_WindowsCompareStringOrdinal())
             {
                 return pWindowsCompareStringOrdinal(string1, string2, result);
             }
@@ -234,5 +229,3 @@ namespace YY
         }
 #endif
 
-	} //namespace Thunks
-} //namespace YY

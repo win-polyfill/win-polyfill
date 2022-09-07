@@ -3,7 +3,7 @@
 
 #define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
 
-//YY-Thunks保证STDIO新老模式兼容
+//win-polyfill保证STDIO新老模式兼容
 #define _CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS
 
 #include <Windows.h>
@@ -32,61 +32,61 @@
         = reinterpret_cast<void const*>(_FUNCTION)
 #endif
 
-#ifdef __YY_Thunks_Unit_Test
-	#define __APPLY_UNIT_TEST_BOOL(_FUNCTION) bool _CRT_CONCATENATE(aways_null_try_get_, _FUNCTION) = false
-	#define __CHECK_UNIT_TEST_BOOL(_FUNCTION) if(_CRT_CONCATENATE(aways_null_try_get_, _FUNCTION)) return nullptr
+#ifdef __WP_Thunks_Unit_Test
+	#define __APPLY_UNIT_TEST_BOOL(_FUNCTION) bool _CRT_CONCATENATE(aways_null_wp_get_, _FUNCTION) = false
+	#define __CHECK_UNIT_TEST_BOOL(_FUNCTION) if(_CRT_CONCATENATE(aways_null_wp_get_, _FUNCTION)) return nullptr
 #else
 	#define __APPLY_UNIT_TEST_BOOL(_FUNCTION)
 	#define __CHECK_UNIT_TEST_BOOL(_FUNCTION)
 #endif
 
 
-#pragma section(".YYThu$AAA",    long, read, write) //鸭船模块缓存节点
-#pragma section(".YYThu$AAB",    long, read, write) //鸭船函数缓存节点
+#pragma section(".YYThu$AAA",    long, read, write) //win-polyfill模块缓存节点
+#pragma section(".YYThu$AAB",    long, read, write) //win-polyfill函数缓存节点
 #pragma section(".YYThu$AAC",    long, read, write) //保留，暂时用于边界结束
 
-#pragma section(".YYThr$AAA",    long, read)        //鸭船函数缓存初始化函数
-#pragma section(".YYThr$AAB",    long, read)        //鸭船函数反初始化函数
+#pragma section(".YYThr$AAA",    long, read)        //win-polyfill函数缓存初始化函数
+#pragma section(".YYThr$AAB",    long, read)        //win-polyfill函数反初始化函数
 #pragma section(".YYThr$AAC",    long, read)        //保留，暂时用于边界结束
 
 #pragma comment(linker, "/merge:.YYThu=.data")
 #pragma comment(linker, "/merge:.YYThr=.rdata")
 
-__declspec(allocate(".YYThu$AAA")) static void* __YY_THUNKS_MODULE_START[] = { nullptr };
-__declspec(allocate(".YYThu$AAB")) static void* __YY_THUNKS_FUN_START[] = { nullptr }; //鸭船指针缓存开始位置
-__declspec(allocate(".YYThu$AAC")) static void* __YY_THUNKS_FUN_END[] = { nullptr };   //鸭船指针缓存结束位置
+__declspec(allocate(".YYThu$AAA")) static void* __WP_THUNKS_MODULE_START[] = { nullptr };
+__declspec(allocate(".YYThu$AAB")) static void* __WP_THUNKS_FUN_START[] = { nullptr }; //win-polyfill指针缓存开始位置
+__declspec(allocate(".YYThu$AAC")) static void* __WP_THUNKS_FUN_END[] = { nullptr };   //win-polyfill指针缓存结束位置
 
-__declspec(allocate(".YYThr$AAA")) static void* __YY_THUNKS_INIT_FUN_START[] = { nullptr }; //鸭船函数初始化开始位置
-#define __YY_THUNKS_INIT_FUN_END __YY_THUNKS_UNINIT_FUN_START                               //鸭船函数初始化结束位置
+__declspec(allocate(".YYThr$AAA")) static void* __WP_THUNKS_INIT_FUN_START[] = { nullptr }; //win-polyfill函数初始化开始位置
+#define __WP_THUNKS_INIT_FUN_END __WP_THUNKS_UNINIT_FUN_START                               //win-polyfill函数初始化结束位置
 
-__declspec(allocate(".YYThr$AAB")) static void* __YY_THUNKS_UNINIT_FUN_START[] = { nullptr }; //鸭船函数反初始化函数开始
-__declspec(allocate(".YYThr$AAC")) static void* __YY_THUNKS_UNINIT_FUN_END[] = { nullptr };   //鸭船函数反初始化函数结束位置
+__declspec(allocate(".YYThr$AAB")) static void* __WP_THUNKS_UNINIT_FUN_START[] = { nullptr }; //win-polyfill函数反初始化函数开始
+__declspec(allocate(".YYThr$AAC")) static void* __WP_THUNKS_UNINIT_FUN_END[] = { nullptr };   //win-polyfill函数反初始化函数结束位置
 
 typedef void* (__cdecl* InitFunType)();
 typedef void (__cdecl* UninitFunType)();
 
-#pragma detect_mismatch("YY-Thunks-Mode", "ver:" _CRT_STRINGIZE(YY_Thunks_Support_Version))
+#pragma detect_mismatch("win-polyfill-Mode", "ver:" _CRT_STRINGIZE(WP_SUPPORT_VERSION))
 
 /*
-导出一个外部符号，指示当前鸭船Thunks等级。
-1. 方便外部检测是否使用了鸭船。
-2. 当调用者同时使用多个鸭船时，使其链接失败！
+导出一个外部符号，指示当前win-polyfillThunks等级。
+1. 方便外部检测是否使用了win-polyfill。
+2. 当调用者同时使用多个win-polyfill时，使其链接失败！
 
 //自行定义为 C 弱符号，C++支持不佳！
-EXTERN_C const DWORD __YY_Thunks_Installed;
+EXTERN_C const DWORD __WP_Thunks_Installed;
 
-if(__YY_Thunks_Installed)
-	wprintf(L"检测到使用YY-Thunks，Thunks级别=0x%.8X\n", __YY_Thunks_Installed);
+if(__WP_Thunks_Installed)
+	wprintf(L"检测到使用win-polyfill，Thunks级别=0x%.8X\n", __WP_Thunks_Installed);
 else
-	wprintf(L"没有使用YY-Thunks！\n");
+	wprintf(L"没有使用win-polyfill！\n");
 
 */
-EXTERN_C const DWORD __YY_Thunks_Installed = YY_Thunks_Support_Version;
+EXTERN_C const DWORD __WP_Thunks_Installed = WP_SUPPORT_VERSION;
 
 /*
 导出一个外部弱符号，指示当前是否处于强行卸载模式。
 
-EXTERN_C BOOL __YY_Thunks_Process_Terminating;
+EXTERN_C BOOL __WP_Thunks_Process_Terminating;
 
 BOOL WINAPI DllMain(HINSTANCE hInstance, DWORD dwReason, LPVOID lpReserved)
 {
@@ -94,18 +94,18 @@ BOOL WINAPI DllMain(HINSTANCE hInstance, DWORD dwReason, LPVOID lpReserved)
 	{
 		case DLL_PROCESS_DETACH:
 		//我们可以通过 lpReserved != NULL 判断，当前是否处于强行卸载模式。
-		__YY_Thunks_Process_Terminating = lpReserved != NULL;
+		__WP_Thunks_Process_Terminating = lpReserved != NULL;
 
 		……
 		break;
 	……
 */
-#if (YY_Thunks_Support_Version < NTDDI_WINXP)
-//Windows 2000不支持RtlDllShutdownInProgress，因此依然引入__YY_Thunks_Process_Terminating
-EXTERN_C extern BOOL __YY_Thunks_Process_Terminating;
+#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
+//Windows 2000不支持RtlDllShutdownInProgress，因此依然引入__WP_Thunks_Process_Terminating
+EXTERN_C extern BOOL __WP_Thunks_Process_Terminating;
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 static HANDLE _GlobalKeyedEventHandle;
 #endif
 
@@ -113,12 +113,12 @@ static uintptr_t __security_cookie_yy_thunks;
 
 #define _APPLY(_SYMBOL, _NAME, ...) \
     constexpr const wchar_t* _CRT_CONCATENATE(module_name_, _SYMBOL) = _CRT_WIDE(_NAME);
-	_YY_APPLY_TO_LATE_BOUND_MODULES(_APPLY)
+	_WP_APPLY_TO_LATE_BOUND_MODULES(_APPLY)
 #undef _APPLY
 
 #define _APPLY(_FUNCTION, _MODULES) \
     using _CRT_CONCATENATE(_FUNCTION, _pft) = decltype(_FUNCTION)*;
-	_YY_APPLY_TO_LATE_BOUND_FUNCTIONS(_APPLY)
+	_WP_APPLY_TO_LATE_BOUND_FUNCTIONS(_APPLY)
 #undef _APPLY
 
 
@@ -244,7 +244,7 @@ static HMODULE __fastcall try_load_library_from_system_directory(wchar_t const* 
 #define USING_UNSAFE_LOAD 0x00000001
 
 template<int Flags>
-static HMODULE __fastcall try_get_module(volatile HMODULE* pModule, const wchar_t* module_name) noexcept
+static HMODULE __fastcall wp_get_module(volatile HMODULE* pModule, const wchar_t* module_name) noexcept
 {
 	// First check to see if we've cached the module handle:
 	if (HMODULE const cached_handle = __crt_interlocked_read_pointer(pModule))
@@ -285,18 +285,18 @@ static HMODULE __fastcall try_get_module(volatile HMODULE* pModule, const wchar_
 }
 
 #define _APPLY(_MODULE, _NAME, _FLAGS)                                                         \
-    static volatile HMODULE __fastcall _CRT_CONCATENATE(try_get_module_, _MODULE)() noexcept   \
+    static volatile HMODULE __fastcall _CRT_CONCATENATE(wp_get_module_, _MODULE)() noexcept   \
     {                                                                                          \
         __declspec(allocate(".YYThu$AAA")) static volatile HMODULE hModule;                    \
-        return try_get_module<_FLAGS>(&hModule, _CRT_CONCATENATE(module_name_, _MODULE));      \
+        return wp_get_module<_FLAGS>(&hModule, _CRT_CONCATENATE(module_name_, _MODULE));      \
     }
-_YY_APPLY_TO_LATE_BOUND_MODULES(_APPLY)
+_WP_APPLY_TO_LATE_BOUND_MODULES(_APPLY)
 #undef _APPLY
 
-typedef volatile HMODULE (__fastcall* try_get_module_fun)();
+typedef volatile HMODULE (__fastcall* wp_get_module_fun)();
 
-static __forceinline void* __fastcall try_get_proc_address_from_first_available_module(
-	try_get_module_fun get_module,
+static __forceinline void* __fastcall wp_get_proc_address_from_first_available_module(
+	wp_get_module_fun get_module,
 	char      const* const name
 ) noexcept
 {
@@ -316,10 +316,10 @@ static __forceinline void* __cdecl invalid_function_sentinel() noexcept
 }
 
 
-static void* __fastcall try_get_function(
+static void* __fastcall wp_get_function(
 	void**      ppFunAddress,
 	char      const* const name,
-	try_get_module_fun get_module
+	wp_get_module_fun get_module
 ) noexcept
 {
 	// First check to see if we've cached the function pointer:
@@ -341,7 +341,7 @@ static void* __fastcall try_get_function(
 	// If we haven't yet cached the function pointer, try to import it from any
 	// of the modules in which it might be defined.  If this fails, cache the
 	// sentinel pointer so that we don't attempt to load this function again:
-	void* const new_fp = try_get_proc_address_from_first_available_module(get_module, name);
+	void* const new_fp = wp_get_proc_address_from_first_available_module(get_module, name);
 	if (!new_fp)
 	{
 		void* const cached_fp = __crt_fast_decode_pointer(
@@ -379,42 +379,42 @@ static void* __fastcall try_get_function(
 
 #define _APPLY(_FUNCTION, _MODULE)                                                                    \
     __APPLY_UNIT_TEST_BOOL(_FUNCTION);                                                                \
-    static _CRT_CONCATENATE(_FUNCTION, _pft) __cdecl _CRT_CONCATENATE(try_get_, _FUNCTION)() noexcept \
+    static _CRT_CONCATENATE(_FUNCTION, _pft) __cdecl _CRT_CONCATENATE(wp_get_, _FUNCTION)() noexcept \
     {                                                                                                 \
         __CHECK_UNIT_TEST_BOOL(_FUNCTION);                                                            \
         __declspec(allocate(".YYThr$AAA")) static void* _CRT_CONCATENATE(pInit_ ,_FUNCTION) =         \
-              reinterpret_cast<void*>(&_CRT_CONCATENATE(try_get_, _FUNCTION));                        \
+              reinterpret_cast<void*>(&_CRT_CONCATENATE(wp_get_, _FUNCTION));                        \
         /* In order to avoid the compiler optimize section YYThr$AAA out */                           \
         __foreinclude(_CRT_CONCATENATE(pInit_ ,_FUNCTION));                                           \
         __declspec(allocate(".YYThu$AAB")) static void* _CRT_CONCATENATE( pFun_ ,_FUNCTION);          \
-        return reinterpret_cast<_CRT_CONCATENATE(_FUNCTION, _pft)>(try_get_function(                  \
+        return reinterpret_cast<_CRT_CONCATENATE(_FUNCTION, _pft)>(wp_get_function(                  \
             &_CRT_CONCATENATE(pFun_ ,_FUNCTION),                                                      \
             _CRT_STRINGIZE(_FUNCTION),                                                                \
-            &_CRT_CONCATENATE(try_get_module_, _MODULE)));                                            \
+            &_CRT_CONCATENATE(wp_get_module_, _MODULE)));                                            \
     }
-	_YY_APPLY_TO_LATE_BOUND_FUNCTIONS(_APPLY)
+	_WP_APPLY_TO_LATE_BOUND_FUNCTIONS(_APPLY)
 #undef _APPLY
 
 
-static void __cdecl __YY_uninitialize_winapi_thunks()
+static void __cdecl __WP_uninitialize_winapi_thunks()
 {
 	//当DLL被强行卸载时，我们什么都不做。
-	if (auto pRtlDllShutdownInProgress = (decltype(RtlDllShutdownInProgress)*)GetProcAddress(try_get_module_ntdll(), "RtlDllShutdownInProgress"))
+	if (auto pRtlDllShutdownInProgress = (decltype(RtlDllShutdownInProgress)*)GetProcAddress(wp_get_module_ntdll(), "RtlDllShutdownInProgress"))
 	{
 		if(pRtlDllShutdownInProgress())
 			return;
 	}
-	__if_exists(__YY_Thunks_Process_Terminating)
+	__if_exists(__WP_Thunks_Process_Terminating)
 	{
 		else
 		{
-			if (__YY_Thunks_Process_Terminating)
+			if (__WP_Thunks_Process_Terminating)
 				return;
 		}
 	}
 
-	auto pModule = (HMODULE*)__YY_THUNKS_MODULE_START;
-	auto pModuleEnd = (HMODULE*)__YY_THUNKS_FUN_START;
+	auto pModule = (HMODULE*)__WP_THUNKS_MODULE_START;
+	auto pModuleEnd = (HMODULE*)__WP_THUNKS_FUN_START;
 
 	for (; pModule != pModuleEnd; ++pModule)
 	{
@@ -429,12 +429,12 @@ static void __cdecl __YY_uninitialize_winapi_thunks()
 			module = nullptr;
 		}
 	}
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 	CloseHandle(_GlobalKeyedEventHandle);
 #endif
 
 	//执行本库中所有的反初始化工作。
-	for (auto p = (UninitFunType*)__YY_THUNKS_UNINIT_FUN_START; p != (UninitFunType*)__YY_THUNKS_UNINIT_FUN_END; ++p)
+	for (auto p = (UninitFunType*)__WP_THUNKS_UNINIT_FUN_START; p != (UninitFunType*)__WP_THUNKS_UNINIT_FUN_END; ++p)
 	{
 		if (auto pUninitFun = *p)
 			pUninitFun();
@@ -442,22 +442,22 @@ static void __cdecl __YY_uninitialize_winapi_thunks()
 }
 
 
-static int __cdecl _YY_initialize_winapi_thunks()
+static int __cdecl _WP_initialize_winapi_thunks()
 {
 	__security_cookie_yy_thunks = __security_cookie;
 
 	void* const encoded_nullptr = __crt_fast_encode_pointer((void*)nullptr);
 
-	for (auto p = __YY_THUNKS_FUN_START; p != __YY_THUNKS_FUN_END; ++p)
+	for (auto p = __WP_THUNKS_FUN_START; p != __WP_THUNKS_FUN_END; ++p)
 	{
 		*p = encoded_nullptr;
 	}
 
 	/*
-	 * https://github.com/Chuyu-Team/YY-Thunks/issues/7
-	 * 为了避免 try_get 系列函数竞争 DLL load锁，因此我们将所有被Thunk的API都预先加载完毕。
+	 * https://github.com/Chuyu-Team/win-polyfill/issues/7
+	 * 为了避免 wp_get 系列函数竞争 DLL load锁，因此我们将所有被Thunk的API都预先加载完毕。
 	 */
-	for (auto p = (InitFunType*)__YY_THUNKS_INIT_FUN_START; p != (InitFunType*)__YY_THUNKS_INIT_FUN_END; ++p)
+	for (auto p = (InitFunType*)__WP_THUNKS_INIT_FUN_START; p != (InitFunType*)__WP_THUNKS_INIT_FUN_END; ++p)
 	{
 		if (auto pInitFun = *p)
 			pInitFun();
@@ -466,12 +466,12 @@ static int __cdecl _YY_initialize_winapi_thunks()
 	return 0;
 }
 
-static int __cdecl __YY_initialize_winapi_thunks()
+static int __cdecl __WP_initialize_winapi_thunks()
 {
-	_YY_initialize_winapi_thunks();
+	_WP_initialize_winapi_thunks();
 
 	//只在节点位置插入 atexit 流程，避免CRT还没完全初始化好出现问题。
-	atexit(__YY_uninitialize_winapi_thunks);
+	atexit(__WP_uninitialize_winapi_thunks);
 
 	return 0;
 }
@@ -481,4 +481,4 @@ typedef int(__cdecl* _PIFV)(void);
 
 #pragma section(".CRT$XID",    long, read) // CRT C Initializers
 
-__declspec(allocate(".CRT$XID")) static _PIFV ___Initialization = __YY_initialize_winapi_thunks;
+__declspec(allocate(".CRT$XID")) static _PIFV ___Initialization = __WP_initialize_winapi_thunks;

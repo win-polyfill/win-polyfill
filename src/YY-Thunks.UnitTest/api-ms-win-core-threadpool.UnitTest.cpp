@@ -9,12 +9,12 @@ namespace api_ms_win_core_threadpool
 	public:
 		SubmitThreadpoolWork()
 		{
-			YY::Thunks::aways_null_try_get_CreateThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_SubmitThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_SubmitThreadpoolWork = true;
 
-			YY::Thunks::aways_null_try_get_SetEventWhenCallbackReturns = true;
-			YY::Thunks::aways_null_try_get_ReleaseSemaphoreWhenCallbackReturns = true;
+			YY::Thunks::aways_null_wp_get_SetEventWhenCallbackReturns = true;
+			YY::Thunks::aways_null_wp_get_ReleaseSemaphoreWhenCallbackReturns = true;
 		}
 
 		TEST_METHOD(一般行为验证)
@@ -60,7 +60,7 @@ namespace api_ms_win_core_threadpool
 	public:
 		TrySubmitThreadpoolCallback()
 		{
-			YY::Thunks::aways_null_try_get_TrySubmitThreadpoolCallback = true;
+			YY::Thunks::aways_null_wp_get_TrySubmitThreadpoolCallback = true;
 		}
 
 		TEST_METHOD(一般行为验证)
@@ -110,10 +110,10 @@ namespace api_ms_win_core_threadpool
 	public:
 		WaitForThreadpoolWorkCallbacks()
 		{
-			YY::Thunks::aways_null_try_get_CreateThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_SubmitThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_WaitForThreadpoolWorkCallbacks = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_SubmitThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_WaitForThreadpoolWorkCallbacks = true;
 		}
 
 		TEST_METHOD(一般行为验证)
@@ -183,9 +183,9 @@ namespace api_ms_win_core_threadpool
 	public:
 		SetThreadpoolTimer()
 		{
-			YY::Thunks::aways_null_try_get_CreateThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_SetThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_SetThreadpoolTimer = true;
 		}
 
 		TEST_METHOD(当DueTime数值为0时)
@@ -402,10 +402,10 @@ namespace api_ms_win_core_threadpool
 	public:
 		WaitForThreadpoolTimerCallbacks()
 		{
-			YY::Thunks::aways_null_try_get_CreateThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_SetThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_WaitForThreadpoolTimerCallbacks = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_SetThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_WaitForThreadpoolTimerCallbacks = true;
 		}
 
 		
@@ -473,16 +473,16 @@ namespace api_ms_win_core_threadpool
 	public:
 		SetEventWhenCallbackReturns()
 		{
-			YY::Thunks::aways_null_try_get_CreateThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_SubmitThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_SubmitThreadpoolWork = true;
 
-			YY::Thunks::aways_null_try_get_CreateThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_SetThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_SetThreadpoolTimer = true;
 
-			YY::Thunks::aways_null_try_get_SetEventWhenCallbackReturns = true;
-			//YY::Thunks::aways_null_try_get_ReleaseSemaphoreWhenCallbackReturns = true;
+			YY::Thunks::aways_null_wp_get_SetEventWhenCallbackReturns = true;
+			//YY::Thunks::aways_null_wp_get_ReleaseSemaphoreWhenCallbackReturns = true;
 		}
 
 		struct UserData
@@ -562,15 +562,15 @@ namespace api_ms_win_core_threadpool
 	public:
 		ReleaseSemaphoreWhenCallbackReturns()
 		{
-			YY::Thunks::aways_null_try_get_CreateThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_SubmitThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_SubmitThreadpoolWork = true;
 
-			YY::Thunks::aways_null_try_get_CreateThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_SetThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_SetThreadpoolTimer = true;
 
-			YY::Thunks::aways_null_try_get_ReleaseSemaphoreWhenCallbackReturns = true;
+			YY::Thunks::aways_null_wp_get_ReleaseSemaphoreWhenCallbackReturns = true;
 		}
 
 		struct UserData
@@ -657,15 +657,15 @@ namespace api_ms_win_core_threadpool
 	public:
 		ReleaseMutexWhenCallbackReturns()
 		{
-			YY::Thunks::aways_null_try_get_CreateThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_SubmitThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_SubmitThreadpoolWork = true;
 
-			YY::Thunks::aways_null_try_get_CreateThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_SetThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_SetThreadpoolTimer = true;
 
-			YY::Thunks::aways_null_try_get_ReleaseMutexWhenCallbackReturns = true;
+			YY::Thunks::aways_null_wp_get_ReleaseMutexWhenCallbackReturns = true;
 		}
 
 		struct UserData
@@ -752,15 +752,15 @@ namespace api_ms_win_core_threadpool
 	public:
 		LeaveCriticalSectionWhenCallbackReturns()
 		{
-			YY::Thunks::aways_null_try_get_CreateThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_SubmitThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_SubmitThreadpoolWork = true;
 
-			YY::Thunks::aways_null_try_get_CreateThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_SetThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_SetThreadpoolTimer = true;
 
-			YY::Thunks::aways_null_try_get_LeaveCriticalSectionWhenCallbackReturns = true;
+			YY::Thunks::aways_null_wp_get_LeaveCriticalSectionWhenCallbackReturns = true;
 		}
 
 		struct UserData
@@ -880,15 +880,15 @@ namespace api_ms_win_core_threadpool
 	public:
 		FreeLibraryWhenCallbackReturns()
 		{
-			YY::Thunks::aways_null_try_get_CreateThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolWork = true;
-			YY::Thunks::aways_null_try_get_SubmitThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolWork = true;
+			YY::Thunks::aways_null_wp_get_SubmitThreadpoolWork = true;
 
-			YY::Thunks::aways_null_try_get_CreateThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolTimer = true;
-			YY::Thunks::aways_null_try_get_SetThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolTimer = true;
+			YY::Thunks::aways_null_wp_get_SetThreadpoolTimer = true;
 
-			YY::Thunks::aways_null_try_get_FreeLibraryWhenCallbackReturns = true;
+			YY::Thunks::aways_null_wp_get_FreeLibraryWhenCallbackReturns = true;
 		}
 
 		struct UserData
@@ -1019,9 +1019,9 @@ namespace api_ms_win_core_threadpool
 	public:
 		SetThreadpoolWait()
 		{
-			YY::Thunks::aways_null_try_get_CreateThreadpoolWait = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolWait = true;
-			YY::Thunks::aways_null_try_get_SetThreadpoolWait = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolWait = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolWait = true;
+			YY::Thunks::aways_null_wp_get_SetThreadpoolWait = true;
 		}
 
 
@@ -1304,10 +1304,10 @@ namespace api_ms_win_core_threadpool
 	public:
 		WaitForThreadpoolWaitCallbacks()
 		{
-			YY::Thunks::aways_null_try_get_CreateThreadpoolWait = true;
-			YY::Thunks::aways_null_try_get_CloseThreadpoolWait = true;
-			YY::Thunks::aways_null_try_get_SetThreadpoolWait = true;
-			YY::Thunks::aways_null_try_get_WaitForThreadpoolWaitCallbacks = true;
+			YY::Thunks::aways_null_wp_get_CreateThreadpoolWait = true;
+			YY::Thunks::aways_null_wp_get_CloseThreadpoolWait = true;
+			YY::Thunks::aways_null_wp_get_SetThreadpoolWait = true;
+			YY::Thunks::aways_null_wp_get_WaitForThreadpoolWaitCallbacks = true;
 		}
 
 		TEST_METHOD(一般行为验证)

@@ -1,10 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN7)
 
 		//Minimum supported client	Windows 8 [desktop apps only]
 		//Minimum supported server	Windows Server 2012 [desktop apps only]
@@ -17,7 +13,7 @@ namespace YY
 			_Out_ PULONG Capabilities
 			)
 		{
-			if (auto pGetMemoryErrorHandlingCapabilities = try_get_GetMemoryErrorHandlingCapabilities())
+			if (auto pGetMemoryErrorHandlingCapabilities = wp_get_GetMemoryErrorHandlingCapabilities())
 			{
 				return pGetMemoryErrorHandlingCapabilities(Capabilities);
 			}
@@ -29,7 +25,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps only]
 		//Minimum supported server	Windows Server 2008 [desktop apps only]
@@ -46,7 +42,7 @@ namespace YY
 			_In_ DWORD nndPreferred
 			)
 		{
-			if (const auto pAllocateUserPhysicalPagesNuma = try_get_AllocateUserPhysicalPagesNuma())
+			if (const auto pAllocateUserPhysicalPagesNuma = wp_get_AllocateUserPhysicalPagesNuma())
 			{
 				return pAllocateUserPhysicalPagesNuma(hProcess, NumberOfPages, PageArray, nndPreferred);
 			}
@@ -56,7 +52,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN10)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10)
 
 		//Minimum supported client	Windows 10 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2016 [desktop apps | UWP apps]
@@ -72,7 +68,7 @@ namespace YY
 			_In_ ULONG Protection
 			)
 		{
-			if (const auto pVirtualAllocFromApp = try_get_VirtualAllocFromApp())
+			if (const auto pVirtualAllocFromApp = wp_get_VirtualAllocFromApp())
 			{
 				return pVirtualAllocFromApp(BaseAddress, Size, AllocationType, Protection);
 			}
@@ -82,7 +78,7 @@ namespace YY
 		}
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps only]
 		//Minimum supported server	Windows Server 2008 [desktop apps only]
@@ -100,7 +96,7 @@ namespace YY
 			_In_ DWORD nndPreferred
 			)
 		{
-			if (const auto pVirtualAllocExNuma = try_get_VirtualAllocExNuma())
+			if (const auto pVirtualAllocExNuma = wp_get_VirtualAllocExNuma())
 			{
 				return pVirtualAllocExNuma(hProcess, lpAddress, dwSize, flAllocationType, flProtect, nndPreferred);
 			}
@@ -110,7 +106,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN10)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10)
 
 		//Minimum supported client	Windows 10 [desktop apps only]
 		//Minimum supported server	Windows Server 2016 [desktop apps only]
@@ -129,7 +125,7 @@ namespace YY
 			_In_ ULONG ParameterCount
 			)
 		{
-			if (const auto pVirtualAlloc2 = try_get_VirtualAlloc2())
+			if (const auto pVirtualAlloc2 = wp_get_VirtualAlloc2())
 			{
 				return pVirtualAlloc2(Process, BaseAddress, Size, AllocationType, PageProtection, ExtendedParameters, ParameterCount);
 			}
@@ -152,7 +148,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN10)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10)
 
 		//Minimum supported client	Windows 10 [desktop apps only]
 		//Minimum supported server	Windows Server 2016 [desktop apps only]
@@ -171,7 +167,7 @@ namespace YY
 			_In_ ULONG ParameterCount
 			)
 		{
-			if (const auto pVirtualAlloc2FromApp = try_get_VirtualAlloc2FromApp())
+			if (const auto pVirtualAlloc2FromApp = wp_get_VirtualAlloc2FromApp())
 			{
 				return pVirtualAlloc2FromApp(Process, BaseAddress, Size, AllocationType, PageProtection, ExtendedParameters, ParameterCount);
 			}
@@ -193,7 +189,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps only]
 		//Minimum supported server	Windows Server 2008 [desktop apps only]
@@ -212,7 +208,7 @@ namespace YY
 			_In_ DWORD nndPreferred
 			)
 		{
-			if (const auto pCreateFileMappingNumaW = try_get_CreateFileMappingNumaW())
+			if (const auto pCreateFileMappingNumaW = wp_get_CreateFileMappingNumaW())
 			{
 				return pCreateFileMappingNumaW(hFile, lpFileMappingAttributes, flProtect, dwMaximumSizeHigh, dwMaximumSizeLow, lpName, nndPreferred);
 			}
@@ -222,7 +218,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps only]
 		//Minimum supported server	Windows Server 2008 [desktop apps only]
@@ -241,7 +237,7 @@ namespace YY
 			_In_     DWORD nndPreferred
 			)
 		{
-			if (const auto pCreateFileMappingNumaA = try_get_CreateFileMappingNumaA())
+			if (const auto pCreateFileMappingNumaA = wp_get_CreateFileMappingNumaA())
 			{
 				return pCreateFileMappingNumaA(hFile, lpFileMappingAttributes, flProtect, dwMaximumSizeHigh, dwMaximumSizeLow, lpName, nndPreferred);
 			}
@@ -251,7 +247,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -268,7 +264,7 @@ namespace YY
 			_In_opt_ PCWSTR Name
 			)
 		{
-			if (const auto pVirtualAllocExNuma = try_get_CreateFileMappingFromApp())
+			if (const auto pVirtualAllocExNuma = wp_get_CreateFileMappingFromApp())
 			{
 				return pVirtualAllocExNuma(hFile, SecurityAttributes, PageProtection, MaximumSize, Name);
 			}
@@ -279,7 +275,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -300,7 +296,7 @@ namespace YY
 			_In_ ULONG ParameterCount
 			)
 		{
-			if (const auto pCreateFileMapping2 = try_get_CreateFileMapping2())
+			if (const auto pCreateFileMapping2 = wp_get_CreateFileMapping2())
 			{
 				return pCreateFileMapping2(File, SecurityAttributes, DesiredAccess, PageProtection, AllocationAttributes,  MaximumSize, Name, ExtendedParameters, ParameterCount);
 			}
@@ -322,7 +318,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -338,7 +334,7 @@ namespace YY
 			_In_ SIZE_T NumberOfBytesToMap
 			)
 		{
-			if (const auto pMapViewOfFileFromApp = try_get_MapViewOfFileFromApp())
+			if (const auto pMapViewOfFileFromApp = wp_get_MapViewOfFileFromApp())
 			{
 				return pMapViewOfFileFromApp(hFileMappingObject, DesiredAccess, FileOffset, NumberOfBytesToMap);
 			}
@@ -348,7 +344,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN8)
 
 		//Minimum supported client	Windows 8 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2012 [desktop apps | UWP apps]
@@ -362,7 +358,7 @@ namespace YY
 			_In_ ULONG UnmapFlags
 			)
 		{
-			if (const auto pUnmapViewOfFileEx = try_get_UnmapViewOfFileEx())
+			if (const auto pUnmapViewOfFileEx = wp_get_UnmapViewOfFileEx())
 			{
 				return pUnmapViewOfFileEx(BaseAddress, UnmapFlags);
 			}
@@ -372,7 +368,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN10)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10)
 
 		//Minimum supported client	Windows 10 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2016 [desktop apps | UWP apps]
@@ -388,7 +384,7 @@ namespace YY
 			_Out_ PULONG OldProtection
 			)
 		{
-			if (const auto pVirtualProtectFromApp = try_get_VirtualProtectFromApp())
+			if (const auto pVirtualProtectFromApp = wp_get_VirtualProtectFromApp())
 			{
 				return pVirtualProtectFromApp(Address, Size, NewProtection, OldProtection);
 			}
@@ -398,7 +394,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN10)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10)
 
 		//Minimum supported client	Windows 10 [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2016 [desktop apps | UWP apps]
@@ -413,7 +409,7 @@ namespace YY
 			_In_ PCWSTR Name
 			)
 		{
-			if (const auto pOpenFileMappingFromApp = try_get_OpenFileMappingFromApp())
+			if (const auto pOpenFileMappingFromApp = wp_get_OpenFileMappingFromApp())
 			{
 				return pOpenFileMappingFromApp(DesiredAccess, InheritHandle, Name);
 			}
@@ -423,7 +419,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03)
 
 		//Minimum supported client	Windows Vista[desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2003[desktop apps | UWP apps]
@@ -436,7 +432,7 @@ namespace YY
 			VOID
 			)
 		{
-			if (const auto pGetLargePageMinimum = try_get_GetLargePageMinimum())
+			if (const auto pGetLargePageMinimum = wp_get_GetLargePageMinimum())
 			{
 				return pGetLargePageMinimum();
 			}
@@ -444,5 +440,4 @@ namespace YY
 			return 0;
 		}
 #endif
-	} //namespace Thunks
-} //namespace YY
+

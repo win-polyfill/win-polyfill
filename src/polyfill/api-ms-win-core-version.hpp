@@ -1,11 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -22,7 +17,7 @@ namespace YY
 			_Out_writes_bytes_(dwLen) LPVOID lpData
 			)
 		{
-			if (auto pGetFileVersionInfoExW = try_get_GetFileVersionInfoExW())
+			if (auto pGetFileVersionInfoExW = wp_get_GetFileVersionInfoExW())
 			{
 				return pGetFileVersionInfoExW(dwFlags, lpwstrFilename, dwHandle, dwLen, lpData);
 			}
@@ -32,7 +27,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -49,7 +44,7 @@ namespace YY
 			_Out_writes_bytes_(dwLen) LPVOID lpData
 			)
 		{
-			if (auto pGetFileVersionInfoExA = try_get_GetFileVersionInfoExA())
+			if (auto pGetFileVersionInfoExA = wp_get_GetFileVersionInfoExA())
 			{
 				return pGetFileVersionInfoExA(dwFlags, lpwstrFilename, dwHandle, dwLen, lpData);
 			}
@@ -59,7 +54,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -74,7 +69,7 @@ namespace YY
 			_Out_ LPDWORD lpdwHandle
 			)
 		{
-			if (auto pGetFileVersionInfoSizeExW = try_get_GetFileVersionInfoSizeExW())
+			if (auto pGetFileVersionInfoSizeExW = wp_get_GetFileVersionInfoSizeExW())
 			{
 				return pGetFileVersionInfoSizeExW(dwFlags, lpwstrFilename, lpdwHandle);
 			}
@@ -84,7 +79,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Windows Vista [desktop apps only]
 		//Windows Server 2008 [desktop apps only]
@@ -99,7 +94,7 @@ namespace YY
 			_Out_ LPDWORD lpdwHandle
 			)
 		{
-			if (auto pGetFileVersionInfoSizeExA = try_get_GetFileVersionInfoSizeExA())
+			if (auto pGetFileVersionInfoSizeExA = wp_get_GetFileVersionInfoSizeExA())
 			{
 				return pGetFileVersionInfoSizeExA(dwFlags, lpwstrFilename, lpdwHandle);
 			}
@@ -107,6 +102,3 @@ namespace YY
 			return GetFileVersionInfoSizeA(lpwstrFilename, lpdwHandle);
 		}
 #endif
-	}//namespace Thunks
-
-} //namespace YY

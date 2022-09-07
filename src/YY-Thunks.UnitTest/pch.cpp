@@ -4,4 +4,4 @@
 
 // 当使用预编译的头时，需要使用此源文件，编译才能成功。
 
-EXTERN_C BOOL __YY_Thunks_Process_Terminating = 0;
+EXTERN_C BOOL __WP_Thunks_Process_Terminating = 0;

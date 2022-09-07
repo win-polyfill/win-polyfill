@@ -1,10 +1,6 @@
 ﻿
 
-namespace YY
-{
-	namespace Thunks
-	{
-#if defined(YY_Thunks_Implemented) && (YY_Thunks_Support_Version < NTDDI_WS03)
+#if defined(WP_Thunks_Implemented) && (WP_SUPPORT_VERSION < NTDDI_WS03)
 		namespace Downlevel
 		{
 			struct FlsData
@@ -264,7 +260,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2003 [desktop apps | UWP apps]
@@ -277,7 +273,7 @@ namespace YY
 			_In_opt_ PFLS_CALLBACK_FUNCTION lpCallback
 			)
 		{
-			if (const auto pFlsAlloc = try_get_FlsAlloc())
+			if (const auto pFlsAlloc = wp_get_FlsAlloc())
 			{
 				return pFlsAlloc(lpCallback);
 			}
@@ -348,7 +344,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2003 [desktop apps | UWP apps]
@@ -361,7 +357,7 @@ namespace YY
 			_In_ DWORD dwFlsIndex
 			)
 		{
-			if (const auto pFlsGetValue = try_get_FlsGetValue())
+			if (const auto pFlsGetValue = wp_get_FlsGetValue())
 			{
 				return pFlsGetValue(dwFlsIndex);
 			}
@@ -399,7 +395,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2003 [desktop apps | UWP apps]
@@ -413,7 +409,7 @@ namespace YY
 			_In_opt_ PVOID lpFlsData
 			)
 		{
-			if (const auto pFlsSetValue = try_get_FlsSetValue())
+			if (const auto pFlsSetValue = wp_get_FlsSetValue())
 			{
 				return pFlsSetValue(dwFlsIndex, lpFlsData);
 			}
@@ -450,7 +446,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WS03)
+#if (WP_SUPPORT_VERSION < NTDDI_WS03)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2003 [desktop apps | UWP apps]
@@ -463,7 +459,7 @@ namespace YY
 			_In_ DWORD dwFlsIndex
 			)
 		{
-			if (const auto pFlsFree = try_get_FlsFree())
+			if (const auto pFlsFree = wp_get_FlsFree())
 			{
 				return pFlsFree(dwFlsIndex);
 			}
@@ -519,7 +515,7 @@ namespace YY
 #endif
 
 		
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -532,7 +528,7 @@ namespace YY
 			VOID
 			)
 		{
-			if (const auto pIsThreadAFiber = try_get_IsThreadAFiber())
+			if (const auto pIsThreadAFiber = wp_get_IsThreadAFiber())
 			{
 				return pIsThreadAFiber();
 			}
@@ -546,7 +542,7 @@ namespace YY
 #endif
 
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
+#if (WP_SUPPORT_VERSION < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
 		//Minimum supported server	Windows Server 2008 [desktop apps | UWP apps]
@@ -560,7 +556,7 @@ namespace YY
 			_In_     DWORD dwFlags
 			)
 		{
-			if (const auto pConvertThreadToFiberEx = try_get_ConvertThreadToFiberEx())
+			if (const auto pConvertThreadToFiberEx = wp_get_ConvertThreadToFiberEx())
 			{
 				return pConvertThreadToFiberEx(lpParameter, dwFlags);
 			}
@@ -569,5 +565,4 @@ namespace YY
 			return ConvertThreadToFiber(lpParameter);
 		}
 #endif
-	} //namespace Thunks
-} //namespace YY
+
