@@ -287,8 +287,8 @@ namespace YY
 #if (YY_Thunks_Support_Version < NTDDI_WINXP)
 
         // Windows 2000 不支持 LOCALE_INVARIANT 参数特殊处理一下。
-        // Minimum supported client	Windows 2000 Professional [desktop apps only]
-        // Minimum supported server	Windows 2000 Server [desktop apps only]
+        // Minimum supported client    Windows 2000 Professional [desktop apps only]
+        // Minimum supported server    Windows 2000 Server [desktop apps only]
         __DEFINE_THUNK(
         kernel32,
         24,
@@ -323,8 +323,8 @@ namespace YY
 #if (YY_Thunks_Support_Version < NTDDI_WINXP)
 
         // Windows 2000 不支持 LOCALE_INVARIANT 参数特殊处理一下。
-        // Minimum supported client	Windows 2000 Professional [desktop apps only]
-        // Minimum supported server	Windows 2000 Server [desktop apps only]
+        // Minimum supported client    Windows 2000 Professional [desktop apps only]
+        // Minimum supported server    Windows 2000 Server [desktop apps only]
         __DEFINE_THUNK(
         kernel32,
         24,
