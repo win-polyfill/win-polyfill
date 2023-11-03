@@ -28,7 +28,7 @@ namespace YY
 				volatile TaskItem* pPendingCallbackList;
 				volatile HWND hWnd;
 				volatile ULONG uRef;
-				
+
 				static LRESULT WINAPI WindowProcW(
 					HWND   _hWnd,
 					UINT   _uMsg,
@@ -90,7 +90,7 @@ namespace YY
 									_pCallbackPrev->pNext = _pNext->pNext;
 									// 需要移除
 									HeapFree(_hProcessHeap, 0, _pNext);
-								}								
+								}
 							}
 
 							// 合并 pPendingCallbackList 至 pCallbackList
@@ -129,7 +129,7 @@ namespace YY
 										// 需要移除
 										HeapFree(_hProcessHeap, 0, _pNext);
 									}
-								}								
+								}
 							}
 
 
@@ -428,7 +428,7 @@ namespace YY
 									SendMessageW(_hWnd, WM_CLOSE, 1, 0);
 								}
 							});
-					}					
+					}
 				}
 				return &g_YYWork;
 			}

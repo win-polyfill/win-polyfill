@@ -25,7 +25,7 @@ namespace YY
 			{
 				return pQueryThreadCycleTime(ThreadHandle, CycleTime);
 			}
-	
+
 
 			//GetThreadTimes凑合用吧……
 			FILETIME CreationTime;

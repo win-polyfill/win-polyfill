@@ -29,7 +29,7 @@ namespace YY
 
 			struct FlsIndex
 			{
-				
+
 				union
 				{
 					struct
@@ -53,7 +53,7 @@ namespace YY
 				//长度uFlsDataCount，我们做一个桶，分成128组，每组128个元素
 				static constexpr int uFlsDataCount = 0x4000;
 				FlsData* pFlsDataArray;
-				
+
 			};
 
 			//尝试锁定
@@ -197,14 +197,14 @@ namespace YY
 					//线程退出时我们需要调用Fls的 Callback
 
 
-					
+
 
 					for (auto& Item : Downlevel::GetFlsIndexArray())
 					{
 						PFLS_CALLBACK_FUNCTION lpCallback;
 
 						//锁定并且检测是否存在  Callback
-						if(internal::Block([&]() 
+						if(internal::Block([&]()
 							{
 								static_assert(sizeof(void*) == 4, "这里的代码只支持 32位哦。");
 
@@ -321,7 +321,7 @@ namespace YY
 
 					//锁定成功
 					auto pFlsDataArray = (Downlevel::FlsData*)HeapAlloc(ProcessHeap, HEAP_ZERO_MEMORY, sizeof(Downlevel::FlsData) * Downlevel::FlsIndex::uFlsDataCount);
-					
+
 					if (pFlsDataArray)
 					{
 						Item.pFlsDataArray = pFlsDataArray;
@@ -335,7 +335,7 @@ namespace YY
 
 					//内存申请失败，我们回滚更改
 					InterlockedExchange(&Item.RawValue, Downlevel::FlsStatusFree);
-					
+
 					goto Failed;
 				}
 			}
@@ -518,7 +518,7 @@ namespace YY
 		}
 #endif
 
-		
+
 #if (YY_Thunks_Support_Version < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]

@@ -33,7 +33,7 @@ namespace YY
 				return Result;
 			}
 
-			
+
 			pTimeZoneInformation->DynamicDaylightTimeDisabled = TIME_ZONE_ID_UNKNOWN == Result;
 
 			//搜索 TimeZoneKeyName 名称
@@ -79,7 +79,7 @@ namespace YY
 
 			} while (false);
 
-			
+
 			return Result;
 
 		}

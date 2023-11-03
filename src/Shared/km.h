@@ -105,8 +105,8 @@
 #define NtGetCurrentProcess() (HANDLE)-1
 
 // begin_access
-#define DUPLICATE_CLOSE_SOURCE      0x00000001  
-#define DUPLICATE_SAME_ACCESS       0x00000002  
+#define DUPLICATE_CLOSE_SOURCE      0x00000001
+#define DUPLICATE_SAME_ACCESS       0x00000002
 #define DUPLICATE_SAME_ATTRIBUTES   0x00000004
 
 #ifndef _Reserved_
@@ -1490,7 +1490,7 @@ NtQueryDirectoryFile (
 	NTSYSAPI NTSTATUS NTAPI NtShutdownSystem(INT Type);
 
 
-	
+
 	EXTERN_C
 	NTSYSAPI NTSTATUS NTAPI RtlGetVersion(PRTL_OSVERSIONINFOW lpVersionInformation);
 
@@ -2244,9 +2244,9 @@ NtQueryDirectoryFile (
 			IN PVOID ApcArgument3
 			);
 
-#define NtCurrentProcess() ((HANDLE)(LONG_PTR) -1)  
-#define ZwCurrentProcess() NtCurrentProcess()         
-#define NtCurrentThread() ((HANDLE)(LONG_PTR) -2)   
+#define NtCurrentProcess() ((HANDLE)(LONG_PTR) -1)
+#define ZwCurrentProcess() NtCurrentProcess()
+#define NtCurrentThread() ((HANDLE)(LONG_PTR) -2)
 #define ZwCurrentThread() NtCurrentThread()
 
 	EXTERN_C
@@ -2400,7 +2400,7 @@ NtQueryDirectoryFile (
 		OUT PCWSTR *DosFilePath OPTIONAL,
 		OUT PUNICODE_STRING NtFilePath OPTIONAL
 		);
-	
+
 	EXTERN_C
 	NTSYSAPI
 	NTSTATUS
@@ -2631,7 +2631,7 @@ NtQueryDirectoryFile (
 		__in_opt PVOID BaseAddress
 		);
 
-	
+
 
 	EXTERN_C
 	NTSYSAPI

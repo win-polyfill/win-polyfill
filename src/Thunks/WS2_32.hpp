@@ -934,7 +934,7 @@ namespace YY
 						fd.revents |= fd.events & (POLLERR | POLLHUP | POLLNVAL);
 				}
 			}
-	
+
 			return result;
 		}
 #endif

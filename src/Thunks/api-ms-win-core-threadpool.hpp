@@ -214,7 +214,7 @@ namespace YY
 				((PTP_WORK_CALLBACK)Work->Callback)(Instance, Work->Context, Work);
 			}
 
-			
+
 			static const TaskVFuncs* __fastcall GetTppWorkpTaskVFuncs()
 			{
 				static TaskVFuncs TppWorkpTaskVFuncs = { &TppWorkpExecuteCallback };
@@ -366,17 +366,17 @@ namespace YY
 					if (pWork->CleanupGroup)
 						TppCleanupGroupAddMember(pWork);
 
-					
+
 
 					*ppWork = pWork;
 
 					return STATUS_SUCCESS;
 				} while (false);
 
-				
+
 				if(pWork)
 					HeapFree(ProcessHeap, 0, pWork);
-				
+
 
 				return Status;
 			}
@@ -651,7 +651,7 @@ namespace YY
 
 				return &TppTimerpTaskVFuncs;
 			}
-			
+
 
 			static
 			NTSTATUS
@@ -664,7 +664,7 @@ namespace YY
 				DWORD Flags
 				)
 			{
-				
+
 				*ppTimer = nullptr;
 
 
@@ -673,7 +673,7 @@ namespace YY
 
 				if (!pTimer)
 					return STATUS_NO_MEMORY;
-				
+
 				pTimer->retaddr = _ReturnAddress();
 
 				auto Status = TppWorkInitialize(pTimer, Context, CallbackEnviron, Flags | 0x1040000, GetTppTimerpCleanupGroupMemberVFuncs(), GetTppTimerpTaskVFuncs());
@@ -1147,7 +1147,7 @@ namespace YY
 		}
 #endif
 
-		
+
 #if (YY_Thunks_Support_Version < NTDDI_WIN6)
 
 		//Minimum supported client	Windows Vista [desktop apps | UWP apps]
@@ -1343,7 +1343,7 @@ namespace YY
 
 
 			auto lStatus = Fallback::TpSimpleTryPost(Callback, Context, CallbackEnviron);
-			
+
 			if (lStatus >= 0)
 			{
 				return TRUE;
@@ -1399,7 +1399,7 @@ namespace YY
 					break;
 				}
 
-	
+
 				pWait->retaddr = _ReturnAddress();
 
 
@@ -1640,7 +1640,7 @@ namespace YY
 				UnregisterWait(hOrgWaitObject);
 			}
 
-			
+
 			if (InterlockedExchangeAdd(&Wait->nRef, -1) == 0)
 			{
 				Wait->VFuncs->pTppWorkpFree(Wait);

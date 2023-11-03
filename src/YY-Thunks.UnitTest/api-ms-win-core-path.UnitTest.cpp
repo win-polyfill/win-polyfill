@@ -90,7 +90,7 @@ namespace api_ms_win_core_path
 
 		TEST_METHOD(UNC路径测试)
 		{
-			
+
 			Assert::IsTrue(::PathCchIsRoot(LR"(\\path1\path2)"));
 			Assert::IsFalse(::PathCchIsRoot(LR"(\\path1\path2\)"));
 
@@ -715,7 +715,7 @@ namespace api_ms_win_core_path
 				Assert::AreEqual((INT_PTR)pEnd, (INT_PTR)(Src + 8));
 			}
 
-			
+
 			{
 				LPCWSTR Src = LR"(\\Path1\Path2)";
 				LPCWSTR pEnd;
@@ -2163,4 +2163,3 @@ namespace api_ms_win_core_path
 		}
 	};
 }
-	

@@ -9,7 +9,7 @@ namespace YY
 {
 	namespace Thunks
 	{
-		
+
 
 #ifdef YY_Thunks_Implemented
 		struct BCryptMapItem
@@ -148,7 +148,7 @@ namespace YY
 			{
 				return _pfnBCryptGenRandom(_hAlgorithm, _pbBuffer, _cbBuffer, _fFlags);
 			}
-			
+
 			if (_pbBuffer == nullptr)
 				return STATUS_INVALID_PARAMETER;
 			if (_cbBuffer == 0)
@@ -172,7 +172,7 @@ namespace YY
 				internal::RaiseStatus(STATUS_NOT_IMPLEMENTED);
 				return STATUS_NOT_IMPLEMENTED;
 			}
-			
+
 			if (_pfnRtlGenRandom(_pbBuffer, _cbBuffer))
 				return STATUS_SUCCESS;
 			else

@@ -19,7 +19,7 @@ namespace bcrypt
 			UCHAR _Temp[15] = {};
 			long _Status = ::BCryptGenRandom(nullptr, _Temp, sizeof(_Temp), BCRYPT_USE_SYSTEM_PREFERRED_RNG);
 			Assert::IsTrue(_Status >= 0);
-			
+
 			const UCHAR _Temp2[15] = {};
 			Assert::IsFalse(memcpy(_Temp, _Temp2, sizeof(_Temp2)) == 0);
 		}

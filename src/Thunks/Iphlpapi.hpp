@@ -62,7 +62,7 @@ namespace YY
 				break;
 			}
 
-			// 
+			//
 			_pRow2->AdminStatus = (NET_IF_ADMIN_STATUS)_pRow->dwAdminStatus;
 			_pRow2->ConnectionType = NET_IF_CONNECTION_DEDICATED;
 
@@ -145,7 +145,7 @@ namespace YY
 
 #endif // (YY_Thunks_Support_Version < NTDDI_WIN6)
 #endif // !YY_Thunks_Implemented
-		
+
 #if (YY_Thunks_Support_Version < NTDDI_WIN6)
 
 		// 最低受支持的客户端	Windows Vista [桌面应用|UWP 应用]
@@ -167,7 +167,7 @@ namespace YY
 			return GetIfTable2ExDownlevel(MibIfTableNormal, _ppTable2);
 		}
 #endif
-		
+
 #if (YY_Thunks_Support_Version < NTDDI_WIN6)
 
 		// 最低受支持的客户端	Windows Vista [桌面应用|UWP 应用]

@@ -48,7 +48,7 @@ namespace api_ms_win_core_synch
 
 		TEST_METHOD(只唤醒了一个线程)
 		{
-			
+
 			struct MyData
 			{
 				ULONG TargetValue;

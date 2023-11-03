@@ -59,7 +59,7 @@ namespace YY
 				}
 			}
 		}
-		
+
 #endif
 
 
@@ -263,7 +263,7 @@ namespace YY
 
 			/*
 			* 参考了 14.29.30037 crt\src\concrt\ResourceManager.cpp 实现
-			
+
 			*/
 
 			for (;;)
@@ -461,7 +461,7 @@ namespace YY
 				return pUpdateProcThreadAttribute(lpAttributeList, dwFlags, Attribute, lpValue, cbSize, lpPreviousValue, lpReturnSize);
 			}
 
-		
+
 			LSTATUS lStatus = ERROR_SUCCESS;
 
 			do
@@ -618,7 +618,7 @@ namespace YY
 			} while (false);
 
 			SetLastError(lStatus);
-			
+
 			return FALSE;
 		}
 #endif
@@ -699,7 +699,7 @@ namespace YY
 			return TRUE;
 		}
 #endif
-		
+
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
 		// 最低受支持的客户端	Windows 8 [桌面应用|UWP 应用]
@@ -806,7 +806,7 @@ namespace YY
 					return FALSE;
 				}
 			}
-			
+
 			SetLastError(ERROR_INVALID_PARAMETER);
 			return FALSE;
 		}
@@ -874,7 +874,7 @@ namespace YY
 				_DepOptions.Permanent = _DepPolicy.Permanent;
 
 				_Status = _pfnNtSetInformationProcess(NtCurrentProcess(), YY_ProcessPolicy, &_DepOptions, sizeof(_DepOptions));
-				
+
 			}
 			else
 			{
@@ -899,7 +899,7 @@ namespace YY
 			}
 		}
 #endif
-		
+
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
 		// 最低受支持的客户端	Windows 8 [桌面应用|UWP 应用]
@@ -958,7 +958,7 @@ namespace YY
 			return FALSE;
 		}
 #endif
-		
+
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
 		// 最低受支持的客户端	Windows 8 [桌面应用|UWP 应用]

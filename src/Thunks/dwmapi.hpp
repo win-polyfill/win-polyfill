@@ -22,7 +22,7 @@ namespace YY
 			{
 				return _pfnDwmEnableBlurBehindWindow(_hWnd, _pBlurBehind);
 			}
-            
+
             // 老版本系统不支持Dwm,因此假装此功能被禁用
 			return DWM_E_COMPOSITIONDISABLED;
 		}

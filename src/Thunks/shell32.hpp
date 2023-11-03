@@ -637,7 +637,7 @@ namespace YY
 				return pSHCreateItemFromIDList(pidl, riid, ppv);
 			}
 
-	
+
 			return internal::SHCreateItemFromIDList(pidl, riid, ppv);
 		}
 #endif
@@ -743,7 +743,7 @@ namespace YY
 
 			IShellItem* ppsi;
 
-	
+
 			auto hr = internal::SHCreateItemFromIDList(pidl, __uuidof(ppsi), (void**)&ppsi);
 
 			if (SUCCEEDED(hr))
@@ -760,7 +760,7 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WINXPSP1)
 
-		//Windows XP with SP1 [desktop apps only] 
+		//Windows XP with SP1 [desktop apps only]
 		//Windows Server 2003 [desktop apps only]
 		__DEFINE_THUNK(
 		shell32,
@@ -778,7 +778,7 @@ namespace YY
 			{
 				return pSHCreateShellItem(pidlParent, psfParent, pidl, ppsi);
 			}
-	
+
 			*ppsi = nullptr;
 
 			if (pidlParent || psfParent)
@@ -787,7 +787,7 @@ namespace YY
 				return internal::SHCreateItemFromIDList(pidl, __uuidof(IShellItem), (void**)ppsi);
 		}
 #endif
-		
+
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN6)
 
