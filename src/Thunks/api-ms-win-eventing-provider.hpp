@@ -1,4 +1,4 @@
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+ï»¿#if (YY_Thunks_Support_Version < NTDDI_WIN8)
 #include <evntprov.h>
 #endif
 
@@ -9,8 +9,8 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-		// ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8 [×ÀÃæÓ¦ÓÃ|UWP Ó¦ÓÃ]
-		// ×îµÍÊÜÖ§³ÖµÄ·þÎñÆ÷	Windows Server 2012[×ÀÃæÓ¦ÓÃ | UWP Ó¦ÓÃ]
+		// æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8 [æ¡Œé¢åº”ç”¨|UWP åº”ç”¨]
+		// æœ€ä½Žå—æ”¯æŒçš„æœåŠ¡å™¨	Windows Server 2012[æ¡Œé¢åº”ç”¨ | UWP åº”ç”¨]
 		__DEFINE_THUNK(
 		advapi32,
 		20,

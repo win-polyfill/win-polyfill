@@ -1,11 +1,11 @@
-namespace YY
+ï»¿namespace YY
 {
     namespace Thunks
     {
 #if (YY_Thunks_Support_Version < NTDDI_WIN6)
 
-		// ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows Vista [×ÀÃæÓ¦ÓÃ|UWP Ó¦ÓÃ]
-		// ×îµÍÊÜÖ§³ÖµÄ·þÎñÆ÷	Windows Server 2008[×ÀÃæÓ¦ÓÃ | UWP Ó¦ÓÃ]
+		// æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows Vista [æ¡Œé¢åº”ç”¨|UWP åº”ç”¨]
+		// æœ€ä½Žå—æ”¯æŒçš„æœåŠ¡å™¨	Windows Server 2008[æ¡Œé¢åº”ç”¨ | UWP åº”ç”¨]
 		__DEFINE_THUNK(
 		ntdll,
 		12,
@@ -22,13 +22,13 @@ namespace YY
 				return _pfnNtCancelIoFileEx(handle, io, io_status);
 			}
 
-			// ×î»µ´òËã£¬Çå³ýËùÓÐµÄµ÷ÓÃ
+			// æœ€åæ‰“ç®—ï¼Œæ¸…é™¤æ‰€æœ‰çš„è°ƒç”¨
 			if (const auto _pfnNtCancelIoFile = try_get_NtCancelIoFile())
 			{
 				return _pfnNtCancelIoFile(handle, io_status);
 			}
 
-			// Õý³£À´Ëµ²»Ó¦¸Ã×ßµ½ÕâÀï
+			// æ­£å¸¸æ¥è¯´ä¸åº”è¯¥èµ°åˆ°è¿™é‡Œ
 			return STATUS_NOT_SUPPORTED;
 		}
 #endif

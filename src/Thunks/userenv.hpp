@@ -1,4 +1,4 @@
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+ï»¿#if (YY_Thunks_Support_Version < NTDDI_WIN8)
 #include <userenv.h>
 #endif
 
@@ -8,8 +8,8 @@ namespace YY
     {
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8 [½öÏÞ×ÀÃæÓ¦ÓÃ]
-        // ×îµÍÊÜÖ§³ÖµÄ·þÎñÆ÷	Windows Server 2012[½öÏÞ×ÀÃæÓ¦ÓÃ]
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8 [ä»…é™æ¡Œé¢åº”ç”¨]
+        // æœ€ä½Žå—æ”¯æŒçš„æœåŠ¡å™¨	Windows Server 2012[ä»…é™æ¡Œé¢åº”ç”¨]
         __DEFINE_THUNK(
         userenv,
         24,
@@ -38,8 +38,8 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8 [½öÏÞ×ÀÃæÓ¦ÓÃ]
-        // ×îµÍÊÜÖ§³ÖµÄ·þÎñÆ÷	Windows Server 2012[½öÏÞ×ÀÃæÓ¦ÓÃ]
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8 [ä»…é™æ¡Œé¢åº”ç”¨]
+        // æœ€ä½Žå—æ”¯æŒçš„æœåŠ¡å™¨	Windows Server 2012[ä»…é™æ¡Œé¢åº”ç”¨]
         __DEFINE_THUNK(
         userenv,
         4,
@@ -60,8 +60,8 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8 [½öÏÞ×ÀÃæÓ¦ÓÃ]
-        // ×îµÍÊÜÖ§³ÖµÄ·þÎñÆ÷	Windows Server 2012[½öÏÞ×ÀÃæÓ¦ÓÃ]
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8 [ä»…é™æ¡Œé¢åº”ç”¨]
+        // æœ€ä½Žå—æ”¯æŒçš„æœåŠ¡å™¨	Windows Server 2012[ä»…é™æ¡Œé¢åº”ç”¨]
         __DEFINE_THUNK(
         userenv,
         8,
@@ -85,8 +85,8 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8 [½öÏÞ×ÀÃæÓ¦ÓÃ]
-        // ×îµÍÊÜÖ§³ÖµÄ·þÎñÆ÷	Windows Server 2012[½öÏÞ×ÀÃæÓ¦ÓÃ]
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8 [ä»…é™æ¡Œé¢åº”ç”¨]
+        // æœ€ä½Žå—æ”¯æŒçš„æœåŠ¡å™¨	Windows Server 2012[ä»…é™æ¡Œé¢åº”ç”¨]
         __DEFINE_THUNK(
         userenv,
         8,
@@ -110,8 +110,8 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8 [½öÏÞ×ÀÃæÓ¦ÓÃ]
-        // ×îµÍÊÜÖ§³ÖµÄ·þÎñÆ÷	Windows Server 2012[½öÏÞ×ÀÃæÓ¦ÓÃ]
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8 [ä»…é™æ¡Œé¢åº”ç”¨]
+        // æœ€ä½Žå—æ”¯æŒçš„æœåŠ¡å™¨	Windows Server 2012[ä»…é™æ¡Œé¢åº”ç”¨]
         __DEFINE_THUNK(
         userenv,
         8,

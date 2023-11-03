@@ -1,4 +1,4 @@
-#if (YY_Thunks_Support_Version < NTDDI_WIN10)
+ï»¿#if (YY_Thunks_Support_Version < NTDDI_WIN10)
 #include <lmjoin.h>
 #endif
 
@@ -8,8 +8,8 @@ namespace YY
     {
 #if (YY_Thunks_Support_Version < NTDDI_WIN10)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 10 [½öÏÞ×ÀÃæÓ¦ÓÃ]
-        // ×îµÍÊÜÖ§³ÖµÄ·þÎñÆ÷	Windows Server 2016[½öÏÞ×ÀÃæÓ¦ÓÃ]
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 10 [ä»…é™æ¡Œé¢åº”ç”¨]
+        // æœ€ä½Žå—æ”¯æŒçš„æœåŠ¡å™¨	Windows Server 2016[ä»…é™æ¡Œé¢åº”ç”¨]
         __DEFINE_THUNK(
         netapi32,
         8,
@@ -27,7 +27,7 @@ namespace YY
             if (!_ppJoinInfo)
                 return E_INVALIDARG;
 
-            // ×ÜÊÇÈÏÎª×Ô¼ºÃ»ÓÐ¼ÓÈë Azure AD ÕÊ»§¡£
+            // æ€»æ˜¯è®¤ä¸ºè‡ªå·±æ²¡æœ‰åŠ å…¥ Azure AD å¸æˆ·ã€‚
             *_ppJoinInfo = nullptr;
             return S_OK;
         }
@@ -35,8 +35,8 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN10)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 10 [½öÏÞ×ÀÃæÓ¦ÓÃ]
-        // ×îµÍÊÜÖ§³ÖµÄ·þÎñÆ÷	Windows Server 2016[½öÏÞ×ÀÃæÓ¦ÓÃ]
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 10 [ä»…é™æ¡Œé¢åº”ç”¨]
+        // æœ€ä½Žå—æ”¯æŒçš„æœåŠ¡å™¨	Windows Server 2016[ä»…é™æ¡Œé¢åº”ç”¨]
         __DEFINE_THUNK(
         netapi32,
         8,
@@ -51,7 +51,7 @@ namespace YY
                 return _pfnNetFreeAadJoinInformation(_pJoinInfo);
             }
 
-            // Ê²Ã´Ò²²»×ö£¬ÀÏ°æ±¾ÏµÍ³²»¿ÉÄÜ»áÄÃµ½Õâ¸öÐÅÏ¢¡£
+            // ä»€ä¹ˆä¹Ÿä¸åšï¼Œè€ç‰ˆæœ¬ç³»ç»Ÿä¸å¯èƒ½ä¼šæ‹¿åˆ°è¿™ä¸ªä¿¡æ¯ã€‚
             UNREFERENCED_PARAMETER(_pJoinInfo);
         }
 #endif

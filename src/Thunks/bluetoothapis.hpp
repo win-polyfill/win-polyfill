@@ -1,4 +1,4 @@
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+ï»¿#if (YY_Thunks_Support_Version < NTDDI_WIN8)
 #include <bluetoothleapis.h>
 #endif
 
@@ -8,7 +8,7 @@ namespace YY
     {
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8¼°¸ü¸ß°æ±¾µÄ Windows ÖÐÊÜÖ§³Ö¡£
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8åŠæ›´é«˜ç‰ˆæœ¬çš„ Windows ä¸­å—æ”¯æŒã€‚
         __DEFINE_THUNK(
         bluetoothapis,
         24,
@@ -40,7 +40,7 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8¼°¸ü¸ß°æ±¾µÄ Windows ÖÐÊÜÖ§³Ö¡£
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8åŠæ›´é«˜ç‰ˆæœ¬çš„ Windows ä¸­å—æ”¯æŒã€‚
         __DEFINE_THUNK(
         bluetoothapis,
         24,
@@ -69,7 +69,7 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8¼°¸ü¸ß°æ±¾µÄ Windows ÖÐÊÜÖ§³Ö¡£
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8åŠæ›´é«˜ç‰ˆæœ¬çš„ Windows ä¸­å—æ”¯æŒã€‚
         __DEFINE_THUNK(
         bluetoothapis,
         24,
@@ -98,7 +98,7 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8¼°¸ü¸ß°æ±¾µÄ Windows ÖÐÊÜÖ§³Ö¡£
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8åŠæ›´é«˜ç‰ˆæœ¬çš„ Windows ä¸­å—æ”¯æŒã€‚
         __DEFINE_THUNK(
         bluetoothapis,
         20,
@@ -126,7 +126,7 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8¼°¸ü¸ß°æ±¾µÄ Windows ÖÐÊÜÖ§³Ö¡£
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8åŠæ›´é«˜ç‰ˆæœ¬çš„ Windows ä¸­å—æ”¯æŒã€‚
         __DEFINE_THUNK(
         bluetoothapis,
         28,
@@ -153,7 +153,7 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8¼°¸ü¸ß°æ±¾µÄ Windows ÖÐÊÜÖ§³Ö¡£
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8åŠæ›´é«˜ç‰ˆæœ¬çš„ Windows ä¸­å—æ”¯æŒã€‚
         __DEFINE_THUNK(
         bluetoothapis,
         24,
@@ -178,7 +178,7 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8¼°¸ü¸ß°æ±¾µÄ Windows ÖÐÊÜÖ§³Ö¡£
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8åŠæ›´é«˜ç‰ˆæœ¬çš„ Windows ä¸­å—æ”¯æŒã€‚
         __DEFINE_THUNK(
         bluetoothapis,
         16,
@@ -202,7 +202,7 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-        // ×îµÍÊÜÖ§³ÖµÄ¿Í»§¶Ë	Windows 8¼°¸ü¸ß°æ±¾µÄ Windows ÖÐÊÜÖ§³Ö¡£
+        // æœ€ä½Žå—æ”¯æŒçš„å®¢æˆ·ç«¯	Windows 8åŠæ›´é«˜ç‰ˆæœ¬çš„ Windows ä¸­å—æ”¯æŒã€‚
         __DEFINE_THUNK(
         bluetoothapis,
         8,

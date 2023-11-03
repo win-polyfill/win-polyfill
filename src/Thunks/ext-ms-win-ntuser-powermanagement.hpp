@@ -1,4 +1,4 @@
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
+ï»¿#if (YY_Thunks_Support_Version < NTDDI_WIN8)
 #include <winuser.h>
 #endif
 
@@ -12,7 +12,7 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-		// Windows 8 [½öÏÞ×ÀÃæÓ¦ÓÃ]£¬Windows Server 2012 [½öÏÞ×ÀÃæÓ¦ÓÃ]
+		// Windows 8 [ä»…é™æ¡Œé¢åº”ç”¨]ï¼ŒWindows Server 2012 [ä»…é™æ¡Œé¢åº”ç”¨]
 		__DEFINE_THUNK(
 		user32,
 		8,
@@ -45,15 +45,15 @@ namespace YY
 			}
 			else if (DEVICE_NOTIFY_WINDOW_HANDLE == _fFlags)
 			{
-				// ÕâÖÖÇé¿öÐèÒªÏò´°¿Ú·¢ËÍµçÔ´Í¨Öª£¬µ«ÊÇÀÏ°æ±¾ÏµÍ³²»Ö§³Ö ÏÖ´ú»¯Ë¯Ãß
-				// ±¾Éí¾ÍÊÇ¿ÉÒÔÕýÈ·´¦ÀíÕâÖÖÇé¿öµÄ¡£ËùÒÔÎÒÃÇºöÂÔ²ÎÊý£¬Ö±½Ó·µ»ØÒ»¸ö±ê¼Ç³£Á¿¼´¿É¡£
+				// è¿™ç§æƒ…å†µéœ€è¦å‘çª—å£å‘é€ç”µæºé€šçŸ¥ï¼Œä½†æ˜¯è€ç‰ˆæœ¬ç³»ç»Ÿä¸æ”¯æŒ çŽ°ä»£åŒ–ç¡çœ 
+				// æœ¬èº«å°±æ˜¯å¯ä»¥æ­£ç¡®å¤„ç†è¿™ç§æƒ…å†µçš„ã€‚æ‰€ä»¥æˆ‘ä»¬å¿½ç•¥å‚æ•°ï¼Œç›´æŽ¥è¿”å›žä¸€ä¸ªæ ‡è®°å¸¸é‡å³å¯ã€‚
 				UNREFERENCED_PARAMETER(_hRecipient);
 
 				return CONST_DEVICE_NOTIFY_WINDOW_HANDLE;
 			}
 			else
 			{
-				// ½öÖ§³ÖÕâ¶þ¸ö²ÎÊý
+				// ä»…æ”¯æŒè¿™äºŒä¸ªå‚æ•°
 				SetLastError(ERROR_INVALID_PARAMETER);
 				return nullptr;
 			}
@@ -62,7 +62,7 @@ namespace YY
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN8)
 
-		// Windows 8 [½öÏÞ×ÀÃæÓ¦ÓÃ]£¬Windows Server 2012 [½öÏÞ×ÀÃæÓ¦ÓÃ]
+		// Windows 8 [ä»…é™æ¡Œé¢åº”ç”¨]ï¼ŒWindows Server 2012 [ä»…é™æ¡Œé¢åº”ç”¨]
 		__DEFINE_THUNK(
 		user32,
 		4,
@@ -84,12 +84,12 @@ namespace YY
 			}
 			else if (_hHandle == CONST_DEVICE_NOTIFY_WINDOW_HANDLE)
 			{
-				// ºöÂÔ£¬ÕâÊÇ DEVICE_NOTIFY_WINDOW_HANDLE µÄ³£Á¿
+				// å¿½ç•¥ï¼Œè¿™æ˜¯ DEVICE_NOTIFY_WINDOW_HANDLE çš„å¸¸é‡
 				return TRUE;
 			}
 			else
 			{
-				// À´×Ô DEVICE_NOTIFY_CALLBACKµÄ×¢²á
+				// æ¥è‡ª DEVICE_NOTIFY_CALLBACKçš„æ³¨å†Œ
 				auto _lStatus = PowerUnregisterSuspendResumeNotificationDownlevel(_hHandle);
 				if (_lStatus == ERROR_SUCCESS)
 				{
