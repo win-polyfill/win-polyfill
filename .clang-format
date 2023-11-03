@@ -1,0 +1,26 @@
+BasedOnStyle: LLVM
+Language: Cpp
+IndentWidth: 4
+TabWidth: 4
+ContinuationIndentWidth: 4
+UseTab: Never
+AlignAfterOpenBracket: AlwaysBreak
+AllowAllParametersOfDeclarationOnNextLine: false
+ColumnLimit: 100
+BinPackArguments: false
+BinPackParameters: false
+BreakBeforeBraces: Custom
+NamespaceIndentation: All
+CommentPragmas: "^[^ ]"
+BraceWrapping:
+  AfterClass: true
+  AfterControlStatement: Always
+  AfterEnum: true
+  AfterFunction: true
+  AfterNamespace: true
+  AfterStruct: true
+  AfterUnion: true
+  BeforeCatch: true
+  BeforeElse: true
+  AfterCaseLabel: true
+  IndentBraces: false
