@@ -3041,8 +3041,16 @@ NtQueryDirectoryFile (
         CCHAR NumberOfProcessors;
     } SYSTEM_BASIC_INFORMATION, *PSYSTEM_BASIC_INFORMATION;
 
-    typedef struct _SYSTEM_TIMEOFDAY_INFORMATION {
-        BYTE Reserved1[48];
+    // https://github.com/PoshCode/poshcode.github.io/blob/d6578b2cc41e2ede81b3751fe00d72785d61e700/scripts/5630.cpp#L9
+    typedef struct _SYSTEM_TIMEOFDAY_INFORMATION
+    {
+        LARGE_INTEGER BootTime;
+        LARGE_INTEGER CurrentTime;
+        LARGE_INTEGER TimeZoneBias;
+        ULONG TimeZoneId;
+        ULONG Reserved;
+        ULONGLONG BootTimeBias;
+        ULONGLONG SleepTimeBias;
     } SYSTEM_TIMEOFDAY_INFORMATION, *PSYSTEM_TIMEOFDAY_INFORMATION;
 
     typedef struct _SYSTEM_PERFORMANCE_INFORMATION {
