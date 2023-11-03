@@ -1,0 +1,26 @@
+{
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.trimTrailingWhitespace": true,
+  "C_Cpp.autoAddFileAssociations": false,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false,
+  "files.autoGuessEncoding": true,
+  "C_Cpp.formatting": "clangFormat",
+  "cmake.generator": "Ninja",
+  "cmake.buildDirectory": "${workspaceRoot}/build/${buildKitTriple}-${buildKitVersionMajor}-${variant:buildType}",
+  "cmake.additionalCompilerSearchDirs": [
+    "C:/CI-Tools/msys64/mingw64",
+    "C:/CI-Tools/msys64/mingw32",
+    "C:/CI-Tools/msys64/usr"
+  ],
+  "cmake.configureArgs": [
+    "-DCMAKE_PREFIX_PATH=C:/Qt/Qt5.9.9/5.9.9/msvc2015_64;D:/Qt/Qt5.9.9/5.9.9/msvc2015_64",
+    "-DBUILD_TESTING:BOOL=TRUE",
+    "-DCMAKE_EXE_LINKER_FLAGS_INIT=/SUBSYSTEM:CONSOLE,5.01",
+    "-DCMAKE_MSVC_RUNTIME_LIBRARY=MultiThreaded$<$<CONFIG:Debug>:Debug>",
+    "-DCMAKE_C_STANDARD_LIBRARIES=",
+    "-DCMAKE_CXX_STANDARD_LIBRARIES="
+  ],
+  "C_Cpp.default.configurationProvider": "ms-vscode.cmake-tools"
+}

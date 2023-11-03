@@ -35,15 +35,8 @@ namespace YY
 #if defined(YY_Thunks_Implemented) && (YY_Thunks_Support_Version < NTDDI_WIN6)
         namespace Fallback
         {
-            static void __cdecl UninitPageVirtualProtect();
-
             static char* volatile *GetPageVirtualProtect()
             {
-                //注册 m_pPageVirtualProtect 的反初始化工作
-                __declspec(allocate(".YYThr$AAB")) static void* RunUninitPageVirtualProtect = reinterpret_cast<void*>(&Fallback::UninitPageVirtualProtect);
-
-                __foreinclude(RunUninitPageVirtualProtect);
-
                 static char* volatile m_pPageVirtualProtect = nullptr;
 
                 return &m_pPageVirtualProtect;

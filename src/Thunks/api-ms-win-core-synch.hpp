@@ -117,18 +117,33 @@ namespace YY
 #ifdef YY_Thunks_Implemented
         namespace internal
         {
-            static HANDLE __fastcall GetGlobalKeyedEventHandle()
+            struct GetGlobalKeyedEventHandleContext {
+                HANDLE *handle_ptr;
+                bool uninitialize;
+                bool raise_error;
+            };
+            static void GetGlobalKeyedEventHandle(void *context) noexcept
             {
+                GetGlobalKeyedEventHandleContext *handle_context = (GetGlobalKeyedEventHandleContext *)context;
+                *handle_context->handle_ptr = nullptr;
+                handle_context->raise_error = false;
+                if (handle_context->uninitialize)
+                {
+                    /* 处于退出程序的过程，不要创建GlobalKeyedEventHandle */
+                    return;
+                }
+
 #if (YY_Thunks_Support_Version < NTDDI_WIN6)
                 //Windows XP等平台则 使用系统自身的 CritSecOutOfMemoryEvent，Vista或者更高平台 我们直接返回 nullptr 即可。
                 if (NtCurrentTeb()->ProcessEnvironmentBlock->OSMajorVersion < 6)
                 {
-                    if (_GlobalKeyedEventHandle == nullptr)
                     {
                         auto pNtOpenKeyedEvent = try_get_NtOpenKeyedEvent();
 
-                        if(pNtOpenKeyedEvent == nullptr)
-                            RaiseStatus(STATUS_RESOURCE_NOT_OWNED);
+                        if(pNtOpenKeyedEvent == nullptr) {
+                            handle_context->raise_error = true;
+                            return;
+                        }
 
                         constexpr const wchar_t Name[] = L"\\KernelObjects\\CritSecOutOfMemoryEvent";
 
@@ -139,20 +154,32 @@ namespace YY
 
                         if (pNtOpenKeyedEvent(&KeyedEventHandle, MAXIMUM_ALLOWED, &attr) < 0)
                         {
-                            RaiseStatus(STATUS_RESOURCE_NOT_OWNED);
+                            handle_context->raise_error = true;
+                            return;
                         }
-
-                        if (InterlockedCompareExchange((size_t*)&_GlobalKeyedEventHandle, (size_t)KeyedEventHandle, (size_t)nullptr))
-                        {
-                            CloseHandle(KeyedEventHandle);
-                        }
+                        *handle_context->handle_ptr = KeyedEventHandle;
                     }
-
-                    return _GlobalKeyedEventHandle;
                 }
 #endif
                 //Vista以上平台支持给 KeyedEvent直接传 nullptr
-                return nullptr;
+            }
+
+            static HANDLE __fastcall GetGlobalKeyedEventHandle(bool uninitialize = false)
+            {
+                static HANDLE _GlobalKeyedEventHandle;
+                static long once;
+                if (once == internal::WinPolyfillOnce::OnceFinished) {
+                    return _GlobalKeyedEventHandle;
+                }
+                GetGlobalKeyedEventHandleContext context;
+                context.uninitialize = uninitialize;
+                context.handle_ptr = &_GlobalKeyedEventHandle;
+                call_once_context(&once, GetGlobalKeyedEventHandle, &context);
+                if (context.raise_error)
+                {
+                    RaiseStatus(STATUS_RESOURCE_NOT_OWNED);
+                }
+                return _GlobalKeyedEventHandle;
             }
 
 #if (YY_Thunks_Support_Version < NTDDI_WIN6)

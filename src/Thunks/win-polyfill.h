@@ -1,89 +1,14 @@
-﻿// 忽略非标准的 0 数组警告。
-#pragma warning(disable:4200)
-#define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
-
-#define _YY_APPLY_TO_LATE_BOUND_MODULES(_APPLY)                                                                     \
-    _APPLY(ntdll,                                        "ntdll"                              , USING_UNSAFE_LOAD ) \
-    _APPLY(kernel32,                                     "kernel32"                           , USING_UNSAFE_LOAD ) \
-    _APPLY(dwmapi,                                       "dwmapi"                             , 0                 ) \
-    _APPLY(psapi,                                        "psapi"                              , 0                 ) \
-    _APPLY(pdh,                                          "pdh"                                , 0                 ) \
-    _APPLY(version,                                      "version"                            , 0                 ) \
-    _APPLY(advapi32,                                     "advapi32"                           , 0                 ) \
-    _APPLY(bcrypt,                                       "bcrypt"                             , 0                 ) \
-    _APPLY(user32,                                       "user32"                             , 0                 ) \
-    _APPLY(ws2_32,                                       "ws2_32"                             , 0                 ) \
-    _APPLY(shell32,                                      "shell32"                            , 0                 ) \
-    _APPLY(shcore,                                       "shcore"                             , 0                 ) \
-    _APPLY(shlwapi,                                      "shlwapi"                            , 0                 ) \
-    _APPLY(setupapi,                                     "setupapi"                           , 0                 ) \
-    _APPLY(ole32,                                        "ole32"                              , 0                 ) \
-    _APPLY(iphlpapi,                                     "iphlpapi"                           , 0                 ) \
-    _APPLY(userenv,                                      "userenv"                            , 0                 ) \
-    _APPLY(mfplat,                                       "mfplat"                             , 0                 ) \
-    _APPLY(bluetoothapis,                                "bluetoothapis"                      , 0                 ) \
-    _APPLY(netapi32,                                     "netapi32"                           , 0                 ) \
-    _APPLY(powrprof,                                     "powrprof"                           , 0                 ) \
-    _APPLY(api_ms_win_core_winrt_l1_1_0,                 "api-ms-win-core-winrt-l1-1-0"       , 0                 ) \
-    _APPLY(api_ms_win_core_winrt_string_l1_1_0,          "api-ms-win-core-winrt-string-l1-1-0", 0                 ) \
-    _APPLY(api_ms_win_core_winrt_error_l1_1_0,           "api-ms-win-core-winrt-error-l1-1-0" , 0                 ) \
-    _APPLY(api_ms_win_core_path_l1_1_0,                  "api-ms-win-core-path-l1-1-0"        , 0                 ) \
-    _APPLY(api_ms_win_core_synch_l1_2_0,                 "api-ms-win-core-synch-l1-2-0"       , 0                 )
-
-
-//全局可能使用到的函数
-#define _YY_APPLY_TO_LATE_BOUND_FUNCTIONS(_APPLY)                                                        \
-    _APPLY(NtCreateFile,                                 ntdll                                         ) \
-    _APPLY(NtClose,                                      ntdll                                         ) \
-    _APPLY(NtQueryDirectoryFile,                         ntdll                                         ) \
-    _APPLY(NtQueryInformationFile,                       ntdll                                         ) \
-    _APPLY(NtQuerySystemInformation,                     ntdll                                         ) \
-    _APPLY(NtSetInformationFile,                         ntdll                                         ) \
-    _APPLY(RtlNtStatusToDosError,                        ntdll                                         ) \
-    _APPLY(RtlDetermineDosPathNameType_U,                ntdll                                         ) \
-    _APPLY(RtlDosPathNameToNtPathName_U,                 ntdll                                         ) \
-    _APPLY(RtlDosPathNameToNtPathName_U_WithStatus,      ntdll                                         ) \
-    _APPLY(RtlFreeUnicodeString,                         ntdll                                         ) \
-    _APPLY(NtQueryObject,                                ntdll                                         ) \
-    _APPLY(NtQueryInformationThread,                     ntdll                                         ) \
-    _APPLY(NtSetInformationThread,                       ntdll                                         ) \
-    _APPLY(NtQueryInformationProcess,                    ntdll                                         ) \
-    _APPLY(NtSetInformationProcess,                      ntdll                                         ) \
-    _APPLY(NtOpenKeyedEvent,                             ntdll                                         ) \
-    _APPLY(NtWaitForKeyedEvent,                          ntdll                                         ) \
-    _APPLY(NtReleaseKeyedEvent,                          ntdll                                         ) \
-    _APPLY(RtlAdjustPrivilege,                           ntdll                                         ) \
-    _APPLY(RtlPcToFileHeader,                            ntdll                                         ) \
-    _APPLY(LdrAddRefDll,                                 ntdll                                         ) \
-    _APPLY(RtlWow64EnableFsRedirectionEx,                ntdll                                         ) \
-    _APPLY(LdrLoadDll,                                   ntdll                                         ) \
-    _APPLY(RtlDllShutdownInProgress,                     ntdll                                         ) \
-    _APPLY(RtlCutoverTimeToSystemTime,                   ntdll                                         ) \
-    _APPLY(NtCancelIoFile,                               ntdll                                         ) \
-    _APPLY(AddDllDirectory,                              kernel32                                      ) \
-    _APPLY(SystemFunction036,                            advapi32                                      )
-
-
-#include <sdkddkver.h>
-
-#ifndef YY_Thunks_Support_Version
-#define YY_Thunks_Support_Version WDK_NTDDI_VERSION
-#endif
-
-#define _WINSOCKAPI_
-#define PSAPI_VERSION 1
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
-#define INITKNOWNFOLDERS
-#endif
+﻿#pragma once
+#include "win-polyfill-shared.h"
 
 #define _Disallow_YY_KM_Namespace
-#include "km.h"
-#include <Shlwapi.h>
-#include <WinSock2.h>
-#include <ws2tcpip.h>
-#include <psapi.h>
-#include <winnls.h>
+#include "win-polyfill-km.h"
+
+#ifdef WIN_POLYFILL_BUILD_SHARED
+#define WP_EXPORT __declspec(dllexport)
+#else
+#define WP_EXPORT
+#endif
 
 EXTERN_C
 BOOLEAN
@@ -103,53 +28,12 @@ RtlCutoverTimeToSystemTime(
     BOOLEAN ThisYear
     );
 
-#include "YY_Thunks.h"
-
-#if (YY_Thunks_Support_Version < NTDDI_WS03SP1)
-#pragma comment(lib, "Advapi32.lib")
-#endif
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
-#pragma comment(lib, "Shlwapi.lib")
-#pragma comment(lib, "Ws2_32.lib")
-#pragma comment(lib, "version.lib")
-#pragma comment(lib, "ole32.lib")
-#pragma comment(lib, "shell32.lib")
-#endif
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
-#pragma comment(lib, "psapi.lib")
-#endif
-
-#if (YY_Thunks_Support_Version >= NTDDI_WINBLUE)
-#pragma comment(lib, "Shcore.lib")
-#endif
-
-#if (YY_Thunks_Support_Version < NTDDI_WINBLUE)
-#pragma comment(lib, "Gdi32.lib")
-#endif
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN10)
-#pragma comment(lib, "User32.lib")
-#endif
-
 //展开函数的所有的 声明 以及 try_get_ 函数
-#define __DEFINE_THUNK(_MODULE, _SIZE, _RETURN_, _CONVENTION_, _FUNCTION, ...)                 \
-    __APPLY_UNIT_TEST_BOOL(_FUNCTION);                                                         \
-    EXTERN_C _RETURN_ _CONVENTION_ _FUNCTION(__VA_ARGS__);                                     \
-    static decltype(_FUNCTION)* __cdecl _CRT_CONCATENATE(try_get_, _FUNCTION)() noexcept       \
-    {                                                                                          \
-        __CHECK_UNIT_TEST_BOOL(_FUNCTION);                                                     \
-        __declspec(allocate(".YYThu$AAB")) static void* _CRT_CONCATENATE(pFun_, _FUNCTION);    \
-        return reinterpret_cast<decltype(_FUNCTION)*>(try_get_function(                        \
-        &_CRT_CONCATENATE(pFun_ ,_FUNCTION),                                                   \
-        _CRT_STRINGIZE(_FUNCTION),                                                             \
-        &_CRT_CONCATENATE(try_get_module_, _MODULE)));                                         \
-    }                                                                                          \
-    __if_not_exists(_CRT_CONCATENATE(try_get_, _FUNCTION))
+#define __DEFINE_THUNK(_MODULE, _SIZE, _RETURN_, _CONVENTION_, _FUNCTION, ...)                     \
+    EXTERN_C WP_EXPORT _RETURN_ _CONVENTION_ wp_##_FUNCTION(__VA_ARGS__);                          \
+    __if_not_exists(CreateFileW)
 
-
-#include "Thunks\YY_Thunks_List.hpp"
+#include "win-polyfill-list.h"
 
 #undef __DEFINE_THUNK
 
@@ -157,8 +41,28 @@ namespace YY
 {
     namespace Thunks
     {
+        namespace TryGet {
+            decltype(&::RtlNtStatusToDosError) try_get_RtlNtStatusToDosError();
+        }
+
         namespace internal
         {
+            enum WinPolyfillOnce {
+                OnceInit,
+                OnceLoading,
+                OnceFinished
+            };
+
+            struct WinPolyfillModule {
+                long once; /* WinPolyfillOnce */
+                HMODULE h;
+            };
+
+            struct WinPolyfillFunction {
+                long once; /* WinPolyfillOnce */
+                void *p;
+            };
+
             __forceinline constexpr DWORD MakeVersion(DWORD _uMajorVersion, DWORD _uMinorVersion)
             {
                 return (_uMajorVersion << 16) | _uMinorVersion;
@@ -184,7 +88,7 @@ namespace YY
                     */
                     return ERROR_TIMEOUT;
                 }
-                else if (auto pRtlNtStatusToDosError = try_get_RtlNtStatusToDosError())
+                else if (auto pRtlNtStatusToDosError = TryGet::try_get_RtlNtStatusToDosError())
                 {
                     return pRtlNtStatusToDosError(Status);
                 }
@@ -356,16 +260,3 @@ namespace YY
     }//namespace Thunks
 
 } //namespace YY
-
-#include "ThreadRunner.h"
-
-//导入实际的实现
-#define YY_Thunks_Implemented
-#define __DEFINE_THUNK(_MODULE, _SIZE, _RETURN_, _CONVENTION_, _FUNCTION, ...)     \
-    _LCRT_DEFINE_IAT_SYMBOL(_FUNCTION, _SIZE);                                     \
-    EXTERN_C _RETURN_ _CONVENTION_ _FUNCTION(__VA_ARGS__)
-
-#include "YY_Thunks_List.hpp"
-
-#undef __DEFINE_THUNK
-#undef YY_Thunks_Implemented

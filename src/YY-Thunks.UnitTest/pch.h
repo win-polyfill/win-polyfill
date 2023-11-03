@@ -13,7 +13,7 @@
 #define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
 #define UMDF_USING_NTSTATUS
 #define _Disallow_YY_KM_Namespace
-#include <km.h>
+#include <win-polyfill-km.h>
 
 #include <Windows.h>
 

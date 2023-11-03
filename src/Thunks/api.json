@@ -1,0 +1,486 @@
+{
+    "preloadedModuleList": ["ntdll", "kernel32"],
+    "moduleNameMapping": {
+        "api_ms_win_core_winrt_l1_1_0": "api-ms-win-core-winrt-l1-1-0",
+        "api_ms_win_core_winrt_string_l1_1_0": "api-ms-win-core-winrt-string-l1-1-0",
+        "api_ms_win_core_winrt_error_l1_1_0": "api-ms-win-core-winrt-error-l1-1-0",
+        "api_ms_win_core_path_l1_1_0": "api-ms-win-core-path-l1-1-0",
+        "api_ms_win_core_synch_l1_2_0": "api-ms-win-core-synch-l1-2-0"
+    },
+    "loadList": [
+        {
+            "lib": "ntdll",
+            "name": "NtCreateFile"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtClose"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtQueryDirectoryFile"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtQueryInformationFile"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtQuerySystemInformation"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtSetInformationFile"
+        },
+        {
+            "lib": "ntdll",
+            "name": "RtlNtStatusToDosError"
+        },
+        {
+            "lib": "ntdll",
+            "name": "RtlDetermineDosPathNameType_U"
+        },
+        {
+            "lib": "ntdll",
+            "name": "RtlDosPathNameToNtPathName_U"
+        },
+        {
+            "lib": "ntdll",
+            "name": "RtlDosPathNameToNtPathName_U_WithStatus"
+        },
+        {
+            "lib": "ntdll",
+            "name": "RtlFreeUnicodeString"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtQueryObject"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtQueryInformationThread"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtSetInformationThread"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtQueryInformationProcess"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtSetInformationProcess"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtOpenKeyedEvent"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtWaitForKeyedEvent"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtReleaseKeyedEvent"
+        },
+        {
+            "lib": "ntdll",
+            "name": "RtlAdjustPrivilege"
+        },
+        {
+            "lib": "ntdll",
+            "name": "RtlPcToFileHeader"
+        },
+        {
+            "lib": "ntdll",
+            "name": "LdrAddRefDll"
+        },
+        {
+            "lib": "ntdll",
+            "name": "RtlWow64EnableFsRedirectionEx"
+        },
+        {
+            "lib": "ntdll",
+            "name": "LdrLoadDll"
+        },
+        {
+            "lib": "ntdll",
+            "name": "RtlDllShutdownInProgress"
+        },
+        {
+            "lib": "ntdll",
+            "name": "RtlCutoverTimeToSystemTime"
+        },
+        {
+            "lib": "ntdll",
+            "name": "NtCancelIoFile"
+        },
+        {
+            "lib": "kernel32",
+            "name": "AddDllDirectory"
+        },
+        {
+            "lib": "advapi32",
+            "name": "SystemFunction036"
+        },
+        {
+            "lib": "gdi32",
+            "name": "GetDeviceCaps"
+        },
+        {
+            "lib": "user32",
+            "name": "GetMessageW"
+        },
+        {
+            "lib": "user32",
+            "name": "TranslateMessage"
+        },
+        {
+            "lib": "user32",
+            "name": "DispatchMessageW"
+        },
+        {
+            "lib": "user32",
+            "name": "SendMessageW"
+        },
+        {
+            "lib": "user32",
+            "name": "PostMessageW"
+        },
+        {
+            "lib": "user32",
+            "name": "DefWindowProcW"
+        },
+        {
+            "lib": "user32",
+            "name": "PostQuitMessage"
+        },
+        {
+            "lib": "user32",
+            "name": "RegisterClassW"
+        },
+        {
+            "lib": "user32",
+            "name": "CreateWindowExW"
+        },
+        {
+            "lib": "user32",
+            "name": "DestroyWindow"
+        },
+        {
+            "lib": "user32",
+            "name": "SetTimer"
+        },
+        {
+            "lib": "user32",
+            "name": "GetSystemMetrics"
+        },
+        {
+            "lib": "user32",
+            "name": "GetDC"
+        },
+        {
+            "lib": "user32",
+            "name": "ReleaseDC"
+        },
+        {
+            "lib": "user32",
+            "name": "AdjustWindowRectEx"
+        },
+        {
+            "lib": "user32",
+            "name": "GetWindowLongW"
+        },
+        {
+            "lib": "user32",
+            "name": "SetWindowLongW"
+        },
+        {
+            "lib": "user32",
+            "name": "SystemParametersInfoW"
+        },
+        {
+            "lib": "user32",
+            "name": "MonitorFromWindow"
+        },
+        {
+            "lib": "psapi",
+            "name": "EnumProcessModules"
+        },
+        {
+            "lib": "psapi",
+            "name": "GetModuleFileNameExA"
+        },
+        {
+            "lib": "psapi",
+            "name": "GetModuleFileNameExW"
+        },
+        {
+            "lib": "psapi",
+            "name": "GetWsChanges"
+        },
+        {
+            "lib": "psapi",
+            "name": "GetProcessImageFileNameA"
+        },
+        {
+            "lib": "psapi",
+            "name": "GetProcessImageFileNameW"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegCloseKey"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegCreateKeyExA"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegCreateKeyExW"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegDeleteKeyA"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegDeleteKeyW"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegDeleteValueA"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegDeleteValueW"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegEnumKeyW"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegOpenKeyExA"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegOpenKeyExW"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegQueryValueExA"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegQueryValueExW"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegSetValueExA"
+        },
+        {
+            "lib": "advapi32",
+            "name": "RegSetValueExW"
+        },
+        {
+            "lib": "version",
+            "name": "GetFileVersionInfoSizeA"
+        },
+        {
+            "lib": "version",
+            "name": "GetFileVersionInfoSizeW"
+        },
+        {
+            "lib": "version",
+            "name": "GetFileVersionInfoA"
+        },
+        {
+            "lib": "version",
+            "name": "GetFileVersionInfoW"
+        },
+        {
+            "lib": "ole32",
+            "name": "CoUninitialize"
+        },
+        {
+            "lib": "ole32",
+            "name": "CoInitializeEx"
+        },
+        {
+            "lib": "ole32",
+            "name": "CoGetContextToken"
+        },
+        {
+            "lib": "ole32",
+            "name": "CoTaskMemAlloc"
+        },
+        {
+            "lib": "ole32",
+            "name": "CoTaskMemFree"
+        },
+        {
+            "lib": "iphlpapi",
+            "name": "GetIfEntry"
+        },
+        {
+            "lib": "iphlpapi",
+            "name": "GetIfTable"
+        },
+        {
+            "lib": "pdh",
+            "name": "PdhAddCounterW"
+        },
+        {
+            "lib": "pdh",
+            "name": "PdhAddCounterA"
+        },
+        {
+            "lib": "shlwapi",
+            "name": "SHDeleteKeyA"
+        },
+        {
+            "lib": "shlwapi",
+            "name": "SHDeleteKeyW"
+        },
+        {
+            "lib": "shlwapi",
+            "name": "SHQueryValueExA"
+        },
+        {
+            "lib": "shlwapi",
+            "name": "SHQueryValueExW"
+        },
+        {
+            "lib": "shlwapi",
+            "name": "SHCopyKeyA"
+        },
+        {
+            "lib": "shlwapi",
+            "name": "SHCopyKeyW"
+        },
+        {
+            "lib": "setupapi",
+            "name": "SetupDiGetDeviceRegistryPropertyW"
+        },
+        {
+            "lib": "setupapi",
+            "name": "SetupDiGetClassRegistryPropertyW"
+        },
+        {
+            "lib": "setupapi",
+            "name": "SetupDiSetDeviceRegistryPropertyW"
+        },
+        {
+            "lib": "setupapi",
+            "name": "SetupDiSetClassRegistryPropertyW"
+        },
+        {
+            "lib": "shell32",
+            "name": "ILClone"
+        },
+        {
+            "lib": "shell32",
+            "name": "ILFree"
+        },
+        {
+            "lib": "shell32",
+            "name": "ILFindLastID"
+        },
+        {
+            "lib": "shell32",
+            "name": "ILRemoveLastID"
+        },
+        {
+            "lib": "shell32",
+            "name": "SHGetFolderPathW"
+        },
+        {
+            "lib": "shell32",
+            "name": "SHGetFolderLocation"
+        },
+        {
+            "lib": "shell32",
+            "name": "SHSetFolderPathW"
+        },
+        {
+            "lib": "shell32",
+            "name": "SHGetDesktopFolder"
+        },
+        {
+            "lib": "shell32",
+            "name": "SHCoCreateInstance"
+        },
+        {
+            "lib": "shell32",
+            "name": "SHParseDisplayName"
+        },
+        {
+            "lib": "ws2_32",
+            "name": "__WSAFDIsSet"
+        },
+        {
+            "lib": "ws2_32",
+            "name": "select"
+        },
+        {
+            "lib": "ws2_32",
+            "name": "WSASetLastError"
+        }
+    ],
+    "polyfillList": [
+        "api-ms-win-core-com.hpp",
+        "api-ms-win-core-datetime.hpp",
+        "api-ms-win-core-errorhandling.hpp",
+        "api-ms-win-core-fibers.hpp",
+        "api-ms-win-core-file.hpp",
+        "api-ms-win-core-interlocked.hpp",
+        "api-ms-win-core-io.hpp",
+        "api-ms-win-core-kernel32-legacy.hpp",
+        "api-ms-win-core-libraryloader.hpp",
+        "api-ms-win-core-localization.hpp",
+        "api-ms-win-core-memory.hpp",
+        "api-ms-win-core-path.hpp",
+        "api-ms-win-core-processthreads.hpp",
+        "api-ms-win-core-processtopology-obsolete.hpp",
+        "api-ms-win-core-psapi.hpp",
+        "api-ms-win-core-realtime.hpp",
+        "api-ms-win-core-registry.hpp",
+        "api-ms-win-core-rtlsupport.hpp",
+        "api-ms-win-core-string.hpp",
+        "api-ms-win-core-synch.hpp",
+        "api-ms-win-core-sysinfo.hpp",
+        "api-ms-win-core-systemtopology.hpp",
+        "api-ms-win-core-threadpool.hpp",
+        "api-ms-win-core-timezone.hpp",
+        "api-ms-win-core-util.hpp",
+        "api-ms-win-core-version.hpp",
+        "api-ms-win-core-winrt-error.hpp",
+        "api-ms-win-core-winrt-string.hpp",
+        "api-ms-win-core-winrt.hpp",
+        "api-ms-win-core-wow64.hpp",
+        "api-ms-win-eventing-provider.hpp",
+        "api-ms-win-power-base.hpp",
+        "bcrypt.hpp",
+        "bluetoothapis.hpp",
+        "dwmapi.hpp",
+        "ext-ms-win-ntuser-powermanagement.hpp",
+        "ext-ms-win-ntuser-window.hpp",
+        "Iphlpapi.hpp",
+        "kernel32.hpp",
+        "mfplat.hpp",
+        "netapi32.hpp",
+        "ntdll.hpp",
+        "Pdh.hpp",
+        "powrprof.hpp",
+        "psapi.hpp",
+        "SetupAPI.hpp",
+        "shcore.hpp",
+        "shell32.hpp",
+        "shlwapi.hpp",
+        "user32.hpp",
+        "userenv.hpp",
+        "WS2_32.hpp"
+    ]
+}

@@ -5,6 +5,7 @@
 > 开头带`*`的函数并不建议使用，仅用于编译通过处理，如果使用可能导致老版本系统无法充分发挥性能。
 
 ## api-ms-win-core-path-l1-1-0.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | PathIsUNCEx                                | 内部实现。
@@ -31,6 +32,7 @@
 | PathAllocCanonicalize                      | 不存在时，调用PathCchCanonicalizeEx。
 
 ## api-ms-win-core-winrt-l1-1-0.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | RoInitialize                               | 不存在时，调用 CoInitializeEx。
@@ -44,12 +46,14 @@
 | RoGetApartmentIdentifier                   | 不存在时，返回 E_NOTIMPL。
 
 ## api-ms-win-core-winrt-error-l1-1-0.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | RoOriginateError                           | 不存在时，返回 FALSE.
 | RoOriginateErrorW                          | 不存在时，返回 FALSE.
 
 ## api-ms-win-core-winrt-string-l1-1-0.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | WindowsCreateString                        | 不存在时，返回 E_NOTIMPL。
@@ -63,6 +67,7 @@
 | WindowsCompareStringOrdinal                | 不存在时，返回 E_NOTIMPL。
 
 ## advapi32.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | RegDeleteKeyExW(A)                         | 不存在时，调用RegDeleteKeyW(A)。
@@ -74,6 +79,7 @@
 | EventSetInformation                        | 不存在时，返回ERROR_NOT_SUPPORTED。
 
 ## bcrypt.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | BCryptOpenAlgorithmProvider                | 内部实现。
@@ -81,6 +87,7 @@
 | BCryptGenRandom                            | 不存在时调用，RtlGenRandom。
 
 ## bluetoothapis.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | BluetoothGATTGetCharacteristicValue        | 不存在时，返回ERROR_NOT_SUPPORTED。
@@ -92,11 +99,13 @@
 | BluetoothGATTSetDescriptorValue            | 不存在时，返回ERROR_NOT_SUPPORTED。
 
 ## dwmapi.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | DwmEnableBlurBehindWindow                  | 不存在时，返回 `DWM_E_COMPOSITIONDISABLED`（表示DWM已禁用）。
 
 ## iphlpapi.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | GetIfTable2                                | 不存在时调用，GetIfTable，并使用HeapAlloc申请内存。
@@ -106,6 +115,7 @@
 | FreeMibTable                               | 不存在时调用，HeapFree。
 
 ## kernel32.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | DecodePointer                              | 不存在时，返回指针本身。
@@ -300,6 +310,7 @@
 | FindFirstFileEx(W/A)                       | Windows XP、Vista兼容 FIND_FIRST_EX_LARGE_FETCH、FindExInfoStandard参数。
 
 ## mfplat.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | MFCreateDXGIDeviceManager                  | 不存在时，返回E_NOTIMPL。
@@ -308,27 +319,32 @@
 | MFUnlockDXGIDeviceManager                  | 不存在时，返回E_NOTIMPL。
 
 ## netapi32.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | NetGetAadJoinInformation                   | 不存在时，始终认为没有加入 Azure AD 帐户 账号。
 | NetFreeAadJoinInformation                  | 不存在时，什么也不做。
 
 ## ntdll.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | NtCancelIoFileEx                           | 不存在时，调用 NtCancelIoFile。注意：将取消此文件的所有IO请求。
 
 ## ole32.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | CoGetApartmentType                         | 不存在时，调用IComThreadingInfo。
 
 ## pdh.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | PdhAddEnglishCounterW(A)                   | 不存在时，调用PdhAddCounterW(A)。
 
 ## powrprof.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | PowerDeterminePlatformRole                 | 不存在时，返回PlatformRoleDesktop。
@@ -337,6 +353,7 @@
 | PowerUnregisterSuspendResumeNotification   | 内部实现。
 
 ## psapi.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | EnumProcessModulesEx                       | 不存在时，调用EnumProcessModules。
@@ -344,6 +361,7 @@
 | *QueryWorkingSetEx                         | 不存在时，返回FALSE，并设置 LastError = ERROR_INVALID_FUNCTION。
 
 ## setupapi.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | SetupDiGetDevicePropertyW                  | 不存在时，调用SetupDiGetDeviceRegistryPropertyW。
@@ -354,6 +372,7 @@
 | SetupDiSetClassPropertyExW                 | 不存在时，调用SetupDiSetClassRegistryPropertyW。
 
 ## shcore.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | GetDpiForMonitor                           | 不存在时，调用GetDeviceCaps。
@@ -361,6 +380,7 @@
 | SetProcessDPIAware                         | 不存在时，直接返回 TRUE。
 
 ## shell32.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | SHGetKnownFolderPath                       | 不存在时，调用SHGetFolderPathW。
@@ -377,11 +397,13 @@
 | SHCreateItemFromParsingName                | 不存在时，调用SHParseDisplayName。
 
 ## shlwapi.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | StrToInt64ExW(A)                           | 不存在时，手工解析字符串。
 
 ## user32.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | IsWow64Process                             | 不存在时，返回TRUE，并设置 `*Wow64Process = FALSE`。
@@ -404,6 +426,7 @@
 | CloseTouchInputHandle                      | 不存在时，报告错误 ERROR_INVALID_HANDLE。
 
 ## userenv.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | CreateAppContainerProfile                  | 不存在时，返回E_NOTIMPL。
@@ -413,12 +436,14 @@
 | GetAppContainerRegistryLocation            | 不存在时，返回E_NOTIMPL。
 
 ## version.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | GetFileVersionInfoExW(A)                   | 不存在时，调用GetFileVersionInfoW(A)。
 | GetFileVersionInfoSizeExW(A)               | 不存在时，调用GetFileVersionInfoSizeW(A)。
 
 ## ws2_32.dll
+
 | 函数                                       | Fallback
 | ----                                       | -----------
 | InetPtonW(inet_pton)                       | 不存在时，类似于sscanf手工分析字符串。

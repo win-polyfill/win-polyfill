@@ -1,0 +1,8 @@
+Polyfill IsProcessorFeaturePresent
+
+
+Fixes LoadLibrary for __declspec(thread) on Windows XP and Windows 20000
+http://www.nynaeve.net/?p=189
+
+EncodePointer and DecodePointer only present on Windows XP SP2 and upper
+https://devblogs.microsoft.com/oldnewthing/20201113-00/?p=104447

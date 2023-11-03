@@ -1,69 +1,14 @@
 ﻿#pragma once
 
+#include "win-polyfill.h"
 
-#define WIN32_LEAN_AND_MEAN             // Exclude rarely-used stuff from Windows headers
+#pragma push_macro("InterlockedCompareExchange64")
+#undef InterlockedCompareExchange64
+#include "win-polyfill-get.h"
+#pragma pop_macro("InterlockedCompareExchange64")
 
-//YY-Thunks保证STDIO新老模式兼容
-#define _CRT_STDIO_ARBITRARY_WIDE_SPECIFIERS
-
-#include <Windows.h>
-#include <crtdbg.h>
-#include <intrin.h>
-
-
-
-#if defined(_M_IX86)
-    #define _LCRT_DEFINE_IAT_SYMBOL_MAKE_NAME(_FUNCTION, _SIZE) _CRT_CONCATENATE(_CRT_CONCATENATE(_imp__, _FUNCTION), _CRT_CONCATENATE(_, _SIZE))
-#elif defined(_M_AMD64)
-    #define _LCRT_DEFINE_IAT_SYMBOL_MAKE_NAME(_FUNCTION, _SIZE) _CRT_CONCATENATE(__imp_, _FUNCTION)
-#else
-     #error "不支持此体系"
-#endif
-
-#if defined(_M_IX86)
-//x86的符号存在@ 我们使用 identifier 特性解决
-#define _LCRT_DEFINE_IAT_SYMBOL(_FUNCTION, _SIZE)                                                                       \
-    __pragma(warning(suppress:4483))                                                                                    \
-    extern "C" __declspec(selectany) void const* const __identifier(_CRT_STRINGIZE_(_imp__ ## _FUNCTION ## @ ## _SIZE)) \
-        = reinterpret_cast<void const*>(_FUNCTION)
-#else
-#define _LCRT_DEFINE_IAT_SYMBOL(_FUNCTION, _SIZE)                                                          \
-    extern "C" __declspec(selectany) void const* const _LCRT_DEFINE_IAT_SYMBOL_MAKE_NAME(_FUNCTION, _SIZE) \
-        = reinterpret_cast<void const*>(_FUNCTION)
-#endif
-
-#ifdef __YY_Thunks_Unit_Test
-    #define __APPLY_UNIT_TEST_BOOL(_FUNCTION) bool _CRT_CONCATENATE(aways_null_try_get_, _FUNCTION) = false
-    #define __CHECK_UNIT_TEST_BOOL(_FUNCTION) if(_CRT_CONCATENATE(aways_null_try_get_, _FUNCTION)) return nullptr
-#else
-    #define __APPLY_UNIT_TEST_BOOL(_FUNCTION)
-    #define __CHECK_UNIT_TEST_BOOL(_FUNCTION)
-#endif
-
-
-#pragma section(".YYThu$AAA",    long, read, write) //鸭船模块缓存节点
-#pragma section(".YYThu$AAB",    long, read, write) //鸭船函数缓存节点
-#pragma section(".YYThu$AAC",    long, read, write) //保留，暂时用于边界结束
-
-#pragma section(".YYThr$AAA",    long, read)        //鸭船函数缓存初始化函数
-#pragma section(".YYThr$AAB",    long, read)        //鸭船函数反初始化函数
-#pragma section(".YYThr$AAC",    long, read)        //保留，暂时用于边界结束
-
-#pragma comment(linker, "/merge:.YYThu=.data")
-#pragma comment(linker, "/merge:.YYThr=.rdata")
-
-__declspec(allocate(".YYThu$AAA")) static void* __YY_THUNKS_MODULE_START[] = { nullptr };
-__declspec(allocate(".YYThu$AAB")) static void* __YY_THUNKS_FUN_START[] = { nullptr }; //鸭船指针缓存开始位置
-__declspec(allocate(".YYThu$AAC")) static void* __YY_THUNKS_FUN_END[] = { nullptr };   //鸭船指针缓存结束位置
-
-__declspec(allocate(".YYThr$AAA")) static void* __YY_THUNKS_INIT_FUN_START[] = { nullptr }; //鸭船函数初始化开始位置
-#define __YY_THUNKS_INIT_FUN_END __YY_THUNKS_UNINIT_FUN_START                               //鸭船函数初始化结束位置
-
-__declspec(allocate(".YYThr$AAB")) static void* __YY_THUNKS_UNINIT_FUN_START[] = { nullptr }; //鸭船函数反初始化函数开始
-__declspec(allocate(".YYThr$AAC")) static void* __YY_THUNKS_UNINIT_FUN_END[] = { nullptr };   //鸭船函数反初始化函数结束位置
-
-typedef void* (__cdecl* InitFunType)();
-typedef void (__cdecl* UninitFunType)();
+using namespace YY::Thunks::TryGet;
+using YY::Thunks::internal::WinPolyfillOnce;
 
 #pragma detect_mismatch("YY-Thunks-Mode", "ver:" _CRT_STRINGIZE(YY_Thunks_Support_Version))
 
@@ -102,30 +47,19 @@ BOOL WINAPI DllMain(HINSTANCE hInstance, DWORD dwReason, LPVOID lpReserved)
 */
 #if (YY_Thunks_Support_Version < NTDDI_WINXP)
 //Windows 2000不支持RtlDllShutdownInProgress，因此依然引入__YY_Thunks_Process_Terminating
+#ifdef WIN_POLYFILL_BUILD_SHARED
+static BOOL __YY_Thunks_Process_Terminating;
+#else
 EXTERN_C extern BOOL __YY_Thunks_Process_Terminating;
-#endif
-
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
-static HANDLE _GlobalKeyedEventHandle;
+#endif // WIN_POLYFILL_BUILD_SHARED
 #endif
 
 static uintptr_t __security_cookie_yy_thunks;
 
-#define _APPLY(_SYMBOL, _NAME, ...) \
-    constexpr const wchar_t* _CRT_CONCATENATE(module_name_, _SYMBOL) = _CRT_WIDE(_NAME);
-    _YY_APPLY_TO_LATE_BOUND_MODULES(_APPLY)
-#undef _APPLY
-
-#define _APPLY(_FUNCTION, _MODULES) \
-    using _CRT_CONCATENATE(_FUNCTION, _pft) = decltype(_FUNCTION)*;
-    _YY_APPLY_TO_LATE_BOUND_FUNCTIONS(_APPLY)
-#undef _APPLY
-
-
 // Implements wcsncpmp for ASCII chars only.
 // NOTE: We can't use wcsncmp in this context because we may end up trying to modify
 // locale data structs or even calling the same function in NLS code.
-static int _fastcall __wcsnicmp_ascii(const wchar_t* string1, const wchar_t* string2, size_t count) noexcept
+static int __fastcall __wcsnicmp_ascii(const wchar_t* string1, const wchar_t* string2, size_t count) noexcept
 {
     wchar_t f, l;
     int result = 0;
@@ -206,195 +140,112 @@ static __forceinline T __fastcall __crt_fast_encode_pointer(T const p) noexcept
     return reinterpret_cast<T>(__CRT_EncodePointer(p));
 }
 
-template <typename T, typename V>
-static __forceinline T* __fastcall __crt_interlocked_exchange_pointer(T* const volatile* target, V const value) noexcept
+static void __fastcall call_once_context(long *flag, void (*func)(void *context), void *context) noexcept
 {
-    // This is required to silence a spurious unreferenced formal parameter
-    // warning.
-    UNREFERENCED_PARAMETER(value);
-
-    return reinterpret_cast<T*>(_InterlockedExchangePointer((void**)target, (void*)value));
-}
-
-template <typename T, typename E, typename C>
-static __forceinline T* __fastcall __crt_interlocked_compare_exchange_pointer(T* const volatile* target, E const exchange, C const comparand) noexcept
-{
-    UNREFERENCED_PARAMETER(exchange);  // These are required to silence spurious
-    UNREFERENCED_PARAMETER(comparand); // unreferenced formal parameter warnings.
-
-    return reinterpret_cast<T*>(_InterlockedCompareExchangePointer(
-        (void**)target, (void*)exchange, (void*)comparand));
-}
-
-
-template <typename T>
-static __forceinline T* __fastcall __crt_interlocked_read_pointer(T* const volatile* target) noexcept
-{
-    return __crt_interlocked_compare_exchange_pointer(target, nullptr, nullptr);
-}
-
-
-
-static HMODULE __fastcall try_load_library_from_system_directory(wchar_t const* const name) noexcept
-{
-    return LoadLibraryExW(name, nullptr, LOAD_LIBRARY_SEARCH_SYSTEM32);
-}
-
-
-#define USING_UNSAFE_LOAD 0x00000001
-
-template<int Flags>
-static HMODULE __fastcall try_get_module(volatile HMODULE* pModule, const wchar_t* module_name) noexcept
-{
-    // First check to see if we've cached the module handle:
-    if (HMODULE const cached_handle = __crt_interlocked_read_pointer(pModule))
-    {
-        if (cached_handle == INVALID_HANDLE_VALUE)
+    WinPolyfillOnce onceCurrent = (WinPolyfillOnce)InterlockedCompareExchange(
+        (LONG volatile *)flag, (long)WinPolyfillOnce::OnceLoading, (long)WinPolyfillOnce::OnceInit);
+    switch (onceCurrent) {
+    case WinPolyfillOnce::OnceInit:
+        (func)(context);
+        InterlockedExchange((LONG volatile *)flag, (long)WinPolyfillOnce::OnceFinished);
+        break;
+    case WinPolyfillOnce::OnceLoading:
+        while (*flag != WinPolyfillOnce::OnceFinished)
         {
-            return nullptr;
+            // busy loop!
+            YieldProcessor();
         }
-
-        return cached_handle;
+        break;
+    case WinPolyfillOnce::OnceFinished:
+        // done
+        break;
+    default:
+        break;
     }
-
-    // If we haven't yet cached the module handle, try to load the library.  If
-    // this fails, cache the sentinel handle value INVALID_HANDLE_VALUE so that
-    // we don't attempt to load the module again:
-    HMODULE const new_handle = (Flags & USING_UNSAFE_LOAD) ? LoadLibraryW(module_name) : try_load_library_from_system_directory(module_name);
-    if (!new_handle)
-    {
-        if (HMODULE const cached_handle = __crt_interlocked_exchange_pointer(pModule, INVALID_HANDLE_VALUE))
-        {
-            _ASSERTE(cached_handle == INVALID_HANDLE_VALUE);
-        }
-
-        return nullptr;
-    }
-
-    // Swap the new handle into the cache.  If the cache no longer contained a
-    // null handle, then some other thread loaded the module and cached the
-    // handle while we were doing the same.  In that case, we free the handle
-    // once to maintain the reference count:
-    if (HMODULE const cached_handle = __crt_interlocked_exchange_pointer(pModule, new_handle))
-    {
-        _ASSERTE(cached_handle == new_handle);
-        FreeLibrary(new_handle);
-    }
-
-    return new_handle;
 }
+struct WinPolyfillModuleContext {
+    WinPolyfillModule *module_info;
+    const wchar_t *name;
+    WinPolyfillModuleId module_id;
+};
 
-#define _APPLY(_MODULE, _NAME, _FLAGS)                                                         \
-    static volatile HMODULE __fastcall _CRT_CONCATENATE(try_get_module_, _MODULE)() noexcept   \
-    {                                                                                          \
-        __declspec(allocate(".YYThr$AAA")) static void* _CRT_CONCATENATE(pInit_ ,_MODULE) =    \
-              reinterpret_cast<void*>(&_CRT_CONCATENATE(try_get_module_, _MODULE));            \
-        /*为了避免编译器将 YYThr$AAA 节优化掉*/                                                \
-        __foreinclude(_CRT_CONCATENATE(pInit_ ,_MODULE));                                      \
-        __declspec(allocate(".YYThu$AAA")) static volatile HMODULE hModule;                    \
-        return try_get_module<_FLAGS>(&hModule, _CRT_CONCATENATE(module_name_, _MODULE));      \
-    }
-_YY_APPLY_TO_LATE_BOUND_MODULES(_APPLY)
-#undef _APPLY
-
-typedef volatile HMODULE (__fastcall* try_get_module_fun)();
-
-static __forceinline void* __fastcall try_get_proc_address_from_first_available_module(
-    try_get_module_fun get_module,
-    char      const* const name
-) noexcept
+static long win_polyfill_init_once;
+static CRITICAL_SECTION win_polyfill_cs;
+static void win_polyfill_init_once_callback(void *context) noexcept
 {
-    HMODULE const module_handle = get_module();
-    if (!module_handle)
-    {
-        return nullptr;
-    }
-
-    return reinterpret_cast<void*>(GetProcAddress(module_handle, name));
+    __security_cookie_yy_thunks = __security_cookie;
+    InitializeCriticalSection(&win_polyfill_cs);
 }
 
-
-static __forceinline void* __cdecl invalid_function_sentinel() noexcept
+static void try_get_module_callback(void *context) noexcept
 {
-    return reinterpret_cast<void*>(static_cast<uintptr_t>(-1));
+    call_once_context(&win_polyfill_init_once, win_polyfill_init_once_callback, nullptr);
+    WinPolyfillModuleContext *module_context = (WinPolyfillModuleContext *)context;
+    HMODULE h;
+    EnterCriticalSection(&win_polyfill_cs);
+    if (module_context->module_id < YY::Thunks::internal::WinPolyfillModuleIdPreloadCount) {
+        h = GetModuleHandleW(module_context->name);
+    } else {
+        h = YY::Thunks::LoadLibraryExW(module_context->name, nullptr, LOAD_LIBRARY_SEARCH_SYSTEM32);
+    }
+    LeaveCriticalSection(&win_polyfill_cs);
+    module_context->module_info->h = __crt_fast_encode_pointer(h);
 }
 
+static WinPolyfillModule winpolyfill_module_list[WinPolyfillModuleId::WinPolyfillModuleIdCount];
 
-static void* __fastcall try_get_function(
-    void**      ppFunAddress,
-    char      const* const name,
-    try_get_module_fun get_module
-) noexcept
+static HMODULE __fastcall try_get_module_by_name(WinPolyfillModuleId module_id, const wchar_t *name) noexcept
 {
-    // First check to see if we've cached the function pointer:
+    WinPolyfillModule *module_info = winpolyfill_module_list + module_id;
+    if (module_info->once != WinPolyfillOnce::OnceFinished)
     {
-        void* const cached_fp = __crt_fast_decode_pointer(
-            __crt_interlocked_read_pointer(ppFunAddress));
-
-        if (cached_fp == invalid_function_sentinel())
-        {
-            return nullptr;
-        }
-
-        if (cached_fp)
-        {
-            return cached_fp;
-        }
+        WinPolyfillModuleContext context;
+        context.module_info = module_info;
+        context.name = name;
+        context.module_id = module_id;
+        call_once_context(&module_info->once, try_get_module_callback, &context);
     }
-
-    // If we haven't yet cached the function pointer, try to import it from any
-    // of the modules in which it might be defined.  If this fails, cache the
-    // sentinel pointer so that we don't attempt to load this function again:
-    void* const new_fp = try_get_proc_address_from_first_available_module(get_module, name);
-    if (!new_fp)
-    {
-        void* const cached_fp = __crt_fast_decode_pointer(
-            __crt_interlocked_exchange_pointer(
-                ppFunAddress,
-                __crt_fast_encode_pointer(invalid_function_sentinel())));
-
-        if (cached_fp)
-        {
-            _ASSERTE(cached_fp == invalid_function_sentinel());
-        }
-
-        return nullptr;
-    }
-
-    // Swap the newly obtained function pointer into the cache.  The cache may
-    // no longer contain an encoded null pointer if another thread obtained the
-    // function address while we were doing the same (both threads should have
-    // gotten the same function pointer):
-    {
-        void* const cached_fp = __crt_fast_decode_pointer(
-            __crt_interlocked_exchange_pointer(
-                ppFunAddress,
-                __crt_fast_encode_pointer(new_fp)));
-
-        if (cached_fp)
-        {
-            _ASSERTE(cached_fp == new_fp);
-        }
-    }
-
-    return new_fp;
+    return __crt_fast_decode_pointer(module_info->h);
 }
 
+struct WinPolyfillFunctionContext {
+    WinPolyfillFunction *function_info;
+    const char *name;
+    WinPolyfillModuleId module_id;
+};
 
-#define _APPLY(_FUNCTION, _MODULE)                                                                    \
-    __APPLY_UNIT_TEST_BOOL(_FUNCTION);                                                                \
-    static _CRT_CONCATENATE(_FUNCTION, _pft) __cdecl _CRT_CONCATENATE(try_get_, _FUNCTION)() noexcept \
-    {                                                                                                 \
-        __CHECK_UNIT_TEST_BOOL(_FUNCTION);                                                            \
-        __declspec(allocate(".YYThu$AAB")) static void* _CRT_CONCATENATE( pFun_ ,_FUNCTION);          \
-        return reinterpret_cast<_CRT_CONCATENATE(_FUNCTION, _pft)>(try_get_function(                  \
-            &_CRT_CONCATENATE(pFun_ ,_FUNCTION),                                                      \
-            _CRT_STRINGIZE(_FUNCTION),                                                                \
-            &_CRT_CONCATENATE(try_get_module_, _MODULE)));                                            \
+static void try_get_function_callback(void *context) noexcept
+{
+    WinPolyfillFunctionContext *function_context = (WinPolyfillFunctionContext *)context;
+    auto module_handle = try_get_module(function_context->module_id);
+    auto new_fp = reinterpret_cast<void*>(GetProcAddress(module_handle, function_context->name));
+    function_context->function_info->p = __crt_fast_encode_pointer(new_fp);
+}
+
+static void *__fastcall try_get_function(WinPolyfillFunction *function_info, const char *name, WinPolyfillModuleId module_id) noexcept
+{
+    if (function_info->once != WinPolyfillOnce::OnceFinished)
+    {
+        WinPolyfillFunctionContext context;
+        context.function_info = function_info;
+        context.name = name;
+        context.module_id = module_id;
+        call_once_context(&function_info->once, try_get_function_callback, &context);
     }
-    _YY_APPLY_TO_LATE_BOUND_FUNCTIONS(_APPLY)
-#undef _APPLY
+    return __crt_fast_decode_pointer(function_info->p);
+}
 
+#include "ThreadRunner.h"
+
+//导入实际的实现
+#define YY_Thunks_Implemented
+#define __DEFINE_THUNK(_MODULE, _SIZE, _RETURN_, _CONVENTION_, _FUNCTION, ...)                     \
+    EXTERN_C _RETURN_ _CONVENTION_ wp_##_FUNCTION(__VA_ARGS__)
+
+#include "win-polyfill-list.h"
+
+#undef __DEFINE_THUNK
+#undef YY_Thunks_Implemented
 
 static bool g_bUninitialize/* = false*/;
 
@@ -407,7 +258,7 @@ static void __cdecl __YY_uninitialize_winapi_thunks()
     g_bUninitialize = true;
 
     //当DLL被强行卸载时，我们什么都不做。
-    if (auto pRtlDllShutdownInProgress = (decltype(RtlDllShutdownInProgress)*)GetProcAddress(try_get_module_ntdll(), "RtlDllShutdownInProgress"))
+    if (auto pRtlDllShutdownInProgress = try_get_RtlDllShutdownInProgress())
     {
         if(pRtlDllShutdownInProgress())
             return;
@@ -421,66 +272,61 @@ static void __cdecl __YY_uninitialize_winapi_thunks()
         }
     }
 
-    auto pModule = (HMODULE*)__YY_THUNKS_MODULE_START;
-    auto pModuleEnd = (HMODULE*)__YY_THUNKS_FUN_START;
-
-    for (; pModule != pModuleEnd; ++pModule)
+    //预加载的dll不需要卸载，目前是 ntdll 和 kernel32
+    for (int module_id = YY::Thunks::internal::WinPolyfillModuleIdPreloadCount;
+         module_id < WinPolyfillModuleId::WinPolyfillModuleIdCount;
+         module_id += 1)
     {
-        auto& module = *pModule;
-        if (module)
-        {
-            if (module != INVALID_HANDLE_VALUE)
-            {
-                FreeLibrary(module);
+        auto module_info = winpolyfill_module_list + module_id;
+        if (module_info->once == WinPolyfillOnce::OnceFinished) {
+            auto h = __crt_fast_decode_pointer(module_info->h);
+            if (h != nullptr) {
+                FreeLibrary(h);
+                module_info->h = nullptr;
             }
-
-            module = nullptr;
+            module_info->once = WinPolyfillOnce::OnceInit;
         }
     }
 #if (YY_Thunks_Support_Version < NTDDI_WIN6)
-    CloseHandle(_GlobalKeyedEventHandle);
+    auto keyed_handle = YY::Thunks::internal::GetGlobalKeyedEventHandle(true);
+    if (keyed_handle != nullptr) {
+        CloseHandle(keyed_handle);
+    }
 #endif
 
     //执行本库中所有的反初始化工作。
-    for (auto p = (UninitFunType*)__YY_THUNKS_UNINIT_FUN_START; p != (UninitFunType*)__YY_THUNKS_UNINIT_FUN_END; ++p)
-    {
-        if (auto pUninitFun = *p)
-            pUninitFun();
-    }
+    YY::Thunks::Fallback::UninitPageVirtualProtect();
 }
 
 
 static int __cdecl _YY_initialize_winapi_thunks()
 {
-    __security_cookie_yy_thunks = __security_cookie;
-
-    void* const encoded_nullptr = __crt_fast_encode_pointer((void*)nullptr);
-
-    for (auto p = __YY_THUNKS_FUN_START; p != __YY_THUNKS_FUN_END; ++p)
-    {
-        *p = encoded_nullptr;
-    }
+    call_once_context(&win_polyfill_init_once, win_polyfill_init_once_callback, nullptr);
 
     /*
      * https://github.com/Chuyu-Team/YY-Thunks/issues/7
-     * 为了避免 try_get 系列函数竞争 DLL load锁，因此我们将所有被Thunk的API都预先加载完毕。
+     * 为了避免 try_get 系列函数竞争 DLL load锁，因此我们将所有dll加载完毕
      */
-    for (auto p = (InitFunType*)__YY_THUNKS_INIT_FUN_START; p != (InitFunType*)__YY_THUNKS_INIT_FUN_END; ++p)
+    for (WinPolyfillModuleId module_id = (WinPolyfillModuleId)0;
+        module_id < YY::Thunks::internal::WinPolyfillModuleIdPreloadCount;
+        module_id = (WinPolyfillModuleId)(module_id + 1))
     {
-        if (auto pInitFun = *p)
-            pInitFun();
+        try_get_module(module_id);
     }
 
     return 0;
 }
 
+// https://learn.microsoft.com/en-us/cpp/c-runtime-library/crt-library-features?view=msvc-170
+#ifndef _DLL
 // 外部weak符号，用于判断当前是否静态
 EXTERN_C extern void* __acrt_atexit_table;
+#endif
 
 static int __cdecl __YY_initialize_winapi_thunks()
 {
     _YY_initialize_winapi_thunks();
-
+#ifndef _DLL
     // 如果 == null，那么有2种情况：
     //   1. 非UCRT，比如2008，VC6，这时，调用 atexit是安全的，因为atexit在 XIA初始化完成了。
     //   2. UCRT 并且处于MD状态。这时 atexit初始化 会提与 XIA，这时也是没有问题的。
@@ -492,6 +338,7 @@ static int __cdecl __YY_initialize_winapi_thunks()
     {
         atexit(__YY_uninitialize_winapi_thunks);
     }
+#endif
 
     return 0;
 }
@@ -508,3 +355,18 @@ typedef void(__cdecl* _PVFV)(void);
 
 __declspec(allocate(".CRT$XID")) static _PIFV ___Initialization = __YY_initialize_winapi_thunks;
 __declspec(allocate(".CRT$XTY")) static _PVFV ___Uninitialization = __YY_uninitialize_winapi_thunks;
+
+BOOL WINAPI DllMain(HINSTANCE hInstance, DWORD dwReason, LPVOID lpReserved)
+{
+    switch(dwReason)
+    {
+    case DLL_PROCESS_DETACH:
+#if (YY_Thunks_Support_Version < NTDDI_WINXP)
+        //我们可以通过 lpReserved != NULL 判断，当前是否处于强行卸载模式。
+        __YY_Thunks_Process_Terminating = lpReserved != NULL;
+#endif
+        __YY_uninitialize_winapi_thunks();
+        break;
+    }
+    return TRUE;
+}
