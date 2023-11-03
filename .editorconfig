@@ -5,12 +5,16 @@
 # 数据文件比如 XML，json统一缩进 2，因为外部规范往往如此
 
 [*]
-end_of_line = crlf
+end_of_line = lf
 insert_final_newline = true
 charset = utf-8-bom
 indent_style = space
 indent_size = 4
 
 [*.{vcxproj,xml}]
+indent_style = space
+indent_size = 2
+
+[CMakeLists.txt]
 indent_style = space
 indent_size = 2
