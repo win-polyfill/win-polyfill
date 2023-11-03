@@ -2,10 +2,6 @@
 #include <powrprof.h>
 #endif
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN8)
-#pragma comment(lib, "PowrProf.lib")
-#endif
-
 namespace YY
 {
     namespace Thunks

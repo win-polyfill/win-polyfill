@@ -9,9 +9,6 @@ namespace YY
         namespace internal
         {
 #if (YY_Thunks_Support_Version < NTDDI_WIN6)
-
-            #pragma comment(lib, "Setupapi.lib")
-
             static int __fastcall DevicePropertyKeyToPropertyType(CONST DEVPROPKEY* PropertyKey, _Out_ DEVPROPTYPE* pPropertyType)
             {
                 static constexpr const GUID PropertyId = { 0xa45c254e, 0xdf1c, 0x4efd, { 0x80, 0x20, 0x67, 0xd1, 0x46, 0xa8, 0x50, 0xe0 } };

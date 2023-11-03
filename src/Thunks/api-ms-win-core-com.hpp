@@ -1,9 +1,5 @@
 ﻿#include <combaseapi.h>
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN7)
-#pragma comment(lib, "ole32.lib")
-#endif
-
 namespace YY
 {
     namespace Thunks

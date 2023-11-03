@@ -1,9 +1,4 @@
 ﻿
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
-#include <pdh.h>
-#pragma comment(lib, "Pdh.lib")
-#endif
-
 namespace YY
 {
     namespace Thunks

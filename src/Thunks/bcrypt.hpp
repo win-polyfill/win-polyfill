@@ -1,10 +1,6 @@
 ﻿#include <bcrypt.h>
 #include <wincrypt.h>
 
-#if (YY_Thunks_Support_Version < NTDDI_WIN6)
-#pragma comment(lib, "Advapi32.lib")
-#endif
-
 namespace YY
 {
     namespace Thunks

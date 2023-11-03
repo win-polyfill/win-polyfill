@@ -4,7 +4,6 @@
 #include <ws2tcpip.h>
 #include <iphlpapi.h>
 
-#pragma comment(lib, "Iphlpapi.lib")
 #endif
 
 namespace YY
