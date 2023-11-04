@@ -787,7 +787,7 @@ namespace YY
                     return FALSE;
                 }
 
-                YY_ProcessPolicyInfo _Info = { _eMitigationPolicy };
+                YY_ProcessPolicyInfo _Info = { (DWORD)_eMitigationPolicy };
                 NTSTATUS _Status = _pfnNtQueryInformationProcess(_hProcess, YY_ProcessPolicy, &_Info, sizeof(_Info), nullptr);
                 if (_Status >= 0)
                 {
@@ -884,7 +884,7 @@ namespace YY
                     return FALSE;
                 }
 
-                YY_ProcessPolicyInfo _Info = { _eMitigationPolicy, *(DWORD*)_pBuffer };
+                YY_ProcessPolicyInfo _Info = { (DWORD)_eMitigationPolicy, *(DWORD*)_pBuffer };
                 _Status = _pfnNtSetInformationProcess(NtCurrentProcess(), YY_ProcessPolicy, &_Info, sizeof(_Info));
             }
 
