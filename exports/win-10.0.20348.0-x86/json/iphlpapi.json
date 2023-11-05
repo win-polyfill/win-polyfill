@@ -1,0 +1,7221 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_AddIPAddress@20"
+    },
+    {
+      "name": "_AllocateAndGetInterfaceInfoFromStack@20"
+    },
+    {
+      "name": "_AllocateAndGetIpAddrTableFromStack@16"
+    },
+    {
+      "name": "_CancelIPChangeNotify@4"
+    },
+    {
+      "name": "_CancelMibChangeNotify2@4"
+    },
+    {
+      "name": "_CaptureInterfaceHardwareCrossTimestamp@8"
+    },
+    {
+      "name": "_CloseCompartment@4"
+    },
+    {
+      "name": "_CloseGetIPPhysicalInterfaceForDestination@4"
+    },
+    {
+      "name": "_ConvertCompartmentGuidToId@8"
+    },
+    {
+      "name": "_ConvertCompartmentIdToGuid@8"
+    },
+    {
+      "name": "_ConvertGuidToStringA@12"
+    },
+    {
+      "name": "_ConvertGuidToStringW@12"
+    },
+    {
+      "name": "_ConvertInterfaceAliasToLuid@8"
+    },
+    {
+      "name": "_ConvertInterfaceGuidToLuid@8"
+    },
+    {
+      "name": "_ConvertInterfaceIndexToLuid@8"
+    },
+    {
+      "name": "_ConvertInterfaceLuidToAlias@12"
+    },
+    {
+      "name": "_ConvertInterfaceLuidToGuid@8"
+    },
+    {
+      "name": "_ConvertInterfaceLuidToIndex@8"
+    },
+    {
+      "name": "_ConvertInterfaceLuidToNameA@12"
+    },
+    {
+      "name": "_ConvertInterfaceLuidToNameW@12"
+    },
+    {
+      "name": "_ConvertInterfaceNameToLuidA@8"
+    },
+    {
+      "name": "_ConvertInterfaceNameToLuidW@8"
+    },
+    {
+      "name": "_ConvertInterfacePhysicalAddressToLuid@12"
+    },
+    {
+      "name": "_ConvertIpv4MaskToLength@8"
+    },
+    {
+      "name": "_ConvertLengthToIpv4Mask@8"
+    },
+    {
+      "name": "_ConvertRemoteInterfaceAliasToLuid@12"
+    },
+    {
+      "name": "_ConvertRemoteInterfaceGuidToLuid@12"
+    },
+    {
+      "name": "_ConvertRemoteInterfaceIndexToLuid@12"
+    },
+    {
+      "name": "_ConvertRemoteInterfaceLuidToAlias@16"
+    },
+    {
+      "name": "_ConvertRemoteInterfaceLuidToGuid@12"
+    },
+    {
+      "name": "_ConvertRemoteInterfaceLuidToIndex@12"
+    },
+    {
+      "name": "_ConvertStringToGuidA@8"
+    },
+    {
+      "name": "_ConvertStringToGuidW@8"
+    },
+    {
+      "name": "_ConvertStringToInterfacePhysicalAddress@8"
+    },
+    {
+      "name": "_CreateAnycastIpAddressEntry@4"
+    },
+    {
+      "name": "_CreateCompartment@4"
+    },
+    {
+      "name": "_CreateIpForwardEntry2@4"
+    },
+    {
+      "name": "_CreateIpForwardEntry@4"
+    },
+    {
+      "name": "_CreateIpNetEntry2@4"
+    },
+    {
+      "name": "_CreateIpNetEntry@4"
+    },
+    {
+      "name": "_CreatePersistentTcpPortReservation@12"
+    },
+    {
+      "name": "_CreatePersistentUdpPortReservation@12"
+    },
+    {
+      "name": "_CreateProxyArpEntry@12"
+    },
+    {
+      "name": "_CreateSortedAddressPairs@28"
+    },
+    {
+      "name": "_CreateUnicastIpAddressEntry@4"
+    },
+    {
+      "name": "_DeleteAnycastIpAddressEntry@4"
+    },
+    {
+      "name": "_DeleteCompartment@4"
+    },
+    {
+      "name": "_DeleteIPAddress@4"
+    },
+    {
+      "name": "_DeleteIpForwardEntry2@4"
+    },
+    {
+      "name": "_DeleteIpForwardEntry@4"
+    },
+    {
+      "name": "_DeleteIpNetEntry2@4"
+    },
+    {
+      "name": "_DeleteIpNetEntry@4"
+    },
+    {
+      "name": "_DeletePersistentTcpPortReservation@8"
+    },
+    {
+      "name": "_DeletePersistentUdpPortReservation@8"
+    },
+    {
+      "name": "_DeleteProxyArpEntry@12"
+    },
+    {
+      "name": "_DeleteUnicastIpAddressEntry@4"
+    },
+    {
+      "name": "_DisableMediaSense@8"
+    },
+    {
+      "name": "_EnableRouter@8"
+    },
+    {
+      "name": "_FlushIpNetTable2@8"
+    },
+    {
+      "name": "_FlushIpNetTable@4"
+    },
+    {
+      "name": "_FlushIpPathTable@4"
+    },
+    {
+      "name": "_FreeDnsSettings@4"
+    },
+    {
+      "name": "_FreeInterfaceDnsSettings@4"
+    },
+    {
+      "name": "_FreeMibTable@4"
+    },
+    {
+      "name": "_GetAdapterIndex@8"
+    },
+    {
+      "name": "_GetAdapterOrderMap@0"
+    },
+    {
+      "name": "_GetAdaptersAddresses@20"
+    },
+    {
+      "name": "_GetAdaptersInfo@8"
+    },
+    {
+      "name": "_GetAnycastIpAddressEntry@4"
+    },
+    {
+      "name": "_GetAnycastIpAddressTable@8"
+    },
+    {
+      "name": "_GetBestInterface@8"
+    },
+    {
+      "name": "_GetBestInterfaceEx@8"
+    },
+    {
+      "name": "_GetBestRoute2@28"
+    },
+    {
+      "name": "_GetBestRoute@12"
+    },
+    {
+      "name": "_GetCurrentThreadCompartmentId@0"
+    },
+    {
+      "name": "_GetCurrentThreadCompartmentScope@8"
+    },
+    {
+      "name": "_GetDefaultCompartmentId@0"
+    },
+    {
+      "name": "_GetDnsSettings@4"
+    },
+    {
+      "name": "_GetExtendedTcpTable@24"
+    },
+    {
+      "name": "_GetExtendedUdpTable@24"
+    },
+    {
+      "name": "_GetFriendlyIfIndex@4"
+    },
+    {
+      "name": "_GetIcmpStatistics@4"
+    },
+    {
+      "name": "_GetIcmpStatisticsEx@8"
+    },
+    {
+      "name": "_GetIfEntry2@4"
+    },
+    {
+      "name": "_GetIfEntry2Ex@8"
+    },
+    {
+      "name": "_GetIfEntry@4"
+    },
+    {
+      "name": "_GetIfStackTable@4"
+    },
+    {
+      "name": "_GetIfTable2@4"
+    },
+    {
+      "name": "_GetIfTable2Ex@8"
+    },
+    {
+      "name": "_GetIfTable@12"
+    },
+    {
+      "name": "_GetInterfaceActiveTimestampCapabilities@8"
+    },
+    {
+      "name": "_GetInterfaceCompartmentId@4"
+    },
+    {
+      "name": "_GetInterfaceDnsSettings@20"
+    },
+    {
+      "name": "_GetInterfaceInfo@8"
+    },
+    {
+      "name": "_GetInterfaceSupportedTimestampCapabilities@8"
+    },
+    {
+      "name": "_GetInvertedIfStackTable@4"
+    },
+    {
+      "name": "_GetIpAddrTable@12"
+    },
+    {
+      "name": "_GetIpErrorString@12"
+    },
+    {
+      "name": "_GetIpForwardEntry2@4"
+    },
+    {
+      "name": "_GetIpForwardTable2@8"
+    },
+    {
+      "name": "_GetIpForwardTable@12"
+    },
+    {
+      "name": "_GetIpInterfaceEntry@4"
+    },
+    {
+      "name": "_GetIpInterfaceTable@8"
+    },
+    {
+      "name": "_GetIpNetEntry2@4"
+    },
+    {
+      "name": "_GetIpNetTable2@8"
+    },
+    {
+      "name": "_GetIpNetTable@12"
+    },
+    {
+      "name": "_GetIpNetworkConnectionBandwidthEstimates@12"
+    },
+    {
+      "name": "_GetIpPathEntry@4"
+    },
+    {
+      "name": "_GetIpPathTable@8"
+    },
+    {
+      "name": "_GetIpStatistics@4"
+    },
+    {
+      "name": "_GetIpStatisticsEx@8"
+    },
+    {
+      "name": "_GetJobCompartmentId@4"
+    },
+    {
+      "name": "_GetMulticastIpAddressEntry@4"
+    },
+    {
+      "name": "_GetMulticastIpAddressTable@8"
+    },
+    {
+      "name": "_GetNetworkConnectivityHint@4"
+    },
+    {
+      "name": "_GetNetworkConnectivityHintForInterface@8"
+    },
+    {
+      "name": "_GetNetworkInformation@20"
+    },
+    {
+      "name": "_GetNetworkParams@8"
+    },
+    {
+      "name": "_GetNumberOfInterfaces@4"
+    },
+    {
+      "name": "_GetOwnerModuleFromPidAndInfo@20"
+    },
+    {
+      "name": "_GetOwnerModuleFromTcp6Entry@16"
+    },
+    {
+      "name": "_GetOwnerModuleFromTcpEntry@16"
+    },
+    {
+      "name": "_GetOwnerModuleFromUdp6Entry@16"
+    },
+    {
+      "name": "_GetOwnerModuleFromUdpEntry@16"
+    },
+    {
+      "name": "_GetPerAdapterInfo@12"
+    },
+    {
+      "name": "_GetPerTcp6ConnectionEStats@44"
+    },
+    {
+      "name": "_GetPerTcp6ConnectionStats@32"
+    },
+    {
+      "name": "_GetPerTcpConnectionEStats@44"
+    },
+    {
+      "name": "_GetPerTcpConnectionStats@32"
+    },
+    {
+      "name": "_GetRTTAndHopCount@16"
+    },
+    {
+      "name": "_GetSessionCompartmentId@4"
+    },
+    {
+      "name": "_GetTcp6Table2@12"
+    },
+    {
+      "name": "_GetTcp6Table@12"
+    },
+    {
+      "name": "_GetTcpStatistics@4"
+    },
+    {
+      "name": "_GetTcpStatisticsEx2@8"
+    },
+    {
+      "name": "_GetTcpStatisticsEx@8"
+    },
+    {
+      "name": "_GetTcpTable2@12"
+    },
+    {
+      "name": "_GetTcpTable@12"
+    },
+    {
+      "name": "_GetTeredoPort@4"
+    },
+    {
+      "name": "_GetUdp6Table@12"
+    },
+    {
+      "name": "_GetUdpStatistics@4"
+    },
+    {
+      "name": "_GetUdpStatisticsEx2@8"
+    },
+    {
+      "name": "_GetUdpStatisticsEx@8"
+    },
+    {
+      "name": "_GetUdpTable@12"
+    },
+    {
+      "name": "_GetUniDirectionalAdapterInfo@8"
+    },
+    {
+      "name": "_GetUnicastIpAddressEntry@4"
+    },
+    {
+      "name": "_GetUnicastIpAddressTable@8"
+    },
+    {
+      "name": "_GetWPAOACSupportLevel@0"
+    },
+    {
+      "name": "_Icmp6CreateFile@0"
+    },
+    {
+      "name": "_Icmp6ParseReplies@8"
+    },
+    {
+      "name": "_Icmp6SendEcho2@48"
+    },
+    {
+      "name": "_IcmpCloseHandle@4"
+    },
+    {
+      "name": "_IcmpCreateFile@0"
+    },
+    {
+      "name": "_IcmpParseReplies@8"
+    },
+    {
+      "name": "_IcmpSendEcho2@44"
+    },
+    {
+      "name": "_IcmpSendEcho2Ex@48"
+    },
+    {
+      "name": "_IcmpSendEcho@32"
+    },
+    {
+      "name": "_InitializeCompartmentEntry@4"
+    },
+    {
+      "name": "_InitializeIpForwardEntry@4"
+    },
+    {
+      "name": "_InitializeIpInterfaceEntry@4"
+    },
+    {
+      "name": "_InitializeUnicastIpAddressEntry@4"
+    },
+    {
+      "name": "_InternalCleanupPersistentStore@8"
+    },
+    {
+      "name": "_InternalCreateAnycastIpAddressEntry@8"
+    },
+    {
+      "name": "_InternalCreateIpForwardEntry2@8"
+    },
+    {
+      "name": "_InternalCreateIpForwardEntry@4"
+    },
+    {
+      "name": "_InternalCreateIpNetEntry2@8"
+    },
+    {
+      "name": "_InternalCreateIpNetEntry@4"
+    },
+    {
+      "name": "_InternalCreateOrRefIpForwardEntry2@8"
+    },
+    {
+      "name": "_InternalCreateUnicastIpAddressEntry@8"
+    },
+    {
+      "name": "_InternalDeleteAnycastIpAddressEntry@8"
+    },
+    {
+      "name": "_InternalDeleteIpForwardEntry2@8"
+    },
+    {
+      "name": "_InternalDeleteIpForwardEntry@4"
+    },
+    {
+      "name": "_InternalDeleteIpNetEntry2@8"
+    },
+    {
+      "name": "_InternalDeleteIpNetEntry@4"
+    },
+    {
+      "name": "_InternalDeleteUnicastIpAddressEntry@8"
+    },
+    {
+      "name": "_InternalFindInterfaceByAddress@8"
+    },
+    {
+      "name": "_InternalGetAnycastIpAddressEntry@8"
+    },
+    {
+      "name": "_InternalGetAnycastIpAddressTable@12"
+    },
+    {
+      "name": "_InternalGetBoundTcp6EndpointTable@12"
+    },
+    {
+      "name": "_InternalGetBoundTcpEndpointTable@12"
+    },
+    {
+      "name": "_InternalGetForwardIpTable2@12"
+    },
+    {
+      "name": "_InternalGetIPPhysicalInterfaceForDestination@28"
+    },
+    {
+      "name": "_InternalGetIfEntry2@8"
+    },
+    {
+      "name": "_InternalGetIfTable2@8"
+    },
+    {
+      "name": "_InternalGetIfTable@12"
+    },
+    {
+      "name": "_InternalGetIpAddrTable@12"
+    },
+    {
+      "name": "_InternalGetIpForwardEntry2@8"
+    },
+    {
+      "name": "_InternalGetIpForwardTable@12"
+    },
+    {
+      "name": "_InternalGetIpInterfaceEntry@8"
+    },
+    {
+      "name": "_InternalGetIpInterfaceTable@12"
+    },
+    {
+      "name": "_InternalGetIpNetEntry2@8"
+    },
+    {
+      "name": "_InternalGetIpNetTable2@12"
+    },
+    {
+      "name": "_InternalGetIpNetTable@12"
+    },
+    {
+      "name": "_InternalGetMulticastIpAddressEntry@8"
+    },
+    {
+      "name": "_InternalGetMulticastIpAddressTable@12"
+    },
+    {
+      "name": "_InternalGetRtcSlotInformation@12"
+    },
+    {
+      "name": "_InternalGetTcp6Table2@12"
+    },
+    {
+      "name": "_InternalGetTcp6TableWithOwnerModule@12"
+    },
+    {
+      "name": "_InternalGetTcp6TableWithOwnerPid@12"
+    },
+    {
+      "name": "_InternalGetTcpDynamicPortRange@8"
+    },
+    {
+      "name": "_InternalGetTcpTable2@12"
+    },
+    {
+      "name": "_InternalGetTcpTable@12"
+    },
+    {
+      "name": "_InternalGetTcpTableEx@12"
+    },
+    {
+      "name": "_InternalGetTcpTableWithOwnerModule@12"
+    },
+    {
+      "name": "_InternalGetTcpTableWithOwnerPid@12"
+    },
+    {
+      "name": "_InternalGetTunnelPhysicalAdapter@8"
+    },
+    {
+      "name": "_InternalGetUdp6Table2@12"
+    },
+    {
+      "name": "_InternalGetUdp6TableWithOwnerModule@12"
+    },
+    {
+      "name": "_InternalGetUdp6TableWithOwnerPid@12"
+    },
+    {
+      "name": "_InternalGetUdpDynamicPortRange@8"
+    },
+    {
+      "name": "_InternalGetUdpTable2@12"
+    },
+    {
+      "name": "_InternalGetUdpTable@12"
+    },
+    {
+      "name": "_InternalGetUdpTableEx@12"
+    },
+    {
+      "name": "_InternalGetUdpTableWithOwnerModule@12"
+    },
+    {
+      "name": "_InternalGetUdpTableWithOwnerPid@12"
+    },
+    {
+      "name": "_InternalGetUnicastIpAddressEntry@8"
+    },
+    {
+      "name": "_InternalGetUnicastIpAddressTable@12"
+    },
+    {
+      "name": "_InternalIcmpCreateFileEx@4"
+    },
+    {
+      "name": "_InternalSetIfEntry@4"
+    },
+    {
+      "name": "_InternalSetIpForwardEntry2@8"
+    },
+    {
+      "name": "_InternalSetIpForwardEntry@4"
+    },
+    {
+      "name": "_InternalSetIpInterfaceEntry@8"
+    },
+    {
+      "name": "_InternalSetIpNetEntry2@8"
+    },
+    {
+      "name": "_InternalSetIpNetEntry@4"
+    },
+    {
+      "name": "_InternalSetIpStats@4"
+    },
+    {
+      "name": "_InternalSetTcpDynamicPortRange@8"
+    },
+    {
+      "name": "_InternalSetTcpEntry@4"
+    },
+    {
+      "name": "_InternalSetTeredoPort@4"
+    },
+    {
+      "name": "_InternalSetUdpDynamicPortRange@8"
+    },
+    {
+      "name": "_InternalSetUnicastIpAddressEntry@8"
+    },
+    {
+      "name": "_IpReleaseAddress@4"
+    },
+    {
+      "name": "_IpRenewAddress@4"
+    },
+    {
+      "name": "_LookupPersistentTcpPortReservation@12"
+    },
+    {
+      "name": "_LookupPersistentUdpPortReservation@12"
+    },
+    {
+      "name": "_NTPTimeToNTFileTime@12"
+    },
+    {
+      "name": "_NTTimeToNTPTime@8"
+    },
+    {
+      "name": "_NhGetGuidFromInterfaceName@16"
+    },
+    {
+      "name": "_NhGetInterfaceDescriptionFromGuid@20"
+    },
+    {
+      "name": "_NhGetInterfaceNameFromDeviceGuid@20"
+    },
+    {
+      "name": "_NhGetInterfaceNameFromGuid@20"
+    },
+    {
+      "name": "_NhpAllocateAndGetInterfaceInfoFromStack@20"
+    },
+    {
+      "name": "_NotifyAddrChange@8"
+    },
+    {
+      "name": "_NotifyCompartmentChange@16"
+    },
+    {
+      "name": "_NotifyIpInterfaceChange@20"
+    },
+    {
+      "name": "_NotifyNetworkConnectivityHintChange@16"
+    },
+    {
+      "name": "_NotifyRouteChange2@20"
+    },
+    {
+      "name": "_NotifyRouteChange@8"
+    },
+    {
+      "name": "_NotifyStableUnicastIpAddressTable@20"
+    },
+    {
+      "name": "_NotifyTeredoPortChange@16"
+    },
+    {
+      "name": "_NotifyUnicastIpAddressChange@20"
+    },
+    {
+      "name": "_OpenCompartment@8"
+    },
+    {
+      "name": "_ParseNetworkString@20"
+    },
+    {
+      "name": "_PfAddFiltersToInterface@24"
+    },
+    {
+      "name": "_PfAddGlobalFilterToInterface@8"
+    },
+    {
+      "name": "_PfBindInterfaceToIPAddress@12"
+    },
+    {
+      "name": "_PfBindInterfaceToIndex@16"
+    },
+    {
+      "name": "_PfCreateInterface@24"
+    },
+    {
+      "name": "_PfDeleteInterface@4"
+    },
+    {
+      "name": "_PfDeleteLog@0"
+    },
+    {
+      "name": "_PfGetInterfaceStatistics@16"
+    },
+    {
+      "name": "_PfMakeLog@4"
+    },
+    {
+      "name": "_PfRebindFilters@8"
+    },
+    {
+      "name": "_PfRemoveFilterHandles@12"
+    },
+    {
+      "name": "_PfRemoveFiltersFromInterface@20"
+    },
+    {
+      "name": "_PfRemoveGlobalFilterFromInterface@8"
+    },
+    {
+      "name": "_PfSetLogBuffer@28"
+    },
+    {
+      "name": "_PfTestPacket@20"
+    },
+    {
+      "name": "_PfUnBindInterface@4"
+    },
+    {
+      "name": "_RegisterInterfaceTimestampConfigChange@12"
+    },
+    {
+      "name": "_ResolveIpNetEntry2@8"
+    },
+    {
+      "name": "_ResolveNeighbor@12"
+    },
+    {
+      "name": "_RestoreMediaSense@8"
+    },
+    {
+      "name": "_SendARP@16"
+    },
+    {
+      "name": "_SetAdapterIpAddress@20"
+    },
+    {
+      "name": "_SetCurrentThreadCompartmentId@4"
+    },
+    {
+      "name": "_SetCurrentThreadCompartmentScope@4"
+    },
+    {
+      "name": "_SetDnsSettings@4"
+    },
+    {
+      "name": "_SetIfEntry@4"
+    },
+    {
+      "name": "_SetInterfaceDnsSettings@20"
+    },
+    {
+      "name": "_SetIpForwardEntry2@4"
+    },
+    {
+      "name": "_SetIpForwardEntry@4"
+    },
+    {
+      "name": "_SetIpInterfaceEntry@4"
+    },
+    {
+      "name": "_SetIpNetEntry2@4"
+    },
+    {
+      "name": "_SetIpNetEntry@4"
+    },
+    {
+      "name": "_SetIpStatistics@4"
+    },
+    {
+      "name": "_SetIpStatisticsEx@8"
+    },
+    {
+      "name": "_SetIpTTL@4"
+    },
+    {
+      "name": "_SetJobCompartmentId@8"
+    },
+    {
+      "name": "_SetNetworkInformation@12"
+    },
+    {
+      "name": "_SetPerTcp6ConnectionEStats@24"
+    },
+    {
+      "name": "_SetPerTcp6ConnectionStats@20"
+    },
+    {
+      "name": "_SetPerTcpConnectionEStats@24"
+    },
+    {
+      "name": "_SetPerTcpConnectionStats@20"
+    },
+    {
+      "name": "_SetSessionCompartmentId@8"
+    },
+    {
+      "name": "_SetTcpEntry@4"
+    },
+    {
+      "name": "_SetUnicastIpAddressEntry@4"
+    },
+    {
+      "name": "_UnenableRouter@8"
+    },
+    {
+      "name": "_UnregisterInterfaceTimestampConfigChange@4"
+    },
+    {
+      "name": "_if_indextoname@8"
+    },
+    {
+      "name": "_if_nametoindex@4"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 41266,
+      "name": "__IMPORT_DESCRIPTOR_IPHLPAPI"
+    },
+    {
+      "offset": 41824,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 42136,
+      "name": "IPHLPAPI_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 42476,
+      "name": "_AddIPAddress@20"
+    },
+    {
+      "offset": 42476,
+      "name": "__imp__AddIPAddress@20"
+    },
+    {
+      "offset": 42586,
+      "name": "_AllocateAndGetInterfaceInfoFromStack@20"
+    },
+    {
+      "offset": 42586,
+      "name": "__imp__AllocateAndGetInterfaceInfoFromStack@20"
+    },
+    {
+      "offset": 42852,
+      "name": "_CancelIPChangeNotify@4"
+    },
+    {
+      "offset": 42852,
+      "name": "__imp__CancelIPChangeNotify@4"
+    },
+    {
+      "offset": 43090,
+      "name": "_CaptureInterfaceHardwareCrossTimestamp@8"
+    },
+    {
+      "offset": 43090,
+      "name": "__imp__CaptureInterfaceHardwareCrossTimestamp@8"
+    },
+    {
+      "offset": 45344,
+      "name": "_ConvertIpv4MaskToLength@8"
+    },
+    {
+      "offset": 45344,
+      "name": "__imp__ConvertIpv4MaskToLength@8"
+    },
+    {
+      "offset": 45464,
+      "name": "_ConvertLengthToIpv4Mask@8"
+    },
+    {
+      "offset": 45464,
+      "name": "__imp__ConvertLengthToIpv4Mask@8"
+    },
+    {
+      "offset": 43726,
+      "name": "_ConvertGuidToStringA@12"
+    },
+    {
+      "offset": 43726,
+      "name": "__imp__ConvertGuidToStringA@12"
+    },
+    {
+      "offset": 43844,
+      "name": "_ConvertGuidToStringW@12"
+    },
+    {
+      "offset": 43844,
+      "name": "__imp__ConvertGuidToStringW@12"
+    },
+    {
+      "offset": 46372,
+      "name": "_ConvertStringToGuidA@8"
+    },
+    {
+      "offset": 46372,
+      "name": "__imp__ConvertStringToGuidA@8"
+    },
+    {
+      "offset": 46490,
+      "name": "_ConvertStringToGuidW@8"
+    },
+    {
+      "offset": 46490,
+      "name": "__imp__ConvertStringToGuidW@8"
+    },
+    {
+      "offset": 47100,
+      "name": "_CreateIpForwardEntry@4"
+    },
+    {
+      "offset": 47100,
+      "name": "__imp__CreateIpForwardEntry@4"
+    },
+    {
+      "offset": 47332,
+      "name": "_CreateIpNetEntry@4"
+    },
+    {
+      "offset": 47332,
+      "name": "__imp__CreateIpNetEntry@4"
+    },
+    {
+      "offset": 47446,
+      "name": "_CreatePersistentTcpPortReservation@12"
+    },
+    {
+      "offset": 47446,
+      "name": "__imp__CreatePersistentTcpPortReservation@12"
+    },
+    {
+      "offset": 47578,
+      "name": "_CreatePersistentUdpPortReservation@12"
+    },
+    {
+      "offset": 47578,
+      "name": "__imp__CreatePersistentUdpPortReservation@12"
+    },
+    {
+      "offset": 47710,
+      "name": "_CreateProxyArpEntry@12"
+    },
+    {
+      "offset": 47710,
+      "name": "__imp__CreateProxyArpEntry@12"
+    },
+    {
+      "offset": 48312,
+      "name": "_DeleteIPAddress@4"
+    },
+    {
+      "offset": 48312,
+      "name": "__imp__DeleteIPAddress@4"
+    },
+    {
+      "offset": 48542,
+      "name": "_DeleteIpForwardEntry@4"
+    },
+    {
+      "offset": 48542,
+      "name": "__imp__DeleteIpForwardEntry@4"
+    },
+    {
+      "offset": 48774,
+      "name": "_DeleteIpNetEntry@4"
+    },
+    {
+      "offset": 48774,
+      "name": "__imp__DeleteIpNetEntry@4"
+    },
+    {
+      "offset": 48888,
+      "name": "_DeletePersistentTcpPortReservation@8"
+    },
+    {
+      "offset": 48888,
+      "name": "__imp__DeletePersistentTcpPortReservation@8"
+    },
+    {
+      "offset": 49020,
+      "name": "_DeletePersistentUdpPortReservation@8"
+    },
+    {
+      "offset": 49020,
+      "name": "__imp__DeletePersistentUdpPortReservation@8"
+    },
+    {
+      "offset": 49152,
+      "name": "_DeleteProxyArpEntry@12"
+    },
+    {
+      "offset": 49152,
+      "name": "__imp__DeleteProxyArpEntry@12"
+    },
+    {
+      "offset": 49394,
+      "name": "_DisableMediaSense@8"
+    },
+    {
+      "offset": 49394,
+      "name": "__imp__DisableMediaSense@8"
+    },
+    {
+      "offset": 49508,
+      "name": "_EnableRouter@8"
+    },
+    {
+      "offset": 49508,
+      "name": "__imp__EnableRouter@8"
+    },
+    {
+      "offset": 49732,
+      "name": "_FlushIpNetTable@4"
+    },
+    {
+      "offset": 49732,
+      "name": "__imp__FlushIpNetTable@4"
+    },
+    {
+      "offset": 50302,
+      "name": "_GetAdapterIndex@8"
+    },
+    {
+      "offset": 50302,
+      "name": "__imp__GetAdapterIndex@8"
+    },
+    {
+      "offset": 50414,
+      "name": "_GetAdapterOrderMap@0"
+    },
+    {
+      "offset": 50414,
+      "name": "__imp__GetAdapterOrderMap@0"
+    },
+    {
+      "offset": 50530,
+      "name": "_GetAdaptersAddresses@20"
+    },
+    {
+      "offset": 50530,
+      "name": "__imp__GetAdaptersAddresses@20"
+    },
+    {
+      "offset": 50648,
+      "name": "_GetAdaptersInfo@8"
+    },
+    {
+      "offset": 50648,
+      "name": "__imp__GetAdaptersInfo@8"
+    },
+    {
+      "offset": 51346,
+      "name": "_GetBestRoute@12"
+    },
+    {
+      "offset": 51346,
+      "name": "__imp__GetBestRoute@12"
+    },
+    {
+      "offset": 51456,
+      "name": "_GetCurrentThreadCompartmentId@0"
+    },
+    {
+      "offset": 51456,
+      "name": "__imp__GetCurrentThreadCompartmentId@0"
+    },
+    {
+      "offset": 51582,
+      "name": "_GetCurrentThreadCompartmentScope@8"
+    },
+    {
+      "offset": 51582,
+      "name": "__imp__GetCurrentThreadCompartmentScope@8"
+    },
+    {
+      "offset": 51712,
+      "name": "_GetDefaultCompartmentId@0"
+    },
+    {
+      "offset": 51712,
+      "name": "__imp__GetDefaultCompartmentId@0"
+    },
+    {
+      "offset": 51944,
+      "name": "_GetExtendedTcpTable@24"
+    },
+    {
+      "offset": 51944,
+      "name": "__imp__GetExtendedTcpTable@24"
+    },
+    {
+      "offset": 52062,
+      "name": "_GetExtendedUdpTable@24"
+    },
+    {
+      "offset": 52062,
+      "name": "__imp__GetExtendedUdpTable@24"
+    },
+    {
+      "offset": 52180,
+      "name": "_GetFriendlyIfIndex@4"
+    },
+    {
+      "offset": 52180,
+      "name": "__imp__GetFriendlyIfIndex@4"
+    },
+    {
+      "offset": 52296,
+      "name": "_GetIcmpStatistics@4"
+    },
+    {
+      "offset": 52296,
+      "name": "__imp__GetIcmpStatistics@4"
+    },
+    {
+      "offset": 52410,
+      "name": "_GetIcmpStatisticsEx@8"
+    },
+    {
+      "offset": 52410,
+      "name": "__imp__GetIcmpStatisticsEx@8"
+    },
+    {
+      "offset": 52744,
+      "name": "_GetIfEntry@4"
+    },
+    {
+      "offset": 52744,
+      "name": "__imp__GetIfEntry@4"
+    },
+    {
+      "offset": 53182,
+      "name": "_GetIfTable@12"
+    },
+    {
+      "offset": 53182,
+      "name": "__imp__GetIfTable@12"
+    },
+    {
+      "offset": 53290,
+      "name": "_GetInterfaceActiveTimestampCapabilities@8"
+    },
+    {
+      "offset": 53290,
+      "name": "__imp__GetInterfaceActiveTimestampCapabilities@8"
+    },
+    {
+      "offset": 53670,
+      "name": "_GetInterfaceInfo@8"
+    },
+    {
+      "offset": 53670,
+      "name": "__imp__GetInterfaceInfo@8"
+    },
+    {
+      "offset": 53784,
+      "name": "_GetInterfaceSupportedTimestampCapabilities@8"
+    },
+    {
+      "offset": 53784,
+      "name": "__imp__GetInterfaceSupportedTimestampCapabilities@8"
+    },
+    {
+      "offset": 54044,
+      "name": "_GetIpAddrTable@12"
+    },
+    {
+      "offset": 54044,
+      "name": "__imp__GetIpAddrTable@12"
+    },
+    {
+      "offset": 54156,
+      "name": "_GetIpErrorString@12"
+    },
+    {
+      "offset": 54156,
+      "name": "__imp__GetIpErrorString@12"
+    },
+    {
+      "offset": 54502,
+      "name": "_GetIpForwardTable@12"
+    },
+    {
+      "offset": 54502,
+      "name": "__imp__GetIpForwardTable@12"
+    },
+    {
+      "offset": 55074,
+      "name": "_GetIpNetTable@12"
+    },
+    {
+      "offset": 55074,
+      "name": "__imp__GetIpNetTable@12"
+    },
+    {
+      "offset": 55548,
+      "name": "_GetIpStatistics@4"
+    },
+    {
+      "offset": 55548,
+      "name": "__imp__GetIpStatistics@4"
+    },
+    {
+      "offset": 55660,
+      "name": "_GetIpStatisticsEx@8"
+    },
+    {
+      "offset": 55660,
+      "name": "__imp__GetIpStatisticsEx@8"
+    },
+    {
+      "offset": 55774,
+      "name": "_GetJobCompartmentId@4"
+    },
+    {
+      "offset": 55774,
+      "name": "__imp__GetJobCompartmentId@4"
+    },
+    {
+      "offset": 56398,
+      "name": "_GetNetworkInformation@20"
+    },
+    {
+      "offset": 56398,
+      "name": "__imp__GetNetworkInformation@20"
+    },
+    {
+      "offset": 56518,
+      "name": "_GetNetworkParams@8"
+    },
+    {
+      "offset": 56518,
+      "name": "__imp__GetNetworkParams@8"
+    },
+    {
+      "offset": 56632,
+      "name": "_GetNumberOfInterfaces@4"
+    },
+    {
+      "offset": 56632,
+      "name": "__imp__GetNumberOfInterfaces@4"
+    },
+    {
+      "offset": 56750,
+      "name": "_GetOwnerModuleFromPidAndInfo@20"
+    },
+    {
+      "offset": 56750,
+      "name": "__imp__GetOwnerModuleFromPidAndInfo@20"
+    },
+    {
+      "offset": 57002,
+      "name": "_GetOwnerModuleFromTcpEntry@16"
+    },
+    {
+      "offset": 57002,
+      "name": "__imp__GetOwnerModuleFromTcpEntry@16"
+    },
+    {
+      "offset": 56876,
+      "name": "_GetOwnerModuleFromTcp6Entry@16"
+    },
+    {
+      "offset": 56876,
+      "name": "__imp__GetOwnerModuleFromTcp6Entry@16"
+    },
+    {
+      "offset": 57252,
+      "name": "_GetOwnerModuleFromUdpEntry@16"
+    },
+    {
+      "offset": 57252,
+      "name": "__imp__GetOwnerModuleFromUdpEntry@16"
+    },
+    {
+      "offset": 57126,
+      "name": "_GetOwnerModuleFromUdp6Entry@16"
+    },
+    {
+      "offset": 57126,
+      "name": "__imp__GetOwnerModuleFromUdp6Entry@16"
+    },
+    {
+      "offset": 57376,
+      "name": "_GetPerAdapterInfo@12"
+    },
+    {
+      "offset": 57376,
+      "name": "__imp__GetPerAdapterInfo@12"
+    },
+    {
+      "offset": 57492,
+      "name": "_GetPerTcp6ConnectionEStats@44"
+    },
+    {
+      "offset": 57492,
+      "name": "__imp__GetPerTcp6ConnectionEStats@44"
+    },
+    {
+      "offset": 57616,
+      "name": "_GetPerTcp6ConnectionStats@32"
+    },
+    {
+      "offset": 57616,
+      "name": "__imp__GetPerTcp6ConnectionStats@32"
+    },
+    {
+      "offset": 57740,
+      "name": "_GetPerTcpConnectionEStats@44"
+    },
+    {
+      "offset": 57740,
+      "name": "__imp__GetPerTcpConnectionEStats@44"
+    },
+    {
+      "offset": 57864,
+      "name": "_GetPerTcpConnectionStats@32"
+    },
+    {
+      "offset": 57864,
+      "name": "__imp__GetPerTcpConnectionStats@32"
+    },
+    {
+      "offset": 57986,
+      "name": "_GetRTTAndHopCount@16"
+    },
+    {
+      "offset": 57986,
+      "name": "__imp__GetRTTAndHopCount@16"
+    },
+    {
+      "offset": 58102,
+      "name": "_GetSessionCompartmentId@4"
+    },
+    {
+      "offset": 58102,
+      "name": "__imp__GetSessionCompartmentId@4"
+    },
+    {
+      "offset": 58444,
+      "name": "_GetTcpStatistics@4"
+    },
+    {
+      "offset": 58444,
+      "name": "__imp__GetTcpStatistics@4"
+    },
+    {
+      "offset": 58674,
+      "name": "_GetTcpStatisticsEx@8"
+    },
+    {
+      "offset": 58674,
+      "name": "__imp__GetTcpStatisticsEx@8"
+    },
+    {
+      "offset": 58558,
+      "name": "_GetTcpStatisticsEx2@8"
+    },
+    {
+      "offset": 58558,
+      "name": "__imp__GetTcpStatisticsEx2@8"
+    },
+    {
+      "offset": 58900,
+      "name": "_GetTcpTable@12"
+    },
+    {
+      "offset": 58900,
+      "name": "__imp__GetTcpTable@12"
+    },
+    {
+      "offset": 58790,
+      "name": "_GetTcpTable2@12"
+    },
+    {
+      "offset": 58790,
+      "name": "__imp__GetTcpTable2@12"
+    },
+    {
+      "offset": 58334,
+      "name": "_GetTcp6Table@12"
+    },
+    {
+      "offset": 58334,
+      "name": "__imp__GetTcp6Table@12"
+    },
+    {
+      "offset": 58222,
+      "name": "_GetTcp6Table2@12"
+    },
+    {
+      "offset": 58222,
+      "name": "__imp__GetTcp6Table2@12"
+    },
+    {
+      "offset": 59230,
+      "name": "_GetUdpStatistics@4"
+    },
+    {
+      "offset": 59230,
+      "name": "__imp__GetUdpStatistics@4"
+    },
+    {
+      "offset": 59460,
+      "name": "_GetUdpStatisticsEx@8"
+    },
+    {
+      "offset": 59460,
+      "name": "__imp__GetUdpStatisticsEx@8"
+    },
+    {
+      "offset": 59344,
+      "name": "_GetUdpStatisticsEx2@8"
+    },
+    {
+      "offset": 59344,
+      "name": "__imp__GetUdpStatisticsEx2@8"
+    },
+    {
+      "offset": 59576,
+      "name": "_GetUdpTable@12"
+    },
+    {
+      "offset": 59576,
+      "name": "__imp__GetUdpTable@12"
+    },
+    {
+      "offset": 59120,
+      "name": "_GetUdp6Table@12"
+    },
+    {
+      "offset": 59120,
+      "name": "__imp__GetUdp6Table@12"
+    },
+    {
+      "offset": 59686,
+      "name": "_GetUniDirectionalAdapterInfo@8"
+    },
+    {
+      "offset": 59686,
+      "name": "__imp__GetUniDirectionalAdapterInfo@8"
+    },
+    {
+      "offset": 60174,
+      "name": "_Icmp6CreateFile@0"
+    },
+    {
+      "offset": 60174,
+      "name": "__imp__Icmp6CreateFile@0"
+    },
+    {
+      "offset": 60286,
+      "name": "_Icmp6ParseReplies@8"
+    },
+    {
+      "offset": 60286,
+      "name": "__imp__Icmp6ParseReplies@8"
+    },
+    {
+      "offset": 60400,
+      "name": "_Icmp6SendEcho2@48"
+    },
+    {
+      "offset": 60400,
+      "name": "__imp__Icmp6SendEcho2@48"
+    },
+    {
+      "offset": 60512,
+      "name": "_IcmpCloseHandle@4"
+    },
+    {
+      "offset": 60512,
+      "name": "__imp__IcmpCloseHandle@4"
+    },
+    {
+      "offset": 60624,
+      "name": "_IcmpCreateFile@0"
+    },
+    {
+      "offset": 60624,
+      "name": "__imp__IcmpCreateFile@0"
+    },
+    {
+      "offset": 60736,
+      "name": "_IcmpParseReplies@8"
+    },
+    {
+      "offset": 60736,
+      "name": "__imp__IcmpParseReplies@8"
+    },
+    {
+      "offset": 61076,
+      "name": "_IcmpSendEcho@32"
+    },
+    {
+      "offset": 61076,
+      "name": "__imp__IcmpSendEcho@32"
+    },
+    {
+      "offset": 60850,
+      "name": "_IcmpSendEcho2@44"
+    },
+    {
+      "offset": 60850,
+      "name": "__imp__IcmpSendEcho2@44"
+    },
+    {
+      "offset": 60962,
+      "name": "_IcmpSendEcho2Ex@48"
+    },
+    {
+      "offset": 60962,
+      "name": "__imp__IcmpSendEcho2Ex@48"
+    },
+    {
+      "offset": 70330,
+      "name": "_IpReleaseAddress@4"
+    },
+    {
+      "offset": 70330,
+      "name": "__imp__IpReleaseAddress@4"
+    },
+    {
+      "offset": 70444,
+      "name": "_IpRenewAddress@4"
+    },
+    {
+      "offset": 70444,
+      "name": "__imp__IpRenewAddress@4"
+    },
+    {
+      "offset": 70556,
+      "name": "_LookupPersistentTcpPortReservation@12"
+    },
+    {
+      "offset": 70556,
+      "name": "__imp__LookupPersistentTcpPortReservation@12"
+    },
+    {
+      "offset": 70688,
+      "name": "_LookupPersistentUdpPortReservation@12"
+    },
+    {
+      "offset": 70688,
+      "name": "__imp__LookupPersistentUdpPortReservation@12"
+    },
+    {
+      "offset": 71560,
+      "name": "_NhpAllocateAndGetInterfaceInfoFromStack@20"
+    },
+    {
+      "offset": 71560,
+      "name": "__imp__NhpAllocateAndGetInterfaceInfoFromStack@20"
+    },
+    {
+      "offset": 71050,
+      "name": "_NhGetGuidFromInterfaceName@16"
+    },
+    {
+      "offset": 71050,
+      "name": "__imp__NhGetGuidFromInterfaceName@16"
+    },
+    {
+      "offset": 71174,
+      "name": "_NhGetInterfaceDescriptionFromGuid@20"
+    },
+    {
+      "offset": 71174,
+      "name": "__imp__NhGetInterfaceDescriptionFromGuid@20"
+    },
+    {
+      "offset": 71306,
+      "name": "_NhGetInterfaceNameFromDeviceGuid@20"
+    },
+    {
+      "offset": 71306,
+      "name": "__imp__NhGetInterfaceNameFromDeviceGuid@20"
+    },
+    {
+      "offset": 71436,
+      "name": "_NhGetInterfaceNameFromGuid@20"
+    },
+    {
+      "offset": 71436,
+      "name": "__imp__NhGetInterfaceNameFromGuid@20"
+    },
+    {
+      "offset": 71698,
+      "name": "_NotifyAddrChange@8"
+    },
+    {
+      "offset": 71698,
+      "name": "__imp__NotifyAddrChange@8"
+    },
+    {
+      "offset": 72306,
+      "name": "_NotifyRouteChange@8"
+    },
+    {
+      "offset": 72306,
+      "name": "__imp__NotifyRouteChange@8"
+    },
+    {
+      "offset": 72910,
+      "name": "_ParseNetworkString@20"
+    },
+    {
+      "offset": 72910,
+      "name": "__imp__ParseNetworkString@20"
+    },
+    {
+      "offset": 74908,
+      "name": "_RegisterInterfaceTimestampConfigChange@12"
+    },
+    {
+      "offset": 74908,
+      "name": "__imp__RegisterInterfaceTimestampConfigChange@12"
+    },
+    {
+      "offset": 75274,
+      "name": "_RestoreMediaSense@8"
+    },
+    {
+      "offset": 75274,
+      "name": "__imp__RestoreMediaSense@8"
+    },
+    {
+      "offset": 75160,
+      "name": "_ResolveNeighbor@12"
+    },
+    {
+      "offset": 75160,
+      "name": "__imp__ResolveNeighbor@12"
+    },
+    {
+      "offset": 75388,
+      "name": "_SendARP@16"
+    },
+    {
+      "offset": 75388,
+      "name": "__imp__SendARP@16"
+    },
+    {
+      "offset": 75612,
+      "name": "_SetCurrentThreadCompartmentId@4"
+    },
+    {
+      "offset": 75612,
+      "name": "__imp__SetCurrentThreadCompartmentId@4"
+    },
+    {
+      "offset": 75738,
+      "name": "_SetCurrentThreadCompartmentScope@4"
+    },
+    {
+      "offset": 75738,
+      "name": "__imp__SetCurrentThreadCompartmentScope@4"
+    },
+    {
+      "offset": 75980,
+      "name": "_SetIfEntry@4"
+    },
+    {
+      "offset": 75980,
+      "name": "__imp__SetIfEntry@4"
+    },
+    {
+      "offset": 76326,
+      "name": "_SetIpForwardEntry@4"
+    },
+    {
+      "offset": 76326,
+      "name": "__imp__SetIpForwardEntry@4"
+    },
+    {
+      "offset": 76668,
+      "name": "_SetIpNetEntry@4"
+    },
+    {
+      "offset": 76668,
+      "name": "__imp__SetIpNetEntry@4"
+    },
+    {
+      "offset": 76778,
+      "name": "_SetIpStatistics@4"
+    },
+    {
+      "offset": 76778,
+      "name": "__imp__SetIpStatistics@4"
+    },
+    {
+      "offset": 76890,
+      "name": "_SetIpStatisticsEx@8"
+    },
+    {
+      "offset": 76890,
+      "name": "__imp__SetIpStatisticsEx@8"
+    },
+    {
+      "offset": 77004,
+      "name": "_SetIpTTL@4"
+    },
+    {
+      "offset": 77004,
+      "name": "__imp__SetIpTTL@4"
+    },
+    {
+      "offset": 77110,
+      "name": "_SetJobCompartmentId@8"
+    },
+    {
+      "offset": 77110,
+      "name": "__imp__SetJobCompartmentId@8"
+    },
+    {
+      "offset": 77226,
+      "name": "_SetNetworkInformation@12"
+    },
+    {
+      "offset": 77226,
+      "name": "__imp__SetNetworkInformation@12"
+    },
+    {
+      "offset": 77346,
+      "name": "_SetPerTcp6ConnectionEStats@24"
+    },
+    {
+      "offset": 77346,
+      "name": "__imp__SetPerTcp6ConnectionEStats@24"
+    },
+    {
+      "offset": 77470,
+      "name": "_SetPerTcp6ConnectionStats@20"
+    },
+    {
+      "offset": 77470,
+      "name": "__imp__SetPerTcp6ConnectionStats@20"
+    },
+    {
+      "offset": 77594,
+      "name": "_SetPerTcpConnectionEStats@24"
+    },
+    {
+      "offset": 77594,
+      "name": "__imp__SetPerTcpConnectionEStats@24"
+    },
+    {
+      "offset": 77718,
+      "name": "_SetPerTcpConnectionStats@20"
+    },
+    {
+      "offset": 77718,
+      "name": "__imp__SetPerTcpConnectionStats@20"
+    },
+    {
+      "offset": 77840,
+      "name": "_SetSessionCompartmentId@8"
+    },
+    {
+      "offset": 77840,
+      "name": "__imp__SetSessionCompartmentId@8"
+    },
+    {
+      "offset": 77960,
+      "name": "_SetTcpEntry@4"
+    },
+    {
+      "offset": 77960,
+      "name": "__imp__SetTcpEntry@4"
+    },
+    {
+      "offset": 78190,
+      "name": "_UnenableRouter@8"
+    },
+    {
+      "offset": 78190,
+      "name": "__imp__UnenableRouter@8"
+    },
+    {
+      "offset": 78302,
+      "name": "_UnregisterInterfaceTimestampConfigChange@4"
+    },
+    {
+      "offset": 78302,
+      "name": "__imp__UnregisterInterfaceTimestampConfigChange@4"
+    },
+    {
+      "offset": 42720,
+      "name": "_AllocateAndGetIpAddrTableFromStack@16"
+    },
+    {
+      "offset": 42720,
+      "name": "__imp__AllocateAndGetIpAddrTableFromStack@16"
+    },
+    {
+      "offset": 45584,
+      "name": "_ConvertRemoteInterfaceAliasToLuid@12"
+    },
+    {
+      "offset": 45584,
+      "name": "__imp__ConvertRemoteInterfaceAliasToLuid@12"
+    },
+    {
+      "offset": 45716,
+      "name": "_ConvertRemoteInterfaceGuidToLuid@12"
+    },
+    {
+      "offset": 45716,
+      "name": "__imp__ConvertRemoteInterfaceGuidToLuid@12"
+    },
+    {
+      "offset": 45846,
+      "name": "_ConvertRemoteInterfaceIndexToLuid@12"
+    },
+    {
+      "offset": 45846,
+      "name": "__imp__ConvertRemoteInterfaceIndexToLuid@12"
+    },
+    {
+      "offset": 45978,
+      "name": "_ConvertRemoteInterfaceLuidToAlias@16"
+    },
+    {
+      "offset": 45978,
+      "name": "__imp__ConvertRemoteInterfaceLuidToAlias@16"
+    },
+    {
+      "offset": 46110,
+      "name": "_ConvertRemoteInterfaceLuidToGuid@12"
+    },
+    {
+      "offset": 46110,
+      "name": "__imp__ConvertRemoteInterfaceLuidToGuid@12"
+    },
+    {
+      "offset": 46240,
+      "name": "_ConvertRemoteInterfaceLuidToIndex@12"
+    },
+    {
+      "offset": 46240,
+      "name": "__imp__ConvertRemoteInterfaceLuidToIndex@12"
+    },
+    {
+      "offset": 62070,
+      "name": "_InternalCreateIpForwardEntry@4"
+    },
+    {
+      "offset": 62070,
+      "name": "__imp__InternalCreateIpForwardEntry@4"
+    },
+    {
+      "offset": 62318,
+      "name": "_InternalCreateIpNetEntry@4"
+    },
+    {
+      "offset": 62318,
+      "name": "__imp__InternalCreateIpNetEntry@4"
+    },
+    {
+      "offset": 62962,
+      "name": "_InternalDeleteIpForwardEntry@4"
+    },
+    {
+      "offset": 62962,
+      "name": "__imp__InternalDeleteIpForwardEntry@4"
+    },
+    {
+      "offset": 63210,
+      "name": "_InternalDeleteIpNetEntry@4"
+    },
+    {
+      "offset": 63210,
+      "name": "__imp__InternalDeleteIpNetEntry@4"
+    },
+    {
+      "offset": 64612,
+      "name": "_InternalGetIfTable@12"
+    },
+    {
+      "offset": 64612,
+      "name": "__imp__InternalGetIfTable@12"
+    },
+    {
+      "offset": 64728,
+      "name": "_InternalGetIpAddrTable@12"
+    },
+    {
+      "offset": 64728,
+      "name": "__imp__InternalGetIpAddrTable@12"
+    },
+    {
+      "offset": 64972,
+      "name": "_InternalGetIpForwardTable@12"
+    },
+    {
+      "offset": 64972,
+      "name": "__imp__InternalGetIpForwardTable@12"
+    },
+    {
+      "offset": 65586,
+      "name": "_InternalGetIpNetTable@12"
+    },
+    {
+      "offset": 65586,
+      "name": "__imp__InternalGetIpNetTable@12"
+    },
+    {
+      "offset": 66728,
+      "name": "_InternalGetTcpTable@12"
+    },
+    {
+      "offset": 66728,
+      "name": "__imp__InternalGetTcpTable@12"
+    },
+    {
+      "offset": 66610,
+      "name": "_InternalGetTcpTable2@12"
+    },
+    {
+      "offset": 66610,
+      "name": "__imp__InternalGetTcpTable2@12"
+    },
+    {
+      "offset": 66846,
+      "name": "_InternalGetTcpTableEx@12"
+    },
+    {
+      "offset": 66846,
+      "name": "__imp__InternalGetTcpTableEx@12"
+    },
+    {
+      "offset": 67098,
+      "name": "_InternalGetTcpTableWithOwnerPid@12"
+    },
+    {
+      "offset": 67098,
+      "name": "__imp__InternalGetTcpTableWithOwnerPid@12"
+    },
+    {
+      "offset": 66966,
+      "name": "_InternalGetTcpTableWithOwnerModule@12"
+    },
+    {
+      "offset": 66966,
+      "name": "__imp__InternalGetTcpTableWithOwnerModule@12"
+    },
+    {
+      "offset": 66098,
+      "name": "_InternalGetTcp6Table2@12"
+    },
+    {
+      "offset": 66098,
+      "name": "__imp__InternalGetTcp6Table2@12"
+    },
+    {
+      "offset": 66352,
+      "name": "_InternalGetTcp6TableWithOwnerPid@12"
+    },
+    {
+      "offset": 66352,
+      "name": "__imp__InternalGetTcp6TableWithOwnerPid@12"
+    },
+    {
+      "offset": 66218,
+      "name": "_InternalGetTcp6TableWithOwnerModule@12"
+    },
+    {
+      "offset": 66218,
+      "name": "__imp__InternalGetTcp6TableWithOwnerModule@12"
+    },
+    {
+      "offset": 67228,
+      "name": "_InternalGetTunnelPhysicalAdapter@8"
+    },
+    {
+      "offset": 67228,
+      "name": "__imp__InternalGetTunnelPhysicalAdapter@8"
+    },
+    {
+      "offset": 67612,
+      "name": "_InternalGetUdp6TableWithOwnerPid@12"
+    },
+    {
+      "offset": 67612,
+      "name": "__imp__InternalGetUdp6TableWithOwnerPid@12"
+    },
+    {
+      "offset": 67478,
+      "name": "_InternalGetUdp6TableWithOwnerModule@12"
+    },
+    {
+      "offset": 67478,
+      "name": "__imp__InternalGetUdp6TableWithOwnerModule@12"
+    },
+    {
+      "offset": 67358,
+      "name": "_InternalGetUdp6Table2@12"
+    },
+    {
+      "offset": 67358,
+      "name": "__imp__InternalGetUdp6Table2@12"
+    },
+    {
+      "offset": 67988,
+      "name": "_InternalGetUdpTable@12"
+    },
+    {
+      "offset": 67988,
+      "name": "__imp__InternalGetUdpTable@12"
+    },
+    {
+      "offset": 68106,
+      "name": "_InternalGetUdpTableEx@12"
+    },
+    {
+      "offset": 68106,
+      "name": "__imp__InternalGetUdpTableEx@12"
+    },
+    {
+      "offset": 68358,
+      "name": "_InternalGetUdpTableWithOwnerPid@12"
+    },
+    {
+      "offset": 68358,
+      "name": "__imp__InternalGetUdpTableWithOwnerPid@12"
+    },
+    {
+      "offset": 68226,
+      "name": "_InternalGetUdpTableWithOwnerModule@12"
+    },
+    {
+      "offset": 68226,
+      "name": "__imp__InternalGetUdpTableWithOwnerModule@12"
+    },
+    {
+      "offset": 67870,
+      "name": "_InternalGetUdpTable2@12"
+    },
+    {
+      "offset": 67870,
+      "name": "__imp__InternalGetUdpTable2@12"
+    },
+    {
+      "offset": 68870,
+      "name": "_InternalSetIfEntry@4"
+    },
+    {
+      "offset": 68870,
+      "name": "__imp__InternalSetIfEntry@4"
+    },
+    {
+      "offset": 69110,
+      "name": "_InternalSetIpForwardEntry@4"
+    },
+    {
+      "offset": 69110,
+      "name": "__imp__InternalSetIpForwardEntry@4"
+    },
+    {
+      "offset": 69476,
+      "name": "_InternalSetIpNetEntry@4"
+    },
+    {
+      "offset": 69476,
+      "name": "__imp__InternalSetIpNetEntry@4"
+    },
+    {
+      "offset": 69594,
+      "name": "_InternalSetIpStats@4"
+    },
+    {
+      "offset": 69594,
+      "name": "__imp__InternalSetIpStats@4"
+    },
+    {
+      "offset": 69838,
+      "name": "_InternalSetTcpEntry@4"
+    },
+    {
+      "offset": 69838,
+      "name": "__imp__InternalSetTcpEntry@4"
+    },
+    {
+      "offset": 70820,
+      "name": "_NTPTimeToNTFileTime@12"
+    },
+    {
+      "offset": 70820,
+      "name": "__imp__NTPTimeToNTFileTime@12"
+    },
+    {
+      "offset": 70938,
+      "name": "_NTTimeToNTPTime@8"
+    },
+    {
+      "offset": 70938,
+      "name": "__imp__NTTimeToNTPTime@8"
+    },
+    {
+      "offset": 75494,
+      "name": "_SetAdapterIpAddress@20"
+    },
+    {
+      "offset": 75494,
+      "name": "__imp__SetAdapterIpAddress@20"
+    },
+    {
+      "offset": 64238,
+      "name": "_InternalGetIPPhysicalInterfaceForDestination@28"
+    },
+    {
+      "offset": 64238,
+      "name": "__imp__InternalGetIPPhysicalInterfaceForDestination@28"
+    },
+    {
+      "offset": 43340,
+      "name": "_CloseGetIPPhysicalInterfaceForDestination@4"
+    },
+    {
+      "offset": 43340,
+      "name": "__imp__CloseGetIPPhysicalInterfaceForDestination@4"
+    },
+    {
+      "offset": 65970,
+      "name": "_InternalGetRtcSlotInformation@12"
+    },
+    {
+      "offset": 65970,
+      "name": "__imp__InternalGetRtcSlotInformation@12"
+    },
+    {
+      "offset": 68748,
+      "name": "_InternalIcmpCreateFileEx@4"
+    },
+    {
+      "offset": 68748,
+      "name": "__imp__InternalIcmpCreateFileEx@4"
+    },
+    {
+      "offset": 60056,
+      "name": "_GetWPAOACSupportLevel@0"
+    },
+    {
+      "offset": 60056,
+      "name": "__imp__GetWPAOACSupportLevel@0"
+    },
+    {
+      "offset": 63984,
+      "name": "_InternalGetBoundTcpEndpointTable@12"
+    },
+    {
+      "offset": 63984,
+      "name": "__imp__InternalGetBoundTcpEndpointTable@12"
+    },
+    {
+      "offset": 63852,
+      "name": "_InternalGetBoundTcp6EndpointTable@12"
+    },
+    {
+      "offset": 63852,
+      "name": "__imp__InternalGetBoundTcp6EndpointTable@12"
+    },
+    {
+      "offset": 67742,
+      "name": "_InternalGetUdpDynamicPortRange@8"
+    },
+    {
+      "offset": 67742,
+      "name": "__imp__InternalGetUdpDynamicPortRange@8"
+    },
+    {
+      "offset": 66482,
+      "name": "_InternalGetTcpDynamicPortRange@8"
+    },
+    {
+      "offset": 66482,
+      "name": "__imp__InternalGetTcpDynamicPortRange@8"
+    },
+    {
+      "offset": 70072,
+      "name": "_InternalSetUdpDynamicPortRange@8"
+    },
+    {
+      "offset": 70072,
+      "name": "__imp__InternalSetUdpDynamicPortRange@8"
+    },
+    {
+      "offset": 69710,
+      "name": "_InternalSetTcpDynamicPortRange@8"
+    },
+    {
+      "offset": 69710,
+      "name": "__imp__InternalSetTcpDynamicPortRange@8"
+    },
+    {
+      "offset": 54386,
+      "name": "_GetIpForwardTable2@8"
+    },
+    {
+      "offset": 54386,
+      "name": "__imp__GetIpForwardTable2@8"
+    },
+    {
+      "offset": 51234,
+      "name": "_GetBestRoute2@28"
+    },
+    {
+      "offset": 51234,
+      "name": "__imp__GetBestRoute2@28"
+    },
+    {
+      "offset": 54270,
+      "name": "_GetIpForwardEntry2@4"
+    },
+    {
+      "offset": 54270,
+      "name": "__imp__GetIpForwardEntry2@4"
+    },
+    {
+      "offset": 76210,
+      "name": "_SetIpForwardEntry2@4"
+    },
+    {
+      "offset": 76210,
+      "name": "__imp__SetIpForwardEntry2@4"
+    },
+    {
+      "offset": 46982,
+      "name": "_CreateIpForwardEntry2@4"
+    },
+    {
+      "offset": 46982,
+      "name": "__imp__CreateIpForwardEntry2@4"
+    },
+    {
+      "offset": 48424,
+      "name": "_DeleteIpForwardEntry2@4"
+    },
+    {
+      "offset": 48424,
+      "name": "__imp__DeleteIpForwardEntry2@4"
+    },
+    {
+      "offset": 72190,
+      "name": "_NotifyRouteChange2@20"
+    },
+    {
+      "offset": 72190,
+      "name": "__imp__NotifyRouteChange2@20"
+    },
+    {
+      "offset": 61310,
+      "name": "_InitializeIpForwardEntry@4"
+    },
+    {
+      "offset": 61310,
+      "name": "__imp__InitializeIpForwardEntry@4"
+    },
+    {
+      "offset": 54962,
+      "name": "_GetIpNetTable2@8"
+    },
+    {
+      "offset": 54962,
+      "name": "__imp__GetIpNetTable2@8"
+    },
+    {
+      "offset": 54850,
+      "name": "_GetIpNetEntry2@4"
+    },
+    {
+      "offset": 54850,
+      "name": "__imp__GetIpNetEntry2@4"
+    },
+    {
+      "offset": 76556,
+      "name": "_SetIpNetEntry2@4"
+    },
+    {
+      "offset": 76556,
+      "name": "__imp__SetIpNetEntry2@4"
+    },
+    {
+      "offset": 47218,
+      "name": "_CreateIpNetEntry2@4"
+    },
+    {
+      "offset": 47218,
+      "name": "__imp__CreateIpNetEntry2@4"
+    },
+    {
+      "offset": 48660,
+      "name": "_DeleteIpNetEntry2@4"
+    },
+    {
+      "offset": 48660,
+      "name": "__imp__DeleteIpNetEntry2@4"
+    },
+    {
+      "offset": 49618,
+      "name": "_FlushIpNetTable2@8"
+    },
+    {
+      "offset": 49618,
+      "name": "__imp__FlushIpNetTable2@8"
+    },
+    {
+      "offset": 75044,
+      "name": "_ResolveIpNetEntry2@8"
+    },
+    {
+      "offset": 75044,
+      "name": "__imp__ResolveIpNetEntry2@8"
+    },
+    {
+      "offset": 52964,
+      "name": "_GetIfTable2@4"
+    },
+    {
+      "offset": 52964,
+      "name": "__imp__GetIfTable2@4"
+    },
+    {
+      "offset": 53072,
+      "name": "_GetIfTable2Ex@8"
+    },
+    {
+      "offset": 53072,
+      "name": "__imp__GetIfTable2Ex@8"
+    },
+    {
+      "offset": 52526,
+      "name": "_GetIfEntry2@4"
+    },
+    {
+      "offset": 52526,
+      "name": "__imp__GetIfEntry2@4"
+    },
+    {
+      "offset": 52634,
+      "name": "_GetIfEntry2Ex@8"
+    },
+    {
+      "offset": 52634,
+      "name": "__imp__GetIfEntry2Ex@8"
+    },
+    {
+      "offset": 54618,
+      "name": "_GetIpInterfaceEntry@4"
+    },
+    {
+      "offset": 54618,
+      "name": "__imp__GetIpInterfaceEntry@4"
+    },
+    {
+      "offset": 54734,
+      "name": "_GetIpInterfaceTable@8"
+    },
+    {
+      "offset": 54734,
+      "name": "__imp__GetIpInterfaceTable@8"
+    },
+    {
+      "offset": 61432,
+      "name": "_InitializeIpInterfaceEntry@4"
+    },
+    {
+      "offset": 61432,
+      "name": "__imp__InitializeIpInterfaceEntry@4"
+    },
+    {
+      "offset": 71934,
+      "name": "_NotifyIpInterfaceChange@20"
+    },
+    {
+      "offset": 71934,
+      "name": "__imp__NotifyIpInterfaceChange@20"
+    },
+    {
+      "offset": 76440,
+      "name": "_SetIpInterfaceEntry@4"
+    },
+    {
+      "offset": 76440,
+      "name": "__imp__SetIpInterfaceEntry@4"
+    },
+    {
+      "offset": 51004,
+      "name": "_GetBestInterface@8"
+    },
+    {
+      "offset": 51004,
+      "name": "__imp__GetBestInterface@8"
+    },
+    {
+      "offset": 51118,
+      "name": "_GetBestInterfaceEx@8"
+    },
+    {
+      "offset": 51118,
+      "name": "__imp__GetBestInterfaceEx@8"
+    },
+    {
+      "offset": 52852,
+      "name": "_GetIfStackTable@4"
+    },
+    {
+      "offset": 52852,
+      "name": "__imp__GetIfStackTable@4"
+    },
+    {
+      "offset": 53924,
+      "name": "_GetInvertedIfStackTable@4"
+    },
+    {
+      "offset": 53924,
+      "name": "__imp__GetInvertedIfStackTable@4"
+    },
+    {
+      "offset": 47950,
+      "name": "_CreateUnicastIpAddressEntry@4"
+    },
+    {
+      "offset": 47950,
+      "name": "__imp__CreateUnicastIpAddressEntry@4"
+    },
+    {
+      "offset": 49270,
+      "name": "_DeleteUnicastIpAddressEntry@4"
+    },
+    {
+      "offset": 49270,
+      "name": "__imp__DeleteUnicastIpAddressEntry@4"
+    },
+    {
+      "offset": 59812,
+      "name": "_GetUnicastIpAddressEntry@4"
+    },
+    {
+      "offset": 59812,
+      "name": "__imp__GetUnicastIpAddressEntry@4"
+    },
+    {
+      "offset": 78068,
+      "name": "_SetUnicastIpAddressEntry@4"
+    },
+    {
+      "offset": 78068,
+      "name": "__imp__SetUnicastIpAddressEntry@4"
+    },
+    {
+      "offset": 59934,
+      "name": "_GetUnicastIpAddressTable@8"
+    },
+    {
+      "offset": 59934,
+      "name": "__imp__GetUnicastIpAddressTable@8"
+    },
+    {
+      "offset": 72672,
+      "name": "_NotifyUnicastIpAddressChange@20"
+    },
+    {
+      "offset": 72672,
+      "name": "__imp__NotifyUnicastIpAddressChange@20"
+    },
+    {
+      "offset": 72420,
+      "name": "_NotifyStableUnicastIpAddressTable@20"
+    },
+    {
+      "offset": 72420,
+      "name": "__imp__NotifyStableUnicastIpAddressTable@20"
+    },
+    {
+      "offset": 61556,
+      "name": "_InitializeUnicastIpAddressEntry@4"
+    },
+    {
+      "offset": 61556,
+      "name": "__imp__InitializeUnicastIpAddressEntry@4"
+    },
+    {
+      "offset": 46744,
+      "name": "_CreateAnycastIpAddressEntry@4"
+    },
+    {
+      "offset": 46744,
+      "name": "__imp__CreateAnycastIpAddressEntry@4"
+    },
+    {
+      "offset": 48074,
+      "name": "_DeleteAnycastIpAddressEntry@4"
+    },
+    {
+      "offset": 48074,
+      "name": "__imp__DeleteAnycastIpAddressEntry@4"
+    },
+    {
+      "offset": 50760,
+      "name": "_GetAnycastIpAddressEntry@4"
+    },
+    {
+      "offset": 50760,
+      "name": "__imp__GetAnycastIpAddressEntry@4"
+    },
+    {
+      "offset": 50882,
+      "name": "_GetAnycastIpAddressTable@8"
+    },
+    {
+      "offset": 50882,
+      "name": "__imp__GetAnycastIpAddressTable@8"
+    },
+    {
+      "offset": 55890,
+      "name": "_GetMulticastIpAddressEntry@4"
+    },
+    {
+      "offset": 55890,
+      "name": "__imp__GetMulticastIpAddressEntry@4"
+    },
+    {
+      "offset": 56014,
+      "name": "_GetMulticastIpAddressTable@8"
+    },
+    {
+      "offset": 56014,
+      "name": "__imp__GetMulticastIpAddressTable@8"
+    },
+    {
+      "offset": 55436,
+      "name": "_GetIpPathTable@8"
+    },
+    {
+      "offset": 55436,
+      "name": "__imp__GetIpPathTable@8"
+    },
+    {
+      "offset": 55324,
+      "name": "_GetIpPathEntry@4"
+    },
+    {
+      "offset": 55324,
+      "name": "__imp__GetIpPathEntry@4"
+    },
+    {
+      "offset": 49844,
+      "name": "_FlushIpPathTable@4"
+    },
+    {
+      "offset": 49844,
+      "name": "__imp__FlushIpPathTable@4"
+    },
+    {
+      "offset": 55186,
+      "name": "_GetIpNetworkConnectionBandwidthEstimates@12"
+    },
+    {
+      "offset": 55186,
+      "name": "__imp__GetIpNetworkConnectionBandwidthEstimates@12"
+    },
+    {
+      "offset": 46868,
+      "name": "_CreateCompartment@4"
+    },
+    {
+      "offset": 46868,
+      "name": "__imp__CreateCompartment@4"
+    },
+    {
+      "offset": 48198,
+      "name": "_DeleteCompartment@4"
+    },
+    {
+      "offset": 48198,
+      "name": "__imp__DeleteCompartment@4"
+    },
+    {
+      "offset": 72798,
+      "name": "_OpenCompartment@8"
+    },
+    {
+      "offset": 72798,
+      "name": "__imp__OpenCompartment@8"
+    },
+    {
+      "offset": 43226,
+      "name": "_CloseCompartment@4"
+    },
+    {
+      "offset": 43226,
+      "name": "__imp__CloseCompartment@4"
+    },
+    {
+      "offset": 71812,
+      "name": "_NotifyCompartmentChange@16"
+    },
+    {
+      "offset": 71812,
+      "name": "__imp__NotifyCompartmentChange@16"
+    },
+    {
+      "offset": 61186,
+      "name": "_InitializeCompartmentEntry@4"
+    },
+    {
+      "offset": 61186,
+      "name": "__imp__InitializeCompartmentEntry@4"
+    },
+    {
+      "offset": 53426,
+      "name": "_GetInterfaceCompartmentId@4"
+    },
+    {
+      "offset": 53426,
+      "name": "__imp__GetInterfaceCompartmentId@4"
+    },
+    {
+      "offset": 59010,
+      "name": "_GetTeredoPort@4"
+    },
+    {
+      "offset": 59010,
+      "name": "__imp__GetTeredoPort@4"
+    },
+    {
+      "offset": 72552,
+      "name": "_NotifyTeredoPortChange@16"
+    },
+    {
+      "offset": 72552,
+      "name": "__imp__NotifyTeredoPortChange@16"
+    },
+    {
+      "offset": 69954,
+      "name": "_InternalSetTeredoPort@4"
+    },
+    {
+      "offset": 69954,
+      "name": "__imp__InternalSetTeredoPort@4"
+    },
+    {
+      "offset": 42970,
+      "name": "_CancelMibChangeNotify2@4"
+    },
+    {
+      "offset": 42970,
+      "name": "__imp__CancelMibChangeNotify2@4"
+    },
+    {
+      "offset": 47828,
+      "name": "_CreateSortedAddressPairs@28"
+    },
+    {
+      "offset": 47828,
+      "name": "__imp__CreateSortedAddressPairs@28"
+    },
+    {
+      "offset": 50192,
+      "name": "_FreeMibTable@4"
+    },
+    {
+      "offset": 50192,
+      "name": "__imp__FreeMibTable@4"
+    },
+    {
+      "offset": 51832,
+      "name": "_GetDnsSettings@4"
+    },
+    {
+      "offset": 51832,
+      "name": "__imp__GetDnsSettings@4"
+    },
+    {
+      "offset": 75868,
+      "name": "_SetDnsSettings@4"
+    },
+    {
+      "offset": 75868,
+      "name": "__imp__SetDnsSettings@4"
+    },
+    {
+      "offset": 49958,
+      "name": "_FreeDnsSettings@4"
+    },
+    {
+      "offset": 49958,
+      "name": "__imp__FreeDnsSettings@4"
+    },
+    {
+      "offset": 53548,
+      "name": "_GetInterfaceDnsSettings@20"
+    },
+    {
+      "offset": 53548,
+      "name": "__imp__GetInterfaceDnsSettings@20"
+    },
+    {
+      "offset": 76088,
+      "name": "_SetInterfaceDnsSettings@20"
+    },
+    {
+      "offset": 76088,
+      "name": "__imp__SetInterfaceDnsSettings@20"
+    },
+    {
+      "offset": 50070,
+      "name": "_FreeInterfaceDnsSettings@4"
+    },
+    {
+      "offset": 50070,
+      "name": "__imp__FreeInterfaceDnsSettings@4"
+    },
+    {
+      "offset": 56138,
+      "name": "_GetNetworkConnectivityHint@4"
+    },
+    {
+      "offset": 56138,
+      "name": "__imp__GetNetworkConnectivityHint@4"
+    },
+    {
+      "offset": 56262,
+      "name": "_GetNetworkConnectivityHintForInterface@8"
+    },
+    {
+      "offset": 56262,
+      "name": "__imp__GetNetworkConnectivityHintForInterface@8"
+    },
+    {
+      "offset": 72056,
+      "name": "_NotifyNetworkConnectivityHintChange@16"
+    },
+    {
+      "offset": 72056,
+      "name": "__imp__NotifyNetworkConnectivityHintChange@16"
+    },
+    {
+      "offset": 64496,
+      "name": "_InternalGetIfTable2@8"
+    },
+    {
+      "offset": 64496,
+      "name": "__imp__InternalGetIfTable2@8"
+    },
+    {
+      "offset": 64380,
+      "name": "_InternalGetIfEntry2@8"
+    },
+    {
+      "offset": 64380,
+      "name": "__imp__InternalGetIfEntry2@8"
+    },
+    {
+      "offset": 65096,
+      "name": "_InternalGetIpInterfaceEntry@8"
+    },
+    {
+      "offset": 65096,
+      "name": "__imp__InternalGetIpInterfaceEntry@8"
+    },
+    {
+      "offset": 65220,
+      "name": "_InternalGetIpInterfaceTable@12"
+    },
+    {
+      "offset": 65220,
+      "name": "__imp__InternalGetIpInterfaceTable@12"
+    },
+    {
+      "offset": 69232,
+      "name": "_InternalSetIpInterfaceEntry@8"
+    },
+    {
+      "offset": 69232,
+      "name": "__imp__InternalSetIpInterfaceEntry@8"
+    },
+    {
+      "offset": 64114,
+      "name": "_InternalGetForwardIpTable2@12"
+    },
+    {
+      "offset": 64114,
+      "name": "__imp__InternalGetForwardIpTable2@12"
+    },
+    {
+      "offset": 64848,
+      "name": "_InternalGetIpForwardEntry2@8"
+    },
+    {
+      "offset": 64848,
+      "name": "__imp__InternalGetIpForwardEntry2@8"
+    },
+    {
+      "offset": 68986,
+      "name": "_InternalSetIpForwardEntry2@8"
+    },
+    {
+      "offset": 68986,
+      "name": "__imp__InternalSetIpForwardEntry2@8"
+    },
+    {
+      "offset": 61944,
+      "name": "_InternalCreateIpForwardEntry2@8"
+    },
+    {
+      "offset": 61944,
+      "name": "__imp__InternalCreateIpForwardEntry2@8"
+    },
+    {
+      "offset": 62440,
+      "name": "_InternalCreateOrRefIpForwardEntry2@8"
+    },
+    {
+      "offset": 62440,
+      "name": "__imp__InternalCreateOrRefIpForwardEntry2@8"
+    },
+    {
+      "offset": 62836,
+      "name": "_InternalDeleteIpForwardEntry2@8"
+    },
+    {
+      "offset": 62836,
+      "name": "__imp__InternalDeleteIpForwardEntry2@8"
+    },
+    {
+      "offset": 62572,
+      "name": "_InternalCreateUnicastIpAddressEntry@8"
+    },
+    {
+      "offset": 62572,
+      "name": "__imp__InternalCreateUnicastIpAddressEntry@8"
+    },
+    {
+      "offset": 63332,
+      "name": "_InternalDeleteUnicastIpAddressEntry@8"
+    },
+    {
+      "offset": 63332,
+      "name": "__imp__InternalDeleteUnicastIpAddressEntry@8"
+    },
+    {
+      "offset": 68488,
+      "name": "_InternalGetUnicastIpAddressEntry@8"
+    },
+    {
+      "offset": 68488,
+      "name": "__imp__InternalGetUnicastIpAddressEntry@8"
+    },
+    {
+      "offset": 70200,
+      "name": "_InternalSetUnicastIpAddressEntry@8"
+    },
+    {
+      "offset": 70200,
+      "name": "__imp__InternalSetUnicastIpAddressEntry@8"
+    },
+    {
+      "offset": 68618,
+      "name": "_InternalGetUnicastIpAddressTable@12"
+    },
+    {
+      "offset": 68618,
+      "name": "__imp__InternalGetUnicastIpAddressTable@12"
+    },
+    {
+      "offset": 61812,
+      "name": "_InternalCreateAnycastIpAddressEntry@8"
+    },
+    {
+      "offset": 61812,
+      "name": "__imp__InternalCreateAnycastIpAddressEntry@8"
+    },
+    {
+      "offset": 62704,
+      "name": "_InternalDeleteAnycastIpAddressEntry@8"
+    },
+    {
+      "offset": 62704,
+      "name": "__imp__InternalDeleteAnycastIpAddressEntry@8"
+    },
+    {
+      "offset": 63592,
+      "name": "_InternalGetAnycastIpAddressEntry@8"
+    },
+    {
+      "offset": 63592,
+      "name": "__imp__InternalGetAnycastIpAddressEntry@8"
+    },
+    {
+      "offset": 63722,
+      "name": "_InternalGetAnycastIpAddressTable@12"
+    },
+    {
+      "offset": 63722,
+      "name": "__imp__InternalGetAnycastIpAddressTable@12"
+    },
+    {
+      "offset": 65706,
+      "name": "_InternalGetMulticastIpAddressEntry@8"
+    },
+    {
+      "offset": 65706,
+      "name": "__imp__InternalGetMulticastIpAddressEntry@8"
+    },
+    {
+      "offset": 65838,
+      "name": "_InternalGetMulticastIpAddressTable@12"
+    },
+    {
+      "offset": 65838,
+      "name": "__imp__InternalGetMulticastIpAddressTable@12"
+    },
+    {
+      "offset": 65466,
+      "name": "_InternalGetIpNetTable2@12"
+    },
+    {
+      "offset": 65466,
+      "name": "__imp__InternalGetIpNetTable2@12"
+    },
+    {
+      "offset": 65346,
+      "name": "_InternalGetIpNetEntry2@8"
+    },
+    {
+      "offset": 65346,
+      "name": "__imp__InternalGetIpNetEntry2@8"
+    },
+    {
+      "offset": 69356,
+      "name": "_InternalSetIpNetEntry2@8"
+    },
+    {
+      "offset": 69356,
+      "name": "__imp__InternalSetIpNetEntry2@8"
+    },
+    {
+      "offset": 62196,
+      "name": "_InternalCreateIpNetEntry2@8"
+    },
+    {
+      "offset": 62196,
+      "name": "__imp__InternalCreateIpNetEntry2@8"
+    },
+    {
+      "offset": 63088,
+      "name": "_InternalDeleteIpNetEntry2@8"
+    },
+    {
+      "offset": 63088,
+      "name": "__imp__InternalDeleteIpNetEntry2@8"
+    },
+    {
+      "offset": 61684,
+      "name": "_InternalCleanupPersistentStore@8"
+    },
+    {
+      "offset": 61684,
+      "name": "__imp__InternalCleanupPersistentStore@8"
+    },
+    {
+      "offset": 63464,
+      "name": "_InternalFindInterfaceByAddress@8"
+    },
+    {
+      "offset": 63464,
+      "name": "__imp__InternalFindInterfaceByAddress@8"
+    },
+    {
+      "offset": 43478,
+      "name": "_ConvertCompartmentGuidToId@8"
+    },
+    {
+      "offset": 43478,
+      "name": "__imp__ConvertCompartmentGuidToId@8"
+    },
+    {
+      "offset": 43602,
+      "name": "_ConvertCompartmentIdToGuid@8"
+    },
+    {
+      "offset": 43602,
+      "name": "__imp__ConvertCompartmentIdToGuid@8"
+    },
+    {
+      "offset": 43962,
+      "name": "_ConvertInterfaceAliasToLuid@8"
+    },
+    {
+      "offset": 43962,
+      "name": "__imp__ConvertInterfaceAliasToLuid@8"
+    },
+    {
+      "offset": 44086,
+      "name": "_ConvertInterfaceGuidToLuid@8"
+    },
+    {
+      "offset": 44086,
+      "name": "__imp__ConvertInterfaceGuidToLuid@8"
+    },
+    {
+      "offset": 44210,
+      "name": "_ConvertInterfaceIndexToLuid@8"
+    },
+    {
+      "offset": 44210,
+      "name": "__imp__ConvertInterfaceIndexToLuid@8"
+    },
+    {
+      "offset": 44334,
+      "name": "_ConvertInterfaceLuidToAlias@12"
+    },
+    {
+      "offset": 44334,
+      "name": "__imp__ConvertInterfaceLuidToAlias@12"
+    },
+    {
+      "offset": 44460,
+      "name": "_ConvertInterfaceLuidToGuid@8"
+    },
+    {
+      "offset": 44460,
+      "name": "__imp__ConvertInterfaceLuidToGuid@8"
+    },
+    {
+      "offset": 44584,
+      "name": "_ConvertInterfaceLuidToIndex@8"
+    },
+    {
+      "offset": 44584,
+      "name": "__imp__ConvertInterfaceLuidToIndex@8"
+    },
+    {
+      "offset": 44708,
+      "name": "_ConvertInterfaceLuidToNameA@12"
+    },
+    {
+      "offset": 44708,
+      "name": "__imp__ConvertInterfaceLuidToNameA@12"
+    },
+    {
+      "offset": 44834,
+      "name": "_ConvertInterfaceLuidToNameW@12"
+    },
+    {
+      "offset": 44834,
+      "name": "__imp__ConvertInterfaceLuidToNameW@12"
+    },
+    {
+      "offset": 44960,
+      "name": "_ConvertInterfaceNameToLuidA@8"
+    },
+    {
+      "offset": 44960,
+      "name": "__imp__ConvertInterfaceNameToLuidA@8"
+    },
+    {
+      "offset": 45084,
+      "name": "_ConvertInterfaceNameToLuidW@8"
+    },
+    {
+      "offset": 45084,
+      "name": "__imp__ConvertInterfaceNameToLuidW@8"
+    },
+    {
+      "offset": 45208,
+      "name": "_ConvertInterfacePhysicalAddressToLuid@12"
+    },
+    {
+      "offset": 45208,
+      "name": "__imp__ConvertInterfacePhysicalAddressToLuid@12"
+    },
+    {
+      "offset": 46608,
+      "name": "_ConvertStringToInterfacePhysicalAddress@8"
+    },
+    {
+      "offset": 46608,
+      "name": "__imp__ConvertStringToInterfacePhysicalAddress@8"
+    },
+    {
+      "offset": 78552,
+      "name": "__imp__if_nametoindex@4"
+    },
+    {
+      "offset": 78552,
+      "name": "_if_nametoindex@4"
+    },
+    {
+      "offset": 78440,
+      "name": "__imp__if_indextoname@8"
+    },
+    {
+      "offset": 78440,
+      "name": "_if_indextoname@8"
+    },
+    {
+      "offset": 74684,
+      "name": "_PfTestPacket@20"
+    },
+    {
+      "offset": 74684,
+      "name": "__imp__PfTestPacket@20"
+    },
+    {
+      "offset": 73748,
+      "name": "_PfDeleteLog@0"
+    },
+    {
+      "offset": 73748,
+      "name": "__imp__PfDeleteLog@0"
+    },
+    {
+      "offset": 73856,
+      "name": "_PfGetInterfaceStatistics@16"
+    },
+    {
+      "offset": 73856,
+      "name": "__imp__PfGetInterfaceStatistics@16"
+    },
+    {
+      "offset": 74572,
+      "name": "_PfSetLogBuffer@28"
+    },
+    {
+      "offset": 74572,
+      "name": "__imp__PfSetLogBuffer@28"
+    },
+    {
+      "offset": 73978,
+      "name": "_PfMakeLog@4"
+    },
+    {
+      "offset": 73978,
+      "name": "__imp__PfMakeLog@4"
+    },
+    {
+      "offset": 74084,
+      "name": "_PfRebindFilters@8"
+    },
+    {
+      "offset": 74084,
+      "name": "__imp__PfRebindFilters@8"
+    },
+    {
+      "offset": 73274,
+      "name": "_PfBindInterfaceToIPAddress@12"
+    },
+    {
+      "offset": 73274,
+      "name": "__imp__PfBindInterfaceToIPAddress@12"
+    },
+    {
+      "offset": 73398,
+      "name": "_PfBindInterfaceToIndex@16"
+    },
+    {
+      "offset": 73398,
+      "name": "__imp__PfBindInterfaceToIndex@16"
+    },
+    {
+      "offset": 74794,
+      "name": "_PfUnBindInterface@4"
+    },
+    {
+      "offset": 74794,
+      "name": "__imp__PfUnBindInterface@4"
+    },
+    {
+      "offset": 74442,
+      "name": "_PfRemoveGlobalFilterFromInterface@8"
+    },
+    {
+      "offset": 74442,
+      "name": "__imp__PfRemoveGlobalFilterFromInterface@8"
+    },
+    {
+      "offset": 73148,
+      "name": "_PfAddGlobalFilterToInterface@8"
+    },
+    {
+      "offset": 73148,
+      "name": "__imp__PfAddGlobalFilterToInterface@8"
+    },
+    {
+      "offset": 74196,
+      "name": "_PfRemoveFilterHandles@12"
+    },
+    {
+      "offset": 74196,
+      "name": "__imp__PfRemoveFilterHandles@12"
+    },
+    {
+      "offset": 74316,
+      "name": "_PfRemoveFiltersFromInterface@20"
+    },
+    {
+      "offset": 74316,
+      "name": "__imp__PfRemoveFiltersFromInterface@20"
+    },
+    {
+      "offset": 73026,
+      "name": "_PfAddFiltersToInterface@24"
+    },
+    {
+      "offset": 73026,
+      "name": "__imp__PfAddFiltersToInterface@24"
+    },
+    {
+      "offset": 73634,
+      "name": "_PfDeleteInterface@4"
+    },
+    {
+      "offset": 73634,
+      "name": "__imp__PfDeleteInterface@4"
+    },
+    {
+      "offset": 73518,
+      "name": "_PfCreateInterface@24"
+    },
+    {
+      "offset": 73518,
+      "name": "__imp__PfCreateInterface@24"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 42476,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3787064462,
+      "sizeOfData": 30,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_AddIPAddress@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "AddIPAddress"
+    },
+    {
+      "offset": 42586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4206756336,
+      "sizeOfData": 54,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_AllocateAndGetInterfaceInfoFromStack@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "AllocateAndGetInterfaceInfoFromStack"
+    },
+    {
+      "offset": 42720,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3983756842,
+      "sizeOfData": 52,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_AllocateAndGetIpAddrTableFromStack@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "AllocateAndGetIpAddrTableFromStack"
+    },
+    {
+      "offset": 42852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3808407039,
+      "sizeOfData": 37,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CancelIPChangeNotify@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "CancelIPChangeNotify"
+    },
+    {
+      "offset": 42970,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4186340480,
+      "sizeOfData": 39,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CancelMibChangeNotify2@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "CancelMibChangeNotify2"
+    },
+    {
+      "offset": 43090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3925335941,
+      "sizeOfData": 55,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CaptureInterfaceHardwareCrossTimestamp@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "CaptureInterfaceHardwareCrossTimestamp"
+    },
+    {
+      "offset": 43226,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4088575289,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CloseCompartment@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "CloseCompartment"
+    },
+    {
+      "offset": 43340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3289797470,
+      "sizeOfData": 58,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CloseGetIPPhysicalInterfaceForDestination@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "CloseGetIPPhysicalInterfaceForDestination"
+    },
+    {
+      "offset": 43478,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3689887710,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertCompartmentGuidToId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "ConvertCompartmentGuidToId"
+    },
+    {
+      "offset": 43602,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3970607208,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertCompartmentIdToGuid@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "ConvertCompartmentIdToGuid"
+    },
+    {
+      "offset": 43726,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4172628547,
+      "sizeOfData": 38,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertGuidToStringA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "ConvertGuidToStringA"
+    },
+    {
+      "offset": 43844,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3490875638,
+      "sizeOfData": 38,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertGuidToStringW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "ConvertGuidToStringW"
+    },
+    {
+      "offset": 43962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3988386407,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertInterfaceAliasToLuid@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "ConvertInterfaceAliasToLuid"
+    },
+    {
+      "offset": 44086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4121530458,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertInterfaceGuidToLuid@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "ConvertInterfaceGuidToLuid"
+    },
+    {
+      "offset": 44210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4243925104,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertInterfaceIndexToLuid@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "ConvertInterfaceIndexToLuid"
+    },
+    {
+      "offset": 44334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3859603018,
+      "sizeOfData": 45,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertInterfaceLuidToAlias@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "ConvertInterfaceLuidToAlias"
+    },
+    {
+      "offset": 44460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3876259057,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertInterfaceLuidToGuid@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "ConvertInterfaceLuidToGuid"
+    },
+    {
+      "offset": 44584,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4287153404,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertInterfaceLuidToIndex@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "ConvertInterfaceLuidToIndex"
+    },
+    {
+      "offset": 44708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3311446843,
+      "sizeOfData": 45,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertInterfaceLuidToNameA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "ConvertInterfaceLuidToNameA"
+    },
+    {
+      "offset": 44834,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3459281476,
+      "sizeOfData": 45,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertInterfaceLuidToNameW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "ConvertInterfaceLuidToNameW"
+    },
+    {
+      "offset": 44960,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3779611880,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertInterfaceNameToLuidA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "ConvertInterfaceNameToLuidA"
+    },
+    {
+      "offset": 45084,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3429983883,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertInterfaceNameToLuidW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "ConvertInterfaceNameToLuidW"
+    },
+    {
+      "offset": 45208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3372081424,
+      "sizeOfData": 55,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertInterfacePhysicalAddressToLuid@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "ConvertInterfacePhysicalAddressToLuid"
+    },
+    {
+      "offset": 45344,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4285234349,
+      "sizeOfData": 40,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertIpv4MaskToLength@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "ConvertIpv4MaskToLength"
+    },
+    {
+      "offset": 45464,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3394350180,
+      "sizeOfData": 40,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertLengthToIpv4Mask@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "ConvertLengthToIpv4Mask"
+    },
+    {
+      "offset": 45584,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4078125978,
+      "sizeOfData": 51,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertRemoteInterfaceAliasToLuid@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "ConvertRemoteInterfaceAliasToLuid"
+    },
+    {
+      "offset": 45716,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4164357759,
+      "sizeOfData": 50,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertRemoteInterfaceGuidToLuid@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "ConvertRemoteInterfaceGuidToLuid"
+    },
+    {
+      "offset": 45846,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4232913911,
+      "sizeOfData": 51,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertRemoteInterfaceIndexToLuid@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "ConvertRemoteInterfaceIndexToLuid"
+    },
+    {
+      "offset": 45978,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3355392748,
+      "sizeOfData": 51,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertRemoteInterfaceLuidToAlias@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "ConvertRemoteInterfaceLuidToAlias"
+    },
+    {
+      "offset": 46110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4163158330,
+      "sizeOfData": 50,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertRemoteInterfaceLuidToGuid@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "ConvertRemoteInterfaceLuidToGuid"
+    },
+    {
+      "offset": 46240,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3423822389,
+      "sizeOfData": 51,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertRemoteInterfaceLuidToIndex@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "ConvertRemoteInterfaceLuidToIndex"
+    },
+    {
+      "offset": 46372,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3645969452,
+      "sizeOfData": 37,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertStringToGuidA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "ConvertStringToGuidA"
+    },
+    {
+      "offset": 46490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3611311430,
+      "sizeOfData": 37,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertStringToGuidW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "ConvertStringToGuidW"
+    },
+    {
+      "offset": 46608,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3663729425,
+      "sizeOfData": 56,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ConvertStringToInterfacePhysicalAddress@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "ConvertStringToInterfacePhysicalAddress"
+    },
+    {
+      "offset": 46744,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3368826111,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CreateAnycastIpAddressEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "CreateAnycastIpAddressEntry"
+    },
+    {
+      "offset": 46868,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3471714037,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CreateCompartment@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "CreateCompartment"
+    },
+    {
+      "offset": 46982,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3901238363,
+      "sizeOfData": 38,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CreateIpForwardEntry2@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "CreateIpForwardEntry2"
+    },
+    {
+      "offset": 47100,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4152218963,
+      "sizeOfData": 37,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CreateIpForwardEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "CreateIpForwardEntry"
+    },
+    {
+      "offset": 47218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4270020039,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CreateIpNetEntry2@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "CreateIpNetEntry2"
+    },
+    {
+      "offset": 47332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3877836387,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CreateIpNetEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "CreateIpNetEntry"
+    },
+    {
+      "offset": 47446,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3389396968,
+      "sizeOfData": 52,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CreatePersistentTcpPortReservation@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "CreatePersistentTcpPortReservation"
+    },
+    {
+      "offset": 47578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3656323042,
+      "sizeOfData": 52,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CreatePersistentUdpPortReservation@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "CreatePersistentUdpPortReservation"
+    },
+    {
+      "offset": 47710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3286723532,
+      "sizeOfData": 37,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CreateProxyArpEntry@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "CreateProxyArpEntry"
+    },
+    {
+      "offset": 47828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3359190506,
+      "sizeOfData": 42,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CreateSortedAddressPairs@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "CreateSortedAddressPairs"
+    },
+    {
+      "offset": 47950,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3566539136,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_CreateUnicastIpAddressEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "CreateUnicastIpAddressEntry"
+    },
+    {
+      "offset": 48074,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3842854499,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_DeleteAnycastIpAddressEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "DeleteAnycastIpAddressEntry"
+    },
+    {
+      "offset": 48198,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3292396777,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_DeleteCompartment@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "DeleteCompartment"
+    },
+    {
+      "offset": 48312,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3754126574,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_DeleteIPAddress@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "DeleteIPAddress"
+    },
+    {
+      "offset": 48424,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3460982502,
+      "sizeOfData": 38,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_DeleteIpForwardEntry2@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "DeleteIpForwardEntry2"
+    },
+    {
+      "offset": 48542,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3523826976,
+      "sizeOfData": 37,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_DeleteIpForwardEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "DeleteIpForwardEntry"
+    },
+    {
+      "offset": 48660,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3888805059,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_DeleteIpNetEntry2@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "DeleteIpNetEntry2"
+    },
+    {
+      "offset": 48774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4251732056,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_DeleteIpNetEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "DeleteIpNetEntry"
+    },
+    {
+      "offset": 48888,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4244622280,
+      "sizeOfData": 51,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_DeletePersistentTcpPortReservation@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "DeletePersistentTcpPortReservation"
+    },
+    {
+      "offset": 49020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4232643082,
+      "sizeOfData": 51,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_DeletePersistentUdpPortReservation@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "DeletePersistentUdpPortReservation"
+    },
+    {
+      "offset": 49152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3538036112,
+      "sizeOfData": 37,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_DeleteProxyArpEntry@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "DeleteProxyArpEntry"
+    },
+    {
+      "offset": 49270,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3223305501,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_DeleteUnicastIpAddressEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "DeleteUnicastIpAddressEntry"
+    },
+    {
+      "offset": 49394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3557567643,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_DisableMediaSense@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "DisableMediaSense"
+    },
+    {
+      "offset": 49508,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3384347653,
+      "sizeOfData": 29,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_EnableRouter@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "EnableRouter"
+    },
+    {
+      "offset": 49618,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3831067463,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_FlushIpNetTable2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "FlushIpNetTable2"
+    },
+    {
+      "offset": 49732,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4018399151,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_FlushIpNetTable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "FlushIpNetTable"
+    },
+    {
+      "offset": 49844,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3350374999,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_FlushIpPathTable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "FlushIpPathTable"
+    },
+    {
+      "offset": 49958,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3894198881,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_FreeDnsSettings@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "FreeDnsSettings"
+    },
+    {
+      "offset": 50070,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3536658792,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_FreeInterfaceDnsSettings@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "FreeInterfaceDnsSettings"
+    },
+    {
+      "offset": 50192,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3721060075,
+      "sizeOfData": 29,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_FreeMibTable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "FreeMibTable"
+    },
+    {
+      "offset": 50302,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4048504002,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetAdapterIndex@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "GetAdapterIndex"
+    },
+    {
+      "offset": 50414,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4140300882,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetAdapterOrderMap@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "GetAdapterOrderMap"
+    },
+    {
+      "offset": 50530,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4116873581,
+      "sizeOfData": 38,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetAdaptersAddresses@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "GetAdaptersAddresses"
+    },
+    {
+      "offset": 50648,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3579841792,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetAdaptersInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "GetAdaptersInfo"
+    },
+    {
+      "offset": 50760,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3689671947,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetAnycastIpAddressEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "GetAnycastIpAddressEntry"
+    },
+    {
+      "offset": 50882,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3425741144,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetAnycastIpAddressTable@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "GetAnycastIpAddressTable"
+    },
+    {
+      "offset": 51004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3761658748,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetBestInterface@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "GetBestInterface"
+    },
+    {
+      "offset": 51118,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3995482542,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetBestInterfaceEx@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "GetBestInterfaceEx"
+    },
+    {
+      "offset": 51234,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3623580717,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetBestRoute2@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "GetBestRoute2"
+    },
+    {
+      "offset": 51346,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3541189233,
+      "sizeOfData": 30,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetBestRoute@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "GetBestRoute"
+    },
+    {
+      "offset": 51456,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3458827798,
+      "sizeOfData": 46,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetCurrentThreadCompartmentId@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "GetCurrentThreadCompartmentId"
+    },
+    {
+      "offset": 51582,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3271789552,
+      "sizeOfData": 49,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetCurrentThreadCompartmentScope@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "GetCurrentThreadCompartmentScope"
+    },
+    {
+      "offset": 51712,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3615856948,
+      "sizeOfData": 40,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetDefaultCompartmentId@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "GetDefaultCompartmentId"
+    },
+    {
+      "offset": 51832,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3426341084,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetDnsSettings@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "GetDnsSettings"
+    },
+    {
+      "offset": 51944,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3516838795,
+      "sizeOfData": 37,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetExtendedTcpTable@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "GetExtendedTcpTable"
+    },
+    {
+      "offset": 52062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3798269451,
+      "sizeOfData": 37,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetExtendedUdpTable@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "GetExtendedUdpTable"
+    },
+    {
+      "offset": 52180,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4156819480,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetFriendlyIfIndex@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "GetFriendlyIfIndex"
+    },
+    {
+      "offset": 52296,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3444889007,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIcmpStatistics@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "GetIcmpStatistics"
+    },
+    {
+      "offset": 52410,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3798646932,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIcmpStatisticsEx@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "GetIcmpStatisticsEx"
+    },
+    {
+      "offset": 52526,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3761916527,
+      "sizeOfData": 28,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIfEntry2@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "GetIfEntry2"
+    },
+    {
+      "offset": 52634,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3808392484,
+      "sizeOfData": 30,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIfEntry2Ex@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "GetIfEntry2Ex"
+    },
+    {
+      "offset": 52744,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4108130963,
+      "sizeOfData": 27,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIfEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "GetIfEntry"
+    },
+    {
+      "offset": 52852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4072520130,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIfStackTable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "GetIfStackTable"
+    },
+    {
+      "offset": 52964,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3627426424,
+      "sizeOfData": 28,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIfTable2@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "GetIfTable2"
+    },
+    {
+      "offset": 53072,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3345068358,
+      "sizeOfData": 30,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIfTable2Ex@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "GetIfTable2Ex"
+    },
+    {
+      "offset": 53182,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3261517634,
+      "sizeOfData": 28,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIfTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "GetIfTable"
+    },
+    {
+      "offset": 53290,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3415568286,
+      "sizeOfData": 56,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetInterfaceActiveTimestampCapabilities@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "GetInterfaceActiveTimestampCapabilities"
+    },
+    {
+      "offset": 53426,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3916477589,
+      "sizeOfData": 42,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetInterfaceCompartmentId@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "GetInterfaceCompartmentId"
+    },
+    {
+      "offset": 53548,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3309107646,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetInterfaceDnsSettings@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "GetInterfaceDnsSettings"
+    },
+    {
+      "offset": 53670,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4076992524,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetInterfaceInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "GetInterfaceInfo"
+    },
+    {
+      "offset": 53784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3686242990,
+      "sizeOfData": 59,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetInterfaceSupportedTimestampCapabilities@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "GetInterfaceSupportedTimestampCapabilities"
+    },
+    {
+      "offset": 53924,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3338408090,
+      "sizeOfData": 40,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetInvertedIfStackTable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "GetInvertedIfStackTable"
+    },
+    {
+      "offset": 54044,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3889426174,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpAddrTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "GetIpAddrTable"
+    },
+    {
+      "offset": 54156,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3839124005,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpErrorString@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "GetIpErrorString"
+    },
+    {
+      "offset": 54270,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3618770533,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpForwardEntry2@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "GetIpForwardEntry2"
+    },
+    {
+      "offset": 54386,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4152380840,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpForwardTable2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "GetIpForwardTable2"
+    },
+    {
+      "offset": 54502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4246535286,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpForwardTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "GetIpForwardTable"
+    },
+    {
+      "offset": 54618,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3782796057,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpInterfaceEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "GetIpInterfaceEntry"
+    },
+    {
+      "offset": 54734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4230070311,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpInterfaceTable@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "GetIpInterfaceTable"
+    },
+    {
+      "offset": 54850,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4123545318,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpNetEntry2@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "GetIpNetEntry2"
+    },
+    {
+      "offset": 54962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3977713989,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpNetTable2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "GetIpNetTable2"
+    },
+    {
+      "offset": 55074,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3901598600,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpNetTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "GetIpNetTable"
+    },
+    {
+      "offset": 55186,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3298953118,
+      "sizeOfData": 58,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpNetworkConnectionBandwidthEstimates@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "GetIpNetworkConnectionBandwidthEstimates"
+    },
+    {
+      "offset": 55324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3744790921,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpPathEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "GetIpPathEntry"
+    },
+    {
+      "offset": 55436,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3901740908,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpPathTable@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "GetIpPathTable"
+    },
+    {
+      "offset": 55548,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4053857127,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpStatistics@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "GetIpStatistics"
+    },
+    {
+      "offset": 55660,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3292615682,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetIpStatisticsEx@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "GetIpStatisticsEx"
+    },
+    {
+      "offset": 55774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4081899800,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetJobCompartmentId@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "GetJobCompartmentId"
+    },
+    {
+      "offset": 55890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3673971136,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetMulticastIpAddressEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "GetMulticastIpAddressEntry"
+    },
+    {
+      "offset": 56014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3433300977,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetMulticastIpAddressTable@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "GetMulticastIpAddressTable"
+    },
+    {
+      "offset": 56138,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3709935840,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetNetworkConnectivityHint@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "GetNetworkConnectivityHint"
+    },
+    {
+      "offset": 56262,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4169246630,
+      "sizeOfData": 55,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetNetworkConnectivityHintForInterface@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "GetNetworkConnectivityHintForInterface"
+    },
+    {
+      "offset": 56398,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3236615016,
+      "sizeOfData": 39,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetNetworkInformation@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "GetNetworkInformation"
+    },
+    {
+      "offset": 56518,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4116731553,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetNetworkParams@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "GetNetworkParams"
+    },
+    {
+      "offset": 56632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3305330061,
+      "sizeOfData": 38,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetNumberOfInterfaces@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "GetNumberOfInterfaces"
+    },
+    {
+      "offset": 56750,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4196907048,
+      "sizeOfData": 46,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetOwnerModuleFromPidAndInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "GetOwnerModuleFromPidAndInfo"
+    },
+    {
+      "offset": 56876,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3851666124,
+      "sizeOfData": 45,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetOwnerModuleFromTcp6Entry@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "GetOwnerModuleFromTcp6Entry"
+    },
+    {
+      "offset": 57002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3349831054,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetOwnerModuleFromTcpEntry@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "GetOwnerModuleFromTcpEntry"
+    },
+    {
+      "offset": 57126,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3945431467,
+      "sizeOfData": 45,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetOwnerModuleFromUdp6Entry@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "GetOwnerModuleFromUdp6Entry"
+    },
+    {
+      "offset": 57252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3787110220,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetOwnerModuleFromUdpEntry@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "GetOwnerModuleFromUdpEntry"
+    },
+    {
+      "offset": 57376,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3872057995,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetPerAdapterInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "GetPerAdapterInfo"
+    },
+    {
+      "offset": 57492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3740011173,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetPerTcp6ConnectionEStats@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "GetPerTcp6ConnectionEStats"
+    },
+    {
+      "offset": 57616,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3507672274,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetPerTcp6ConnectionStats@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "GetPerTcp6ConnectionStats"
+    },
+    {
+      "offset": 57740,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3814909763,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetPerTcpConnectionEStats@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "GetPerTcpConnectionEStats"
+    },
+    {
+      "offset": 57864,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3535642724,
+      "sizeOfData": 42,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetPerTcpConnectionStats@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "GetPerTcpConnectionStats"
+    },
+    {
+      "offset": 57986,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3228880870,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetRTTAndHopCount@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "GetRTTAndHopCount"
+    },
+    {
+      "offset": 58102,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3708408505,
+      "sizeOfData": 40,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetSessionCompartmentId@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "GetSessionCompartmentId"
+    },
+    {
+      "offset": 58222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3226836649,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetTcp6Table2@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "GetTcp6Table2"
+    },
+    {
+      "offset": 58334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3726524806,
+      "sizeOfData": 30,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetTcp6Table@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "GetTcp6Table"
+    },
+    {
+      "offset": 58444,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4112245833,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetTcpStatistics@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "GetTcpStatistics"
+    },
+    {
+      "offset": 58558,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4291476982,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetTcpStatisticsEx2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "GetTcpStatisticsEx2"
+    },
+    {
+      "offset": 58674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4268976854,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetTcpStatisticsEx@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "GetTcpStatisticsEx"
+    },
+    {
+      "offset": 58790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3388998524,
+      "sizeOfData": 30,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetTcpTable2@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "GetTcpTable2"
+    },
+    {
+      "offset": 58900,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4099099790,
+      "sizeOfData": 29,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetTcpTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "GetTcpTable"
+    },
+    {
+      "offset": 59010,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4123086546,
+      "sizeOfData": 30,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetTeredoPort@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "GetTeredoPort"
+    },
+    {
+      "offset": 59120,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3279930514,
+      "sizeOfData": 30,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetUdp6Table@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "GetUdp6Table"
+    },
+    {
+      "offset": 59230,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3664830843,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetUdpStatistics@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "GetUdpStatistics"
+    },
+    {
+      "offset": 59344,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3349842270,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetUdpStatisticsEx2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "GetUdpStatisticsEx2"
+    },
+    {
+      "offset": 59460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3984031990,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetUdpStatisticsEx@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "GetUdpStatisticsEx"
+    },
+    {
+      "offset": 59576,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3972245000,
+      "sizeOfData": 29,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetUdpTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "GetUdpTable"
+    },
+    {
+      "offset": 59686,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3857181024,
+      "sizeOfData": 45,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetUniDirectionalAdapterInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "GetUniDirectionalAdapterInfo"
+    },
+    {
+      "offset": 59812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3269339899,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetUnicastIpAddressEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "GetUnicastIpAddressEntry"
+    },
+    {
+      "offset": 59934,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3283153658,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetUnicastIpAddressTable@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "GetUnicastIpAddressTable"
+    },
+    {
+      "offset": 60056,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4148510182,
+      "sizeOfData": 38,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_GetWPAOACSupportLevel@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "GetWPAOACSupportLevel"
+    },
+    {
+      "offset": 60174,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3615807174,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_Icmp6CreateFile@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "Icmp6CreateFile"
+    },
+    {
+      "offset": 60286,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4106600939,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_Icmp6ParseReplies@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "Icmp6ParseReplies"
+    },
+    {
+      "offset": 60400,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3888733809,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_Icmp6SendEcho2@48",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "Icmp6SendEcho2"
+    },
+    {
+      "offset": 60512,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3289182451,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_IcmpCloseHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "IcmpCloseHandle"
+    },
+    {
+      "offset": 60624,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3909793430,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_IcmpCreateFile@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "IcmpCreateFile"
+    },
+    {
+      "offset": 60736,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3877484143,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_IcmpParseReplies@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "IcmpParseReplies"
+    },
+    {
+      "offset": 60850,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3313020862,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_IcmpSendEcho2@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "IcmpSendEcho2"
+    },
+    {
+      "offset": 60962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3284496051,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_IcmpSendEcho2Ex@48",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "IcmpSendEcho2Ex"
+    },
+    {
+      "offset": 61076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4059038196,
+      "sizeOfData": 30,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_IcmpSendEcho@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "IcmpSendEcho"
+    },
+    {
+      "offset": 61186,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3820753378,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InitializeCompartmentEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "InitializeCompartmentEntry"
+    },
+    {
+      "offset": 61310,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3523627447,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InitializeIpForwardEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 158,
+      "name": "InitializeIpForwardEntry"
+    },
+    {
+      "offset": 61432,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4236264972,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InitializeIpInterfaceEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 159,
+      "name": "InitializeIpInterfaceEntry"
+    },
+    {
+      "offset": 61556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3647387500,
+      "sizeOfData": 48,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InitializeUnicastIpAddressEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 160,
+      "name": "InitializeUnicastIpAddressEntry"
+    },
+    {
+      "offset": 61684,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3742606391,
+      "sizeOfData": 47,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalCleanupPersistentStore@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 161,
+      "name": "InternalCleanupPersistentStore"
+    },
+    {
+      "offset": 61812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4152990539,
+      "sizeOfData": 52,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalCreateAnycastIpAddressEntry@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 162,
+      "name": "InternalCreateAnycastIpAddressEntry"
+    },
+    {
+      "offset": 61944,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3971491091,
+      "sizeOfData": 46,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalCreateIpForwardEntry2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 164,
+      "name": "InternalCreateIpForwardEntry2"
+    },
+    {
+      "offset": 62070,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3972748391,
+      "sizeOfData": 45,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalCreateIpForwardEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 163,
+      "name": "InternalCreateIpForwardEntry"
+    },
+    {
+      "offset": 62196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3974373098,
+      "sizeOfData": 42,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalCreateIpNetEntry2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 166,
+      "name": "InternalCreateIpNetEntry2"
+    },
+    {
+      "offset": 62318,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3585050573,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalCreateIpNetEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 165,
+      "name": "InternalCreateIpNetEntry"
+    },
+    {
+      "offset": 62440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3989415898,
+      "sizeOfData": 51,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalCreateOrRefIpForwardEntry2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 167,
+      "name": "InternalCreateOrRefIpForwardEntry2"
+    },
+    {
+      "offset": 62572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3617846308,
+      "sizeOfData": 52,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalCreateUnicastIpAddressEntry@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 168,
+      "name": "InternalCreateUnicastIpAddressEntry"
+    },
+    {
+      "offset": 62704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3455264594,
+      "sizeOfData": 52,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalDeleteAnycastIpAddressEntry@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 169,
+      "name": "InternalDeleteAnycastIpAddressEntry"
+    },
+    {
+      "offset": 62836,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3831573917,
+      "sizeOfData": 46,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalDeleteIpForwardEntry2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 171,
+      "name": "InternalDeleteIpForwardEntry2"
+    },
+    {
+      "offset": 62962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3586637034,
+      "sizeOfData": 45,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalDeleteIpForwardEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 170,
+      "name": "InternalDeleteIpForwardEntry"
+    },
+    {
+      "offset": 63088,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3235908956,
+      "sizeOfData": 42,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalDeleteIpNetEntry2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 173,
+      "name": "InternalDeleteIpNetEntry2"
+    },
+    {
+      "offset": 63210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4076711085,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalDeleteIpNetEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 172,
+      "name": "InternalDeleteIpNetEntry"
+    },
+    {
+      "offset": 63332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4048661515,
+      "sizeOfData": 52,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalDeleteUnicastIpAddressEntry@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 174,
+      "name": "InternalDeleteUnicastIpAddressEntry"
+    },
+    {
+      "offset": 63464,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4053459140,
+      "sizeOfData": 47,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalFindInterfaceByAddress@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 175,
+      "name": "InternalFindInterfaceByAddress"
+    },
+    {
+      "offset": 63592,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3627251026,
+      "sizeOfData": 49,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetAnycastIpAddressEntry@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 176,
+      "name": "InternalGetAnycastIpAddressEntry"
+    },
+    {
+      "offset": 63722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3321686689,
+      "sizeOfData": 50,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetAnycastIpAddressTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 177,
+      "name": "InternalGetAnycastIpAddressTable"
+    },
+    {
+      "offset": 63852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4080867813,
+      "sizeOfData": 51,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetBoundTcp6EndpointTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 178,
+      "name": "InternalGetBoundTcp6EndpointTable"
+    },
+    {
+      "offset": 63984,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3842209288,
+      "sizeOfData": 50,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetBoundTcpEndpointTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 179,
+      "name": "InternalGetBoundTcpEndpointTable"
+    },
+    {
+      "offset": 64114,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3277067765,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetForwardIpTable2@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 180,
+      "name": "InternalGetForwardIpTable2"
+    },
+    {
+      "offset": 64238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3628682696,
+      "sizeOfData": 62,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetIPPhysicalInterfaceForDestination@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 181,
+      "name": "InternalGetIPPhysicalInterfaceForDestination"
+    },
+    {
+      "offset": 64380,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4115249087,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetIfEntry2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 182,
+      "name": "InternalGetIfEntry2"
+    },
+    {
+      "offset": 64496,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3375478823,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetIfTable2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 184,
+      "name": "InternalGetIfTable2"
+    },
+    {
+      "offset": 64612,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3897414532,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetIfTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 183,
+      "name": "InternalGetIfTable"
+    },
+    {
+      "offset": 64728,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3786329425,
+      "sizeOfData": 40,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetIpAddrTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 185,
+      "name": "InternalGetIpAddrTable"
+    },
+    {
+      "offset": 64848,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4087657087,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetIpForwardEntry2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 186,
+      "name": "InternalGetIpForwardEntry2"
+    },
+    {
+      "offset": 64972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4185995369,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetIpForwardTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 187,
+      "name": "InternalGetIpForwardTable"
+    },
+    {
+      "offset": 65096,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4231926139,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetIpInterfaceEntry@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 188,
+      "name": "InternalGetIpInterfaceEntry"
+    },
+    {
+      "offset": 65220,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4151631176,
+      "sizeOfData": 45,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetIpInterfaceTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 189,
+      "name": "InternalGetIpInterfaceTable"
+    },
+    {
+      "offset": 65346,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3843331411,
+      "sizeOfData": 39,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetIpNetEntry2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 190,
+      "name": "InternalGetIpNetEntry2"
+    },
+    {
+      "offset": 65466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3889735359,
+      "sizeOfData": 40,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetIpNetTable2@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 192,
+      "name": "InternalGetIpNetTable2"
+    },
+    {
+      "offset": 65586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3506142192,
+      "sizeOfData": 39,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetIpNetTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 191,
+      "name": "InternalGetIpNetTable"
+    },
+    {
+      "offset": 65706,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3330627964,
+      "sizeOfData": 51,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetMulticastIpAddressEntry@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 193,
+      "name": "InternalGetMulticastIpAddressEntry"
+    },
+    {
+      "offset": 65838,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3804003068,
+      "sizeOfData": 52,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetMulticastIpAddressTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 194,
+      "name": "InternalGetMulticastIpAddressTable"
+    },
+    {
+      "offset": 65970,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3221457176,
+      "sizeOfData": 47,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetRtcSlotInformation@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 195,
+      "name": "InternalGetRtcSlotInformation"
+    },
+    {
+      "offset": 66098,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4157919876,
+      "sizeOfData": 39,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetTcp6Table2@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 196,
+      "name": "InternalGetTcp6Table2"
+    },
+    {
+      "offset": 66218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4124687316,
+      "sizeOfData": 53,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetTcp6TableWithOwnerModule@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 197,
+      "name": "InternalGetTcp6TableWithOwnerModule"
+    },
+    {
+      "offset": 66352,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3672886905,
+      "sizeOfData": 50,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetTcp6TableWithOwnerPid@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 198,
+      "name": "InternalGetTcp6TableWithOwnerPid"
+    },
+    {
+      "offset": 66482,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3611844508,
+      "sizeOfData": 47,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetTcpDynamicPortRange@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 199,
+      "name": "InternalGetTcpDynamicPortRange"
+    },
+    {
+      "offset": 66610,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3346693905,
+      "sizeOfData": 38,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetTcpTable2@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 201,
+      "name": "InternalGetTcpTable2"
+    },
+    {
+      "offset": 66728,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3819747010,
+      "sizeOfData": 37,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetTcpTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 200,
+      "name": "InternalGetTcpTable"
+    },
+    {
+      "offset": 66846,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3357712309,
+      "sizeOfData": 39,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetTcpTableEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 202,
+      "name": "InternalGetTcpTableEx"
+    },
+    {
+      "offset": 66966,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3504177408,
+      "sizeOfData": 52,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetTcpTableWithOwnerModule@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 203,
+      "name": "InternalGetTcpTableWithOwnerModule"
+    },
+    {
+      "offset": 67098,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3628574676,
+      "sizeOfData": 49,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetTcpTableWithOwnerPid@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 204,
+      "name": "InternalGetTcpTableWithOwnerPid"
+    },
+    {
+      "offset": 67228,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3992682897,
+      "sizeOfData": 49,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetTunnelPhysicalAdapter@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 205,
+      "name": "InternalGetTunnelPhysicalAdapter"
+    },
+    {
+      "offset": 67358,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3930173385,
+      "sizeOfData": 39,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetUdp6Table2@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 206,
+      "name": "InternalGetUdp6Table2"
+    },
+    {
+      "offset": 67478,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3747892123,
+      "sizeOfData": 53,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetUdp6TableWithOwnerModule@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 207,
+      "name": "InternalGetUdp6TableWithOwnerModule"
+    },
+    {
+      "offset": 67612,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4244308263,
+      "sizeOfData": 50,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetUdp6TableWithOwnerPid@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 208,
+      "name": "InternalGetUdp6TableWithOwnerPid"
+    },
+    {
+      "offset": 67742,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3252416444,
+      "sizeOfData": 47,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetUdpDynamicPortRange@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 209,
+      "name": "InternalGetUdpDynamicPortRange"
+    },
+    {
+      "offset": 67870,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3380244500,
+      "sizeOfData": 38,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetUdpTable2@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 211,
+      "name": "InternalGetUdpTable2"
+    },
+    {
+      "offset": 67988,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3896394674,
+      "sizeOfData": 37,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetUdpTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 210,
+      "name": "InternalGetUdpTable"
+    },
+    {
+      "offset": 68106,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3236098295,
+      "sizeOfData": 39,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetUdpTableEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 212,
+      "name": "InternalGetUdpTableEx"
+    },
+    {
+      "offset": 68226,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3866323776,
+      "sizeOfData": 52,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetUdpTableWithOwnerModule@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 213,
+      "name": "InternalGetUdpTableWithOwnerModule"
+    },
+    {
+      "offset": 68358,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4120144387,
+      "sizeOfData": 49,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetUdpTableWithOwnerPid@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 214,
+      "name": "InternalGetUdpTableWithOwnerPid"
+    },
+    {
+      "offset": 68488,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3764125522,
+      "sizeOfData": 49,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetUnicastIpAddressEntry@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 215,
+      "name": "InternalGetUnicastIpAddressEntry"
+    },
+    {
+      "offset": 68618,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3888342636,
+      "sizeOfData": 50,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalGetUnicastIpAddressTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 216,
+      "name": "InternalGetUnicastIpAddressTable"
+    },
+    {
+      "offset": 68748,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3312739818,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalIcmpCreateFileEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 217,
+      "name": "InternalIcmpCreateFileEx"
+    },
+    {
+      "offset": 68870,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3569218145,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalSetIfEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 218,
+      "name": "InternalSetIfEntry"
+    },
+    {
+      "offset": 68986,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3638068481,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalSetIpForwardEntry2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 220,
+      "name": "InternalSetIpForwardEntry2"
+    },
+    {
+      "offset": 69110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3452376555,
+      "sizeOfData": 42,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalSetIpForwardEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 219,
+      "name": "InternalSetIpForwardEntry"
+    },
+    {
+      "offset": 69232,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3617708347,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalSetIpInterfaceEntry@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 221,
+      "name": "InternalSetIpInterfaceEntry"
+    },
+    {
+      "offset": 69356,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3918327123,
+      "sizeOfData": 39,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalSetIpNetEntry2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 223,
+      "name": "InternalSetIpNetEntry2"
+    },
+    {
+      "offset": 69476,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3604090637,
+      "sizeOfData": 38,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalSetIpNetEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 222,
+      "name": "InternalSetIpNetEntry"
+    },
+    {
+      "offset": 69594,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3820539415,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalSetIpStats@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 224,
+      "name": "InternalSetIpStats"
+    },
+    {
+      "offset": 69710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4170596940,
+      "sizeOfData": 47,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalSetTcpDynamicPortRange@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 225,
+      "name": "InternalSetTcpDynamicPortRange"
+    },
+    {
+      "offset": 69838,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3975316313,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalSetTcpEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 226,
+      "name": "InternalSetTcpEntry"
+    },
+    {
+      "offset": 69954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3857914473,
+      "sizeOfData": 38,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalSetTeredoPort@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 227,
+      "name": "InternalSetTeredoPort"
+    },
+    {
+      "offset": 70072,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3854945473,
+      "sizeOfData": 47,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalSetUdpDynamicPortRange@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 228,
+      "name": "InternalSetUdpDynamicPortRange"
+    },
+    {
+      "offset": 70200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3419723188,
+      "sizeOfData": 49,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_InternalSetUnicastIpAddressEntry@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 229,
+      "name": "InternalSetUnicastIpAddressEntry"
+    },
+    {
+      "offset": 70330,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3603359651,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_IpReleaseAddress@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 230,
+      "name": "IpReleaseAddress"
+    },
+    {
+      "offset": 70444,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3965240280,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_IpRenewAddress@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 231,
+      "name": "IpRenewAddress"
+    },
+    {
+      "offset": 70556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3434797064,
+      "sizeOfData": 52,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_LookupPersistentTcpPortReservation@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 232,
+      "name": "LookupPersistentTcpPortReservation"
+    },
+    {
+      "offset": 70688,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4289308800,
+      "sizeOfData": 52,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_LookupPersistentUdpPortReservation@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 233,
+      "name": "LookupPersistentUdpPortReservation"
+    },
+    {
+      "offset": 70820,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3585610557,
+      "sizeOfData": 37,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NTPTimeToNTFileTime@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 234,
+      "name": "NTPTimeToNTFileTime"
+    },
+    {
+      "offset": 70938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3815797371,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NTTimeToNTPTime@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 235,
+      "name": "NTTimeToNTPTime"
+    },
+    {
+      "offset": 71050,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4171897257,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NhGetGuidFromInterfaceName@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 236,
+      "name": "NhGetGuidFromInterfaceName"
+    },
+    {
+      "offset": 71174,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3999629602,
+      "sizeOfData": 51,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NhGetInterfaceDescriptionFromGuid@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 237,
+      "name": "NhGetInterfaceDescriptionFromGuid"
+    },
+    {
+      "offset": 71306,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4282967878,
+      "sizeOfData": 50,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NhGetInterfaceNameFromDeviceGuid@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 238,
+      "name": "NhGetInterfaceNameFromDeviceGuid"
+    },
+    {
+      "offset": 71436,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4116385013,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NhGetInterfaceNameFromGuid@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 239,
+      "name": "NhGetInterfaceNameFromGuid"
+    },
+    {
+      "offset": 71560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4257048581,
+      "sizeOfData": 57,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NhpAllocateAndGetInterfaceInfoFromStack@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 240,
+      "name": "NhpAllocateAndGetInterfaceInfoFromStack"
+    },
+    {
+      "offset": 71698,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4101032077,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NotifyAddrChange@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 241,
+      "name": "NotifyAddrChange"
+    },
+    {
+      "offset": 71812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3767566920,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NotifyCompartmentChange@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 242,
+      "name": "NotifyCompartmentChange"
+    },
+    {
+      "offset": 71934,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4184359700,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NotifyIpInterfaceChange@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 243,
+      "name": "NotifyIpInterfaceChange"
+    },
+    {
+      "offset": 72056,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3289221919,
+      "sizeOfData": 53,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NotifyNetworkConnectivityHintChange@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 244,
+      "name": "NotifyNetworkConnectivityHintChange"
+    },
+    {
+      "offset": 72190,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3633269365,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NotifyRouteChange2@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 246,
+      "name": "NotifyRouteChange2"
+    },
+    {
+      "offset": 72306,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3309816790,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NotifyRouteChange@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 245,
+      "name": "NotifyRouteChange"
+    },
+    {
+      "offset": 72420,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3527274744,
+      "sizeOfData": 51,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NotifyStableUnicastIpAddressTable@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 247,
+      "name": "NotifyStableUnicastIpAddressTable"
+    },
+    {
+      "offset": 72552,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3754308474,
+      "sizeOfData": 40,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NotifyTeredoPortChange@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 248,
+      "name": "NotifyTeredoPortChange"
+    },
+    {
+      "offset": 72672,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3998114492,
+      "sizeOfData": 46,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_NotifyUnicastIpAddressChange@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 249,
+      "name": "NotifyUnicastIpAddressChange"
+    },
+    {
+      "offset": 72798,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4131211158,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_OpenCompartment@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 250,
+      "name": "OpenCompartment"
+    },
+    {
+      "offset": 72910,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3282381749,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ParseNetworkString@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 251,
+      "name": "ParseNetworkString"
+    },
+    {
+      "offset": 73026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3374830626,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfAddFiltersToInterface@24",
+      "type": "code",
+      "nameType": "name",
+      "hint": 282,
+      "name": "_PfAddFiltersToInterface@24"
+    },
+    {
+      "offset": 73148,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3727009371,
+      "sizeOfData": 45,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfAddGlobalFilterToInterface@8",
+      "type": "code",
+      "nameType": "name",
+      "hint": 283,
+      "name": "_PfAddGlobalFilterToInterface@8"
+    },
+    {
+      "offset": 73274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3603919377,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfBindInterfaceToIPAddress@12",
+      "type": "code",
+      "nameType": "name",
+      "hint": 284,
+      "name": "_PfBindInterfaceToIPAddress@12"
+    },
+    {
+      "offset": 73398,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3252342329,
+      "sizeOfData": 40,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfBindInterfaceToIndex@16",
+      "type": "code",
+      "nameType": "name",
+      "hint": 285,
+      "name": "_PfBindInterfaceToIndex@16"
+    },
+    {
+      "offset": 73518,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4117151841,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfCreateInterface@24",
+      "type": "code",
+      "nameType": "name",
+      "hint": 286,
+      "name": "_PfCreateInterface@24"
+    },
+    {
+      "offset": 73634,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4198643506,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfDeleteInterface@4",
+      "type": "code",
+      "nameType": "name",
+      "hint": 287,
+      "name": "_PfDeleteInterface@4"
+    },
+    {
+      "offset": 73748,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3644199386,
+      "sizeOfData": 28,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfDeleteLog@0",
+      "type": "code",
+      "nameType": "name",
+      "hint": 288,
+      "name": "_PfDeleteLog@0"
+    },
+    {
+      "offset": 73856,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3310922806,
+      "sizeOfData": 42,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfGetInterfaceStatistics@16",
+      "type": "code",
+      "nameType": "name",
+      "hint": 289,
+      "name": "_PfGetInterfaceStatistics@16"
+    },
+    {
+      "offset": 73978,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4116679872,
+      "sizeOfData": 26,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfMakeLog@4",
+      "type": "code",
+      "nameType": "name",
+      "hint": 290,
+      "name": "_PfMakeLog@4"
+    },
+    {
+      "offset": 74084,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3579849846,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfRebindFilters@8",
+      "type": "code",
+      "nameType": "name",
+      "hint": 291,
+      "name": "_PfRebindFilters@8"
+    },
+    {
+      "offset": 74196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3995827217,
+      "sizeOfData": 39,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfRemoveFilterHandles@12",
+      "type": "code",
+      "nameType": "name",
+      "hint": 292,
+      "name": "_PfRemoveFilterHandles@12"
+    },
+    {
+      "offset": 74316,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3558435107,
+      "sizeOfData": 46,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfRemoveFiltersFromInterface@20",
+      "type": "code",
+      "nameType": "name",
+      "hint": 293,
+      "name": "_PfRemoveFiltersFromInterface@20"
+    },
+    {
+      "offset": 74442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3833741848,
+      "sizeOfData": 50,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfRemoveGlobalFilterFromInterface@8",
+      "type": "code",
+      "nameType": "name",
+      "hint": 294,
+      "name": "_PfRemoveGlobalFilterFromInterface@8"
+    },
+    {
+      "offset": 74572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3951123029,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfSetLogBuffer@28",
+      "type": "code",
+      "nameType": "name",
+      "hint": 295,
+      "name": "_PfSetLogBuffer@28"
+    },
+    {
+      "offset": 74684,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4263540441,
+      "sizeOfData": 30,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfTestPacket@20",
+      "type": "code",
+      "nameType": "name",
+      "hint": 296,
+      "name": "_PfTestPacket@20"
+    },
+    {
+      "offset": 74794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3827901509,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_PfUnBindInterface@4",
+      "type": "code",
+      "nameType": "name",
+      "hint": 297,
+      "name": "_PfUnBindInterface@4"
+    },
+    {
+      "offset": 74908,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3887894831,
+      "sizeOfData": 56,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_RegisterInterfaceTimestampConfigChange@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 252,
+      "name": "RegisterInterfaceTimestampConfigChange"
+    },
+    {
+      "offset": 75044,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4009770914,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ResolveIpNetEntry2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 253,
+      "name": "ResolveIpNetEntry2"
+    },
+    {
+      "offset": 75160,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3372239780,
+      "sizeOfData": 33,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_ResolveNeighbor@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 254,
+      "name": "ResolveNeighbor"
+    },
+    {
+      "offset": 75274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3241547729,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_RestoreMediaSense@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 255,
+      "name": "RestoreMediaSense"
+    },
+    {
+      "offset": 75388,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4000051801,
+      "sizeOfData": 25,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SendARP@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 256,
+      "name": "SendARP"
+    },
+    {
+      "offset": 75494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3895221705,
+      "sizeOfData": 37,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetAdapterIpAddress@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 257,
+      "name": "SetAdapterIpAddress"
+    },
+    {
+      "offset": 75612,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3360611489,
+      "sizeOfData": 46,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetCurrentThreadCompartmentId@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 258,
+      "name": "SetCurrentThreadCompartmentId"
+    },
+    {
+      "offset": 75738,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3676384218,
+      "sizeOfData": 49,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetCurrentThreadCompartmentScope@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 259,
+      "name": "SetCurrentThreadCompartmentScope"
+    },
+    {
+      "offset": 75868,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3700787274,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetDnsSettings@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 260,
+      "name": "SetDnsSettings"
+    },
+    {
+      "offset": 75980,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3288712919,
+      "sizeOfData": 27,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetIfEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 261,
+      "name": "SetIfEntry"
+    },
+    {
+      "offset": 76088,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3360665648,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetInterfaceDnsSettings@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 262,
+      "name": "SetInterfaceDnsSettings"
+    },
+    {
+      "offset": 76210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3915289280,
+      "sizeOfData": 35,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetIpForwardEntry2@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 264,
+      "name": "SetIpForwardEntry2"
+    },
+    {
+      "offset": 76326,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4014051520,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetIpForwardEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 263,
+      "name": "SetIpForwardEntry"
+    },
+    {
+      "offset": 76440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4214660105,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetIpInterfaceEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 265,
+      "name": "SetIpInterfaceEntry"
+    },
+    {
+      "offset": 76556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3744747113,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetIpNetEntry2@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 267,
+      "name": "SetIpNetEntry2"
+    },
+    {
+      "offset": 76668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4284829145,
+      "sizeOfData": 30,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetIpNetEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 266,
+      "name": "SetIpNetEntry"
+    },
+    {
+      "offset": 76778,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3288150736,
+      "sizeOfData": 32,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetIpStatistics@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 268,
+      "name": "SetIpStatistics"
+    },
+    {
+      "offset": 76890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3576615505,
+      "sizeOfData": 34,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetIpStatisticsEx@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 269,
+      "name": "SetIpStatisticsEx"
+    },
+    {
+      "offset": 77004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4204937349,
+      "sizeOfData": 25,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetIpTTL@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 270,
+      "name": "SetIpTTL"
+    },
+    {
+      "offset": 77110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4292967197,
+      "sizeOfData": 36,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetJobCompartmentId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 271,
+      "name": "SetJobCompartmentId"
+    },
+    {
+      "offset": 77226,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3280056843,
+      "sizeOfData": 39,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetNetworkInformation@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 272,
+      "name": "SetNetworkInformation"
+    },
+    {
+      "offset": 77346,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3741521395,
+      "sizeOfData": 44,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetPerTcp6ConnectionEStats@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 273,
+      "name": "SetPerTcp6ConnectionEStats"
+    },
+    {
+      "offset": 77470,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3918841181,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetPerTcp6ConnectionStats@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 274,
+      "name": "SetPerTcp6ConnectionStats"
+    },
+    {
+      "offset": 77594,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4220137804,
+      "sizeOfData": 43,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetPerTcpConnectionEStats@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 275,
+      "name": "SetPerTcpConnectionEStats"
+    },
+    {
+      "offset": 77718,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3330751952,
+      "sizeOfData": 42,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetPerTcpConnectionStats@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 276,
+      "name": "SetPerTcpConnectionStats"
+    },
+    {
+      "offset": 77840,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3786400532,
+      "sizeOfData": 40,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetSessionCompartmentId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 277,
+      "name": "SetSessionCompartmentId"
+    },
+    {
+      "offset": 77960,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3464512877,
+      "sizeOfData": 28,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetTcpEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 278,
+      "name": "SetTcpEntry"
+    },
+    {
+      "offset": 78068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3446486094,
+      "sizeOfData": 41,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_SetUnicastIpAddressEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 279,
+      "name": "SetUnicastIpAddressEntry"
+    },
+    {
+      "offset": 78190,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3459617225,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_UnenableRouter@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 280,
+      "name": "UnenableRouter"
+    },
+    {
+      "offset": 78302,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4047536264,
+      "sizeOfData": 57,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_UnregisterInterfaceTimestampConfigChange@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 281,
+      "name": "UnregisterInterfaceTimestampConfigChange"
+    },
+    {
+      "offset": 78440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3708614514,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_if_indextoname@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 300,
+      "name": "if_indextoname"
+    },
+    {
+      "offset": 78552,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4059794046,
+      "sizeOfData": 31,
+      "dllName": "IPHLPAPI.DLL",
+      "symbolName": "_if_nametoindex@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 301,
+      "name": "if_nametoindex"
+    }
+  ]
+}

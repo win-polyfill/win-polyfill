@@ -1,0 +1,828 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\peerdist.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     996 size
+correct header end
+
+    59 public symbols
+
+     13B6 __IMPORT_DESCRIPTOR_PeerDist
+     15E4 __NULL_IMPORT_DESCRIPTOR
+     171C PeerDist_NULL_THUNK_DATA
+     2580 _PeerDistStartup@12
+     2580 __imp__PeerDistStartup@12
+     250E _PeerDistShutdown@4
+     250E __imp__PeerDistShutdown@4
+     1DE8 _PeerDistGetStatus@8
+     1DE8 __imp__PeerDistGetStatus@8
+     1ECE _PeerDistRegisterForStatusChangeNotification@20
+     1ECE __imp__PeerDistRegisterForStatusChangeNotification@20
+     25F2 _PeerDistUnregisterForStatusChangeNotification@4
+     25F2 __imp__PeerDistUnregisterForStatusChangeNotification@4
+     19E8 _PeerDistClientCancelAsyncOperation@12
+     19E8 __imp__PeerDistClientCancelAsyncOperation@12
+     1FEC _PeerDistServerCancelAsyncOperation@16
+     1FEC __imp__PeerDistServerCancelAsyncOperation@16
+     238C _PeerDistServerPublishStream@36
+     238C __imp__PeerDistServerPublishStream@36
+     2284 _PeerDistServerPublishAddToStream@20
+     2284 __imp__PeerDistServerPublishAddToStream@20
+     2306 _PeerDistServerPublishCompleteStream@12
+     2306 __imp__PeerDistServerPublishCompleteStream@12
+     20F6 _PeerDistServerCloseStreamHandle@8
+     20F6 __imp__PeerDistServerCloseStreamHandle@8
+     2494 _PeerDistServerUnpublish@12
+     2494 __imp__PeerDistServerUnpublish@12
+     2176 _PeerDistServerOpenContentInformation@40
+     2176 __imp__PeerDistServerOpenContentInformation@40
+     240A _PeerDistServerRetrieveContentInformation@20
+     240A __imp__PeerDistServerRetrieveContentInformation@20
+     2070 _PeerDistServerCloseContentInformation@8
+     2070 __imp__PeerDistServerCloseContentInformation@8
+     1C74 _PeerDistClientOpenContent@20
+     1C74 __imp__PeerDistClientOpenContent@20
+     1A6C _PeerDistClientCloseContent@8
+     1A6C __imp__PeerDistClientCloseContent@8
+     1870 _PeerDistClientAddContentInformation@20
+     1870 __imp__PeerDistClientAddContentInformation@20
+     1AE8 _PeerDistClientCompleteContentInformation@12
+     1AE8 __imp__PeerDistClientCompleteContentInformation@12
+     18F6 _PeerDistClientAddData@20
+     18F6 __imp__PeerDistClientAddData@20
+     196E _PeerDistClientBlockRead@24
+     196E __imp__PeerDistClientBlockRead@24
+     1CF0 _PeerDistClientStreamRead@24
+     1CF0 __imp__PeerDistClientStreamRead@24
+     1B72 _PeerDistClientFlushContent@20
+     1B72 __imp__PeerDistClientFlushContent@20
+     1E5A _PeerDistGetStatusEx@8
+     1E5A __imp__PeerDistGetStatusEx@8
+     1F5C _PeerDistRegisterForStatusChangeNotificationEx@20
+     1F5C __imp__PeerDistRegisterForStatusChangeNotificationEx@20
+     21FC _PeerDistServerOpenContentInformationEx@44
+     21FC __imp__PeerDistServerOpenContentInformationEx@44
+     1BEE _PeerDistClientGetInformationByHandle@20
+     1BEE __imp__PeerDistClientGetInformationByHandle@20
+     1D6A _PeerDistGetOverlappedResult@12
+     1D6A __imp__PeerDistGetOverlappedResult@12
+
+Archive member name at 13B6: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1F2 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        C78AE815 time date stamp
+             10E file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CE file pointer to raw data (000000CE to 000000E1)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     100 file pointer to raw data (00000100 to 0000010D)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 15E4: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        DAE61859 time date stamp
+              BA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      64 file pointer to raw data (00000064 to 000000A5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A6 file pointer to raw data (000000A6 to 000000B9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 171C: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     118 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        DA3670CC time date stamp
+              D6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1870: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF404C36
+  SizeOfData   : 00000035
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistClientAddContentInformation@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : PeerDistClientAddContentInformation
+
+Archive member name at 18F6: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE890B50
+  SizeOfData   : 00000027
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistClientAddData@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : PeerDistClientAddData
+
+Archive member name at 196E: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2F63FC7
+  SizeOfData   : 00000029
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistClientBlockRead@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : PeerDistClientBlockRead
+
+Archive member name at 19E8: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBCE951B
+  SizeOfData   : 00000034
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistClientCancelAsyncOperation@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : PeerDistClientCancelAsyncOperation
+
+Archive member name at 1A6C: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8C8F9A0
+  SizeOfData   : 0000002B
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistClientCloseContent@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : PeerDistClientCloseContent
+
+Archive member name at 1AE8: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB2DB854
+  SizeOfData   : 0000003A
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistClientCompleteContentInformation@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : PeerDistClientCompleteContentInformation
+
+Archive member name at 1B72: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0AB242B
+  SizeOfData   : 0000002C
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistClientFlushContent@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : PeerDistClientFlushContent
+
+Archive member name at 1BEE: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D150D4FE
+  SizeOfData   : 00000036
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistClientGetInformationByHandle@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : PeerDistClientGetInformationByHandle
+
+Archive member name at 1C74: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E09A3567
+  SizeOfData   : 0000002B
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistClientOpenContent@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : PeerDistClientOpenContent
+
+Archive member name at 1CF0: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E30DE370
+  SizeOfData   : 0000002A
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistClientStreamRead@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : PeerDistClientStreamRead
+
+Archive member name at 1D6A: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5209B22
+  SizeOfData   : 0000002D
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistGetOverlappedResult@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : PeerDistGetOverlappedResult
+
+Archive member name at 1DE8: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2EB156A
+  SizeOfData   : 00000022
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistGetStatus@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : PeerDistGetStatus
+
+Archive member name at 1E5A: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEA99D39
+  SizeOfData   : 00000024
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistGetStatusEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : PeerDistGetStatusEx
+
+Archive member name at 1ECE: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      51 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F29ED2A0
+  SizeOfData   : 0000003D
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistRegisterForStatusChangeNotification@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : PeerDistRegisterForStatusChangeNotification
+
+Archive member name at 1F5C: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      53 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCAFE90E
+  SizeOfData   : 0000003F
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistRegisterForStatusChangeNotificationEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : PeerDistRegisterForStatusChangeNotificationEx
+
+Archive member name at 1FEC: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAC3006D
+  SizeOfData   : 00000034
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistServerCancelAsyncOperation@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : PeerDistServerCancelAsyncOperation
+
+Archive member name at 2070: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDF4081C
+  SizeOfData   : 00000036
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistServerCloseContentInformation@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : PeerDistServerCloseContentInformation
+
+Archive member name at 20F6: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED017950
+  SizeOfData   : 00000030
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistServerCloseStreamHandle@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : PeerDistServerCloseStreamHandle
+
+Archive member name at 2176: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E84A71B6
+  SizeOfData   : 00000036
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistServerOpenContentInformation@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : PeerDistServerOpenContentInformation
+
+Archive member name at 21FC: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBC21361
+  SizeOfData   : 00000038
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistServerOpenContentInformationEx@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : PeerDistServerOpenContentInformationEx
+
+Archive member name at 2284: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E058551E
+  SizeOfData   : 00000032
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistServerPublishAddToStream@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : PeerDistServerPublishAddToStream
+
+Archive member name at 2306: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3850A89
+  SizeOfData   : 00000035
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistServerPublishCompleteStream@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : PeerDistServerPublishCompleteStream
+
+Archive member name at 238C: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F539BD0C
+  SizeOfData   : 0000002D
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistServerPublishStream@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : PeerDistServerPublishStream
+
+Archive member name at 240A: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D66C6A1E
+  SizeOfData   : 0000003A
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistServerRetrieveContentInformation@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : PeerDistServerRetrieveContentInformation
+
+Archive member name at 2494: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7E3801F
+  SizeOfData   : 00000029
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistServerUnpublish@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : PeerDistServerUnpublish
+
+Archive member name at 250E: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D33D41AE
+  SizeOfData   : 00000021
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistShutdown@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : PeerDistShutdown
+
+Archive member name at 2580: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC3451DC
+  SizeOfData   : 00000021
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistStartup@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : PeerDistStartup
+
+Archive member name at 25F2: PeerDist.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      52 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5B8FDBB
+  SizeOfData   : 0000003E
+  DLL name     : PeerDist.dll
+  Symbol name  : _PeerDistUnregisterForStatusChangeNotification@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : PeerDistUnregisterForStatusChangeNotification
+
+     Exports
+
+       ordinal    name
+
+                  _PeerDistClientAddContentInformation@20
+                  _PeerDistClientAddData@20
+                  _PeerDistClientBlockRead@24
+                  _PeerDistClientCancelAsyncOperation@12
+                  _PeerDistClientCloseContent@8
+                  _PeerDistClientCompleteContentInformation@12
+                  _PeerDistClientFlushContent@20
+                  _PeerDistClientGetInformationByHandle@20
+                  _PeerDistClientOpenContent@20
+                  _PeerDistClientStreamRead@24
+                  _PeerDistGetOverlappedResult@12
+                  _PeerDistGetStatus@8
+                  _PeerDistGetStatusEx@8
+                  _PeerDistRegisterForStatusChangeNotification@20
+                  _PeerDistRegisterForStatusChangeNotificationEx@20
+                  _PeerDistServerCancelAsyncOperation@16
+                  _PeerDistServerCloseContentInformation@8
+                  _PeerDistServerCloseStreamHandle@8
+                  _PeerDistServerOpenContentInformation@40
+                  _PeerDistServerOpenContentInformationEx@44
+                  _PeerDistServerPublishAddToStream@20
+                  _PeerDistServerPublishCompleteStream@12
+                  _PeerDistServerPublishStream@36
+                  _PeerDistServerRetrieveContentInformation@20
+                  _PeerDistServerUnpublish@12
+                  _PeerDistShutdown@4
+                  _PeerDistStartup@12
+                  _PeerDistUnregisterForStatusChangeNotification@4
+
+  Summary
+
+          C6 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           E .idata$6

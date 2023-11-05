@@ -1,0 +1,5037 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_DhcpAddFilterV4@12"
+    },
+    {
+      "name": "_DhcpAddMScopeElement@12"
+    },
+    {
+      "name": "_DhcpAddSecurityGroup@4"
+    },
+    {
+      "name": "_DhcpAddServer@20"
+    },
+    {
+      "name": "_DhcpAddSubnetElement@12"
+    },
+    {
+      "name": "_DhcpAddSubnetElementV4@12"
+    },
+    {
+      "name": "_DhcpAddSubnetElementV5@12"
+    },
+    {
+      "name": "_DhcpAddSubnetElementV6@24"
+    },
+    {
+      "name": "_DhcpAuditLogGetParams@24"
+    },
+    {
+      "name": "_DhcpAuditLogSetParams@24"
+    },
+    {
+      "name": "_DhcpCreateClass@12"
+    },
+    {
+      "name": "_DhcpCreateClassV6@12"
+    },
+    {
+      "name": "_DhcpCreateClientInfo@8"
+    },
+    {
+      "name": "_DhcpCreateClientInfoV4@8"
+    },
+    {
+      "name": "_DhcpCreateClientInfoVQ@8"
+    },
+    {
+      "name": "_DhcpCreateOption@12"
+    },
+    {
+      "name": "_DhcpCreateOptionV5@24"
+    },
+    {
+      "name": "_DhcpCreateOptionV6@24"
+    },
+    {
+      "name": "_DhcpCreateSubnet@12"
+    },
+    {
+      "name": "_DhcpCreateSubnetV6@24"
+    },
+    {
+      "name": "_DhcpCreateSubnetVQ@12"
+    },
+    {
+      "name": "_DhcpDeleteClass@12"
+    },
+    {
+      "name": "_DhcpDeleteClassV6@12"
+    },
+    {
+      "name": "_DhcpDeleteClientInfo@8"
+    },
+    {
+      "name": "_DhcpDeleteClientInfoV6@8"
+    },
+    {
+      "name": "_DhcpDeleteFilterV4@8"
+    },
+    {
+      "name": "_DhcpDeleteMClientInfo@8"
+    },
+    {
+      "name": "_DhcpDeleteMScope@12"
+    },
+    {
+      "name": "_DhcpDeleteServer@20"
+    },
+    {
+      "name": "_DhcpDeleteSubnet@12"
+    },
+    {
+      "name": "_DhcpDeleteSubnetV6@24"
+    },
+    {
+      "name": "_DhcpDeleteSuperScopeV4@8"
+    },
+    {
+      "name": "_DhcpDsCleanup@0"
+    },
+    {
+      "name": "_DhcpDsClearHostServerEntries@0"
+    },
+    {
+      "name": "_DhcpDsInit@0"
+    },
+    {
+      "name": "_DhcpEnumClasses@28"
+    },
+    {
+      "name": "_DhcpEnumClassesV6@28"
+    },
+    {
+      "name": "_DhcpEnumFilterV4@28"
+    },
+    {
+      "name": "_DhcpEnumMScopeClients@28"
+    },
+    {
+      "name": "_DhcpEnumMScopeElements@32"
+    },
+    {
+      "name": "_DhcpEnumMScopes@24"
+    },
+    {
+      "name": "_DhcpEnumOptionValues@28"
+    },
+    {
+      "name": "_DhcpEnumOptionValuesV5@40"
+    },
+    {
+      "name": "_DhcpEnumOptionValuesV6@40"
+    },
+    {
+      "name": "_DhcpEnumOptions@24"
+    },
+    {
+      "name": "_DhcpEnumOptionsV5@36"
+    },
+    {
+      "name": "_DhcpEnumOptionsV6@36"
+    },
+    {
+      "name": "_DhcpEnumServers@20"
+    },
+    {
+      "name": "_DhcpEnumSubnetClients@28"
+    },
+    {
+      "name": "_DhcpEnumSubnetClientsFilterStatusInfo@28"
+    },
+    {
+      "name": "_DhcpEnumSubnetClientsV4@28"
+    },
+    {
+      "name": "_DhcpEnumSubnetClientsV5@28"
+    },
+    {
+      "name": "_DhcpEnumSubnetClientsV6@40"
+    },
+    {
+      "name": "_DhcpEnumSubnetClientsVQ@28"
+    },
+    {
+      "name": "_DhcpEnumSubnetElements@32"
+    },
+    {
+      "name": "_DhcpEnumSubnetElementsV4@32"
+    },
+    {
+      "name": "_DhcpEnumSubnetElementsV5@32"
+    },
+    {
+      "name": "_DhcpEnumSubnetElementsV6@44"
+    },
+    {
+      "name": "_DhcpEnumSubnets@24"
+    },
+    {
+      "name": "_DhcpEnumSubnetsV6@24"
+    },
+    {
+      "name": "_DhcpGetAllOptionValues@16"
+    },
+    {
+      "name": "_DhcpGetAllOptionValuesV6@16"
+    },
+    {
+      "name": "_DhcpGetAllOptions@12"
+    },
+    {
+      "name": "_DhcpGetAllOptionsV6@12"
+    },
+    {
+      "name": "_DhcpGetClassInfo@16"
+    },
+    {
+      "name": "_DhcpGetClientInfo@12"
+    },
+    {
+      "name": "_DhcpGetClientInfoV4@12"
+    },
+    {
+      "name": "_DhcpGetClientInfoV6@12"
+    },
+    {
+      "name": "_DhcpGetClientInfoVQ@12"
+    },
+    {
+      "name": "_DhcpGetClientOptions@16"
+    },
+    {
+      "name": "_DhcpGetFilterV4@8"
+    },
+    {
+      "name": "_DhcpGetMCastMibInfo@8"
+    },
+    {
+      "name": "_DhcpGetMScopeInfo@12"
+    },
+    {
+      "name": "_DhcpGetMibInfo@8"
+    },
+    {
+      "name": "_DhcpGetMibInfoV5@8"
+    },
+    {
+      "name": "_DhcpGetMibInfoV6@8"
+    },
+    {
+      "name": "_DhcpGetMibInfoVQ@8"
+    },
+    {
+      "name": "_DhcpGetOptionInfo@12"
+    },
+    {
+      "name": "_DhcpGetOptionInfoV5@24"
+    },
+    {
+      "name": "_DhcpGetOptionInfoV6@24"
+    },
+    {
+      "name": "_DhcpGetOptionValue@16"
+    },
+    {
+      "name": "_DhcpGetOptionValueV5@28"
+    },
+    {
+      "name": "_DhcpGetOptionValueV6@28"
+    },
+    {
+      "name": "_DhcpGetServerBindingInfo@12"
+    },
+    {
+      "name": "_DhcpGetServerBindingInfoV6@12"
+    },
+    {
+      "name": "_DhcpGetServerSpecificStrings@8"
+    },
+    {
+      "name": "_DhcpGetSubnetDelayOffer@12"
+    },
+    {
+      "name": "_DhcpGetSubnetInfo@12"
+    },
+    {
+      "name": "_DhcpGetSubnetInfoV6@24"
+    },
+    {
+      "name": "_DhcpGetSubnetInfoVQ@12"
+    },
+    {
+      "name": "_DhcpGetSuperScopeInfoV4@8"
+    },
+    {
+      "name": "_DhcpGetThreadOptions@8"
+    },
+    {
+      "name": "_DhcpGetVersion@12"
+    },
+    {
+      "name": "_DhcpHlprAddV4PolicyCondition@40"
+    },
+    {
+      "name": "_DhcpHlprAddV4PolicyExpr@16"
+    },
+    {
+      "name": "_DhcpHlprAddV4PolicyRange@8"
+    },
+    {
+      "name": "_DhcpHlprCreateV4Policy@32"
+    },
+    {
+      "name": "_DhcpHlprCreateV4PolicyEx@32"
+    },
+    {
+      "name": "_DhcpHlprFindV4DhcpProperty@12"
+    },
+    {
+      "name": "_DhcpHlprFreeV4DhcpProperty@4"
+    },
+    {
+      "name": "_DhcpHlprFreeV4DhcpPropertyArray@4"
+    },
+    {
+      "name": "_DhcpHlprFreeV4Policy@4"
+    },
+    {
+      "name": "_DhcpHlprFreeV4PolicyArray@4"
+    },
+    {
+      "name": "_DhcpHlprFreeV4PolicyEx@4"
+    },
+    {
+      "name": "_DhcpHlprFreeV4PolicyExArray@4"
+    },
+    {
+      "name": "_DhcpHlprIsV4PolicySingleUC@4"
+    },
+    {
+      "name": "_DhcpHlprIsV4PolicyValid@4"
+    },
+    {
+      "name": "_DhcpHlprIsV4PolicyWellFormed@4"
+    },
+    {
+      "name": "_DhcpHlprModifyV4PolicyExpr@8"
+    },
+    {
+      "name": "_DhcpHlprResetV4PolicyExpr@4"
+    },
+    {
+      "name": "_DhcpModifyClass@12"
+    },
+    {
+      "name": "_DhcpModifyClassV6@12"
+    },
+    {
+      "name": "_DhcpRemoveMScopeElement@16"
+    },
+    {
+      "name": "_DhcpRemoveOption@8"
+    },
+    {
+      "name": "_DhcpRemoveOptionV5@20"
+    },
+    {
+      "name": "_DhcpRemoveOptionV6@20"
+    },
+    {
+      "name": "_DhcpRemoveOptionValue@12"
+    },
+    {
+      "name": "_DhcpRemoveOptionValueV5@24"
+    },
+    {
+      "name": "_DhcpRemoveOptionValueV6@24"
+    },
+    {
+      "name": "_DhcpRemoveSubnetElement@16"
+    },
+    {
+      "name": "_DhcpRemoveSubnetElementV4@16"
+    },
+    {
+      "name": "_DhcpRemoveSubnetElementV5@16"
+    },
+    {
+      "name": "_DhcpRemoveSubnetElementV6@28"
+    },
+    {
+      "name": "_DhcpRpcFreeMemory@4"
+    },
+    {
+      "name": "_DhcpScanDatabase@16"
+    },
+    {
+      "name": "_DhcpScanMDatabase@16"
+    },
+    {
+      "name": "_DhcpServerAuditlogParamsFree@4"
+    },
+    {
+      "name": "_DhcpServerBackupDatabase@8"
+    },
+    {
+      "name": "_DhcpServerGetConfig@8"
+    },
+    {
+      "name": "_DhcpServerGetConfigV4@8"
+    },
+    {
+      "name": "_DhcpServerGetConfigV6@12"
+    },
+    {
+      "name": "_DhcpServerGetConfigVQ@8"
+    },
+    {
+      "name": "_DhcpServerQueryAttribute@16"
+    },
+    {
+      "name": "_DhcpServerQueryAttributes@20"
+    },
+    {
+      "name": "_DhcpServerQueryDnsRegCredentials@20"
+    },
+    {
+      "name": "_DhcpServerRedoAuthorization@8"
+    },
+    {
+      "name": "_DhcpServerRestoreDatabase@8"
+    },
+    {
+      "name": "_DhcpServerSetConfig@12"
+    },
+    {
+      "name": "_DhcpServerSetConfigV4@12"
+    },
+    {
+      "name": "_DhcpServerSetConfigV6@16"
+    },
+    {
+      "name": "_DhcpServerSetConfigVQ@12"
+    },
+    {
+      "name": "_DhcpServerSetDnsRegCredentials@16"
+    },
+    {
+      "name": "_DhcpServerSetDnsRegCredentialsV5@16"
+    },
+    {
+      "name": "_DhcpSetClientInfo@8"
+    },
+    {
+      "name": "_DhcpSetClientInfoV4@8"
+    },
+    {
+      "name": "_DhcpSetClientInfoV6@8"
+    },
+    {
+      "name": "_DhcpSetClientInfoVQ@8"
+    },
+    {
+      "name": "_DhcpSetFilterV4@8"
+    },
+    {
+      "name": "_DhcpSetMScopeInfo@16"
+    },
+    {
+      "name": "_DhcpSetOptionInfo@12"
+    },
+    {
+      "name": "_DhcpSetOptionInfoV5@24"
+    },
+    {
+      "name": "_DhcpSetOptionInfoV6@24"
+    },
+    {
+      "name": "_DhcpSetOptionValue@16"
+    },
+    {
+      "name": "_DhcpSetOptionValueV5@28"
+    },
+    {
+      "name": "_DhcpSetOptionValueV6@28"
+    },
+    {
+      "name": "_DhcpSetOptionValues@12"
+    },
+    {
+      "name": "_DhcpSetOptionValuesV5@24"
+    },
+    {
+      "name": "_DhcpSetServerBindingInfo@12"
+    },
+    {
+      "name": "_DhcpSetServerBindingInfoV6@12"
+    },
+    {
+      "name": "_DhcpSetSubnetDelayOffer@12"
+    },
+    {
+      "name": "_DhcpSetSubnetInfo@12"
+    },
+    {
+      "name": "_DhcpSetSubnetInfoV6@24"
+    },
+    {
+      "name": "_DhcpSetSubnetInfoVQ@12"
+    },
+    {
+      "name": "_DhcpSetSuperScopeV4@16"
+    },
+    {
+      "name": "_DhcpSetThreadOptions@8"
+    },
+    {
+      "name": "_DhcpV4AddPolicyRange@16"
+    },
+    {
+      "name": "_DhcpV4CreateClientInfo@8"
+    },
+    {
+      "name": "_DhcpV4CreateClientInfoEx@8"
+    },
+    {
+      "name": "_DhcpV4CreatePolicy@8"
+    },
+    {
+      "name": "_DhcpV4CreatePolicyEx@8"
+    },
+    {
+      "name": "_DhcpV4DeletePolicy@16"
+    },
+    {
+      "name": "_DhcpV4EnumPolicies@32"
+    },
+    {
+      "name": "_DhcpV4EnumPoliciesEx@32"
+    },
+    {
+      "name": "_DhcpV4EnumSubnetClients@28"
+    },
+    {
+      "name": "_DhcpV4EnumSubnetClientsEx@28"
+    },
+    {
+      "name": "_DhcpV4EnumSubnetReservations@28"
+    },
+    {
+      "name": "_DhcpV4FailoverAddScopeToRelationship@8"
+    },
+    {
+      "name": "_DhcpV4FailoverCreateRelationship@8"
+    },
+    {
+      "name": "_DhcpV4FailoverDeleteRelationship@8"
+    },
+    {
+      "name": "_DhcpV4FailoverDeleteScopeFromRelationship@8"
+    },
+    {
+      "name": "_DhcpV4FailoverEnumRelationship@24"
+    },
+    {
+      "name": "_DhcpV4FailoverGetAddressStatus@12"
+    },
+    {
+      "name": "_DhcpV4FailoverGetClientInfo@12"
+    },
+    {
+      "name": "_DhcpV4FailoverGetRelationship@12"
+    },
+    {
+      "name": "_DhcpV4FailoverGetScopeRelationship@12"
+    },
+    {
+      "name": "_DhcpV4FailoverGetScopeStatistics@12"
+    },
+    {
+      "name": "_DhcpV4FailoverGetSystemTime@12"
+    },
+    {
+      "name": "_DhcpV4FailoverSetRelationship@12"
+    },
+    {
+      "name": "_DhcpV4FailoverTriggerAddrAllocation@8"
+    },
+    {
+      "name": "_DhcpV4GetAllOptionValues@16"
+    },
+    {
+      "name": "_DhcpV4GetClientInfo@12"
+    },
+    {
+      "name": "_DhcpV4GetClientInfoEx@12"
+    },
+    {
+      "name": "_DhcpV4GetFreeIPAddress@24"
+    },
+    {
+      "name": "_DhcpV4GetOptionValue@28"
+    },
+    {
+      "name": "_DhcpV4GetPolicy@20"
+    },
+    {
+      "name": "_DhcpV4GetPolicyEx@20"
+    },
+    {
+      "name": "_DhcpV4QueryPolicyEnforcement@16"
+    },
+    {
+      "name": "_DhcpV4RemoveOptionValue@24"
+    },
+    {
+      "name": "_DhcpV4RemovePolicyRange@16"
+    },
+    {
+      "name": "_DhcpV4SetOptionValue@28"
+    },
+    {
+      "name": "_DhcpV4SetOptionValues@24"
+    },
+    {
+      "name": "_DhcpV4SetPolicy@24"
+    },
+    {
+      "name": "_DhcpV4SetPolicyEnforcement@16"
+    },
+    {
+      "name": "_DhcpV4SetPolicyEx@24"
+    },
+    {
+      "name": "_DhcpV6CreateClientInfo@8"
+    },
+    {
+      "name": "_DhcpV6GetFreeIPAddress@60"
+    },
+    {
+      "name": "_DhcpV6GetStatelessStatistics@8"
+    },
+    {
+      "name": "_DhcpV6GetStatelessStoreParams@28"
+    },
+    {
+      "name": "_DhcpV6SetStatelessStoreParams@32"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 27986,
+      "name": "__IMPORT_DESCRIPTOR_DHCPSAPI"
+    },
+    {
+      "offset": 28544,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 28856,
+      "name": "DHCPSAPI_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 31310,
+      "name": "_DhcpCreateSubnet@12"
+    },
+    {
+      "offset": 31310,
+      "name": "__imp__DhcpCreateSubnet@12"
+    },
+    {
+      "offset": 48198,
+      "name": "_DhcpSetSubnetInfo@12"
+    },
+    {
+      "offset": 48198,
+      "name": "__imp__DhcpSetSubnetInfo@12"
+    },
+    {
+      "offset": 39430,
+      "name": "_DhcpGetSubnetInfo@12"
+    },
+    {
+      "offset": 39430,
+      "name": "__imp__DhcpGetSubnetInfo@12"
+    },
+    {
+      "offset": 36026,
+      "name": "_DhcpEnumSubnets@24"
+    },
+    {
+      "offset": 36026,
+      "name": "__imp__DhcpEnumSubnets@24"
+    },
+    {
+      "offset": 29658,
+      "name": "_DhcpAddSubnetElement@12"
+    },
+    {
+      "offset": 29658,
+      "name": "__imp__DhcpAddSubnetElement@12"
+    },
+    {
+      "offset": 35540,
+      "name": "_DhcpEnumSubnetElements@32"
+    },
+    {
+      "offset": 35540,
+      "name": "__imp__DhcpEnumSubnetElements@32"
+    },
+    {
+      "offset": 43282,
+      "name": "_DhcpRemoveSubnetElement@16"
+    },
+    {
+      "offset": 43282,
+      "name": "__imp__DhcpRemoveSubnetElement@16"
+    },
+    {
+      "offset": 32586,
+      "name": "_DhcpDeleteSubnet@12"
+    },
+    {
+      "offset": 32586,
+      "name": "__imp__DhcpDeleteSubnet@12"
+    },
+    {
+      "offset": 30964,
+      "name": "_DhcpCreateOption@12"
+    },
+    {
+      "offset": 30964,
+      "name": "__imp__DhcpCreateOption@12"
+    },
+    {
+      "offset": 46888,
+      "name": "_DhcpSetOptionInfo@12"
+    },
+    {
+      "offset": 46888,
+      "name": "__imp__DhcpSetOptionInfo@12"
+    },
+    {
+      "offset": 38232,
+      "name": "_DhcpGetOptionInfo@12"
+    },
+    {
+      "offset": 38232,
+      "name": "__imp__DhcpGetOptionInfo@12"
+    },
+    {
+      "offset": 42572,
+      "name": "_DhcpRemoveOption@8"
+    },
+    {
+      "offset": 42572,
+      "name": "__imp__DhcpRemoveOption@8"
+    },
+    {
+      "offset": 47240,
+      "name": "_DhcpSetOptionValue@16"
+    },
+    {
+      "offset": 47240,
+      "name": "__imp__DhcpSetOptionValue@16"
+    },
+    {
+      "offset": 38584,
+      "name": "_DhcpGetOptionValue@16"
+    },
+    {
+      "offset": 38584,
+      "name": "__imp__DhcpGetOptionValue@16"
+    },
+    {
+      "offset": 33978,
+      "name": "_DhcpEnumOptionValues@28"
+    },
+    {
+      "offset": 33978,
+      "name": "__imp__DhcpEnumOptionValues@28"
+    },
+    {
+      "offset": 42918,
+      "name": "_DhcpRemoveOptionValue@12"
+    },
+    {
+      "offset": 42918,
+      "name": "__imp__DhcpRemoveOptionValue@12"
+    },
+    {
+      "offset": 30606,
+      "name": "_DhcpCreateClientInfo@8"
+    },
+    {
+      "offset": 30606,
+      "name": "__imp__DhcpCreateClientInfo@8"
+    },
+    {
+      "offset": 46198,
+      "name": "_DhcpSetClientInfo@8"
+    },
+    {
+      "offset": 46198,
+      "name": "__imp__DhcpSetClientInfo@8"
+    },
+    {
+      "offset": 36846,
+      "name": "_DhcpGetClientInfo@12"
+    },
+    {
+      "offset": 36846,
+      "name": "__imp__DhcpGetClientInfo@12"
+    },
+    {
+      "offset": 31886,
+      "name": "_DhcpDeleteClientInfo@8"
+    },
+    {
+      "offset": 31886,
+      "name": "__imp__DhcpDeleteClientInfo@8"
+    },
+    {
+      "offset": 34796,
+      "name": "_DhcpEnumSubnetClients@28"
+    },
+    {
+      "offset": 34796,
+      "name": "__imp__DhcpEnumSubnetClients@28"
+    },
+    {
+      "offset": 37316,
+      "name": "_DhcpGetClientOptions@16"
+    },
+    {
+      "offset": 37316,
+      "name": "__imp__DhcpGetClientOptions@16"
+    },
+    {
+      "offset": 37778,
+      "name": "_DhcpGetMibInfo@8"
+    },
+    {
+      "offset": 37778,
+      "name": "__imp__DhcpGetMibInfo@8"
+    },
+    {
+      "offset": 37890,
+      "name": "_DhcpGetMibInfoV5@8"
+    },
+    {
+      "offset": 37890,
+      "name": "__imp__DhcpGetMibInfoV5@8"
+    },
+    {
+      "offset": 38118,
+      "name": "_DhcpGetMibInfoVQ@8"
+    },
+    {
+      "offset": 38118,
+      "name": "__imp__DhcpGetMibInfoVQ@8"
+    },
+    {
+      "offset": 43776,
+      "name": "_DhcpRpcFreeMemory@4"
+    },
+    {
+      "offset": 43776,
+      "name": "__imp__DhcpRpcFreeMemory@4"
+    },
+    {
+      "offset": 34336,
+      "name": "_DhcpEnumOptions@24"
+    },
+    {
+      "offset": 34336,
+      "name": "__imp__DhcpEnumOptions@24"
+    },
+    {
+      "offset": 47592,
+      "name": "_DhcpSetOptionValues@12"
+    },
+    {
+      "offset": 47592,
+      "name": "__imp__DhcpSetOptionValues@12"
+    },
+    {
+      "offset": 45462,
+      "name": "_DhcpServerSetConfig@12"
+    },
+    {
+      "offset": 45462,
+      "name": "__imp__DhcpServerSetConfig@12"
+    },
+    {
+      "offset": 44368,
+      "name": "_DhcpServerGetConfig@8"
+    },
+    {
+      "offset": 44368,
+      "name": "__imp__DhcpServerGetConfig@8"
+    },
+    {
+      "offset": 43890,
+      "name": "_DhcpScanDatabase@16"
+    },
+    {
+      "offset": 43890,
+      "name": "__imp__DhcpScanDatabase@16"
+    },
+    {
+      "offset": 40020,
+      "name": "_DhcpGetVersion@12"
+    },
+    {
+      "offset": 40020,
+      "name": "__imp__DhcpGetVersion@12"
+    },
+    {
+      "offset": 46544,
+      "name": "_DhcpSetClientInfoVQ@8"
+    },
+    {
+      "offset": 46544,
+      "name": "__imp__DhcpSetClientInfoVQ@8"
+    },
+    {
+      "offset": 37198,
+      "name": "_DhcpGetClientInfoVQ@12"
+    },
+    {
+      "offset": 37198,
+      "name": "__imp__DhcpGetClientInfoVQ@12"
+    },
+    {
+      "offset": 30844,
+      "name": "_DhcpCreateClientInfoVQ@8"
+    },
+    {
+      "offset": 30844,
+      "name": "__imp__DhcpCreateClientInfoVQ@8"
+    },
+    {
+      "offset": 35418,
+      "name": "_DhcpEnumSubnetClientsVQ@28"
+    },
+    {
+      "offset": 35418,
+      "name": "__imp__DhcpEnumSubnetClientsVQ@28"
+    },
+    {
+      "offset": 34916,
+      "name": "_DhcpEnumSubnetClientsFilterStatusInfo@28"
+    },
+    {
+      "offset": 34916,
+      "name": "__imp__DhcpEnumSubnetClientsFilterStatusInfo@28"
+    },
+    {
+      "offset": 46312,
+      "name": "_DhcpSetClientInfoV4@8"
+    },
+    {
+      "offset": 46312,
+      "name": "__imp__DhcpSetClientInfoV4@8"
+    },
+    {
+      "offset": 36962,
+      "name": "_DhcpGetClientInfoV4@12"
+    },
+    {
+      "offset": 36962,
+      "name": "__imp__DhcpGetClientInfoV4@12"
+    },
+    {
+      "offset": 30724,
+      "name": "_DhcpCreateClientInfoV4@8"
+    },
+    {
+      "offset": 30724,
+      "name": "__imp__DhcpCreateClientInfoV4@8"
+    },
+    {
+      "offset": 35052,
+      "name": "_DhcpEnumSubnetClientsV4@28"
+    },
+    {
+      "offset": 35052,
+      "name": "__imp__DhcpEnumSubnetClientsV4@28"
+    },
+    {
+      "offset": 45580,
+      "name": "_DhcpServerSetConfigV4@12"
+    },
+    {
+      "offset": 45580,
+      "name": "__imp__DhcpServerSetConfigV4@12"
+    },
+    {
+      "offset": 44484,
+      "name": "_DhcpServerGetConfigV4@8"
+    },
+    {
+      "offset": 44484,
+      "name": "__imp__DhcpServerGetConfigV4@8"
+    },
+    {
+      "offset": 29776,
+      "name": "_DhcpAddSubnetElementV4@12"
+    },
+    {
+      "offset": 29776,
+      "name": "__imp__DhcpAddSubnetElementV4@12"
+    },
+    {
+      "offset": 35660,
+      "name": "_DhcpEnumSubnetElementsV4@32"
+    },
+    {
+      "offset": 35660,
+      "name": "__imp__DhcpEnumSubnetElementsV4@32"
+    },
+    {
+      "offset": 43404,
+      "name": "_DhcpRemoveSubnetElementV4@16"
+    },
+    {
+      "offset": 43404,
+      "name": "__imp__DhcpRemoveSubnetElementV4@16"
+    },
+    {
+      "offset": 48550,
+      "name": "_DhcpSetSuperScopeV4@16"
+    },
+    {
+      "offset": 48550,
+      "name": "__imp__DhcpSetSuperScopeV4@16"
+    },
+    {
+      "offset": 39782,
+      "name": "_DhcpGetSuperScopeInfoV4@8"
+    },
+    {
+      "offset": 39782,
+      "name": "__imp__DhcpGetSuperScopeInfoV4@8"
+    },
+    {
+      "offset": 32816,
+      "name": "_DhcpDeleteSuperScopeV4@8"
+    },
+    {
+      "offset": 32816,
+      "name": "__imp__DhcpDeleteSuperScopeV4@8"
+    },
+    {
+      "offset": 35174,
+      "name": "_DhcpEnumSubnetClientsV5@28"
+    },
+    {
+      "offset": 35174,
+      "name": "__imp__DhcpEnumSubnetClientsV5@28"
+    },
+    {
+      "offset": 31078,
+      "name": "_DhcpCreateOptionV5@24"
+    },
+    {
+      "offset": 31078,
+      "name": "__imp__DhcpCreateOptionV5@24"
+    },
+    {
+      "offset": 47004,
+      "name": "_DhcpSetOptionInfoV5@24"
+    },
+    {
+      "offset": 47004,
+      "name": "__imp__DhcpSetOptionInfoV5@24"
+    },
+    {
+      "offset": 38348,
+      "name": "_DhcpGetOptionInfoV5@24"
+    },
+    {
+      "offset": 38348,
+      "name": "__imp__DhcpGetOptionInfoV5@24"
+    },
+    {
+      "offset": 34450,
+      "name": "_DhcpEnumOptionsV5@36"
+    },
+    {
+      "offset": 34450,
+      "name": "__imp__DhcpEnumOptionsV5@36"
+    },
+    {
+      "offset": 42686,
+      "name": "_DhcpRemoveOptionV5@20"
+    },
+    {
+      "offset": 42686,
+      "name": "__imp__DhcpRemoveOptionV5@20"
+    },
+    {
+      "offset": 47356,
+      "name": "_DhcpSetOptionValueV5@28"
+    },
+    {
+      "offset": 47356,
+      "name": "__imp__DhcpSetOptionValueV5@28"
+    },
+    {
+      "offset": 47710,
+      "name": "_DhcpSetOptionValuesV5@24"
+    },
+    {
+      "offset": 47710,
+      "name": "__imp__DhcpSetOptionValuesV5@24"
+    },
+    {
+      "offset": 38700,
+      "name": "_DhcpGetOptionValueV5@28"
+    },
+    {
+      "offset": 38700,
+      "name": "__imp__DhcpGetOptionValueV5@28"
+    },
+    {
+      "offset": 38818,
+      "name": "_DhcpGetOptionValueV6@28"
+    },
+    {
+      "offset": 38818,
+      "name": "__imp__DhcpGetOptionValueV6@28"
+    },
+    {
+      "offset": 34096,
+      "name": "_DhcpEnumOptionValuesV5@40"
+    },
+    {
+      "offset": 34096,
+      "name": "__imp__DhcpEnumOptionValuesV5@40"
+    },
+    {
+      "offset": 43038,
+      "name": "_DhcpRemoveOptionValueV5@24"
+    },
+    {
+      "offset": 43038,
+      "name": "__imp__DhcpRemoveOptionValueV5@24"
+    },
+    {
+      "offset": 30376,
+      "name": "_DhcpCreateClass@12"
+    },
+    {
+      "offset": 30376,
+      "name": "__imp__DhcpCreateClass@12"
+    },
+    {
+      "offset": 42220,
+      "name": "_DhcpModifyClass@12"
+    },
+    {
+      "offset": 42220,
+      "name": "__imp__DhcpModifyClass@12"
+    },
+    {
+      "offset": 31656,
+      "name": "_DhcpDeleteClass@12"
+    },
+    {
+      "offset": 31656,
+      "name": "__imp__DhcpDeleteClass@12"
+    },
+    {
+      "offset": 36732,
+      "name": "_DhcpGetClassInfo@16"
+    },
+    {
+      "offset": 36732,
+      "name": "__imp__DhcpGetClassInfo@16"
+    },
+    {
+      "offset": 33280,
+      "name": "_DhcpEnumClasses@28"
+    },
+    {
+      "offset": 33280,
+      "name": "__imp__DhcpEnumClasses@28"
+    },
+    {
+      "offset": 36498,
+      "name": "_DhcpGetAllOptions@12"
+    },
+    {
+      "offset": 36498,
+      "name": "__imp__DhcpGetAllOptions@12"
+    },
+    {
+      "offset": 36256,
+      "name": "_DhcpGetAllOptionValues@16"
+    },
+    {
+      "offset": 36256,
+      "name": "__imp__DhcpGetAllOptionValues@16"
+    },
+    {
+      "offset": 46772,
+      "name": "_DhcpSetMScopeInfo@16"
+    },
+    {
+      "offset": 46772,
+      "name": "__imp__DhcpSetMScopeInfo@16"
+    },
+    {
+      "offset": 29310,
+      "name": "_DhcpAddMScopeElement@12"
+    },
+    {
+      "offset": 29310,
+      "name": "__imp__DhcpAddMScopeElement@12"
+    },
+    {
+      "offset": 33624,
+      "name": "_DhcpEnumMScopeClients@28"
+    },
+    {
+      "offset": 33624,
+      "name": "__imp__DhcpEnumMScopeClients@28"
+    },
+    {
+      "offset": 37662,
+      "name": "_DhcpGetMScopeInfo@12"
+    },
+    {
+      "offset": 37662,
+      "name": "__imp__DhcpGetMScopeInfo@12"
+    },
+    {
+      "offset": 33864,
+      "name": "_DhcpEnumMScopes@24"
+    },
+    {
+      "offset": 33864,
+      "name": "__imp__DhcpEnumMScopes@24"
+    },
+    {
+      "offset": 32358,
+      "name": "_DhcpDeleteMScope@12"
+    },
+    {
+      "offset": 32358,
+      "name": "__imp__DhcpDeleteMScope@12"
+    },
+    {
+      "offset": 32240,
+      "name": "_DhcpDeleteMClientInfo@8"
+    },
+    {
+      "offset": 32240,
+      "name": "__imp__DhcpDeleteMClientInfo@8"
+    },
+    {
+      "offset": 42450,
+      "name": "_DhcpRemoveMScopeElement@16"
+    },
+    {
+      "offset": 42450,
+      "name": "__imp__DhcpRemoveMScopeElement@16"
+    },
+    {
+      "offset": 33744,
+      "name": "_DhcpEnumMScopeElements@32"
+    },
+    {
+      "offset": 33744,
+      "name": "__imp__DhcpEnumMScopeElements@32"
+    },
+    {
+      "offset": 44004,
+      "name": "_DhcpScanMDatabase@16"
+    },
+    {
+      "offset": 44004,
+      "name": "__imp__DhcpScanMDatabase@16"
+    },
+    {
+      "offset": 37546,
+      "name": "_DhcpGetMCastMibInfo@8"
+    },
+    {
+      "offset": 37546,
+      "name": "__imp__DhcpGetMCastMibInfo@8"
+    },
+    {
+      "offset": 29196,
+      "name": "_DhcpAddFilterV4@12"
+    },
+    {
+      "offset": 29196,
+      "name": "__imp__DhcpAddFilterV4@12"
+    },
+    {
+      "offset": 32124,
+      "name": "_DhcpDeleteFilterV4@8"
+    },
+    {
+      "offset": 32124,
+      "name": "__imp__DhcpDeleteFilterV4@8"
+    },
+    {
+      "offset": 46660,
+      "name": "_DhcpSetFilterV4@8"
+    },
+    {
+      "offset": 46660,
+      "name": "__imp__DhcpSetFilterV4@8"
+    },
+    {
+      "offset": 37434,
+      "name": "_DhcpGetFilterV4@8"
+    },
+    {
+      "offset": 37434,
+      "name": "__imp__DhcpGetFilterV4@8"
+    },
+    {
+      "offset": 33510,
+      "name": "_DhcpEnumFilterV4@28"
+    },
+    {
+      "offset": 33510,
+      "name": "__imp__DhcpEnumFilterV4@28"
+    },
+    {
+      "offset": 34682,
+      "name": "_DhcpEnumServers@20"
+    },
+    {
+      "offset": 34682,
+      "name": "__imp__DhcpEnumServers@20"
+    },
+    {
+      "offset": 29546,
+      "name": "_DhcpAddServer@20"
+    },
+    {
+      "offset": 29546,
+      "name": "__imp__DhcpAddServer@20"
+    },
+    {
+      "offset": 32472,
+      "name": "_DhcpDeleteServer@20"
+    },
+    {
+      "offset": 32472,
+      "name": "__imp__DhcpDeleteServer@20"
+    },
+    {
+      "offset": 33172,
+      "name": "_DhcpDsInit@0"
+    },
+    {
+      "offset": 33172,
+      "name": "__imp__DhcpDsInit@0"
+    },
+    {
+      "offset": 32936,
+      "name": "_DhcpDsCleanup@0"
+    },
+    {
+      "offset": 32936,
+      "name": "__imp__DhcpDsCleanup@0"
+    },
+    {
+      "offset": 48668,
+      "name": "_DhcpSetThreadOptions@8"
+    },
+    {
+      "offset": 48668,
+      "name": "__imp__DhcpSetThreadOptions@8"
+    },
+    {
+      "offset": 39902,
+      "name": "_DhcpGetThreadOptions@8"
+    },
+    {
+      "offset": 39902,
+      "name": "__imp__DhcpGetThreadOptions@8"
+    },
+    {
+      "offset": 44962,
+      "name": "_DhcpServerQueryAttributes@20"
+    },
+    {
+      "offset": 44962,
+      "name": "__imp__DhcpServerQueryAttributes@20"
+    },
+    {
+      "offset": 44840,
+      "name": "_DhcpServerQueryAttribute@16"
+    },
+    {
+      "offset": 44840,
+      "name": "__imp__DhcpServerQueryAttribute@16"
+    },
+    {
+      "offset": 45216,
+      "name": "_DhcpServerRedoAuthorization@8"
+    },
+    {
+      "offset": 45216,
+      "name": "__imp__DhcpServerRedoAuthorization@8"
+    },
+    {
+      "offset": 30256,
+      "name": "_DhcpAuditLogSetParams@24"
+    },
+    {
+      "offset": 30256,
+      "name": "__imp__DhcpAuditLogSetParams@24"
+    },
+    {
+      "offset": 30136,
+      "name": "_DhcpAuditLogGetParams@24"
+    },
+    {
+      "offset": 30136,
+      "name": "__imp__DhcpAuditLogGetParams@24"
+    },
+    {
+      "offset": 29896,
+      "name": "_DhcpAddSubnetElementV5@12"
+    },
+    {
+      "offset": 29896,
+      "name": "__imp__DhcpAddSubnetElementV5@12"
+    },
+    {
+      "offset": 35782,
+      "name": "_DhcpEnumSubnetElementsV5@32"
+    },
+    {
+      "offset": 35782,
+      "name": "__imp__DhcpEnumSubnetElementsV5@32"
+    },
+    {
+      "offset": 43528,
+      "name": "_DhcpRemoveSubnetElementV5@16"
+    },
+    {
+      "offset": 43528,
+      "name": "__imp__DhcpRemoveSubnetElementV5@16"
+    },
+    {
+      "offset": 49976,
+      "name": "_DhcpV4EnumSubnetReservations@28"
+    },
+    {
+      "offset": 49976,
+      "name": "__imp__DhcpV4EnumSubnetReservations@28"
+    },
+    {
+      "offset": 33046,
+      "name": "_DhcpDsClearHostServerEntries@0"
+    },
+    {
+      "offset": 33046,
+      "name": "__imp__DhcpDsClearHostServerEntries@0"
+    },
+    {
+      "offset": 47830,
+      "name": "_DhcpSetServerBindingInfo@12"
+    },
+    {
+      "offset": 47830,
+      "name": "__imp__DhcpSetServerBindingInfo@12"
+    },
+    {
+      "offset": 38936,
+      "name": "_DhcpGetServerBindingInfo@12"
+    },
+    {
+      "offset": 38936,
+      "name": "__imp__DhcpGetServerBindingInfo@12"
+    },
+    {
+      "offset": 45086,
+      "name": "_DhcpServerQueryDnsRegCredentials@20"
+    },
+    {
+      "offset": 45086,
+      "name": "__imp__DhcpServerQueryDnsRegCredentials@20"
+    },
+    {
+      "offset": 45940,
+      "name": "_DhcpServerSetDnsRegCredentials@16"
+    },
+    {
+      "offset": 45940,
+      "name": "__imp__DhcpServerSetDnsRegCredentials@16"
+    },
+    {
+      "offset": 46068,
+      "name": "_DhcpServerSetDnsRegCredentialsV5@16"
+    },
+    {
+      "offset": 46068,
+      "name": "__imp__DhcpServerSetDnsRegCredentialsV5@16"
+    },
+    {
+      "offset": 44246,
+      "name": "_DhcpServerBackupDatabase@8"
+    },
+    {
+      "offset": 44246,
+      "name": "__imp__DhcpServerBackupDatabase@8"
+    },
+    {
+      "offset": 45340,
+      "name": "_DhcpServerRestoreDatabase@8"
+    },
+    {
+      "offset": 45340,
+      "name": "__imp__DhcpServerRestoreDatabase@8"
+    },
+    {
+      "offset": 44722,
+      "name": "_DhcpServerGetConfigVQ@8"
+    },
+    {
+      "offset": 44722,
+      "name": "__imp__DhcpServerGetConfigVQ@8"
+    },
+    {
+      "offset": 45820,
+      "name": "_DhcpServerSetConfigVQ@12"
+    },
+    {
+      "offset": 45820,
+      "name": "__imp__DhcpServerSetConfigVQ@12"
+    },
+    {
+      "offset": 44120,
+      "name": "_DhcpServerAuditlogParamsFree@4"
+    },
+    {
+      "offset": 44120,
+      "name": "__imp__DhcpServerAuditlogParamsFree@4"
+    },
+    {
+      "offset": 39182,
+      "name": "_DhcpGetServerSpecificStrings@8"
+    },
+    {
+      "offset": 39182,
+      "name": "__imp__DhcpGetServerSpecificStrings@8"
+    },
+    {
+      "offset": 31194,
+      "name": "_DhcpCreateOptionV6@24"
+    },
+    {
+      "offset": 31194,
+      "name": "__imp__DhcpCreateOptionV6@24"
+    },
+    {
+      "offset": 42802,
+      "name": "_DhcpRemoveOptionV6@20"
+    },
+    {
+      "offset": 42802,
+      "name": "__imp__DhcpRemoveOptionV6@20"
+    },
+    {
+      "offset": 34566,
+      "name": "_DhcpEnumOptionsV6@36"
+    },
+    {
+      "offset": 34566,
+      "name": "__imp__DhcpEnumOptionsV6@36"
+    },
+    {
+      "offset": 38466,
+      "name": "_DhcpGetOptionInfoV6@24"
+    },
+    {
+      "offset": 38466,
+      "name": "__imp__DhcpGetOptionInfoV6@24"
+    },
+    {
+      "offset": 47122,
+      "name": "_DhcpSetOptionInfoV6@24"
+    },
+    {
+      "offset": 47122,
+      "name": "__imp__DhcpSetOptionInfoV6@24"
+    },
+    {
+      "offset": 36614,
+      "name": "_DhcpGetAllOptionsV6@12"
+    },
+    {
+      "offset": 36614,
+      "name": "__imp__DhcpGetAllOptionsV6@12"
+    },
+    {
+      "offset": 47474,
+      "name": "_DhcpSetOptionValueV6@28"
+    },
+    {
+      "offset": 47474,
+      "name": "__imp__DhcpSetOptionValueV6@28"
+    },
+    {
+      "offset": 43160,
+      "name": "_DhcpRemoveOptionValueV6@24"
+    },
+    {
+      "offset": 43160,
+      "name": "__imp__DhcpRemoveOptionValueV6@24"
+    },
+    {
+      "offset": 36376,
+      "name": "_DhcpGetAllOptionValuesV6@16"
+    },
+    {
+      "offset": 36376,
+      "name": "__imp__DhcpGetAllOptionValuesV6@16"
+    },
+    {
+      "offset": 34216,
+      "name": "_DhcpEnumOptionValuesV6@40"
+    },
+    {
+      "offset": 34216,
+      "name": "__imp__DhcpEnumOptionValuesV6@40"
+    },
+    {
+      "offset": 31424,
+      "name": "_DhcpCreateSubnetV6@24"
+    },
+    {
+      "offset": 31424,
+      "name": "__imp__DhcpCreateSubnetV6@24"
+    },
+    {
+      "offset": 39546,
+      "name": "_DhcpGetSubnetInfoV6@24"
+    },
+    {
+      "offset": 39546,
+      "name": "__imp__DhcpGetSubnetInfoV6@24"
+    },
+    {
+      "offset": 32700,
+      "name": "_DhcpDeleteSubnetV6@24"
+    },
+    {
+      "offset": 32700,
+      "name": "__imp__DhcpDeleteSubnetV6@24"
+    },
+    {
+      "offset": 36140,
+      "name": "_DhcpEnumSubnetsV6@24"
+    },
+    {
+      "offset": 36140,
+      "name": "__imp__DhcpEnumSubnetsV6@24"
+    },
+    {
+      "offset": 35904,
+      "name": "_DhcpEnumSubnetElementsV6@44"
+    },
+    {
+      "offset": 35904,
+      "name": "__imp__DhcpEnumSubnetElementsV6@44"
+    },
+    {
+      "offset": 30016,
+      "name": "_DhcpAddSubnetElementV6@24"
+    },
+    {
+      "offset": 30016,
+      "name": "__imp__DhcpAddSubnetElementV6@24"
+    },
+    {
+      "offset": 43652,
+      "name": "_DhcpRemoveSubnetElementV6@28"
+    },
+    {
+      "offset": 43652,
+      "name": "__imp__DhcpRemoveSubnetElementV6@28"
+    },
+    {
+      "offset": 35296,
+      "name": "_DhcpEnumSubnetClientsV6@40"
+    },
+    {
+      "offset": 35296,
+      "name": "__imp__DhcpEnumSubnetClientsV6@40"
+    },
+    {
+      "offset": 45700,
+      "name": "_DhcpServerSetConfigV6@16"
+    },
+    {
+      "offset": 45700,
+      "name": "__imp__DhcpServerSetConfigV6@16"
+    },
+    {
+      "offset": 44602,
+      "name": "_DhcpServerGetConfigV6@12"
+    },
+    {
+      "offset": 44602,
+      "name": "__imp__DhcpServerGetConfigV6@12"
+    },
+    {
+      "offset": 48314,
+      "name": "_DhcpSetSubnetInfoV6@24"
+    },
+    {
+      "offset": 48314,
+      "name": "__imp__DhcpSetSubnetInfoV6@24"
+    },
+    {
+      "offset": 38004,
+      "name": "_DhcpGetMibInfoV6@8"
+    },
+    {
+      "offset": 38004,
+      "name": "__imp__DhcpGetMibInfoV6@8"
+    },
+    {
+      "offset": 47952,
+      "name": "_DhcpSetServerBindingInfoV6@12"
+    },
+    {
+      "offset": 47952,
+      "name": "__imp__DhcpSetServerBindingInfoV6@12"
+    },
+    {
+      "offset": 39058,
+      "name": "_DhcpGetServerBindingInfoV6@12"
+    },
+    {
+      "offset": 39058,
+      "name": "__imp__DhcpGetServerBindingInfoV6@12"
+    },
+    {
+      "offset": 46428,
+      "name": "_DhcpSetClientInfoV6@8"
+    },
+    {
+      "offset": 46428,
+      "name": "__imp__DhcpSetClientInfoV6@8"
+    },
+    {
+      "offset": 37080,
+      "name": "_DhcpGetClientInfoV6@12"
+    },
+    {
+      "offset": 37080,
+      "name": "__imp__DhcpGetClientInfoV6@12"
+    },
+    {
+      "offset": 32004,
+      "name": "_DhcpDeleteClientInfoV6@8"
+    },
+    {
+      "offset": 32004,
+      "name": "__imp__DhcpDeleteClientInfoV6@8"
+    },
+    {
+      "offset": 30490,
+      "name": "_DhcpCreateClassV6@12"
+    },
+    {
+      "offset": 30490,
+      "name": "__imp__DhcpCreateClassV6@12"
+    },
+    {
+      "offset": 42334,
+      "name": "_DhcpModifyClassV6@12"
+    },
+    {
+      "offset": 42334,
+      "name": "__imp__DhcpModifyClassV6@12"
+    },
+    {
+      "offset": 31770,
+      "name": "_DhcpDeleteClassV6@12"
+    },
+    {
+      "offset": 31770,
+      "name": "__imp__DhcpDeleteClassV6@12"
+    },
+    {
+      "offset": 33394,
+      "name": "_DhcpEnumClassesV6@28"
+    },
+    {
+      "offset": 33394,
+      "name": "__imp__DhcpEnumClassesV6@28"
+    },
+    {
+      "offset": 39664,
+      "name": "_DhcpGetSubnetInfoVQ@12"
+    },
+    {
+      "offset": 39664,
+      "name": "__imp__DhcpGetSubnetInfoVQ@12"
+    },
+    {
+      "offset": 31540,
+      "name": "_DhcpCreateSubnetVQ@12"
+    },
+    {
+      "offset": 31540,
+      "name": "__imp__DhcpCreateSubnetVQ@12"
+    },
+    {
+      "offset": 48432,
+      "name": "_DhcpSetSubnetInfoVQ@12"
+    },
+    {
+      "offset": 48432,
+      "name": "__imp__DhcpSetSubnetInfoVQ@12"
+    },
+    {
+      "offset": 48076,
+      "name": "_DhcpSetSubnetDelayOffer@12"
+    },
+    {
+      "offset": 48076,
+      "name": "__imp__DhcpSetSubnetDelayOffer@12"
+    },
+    {
+      "offset": 39308,
+      "name": "_DhcpGetSubnetDelayOffer@12"
+    },
+    {
+      "offset": 39308,
+      "name": "__imp__DhcpGetSubnetDelayOffer@12"
+    },
+    {
+      "offset": 29428,
+      "name": "_DhcpAddSecurityGroup@4"
+    },
+    {
+      "offset": 29428,
+      "name": "__imp__DhcpAddSecurityGroup@4"
+    },
+    {
+      "offset": 50236,
+      "name": "_DhcpV4FailoverCreateRelationship@8"
+    },
+    {
+      "offset": 50236,
+      "name": "__imp__DhcpV4FailoverCreateRelationship@8"
+    },
+    {
+      "offset": 51532,
+      "name": "_DhcpV4FailoverSetRelationship@12"
+    },
+    {
+      "offset": 51532,
+      "name": "__imp__DhcpV4FailoverSetRelationship@12"
+    },
+    {
+      "offset": 50366,
+      "name": "_DhcpV4FailoverDeleteRelationship@8"
+    },
+    {
+      "offset": 50366,
+      "name": "__imp__DhcpV4FailoverDeleteRelationship@8"
+    },
+    {
+      "offset": 51016,
+      "name": "_DhcpV4FailoverGetRelationship@12"
+    },
+    {
+      "offset": 51016,
+      "name": "__imp__DhcpV4FailoverGetRelationship@12"
+    },
+    {
+      "offset": 50634,
+      "name": "_DhcpV4FailoverEnumRelationship@24"
+    },
+    {
+      "offset": 50634,
+      "name": "__imp__DhcpV4FailoverEnumRelationship@24"
+    },
+    {
+      "offset": 50102,
+      "name": "_DhcpV4FailoverAddScopeToRelationship@8"
+    },
+    {
+      "offset": 50102,
+      "name": "__imp__DhcpV4FailoverAddScopeToRelationship@8"
+    },
+    {
+      "offset": 50496,
+      "name": "_DhcpV4FailoverDeleteScopeFromRelationship@8"
+    },
+    {
+      "offset": 50496,
+      "name": "__imp__DhcpV4FailoverDeleteScopeFromRelationship@8"
+    },
+    {
+      "offset": 51144,
+      "name": "_DhcpV4FailoverGetScopeRelationship@12"
+    },
+    {
+      "offset": 51144,
+      "name": "__imp__DhcpV4FailoverGetScopeRelationship@12"
+    },
+    {
+      "offset": 51276,
+      "name": "_DhcpV4FailoverGetScopeStatistics@12"
+    },
+    {
+      "offset": 51276,
+      "name": "__imp__DhcpV4FailoverGetScopeStatistics@12"
+    },
+    {
+      "offset": 50890,
+      "name": "_DhcpV4FailoverGetClientInfo@12"
+    },
+    {
+      "offset": 50890,
+      "name": "__imp__DhcpV4FailoverGetClientInfo@12"
+    },
+    {
+      "offset": 51406,
+      "name": "_DhcpV4FailoverGetSystemTime@12"
+    },
+    {
+      "offset": 51406,
+      "name": "__imp__DhcpV4FailoverGetSystemTime@12"
+    },
+    {
+      "offset": 50762,
+      "name": "_DhcpV4FailoverGetAddressStatus@12"
+    },
+    {
+      "offset": 50762,
+      "name": "__imp__DhcpV4FailoverGetAddressStatus@12"
+    },
+    {
+      "offset": 51660,
+      "name": "_DhcpV4FailoverTriggerAddrAllocation@8"
+    },
+    {
+      "offset": 51660,
+      "name": "__imp__DhcpV4FailoverTriggerAddrAllocation@8"
+    },
+    {
+      "offset": 52272,
+      "name": "_DhcpV4GetOptionValue@28"
+    },
+    {
+      "offset": 52272,
+      "name": "__imp__DhcpV4GetOptionValue@28"
+    },
+    {
+      "offset": 52990,
+      "name": "_DhcpV4SetOptionValue@28"
+    },
+    {
+      "offset": 52990,
+      "name": "__imp__DhcpV4SetOptionValue@28"
+    },
+    {
+      "offset": 53108,
+      "name": "_DhcpV4SetOptionValues@24"
+    },
+    {
+      "offset": 53108,
+      "name": "__imp__DhcpV4SetOptionValues@24"
+    },
+    {
+      "offset": 52746,
+      "name": "_DhcpV4RemoveOptionValue@24"
+    },
+    {
+      "offset": 52746,
+      "name": "__imp__DhcpV4RemoveOptionValue@24"
+    },
+    {
+      "offset": 51792,
+      "name": "_DhcpV4GetAllOptionValues@16"
+    },
+    {
+      "offset": 51792,
+      "name": "__imp__DhcpV4GetAllOptionValues@16"
+    },
+    {
+      "offset": 40502,
+      "name": "_DhcpHlprCreateV4Policy@32"
+    },
+    {
+      "offset": 40502,
+      "name": "__imp__DhcpHlprCreateV4Policy@32"
+    },
+    {
+      "offset": 40622,
+      "name": "_DhcpHlprCreateV4PolicyEx@32"
+    },
+    {
+      "offset": 40622,
+      "name": "__imp__DhcpHlprCreateV4PolicyEx@32"
+    },
+    {
+      "offset": 40258,
+      "name": "_DhcpHlprAddV4PolicyExpr@16"
+    },
+    {
+      "offset": 40258,
+      "name": "__imp__DhcpHlprAddV4PolicyExpr@16"
+    },
+    {
+      "offset": 40132,
+      "name": "_DhcpHlprAddV4PolicyCondition@40"
+    },
+    {
+      "offset": 40132,
+      "name": "__imp__DhcpHlprAddV4PolicyCondition@40"
+    },
+    {
+      "offset": 40380,
+      "name": "_DhcpHlprAddV4PolicyRange@8"
+    },
+    {
+      "offset": 40380,
+      "name": "__imp__DhcpHlprAddV4PolicyRange@8"
+    },
+    {
+      "offset": 42098,
+      "name": "_DhcpHlprResetV4PolicyExpr@4"
+    },
+    {
+      "offset": 42098,
+      "name": "__imp__DhcpHlprResetV4PolicyExpr@4"
+    },
+    {
+      "offset": 41974,
+      "name": "_DhcpHlprModifyV4PolicyExpr@8"
+    },
+    {
+      "offset": 41974,
+      "name": "__imp__DhcpHlprModifyV4PolicyExpr@8"
+    },
+    {
+      "offset": 41120,
+      "name": "_DhcpHlprFreeV4Policy@4"
+    },
+    {
+      "offset": 41120,
+      "name": "__imp__DhcpHlprFreeV4Policy@4"
+    },
+    {
+      "offset": 41238,
+      "name": "_DhcpHlprFreeV4PolicyArray@4"
+    },
+    {
+      "offset": 41238,
+      "name": "__imp__DhcpHlprFreeV4PolicyArray@4"
+    },
+    {
+      "offset": 41360,
+      "name": "_DhcpHlprFreeV4PolicyEx@4"
+    },
+    {
+      "offset": 41360,
+      "name": "__imp__DhcpHlprFreeV4PolicyEx@4"
+    },
+    {
+      "offset": 41480,
+      "name": "_DhcpHlprFreeV4PolicyExArray@4"
+    },
+    {
+      "offset": 41480,
+      "name": "__imp__DhcpHlprFreeV4PolicyExArray@4"
+    },
+    {
+      "offset": 40868,
+      "name": "_DhcpHlprFreeV4DhcpProperty@4"
+    },
+    {
+      "offset": 40868,
+      "name": "__imp__DhcpHlprFreeV4DhcpProperty@4"
+    },
+    {
+      "offset": 40992,
+      "name": "_DhcpHlprFreeV4DhcpPropertyArray@4"
+    },
+    {
+      "offset": 40992,
+      "name": "__imp__DhcpHlprFreeV4DhcpPropertyArray@4"
+    },
+    {
+      "offset": 41848,
+      "name": "_DhcpHlprIsV4PolicyWellFormed@4"
+    },
+    {
+      "offset": 41848,
+      "name": "__imp__DhcpHlprIsV4PolicyWellFormed@4"
+    },
+    {
+      "offset": 41728,
+      "name": "_DhcpHlprIsV4PolicyValid@4"
+    },
+    {
+      "offset": 41728,
+      "name": "__imp__DhcpHlprIsV4PolicyValid@4"
+    },
+    {
+      "offset": 41604,
+      "name": "_DhcpHlprIsV4PolicySingleUC@4"
+    },
+    {
+      "offset": 41604,
+      "name": "__imp__DhcpHlprIsV4PolicySingleUC@4"
+    },
+    {
+      "offset": 52620,
+      "name": "_DhcpV4QueryPolicyEnforcement@16"
+    },
+    {
+      "offset": 52620,
+      "name": "__imp__DhcpV4QueryPolicyEnforcement@16"
+    },
+    {
+      "offset": 53342,
+      "name": "_DhcpV4SetPolicyEnforcement@16"
+    },
+    {
+      "offset": 53342,
+      "name": "__imp__DhcpV4SetPolicyEnforcement@16"
+    },
+    {
+      "offset": 49146,
+      "name": "_DhcpV4CreatePolicy@8"
+    },
+    {
+      "offset": 49146,
+      "name": "__imp__DhcpV4CreatePolicy@8"
+    },
+    {
+      "offset": 52390,
+      "name": "_DhcpV4GetPolicy@20"
+    },
+    {
+      "offset": 52390,
+      "name": "__imp__DhcpV4GetPolicy@20"
+    },
+    {
+      "offset": 53228,
+      "name": "_DhcpV4SetPolicy@24"
+    },
+    {
+      "offset": 53228,
+      "name": "__imp__DhcpV4SetPolicy@24"
+    },
+    {
+      "offset": 49380,
+      "name": "_DhcpV4DeletePolicy@16"
+    },
+    {
+      "offset": 49380,
+      "name": "__imp__DhcpV4DeletePolicy@16"
+    },
+    {
+      "offset": 49496,
+      "name": "_DhcpV4EnumPolicies@32"
+    },
+    {
+      "offset": 49496,
+      "name": "__imp__DhcpV4EnumPolicies@32"
+    },
+    {
+      "offset": 48786,
+      "name": "_DhcpV4AddPolicyRange@16"
+    },
+    {
+      "offset": 48786,
+      "name": "__imp__DhcpV4AddPolicyRange@16"
+    },
+    {
+      "offset": 52868,
+      "name": "_DhcpV4RemovePolicyRange@16"
+    },
+    {
+      "offset": 52868,
+      "name": "__imp__DhcpV4RemovePolicyRange@16"
+    },
+    {
+      "offset": 49262,
+      "name": "_DhcpV4CreatePolicyEx@8"
+    },
+    {
+      "offset": 49262,
+      "name": "__imp__DhcpV4CreatePolicyEx@8"
+    },
+    {
+      "offset": 52504,
+      "name": "_DhcpV4GetPolicyEx@20"
+    },
+    {
+      "offset": 52504,
+      "name": "__imp__DhcpV4GetPolicyEx@20"
+    },
+    {
+      "offset": 53466,
+      "name": "_DhcpV4SetPolicyEx@24"
+    },
+    {
+      "offset": 53466,
+      "name": "__imp__DhcpV4SetPolicyEx@24"
+    },
+    {
+      "offset": 49612,
+      "name": "_DhcpV4EnumPoliciesEx@32"
+    },
+    {
+      "offset": 49612,
+      "name": "__imp__DhcpV4EnumPoliciesEx@32"
+    },
+    {
+      "offset": 40744,
+      "name": "_DhcpHlprFindV4DhcpProperty@12"
+    },
+    {
+      "offset": 40744,
+      "name": "__imp__DhcpHlprFindV4DhcpProperty@12"
+    },
+    {
+      "offset": 49730,
+      "name": "_DhcpV4EnumSubnetClients@28"
+    },
+    {
+      "offset": 49730,
+      "name": "__imp__DhcpV4EnumSubnetClients@28"
+    },
+    {
+      "offset": 49852,
+      "name": "_DhcpV4EnumSubnetClientsEx@28"
+    },
+    {
+      "offset": 49852,
+      "name": "__imp__DhcpV4EnumSubnetClientsEx@28"
+    },
+    {
+      "offset": 54076,
+      "name": "_DhcpV6SetStatelessStoreParams@32"
+    },
+    {
+      "offset": 54076,
+      "name": "__imp__DhcpV6SetStatelessStoreParams@32"
+    },
+    {
+      "offset": 53948,
+      "name": "_DhcpV6GetStatelessStoreParams@28"
+    },
+    {
+      "offset": 53948,
+      "name": "__imp__DhcpV6GetStatelessStoreParams@28"
+    },
+    {
+      "offset": 53822,
+      "name": "_DhcpV6GetStatelessStatistics@8"
+    },
+    {
+      "offset": 53822,
+      "name": "__imp__DhcpV6GetStatelessStatistics@8"
+    },
+    {
+      "offset": 48904,
+      "name": "_DhcpV4CreateClientInfo@8"
+    },
+    {
+      "offset": 48904,
+      "name": "__imp__DhcpV4CreateClientInfo@8"
+    },
+    {
+      "offset": 51914,
+      "name": "_DhcpV4GetClientInfo@12"
+    },
+    {
+      "offset": 51914,
+      "name": "__imp__DhcpV4GetClientInfo@12"
+    },
+    {
+      "offset": 49024,
+      "name": "_DhcpV4CreateClientInfoEx@8"
+    },
+    {
+      "offset": 49024,
+      "name": "__imp__DhcpV4CreateClientInfoEx@8"
+    },
+    {
+      "offset": 52032,
+      "name": "_DhcpV4GetClientInfoEx@12"
+    },
+    {
+      "offset": 52032,
+      "name": "__imp__DhcpV4GetClientInfoEx@12"
+    },
+    {
+      "offset": 53582,
+      "name": "_DhcpV6CreateClientInfo@8"
+    },
+    {
+      "offset": 53582,
+      "name": "__imp__DhcpV6CreateClientInfo@8"
+    },
+    {
+      "offset": 52152,
+      "name": "_DhcpV4GetFreeIPAddress@24"
+    },
+    {
+      "offset": 52152,
+      "name": "__imp__DhcpV4GetFreeIPAddress@24"
+    },
+    {
+      "offset": 53702,
+      "name": "_DhcpV6GetFreeIPAddress@60"
+    },
+    {
+      "offset": 53702,
+      "name": "__imp__DhcpV6GetFreeIPAddress@60"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 29196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4104902163,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpAddFilterV4@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "DhcpAddFilterV4"
+    },
+    {
+      "offset": 29310,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3388408544,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpAddMScopeElement@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "DhcpAddMScopeElement"
+    },
+    {
+      "offset": 29428,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3309853148,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpAddSecurityGroup@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "DhcpAddSecurityGroup"
+    },
+    {
+      "offset": 29546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3843465776,
+      "sizeOfData": 31,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpAddServer@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "DhcpAddServer"
+    },
+    {
+      "offset": 29658,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3721369560,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpAddSubnetElement@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "DhcpAddSubnetElement"
+    },
+    {
+      "offset": 29776,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3233101693,
+      "sizeOfData": 40,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpAddSubnetElementV4@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "DhcpAddSubnetElementV4"
+    },
+    {
+      "offset": 29896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3393316788,
+      "sizeOfData": 40,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpAddSubnetElementV5@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "DhcpAddSubnetElementV5"
+    },
+    {
+      "offset": 30016,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4067938914,
+      "sizeOfData": 40,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpAddSubnetElementV6@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "DhcpAddSubnetElementV6"
+    },
+    {
+      "offset": 30136,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3337944760,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpAuditLogGetParams@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "DhcpAuditLogGetParams"
+    },
+    {
+      "offset": 30256,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3703395300,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpAuditLogSetParams@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "DhcpAuditLogSetParams"
+    },
+    {
+      "offset": 30376,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3492067753,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpCreateClass@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "DhcpCreateClass"
+    },
+    {
+      "offset": 30490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4025747283,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpCreateClassV6@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "DhcpCreateClassV6"
+    },
+    {
+      "offset": 30606,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3666688528,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpCreateClientInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "DhcpCreateClientInfo"
+    },
+    {
+      "offset": 30724,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3896734574,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpCreateClientInfoV4@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "DhcpCreateClientInfoV4"
+    },
+    {
+      "offset": 30844,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3749349066,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpCreateClientInfoVQ@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "DhcpCreateClientInfoVQ"
+    },
+    {
+      "offset": 30964,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3289377414,
+      "sizeOfData": 34,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpCreateOption@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "DhcpCreateOption"
+    },
+    {
+      "offset": 31078,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3376247979,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpCreateOptionV5@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "DhcpCreateOptionV5"
+    },
+    {
+      "offset": 31194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3834068287,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpCreateOptionV6@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "DhcpCreateOptionV6"
+    },
+    {
+      "offset": 31310,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4171460487,
+      "sizeOfData": 34,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpCreateSubnet@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "DhcpCreateSubnet"
+    },
+    {
+      "offset": 31424,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4047784825,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpCreateSubnetV6@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "DhcpCreateSubnetV6"
+    },
+    {
+      "offset": 31540,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3318792095,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpCreateSubnetVQ@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "DhcpCreateSubnetVQ"
+    },
+    {
+      "offset": 31656,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3568434722,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDeleteClass@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "DhcpDeleteClass"
+    },
+    {
+      "offset": 31770,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3564200608,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDeleteClassV6@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "DhcpDeleteClassV6"
+    },
+    {
+      "offset": 31886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3455058552,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDeleteClientInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "DhcpDeleteClientInfo"
+    },
+    {
+      "offset": 32004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3489738401,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDeleteClientInfoV6@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "DhcpDeleteClientInfoV6"
+    },
+    {
+      "offset": 32124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4163883541,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDeleteFilterV4@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "DhcpDeleteFilterV4"
+    },
+    {
+      "offset": 32240,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3239096223,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDeleteMClientInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "DhcpDeleteMClientInfo"
+    },
+    {
+      "offset": 32358,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3745399585,
+      "sizeOfData": 34,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDeleteMScope@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "DhcpDeleteMScope"
+    },
+    {
+      "offset": 32472,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3666534393,
+      "sizeOfData": 34,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDeleteServer@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "DhcpDeleteServer"
+    },
+    {
+      "offset": 32586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3439553473,
+      "sizeOfData": 34,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDeleteSubnet@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "DhcpDeleteSubnet"
+    },
+    {
+      "offset": 32700,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4195076693,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDeleteSubnetV6@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "DhcpDeleteSubnetV6"
+    },
+    {
+      "offset": 32816,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3496822639,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDeleteSuperScopeV4@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "DhcpDeleteSuperScopeV4"
+    },
+    {
+      "offset": 32936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3884839218,
+      "sizeOfData": 30,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDsCleanup@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "DhcpDsCleanup"
+    },
+    {
+      "offset": 33046,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3705340859,
+      "sizeOfData": 45,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDsClearHostServerEntries@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "DhcpDsClearHostServerEntries"
+    },
+    {
+      "offset": 33172,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4094960361,
+      "sizeOfData": 27,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpDsInit@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "DhcpDsInit"
+    },
+    {
+      "offset": 33280,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4219119115,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumClasses@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "DhcpEnumClasses"
+    },
+    {
+      "offset": 33394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3810181496,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumClassesV6@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "DhcpEnumClassesV6"
+    },
+    {
+      "offset": 33510,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3562387231,
+      "sizeOfData": 34,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumFilterV4@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "DhcpEnumFilterV4"
+    },
+    {
+      "offset": 33624,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3629948056,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumMScopeClients@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "DhcpEnumMScopeClients"
+    },
+    {
+      "offset": 33744,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4201638998,
+      "sizeOfData": 40,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumMScopeElements@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "DhcpEnumMScopeElements"
+    },
+    {
+      "offset": 33864,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3465415547,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumMScopes@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "DhcpEnumMScopes"
+    },
+    {
+      "offset": 33978,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3972922334,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumOptionValues@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "DhcpEnumOptionValues"
+    },
+    {
+      "offset": 34096,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3505914962,
+      "sizeOfData": 40,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumOptionValuesV5@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "DhcpEnumOptionValuesV5"
+    },
+    {
+      "offset": 34216,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3537835556,
+      "sizeOfData": 40,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumOptionValuesV6@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "DhcpEnumOptionValuesV6"
+    },
+    {
+      "offset": 34336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3682183548,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumOptions@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "DhcpEnumOptions"
+    },
+    {
+      "offset": 34450,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4268917897,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumOptionsV5@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "DhcpEnumOptionsV5"
+    },
+    {
+      "offset": 34566,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3579733669,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumOptionsV6@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "DhcpEnumOptionsV6"
+    },
+    {
+      "offset": 34682,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3667555168,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumServers@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "DhcpEnumServers"
+    },
+    {
+      "offset": 34796,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4202602350,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumSubnetClients@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "DhcpEnumSubnetClients"
+    },
+    {
+      "offset": 34916,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3280829275,
+      "sizeOfData": 55,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumSubnetClientsFilterStatusInfo@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "DhcpEnumSubnetClientsFilterStatusInfo"
+    },
+    {
+      "offset": 35052,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4231589401,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumSubnetClientsV4@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "DhcpEnumSubnetClientsV4"
+    },
+    {
+      "offset": 35174,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3415453092,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumSubnetClientsV5@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "DhcpEnumSubnetClientsV5"
+    },
+    {
+      "offset": 35296,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3599729464,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumSubnetClientsV6@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "DhcpEnumSubnetClientsV6"
+    },
+    {
+      "offset": 35418,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3547377049,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumSubnetClientsVQ@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "DhcpEnumSubnetClientsVQ"
+    },
+    {
+      "offset": 35540,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3922301710,
+      "sizeOfData": 40,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumSubnetElements@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "DhcpEnumSubnetElements"
+    },
+    {
+      "offset": 35660,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4195813537,
+      "sizeOfData": 42,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumSubnetElementsV4@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "DhcpEnumSubnetElementsV4"
+    },
+    {
+      "offset": 35782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4216526459,
+      "sizeOfData": 42,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumSubnetElementsV5@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "DhcpEnumSubnetElementsV5"
+    },
+    {
+      "offset": 35904,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4227609870,
+      "sizeOfData": 42,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumSubnetElementsV6@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "DhcpEnumSubnetElementsV6"
+    },
+    {
+      "offset": 36026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4069171757,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumSubnets@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "DhcpEnumSubnets"
+    },
+    {
+      "offset": 36140,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3330175197,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpEnumSubnetsV6@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "DhcpEnumSubnetsV6"
+    },
+    {
+      "offset": 36256,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4261628909,
+      "sizeOfData": 40,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetAllOptionValues@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "DhcpGetAllOptionValues"
+    },
+    {
+      "offset": 36376,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3248354349,
+      "sizeOfData": 42,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetAllOptionValuesV6@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "DhcpGetAllOptionValuesV6"
+    },
+    {
+      "offset": 36498,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3375718442,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetAllOptions@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "DhcpGetAllOptions"
+    },
+    {
+      "offset": 36614,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3331941867,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetAllOptionsV6@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "DhcpGetAllOptionsV6"
+    },
+    {
+      "offset": 36732,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3868801133,
+      "sizeOfData": 34,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetClassInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "DhcpGetClassInfo"
+    },
+    {
+      "offset": 36846,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3984229742,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetClientInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "DhcpGetClientInfo"
+    },
+    {
+      "offset": 36962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3285708520,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetClientInfoV4@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "DhcpGetClientInfoV4"
+    },
+    {
+      "offset": 37080,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3252433579,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetClientInfoV6@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "DhcpGetClientInfoV6"
+    },
+    {
+      "offset": 37198,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3234395323,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetClientInfoVQ@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "DhcpGetClientInfoVQ"
+    },
+    {
+      "offset": 37316,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3596518483,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetClientOptions@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "DhcpGetClientOptions"
+    },
+    {
+      "offset": 37434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4154394166,
+      "sizeOfData": 32,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetFilterV4@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "DhcpGetFilterV4"
+    },
+    {
+      "offset": 37546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3631608491,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetMCastMibInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "DhcpGetMCastMibInfo"
+    },
+    {
+      "offset": 37662,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3334705973,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetMScopeInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "DhcpGetMScopeInfo"
+    },
+    {
+      "offset": 37778,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4274979153,
+      "sizeOfData": 31,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetMibInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "DhcpGetMibInfo"
+    },
+    {
+      "offset": 37890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4259209827,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetMibInfoV5@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "DhcpGetMibInfoV5"
+    },
+    {
+      "offset": 38004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3457572464,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetMibInfoV6@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "DhcpGetMibInfoV6"
+    },
+    {
+      "offset": 38118,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4101971837,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetMibInfoVQ@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "DhcpGetMibInfoVQ"
+    },
+    {
+      "offset": 38232,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3380518287,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetOptionInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "DhcpGetOptionInfo"
+    },
+    {
+      "offset": 38348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4252974615,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetOptionInfoV5@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "DhcpGetOptionInfoV5"
+    },
+    {
+      "offset": 38466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4213536732,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetOptionInfoV6@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "DhcpGetOptionInfoV6"
+    },
+    {
+      "offset": 38584,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3742659166,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetOptionValue@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "DhcpGetOptionValue"
+    },
+    {
+      "offset": 38700,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4271770376,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetOptionValueV5@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "DhcpGetOptionValueV5"
+    },
+    {
+      "offset": 38818,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4063706031,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetOptionValueV6@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "DhcpGetOptionValueV6"
+    },
+    {
+      "offset": 38936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3448537663,
+      "sizeOfData": 42,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetServerBindingInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "DhcpGetServerBindingInfo"
+    },
+    {
+      "offset": 39058,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3423040711,
+      "sizeOfData": 44,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetServerBindingInfoV6@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "DhcpGetServerBindingInfoV6"
+    },
+    {
+      "offset": 39182,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3514798718,
+      "sizeOfData": 45,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetServerSpecificStrings@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "DhcpGetServerSpecificStrings"
+    },
+    {
+      "offset": 39308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4196052176,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetSubnetDelayOffer@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "DhcpGetSubnetDelayOffer"
+    },
+    {
+      "offset": 39430,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4078623554,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetSubnetInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "DhcpGetSubnetInfo"
+    },
+    {
+      "offset": 39546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4260510202,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetSubnetInfoV6@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "DhcpGetSubnetInfoV6"
+    },
+    {
+      "offset": 39664,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3337899791,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetSubnetInfoVQ@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "DhcpGetSubnetInfoVQ"
+    },
+    {
+      "offset": 39782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3253052828,
+      "sizeOfData": 40,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetSuperScopeInfoV4@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "DhcpGetSuperScopeInfoV4"
+    },
+    {
+      "offset": 39902,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3994254749,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetThreadOptions@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "DhcpGetThreadOptions"
+    },
+    {
+      "offset": 40020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4261072295,
+      "sizeOfData": 32,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpGetVersion@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "DhcpGetVersion"
+    },
+    {
+      "offset": 40132,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3450611741,
+      "sizeOfData": 46,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprAddV4PolicyCondition@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "DhcpHlprAddV4PolicyCondition"
+    },
+    {
+      "offset": 40258,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3249516217,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprAddV4PolicyExpr@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "DhcpHlprAddV4PolicyExpr"
+    },
+    {
+      "offset": 40380,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3875216067,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprAddV4PolicyRange@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "DhcpHlprAddV4PolicyRange"
+    },
+    {
+      "offset": 40502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3427998428,
+      "sizeOfData": 40,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprCreateV4Policy@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "DhcpHlprCreateV4Policy"
+    },
+    {
+      "offset": 40622,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3621562863,
+      "sizeOfData": 42,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprCreateV4PolicyEx@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "DhcpHlprCreateV4PolicyEx"
+    },
+    {
+      "offset": 40744,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3409608917,
+      "sizeOfData": 44,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprFindV4DhcpProperty@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "DhcpHlprFindV4DhcpProperty"
+    },
+    {
+      "offset": 40868,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3926536732,
+      "sizeOfData": 43,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprFreeV4DhcpProperty@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "DhcpHlprFreeV4DhcpProperty"
+    },
+    {
+      "offset": 40992,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3663690959,
+      "sizeOfData": 48,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprFreeV4DhcpPropertyArray@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "DhcpHlprFreeV4DhcpPropertyArray"
+    },
+    {
+      "offset": 41120,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4174019138,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprFreeV4Policy@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "DhcpHlprFreeV4Policy"
+    },
+    {
+      "offset": 41238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3546878837,
+      "sizeOfData": 42,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprFreeV4PolicyArray@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "DhcpHlprFreeV4PolicyArray"
+    },
+    {
+      "offset": 41360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3782264986,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprFreeV4PolicyEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "DhcpHlprFreeV4PolicyEx"
+    },
+    {
+      "offset": 41480,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3661116467,
+      "sizeOfData": 44,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprFreeV4PolicyExArray@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "DhcpHlprFreeV4PolicyExArray"
+    },
+    {
+      "offset": 41604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4086797095,
+      "sizeOfData": 43,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprIsV4PolicySingleUC@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "DhcpHlprIsV4PolicySingleUC"
+    },
+    {
+      "offset": 41728,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4285293937,
+      "sizeOfData": 40,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprIsV4PolicyValid@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "DhcpHlprIsV4PolicyValid"
+    },
+    {
+      "offset": 41848,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4231258066,
+      "sizeOfData": 45,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprIsV4PolicyWellFormed@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "DhcpHlprIsV4PolicyWellFormed"
+    },
+    {
+      "offset": 41974,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3438406759,
+      "sizeOfData": 43,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprModifyV4PolicyExpr@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "DhcpHlprModifyV4PolicyExpr"
+    },
+    {
+      "offset": 42098,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4248978313,
+      "sizeOfData": 42,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpHlprResetV4PolicyExpr@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "DhcpHlprResetV4PolicyExpr"
+    },
+    {
+      "offset": 42220,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4111065996,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpModifyClass@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "DhcpModifyClass"
+    },
+    {
+      "offset": 42334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4228796770,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpModifyClassV6@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "DhcpModifyClassV6"
+    },
+    {
+      "offset": 42450,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3846420577,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpRemoveMScopeElement@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "DhcpRemoveMScopeElement"
+    },
+    {
+      "offset": 42572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3653557078,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpRemoveOption@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "DhcpRemoveOption"
+    },
+    {
+      "offset": 42686,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3690678911,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpRemoveOptionV5@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "DhcpRemoveOptionV5"
+    },
+    {
+      "offset": 42802,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3736350170,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpRemoveOptionV6@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "DhcpRemoveOptionV6"
+    },
+    {
+      "offset": 42918,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3338480392,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpRemoveOptionValue@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "DhcpRemoveOptionValue"
+    },
+    {
+      "offset": 43038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4020457804,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpRemoveOptionValueV5@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "DhcpRemoveOptionValueV5"
+    },
+    {
+      "offset": 43160,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3746431054,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpRemoveOptionValueV6@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "DhcpRemoveOptionValueV6"
+    },
+    {
+      "offset": 43282,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4239569655,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpRemoveSubnetElement@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "DhcpRemoveSubnetElement"
+    },
+    {
+      "offset": 43404,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3685095741,
+      "sizeOfData": 43,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpRemoveSubnetElementV4@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "DhcpRemoveSubnetElementV4"
+    },
+    {
+      "offset": 43528,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3370253790,
+      "sizeOfData": 43,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpRemoveSubnetElementV5@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "DhcpRemoveSubnetElementV5"
+    },
+    {
+      "offset": 43652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3610911345,
+      "sizeOfData": 43,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpRemoveSubnetElementV6@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "DhcpRemoveSubnetElementV6"
+    },
+    {
+      "offset": 43776,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3572424353,
+      "sizeOfData": 34,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpRpcFreeMemory@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "DhcpRpcFreeMemory"
+    },
+    {
+      "offset": 43890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3508228357,
+      "sizeOfData": 34,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpScanDatabase@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "DhcpScanDatabase"
+    },
+    {
+      "offset": 44004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3924653845,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpScanMDatabase@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "DhcpScanMDatabase"
+    },
+    {
+      "offset": 44120,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4186673638,
+      "sizeOfData": 45,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerAuditlogParamsFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "DhcpServerAuditlogParamsFree"
+    },
+    {
+      "offset": 44246,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3917979185,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerBackupDatabase@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "DhcpServerBackupDatabase"
+    },
+    {
+      "offset": 44368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3793919013,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerGetConfig@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "DhcpServerGetConfig"
+    },
+    {
+      "offset": 44484,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3293073655,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerGetConfigV4@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "DhcpServerGetConfigV4"
+    },
+    {
+      "offset": 44602,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3471357045,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerGetConfigV6@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "DhcpServerGetConfigV6"
+    },
+    {
+      "offset": 44722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3918654583,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerGetConfigVQ@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "DhcpServerGetConfigVQ"
+    },
+    {
+      "offset": 44840,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3960195687,
+      "sizeOfData": 42,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerQueryAttribute@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "DhcpServerQueryAttribute"
+    },
+    {
+      "offset": 44962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3488143227,
+      "sizeOfData": 43,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerQueryAttributes@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "DhcpServerQueryAttributes"
+    },
+    {
+      "offset": 45086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3822171486,
+      "sizeOfData": 50,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerQueryDnsRegCredentials@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "DhcpServerQueryDnsRegCredentials"
+    },
+    {
+      "offset": 45216,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3567666419,
+      "sizeOfData": 44,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerRedoAuthorization@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "DhcpServerRedoAuthorization"
+    },
+    {
+      "offset": 45340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3863035392,
+      "sizeOfData": 42,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerRestoreDatabase@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "DhcpServerRestoreDatabase"
+    },
+    {
+      "offset": 45462,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3554099226,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerSetConfig@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "DhcpServerSetConfig"
+    },
+    {
+      "offset": 45580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3520700540,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerSetConfigV4@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "DhcpServerSetConfigV4"
+    },
+    {
+      "offset": 45700,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3270028595,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerSetConfigV6@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "DhcpServerSetConfigV6"
+    },
+    {
+      "offset": 45820,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3642053002,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerSetConfigVQ@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "DhcpServerSetConfigVQ"
+    },
+    {
+      "offset": 45940,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3952698181,
+      "sizeOfData": 48,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerSetDnsRegCredentials@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "DhcpServerSetDnsRegCredentials"
+    },
+    {
+      "offset": 46068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4036260639,
+      "sizeOfData": 50,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpServerSetDnsRegCredentialsV5@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "DhcpServerSetDnsRegCredentialsV5"
+    },
+    {
+      "offset": 46198,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3601643550,
+      "sizeOfData": 34,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetClientInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "DhcpSetClientInfo"
+    },
+    {
+      "offset": 46312,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3953052980,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetClientInfoV4@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "DhcpSetClientInfoV4"
+    },
+    {
+      "offset": 46428,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4216300991,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetClientInfoV6@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "DhcpSetClientInfoV6"
+    },
+    {
+      "offset": 46544,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4140846364,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetClientInfoVQ@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "DhcpSetClientInfoVQ"
+    },
+    {
+      "offset": 46660,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3714189049,
+      "sizeOfData": 32,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetFilterV4@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "DhcpSetFilterV4"
+    },
+    {
+      "offset": 46772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3523062415,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetMScopeInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "DhcpSetMScopeInfo"
+    },
+    {
+      "offset": 46888,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3618937781,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetOptionInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "DhcpSetOptionInfo"
+    },
+    {
+      "offset": 47004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4219923057,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetOptionInfoV5@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "DhcpSetOptionInfoV5"
+    },
+    {
+      "offset": 47122,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3353149383,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetOptionInfoV6@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "DhcpSetOptionInfoV6"
+    },
+    {
+      "offset": 47240,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3427348227,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetOptionValue@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "DhcpSetOptionValue"
+    },
+    {
+      "offset": 47356,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3566897252,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetOptionValueV5@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "DhcpSetOptionValueV5"
+    },
+    {
+      "offset": 47474,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3603063572,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetOptionValueV6@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "DhcpSetOptionValueV6"
+    },
+    {
+      "offset": 47592,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3754633810,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetOptionValues@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "DhcpSetOptionValues"
+    },
+    {
+      "offset": 47710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3439752477,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetOptionValuesV5@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "DhcpSetOptionValuesV5"
+    },
+    {
+      "offset": 47830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3890683754,
+      "sizeOfData": 42,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetServerBindingInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "DhcpSetServerBindingInfo"
+    },
+    {
+      "offset": 47952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3859663896,
+      "sizeOfData": 44,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetServerBindingInfoV6@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 158,
+      "name": "DhcpSetServerBindingInfoV6"
+    },
+    {
+      "offset": 48076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3362327913,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetSubnetDelayOffer@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 159,
+      "name": "DhcpSetSubnetDelayOffer"
+    },
+    {
+      "offset": 48198,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4164831565,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetSubnetInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 160,
+      "name": "DhcpSetSubnetInfo"
+    },
+    {
+      "offset": 48314,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4154905742,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetSubnetInfoV6@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 161,
+      "name": "DhcpSetSubnetInfoV6"
+    },
+    {
+      "offset": 48432,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4088147302,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetSubnetInfoVQ@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 162,
+      "name": "DhcpSetSubnetInfoVQ"
+    },
+    {
+      "offset": 48550,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3363526103,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetSuperScopeV4@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 163,
+      "name": "DhcpSetSuperScopeV4"
+    },
+    {
+      "offset": 48668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4226845094,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpSetThreadOptions@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 164,
+      "name": "DhcpSetThreadOptions"
+    },
+    {
+      "offset": 48786,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4244679446,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4AddPolicyRange@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 165,
+      "name": "DhcpV4AddPolicyRange"
+    },
+    {
+      "offset": 48904,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4253024971,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4CreateClientInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 166,
+      "name": "DhcpV4CreateClientInfo"
+    },
+    {
+      "offset": 49024,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3288421527,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4CreateClientInfoEx@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 167,
+      "name": "DhcpV4CreateClientInfoEx"
+    },
+    {
+      "offset": 49146,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4072236515,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4CreatePolicy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 168,
+      "name": "DhcpV4CreatePolicy"
+    },
+    {
+      "offset": 49262,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3462393975,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4CreatePolicyEx@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 169,
+      "name": "DhcpV4CreatePolicyEx"
+    },
+    {
+      "offset": 49380,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3328025109,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4DeletePolicy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 170,
+      "name": "DhcpV4DeletePolicy"
+    },
+    {
+      "offset": 49496,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3768736719,
+      "sizeOfData": 36,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4EnumPolicies@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 171,
+      "name": "DhcpV4EnumPolicies"
+    },
+    {
+      "offset": 49612,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3238714420,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4EnumPoliciesEx@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 172,
+      "name": "DhcpV4EnumPoliciesEx"
+    },
+    {
+      "offset": 49730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3711554687,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4EnumSubnetClients@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 173,
+      "name": "DhcpV4EnumSubnetClients"
+    },
+    {
+      "offset": 49852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3891777509,
+      "sizeOfData": 43,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4EnumSubnetClientsEx@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 174,
+      "name": "DhcpV4EnumSubnetClientsEx"
+    },
+    {
+      "offset": 49976,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4138579858,
+      "sizeOfData": 46,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4EnumSubnetReservations@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 175,
+      "name": "DhcpV4EnumSubnetReservations"
+    },
+    {
+      "offset": 50102,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3549457105,
+      "sizeOfData": 53,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4FailoverAddScopeToRelationship@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 176,
+      "name": "DhcpV4FailoverAddScopeToRelationship"
+    },
+    {
+      "offset": 50236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3777091574,
+      "sizeOfData": 49,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4FailoverCreateRelationship@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 177,
+      "name": "DhcpV4FailoverCreateRelationship"
+    },
+    {
+      "offset": 50366,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4132667524,
+      "sizeOfData": 49,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4FailoverDeleteRelationship@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 178,
+      "name": "DhcpV4FailoverDeleteRelationship"
+    },
+    {
+      "offset": 50496,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4254273162,
+      "sizeOfData": 58,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4FailoverDeleteScopeFromRelationship@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 179,
+      "name": "DhcpV4FailoverDeleteScopeFromRelationship"
+    },
+    {
+      "offset": 50634,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4021096750,
+      "sizeOfData": 48,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4FailoverEnumRelationship@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 180,
+      "name": "DhcpV4FailoverEnumRelationship"
+    },
+    {
+      "offset": 50762,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3939230592,
+      "sizeOfData": 48,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4FailoverGetAddressStatus@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 181,
+      "name": "DhcpV4FailoverGetAddressStatus"
+    },
+    {
+      "offset": 50890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3935116949,
+      "sizeOfData": 45,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4FailoverGetClientInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 182,
+      "name": "DhcpV4FailoverGetClientInfo"
+    },
+    {
+      "offset": 51016,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3891327225,
+      "sizeOfData": 47,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4FailoverGetRelationship@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 183,
+      "name": "DhcpV4FailoverGetRelationship"
+    },
+    {
+      "offset": 51144,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3825749861,
+      "sizeOfData": 52,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4FailoverGetScopeRelationship@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 184,
+      "name": "DhcpV4FailoverGetScopeRelationship"
+    },
+    {
+      "offset": 51276,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3954812541,
+      "sizeOfData": 50,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4FailoverGetScopeStatistics@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 185,
+      "name": "DhcpV4FailoverGetScopeStatistics"
+    },
+    {
+      "offset": 51406,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3994621333,
+      "sizeOfData": 45,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4FailoverGetSystemTime@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 186,
+      "name": "DhcpV4FailoverGetSystemTime"
+    },
+    {
+      "offset": 51532,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3981800124,
+      "sizeOfData": 47,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4FailoverSetRelationship@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 187,
+      "name": "DhcpV4FailoverSetRelationship"
+    },
+    {
+      "offset": 51660,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3953259992,
+      "sizeOfData": 52,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4FailoverTriggerAddrAllocation@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 188,
+      "name": "DhcpV4FailoverTriggerAddrAllocation"
+    },
+    {
+      "offset": 51792,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4294699596,
+      "sizeOfData": 42,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4GetAllOptionValues@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 189,
+      "name": "DhcpV4GetAllOptionValues"
+    },
+    {
+      "offset": 51914,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3728163437,
+      "sizeOfData": 37,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4GetClientInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 190,
+      "name": "DhcpV4GetClientInfo"
+    },
+    {
+      "offset": 52032,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3776498102,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4GetClientInfoEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 191,
+      "name": "DhcpV4GetClientInfoEx"
+    },
+    {
+      "offset": 52152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4087041618,
+      "sizeOfData": 40,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4GetFreeIPAddress@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 192,
+      "name": "DhcpV4GetFreeIPAddress"
+    },
+    {
+      "offset": 52272,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3748898675,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4GetOptionValue@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 193,
+      "name": "DhcpV4GetOptionValue"
+    },
+    {
+      "offset": 52390,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3351544316,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4GetPolicy@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 194,
+      "name": "DhcpV4GetPolicy"
+    },
+    {
+      "offset": 52504,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3346675923,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4GetPolicyEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 195,
+      "name": "DhcpV4GetPolicyEx"
+    },
+    {
+      "offset": 52620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3612958906,
+      "sizeOfData": 46,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4QueryPolicyEnforcement@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 196,
+      "name": "DhcpV4QueryPolicyEnforcement"
+    },
+    {
+      "offset": 52746,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3925480316,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4RemoveOptionValue@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 197,
+      "name": "DhcpV4RemoveOptionValue"
+    },
+    {
+      "offset": 52868,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4162812924,
+      "sizeOfData": 41,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4RemovePolicyRange@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 198,
+      "name": "DhcpV4RemovePolicyRange"
+    },
+    {
+      "offset": 52990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3684367039,
+      "sizeOfData": 38,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4SetOptionValue@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 199,
+      "name": "DhcpV4SetOptionValue"
+    },
+    {
+      "offset": 53108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3602003817,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4SetOptionValues@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 200,
+      "name": "DhcpV4SetOptionValues"
+    },
+    {
+      "offset": 53228,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3305465179,
+      "sizeOfData": 33,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4SetPolicy@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 201,
+      "name": "DhcpV4SetPolicy"
+    },
+    {
+      "offset": 53342,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3489831755,
+      "sizeOfData": 44,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4SetPolicyEnforcement@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 202,
+      "name": "DhcpV4SetPolicyEnforcement"
+    },
+    {
+      "offset": 53466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4038745144,
+      "sizeOfData": 35,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV4SetPolicyEx@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 203,
+      "name": "DhcpV4SetPolicyEx"
+    },
+    {
+      "offset": 53582,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3305610337,
+      "sizeOfData": 39,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV6CreateClientInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 204,
+      "name": "DhcpV6CreateClientInfo"
+    },
+    {
+      "offset": 53702,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3811775749,
+      "sizeOfData": 40,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV6GetFreeIPAddress@60",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 205,
+      "name": "DhcpV6GetFreeIPAddress"
+    },
+    {
+      "offset": 53822,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4262252042,
+      "sizeOfData": 45,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV6GetStatelessStatistics@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 206,
+      "name": "DhcpV6GetStatelessStatistics"
+    },
+    {
+      "offset": 53948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4201348820,
+      "sizeOfData": 47,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV6GetStatelessStoreParams@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 207,
+      "name": "DhcpV6GetStatelessStoreParams"
+    },
+    {
+      "offset": 54076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3652771971,
+      "sizeOfData": 47,
+      "dllName": "DHCPSAPI.DLL",
+      "symbolName": "_DhcpV6SetStatelessStoreParams@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 208,
+      "name": "DhcpV6SetStatelessStoreParams"
+    }
+  ]
+}

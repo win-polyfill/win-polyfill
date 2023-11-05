@@ -1,0 +1,884 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\mmdevapi.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     A10 size
+correct header end
+
+    67 public symbols
+
+     14AA __IMPORT_DESCRIPTOR_MMDevAPI
+     16D8 __NULL_IMPORT_DESCRIPTOR
+     1810 MMDevAPI_NULL_THUNK_DATA
+     1A5A _CleanupDeviceAPI@0
+     1A5A __imp__CleanupDeviceAPI@0
+     1EA0 _InitializeDeviceAPI@0
+     1EA0 __imp__InitializeDeviceAPI@0
+     1F9A _MMDeviceCreateRegistryPropertyStore@12
+     1F9A __imp__MMDeviceCreateRegistryPropertyStore@12
+     2020 _MMDeviceGetDeviceEnumerator@4
+     2020 __imp__MMDeviceGetDeviceEnumerator@4
+     209C _MMDeviceGetEndpointManager@4
+     209C __imp__MMDeviceGetEndpointManager@4
+     1C2C _GetClassFromEndpointId@4
+     1C2C __imp__GetClassFromEndpointId@4
+     1CA4 _GetEndpointGuidFromEndpointId@8
+     1CA4 __imp__GetEndpointGuidFromEndpointId@8
+     1E24 _GetSessionIdFromEndpointId@4
+     1E24 __imp__GetSessionIdFromEndpointId@4
+     2190 _RegisterForMediaCallback@8
+     2190 __imp__RegisterForMediaCallback@8
+     220A _UnregisterMediaCallback@4
+     220A __imp__UnregisterMediaCallback@4
+     1B46 _GenerateMediaEvent@8
+     1B46 __imp__GenerateMediaEvent@8
+     1964 _AETraceOutputDebugString
+     1964 __imp__AETraceOutputDebugString
+     2118 _MMDeviceGetPolicyConfig@4
+     2118 __imp__MMDeviceGetPolicyConfig@4
+     1ACC _FlushDeviceTopologyCache@0
+     1ACC __imp__FlushDeviceTopologyCache@0
+     1DA6 _GetNeverSetAsDefaultProperty@16
+     1DA6 __imp__GetNeverSetAsDefaultProperty@16
+     19DC _ActivateAudioInterfaceAsync@20
+     19DC __imp__ActivateAudioInterfaceAsync@20
+     1D22 _GetEndpointIdFromDeviceInterfaceId@8
+     1D22 __imp__GetEndpointIdFromDeviceInterfaceId@8
+     2282 __imp__mmdDevFindMmDevProperty@12
+     2282 _mmdDevFindMmDevProperty@12
+     270C __imp__mmdDevGetInterfacePropertyStore@12
+     270C _mmdDevGetInterfacePropertyStore@12
+     2606 __imp__mmdDevGetInterfaceIdFromMMDevice@8
+     2606 _mmdDevGetInterfaceIdFromMMDevice@8
+     258A __imp__mmdDevGetInterfaceDataFlow@8
+     258A _mmdDevGetInterfaceDataFlow@8
+     278E __imp__mmdDevGetMMDeviceFromInterfaceId@8
+     278E _mmdDevGetMMDeviceFromInterfaceId@8
+     250E __imp__mmdDevGetInterfaceClassGuid@8
+     250E _mmdDevGetInterfaceClassGuid@8
+     2810 __imp__mmdDevGetMMDeviceIdFromInterfaceId@8
+     2810 _mmdDevGetMMDeviceIdFromInterfaceId@8
+     2408 __imp__mmdDevGetInstanceIdFromInterfaceId@8
+     2408 _mmdDevGetInstanceIdFromInterfaceId@8
+     2894 __imp__mmdDevGetRelatedInterfaceId@24
+     2894 _mmdDevGetRelatedInterfaceId@24
+     2688 __imp__mmdDevGetInterfaceIdFromMMDeviceId@8
+     2688 _mmdDevGetInterfaceIdFromMMDeviceId@8
+     248C __imp__mmdDevGetInstanceIdFromMMDeviceId@8
+     248C _mmdDevGetInstanceIdFromMMDeviceId@8
+     237E __imp__mmdDevGetEndpointFormFactorFromMMDeviceId@8
+     237E _mmdDevGetEndpointFormFactorFromMMDeviceId@8
+     22FC __imp__mmdDevGetDeviceIdFromPnpInterface@8
+     22FC _mmdDevGetDeviceIdFromPnpInterface@8
+     1BBA _GetCategoryPath@16
+     1BBA __imp__GetCategoryPath@16
+     1F14 _MMDeviceCreateRegistryPropertyStore2@8
+     1F14 __imp__MMDeviceCreateRegistryPropertyStore2@8
+
+Archive member name at 14AA: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1F2 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        C2957898 time date stamp
+             10E file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CE file pointer to raw data (000000CE to 000000E1)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     100 file pointer to raw data (00000100 to 0000010D)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 16D8: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        CB6DFB64 time date stamp
+              BA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      64 file pointer to raw data (00000064 to 000000A5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A6 file pointer to raw data (000000A6 to 000000B9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1810: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     118 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        C4C7F3C2 time date stamp
+              D6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1964: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC49D04D
+  SizeOfData   : 00000027
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _AETraceOutputDebugString
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 13
+
+Archive member name at 19DC: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1E9DAA3
+  SizeOfData   : 0000002D
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _ActivateAudioInterfaceAsync@20
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 17
+
+Archive member name at 1A5A: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBB42D07
+  SizeOfData   : 00000021
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _CleanupDeviceAPI@0
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 2
+
+Archive member name at 1ACC: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBFCC2F5
+  SizeOfData   : 00000029
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _FlushDeviceTopologyCache@0
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 15
+
+Archive member name at 1B46: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F17A5AEC
+  SizeOfData   : 00000023
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _GenerateMediaEvent@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 12
+
+Archive member name at 1BBA: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDBEECD7
+  SizeOfData   : 00000021
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _GetCategoryPath@16
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 32
+
+Archive member name at 1C2C: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFE0BC88
+  SizeOfData   : 00000027
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _GetClassFromEndpointId@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 7
+
+Archive member name at 1CA4: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C70D9D24
+  SizeOfData   : 0000002E
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _GetEndpointGuidFromEndpointId@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 8
+
+Archive member name at 1D22: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD4EB1BD
+  SizeOfData   : 00000033
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _GetEndpointIdFromDeviceInterfaceId@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 18
+
+Archive member name at 1DA6: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F936E174
+  SizeOfData   : 0000002E
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _GetNeverSetAsDefaultProperty@16
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 16
+
+Archive member name at 1E24: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2BA52A9
+  SizeOfData   : 0000002B
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _GetSessionIdFromEndpointId@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 9
+
+Archive member name at 1EA0: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAC78B83
+  SizeOfData   : 00000024
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _InitializeDeviceAPI@0
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 3
+
+Archive member name at 1F14: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD326F9C
+  SizeOfData   : 00000035
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _MMDeviceCreateRegistryPropertyStore2@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 33
+
+Archive member name at 1F9A: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2C2DC59
+  SizeOfData   : 00000035
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _MMDeviceCreateRegistryPropertyStore@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 4
+
+Archive member name at 2020: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D20CFE03
+  SizeOfData   : 0000002C
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _MMDeviceGetDeviceEnumerator@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 5
+
+Archive member name at 209C: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8A2A502
+  SizeOfData   : 0000002B
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _MMDeviceGetEndpointManager@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 6
+
+Archive member name at 2118: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0D5CD50
+  SizeOfData   : 00000028
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _MMDeviceGetPolicyConfig@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 14
+
+Archive member name at 2190: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F32DEDF0
+  SizeOfData   : 00000029
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _RegisterForMediaCallback@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 10
+
+Archive member name at 220A: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD7C7EA9
+  SizeOfData   : 00000028
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _UnregisterMediaCallback@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 11
+
+Archive member name at 2282: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1A2CA87
+  SizeOfData   : 00000029
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _mmdDevFindMmDevProperty@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 19
+
+Archive member name at 22FC: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0911364
+  SizeOfData   : 00000032
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _mmdDevGetDeviceIdFromPnpInterface@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 31
+
+Archive member name at 237E: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9F87F3C
+  SizeOfData   : 0000003A
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _mmdDevGetEndpointFormFactorFromMMDeviceId@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 30
+
+Archive member name at 2408: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1BD59BE
+  SizeOfData   : 00000033
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _mmdDevGetInstanceIdFromInterfaceId@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 26
+
+Archive member name at 248C: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0D8E0E3
+  SizeOfData   : 00000032
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _mmdDevGetInstanceIdFromMMDeviceId@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 29
+
+Archive member name at 250E: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2CF1D8E
+  SizeOfData   : 0000002C
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _mmdDevGetInterfaceClassGuid@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 24
+
+Archive member name at 258A: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB2A9A9A
+  SizeOfData   : 0000002B
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _mmdDevGetInterfaceDataFlow@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 22
+
+Archive member name at 2606: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3D24802
+  SizeOfData   : 00000031
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _mmdDevGetInterfaceIdFromMMDevice@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 21
+
+Archive member name at 2688: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1F519C3
+  SizeOfData   : 00000033
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _mmdDevGetInterfaceIdFromMMDeviceId@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 28
+
+Archive member name at 270C: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7D74E82
+  SizeOfData   : 00000031
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _mmdDevGetInterfacePropertyStore@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 20
+
+Archive member name at 278E: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3242DD2
+  SizeOfData   : 00000031
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _mmdDevGetMMDeviceFromInterfaceId@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 23
+
+Archive member name at 2810: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C79DC59A
+  SizeOfData   : 00000033
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _mmdDevGetMMDeviceIdFromInterfaceId@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 25
+
+Archive member name at 2894: MMDevAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F35FB6BD
+  SizeOfData   : 0000002D
+  DLL name     : MMDevAPI.DLL
+  Symbol name  : _mmdDevGetRelatedInterfaceId@24
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 27
+
+     Exports
+
+       ordinal    name
+
+            13    _AETraceOutputDebugString
+            17    _ActivateAudioInterfaceAsync@20
+             2    _CleanupDeviceAPI@0
+            15    _FlushDeviceTopologyCache@0
+            12    _GenerateMediaEvent@8
+            32    _GetCategoryPath@16
+             7    _GetClassFromEndpointId@4
+             8    _GetEndpointGuidFromEndpointId@8
+            18    _GetEndpointIdFromDeviceInterfaceId@8
+            16    _GetNeverSetAsDefaultProperty@16
+             9    _GetSessionIdFromEndpointId@4
+             3    _InitializeDeviceAPI@0
+            33    _MMDeviceCreateRegistryPropertyStore2@8
+             4    _MMDeviceCreateRegistryPropertyStore@12
+             5    _MMDeviceGetDeviceEnumerator@4
+             6    _MMDeviceGetEndpointManager@4
+            14    _MMDeviceGetPolicyConfig@4
+            10    _RegisterForMediaCallback@8
+            11    _UnregisterMediaCallback@4
+            19    _mmdDevFindMmDevProperty@12
+            31    _mmdDevGetDeviceIdFromPnpInterface@8
+            30    _mmdDevGetEndpointFormFactorFromMMDeviceId@8
+            26    _mmdDevGetInstanceIdFromInterfaceId@8
+            29    _mmdDevGetInstanceIdFromMMDeviceId@8
+            24    _mmdDevGetInterfaceClassGuid@8
+            22    _mmdDevGetInterfaceDataFlow@8
+            21    _mmdDevGetInterfaceIdFromMMDevice@8
+            28    _mmdDevGetInterfaceIdFromMMDeviceId@8
+            20    _mmdDevGetInterfacePropertyStore@12
+            23    _mmdDevGetMMDeviceFromInterfaceId@8
+            25    _mmdDevGetMMDeviceIdFromInterfaceId@8
+            27    _mmdDevGetRelatedInterfaceId@24
+
+  Summary
+
+          C6 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           E .idata$6

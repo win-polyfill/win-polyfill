@@ -1,0 +1,1488 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\wdsclientapi.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    1036 size
+correct header end
+
+    119 public symbols
+
+     2144 __IMPORT_DESCRIPTOR_WDSCLIENTAPI
+     2382 __NULL_IMPORT_DESCRIPTOR
+     24BE WDSCLIENTAPI_NULL_THUNK_DATA
+     2B0C _WdsCliFindFirstImage@8
+     2B0C __imp__WdsCliFindFirstImage@8
+     2B86 _WdsCliFindNextImage@4
+     2B86 __imp__WdsCliFindNextImage@4
+     2800 _WdsCliCreateSession@12
+     2800 __imp__WdsCliCreateSession@12
+     2710 _WdsCliClose@4
+     2710 __imp__WdsCliClose@4
+     35F6 _WdsCliGetImageName@8
+     35F6 __imp__WdsCliGetImageName@8
+     3102 _WdsCliGetImageDescription@8
+     3102 __imp__WdsCliGetImageDescription@8
+     3768 _WdsCliGetImagePath@8
+     3768 __imp__WdsCliGetImagePath@8
+     31FA _WdsCliGetImageGroup@8
+     31FA __imp__WdsCliGetImageGroup@8
+     366E _WdsCliGetImageNamespace@8
+     366E __imp__WdsCliGetImageNamespace@8
+     3272 _WdsCliGetImageHalName@8
+     3272 __imp__WdsCliGetImageHalName@8
+     3400 _WdsCliGetImageIndex@8
+     3400 __imp__WdsCliGetImageIndex@8
+     3082 _WdsCliGetImageArchitecture@8
+     3082 __imp__WdsCliGetImageArchitecture@8
+     3478 _WdsCliGetImageLanguage@8
+     3478 __imp__WdsCliGetImageLanguage@8
+     38D0 _WdsCliGetImageVersion@8
+     38D0 __imp__WdsCliGetImageVersion@8
+     3572 _WdsCliGetImageLastModifiedTime@8
+     3572 __imp__WdsCliGetImageLastModifiedTime@8
+     37E0 _WdsCliGetImageSize@8
+     37E0 __imp__WdsCliGetImageSize@8
+     32EC _WdsCliGetImageHandleFromFindHandle@8
+     32EC __imp__WdsCliGetImageHandleFromFindHandle@8
+     3374 _WdsCliGetImageHandleFromTransferHandle@8
+     3374 __imp__WdsCliGetImageHandleFromTransferHandle@8
+     2D7C _WdsCliGetClientUnattend@20
+     2D7C __imp__WdsCliGetClientUnattend@20
+     3A40 _WdsCliGetUnattendVariables@20
+     3A40 __imp__WdsCliGetUnattendVariables@20
+     2CFC _WdsCliFreeUnattendVariables@8
+     2CFC __imp__WdsCliFreeUnattendVariables@8
+     3B44 _WdsCliInitializeLog@16
+     3B44 __imp__WdsCliInitializeLog@16
+     3BBE _WdsCliLog
+     3BBE __imp__WdsCliLog
+     261A _WdsCliAuthorizeSession@8
+     261A __imp__WdsCliAuthorizeSession@8
+     3004 _WdsCliGetEnumerationFlags@8
+     3004 __imp__WdsCliGetEnumerationFlags@8
+     2F04 _WdsCliGetDomainJoinInformation@16
+     2F04 __imp__WdsCliGetDomainJoinInformation@16
+     2BFE _WdsCliFreeDomainJoinInformation@4
+     2BFE __imp__WdsCliFreeDomainJoinInformation@4
+     34F4 _WdsCliGetImageLanguages@12
+     34F4 __imp__WdsCliGetImageLanguages@12
+     4116 _WdsCliTransferFile@36
+     4116 __imp__WdsCliTransferFile@36
+     418E _WdsCliTransferImage@28
+     418E __imp__WdsCliTransferImage@28
+     2696 _WdsCliCancelTransfer@4
+     2696 __imp__WdsCliCancelTransfer@4
+     4208 _WdsCliWaitForTransfer@4
+     4208 __imp__WdsCliWaitForTransfer@4
+     39C6 _WdsCliGetTransferSize@8
+     39C6 __imp__WdsCliGetTransferSize@8
+     3F1C _WdsCliSetTransferBufferSize@4
+     3F1C __imp__WdsCliSetTransferBufferSize@4
+     3C2A _WdsCliObtainDriverPackages@16
+     3C2A __imp__WdsCliObtainDriverPackages@16
+     3CAA _WdsCliObtainDriverPackagesEx@20
+     3CAA __imp__WdsCliObtainDriverPackagesEx@20
+     2F88 _WdsCliGetDriverQueryXml@8
+     2F88 __imp__WdsCliGetDriverQueryXml@8
+     2C82 _WdsCliFreeStringArray@8
+     2C82 __imp__WdsCliFreeStringArray@8
+     3D2C _WdsCliRegisterTrace@4
+     3D2C __imp__WdsCliRegisterTrace@4
+     3858 _WdsCliGetImageType@8
+     3858 __imp__WdsCliGetImageType@8
+     3180 _WdsCliGetImageFiles@12
+     3180 __imp__WdsCliGetImageFiles@12
+     36EA _WdsCliGetImageParameter@16
+     36EA __imp__WdsCliGetImageParameter@16
+     287A _WdsCliCreateSessionEx@16
+     287A __imp__WdsCliCreateSessionEx@16
+     3AC0 _WdsCliGetWimImageReferenceFile@8
+     3AC0 __imp__WdsCliGetWimImageReferenceFile@8
+     3F9C _WdsCliSimulateArchitecture@8
+     3F9C __imp__WdsCliSimulateArchitecture@8
+     4098 _WdsCliSimulateSmbiosInfo@32
+     4098 __imp__WdsCliSimulateSmbiosInfo@32
+     401C _WdsCliSimulateDeviceId@8
+     401C __imp__WdsCliSimulateDeviceId@8
+     3DA4 _WdsCliResetBootProgram@12
+     3DA4 __imp__WdsCliResetBootProgram@12
+     394A _WdsCliGetSystemMetadata@8
+     394A __imp__WdsCliGetSystemMetadata@8
+     3EA0 _WdsCliSetSystemMetadata@8
+     3EA0 __imp__WdsCliSetSystemMetadata@8
+     2E7A _WdsCliGetDeploymentMetadataAvailable@8
+     2E7A __imp__WdsCliGetDeploymentMetadataAvailable@8
+     2DFA _WdsCliGetDeploymentMetadata@8
+     2DFA __imp__WdsCliGetDeploymentMetadata@8
+     29FE _WdsCliFilterImageVersion@16
+     29FE __imp__WdsCliFilterImageVersion@16
+     2A7C _WdsCliFilterImageVersionMatchingBootImage@12
+     2A7C __imp__WdsCliFilterImageVersionMatchingBootImage@12
+     297A _WdsCliFilterImageFirmwareType@12
+     297A __imp__WdsCliFilterImageFirmwareType@12
+     28F6 _WdsCliFilterImageArchitecture@16
+     28F6 __imp__WdsCliFilterImageArchitecture@16
+     2780 _WdsCliConnectToImageStore@12
+     2780 __imp__WdsCliConnectToImageStore@12
+     3E20 _WdsCliSetSupportedFeatures@8
+     3E20 __imp__WdsCliSetSupportedFeatures@8
+
+Archive member name at 2144: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     202 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        D4F77B55 time date stamp
+             116 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      46 size of raw data
+      8C file pointer to raw data (0000008C to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000E5)
+      E6 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+      12 size of raw data
+     104 file pointer to raw data (00000104 to 00000115)
+      E6 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 2382: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FF size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        E253DC28 time date stamp
+              BE file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      46 size of raw data
+      64 file pointer to raw data (00000064 to 000000A9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      AA file pointer to raw data (000000AA to 000000BD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 24BE: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     120 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E2EB1692 time date stamp
+              DA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      46 size of raw data
+      8C file pointer to raw data (0000008C to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D6 file pointer to raw data (000000D6 to 000000D9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 261A: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F87D18B5
+  SizeOfData   : 0000002B
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliAuthorizeSession@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : WdsCliAuthorizeSession
+
+Archive member name at 2696: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE3013FE
+  SizeOfData   : 00000029
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliCancelTransfer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : WdsCliCancelTransfer
+
+Archive member name at 2710: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAF16F80
+  SizeOfData   : 00000020
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliClose@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : WdsCliClose
+
+Archive member name at 2780: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D028303A
+  SizeOfData   : 0000002F
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliConnectToImageStore@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : WdsCliConnectToImageStore
+
+Archive member name at 2800: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F60E2C9C
+  SizeOfData   : 00000029
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliCreateSession@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : WdsCliCreateSession
+
+Archive member name at 287A: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D92BB2E9
+  SizeOfData   : 0000002B
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliCreateSessionEx@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : WdsCliCreateSessionEx
+
+Archive member name at 28F6: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5F1E204
+  SizeOfData   : 00000033
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliFilterImageArchitecture@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : WdsCliFilterImageArchitecture
+
+Archive member name at 297A: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6C7C97C
+  SizeOfData   : 00000033
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliFilterImageFirmwareType@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : WdsCliFilterImageFirmwareType
+
+Archive member name at 29FE: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7368D98
+  SizeOfData   : 0000002E
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliFilterImageVersion@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : WdsCliFilterImageVersion
+
+Archive member name at 2A7C: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      53 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC6F2AB1
+  SizeOfData   : 0000003F
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliFilterImageVersionMatchingBootImage@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : WdsCliFilterImageVersionMatchingBootImage
+
+Archive member name at 2B0C: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1E1B7FC
+  SizeOfData   : 00000029
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliFindFirstImage@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : WdsCliFindFirstImage
+
+Archive member name at 2B86: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D09188F9
+  SizeOfData   : 00000028
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliFindNextImage@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : WdsCliFindNextImage
+
+Archive member name at 2BFE: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDA2E506
+  SizeOfData   : 00000034
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliFreeDomainJoinInformation@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : WdsCliFreeDomainJoinInformation
+
+Archive member name at 2C82: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5DC67D9
+  SizeOfData   : 0000002A
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliFreeStringArray@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : WdsCliFreeStringArray
+
+Archive member name at 2CFC: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAC7FA8C
+  SizeOfData   : 00000030
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliFreeUnattendVariables@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : WdsCliFreeUnattendVariables
+
+Archive member name at 2D7C: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC7B7F40
+  SizeOfData   : 0000002D
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetClientUnattend@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : WdsCliGetClientUnattend
+
+Archive member name at 2DFA: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA32CDFB
+  SizeOfData   : 00000030
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetDeploymentMetadata@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : WdsCliGetDeploymentMetadata
+
+Archive member name at 2E7A: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA3EA6C7
+  SizeOfData   : 00000039
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetDeploymentMetadataAvailable@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : WdsCliGetDeploymentMetadataAvailable
+
+Archive member name at 2F04: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA0B44BF
+  SizeOfData   : 00000034
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetDomainJoinInformation@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : WdsCliGetDomainJoinInformation
+
+Archive member name at 2F88: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAD8B245
+  SizeOfData   : 0000002C
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetDriverQueryXml@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : WdsCliGetDriverQueryXml
+
+Archive member name at 3004: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF35663E
+  SizeOfData   : 0000002E
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetEnumerationFlags@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : WdsCliGetEnumerationFlags
+
+Archive member name at 3082: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F759BF43
+  SizeOfData   : 0000002F
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageArchitecture@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : WdsCliGetImageArchitecture
+
+Archive member name at 3102: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D18E126A
+  SizeOfData   : 0000002E
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageDescription@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : WdsCliGetImageDescription
+
+Archive member name at 3180: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9B521D6
+  SizeOfData   : 00000029
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageFiles@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : WdsCliGetImageFiles
+
+Archive member name at 31FA: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C98C7D0E
+  SizeOfData   : 00000028
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageGroup@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : WdsCliGetImageGroup
+
+Archive member name at 3272: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAA0D133
+  SizeOfData   : 0000002A
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageHalName@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : WdsCliGetImageHalName
+
+Archive member name at 32EC: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDDB00D9
+  SizeOfData   : 00000037
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageHandleFromFindHandle@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : WdsCliGetImageHandleFromFindHandle
+
+Archive member name at 3374: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF347B44
+  SizeOfData   : 0000003B
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageHandleFromTransferHandle@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : WdsCliGetImageHandleFromTransferHandle
+
+Archive member name at 3400: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C98BD80C
+  SizeOfData   : 00000028
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageIndex@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : WdsCliGetImageIndex
+
+Archive member name at 3478: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E95E0846
+  SizeOfData   : 0000002B
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageLanguage@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : WdsCliGetImageLanguage
+
+Archive member name at 34F4: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E274C9C7
+  SizeOfData   : 0000002D
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageLanguages@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : WdsCliGetImageLanguages
+
+Archive member name at 3572: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F454D6D3
+  SizeOfData   : 00000033
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageLastModifiedTime@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : WdsCliGetImageLastModifiedTime
+
+Archive member name at 35F6: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1D04161
+  SizeOfData   : 00000027
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageName@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : WdsCliGetImageName
+
+Archive member name at 366E: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0FF5305
+  SizeOfData   : 0000002C
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageNamespace@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : WdsCliGetImageNamespace
+
+Archive member name at 36EA: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB2D4BDD
+  SizeOfData   : 0000002D
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageParameter@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : WdsCliGetImageParameter
+
+Archive member name at 3768: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D182CC3D
+  SizeOfData   : 00000027
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImagePath@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : WdsCliGetImagePath
+
+Archive member name at 37E0: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7C8C447
+  SizeOfData   : 00000027
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageSize@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : WdsCliGetImageSize
+
+Archive member name at 3858: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E58DD1A8
+  SizeOfData   : 00000027
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageType@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : WdsCliGetImageType
+
+Archive member name at 38D0: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA3C5098
+  SizeOfData   : 0000002A
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetImageVersion@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : WdsCliGetImageVersion
+
+Archive member name at 394A: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F42FC1E5
+  SizeOfData   : 0000002C
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetSystemMetadata@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : WdsCliGetSystemMetadata
+
+Archive member name at 39C6: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C20C509D
+  SizeOfData   : 0000002A
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetTransferSize@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : WdsCliGetTransferSize
+
+Archive member name at 3A40: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F72BC570
+  SizeOfData   : 00000030
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetUnattendVariables@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : WdsCliGetUnattendVariables
+
+Archive member name at 3AC0: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBB2D5B8
+  SizeOfData   : 00000033
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliGetWimImageReferenceFile@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : WdsCliGetWimImageReferenceFile
+
+Archive member name at 3B44: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD9AE5CE
+  SizeOfData   : 00000029
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliInitializeLog@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : WdsCliInitializeLog
+
+Archive member name at 3BBE: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAB7BB01
+  SizeOfData   : 0000001C
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliLog
+  Type         : code
+  Name type    : no prefix
+  Hint         : 44
+  Name         : WdsCliLog
+
+Archive member name at 3C2A: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB619024
+  SizeOfData   : 00000030
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliObtainDriverPackages@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : WdsCliObtainDriverPackages
+
+Archive member name at 3CAA: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6837A3A
+  SizeOfData   : 00000032
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliObtainDriverPackagesEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : WdsCliObtainDriverPackagesEx
+
+Archive member name at 3D2C: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4FDD195
+  SizeOfData   : 00000028
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliRegisterTrace@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : WdsCliRegisterTrace
+
+Archive member name at 3DA4: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECBAD007
+  SizeOfData   : 0000002C
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliResetBootProgram@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : WdsCliResetBootProgram
+
+Archive member name at 3E20: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8B962E3
+  SizeOfData   : 0000002F
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliSetSupportedFeatures@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : WdsCliSetSupportedFeatures
+
+Archive member name at 3EA0: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F908ADDE
+  SizeOfData   : 0000002C
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliSetSystemMetadata@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : WdsCliSetSystemMetadata
+
+Archive member name at 3F1C: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAE89AB4
+  SizeOfData   : 00000030
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliSetTransferBufferSize@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : WdsCliSetTransferBufferSize
+
+Archive member name at 3F9C: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E40F149F
+  SizeOfData   : 0000002F
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliSimulateArchitecture@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : WdsCliSimulateArchitecture
+
+Archive member name at 401C: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA7CD365
+  SizeOfData   : 0000002B
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliSimulateDeviceId@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : WdsCliSimulateDeviceId
+
+Archive member name at 4098: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD126503
+  SizeOfData   : 0000002E
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliSimulateSmbiosInfo@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : WdsCliSimulateSmbiosInfo
+
+Archive member name at 4116: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD9ACD4E
+  SizeOfData   : 00000028
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliTransferFile@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : WdsCliTransferFile
+
+Archive member name at 418E: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E69A60EA
+  SizeOfData   : 00000029
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliTransferImage@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : WdsCliTransferImage
+
+Archive member name at 4208: /0              WDSCLIENTAPI.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBCC3BB8
+  SizeOfData   : 0000002A
+  DLL name     : WDSCLIENTAPI.dll
+  Symbol name  : _WdsCliWaitForTransfer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : WdsCliWaitForTransfer
+
+     Exports
+
+       ordinal    name
+
+                  _WdsCliAuthorizeSession@8
+                  _WdsCliCancelTransfer@4
+                  _WdsCliClose@4
+                  _WdsCliConnectToImageStore@12
+                  _WdsCliCreateSession@12
+                  _WdsCliCreateSessionEx@16
+                  _WdsCliFilterImageArchitecture@16
+                  _WdsCliFilterImageFirmwareType@12
+                  _WdsCliFilterImageVersion@16
+                  _WdsCliFilterImageVersionMatchingBootImage@12
+                  _WdsCliFindFirstImage@8
+                  _WdsCliFindNextImage@4
+                  _WdsCliFreeDomainJoinInformation@4
+                  _WdsCliFreeStringArray@8
+                  _WdsCliFreeUnattendVariables@8
+                  _WdsCliGetClientUnattend@20
+                  _WdsCliGetDeploymentMetadata@8
+                  _WdsCliGetDeploymentMetadataAvailable@8
+                  _WdsCliGetDomainJoinInformation@16
+                  _WdsCliGetDriverQueryXml@8
+                  _WdsCliGetEnumerationFlags@8
+                  _WdsCliGetImageArchitecture@8
+                  _WdsCliGetImageDescription@8
+                  _WdsCliGetImageFiles@12
+                  _WdsCliGetImageGroup@8
+                  _WdsCliGetImageHalName@8
+                  _WdsCliGetImageHandleFromFindHandle@8
+                  _WdsCliGetImageHandleFromTransferHandle@8
+                  _WdsCliGetImageIndex@8
+                  _WdsCliGetImageLanguage@8
+                  _WdsCliGetImageLanguages@12
+                  _WdsCliGetImageLastModifiedTime@8
+                  _WdsCliGetImageName@8
+                  _WdsCliGetImageNamespace@8
+                  _WdsCliGetImageParameter@16
+                  _WdsCliGetImagePath@8
+                  _WdsCliGetImageSize@8
+                  _WdsCliGetImageType@8
+                  _WdsCliGetImageVersion@8
+                  _WdsCliGetSystemMetadata@8
+                  _WdsCliGetTransferSize@8
+                  _WdsCliGetUnattendVariables@20
+                  _WdsCliGetWimImageReferenceFile@8
+                  _WdsCliInitializeLog@16
+                  _WdsCliLog
+                  _WdsCliObtainDriverPackages@16
+                  _WdsCliObtainDriverPackagesEx@20
+                  _WdsCliRegisterTrace@4
+                  _WdsCliResetBootProgram@12
+                  _WdsCliSetSupportedFeatures@8
+                  _WdsCliSetSystemMetadata@8
+                  _WdsCliSetTransferBufferSize@4
+                  _WdsCliSimulateArchitecture@8
+                  _WdsCliSimulateDeviceId@8
+                  _WdsCliSimulateSmbiosInfo@32
+                  _WdsCliTransferFile@36
+                  _WdsCliTransferImage@28
+                  _WdsCliWaitForTransfer@4
+
+  Summary
+
+          D2 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+          12 .idata$6

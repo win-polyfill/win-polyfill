@@ -1,0 +1,1400 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\feclient.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     F0A size
+correct header end
+
+    111 public symbols
+
+     1E9E __IMPORT_DESCRIPTOR_FeClient
+     20CC __NULL_IMPORT_DESCRIPTOR
+     2204 FeClient_NULL_THUNK_DATA
+     3B10 _FeClientInitialize@8
+     3B10 __imp__FeClientInitialize@8
+     2358 EfsUtilGetCurrentKey
+     2358 __imp_EfsUtilGetCurrentKey
+     3386 _EfsClientEncryptFileEx@8
+     3386 __imp__EfsClientEncryptFileEx@8
+     328E _EfsClientDecryptFile@8
+     328E __imp__EfsClientDecryptFile@8
+     35F0 _EfsClientGetKeyInfo@12
+     35F0 __imp__EfsClientGetKeyInfo@12
+     347C _EfsClientFreeKeyInfo@4
+     347C __imp__EfsClientFreeKeyInfo@4
+     36DC _EfsClientQueryProtectors@8
+     36DC __imp__EfsClientQueryProtectors@8
+     34F2 _EfsClientFreeProtectorList@4
+     34F2 __imp__EfsClientFreeProtectorList@4
+     33FE _EfsClientFileEncryptionStatus@8
+     33FE __imp__EfsClientFileEncryptionStatus@8
+     3844 _EfsClientWriteFileWithHeaderRaw@32
+     3844 __imp__EfsClientWriteFileWithHeaderRaw@32
+     25C2 _EdpCredentialCreate@16
+     25C2 __imp__EdpCredentialCreate@16
+     2724 _EdpCredentialQuery@16
+     2724 __imp__EdpCredentialQuery@16
+     26AE _EdpCredentialExists@16
+     26AE __imp__EdpCredentialExists@16
+     2638 _EdpCredentialDelete@20
+     2638 __imp__EdpCredentialDelete@20
+     2F4A _EdpQueryRevokedPolicyOwnerIds@12
+     2F4A __imp__EdpQueryRevokedPolicyOwnerIds@12
+     2EC8 _EdpQueryDplEnforcedPolicyOwnerIds@8
+     2EC8 __imp__EdpQueryDplEnforcedPolicyOwnerIds@8
+     2E4E _EdpQueryCredServiceInfo@20
+     2E4E __imp__EdpQueryCredServiceInfo@20
+     303A _EdpSetCredServiceInfo@20
+     303A __imp__EdpSetCredServiceInfo@20
+     2B72 _EdpFree@4
+     2B72 __imp__EdpFree@4
+     3C00 _GetLockSessionWrappedKey@28
+     3C00 __imp__GetLockSessionWrappedKey@28
+     3B84 _GetLockSessionUnwrappedKey@28
+     3B84 __imp__GetLockSessionUnwrappedKey@28
+     2C52 _EdpGetCredServiceState@36
+     2C52 __imp__EdpGetCredServiceState@36
+     2916 _EdpDplUpgradePinInfo@16
+     2916 __imp__EdpDplUpgradePinInfo@16
+     298C _EdpDplUpgradeVerifyUser@16
+     298C __imp__EdpDplUpgradeVerifyUser@16
+     2A06 _EdpDplUserCredentialsSet@16
+     2A06 __imp__EdpDplUserCredentialsSet@16
+     2810 _EdpDplPolicyEnabledForUser@8
+     2810 __imp__EdpDplPolicyEnabledForUser@8
+     288C _EdpDplStartCredServiceIfDplEnabledForUser@4
+     288C __imp__EdpDplStartCredServiceIfDplEnabledForUser@4
+     2AFA _EdpDplUserUnlockStart@20
+     2AFA __imp__EdpDplUserUnlockStart@20
+     2A80 _EdpDplUserUnlockComplete@12
+     2A80 __imp__EdpDplUserUnlockComplete@12
+     3666 _EfsClientOpenFileRaw@12
+     3666 __imp__EfsClientOpenFileRaw@12
+     3756 _EfsClientReadFileRaw@12
+     3756 __imp__EfsClientReadFileRaw@12
+     37CC _EfsClientWriteFileRaw@12
+     37CC __imp__EfsClientWriteFileRaw@12
+     31A2 _EfsClientCloseFileRaw@4
+     31A2 __imp__EfsClientCloseFileRaw@4
+     3304 _EfsClientDuplicateEncryptionInfo@20
+     3304 __imp__EfsClientDuplicateEncryptionInfo@20
+     356E _EfsClientGetEncryptedFileVersion@12
+     356E __imp__EfsClientGetEncryptedFileVersion@12
+     2FCA _EdpRmsClearKeys@0
+     2FCA __imp__EdpRmsClearKeys@0
+     254C _EdpContainerizeFile@20
+     254C __imp__EdpContainerizeFile@20
+     2BDA _EdpGetContainerIdentity@8
+     2BDA __imp__EdpGetContainerIdentity@8
+     2798 _EdpDecontainerizeFile@12
+     2798 __imp__EdpDecontainerizeFile@12
+     24CE _EdpAllowFileAccessForProcess@12
+     24CE __imp__EdpAllowFileAccessForProcess@12
+     30B2 _EdpUnprotectFile@8
+     30B2 __imp__EdpUnprotectFile@8
+     2DD4 _EdpPurgeAppLearningEvents@0
+     2DD4 __imp__EdpPurgeAppLearningEvents@0
+     3124 _EdpWriteLogSiteLearningEvents@4
+     3124 __imp__EdpWriteLogSiteLearningEvents@4
+     3218 _EfsClientCopyFileRaw@8
+     3218 __imp__EfsClientCopyFileRaw@8
+     3C7A _OefsCheckSupport@8
+     3C7A __imp__OefsCheckSupport@8
+     38C6 _EfsReprotectFile@8
+     38C6 __imp__EfsReprotectFile@8
+     2D4E _EdpIsConsumerDataProtectionSupported@4
+     2D4E __imp__EdpIsConsumerDataProtectionSupported@4
+     2CCA _EdpIsConsumerDataProtectionEnforced@8
+     2CCA __imp__EdpIsConsumerDataProtectionEnforced@8
+     39B4 _EfsValidateUserForConsumer@8
+     39B4 __imp__EfsValidateUserForConsumer@8
+     3938 _EfsValidateTokenForConsumer@8
+     3938 __imp__EfsValidateTokenForConsumer@8
+     3AA0 _FeClQueryInfo@16
+     3AA0 __imp__FeClQueryInfo@16
+     3A30 _FeClClearCaches@0
+     3A30 __imp__FeClClearCaches@0
+     23CA _DpQueryUserProtectorDescriptor@16
+     23CA __imp__DpQueryUserProtectorDescriptor@16
+     244A _DpQueryUserProtectorDescriptorInfo@16
+     244A __imp__DpQueryUserProtectorDescriptorInfo@16
+
+Archive member name at 1E9E: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1F2 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        F027E404 time date stamp
+             10E file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CE file pointer to raw data (000000CE to 000000E1)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     100 file pointer to raw data (00000100 to 0000010D)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 20CC: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        E9731989 time date stamp
+              BA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      64 file pointer to raw data (00000064 to 000000A5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A6 file pointer to raw data (000000A6 to 000000B9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 2204: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     118 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        D2887F5C time date stamp
+              D6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 2358: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9E23A62
+  SizeOfData   : 00000022
+  DLL name     : FeClient.dll
+  Symbol name  : EfsUtilGetCurrentKey
+  Type         : code
+  Name type    : name
+  Hint         : 45
+  Name         : EfsUtilGetCurrentKey
+
+Archive member name at 23CA: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF17F68A
+  SizeOfData   : 00000030
+  DLL name     : FeClient.dll
+  Symbol name  : _DpQueryUserProtectorDescriptor@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : DpQueryUserProtectorDescriptor
+
+Archive member name at 244A: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F63871DD
+  SizeOfData   : 00000034
+  DLL name     : FeClient.dll
+  Symbol name  : _DpQueryUserProtectorDescriptorInfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : DpQueryUserProtectorDescriptorInfo
+
+Archive member name at 24CE: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2C36C9C
+  SizeOfData   : 0000002E
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpAllowFileAccessForProcess@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : EdpAllowFileAccessForProcess
+
+Archive member name at 254C: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB2CF492
+  SizeOfData   : 00000025
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpContainerizeFile@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : EdpContainerizeFile
+
+Archive member name at 25C2: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3B05A1A
+  SizeOfData   : 00000025
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpCredentialCreate@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : EdpCredentialCreate
+
+Archive member name at 2638: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA212B14
+  SizeOfData   : 00000025
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpCredentialDelete@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : EdpCredentialDelete
+
+Archive member name at 26AE: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D20FC625
+  SizeOfData   : 00000025
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpCredentialExists@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : EdpCredentialExists
+
+Archive member name at 2724: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4EAFCD0
+  SizeOfData   : 00000024
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpCredentialQuery@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : EdpCredentialQuery
+
+Archive member name at 2798: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2065010
+  SizeOfData   : 00000027
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpDecontainerizeFile@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : EdpDecontainerizeFile
+
+Archive member name at 2810: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC49B53A
+  SizeOfData   : 0000002B
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpDplPolicyEnabledForUser@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : EdpDplPolicyEnabledForUser
+
+Archive member name at 288C: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8D29947
+  SizeOfData   : 0000003A
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpDplStartCredServiceIfDplEnabledForUser@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : EdpDplStartCredServiceIfDplEnabledForUser
+
+Archive member name at 2916: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E251C994
+  SizeOfData   : 00000026
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpDplUpgradePinInfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : EdpDplUpgradePinInfo
+
+Archive member name at 298C: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEDED9B4
+  SizeOfData   : 00000029
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpDplUpgradeVerifyUser@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : EdpDplUpgradeVerifyUser
+
+Archive member name at 2A06: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F882F9F5
+  SizeOfData   : 0000002A
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpDplUserCredentialsSet@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : EdpDplUserCredentialsSet
+
+Archive member name at 2A80: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE09B4F1
+  SizeOfData   : 0000002A
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpDplUserUnlockComplete@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : EdpDplUserUnlockComplete
+
+Archive member name at 2AFA: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DECADF68
+  SizeOfData   : 00000027
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpDplUserUnlockStart@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : EdpDplUserUnlockStart
+
+Archive member name at 2B72: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9EE7221
+  SizeOfData   : 00000018
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpFree@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : EdpFree
+
+Archive member name at 2BDA: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D67C7FA7
+  SizeOfData   : 00000028
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpGetContainerIdentity@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : EdpGetContainerIdentity
+
+Archive member name at 2C52: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB9EDBDF
+  SizeOfData   : 00000028
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpGetCredServiceState@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : EdpGetCredServiceState
+
+Archive member name at 2CCA: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3FCC60D
+  SizeOfData   : 00000034
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpIsConsumerDataProtectionEnforced@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : EdpIsConsumerDataProtectionEnforced
+
+Archive member name at 2D4E: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE57DB8C
+  SizeOfData   : 00000035
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpIsConsumerDataProtectionSupported@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : EdpIsConsumerDataProtectionSupported
+
+Archive member name at 2DD4: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3EF16A7
+  SizeOfData   : 0000002A
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpPurgeAppLearningEvents@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : EdpPurgeAppLearningEvents
+
+Archive member name at 2E4E: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF01F252
+  SizeOfData   : 00000029
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpQueryCredServiceInfo@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : EdpQueryCredServiceInfo
+
+Archive member name at 2EC8: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0E4490C
+  SizeOfData   : 00000032
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpQueryDplEnforcedPolicyOwnerIds@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : EdpQueryDplEnforcedPolicyOwnerIds
+
+Archive member name at 2F4A: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F26BFF92
+  SizeOfData   : 0000002F
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpQueryRevokedPolicyOwnerIds@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : EdpQueryRevokedPolicyOwnerIds
+
+Archive member name at 2FCA: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E245B78D
+  SizeOfData   : 00000020
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpRmsClearKeys@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : EdpRmsClearKeys
+
+Archive member name at 303A: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E11318FB
+  SizeOfData   : 00000027
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpSetCredServiceInfo@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : EdpSetCredServiceInfo
+
+Archive member name at 30B2: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D07F1845
+  SizeOfData   : 00000021
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpUnprotectFile@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : EdpUnprotectFile
+
+Archive member name at 3124: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8B46B37
+  SizeOfData   : 0000002E
+  DLL name     : FeClient.dll
+  Symbol name  : _EdpWriteLogSiteLearningEvents@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : EdpWriteLogSiteLearningEvents
+
+Archive member name at 31A2: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC405B73
+  SizeOfData   : 00000026
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientCloseFileRaw@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : EfsClientCloseFileRaw
+
+Archive member name at 3218: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE0204F1
+  SizeOfData   : 00000025
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientCopyFileRaw@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : EfsClientCopyFileRaw
+
+Archive member name at 328E: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C89D2460
+  SizeOfData   : 00000025
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientDecryptFile@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : EfsClientDecryptFile
+
+Archive member name at 3304: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E597884D
+  SizeOfData   : 00000032
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientDuplicateEncryptionInfo@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : EfsClientDuplicateEncryptionInfo
+
+Archive member name at 3386: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9DC231A
+  SizeOfData   : 00000027
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientEncryptFileEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : EfsClientEncryptFileEx
+
+Archive member name at 33FE: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8ECE2C1
+  SizeOfData   : 0000002E
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientFileEncryptionStatus@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : EfsClientFileEncryptionStatus
+
+Archive member name at 347C: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF3181CF
+  SizeOfData   : 00000025
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientFreeKeyInfo@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : EfsClientFreeKeyInfo
+
+Archive member name at 34F2: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8A3C56C
+  SizeOfData   : 0000002B
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientFreeProtectorList@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : EfsClientFreeProtectorList
+
+Archive member name at 356E: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5C711B3
+  SizeOfData   : 00000032
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientGetEncryptedFileVersion@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : EfsClientGetEncryptedFileVersion
+
+Archive member name at 35F0: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C288C8E4
+  SizeOfData   : 00000025
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientGetKeyInfo@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : EfsClientGetKeyInfo
+
+Archive member name at 3666: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC65F9E5
+  SizeOfData   : 00000026
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientOpenFileRaw@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : EfsClientOpenFileRaw
+
+Archive member name at 36DC: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB2FC3CC
+  SizeOfData   : 00000029
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientQueryProtectors@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : EfsClientQueryProtectors
+
+Archive member name at 3756: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9DBE3BB
+  SizeOfData   : 00000026
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientReadFileRaw@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : EfsClientReadFileRaw
+
+Archive member name at 37CC: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F105F8C5
+  SizeOfData   : 00000027
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientWriteFileRaw@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : EfsClientWriteFileRaw
+
+Archive member name at 3844: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C297DEE4
+  SizeOfData   : 00000031
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsClientWriteFileWithHeaderRaw@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : EfsClientWriteFileWithHeaderRaw
+
+Archive member name at 38C6: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7FF6CE9
+  SizeOfData   : 00000021
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsReprotectFile@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : EfsReprotectFile
+
+Archive member name at 3938: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE1B93D2
+  SizeOfData   : 0000002C
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsValidateTokenForConsumer@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : EfsValidateTokenForConsumer
+
+Archive member name at 39B4: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E41895D9
+  SizeOfData   : 0000002B
+  DLL name     : FeClient.dll
+  Symbol name  : _EfsValidateUserForConsumer@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : EfsValidateUserForConsumer
+
+Archive member name at 3A30: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E387A4FF
+  SizeOfData   : 00000020
+  DLL name     : FeClient.dll
+  Symbol name  : _FeClClearCaches@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : FeClClearCaches
+
+Archive member name at 3AA0: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E770393E
+  SizeOfData   : 0000001F
+  DLL name     : FeClient.dll
+  Symbol name  : _FeClQueryInfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : FeClQueryInfo
+
+Archive member name at 3B10: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D75DD14B
+  SizeOfData   : 00000023
+  DLL name     : FeClient.dll
+  Symbol name  : _FeClientInitialize@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : FeClientInitialize
+
+Archive member name at 3B84: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D87CE81B
+  SizeOfData   : 0000002C
+  DLL name     : FeClient.dll
+  Symbol name  : _GetLockSessionUnwrappedKey@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : GetLockSessionUnwrappedKey
+
+Archive member name at 3C00: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD66E08E
+  SizeOfData   : 0000002A
+  DLL name     : FeClient.dll
+  Symbol name  : _GetLockSessionWrappedKey@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : GetLockSessionWrappedKey
+
+Archive member name at 3C7A: FeClient.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D78C81B4
+  SizeOfData   : 00000021
+  DLL name     : FeClient.dll
+  Symbol name  : _OefsCheckSupport@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : OefsCheckSupport
+
+     Exports
+
+       ordinal    name
+
+                  EfsUtilGetCurrentKey
+                  _DpQueryUserProtectorDescriptor@16
+                  _DpQueryUserProtectorDescriptorInfo@16
+                  _EdpAllowFileAccessForProcess@12
+                  _EdpContainerizeFile@20
+                  _EdpCredentialCreate@16
+                  _EdpCredentialDelete@20
+                  _EdpCredentialExists@16
+                  _EdpCredentialQuery@16
+                  _EdpDecontainerizeFile@12
+                  _EdpDplPolicyEnabledForUser@8
+                  _EdpDplStartCredServiceIfDplEnabledForUser@4
+                  _EdpDplUpgradePinInfo@16
+                  _EdpDplUpgradeVerifyUser@16
+                  _EdpDplUserCredentialsSet@16
+                  _EdpDplUserUnlockComplete@12
+                  _EdpDplUserUnlockStart@20
+                  _EdpFree@4
+                  _EdpGetContainerIdentity@8
+                  _EdpGetCredServiceState@36
+                  _EdpIsConsumerDataProtectionEnforced@8
+                  _EdpIsConsumerDataProtectionSupported@4
+                  _EdpPurgeAppLearningEvents@0
+                  _EdpQueryCredServiceInfo@20
+                  _EdpQueryDplEnforcedPolicyOwnerIds@8
+                  _EdpQueryRevokedPolicyOwnerIds@12
+                  _EdpRmsClearKeys@0
+                  _EdpSetCredServiceInfo@20
+                  _EdpUnprotectFile@8
+                  _EdpWriteLogSiteLearningEvents@4
+                  _EfsClientCloseFileRaw@4
+                  _EfsClientCopyFileRaw@8
+                  _EfsClientDecryptFile@8
+                  _EfsClientDuplicateEncryptionInfo@20
+                  _EfsClientEncryptFileEx@8
+                  _EfsClientFileEncryptionStatus@8
+                  _EfsClientFreeKeyInfo@4
+                  _EfsClientFreeProtectorList@4
+                  _EfsClientGetEncryptedFileVersion@12
+                  _EfsClientGetKeyInfo@12
+                  _EfsClientOpenFileRaw@12
+                  _EfsClientQueryProtectors@8
+                  _EfsClientReadFileRaw@12
+                  _EfsClientWriteFileRaw@12
+                  _EfsClientWriteFileWithHeaderRaw@32
+                  _EfsReprotectFile@8
+                  _EfsValidateTokenForConsumer@8
+                  _EfsValidateUserForConsumer@8
+                  _FeClClearCaches@0
+                  _FeClQueryInfo@16
+                  _FeClientInitialize@8
+                  _GetLockSessionUnwrappedKey@28
+                  _GetLockSessionWrappedKey@28
+                  _OefsCheckSupport@8
+
+  Summary
+
+          C6 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           E .idata$6

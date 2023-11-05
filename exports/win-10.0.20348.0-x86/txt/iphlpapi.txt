@@ -1,0 +1,6812 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\iphlpapi.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    5054 size
+correct header end
+
+    603 public symbols
+
+     A132 __IMPORT_DESCRIPTOR_IPHLPAPI
+     A360 __NULL_IMPORT_DESCRIPTOR
+     A498 IPHLPAPI_NULL_THUNK_DATA
+     A5EC _AddIPAddress@20
+     A5EC __imp__AddIPAddress@20
+     A65A _AllocateAndGetInterfaceInfoFromStack@20
+     A65A __imp__AllocateAndGetInterfaceInfoFromStack@20
+     A764 _CancelIPChangeNotify@4
+     A764 __imp__CancelIPChangeNotify@4
+     A852 _CaptureInterfaceHardwareCrossTimestamp@8
+     A852 __imp__CaptureInterfaceHardwareCrossTimestamp@8
+     B120 _ConvertIpv4MaskToLength@8
+     B120 __imp__ConvertIpv4MaskToLength@8
+     B198 _ConvertLengthToIpv4Mask@8
+     B198 __imp__ConvertLengthToIpv4Mask@8
+     AACE _ConvertGuidToStringA@12
+     AACE __imp__ConvertGuidToStringA@12
+     AB44 _ConvertGuidToStringW@12
+     AB44 __imp__ConvertGuidToStringW@12
+     B524 _ConvertStringToGuidA@8
+     B524 __imp__ConvertStringToGuidA@8
+     B59A _ConvertStringToGuidW@8
+     B59A __imp__ConvertStringToGuidW@8
+     B7FC _CreateIpForwardEntry@4
+     B7FC __imp__CreateIpForwardEntry@4
+     B8E4 _CreateIpNetEntry@4
+     B8E4 __imp__CreateIpNetEntry@4
+     B956 _CreatePersistentTcpPortReservation@12
+     B956 __imp__CreatePersistentTcpPortReservation@12
+     B9DA _CreatePersistentUdpPortReservation@12
+     B9DA __imp__CreatePersistentUdpPortReservation@12
+     BA5E _CreateProxyArpEntry@12
+     BA5E __imp__CreateProxyArpEntry@12
+     BCB8 _DeleteIPAddress@4
+     BCB8 __imp__DeleteIPAddress@4
+     BD9E _DeleteIpForwardEntry@4
+     BD9E __imp__DeleteIpForwardEntry@4
+     BE86 _DeleteIpNetEntry@4
+     BE86 __imp__DeleteIpNetEntry@4
+     BEF8 _DeletePersistentTcpPortReservation@8
+     BEF8 __imp__DeletePersistentTcpPortReservation@8
+     BF7C _DeletePersistentUdpPortReservation@8
+     BF7C __imp__DeletePersistentUdpPortReservation@8
+     C000 _DeleteProxyArpEntry@12
+     C000 __imp__DeleteProxyArpEntry@12
+     C0F2 _DisableMediaSense@8
+     C0F2 __imp__DisableMediaSense@8
+     C164 _EnableRouter@8
+     C164 __imp__EnableRouter@8
+     C244 _FlushIpNetTable@4
+     C244 __imp__FlushIpNetTable@4
+     C47E _GetAdapterIndex@8
+     C47E __imp__GetAdapterIndex@8
+     C4EE _GetAdapterOrderMap@0
+     C4EE __imp__GetAdapterOrderMap@0
+     C562 _GetAdaptersAddresses@20
+     C562 __imp__GetAdaptersAddresses@20
+     C5D8 _GetAdaptersInfo@8
+     C5D8 __imp__GetAdaptersInfo@8
+     C892 _GetBestRoute@12
+     C892 __imp__GetBestRoute@12
+     C900 _GetCurrentThreadCompartmentId@0
+     C900 __imp__GetCurrentThreadCompartmentId@0
+     C97E _GetCurrentThreadCompartmentScope@8
+     C97E __imp__GetCurrentThreadCompartmentScope@8
+     CA00 _GetDefaultCompartmentId@0
+     CA00 __imp__GetDefaultCompartmentId@0
+     CAE8 _GetExtendedTcpTable@24
+     CAE8 __imp__GetExtendedTcpTable@24
+     CB5E _GetExtendedUdpTable@24
+     CB5E __imp__GetExtendedUdpTable@24
+     CBD4 _GetFriendlyIfIndex@4
+     CBD4 __imp__GetFriendlyIfIndex@4
+     CC48 _GetIcmpStatistics@4
+     CC48 __imp__GetIcmpStatistics@4
+     CCBA _GetIcmpStatisticsEx@8
+     CCBA __imp__GetIcmpStatisticsEx@8
+     CE08 _GetIfEntry@4
+     CE08 __imp__GetIfEntry@4
+     CFBE _GetIfTable@12
+     CFBE __imp__GetIfTable@12
+     D02A _GetInterfaceActiveTimestampCapabilities@8
+     D02A __imp__GetInterfaceActiveTimestampCapabilities@8
+     D1A6 _GetInterfaceInfo@8
+     D1A6 __imp__GetInterfaceInfo@8
+     D218 _GetInterfaceSupportedTimestampCapabilities@8
+     D218 __imp__GetInterfaceSupportedTimestampCapabilities@8
+     D31C _GetIpAddrTable@12
+     D31C __imp__GetIpAddrTable@12
+     D38C _GetIpErrorString@12
+     D38C __imp__GetIpErrorString@12
+     D4E6 _GetIpForwardTable@12
+     D4E6 __imp__GetIpForwardTable@12
+     D722 _GetIpNetTable@12
+     D722 __imp__GetIpNetTable@12
+     D8FC _GetIpStatistics@4
+     D8FC __imp__GetIpStatistics@4
+     D96C _GetIpStatisticsEx@8
+     D96C __imp__GetIpStatisticsEx@8
+     D9DE _GetJobCompartmentId@4
+     D9DE __imp__GetJobCompartmentId@4
+     DC4E _GetNetworkInformation@20
+     DC4E __imp__GetNetworkInformation@20
+     DCC6 _GetNetworkParams@8
+     DCC6 __imp__GetNetworkParams@8
+     DD38 _GetNumberOfInterfaces@4
+     DD38 __imp__GetNumberOfInterfaces@4
+     DDAE _GetOwnerModuleFromPidAndInfo@20
+     DDAE __imp__GetOwnerModuleFromPidAndInfo@20
+     DEAA _GetOwnerModuleFromTcpEntry@16
+     DEAA __imp__GetOwnerModuleFromTcpEntry@16
+     DE2C _GetOwnerModuleFromTcp6Entry@16
+     DE2C __imp__GetOwnerModuleFromTcp6Entry@16
+     DFA4 _GetOwnerModuleFromUdpEntry@16
+     DFA4 __imp__GetOwnerModuleFromUdpEntry@16
+     DF26 _GetOwnerModuleFromUdp6Entry@16
+     DF26 __imp__GetOwnerModuleFromUdp6Entry@16
+     E020 _GetPerAdapterInfo@12
+     E020 __imp__GetPerAdapterInfo@12
+     E094 _GetPerTcp6ConnectionEStats@44
+     E094 __imp__GetPerTcp6ConnectionEStats@44
+     E110 _GetPerTcp6ConnectionStats@32
+     E110 __imp__GetPerTcp6ConnectionStats@32
+     E18C _GetPerTcpConnectionEStats@44
+     E18C __imp__GetPerTcpConnectionEStats@44
+     E208 _GetPerTcpConnectionStats@32
+     E208 __imp__GetPerTcpConnectionStats@32
+     E282 _GetRTTAndHopCount@16
+     E282 __imp__GetRTTAndHopCount@16
+     E2F6 _GetSessionCompartmentId@4
+     E2F6 __imp__GetSessionCompartmentId@4
+     E44C _GetTcpStatistics@4
+     E44C __imp__GetTcpStatistics@4
+     E532 _GetTcpStatisticsEx@8
+     E532 __imp__GetTcpStatisticsEx@8
+     E4BE _GetTcpStatisticsEx2@8
+     E4BE __imp__GetTcpStatisticsEx2@8
+     E614 _GetTcpTable@12
+     E614 __imp__GetTcpTable@12
+     E5A6 _GetTcpTable2@12
+     E5A6 __imp__GetTcpTable2@12
+     E3DE _GetTcp6Table@12
+     E3DE __imp__GetTcp6Table@12
+     E36E _GetTcp6Table2@12
+     E36E __imp__GetTcp6Table2@12
+     E75E _GetUdpStatistics@4
+     E75E __imp__GetUdpStatistics@4
+     E844 _GetUdpStatisticsEx@8
+     E844 __imp__GetUdpStatisticsEx@8
+     E7D0 _GetUdpStatisticsEx2@8
+     E7D0 __imp__GetUdpStatisticsEx2@8
+     E8B8 _GetUdpTable@12
+     E8B8 __imp__GetUdpTable@12
+     E6F0 _GetUdp6Table@12
+     E6F0 __imp__GetUdp6Table@12
+     E926 _GetUniDirectionalAdapterInfo@8
+     E926 __imp__GetUniDirectionalAdapterInfo@8
+     EB0E _Icmp6CreateFile@0
+     EB0E __imp__Icmp6CreateFile@0
+     EB7E _Icmp6ParseReplies@8
+     EB7E __imp__Icmp6ParseReplies@8
+     EBF0 _Icmp6SendEcho2@48
+     EBF0 __imp__Icmp6SendEcho2@48
+     EC60 _IcmpCloseHandle@4
+     EC60 __imp__IcmpCloseHandle@4
+     ECD0 _IcmpCreateFile@0
+     ECD0 __imp__IcmpCreateFile@0
+     ED40 _IcmpParseReplies@8
+     ED40 __imp__IcmpParseReplies@8
+     EE94 _IcmpSendEcho@32
+     EE94 __imp__IcmpSendEcho@32
+     EDB2 _IcmpSendEcho2@44
+     EDB2 __imp__IcmpSendEcho2@44
+     EE22 _IcmpSendEcho2Ex@48
+     EE22 __imp__IcmpSendEcho2Ex@48
+    112BA _IpReleaseAddress@4
+    112BA __imp__IpReleaseAddress@4
+    1132C _IpRenewAddress@4
+    1132C __imp__IpRenewAddress@4
+    1139C _LookupPersistentTcpPortReservation@12
+    1139C __imp__LookupPersistentTcpPortReservation@12
+    11420 _LookupPersistentUdpPortReservation@12
+    11420 __imp__LookupPersistentUdpPortReservation@12
+    11788 _NhpAllocateAndGetInterfaceInfoFromStack@20
+    11788 __imp__NhpAllocateAndGetInterfaceInfoFromStack@20
+    1158A _NhGetGuidFromInterfaceName@16
+    1158A __imp__NhGetGuidFromInterfaceName@16
+    11606 _NhGetInterfaceDescriptionFromGuid@20
+    11606 __imp__NhGetInterfaceDescriptionFromGuid@20
+    1168A _NhGetInterfaceNameFromDeviceGuid@20
+    1168A __imp__NhGetInterfaceNameFromDeviceGuid@20
+    1170C _NhGetInterfaceNameFromGuid@20
+    1170C __imp__NhGetInterfaceNameFromGuid@20
+    11812 _NotifyAddrChange@8
+    11812 __imp__NotifyAddrChange@8
+    11A72 _NotifyRouteChange@8
+    11A72 __imp__NotifyRouteChange@8
+    11CCE _ParseNetworkString@20
+    11CCE __imp__ParseNetworkString@20
+    1249C _RegisterInterfaceTimestampConfigChange@12
+    1249C __imp__RegisterInterfaceTimestampConfigChange@12
+    1260A _RestoreMediaSense@8
+    1260A __imp__RestoreMediaSense@8
+    12598 _ResolveNeighbor@12
+    12598 __imp__ResolveNeighbor@12
+    1267C _SendARP@16
+    1267C __imp__SendARP@16
+    1275C _SetCurrentThreadCompartmentId@4
+    1275C __imp__SetCurrentThreadCompartmentId@4
+    127DA _SetCurrentThreadCompartmentScope@4
+    127DA __imp__SetCurrentThreadCompartmentScope@4
+    128CC _SetIfEntry@4
+    128CC __imp__SetIfEntry@4
+    12A26 _SetIpForwardEntry@4
+    12A26 __imp__SetIpForwardEntry@4
+    12B7C _SetIpNetEntry@4
+    12B7C __imp__SetIpNetEntry@4
+    12BEA _SetIpStatistics@4
+    12BEA __imp__SetIpStatistics@4
+    12C5A _SetIpStatisticsEx@8
+    12C5A __imp__SetIpStatisticsEx@8
+    12CCC _SetIpTTL@4
+    12CCC __imp__SetIpTTL@4
+    12D36 _SetJobCompartmentId@8
+    12D36 __imp__SetJobCompartmentId@8
+    12DAA _SetNetworkInformation@12
+    12DAA __imp__SetNetworkInformation@12
+    12E22 _SetPerTcp6ConnectionEStats@24
+    12E22 __imp__SetPerTcp6ConnectionEStats@24
+    12E9E _SetPerTcp6ConnectionStats@20
+    12E9E __imp__SetPerTcp6ConnectionStats@20
+    12F1A _SetPerTcpConnectionEStats@24
+    12F1A __imp__SetPerTcpConnectionEStats@24
+    12F96 _SetPerTcpConnectionStats@20
+    12F96 __imp__SetPerTcpConnectionStats@20
+    13010 _SetSessionCompartmentId@8
+    13010 __imp__SetSessionCompartmentId@8
+    13088 _SetTcpEntry@4
+    13088 __imp__SetTcpEntry@4
+    1316E _UnenableRouter@8
+    1316E __imp__UnenableRouter@8
+    131DE _UnregisterInterfaceTimestampConfigChange@4
+    131DE __imp__UnregisterInterfaceTimestampConfigChange@4
+     A6E0 _AllocateAndGetIpAddrTableFromStack@16
+     A6E0 __imp__AllocateAndGetIpAddrTableFromStack@16
+     B210 _ConvertRemoteInterfaceAliasToLuid@12
+     B210 __imp__ConvertRemoteInterfaceAliasToLuid@12
+     B294 _ConvertRemoteInterfaceGuidToLuid@12
+     B294 __imp__ConvertRemoteInterfaceGuidToLuid@12
+     B316 _ConvertRemoteInterfaceIndexToLuid@12
+     B316 __imp__ConvertRemoteInterfaceIndexToLuid@12
+     B39A _ConvertRemoteInterfaceLuidToAlias@16
+     B39A __imp__ConvertRemoteInterfaceLuidToAlias@16
+     B41E _ConvertRemoteInterfaceLuidToGuid@12
+     B41E __imp__ConvertRemoteInterfaceLuidToGuid@12
+     B4A0 _ConvertRemoteInterfaceLuidToIndex@12
+     B4A0 __imp__ConvertRemoteInterfaceLuidToIndex@12
+     F276 _InternalCreateIpForwardEntry@4
+     F276 __imp__InternalCreateIpForwardEntry@4
+     F36E _InternalCreateIpNetEntry@4
+     F36E __imp__InternalCreateIpNetEntry@4
+     F5F2 _InternalDeleteIpForwardEntry@4
+     F5F2 __imp__InternalDeleteIpForwardEntry@4
+     F6EA _InternalDeleteIpNetEntry@4
+     F6EA __imp__InternalDeleteIpNetEntry@4
+     FC64 _InternalGetIfTable@12
+     FC64 __imp__InternalGetIfTable@12
+     FCD8 _InternalGetIpAddrTable@12
+     FCD8 __imp__InternalGetIpAddrTable@12
+     FDCC _InternalGetIpForwardTable@12
+     FDCC __imp__InternalGetIpForwardTable@12
+    10032 _InternalGetIpNetTable@12
+    10032 __imp__InternalGetIpNetTable@12
+    104A8 _InternalGetTcpTable@12
+    104A8 __imp__InternalGetTcpTable@12
+    10432 _InternalGetTcpTable2@12
+    10432 __imp__InternalGetTcpTable2@12
+    1051E _InternalGetTcpTableEx@12
+    1051E __imp__InternalGetTcpTableEx@12
+    1061A _InternalGetTcpTableWithOwnerPid@12
+    1061A __imp__InternalGetTcpTableWithOwnerPid@12
+    10596 _InternalGetTcpTableWithOwnerModule@12
+    10596 __imp__InternalGetTcpTableWithOwnerModule@12
+    10232 _InternalGetTcp6Table2@12
+    10232 __imp__InternalGetTcp6Table2@12
+    10330 _InternalGetTcp6TableWithOwnerPid@12
+    10330 __imp__InternalGetTcp6TableWithOwnerPid@12
+    102AA _InternalGetTcp6TableWithOwnerModule@12
+    102AA __imp__InternalGetTcp6TableWithOwnerModule@12
+    1069C _InternalGetTunnelPhysicalAdapter@8
+    1069C __imp__InternalGetTunnelPhysicalAdapter@8
+    1081C _InternalGetUdp6TableWithOwnerPid@12
+    1081C __imp__InternalGetUdp6TableWithOwnerPid@12
+    10796 _InternalGetUdp6TableWithOwnerModule@12
+    10796 __imp__InternalGetUdp6TableWithOwnerModule@12
+    1071E _InternalGetUdp6Table2@12
+    1071E __imp__InternalGetUdp6Table2@12
+    10994 _InternalGetUdpTable@12
+    10994 __imp__InternalGetUdpTable@12
+    10A0A _InternalGetUdpTableEx@12
+    10A0A __imp__InternalGetUdpTableEx@12
+    10B06 _InternalGetUdpTableWithOwnerPid@12
+    10B06 __imp__InternalGetUdpTableWithOwnerPid@12
+    10A82 _InternalGetUdpTableWithOwnerModule@12
+    10A82 __imp__InternalGetUdpTableWithOwnerModule@12
+    1091E _InternalGetUdpTable2@12
+    1091E __imp__InternalGetUdpTable2@12
+    10D06 _InternalSetIfEntry@4
+    10D06 __imp__InternalSetIfEntry@4
+    10DF6 _InternalSetIpForwardEntry@4
+    10DF6 __imp__InternalSetIpForwardEntry@4
+    10F64 _InternalSetIpNetEntry@4
+    10F64 __imp__InternalSetIpNetEntry@4
+    10FDA _InternalSetIpStats@4
+    10FDA __imp__InternalSetIpStats@4
+    110CE _InternalSetTcpEntry@4
+    110CE __imp__InternalSetTcpEntry@4
+    114A4 _NTPTimeToNTFileTime@12
+    114A4 __imp__NTPTimeToNTFileTime@12
+    1151A _NTTimeToNTPTime@8
+    1151A __imp__NTTimeToNTPTime@8
+    126E6 _SetAdapterIpAddress@20
+    126E6 __imp__SetAdapterIpAddress@20
+     FAEE _InternalGetIPPhysicalInterfaceForDestination@28
+     FAEE __imp__InternalGetIPPhysicalInterfaceForDestination@28
+     A94C _CloseGetIPPhysicalInterfaceForDestination@4
+     A94C __imp__CloseGetIPPhysicalInterfaceForDestination@4
+    101B2 _InternalGetRtcSlotInformation@12
+    101B2 __imp__InternalGetRtcSlotInformation@12
+    10C8C _InternalIcmpCreateFileEx@4
+    10C8C __imp__InternalIcmpCreateFileEx@4
+     EA98 _GetWPAOACSupportLevel@0
+     EA98 __imp__GetWPAOACSupportLevel@0
+     F9F0 _InternalGetBoundTcpEndpointTable@12
+     F9F0 __imp__InternalGetBoundTcpEndpointTable@12
+     F96C _InternalGetBoundTcp6EndpointTable@12
+     F96C __imp__InternalGetBoundTcp6EndpointTable@12
+    1089E _InternalGetUdpDynamicPortRange@8
+    1089E __imp__InternalGetUdpDynamicPortRange@8
+    103B2 _InternalGetTcpDynamicPortRange@8
+    103B2 __imp__InternalGetTcpDynamicPortRange@8
+    111B8 _InternalSetUdpDynamicPortRange@8
+    111B8 __imp__InternalSetUdpDynamicPortRange@8
+    1104E _InternalSetTcpDynamicPortRange@8
+    1104E __imp__InternalSetTcpDynamicPortRange@8
+     D472 _GetIpForwardTable2@8
+     D472 __imp__GetIpForwardTable2@8
+     C822 _GetBestRoute2@28
+     C822 __imp__GetBestRoute2@28
+     D3FE _GetIpForwardEntry2@4
+     D3FE __imp__GetIpForwardEntry2@4
+    129B2 _SetIpForwardEntry2@4
+    129B2 __imp__SetIpForwardEntry2@4
+     B786 _CreateIpForwardEntry2@4
+     B786 __imp__CreateIpForwardEntry2@4
+     BD28 _DeleteIpForwardEntry2@4
+     BD28 __imp__DeleteIpForwardEntry2@4
+    119FE _NotifyRouteChange2@20
+    119FE __imp__NotifyRouteChange2@20
+     EF7E _InitializeIpForwardEntry@4
+     EF7E __imp__InitializeIpForwardEntry@4
+     D6B2 _GetIpNetTable2@8
+     D6B2 __imp__GetIpNetTable2@8
+     D642 _GetIpNetEntry2@4
+     D642 __imp__GetIpNetEntry2@4
+    12B0C _SetIpNetEntry2@4
+    12B0C __imp__SetIpNetEntry2@4
+     B872 _CreateIpNetEntry2@4
+     B872 __imp__CreateIpNetEntry2@4
+     BE14 _DeleteIpNetEntry2@4
+     BE14 __imp__DeleteIpNetEntry2@4
+     C1D2 _FlushIpNetTable2@8
+     C1D2 __imp__FlushIpNetTable2@8
+    12524 _ResolveIpNetEntry2@8
+    12524 __imp__ResolveIpNetEntry2@8
+     CEE4 _GetIfTable2@4
+     CEE4 __imp__GetIfTable2@4
+     CF50 _GetIfTable2Ex@8
+     CF50 __imp__GetIfTable2Ex@8
+     CD2E _GetIfEntry2@4
+     CD2E __imp__GetIfEntry2@4
+     CD9A _GetIfEntry2Ex@8
+     CD9A __imp__GetIfEntry2Ex@8
+     D55A _GetIpInterfaceEntry@4
+     D55A __imp__GetIpInterfaceEntry@4
+     D5CE _GetIpInterfaceTable@8
+     D5CE __imp__GetIpInterfaceTable@8
+     EFF8 _InitializeIpInterfaceEntry@4
+     EFF8 __imp__InitializeIpInterfaceEntry@4
+    118FE _NotifyIpInterfaceChange@20
+    118FE __imp__NotifyIpInterfaceChange@20
+    12A98 _SetIpInterfaceEntry@4
+    12A98 __imp__SetIpInterfaceEntry@4
+     C73C _GetBestInterface@8
+     C73C __imp__GetBestInterface@8
+     C7AE _GetBestInterfaceEx@8
+     C7AE __imp__GetBestInterfaceEx@8
+     CE74 _GetIfStackTable@4
+     CE74 __imp__GetIfStackTable@4
+     D2A4 _GetInvertedIfStackTable@4
+     D2A4 __imp__GetInvertedIfStackTable@4
+     BB4E _CreateUnicastIpAddressEntry@4
+     BB4E __imp__CreateUnicastIpAddressEntry@4
+     C076 _DeleteUnicastIpAddressEntry@4
+     C076 __imp__DeleteUnicastIpAddressEntry@4
+     E9A4 _GetUnicastIpAddressEntry@4
+     E9A4 __imp__GetUnicastIpAddressEntry@4
+    130F4 _SetUnicastIpAddressEntry@4
+    130F4 __imp__SetUnicastIpAddressEntry@4
+     EA1E _GetUnicastIpAddressTable@8
+     EA1E __imp__GetUnicastIpAddressTable@8
+    11BE0 _NotifyUnicastIpAddressChange@20
+    11BE0 __imp__NotifyUnicastIpAddressChange@20
+    11AE4 _NotifyStableUnicastIpAddressTable@20
+    11AE4 __imp__NotifyStableUnicastIpAddressTable@20
+     F074 _InitializeUnicastIpAddressEntry@4
+     F074 __imp__InitializeUnicastIpAddressEntry@4
+     B698 _CreateAnycastIpAddressEntry@4
+     B698 __imp__CreateAnycastIpAddressEntry@4
+     BBCA _DeleteAnycastIpAddressEntry@4
+     BBCA __imp__DeleteAnycastIpAddressEntry@4
+     C648 _GetAnycastIpAddressEntry@4
+     C648 __imp__GetAnycastIpAddressEntry@4
+     C6C2 _GetAnycastIpAddressTable@8
+     C6C2 __imp__GetAnycastIpAddressTable@8
+     DA52 _GetMulticastIpAddressEntry@4
+     DA52 __imp__GetMulticastIpAddressEntry@4
+     DACE _GetMulticastIpAddressTable@8
+     DACE __imp__GetMulticastIpAddressTable@8
+     D88C _GetIpPathTable@8
+     D88C __imp__GetIpPathTable@8
+     D81C _GetIpPathEntry@4
+     D81C __imp__GetIpPathEntry@4
+     C2B4 _FlushIpPathTable@4
+     C2B4 __imp__FlushIpPathTable@4
+     D792 _GetIpNetworkConnectionBandwidthEstimates@12
+     D792 __imp__GetIpNetworkConnectionBandwidthEstimates@12
+     B714 _CreateCompartment@4
+     B714 __imp__CreateCompartment@4
+     BC46 _DeleteCompartment@4
+     BC46 __imp__DeleteCompartment@4
+    11C5E _OpenCompartment@8
+    11C5E __imp__OpenCompartment@8
+     A8DA _CloseCompartment@4
+     A8DA __imp__CloseCompartment@4
+    11884 _NotifyCompartmentChange@16
+    11884 __imp__NotifyCompartmentChange@16
+     EF02 _InitializeCompartmentEntry@4
+     EF02 __imp__InitializeCompartmentEntry@4
+     D0B2 _GetInterfaceCompartmentId@4
+     D0B2 __imp__GetInterfaceCompartmentId@4
+     E682 _GetTeredoPort@4
+     E682 __imp__GetTeredoPort@4
+    11B68 _NotifyTeredoPortChange@16
+    11B68 __imp__NotifyTeredoPortChange@16
+    11142 _InternalSetTeredoPort@4
+    11142 __imp__InternalSetTeredoPort@4
+     A7DA _CancelMibChangeNotify2@4
+     A7DA __imp__CancelMibChangeNotify2@4
+     BAD4 _CreateSortedAddressPairs@28
+     BAD4 __imp__CreateSortedAddressPairs@28
+     C410 _FreeMibTable@4
+     C410 __imp__FreeMibTable@4
+     CA78 _GetDnsSettings@4
+     CA78 __imp__GetDnsSettings@4
+    1285C _SetDnsSettings@4
+    1285C __imp__SetDnsSettings@4
+     C326 _FreeDnsSettings@4
+     C326 __imp__FreeDnsSettings@4
+     D12C _GetInterfaceDnsSettings@20
+     D12C __imp__GetInterfaceDnsSettings@20
+    12938 _SetInterfaceDnsSettings@20
+    12938 __imp__SetInterfaceDnsSettings@20
+     C396 _FreeInterfaceDnsSettings@4
+     C396 __imp__FreeInterfaceDnsSettings@4
+     DB4A _GetNetworkConnectivityHint@4
+     DB4A __imp__GetNetworkConnectivityHint@4
+     DBC6 _GetNetworkConnectivityHintForInterface@8
+     DBC6 __imp__GetNetworkConnectivityHintForInterface@8
+    11978 _NotifyNetworkConnectivityHintChange@16
+    11978 __imp__NotifyNetworkConnectivityHintChange@16
+     FBF0 _InternalGetIfTable2@8
+     FBF0 __imp__InternalGetIfTable2@8
+     FB7C _InternalGetIfEntry2@8
+     FB7C __imp__InternalGetIfEntry2@8
+     FE48 _InternalGetIpInterfaceEntry@8
+     FE48 __imp__InternalGetIpInterfaceEntry@8
+     FEC4 _InternalGetIpInterfaceTable@12
+     FEC4 __imp__InternalGetIpInterfaceTable@12
+    10E70 _InternalSetIpInterfaceEntry@8
+    10E70 __imp__InternalSetIpInterfaceEntry@8
+     FA72 _InternalGetForwardIpTable2@12
+     FA72 __imp__InternalGetForwardIpTable2@12
+     FD50 _InternalGetIpForwardEntry2@8
+     FD50 __imp__InternalGetIpForwardEntry2@8
+    10D7A _InternalSetIpForwardEntry2@8
+    10D7A __imp__InternalSetIpForwardEntry2@8
+     F1F8 _InternalCreateIpForwardEntry2@8
+     F1F8 __imp__InternalCreateIpForwardEntry2@8
+     F3E8 _InternalCreateOrRefIpForwardEntry2@8
+     F3E8 __imp__InternalCreateOrRefIpForwardEntry2@8
+     F574 _InternalDeleteIpForwardEntry2@8
+     F574 __imp__InternalDeleteIpForwardEntry2@8
+     F46C _InternalCreateUnicastIpAddressEntry@8
+     F46C __imp__InternalCreateUnicastIpAddressEntry@8
+     F764 _InternalDeleteUnicastIpAddressEntry@8
+     F764 __imp__InternalDeleteUnicastIpAddressEntry@8
+    10B88 _InternalGetUnicastIpAddressEntry@8
+    10B88 __imp__InternalGetUnicastIpAddressEntry@8
+    11238 _InternalSetUnicastIpAddressEntry@8
+    11238 __imp__InternalSetUnicastIpAddressEntry@8
+    10C0A _InternalGetUnicastIpAddressTable@12
+    10C0A __imp__InternalGetUnicastIpAddressTable@12
+     F174 _InternalCreateAnycastIpAddressEntry@8
+     F174 __imp__InternalCreateAnycastIpAddressEntry@8
+     F4F0 _InternalDeleteAnycastIpAddressEntry@8
+     F4F0 __imp__InternalDeleteAnycastIpAddressEntry@8
+     F868 _InternalGetAnycastIpAddressEntry@8
+     F868 __imp__InternalGetAnycastIpAddressEntry@8
+     F8EA _InternalGetAnycastIpAddressTable@12
+     F8EA __imp__InternalGetAnycastIpAddressTable@12
+    100AA _InternalGetMulticastIpAddressEntry@8
+    100AA __imp__InternalGetMulticastIpAddressEntry@8
+    1012E _InternalGetMulticastIpAddressTable@12
+    1012E __imp__InternalGetMulticastIpAddressTable@12
+     FFBA _InternalGetIpNetTable2@12
+     FFBA __imp__InternalGetIpNetTable2@12
+     FF42 _InternalGetIpNetEntry2@8
+     FF42 __imp__InternalGetIpNetEntry2@8
+    10EEC _InternalSetIpNetEntry2@8
+    10EEC __imp__InternalSetIpNetEntry2@8
+     F2F4 _InternalCreateIpNetEntry2@8
+     F2F4 __imp__InternalCreateIpNetEntry2@8
+     F670 _InternalDeleteIpNetEntry2@8
+     F670 __imp__InternalDeleteIpNetEntry2@8
+     F0F4 _InternalCleanupPersistentStore@8
+     F0F4 __imp__InternalCleanupPersistentStore@8
+     F7E8 _InternalFindInterfaceByAddress@8
+     F7E8 __imp__InternalFindInterfaceByAddress@8
+     A9D6 _ConvertCompartmentGuidToId@8
+     A9D6 __imp__ConvertCompartmentGuidToId@8
+     AA52 _ConvertCompartmentIdToGuid@8
+     AA52 __imp__ConvertCompartmentIdToGuid@8
+     ABBA _ConvertInterfaceAliasToLuid@8
+     ABBA __imp__ConvertInterfaceAliasToLuid@8
+     AC36 _ConvertInterfaceGuidToLuid@8
+     AC36 __imp__ConvertInterfaceGuidToLuid@8
+     ACB2 _ConvertInterfaceIndexToLuid@8
+     ACB2 __imp__ConvertInterfaceIndexToLuid@8
+     AD2E _ConvertInterfaceLuidToAlias@12
+     AD2E __imp__ConvertInterfaceLuidToAlias@12
+     ADAC _ConvertInterfaceLuidToGuid@8
+     ADAC __imp__ConvertInterfaceLuidToGuid@8
+     AE28 _ConvertInterfaceLuidToIndex@8
+     AE28 __imp__ConvertInterfaceLuidToIndex@8
+     AEA4 _ConvertInterfaceLuidToNameA@12
+     AEA4 __imp__ConvertInterfaceLuidToNameA@12
+     AF22 _ConvertInterfaceLuidToNameW@12
+     AF22 __imp__ConvertInterfaceLuidToNameW@12
+     AFA0 _ConvertInterfaceNameToLuidA@8
+     AFA0 __imp__ConvertInterfaceNameToLuidA@8
+     B01C _ConvertInterfaceNameToLuidW@8
+     B01C __imp__ConvertInterfaceNameToLuidW@8
+     B098 _ConvertInterfacePhysicalAddressToLuid@12
+     B098 __imp__ConvertInterfacePhysicalAddressToLuid@12
+     B610 _ConvertStringToInterfacePhysicalAddress@8
+     B610 __imp__ConvertStringToInterfacePhysicalAddress@8
+    132D8 __imp__if_nametoindex@4
+    132D8 _if_nametoindex@4
+    13268 __imp__if_indextoname@8
+    13268 _if_indextoname@8
+    123BC _PfTestPacket@20
+    123BC __imp__PfTestPacket@20
+    12014 _PfDeleteLog@0
+    12014 __imp__PfDeleteLog@0
+    12080 _PfGetInterfaceStatistics@16
+    12080 __imp__PfGetInterfaceStatistics@16
+    1234C _PfSetLogBuffer@28
+    1234C __imp__PfSetLogBuffer@28
+    120FA _PfMakeLog@4
+    120FA __imp__PfMakeLog@4
+    12164 _PfRebindFilters@8
+    12164 __imp__PfRebindFilters@8
+    11E3A _PfBindInterfaceToIPAddress@12
+    11E3A __imp__PfBindInterfaceToIPAddress@12
+    11EB6 _PfBindInterfaceToIndex@16
+    11EB6 __imp__PfBindInterfaceToIndex@16
+    1242A _PfUnBindInterface@4
+    1242A __imp__PfUnBindInterface@4
+    122CA _PfRemoveGlobalFilterFromInterface@8
+    122CA __imp__PfRemoveGlobalFilterFromInterface@8
+    11DBC _PfAddGlobalFilterToInterface@8
+    11DBC __imp__PfAddGlobalFilterToInterface@8
+    121D4 _PfRemoveFilterHandles@12
+    121D4 __imp__PfRemoveFilterHandles@12
+    1224C _PfRemoveFiltersFromInterface@20
+    1224C __imp__PfRemoveFiltersFromInterface@20
+    11D42 _PfAddFiltersToInterface@24
+    11D42 __imp__PfAddFiltersToInterface@24
+    11FA2 _PfDeleteInterface@4
+    11FA2 __imp__PfDeleteInterface@4
+    11F2E _PfCreateInterface@24
+    11F2E __imp__PfCreateInterface@24
+
+Archive member name at A132: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1F2 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        CB6BCA1B time date stamp
+             10E file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CE file pointer to raw data (000000CE to 000000E1)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     100 file pointer to raw data (00000100 to 0000010D)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at A360: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        EBC2ED11 time date stamp
+              BA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      64 file pointer to raw data (00000064 to 000000A5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A6 file pointer to raw data (000000A6 to 000000B9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at A498: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     118 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        EBD50CAD time date stamp
+              D6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at A5EC: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1BA048E
+  SizeOfData   : 0000001E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _AddIPAddress@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : AddIPAddress
+
+Archive member name at A65A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FABE01F0
+  SizeOfData   : 00000036
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _AllocateAndGetInterfaceInfoFromStack@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : AllocateAndGetInterfaceInfoFromStack
+
+Archive member name at A6E0: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED734E2A
+  SizeOfData   : 00000034
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _AllocateAndGetIpAddrTableFromStack@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : AllocateAndGetIpAddrTableFromStack
+
+Archive member name at A764: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2FFADFF
+  SizeOfData   : 00000025
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CancelIPChangeNotify@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : CancelIPChangeNotify
+
+Archive member name at A7DA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9867C80
+  SizeOfData   : 00000027
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CancelMibChangeNotify2@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : CancelMibChangeNotify2
+
+Archive member name at A852: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9F7DF85
+  SizeOfData   : 00000037
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CaptureInterfaceHardwareCrossTimestamp@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : CaptureInterfaceHardwareCrossTimestamp
+
+Archive member name at A8DA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3B2B539
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CloseCompartment@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : CloseCompartment
+
+Archive member name at A94C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C416535E
+  SizeOfData   : 0000003A
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CloseGetIPPhysicalInterfaceForDestination@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : CloseGetIPPhysicalInterfaceForDestination
+
+Archive member name at A9D6: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBEF37DE
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertCompartmentGuidToId@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : ConvertCompartmentGuidToId
+
+Archive member name at AA52: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECAAA868
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertCompartmentIdToGuid@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : ConvertCompartmentIdToGuid
+
+Archive member name at AACE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8B54243
+  SizeOfData   : 00000026
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertGuidToStringA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : ConvertGuidToStringA
+
+Archive member name at AB44: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D01288F6
+  SizeOfData   : 00000026
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertGuidToStringW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : ConvertGuidToStringW
+
+Archive member name at ABBA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDB9F267
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertInterfaceAliasToLuid@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : ConvertInterfaceAliasToLuid
+
+Archive member name at AC36: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5A9905A
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertInterfaceGuidToLuid@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : ConvertInterfaceGuidToLuid
+
+Archive member name at ACB2: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCF52870
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertInterfaceIndexToLuid@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : ConvertInterfaceIndexToLuid
+
+Archive member name at AD2E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E60CDE4A
+  SizeOfData   : 0000002D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertInterfaceLuidToAlias@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : ConvertInterfaceLuidToAlias
+
+Archive member name at ADAC: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E70B04F1
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertInterfaceLuidToGuid@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : ConvertInterfaceLuidToGuid
+
+Archive member name at AE28: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF88C4FC
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertInterfaceLuidToIndex@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : ConvertInterfaceLuidToIndex
+
+Archive member name at AEA4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C560AB3B
+  SizeOfData   : 0000002D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertInterfaceLuidToNameA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : ConvertInterfaceLuidToNameA
+
+Archive member name at AF22: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE307244
+  SizeOfData   : 0000002D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertInterfaceLuidToNameW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : ConvertInterfaceLuidToNameW
+
+Archive member name at AFA0: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1484CE8
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertInterfaceNameToLuidA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : ConvertInterfaceNameToLuidA
+
+Archive member name at B01C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC71668B
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertInterfaceNameToLuidW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : ConvertInterfaceNameToLuidW
+
+Archive member name at B098: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8FDE110
+  SizeOfData   : 00000037
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertInterfacePhysicalAddressToLuid@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : ConvertInterfacePhysicalAddressToLuid
+
+Archive member name at B120: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF6B7CAD
+  SizeOfData   : 00000028
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertIpv4MaskToLength@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : ConvertIpv4MaskToLength
+
+Archive member name at B198: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA51AC64
+  SizeOfData   : 00000028
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertLengthToIpv4Mask@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : ConvertLengthToIpv4Mask
+
+Archive member name at B210: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F313439A
+  SizeOfData   : 00000033
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertRemoteInterfaceAliasToLuid@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : ConvertRemoteInterfaceAliasToLuid
+
+Archive member name at B294: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8370E7F
+  SizeOfData   : 00000032
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertRemoteInterfaceGuidToLuid@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : ConvertRemoteInterfaceGuidToLuid
+
+Archive member name at B316: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC4D23F7
+  SizeOfData   : 00000033
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertRemoteInterfaceIndexToLuid@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : ConvertRemoteInterfaceIndexToLuid
+
+Archive member name at B39A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7FF3AEC
+  SizeOfData   : 00000033
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertRemoteInterfaceLuidToAlias@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : ConvertRemoteInterfaceLuidToAlias
+
+Archive member name at B41E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F824C13A
+  SizeOfData   : 00000032
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertRemoteInterfaceLuidToGuid@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : ConvertRemoteInterfaceLuidToGuid
+
+Archive member name at B4A0: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC136235
+  SizeOfData   : 00000033
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertRemoteInterfaceLuidToIndex@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : ConvertRemoteInterfaceLuidToIndex
+
+Archive member name at B524: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D951142C
+  SizeOfData   : 00000025
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertStringToGuidA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : ConvertStringToGuidA
+
+Archive member name at B59A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7403D46
+  SizeOfData   : 00000025
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertStringToGuidW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : ConvertStringToGuidW
+
+Archive member name at B610: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA601311
+  SizeOfData   : 00000038
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ConvertStringToInterfacePhysicalAddress@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : ConvertStringToInterfacePhysicalAddress
+
+Archive member name at B698: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8CC34FF
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CreateAnycastIpAddressEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : CreateAnycastIpAddressEntry
+
+Archive member name at B714: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CEEE26F5
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CreateCompartment@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : CreateCompartment
+
+Archive member name at B786: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8882C5B
+  SizeOfData   : 00000026
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CreateIpForwardEntry2@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : CreateIpForwardEntry2
+
+Archive member name at B7FC: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F77DD553
+  SizeOfData   : 00000025
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CreateIpForwardEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : CreateIpForwardEntry
+
+Archive member name at B872: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE8355C7
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CreateIpNetEntry2@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : CreateIpNetEntry2
+
+Archive member name at B8E4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7231663
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CreateIpNetEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : CreateIpNetEntry
+
+Archive member name at B956: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA0617E8
+  SizeOfData   : 00000034
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CreatePersistentTcpPortReservation@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : CreatePersistentTcpPortReservation
+
+Archive member name at B9DA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9EF0FE2
+  SizeOfData   : 00000034
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CreatePersistentUdpPortReservation@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : CreatePersistentUdpPortReservation
+
+Archive member name at BA5E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3E76BCC
+  SizeOfData   : 00000025
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CreateProxyArpEntry@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : CreateProxyArpEntry
+
+Archive member name at BAD4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8392DEA
+  SizeOfData   : 0000002A
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CreateSortedAddressPairs@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : CreateSortedAddressPairs
+
+Archive member name at BB4E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4951180
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _CreateUnicastIpAddressEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : CreateUnicastIpAddressEntry
+
+Archive member name at BBCA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E50D4E63
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _DeleteAnycastIpAddressEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : DeleteAnycastIpAddressEntry
+
+Archive member name at BC46: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C43DFCE9
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _DeleteCompartment@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : DeleteCompartment
+
+Archive member name at BCB8: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFC36CEE
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _DeleteIPAddress@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : DeleteIPAddress
+
+Archive member name at BD28: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE4A66E6
+  SizeOfData   : 00000026
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _DeleteIpForwardEntry2@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : DeleteIpForwardEntry2
+
+Archive member name at BD9E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2095520
+  SizeOfData   : 00000025
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _DeleteIpForwardEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : DeleteIpForwardEntry
+
+Archive member name at BE14: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7CA74C3
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _DeleteIpNetEntry2@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : DeleteIpNetEntry2
+
+Archive member name at BE86: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD6C4858
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _DeleteIpNetEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : DeleteIpNetEntry
+
+Archive member name at BEF8: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCFFCBC8
+  SizeOfData   : 00000033
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _DeletePersistentTcpPortReservation@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : DeletePersistentTcpPortReservation
+
+Archive member name at BF7C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC49020A
+  SizeOfData   : 00000033
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _DeletePersistentUdpPortReservation@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : DeletePersistentUdpPortReservation
+
+Archive member name at C000: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2E22590
+  SizeOfData   : 00000025
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _DeleteProxyArpEntry@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : DeleteProxyArpEntry
+
+Archive member name at C076: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C01FBD1D
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _DeleteUnicastIpAddressEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : DeleteUnicastIpAddressEntry
+
+Archive member name at C0F2: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D40C2C9B
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _DisableMediaSense@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : DisableMediaSense
+
+Archive member name at C164: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9B90C05
+  SizeOfData   : 0000001D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _EnableRouter@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : EnableRouter
+
+Archive member name at C1D2: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4597347
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _FlushIpNetTable2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : FlushIpNetTable2
+
+Archive member name at C244: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF83E7AF
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _FlushIpNetTable@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : FlushIpNetTable
+
+Archive member name at C2B4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7B2AA57
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _FlushIpPathTable@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : FlushIpPathTable
+
+Archive member name at C326: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E81CC261
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _FreeDnsSettings@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : FreeDnsSettings
+
+Archive member name at C396: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2CD2168
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _FreeInterfaceDnsSettings@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : FreeInterfaceDnsSettings
+
+Archive member name at C410: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDCADEEB
+  SizeOfData   : 0000001D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _FreeMibTable@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : FreeMibTable
+
+Archive member name at C47E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F14F44C2
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetAdapterIndex@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : GetAdapterIndex
+
+Archive member name at C4EE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6C7FA52
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetAdapterOrderMap@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : GetAdapterOrderMap
+
+Archive member name at C562: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F562816D
+  SizeOfData   : 00000026
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetAdaptersAddresses@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : GetAdaptersAddresses
+
+Archive member name at C5D8: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5600D00
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetAdaptersInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : GetAdaptersInfo
+
+Archive member name at C648: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBEBED0B
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetAnycastIpAddressEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : GetAnycastIpAddressEntry
+
+Archive member name at C6C2: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC30A958
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetAnycastIpAddressTable@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : GetAnycastIpAddressTable
+
+Archive member name at C73C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0365B7C
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetBestInterface@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : GetBestInterface
+
+Archive member name at C7AE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE2639AE
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetBestInterfaceEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : GetBestInterfaceEx
+
+Archive member name at C822: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7FB742D
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetBestRoute2@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : GetBestRoute2
+
+Archive member name at C892: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3124271
+  SizeOfData   : 0000001E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetBestRoute@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : GetBestRoute
+
+Archive member name at C900: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE298616
+  SizeOfData   : 0000002E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetCurrentThreadCompartmentId@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 74
+  Name         : GetCurrentThreadCompartmentId
+
+Archive member name at C97E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3038BF0
+  SizeOfData   : 00000031
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetCurrentThreadCompartmentScope@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 75
+  Name         : GetCurrentThreadCompartmentScope
+
+Archive member name at CA00: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7859934
+  SizeOfData   : 00000028
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetDefaultCompartmentId@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : GetDefaultCompartmentId
+
+Archive member name at CA78: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC39D0DC
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetDnsSettings@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : GetDnsSettings
+
+Archive member name at CAE8: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D19EB38B
+  SizeOfData   : 00000025
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetExtendedTcpTable@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : GetExtendedTcpTable
+
+Archive member name at CB5E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E264FE0B
+  SizeOfData   : 00000025
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetExtendedUdpTable@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : GetExtendedUdpTable
+
+Archive member name at CBD4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7C40818
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetFriendlyIfIndex@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 80
+  Name         : GetFriendlyIfIndex
+
+Archive member name at CC48: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD54D5AF
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIcmpStatistics@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : GetIcmpStatistics
+
+Archive member name at CCBA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E26AC094
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIcmpStatisticsEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 82
+  Name         : GetIcmpStatisticsEx
+
+Archive member name at CD2E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E03A4A6F
+  SizeOfData   : 0000001C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIfEntry2@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 84
+  Name         : GetIfEntry2
+
+Archive member name at CD9A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2FF7524
+  SizeOfData   : 0000001E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIfEntry2Ex@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 85
+  Name         : GetIfEntry2Ex
+
+Archive member name at CE08: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4DD1A93
+  SizeOfData   : 0000001B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIfEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : GetIfEntry
+
+Archive member name at CE74: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2BDB9C2
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIfStackTable@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 86
+  Name         : GetIfStackTable
+
+Archive member name at CEE4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8362278
+  SizeOfData   : 0000001C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIfTable2@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 88
+  Name         : GetIfTable2
+
+Archive member name at CF50: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C761B146
+  SizeOfData   : 0000001E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIfTable2Ex@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 89
+  Name         : GetIfTable2Ex
+
+Archive member name at CFBE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C266CF42
+  SizeOfData   : 0000001C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIfTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 87
+  Name         : GetIfTable
+
+Archive member name at D02A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB956F9E
+  SizeOfData   : 00000038
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetInterfaceActiveTimestampCapabilities@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 90
+  Name         : GetInterfaceActiveTimestampCapabilities
+
+Archive member name at D0B2: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E970B495
+  SizeOfData   : 0000002A
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetInterfaceCompartmentId@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 91
+  Name         : GetInterfaceCompartmentId
+
+Archive member name at D12C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C53CF9BE
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetInterfaceDnsSettings@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 92
+  Name         : GetInterfaceDnsSettings
+
+Archive member name at D1A6: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F301F80C
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetInterfaceInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 93
+  Name         : GetInterfaceInfo
+
+Archive member name at D218: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBB79AAE
+  SizeOfData   : 0000003B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetInterfaceSupportedTimestampCapabilities@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 94
+  Name         : GetInterfaceSupportedTimestampCapabilities
+
+Archive member name at D2A4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6FC109A
+  SizeOfData   : 00000028
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetInvertedIfStackTable@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 95
+  Name         : GetInvertedIfStackTable
+
+Archive member name at D31C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7D3EEFE
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpAddrTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 96
+  Name         : GetIpAddrTable
+
+Archive member name at D38C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4D46225
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpErrorString@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 97
+  Name         : GetIpErrorString
+
+Archive member name at D3FE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7B20E65
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpForwardEntry2@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 98
+  Name         : GetIpForwardEntry2
+
+Archive member name at D472: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7804DA8
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpForwardTable2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 100
+  Name         : GetIpForwardTable2
+
+Archive member name at D4E6: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD1CFC76
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpForwardTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 99
+  Name         : GetIpForwardTable
+
+Archive member name at D55A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E178E319
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpInterfaceEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 101
+  Name         : GetIpInterfaceEntry
+
+Archive member name at D5CE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC21C027
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpInterfaceTable@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 102
+  Name         : GetIpInterfaceTable
+
+Archive member name at D642: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5C84EE6
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpNetEntry2@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 103
+  Name         : GetIpNetEntry2
+
+Archive member name at D6B2: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED171945
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpNetTable2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 105
+  Name         : GetIpNetTable2
+
+Archive member name at D722: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E88DAB88
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpNetTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 104
+  Name         : GetIpNetTable
+
+Archive member name at D792: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4A2079E
+  SizeOfData   : 0000003A
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpNetworkConnectionBandwidthEstimates@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 106
+  Name         : GetIpNetworkConnectionBandwidthEstimates
+
+Archive member name at D81C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF34F989
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpPathEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 107
+  Name         : GetIpPathEntry
+
+Archive member name at D88C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E88FD76C
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpPathTable@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 108
+  Name         : GetIpPathTable
+
+Archive member name at D8FC: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1A0F367
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpStatistics@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 109
+  Name         : GetIpStatistics
+
+Archive member name at D96C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4415402
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetIpStatisticsEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 110
+  Name         : GetIpStatisticsEx
+
+Archive member name at D9DE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F34CD918
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetJobCompartmentId@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 111
+  Name         : GetJobCompartmentId
+
+Archive member name at DA52: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAFC59C0
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetMulticastIpAddressEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 112
+  Name         : GetMulticastIpAddressEntry
+
+Archive member name at DACE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCA403F1
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetMulticastIpAddressTable@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 113
+  Name         : GetMulticastIpAddressTable
+
+Archive member name at DB4A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD2120E0
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetNetworkConnectivityHint@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 114
+  Name         : GetNetworkConnectivityHint
+
+Archive member name at DBC6: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F881A7A6
+  SizeOfData   : 00000037
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetNetworkConnectivityHintForInterface@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 115
+  Name         : GetNetworkConnectivityHintForInterface
+
+Archive member name at DC4E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0EAD368
+  SizeOfData   : 00000027
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetNetworkInformation@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 116
+  Name         : GetNetworkInformation
+
+Archive member name at DCC6: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F56056A1
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetNetworkParams@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 117
+  Name         : GetNetworkParams
+
+Archive member name at DD38: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C503558D
+  SizeOfData   : 00000026
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetNumberOfInterfaces@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 118
+  Name         : GetNumberOfInterfaces
+
+Archive member name at DDAE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA27B828
+  SizeOfData   : 0000002E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetOwnerModuleFromPidAndInfo@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 119
+  Name         : GetOwnerModuleFromPidAndInfo
+
+Archive member name at DE2C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E593C2CC
+  SizeOfData   : 0000002D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetOwnerModuleFromTcp6Entry@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 120
+  Name         : GetOwnerModuleFromTcp6Entry
+
+Archive member name at DEAA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7AA5D8E
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetOwnerModuleFromTcpEntry@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 121
+  Name         : GetOwnerModuleFromTcpEntry
+
+Archive member name at DF26: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB2A81AB
+  SizeOfData   : 0000002D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetOwnerModuleFromUdp6Entry@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 122
+  Name         : GetOwnerModuleFromUdp6Entry
+
+Archive member name at DFA4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1BAB74C
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetOwnerModuleFromUdpEntry@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 123
+  Name         : GetOwnerModuleFromUdpEntry
+
+Archive member name at E020: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6CAEA8B
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetPerAdapterInfo@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 124
+  Name         : GetPerAdapterInfo
+
+Archive member name at E094: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEEC0AA5
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetPerTcp6ConnectionEStats@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 125
+  Name         : GetPerTcp6ConnectionEStats
+
+Archive member name at E110: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D112D4D2
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetPerTcp6ConnectionStats@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 126
+  Name         : GetPerTcp6ConnectionStats
+
+Archive member name at E18C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E362E743
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetPerTcpConnectionEStats@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 127
+  Name         : GetPerTcpConnectionEStats
+
+Archive member name at E208: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2BDA064
+  SizeOfData   : 0000002A
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetPerTcpConnectionStats@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 128
+  Name         : GetPerTcpConnectionStats
+
+Archive member name at E282: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C074CFE6
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetRTTAndHopCount@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 129
+  Name         : GetRTTAndHopCount
+
+Archive member name at E2F6: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD09D2B9
+  SizeOfData   : 00000028
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetSessionCompartmentId@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 130
+  Name         : GetSessionCompartmentId
+
+Archive member name at E36E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0559EA9
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetTcp6Table2@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 132
+  Name         : GetTcp6Table2
+
+Archive member name at E3DE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE1E4186
+  SizeOfData   : 0000001E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetTcp6Table@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 131
+  Name         : GetTcp6Table
+
+Archive member name at E44C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F51BE449
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetTcpStatistics@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 133
+  Name         : GetTcpStatistics
+
+Archive member name at E4BE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFCABDF6
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetTcpStatisticsEx2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 135
+  Name         : GetTcpStatisticsEx2
+
+Archive member name at E532: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE736AD6
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetTcpStatisticsEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 134
+  Name         : GetTcpStatisticsEx
+
+Archive member name at E5A6: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA00037C
+  SizeOfData   : 0000001E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetTcpTable2@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 137
+  Name         : GetTcpTable2
+
+Archive member name at E614: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4534C8E
+  SizeOfData   : 0000001D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetTcpTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 136
+  Name         : GetTcpTable
+
+Archive member name at E682: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5C14ED2
+  SizeOfData   : 0000001E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetTeredoPort@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 138
+  Name         : GetTeredoPort
+
+Archive member name at E6F0: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C37FC492
+  SizeOfData   : 0000001E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetUdp6Table@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 139
+  Name         : GetUdp6Table
+
+Archive member name at E75E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA70E17B
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetUdpStatistics@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 140
+  Name         : GetUdpStatistics
+
+Archive member name at E7D0: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7AA895E
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetUdpStatisticsEx2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 142
+  Name         : GetUdpStatisticsEx2
+
+Archive member name at E844: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED7780F6
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetUdpStatisticsEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 141
+  Name         : GetUdpStatisticsEx
+
+Archive member name at E8B8: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECC3A608
+  SizeOfData   : 0000001D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetUdpTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 143
+  Name         : GetUdpTable
+
+Archive member name at E926: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5E7E960
+  SizeOfData   : 0000002D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetUniDirectionalAdapterInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 144
+  Name         : GetUniDirectionalAdapterInfo
+
+Archive member name at E9A4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2DE2AFB
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetUnicastIpAddressEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 145
+  Name         : GetUnicastIpAddressEntry
+
+Archive member name at EA1E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3B0F2FA
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetUnicastIpAddressTable@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 146
+  Name         : GetUnicastIpAddressTable
+
+Archive member name at EA98: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7453DE6
+  SizeOfData   : 00000026
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _GetWPAOACSupportLevel@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 147
+  Name         : GetWPAOACSupportLevel
+
+Archive member name at EB0E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D784D6C6
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _Icmp6CreateFile@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 148
+  Name         : Icmp6CreateFile
+
+Archive member name at EB7E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4C5C1EB
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _Icmp6ParseReplies@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 149
+  Name         : Icmp6ParseReplies
+
+Archive member name at EBF0: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7C95E71
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _Icmp6SendEcho2@48
+  Type         : code
+  Name type    : undecorate
+  Hint         : 150
+  Name         : Icmp6SendEcho2
+
+Archive member name at EC60: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C40CF0F3
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _IcmpCloseHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 151
+  Name         : IcmpCloseHandle
+
+Archive member name at ECD0: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E90AB696
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _IcmpCreateFile@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 152
+  Name         : IcmpCreateFile
+
+Archive member name at ED40: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E71DB66F
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _IcmpParseReplies@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 153
+  Name         : IcmpParseReplies
+
+Archive member name at EDB2: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C578AFBE
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _IcmpSendEcho2@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 155
+  Name         : IcmpSendEcho2
+
+Archive member name at EE22: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3C56EB3
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _IcmpSendEcho2Ex@48
+  Type         : code
+  Name type    : undecorate
+  Hint         : 156
+  Name         : IcmpSendEcho2Ex
+
+Archive member name at EE94: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1F001F4
+  SizeOfData   : 0000001E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _IcmpSendEcho@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 154
+  Name         : IcmpSendEcho
+
+Archive member name at EF02: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3BC11E2
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InitializeCompartmentEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 157
+  Name         : InitializeCompartmentEntry
+
+Archive member name at EF7E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D20649B7
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InitializeIpForwardEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 158
+  Name         : InitializeIpForwardEntry
+
+Archive member name at EFF8: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC80460C
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InitializeIpInterfaceEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 159
+  Name         : InitializeIpInterfaceEntry
+
+Archive member name at F074: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D966B76C
+  SizeOfData   : 00000030
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InitializeUnicastIpAddressEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 160
+  Name         : InitializeUnicastIpAddressEntry
+
+Archive member name at F0F4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF13A437
+  SizeOfData   : 0000002F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalCleanupPersistentStore@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 161
+  Name         : InternalCleanupPersistentStore
+
+Archive member name at F174: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7899B4B
+  SizeOfData   : 00000034
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalCreateAnycastIpAddressEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 162
+  Name         : InternalCreateAnycastIpAddressEntry
+
+Archive member name at F1F8: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECB82513
+  SizeOfData   : 0000002E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalCreateIpForwardEntry2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 164
+  Name         : InternalCreateIpForwardEntry2
+
+Archive member name at F276: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECCB5467
+  SizeOfData   : 0000002D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalCreateIpForwardEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 163
+  Name         : InternalCreateIpForwardEntry
+
+Archive member name at F2F4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECE41EEA
+  SizeOfData   : 0000002A
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalCreateIpNetEntry2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 166
+  Name         : InternalCreateIpNetEntry2
+
+Archive member name at F36E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5AF87CD
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalCreateIpNetEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 165
+  Name         : InternalCreateIpNetEntry
+
+Archive member name at F3E8: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDC9A7DA
+  SizeOfData   : 00000033
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalCreateOrRefIpForwardEntry2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 167
+  Name         : InternalCreateOrRefIpForwardEntry2
+
+Archive member name at F46C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7A3F424
+  SizeOfData   : 00000034
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalCreateUnicastIpAddressEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 168
+  Name         : InternalCreateUnicastIpAddressEntry
+
+Archive member name at F4F0: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDF32752
+  SizeOfData   : 00000034
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalDeleteAnycastIpAddressEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 169
+  Name         : InternalDeleteAnycastIpAddressEntry
+
+Archive member name at F574: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4612D9D
+  SizeOfData   : 0000002E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalDeleteIpForwardEntry2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 171
+  Name         : InternalDeleteIpForwardEntry2
+
+Archive member name at F5F2: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5C7BCEA
+  SizeOfData   : 0000002D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalDeleteIpForwardEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 170
+  Name         : InternalDeleteIpForwardEntry
+
+Archive member name at F670: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0E00D5C
+  SizeOfData   : 0000002A
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalDeleteIpNetEntry2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 173
+  Name         : InternalDeleteIpNetEntry2
+
+Archive member name at F6EA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2FDACAD
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalDeleteIpNetEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 172
+  Name         : InternalDeleteIpNetEntry
+
+Archive member name at F764: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F151AC0B
+  SizeOfData   : 00000034
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalDeleteUnicastIpAddressEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 174
+  Name         : InternalDeleteUnicastIpAddressEntry
+
+Archive member name at F7E8: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F19AE0C4
+  SizeOfData   : 0000002F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalFindInterfaceByAddress@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 175
+  Name         : InternalFindInterfaceByAddress
+
+Archive member name at F868: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8337552
+  SizeOfData   : 00000031
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetAnycastIpAddressEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 176
+  Name         : InternalGetAnycastIpAddressEntry
+
+Archive member name at F8EA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5FCEAA1
+  SizeOfData   : 00000032
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetAnycastIpAddressTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 177
+  Name         : InternalGetAnycastIpAddressTable
+
+Archive member name at F96C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F33D19E5
+  SizeOfData   : 00000033
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetBoundTcp6EndpointTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 178
+  Name         : InternalGetBoundTcp6EndpointTable
+
+Archive member name at F9F0: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5037608
+  SizeOfData   : 00000032
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetBoundTcpEndpointTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 179
+  Name         : InternalGetBoundTcpEndpointTable
+
+Archive member name at FA72: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C35415F5
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetForwardIpTable2@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 180
+  Name         : InternalGetForwardIpTable2
+
+Archive member name at FAEE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      52 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8494DC8
+  SizeOfData   : 0000003E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetIPPhysicalInterfaceForDestination@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 181
+  Name         : InternalGetIPPhysicalInterfaceForDestination
+
+Archive member name at FB7C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F549B7BF
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetIfEntry2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 182
+  Name         : InternalGetIfEntry2
+
+Archive member name at FBF0: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C931B827
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetIfTable2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 184
+  Name         : InternalGetIfTable2
+
+Archive member name at FC64: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E84DD384
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetIfTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 183
+  Name         : InternalGetIfTable
+
+Archive member name at FCD8: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1AECD51
+  SizeOfData   : 00000028
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetIpAddrTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 185
+  Name         : InternalGetIpAddrTable
+
+Archive member name at FD50: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3A4B27F
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetIpForwardEntry2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 186
+  Name         : InternalGetIpForwardEntry2
+
+Archive member name at FDCC: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9813869
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetIpForwardTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 187
+  Name         : InternalGetIpForwardTable
+
+Archive member name at FE48: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC3E117B
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetIpInterfaceEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 188
+  Name         : InternalGetIpInterfaceEntry
+
+Archive member name at FEC4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F774DD48
+  SizeOfData   : 0000002D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetIpInterfaceTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 189
+  Name         : InternalGetIpInterfaceTable
+
+Archive member name at FF42: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5149553
+  SizeOfData   : 00000027
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetIpNetEntry2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 190
+  Name         : InternalGetIpNetEntry2
+
+Archive member name at FFBA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7D8A6BF
+  SizeOfData   : 00000028
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetIpNetTable2@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 192
+  Name         : InternalGetIpNetTable2
+
+Archive member name at 10032: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0FB7BF0
+  SizeOfData   : 00000027
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetIpNetTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 191
+  Name         : InternalGetIpNetTable
+
+Archive member name at 100AA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C685597C
+  SizeOfData   : 00000033
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetMulticastIpAddressEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 193
+  Name         : InternalGetMulticastIpAddressEntry
+
+Archive member name at 1012E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2BC7AFC
+  SizeOfData   : 00000034
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetMulticastIpAddressTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 194
+  Name         : InternalGetMulticastIpAddressTable
+
+Archive member name at 101B2: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0038918
+  SizeOfData   : 0000002F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetRtcSlotInformation@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 195
+  Name         : InternalGetRtcSlotInformation
+
+Archive member name at 10232: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7D4D284
+  SizeOfData   : 00000027
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetTcp6Table2@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 196
+  Name         : InternalGetTcp6Table2
+
+Archive member name at 102AA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5D9BBD4
+  SizeOfData   : 00000035
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetTcp6TableWithOwnerModule@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 197
+  Name         : InternalGetTcp6TableWithOwnerModule
+
+Archive member name at 10330: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAEBCE79
+  SizeOfData   : 00000032
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetTcp6TableWithOwnerPid@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 198
+  Name         : InternalGetTcp6TableWithOwnerPid
+
+Archive member name at 103B2: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7485F9C
+  SizeOfData   : 0000002F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetTcpDynamicPortRange@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 199
+  Name         : InternalGetTcpDynamicPortRange
+
+Archive member name at 10432: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C77A7F11
+  SizeOfData   : 00000026
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetTcpTable2@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 201
+  Name         : InternalGetTcpTable2
+
+Archive member name at 104A8: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3ACB6C2
+  SizeOfData   : 00000025
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetTcpTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 200
+  Name         : InternalGetTcpTable
+
+Archive member name at 1051E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8229FB5
+  SizeOfData   : 00000027
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetTcpTableEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 202
+  Name         : InternalGetTcpTableEx
+
+Archive member name at 10596: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0DD8100
+  SizeOfData   : 00000034
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetTcpTableWithOwnerModule@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 203
+  Name         : InternalGetTcpTableWithOwnerModule
+
+Archive member name at 1061A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D847A7D4
+  SizeOfData   : 00000031
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetTcpTableWithOwnerPid@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 204
+  Name         : InternalGetTcpTableWithOwnerPid
+
+Archive member name at 1069C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDFB8191
+  SizeOfData   : 00000031
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetTunnelPhysicalAdapter@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 205
+  Name         : InternalGetTunnelPhysicalAdapter
+
+Archive member name at 1071E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA41AFC9
+  SizeOfData   : 00000027
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetUdp6Table2@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 206
+  Name         : InternalGetUdp6Table2
+
+Archive member name at 10796: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF644B9B
+  SizeOfData   : 00000035
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetUdp6TableWithOwnerModule@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 207
+  Name         : InternalGetUdp6TableWithOwnerModule
+
+Archive member name at 1081C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCFB0127
+  SizeOfData   : 00000032
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetUdp6TableWithOwnerPid@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 208
+  Name         : InternalGetUdp6TableWithOwnerPid
+
+Archive member name at 1089E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1DBEFBC
+  SizeOfData   : 0000002F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetUdpDynamicPortRange@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 209
+  Name         : InternalGetUdpDynamicPortRange
+
+Archive member name at 1091E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C97A7014
+  SizeOfData   : 00000026
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetUdpTable2@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 211
+  Name         : InternalGetUdpTable2
+
+Archive member name at 10994: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E83E43B2
+  SizeOfData   : 00000025
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetUdpTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 210
+  Name         : InternalGetUdpTable
+
+Archive member name at 10A0A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0E2F0F7
+  SizeOfData   : 00000027
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetUdpTableEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 212
+  Name         : InternalGetUdpTableEx
+
+Archive member name at 10A82: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6736B40
+  SizeOfData   : 00000034
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetUdpTableWithOwnerModule@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 213
+  Name         : InternalGetUdpTableWithOwnerModule
+
+Archive member name at 10B06: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5946A03
+  SizeOfData   : 00000031
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetUdpTableWithOwnerPid@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 214
+  Name         : InternalGetUdpTableWithOwnerPid
+
+Archive member name at 10B88: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E05BFF52
+  SizeOfData   : 00000031
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetUnicastIpAddressEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 215
+  Name         : InternalGetUnicastIpAddressEntry
+
+Archive member name at 10C0A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7C3666C
+  SizeOfData   : 00000032
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalGetUnicastIpAddressTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 216
+  Name         : InternalGetUnicastIpAddressTable
+
+Archive member name at 10C8C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C57465EA
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalIcmpCreateFileEx@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 217
+  Name         : InternalIcmpCreateFileEx
+
+Archive member name at 10D06: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4BDF261
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalSetIfEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 218
+  Name         : InternalSetIfEntry
+
+Archive member name at 10D7A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8D88501
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalSetIpForwardEntry2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 220
+  Name         : InternalSetIpForwardEntry2
+
+Archive member name at 10DF6: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDC715EB
+  SizeOfData   : 0000002A
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalSetIpForwardEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 219
+  Name         : InternalSetIpForwardEntry
+
+Archive member name at 10E70: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7A1D93B
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalSetIpInterfaceEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 221
+  Name         : InternalSetIpInterfaceEntry
+
+Archive member name at 10EEC: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E98CED53
+  SizeOfData   : 00000027
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalSetIpNetEntry2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 223
+  Name         : InternalSetIpNetEntry2
+
+Archive member name at 10F64: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6D20F0D
+  SizeOfData   : 00000026
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalSetIpNetEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 222
+  Name         : InternalSetIpNetEntry
+
+Archive member name at 10FDA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3B8CE17
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalSetIpStats@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 224
+  Name         : InternalSetIpStats
+
+Archive member name at 1104E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F896424C
+  SizeOfData   : 0000002F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalSetTcpDynamicPortRange@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 225
+  Name         : InternalSetTcpDynamicPortRange
+
+Archive member name at 110CE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECF28359
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalSetTcpEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 226
+  Name         : InternalSetTcpEntry
+
+Archive member name at 11142: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5F31A69
+  SizeOfData   : 00000026
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalSetTeredoPort@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 227
+  Name         : InternalSetTeredoPort
+
+Archive member name at 111B8: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5C5CCC1
+  SizeOfData   : 0000002F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalSetUdpDynamicPortRange@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 228
+  Name         : InternalSetUdpDynamicPortRange
+
+Archive member name at 11238: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBD4D5B4
+  SizeOfData   : 00000031
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _InternalSetUnicastIpAddressEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 229
+  Name         : InternalSetUnicastIpAddressEntry
+
+Archive member name at 112BA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6C6E7A3
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _IpReleaseAddress@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 230
+  Name         : IpReleaseAddress
+
+Archive member name at 1132C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC58C3D8
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _IpRenewAddress@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 231
+  Name         : IpRenewAddress
+
+Archive member name at 1139C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCBAD808
+  SizeOfData   : 00000034
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _LookupPersistentTcpPortReservation@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 232
+  Name         : LookupPersistentTcpPortReservation
+
+Archive member name at 11420: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFA9A880
+  SizeOfData   : 00000034
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _LookupPersistentUdpPortReservation@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 233
+  Name         : LookupPersistentUdpPortReservation
+
+Archive member name at 114A4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5B8133D
+  SizeOfData   : 00000025
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NTPTimeToNTFileTime@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 234
+  Name         : NTPTimeToNTFileTime
+
+Archive member name at 1151A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E370727B
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NTTimeToNTPTime@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 235
+  Name         : NTTimeToNTPTime
+
+Archive member name at 1158A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8AA19A9
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NhGetGuidFromInterfaceName@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 236
+  Name         : NhGetGuidFromInterfaceName
+
+Archive member name at 11606: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE658122
+  SizeOfData   : 00000033
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NhGetInterfaceDescriptionFromGuid@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 237
+  Name         : NhGetInterfaceDescriptionFromGuid
+
+Archive member name at 1168A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF48E746
+  SizeOfData   : 00000032
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NhGetInterfaceNameFromDeviceGuid@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 238
+  Name         : NhGetInterfaceNameFromDeviceGuid
+
+Archive member name at 1170C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F55B0CF5
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NhGetInterfaceNameFromGuid@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 239
+  Name         : NhGetInterfaceNameFromGuid
+
+Archive member name at 11788: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDBD6805
+  SizeOfData   : 00000039
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NhpAllocateAndGetInterfaceInfoFromStack@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 240
+  Name         : NhpAllocateAndGetInterfaceInfoFromStack
+
+Archive member name at 11812: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F470C88D
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NotifyAddrChange@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 241
+  Name         : NotifyAddrChange
+
+Archive member name at 11884: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0908248
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NotifyCompartmentChange@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 242
+  Name         : NotifyCompartmentChange
+
+Archive member name at 118FE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9684314
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NotifyIpInterfaceChange@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 243
+  Name         : NotifyIpInterfaceChange
+
+Archive member name at 11978: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C40D8B1F
+  SizeOfData   : 00000035
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NotifyNetworkConnectivityHintChange@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 244
+  Name         : NotifyNetworkConnectivityHintChange
+
+Archive member name at 119FE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D88F4A75
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NotifyRouteChange2@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 246
+  Name         : NotifyRouteChange2
+
+Archive member name at 11A72: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C547CBD6
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NotifyRouteChange@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 245
+  Name         : NotifyRouteChange
+
+Archive member name at 11AE4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D23DF0F8
+  SizeOfData   : 00000033
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NotifyStableUnicastIpAddressTable@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 247
+  Name         : NotifyStableUnicastIpAddressTable
+
+Archive member name at 11B68: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFC6337A
+  SizeOfData   : 00000028
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NotifyTeredoPortChange@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 248
+  Name         : NotifyTeredoPortChange
+
+Archive member name at 11BE0: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE4E62BC
+  SizeOfData   : 0000002E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _NotifyUnicastIpAddressChange@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 249
+  Name         : NotifyUnicastIpAddressChange
+
+Archive member name at 11C5E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F63D4796
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _OpenCompartment@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 250
+  Name         : OpenCompartment
+
+Archive member name at 11CCE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3A52BB5
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ParseNetworkString@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 251
+  Name         : ParseNetworkString
+
+Archive member name at 11D42: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C927D422
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfAddFiltersToInterface@24
+  Type         : code
+  Name type    : name
+  Hint         : 282
+  Name         : _PfAddFiltersToInterface@24
+
+Archive member name at 11DBC: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE25A65B
+  SizeOfData   : 0000002D
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfAddGlobalFilterToInterface@8
+  Type         : code
+  Name type    : name
+  Hint         : 283
+  Name         : _PfAddGlobalFilterToInterface@8
+
+Archive member name at 11E3A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6CF7211
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfBindInterfaceToIPAddress@12
+  Type         : code
+  Name type    : name
+  Hint         : 284
+  Name         : _PfBindInterfaceToIPAddress@12
+
+Archive member name at 11EB6: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1DACE39
+  SizeOfData   : 00000028
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfBindInterfaceToIndex@16
+  Type         : code
+  Name type    : name
+  Hint         : 285
+  Name         : _PfBindInterfaceToIndex@16
+
+Archive member name at 11F2E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F566C061
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfCreateInterface@24
+  Type         : code
+  Name type    : name
+  Hint         : 286
+  Name         : _PfCreateInterface@24
+
+Archive member name at 11FA2: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA423732
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfDeleteInterface@4
+  Type         : code
+  Name type    : name
+  Hint         : 287
+  Name         : _PfDeleteInterface@4
+
+Archive member name at 12014: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D93611DA
+  SizeOfData   : 0000001C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfDeleteLog@0
+  Type         : code
+  Name type    : name
+  Hint         : 288
+  Name         : _PfDeleteLog@0
+
+Archive member name at 12080: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C558AC36
+  SizeOfData   : 0000002A
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfGetInterfaceStatistics@16
+  Type         : code
+  Name type    : name
+  Hint         : 289
+  Name         : _PfGetInterfaceStatistics@16
+
+Archive member name at 120FA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F55F8CC0
+  SizeOfData   : 0000001A
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfMakeLog@4
+  Type         : code
+  Name type    : name
+  Hint         : 290
+  Name         : _PfMakeLog@4
+
+Archive member name at 12164: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5602C76
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfRebindFilters@8
+  Type         : code
+  Name type    : name
+  Hint         : 291
+  Name         : _PfRebindFilters@8
+
+Archive member name at 121D4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE2B7C11
+  SizeOfData   : 00000027
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfRemoveFilterHandles@12
+  Type         : code
+  Name type    : name
+  Hint         : 292
+  Name         : _PfRemoveFilterHandles@12
+
+Archive member name at 1224C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4196923
+  SizeOfData   : 0000002E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfRemoveFiltersFromInterface@20
+  Type         : code
+  Name type    : name
+  Hint         : 293
+  Name         : _PfRemoveFiltersFromInterface@20
+
+Archive member name at 122CA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4824218
+  SizeOfData   : 00000032
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfRemoveGlobalFilterFromInterface@8
+  Type         : code
+  Name type    : name
+  Hint         : 294
+  Name         : _PfRemoveGlobalFilterFromInterface@8
+
+Archive member name at 1234C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB815A55
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfSetLogBuffer@28
+  Type         : code
+  Name type    : name
+  Hint         : 295
+  Name         : _PfSetLogBuffer@28
+
+Archive member name at 123BC: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE2076D9
+  SizeOfData   : 0000001E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfTestPacket@20
+  Type         : code
+  Name type    : name
+  Hint         : 296
+  Name         : _PfTestPacket@20
+
+Archive member name at 1242A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4292445
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _PfUnBindInterface@4
+  Type         : code
+  Name type    : name
+  Hint         : 297
+  Name         : _PfUnBindInterface@4
+
+Archive member name at 1249C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7BC912F
+  SizeOfData   : 00000038
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _RegisterInterfaceTimestampConfigChange@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 252
+  Name         : RegisterInterfaceTimestampConfigChange
+
+Archive member name at 12524: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF003FA2
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ResolveIpNetEntry2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 253
+  Name         : ResolveIpNetEntry2
+
+Archive member name at 12598: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9004BA4
+  SizeOfData   : 00000021
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _ResolveNeighbor@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 254
+  Name         : ResolveNeighbor
+
+Archive member name at 1260A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C13617D1
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _RestoreMediaSense@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 255
+  Name         : RestoreMediaSense
+
+Archive member name at 1267C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE6BF259
+  SizeOfData   : 00000019
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SendARP@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 256
+  Name         : SendARP
+
+Archive member name at 126E6: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E82C5DC9
+  SizeOfData   : 00000025
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetAdapterIpAddress@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 257
+  Name         : SetAdapterIpAddress
+
+Archive member name at 1275C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C84EDCA1
+  SizeOfData   : 0000002E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetCurrentThreadCompartmentId@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 258
+  Name         : SetCurrentThreadCompartmentId
+
+Archive member name at 127DA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB212BDA
+  SizeOfData   : 00000031
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetCurrentThreadCompartmentScope@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 259
+  Name         : SetCurrentThreadCompartmentScope
+
+Archive member name at 1285C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC95884A
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetDnsSettings@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 260
+  Name         : SetDnsSettings
+
+Archive member name at 128CC: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C405C6D7
+  SizeOfData   : 0000001B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetIfEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 261
+  Name         : SetIfEntry
+
+Archive member name at 12938: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C84FB030
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetInterfaceDnsSettings@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 262
+  Name         : SetInterfaceDnsSettings
+
+Archive member name at 129B2: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E95E92C0
+  SizeOfData   : 00000023
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetIpForwardEntry2@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 264
+  Name         : SetIpForwardEntry2
+
+Archive member name at 12A26: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF4190C0
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetIpForwardEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 263
+  Name         : SetIpForwardEntry
+
+Archive member name at 12A98: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB369C09
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetIpInterfaceEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 265
+  Name         : SetIpInterfaceEntry
+
+Archive member name at 12B0C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF344E69
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetIpNetEntry2@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 267
+  Name         : SetIpNetEntry2
+
+Archive member name at 12B7C: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF654DD9
+  SizeOfData   : 0000001E
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetIpNetEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 266
+  Name         : SetIpNetEntry
+
+Archive member name at 12BEA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3FD32D0
+  SizeOfData   : 00000020
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetIpStatistics@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 268
+  Name         : SetIpStatistics
+
+Archive member name at 12C5A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D52ED251
+  SizeOfData   : 00000022
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetIpStatisticsEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 269
+  Name         : SetIpStatisticsEx
+
+Archive member name at 12CCC: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAA24085
+  SizeOfData   : 00000019
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetIpTTL@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 270
+  Name         : SetIpTTL
+
+Archive member name at 12D36: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFE17B1D
+  SizeOfData   : 00000024
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetJobCompartmentId@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 271
+  Name         : SetJobCompartmentId
+
+Archive member name at 12DAA: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C381B20B
+  SizeOfData   : 00000027
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetNetworkInformation@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 272
+  Name         : SetNetworkInformation
+
+Archive member name at 12E22: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF0315F3
+  SizeOfData   : 0000002C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetPerTcp6ConnectionEStats@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 273
+  Name         : SetPerTcp6ConnectionEStats
+
+Archive member name at 12E9E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E994C55D
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetPerTcp6ConnectionStats@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 274
+  Name         : SetPerTcp6ConnectionStats
+
+Archive member name at 12F1A: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB8A314C
+  SizeOfData   : 0000002B
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetPerTcpConnectionEStats@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 275
+  Name         : SetPerTcpConnectionEStats
+
+Archive member name at 12F96: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6873DD0
+  SizeOfData   : 0000002A
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetPerTcpConnectionStats@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 276
+  Name         : SetPerTcpConnectionStats
+
+Archive member name at 13010: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1AFE314
+  SizeOfData   : 00000028
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetSessionCompartmentId@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 277
+  Name         : SetSessionCompartmentId
+
+Archive member name at 13088: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE80456D
+  SizeOfData   : 0000001C
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetTcpEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 278
+  Name         : SetTcpEntry
+
+Archive member name at 130F4: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD6D344E
+  SizeOfData   : 00000029
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _SetUnicastIpAddressEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 279
+  Name         : SetUnicastIpAddressEntry
+
+Archive member name at 1316E: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE3591C9
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _UnenableRouter@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 280
+  Name         : UnenableRouter
+
+Archive member name at 131DE: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1408088
+  SizeOfData   : 00000039
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _UnregisterInterfaceTimestampConfigChange@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 281
+  Name         : UnregisterInterfaceTimestampConfigChange
+
+Archive member name at 13268: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD0CF772
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _if_indextoname@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 300
+  Name         : if_indextoname
+
+Archive member name at 132D8: IPHLPAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1FB8A7E
+  SizeOfData   : 0000001F
+  DLL name     : IPHLPAPI.DLL
+  Symbol name  : _if_nametoindex@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 301
+  Name         : if_nametoindex
+
+     Exports
+
+       ordinal    name
+
+                  _AddIPAddress@20
+                  _AllocateAndGetInterfaceInfoFromStack@20
+                  _AllocateAndGetIpAddrTableFromStack@16
+                  _CancelIPChangeNotify@4
+                  _CancelMibChangeNotify2@4
+                  _CaptureInterfaceHardwareCrossTimestamp@8
+                  _CloseCompartment@4
+                  _CloseGetIPPhysicalInterfaceForDestination@4
+                  _ConvertCompartmentGuidToId@8
+                  _ConvertCompartmentIdToGuid@8
+                  _ConvertGuidToStringA@12
+                  _ConvertGuidToStringW@12
+                  _ConvertInterfaceAliasToLuid@8
+                  _ConvertInterfaceGuidToLuid@8
+                  _ConvertInterfaceIndexToLuid@8
+                  _ConvertInterfaceLuidToAlias@12
+                  _ConvertInterfaceLuidToGuid@8
+                  _ConvertInterfaceLuidToIndex@8
+                  _ConvertInterfaceLuidToNameA@12
+                  _ConvertInterfaceLuidToNameW@12
+                  _ConvertInterfaceNameToLuidA@8
+                  _ConvertInterfaceNameToLuidW@8
+                  _ConvertInterfacePhysicalAddressToLuid@12
+                  _ConvertIpv4MaskToLength@8
+                  _ConvertLengthToIpv4Mask@8
+                  _ConvertRemoteInterfaceAliasToLuid@12
+                  _ConvertRemoteInterfaceGuidToLuid@12
+                  _ConvertRemoteInterfaceIndexToLuid@12
+                  _ConvertRemoteInterfaceLuidToAlias@16
+                  _ConvertRemoteInterfaceLuidToGuid@12
+                  _ConvertRemoteInterfaceLuidToIndex@12
+                  _ConvertStringToGuidA@8
+                  _ConvertStringToGuidW@8
+                  _ConvertStringToInterfacePhysicalAddress@8
+                  _CreateAnycastIpAddressEntry@4
+                  _CreateCompartment@4
+                  _CreateIpForwardEntry2@4
+                  _CreateIpForwardEntry@4
+                  _CreateIpNetEntry2@4
+                  _CreateIpNetEntry@4
+                  _CreatePersistentTcpPortReservation@12
+                  _CreatePersistentUdpPortReservation@12
+                  _CreateProxyArpEntry@12
+                  _CreateSortedAddressPairs@28
+                  _CreateUnicastIpAddressEntry@4
+                  _DeleteAnycastIpAddressEntry@4
+                  _DeleteCompartment@4
+                  _DeleteIPAddress@4
+                  _DeleteIpForwardEntry2@4
+                  _DeleteIpForwardEntry@4
+                  _DeleteIpNetEntry2@4
+                  _DeleteIpNetEntry@4
+                  _DeletePersistentTcpPortReservation@8
+                  _DeletePersistentUdpPortReservation@8
+                  _DeleteProxyArpEntry@12
+                  _DeleteUnicastIpAddressEntry@4
+                  _DisableMediaSense@8
+                  _EnableRouter@8
+                  _FlushIpNetTable2@8
+                  _FlushIpNetTable@4
+                  _FlushIpPathTable@4
+                  _FreeDnsSettings@4
+                  _FreeInterfaceDnsSettings@4
+                  _FreeMibTable@4
+                  _GetAdapterIndex@8
+                  _GetAdapterOrderMap@0
+                  _GetAdaptersAddresses@20
+                  _GetAdaptersInfo@8
+                  _GetAnycastIpAddressEntry@4
+                  _GetAnycastIpAddressTable@8
+                  _GetBestInterface@8
+                  _GetBestInterfaceEx@8
+                  _GetBestRoute2@28
+                  _GetBestRoute@12
+                  _GetCurrentThreadCompartmentId@0
+                  _GetCurrentThreadCompartmentScope@8
+                  _GetDefaultCompartmentId@0
+                  _GetDnsSettings@4
+                  _GetExtendedTcpTable@24
+                  _GetExtendedUdpTable@24
+                  _GetFriendlyIfIndex@4
+                  _GetIcmpStatistics@4
+                  _GetIcmpStatisticsEx@8
+                  _GetIfEntry2@4
+                  _GetIfEntry2Ex@8
+                  _GetIfEntry@4
+                  _GetIfStackTable@4
+                  _GetIfTable2@4
+                  _GetIfTable2Ex@8
+                  _GetIfTable@12
+                  _GetInterfaceActiveTimestampCapabilities@8
+                  _GetInterfaceCompartmentId@4
+                  _GetInterfaceDnsSettings@20
+                  _GetInterfaceInfo@8
+                  _GetInterfaceSupportedTimestampCapabilities@8
+                  _GetInvertedIfStackTable@4
+                  _GetIpAddrTable@12
+                  _GetIpErrorString@12
+                  _GetIpForwardEntry2@4
+                  _GetIpForwardTable2@8
+                  _GetIpForwardTable@12
+                  _GetIpInterfaceEntry@4
+                  _GetIpInterfaceTable@8
+                  _GetIpNetEntry2@4
+                  _GetIpNetTable2@8
+                  _GetIpNetTable@12
+                  _GetIpNetworkConnectionBandwidthEstimates@12
+                  _GetIpPathEntry@4
+                  _GetIpPathTable@8
+                  _GetIpStatistics@4
+                  _GetIpStatisticsEx@8
+                  _GetJobCompartmentId@4
+                  _GetMulticastIpAddressEntry@4
+                  _GetMulticastIpAddressTable@8
+                  _GetNetworkConnectivityHint@4
+                  _GetNetworkConnectivityHintForInterface@8
+                  _GetNetworkInformation@20
+                  _GetNetworkParams@8
+                  _GetNumberOfInterfaces@4
+                  _GetOwnerModuleFromPidAndInfo@20
+                  _GetOwnerModuleFromTcp6Entry@16
+                  _GetOwnerModuleFromTcpEntry@16
+                  _GetOwnerModuleFromUdp6Entry@16
+                  _GetOwnerModuleFromUdpEntry@16
+                  _GetPerAdapterInfo@12
+                  _GetPerTcp6ConnectionEStats@44
+                  _GetPerTcp6ConnectionStats@32
+                  _GetPerTcpConnectionEStats@44
+                  _GetPerTcpConnectionStats@32
+                  _GetRTTAndHopCount@16
+                  _GetSessionCompartmentId@4
+                  _GetTcp6Table2@12
+                  _GetTcp6Table@12
+                  _GetTcpStatistics@4
+                  _GetTcpStatisticsEx2@8
+                  _GetTcpStatisticsEx@8
+                  _GetTcpTable2@12
+                  _GetTcpTable@12
+                  _GetTeredoPort@4
+                  _GetUdp6Table@12
+                  _GetUdpStatistics@4
+                  _GetUdpStatisticsEx2@8
+                  _GetUdpStatisticsEx@8
+                  _GetUdpTable@12
+                  _GetUniDirectionalAdapterInfo@8
+                  _GetUnicastIpAddressEntry@4
+                  _GetUnicastIpAddressTable@8
+                  _GetWPAOACSupportLevel@0
+                  _Icmp6CreateFile@0
+                  _Icmp6ParseReplies@8
+                  _Icmp6SendEcho2@48
+                  _IcmpCloseHandle@4
+                  _IcmpCreateFile@0
+                  _IcmpParseReplies@8
+                  _IcmpSendEcho2@44
+                  _IcmpSendEcho2Ex@48
+                  _IcmpSendEcho@32
+                  _InitializeCompartmentEntry@4
+                  _InitializeIpForwardEntry@4
+                  _InitializeIpInterfaceEntry@4
+                  _InitializeUnicastIpAddressEntry@4
+                  _InternalCleanupPersistentStore@8
+                  _InternalCreateAnycastIpAddressEntry@8
+                  _InternalCreateIpForwardEntry2@8
+                  _InternalCreateIpForwardEntry@4
+                  _InternalCreateIpNetEntry2@8
+                  _InternalCreateIpNetEntry@4
+                  _InternalCreateOrRefIpForwardEntry2@8
+                  _InternalCreateUnicastIpAddressEntry@8
+                  _InternalDeleteAnycastIpAddressEntry@8
+                  _InternalDeleteIpForwardEntry2@8
+                  _InternalDeleteIpForwardEntry@4
+                  _InternalDeleteIpNetEntry2@8
+                  _InternalDeleteIpNetEntry@4
+                  _InternalDeleteUnicastIpAddressEntry@8
+                  _InternalFindInterfaceByAddress@8
+                  _InternalGetAnycastIpAddressEntry@8
+                  _InternalGetAnycastIpAddressTable@12
+                  _InternalGetBoundTcp6EndpointTable@12
+                  _InternalGetBoundTcpEndpointTable@12
+                  _InternalGetForwardIpTable2@12
+                  _InternalGetIPPhysicalInterfaceForDestination@28
+                  _InternalGetIfEntry2@8
+                  _InternalGetIfTable2@8
+                  _InternalGetIfTable@12
+                  _InternalGetIpAddrTable@12
+                  _InternalGetIpForwardEntry2@8
+                  _InternalGetIpForwardTable@12
+                  _InternalGetIpInterfaceEntry@8
+                  _InternalGetIpInterfaceTable@12
+                  _InternalGetIpNetEntry2@8
+                  _InternalGetIpNetTable2@12
+                  _InternalGetIpNetTable@12
+                  _InternalGetMulticastIpAddressEntry@8
+                  _InternalGetMulticastIpAddressTable@12
+                  _InternalGetRtcSlotInformation@12
+                  _InternalGetTcp6Table2@12
+                  _InternalGetTcp6TableWithOwnerModule@12
+                  _InternalGetTcp6TableWithOwnerPid@12
+                  _InternalGetTcpDynamicPortRange@8
+                  _InternalGetTcpTable2@12
+                  _InternalGetTcpTable@12
+                  _InternalGetTcpTableEx@12
+                  _InternalGetTcpTableWithOwnerModule@12
+                  _InternalGetTcpTableWithOwnerPid@12
+                  _InternalGetTunnelPhysicalAdapter@8
+                  _InternalGetUdp6Table2@12
+                  _InternalGetUdp6TableWithOwnerModule@12
+                  _InternalGetUdp6TableWithOwnerPid@12
+                  _InternalGetUdpDynamicPortRange@8
+                  _InternalGetUdpTable2@12
+                  _InternalGetUdpTable@12
+                  _InternalGetUdpTableEx@12
+                  _InternalGetUdpTableWithOwnerModule@12
+                  _InternalGetUdpTableWithOwnerPid@12
+                  _InternalGetUnicastIpAddressEntry@8
+                  _InternalGetUnicastIpAddressTable@12
+                  _InternalIcmpCreateFileEx@4
+                  _InternalSetIfEntry@4
+                  _InternalSetIpForwardEntry2@8
+                  _InternalSetIpForwardEntry@4
+                  _InternalSetIpInterfaceEntry@8
+                  _InternalSetIpNetEntry2@8
+                  _InternalSetIpNetEntry@4
+                  _InternalSetIpStats@4
+                  _InternalSetTcpDynamicPortRange@8
+                  _InternalSetTcpEntry@4
+                  _InternalSetTeredoPort@4
+                  _InternalSetUdpDynamicPortRange@8
+                  _InternalSetUnicastIpAddressEntry@8
+                  _IpReleaseAddress@4
+                  _IpRenewAddress@4
+                  _LookupPersistentTcpPortReservation@12
+                  _LookupPersistentUdpPortReservation@12
+                  _NTPTimeToNTFileTime@12
+                  _NTTimeToNTPTime@8
+                  _NhGetGuidFromInterfaceName@16
+                  _NhGetInterfaceDescriptionFromGuid@20
+                  _NhGetInterfaceNameFromDeviceGuid@20
+                  _NhGetInterfaceNameFromGuid@20
+                  _NhpAllocateAndGetInterfaceInfoFromStack@20
+                  _NotifyAddrChange@8
+                  _NotifyCompartmentChange@16
+                  _NotifyIpInterfaceChange@20
+                  _NotifyNetworkConnectivityHintChange@16
+                  _NotifyRouteChange2@20
+                  _NotifyRouteChange@8
+                  _NotifyStableUnicastIpAddressTable@20
+                  _NotifyTeredoPortChange@16
+                  _NotifyUnicastIpAddressChange@20
+                  _OpenCompartment@8
+                  _ParseNetworkString@20
+                  _PfAddFiltersToInterface@24
+                  _PfAddGlobalFilterToInterface@8
+                  _PfBindInterfaceToIPAddress@12
+                  _PfBindInterfaceToIndex@16
+                  _PfCreateInterface@24
+                  _PfDeleteInterface@4
+                  _PfDeleteLog@0
+                  _PfGetInterfaceStatistics@16
+                  _PfMakeLog@4
+                  _PfRebindFilters@8
+                  _PfRemoveFilterHandles@12
+                  _PfRemoveFiltersFromInterface@20
+                  _PfRemoveGlobalFilterFromInterface@8
+                  _PfSetLogBuffer@28
+                  _PfTestPacket@20
+                  _PfUnBindInterface@4
+                  _RegisterInterfaceTimestampConfigChange@12
+                  _ResolveIpNetEntry2@8
+                  _ResolveNeighbor@12
+                  _RestoreMediaSense@8
+                  _SendARP@16
+                  _SetAdapterIpAddress@20
+                  _SetCurrentThreadCompartmentId@4
+                  _SetCurrentThreadCompartmentScope@4
+                  _SetDnsSettings@4
+                  _SetIfEntry@4
+                  _SetInterfaceDnsSettings@20
+                  _SetIpForwardEntry2@4
+                  _SetIpForwardEntry@4
+                  _SetIpInterfaceEntry@4
+                  _SetIpNetEntry2@4
+                  _SetIpNetEntry@4
+                  _SetIpStatistics@4
+                  _SetIpStatisticsEx@8
+                  _SetIpTTL@4
+                  _SetJobCompartmentId@8
+                  _SetNetworkInformation@12
+                  _SetPerTcp6ConnectionEStats@24
+                  _SetPerTcp6ConnectionStats@20
+                  _SetPerTcpConnectionEStats@24
+                  _SetPerTcpConnectionStats@20
+                  _SetSessionCompartmentId@8
+                  _SetTcpEntry@4
+                  _SetUnicastIpAddressEntry@4
+                  _UnenableRouter@8
+                  _UnregisterInterfaceTimestampConfigChange@4
+                  _if_indextoname@8
+                  _if_nametoindex@4
+
+  Summary
+
+          C6 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           E .idata$6

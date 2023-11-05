@@ -1,0 +1,1400 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\bcrypt.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     E8E size
+correct header end
+
+    111 public symbols
+
+     1DA6 __IMPORT_DESCRIPTOR_bcrypt
+     1FCC __NULL_IMPORT_DESCRIPTOR
+     2102 bcrypt_NULL_THUNK_DATA
+     22CA _BCryptCloseAlgorithmProvider@8
+     22CA __imp__BCryptCloseAlgorithmProvider@8
+     24AE _BCryptCreateHash@28
+     24AE __imp__BCryptCreateHash@28
+     2594 _BCryptDecrypt@40
+     2594 __imp__BCryptDecrypt@40
+     27CE _BCryptDestroyHash@4
+     27CE __imp__BCryptDestroyHash@4
+     283E _BCryptDestroyKey@4
+     283E __imp__BCryptDestroyKey@4
+     2920 _BCryptDuplicateHash@20
+     2920 __imp__BCryptDuplicateHash@20
+     2994 _BCryptDuplicateKey@20
+     2994 __imp__BCryptDuplicateKey@20
+     2A06 _BCryptEncrypt@40
+     2A06 __imp__BCryptEncrypt@40
+     2A74 _BCryptEnumAlgorithms@16
+     2A74 __imp__BCryptEnumAlgorithms@16
+     2C56 _BCryptEnumProviders@16
+     2C56 __imp__BCryptEnumProviders@16
+     2D46 _BCryptExportKey@28
+     2D46 __imp__BCryptExportKey@28
+     2E2A _BCryptFinishHash@16
+     2E2A __imp__BCryptFinishHash@16
+     2DB6 _BCryptFinalizeKeyPair@8
+     2DB6 __imp__BCryptFinalizeKeyPair@8
+     2E9A _BCryptFreeBuffer@4
+     2E9A __imp__BCryptFreeBuffer@4
+     2F7A _BCryptGenerateKeyPair@16
+     2F7A __imp__BCryptGenerateKeyPair@16
+     2FF0 _BCryptGenerateSymmetricKey@28
+     2FF0 __imp__BCryptGenerateSymmetricKey@28
+     2F0A _BCryptGenRandom@16
+     2F0A __imp__BCryptGenRandom@16
+     30E4 _BCryptGetProperty@24
+     30E4 __imp__BCryptGetProperty@24
+     31C0 _BCryptHashData@16
+     31C0 __imp__BCryptHashData@16
+     322E _BCryptImportKey@36
+     322E __imp__BCryptImportKey@36
+     329E _BCryptImportKeyPair@28
+     329E __imp__BCryptImportKeyPair@28
+     3386 _BCryptOpenAlgorithmProvider@16
+     3386 __imp__BCryptOpenAlgorithmProvider@16
+     37FA _BCryptSecretAgreement@16
+     37FA __imp__BCryptSecretAgreement@16
+     2674 _BCryptDeriveKey@28
+     2674 __imp__BCryptDeriveKey@28
+     28AE _BCryptDestroySecret@4
+     28AE __imp__BCryptDestroySecret@4
+     396A _BCryptSetProperty@20
+     396A __imp__BCryptSetProperty@20
+     39DC _BCryptSignHash@32
+     39DC __imp__BCryptSignHash@32
+     3ACC _BCryptVerifySignature@28
+     3ACC __imp__BCryptVerifySignature@28
+     26E4 _BCryptDeriveKeyCapi@20
+     26E4 __imp__BCryptDeriveKeyCapi@20
+     2758 _BCryptDeriveKeyPBKDF2@40
+     2758 __imp__BCryptDeriveKeyPBKDF2@40
+     3312 _BCryptKeyDerivation@24
+     3312 __imp__BCryptKeyDerivation@24
+     251E _BCryptCreateMultiHash@32
+     251E __imp__BCryptCreateMultiHash@32
+     3402 _BCryptProcessMultiOperations@20
+     3402 __imp__BCryptProcessMultiOperations@20
+     3156 _BCryptHash@28
+     3156 __imp__BCryptHash@28
+     3608 _BCryptQueryProviderRegistration@20
+     3608 __imp__BCryptQueryProviderRegistration@20
+     2CCA _BCryptEnumRegisteredProviders@8
+     2CCA __imp__BCryptEnumRegisteredProviders@8
+     243A _BCryptCreateContext@12
+     243A __imp__BCryptCreateContext@12
+     2602 _BCryptDeleteContext@8
+     2602 __imp__BCryptDeleteContext@8
+     2BE4 _BCryptEnumContexts@12
+     2BE4 __imp__BCryptEnumContexts@12
+     2346 _BCryptConfigureContext@12
+     2346 __imp__BCryptConfigureContext@12
+     347E _BCryptQueryContextConfiguration@16
+     347E __imp__BCryptQueryContextConfiguration@16
+     2252 _BCryptAddContextFunction@20
+     2252 __imp__BCryptAddContextFunction@20
+     3708 _BCryptRemoveContextFunction@16
+     3708 __imp__BCryptRemoveContextFunction@16
+     2B6A _BCryptEnumContextFunctions@20
+     2B6A __imp__BCryptEnumContextFunctions@20
+     23BC _BCryptConfigureContextFunction@20
+     23BC __imp__BCryptConfigureContextFunction@20
+     34FE _BCryptQueryContextFunctionConfiguration@24
+     34FE __imp__BCryptQueryContextFunctionConfiguration@24
+     2AE8 _BCryptEnumContextFunctionProviders@24
+     2AE8 __imp__BCryptEnumContextFunctionProviders@24
+     38EA _BCryptSetContextFunctionProperty@28
+     38EA __imp__BCryptSetContextFunctionProperty@28
+     3586 _BCryptQueryContextFunctionProperty@28
+     3586 __imp__BCryptQueryContextFunctionProperty@28
+     3688 _BCryptRegisterConfigChangeNotify@4
+     3688 __imp__BCryptRegisterConfigChangeNotify@4
+     3A4A _BCryptUnregisterConfigChangeNotify@4
+     3A4A __imp__BCryptUnregisterConfigChangeNotify@4
+     3784 _BCryptResolveProviders@32
+     3784 __imp__BCryptResolveProviders@32
+     306A _BCryptGetFipsAlgorithmMode@4
+     306A __imp__BCryptGetFipsAlgorithmMode@4
+     3870 _BCryptSetAuditingInterface@4
+     3870 __imp__BCryptSetAuditingInterface@4
+
+Archive member name at 1DA6: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1EA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        D87551BA time date stamp
+             10A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CC file pointer to raw data (000000CC to 000000DF)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FE file pointer to raw data (000000FE to 00000109)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 1FCC: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        E19DC536 time date stamp
+              B8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      64 file pointer to raw data (00000064 to 000000A3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A4 file pointer to raw data (000000A4 to 000000B7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 2102: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     114 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E7F03436 time date stamp
+              D4 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CC file pointer to raw data (000000CC to 000000CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data (000000D0 to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 2252: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F94F51A9
+  SizeOfData   : 00000028
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptAddContextFunction@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : BCryptAddContextFunction
+
+Archive member name at 22CA: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6B8C4C9
+  SizeOfData   : 0000002B
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptCloseAlgorithmProvider@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : BCryptCloseAlgorithmProvider
+
+Archive member name at 2346: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0F2F582
+  SizeOfData   : 00000026
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptConfigureContext@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : BCryptConfigureContext
+
+Archive member name at 23BC: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3F23260
+  SizeOfData   : 0000002E
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptConfigureContextFunction@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : BCryptConfigureContextFunction
+
+Archive member name at 243A: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0878D50
+  SizeOfData   : 00000023
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptCreateContext@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : BCryptCreateContext
+
+Archive member name at 24AE: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D42F59CF
+  SizeOfData   : 00000020
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptCreateHash@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : BCryptCreateHash
+
+Archive member name at 251E: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EEC8B695
+  SizeOfData   : 00000025
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptCreateMultiHash@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : BCryptCreateMultiHash
+
+Archive member name at 2594: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F535904C
+  SizeOfData   : 0000001D
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptDecrypt@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : BCryptDecrypt
+
+Archive member name at 2602: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E06C5C65
+  SizeOfData   : 00000022
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptDeleteContext@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : BCryptDeleteContext
+
+Archive member name at 2674: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C70BA082
+  SizeOfData   : 0000001F
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptDeriveKey@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : BCryptDeriveKey
+
+Archive member name at 26E4: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F445E87B
+  SizeOfData   : 00000023
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptDeriveKeyCapi@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : BCryptDeriveKeyCapi
+
+Archive member name at 2758: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3B4212F
+  SizeOfData   : 00000025
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptDeriveKeyPBKDF2@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : BCryptDeriveKeyPBKDF2
+
+Archive member name at 27CE: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F226DFAB
+  SizeOfData   : 00000020
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptDestroyHash@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : BCryptDestroyHash
+
+Archive member name at 283E: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C536DC97
+  SizeOfData   : 0000001F
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptDestroyKey@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : BCryptDestroyKey
+
+Archive member name at 28AE: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1DA7031
+  SizeOfData   : 00000022
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptDestroySecret@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : BCryptDestroySecret
+
+Archive member name at 2920: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C66E55A7
+  SizeOfData   : 00000023
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptDuplicateHash@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : BCryptDuplicateHash
+
+Archive member name at 2994: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D75F2118
+  SizeOfData   : 00000022
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptDuplicateKey@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : BCryptDuplicateKey
+
+Archive member name at 2A06: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6F7873D
+  SizeOfData   : 0000001D
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptEncrypt@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : BCryptEncrypt
+
+Archive member name at 2A74: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0BB36B8
+  SizeOfData   : 00000024
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptEnumAlgorithms@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : BCryptEnumAlgorithms
+
+Archive member name at 2AE8: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E835D5AE
+  SizeOfData   : 00000032
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptEnumContextFunctionProviders@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : BCryptEnumContextFunctionProviders
+
+Archive member name at 2B6A: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB36DE9A
+  SizeOfData   : 0000002A
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptEnumContextFunctions@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : BCryptEnumContextFunctions
+
+Archive member name at 2BE4: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5E22485
+  SizeOfData   : 00000022
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptEnumContexts@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : BCryptEnumContexts
+
+Archive member name at 2C56: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9E7502F
+  SizeOfData   : 00000023
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptEnumProviders@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : BCryptEnumProviders
+
+Archive member name at 2CCA: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E025DEA6
+  SizeOfData   : 0000002C
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptEnumRegisteredProviders@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : BCryptEnumRegisteredProviders
+
+Archive member name at 2D46: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF2C66CE
+  SizeOfData   : 0000001F
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptExportKey@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : BCryptExportKey
+
+Archive member name at 2DB6: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D403F500
+  SizeOfData   : 00000024
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptFinalizeKeyPair@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : BCryptFinalizeKeyPair
+
+Archive member name at 2E2A: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1C76D98
+  SizeOfData   : 00000020
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptFinishHash@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : BCryptFinishHash
+
+Archive member name at 2E9A: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF5B79F2
+  SizeOfData   : 0000001F
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptFreeBuffer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : BCryptFreeBuffer
+
+Archive member name at 2F0A: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0C9645A
+  SizeOfData   : 0000001F
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptGenRandom@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : BCryptGenRandom
+
+Archive member name at 2F7A: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8429ACF
+  SizeOfData   : 00000025
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptGenerateKeyPair@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : BCryptGenerateKeyPair
+
+Archive member name at 2FF0: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9C9AA1A
+  SizeOfData   : 0000002A
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptGenerateSymmetricKey@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : BCryptGenerateSymmetricKey
+
+Archive member name at 306A: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7C7CDC7
+  SizeOfData   : 00000029
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptGetFipsAlgorithmMode@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : BCryptGetFipsAlgorithmMode
+
+Archive member name at 30E4: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D112082E
+  SizeOfData   : 00000021
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptGetProperty@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : BCryptGetProperty
+
+Archive member name at 3156: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C792E88F
+  SizeOfData   : 0000001A
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptHash@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : BCryptHash
+
+Archive member name at 31C0: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3F3CBC0
+  SizeOfData   : 0000001E
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptHashData@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : BCryptHashData
+
+Archive member name at 322E: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D725071C
+  SizeOfData   : 0000001F
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptImportKey@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : BCryptImportKey
+
+Archive member name at 329E: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1AA956F
+  SizeOfData   : 00000023
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptImportKeyPair@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : BCryptImportKeyPair
+
+Archive member name at 3312: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E376C0A0
+  SizeOfData   : 00000023
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptKeyDerivation@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : BCryptKeyDerivation
+
+Archive member name at 3386: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D25EB5D0
+  SizeOfData   : 0000002B
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptOpenAlgorithmProvider@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : BCryptOpenAlgorithmProvider
+
+Archive member name at 3402: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C749818E
+  SizeOfData   : 0000002C
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptProcessMultiOperations@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : BCryptProcessMultiOperations
+
+Archive member name at 347E: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C441A9CC
+  SizeOfData   : 0000002F
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptQueryContextConfiguration@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : BCryptQueryContextConfiguration
+
+Archive member name at 34FE: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5466BEA
+  SizeOfData   : 00000037
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptQueryContextFunctionConfiguration@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : BCryptQueryContextFunctionConfiguration
+
+Archive member name at 3586: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF576C9D
+  SizeOfData   : 00000032
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptQueryContextFunctionProperty@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : BCryptQueryContextFunctionProperty
+
+Archive member name at 3608: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F242D599
+  SizeOfData   : 0000002F
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptQueryProviderRegistration@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : BCryptQueryProviderRegistration
+
+Archive member name at 3688: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5BCFD9A
+  SizeOfData   : 0000002F
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptRegisterConfigChangeNotify@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : BCryptRegisterConfigChangeNotify
+
+Archive member name at 3708: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D369DAE0
+  SizeOfData   : 0000002B
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptRemoveContextFunction@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : BCryptRemoveContextFunction
+
+Archive member name at 3784: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF9D9C19
+  SizeOfData   : 00000026
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptResolveProviders@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : BCryptResolveProviders
+
+Archive member name at 37FA: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C589CC4A
+  SizeOfData   : 00000025
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptSecretAgreement@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : BCryptSecretAgreement
+
+Archive member name at 3870: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9C027D4
+  SizeOfData   : 00000029
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptSetAuditingInterface@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : BCryptSetAuditingInterface
+
+Archive member name at 38EA: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E41CBBA7
+  SizeOfData   : 00000030
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptSetContextFunctionProperty@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : BCryptSetContextFunctionProperty
+
+Archive member name at 396A: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF6B5D8C
+  SizeOfData   : 00000021
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptSetProperty@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : BCryptSetProperty
+
+Archive member name at 39DC: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDA6DB07
+  SizeOfData   : 0000001E
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptSignHash@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : BCryptSignHash
+
+Archive member name at 3A4A: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D06DD764
+  SizeOfData   : 00000031
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptUnregisterConfigChangeNotify@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : BCryptUnregisterConfigChangeNotify
+
+Archive member name at 3ACC: bcrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC5CBCCD
+  SizeOfData   : 00000025
+  DLL name     : bcrypt.dll
+  Symbol name  : _BCryptVerifySignature@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : BCryptVerifySignature
+
+     Exports
+
+       ordinal    name
+
+                  _BCryptAddContextFunction@20
+                  _BCryptCloseAlgorithmProvider@8
+                  _BCryptConfigureContext@12
+                  _BCryptConfigureContextFunction@20
+                  _BCryptCreateContext@12
+                  _BCryptCreateHash@28
+                  _BCryptCreateMultiHash@32
+                  _BCryptDecrypt@40
+                  _BCryptDeleteContext@8
+                  _BCryptDeriveKey@28
+                  _BCryptDeriveKeyCapi@20
+                  _BCryptDeriveKeyPBKDF2@40
+                  _BCryptDestroyHash@4
+                  _BCryptDestroyKey@4
+                  _BCryptDestroySecret@4
+                  _BCryptDuplicateHash@20
+                  _BCryptDuplicateKey@20
+                  _BCryptEncrypt@40
+                  _BCryptEnumAlgorithms@16
+                  _BCryptEnumContextFunctionProviders@24
+                  _BCryptEnumContextFunctions@20
+                  _BCryptEnumContexts@12
+                  _BCryptEnumProviders@16
+                  _BCryptEnumRegisteredProviders@8
+                  _BCryptExportKey@28
+                  _BCryptFinalizeKeyPair@8
+                  _BCryptFinishHash@16
+                  _BCryptFreeBuffer@4
+                  _BCryptGenRandom@16
+                  _BCryptGenerateKeyPair@16
+                  _BCryptGenerateSymmetricKey@28
+                  _BCryptGetFipsAlgorithmMode@4
+                  _BCryptGetProperty@24
+                  _BCryptHash@28
+                  _BCryptHashData@16
+                  _BCryptImportKey@36
+                  _BCryptImportKeyPair@28
+                  _BCryptKeyDerivation@24
+                  _BCryptOpenAlgorithmProvider@16
+                  _BCryptProcessMultiOperations@20
+                  _BCryptQueryContextConfiguration@16
+                  _BCryptQueryContextFunctionConfiguration@24
+                  _BCryptQueryContextFunctionProperty@28
+                  _BCryptQueryProviderRegistration@20
+                  _BCryptRegisterConfigChangeNotify@4
+                  _BCryptRemoveContextFunction@16
+                  _BCryptResolveProviders@32
+                  _BCryptSecretAgreement@16
+                  _BCryptSetAuditingInterface@4
+                  _BCryptSetContextFunctionProperty@28
+                  _BCryptSetProperty@20
+                  _BCryptSignHash@32
+                  _BCryptUnregisterConfigChangeNotify@4
+                  _BCryptVerifySignature@28
+
+  Summary
+
+          C0 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

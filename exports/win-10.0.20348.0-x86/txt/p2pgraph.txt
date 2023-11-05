@@ -1,0 +1,1091 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\p2pgraph.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     AB3 size
+correct header end
+
+    82 public symbols
+
+     15F4 __IMPORT_DESCRIPTOR_P2PGRAPH
+     1822 __NULL_IMPORT_DESCRIPTOR
+     195A P2PGRAPH_NULL_THUNK_DATA
+     2A96 _PeerGraphStartup@8
+     2A96 __imp__PeerGraphStartup@8
+     2A24 _PeerGraphShutdown@0
+     2A24 __imp__PeerGraphShutdown@0
+     2150 _PeerGraphFreeData@4
+     2150 __imp__PeerGraphFreeData@4
+     2238 _PeerGraphGetItemCount@8
+     2238 __imp__PeerGraphGetItemCount@8
+     22AE _PeerGraphGetNextItem@12
+     22AE __imp__PeerGraphGetNextItem@12
+     1EFC _PeerGraphEndEnumeration@4
+     1EFC __imp__PeerGraphEndEnumeration@4
+     1DA0 _PeerGraphCreate@16
+     1DA0 __imp__PeerGraphCreate@16
+     25E4 _PeerGraphOpen@28
+     25E4 __imp__PeerGraphOpen@28
+     2572 _PeerGraphListen@16
+     2572 __imp__PeerGraphListen@16
+     1D2E _PeerGraphConnect@16
+     1D2E __imp__PeerGraphConnect@16
+     1C3E _PeerGraphClose@4
+     1C3E __imp__PeerGraphClose@4
+     1E12 _PeerGraphDelete@12
+     1E12 __imp__PeerGraphDelete@12
+     239A _PeerGraphGetProperties@8
+     239A __imp__PeerGraphGetProperties@8
+     29AC _PeerGraphSetProperties@8
+     29AC __imp__PeerGraphSetProperties@8
+     2324 _PeerGraphGetNodeInfo@16
+     2324 __imp__PeerGraphGetNodeInfo@16
+     28BA _PeerGraphSetNodeAttributes@8
+     28BA __imp__PeerGraphSetNodeAttributes@8
+     2756 _PeerGraphRegisterEvent@20
+     2756 __imp__PeerGraphRegisterEvent@20
+     2C02 _PeerGraphUnregisterEvent@4
+     2C02 __imp__PeerGraphUnregisterEvent@4
+     21C2 _PeerGraphGetEventData@8
+     21C2 __imp__PeerGraphGetEventData@8
+     2412 _PeerGraphGetRecord@12
+     2412 __imp__PeerGraphGetRecord@12
+     1BCA _PeerGraphAddRecord@12
+     1BCA __imp__PeerGraphAddRecord@12
+     2C7C _PeerGraphUpdateRecord@8
+     2C7C __imp__PeerGraphUpdateRecord@8
+     1E84 _PeerGraphDeleteRecord@12
+     1E84 __imp__PeerGraphDeleteRecord@12
+     2062 _PeerGraphEnumRecords@16
+     2062 __imp__PeerGraphEnumRecords@16
+     27CE _PeerGraphSearchRecords@12
+     27CE __imp__PeerGraphSearchRecords@12
+     20D8 _PeerGraphExportDatabase@8
+     20D8 __imp__PeerGraphExportDatabase@8
+     24FA _PeerGraphImportDatabase@8
+     24FA __imp__PeerGraphImportDatabase@8
+     2CF2 _PeerGraphValidateDeferredRecords@12
+     2CF2 __imp__PeerGraphValidateDeferredRecords@12
+     2654 _PeerGraphOpenDirectConnection@16
+     2654 __imp__PeerGraphOpenDirectConnection@16
+     2846 _PeerGraphSendData@24
+     2846 __imp__PeerGraphSendData@24
+     1CAE _PeerGraphCloseDirectConnection@12
+     1CAE __imp__PeerGraphCloseDirectConnection@12
+     1F74 _PeerGraphEnumConnections@12
+     1F74 __imp__PeerGraphEnumConnections@12
+     1FEE _PeerGraphEnumNodes@12
+     1FEE __imp__PeerGraphEnumNodes@12
+     2936 _PeerGraphSetPresence@8
+     2936 __imp__PeerGraphSetPresence@8
+     2486 _PeerGraphGetStatus@8
+     2486 __imp__PeerGraphGetStatus@8
+     26D4 _PeerGraphPeerTimeToUniversalTime@12
+     26D4 __imp__PeerGraphPeerTimeToUniversalTime@12
+     2B80 _PeerGraphUniversalTimeToPeerTime@12
+     2B80 __imp__PeerGraphUniversalTimeToPeerTime@12
+     1AAE ?PeerGraphForceStopPresencePrivate@@YGJPAXH@Z
+     1AAE __imp_?PeerGraphForceStopPresencePrivate@@YGJPAXH@Z
+     2B08 _PeerGraphSuspendTimers@8
+     2B08 __imp__PeerGraphSuspendTimers@8
+     1B3A __imp_?pMemoryHelper@@3PAU_DEBUG_MEMORY_CONTROL_BLOCK@@A
+
+Archive member name at 15F4: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1F2 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E48770B8 time date stamp
+             10E file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CE file pointer to raw data (000000CE to 000000E1)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     100 file pointer to raw data (00000100 to 0000010D)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 1822: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        E12E6E85 time date stamp
+              BA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      64 file pointer to raw data (00000064 to 000000A5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A6 file pointer to raw data (000000A6 to 000000B9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 195A: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     118 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        C70C1659 time date stamp
+              D6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1AAE: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8282062
+  SizeOfData   : 0000003B
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : ?PeerGraphForceStopPresencePrivate@@YGJPAXH@Z (long __stdcall PeerGraphForceStopPresencePrivate(void *,int))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : PeerGraphForceStopPresencePrivate
+
+Archive member name at 1B3A: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      54 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F026DBA8
+  SizeOfData   : 00000040
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : ?pMemoryHelper@@3PAU_DEBUG_MEMORY_CONTROL_BLOCK@@A (struct _DEBUG_MEMORY_CONTROL_BLOCK * pMemoryHelper)
+  Type         : data
+  Name type    : undecorate
+  Hint         : 39
+  Name         : pMemoryHelper
+
+Archive member name at 1BCA: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBBFB1A7
+  SizeOfData   : 00000024
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphAddRecord@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : PeerGraphAddRecord
+
+Archive member name at 1C3E: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFA64A88
+  SizeOfData   : 0000001F
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphClose@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : PeerGraphClose
+
+Archive member name at 1CAE: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D327FBB3
+  SizeOfData   : 00000030
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphCloseDirectConnection@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : PeerGraphCloseDirectConnection
+
+Archive member name at 1D2E: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD1F5E0A
+  SizeOfData   : 00000022
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphConnect@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : PeerGraphConnect
+
+Archive member name at 1DA0: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB43E2C6
+  SizeOfData   : 00000021
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphCreate@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : PeerGraphCreate
+
+Archive member name at 1E12: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E342A786
+  SizeOfData   : 00000021
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphDelete@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : PeerGraphDelete
+
+Archive member name at 1E84: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2CD9E7C
+  SizeOfData   : 00000027
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphDeleteRecord@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : PeerGraphDeleteRecord
+
+Archive member name at 1EFC: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F13FF46A
+  SizeOfData   : 00000028
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphEndEnumeration@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : PeerGraphEndEnumeration
+
+Archive member name at 1F74: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D645A079
+  SizeOfData   : 0000002A
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphEnumConnections@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : PeerGraphEnumConnections
+
+Archive member name at 1FEE: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBFC35A4
+  SizeOfData   : 00000024
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphEnumNodes@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : PeerGraphEnumNodes
+
+Archive member name at 2062: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C85A0DFC
+  SizeOfData   : 00000026
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphEnumRecords@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : PeerGraphEnumRecords
+
+Archive member name at 20D8: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7B8F72E
+  SizeOfData   : 00000028
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphExportDatabase@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : PeerGraphExportDatabase
+
+Archive member name at 2150: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F343D018
+  SizeOfData   : 00000022
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphFreeData@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : PeerGraphFreeData
+
+Archive member name at 21C2: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C442069D
+  SizeOfData   : 00000026
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphGetEventData@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : PeerGraphGetEventData
+
+Archive member name at 2238: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2353AB3
+  SizeOfData   : 00000026
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphGetItemCount@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : PeerGraphGetItemCount
+
+Archive member name at 22AE: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F85C295F
+  SizeOfData   : 00000026
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphGetNextItem@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : PeerGraphGetNextItem
+
+Archive member name at 2324: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9FFEFCC
+  SizeOfData   : 00000026
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphGetNodeInfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : PeerGraphGetNodeInfo
+
+Archive member name at 239A: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4B020A1
+  SizeOfData   : 00000027
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphGetProperties@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : PeerGraphGetProperties
+
+Archive member name at 2412: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F836A9F1
+  SizeOfData   : 00000024
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphGetRecord@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : PeerGraphGetRecord
+
+Archive member name at 2486: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF1ACEE0
+  SizeOfData   : 00000023
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphGetStatus@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : PeerGraphGetStatus
+
+Archive member name at 24FA: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1B2FDBA
+  SizeOfData   : 00000028
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphImportDatabase@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : PeerGraphImportDatabase
+
+Archive member name at 2572: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F22FEA77
+  SizeOfData   : 00000021
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphListen@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : PeerGraphListen
+
+Archive member name at 25E4: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECC45995
+  SizeOfData   : 0000001F
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphOpen@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : PeerGraphOpen
+
+Archive member name at 2654: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB756E42
+  SizeOfData   : 0000002F
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphOpenDirectConnection@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : PeerGraphOpenDirectConnection
+
+Archive member name at 26D4: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E59C081B
+  SizeOfData   : 00000032
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphPeerTimeToUniversalTime@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : PeerGraphPeerTimeToUniversalTime
+
+Archive member name at 2756: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5BF36CE
+  SizeOfData   : 00000028
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphRegisterEvent@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : PeerGraphRegisterEvent
+
+Archive member name at 27CE: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4F13314
+  SizeOfData   : 00000028
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphSearchRecords@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : PeerGraphSearchRecords
+
+Archive member name at 2846: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1D20C88
+  SizeOfData   : 00000023
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphSendData@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : PeerGraphSendData
+
+Archive member name at 28BA: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8467191
+  SizeOfData   : 0000002B
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphSetNodeAttributes@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : PeerGraphSetNodeAttributes
+
+Archive member name at 2936: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBB6C47D
+  SizeOfData   : 00000025
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphSetPresence@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : PeerGraphSetPresence
+
+Archive member name at 29AC: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD1F0ADF
+  SizeOfData   : 00000027
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphSetProperties@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : PeerGraphSetProperties
+
+Archive member name at 2A24: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D487FBF0
+  SizeOfData   : 00000022
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphShutdown@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : PeerGraphShutdown
+
+Archive member name at 2A96: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F18B4EEB
+  SizeOfData   : 00000021
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphStartup@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : PeerGraphStartup
+
+Archive member name at 2B08: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE7C0E0C
+  SizeOfData   : 00000027
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphSuspendTimers@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : PeerGraphSuspendTimers
+
+Archive member name at 2B80: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D49C4CCA
+  SizeOfData   : 00000032
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphUniversalTimeToPeerTime@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : PeerGraphUniversalTimeToPeerTime
+
+Archive member name at 2C02: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E46A8E8D
+  SizeOfData   : 00000029
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphUnregisterEvent@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : PeerGraphUnregisterEvent
+
+Archive member name at 2C7C: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C88A574A
+  SizeOfData   : 00000026
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphUpdateRecord@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : PeerGraphUpdateRecord
+
+Archive member name at 2CF2: P2PGRAPH.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E42FEFD2
+  SizeOfData   : 00000032
+  DLL name     : P2PGRAPH.dll
+  Symbol name  : _PeerGraphValidateDeferredRecords@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : PeerGraphValidateDeferredRecords
+
+     Exports
+
+       ordinal    name
+
+                  ?PeerGraphForceStopPresencePrivate@@YGJPAXH@Z (long __stdcall PeerGraphForceStopPresencePrivate(void *,int))
+                  ?pMemoryHelper@@3PAU_DEBUG_MEMORY_CONTROL_BLOCK@@A (struct _DEBUG_MEMORY_CONTROL_BLOCK * pMemoryHelper)
+                  _PeerGraphAddRecord@12
+                  _PeerGraphClose@4
+                  _PeerGraphCloseDirectConnection@12
+                  _PeerGraphConnect@16
+                  _PeerGraphCreate@16
+                  _PeerGraphDelete@12
+                  _PeerGraphDeleteRecord@12
+                  _PeerGraphEndEnumeration@4
+                  _PeerGraphEnumConnections@12
+                  _PeerGraphEnumNodes@12
+                  _PeerGraphEnumRecords@16
+                  _PeerGraphExportDatabase@8
+                  _PeerGraphFreeData@4
+                  _PeerGraphGetEventData@8
+                  _PeerGraphGetItemCount@8
+                  _PeerGraphGetNextItem@12
+                  _PeerGraphGetNodeInfo@16
+                  _PeerGraphGetProperties@8
+                  _PeerGraphGetRecord@12
+                  _PeerGraphGetStatus@8
+                  _PeerGraphImportDatabase@8
+                  _PeerGraphListen@16
+                  _PeerGraphOpen@28
+                  _PeerGraphOpenDirectConnection@16
+                  _PeerGraphPeerTimeToUniversalTime@12
+                  _PeerGraphRegisterEvent@20
+                  _PeerGraphSearchRecords@12
+                  _PeerGraphSendData@24
+                  _PeerGraphSetNodeAttributes@8
+                  _PeerGraphSetPresence@8
+                  _PeerGraphSetProperties@8
+                  _PeerGraphShutdown@0
+                  _PeerGraphStartup@8
+                  _PeerGraphSuspendTimers@8
+                  _PeerGraphUniversalTimeToPeerTime@12
+                  _PeerGraphUnregisterEvent@4
+                  _PeerGraphUpdateRecord@8
+                  _PeerGraphValidateDeferredRecords@12
+
+  Summary
+
+          C6 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           E .idata$6

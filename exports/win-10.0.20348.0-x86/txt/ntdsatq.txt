@@ -1,0 +1,1246 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\ntdsatq.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     AF0 size
+correct header end
+
+    97 public symbols
+
+     166A __IMPORT_DESCRIPTOR_NTDSATQ
+     1894 __NULL_IMPORT_DESCRIPTOR
+     19CA NTDSATQ_NULL_THUNK_DATA
+     2664 _AtqInitialize@4
+     2664 __imp__AtqInitialize@4
+     2DE0 _AtqTerminate@0
+     2DE0 __imp__AtqTerminate@0
+     1B1C ?SchedulerInitialize@@YGHXZ
+     1B1C __imp_?SchedulerInitialize@@YGHXZ
+     1B94 ?SchedulerTerminate@@YGXXZ
+     1B94 __imp_?SchedulerTerminate@@YGXXZ
+     1CFC _AllocCacheDumpStatsToHtml@8
+     1CFC __imp__AllocCacheDumpStatsToHtml@8
+     2B4C _AtqSetInfo2@8
+     2B4C __imp__AtqSetInfo2@8
+     2256 _AtqEndpointSetInfo2@12
+     2256 __imp__AtqEndpointSetInfo2@12
+     1FA6 _AtqContextSetInfo2@12
+     1FA6 __imp__AtqContextSetInfo2@12
+     2EBE _AtqWriteDatagramSocket@16
+     2EBE __imp__AtqWriteDatagramSocket@16
+     1F34 _AtqContextGetInfo@8
+     1F34 __imp__AtqContextGetInfo@8
+     250C _AtqGetDatagramAddrs@24
+     250C __imp__AtqGetDatagramAddrs@24
+     1C0C _ATQReleaseTCPPortReservation@4
+     1C0C __imp__ATQReleaseTCPPortReservation@4
+     1C88 _ATQReserveTCPPorts@12
+     1C88 __imp__ATQReserveTCPPorts@12
+     1D76 _AtqCloseEndpoint@4
+     1D76 __imp__AtqCloseEndpoint@4
+     2D00 _AtqStopEndpoint@4
+     2D00 __imp__AtqStopEndpoint@4
+     22CA _AtqEndpointSetInfo@12
+     22CA __imp__AtqEndpointSetInfo@12
+     21E4 _AtqEndpointGetInfo@8
+     21E4 __imp__AtqEndpointGetInfo@8
+     2C90 _AtqStartEndpoint@4
+     2C90 __imp__AtqStartEndpoint@4
+     20FE _AtqCreateEndpointEx@12
+     20FE __imp__AtqCreateEndpointEx@12
+     208C _AtqCreateEndpoint@8
+     208C __imp__AtqCreateEndpoint@8
+     2D70 _AtqSyncWsaSend@16
+     2D70 __imp__AtqSyncWsaSend@16
+     2C22 _AtqSetSockOpt@20
+     2C22 __imp__AtqSetSockOpt@20
+     2FA4 _AtqWriteSocket@16
+     2FA4 __imp__AtqWriteSocket@16
+     2F36 _AtqWriteFile@16
+     2F36 __imp__AtqWriteFile@16
+     2A5E _AtqReadSocket@16
+     2A5E __imp__AtqReadSocket@16
+     29F2 _AtqReadFile@16
+     29F2 __imp__AtqReadFile@16
+     233E _AtqFreeContext@8
+     233E __imp__AtqFreeContext@8
+     1EC6 _AtqCloseSocket@8
+     1EC6 __imp__AtqCloseSocket@8
+     23AC _AtqGetAcceptExAddrs@24
+     23AC __imp__AtqGetAcceptExAddrs@24
+     2420 _AtqGetAcceptExAddrsEx@32
+     2420 __imp__AtqGetAcceptExAddrsEx@32
+     201A _AtqContextSetInfo@12
+     201A __imp__AtqContextSetInfo@12
+     25EA _AtqGetMaxDatagramSendSize@4
+     25EA __imp__AtqGetMaxDatagramSendSize@4
+     2580 _AtqGetInfo@4
+     2580 __imp__AtqGetInfo@4
+     2BB8 _AtqSetInfo@8
+     2BB8 __imp__AtqSetInfo@8
+     1E56 _AtqCloseSession@4
+     1E56 __imp__AtqCloseSession@4
+     26D2 _AtqOpenSession@0
+     26D2 __imp__AtqOpenSession@0
+     2496 _AtqGetAddressFamilies@8
+     2496 __imp__AtqGetAddressFamilies@8
+     2ACC _AtqRegisterAddressChangeCallback@8
+     2ACC __imp__AtqRegisterAddressChangeCallback@8
+     27B0 _AtqQosClassGetInfo@8
+     27B0 __imp__AtqQosClassGetInfo@8
+     2740 _AtqQosClassGetId@4
+     2740 __imp__AtqQosClassGetId@4
+     2822 _AtqQosClassGetInstance@4
+     2822 __imp__AtqQosClassGetInstance@4
+     2908 _AtqQosContextExtendTime@8
+     2908 __imp__AtqQosContextExtendTime@8
+     2898 _AtqQosContextEnd@4
+     2898 __imp__AtqQosContextEnd@4
+     2980 _AtqQosContextStart@8
+     2980 __imp__AtqQosContextStart@8
+     1DE6 _AtqCloseQosClass@4
+     1DE6 __imp__AtqCloseQosClass@4
+     2E4C _AtqUpdateQosClass@8
+     2E4C __imp__AtqUpdateQosClass@8
+     2172 _AtqCreateQosClass@8
+     2172 __imp__AtqCreateQosClass@8
+
+Archive member name at 166A: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1ED size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        D1B123BC time date stamp
+             10B file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CD file pointer to raw data (000000CD to 000000E0)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FF file pointer to raw data (000000FF to 0000010A)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 1894: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        E58D226C time date stamp
+              B9 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      64 file pointer to raw data (00000064 to 000000A4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A5 file pointer to raw data (000000A5 to 000000B8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 19CA: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     116 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        EAB30607 time date stamp
+              D5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D1 file pointer to raw data (000000D1 to 000000D4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1B1C: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDF0FB62
+  SizeOfData   : 00000028
+  DLL name     : NTDSATQ.dll
+  Symbol name  : ?SchedulerInitialize@@YGHXZ (int __stdcall SchedulerInitialize(void))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : SchedulerInitialize
+
+Archive member name at 1B94: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C92688C3
+  SizeOfData   : 00000027
+  DLL name     : NTDSATQ.dll
+  Symbol name  : ?SchedulerTerminate@@YGXXZ (void __stdcall SchedulerTerminate(void))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : SchedulerTerminate
+
+Archive member name at 1C0C: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0405F0A
+  SizeOfData   : 0000002C
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _ATQReleaseTCPPortReservation@4
+  Type         : code
+  Name type    : name
+  Hint         : 5
+  Name         : _ATQReleaseTCPPortReservation@4
+
+Archive member name at 1C88: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFB97955
+  SizeOfData   : 00000023
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _ATQReserveTCPPorts@12
+  Type         : code
+  Name type    : name
+  Hint         : 6
+  Name         : _ATQReserveTCPPorts@12
+
+Archive member name at 1CFC: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA22A196
+  SizeOfData   : 00000029
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AllocCacheDumpStatsToHtml@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : AllocCacheDumpStatsToHtml
+
+Archive member name at 1D76: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5146B56
+  SizeOfData   : 00000020
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqCloseEndpoint@4
+  Type         : code
+  Name type    : name
+  Hint         : 7
+  Name         : _AtqCloseEndpoint@4
+
+Archive member name at 1DE6: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2EF4F8C
+  SizeOfData   : 00000020
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqCloseQosClass@4
+  Type         : code
+  Name type    : name
+  Hint         : 8
+  Name         : _AtqCloseQosClass@4
+
+Archive member name at 1E56: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D411228A
+  SizeOfData   : 0000001F
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqCloseSession@4
+  Type         : code
+  Name type    : name
+  Hint         : 9
+  Name         : _AtqCloseSession@4
+
+Archive member name at 1EC6: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F769A85D
+  SizeOfData   : 0000001E
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqCloseSocket@8
+  Type         : code
+  Name type    : name
+  Hint         : 10
+  Name         : _AtqCloseSocket@8
+
+Archive member name at 1F34: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7D12EAD
+  SizeOfData   : 00000021
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqContextGetInfo@8
+  Type         : code
+  Name type    : name
+  Hint         : 11
+  Name         : _AtqContextGetInfo@8
+
+Archive member name at 1FA6: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8B8C40B
+  SizeOfData   : 00000023
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqContextSetInfo2@12
+  Type         : code
+  Name type    : name
+  Hint         : 12
+  Name         : _AtqContextSetInfo2@12
+
+Archive member name at 201A: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D32B6391
+  SizeOfData   : 00000022
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqContextSetInfo@12
+  Type         : code
+  Name type    : name
+  Hint         : 13
+  Name         : _AtqContextSetInfo@12
+
+Archive member name at 208C: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB293B60
+  SizeOfData   : 00000021
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqCreateEndpoint@8
+  Type         : code
+  Name type    : name
+  Hint         : 14
+  Name         : _AtqCreateEndpoint@8
+
+Archive member name at 20FE: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4B77BE7
+  SizeOfData   : 00000024
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqCreateEndpointEx@12
+  Type         : code
+  Name type    : name
+  Hint         : 15
+  Name         : _AtqCreateEndpointEx@12
+
+Archive member name at 2172: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C52B49E6
+  SizeOfData   : 00000021
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqCreateQosClass@8
+  Type         : code
+  Name type    : name
+  Hint         : 16
+  Name         : _AtqCreateQosClass@8
+
+Archive member name at 21E4: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F27073C8
+  SizeOfData   : 00000022
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqEndpointGetInfo@8
+  Type         : code
+  Name type    : name
+  Hint         : 17
+  Name         : _AtqEndpointGetInfo@8
+
+Archive member name at 2256: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDE93232
+  SizeOfData   : 00000024
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqEndpointSetInfo2@12
+  Type         : code
+  Name type    : name
+  Hint         : 18
+  Name         : _AtqEndpointSetInfo2@12
+
+Archive member name at 22CA: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBC2697B
+  SizeOfData   : 00000023
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqEndpointSetInfo@12
+  Type         : code
+  Name type    : name
+  Hint         : 19
+  Name         : _AtqEndpointSetInfo@12
+
+Archive member name at 233E: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C195B069
+  SizeOfData   : 0000001E
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqFreeContext@8
+  Type         : code
+  Name type    : name
+  Hint         : 20
+  Name         : _AtqFreeContext@8
+
+Archive member name at 23AC: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C52D13CC
+  SizeOfData   : 00000024
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqGetAcceptExAddrs@24
+  Type         : code
+  Name type    : name
+  Hint         : 21
+  Name         : _AtqGetAcceptExAddrs@24
+
+Archive member name at 2420: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E29BFC45
+  SizeOfData   : 00000026
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqGetAcceptExAddrsEx@32
+  Type         : code
+  Name type    : name
+  Hint         : 22
+  Name         : _AtqGetAcceptExAddrsEx@32
+
+Archive member name at 2496: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFB3AA3D
+  SizeOfData   : 00000025
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqGetAddressFamilies@8
+  Type         : code
+  Name type    : name
+  Hint         : 23
+  Name         : _AtqGetAddressFamilies@8
+
+Archive member name at 250C: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1B5F852
+  SizeOfData   : 00000024
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqGetDatagramAddrs@24
+  Type         : code
+  Name type    : name
+  Hint         : 24
+  Name         : _AtqGetDatagramAddrs@24
+
+Archive member name at 2580: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1D3F48F
+  SizeOfData   : 0000001A
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqGetInfo@4
+  Type         : code
+  Name type    : name
+  Hint         : 25
+  Name         : _AtqGetInfo@4
+
+Archive member name at 25EA: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3AFA515
+  SizeOfData   : 00000029
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqGetMaxDatagramSendSize@4
+  Type         : code
+  Name type    : name
+  Hint         : 26
+  Name         : _AtqGetMaxDatagramSendSize@4
+
+Archive member name at 2664: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D18357E7
+  SizeOfData   : 0000001D
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqInitialize@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : AtqInitialize
+
+Archive member name at 26D2: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F54C8439
+  SizeOfData   : 0000001E
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqOpenSession@0
+  Type         : code
+  Name type    : name
+  Hint         : 27
+  Name         : _AtqOpenSession@0
+
+Archive member name at 2740: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D41C2258
+  SizeOfData   : 00000020
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqQosClassGetId@4
+  Type         : code
+  Name type    : name
+  Hint         : 28
+  Name         : _AtqQosClassGetId@4
+
+Archive member name at 27B0: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E616D14F
+  SizeOfData   : 00000022
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqQosClassGetInfo@8
+  Type         : code
+  Name type    : name
+  Hint         : 29
+  Name         : _AtqQosClassGetInfo@8
+
+Archive member name at 2822: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9D14B85
+  SizeOfData   : 00000026
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqQosClassGetInstance@4
+  Type         : code
+  Name type    : name
+  Hint         : 30
+  Name         : _AtqQosClassGetInstance@4
+
+Archive member name at 2898: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C39CBFC2
+  SizeOfData   : 00000020
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqQosContextEnd@4
+  Type         : code
+  Name type    : name
+  Hint         : 31
+  Name         : _AtqQosContextEnd@4
+
+Archive member name at 2908: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7BEB46D
+  SizeOfData   : 00000027
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqQosContextExtendTime@8
+  Type         : code
+  Name type    : name
+  Hint         : 32
+  Name         : _AtqQosContextExtendTime@8
+
+Archive member name at 2980: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2DF17DC
+  SizeOfData   : 00000022
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqQosContextStart@8
+  Type         : code
+  Name type    : name
+  Hint         : 33
+  Name         : _AtqQosContextStart@8
+
+Archive member name at 29F2: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6B37AED
+  SizeOfData   : 0000001C
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqReadFile@16
+  Type         : code
+  Name type    : name
+  Hint         : 34
+  Name         : _AtqReadFile@16
+
+Archive member name at 2A5E: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4FAE5A6
+  SizeOfData   : 0000001E
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqReadSocket@16
+  Type         : code
+  Name type    : name
+  Hint         : 35
+  Name         : _AtqReadSocket@16
+
+Archive member name at 2ACC: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F884B262
+  SizeOfData   : 00000030
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqRegisterAddressChangeCallback@8
+  Type         : code
+  Name type    : name
+  Hint         : 36
+  Name         : _AtqRegisterAddressChangeCallback@8
+
+Archive member name at 2B4C: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D18166CF
+  SizeOfData   : 0000001B
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqSetInfo2@8
+  Type         : code
+  Name type    : name
+  Hint         : 37
+  Name         : _AtqSetInfo2@8
+
+Archive member name at 2BB8: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1BCEF13
+  SizeOfData   : 0000001A
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqSetInfo@8
+  Type         : code
+  Name type    : name
+  Hint         : 38
+  Name         : _AtqSetInfo@8
+
+Archive member name at 2C22: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C296ACE0
+  SizeOfData   : 0000001E
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqSetSockOpt@20
+  Type         : code
+  Name type    : name
+  Hint         : 39
+  Name         : _AtqSetSockOpt@20
+
+Archive member name at 2C90: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7F31BCF
+  SizeOfData   : 00000020
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqStartEndpoint@4
+  Type         : code
+  Name type    : name
+  Hint         : 40
+  Name         : _AtqStartEndpoint@4
+
+Archive member name at 2D00: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E63C19B8
+  SizeOfData   : 0000001F
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqStopEndpoint@4
+  Type         : code
+  Name type    : name
+  Hint         : 41
+  Name         : _AtqStopEndpoint@4
+
+Archive member name at 2D70: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB25F0CD
+  SizeOfData   : 0000001F
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqSyncWsaSend@16
+  Type         : code
+  Name type    : name
+  Hint         : 42
+  Name         : _AtqSyncWsaSend@16
+
+Archive member name at 2DE0: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F36C2B10
+  SizeOfData   : 0000001C
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqTerminate@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : AtqTerminate
+
+Archive member name at 2E4C: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4C04738
+  SizeOfData   : 00000021
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqUpdateQosClass@8
+  Type         : code
+  Name type    : name
+  Hint         : 43
+  Name         : _AtqUpdateQosClass@8
+
+Archive member name at 2EBE: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C94947EB
+  SizeOfData   : 00000027
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqWriteDatagramSocket@16
+  Type         : code
+  Name type    : name
+  Hint         : 44
+  Name         : _AtqWriteDatagramSocket@16
+
+Archive member name at 2F36: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCF530DD
+  SizeOfData   : 0000001D
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqWriteFile@16
+  Type         : code
+  Name type    : name
+  Hint         : 45
+  Name         : _AtqWriteFile@16
+
+Archive member name at 2FA4: NTDSATQ.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF8C78E8
+  SizeOfData   : 0000001F
+  DLL name     : NTDSATQ.dll
+  Symbol name  : _AtqWriteSocket@16
+  Type         : code
+  Name type    : name
+  Hint         : 46
+  Name         : _AtqWriteSocket@16
+
+     Exports
+
+       ordinal    name
+
+                  ?SchedulerInitialize@@YGHXZ (int __stdcall SchedulerInitialize(void))
+                  ?SchedulerTerminate@@YGXXZ (void __stdcall SchedulerTerminate(void))
+                  _ATQReleaseTCPPortReservation@4
+                  _ATQReserveTCPPorts@12
+                  _AllocCacheDumpStatsToHtml@8
+                  _AtqCloseEndpoint@4
+                  _AtqCloseQosClass@4
+                  _AtqCloseSession@4
+                  _AtqCloseSocket@8
+                  _AtqContextGetInfo@8
+                  _AtqContextSetInfo2@12
+                  _AtqContextSetInfo@12
+                  _AtqCreateEndpoint@8
+                  _AtqCreateEndpointEx@12
+                  _AtqCreateQosClass@8
+                  _AtqEndpointGetInfo@8
+                  _AtqEndpointSetInfo2@12
+                  _AtqEndpointSetInfo@12
+                  _AtqFreeContext@8
+                  _AtqGetAcceptExAddrs@24
+                  _AtqGetAcceptExAddrsEx@32
+                  _AtqGetAddressFamilies@8
+                  _AtqGetDatagramAddrs@24
+                  _AtqGetInfo@4
+                  _AtqGetMaxDatagramSendSize@4
+                  _AtqInitialize@4
+                  _AtqOpenSession@0
+                  _AtqQosClassGetId@4
+                  _AtqQosClassGetInfo@8
+                  _AtqQosClassGetInstance@4
+                  _AtqQosContextEnd@4
+                  _AtqQosContextExtendTime@8
+                  _AtqQosContextStart@8
+                  _AtqReadFile@16
+                  _AtqReadSocket@16
+                  _AtqRegisterAddressChangeCallback@8
+                  _AtqSetInfo2@8
+                  _AtqSetInfo@8
+                  _AtqSetSockOpt@20
+                  _AtqStartEndpoint@4
+                  _AtqStopEndpoint@4
+                  _AtqSyncWsaSend@16
+                  _AtqTerminate@0
+                  _AtqUpdateQosClass@8
+                  _AtqWriteDatagramSocket@16
+                  _AtqWriteFile@16
+                  _AtqWriteSocket@16
+
+  Summary
+
+          C3 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

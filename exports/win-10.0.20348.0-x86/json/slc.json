@@ -1,0 +1,981 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "?SLpCheckProductKey@@YGJPAUDIGITALPID4@@PAH@Z (long __stdcall SLpCheckProductKey(struct DIGITALPID4 *,int *))"
+    },
+    {
+      "name": "?SLpGetGenuineLocal@@YGJPAXPBU_GUID@@PAW4_SL_GENUINE_STATE@@@Z (long __stdcall SLpGetGenuineLocal(void *,struct _GUID const *,enum _SL_GENUINE_STATE *))"
+    },
+    {
+      "name": "?SLpUpdateComponentTokens@@YGJPAXPAH@Z (long __stdcall SLpUpdateComponentTokens(void *,int *))"
+    },
+    {
+      "name": "_SLClose@4"
+    },
+    {
+      "name": "_SLConsumeRight@20"
+    },
+    {
+      "name": "_SLConsumeWindowsRight@4"
+    },
+    {
+      "name": "_SLDepositOfflineConfirmationId@16"
+    },
+    {
+      "name": "_SLDepositOfflineConfirmationIdEx@20"
+    },
+    {
+      "name": "_SLFireEvent@12"
+    },
+    {
+      "name": "_SLGenerateOfflineInstallationId@12"
+    },
+    {
+      "name": "_SLGenerateOfflineInstallationIdEx@16"
+    },
+    {
+      "name": "_SLGetApplicationInformation@24"
+    },
+    {
+      "name": "_SLGetGenuineInformation@20"
+    },
+    {
+      "name": "_SLGetInstalledProductKeyIds@16"
+    },
+    {
+      "name": "_SLGetLicense@16"
+    },
+    {
+      "name": "_SLGetLicenseFileId@16"
+    },
+    {
+      "name": "_SLGetLicenseInformation@24"
+    },
+    {
+      "name": "_SLGetLicensingStatusInformation@24"
+    },
+    {
+      "name": "_SLGetPKeyId@24"
+    },
+    {
+      "name": "_SLGetPKeyInformation@24"
+    },
+    {
+      "name": "_SLGetPolicyInformation@20"
+    },
+    {
+      "name": "_SLGetPolicyInformationDWORD@12"
+    },
+    {
+      "name": "_SLGetProductSkuInformation@24"
+    },
+    {
+      "name": "_SLGetSLIDList@24"
+    },
+    {
+      "name": "_SLGetServiceInformation@20"
+    },
+    {
+      "name": "_SLGetWindowsInformation@16"
+    },
+    {
+      "name": "_SLGetWindowsInformationDWORD@8"
+    },
+    {
+      "name": "_SLInstallLicense@16"
+    },
+    {
+      "name": "_SLInstallProofOfPurchase@24"
+    },
+    {
+      "name": "_SLIsWindowsGenuineLocal@4"
+    },
+    {
+      "name": "_SLOpen@4"
+    },
+    {
+      "name": "_SLReArmWindows@0"
+    },
+    {
+      "name": "_SLRegisterEvent@16"
+    },
+    {
+      "name": "_SLRegisterWindowsEvent@8"
+    },
+    {
+      "name": "_SLSetCurrentProductKey@12"
+    },
+    {
+      "name": "_SLSetGenuineInformation@20"
+    },
+    {
+      "name": "_SLUninstallLicense@8"
+    },
+    {
+      "name": "_SLUninstallProofOfPurchase@8"
+    },
+    {
+      "name": "_SLUnregisterEvent@16"
+    },
+    {
+      "name": "_SLUnregisterWindowsEvent@8"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 5854,
+      "name": "__IMPORT_DESCRIPTOR_SLC"
+    },
+    {
+      "offset": 6392,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 6698,
+      "name": "SLC_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 10558,
+      "name": "_SLOpen@4"
+    },
+    {
+      "offset": 10558,
+      "name": "__imp__SLOpen@4"
+    },
+    {
+      "offset": 7442,
+      "name": "_SLClose@4"
+    },
+    {
+      "offset": 7442,
+      "name": "__imp__SLClose@4"
+    },
+    {
+      "offset": 7542,
+      "name": "_SLConsumeRight@20"
+    },
+    {
+      "offset": 7542,
+      "name": "__imp__SLConsumeRight@20"
+    },
+    {
+      "offset": 10324,
+      "name": "_SLInstallProofOfPurchase@24"
+    },
+    {
+      "offset": 10324,
+      "name": "__imp__SLInstallProofOfPurchase@24"
+    },
+    {
+      "offset": 11326,
+      "name": "_SLUninstallProofOfPurchase@8"
+    },
+    {
+      "offset": 11326,
+      "name": "__imp__SLUninstallProofOfPurchase@8"
+    },
+    {
+      "offset": 10214,
+      "name": "_SLInstallLicense@16"
+    },
+    {
+      "offset": 10214,
+      "name": "__imp__SLInstallLicense@16"
+    },
+    {
+      "offset": 11216,
+      "name": "_SLUninstallLicense@8"
+    },
+    {
+      "offset": 11216,
+      "name": "__imp__SLUninstallLicense@8"
+    },
+    {
+      "offset": 8118,
+      "name": "_SLGenerateOfflineInstallationId@12"
+    },
+    {
+      "offset": 8118,
+      "name": "__imp__SLGenerateOfflineInstallationId@12"
+    },
+    {
+      "offset": 8242,
+      "name": "_SLGenerateOfflineInstallationIdEx@16"
+    },
+    {
+      "offset": 8242,
+      "name": "__imp__SLGenerateOfflineInstallationIdEx@16"
+    },
+    {
+      "offset": 7764,
+      "name": "_SLDepositOfflineConfirmationId@16"
+    },
+    {
+      "offset": 7764,
+      "name": "__imp__SLDepositOfflineConfirmationId@16"
+    },
+    {
+      "offset": 7888,
+      "name": "_SLDepositOfflineConfirmationIdEx@20"
+    },
+    {
+      "offset": 7888,
+      "name": "__imp__SLDepositOfflineConfirmationIdEx@20"
+    },
+    {
+      "offset": 9756,
+      "name": "_SLGetSLIDList@24"
+    },
+    {
+      "offset": 9756,
+      "name": "__imp__SLGetSLIDList@24"
+    },
+    {
+      "offset": 8830,
+      "name": "_SLGetLicenseFileId@16"
+    },
+    {
+      "offset": 8830,
+      "name": "__imp__SLGetLicenseFileId@16"
+    },
+    {
+      "offset": 9182,
+      "name": "_SLGetPKeyId@24"
+    },
+    {
+      "offset": 9182,
+      "name": "__imp__SLGetPKeyId@24"
+    },
+    {
+      "offset": 10762,
+      "name": "_SLRegisterEvent@16"
+    },
+    {
+      "offset": 10762,
+      "name": "__imp__SLRegisterEvent@16"
+    },
+    {
+      "offset": 11444,
+      "name": "_SLUnregisterEvent@16"
+    },
+    {
+      "offset": 11444,
+      "name": "__imp__SLUnregisterEvent@16"
+    },
+    {
+      "offset": 8014,
+      "name": "_SLFireEvent@12"
+    },
+    {
+      "offset": 8014,
+      "name": "__imp__SLFireEvent@12"
+    },
+    {
+      "offset": 8724,
+      "name": "_SLGetLicense@16"
+    },
+    {
+      "offset": 8724,
+      "name": "__imp__SLGetLicense@16"
+    },
+    {
+      "offset": 8604,
+      "name": "_SLGetInstalledProductKeyIds@16"
+    },
+    {
+      "offset": 8604,
+      "name": "__imp__SLGetInstalledProductKeyIds@16"
+    },
+    {
+      "offset": 10984,
+      "name": "_SLSetCurrentProductKey@12"
+    },
+    {
+      "offset": 10984,
+      "name": "__imp__SLSetCurrentProductKey@12"
+    },
+    {
+      "offset": 9636,
+      "name": "_SLGetProductSkuInformation@24"
+    },
+    {
+      "offset": 9636,
+      "name": "__imp__SLGetProductSkuInformation@24"
+    },
+    {
+      "offset": 9286,
+      "name": "_SLGetPKeyInformation@24"
+    },
+    {
+      "offset": 9286,
+      "name": "__imp__SLGetPKeyInformation@24"
+    },
+    {
+      "offset": 8942,
+      "name": "_SLGetLicenseInformation@24"
+    },
+    {
+      "offset": 8942,
+      "name": "__imp__SLGetLicenseInformation@24"
+    },
+    {
+      "offset": 9058,
+      "name": "_SLGetLicensingStatusInformation@24"
+    },
+    {
+      "offset": 9058,
+      "name": "__imp__SLGetLicensingStatusInformation@24"
+    },
+    {
+      "offset": 9400,
+      "name": "_SLGetPolicyInformation@20"
+    },
+    {
+      "offset": 9400,
+      "name": "__imp__SLGetPolicyInformation@20"
+    },
+    {
+      "offset": 9516,
+      "name": "_SLGetPolicyInformationDWORD@12"
+    },
+    {
+      "offset": 9516,
+      "name": "__imp__SLGetPolicyInformationDWORD@12"
+    },
+    {
+      "offset": 9862,
+      "name": "_SLGetServiceInformation@20"
+    },
+    {
+      "offset": 9862,
+      "name": "__imp__SLGetServiceInformation@20"
+    },
+    {
+      "offset": 8368,
+      "name": "_SLGetApplicationInformation@24"
+    },
+    {
+      "offset": 8368,
+      "name": "__imp__SLGetApplicationInformation@24"
+    },
+    {
+      "offset": 10870,
+      "name": "_SLRegisterWindowsEvent@8"
+    },
+    {
+      "offset": 10870,
+      "name": "__imp__SLRegisterWindowsEvent@8"
+    },
+    {
+      "offset": 11554,
+      "name": "_SLUnregisterWindowsEvent@8"
+    },
+    {
+      "offset": 11554,
+      "name": "__imp__SLUnregisterWindowsEvent@8"
+    },
+    {
+      "offset": 9978,
+      "name": "_SLGetWindowsInformation@16"
+    },
+    {
+      "offset": 9978,
+      "name": "__imp__SLGetWindowsInformation@16"
+    },
+    {
+      "offset": 10094,
+      "name": "_SLGetWindowsInformationDWORD@8"
+    },
+    {
+      "offset": 10094,
+      "name": "__imp__SLGetWindowsInformationDWORD@8"
+    },
+    {
+      "offset": 10656,
+      "name": "_SLReArmWindows@0"
+    },
+    {
+      "offset": 10656,
+      "name": "__imp__SLReArmWindows@0"
+    },
+    {
+      "offset": 7650,
+      "name": "_SLConsumeWindowsRight@4"
+    },
+    {
+      "offset": 7650,
+      "name": "__imp__SLConsumeWindowsRight@4"
+    },
+    {
+      "offset": 7028,
+      "name": "?SLpCheckProductKey@@YGJPAUDIGITALPID4@@PAH@Z"
+    },
+    {
+      "offset": 7028,
+      "name": "__imp_?SLpCheckProductKey@@YGJPAUDIGITALPID4@@PAH@Z"
+    },
+    {
+      "offset": 7314,
+      "name": "?SLpUpdateComponentTokens@@YGJPAXPAH@Z"
+    },
+    {
+      "offset": 7314,
+      "name": "__imp_?SLpUpdateComponentTokens@@YGJPAXPAH@Z"
+    },
+    {
+      "offset": 7162,
+      "name": "?SLpGetGenuineLocal@@YGJPAXPBU_GUID@@PAW4_SL_GENUINE_STATE@@@Z"
+    },
+    {
+      "offset": 7162,
+      "name": "__imp_?SLpGetGenuineLocal@@YGJPAXPBU_GUID@@PAW4_SL_GENUINE_STATE@@@Z"
+    },
+    {
+      "offset": 8488,
+      "name": "_SLGetGenuineInformation@20"
+    },
+    {
+      "offset": 8488,
+      "name": "__imp__SLGetGenuineInformation@20"
+    },
+    {
+      "offset": 11100,
+      "name": "_SLSetGenuineInformation@20"
+    },
+    {
+      "offset": 11100,
+      "name": "__imp__SLSetGenuineInformation@20"
+    },
+    {
+      "offset": 10442,
+      "name": "_SLIsWindowsGenuineLocal@4"
+    },
+    {
+      "offset": 10442,
+      "name": "__imp__SLIsWindowsGenuineLocal@4"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 7028,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3584772050,
+      "sizeOfData": 54,
+      "dllName": "SLC.dll",
+      "symbolName": "?SLpCheckProductKey@@YGJPAUDIGITALPID4@@PAH@Z (long __stdcall SLpCheckProductKey(struct DIGITALPID4 *,int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "SLpCheckProductKey"
+    },
+    {
+      "offset": 7162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3224129211,
+      "sizeOfData": 71,
+      "dllName": "SLC.dll",
+      "symbolName": "?SLpGetGenuineLocal@@YGJPAXPBU_GUID@@PAW4_SL_GENUINE_STATE@@@Z (long __stdcall SLpGetGenuineLocal(void *,struct _GUID const *,enum _SL_GENUINE_STATE *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "SLpGetGenuineLocal"
+    },
+    {
+      "offset": 7314,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4054776854,
+      "sizeOfData": 47,
+      "dllName": "SLC.dll",
+      "symbolName": "?SLpUpdateComponentTokens@@YGJPAXPAH@Z (long __stdcall SLpUpdateComponentTokens(void *,int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "SLpUpdateComponentTokens"
+    },
+    {
+      "offset": 7442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4211384218,
+      "sizeOfData": 19,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "SLClose"
+    },
+    {
+      "offset": 7542,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3317733722,
+      "sizeOfData": 27,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLConsumeRight@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "SLConsumeRight"
+    },
+    {
+      "offset": 7650,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3921525733,
+      "sizeOfData": 33,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLConsumeWindowsRight@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "SLConsumeWindowsRight"
+    },
+    {
+      "offset": 7764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3720419728,
+      "sizeOfData": 43,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLDepositOfflineConfirmationId@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "SLDepositOfflineConfirmationId"
+    },
+    {
+      "offset": 7888,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3925874636,
+      "sizeOfData": 45,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLDepositOfflineConfirmationIdEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "SLDepositOfflineConfirmationIdEx"
+    },
+    {
+      "offset": 8014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4113054532,
+      "sizeOfData": 24,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLFireEvent@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "SLFireEvent"
+    },
+    {
+      "offset": 8118,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4082115841,
+      "sizeOfData": 44,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGenerateOfflineInstallationId@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "SLGenerateOfflineInstallationId"
+    },
+    {
+      "offset": 8242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3868344769,
+      "sizeOfData": 46,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGenerateOfflineInstallationIdEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "SLGenerateOfflineInstallationIdEx"
+    },
+    {
+      "offset": 8368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3678357989,
+      "sizeOfData": 40,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetApplicationInformation@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "SLGetApplicationInformation"
+    },
+    {
+      "offset": 8488,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3633858106,
+      "sizeOfData": 36,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetGenuineInformation@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "SLGetGenuineInformation"
+    },
+    {
+      "offset": 8604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4178254617,
+      "sizeOfData": 40,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetInstalledProductKeyIds@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "SLGetInstalledProductKeyIds"
+    },
+    {
+      "offset": 8724,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3242507594,
+      "sizeOfData": 25,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetLicense@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "SLGetLicense"
+    },
+    {
+      "offset": 8830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3968462962,
+      "sizeOfData": 31,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetLicenseFileId@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "SLGetLicenseFileId"
+    },
+    {
+      "offset": 8942,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3840539061,
+      "sizeOfData": 36,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetLicenseInformation@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "SLGetLicenseInformation"
+    },
+    {
+      "offset": 9058,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4272720002,
+      "sizeOfData": 44,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetLicensingStatusInformation@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "SLGetLicensingStatusInformation"
+    },
+    {
+      "offset": 9182,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3859054044,
+      "sizeOfData": 24,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetPKeyId@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "SLGetPKeyId"
+    },
+    {
+      "offset": 9286,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3256649095,
+      "sizeOfData": 33,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetPKeyInformation@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "SLGetPKeyInformation"
+    },
+    {
+      "offset": 9400,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3546559831,
+      "sizeOfData": 35,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetPolicyInformation@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "SLGetPolicyInformation"
+    },
+    {
+      "offset": 9516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3457008499,
+      "sizeOfData": 40,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetPolicyInformationDWORD@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "SLGetPolicyInformationDWORD"
+    },
+    {
+      "offset": 9636,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4102988841,
+      "sizeOfData": 39,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetProductSkuInformation@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "SLGetProductSkuInformation"
+    },
+    {
+      "offset": 9756,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4003516369,
+      "sizeOfData": 26,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetSLIDList@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "SLGetSLIDList"
+    },
+    {
+      "offset": 9862,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4146183321,
+      "sizeOfData": 36,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetServiceInformation@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "SLGetServiceInformation"
+    },
+    {
+      "offset": 9978,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3846887406,
+      "sizeOfData": 36,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetWindowsInformation@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "SLGetWindowsInformation"
+    },
+    {
+      "offset": 10094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3596927082,
+      "sizeOfData": 40,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLGetWindowsInformationDWORD@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "SLGetWindowsInformationDWORD"
+    },
+    {
+      "offset": 10214,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3336959211,
+      "sizeOfData": 29,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLInstallLicense@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "SLInstallLicense"
+    },
+    {
+      "offset": 10324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3550570106,
+      "sizeOfData": 37,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLInstallProofOfPurchase@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "SLInstallProofOfPurchase"
+    },
+    {
+      "offset": 10442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3395395320,
+      "sizeOfData": 35,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLIsWindowsGenuineLocal@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "SLIsWindowsGenuineLocal"
+    },
+    {
+      "offset": 10558,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3464727954,
+      "sizeOfData": 18,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLOpen@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "SLOpen"
+    },
+    {
+      "offset": 10656,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3680331783,
+      "sizeOfData": 26,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLReArmWindows@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "SLReArmWindows"
+    },
+    {
+      "offset": 10762,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4056154028,
+      "sizeOfData": 28,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLRegisterEvent@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "SLRegisterEvent"
+    },
+    {
+      "offset": 10870,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4078412178,
+      "sizeOfData": 34,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLRegisterWindowsEvent@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "SLRegisterWindowsEvent"
+    },
+    {
+      "offset": 10984,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3403069824,
+      "sizeOfData": 35,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLSetCurrentProductKey@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "SLSetCurrentProductKey"
+    },
+    {
+      "offset": 11100,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3409039189,
+      "sizeOfData": 36,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLSetGenuineInformation@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "SLSetGenuineInformation"
+    },
+    {
+      "offset": 11216,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3787473972,
+      "sizeOfData": 30,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLUninstallLicense@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "SLUninstallLicense"
+    },
+    {
+      "offset": 11326,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3943291934,
+      "sizeOfData": 38,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLUninstallProofOfPurchase@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "SLUninstallProofOfPurchase"
+    },
+    {
+      "offset": 11444,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3857269294,
+      "sizeOfData": 30,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLUnregisterEvent@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "SLUnregisterEvent"
+    },
+    {
+      "offset": 11554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3891439486,
+      "sizeOfData": 36,
+      "dllName": "SLC.dll",
+      "symbolName": "_SLUnregisterWindowsEvent@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "SLUnregisterWindowsEvent"
+    }
+  ]
+}

@@ -1,0 +1,885 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_CLSID_WSCDefaultProduct"
+    },
+    {
+      "name": "_CLSID_WSCProductList"
+    },
+    {
+      "name": "_IID_IWSCDefaultProduct"
+    },
+    {
+      "name": "_IID_IWSCProductList"
+    },
+    {
+      "name": "_IID_IWscProduct"
+    },
+    {
+      "name": "_LIBID_wscAPILib"
+    },
+    {
+      "name": "_WscGetAntiMalwareUri@4"
+    },
+    {
+      "name": "_WscGetSecurityProviderHealth@8"
+    },
+    {
+      "name": "_WscQueryAntiMalwareUri@0"
+    },
+    {
+      "name": "_WscRegisterForChanges@16"
+    },
+    {
+      "name": "_WscRegisterForUserNotifications@0"
+    },
+    {
+      "name": "_WscUnRegisterChanges@4"
+    },
+    {
+      "name": "_wscAntiSpywareGetStatus@8"
+    },
+    {
+      "name": "_wscAntiVirusExpiredBeyondThreshold@12"
+    },
+    {
+      "name": "_wscAntiVirusGetStatus@8"
+    },
+    {
+      "name": "_wscAutoUpdatesEnableScheduledMode@0"
+    },
+    {
+      "name": "_wscAutoUpdatesGetStatus@4"
+    },
+    {
+      "name": "_wscFirewallGetStatus@8"
+    },
+    {
+      "name": "_wscGeneralSecurityGetStatus@8"
+    },
+    {
+      "name": "_wscGetAlertStatus@8"
+    },
+    {
+      "name": "_wscIcfEnable@0"
+    },
+    {
+      "name": "_wscIeSettingsFix@0"
+    },
+    {
+      "name": "_wscInitiateOfflineCleaning@8"
+    },
+    {
+      "name": "_wscIsDefenderAntivirusSupported@4"
+    },
+    {
+      "name": "_wscLuaSettingsFix@4"
+    },
+    {
+      "name": "_wscMakeDefaultProductRequest@4"
+    },
+    {
+      "name": "_wscNotifyUserForNearExpiration@4"
+    },
+    {
+      "name": "_wscOverrideComponentStatus@8"
+    },
+    {
+      "name": "_wscPing@0"
+    },
+    {
+      "name": "_wscProductInfoFree@8"
+    },
+    {
+      "name": "_wscRegisterChangeNotification@8"
+    },
+    {
+      "name": "_wscRegisterSecurityProduct@20"
+    },
+    {
+      "name": "_wscSetDefaultProduct@8"
+    },
+    {
+      "name": "_wscUnRegisterChangeNotification@4"
+    },
+    {
+      "name": "_wscUnregisterSecurityProduct@4"
+    },
+    {
+      "name": "_wscUpdateProductStatus@12"
+    },
+    {
+      "name": "_wscUpdateProductSubStatus@8"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 5014,
+      "name": "__IMPORT_DESCRIPTOR_WSCAPI"
+    },
+    {
+      "offset": 5564,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 5874,
+      "name": "WSCAPI_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 7242,
+      "name": "_WscRegisterForChanges@16"
+    },
+    {
+      "offset": 7242,
+      "name": "__imp__WscRegisterForChanges@16"
+    },
+    {
+      "offset": 7486,
+      "name": "_WscUnRegisterChanges@4"
+    },
+    {
+      "offset": 7486,
+      "name": "__imp__WscUnRegisterChanges@4"
+    },
+    {
+      "offset": 7360,
+      "name": "_WscRegisterForUserNotifications@0"
+    },
+    {
+      "offset": 7360,
+      "name": "__imp__WscRegisterForUserNotifications@0"
+    },
+    {
+      "offset": 7124,
+      "name": "_WscQueryAntiMalwareUri@0"
+    },
+    {
+      "offset": 7124,
+      "name": "__imp__WscQueryAntiMalwareUri@0"
+    },
+    {
+      "offset": 6884,
+      "name": "_WscGetAntiMalwareUri@4"
+    },
+    {
+      "offset": 6884,
+      "name": "__imp__WscGetAntiMalwareUri@4"
+    },
+    {
+      "offset": 7000,
+      "name": "_WscGetSecurityProviderHealth@8"
+    },
+    {
+      "offset": 7000,
+      "name": "__imp__WscGetSecurityProviderHealth@8"
+    },
+    {
+      "offset": 9514,
+      "name": "__imp__wscPing@0"
+    },
+    {
+      "offset": 9514,
+      "name": "_wscPing@0"
+    },
+    {
+      "offset": 9730,
+      "name": "__imp__wscRegisterChangeNotification@8"
+    },
+    {
+      "offset": 9730,
+      "name": "_wscRegisterChangeNotification@8"
+    },
+    {
+      "offset": 10092,
+      "name": "__imp__wscUnRegisterChangeNotification@4"
+    },
+    {
+      "offset": 10092,
+      "name": "_wscUnRegisterChangeNotification@4"
+    },
+    {
+      "offset": 8450,
+      "name": "__imp__wscGetAlertStatus@8"
+    },
+    {
+      "offset": 8450,
+      "name": "_wscGetAlertStatus@8"
+    },
+    {
+      "offset": 9392,
+      "name": "__imp__wscOverrideComponentStatus@8"
+    },
+    {
+      "offset": 9392,
+      "name": "_wscOverrideComponentStatus@8"
+    },
+    {
+      "offset": 8094,
+      "name": "__imp__wscAutoUpdatesGetStatus@4"
+    },
+    {
+      "offset": 8094,
+      "name": "_wscAutoUpdatesGetStatus@4"
+    },
+    {
+      "offset": 7966,
+      "name": "__imp__wscAutoUpdatesEnableScheduledMode@0"
+    },
+    {
+      "offset": 7966,
+      "name": "_wscAutoUpdatesEnableScheduledMode@0"
+    },
+    {
+      "offset": 8212,
+      "name": "__imp__wscFirewallGetStatus@8"
+    },
+    {
+      "offset": 8212,
+      "name": "_wscFirewallGetStatus@8"
+    },
+    {
+      "offset": 8562,
+      "name": "__imp__wscIcfEnable@0"
+    },
+    {
+      "offset": 8562,
+      "name": "_wscIcfEnable@0"
+    },
+    {
+      "offset": 7720,
+      "name": "__imp__wscAntiVirusExpiredBeyondThreshold@12"
+    },
+    {
+      "offset": 7720,
+      "name": "_wscAntiVirusExpiredBeyondThreshold@12"
+    },
+    {
+      "offset": 8904,
+      "name": "__imp__wscIsDefenderAntivirusSupported@4"
+    },
+    {
+      "offset": 8904,
+      "name": "_wscIsDefenderAntivirusSupported@4"
+    },
+    {
+      "offset": 7850,
+      "name": "__imp__wscAntiVirusGetStatus@8"
+    },
+    {
+      "offset": 7850,
+      "name": "_wscAntiVirusGetStatus@8"
+    },
+    {
+      "offset": 7602,
+      "name": "__imp__wscAntiSpywareGetStatus@8"
+    },
+    {
+      "offset": 7602,
+      "name": "_wscAntiSpywareGetStatus@8"
+    },
+    {
+      "offset": 8328,
+      "name": "__imp__wscGeneralSecurityGetStatus@8"
+    },
+    {
+      "offset": 8328,
+      "name": "_wscGeneralSecurityGetStatus@8"
+    },
+    {
+      "offset": 8670,
+      "name": "__imp__wscIeSettingsFix@0"
+    },
+    {
+      "offset": 8670,
+      "name": "_wscIeSettingsFix@0"
+    },
+    {
+      "offset": 9030,
+      "name": "__imp__wscLuaSettingsFix@4"
+    },
+    {
+      "offset": 9030,
+      "name": "_wscLuaSettingsFix@4"
+    },
+    {
+      "offset": 9616,
+      "name": "__imp__wscProductInfoFree@8"
+    },
+    {
+      "offset": 9616,
+      "name": "_wscProductInfoFree@8"
+    },
+    {
+      "offset": 9854,
+      "name": "__imp__wscRegisterSecurityProduct@20"
+    },
+    {
+      "offset": 9854,
+      "name": "_wscRegisterSecurityProduct@20"
+    },
+    {
+      "offset": 10218,
+      "name": "__imp__wscUnregisterSecurityProduct@4"
+    },
+    {
+      "offset": 10218,
+      "name": "_wscUnregisterSecurityProduct@4"
+    },
+    {
+      "offset": 10342,
+      "name": "__imp__wscUpdateProductStatus@12"
+    },
+    {
+      "offset": 10342,
+      "name": "_wscUpdateProductStatus@12"
+    },
+    {
+      "offset": 9142,
+      "name": "__imp__wscMakeDefaultProductRequest@4"
+    },
+    {
+      "offset": 9142,
+      "name": "_wscMakeDefaultProductRequest@4"
+    },
+    {
+      "offset": 10460,
+      "name": "__imp__wscUpdateProductSubStatus@8"
+    },
+    {
+      "offset": 10460,
+      "name": "_wscUpdateProductSubStatus@8"
+    },
+    {
+      "offset": 9976,
+      "name": "__imp__wscSetDefaultProduct@8"
+    },
+    {
+      "offset": 9976,
+      "name": "_wscSetDefaultProduct@8"
+    },
+    {
+      "offset": 8782,
+      "name": "__imp__wscInitiateOfflineCleaning@8"
+    },
+    {
+      "offset": 8782,
+      "name": "_wscInitiateOfflineCleaning@8"
+    },
+    {
+      "offset": 9266,
+      "name": "__imp__wscNotifyUserForNearExpiration@4"
+    },
+    {
+      "offset": 9266,
+      "name": "_wscNotifyUserForNearExpiration@4"
+    },
+    {
+      "offset": 6668,
+      "name": "__imp__IID_IWscProduct"
+    },
+    {
+      "offset": 6556,
+      "name": "__imp__IID_IWSCProductList"
+    },
+    {
+      "offset": 6440,
+      "name": "__imp__IID_IWSCDefaultProduct"
+    },
+    {
+      "offset": 6326,
+      "name": "__imp__CLSID_WSCProductList"
+    },
+    {
+      "offset": 6210,
+      "name": "__imp__CLSID_WSCDefaultProduct"
+    },
+    {
+      "offset": 6776,
+      "name": "__imp__LIBID_wscAPILib"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 6210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3643168289,
+      "sizeOfData": 36,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_CLSID_WSCDefaultProduct",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 0,
+      "name": "CLSID_WSCDefaultProduct"
+    },
+    {
+      "offset": 6326,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3744055849,
+      "sizeOfData": 33,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_CLSID_WSCProductList",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 1,
+      "name": "CLSID_WSCProductList"
+    },
+    {
+      "offset": 6440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3748059361,
+      "sizeOfData": 35,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_IID_IWSCDefaultProduct",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 4,
+      "name": "IID_IWSCDefaultProduct"
+    },
+    {
+      "offset": 6556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3935721530,
+      "sizeOfData": 32,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_IID_IWSCProductList",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 5,
+      "name": "IID_IWSCProductList"
+    },
+    {
+      "offset": 6668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3894398059,
+      "sizeOfData": 28,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_IID_IWscProduct",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 6,
+      "name": "IID_IWscProduct"
+    },
+    {
+      "offset": 6776,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4031300062,
+      "sizeOfData": 28,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_LIBID_wscAPILib",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 7,
+      "name": "LIBID_wscAPILib"
+    },
+    {
+      "offset": 6884,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3588739614,
+      "sizeOfData": 35,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_WscGetAntiMalwareUri@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "WscGetAntiMalwareUri"
+    },
+    {
+      "offset": 7000,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3430401452,
+      "sizeOfData": 43,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_WscGetSecurityProviderHealth@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "WscGetSecurityProviderHealth"
+    },
+    {
+      "offset": 7124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4131165824,
+      "sizeOfData": 37,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_WscQueryAntiMalwareUri@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "WscQueryAntiMalwareUri"
+    },
+    {
+      "offset": 7242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3423656170,
+      "sizeOfData": 37,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_WscRegisterForChanges@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "WscRegisterForChanges"
+    },
+    {
+      "offset": 7360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3925543750,
+      "sizeOfData": 46,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_WscRegisterForUserNotifications@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "WscRegisterForUserNotifications"
+    },
+    {
+      "offset": 7486,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3363393099,
+      "sizeOfData": 35,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_WscUnRegisterChanges@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "WscUnRegisterChanges"
+    },
+    {
+      "offset": 7602,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3728759954,
+      "sizeOfData": 38,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscAntiSpywareGetStatus@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "wscAntiSpywareGetStatus"
+    },
+    {
+      "offset": 7720,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3516893902,
+      "sizeOfData": 50,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscAntiVirusExpiredBeyondThreshold@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "wscAntiVirusExpiredBeyondThreshold"
+    },
+    {
+      "offset": 7850,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4004732736,
+      "sizeOfData": 36,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscAntiVirusGetStatus@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "wscAntiVirusGetStatus"
+    },
+    {
+      "offset": 7966,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3978994843,
+      "sizeOfData": 48,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscAutoUpdatesEnableScheduledMode@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "wscAutoUpdatesEnableScheduledMode"
+    },
+    {
+      "offset": 8094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3402989929,
+      "sizeOfData": 38,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscAutoUpdatesGetStatus@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "wscAutoUpdatesGetStatus"
+    },
+    {
+      "offset": 8212,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3820247959,
+      "sizeOfData": 35,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscFirewallGetStatus@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "wscFirewallGetStatus"
+    },
+    {
+      "offset": 8328,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3896959627,
+      "sizeOfData": 42,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscGeneralSecurityGetStatus@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "wscGeneralSecurityGetStatus"
+    },
+    {
+      "offset": 8450,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4168841183,
+      "sizeOfData": 32,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscGetAlertStatus@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "wscGetAlertStatus"
+    },
+    {
+      "offset": 8562,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4039487102,
+      "sizeOfData": 27,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscIcfEnable@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "wscIcfEnable"
+    },
+    {
+      "offset": 8670,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3387640059,
+      "sizeOfData": 31,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscIeSettingsFix@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "wscIeSettingsFix"
+    },
+    {
+      "offset": 8782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3725843416,
+      "sizeOfData": 41,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscInitiateOfflineCleaning@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "wscInitiateOfflineCleaning"
+    },
+    {
+      "offset": 8904,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3245704429,
+      "sizeOfData": 46,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscIsDefenderAntivirusSupported@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "wscIsDefenderAntivirusSupported"
+    },
+    {
+      "offset": 9030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3427709839,
+      "sizeOfData": 32,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscLuaSettingsFix@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "wscLuaSettingsFix"
+    },
+    {
+      "offset": 9142,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3750116442,
+      "sizeOfData": 43,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscMakeDefaultProductRequest@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "wscMakeDefaultProductRequest"
+    },
+    {
+      "offset": 9266,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4259490064,
+      "sizeOfData": 45,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscNotifyUserForNearExpiration@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "wscNotifyUserForNearExpiration"
+    },
+    {
+      "offset": 9392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3693185096,
+      "sizeOfData": 41,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscOverrideComponentStatus@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "wscOverrideComponentStatus"
+    },
+    {
+      "offset": 9514,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4226231137,
+      "sizeOfData": 22,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscPing@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "wscPing"
+    },
+    {
+      "offset": 9616,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3987010799,
+      "sizeOfData": 33,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscProductInfoFree@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "wscProductInfoFree"
+    },
+    {
+      "offset": 9730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3608915772,
+      "sizeOfData": 44,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscRegisterChangeNotification@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "wscRegisterChangeNotification"
+    },
+    {
+      "offset": 9854,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3616455527,
+      "sizeOfData": 42,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscRegisterSecurityProduct@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "wscRegisterSecurityProduct"
+    },
+    {
+      "offset": 9976,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4078342190,
+      "sizeOfData": 35,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscSetDefaultProduct@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "wscSetDefaultProduct"
+    },
+    {
+      "offset": 10092,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3864051786,
+      "sizeOfData": 46,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscUnRegisterChangeNotification@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "wscUnRegisterChangeNotification"
+    },
+    {
+      "offset": 10218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3847229440,
+      "sizeOfData": 43,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscUnregisterSecurityProduct@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "wscUnregisterSecurityProduct"
+    },
+    {
+      "offset": 10342,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4013941009,
+      "sizeOfData": 38,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscUpdateProductStatus@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "wscUpdateProductStatus"
+    },
+    {
+      "offset": 10460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3774963564,
+      "sizeOfData": 40,
+      "dllName": "WSCAPI.dll",
+      "symbolName": "_wscUpdateProductSubStatus@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "wscUpdateProductSubStatus"
+    }
+  ]
+}

@@ -1,0 +1,4677 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_ChangeEntryType@8"
+    },
+    {
+      "name": "_ClosePhonebookFile@4"
+    },
+    {
+      "name": "_CopyToPbport@8"
+    },
+    {
+      "name": "_CreateEntryNode@4"
+    },
+    {
+      "name": "_CreateLinkNode@0"
+    },
+    {
+      "name": "_CreatePhoneNode@0"
+    },
+    {
+      "name": "_CreatePortNode@0"
+    },
+    {
+      "name": "_DDMComputeLuid@4"
+    },
+    {
+      "name": "_DDMFreeDialingParam@4"
+    },
+    {
+      "name": "_DDMFreePhonebookContext@4"
+    },
+    {
+      "name": "_DDMFreeRemoteEndpoint@8"
+    },
+    {
+      "name": "_DDMGetAddressesFromPhonebook@16"
+    },
+    {
+      "name": "_DDMGetEapInfo@20"
+    },
+    {
+      "name": "_DDMGetEapUserIdentityW@20"
+    },
+    {
+      "name": "_DDMGetPhoneBookContext@12"
+    },
+    {
+      "name": "_DDMGetPhonebookInfo@84"
+    },
+    {
+      "name": "_DDMGetProtocolStartParams@32"
+    },
+    {
+      "name": "_DDMGetRasDialParams@4"
+    },
+    {
+      "name": "_DDMGetRasDialingParams@40"
+    },
+    {
+      "name": "_DDMGetTunnelEndpoints@16"
+    },
+    {
+      "name": "_DDMRasPbkEntryCleanup@4"
+    },
+    {
+      "name": "_DDMUpdateProtocolConfigInfoFromEntry@12"
+    },
+    {
+      "name": "_DestroyEntryNode@4"
+    },
+    {
+      "name": "_DestroyLinkNode@4"
+    },
+    {
+      "name": "_DestroyPhoneNode@4"
+    },
+    {
+      "name": "_DestroyPortNode@4"
+    },
+    {
+      "name": "_DoesProtocolListInfoContain@8"
+    },
+    {
+      "name": "_DuplicateEntryNode@4"
+    },
+    {
+      "name": "_DuplicatePhoneNode@4"
+    },
+    {
+      "name": "_DwCloneEntry@12"
+    },
+    {
+      "name": "_DwEnumEntryDetails@16"
+    },
+    {
+      "name": "_DwEnumEntryDetailsEx@20"
+    },
+    {
+      "name": "_DwGetCustomAuthData@12"
+    },
+    {
+      "name": "_DwGetCustomDllEntryPoint@28"
+    },
+    {
+      "name": "_DwGetEntryMode@16"
+    },
+    {
+      "name": "_DwRasUninitialize@0"
+    },
+    {
+      "name": "_DwSetCustomAuthData@12"
+    },
+    {
+      "name": "_EnableOrDisableNetComponent@12"
+    },
+    {
+      "name": "_EntryNodeFromName@8"
+    },
+    {
+      "name": "_FIsNetComponentListed@16"
+    },
+    {
+      "name": "_GetAutoTriggerProfileInfo@24"
+    },
+    {
+      "name": "_GetCountryCodeAndID@4"
+    },
+    {
+      "name": "_GetFirstPhoneNode@4"
+    },
+    {
+      "name": "_GetOverridableParam@12"
+    },
+    {
+      "name": "_GetPbkAndEntryName@20"
+    },
+    {
+      "name": "_GetPersonalPhonebookPath@12"
+    },
+    {
+      "name": "_GetPhonebookDirectory@12"
+    },
+    {
+      "name": "_GetPreferredDestinationForEntry@12"
+    },
+    {
+      "name": "_GetPublicPhonebookPath@8"
+    },
+    {
+      "name": "_IsActiveAutoTriggerConnection@16"
+    },
+    {
+      "name": "_IsActiveAutoTriggerConnectionEx@20"
+    },
+    {
+      "name": "_IsCredentialIsolationEnabled@0"
+    },
+    {
+      "name": "_IsProtocolListInfoEmpty@8"
+    },
+    {
+      "name": "_IsProtocolListInfoValid@4"
+    },
+    {
+      "name": "_IsPublicPhonebook@4"
+    },
+    {
+      "name": "_IsRouterPhonebook@4"
+    },
+    {
+      "name": "_IsValidPbportForVPNStrategy@8"
+    },
+    {
+      "name": "_LoadPortsList2@12"
+    },
+    {
+      "name": "_PbdevicetypeFromPszType@4"
+    },
+    {
+      "name": "_RasAutoDialSharedConnection@0"
+    },
+    {
+      "name": "_RasAutodialAddressToNetwork@12"
+    },
+    {
+      "name": "_RasAutodialEntryToNetwork@12"
+    },
+    {
+      "name": "_RasClearConnectionStatistics@4"
+    },
+    {
+      "name": "_RasClearLinkStatistics@8"
+    },
+    {
+      "name": "_RasCompleteDialMachineCleanup@0"
+    },
+    {
+      "name": "_RasConfigUserProxySettingsW@8"
+    },
+    {
+      "name": "_RasConnectionNotificationA@12"
+    },
+    {
+      "name": "_RasConnectionNotificationW@12"
+    },
+    {
+      "name": "_RasCreatePhonebookEntryA@8"
+    },
+    {
+      "name": "_RasCreatePhonebookEntryW@8"
+    },
+    {
+      "name": "_RasDeleteEntryA@8"
+    },
+    {
+      "name": "_RasDeleteEntryW@8"
+    },
+    {
+      "name": "_RasDeleteSubEntryA@12"
+    },
+    {
+      "name": "_RasDeleteSubEntryW@12"
+    },
+    {
+      "name": "_RasDialA@24"
+    },
+    {
+      "name": "_RasDialW@24"
+    },
+    {
+      "name": "_RasEditPhonebookEntryA@12"
+    },
+    {
+      "name": "_RasEditPhonebookEntryW@12"
+    },
+    {
+      "name": "_RasEnumAutodialAddressesA@12"
+    },
+    {
+      "name": "_RasEnumAutodialAddressesW@12"
+    },
+    {
+      "name": "_RasEnumConnectionsA@12"
+    },
+    {
+      "name": "_RasEnumConnectionsW@12"
+    },
+    {
+      "name": "_RasEnumDevicesA@12"
+    },
+    {
+      "name": "_RasEnumDevicesW@12"
+    },
+    {
+      "name": "_RasEnumEntriesA@20"
+    },
+    {
+      "name": "_RasEnumEntriesW@20"
+    },
+    {
+      "name": "_RasFreeEapUserIdentityA@4"
+    },
+    {
+      "name": "_RasFreeEapUserIdentityW@4"
+    },
+    {
+      "name": "_RasFreeEntryAdvancedProperties@4"
+    },
+    {
+      "name": "_RasGetAutoTriggerConnectStatus@8"
+    },
+    {
+      "name": "_RasGetAutodialAddressA@20"
+    },
+    {
+      "name": "_RasGetAutodialAddressW@20"
+    },
+    {
+      "name": "_RasGetAutodialEnableA@8"
+    },
+    {
+      "name": "_RasGetAutodialEnableW@8"
+    },
+    {
+      "name": "_RasGetAutodialParamA@12"
+    },
+    {
+      "name": "_RasGetAutodialParamW@12"
+    },
+    {
+      "name": "_RasGetConnectStatusA@8"
+    },
+    {
+      "name": "_RasGetConnectStatusW@8"
+    },
+    {
+      "name": "_RasGetConnectionErrorStringW@8"
+    },
+    {
+      "name": "_RasGetConnectionStatistics@8"
+    },
+    {
+      "name": "_RasGetCountryInfoA@8"
+    },
+    {
+      "name": "_RasGetCountryInfoW@8"
+    },
+    {
+      "name": "_RasGetCredentialsA@12"
+    },
+    {
+      "name": "_RasGetCredentialsW@12"
+    },
+    {
+      "name": "_RasGetCustomAuthDataA@16"
+    },
+    {
+      "name": "_RasGetCustomAuthDataW@16"
+    },
+    {
+      "name": "_RasGetEapUserDataA@20"
+    },
+    {
+      "name": "_RasGetEapUserDataW@20"
+    },
+    {
+      "name": "_RasGetEapUserIdentityA@20"
+    },
+    {
+      "name": "_RasGetEapUserIdentityW@20"
+    },
+    {
+      "name": "_RasGetEntryAdvancedProperties@16"
+    },
+    {
+      "name": "_RasGetEntryDialParamsA@12"
+    },
+    {
+      "name": "_RasGetEntryDialParamsW@12"
+    },
+    {
+      "name": "_RasGetEntryHrasconnW@12"
+    },
+    {
+      "name": "_RasGetEntryPropertiesA@24"
+    },
+    {
+      "name": "_RasGetEntryPropertiesW@24"
+    },
+    {
+      "name": "_RasGetErrorStringA@12"
+    },
+    {
+      "name": "_RasGetErrorStringEx"
+    },
+    {
+      "name": "_RasGetErrorStringW@12"
+    },
+    {
+      "name": "_RasGetHport@4"
+    },
+    {
+      "name": "_RasGetLinkStatistics@12"
+    },
+    {
+      "name": "_RasGetNapStatus@8"
+    },
+    {
+      "name": "_RasGetPCscf@4"
+    },
+    {
+      "name": "_RasGetPbkPath@16"
+    },
+    {
+      "name": "_RasGetProjectionInfoA@16"
+    },
+    {
+      "name": "_RasGetProjectionInfoEx@12"
+    },
+    {
+      "name": "_RasGetProjectionInfoW@16"
+    },
+    {
+      "name": "_RasGetSubEntryHandleA@12"
+    },
+    {
+      "name": "_RasGetSubEntryHandleW@12"
+    },
+    {
+      "name": "_RasGetSubEntryPropertiesA@28"
+    },
+    {
+      "name": "_RasGetSubEntryPropertiesW@28"
+    },
+    {
+      "name": "_RasHandleTriggerConnDisconnect@12"
+    },
+    {
+      "name": "_RasHangUpA@4"
+    },
+    {
+      "name": "_RasHangUpW@4"
+    },
+    {
+      "name": "_RasInvokeEapUI@16"
+    },
+    {
+      "name": "_RasIsPublicPhonebook@4"
+    },
+    {
+      "name": "_RasIsSharedConnection@8"
+    },
+    {
+      "name": "_RasMobileCore@0"
+    },
+    {
+      "name": "_RasNQMStateEnteredNotification@0"
+    },
+    {
+      "name": "_RasQueryRedialOnLinkFailure@12"
+    },
+    {
+      "name": "_RasQuerySharedAutoDial@4"
+    },
+    {
+      "name": "_RasQuerySharedConnection@4"
+    },
+    {
+      "name": "_RasRegisterEntryChangeNotification@24"
+    },
+    {
+      "name": "_RasRenameEntryA@12"
+    },
+    {
+      "name": "_RasRenameEntryW@12"
+    },
+    {
+      "name": "_RasRestoreDefaultLegacyProxySettings@4"
+    },
+    {
+      "name": "_RasScriptExecute@20"
+    },
+    {
+      "name": "_RasScriptGetIpAddress@8"
+    },
+    {
+      "name": "_RasScriptInit@28"
+    },
+    {
+      "name": "_RasScriptReceive@12"
+    },
+    {
+      "name": "_RasScriptSend@12"
+    },
+    {
+      "name": "_RasScriptTerm@4"
+    },
+    {
+      "name": "_RasSetAutoTriggerProfile@24"
+    },
+    {
+      "name": "_RasSetAutoTriggerProfileEx@28"
+    },
+    {
+      "name": "_RasSetAutodialAddressA@20"
+    },
+    {
+      "name": "_RasSetAutodialAddressW@20"
+    },
+    {
+      "name": "_RasSetAutodialEnableA@8"
+    },
+    {
+      "name": "_RasSetAutodialEnableW@8"
+    },
+    {
+      "name": "_RasSetAutodialParamA@12"
+    },
+    {
+      "name": "_RasSetAutodialParamW@12"
+    },
+    {
+      "name": "_RasSetCredentialsA@16"
+    },
+    {
+      "name": "_RasSetCredentialsW@16"
+    },
+    {
+      "name": "_RasSetCustomAuthDataA@16"
+    },
+    {
+      "name": "_RasSetCustomAuthDataW@16"
+    },
+    {
+      "name": "_RasSetEapUserDataA@20"
+    },
+    {
+      "name": "_RasSetEapUserDataAEx@24"
+    },
+    {
+      "name": "_RasSetEapUserDataW@20"
+    },
+    {
+      "name": "_RasSetEapUserDataWEx@24"
+    },
+    {
+      "name": "_RasSetEntryAdvancedProperties@16"
+    },
+    {
+      "name": "_RasSetEntryDialParamsA@12"
+    },
+    {
+      "name": "_RasSetEntryDialParamsW@12"
+    },
+    {
+      "name": "_RasSetEntryPropertiesA@24"
+    },
+    {
+      "name": "_RasSetEntryPropertiesW@24"
+    },
+    {
+      "name": "_RasSetOldPassword@8"
+    },
+    {
+      "name": "_RasSetPerConnectionProxy@28"
+    },
+    {
+      "name": "_RasSetSharedAutoDial@4"
+    },
+    {
+      "name": "_RasSetSubEntryPropertiesA@28"
+    },
+    {
+      "name": "_RasSetSubEntryPropertiesW@28"
+    },
+    {
+      "name": "_RasTriggerConnection@24"
+    },
+    {
+      "name": "_RasTriggerConnectionEx@32"
+    },
+    {
+      "name": "_RasTriggerDisconnection@8"
+    },
+    {
+      "name": "_RasTriggerDisconnectionEx@8"
+    },
+    {
+      "name": "_RasUnregisterEntryChangeNotification@4"
+    },
+    {
+      "name": "_RasUpdateConnection@8"
+    },
+    {
+      "name": "_RasValidateEntryNameA@8"
+    },
+    {
+      "name": "_RasValidateEntryNameW@8"
+    },
+    {
+      "name": "_RasWriteSharedPbkOptions@16"
+    },
+    {
+      "name": "_RdtFromPbdt@8"
+    },
+    {
+      "name": "_ReadPhonebookFile@20"
+    },
+    {
+      "name": "_SetDefaultModemSettings@4"
+    },
+    {
+      "name": "_UnInitializeRAS@0"
+    },
+    {
+      "name": "_UpdatePreferredVPNDestinationInRegistry@12"
+    },
+    {
+      "name": "_ValidateEntryName@4"
+    },
+    {
+      "name": "_WritePhonebookFile@8"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 25334,
+      "name": "__IMPORT_DESCRIPTOR_RASAPI32"
+    },
+    {
+      "offset": 25892,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 26204,
+      "name": "RASAPI32_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 27558,
+      "name": "_DDMFreePhonebookContext@4"
+    },
+    {
+      "offset": 27558,
+      "name": "__imp__DDMFreePhonebookContext@4"
+    },
+    {
+      "offset": 28154,
+      "name": "_DDMGetPhoneBookContext@12"
+    },
+    {
+      "offset": 28154,
+      "name": "__imp__DDMGetPhoneBookContext@12"
+    },
+    {
+      "offset": 28274,
+      "name": "_DDMGetPhonebookInfo@84"
+    },
+    {
+      "offset": 28274,
+      "name": "__imp__DDMGetPhonebookInfo@84"
+    },
+    {
+      "offset": 29932,
+      "name": "_DwCloneEntry@12"
+    },
+    {
+      "offset": 29932,
+      "name": "__imp__DwCloneEntry@12"
+    },
+    {
+      "offset": 30042,
+      "name": "_DwEnumEntryDetails@16"
+    },
+    {
+      "offset": 30042,
+      "name": "__imp__DwEnumEntryDetails@16"
+    },
+    {
+      "offset": 30158,
+      "name": "_DwEnumEntryDetailsEx@20"
+    },
+    {
+      "offset": 30158,
+      "name": "__imp__DwEnumEntryDetailsEx@20"
+    },
+    {
+      "offset": 30628,
+      "name": "_DwRasUninitialize@0"
+    },
+    {
+      "offset": 30628,
+      "name": "__imp__DwRasUninitialize@0"
+    },
+    {
+      "offset": 49078,
+      "name": "_UnInitializeRAS@0"
+    },
+    {
+      "offset": 49078,
+      "name": "__imp__UnInitializeRAS@0"
+    },
+    {
+      "offset": 33632,
+      "name": "_RasAutodialAddressToNetwork@12"
+    },
+    {
+      "offset": 33632,
+      "name": "__imp__RasAutodialAddressToNetwork@12"
+    },
+    {
+      "offset": 33758,
+      "name": "_RasAutodialEntryToNetwork@12"
+    },
+    {
+      "offset": 33758,
+      "name": "__imp__RasAutodialEntryToNetwork@12"
+    },
+    {
+      "offset": 42868,
+      "name": "_RasNQMStateEnteredNotification@0"
+    },
+    {
+      "offset": 42868,
+      "name": "__imp__RasNQMStateEnteredNotification@0"
+    },
+    {
+      "offset": 39956,
+      "name": "_RasGetEntryHrasconnW@12"
+    },
+    {
+      "offset": 39956,
+      "name": "__imp__RasGetEntryHrasconnW@12"
+    },
+    {
+      "offset": 40660,
+      "name": "_RasGetHport@4"
+    },
+    {
+      "offset": 40660,
+      "name": "__imp__RasGetHport@4"
+    },
+    {
+      "offset": 33508,
+      "name": "_RasAutoDialSharedConnection@0"
+    },
+    {
+      "offset": 33508,
+      "name": "__imp__RasAutoDialSharedConnection@0"
+    },
+    {
+      "offset": 42640,
+      "name": "_RasIsSharedConnection@8"
+    },
+    {
+      "offset": 42640,
+      "name": "__imp__RasIsSharedConnection@8"
+    },
+    {
+      "offset": 43122,
+      "name": "_RasQuerySharedAutoDial@4"
+    },
+    {
+      "offset": 43122,
+      "name": "__imp__RasQuerySharedAutoDial@4"
+    },
+    {
+      "offset": 43242,
+      "name": "_RasQuerySharedConnection@4"
+    },
+    {
+      "offset": 43242,
+      "name": "__imp__RasQuerySharedConnection@4"
+    },
+    {
+      "offset": 43972,
+      "name": "_RasScriptGetIpAddress@8"
+    },
+    {
+      "offset": 43972,
+      "name": "__imp__RasScriptGetIpAddress@8"
+    },
+    {
+      "offset": 44090,
+      "name": "_RasScriptInit@28"
+    },
+    {
+      "offset": 44090,
+      "name": "__imp__RasScriptInit@28"
+    },
+    {
+      "offset": 43858,
+      "name": "_RasScriptExecute@20"
+    },
+    {
+      "offset": 43858,
+      "name": "__imp__RasScriptExecute@20"
+    },
+    {
+      "offset": 44202,
+      "name": "_RasScriptReceive@12"
+    },
+    {
+      "offset": 44202,
+      "name": "__imp__RasScriptReceive@12"
+    },
+    {
+      "offset": 44316,
+      "name": "_RasScriptSend@12"
+    },
+    {
+      "offset": 44316,
+      "name": "__imp__RasScriptSend@12"
+    },
+    {
+      "offset": 44428,
+      "name": "_RasScriptTerm@4"
+    },
+    {
+      "offset": 44428,
+      "name": "__imp__RasScriptTerm@4"
+    },
+    {
+      "offset": 47044,
+      "name": "_RasSetOldPassword@8"
+    },
+    {
+      "offset": 47044,
+      "name": "__imp__RasSetOldPassword@8"
+    },
+    {
+      "offset": 47280,
+      "name": "_RasSetSharedAutoDial@4"
+    },
+    {
+      "offset": 47280,
+      "name": "__imp__RasSetSharedAutoDial@4"
+    },
+    {
+      "offset": 42996,
+      "name": "_RasQueryRedialOnLinkFailure@12"
+    },
+    {
+      "offset": 42996,
+      "name": "__imp__RasQueryRedialOnLinkFailure@12"
+    },
+    {
+      "offset": 48612,
+      "name": "_RasWriteSharedPbkOptions@16"
+    },
+    {
+      "offset": 48612,
+      "name": "__imp__RasWriteSharedPbkOptions@16"
+    },
+    {
+      "offset": 42522,
+      "name": "_RasIsPublicPhonebook@4"
+    },
+    {
+      "offset": 42522,
+      "name": "__imp__RasIsPublicPhonebook@4"
+    },
+    {
+      "offset": 46318,
+      "name": "_RasSetEapUserDataWEx@24"
+    },
+    {
+      "offset": 46318,
+      "name": "__imp__RasSetEapUserDataWEx@24"
+    },
+    {
+      "offset": 46084,
+      "name": "_RasSetEapUserDataAEx@24"
+    },
+    {
+      "offset": 46084,
+      "name": "__imp__RasSetEapUserDataAEx@24"
+    },
+    {
+      "offset": 47646,
+      "name": "_RasTriggerConnection@24"
+    },
+    {
+      "offset": 47646,
+      "name": "__imp__RasTriggerConnection@24"
+    },
+    {
+      "offset": 47764,
+      "name": "_RasTriggerConnectionEx@32"
+    },
+    {
+      "offset": 47764,
+      "name": "__imp__RasTriggerConnectionEx@32"
+    },
+    {
+      "offset": 47884,
+      "name": "_RasTriggerDisconnection@8"
+    },
+    {
+      "offset": 47884,
+      "name": "__imp__RasTriggerDisconnection@8"
+    },
+    {
+      "offset": 48004,
+      "name": "_RasTriggerDisconnectionEx@8"
+    },
+    {
+      "offset": 48004,
+      "name": "__imp__RasTriggerDisconnectionEx@8"
+    },
+    {
+      "offset": 44538,
+      "name": "_RasSetAutoTriggerProfile@24"
+    },
+    {
+      "offset": 44538,
+      "name": "__imp__RasSetAutoTriggerProfile@24"
+    },
+    {
+      "offset": 44660,
+      "name": "_RasSetAutoTriggerProfileEx@28"
+    },
+    {
+      "offset": 44660,
+      "name": "__imp__RasSetAutoTriggerProfileEx@28"
+    },
+    {
+      "offset": 39588,
+      "name": "_RasGetEntryAdvancedProperties@16"
+    },
+    {
+      "offset": 39588,
+      "name": "__imp__RasGetEntryAdvancedProperties@16"
+    },
+    {
+      "offset": 46436,
+      "name": "_RasSetEntryAdvancedProperties@16"
+    },
+    {
+      "offset": 46436,
+      "name": "__imp__RasSetEntryAdvancedProperties@16"
+    },
+    {
+      "offset": 36958,
+      "name": "_RasFreeEntryAdvancedProperties@4"
+    },
+    {
+      "offset": 36958,
+      "name": "__imp__RasFreeEntryAdvancedProperties@4"
+    },
+    {
+      "offset": 27796,
+      "name": "_DDMGetAddressesFromPhonebook@16"
+    },
+    {
+      "offset": 27796,
+      "name": "__imp__DDMGetAddressesFromPhonebook@16"
+    },
+    {
+      "offset": 37086,
+      "name": "_RasGetAutoTriggerConnectStatus@8"
+    },
+    {
+      "offset": 37086,
+      "name": "__imp__RasGetAutoTriggerConnectStatus@8"
+    },
+    {
+      "offset": 32300,
+      "name": "_IsActiveAutoTriggerConnection@16"
+    },
+    {
+      "offset": 32300,
+      "name": "__imp__IsActiveAutoTriggerConnection@16"
+    },
+    {
+      "offset": 32428,
+      "name": "_IsActiveAutoTriggerConnectionEx@20"
+    },
+    {
+      "offset": 32428,
+      "name": "__imp__IsActiveAutoTriggerConnectionEx@20"
+    },
+    {
+      "offset": 41106,
+      "name": "_RasGetPbkPath@16"
+    },
+    {
+      "offset": 41106,
+      "name": "__imp__RasGetPbkPath@16"
+    },
+    {
+      "offset": 38162,
+      "name": "_RasGetConnectionErrorStringW@8"
+    },
+    {
+      "offset": 38162,
+      "name": "__imp__RasGetConnectionErrorStringW@8"
+    },
+    {
+      "offset": 34254,
+      "name": "_RasConfigUserProxySettingsW@8"
+    },
+    {
+      "offset": 34254,
+      "name": "__imp__RasConfigUserProxySettingsW@8"
+    },
+    {
+      "offset": 47158,
+      "name": "_RasSetPerConnectionProxy@28"
+    },
+    {
+      "offset": 47158,
+      "name": "__imp__RasSetPerConnectionProxy@28"
+    },
+    {
+      "offset": 43724,
+      "name": "_RasRestoreDefaultLegacyProxySettings@4"
+    },
+    {
+      "offset": 43724,
+      "name": "__imp__RasRestoreDefaultLegacyProxySettings@4"
+    },
+    {
+      "offset": 31220,
+      "name": "_GetAutoTriggerProfileInfo@24"
+    },
+    {
+      "offset": 31220,
+      "name": "__imp__GetAutoTriggerProfileInfo@24"
+    },
+    {
+      "offset": 42066,
+      "name": "_RasHandleTriggerConnDisconnect@12"
+    },
+    {
+      "offset": 42066,
+      "name": "__imp__RasHandleTriggerConnDisconnect@12"
+    },
+    {
+      "offset": 34128,
+      "name": "_RasCompleteDialMachineCleanup@0"
+    },
+    {
+      "offset": 34128,
+      "name": "__imp__RasCompleteDialMachineCleanup@0"
+    },
+    {
+      "offset": 27442,
+      "name": "_DDMFreeDialingParam@4"
+    },
+    {
+      "offset": 27442,
+      "name": "__imp__DDMFreeDialingParam@4"
+    },
+    {
+      "offset": 28990,
+      "name": "_DDMUpdateProtocolConfigInfoFromEntry@12"
+    },
+    {
+      "offset": 28990,
+      "name": "__imp__DDMUpdateProtocolConfigInfoFromEntry@12"
+    },
+    {
+      "offset": 27330,
+      "name": "_DDMComputeLuid@4"
+    },
+    {
+      "offset": 27330,
+      "name": "__imp__DDMComputeLuid@4"
+    },
+    {
+      "offset": 28516,
+      "name": "_DDMGetRasDialParams@4"
+    },
+    {
+      "offset": 28516,
+      "name": "__imp__DDMGetRasDialParams@4"
+    },
+    {
+      "offset": 28752,
+      "name": "_DDMGetTunnelEndpoints@16"
+    },
+    {
+      "offset": 28752,
+      "name": "__imp__DDMGetTunnelEndpoints@16"
+    },
+    {
+      "offset": 27922,
+      "name": "_DDMGetEapInfo@20"
+    },
+    {
+      "offset": 27922,
+      "name": "__imp__DDMGetEapInfo@20"
+    },
+    {
+      "offset": 28392,
+      "name": "_DDMGetProtocolStartParams@32"
+    },
+    {
+      "offset": 28392,
+      "name": "__imp__DDMGetProtocolStartParams@32"
+    },
+    {
+      "offset": 28632,
+      "name": "_DDMGetRasDialingParams@40"
+    },
+    {
+      "offset": 28632,
+      "name": "__imp__DDMGetRasDialingParams@40"
+    },
+    {
+      "offset": 28872,
+      "name": "_DDMRasPbkEntryCleanup@4"
+    },
+    {
+      "offset": 28872,
+      "name": "__imp__DDMRasPbkEntryCleanup@4"
+    },
+    {
+      "offset": 43364,
+      "name": "_RasRegisterEntryChangeNotification@24"
+    },
+    {
+      "offset": 43364,
+      "name": "__imp__RasRegisterEntryChangeNotification@24"
+    },
+    {
+      "offset": 48126,
+      "name": "_RasUnregisterEntryChangeNotification@4"
+    },
+    {
+      "offset": 48126,
+      "name": "__imp__RasUnregisterEntryChangeNotification@4"
+    },
+    {
+      "offset": 40998,
+      "name": "_RasGetPCscf@4"
+    },
+    {
+      "offset": 40998,
+      "name": "__imp__RasGetPCscf@4"
+    },
+    {
+      "offset": 40430,
+      "name": "_RasGetErrorStringEx"
+    },
+    {
+      "offset": 40430,
+      "name": "__imp__RasGetErrorStringEx"
+    },
+    {
+      "offset": 33882,
+      "name": "_RasClearConnectionStatistics@4"
+    },
+    {
+      "offset": 33882,
+      "name": "__imp__RasClearConnectionStatistics@4"
+    },
+    {
+      "offset": 34008,
+      "name": "_RasClearLinkStatistics@8"
+    },
+    {
+      "offset": 34008,
+      "name": "__imp__RasClearLinkStatistics@8"
+    },
+    {
+      "offset": 34378,
+      "name": "_RasConnectionNotificationA@12"
+    },
+    {
+      "offset": 34378,
+      "name": "__imp__RasConnectionNotificationA@12"
+    },
+    {
+      "offset": 34502,
+      "name": "_RasConnectionNotificationW@12"
+    },
+    {
+      "offset": 34502,
+      "name": "__imp__RasConnectionNotificationW@12"
+    },
+    {
+      "offset": 34626,
+      "name": "_RasCreatePhonebookEntryA@8"
+    },
+    {
+      "offset": 34626,
+      "name": "__imp__RasCreatePhonebookEntryA@8"
+    },
+    {
+      "offset": 34748,
+      "name": "_RasCreatePhonebookEntryW@8"
+    },
+    {
+      "offset": 34748,
+      "name": "__imp__RasCreatePhonebookEntryW@8"
+    },
+    {
+      "offset": 34870,
+      "name": "_RasDeleteEntryA@8"
+    },
+    {
+      "offset": 34870,
+      "name": "__imp__RasDeleteEntryA@8"
+    },
+    {
+      "offset": 34982,
+      "name": "_RasDeleteEntryW@8"
+    },
+    {
+      "offset": 34982,
+      "name": "__imp__RasDeleteEntryW@8"
+    },
+    {
+      "offset": 35326,
+      "name": "_RasDialA@24"
+    },
+    {
+      "offset": 35326,
+      "name": "__imp__RasDialA@24"
+    },
+    {
+      "offset": 35432,
+      "name": "_RasDialW@24"
+    },
+    {
+      "offset": 35432,
+      "name": "__imp__RasDialW@24"
+    },
+    {
+      "offset": 35538,
+      "name": "_RasEditPhonebookEntryA@12"
+    },
+    {
+      "offset": 35538,
+      "name": "__imp__RasEditPhonebookEntryA@12"
+    },
+    {
+      "offset": 35658,
+      "name": "_RasEditPhonebookEntryW@12"
+    },
+    {
+      "offset": 35658,
+      "name": "__imp__RasEditPhonebookEntryW@12"
+    },
+    {
+      "offset": 35778,
+      "name": "_RasEnumAutodialAddressesA@12"
+    },
+    {
+      "offset": 35778,
+      "name": "__imp__RasEnumAutodialAddressesA@12"
+    },
+    {
+      "offset": 35902,
+      "name": "_RasEnumAutodialAddressesW@12"
+    },
+    {
+      "offset": 35902,
+      "name": "__imp__RasEnumAutodialAddressesW@12"
+    },
+    {
+      "offset": 36026,
+      "name": "_RasEnumConnectionsA@12"
+    },
+    {
+      "offset": 36026,
+      "name": "__imp__RasEnumConnectionsA@12"
+    },
+    {
+      "offset": 36144,
+      "name": "_RasEnumConnectionsW@12"
+    },
+    {
+      "offset": 36144,
+      "name": "__imp__RasEnumConnectionsW@12"
+    },
+    {
+      "offset": 36262,
+      "name": "_RasEnumDevicesA@12"
+    },
+    {
+      "offset": 36262,
+      "name": "__imp__RasEnumDevicesA@12"
+    },
+    {
+      "offset": 36376,
+      "name": "_RasEnumDevicesW@12"
+    },
+    {
+      "offset": 36376,
+      "name": "__imp__RasEnumDevicesW@12"
+    },
+    {
+      "offset": 36490,
+      "name": "_RasEnumEntriesA@20"
+    },
+    {
+      "offset": 36490,
+      "name": "__imp__RasEnumEntriesA@20"
+    },
+    {
+      "offset": 36604,
+      "name": "_RasEnumEntriesW@20"
+    },
+    {
+      "offset": 36604,
+      "name": "__imp__RasEnumEntriesW@20"
+    },
+    {
+      "offset": 37214,
+      "name": "_RasGetAutodialAddressA@20"
+    },
+    {
+      "offset": 37214,
+      "name": "__imp__RasGetAutodialAddressA@20"
+    },
+    {
+      "offset": 37334,
+      "name": "_RasGetAutodialAddressW@20"
+    },
+    {
+      "offset": 37334,
+      "name": "__imp__RasGetAutodialAddressW@20"
+    },
+    {
+      "offset": 37454,
+      "name": "_RasGetAutodialEnableA@8"
+    },
+    {
+      "offset": 37454,
+      "name": "__imp__RasGetAutodialEnableA@8"
+    },
+    {
+      "offset": 37572,
+      "name": "_RasGetAutodialEnableW@8"
+    },
+    {
+      "offset": 37572,
+      "name": "__imp__RasGetAutodialEnableW@8"
+    },
+    {
+      "offset": 37690,
+      "name": "_RasGetAutodialParamA@12"
+    },
+    {
+      "offset": 37690,
+      "name": "__imp__RasGetAutodialParamA@12"
+    },
+    {
+      "offset": 37808,
+      "name": "_RasGetAutodialParamW@12"
+    },
+    {
+      "offset": 37808,
+      "name": "__imp__RasGetAutodialParamW@12"
+    },
+    {
+      "offset": 37926,
+      "name": "_RasGetConnectStatusA@8"
+    },
+    {
+      "offset": 37926,
+      "name": "__imp__RasGetConnectStatusA@8"
+    },
+    {
+      "offset": 38044,
+      "name": "_RasGetConnectStatusW@8"
+    },
+    {
+      "offset": 38044,
+      "name": "__imp__RasGetConnectStatusW@8"
+    },
+    {
+      "offset": 38288,
+      "name": "_RasGetConnectionStatistics@8"
+    },
+    {
+      "offset": 38288,
+      "name": "__imp__RasGetConnectionStatistics@8"
+    },
+    {
+      "offset": 38412,
+      "name": "_RasGetCountryInfoA@8"
+    },
+    {
+      "offset": 38412,
+      "name": "__imp__RasGetCountryInfoA@8"
+    },
+    {
+      "offset": 38528,
+      "name": "_RasGetCountryInfoW@8"
+    },
+    {
+      "offset": 38528,
+      "name": "__imp__RasGetCountryInfoW@8"
+    },
+    {
+      "offset": 38644,
+      "name": "_RasGetCredentialsA@12"
+    },
+    {
+      "offset": 38644,
+      "name": "__imp__RasGetCredentialsA@12"
+    },
+    {
+      "offset": 38760,
+      "name": "_RasGetCredentialsW@12"
+    },
+    {
+      "offset": 38760,
+      "name": "__imp__RasGetCredentialsW@12"
+    },
+    {
+      "offset": 39716,
+      "name": "_RasGetEntryDialParamsA@12"
+    },
+    {
+      "offset": 39716,
+      "name": "__imp__RasGetEntryDialParamsA@12"
+    },
+    {
+      "offset": 39836,
+      "name": "_RasGetEntryDialParamsW@12"
+    },
+    {
+      "offset": 39836,
+      "name": "__imp__RasGetEntryDialParamsW@12"
+    },
+    {
+      "offset": 40074,
+      "name": "_RasGetEntryPropertiesA@24"
+    },
+    {
+      "offset": 40074,
+      "name": "__imp__RasGetEntryPropertiesA@24"
+    },
+    {
+      "offset": 40194,
+      "name": "_RasGetEntryPropertiesW@24"
+    },
+    {
+      "offset": 40194,
+      "name": "__imp__RasGetEntryPropertiesW@24"
+    },
+    {
+      "offset": 40314,
+      "name": "_RasGetErrorStringA@12"
+    },
+    {
+      "offset": 40314,
+      "name": "__imp__RasGetErrorStringA@12"
+    },
+    {
+      "offset": 40544,
+      "name": "_RasGetErrorStringW@12"
+    },
+    {
+      "offset": 40544,
+      "name": "__imp__RasGetErrorStringW@12"
+    },
+    {
+      "offset": 40768,
+      "name": "_RasGetLinkStatistics@12"
+    },
+    {
+      "offset": 40768,
+      "name": "__imp__RasGetLinkStatistics@12"
+    },
+    {
+      "offset": 41218,
+      "name": "_RasGetProjectionInfoA@16"
+    },
+    {
+      "offset": 41218,
+      "name": "__imp__RasGetProjectionInfoA@16"
+    },
+    {
+      "offset": 41458,
+      "name": "_RasGetProjectionInfoW@16"
+    },
+    {
+      "offset": 41458,
+      "name": "__imp__RasGetProjectionInfoW@16"
+    },
+    {
+      "offset": 41338,
+      "name": "_RasGetProjectionInfoEx@12"
+    },
+    {
+      "offset": 41338,
+      "name": "__imp__RasGetProjectionInfoEx@12"
+    },
+    {
+      "offset": 41578,
+      "name": "_RasGetSubEntryHandleA@12"
+    },
+    {
+      "offset": 41578,
+      "name": "__imp__RasGetSubEntryHandleA@12"
+    },
+    {
+      "offset": 41698,
+      "name": "_RasGetSubEntryHandleW@12"
+    },
+    {
+      "offset": 41698,
+      "name": "__imp__RasGetSubEntryHandleW@12"
+    },
+    {
+      "offset": 41818,
+      "name": "_RasGetSubEntryPropertiesA@28"
+    },
+    {
+      "offset": 41818,
+      "name": "__imp__RasGetSubEntryPropertiesA@28"
+    },
+    {
+      "offset": 41942,
+      "name": "_RasGetSubEntryPropertiesW@28"
+    },
+    {
+      "offset": 41942,
+      "name": "__imp__RasGetSubEntryPropertiesW@28"
+    },
+    {
+      "offset": 42194,
+      "name": "_RasHangUpA@4"
+    },
+    {
+      "offset": 42194,
+      "name": "__imp__RasHangUpA@4"
+    },
+    {
+      "offset": 42302,
+      "name": "_RasHangUpW@4"
+    },
+    {
+      "offset": 42302,
+      "name": "__imp__RasHangUpW@4"
+    },
+    {
+      "offset": 42410,
+      "name": "_RasInvokeEapUI@16"
+    },
+    {
+      "offset": 42410,
+      "name": "__imp__RasInvokeEapUI@16"
+    },
+    {
+      "offset": 43496,
+      "name": "_RasRenameEntryA@12"
+    },
+    {
+      "offset": 43496,
+      "name": "__imp__RasRenameEntryA@12"
+    },
+    {
+      "offset": 43610,
+      "name": "_RasRenameEntryW@12"
+    },
+    {
+      "offset": 43610,
+      "name": "__imp__RasRenameEntryW@12"
+    },
+    {
+      "offset": 44784,
+      "name": "_RasSetAutodialAddressA@20"
+    },
+    {
+      "offset": 44784,
+      "name": "__imp__RasSetAutodialAddressA@20"
+    },
+    {
+      "offset": 44904,
+      "name": "_RasSetAutodialAddressW@20"
+    },
+    {
+      "offset": 44904,
+      "name": "__imp__RasSetAutodialAddressW@20"
+    },
+    {
+      "offset": 45024,
+      "name": "_RasSetAutodialEnableA@8"
+    },
+    {
+      "offset": 45024,
+      "name": "__imp__RasSetAutodialEnableA@8"
+    },
+    {
+      "offset": 45142,
+      "name": "_RasSetAutodialEnableW@8"
+    },
+    {
+      "offset": 45142,
+      "name": "__imp__RasSetAutodialEnableW@8"
+    },
+    {
+      "offset": 45260,
+      "name": "_RasSetAutodialParamA@12"
+    },
+    {
+      "offset": 45260,
+      "name": "__imp__RasSetAutodialParamA@12"
+    },
+    {
+      "offset": 45378,
+      "name": "_RasSetAutodialParamW@12"
+    },
+    {
+      "offset": 45378,
+      "name": "__imp__RasSetAutodialParamW@12"
+    },
+    {
+      "offset": 45496,
+      "name": "_RasSetCredentialsA@16"
+    },
+    {
+      "offset": 45496,
+      "name": "__imp__RasSetCredentialsA@16"
+    },
+    {
+      "offset": 45612,
+      "name": "_RasSetCredentialsW@16"
+    },
+    {
+      "offset": 45612,
+      "name": "__imp__RasSetCredentialsW@16"
+    },
+    {
+      "offset": 46564,
+      "name": "_RasSetEntryDialParamsA@12"
+    },
+    {
+      "offset": 46564,
+      "name": "__imp__RasSetEntryDialParamsA@12"
+    },
+    {
+      "offset": 46684,
+      "name": "_RasSetEntryDialParamsW@12"
+    },
+    {
+      "offset": 46684,
+      "name": "__imp__RasSetEntryDialParamsW@12"
+    },
+    {
+      "offset": 46804,
+      "name": "_RasSetEntryPropertiesA@24"
+    },
+    {
+      "offset": 46804,
+      "name": "__imp__RasSetEntryPropertiesA@24"
+    },
+    {
+      "offset": 46924,
+      "name": "_RasSetEntryPropertiesW@24"
+    },
+    {
+      "offset": 46924,
+      "name": "__imp__RasSetEntryPropertiesW@24"
+    },
+    {
+      "offset": 47398,
+      "name": "_RasSetSubEntryPropertiesA@28"
+    },
+    {
+      "offset": 47398,
+      "name": "__imp__RasSetSubEntryPropertiesA@28"
+    },
+    {
+      "offset": 47522,
+      "name": "_RasSetSubEntryPropertiesW@28"
+    },
+    {
+      "offset": 47522,
+      "name": "__imp__RasSetSubEntryPropertiesW@28"
+    },
+    {
+      "offset": 48376,
+      "name": "_RasValidateEntryNameA@8"
+    },
+    {
+      "offset": 48376,
+      "name": "__imp__RasValidateEntryNameA@8"
+    },
+    {
+      "offset": 48494,
+      "name": "_RasValidateEntryNameW@8"
+    },
+    {
+      "offset": 48494,
+      "name": "__imp__RasValidateEntryNameW@8"
+    },
+    {
+      "offset": 39116,
+      "name": "_RasGetEapUserDataA@20"
+    },
+    {
+      "offset": 39116,
+      "name": "__imp__RasGetEapUserDataA@20"
+    },
+    {
+      "offset": 39232,
+      "name": "_RasGetEapUserDataW@20"
+    },
+    {
+      "offset": 39232,
+      "name": "__imp__RasGetEapUserDataW@20"
+    },
+    {
+      "offset": 45968,
+      "name": "_RasSetEapUserDataA@20"
+    },
+    {
+      "offset": 45968,
+      "name": "__imp__RasSetEapUserDataA@20"
+    },
+    {
+      "offset": 46202,
+      "name": "_RasSetEapUserDataW@20"
+    },
+    {
+      "offset": 46202,
+      "name": "__imp__RasSetEapUserDataW@20"
+    },
+    {
+      "offset": 38876,
+      "name": "_RasGetCustomAuthDataA@16"
+    },
+    {
+      "offset": 38876,
+      "name": "__imp__RasGetCustomAuthDataA@16"
+    },
+    {
+      "offset": 38996,
+      "name": "_RasGetCustomAuthDataW@16"
+    },
+    {
+      "offset": 38996,
+      "name": "__imp__RasGetCustomAuthDataW@16"
+    },
+    {
+      "offset": 45728,
+      "name": "_RasSetCustomAuthDataA@16"
+    },
+    {
+      "offset": 45728,
+      "name": "__imp__RasSetCustomAuthDataA@16"
+    },
+    {
+      "offset": 45848,
+      "name": "_RasSetCustomAuthDataW@16"
+    },
+    {
+      "offset": 45848,
+      "name": "__imp__RasSetCustomAuthDataW@16"
+    },
+    {
+      "offset": 39348,
+      "name": "_RasGetEapUserIdentityA@20"
+    },
+    {
+      "offset": 39348,
+      "name": "__imp__RasGetEapUserIdentityA@20"
+    },
+    {
+      "offset": 39468,
+      "name": "_RasGetEapUserIdentityW@20"
+    },
+    {
+      "offset": 39468,
+      "name": "__imp__RasGetEapUserIdentityW@20"
+    },
+    {
+      "offset": 36718,
+      "name": "_RasFreeEapUserIdentityA@4"
+    },
+    {
+      "offset": 36718,
+      "name": "__imp__RasFreeEapUserIdentityA@4"
+    },
+    {
+      "offset": 36838,
+      "name": "_RasFreeEapUserIdentityW@4"
+    },
+    {
+      "offset": 36838,
+      "name": "__imp__RasFreeEapUserIdentityW@4"
+    },
+    {
+      "offset": 35210,
+      "name": "_RasDeleteSubEntryW@12"
+    },
+    {
+      "offset": 35210,
+      "name": "__imp__RasDeleteSubEntryW@12"
+    },
+    {
+      "offset": 35094,
+      "name": "_RasDeleteSubEntryA@12"
+    },
+    {
+      "offset": 35094,
+      "name": "__imp__RasDeleteSubEntryA@12"
+    },
+    {
+      "offset": 40886,
+      "name": "_RasGetNapStatus@8"
+    },
+    {
+      "offset": 40886,
+      "name": "__imp__RasGetNapStatus@8"
+    },
+    {
+      "offset": 48260,
+      "name": "_RasUpdateConnection@8"
+    },
+    {
+      "offset": 48260,
+      "name": "__imp__RasUpdateConnection@8"
+    },
+    {
+      "offset": 28034,
+      "name": "_DDMGetEapUserIdentityW@20"
+    },
+    {
+      "offset": 28034,
+      "name": "__imp__DDMGetEapUserIdentityW@20"
+    },
+    {
+      "offset": 27678,
+      "name": "_DDMFreeRemoteEndpoint@8"
+    },
+    {
+      "offset": 27678,
+      "name": "__imp__DDMFreeRemoteEndpoint@8"
+    },
+    {
+      "offset": 48842,
+      "name": "_ReadPhonebookFile@20"
+    },
+    {
+      "offset": 48842,
+      "name": "__imp__ReadPhonebookFile@20"
+    },
+    {
+      "offset": 26656,
+      "name": "_ClosePhonebookFile@4"
+    },
+    {
+      "offset": 26656,
+      "name": "__imp__ClosePhonebookFile@4"
+    },
+    {
+      "offset": 30276,
+      "name": "_DwGetCustomAuthData@12"
+    },
+    {
+      "offset": 30276,
+      "name": "__imp__DwGetCustomAuthData@12"
+    },
+    {
+      "offset": 32180,
+      "name": "_GetPublicPhonebookPath@8"
+    },
+    {
+      "offset": 32180,
+      "name": "__imp__GetPublicPhonebookPath@8"
+    },
+    {
+      "offset": 31808,
+      "name": "_GetPersonalPhonebookPath@12"
+    },
+    {
+      "offset": 31808,
+      "name": "__imp__GetPersonalPhonebookPath@12"
+    },
+    {
+      "offset": 49442,
+      "name": "_WritePhonebookFile@8"
+    },
+    {
+      "offset": 49442,
+      "name": "__imp__WritePhonebookFile@8"
+    },
+    {
+      "offset": 30986,
+      "name": "_EntryNodeFromName@8"
+    },
+    {
+      "offset": 30986,
+      "name": "__imp__EntryNodeFromName@8"
+    },
+    {
+      "offset": 26882,
+      "name": "_CreateEntryNode@4"
+    },
+    {
+      "offset": 26882,
+      "name": "__imp__CreateEntryNode@4"
+    },
+    {
+      "offset": 26544,
+      "name": "_ChangeEntryType@8"
+    },
+    {
+      "offset": 26544,
+      "name": "__imp__ChangeEntryType@8"
+    },
+    {
+      "offset": 29238,
+      "name": "_DestroyLinkNode@4"
+    },
+    {
+      "offset": 29238,
+      "name": "__imp__DestroyLinkNode@4"
+    },
+    {
+      "offset": 33276,
+      "name": "_LoadPortsList2@12"
+    },
+    {
+      "offset": 33276,
+      "name": "__imp__LoadPortsList2@12"
+    },
+    {
+      "offset": 26994,
+      "name": "_CreateLinkNode@0"
+    },
+    {
+      "offset": 26994,
+      "name": "__imp__CreateLinkNode@0"
+    },
+    {
+      "offset": 26772,
+      "name": "_CopyToPbport@8"
+    },
+    {
+      "offset": 26772,
+      "name": "__imp__CopyToPbport@8"
+    },
+    {
+      "offset": 48958,
+      "name": "_SetDefaultModemSettings@4"
+    },
+    {
+      "offset": 48958,
+      "name": "__imp__SetDefaultModemSettings@4"
+    },
+    {
+      "offset": 29350,
+      "name": "_DestroyPhoneNode@4"
+    },
+    {
+      "offset": 29350,
+      "name": "__imp__DestroyPhoneNode@4"
+    },
+    {
+      "offset": 29124,
+      "name": "_DestroyEntryNode@4"
+    },
+    {
+      "offset": 29124,
+      "name": "__imp__DestroyEntryNode@4"
+    },
+    {
+      "offset": 29464,
+      "name": "_DestroyPortNode@4"
+    },
+    {
+      "offset": 29464,
+      "name": "__imp__DestroyPortNode@4"
+    },
+    {
+      "offset": 27106,
+      "name": "_CreatePhoneNode@0"
+    },
+    {
+      "offset": 27106,
+      "name": "__imp__CreatePhoneNode@0"
+    },
+    {
+      "offset": 29816,
+      "name": "_DuplicatePhoneNode@4"
+    },
+    {
+      "offset": 29816,
+      "name": "__imp__DuplicatePhoneNode@4"
+    },
+    {
+      "offset": 32050,
+      "name": "_GetPreferredDestinationForEntry@12"
+    },
+    {
+      "offset": 32050,
+      "name": "__imp__GetPreferredDestinationForEntry@12"
+    },
+    {
+      "offset": 33388,
+      "name": "_PbdevicetypeFromPszType@4"
+    },
+    {
+      "offset": 33388,
+      "name": "__imp__PbdevicetypeFromPszType@4"
+    },
+    {
+      "offset": 31574,
+      "name": "_GetOverridableParam@12"
+    },
+    {
+      "offset": 31574,
+      "name": "__imp__GetOverridableParam@12"
+    },
+    {
+      "offset": 49190,
+      "name": "_UpdatePreferredVPNDestinationInRegistry@12"
+    },
+    {
+      "offset": 49190,
+      "name": "__imp__UpdatePreferredVPNDestinationInRegistry@12"
+    },
+    {
+      "offset": 31692,
+      "name": "_GetPbkAndEntryName@20"
+    },
+    {
+      "offset": 31692,
+      "name": "__imp__GetPbkAndEntryName@20"
+    },
+    {
+      "offset": 29700,
+      "name": "_DuplicateEntryNode@4"
+    },
+    {
+      "offset": 29700,
+      "name": "__imp__DuplicateEntryNode@4"
+    },
+    {
+      "offset": 31930,
+      "name": "_GetPhonebookDirectory@12"
+    },
+    {
+      "offset": 31930,
+      "name": "__imp__GetPhonebookDirectory@12"
+    },
+    {
+      "offset": 31344,
+      "name": "_GetCountryCodeAndID@4"
+    },
+    {
+      "offset": 31344,
+      "name": "__imp__GetCountryCodeAndID@4"
+    },
+    {
+      "offset": 27218,
+      "name": "_CreatePortNode@0"
+    },
+    {
+      "offset": 27218,
+      "name": "__imp__CreatePortNode@0"
+    },
+    {
+      "offset": 49328,
+      "name": "_ValidateEntryName@4"
+    },
+    {
+      "offset": 49328,
+      "name": "__imp__ValidateEntryName@4"
+    },
+    {
+      "offset": 30860,
+      "name": "_EnableOrDisableNetComponent@12"
+    },
+    {
+      "offset": 30860,
+      "name": "__imp__EnableOrDisableNetComponent@12"
+    },
+    {
+      "offset": 33152,
+      "name": "_IsValidPbportForVPNStrategy@8"
+    },
+    {
+      "offset": 33152,
+      "name": "__imp__IsValidPbportForVPNStrategy@8"
+    },
+    {
+      "offset": 32558,
+      "name": "_IsCredentialIsolationEnabled@0"
+    },
+    {
+      "offset": 32558,
+      "name": "__imp__IsCredentialIsolationEnabled@0"
+    },
+    {
+      "offset": 31460,
+      "name": "_GetFirstPhoneNode@4"
+    },
+    {
+      "offset": 31460,
+      "name": "__imp__GetFirstPhoneNode@4"
+    },
+    {
+      "offset": 30742,
+      "name": "_DwSetCustomAuthData@12"
+    },
+    {
+      "offset": 30742,
+      "name": "__imp__DwSetCustomAuthData@12"
+    },
+    {
+      "offset": 30394,
+      "name": "_DwGetCustomDllEntryPoint@28"
+    },
+    {
+      "offset": 30394,
+      "name": "__imp__DwGetCustomDllEntryPoint@28"
+    },
+    {
+      "offset": 30516,
+      "name": "_DwGetEntryMode@16"
+    },
+    {
+      "offset": 30516,
+      "name": "__imp__DwGetEntryMode@16"
+    },
+    {
+      "offset": 31100,
+      "name": "_FIsNetComponentListed@16"
+    },
+    {
+      "offset": 31100,
+      "name": "__imp__FIsNetComponentListed@16"
+    },
+    {
+      "offset": 32924,
+      "name": "_IsPublicPhonebook@4"
+    },
+    {
+      "offset": 32924,
+      "name": "__imp__IsPublicPhonebook@4"
+    },
+    {
+      "offset": 48734,
+      "name": "_RdtFromPbdt@8"
+    },
+    {
+      "offset": 48734,
+      "name": "__imp__RdtFromPbdt@8"
+    },
+    {
+      "offset": 33038,
+      "name": "_IsRouterPhonebook@4"
+    },
+    {
+      "offset": 33038,
+      "name": "__imp__IsRouterPhonebook@4"
+    },
+    {
+      "offset": 32804,
+      "name": "_IsProtocolListInfoValid@4"
+    },
+    {
+      "offset": 32804,
+      "name": "__imp__IsProtocolListInfoValid@4"
+    },
+    {
+      "offset": 32684,
+      "name": "_IsProtocolListInfoEmpty@8"
+    },
+    {
+      "offset": 32684,
+      "name": "__imp__IsProtocolListInfoEmpty@8"
+    },
+    {
+      "offset": 29576,
+      "name": "_DoesProtocolListInfoContain@8"
+    },
+    {
+      "offset": 29576,
+      "name": "__imp__DoesProtocolListInfoContain@8"
+    },
+    {
+      "offset": 42758,
+      "name": "_RasMobileCore@0"
+    },
+    {
+      "offset": 42758,
+      "name": "__imp__RasMobileCore@0"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 26544,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4274797576,
+      "sizeOfData": 32,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_ChangeEntryType@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "ChangeEntryType"
+    },
+    {
+      "offset": 26656,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4137964053,
+      "sizeOfData": 35,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_ClosePhonebookFile@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "ClosePhonebookFile"
+    },
+    {
+      "offset": 26772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3513482114,
+      "sizeOfData": 29,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_CopyToPbport@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "CopyToPbport"
+    },
+    {
+      "offset": 26882,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3374382470,
+      "sizeOfData": 32,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_CreateEntryNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "CreateEntryNode"
+    },
+    {
+      "offset": 26994,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3785681470,
+      "sizeOfData": 31,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_CreateLinkNode@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "CreateLinkNode"
+    },
+    {
+      "offset": 27106,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3228289756,
+      "sizeOfData": 32,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_CreatePhoneNode@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "CreatePhoneNode"
+    },
+    {
+      "offset": 27218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4116748609,
+      "sizeOfData": 31,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_CreatePortNode@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "CreatePortNode"
+    },
+    {
+      "offset": 27330,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3390902884,
+      "sizeOfData": 31,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMComputeLuid@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "DDMComputeLuid"
+    },
+    {
+      "offset": 27442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4245269439,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMFreeDialingParam@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "DDMFreeDialingParam"
+    },
+    {
+      "offset": 27558,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4149152873,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMFreePhonebookContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "DDMFreePhonebookContext"
+    },
+    {
+      "offset": 27678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3496138116,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMFreeRemoteEndpoint@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "DDMFreeRemoteEndpoint"
+    },
+    {
+      "offset": 27796,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3642981986,
+      "sizeOfData": 46,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMGetAddressesFromPhonebook@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "DDMGetAddressesFromPhonebook"
+    },
+    {
+      "offset": 27922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3942652725,
+      "sizeOfData": 31,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMGetEapInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "DDMGetEapInfo"
+    },
+    {
+      "offset": 28034,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4070231329,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMGetEapUserIdentityW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "DDMGetEapUserIdentityW"
+    },
+    {
+      "offset": 28154,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4121487704,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMGetPhoneBookContext@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "DDMGetPhoneBookContext"
+    },
+    {
+      "offset": 28274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3868652767,
+      "sizeOfData": 37,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMGetPhonebookInfo@84",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "DDMGetPhonebookInfo"
+    },
+    {
+      "offset": 28392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3623200185,
+      "sizeOfData": 43,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMGetProtocolStartParams@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "DDMGetProtocolStartParams"
+    },
+    {
+      "offset": 28516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4070290052,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMGetRasDialParams@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "DDMGetRasDialParams"
+    },
+    {
+      "offset": 28632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4172570444,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMGetRasDialingParams@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "DDMGetRasDialingParams"
+    },
+    {
+      "offset": 28752,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3586568300,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMGetTunnelEndpoints@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "DDMGetTunnelEndpoints"
+    },
+    {
+      "offset": 28872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3728601177,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMRasPbkEntryCleanup@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "DDMRasPbkEntryCleanup"
+    },
+    {
+      "offset": 28990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3570340196,
+      "sizeOfData": 54,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DDMUpdateProtocolConfigInfoFromEntry@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "DDMUpdateProtocolConfigInfoFromEntry"
+    },
+    {
+      "offset": 29124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3728081357,
+      "sizeOfData": 33,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DestroyEntryNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "DestroyEntryNode"
+    },
+    {
+      "offset": 29238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3456914827,
+      "sizeOfData": 32,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DestroyLinkNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "DestroyLinkNode"
+    },
+    {
+      "offset": 29350,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3667892863,
+      "sizeOfData": 33,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DestroyPhoneNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "DestroyPhoneNode"
+    },
+    {
+      "offset": 29464,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3374062787,
+      "sizeOfData": 32,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DestroyPortNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "DestroyPortNode"
+    },
+    {
+      "offset": 29576,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4078494158,
+      "sizeOfData": 44,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DoesProtocolListInfoContain@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "DoesProtocolListInfoContain"
+    },
+    {
+      "offset": 29700,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3813013022,
+      "sizeOfData": 35,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DuplicateEntryNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "DuplicateEntryNode"
+    },
+    {
+      "offset": 29816,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3536563039,
+      "sizeOfData": 35,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DuplicatePhoneNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "DuplicatePhoneNode"
+    },
+    {
+      "offset": 29932,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3524674506,
+      "sizeOfData": 30,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DwCloneEntry@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "DwCloneEntry"
+    },
+    {
+      "offset": 30042,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3951533294,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DwEnumEntryDetails@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "DwEnumEntryDetails"
+    },
+    {
+      "offset": 30158,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3690264394,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DwEnumEntryDetailsEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "DwEnumEntryDetailsEx"
+    },
+    {
+      "offset": 30276,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3515822071,
+      "sizeOfData": 37,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DwGetCustomAuthData@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "DwGetCustomAuthData"
+    },
+    {
+      "offset": 30394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4101901943,
+      "sizeOfData": 42,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DwGetCustomDllEntryPoint@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "DwGetCustomDllEntryPoint"
+    },
+    {
+      "offset": 30516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3835186822,
+      "sizeOfData": 32,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DwGetEntryMode@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "DwGetEntryMode"
+    },
+    {
+      "offset": 30628,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3447423960,
+      "sizeOfData": 34,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DwRasUninitialize@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "DwRasUninitialize"
+    },
+    {
+      "offset": 30742,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3266753536,
+      "sizeOfData": 37,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_DwSetCustomAuthData@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "DwSetCustomAuthData"
+    },
+    {
+      "offset": 30860,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3440260028,
+      "sizeOfData": 45,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_EnableOrDisableNetComponent@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "EnableOrDisableNetComponent"
+    },
+    {
+      "offset": 30986,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3315319442,
+      "sizeOfData": 34,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_EntryNodeFromName@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "EntryNodeFromName"
+    },
+    {
+      "offset": 31100,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4112373747,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_FIsNetComponentListed@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "FIsNetComponentListed"
+    },
+    {
+      "offset": 31220,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3311830191,
+      "sizeOfData": 43,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_GetAutoTriggerProfileInfo@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "GetAutoTriggerProfileInfo"
+    },
+    {
+      "offset": 31344,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3328759065,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_GetCountryCodeAndID@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "GetCountryCodeAndID"
+    },
+    {
+      "offset": 31460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3744341859,
+      "sizeOfData": 34,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_GetFirstPhoneNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "GetFirstPhoneNode"
+    },
+    {
+      "offset": 31574,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3280089614,
+      "sizeOfData": 37,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_GetOverridableParam@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "GetOverridableParam"
+    },
+    {
+      "offset": 31692,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3559979645,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_GetPbkAndEntryName@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "GetPbkAndEntryName"
+    },
+    {
+      "offset": 31808,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4019789737,
+      "sizeOfData": 42,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_GetPersonalPhonebookPath@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "GetPersonalPhonebookPath"
+    },
+    {
+      "offset": 31930,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4177270474,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_GetPhonebookDirectory@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "GetPhonebookDirectory"
+    },
+    {
+      "offset": 32050,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3352737013,
+      "sizeOfData": 49,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_GetPreferredDestinationForEntry@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "GetPreferredDestinationForEntry"
+    },
+    {
+      "offset": 32180,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3251574796,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_GetPublicPhonebookPath@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "GetPublicPhonebookPath"
+    },
+    {
+      "offset": 32300,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3331952410,
+      "sizeOfData": 47,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_IsActiveAutoTriggerConnection@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "IsActiveAutoTriggerConnection"
+    },
+    {
+      "offset": 32428,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4112220060,
+      "sizeOfData": 49,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_IsActiveAutoTriggerConnectionEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "IsActiveAutoTriggerConnectionEx"
+    },
+    {
+      "offset": 32558,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3389464589,
+      "sizeOfData": 45,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_IsCredentialIsolationEnabled@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "IsCredentialIsolationEnabled"
+    },
+    {
+      "offset": 32684,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3816620678,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_IsProtocolListInfoEmpty@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "IsProtocolListInfoEmpty"
+    },
+    {
+      "offset": 32804,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3908004744,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_IsProtocolListInfoValid@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "IsProtocolListInfoValid"
+    },
+    {
+      "offset": 32924,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3748907276,
+      "sizeOfData": 34,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_IsPublicPhonebook@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "IsPublicPhonebook"
+    },
+    {
+      "offset": 33038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3426743582,
+      "sizeOfData": 34,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_IsRouterPhonebook@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "IsRouterPhonebook"
+    },
+    {
+      "offset": 33152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3828524542,
+      "sizeOfData": 44,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_IsValidPbportForVPNStrategy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "IsValidPbportForVPNStrategy"
+    },
+    {
+      "offset": 33276,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4154977671,
+      "sizeOfData": 32,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_LoadPortsList2@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "LoadPortsList2"
+    },
+    {
+      "offset": 33388,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3974397064,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_PbdevicetypeFromPszType@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "PbdevicetypeFromPszType"
+    },
+    {
+      "offset": 33508,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3560990493,
+      "sizeOfData": 44,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasAutoDialSharedConnection@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "RasAutoDialSharedConnection"
+    },
+    {
+      "offset": 33632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3582015283,
+      "sizeOfData": 45,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasAutodialAddressToNetwork@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "RasAutodialAddressToNetwork"
+    },
+    {
+      "offset": 33758,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3397732281,
+      "sizeOfData": 43,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasAutodialEntryToNetwork@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "RasAutodialEntryToNetwork"
+    },
+    {
+      "offset": 33882,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4265987718,
+      "sizeOfData": 45,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasClearConnectionStatistics@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "RasClearConnectionStatistics"
+    },
+    {
+      "offset": 34008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3502800596,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasClearLinkStatistics@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "RasClearLinkStatistics"
+    },
+    {
+      "offset": 34128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3263556302,
+      "sizeOfData": 46,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasCompleteDialMachineCleanup@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "RasCompleteDialMachineCleanup"
+    },
+    {
+      "offset": 34254,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3562486733,
+      "sizeOfData": 44,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasConfigUserProxySettingsW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "RasConfigUserProxySettingsW"
+    },
+    {
+      "offset": 34378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3935587191,
+      "sizeOfData": 44,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasConnectionNotificationA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "RasConnectionNotificationA"
+    },
+    {
+      "offset": 34502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3418078399,
+      "sizeOfData": 44,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasConnectionNotificationW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "RasConnectionNotificationW"
+    },
+    {
+      "offset": 34626,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3849990398,
+      "sizeOfData": 41,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasCreatePhonebookEntryA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "RasCreatePhonebookEntryA"
+    },
+    {
+      "offset": 34748,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3606787200,
+      "sizeOfData": 41,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasCreatePhonebookEntryW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "RasCreatePhonebookEntryW"
+    },
+    {
+      "offset": 34870,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4247806593,
+      "sizeOfData": 32,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasDeleteEntryA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "RasDeleteEntryA"
+    },
+    {
+      "offset": 34982,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3269420809,
+      "sizeOfData": 32,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasDeleteEntryW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "RasDeleteEntryW"
+    },
+    {
+      "offset": 35094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3323763602,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasDeleteSubEntryA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "RasDeleteSubEntryA"
+    },
+    {
+      "offset": 35210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3518185937,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasDeleteSubEntryW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "RasDeleteSubEntryW"
+    },
+    {
+      "offset": 35326,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3564725633,
+      "sizeOfData": 26,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasDialA@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "RasDialA"
+    },
+    {
+      "offset": 35432,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4236119080,
+      "sizeOfData": 26,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasDialW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "RasDialW"
+    },
+    {
+      "offset": 35538,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3995075465,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasEditPhonebookEntryA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "RasEditPhonebookEntryA"
+    },
+    {
+      "offset": 35658,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3494577104,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasEditPhonebookEntryW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "RasEditPhonebookEntryW"
+    },
+    {
+      "offset": 35778,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3280341564,
+      "sizeOfData": 43,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasEnumAutodialAddressesA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "RasEnumAutodialAddressesA"
+    },
+    {
+      "offset": 35902,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3841781462,
+      "sizeOfData": 43,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasEnumAutodialAddressesW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "RasEnumAutodialAddressesW"
+    },
+    {
+      "offset": 36026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3350853396,
+      "sizeOfData": 37,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasEnumConnectionsA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "RasEnumConnectionsA"
+    },
+    {
+      "offset": 36144,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4161874244,
+      "sizeOfData": 37,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasEnumConnectionsW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "RasEnumConnectionsW"
+    },
+    {
+      "offset": 36262,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3554990171,
+      "sizeOfData": 33,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasEnumDevicesA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "RasEnumDevicesA"
+    },
+    {
+      "offset": 36376,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3495718569,
+      "sizeOfData": 33,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasEnumDevicesW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "RasEnumDevicesW"
+    },
+    {
+      "offset": 36490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4061349595,
+      "sizeOfData": 33,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasEnumEntriesA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "RasEnumEntriesA"
+    },
+    {
+      "offset": 36604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3722500695,
+      "sizeOfData": 33,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasEnumEntriesW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "RasEnumEntriesW"
+    },
+    {
+      "offset": 36718,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3516427468,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasFreeEapUserIdentityA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "RasFreeEapUserIdentityA"
+    },
+    {
+      "offset": 36838,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3704644155,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasFreeEapUserIdentityW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "RasFreeEapUserIdentityW"
+    },
+    {
+      "offset": 36958,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3598677992,
+      "sizeOfData": 47,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasFreeEntryAdvancedProperties@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "RasFreeEntryAdvancedProperties"
+    },
+    {
+      "offset": 37086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3813090706,
+      "sizeOfData": 47,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetAutoTriggerConnectStatus@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "RasGetAutoTriggerConnectStatus"
+    },
+    {
+      "offset": 37214,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3986588514,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetAutodialAddressA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "RasGetAutodialAddressA"
+    },
+    {
+      "offset": 37334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3974300925,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetAutodialAddressW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "RasGetAutodialAddressW"
+    },
+    {
+      "offset": 37454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3488148961,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetAutodialEnableA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "RasGetAutodialEnableA"
+    },
+    {
+      "offset": 37572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3293336473,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetAutodialEnableW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "RasGetAutodialEnableW"
+    },
+    {
+      "offset": 37690,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3221389716,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetAutodialParamA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "RasGetAutodialParamA"
+    },
+    {
+      "offset": 37808,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3582504540,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetAutodialParamW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "RasGetAutodialParamW"
+    },
+    {
+      "offset": 37926,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3570485894,
+      "sizeOfData": 37,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetConnectStatusA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "RasGetConnectStatusA"
+    },
+    {
+      "offset": 38044,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3842154754,
+      "sizeOfData": 37,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetConnectStatusW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "RasGetConnectStatusW"
+    },
+    {
+      "offset": 38162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3896930220,
+      "sizeOfData": 45,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetConnectionErrorStringW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "RasGetConnectionErrorStringW"
+    },
+    {
+      "offset": 38288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3335318207,
+      "sizeOfData": 43,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetConnectionStatistics@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "RasGetConnectionStatistics"
+    },
+    {
+      "offset": 38412,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3298478011,
+      "sizeOfData": 35,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetCountryInfoA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "RasGetCountryInfoA"
+    },
+    {
+      "offset": 38528,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3888087258,
+      "sizeOfData": 35,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetCountryInfoW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "RasGetCountryInfoW"
+    },
+    {
+      "offset": 38644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3606951974,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetCredentialsA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "RasGetCredentialsA"
+    },
+    {
+      "offset": 38760,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3588853824,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetCredentialsW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "RasGetCredentialsW"
+    },
+    {
+      "offset": 38876,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3312303098,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetCustomAuthDataA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "RasGetCustomAuthDataA"
+    },
+    {
+      "offset": 38996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3473511223,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetCustomAuthDataW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "RasGetCustomAuthDataW"
+    },
+    {
+      "offset": 39116,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3810183584,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetEapUserDataA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "RasGetEapUserDataA"
+    },
+    {
+      "offset": 39232,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3864879211,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetEapUserDataW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "RasGetEapUserDataW"
+    },
+    {
+      "offset": 39348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3329242736,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetEapUserIdentityA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "RasGetEapUserIdentityA"
+    },
+    {
+      "offset": 39468,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4086218720,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetEapUserIdentityW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "RasGetEapUserIdentityW"
+    },
+    {
+      "offset": 39588,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3952072731,
+      "sizeOfData": 47,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetEntryAdvancedProperties@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "RasGetEntryAdvancedProperties"
+    },
+    {
+      "offset": 39716,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4127956899,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetEntryDialParamsA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "RasGetEntryDialParamsA"
+    },
+    {
+      "offset": 39836,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3631369772,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetEntryDialParamsW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "RasGetEntryDialParamsW"
+    },
+    {
+      "offset": 39956,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4228584315,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetEntryHrasconnW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "RasGetEntryHrasconnW"
+    },
+    {
+      "offset": 40074,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4251885827,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetEntryPropertiesA@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "RasGetEntryPropertiesA"
+    },
+    {
+      "offset": 40194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4199426428,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetEntryPropertiesW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "RasGetEntryPropertiesW"
+    },
+    {
+      "offset": 40314,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4137290102,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetErrorStringA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "RasGetErrorStringA"
+    },
+    {
+      "offset": 40430,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3691613278,
+      "sizeOfData": 34,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetErrorStringEx",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 117,
+      "name": "RasGetErrorStringEx"
+    },
+    {
+      "offset": 40544,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3890332099,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetErrorStringW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "RasGetErrorStringW"
+    },
+    {
+      "offset": 40660,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3991810640,
+      "sizeOfData": 28,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetHport@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "RasGetHport"
+    },
+    {
+      "offset": 40768,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4250571054,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetLinkStatistics@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "RasGetLinkStatistics"
+    },
+    {
+      "offset": 40886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4158982905,
+      "sizeOfData": 32,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetNapStatus@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "RasGetNapStatus"
+    },
+    {
+      "offset": 40998,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4226318550,
+      "sizeOfData": 28,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetPCscf@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "RasGetPCscf"
+    },
+    {
+      "offset": 41106,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3999482759,
+      "sizeOfData": 31,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetPbkPath@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "RasGetPbkPath"
+    },
+    {
+      "offset": 41218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3666717013,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetProjectionInfoA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "RasGetProjectionInfoA"
+    },
+    {
+      "offset": 41338,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3712502034,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetProjectionInfoEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "RasGetProjectionInfoEx"
+    },
+    {
+      "offset": 41458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4210505970,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetProjectionInfoW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "RasGetProjectionInfoW"
+    },
+    {
+      "offset": 41578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3298325965,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetSubEntryHandleA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "RasGetSubEntryHandleA"
+    },
+    {
+      "offset": 41698,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3579559177,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetSubEntryHandleW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "RasGetSubEntryHandleW"
+    },
+    {
+      "offset": 41818,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4051853196,
+      "sizeOfData": 43,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetSubEntryPropertiesA@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "RasGetSubEntryPropertiesA"
+    },
+    {
+      "offset": 41942,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4123905486,
+      "sizeOfData": 43,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasGetSubEntryPropertiesW@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "RasGetSubEntryPropertiesW"
+    },
+    {
+      "offset": 42066,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4161888108,
+      "sizeOfData": 48,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasHandleTriggerConnDisconnect@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "RasHandleTriggerConnDisconnect"
+    },
+    {
+      "offset": 42194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4016121899,
+      "sizeOfData": 27,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasHangUpA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "RasHangUpA"
+    },
+    {
+      "offset": 42302,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3342045563,
+      "sizeOfData": 27,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasHangUpW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "RasHangUpW"
+    },
+    {
+      "offset": 42410,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3376953256,
+      "sizeOfData": 32,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasInvokeEapUI@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "RasInvokeEapUI"
+    },
+    {
+      "offset": 42522,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3428709936,
+      "sizeOfData": 37,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasIsPublicPhonebook@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "RasIsPublicPhonebook"
+    },
+    {
+      "offset": 42640,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3817664641,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasIsSharedConnection@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "RasIsSharedConnection"
+    },
+    {
+      "offset": 42758,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3869004214,
+      "sizeOfData": 30,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasMobileCore@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "RasMobileCore"
+    },
+    {
+      "offset": 42868,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3397309473,
+      "sizeOfData": 47,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasNQMStateEnteredNotification@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "RasNQMStateEnteredNotification"
+    },
+    {
+      "offset": 42996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3417163247,
+      "sizeOfData": 45,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasQueryRedialOnLinkFailure@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "RasQueryRedialOnLinkFailure"
+    },
+    {
+      "offset": 43122,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3852737024,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasQuerySharedAutoDial@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "RasQuerySharedAutoDial"
+    },
+    {
+      "offset": 43242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3422345529,
+      "sizeOfData": 41,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasQuerySharedConnection@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "RasQuerySharedConnection"
+    },
+    {
+      "offset": 43364,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3398108130,
+      "sizeOfData": 52,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasRegisterEntryChangeNotification@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "RasRegisterEntryChangeNotification"
+    },
+    {
+      "offset": 43496,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4285932795,
+      "sizeOfData": 33,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasRenameEntryA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "RasRenameEntryA"
+    },
+    {
+      "offset": 43610,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3743094334,
+      "sizeOfData": 33,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasRenameEntryW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "RasRenameEntryW"
+    },
+    {
+      "offset": 43724,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3536395821,
+      "sizeOfData": 53,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasRestoreDefaultLegacyProxySettings@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "RasRestoreDefaultLegacyProxySettings"
+    },
+    {
+      "offset": 43858,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4015022532,
+      "sizeOfData": 34,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasScriptExecute@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "RasScriptExecute"
+    },
+    {
+      "offset": 43972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3926138544,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasScriptGetIpAddress@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "RasScriptGetIpAddress"
+    },
+    {
+      "offset": 44090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3931817696,
+      "sizeOfData": 31,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasScriptInit@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "RasScriptInit"
+    },
+    {
+      "offset": 44202,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3521787705,
+      "sizeOfData": 34,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasScriptReceive@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "RasScriptReceive"
+    },
+    {
+      "offset": 44316,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4220671074,
+      "sizeOfData": 31,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasScriptSend@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "RasScriptSend"
+    },
+    {
+      "offset": 44428,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3953309798,
+      "sizeOfData": 30,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasScriptTerm@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "RasScriptTerm"
+    },
+    {
+      "offset": 44538,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3792088497,
+      "sizeOfData": 42,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetAutoTriggerProfile@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "RasSetAutoTriggerProfile"
+    },
+    {
+      "offset": 44660,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3635694071,
+      "sizeOfData": 44,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetAutoTriggerProfileEx@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "RasSetAutoTriggerProfileEx"
+    },
+    {
+      "offset": 44784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3418520510,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetAutodialAddressA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "RasSetAutodialAddressA"
+    },
+    {
+      "offset": 44904,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4024735984,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetAutodialAddressW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "RasSetAutodialAddressW"
+    },
+    {
+      "offset": 45024,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3404253388,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetAutodialEnableA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "RasSetAutodialEnableA"
+    },
+    {
+      "offset": 45142,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3298917514,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetAutodialEnableW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "RasSetAutodialEnableW"
+    },
+    {
+      "offset": 45260,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3689033409,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetAutodialParamA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 158,
+      "name": "RasSetAutodialParamA"
+    },
+    {
+      "offset": 45378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3582200976,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetAutodialParamW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 159,
+      "name": "RasSetAutodialParamW"
+    },
+    {
+      "offset": 45496,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3927432119,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetCredentialsA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 160,
+      "name": "RasSetCredentialsA"
+    },
+    {
+      "offset": 45612,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4132988860,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetCredentialsW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 161,
+      "name": "RasSetCredentialsW"
+    },
+    {
+      "offset": 45728,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3343439496,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetCustomAuthDataA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 162,
+      "name": "RasSetCustomAuthDataA"
+    },
+    {
+      "offset": 45848,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3319912302,
+      "sizeOfData": 39,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetCustomAuthDataW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 163,
+      "name": "RasSetCustomAuthDataW"
+    },
+    {
+      "offset": 45968,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3580866335,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetEapUserDataA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 164,
+      "name": "RasSetEapUserDataA"
+    },
+    {
+      "offset": 46084,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3360577882,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetEapUserDataAEx@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 165,
+      "name": "RasSetEapUserDataAEx"
+    },
+    {
+      "offset": 46202,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4231951414,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetEapUserDataW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 166,
+      "name": "RasSetEapUserDataW"
+    },
+    {
+      "offset": 46318,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3814427023,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetEapUserDataWEx@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 167,
+      "name": "RasSetEapUserDataWEx"
+    },
+    {
+      "offset": 46436,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3815410738,
+      "sizeOfData": 47,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetEntryAdvancedProperties@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 168,
+      "name": "RasSetEntryAdvancedProperties"
+    },
+    {
+      "offset": 46564,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3543635919,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetEntryDialParamsA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 169,
+      "name": "RasSetEntryDialParamsA"
+    },
+    {
+      "offset": 46684,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3534786293,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetEntryDialParamsW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 170,
+      "name": "RasSetEntryDialParamsW"
+    },
+    {
+      "offset": 46804,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3915660865,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetEntryPropertiesA@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 171,
+      "name": "RasSetEntryPropertiesA"
+    },
+    {
+      "offset": 46924,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4068354061,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetEntryPropertiesW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 172,
+      "name": "RasSetEntryPropertiesW"
+    },
+    {
+      "offset": 47044,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3450186385,
+      "sizeOfData": 34,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetOldPassword@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 173,
+      "name": "RasSetOldPassword"
+    },
+    {
+      "offset": 47158,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3405683293,
+      "sizeOfData": 42,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetPerConnectionProxy@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 174,
+      "name": "RasSetPerConnectionProxy"
+    },
+    {
+      "offset": 47280,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4146874281,
+      "sizeOfData": 37,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetSharedAutoDial@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 175,
+      "name": "RasSetSharedAutoDial"
+    },
+    {
+      "offset": 47398,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3693583247,
+      "sizeOfData": 43,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetSubEntryPropertiesA@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 176,
+      "name": "RasSetSubEntryPropertiesA"
+    },
+    {
+      "offset": 47522,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4070158043,
+      "sizeOfData": 43,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasSetSubEntryPropertiesW@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 177,
+      "name": "RasSetSubEntryPropertiesW"
+    },
+    {
+      "offset": 47646,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3766461572,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasTriggerConnection@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 178,
+      "name": "RasTriggerConnection"
+    },
+    {
+      "offset": 47764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3526989185,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasTriggerConnectionEx@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 179,
+      "name": "RasTriggerConnectionEx"
+    },
+    {
+      "offset": 47884,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3905849209,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasTriggerDisconnection@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 180,
+      "name": "RasTriggerDisconnection"
+    },
+    {
+      "offset": 48004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3399169785,
+      "sizeOfData": 42,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasTriggerDisconnectionEx@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 181,
+      "name": "RasTriggerDisconnectionEx"
+    },
+    {
+      "offset": 48126,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3547013205,
+      "sizeOfData": 53,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasUnregisterEntryChangeNotification@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 182,
+      "name": "RasUnregisterEntryChangeNotification"
+    },
+    {
+      "offset": 48260,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4117350683,
+      "sizeOfData": 36,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasUpdateConnection@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 183,
+      "name": "RasUpdateConnection"
+    },
+    {
+      "offset": 48376,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3355862583,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasValidateEntryNameA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 184,
+      "name": "RasValidateEntryNameA"
+    },
+    {
+      "offset": 48494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3337668285,
+      "sizeOfData": 38,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasValidateEntryNameW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 185,
+      "name": "RasValidateEntryNameW"
+    },
+    {
+      "offset": 48612,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3729650424,
+      "sizeOfData": 42,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RasWriteSharedPbkOptions@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 186,
+      "name": "RasWriteSharedPbkOptions"
+    },
+    {
+      "offset": 48734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3617524466,
+      "sizeOfData": 28,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_RdtFromPbdt@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 187,
+      "name": "RdtFromPbdt"
+    },
+    {
+      "offset": 48842,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3846979124,
+      "sizeOfData": 35,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_ReadPhonebookFile@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 188,
+      "name": "ReadPhonebookFile"
+    },
+    {
+      "offset": 48958,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4115401094,
+      "sizeOfData": 40,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_SetDefaultModemSettings@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 189,
+      "name": "SetDefaultModemSettings"
+    },
+    {
+      "offset": 49078,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3432370781,
+      "sizeOfData": 32,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_UnInitializeRAS@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 190,
+      "name": "UnInitializeRAS"
+    },
+    {
+      "offset": 49190,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3332450468,
+      "sizeOfData": 57,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_UpdatePreferredVPNDestinationInRegistry@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 191,
+      "name": "UpdatePreferredVPNDestinationInRegistry"
+    },
+    {
+      "offset": 49328,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3752649469,
+      "sizeOfData": 34,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_ValidateEntryName@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 192,
+      "name": "ValidateEntryName"
+    },
+    {
+      "offset": 49442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4241746642,
+      "sizeOfData": 35,
+      "dllName": "RASAPI32.dll",
+      "symbolName": "_WritePhonebookFile@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 193,
+      "name": "WritePhonebookFile"
+    }
+  ]
+}

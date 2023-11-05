@@ -1,0 +1,3556 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\mfplat.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    2A5A size
+correct header end
+
+    307 public symbols
+
+     553E __IMPORT_DESCRIPTOR_MFPlat
+     5764 __NULL_IMPORT_DESCRIPTOR
+     589A MFPlat_NULL_THUNK_DATA
+     9766 _MFStartup@8
+     9766 __imp__MFStartup@8
+     968E _MFShutdown@0
+     968E __imp__MFShutdown@0
+     8E44 _MFLockPlatform@0
+     8E44 __imp__MFLockPlatform@0
+     9DF6 _MFUnlockPlatform@0
+     9DF6 __imp__MFUnlockPlatform@0
+     72F2 _MFCreateSample@4
+     72F2 __imp__MFCreateSample@4
+     76BC _MFCreateTrackedSample@4
+     76BC __imp__MFCreateTrackedSample@4
+     7016 _MFCreateMemoryBuffer@8
+     7016 __imp__MFCreateMemoryBuffer@8
+     64AA _MFCreateAlignedMemoryBuffer@12
+     64AA __imp__MFCreateAlignedMemoryBuffer@12
+     6D3A _MFCreateMediaBufferWrapper@16
+     6D3A __imp__MFCreateMediaBufferWrapper@16
+     6DB4 _MFCreateMediaEvent@20
+     6DB4 __imp__MFCreateMediaEvent@20
+     695C _MFCreateEventQueue@4
+     695C __imp__MFCreateEventQueue@4
+     83D6 _MFGetSystemTime@0
+     83D6 __imp__MFGetSystemTime@0
+     75D4 _MFCreateSystemTimeSource@4
+     75D4 __imp__MFCreateSystemTimeSource@4
+     869E _MFHeapAlloc@20
+     869E __imp__MFHeapAlloc@20
+     870A _MFHeapFree@4
+     870A __imp__MFHeapFree@4
+     916C _MFPutWorkItem@12
+     916C __imp__MFPutWorkItem@12
+     924A _MFPutWorkItemEx@8
+     924A __imp__MFPutWorkItemEx@8
+     90FE _MFPutWorkItem2@16
+     90FE __imp__MFPutWorkItem2@16
+     91DA _MFPutWorkItemEx2@12
+     91DA __imp__MFPutWorkItemEx2@12
+     908A _MFPutWaitingWorkItem@16
+     908A __imp__MFPutWaitingWorkItem@16
+     5AD2 _MFAllocateSerialWorkQueue@8
+     5AD2 __imp__MFAllocateSerialWorkQueue@8
+     8EB2 _MFLockSharedWorkQueue@16
+     8EB2 __imp__MFLockSharedWorkQueue@16
+     94A8 _MFScheduleWorkItem@20
+     94A8 __imp__MFScheduleWorkItem@20
+     951A _MFScheduleWorkItemEx@16
+     951A __imp__MFScheduleWorkItemEx@16
+     600C _MFCancelWorkItem@8
+     600C __imp__MFCancelWorkItem@8
+     5B4A _MFAllocateWorkQueue@4
+     5B4A __imp__MFAllocateWorkQueue@4
+     5BBC _MFAllocateWorkQueueEx@8
+     5BBC __imp__MFAllocateWorkQueueEx@8
+     8F28 _MFLockWorkQueue@4
+     8F28 __imp__MFLockWorkQueue@4
+     9E66 _MFUnlockWorkQueue@4
+     9E66 __imp__MFUnlockWorkQueue@4
+     5D22 _MFBeginRegisterWorkQueueWithMMCSS@20
+     5D22 __imp__MFBeginRegisterWorkQueueWithMMCSS@20
+     7E34 _MFEndRegisterWorkQueueWithMMCSS@8
+     7E34 __imp__MFEndRegisterWorkQueueWithMMCSS@8
+     5E28 _MFBeginUnregisterWorkQueueWithMMCSS@12
+     5E28 __imp__MFBeginUnregisterWorkQueueWithMMCSS@12
+     7EB2 _MFEndUnregisterWorkQueueWithMMCSS@4
+     7EB2 __imp__MFEndUnregisterWorkQueueWithMMCSS@4
+     8534 _MFGetWorkQueueMMCSSClass@12
+     8534 __imp__MFGetWorkQueueMMCSSClass@12
+     8626 _MFGetWorkQueueMMCSSTaskId@8
+     8626 __imp__MFGetWorkQueueMMCSSTaskId@8
+     8CDA _MFInvokeCallback@4
+     8CDA __imp__MFInvokeCallback@4
+     5A5C _MFAddPeriodicCallback@12
+     5A5C __imp__MFAddPeriodicCallback@12
+     9430 _MFRemovePeriodicCallback@4
+     9430 __imp__MFRemovePeriodicCallback@4
+     8444 _MFGetTimerPeriodicity@4
+     8444 __imp__MFGetTimerPeriodicity@4
+     69CE _MFCreateFile@20
+     69CE __imp__MFCreateFile@20
+     764C _MFCreateTempFile@16
+     764C __imp__MFCreateTempFile@16
+     5CB0 _MFBeginCreateFile@28
+     5CB0 __imp__MFBeginCreateFile@28
+     7DC6 _MFEndCreateFile@8
+     7DC6 __imp__MFEndCreateFile@8
+     5F9A _MFCancelCreateFile@4
+     5F9A __imp__MFCancelCreateFile@4
+     6AC2 _MFCreateMFByteStreamOnStream@8
+     6AC2 __imp__MFCreateMFByteStreamOnStream@8
+     6B3E _MFCreateMFByteStreamOnStreamEx@8
+     6B3E __imp__MFCreateMFByteStreamOnStreamEx@8
+     7556 _MFCreateStreamOnMFByteStreamEx@12
+     7556 __imp__MFCreateStreamOnMFByteStreamEx@12
+     6BBC _MFCreateMFByteStreamWrapper@8
+     6BBC __imp__MFCreateMFByteStreamWrapper@8
+     6F14 _MFCreateMediaTypeFromProperties@8
+     6F14 __imp__MFCreateMediaTypeFromProperties@8
+     7272 _MFCreatePropertiesFromMediaType@12
+     7272 __imp__MFCreatePropertiesFromMediaType@12
+     9CA2 _MFTraceError@24
+     9CA2 __imp__MFTraceError@24
+     9D0E _MFTraceFuncEnter@16
+     9D0E __imp__MFTraceFuncEnter@16
+     A0AA _MFllMulDiv@32
+     A0AA __imp__MFllMulDiv@32
+     659A _MFCreateAttributes@8
+     659A __imp__MFCreateAttributes@8
+     8028 _MFGetAttributesAsBlobSize@8
+     8028 __imp__MFGetAttributesAsBlobSize@8
+     7FB2 _MFGetAttributesAsBlob@12
+     7FB2 __imp__MFGetAttributesAsBlob@12
+     87F4 _MFInitAttributesFromBlob@12
+     87F4 __imp__MFInitAttributesFromBlob@12
+     99F4 _MFTRegister@60
+     99F4 __imp__MFTRegister@60
+     9B48 _MFTUnregister@16
+     9B48 __imp__MFTUnregister@16
+     98B8 _MFTEnum@40
+     98B8 __imp__MFTEnum@40
+     998A _MFTGetInfo@40
+     998A __imp__MFTGetInfo@40
+     9920 _MFTEnumEx@36
+     9920 __imp__MFTEnumEx@36
+     9850 _MFTEnum2@40
+     9850 __imp__MFTEnum2@40
+     9A60 _MFTRegisterLocal@32
+     9A60 __imp__MFTRegisterLocal@32
+     9BB6 _MFTUnregisterLocal@4
+     9BB6 __imp__MFTUnregisterLocal@4
+     9AD0 _MFTRegisterLocalByCLSID@32
+     9AD0 __imp__MFTRegisterLocalByCLSID@32
+     9C28 _MFTUnregisterLocalByCLSID@16
+     9C28 __imp__MFTUnregisterLocalByCLSID@16
+     81FC _MFGetPluginControl@4
+     81FC __imp__MFGetPluginControl@4
+     8120 _MFGetMFTMerit@16
+     8120 __imp__MFGetMFTMerit@16
+     9338 _MFRegisterLocalSchemeHandler@8
+     9338 __imp__MFRegisterLocalSchemeHandler@8
+     92B8 _MFRegisterLocalByteStreamHandler@12
+     92B8 __imp__MFRegisterLocalByteStreamHandler@12
+     6E26 _MFCreateMediaExtensionActivate@16
+     6E26 __imp__MFCreateMediaExtensionActivate@16
+     6F92 _MFCreateMediaTypeFromRepresentation@24
+     6F92 __imp__MFCreateMediaTypeFromRepresentation@24
+     660C _MFCreateAudioMediaType@8
+     660C __imp__MFCreateAudioMediaType@8
+     6EA4 _MFCreateMediaType@4
+     6EA4 __imp__MFCreateMediaType@4
+     7C3C _MFCreateWaveFormatExFromMFMediaType@16
+     7C3C __imp__MFCreateWaveFormatExFromMFMediaType@16
+     6428 _MFCreateAMMediaTypeFromMFMediaType@24
+     6428 __imp__MFCreateAMMediaTypeFromMFMediaType@24
+     6C36 _MFCreateMFVideoFormatFromMFMediaType@12
+     6C36 __imp__MFCreateMFVideoFormatFromMFMediaType@12
+     886C _MFInitMediaTypeFromAMMediaType@8
+     886C __imp__MFInitMediaTypeFromAMMediaType@8
+     8AF2 _MFInitMediaTypeFromVideoInfoHeader@16
+     8AF2 __imp__MFInitMediaTypeFromVideoInfoHeader@16
+     8A6E _MFInitMediaTypeFromVideoInfoHeader2@16
+     8A6E __imp__MFInitMediaTypeFromVideoInfoHeader2@16
+     896A _MFInitMediaTypeFromMPEG1VideoInfo@16
+     896A __imp__MFInitMediaTypeFromMPEG1VideoInfo@16
+     89EC _MFInitMediaTypeFromMPEG2VideoInfo@16
+     89EC __imp__MFInitMediaTypeFromMPEG2VideoInfo@16
+     88EA _MFInitMediaTypeFromMFVideoFormat@12
+     88EA __imp__MFInitMediaTypeFromMFVideoFormat@12
+     8B74 _MFInitMediaTypeFromWaveFormatEx@12
+     8B74 __imp__MFInitMediaTypeFromWaveFormatEx@12
+     8774 _MFInitAMMediaTypeFromMFMediaType@24
+     8774 __imp__MFInitAMMediaTypeFromMFMediaType@24
+     60EC _MFCompareFullToPartialMediaType@8
+     60EC __imp__MFCompareFullToPartialMediaType@8
+     A03A _MFWrapMediaType@16
+     A03A __imp__MFWrapMediaType@16
+     9F52 _MFUnwrapMediaType@8
+     9F52 __imp__MFUnwrapMediaType@8
+     9FC2 _MFValidateMediaTypeSize@24
+     9FC2 __imp__MFValidateMediaTypeSize@24
+     5EAC _MFCalculateBitmapImageSize@16
+     5EAC __imp__MFCalculateBitmapImageSize@16
+     5F26 _MFCalculateImageSize@16
+     5F26 __imp__MFCalculateImageSize@16
+     7F32 _MFFrameRateToAverageTimePerFrame@12
+     7F32 __imp__MFFrameRateToAverageTimePerFrame@12
+     5C30 _MFAverageTimePerFrameToFrameRate@16
+     5C30 __imp__MFAverageTimePerFrameToFrameRate@16
+     6A3A _MFCreateLegacyMediaBufferOnMFMediaBuffer@16
+     6A3A __imp__MFCreateLegacyMediaBufferOnMFMediaBuffer@16
+     6682 _MFCreateCollection@4
+     6682 __imp__MFCreateCollection@4
+     6526 _MFCreateAsyncResult@16
+     6526 __imp__MFCreateAsyncResult@16
+     59EA _CreatePropertyStore@4
+     59EA __imp__CreatePropertyStore@4
+     71F4 _MFCreatePresentationDescriptor@12
+     71F4 __imp__MFCreatePresentationDescriptor@12
+     7462 _MFCreateStreamDescriptor@16
+     7462 __imp__MFCreateStreamDescriptor@16
+     960C _MFSerializePresentationDescriptor@12
+     960C __imp__MFSerializePresentationDescriptor@12
+     7D42 _MFDeserializePresentationDescriptor@12
+     7D42 __imp__MFDeserializePresentationDescriptor@12
+     958E _MFSerializeAttributesToStream@12
+     958E __imp__MFSerializeAttributesToStream@12
+     7CC0 _MFDeserializeAttributesFromStream@12
+     7CC0 __imp__MFDeserializeAttributesFromStream@12
+     97CE _MFStreamDescriptorProtectMediaType@8
+     97CE __imp__MFStreamDescriptorProtectMediaType@8
+     7730 _MFCreateTransformActivate@4
+     7730 __imp__MFCreateTransformActivate@4
+     73EC _MFCreateSourceResolver@4
+     73EC __imp__MFCreateSourceResolver@4
+     8362 _MFGetSupportedSchemes@4
+     8362 __imp__MFGetSupportedSchemes@4
+     82EC _MFGetSupportedMimeTypes@4
+     82EC __imp__MFGetSupportedMimeTypes@4
+     61E4 _MFConvertColorInfoToDXVA@8
+     61E4 __imp__MFConvertColorInfoToDXVA@8
+     616A _MFConvertColorInfoFromDXVA@8
+     616A __imp__MFConvertColorInfoFromDXVA@8
+     6346 _MFCopyImage@24
+     6346 __imp__MFCopyImage@24
+     7826 _MFCreateVideoMediaType@8
+     7826 __imp__MFCreateVideoMediaType@8
+     789C _MFCreateVideoMediaTypeFromBitMapInfoHeader@48
+     789C __imp__MFCreateVideoMediaTypeFromBitMapInfoHeader@48
+     7926 _MFCreateVideoMediaTypeFromBitMapInfoHeaderEx@44
+     7926 __imp__MFCreateVideoMediaTypeFromBitMapInfoHeaderEx@44
+     79B2 _MFCreateVideoMediaTypeFromSubtype@8
+     79B2 __imp__MFCreateVideoMediaTypeFromSubtype@8
+     7ABC _MFCreateVideoMediaTypeFromVideoInfoHeader@36
+     7ABC __imp__MFCreateVideoMediaTypeFromVideoInfoHeader@36
+     7A32 _MFCreateVideoMediaTypeFromVideoInfoHeader2@24
+     7A32 __imp__MFCreateVideoMediaTypeFromVideoInfoHeader2@24
+     818E _MFGetPlaneSize@16
+     818E __imp__MFGetPlaneSize@16
+     826E _MFGetStrideForBitmapInfoHeader@12
+     826E __imp__MFGetStrideForBitmapInfoHeader@12
+     84B8 _MFGetUncompressedVideoFormat@4
+     84B8 __imp__MFGetUncompressedVideoFormat@4
+     8BF4 _MFInitVideoFormat@8
+     8BF4 __imp__MFInitVideoFormat@8
+     8C64 _MFInitVideoFormat_RGB@16
+     8C64 __imp__MFInitVideoFormat_RGB@16
+     625C _MFConvertFromFP16Array@12
+     625C __imp__MFConvertFromFP16Array@12
+     62D2 _MFConvertToFP16Array@12
+     62D2 __imp__MFConvertToFP16Array@12
+     63B2 _MFCreate2DMediaBuffer@20
+     63B2 __imp__MFCreate2DMediaBuffer@20
+     6CBA _MFCreateMediaBufferFromMediaType@24
+     6CBA __imp__MFCreateMediaBufferFromMediaType@24
+     7360 _MFCreateSharedMemoryMediaBufferFromMediaType@32
+     7360 __imp__MFCreateSharedMemoryMediaBufferFromMediaType@32
+     74DA _MFCreateStreamOnMFByteStream@8
+     74DA __imp__MFCreateStreamOnMFByteStream@8
+     68E4 _MFCreateDXSurfaceBuffer@16
+     68E4 __imp__MFCreateDXSurfaceBuffer@16
+     686A _MFCreateDXGISurfaceBuffer@20
+     686A __imp__MFCreateDXGISurfaceBuffer@20
+     7BC4 _MFCreateWICBitmapBuffer@12
+     7BC4 __imp__MFCreateWICBitmapBuffer@12
+     7B46 _MFCreateVideoSampleAllocatorEx@8
+     7B46 __imp__MFCreateVideoSampleAllocatorEx@8
+     67F2 _MFCreateDXGIDeviceManager@8
+     67F2 __imp__MFCreateDXGIDeviceManager@8
+     8DCE _MFLockDXGIDeviceManager@8
+     8DCE __imp__MFLockDXGIDeviceManager@8
+     9D7E _MFUnlockDXGIDeviceManager@0
+     9D7E __imp__MFUnlockDXGIDeviceManager@0
+     9010 _MFMapDXGIFormatToDX9Format@4
+     9010 __imp__MFMapDXGIFormatToDX9Format@4
+     8F96 _MFMapDX9FormatToDXGIFormat@4
+     8F96 __imp__MFMapDX9FormatToDXGIFormat@4
+     93B4 _MFRegisterPlatformWithMMCSS@12
+     93B4 __imp__MFRegisterPlatformWithMMCSS@12
+     9ED6 _MFUnregisterPlatformFromMMCSS@0
+     9ED6 __imp__MFUnregisterPlatformFromMMCSS@0
+     85AC _MFGetWorkQueueMMCSSPriority@8
+     85AC __imp__MFGetWorkQueueMMCSSPriority@8
+     5DA4 _MFBeginRegisterWorkQueueWithMMCSSEx@24
+     5DA4 __imp__MFBeginRegisterWorkQueueWithMMCSSEx@24
+     80A0 _MFGetContentProtectionSystemCLSID@8
+     80A0 __imp__MFGetContentProtectionSystemCLSID@8
+     66F4 _MFCreateContentDecryptorContext@16
+     66F4 __imp__MFCreateContentDecryptorContext@16
+     77A8 _MFCreateVideoDecryptorContext@16
+     77A8 __imp__MFCreateVideoDecryptorContext@16
+     6774 _MFCreateContentProtectionDevice@8
+     6774 __imp__MFCreateContentProtectionDevice@8
+     8D4A _MFIsContentProtectionDeviceSupported@8
+     8D4A __imp__MFIsContentProtectionDeviceSupported@8
+     708A _MFCreateMuxStreamAttributes@8
+     708A __imp__MFCreateMuxStreamAttributes@8
+     7104 _MFCreateMuxStreamMediaType@8
+     7104 __imp__MFCreateMuxStreamMediaType@8
+     717E _MFCreateMuxStreamSample@8
+     717E __imp__MFCreateMuxStreamSample@8
+     607C _MFCombineSamples@16
+     607C __imp__MFCombineSamples@16
+     96F8 _MFSplitSample@16
+     96F8 __imp__MFSplitSample@16
+
+Archive member name at 553E: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1EA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E7B50314 time date stamp
+             10A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CC file pointer to raw data (000000CC to 000000DF)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FE file pointer to raw data (000000FE to 00000109)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 5764: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        EE677B58 time date stamp
+              B8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      64 file pointer to raw data (00000064 to 000000A3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A4 file pointer to raw data (000000A4 to 000000B7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 589A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     114 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        FE4388C5 time date stamp
+              D4 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CC file pointer to raw data (000000CC to 000000CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data (000000D0 to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 59EA: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDDC21F5
+  SizeOfData   : 00000022
+  DLL name     : MFPlat.DLL
+  Symbol name  : _CreatePropertyStore@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : CreatePropertyStore
+
+Archive member name at 5A5C: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D68193D2
+  SizeOfData   : 00000025
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFAddPeriodicCallback@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : MFAddPeriodicCallback
+
+Archive member name at 5AD2: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEEDE3EB
+  SizeOfData   : 00000028
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFAllocateSerialWorkQueue@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : MFAllocateSerialWorkQueue
+
+Archive member name at 5B4A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C022C6BD
+  SizeOfData   : 00000022
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFAllocateWorkQueue@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : MFAllocateWorkQueue
+
+Archive member name at 5BBC: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB1C3ACA
+  SizeOfData   : 00000024
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFAllocateWorkQueueEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : MFAllocateWorkQueueEx
+
+Archive member name at 5C30: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED811929
+  SizeOfData   : 00000030
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFAverageTimePerFrameToFrameRate@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : MFAverageTimePerFrameToFrameRate
+
+Archive member name at 5CB0: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3E86CB8
+  SizeOfData   : 00000021
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFBeginCreateFile@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : MFBeginCreateFile
+
+Archive member name at 5D22: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C75900B0
+  SizeOfData   : 00000031
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFBeginRegisterWorkQueueWithMMCSS@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : MFBeginRegisterWorkQueueWithMMCSS
+
+Archive member name at 5DA4: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FACA4FF8
+  SizeOfData   : 00000033
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFBeginRegisterWorkQueueWithMMCSSEx@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : MFBeginRegisterWorkQueueWithMMCSSEx
+
+Archive member name at 5E28: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C238BEB2
+  SizeOfData   : 00000033
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFBeginUnregisterWorkQueueWithMMCSS@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : MFBeginUnregisterWorkQueueWithMMCSS
+
+Archive member name at 5EAC: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E576A19E
+  SizeOfData   : 0000002A
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCalculateBitmapImageSize@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : MFCalculateBitmapImageSize
+
+Archive member name at 5F26: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D237F977
+  SizeOfData   : 00000024
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCalculateImageSize@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : MFCalculateImageSize
+
+Archive member name at 5F9A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC6A6043
+  SizeOfData   : 00000021
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCancelCreateFile@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : MFCancelCreateFile
+
+Archive member name at 600C: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA552F44
+  SizeOfData   : 0000001F
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCancelWorkItem@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : MFCancelWorkItem
+
+Archive member name at 607C: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E07F5641
+  SizeOfData   : 00000020
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCombineSamples@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : MFCombineSamples
+
+Archive member name at 60EC: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4F0C16F
+  SizeOfData   : 0000002E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCompareFullToPartialMediaType@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : MFCompareFullToPartialMediaType
+
+Archive member name at 616A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5D55E65
+  SizeOfData   : 00000029
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFConvertColorInfoFromDXVA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : MFConvertColorInfoFromDXVA
+
+Archive member name at 61E4: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C81DC063
+  SizeOfData   : 00000027
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFConvertColorInfoToDXVA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : MFConvertColorInfoToDXVA
+
+Archive member name at 625C: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C475ADFA
+  SizeOfData   : 00000026
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFConvertFromFP16Array@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : MFConvertFromFP16Array
+
+Archive member name at 62D2: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D77AE570
+  SizeOfData   : 00000024
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFConvertToFP16Array@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : MFConvertToFP16Array
+
+Archive member name at 6346: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF02E644
+  SizeOfData   : 0000001B
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCopyImage@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : MFCopyImage
+
+Archive member name at 63B2: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3155C1E
+  SizeOfData   : 00000025
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreate2DMediaBuffer@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : MFCreate2DMediaBuffer
+
+Archive member name at 6428: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E212F0A4
+  SizeOfData   : 00000032
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateAMMediaTypeFromMFMediaType@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : MFCreateAMMediaTypeFromMFMediaType
+
+Archive member name at 64AA: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C528BE84
+  SizeOfData   : 0000002B
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateAlignedMemoryBuffer@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : MFCreateAlignedMemoryBuffer
+
+Archive member name at 6526: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E101B0BD
+  SizeOfData   : 00000023
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateAsyncResult@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : MFCreateAsyncResult
+
+Archive member name at 659A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F28567E3
+  SizeOfData   : 00000021
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateAttributes@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : MFCreateAttributes
+
+Archive member name at 660C: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E836ED93
+  SizeOfData   : 00000025
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateAudioMediaType@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : MFCreateAudioMediaType
+
+Archive member name at 6682: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D824975E
+  SizeOfData   : 00000021
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateCollection@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : MFCreateCollection
+
+Archive member name at 66F4: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFEDAFE0
+  SizeOfData   : 0000002F
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateContentDecryptorContext@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : MFCreateContentDecryptorContext
+
+Archive member name at 6774: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF2A9A96
+  SizeOfData   : 0000002E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateContentProtectionDevice@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : MFCreateContentProtectionDevice
+
+Archive member name at 67F2: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E431E0FA
+  SizeOfData   : 00000028
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateDXGIDeviceManager@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : MFCreateDXGIDeviceManager
+
+Archive member name at 686A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3D5DD94
+  SizeOfData   : 00000029
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateDXGISurfaceBuffer@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : MFCreateDXGISurfaceBuffer
+
+Archive member name at 68E4: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDC38B2F
+  SizeOfData   : 00000027
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateDXSurfaceBuffer@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : MFCreateDXSurfaceBuffer
+
+Archive member name at 695C: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDC039D7
+  SizeOfData   : 00000021
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateEventQueue@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : MFCreateEventQueue
+
+Archive member name at 69CE: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC516A67
+  SizeOfData   : 0000001C
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateFile@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : MFCreateFile
+
+Archive member name at 6A3A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA935EAE
+  SizeOfData   : 00000038
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateLegacyMediaBufferOnMFMediaBuffer@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : MFCreateLegacyMediaBufferOnMFMediaBuffer
+
+Archive member name at 6AC2: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDB85FDB
+  SizeOfData   : 0000002B
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMFByteStreamOnStream@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : MFCreateMFByteStreamOnStream
+
+Archive member name at 6B3E: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB1BA732
+  SizeOfData   : 0000002D
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMFByteStreamOnStreamEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : MFCreateMFByteStreamOnStreamEx
+
+Archive member name at 6BBC: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2DE3E4F
+  SizeOfData   : 0000002A
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMFByteStreamWrapper@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : MFCreateMFByteStreamWrapper
+
+Archive member name at 6C36: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E00D804A
+  SizeOfData   : 00000034
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMFVideoFormatFromMFMediaType@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : MFCreateMFVideoFormatFromMFMediaType
+
+Archive member name at 6CBA: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCC0C77A
+  SizeOfData   : 00000030
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMediaBufferFromMediaType@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : MFCreateMediaBufferFromMediaType
+
+Archive member name at 6D3A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F91A2269
+  SizeOfData   : 0000002A
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMediaBufferWrapper@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : MFCreateMediaBufferWrapper
+
+Archive member name at 6DB4: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D30BAB1C
+  SizeOfData   : 00000022
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMediaEvent@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : MFCreateMediaEvent
+
+Archive member name at 6E26: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEEC94D6
+  SizeOfData   : 0000002E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMediaExtensionActivate@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : MFCreateMediaExtensionActivate
+
+Archive member name at 6EA4: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAA16E63
+  SizeOfData   : 00000020
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMediaType@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : MFCreateMediaType
+
+Archive member name at 6F14: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C15A3E95
+  SizeOfData   : 0000002E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMediaTypeFromProperties@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : MFCreateMediaTypeFromProperties
+
+Archive member name at 6F92: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA3A9EEC
+  SizeOfData   : 00000033
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMediaTypeFromRepresentation@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : MFCreateMediaTypeFromRepresentation
+
+Archive member name at 7016: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C95649DD
+  SizeOfData   : 00000023
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMemoryBuffer@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : MFCreateMemoryBuffer
+
+Archive member name at 708A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3A0A742
+  SizeOfData   : 0000002A
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMuxStreamAttributes@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : MFCreateMuxStreamAttributes
+
+Archive member name at 7104: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C75DB690
+  SizeOfData   : 00000029
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMuxStreamMediaType@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : MFCreateMuxStreamMediaType
+
+Archive member name at 717E: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F36E4869
+  SizeOfData   : 00000026
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateMuxStreamSample@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : MFCreateMuxStreamSample
+
+Archive member name at 71F4: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9F7F7D1
+  SizeOfData   : 0000002E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreatePresentationDescriptor@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 82
+  Name         : MFCreatePresentationDescriptor
+
+Archive member name at 7272: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E29A4FB8
+  SizeOfData   : 0000002F
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreatePropertiesFromMediaType@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : MFCreatePropertiesFromMediaType
+
+Archive member name at 72F2: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D015F647
+  SizeOfData   : 0000001D
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateSample@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 86
+  Name         : MFCreateSample
+
+Archive member name at 7360: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      50 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD438998
+  SizeOfData   : 0000003C
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateSharedMemoryMediaBufferFromMediaType@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 88
+  Name         : MFCreateSharedMemoryMediaBufferFromMediaType
+
+Archive member name at 73EC: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC45C1D6
+  SizeOfData   : 00000025
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateSourceResolver@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 91
+  Name         : MFCreateSourceResolver
+
+Archive member name at 7462: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F03EB566
+  SizeOfData   : 00000028
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateStreamDescriptor@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 94
+  Name         : MFCreateStreamDescriptor
+
+Archive member name at 74DA: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5DADA6A
+  SizeOfData   : 0000002B
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateStreamOnMFByteStream@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 95
+  Name         : MFCreateStreamOnMFByteStream
+
+Archive member name at 7556: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E47503B5
+  SizeOfData   : 0000002E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateStreamOnMFByteStreamEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 96
+  Name         : MFCreateStreamOnMFByteStreamEx
+
+Archive member name at 75D4: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E99FB7F5
+  SizeOfData   : 00000027
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateSystemTimeSource@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 97
+  Name         : MFCreateSystemTimeSource
+
+Archive member name at 764C: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8E00E8C
+  SizeOfData   : 00000020
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateTempFile@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 99
+  Name         : MFCreateTempFile
+
+Archive member name at 76BC: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8CE77E5
+  SizeOfData   : 00000024
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateTrackedSample@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 100
+  Name         : MFCreateTrackedSample
+
+Archive member name at 7730: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFA7E8E1
+  SizeOfData   : 00000028
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateTransformActivate@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 101
+  Name         : MFCreateTransformActivate
+
+Archive member name at 77A8: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC38029F
+  SizeOfData   : 0000002D
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateVideoDecryptorContext@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 104
+  Name         : MFCreateVideoDecryptorContext
+
+Archive member name at 7826: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA0B2395
+  SizeOfData   : 00000025
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateVideoMediaType@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 105
+  Name         : MFCreateVideoMediaType
+
+Archive member name at 789C: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD386C29
+  SizeOfData   : 0000003A
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateVideoMediaTypeFromBitMapInfoHeader@48
+  Type         : code
+  Name type    : undecorate
+  Hint         : 106
+  Name         : MFCreateVideoMediaTypeFromBitMapInfoHeader
+
+Archive member name at 7926: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      50 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAD782AB
+  SizeOfData   : 0000003C
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateVideoMediaTypeFromBitMapInfoHeaderEx@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 107
+  Name         : MFCreateVideoMediaTypeFromBitMapInfoHeaderEx
+
+Archive member name at 79B2: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBBE4C5D
+  SizeOfData   : 00000030
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateVideoMediaTypeFromSubtype@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 108
+  Name         : MFCreateVideoMediaTypeFromSubtype
+
+Archive member name at 7A32: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F67BC4CD
+  SizeOfData   : 0000003A
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateVideoMediaTypeFromVideoInfoHeader2@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 110
+  Name         : MFCreateVideoMediaTypeFromVideoInfoHeader2
+
+Archive member name at 7ABC: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6249418
+  SizeOfData   : 00000039
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateVideoMediaTypeFromVideoInfoHeader@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 109
+  Name         : MFCreateVideoMediaTypeFromVideoInfoHeader
+
+Archive member name at 7B46: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC8443A9
+  SizeOfData   : 0000002D
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateVideoSampleAllocatorEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 111
+  Name         : MFCreateVideoSampleAllocatorEx
+
+Archive member name at 7BC4: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBD2CEDE
+  SizeOfData   : 00000027
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateWICBitmapBuffer@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 112
+  Name         : MFCreateWICBitmapBuffer
+
+Archive member name at 7C3C: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD5B0196
+  SizeOfData   : 00000033
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFCreateWaveFormatExFromMFMediaType@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 114
+  Name         : MFCreateWaveFormatExFromMFMediaType
+
+Archive member name at 7CC0: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8FB61A0
+  SizeOfData   : 00000031
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFDeserializeAttributesFromStream@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 115
+  Name         : MFDeserializeAttributesFromStream
+
+Archive member name at 7D42: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F87C3D58
+  SizeOfData   : 00000033
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFDeserializePresentationDescriptor@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 118
+  Name         : MFDeserializePresentationDescriptor
+
+Archive member name at 7DC6: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3165A0D
+  SizeOfData   : 0000001E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFEndCreateFile@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 119
+  Name         : MFEndCreateFile
+
+Archive member name at 7E34: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAE8BA0C
+  SizeOfData   : 0000002E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFEndRegisterWorkQueueWithMMCSS@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 121
+  Name         : MFEndRegisterWorkQueueWithMMCSS
+
+Archive member name at 7EB2: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC94D878
+  SizeOfData   : 00000030
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFEndUnregisterWorkQueueWithMMCSS@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 122
+  Name         : MFEndUnregisterWorkQueueWithMMCSS
+
+Archive member name at 7F32: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFFC21D8
+  SizeOfData   : 00000030
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFFrameRateToAverageTimePerFrame@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 124
+  Name         : MFFrameRateToAverageTimePerFrame
+
+Archive member name at 7FB2: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4524568
+  SizeOfData   : 00000025
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetAttributesAsBlob@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 127
+  Name         : MFGetAttributesAsBlob
+
+Archive member name at 8028: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4DB16F1
+  SizeOfData   : 00000028
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetAttributesAsBlobSize@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 128
+  Name         : MFGetAttributesAsBlobSize
+
+Archive member name at 80A0: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8BABC6C
+  SizeOfData   : 00000030
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetContentProtectionSystemCLSID@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 134
+  Name         : MFGetContentProtectionSystemCLSID
+
+Archive member name at 8120: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3385A65
+  SizeOfData   : 0000001D
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetMFTMerit@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 135
+  Name         : MFGetMFTMerit
+
+Archive member name at 818E: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D23E69A9
+  SizeOfData   : 0000001E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetPlaneSize@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 137
+  Name         : MFGetPlaneSize
+
+Archive member name at 81FC: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE4F6D84
+  SizeOfData   : 00000021
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetPluginControl@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 140
+  Name         : MFGetPluginControl
+
+Archive member name at 826E: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCA9C9E9
+  SizeOfData   : 0000002E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetStrideForBitmapInfoHeader@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 143
+  Name         : MFGetStrideForBitmapInfoHeader
+
+Archive member name at 82EC: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DECB1CCC
+  SizeOfData   : 00000026
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetSupportedMimeTypes@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 144
+  Name         : MFGetSupportedMimeTypes
+
+Archive member name at 8362: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF38422B
+  SizeOfData   : 00000024
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetSupportedSchemes@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 145
+  Name         : MFGetSupportedSchemes
+
+Archive member name at 83D6: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB52C965
+  SizeOfData   : 0000001E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetSystemTime@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 146
+  Name         : MFGetSystemTime
+
+Archive member name at 8444: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C42A924B
+  SizeOfData   : 00000024
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetTimerPeriodicity@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 147
+  Name         : MFGetTimerPeriodicity
+
+Archive member name at 84B8: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF6CCB45
+  SizeOfData   : 0000002B
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetUncompressedVideoFormat@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 148
+  Name         : MFGetUncompressedVideoFormat
+
+Archive member name at 8534: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB2470BE
+  SizeOfData   : 00000028
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetWorkQueueMMCSSClass@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 149
+  Name         : MFGetWorkQueueMMCSSClass
+
+Archive member name at 85AC: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBA9057F
+  SizeOfData   : 0000002A
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetWorkQueueMMCSSPriority@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 150
+  Name         : MFGetWorkQueueMMCSSPriority
+
+Archive member name at 8626: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1ADBEE6
+  SizeOfData   : 00000028
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFGetWorkQueueMMCSSTaskId@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 151
+  Name         : MFGetWorkQueueMMCSSTaskId
+
+Archive member name at 869E: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F64B86F2
+  SizeOfData   : 0000001B
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFHeapAlloc@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 154
+  Name         : MFHeapAlloc
+
+Archive member name at 870A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBF69C84
+  SizeOfData   : 00000019
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFHeapFree@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 155
+  Name         : MFHeapFree
+
+Archive member name at 8774: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4E48A20
+  SizeOfData   : 00000030
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFInitAMMediaTypeFromMFMediaType@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 156
+  Name         : MFInitAMMediaTypeFromMFMediaType
+
+Archive member name at 87F4: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE7E26AD
+  SizeOfData   : 00000028
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFInitAttributesFromBlob@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 157
+  Name         : MFInitAttributesFromBlob
+
+Archive member name at 886C: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAD949FD
+  SizeOfData   : 0000002D
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFInitMediaTypeFromAMMediaType@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 158
+  Name         : MFInitMediaTypeFromAMMediaType
+
+Archive member name at 88EA: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFE1B084
+  SizeOfData   : 00000030
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFInitMediaTypeFromMFVideoFormat@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 159
+  Name         : MFInitMediaTypeFromMFVideoFormat
+
+Archive member name at 896A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2FEEC19
+  SizeOfData   : 00000031
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFInitMediaTypeFromMPEG1VideoInfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 160
+  Name         : MFInitMediaTypeFromMPEG1VideoInfo
+
+Archive member name at 89EC: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF094171
+  SizeOfData   : 00000031
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFInitMediaTypeFromMPEG2VideoInfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 161
+  Name         : MFInitMediaTypeFromMPEG2VideoInfo
+
+Archive member name at 8A6E: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D54EC1F0
+  SizeOfData   : 00000033
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFInitMediaTypeFromVideoInfoHeader2@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 163
+  Name         : MFInitMediaTypeFromVideoInfoHeader2
+
+Archive member name at 8AF2: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6E50A3D
+  SizeOfData   : 00000032
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFInitMediaTypeFromVideoInfoHeader@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 162
+  Name         : MFInitMediaTypeFromVideoInfoHeader
+
+Archive member name at 8B74: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3DF3E27
+  SizeOfData   : 0000002F
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFInitMediaTypeFromWaveFormatEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 164
+  Name         : MFInitMediaTypeFromWaveFormatEx
+
+Archive member name at 8BF4: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9B48FCD
+  SizeOfData   : 00000020
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFInitVideoFormat@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 165
+  Name         : MFInitVideoFormat
+
+Archive member name at 8C64: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCEE2AC1
+  SizeOfData   : 00000025
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFInitVideoFormat_RGB@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 166
+  Name         : MFInitVideoFormat_RGB
+
+Archive member name at 8CDA: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7060A63
+  SizeOfData   : 0000001F
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFInvokeCallback@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 168
+  Name         : MFInvokeCallback
+
+Archive member name at 8D4A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6C27F42
+  SizeOfData   : 00000033
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFIsContentProtectionDeviceSupported@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 170
+  Name         : MFIsContentProtectionDeviceSupported
+
+Archive member name at 8DCE: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB0DE65D
+  SizeOfData   : 00000026
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFLockDXGIDeviceManager@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 175
+  Name         : MFLockDXGIDeviceManager
+
+Archive member name at 8E44: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2BEDA7B
+  SizeOfData   : 0000001D
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFLockPlatform@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 176
+  Name         : MFLockPlatform
+
+Archive member name at 8EB2: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0CD6AE5
+  SizeOfData   : 00000025
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFLockSharedWorkQueue@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 177
+  Name         : MFLockSharedWorkQueue
+
+Archive member name at 8F28: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA7A73A6
+  SizeOfData   : 0000001E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFLockWorkQueue@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 178
+  Name         : MFLockWorkQueue
+
+Archive member name at 8F96: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9E73C33
+  SizeOfData   : 00000029
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFMapDX9FormatToDXGIFormat@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 179
+  Name         : MFMapDX9FormatToDXGIFormat
+
+Archive member name at 9010: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F41138FB
+  SizeOfData   : 00000029
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFMapDXGIFormatToDX9Format@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 180
+  Name         : MFMapDXGIFormatToDX9Format
+
+Archive member name at 908A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C65EB2F4
+  SizeOfData   : 00000024
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFPutWaitingWorkItem@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 183
+  Name         : MFPutWaitingWorkItem
+
+Archive member name at 90FE: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D901423D
+  SizeOfData   : 0000001E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFPutWorkItem2@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 185
+  Name         : MFPutWorkItem2
+
+Archive member name at 916C: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D50E7CDC
+  SizeOfData   : 0000001D
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFPutWorkItem@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 184
+  Name         : MFPutWorkItem
+
+Archive member name at 91DA: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE6F9614
+  SizeOfData   : 00000020
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFPutWorkItemEx2@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 187
+  Name         : MFPutWorkItemEx2
+
+Archive member name at 924A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C29BF752
+  SizeOfData   : 0000001E
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFPutWorkItemEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 186
+  Name         : MFPutWorkItemEx
+
+Archive member name at 92B8: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA364904
+  SizeOfData   : 00000030
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFRegisterLocalByteStreamHandler@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 188
+  Name         : MFRegisterLocalByteStreamHandler
+
+Archive member name at 9338: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD44AEBE
+  SizeOfData   : 0000002B
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFRegisterLocalSchemeHandler@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 189
+  Name         : MFRegisterLocalSchemeHandler
+
+Archive member name at 93B4: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1DE7AEB
+  SizeOfData   : 0000002B
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFRegisterPlatformWithMMCSS@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 190
+  Name         : MFRegisterPlatformWithMMCSS
+
+Archive member name at 9430: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB91ECB5
+  SizeOfData   : 00000027
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFRemovePeriodicCallback@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 191
+  Name         : MFRemovePeriodicCallback
+
+Archive member name at 94A8: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0E96134
+  SizeOfData   : 00000022
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFScheduleWorkItem@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 192
+  Name         : MFScheduleWorkItem
+
+Archive member name at 951A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D257C03D
+  SizeOfData   : 00000024
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFScheduleWorkItemEx@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 193
+  Name         : MFScheduleWorkItemEx
+
+Archive member name at 958E: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C846FDC2
+  SizeOfData   : 0000002D
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFSerializeAttributesToStream@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 194
+  Name         : MFSerializeAttributesToStream
+
+Archive member name at 960C: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F99088EC
+  SizeOfData   : 00000031
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFSerializePresentationDescriptor@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 197
+  Name         : MFSerializePresentationDescriptor
+
+Archive member name at 968E: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3FEEB3B
+  SizeOfData   : 00000019
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFShutdown@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 201
+  Name         : MFShutdown
+
+Archive member name at 96F8: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7CE555E
+  SizeOfData   : 0000001D
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFSplitSample@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 202
+  Name         : MFSplitSample
+
+Archive member name at 9766: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB857822
+  SizeOfData   : 00000018
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFStartup@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 203
+  Name         : MFStartup
+
+Archive member name at 97CE: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3C3A02E
+  SizeOfData   : 00000031
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFStreamDescriptorProtectMediaType@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 204
+  Name         : MFStreamDescriptorProtectMediaType
+
+Archive member name at 9850: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E20B7E25
+  SizeOfData   : 00000018
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFTEnum2@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 206
+  Name         : MFTEnum2
+
+Archive member name at 98B8: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB2EA083
+  SizeOfData   : 00000017
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFTEnum@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 205
+  Name         : MFTEnum
+
+Archive member name at 9920: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAD7AA63
+  SizeOfData   : 00000019
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFTEnumEx@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 207
+  Name         : MFTEnumEx
+
+Archive member name at 998A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED7289B6
+  SizeOfData   : 0000001A
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFTGetInfo@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 208
+  Name         : MFTGetInfo
+
+Archive member name at 99F4: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFCF94FD
+  SizeOfData   : 0000001B
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFTRegister@60
+  Type         : code
+  Name type    : undecorate
+  Hint         : 209
+  Name         : MFTRegister
+
+Archive member name at 9A60: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDC6B831
+  SizeOfData   : 00000020
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFTRegisterLocal@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 210
+  Name         : MFTRegisterLocal
+
+Archive member name at 9AD0: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA536408
+  SizeOfData   : 00000027
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFTRegisterLocalByCLSID@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 211
+  Name         : MFTRegisterLocalByCLSID
+
+Archive member name at 9B48: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC8C9F47
+  SizeOfData   : 0000001D
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFTUnregister@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 212
+  Name         : MFTUnregister
+
+Archive member name at 9BB6: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBCC3E5B
+  SizeOfData   : 00000021
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFTUnregisterLocal@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 213
+  Name         : MFTUnregisterLocal
+
+Archive member name at 9C28: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBCF145D
+  SizeOfData   : 00000029
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFTUnregisterLocalByCLSID@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 214
+  Name         : MFTUnregisterLocalByCLSID
+
+Archive member name at 9CA2: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDA809FE
+  SizeOfData   : 0000001C
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFTraceError@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 215
+  Name         : MFTraceError
+
+Archive member name at 9D0E: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA6BBF01
+  SizeOfData   : 00000020
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFTraceFuncEnter@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 216
+  Name         : MFTraceFuncEnter
+
+Archive member name at 9D7E: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D09EBC9C
+  SizeOfData   : 00000028
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFUnlockDXGIDeviceManager@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 218
+  Name         : MFUnlockDXGIDeviceManager
+
+Archive member name at 9DF6: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC0C2191
+  SizeOfData   : 0000001F
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFUnlockPlatform@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 219
+  Name         : MFUnlockPlatform
+
+Archive member name at 9E66: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E319A7EC
+  SizeOfData   : 00000020
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFUnlockWorkQueue@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 220
+  Name         : MFUnlockWorkQueue
+
+Archive member name at 9ED6: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD41E02B
+  SizeOfData   : 0000002C
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFUnregisterPlatformFromMMCSS@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 221
+  Name         : MFUnregisterPlatformFromMMCSS
+
+Archive member name at 9F52: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1A22135
+  SizeOfData   : 00000020
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFUnwrapMediaType@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 222
+  Name         : MFUnwrapMediaType
+
+Archive member name at 9FC2: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD45B66C
+  SizeOfData   : 00000027
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFValidateMediaTypeSize@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 223
+  Name         : MFValidateMediaTypeSize
+
+Archive member name at A03A: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3693966
+  SizeOfData   : 0000001F
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFWrapMediaType@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 224
+  Name         : MFWrapMediaType
+
+Archive member name at A0AA: MFPlat.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2E6AA96
+  SizeOfData   : 0000001A
+  DLL name     : MFPlat.DLL
+  Symbol name  : _MFllMulDiv@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 226
+  Name         : MFllMulDiv
+
+     Exports
+
+       ordinal    name
+
+                  _CreatePropertyStore@4
+                  _MFAddPeriodicCallback@12
+                  _MFAllocateSerialWorkQueue@8
+                  _MFAllocateWorkQueue@4
+                  _MFAllocateWorkQueueEx@8
+                  _MFAverageTimePerFrameToFrameRate@16
+                  _MFBeginCreateFile@28
+                  _MFBeginRegisterWorkQueueWithMMCSS@20
+                  _MFBeginRegisterWorkQueueWithMMCSSEx@24
+                  _MFBeginUnregisterWorkQueueWithMMCSS@12
+                  _MFCalculateBitmapImageSize@16
+                  _MFCalculateImageSize@16
+                  _MFCancelCreateFile@4
+                  _MFCancelWorkItem@8
+                  _MFCombineSamples@16
+                  _MFCompareFullToPartialMediaType@8
+                  _MFConvertColorInfoFromDXVA@8
+                  _MFConvertColorInfoToDXVA@8
+                  _MFConvertFromFP16Array@12
+                  _MFConvertToFP16Array@12
+                  _MFCopyImage@24
+                  _MFCreate2DMediaBuffer@20
+                  _MFCreateAMMediaTypeFromMFMediaType@24
+                  _MFCreateAlignedMemoryBuffer@12
+                  _MFCreateAsyncResult@16
+                  _MFCreateAttributes@8
+                  _MFCreateAudioMediaType@8
+                  _MFCreateCollection@4
+                  _MFCreateContentDecryptorContext@16
+                  _MFCreateContentProtectionDevice@8
+                  _MFCreateDXGIDeviceManager@8
+                  _MFCreateDXGISurfaceBuffer@20
+                  _MFCreateDXSurfaceBuffer@16
+                  _MFCreateEventQueue@4
+                  _MFCreateFile@20
+                  _MFCreateLegacyMediaBufferOnMFMediaBuffer@16
+                  _MFCreateMFByteStreamOnStream@8
+                  _MFCreateMFByteStreamOnStreamEx@8
+                  _MFCreateMFByteStreamWrapper@8
+                  _MFCreateMFVideoFormatFromMFMediaType@12
+                  _MFCreateMediaBufferFromMediaType@24
+                  _MFCreateMediaBufferWrapper@16
+                  _MFCreateMediaEvent@20
+                  _MFCreateMediaExtensionActivate@16
+                  _MFCreateMediaType@4
+                  _MFCreateMediaTypeFromProperties@8
+                  _MFCreateMediaTypeFromRepresentation@24
+                  _MFCreateMemoryBuffer@8
+                  _MFCreateMuxStreamAttributes@8
+                  _MFCreateMuxStreamMediaType@8
+                  _MFCreateMuxStreamSample@8
+                  _MFCreatePresentationDescriptor@12
+                  _MFCreatePropertiesFromMediaType@12
+                  _MFCreateSample@4
+                  _MFCreateSharedMemoryMediaBufferFromMediaType@32
+                  _MFCreateSourceResolver@4
+                  _MFCreateStreamDescriptor@16
+                  _MFCreateStreamOnMFByteStream@8
+                  _MFCreateStreamOnMFByteStreamEx@12
+                  _MFCreateSystemTimeSource@4
+                  _MFCreateTempFile@16
+                  _MFCreateTrackedSample@4
+                  _MFCreateTransformActivate@4
+                  _MFCreateVideoDecryptorContext@16
+                  _MFCreateVideoMediaType@8
+                  _MFCreateVideoMediaTypeFromBitMapInfoHeader@48
+                  _MFCreateVideoMediaTypeFromBitMapInfoHeaderEx@44
+                  _MFCreateVideoMediaTypeFromSubtype@8
+                  _MFCreateVideoMediaTypeFromVideoInfoHeader2@24
+                  _MFCreateVideoMediaTypeFromVideoInfoHeader@36
+                  _MFCreateVideoSampleAllocatorEx@8
+                  _MFCreateWICBitmapBuffer@12
+                  _MFCreateWaveFormatExFromMFMediaType@16
+                  _MFDeserializeAttributesFromStream@12
+                  _MFDeserializePresentationDescriptor@12
+                  _MFEndCreateFile@8
+                  _MFEndRegisterWorkQueueWithMMCSS@8
+                  _MFEndUnregisterWorkQueueWithMMCSS@4
+                  _MFFrameRateToAverageTimePerFrame@12
+                  _MFGetAttributesAsBlob@12
+                  _MFGetAttributesAsBlobSize@8
+                  _MFGetContentProtectionSystemCLSID@8
+                  _MFGetMFTMerit@16
+                  _MFGetPlaneSize@16
+                  _MFGetPluginControl@4
+                  _MFGetStrideForBitmapInfoHeader@12
+                  _MFGetSupportedMimeTypes@4
+                  _MFGetSupportedSchemes@4
+                  _MFGetSystemTime@0
+                  _MFGetTimerPeriodicity@4
+                  _MFGetUncompressedVideoFormat@4
+                  _MFGetWorkQueueMMCSSClass@12
+                  _MFGetWorkQueueMMCSSPriority@8
+                  _MFGetWorkQueueMMCSSTaskId@8
+                  _MFHeapAlloc@20
+                  _MFHeapFree@4
+                  _MFInitAMMediaTypeFromMFMediaType@24
+                  _MFInitAttributesFromBlob@12
+                  _MFInitMediaTypeFromAMMediaType@8
+                  _MFInitMediaTypeFromMFVideoFormat@12
+                  _MFInitMediaTypeFromMPEG1VideoInfo@16
+                  _MFInitMediaTypeFromMPEG2VideoInfo@16
+                  _MFInitMediaTypeFromVideoInfoHeader2@16
+                  _MFInitMediaTypeFromVideoInfoHeader@16
+                  _MFInitMediaTypeFromWaveFormatEx@12
+                  _MFInitVideoFormat@8
+                  _MFInitVideoFormat_RGB@16
+                  _MFInvokeCallback@4
+                  _MFIsContentProtectionDeviceSupported@8
+                  _MFLockDXGIDeviceManager@8
+                  _MFLockPlatform@0
+                  _MFLockSharedWorkQueue@16
+                  _MFLockWorkQueue@4
+                  _MFMapDX9FormatToDXGIFormat@4
+                  _MFMapDXGIFormatToDX9Format@4
+                  _MFPutWaitingWorkItem@16
+                  _MFPutWorkItem2@16
+                  _MFPutWorkItem@12
+                  _MFPutWorkItemEx2@12
+                  _MFPutWorkItemEx@8
+                  _MFRegisterLocalByteStreamHandler@12
+                  _MFRegisterLocalSchemeHandler@8
+                  _MFRegisterPlatformWithMMCSS@12
+                  _MFRemovePeriodicCallback@4
+                  _MFScheduleWorkItem@20
+                  _MFScheduleWorkItemEx@16
+                  _MFSerializeAttributesToStream@12
+                  _MFSerializePresentationDescriptor@12
+                  _MFShutdown@0
+                  _MFSplitSample@16
+                  _MFStartup@8
+                  _MFStreamDescriptorProtectMediaType@8
+                  _MFTEnum2@40
+                  _MFTEnum@40
+                  _MFTEnumEx@36
+                  _MFTGetInfo@40
+                  _MFTRegister@60
+                  _MFTRegisterLocal@32
+                  _MFTRegisterLocalByCLSID@32
+                  _MFTUnregister@16
+                  _MFTUnregisterLocal@4
+                  _MFTUnregisterLocalByCLSID@16
+                  _MFTraceError@24
+                  _MFTraceFuncEnter@16
+                  _MFUnlockDXGIDeviceManager@0
+                  _MFUnlockPlatform@0
+                  _MFUnlockWorkQueue@4
+                  _MFUnregisterPlatformFromMMCSS@0
+                  _MFUnwrapMediaType@8
+                  _MFValidateMediaTypeSize@24
+                  _MFWrapMediaType@16
+                  _MFllMulDiv@32
+
+  Summary
+
+          C0 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

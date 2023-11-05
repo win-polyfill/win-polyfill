@@ -1,0 +1,885 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_AcceptSecurityContext@36"
+    },
+    {
+      "name": "_AcquireCredentialsHandleA@36"
+    },
+    {
+      "name": "_AcquireCredentialsHandleW@36"
+    },
+    {
+      "name": "_AddSecurityPackageA@8"
+    },
+    {
+      "name": "_AddSecurityPackageW@8"
+    },
+    {
+      "name": "_ApplyControlToken@8"
+    },
+    {
+      "name": "_CompleteAuthToken@8"
+    },
+    {
+      "name": "_DecryptMessage@16"
+    },
+    {
+      "name": "_DeleteSecurityContext@4"
+    },
+    {
+      "name": "_DeleteSecurityPackageA@4"
+    },
+    {
+      "name": "_DeleteSecurityPackageW@4"
+    },
+    {
+      "name": "_EncryptMessage@16"
+    },
+    {
+      "name": "_EnumerateSecurityPackagesA@8"
+    },
+    {
+      "name": "_EnumerateSecurityPackagesW@8"
+    },
+    {
+      "name": "_ExportSecurityContext@16"
+    },
+    {
+      "name": "_FreeContextBuffer@4"
+    },
+    {
+      "name": "_FreeCredentialsHandle@4"
+    },
+    {
+      "name": "_ImpersonateSecurityContext@4"
+    },
+    {
+      "name": "_ImportSecurityContextA@16"
+    },
+    {
+      "name": "_ImportSecurityContextW@16"
+    },
+    {
+      "name": "_InitSecurityInterfaceA@0"
+    },
+    {
+      "name": "_InitSecurityInterfaceW@0"
+    },
+    {
+      "name": "_InitializeSecurityContextA@48"
+    },
+    {
+      "name": "_InitializeSecurityContextW@48"
+    },
+    {
+      "name": "_MakeSignature@16"
+    },
+    {
+      "name": "_QueryContextAttributesA@12"
+    },
+    {
+      "name": "_QueryContextAttributesW@12"
+    },
+    {
+      "name": "_QueryCredentialsAttributesA@12"
+    },
+    {
+      "name": "_QueryCredentialsAttributesW@12"
+    },
+    {
+      "name": "_QuerySecurityContextToken@8"
+    },
+    {
+      "name": "_QuerySecurityPackageInfoA@8"
+    },
+    {
+      "name": "_QuerySecurityPackageInfoW@8"
+    },
+    {
+      "name": "_RevertSecurityContext@4"
+    },
+    {
+      "name": "_SealMessage@16"
+    },
+    {
+      "name": "_UnsealMessage@16"
+    },
+    {
+      "name": "_VerifySignature@16"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 5030,
+      "name": "__IMPORT_DESCRIPTOR_Security"
+    },
+    {
+      "offset": 5588,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 5900,
+      "name": "Security_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 8734,
+      "name": "_InitSecurityInterfaceW@0"
+    },
+    {
+      "offset": 8734,
+      "name": "__imp__InitSecurityInterfaceW@0"
+    },
+    {
+      "offset": 8614,
+      "name": "_InitSecurityInterfaceA@0"
+    },
+    {
+      "offset": 8614,
+      "name": "__imp__InitSecurityInterfaceA@0"
+    },
+    {
+      "offset": 9954,
+      "name": "_QuerySecurityPackageInfoW@8"
+    },
+    {
+      "offset": 9954,
+      "name": "__imp__QuerySecurityPackageInfoW@8"
+    },
+    {
+      "offset": 9832,
+      "name": "_QuerySecurityPackageInfoA@8"
+    },
+    {
+      "offset": 9832,
+      "name": "__imp__QuerySecurityPackageInfoA@8"
+    },
+    {
+      "offset": 7774,
+      "name": "_EnumerateSecurityPackagesW@8"
+    },
+    {
+      "offset": 7774,
+      "name": "__imp__EnumerateSecurityPackagesW@8"
+    },
+    {
+      "offset": 7650,
+      "name": "_EnumerateSecurityPackagesA@8"
+    },
+    {
+      "offset": 7650,
+      "name": "__imp__EnumerateSecurityPackagesA@8"
+    },
+    {
+      "offset": 6484,
+      "name": "_AcquireCredentialsHandleW@36"
+    },
+    {
+      "offset": 6484,
+      "name": "__imp__AcquireCredentialsHandleW@36"
+    },
+    {
+      "offset": 6360,
+      "name": "_AcquireCredentialsHandleA@36"
+    },
+    {
+      "offset": 6360,
+      "name": "__imp__AcquireCredentialsHandleA@36"
+    },
+    {
+      "offset": 8978,
+      "name": "_InitializeSecurityContextW@48"
+    },
+    {
+      "offset": 8978,
+      "name": "__imp__InitializeSecurityContextW@48"
+    },
+    {
+      "offset": 8854,
+      "name": "_InitializeSecurityContextA@48"
+    },
+    {
+      "offset": 8854,
+      "name": "__imp__InitializeSecurityContextA@48"
+    },
+    {
+      "offset": 9336,
+      "name": "_QueryContextAttributesW@12"
+    },
+    {
+      "offset": 9336,
+      "name": "__imp__QueryContextAttributesW@12"
+    },
+    {
+      "offset": 9214,
+      "name": "_QueryContextAttributesA@12"
+    },
+    {
+      "offset": 9214,
+      "name": "__imp__QueryContextAttributesA@12"
+    },
+    {
+      "offset": 9584,
+      "name": "_QueryCredentialsAttributesW@12"
+    },
+    {
+      "offset": 9584,
+      "name": "__imp__QueryCredentialsAttributesW@12"
+    },
+    {
+      "offset": 9458,
+      "name": "_QueryCredentialsAttributesA@12"
+    },
+    {
+      "offset": 9458,
+      "name": "__imp__QueryCredentialsAttributesA@12"
+    },
+    {
+      "offset": 8132,
+      "name": "_FreeCredentialsHandle@4"
+    },
+    {
+      "offset": 8132,
+      "name": "__imp__FreeCredentialsHandle@4"
+    },
+    {
+      "offset": 6240,
+      "name": "_AcceptSecurityContext@36"
+    },
+    {
+      "offset": 6240,
+      "name": "__imp__AcceptSecurityContext@36"
+    },
+    {
+      "offset": 7180,
+      "name": "_DeleteSecurityContext@4"
+    },
+    {
+      "offset": 7180,
+      "name": "__imp__DeleteSecurityContext@4"
+    },
+    {
+      "offset": 6840,
+      "name": "_ApplyControlToken@8"
+    },
+    {
+      "offset": 6840,
+      "name": "__imp__ApplyControlToken@8"
+    },
+    {
+      "offset": 6954,
+      "name": "_CompleteAuthToken@8"
+    },
+    {
+      "offset": 6954,
+      "name": "__imp__CompleteAuthToken@8"
+    },
+    {
+      "offset": 9102,
+      "name": "_MakeSignature@16"
+    },
+    {
+      "offset": 9102,
+      "name": "__imp__MakeSignature@16"
+    },
+    {
+      "offset": 10416,
+      "name": "_VerifySignature@16"
+    },
+    {
+      "offset": 10416,
+      "name": "__imp__VerifySignature@16"
+    },
+    {
+      "offset": 10194,
+      "name": "_SealMessage@16"
+    },
+    {
+      "offset": 10194,
+      "name": "__imp__SealMessage@16"
+    },
+    {
+      "offset": 10304,
+      "name": "_UnsealMessage@16"
+    },
+    {
+      "offset": 10304,
+      "name": "__imp__UnsealMessage@16"
+    },
+    {
+      "offset": 7538,
+      "name": "_EncryptMessage@16"
+    },
+    {
+      "offset": 7538,
+      "name": "__imp__EncryptMessage@16"
+    },
+    {
+      "offset": 7068,
+      "name": "_DecryptMessage@16"
+    },
+    {
+      "offset": 7068,
+      "name": "__imp__DecryptMessage@16"
+    },
+    {
+      "offset": 8250,
+      "name": "_ImpersonateSecurityContext@4"
+    },
+    {
+      "offset": 8250,
+      "name": "__imp__ImpersonateSecurityContext@4"
+    },
+    {
+      "offset": 10076,
+      "name": "_RevertSecurityContext@4"
+    },
+    {
+      "offset": 10076,
+      "name": "__imp__RevertSecurityContext@4"
+    },
+    {
+      "offset": 8018,
+      "name": "_FreeContextBuffer@4"
+    },
+    {
+      "offset": 8018,
+      "name": "__imp__FreeContextBuffer@4"
+    },
+    {
+      "offset": 9710,
+      "name": "_QuerySecurityContextToken@8"
+    },
+    {
+      "offset": 9710,
+      "name": "__imp__QuerySecurityContextToken@8"
+    },
+    {
+      "offset": 6724,
+      "name": "_AddSecurityPackageW@8"
+    },
+    {
+      "offset": 6724,
+      "name": "__imp__AddSecurityPackageW@8"
+    },
+    {
+      "offset": 6608,
+      "name": "_AddSecurityPackageA@8"
+    },
+    {
+      "offset": 6608,
+      "name": "__imp__AddSecurityPackageA@8"
+    },
+    {
+      "offset": 7418,
+      "name": "_DeleteSecurityPackageW@4"
+    },
+    {
+      "offset": 7418,
+      "name": "__imp__DeleteSecurityPackageW@4"
+    },
+    {
+      "offset": 7298,
+      "name": "_DeleteSecurityPackageA@4"
+    },
+    {
+      "offset": 7298,
+      "name": "__imp__DeleteSecurityPackageA@4"
+    },
+    {
+      "offset": 8374,
+      "name": "_ImportSecurityContextA@16"
+    },
+    {
+      "offset": 8374,
+      "name": "__imp__ImportSecurityContextA@16"
+    },
+    {
+      "offset": 8494,
+      "name": "_ImportSecurityContextW@16"
+    },
+    {
+      "offset": 8494,
+      "name": "__imp__ImportSecurityContextW@16"
+    },
+    {
+      "offset": 7898,
+      "name": "_ExportSecurityContext@16"
+    },
+    {
+      "offset": 7898,
+      "name": "__imp__ExportSecurityContext@16"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 6240,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3519673362,
+      "sizeOfData": 39,
+      "dllName": "Security.dll",
+      "symbolName": "_AcceptSecurityContext@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "AcceptSecurityContext"
+    },
+    {
+      "offset": 6360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3820265501,
+      "sizeOfData": 43,
+      "dllName": "Security.dll",
+      "symbolName": "_AcquireCredentialsHandleA@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "AcquireCredentialsHandleA"
+    },
+    {
+      "offset": 6484,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3704879076,
+      "sizeOfData": 43,
+      "dllName": "Security.dll",
+      "symbolName": "_AcquireCredentialsHandleW@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "AcquireCredentialsHandleW"
+    },
+    {
+      "offset": 6608,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4283380618,
+      "sizeOfData": 36,
+      "dllName": "Security.dll",
+      "symbolName": "_AddSecurityPackageA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "AddSecurityPackageA"
+    },
+    {
+      "offset": 6724,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3458187928,
+      "sizeOfData": 36,
+      "dllName": "Security.dll",
+      "symbolName": "_AddSecurityPackageW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "AddSecurityPackageW"
+    },
+    {
+      "offset": 6840,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3410621634,
+      "sizeOfData": 34,
+      "dllName": "Security.dll",
+      "symbolName": "_ApplyControlToken@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "ApplyControlToken"
+    },
+    {
+      "offset": 6954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4067005105,
+      "sizeOfData": 34,
+      "dllName": "Security.dll",
+      "symbolName": "_CompleteAuthToken@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "CompleteAuthToken"
+    },
+    {
+      "offset": 7068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4266151652,
+      "sizeOfData": 32,
+      "dllName": "Security.dll",
+      "symbolName": "_DecryptMessage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "DecryptMessage"
+    },
+    {
+      "offset": 7180,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3446892298,
+      "sizeOfData": 38,
+      "dllName": "Security.dll",
+      "symbolName": "_DeleteSecurityContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "DeleteSecurityContext"
+    },
+    {
+      "offset": 7298,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3238742641,
+      "sizeOfData": 39,
+      "dllName": "Security.dll",
+      "symbolName": "_DeleteSecurityPackageA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "DeleteSecurityPackageA"
+    },
+    {
+      "offset": 7418,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4213207236,
+      "sizeOfData": 39,
+      "dllName": "Security.dll",
+      "symbolName": "_DeleteSecurityPackageW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "DeleteSecurityPackageW"
+    },
+    {
+      "offset": 7538,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3268685116,
+      "sizeOfData": 32,
+      "dllName": "Security.dll",
+      "symbolName": "_EncryptMessage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "EncryptMessage"
+    },
+    {
+      "offset": 7650,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3317434140,
+      "sizeOfData": 43,
+      "dllName": "Security.dll",
+      "symbolName": "_EnumerateSecurityPackagesA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "EnumerateSecurityPackagesA"
+    },
+    {
+      "offset": 7774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3412132613,
+      "sizeOfData": 43,
+      "dllName": "Security.dll",
+      "symbolName": "_EnumerateSecurityPackagesW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "EnumerateSecurityPackagesW"
+    },
+    {
+      "offset": 7898,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3747868727,
+      "sizeOfData": 39,
+      "dllName": "Security.dll",
+      "symbolName": "_ExportSecurityContext@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "ExportSecurityContext"
+    },
+    {
+      "offset": 8018,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4156444756,
+      "sizeOfData": 34,
+      "dllName": "Security.dll",
+      "symbolName": "_FreeContextBuffer@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "FreeContextBuffer"
+    },
+    {
+      "offset": 8132,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3567881068,
+      "sizeOfData": 38,
+      "dllName": "Security.dll",
+      "symbolName": "_FreeCredentialsHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "FreeCredentialsHandle"
+    },
+    {
+      "offset": 8250,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3838601495,
+      "sizeOfData": 43,
+      "dllName": "Security.dll",
+      "symbolName": "_ImpersonateSecurityContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "ImpersonateSecurityContext"
+    },
+    {
+      "offset": 8374,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3614129230,
+      "sizeOfData": 40,
+      "dllName": "Security.dll",
+      "symbolName": "_ImportSecurityContextA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "ImportSecurityContextA"
+    },
+    {
+      "offset": 8494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4190304912,
+      "sizeOfData": 40,
+      "dllName": "Security.dll",
+      "symbolName": "_ImportSecurityContextW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "ImportSecurityContextW"
+    },
+    {
+      "offset": 8614,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4036448184,
+      "sizeOfData": 39,
+      "dllName": "Security.dll",
+      "symbolName": "_InitSecurityInterfaceA@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "InitSecurityInterfaceA"
+    },
+    {
+      "offset": 8734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3290490201,
+      "sizeOfData": 39,
+      "dllName": "Security.dll",
+      "symbolName": "_InitSecurityInterfaceW@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "InitSecurityInterfaceW"
+    },
+    {
+      "offset": 8854,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3715827801,
+      "sizeOfData": 44,
+      "dllName": "Security.dll",
+      "symbolName": "_InitializeSecurityContextA@48",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "InitializeSecurityContextA"
+    },
+    {
+      "offset": 8978,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3599098375,
+      "sizeOfData": 44,
+      "dllName": "Security.dll",
+      "symbolName": "_InitializeSecurityContextW@48",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "InitializeSecurityContextW"
+    },
+    {
+      "offset": 9102,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3721898705,
+      "sizeOfData": 31,
+      "dllName": "Security.dll",
+      "symbolName": "_MakeSignature@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "MakeSignature"
+    },
+    {
+      "offset": 9214,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3700052186,
+      "sizeOfData": 41,
+      "dllName": "Security.dll",
+      "symbolName": "_QueryContextAttributesA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "QueryContextAttributesA"
+    },
+    {
+      "offset": 9336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3475157221,
+      "sizeOfData": 41,
+      "dllName": "Security.dll",
+      "symbolName": "_QueryContextAttributesW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "QueryContextAttributesW"
+    },
+    {
+      "offset": 9458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3620267255,
+      "sizeOfData": 45,
+      "dllName": "Security.dll",
+      "symbolName": "_QueryCredentialsAttributesA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "QueryCredentialsAttributesA"
+    },
+    {
+      "offset": 9584,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4039323863,
+      "sizeOfData": 45,
+      "dllName": "Security.dll",
+      "symbolName": "_QueryCredentialsAttributesW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "QueryCredentialsAttributesW"
+    },
+    {
+      "offset": 9710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3929244733,
+      "sizeOfData": 42,
+      "dllName": "Security.dll",
+      "symbolName": "_QuerySecurityContextToken@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "QuerySecurityContextToken"
+    },
+    {
+      "offset": 9832,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4282592977,
+      "sizeOfData": 42,
+      "dllName": "Security.dll",
+      "symbolName": "_QuerySecurityPackageInfoA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "QuerySecurityPackageInfoA"
+    },
+    {
+      "offset": 9954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4054289938,
+      "sizeOfData": 42,
+      "dllName": "Security.dll",
+      "symbolName": "_QuerySecurityPackageInfoW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "QuerySecurityPackageInfoW"
+    },
+    {
+      "offset": 10076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4088146110,
+      "sizeOfData": 38,
+      "dllName": "Security.dll",
+      "symbolName": "_RevertSecurityContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "RevertSecurityContext"
+    },
+    {
+      "offset": 10194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4260579222,
+      "sizeOfData": 29,
+      "dllName": "Security.dll",
+      "symbolName": "_SealMessage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "SealMessage"
+    },
+    {
+      "offset": 10304,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3772033291,
+      "sizeOfData": 31,
+      "dllName": "Security.dll",
+      "symbolName": "_UnsealMessage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "UnsealMessage"
+    },
+    {
+      "offset": 10416,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4015013913,
+      "sizeOfData": 33,
+      "dllName": "Security.dll",
+      "symbolName": "_VerifySignature@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "VerifySignature"
+    }
+  ]
+}

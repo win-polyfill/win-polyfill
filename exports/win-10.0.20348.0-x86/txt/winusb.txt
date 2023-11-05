@@ -1,0 +1,1026 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\winusb.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     A9A size
+correct header end
+
+    77 public symbols
+
+     15BE __IMPORT_DESCRIPTOR_WINUSB
+     17E4 __NULL_IMPORT_DESCRIPTOR
+     191A WINUSB_NULL_THUNK_DATA
+     20F2 _WinUsb_Initialize@8
+     20F2 __imp__WinUsb_Initialize@8
+     1C36 _WinUsb_Free@4
+     1C36 __imp__WinUsb_Free@4
+     1F1A _WinUsb_GetDescriptor@28
+     1F1A __imp__WinUsb_GetDescriptor@28
+     22DC _WinUsb_QueryInterfaceSettings@12
+     22DC __imp__WinUsb_QueryInterfaceSettings@12
+     225E _WinUsb_QueryDeviceInformation@16
+     225E __imp__WinUsb_QueryDeviceInformation@16
+     26F8 _WinUsb_SetCurrentAlternateSetting@8
+     26F8 __imp__WinUsb_SetCurrentAlternateSetting@8
+     2778 _WinUsb_SetCurrentAlternateSettingAsync@12
+     2778 __imp__WinUsb_SetCurrentAlternateSettingAsync@12
+     1D9C _WinUsb_GetCurrentAlternateSetting@8
+     1D9C __imp__WinUsb_GetCurrentAlternateSetting@8
+     235A _WinUsb_QueryPipe@16
+     235A __imp__WinUsb_QueryPipe@16
+     27FE _WinUsb_SetPipePolicy@20
+     27FE __imp__WinUsb_SetPipePolicy@20
+     2008 _WinUsb_GetPipePolicy@20
+     2008 __imp__WinUsb_GetPipePolicy@20
+     2528 _WinUsb_ReadPipe@24
+     2528 __imp__WinUsb_ReadPipe@24
+     2B50 _WinUsb_WritePipe@24
+     2B50 __imp__WinUsb_WritePipe@24
+     1B50 _WinUsb_ControlTransfer@28
+     1B50 __imp__WinUsb_ControlTransfer@28
+     2612 _WinUsb_ResetPipe@8
+     2612 __imp__WinUsb_ResetPipe@8
+     2682 _WinUsb_ResetPipeAsync@12
+     2682 __imp__WinUsb_ResetPipeAsync@12
+     1A6A _WinUsb_AbortPipe@8
+     1A6A __imp__WinUsb_AbortPipe@8
+     1ADA _WinUsb_AbortPipeAsync@12
+     1ADA __imp__WinUsb_AbortPipeAsync@12
+     1BC6 _WinUsb_FlushPipe@8
+     1BC6 __imp__WinUsb_FlushPipe@8
+     2872 _WinUsb_SetPowerPolicy@16
+     2872 __imp__WinUsb_SetPowerPolicy@16
+     207C _WinUsb_GetPowerPolicy@16
+     207C __imp__WinUsb_GetPowerPolicy@16
+     1F8E _WinUsb_GetOverlappedResult@16
+     1F8E __imp__WinUsb_GetOverlappedResult@16
+     1D1E _WinUsb_GetAssociatedInterface@12
+     1D1E __imp__WinUsb_GetAssociatedInterface@12
+     21E6 _WinUsb_ParseDescriptors@16
+     21E6 __imp__WinUsb_ParseDescriptors@16
+     2162 _WinUsb_ParseConfigurationDescriptor@28
+     2162 __imp__WinUsb_ParseConfigurationDescriptor@28
+     2598 _WinUsb_RegisterIsochBuffer@20
+     2598 __imp__WinUsb_RegisterIsochBuffer@20
+     29E4 _WinUsb_UnregisterIsochBuffer@4
+     29E4 __imp__WinUsb_UnregisterIsochBuffer@4
+     2AD6 _WinUsb_WriteIsochPipeAsap@20
+     2AD6 __imp__WinUsb_WriteIsochPipeAsap@20
+     24B0 _WinUsb_ReadIsochPipeAsap@28
+     24B0 __imp__WinUsb_ReadIsochPipeAsap@28
+     2A60 _WinUsb_WriteIsochPipe@20
+     2A60 __imp__WinUsb_WriteIsochPipe@20
+     243C _WinUsb_ReadIsochPipe@28
+     243C __imp__WinUsb_ReadIsochPipe@28
+     1E1C _WinUsb_GetCurrentFrameNumber@12
+     1E1C __imp__WinUsb_GetCurrentFrameNumber@12
+     1CA0 _WinUsb_GetAdjustedFrameNumber@12
+     1CA0 __imp__WinUsb_GetAdjustedFrameNumber@12
+     23CA _WinUsb_QueryPipeEx@16
+     23CA __imp__WinUsb_QueryPipeEx@16
+     28E8 _WinUsb_StartTrackingForTimeSync@8
+     28E8 __imp__WinUsb_StartTrackingForTimeSync@8
+     1E98 _WinUsb_GetCurrentFrameNumberAndQpc@8
+     1E98 __imp__WinUsb_GetCurrentFrameNumberAndQpc@8
+     2966 _WinUsb_StopTrackingForTimeSync@8
+     2966 __imp__WinUsb_StopTrackingForTimeSync@8
+
+Archive member name at 15BE: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1EA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        DDC8CE0B time date stamp
+             10A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CC file pointer to raw data (000000CC to 000000DF)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FE file pointer to raw data (000000FE to 00000109)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 17E4: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        DEB468E4 time date stamp
+              B8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      64 file pointer to raw data (00000064 to 000000A3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A4 file pointer to raw data (000000A4 to 000000B7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 191A: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     114 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E1C57CC8 time date stamp
+              D4 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CC file pointer to raw data (000000CC to 000000CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data (000000D0 to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1A6A: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCB7CC89
+  SizeOfData   : 0000001F
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_AbortPipe@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : WinUsb_AbortPipe
+
+Archive member name at 1ADA: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7AF54D0
+  SizeOfData   : 00000025
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_AbortPipeAsync@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : WinUsb_AbortPipeAsync
+
+Archive member name at 1B50: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7E0CE4D
+  SizeOfData   : 00000026
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_ControlTransfer@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : WinUsb_ControlTransfer
+
+Archive member name at 1BC6: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD163517
+  SizeOfData   : 0000001F
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_FlushPipe@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : WinUsb_FlushPipe
+
+Archive member name at 1C36: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC327E55
+  SizeOfData   : 0000001A
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_Free@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : WinUsb_Free
+
+Archive member name at 1CA0: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E71B3484
+  SizeOfData   : 0000002D
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_GetAdjustedFrameNumber@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : WinUsb_GetAdjustedFrameNumber
+
+Archive member name at 1D1E: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F242598F
+  SizeOfData   : 0000002D
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_GetAssociatedInterface@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : WinUsb_GetAssociatedInterface
+
+Archive member name at 1D9C: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6984BA2
+  SizeOfData   : 00000030
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_GetCurrentAlternateSetting@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : WinUsb_GetCurrentAlternateSetting
+
+Archive member name at 1E1C: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2A9757F
+  SizeOfData   : 0000002C
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_GetCurrentFrameNumber@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : WinUsb_GetCurrentFrameNumber
+
+Archive member name at 1E98: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4B8D281
+  SizeOfData   : 00000031
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_GetCurrentFrameNumberAndQpc@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : WinUsb_GetCurrentFrameNumberAndQpc
+
+Archive member name at 1F1A: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6594477
+  SizeOfData   : 00000024
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_GetDescriptor@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : WinUsb_GetDescriptor
+
+Archive member name at 1F8E: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3A40814
+  SizeOfData   : 0000002A
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_GetOverlappedResult@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : WinUsb_GetOverlappedResult
+
+Archive member name at 2008: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2D917EE
+  SizeOfData   : 00000024
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_GetPipePolicy@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : WinUsb_GetPipePolicy
+
+Archive member name at 207C: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C500D623
+  SizeOfData   : 00000025
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_GetPowerPolicy@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : WinUsb_GetPowerPolicy
+
+Archive member name at 20F2: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4EFC7C6
+  SizeOfData   : 00000020
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_Initialize@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : WinUsb_Initialize
+
+Archive member name at 2162: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE4AF293
+  SizeOfData   : 00000033
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_ParseConfigurationDescriptor@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : WinUsb_ParseConfigurationDescriptor
+
+Archive member name at 21E6: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D566B8EF
+  SizeOfData   : 00000027
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_ParseDescriptors@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : WinUsb_ParseDescriptors
+
+Archive member name at 225E: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C35BF91E
+  SizeOfData   : 0000002D
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_QueryDeviceInformation@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : WinUsb_QueryDeviceInformation
+
+Archive member name at 22DC: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E89B33AE
+  SizeOfData   : 0000002D
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_QueryInterfaceSettings@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : WinUsb_QueryInterfaceSettings
+
+Archive member name at 235A: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFED27F2
+  SizeOfData   : 00000020
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_QueryPipe@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : WinUsb_QueryPipe
+
+Archive member name at 23CA: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D492A4FE
+  SizeOfData   : 00000022
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_QueryPipeEx@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : WinUsb_QueryPipeEx
+
+Archive member name at 243C: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4C6A0FD
+  SizeOfData   : 00000024
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_ReadIsochPipe@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : WinUsb_ReadIsochPipe
+
+Archive member name at 24B0: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C457D040
+  SizeOfData   : 00000028
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_ReadIsochPipeAsap@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : WinUsb_ReadIsochPipeAsap
+
+Archive member name at 2528: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5D2D8CE
+  SizeOfData   : 0000001F
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_ReadPipe@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : WinUsb_ReadPipe
+
+Archive member name at 2598: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5E808B0
+  SizeOfData   : 0000002A
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_RegisterIsochBuffer@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : WinUsb_RegisterIsochBuffer
+
+Archive member name at 2612: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E041176F
+  SizeOfData   : 0000001F
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_ResetPipe@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : WinUsb_ResetPipe
+
+Archive member name at 2682: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBDEE2D4
+  SizeOfData   : 00000025
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_ResetPipeAsync@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : WinUsb_ResetPipeAsync
+
+Archive member name at 26F8: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C07B173C
+  SizeOfData   : 00000030
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_SetCurrentAlternateSetting@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : WinUsb_SetCurrentAlternateSetting
+
+Archive member name at 2778: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E84957D8
+  SizeOfData   : 00000036
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_SetCurrentAlternateSettingAsync@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : WinUsb_SetCurrentAlternateSettingAsync
+
+Archive member name at 27FE: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5DDA944
+  SizeOfData   : 00000024
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_SetPipePolicy@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : WinUsb_SetPipePolicy
+
+Archive member name at 2872: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E659BB43
+  SizeOfData   : 00000025
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_SetPowerPolicy@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : WinUsb_SetPowerPolicy
+
+Archive member name at 28E8: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFCFD6ED
+  SizeOfData   : 0000002E
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_StartTrackingForTimeSync@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : WinUsb_StartTrackingForTimeSync
+
+Archive member name at 2966: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6DFE6FD
+  SizeOfData   : 0000002D
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_StopTrackingForTimeSync@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : WinUsb_StopTrackingForTimeSync
+
+Archive member name at 29E4: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D02C477A
+  SizeOfData   : 0000002B
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_UnregisterIsochBuffer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : WinUsb_UnregisterIsochBuffer
+
+Archive member name at 2A60: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDBC2788
+  SizeOfData   : 00000025
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_WriteIsochPipe@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : WinUsb_WriteIsochPipe
+
+Archive member name at 2AD6: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF4188BF
+  SizeOfData   : 00000029
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_WriteIsochPipeAsap@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : WinUsb_WriteIsochPipeAsap
+
+Archive member name at 2B50: WINUSB.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7ACAD20
+  SizeOfData   : 00000020
+  DLL name     : WINUSB.DLL
+  Symbol name  : _WinUsb_WritePipe@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : WinUsb_WritePipe
+
+     Exports
+
+       ordinal    name
+
+                  _WinUsb_AbortPipe@8
+                  _WinUsb_AbortPipeAsync@12
+                  _WinUsb_ControlTransfer@28
+                  _WinUsb_FlushPipe@8
+                  _WinUsb_Free@4
+                  _WinUsb_GetAdjustedFrameNumber@12
+                  _WinUsb_GetAssociatedInterface@12
+                  _WinUsb_GetCurrentAlternateSetting@8
+                  _WinUsb_GetCurrentFrameNumber@12
+                  _WinUsb_GetCurrentFrameNumberAndQpc@8
+                  _WinUsb_GetDescriptor@28
+                  _WinUsb_GetOverlappedResult@16
+                  _WinUsb_GetPipePolicy@20
+                  _WinUsb_GetPowerPolicy@16
+                  _WinUsb_Initialize@8
+                  _WinUsb_ParseConfigurationDescriptor@28
+                  _WinUsb_ParseDescriptors@16
+                  _WinUsb_QueryDeviceInformation@16
+                  _WinUsb_QueryInterfaceSettings@12
+                  _WinUsb_QueryPipe@16
+                  _WinUsb_QueryPipeEx@16
+                  _WinUsb_ReadIsochPipe@28
+                  _WinUsb_ReadIsochPipeAsap@28
+                  _WinUsb_ReadPipe@24
+                  _WinUsb_RegisterIsochBuffer@20
+                  _WinUsb_ResetPipe@8
+                  _WinUsb_ResetPipeAsync@12
+                  _WinUsb_SetCurrentAlternateSetting@8
+                  _WinUsb_SetCurrentAlternateSettingAsync@12
+                  _WinUsb_SetPipePolicy@20
+                  _WinUsb_SetPowerPolicy@16
+                  _WinUsb_StartTrackingForTimeSync@8
+                  _WinUsb_StopTrackingForTimeSync@8
+                  _WinUsb_UnregisterIsochBuffer@4
+                  _WinUsb_WriteIsochPipe@20
+                  _WinUsb_WriteIsochPipeAsap@20
+                  _WinUsb_WritePipe@24
+
+  Summary
+
+          C0 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

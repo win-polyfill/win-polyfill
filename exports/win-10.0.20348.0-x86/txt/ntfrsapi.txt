@@ -1,0 +1,938 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\ntfrsapi.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     A3E size
+correct header end
+
+    69 public symbols
+
+     1506 __IMPORT_DESCRIPTOR_NTFRSAPI
+     1734 __NULL_IMPORT_DESCRIPTOR
+     186C NTFRSAPI_NULL_THUNK_DATA
+     26F8 _NtFrsApi_Set_DsPollingIntervalW@16
+     26F8 __imp__NtFrsApi_Set_DsPollingIntervalW@16
+     222E _NtFrsApi_Get_DsPollingIntervalW@16
+     222E __imp__NtFrsApi_Get_DsPollingIntervalW@16
+     25FE _NtFrsApi_PrepareForPromotionW@16
+     25FE __imp__NtFrsApi_PrepareForPromotionW@16
+     2580 _NtFrsApi_PrepareForDemotionW@4
+     2580 __imp__NtFrsApi_PrepareForDemotionW@4
+     24F8 _NtFrsApi_PrepareForDemotionUsingCredW@12
+     24F8 __imp__NtFrsApi_PrepareForDemotionUsingCredW@12
+     27F2 _NtFrsApi_StartPromotionW@44
+     27F2 __imp__NtFrsApi_StartPromotionW@44
+     277A _NtFrsApi_StartDemotionW@8
+     277A __imp__NtFrsApi_StartDemotionW@8
+     20BA _NtFrsApi_CommitPromotionW@8
+     20BA __imp__NtFrsApi_CommitPromotionW@8
+     2040 _NtFrsApi_CommitDemotionW@8
+     2040 __imp__NtFrsApi_CommitDemotionW@8
+     1FC6 _NtFrsApi_AbortPromotionW@0
+     1FC6 __imp__NtFrsApi_AbortPromotionW@0
+     1F4E _NtFrsApi_AbortDemotionW@0
+     1F4E __imp__NtFrsApi_AbortDemotionW@0
+     28E6 _NtFrsApi_WaitForPromotionW@8
+     28E6 __imp__NtFrsApi_WaitForPromotionW@8
+     286C _NtFrsApi_WaitForDemotionW@8
+     286C __imp__NtFrsApi_WaitForDemotionW@8
+     240C _NtFrsApi_InfoW@16
+     240C __imp__NtFrsApi_InfoW@16
+     22B0 _NtFrsApi_InfoFreeW@4
+     22B0 __imp__NtFrsApi_InfoFreeW@4
+     2398 _NtFrsApi_InfoMoreW@4
+     2398 __imp__NtFrsApi_InfoMoreW@4
+     2324 _NtFrsApi_InfoLineW@8
+     2324 __imp__NtFrsApi_InfoLineW@8
+     1DCC _NtFrsApiInitializeBackupRestore@12
+     1DCC __imp__NtFrsApiInitializeBackupRestore@12
+     19C0 _NtFrsApiDestroyBackupRestore@20
+     19C0 __imp__NtFrsApiDestroyBackupRestore@20
+     1D4E _NtFrsApiGetBackupRestoreSets@4
+     1D4E __imp__NtFrsApiGetBackupRestoreSets@4
+     1A3E _NtFrsApiEnumBackupRestoreSets@12
+     1A3E __imp__NtFrsApiEnumBackupRestoreSets@12
+     1E4E _NtFrsApiIsBackupRestoreSetASysvol@12
+     1E4E __imp__NtFrsApiIsBackupRestoreSetASysvol@12
+     1B42 _NtFrsApiGetBackupRestoreSetDirectory@16
+     1B42 __imp__NtFrsApiGetBackupRestoreSetDirectory@16
+     1ED2 _NtFrsApiRestoringDirectory@12
+     1ED2 __imp__NtFrsApiRestoringDirectory@12
+     1ABE _NtFrsApiFinishedRestoringDirectory@12
+     1ABE __imp__NtFrsApiFinishedRestoringDirectory@12
+     1C4A _NtFrsApiGetBackupRestoreSetPaths@24
+     1C4A __imp__NtFrsApiGetBackupRestoreSetPaths@24
+     2134 _NtFrsApi_DeleteSysvolMember@16
+     2134 __imp__NtFrsApi_DeleteSysvolMember@16
+     247C _NtFrsApi_IsPathReplicated@28
+     247C __imp__NtFrsApi_IsPathReplicated@28
+     2962 _NtFrsApi_WriterCommand@8
+     2962 __imp__NtFrsApi_WriterCommand@8
+     1CCC _NtFrsApiGetBackupRestoreSetType@16
+     1CCC __imp__NtFrsApiGetBackupRestoreSetType@16
+     1BC8 _NtFrsApiGetBackupRestoreSetGuid@16
+     1BC8 __imp__NtFrsApiGetBackupRestoreSetGuid@16
+     21B2 _NtFrsApi_ForceReplication@20
+     21B2 __imp__NtFrsApi_ForceReplication@20
+     267E _NtFrsApi_PrepareForUnload@0
+     267E __imp__NtFrsApi_PrepareForUnload@0
+
+Archive member name at 1506: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1F2 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E7B5D058 time date stamp
+             10E file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CE file pointer to raw data (000000CE to 000000E1)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     100 file pointer to raw data (00000100 to 0000010D)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 1734: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        F5144772 time date stamp
+              BA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      64 file pointer to raw data (00000064 to 000000A5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A6 file pointer to raw data (000000A6 to 000000B9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 186C: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     118 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        D9025886 time date stamp
+              D6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 19C0: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C51DA32E
+  SizeOfData   : 0000002E
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApiDestroyBackupRestore@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : NtFrsApiDestroyBackupRestore
+
+Archive member name at 1A3E: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDF3EF93
+  SizeOfData   : 0000002F
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApiEnumBackupRestoreSets@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : NtFrsApiEnumBackupRestoreSets
+
+Archive member name at 1ABE: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBE8A566
+  SizeOfData   : 00000034
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApiFinishedRestoringDirectory@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : NtFrsApiFinishedRestoringDirectory
+
+Archive member name at 1B42: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDD2DE8A
+  SizeOfData   : 00000036
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApiGetBackupRestoreSetDirectory@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : NtFrsApiGetBackupRestoreSetDirectory
+
+Archive member name at 1BC8: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F00D2A21
+  SizeOfData   : 00000031
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApiGetBackupRestoreSetGuid@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : NtFrsApiGetBackupRestoreSetGuid
+
+Archive member name at 1C4A: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFFB1FD1
+  SizeOfData   : 00000032
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApiGetBackupRestoreSetPaths@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : NtFrsApiGetBackupRestoreSetPaths
+
+Archive member name at 1CCC: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4B51DF2
+  SizeOfData   : 00000031
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApiGetBackupRestoreSetType@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : NtFrsApiGetBackupRestoreSetType
+
+Archive member name at 1D4E: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDC39336
+  SizeOfData   : 0000002D
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApiGetBackupRestoreSets@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : NtFrsApiGetBackupRestoreSets
+
+Archive member name at 1DCC: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC9BE1F3
+  SizeOfData   : 00000031
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApiInitializeBackupRestore@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : NtFrsApiInitializeBackupRestore
+
+Archive member name at 1E4E: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D119DE48
+  SizeOfData   : 00000033
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApiIsBackupRestoreSetASysvol@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : NtFrsApiIsBackupRestoreSetASysvol
+
+Archive member name at 1ED2: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA81BCAB
+  SizeOfData   : 0000002C
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApiRestoringDirectory@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : NtFrsApiRestoringDirectory
+
+Archive member name at 1F4E: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9AD7EB3
+  SizeOfData   : 00000028
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_AbortDemotionW@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : NtFrsApi_AbortDemotionW
+
+Archive member name at 1FC6: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F71F8013
+  SizeOfData   : 00000029
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_AbortPromotionW@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : NtFrsApi_AbortPromotionW
+
+Archive member name at 2040: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2D69E2F
+  SizeOfData   : 00000029
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_CommitDemotionW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : NtFrsApi_CommitDemotionW
+
+Archive member name at 20BA: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8CFA921
+  SizeOfData   : 0000002A
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_CommitPromotionW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : NtFrsApi_CommitPromotionW
+
+Archive member name at 2134: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9BF7198
+  SizeOfData   : 0000002D
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_DeleteSysvolMember@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : NtFrsApi_DeleteSysvolMember
+
+Archive member name at 21B2: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE54BD64
+  SizeOfData   : 0000002B
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_ForceReplication@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : NtFrsApi_ForceReplication
+
+Archive member name at 222E: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0F0FBA6
+  SizeOfData   : 00000031
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_Get_DsPollingIntervalW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : NtFrsApi_Get_DsPollingIntervalW
+
+Archive member name at 22B0: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBF8CA01
+  SizeOfData   : 00000023
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_InfoFreeW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : NtFrsApi_InfoFreeW
+
+Archive member name at 2324: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5C0B5A1
+  SizeOfData   : 00000023
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_InfoLineW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : NtFrsApi_InfoLineW
+
+Archive member name at 2398: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7F7BAE4
+  SizeOfData   : 00000023
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_InfoMoreW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : NtFrsApi_InfoMoreW
+
+Archive member name at 240C: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDAAEC56
+  SizeOfData   : 00000020
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_InfoW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : NtFrsApi_InfoW
+
+Archive member name at 247C: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9B59C6D
+  SizeOfData   : 0000002B
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_IsPathReplicated@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : NtFrsApi_IsPathReplicated
+
+Archive member name at 24F8: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE819DF4
+  SizeOfData   : 00000037
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_PrepareForDemotionUsingCredW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : NtFrsApi_PrepareForDemotionUsingCredW
+
+Archive member name at 2580: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB102A43
+  SizeOfData   : 0000002D
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_PrepareForDemotionW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : NtFrsApi_PrepareForDemotionW
+
+Archive member name at 25FE: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA0937C3
+  SizeOfData   : 0000002F
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_PrepareForPromotionW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : NtFrsApi_PrepareForPromotionW
+
+Archive member name at 267E: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0ED1D35
+  SizeOfData   : 0000002A
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_PrepareForUnload@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : NtFrsApi_PrepareForUnload
+
+Archive member name at 26F8: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1FA5B78
+  SizeOfData   : 00000031
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_Set_DsPollingIntervalW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : NtFrsApi_Set_DsPollingIntervalW
+
+Archive member name at 277A: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9A29219
+  SizeOfData   : 00000028
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_StartDemotionW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : NtFrsApi_StartDemotionW
+
+Archive member name at 27F2: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C14A7AA3
+  SizeOfData   : 0000002A
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_StartPromotionW@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : NtFrsApi_StartPromotionW
+
+Archive member name at 286C: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFD06D30
+  SizeOfData   : 0000002A
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_WaitForDemotionW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : NtFrsApi_WaitForDemotionW
+
+Archive member name at 28E6: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E50A10F7
+  SizeOfData   : 0000002B
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_WaitForPromotionW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : NtFrsApi_WaitForPromotionW
+
+Archive member name at 2962: NTFRSAPI.DLL/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDB466E7
+  SizeOfData   : 00000027
+  DLL name     : NTFRSAPI.DLL
+  Symbol name  : _NtFrsApi_WriterCommand@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : NtFrsApi_WriterCommand
+
+     Exports
+
+       ordinal    name
+
+                  _NtFrsApiDestroyBackupRestore@20
+                  _NtFrsApiEnumBackupRestoreSets@12
+                  _NtFrsApiFinishedRestoringDirectory@12
+                  _NtFrsApiGetBackupRestoreSetDirectory@16
+                  _NtFrsApiGetBackupRestoreSetGuid@16
+                  _NtFrsApiGetBackupRestoreSetPaths@24
+                  _NtFrsApiGetBackupRestoreSetType@16
+                  _NtFrsApiGetBackupRestoreSets@4
+                  _NtFrsApiInitializeBackupRestore@12
+                  _NtFrsApiIsBackupRestoreSetASysvol@12
+                  _NtFrsApiRestoringDirectory@12
+                  _NtFrsApi_AbortDemotionW@0
+                  _NtFrsApi_AbortPromotionW@0
+                  _NtFrsApi_CommitDemotionW@8
+                  _NtFrsApi_CommitPromotionW@8
+                  _NtFrsApi_DeleteSysvolMember@16
+                  _NtFrsApi_ForceReplication@20
+                  _NtFrsApi_Get_DsPollingIntervalW@16
+                  _NtFrsApi_InfoFreeW@4
+                  _NtFrsApi_InfoLineW@8
+                  _NtFrsApi_InfoMoreW@4
+                  _NtFrsApi_InfoW@16
+                  _NtFrsApi_IsPathReplicated@28
+                  _NtFrsApi_PrepareForDemotionUsingCredW@12
+                  _NtFrsApi_PrepareForDemotionW@4
+                  _NtFrsApi_PrepareForPromotionW@16
+                  _NtFrsApi_PrepareForUnload@0
+                  _NtFrsApi_Set_DsPollingIntervalW@16
+                  _NtFrsApi_StartDemotionW@8
+                  _NtFrsApi_StartPromotionW@44
+                  _NtFrsApi_WaitForDemotionW@8
+                  _NtFrsApi_WaitForPromotionW@8
+                  _NtFrsApi_WriterCommand@8
+
+  Summary
+
+          C6 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           E .idata$6

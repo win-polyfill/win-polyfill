@@ -1,0 +1,139 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\dnsrpc.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+609607F6 time/date Sat May  8 11:39:34 2021
+         uid
+         gid
+       0 mode
+      1F size
+correct header end
+
+    1 public symbols
+
+      14A _DnsRpcEmptyFunction@0
+
+Archive member name at 14A: /0              d:\os\obj\x86fre\nanoserver\ds\dns\server\dnsrpc\objfre\i386\dnsrpc.obj
+609607F6 time/date Sat May  8 11:39:34 2021
+         uid
+         gid
+  100666 mode
+    337D size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               6 number of sections
+        609607F6 time date stamp Sat May  8 11:39:34 2021
+            3266 file pointer to symbol table
+               E number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+    2300 size of raw data
+     104 file pointer to raw data (00000104 to 00002403)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.text$mn name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    2404 file pointer to raw data (00002404 to 00002407)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= _DnsRpcEmptyFunction@0
+         1 byte align
+         Execute Read
+
+SECTION HEADER #3
+.debug$S name
+       0 physical address
+       0 virtual address
+      D0 size of raw data
+    2408 file pointer to raw data (00002408 to 000024D7)
+    24D8 file pointer to relocation table
+       0 file pointer to line numbers
+       5 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #4
+.debug$T name
+       0 physical address
+       0 virtual address
+     C38 size of raw data
+    250A file pointer to raw data (0000250A to 00003141)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #5
+ .chks64 name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    3142 file pointer to raw data (00003142 to 00003171)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+SECTION HEADER #6
+.drectve name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    3262 file pointer to raw data (00003262 to 00003265)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+  Summary
+
+          30 .chks64
+        23D0 .debug$S
+         C38 .debug$T
+           4 .drectve
+           4 .text$mn

@@ -1,0 +1,4766 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\spoolss.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    3776 size
+correct header end
+
+    417 public symbols
+
+     6F76 __IMPORT_DESCRIPTOR_SPOOLSS
+     71A0 __NULL_IMPORT_DESCRIPTOR
+     72D6 SPOOLSS_NULL_THUNK_DATA
+     A59E _InitializeRouter@4
+     A59E __imp__InitializeRouter@4
+     BF42 _SetJobW@20
+     BF42 __imp__SetJobW@20
+     9FD0 _GetJobW@24
+     9FD0 __imp__GetJobW@24
+     964E _EnumJobsW@32
+     964E __imp__EnumJobsW@32
+     81B4 _AddPrinterW@12
+     81B4 __imp__AddPrinterW@12
+     8146 _AddPrinterExW@20
+     8146 __imp__AddPrinterExW@20
+     8E66 _DeletePrinter@4
+     8E66 __imp__DeletePrinter@4
+     C0F6 _SetPrinterW@16
+     C0F6 __imp__SetPrinterW@16
+     A364 _GetPrinterW@20
+     A364 __imp__GetPrinterW@20
+     A2F2 _GetPrinterDriverW@24
+     A2F2 __imp__GetPrinterDriverW@24
+     AA9C _OldGetPrinterDriverW@24
+     AA9C __imp__OldGetPrinterDriverW@24
+     A202 _GetPrinterDriverDirectoryW@24
+     A202 __imp__GetPrinterDriverDirectoryW@24
+     9ACC _EnumPrintersW@28
+     9ACC __imp__EnumPrintersW@28
+     7FEA _AddPrinterConnectionW@4
+     7FEA __imp__AddPrinterConnectionW@4
+     8ED4 _DeletePrinterConnectionW@4
+     8ED4 __imp__DeletePrinterConnectionW@4
+     80D4 _AddPrinterDriverW@12
+     80D4 __imp__AddPrinterDriverW@12
+     8060 _AddPrinterDriverExW@16
+     8060 __imp__AddPrinterDriverExW@16
+     99E8 _EnumPrinterDriversW@28
+     99E8 __imp__EnumPrinterDriversW@28
+     90AC _DeletePrinterDriverW@12
+     90AC __imp__DeletePrinterDriverW@12
+     9034 _DeletePrinterDriverExW@20
+     9034 __imp__DeletePrinterDriverExW@20
+     7F04 _AddPrintProcessorW@16
+     7F04 __imp__AddPrintProcessorW@16
+     988C _EnumPrintProcessorsW@28
+     988C __imp__EnumPrintProcessorsW@28
+     A0A4 _GetPrintProcessorDirectoryW@24
+     A0A4 __imp__GetPrintProcessorDirectoryW@24
+     8D7A _DeletePrintProcessorW@12
+     8D7A __imp__DeletePrintProcessorW@12
+     980E _EnumPrintProcessorDatatypesW@28
+     980E __imp__EnumPrintProcessorDatatypesW@28
+     ABF2 _OpenPrinterW@12
+     ABF2 __imp__OpenPrinterW@12
+     7428 ?OpenPrinterExW@@YGHPAGPAPAXPAU_PRINTER_DEFAULTSW@@PAU_SPLCLIENT_CONTAINER@@@Z
+     7428 __imp_?OpenPrinterExW@@YGHPAGPAPAXPAU_PRINTER_DEFAULTSW@@PAU_SPLCLIENT_CONTAINER@@@Z
+     AB12 _OpenPrinter2W@16
+     AB12 __imp__OpenPrinter2W@16
+     B4E6 _ResetPrinterW@8
+     B4E6 __imp__ResetPrinterW@8
+     AB80 _OpenPrinterPort2W@16
+     AB80 __imp__OpenPrinterPort2W@16
+     CE24 _StartDocPrinterW@12
+     CE24 __imp__StartDocPrinterW@12
+     CE96 _StartPagePrinter@4
+     CE96 __imp__StartPagePrinter@4
+     D31E _WritePrinter@16
+     D31E __imp__WritePrinter@16
+     BD86 _SeekPrinter@24
+     BD86 __imp__SeekPrinter@24
+     9BBC _FlushPrinter@20
+     9BBC __imp__FlushPrinter@20
+     9574 _EndPagePrinter@4
+     9574 __imp__EndPagePrinter@4
+     A192 _GetPrinterDataW@24
+     A192 __imp__GetPrinterDataW@24
+     A120 _GetPrinterDataExW@28
+     A120 __imp__GetPrinterDataExW@28
+     9976 _EnumPrinterDataW@36
+     9976 __imp__EnumPrinterDataW@36
+     9902 _EnumPrinterDataExW@24
+     9902 __imp__EnumPrinterDataExW@24
+     9A5C _EnumPrinterKeyW@20
+     9A5C __imp__EnumPrinterKeyW@20
+     8FC2 _DeletePrinterDataW@8
+     8FC2 __imp__DeletePrinterDataW@8
+     8F4C _DeletePrinterDataExW@12
+     8F4C __imp__DeletePrinterDataExW@12
+     9192 _DeletePrinterKeyW@8
+     9192 __imp__DeletePrinterKeyW@8
+     C086 _SetPrinterDataW@20
+     C086 __imp__SetPrinterDataW@20
+     C014 _SetPrinterDataExW@24
+     C014 __imp__SetPrinterDataExW@24
+     7B96 _AbortPrinter@4
+     7B96 __imp__AbortPrinter@4
+     B03A _ReadPrinter@16
+     B03A __imp__ReadPrinter@16
+     C75A _SplReadPrinter@12
+     C75A __imp__SplReadPrinter@12
+     9506 _EndDocPrinter@4
+     9506 __imp__EndDocPrinter@4
+     7C6C _AddJobW@20
+     7C6C __imp__AddJobW@20
+     B46A _ReportJobProcessingProgress@16
+     B46A __imp__ReportJobProcessingProgress@16
+     BD1A _ScheduleJob@8
+     BD1A __imp__ScheduleJob@8
+     7D40 _AddPerMachineConnectionW@16
+     7D40 __imp__AddPerMachineConnectionW@16
+     8C92 _DeletePerMachineConnectionW@8
+     8C92 __imp__DeletePerMachineConnectionW@8
+     9726 _EnumPerMachineConnectionsW@20
+     9726 __imp__EnumPerMachineConnectionsW@20
+     C33C _SplGetSpoolFileInfo@24
+     C33C __imp__SplGetSpoolFileInfo@24
+     C1DA _SplCommitSpoolData@28
+     C1DA __imp__SplCommitSpoolData@28
+     C162 _SplCloseSpoolFileHandle@4
+     C162 __imp__SplCloseSpoolFileHandle@4
+     D22E _WaitForPrinterChange@8
+     D22E __imp__WaitForPrinterChange@8
+     B8A6 _RouterFindFirstPrinterChangeNotification@24
+     B8A6 __imp__RouterFindFirstPrinterChangeNotification@24
+     B182 _RemoteFindFirstPrinterChangeNotification@28
+     B182 __imp__RemoteFindFirstPrinterChangeNotification@28
+     B930 _RouterFindNextPrinterChangeNotification@20
+     B930 __imp__RouterFindNextPrinterChangeNotification@20
+     9B3A _FindClosePrinterChangeNotification@4
+     9B3A __imp__FindClosePrinterChangeNotification@4
+     BBA6 _RouterRefreshPrinterChangeNotification@16
+     BBA6 __imp__RouterRefreshPrinterChangeNotification@16
+     84C2 _AppendPrinterNotifyInfoData@12
+     84C2 __imp__AppendPrinterNotifyInfoData@12
+     B736 _RouterAllocPrinterNotifyInfo@4
+     B736 __imp__RouterAllocPrinterNotifyInfo@4
+     BAAA _RouterFreePrinterNotifyInfo@4
+     BAAA __imp__RouterFreePrinterNotifyInfo@4
+     B368 _ReplyPrinterChangeNotification@16
+     B368 __imp__ReplyPrinterChangeNotification@16
+     B3E8 _ReplyPrinterChangeNotificationEx@20
+     B3E8 __imp__ReplyPrinterChangeNotificationEx@20
+     88F6 _CallRouterFindFirstPrinterChangeNotification@20
+     88F6 __imp__CallRouterFindFirstPrinterChangeNotification@20
+     AD3C _PartialReplyPrinterChangeNotification@8
+     AD3C __imp__PartialReplyPrinterChangeNotification@8
+     AFAE _ProvidorFindFirstPrinterChangeNotification@24
+     AFAE __imp__ProvidorFindFirstPrinterChangeNotification@24
+     AF24 _ProvidorFindClosePrinterChangeNotification@4
+     AF24 __imp__ProvidorFindClosePrinterChangeNotification@4
+     CB2A _SpoolerFindFirstPrinterChangeNotification@32
+     CB2A __imp__SpoolerFindFirstPrinterChangeNotification@32
+     CBB4 _SpoolerFindNextPrinterChangeNotification@16
+     CBB4 __imp__SpoolerFindNextPrinterChangeNotification@16
+     CAA0 _SpoolerFindClosePrinterChangeNotification@4
+     CAA0 __imp__SpoolerFindClosePrinterChangeNotification@4
+     CC3E _SpoolerFreePrinterNotifyInfo@4
+     CC3E __imp__SpoolerFreePrinterNotifyInfo@4
+     CD9C _SpoolerRefreshPrinterChangeNotification@16
+     CD9C __imp__SpoolerRefreshPrinterChangeNotification@16
+     BC2E _RouterReplyPrinter@24
+     BC2E __imp__RouterReplyPrinter@24
+     B2F6 _ReplyOpenPrinter@20
+     B2F6 __imp__ReplyOpenPrinter@20
+     B284 _ReplyClosePrinter@4
+     B284 __imp__ReplyClosePrinter@4
+     AEB0 _PrinterMessageBoxW@24
+     AEB0 __imp__PrinterMessageBoxW@24
+     89F2 _ClosePrinter@4
+     89F2 __imp__ClosePrinter@4
+     AE3C _PrinterHandleRundown@4
+     AE3C __imp__PrinterHandleRundown@4
+     7C02 _AddFormW@12
+     7C02 __imp__AddFormW@12
+     8B3E _DeleteFormW@8
+     8B3E __imp__DeleteFormW@8
+     9E06 _GetFormW@24
+     9E06 __imp__GetFormW@24
+     BE64 _SetFormW@16
+     BE64 __imp__SetFormW@16
+     95E2 _EnumFormsW@24
+     95E2 __imp__EnumFormsW@24
+     97A2 _EnumPortsW@24
+     97A2 __imp__EnumPortsW@24
+     96B8 _EnumMonitorsW@24
+     96B8 __imp__EnumMonitorsW@24
+     7E26 _AddPortW@12
+     7E26 __imp__AddPortW@12
+     8A5E _ConfigurePortW@12
+     8A5E __imp__ConfigurePortW@12
+     8D0E _DeletePortW@12
+     8D0E __imp__DeletePortW@12
+     BFAA _SetPortW@16
+     BFAA __imp__SetPortW@16
+     8ACE _CreatePrinterIC@8
+     8ACE __imp__CreatePrinterIC@8
+     ADC2 _PlayGdiScriptOnPrinterIC@24
+     ADC2 __imp__PlayGdiScriptOnPrinterIC@24
+     9122 _DeletePrinterIC@4
+     9122 __imp__DeletePrinterIC@4
+     B554 _RevertToPrinterSelf@0
+     B554 __imp__RevertToPrinterSelf@0
+     A526 _ImpersonatePrinterClient@4
+     A526 __imp__ImpersonatePrinterClient@4
+     7CD4 _AddMonitorW@12
+     7CD4 __imp__AddMonitorW@12
+     8C22 _DeleteMonitorW@12
+     8C22 __imp__DeleteMonitorW@12
+     7F78 _AddPrintProvidorW@12
+     7F78 __imp__AddPrintProvidorW@12
+     8DF0 _DeletePrintProvidorW@12
+     8DF0 __imp__DeletePrintProvidorW@12
+     9204 _DllAllocSplMem@4
+     9204 __imp__DllAllocSplMem@4
+     92E0 _DllFreeSplMem@4
+     92E0 __imp__DllFreeSplMem@4
+     B0A6 _ReallocSplMem@12
+     B0A6 __imp__ReallocSplMem@12
+     9424 _DllReallocSplMem@12
+     9424 __imp__DllReallocSplMem@12
+     83E6 _AllocSplStr@4
+     83E6 __imp__AllocSplStr@4
+     9272 _DllAllocSplStr@4
+     9272 __imp__DllAllocSplStr@4
+     934E _DllFreeSplStr@4
+     934E __imp__DllFreeSplStr@4
+     B114 _ReallocSplStr@8
+     B114 __imp__ReallocSplStr@8
+     9496 _DllReallocSplStr@8
+     9496 __imp__DllReallocSplStr@8
+     ACD0 _PackStrings@16
+     ACD0 __imp__PackStrings@16
+     837A _AlignRpcPtr@8
+     837A __imp__AlignRpcPtr@8
+     CF74 _UndoAlignRpcPtr@16
+     CF74 __imp__UndoAlignRpcPtr@16
+     8310 _AlignKMPtr@8
+     8310 __imp__AlignKMPtr@8
+     CF06 _UndoAlignKMPtr@8
+     CF06 __imp__UndoAlignKMPtr@8
+     AC60 _PackStringToEOB@8
+     AC60 __imp__PackStringToEOB@8
+     A854 _MakePTR@8
+     A854 __imp__MakePTR@8
+     A7EA _MakeOffset@8
+     A7EA __imp__MakeOffset@8
+     9C2A _FormatPrinterForRegistryKey@12
+     9C2A __imp__FormatPrinterForRegistryKey@12
+     9CA6 _FormatRegistryKeyForPrinter@12
+     9CA6 __imp__FormatRegistryKeyForPrinter@12
+     C2C6 _SplGetClientUserHandle@4
+     C2C6 __imp__SplGetClientUserHandle@4
+     A27E _GetPrinterDriverExW@40
+     A27E __imp__GetPrinterDriverExW@40
+     D2A2 _WaitForSpoolerInitialization@0
+     D2A2 __imp__WaitForSpoolerInitialization@0
+     7DBA _AddPortExW@16
+     7DBA __imp__AddPortExW@16
+     A694 _IsNamedPipeRpcCall@0
+     A694 __imp__IsNamedPipeRpcCall@0
+     8984 _CheckLocalCall@0
+     8984 __imp__CheckLocalCall@0
+     CD30 _SpoolerInit@0
+     CD30 __imp__SpoolerInit@0
+     D1B8 _UpdatePrinterRegUser@20
+     D1B8 __imp__UpdatePrinterRegUser@20
+     D0CE _UpdatePrinterRegAll@16
+     D0CE __imp__UpdatePrinterRegAll@16
+     A038 _GetNetworkId@8
+     A038 __imp__GetNetworkId@8
+     C24E _SplDriverUnloadComplete@4
+     C24E __imp__SplDriverUnloadComplete@4
+     887C _CallDrvDevModeConversion@28
+     887C __imp__CallDrvDevModeConversion@28
+     A706 _MIDL_user_allocate1@4
+     A706 __imp__MIDL_user_allocate1@4
+     A77A _MIDL_user_free1@4
+     A77A __imp__MIDL_user_free1@4
+     A9AE _MarshallUpStructure@20
+     A9AE __imp__MarshallUpStructure@20
+     A8BC _MarshallDownStructure@16
+     A8BC __imp__MarshallDownStructure@16
+     CFE4 _UpdateBufferSize@24
+     CFE4 __imp__UpdateBufferSize@24
+     A932 _MarshallDownStructuresArray@20
+     A932 __imp__MarshallDownStructuresArray@20
+     AA22 _MarshallUpStructuresArray@24
+     AA22 __imp__MarshallUpStructuresArray@24
+     A440 _GetShrinkedSize@8
+     A440 __imp__GetShrinkedSize@8
+     8220 _AdjustPointers@16
+     8220 __imp__AdjustPointers@16
+     8290 _AdjustPointersInStructuresArray@20
+     8290 __imp__AdjustPointersInStructuresArray@20
+     853E _BuildOtherNamesFromMachineName@8
+     853E __imp__BuildOtherNamesFromMachineName@8
+     9D22 _FreeOtherNames@8
+     9D22 __imp__FreeOtherNames@8
+     D38C _XcvDataW@32
+     D38C __imp__XcvDataW@32
+     C42E _SplInitializeWinSpoolDrv@4
+     C42E __imp__SplInitializeWinSpoolDrv@4
+     D3F6 __imp__bGetDevModePerUser@12
+     D3F6 _bGetDevModePerUser@12
+     D46A __imp__bSetDevModePerUser@12
+     D46A _bSetDevModePerUser@12
+     C584 _SplProcessPnPEvent@12
+     C584 __imp__SplProcessPnPEvent@12
+     C7CA _SplRegisterForDeviceEvents@12
+     C7CA __imp__SplRegisterForDeviceEvents@12
+     C9A6 _SplUnregisterForDeviceEvents@4
+     C9A6 __imp__SplUnregisterForDeviceEvents@4
+     C6EA _SplQueryUserInfo@8
+     C6EA __imp__SplQueryUserInfo@8
+     C5F8 _SplProcessSessionEvent@12
+     C5F8 __imp__SplProcessSessionEvent@12
+     C846 _SplRegisterForSessionEvents@8
+     C846 __imp__SplRegisterForSessionEvents@8
+     CA22 _SplUnregisterForSessionEvents@4
+     CA22 __imp__SplUnregisterForSessionEvents@4
+     C3B0 _SplGetUserSidStringFromToken@16
+     C3B0 __imp__SplGetUserSidStringFromToken@16
+     C518 _SplIsUpgrade@0
+     C518 __imp__SplIsUpgrade@0
+     CCBA _SpoolerHasInitialized@0
+     CCBA __imp__SpoolerHasInitialized@0
+     9E70 _GetJobAttributes@12
+     9E70 __imp__GetJobAttributes@12
+     9EE2 _GetJobAttributesEx@24
+     9EE2 __imp__GetJobAttributesEx@24
+     BDF2 _SendRecvBidiData@16
+     BDF2 __imp__SendRecvBidiData@16
+     B644 _RouterAllocBidiMem@4
+     B644 __imp__RouterAllocBidiMem@4
+     B9B8 _RouterFreeBidiMem@4
+     B9B8 __imp__RouterFreeBidiMem@4
+     B6B6 _RouterAllocBidiResponseContainer@4
+     B6B6 __imp__RouterAllocBidiResponseContainer@4
+     BA2A _RouterFreeBidiResponseContainer@4
+     BA2A __imp__RouterFreeBidiResponseContainer@4
+     C8C2 _SplShutDownRouter@0
+     C8C2 __imp__SplShutDownRouter@0
+     C670 _SplPromptUIInUsersSession@16
+     C670 __imp__SplPromptUIInUsersSession@16
+     C4A6 _SplIsSessionZero@12
+     C4A6 __imp__SplIsSessionZero@12
+     85BC _CacheAddName@4
+     85BC __imp__CacheAddName@4
+     8724 _CacheDeleteNode@4
+     8724 __imp__CacheDeleteNode@4
+     8806 _CacheIsNameInNodeList@8
+     8806 __imp__CacheIsNameInNodeList@8
+     8628 _CacheCreateAndAddNode@8
+     8628 __imp__CacheCreateAndAddNode@8
+     869E _CacheCreateAndAddNodeWithIPAddresses@16
+     869E __imp__CacheCreateAndAddNodeWithIPAddresses@16
+     8452 _AllowRemoteCalls@0
+     8452 __imp__AllowRemoteCalls@0
+     A3D0 _GetServerPolicy@8
+     A3D0 __imp__GetServerPolicy@8
+     BCA2 _RouterSpoolerSetPolicy@12
+     BCA2 __imp__RouterSpoolerSetPolicy@12
+     B82A _RouterFindCompatibleDriver@36
+     B82A __imp__RouterFindCompatibleDriver@36
+     8794 _CacheIsNameCluster@4
+     8794 __imp__CacheIsNameCluster@4
+     B5C8 _RouterAddPrinterConnection2@12
+     B5C8 __imp__RouterAddPrinterConnection2@12
+     7972 ?RouterRegisterForPrintAsyncNotifications@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAX@Z
+     7972 __imp_?RouterRegisterForPrintAsyncNotifications@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAX@Z
+     7A72 ?RouterUnregisterForPrintAsyncNotifications@@YGJPAX@Z
+     7A72 __imp_?RouterUnregisterForPrintAsyncNotifications@@YGJPAX@Z
+     7576 ?RouterCreatePrintAsyncNotificationChannel@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAUIPrintAsyncNotifyChannel@@@Z
+     7576 __imp_?RouterCreatePrintAsyncNotificationChannel@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAUIPrintAsyncNotifyChannel@@@Z
+     77BC ?RouterGetPrintClassObject@@YGJPBGABU_GUID@@PAPAX@Z
+     77BC __imp_?RouterGetPrintClassObject@@YGJPBGABU_GUID@@PAPAX@Z
+     78E0 ?RouterInstallPrinterDriverFromPackage@@YGJPBG000K@Z
+     78E0 __imp_?RouterInstallPrinterDriverFromPackage@@YGJPBG000K@Z
+     7B04 ?RouterUploadPrinterDriverPackage@@YGJPBG00KPAGPAK@Z
+     7B04 __imp_?RouterUploadPrinterDriverPackage@@YGJPBG00KPAGPAK@Z
+     771C ?RouterGetCorePrinterDrivers@@YGJPBG00KPAU_CORE_PRINTER_DRIVERW@@@Z
+     771C __imp_?RouterGetCorePrinterDrivers@@YGJPBG00KPAU_CORE_PRINTER_DRIVERW@@@Z
+     74D4 ?RouterCorePrinterDriverInstalled@@YGJPBG0U_GUID@@U_FILETIME@@_KPAH@Z
+     74D4 __imp_?RouterCorePrinterDriverInstalled@@YGJPBG0U_GUID@@U_FILETIME@@_KPAH@Z
+     784C ?RouterGetPrinterDriverPackagePath@@YGJPBG000PAGKPAK@Z
+     784C __imp_?RouterGetPrinterDriverPackagePath@@YGJPBG000PAGKPAK@Z
+     7692 ?RouterDeletePrinterDriverPackage@@YGJPBG00@Z
+     7692 __imp_?RouterDeletePrinterDriverPackage@@YGJPBG00@Z
+     B7B2 _RouterBroadcastMessage@20
+     B7B2 __imp__RouterBroadcastMessage@20
+     A4B0 _GetSpoolerTlsIndexes@12
+     A4B0 __imp__GetSpoolerTlsIndexes@12
+     93BC _DllMain@12
+     93BC __imp__DllMain@12
+     BB26 _RouterInternalGetPrinterDriver@40
+     BB26 __imp__RouterInternalGetPrinterDriver@40
+     A60E _IsNameTheLocalMachineOrAClusterSpooler@4
+     A60E __imp__IsNameTheLocalMachineOrAClusterSpooler@4
+     7E90 _AddPrintDeviceObject@8
+     7E90 __imp__AddPrintDeviceObject@8
+     B20C _RemovePrintDeviceObject@4
+     B20C __imp__RemovePrintDeviceObject@4
+     D056 _UpdatePrintDeviceObject@8
+     D056 __imp__UpdatePrintDeviceObject@8
+     C934 _SplUalCollectData@8
+     C934 __imp__SplUalCollectData@8
+     9F56 _GetJobNamedPropertyValue@16
+     9F56 __imp__GetJobNamedPropertyValue@16
+     9D90 _FreePrintPropertyValue@4
+     9D90 __imp__FreePrintPropertyValue@4
+     8BAA _DeleteJobNamedProperty@12
+     8BAA __imp__DeleteJobNamedProperty@12
+     D142 _UpdatePrinterRegAllEx@20
+     D142 __imp__UpdatePrinterRegAllEx@20
+     BECE _SetJobNamedProperty@12
+     BECE __imp__SetJobNamedProperty@12
+
+Archive member name at 6F76: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1ED size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        EFE34D37 time date stamp
+             10B file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CD file pointer to raw data (000000CD to 000000E0)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FF file pointer to raw data (000000FF to 0000010A)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 71A0: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        E8BDABBF time date stamp
+              B9 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      64 file pointer to raw data (00000064 to 000000A4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A5 file pointer to raw data (000000A5 to 000000B8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 72D6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     116 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        F8B552AF time date stamp
+              D5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D1 file pointer to raw data (000000D1 to 000000D4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 7428: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      6F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D741AC21
+  SizeOfData   : 0000005B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : ?OpenPrinterExW@@YGHPAGPAPAXPAU_PRINTER_DEFAULTSW@@PAU_SPLCLIENT_CONTAINER@@@Z (int __stdcall OpenPrinterExW(unsigned short *,void * *,struct _PRINTER_DEFAULTSW *,struct _SPLCLIENT_CONTAINER *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 107
+  Name         : OpenPrinterExW
+
+Archive member name at 74D4: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      66 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC792DA5
+  SizeOfData   : 00000052
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : ?RouterCorePrinterDriverInstalled@@YGJPBG0U_GUID@@U_FILETIME@@_KPAH@Z (long __stdcall RouterCorePrinterDriverInstalled(unsigned short const *,unsigned short const *,struct _GUID,struct _FILETIME,unsigned __int64,int *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 135
+  Name         : RouterCorePrinterDriverInstalled
+
+Archive member name at 7576: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      DF size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E43D871E
+  SizeOfData   : 000000CB
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : ?RouterCreatePrintAsyncNotificationChannel@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAUIPrintAsyncNotifyChannel@@@Z (long __stdcall RouterCreatePrintAsyncNotificationChannel(unsigned short const *,struct _GUID *,enum PrintAsyncNotifyUserFilter,enum PrintAsyncNotifyConversationStyle,struct IPrintAsyncNotifyCallback *,struct IPrintAsyncNotifyChannel * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 136
+  Name         : RouterCreatePrintAsyncNotificationChannel
+
+Archive member name at 7692: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC91FD3F
+  SizeOfData   : 0000003A
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : ?RouterDeletePrinterDriverPackage@@YGJPBG00@Z (long __stdcall RouterDeletePrinterDriverPackage(unsigned short const *,unsigned short const *,unsigned short const *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 137
+  Name         : RouterDeletePrinterDriverPackage
+
+Archive member name at 771C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      64 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C274E8EF
+  SizeOfData   : 00000050
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : ?RouterGetCorePrinterDrivers@@YGJPBG00KPAU_CORE_PRINTER_DRIVERW@@@Z (long __stdcall RouterGetCorePrinterDrivers(unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,struct _CORE_PRINTER_DRIVERW *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 144
+  Name         : RouterGetCorePrinterDrivers
+
+Archive member name at 77BC: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      54 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E104C41E
+  SizeOfData   : 00000040
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : ?RouterGetPrintClassObject@@YGJPBGABU_GUID@@PAPAX@Z (long __stdcall RouterGetPrintClassObject(unsigned short const *,struct _GUID const &,void * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 145
+  Name         : RouterGetPrintClassObject
+
+Archive member name at 784C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      57 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E91D99B2
+  SizeOfData   : 00000043
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : ?RouterGetPrinterDriverPackagePath@@YGJPBG000PAGKPAK@Z (long __stdcall RouterGetPrinterDriverPackagePath(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short *,unsigned long,unsigned long *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 146
+  Name         : RouterGetPrinterDriverPackagePath
+
+Archive member name at 78E0: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      55 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDAC4AB0
+  SizeOfData   : 00000041
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : ?RouterInstallPrinterDriverFromPackage@@YGJPBG000K@Z (long __stdcall RouterInstallPrinterDriverFromPackage(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 147
+  Name         : RouterInstallPrinterDriverFromPackage
+
+Archive member name at 7972: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      C4 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D794B8B3
+  SizeOfData   : 000000B0
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : ?RouterRegisterForPrintAsyncNotifications@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAX@Z (long __stdcall RouterRegisterForPrintAsyncNotifications(unsigned short const *,struct _GUID *,enum PrintAsyncNotifyUserFilter,enum PrintAsyncNotifyConversationStyle,struct IPrintAsyncNotifyCallback *,void * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 150
+  Name         : RouterRegisterForPrintAsyncNotifications
+
+Archive member name at 7A72: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      56 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E592E38F
+  SizeOfData   : 00000042
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : ?RouterUnregisterForPrintAsyncNotifications@@YGJPAX@Z (long __stdcall RouterUnregisterForPrintAsyncNotifications(void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 153
+  Name         : RouterUnregisterForPrintAsyncNotifications
+
+Archive member name at 7B04: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      55 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE2E8360
+  SizeOfData   : 00000041
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : ?RouterUploadPrinterDriverPackage@@YGJPBG00KPAGPAK@Z (long __stdcall RouterUploadPrinterDriverPackage(unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,unsigned short *,unsigned long *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 154
+  Name         : RouterUploadPrinterDriverPackage
+
+Archive member name at 7B96: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E55F7E9E
+  SizeOfData   : 0000001C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AbortPrinter@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : AbortPrinter
+
+Archive member name at 7C02: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8F502A5
+  SizeOfData   : 00000019
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddFormW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : AddFormW
+
+Archive member name at 7C6C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAA35268
+  SizeOfData   : 00000018
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddJobW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : AddJobW
+
+Archive member name at 7CD4: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D49ACB1B
+  SizeOfData   : 0000001C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddMonitorW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : AddMonitorW
+
+Archive member name at 7D40: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEA15A01
+  SizeOfData   : 00000029
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddPerMachineConnectionW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : AddPerMachineConnectionW
+
+Archive member name at 7DBA: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1B5D43B
+  SizeOfData   : 0000001B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddPortExW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : AddPortExW
+
+Archive member name at 7E26: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4FA859D
+  SizeOfData   : 00000019
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddPortW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : AddPortW
+
+Archive member name at 7E90: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1800B4C
+  SizeOfData   : 00000024
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddPrintDeviceObject@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : AddPrintDeviceObject
+
+Archive member name at 7F04: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAD4CA95
+  SizeOfData   : 00000023
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddPrintProcessorW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : AddPrintProcessorW
+
+Archive member name at 7F78: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC4E91E9
+  SizeOfData   : 00000022
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddPrintProvidorW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : AddPrintProvidorW
+
+Archive member name at 7FEA: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C56CAB86
+  SizeOfData   : 00000025
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddPrinterConnectionW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : AddPrinterConnectionW
+
+Archive member name at 8060: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F590118B
+  SizeOfData   : 00000024
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddPrinterDriverExW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : AddPrinterDriverExW
+
+Archive member name at 80D4: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6D62E9F
+  SizeOfData   : 00000022
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddPrinterDriverW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : AddPrinterDriverW
+
+Archive member name at 8146: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCCFF647
+  SizeOfData   : 0000001E
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddPrinterExW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : AddPrinterExW
+
+Archive member name at 81B4: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD6FF3E3
+  SizeOfData   : 0000001C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AddPrinterW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : AddPrinterW
+
+Archive member name at 8220: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F75AAD94
+  SizeOfData   : 0000001F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AdjustPointers@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : AdjustPointers
+
+Archive member name at 8290: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C341D96E
+  SizeOfData   : 00000030
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AdjustPointersInStructuresArray@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : AdjustPointersInStructuresArray
+
+Archive member name at 8310: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5ED6F58
+  SizeOfData   : 0000001A
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AlignKMPtr@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : AlignKMPtr
+
+Archive member name at 837A: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED1C63D1
+  SizeOfData   : 0000001B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AlignRpcPtr@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : AlignRpcPtr
+
+Archive member name at 83E6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFC61EE6
+  SizeOfData   : 0000001B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AllocSplStr@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : AllocSplStr
+
+Archive member name at 8452: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCE1C129
+  SizeOfData   : 00000020
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AllowRemoteCalls@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : AllowRemoteCalls
+
+Archive member name at 84C2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE3B8E94
+  SizeOfData   : 0000002C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _AppendPrinterNotifyInfoData@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : AppendPrinterNotifyInfoData
+
+Archive member name at 853E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6C98ED7
+  SizeOfData   : 0000002E
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _BuildOtherNamesFromMachineName@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : BuildOtherNamesFromMachineName
+
+Archive member name at 85BC: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF252099
+  SizeOfData   : 0000001C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _CacheAddName@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : CacheAddName
+
+Archive member name at 8628: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB142497
+  SizeOfData   : 00000025
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _CacheCreateAndAddNode@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : CacheCreateAndAddNode
+
+Archive member name at 869E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F94A21B8
+  SizeOfData   : 00000035
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _CacheCreateAndAddNodeWithIPAddresses@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : CacheCreateAndAddNodeWithIPAddresses
+
+Archive member name at 8724: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDAA5248
+  SizeOfData   : 0000001F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _CacheDeleteNode@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : CacheDeleteNode
+
+Archive member name at 8794: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F740856F
+  SizeOfData   : 00000022
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _CacheIsNameCluster@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : CacheIsNameCluster
+
+Archive member name at 8806: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE5A7C0D
+  SizeOfData   : 00000025
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _CacheIsNameInNodeList@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : CacheIsNameInNodeList
+
+Archive member name at 887C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9CCAD90
+  SizeOfData   : 00000029
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _CallDrvDevModeConversion@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : CallDrvDevModeConversion
+
+Archive member name at 88F6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      51 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C20CDE71
+  SizeOfData   : 0000003D
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _CallRouterFindFirstPrinterChangeNotification@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : CallRouterFindFirstPrinterChangeNotification
+
+Archive member name at 8984: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDB12B7A
+  SizeOfData   : 0000001E
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _CheckLocalCall@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : CheckLocalCall
+
+Archive member name at 89F2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C14D7C38
+  SizeOfData   : 0000001C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ClosePrinter@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : ClosePrinter
+
+Archive member name at 8A5E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5B244F6
+  SizeOfData   : 0000001F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ConfigurePortW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : ConfigurePortW
+
+Archive member name at 8ACE: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F10A19AE
+  SizeOfData   : 0000001F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _CreatePrinterIC@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : CreatePrinterIC
+
+Archive member name at 8B3E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE695DED
+  SizeOfData   : 0000001B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeleteFormW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : DeleteFormW
+
+Archive member name at 8BAA: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFBFF352
+  SizeOfData   : 00000027
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeleteJobNamedProperty@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : DeleteJobNamedProperty
+
+Archive member name at 8C22: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0F697C2
+  SizeOfData   : 0000001F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeleteMonitorW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : DeleteMonitorW
+
+Archive member name at 8C92: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D45259ED
+  SizeOfData   : 0000002B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeletePerMachineConnectionW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : DeletePerMachineConnectionW
+
+Archive member name at 8D0E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E88F3F2E
+  SizeOfData   : 0000001C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeletePortW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : DeletePortW
+
+Archive member name at 8D7A: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE9E5337
+  SizeOfData   : 00000026
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeletePrintProcessorW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : DeletePrintProcessorW
+
+Archive member name at 8DF0: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6D34400
+  SizeOfData   : 00000025
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeletePrintProvidorW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : DeletePrintProvidorW
+
+Archive member name at 8E66: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA765CB9
+  SizeOfData   : 0000001D
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeletePrinter@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : DeletePrinter
+
+Archive member name at 8ED4: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2E5B850
+  SizeOfData   : 00000028
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeletePrinterConnectionW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : DeletePrinterConnectionW
+
+Archive member name at 8F4C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F124A4B3
+  SizeOfData   : 00000025
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeletePrinterDataExW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : DeletePrinterDataExW
+
+Archive member name at 8FC2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF277F24
+  SizeOfData   : 00000022
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeletePrinterDataW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : DeletePrinterDataW
+
+Archive member name at 9034: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE51ABCB
+  SizeOfData   : 00000027
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeletePrinterDriverExW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : DeletePrinterDriverExW
+
+Archive member name at 90AC: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB627B34
+  SizeOfData   : 00000025
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeletePrinterDriverW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : DeletePrinterDriverW
+
+Archive member name at 9122: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0286114
+  SizeOfData   : 0000001F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeletePrinterIC@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : DeletePrinterIC
+
+Archive member name at 9192: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E41E65D8
+  SizeOfData   : 00000021
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DeletePrinterKeyW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : DeletePrinterKeyW
+
+Archive member name at 9204: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA53B934
+  SizeOfData   : 0000001E
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DllAllocSplMem@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : DllAllocSplMem
+
+Archive member name at 9272: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE4BA3C7
+  SizeOfData   : 0000001E
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DllAllocSplStr@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : DllAllocSplStr
+
+Archive member name at 92E0: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F25A9303
+  SizeOfData   : 0000001D
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DllFreeSplMem@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : DllFreeSplMem
+
+Archive member name at 934E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDE44113
+  SizeOfData   : 0000001D
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DllFreeSplStr@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : DllFreeSplStr
+
+Archive member name at 93BC: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6F9E807
+  SizeOfData   : 00000018
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DllMain@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : DllMain
+
+Archive member name at 9424: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAA01E72
+  SizeOfData   : 00000021
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DllReallocSplMem@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : DllReallocSplMem
+
+Archive member name at 9496: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E26EDF81
+  SizeOfData   : 00000020
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _DllReallocSplStr@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : DllReallocSplStr
+
+Archive member name at 9506: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F525C130
+  SizeOfData   : 0000001D
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EndDocPrinter@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : EndDocPrinter
+
+Archive member name at 9574: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C80EDBF0
+  SizeOfData   : 0000001E
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EndPagePrinter@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : EndPagePrinter
+
+Archive member name at 95E2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCCC5BDD
+  SizeOfData   : 0000001B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EnumFormsW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : EnumFormsW
+
+Archive member name at 964E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAC17BCB
+  SizeOfData   : 0000001A
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EnumJobsW@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : EnumJobsW
+
+Archive member name at 96B8: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEB45DD4
+  SizeOfData   : 0000001E
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EnumMonitorsW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : EnumMonitorsW
+
+Archive member name at 9726: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF7AF0CE
+  SizeOfData   : 0000002B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EnumPerMachineConnectionsW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : EnumPerMachineConnectionsW
+
+Archive member name at 97A2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB1B19FC
+  SizeOfData   : 0000001B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EnumPortsW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : EnumPortsW
+
+Archive member name at 980E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7E7F353
+  SizeOfData   : 0000002D
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EnumPrintProcessorDatatypesW@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : EnumPrintProcessorDatatypesW
+
+Archive member name at 988C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD7BF211
+  SizeOfData   : 00000025
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EnumPrintProcessorsW@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : EnumPrintProcessorsW
+
+Archive member name at 9902: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5E9D838
+  SizeOfData   : 00000023
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EnumPrinterDataExW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : EnumPrinterDataExW
+
+Archive member name at 9976: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA7509BB
+  SizeOfData   : 00000021
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EnumPrinterDataW@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : EnumPrinterDataW
+
+Archive member name at 99E8: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECD55F31
+  SizeOfData   : 00000024
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EnumPrinterDriversW@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : EnumPrinterDriversW
+
+Archive member name at 9A5C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E64E41C0
+  SizeOfData   : 00000020
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EnumPrinterKeyW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : EnumPrinterKeyW
+
+Archive member name at 9ACC: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C16EEAFD
+  SizeOfData   : 0000001E
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _EnumPrintersW@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : EnumPrintersW
+
+Archive member name at 9B3A: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D902ED36
+  SizeOfData   : 00000032
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _FindClosePrinterChangeNotification@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : FindClosePrinterChangeNotification
+
+Archive member name at 9BBC: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7251EDC
+  SizeOfData   : 0000001D
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _FlushPrinter@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : FlushPrinter
+
+Archive member name at 9C2A: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1045F5C
+  SizeOfData   : 0000002C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _FormatPrinterForRegistryKey@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : FormatPrinterForRegistryKey
+
+Archive member name at 9CA6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0158FA9
+  SizeOfData   : 0000002C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _FormatRegistryKeyForPrinter@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 74
+  Name         : FormatRegistryKeyForPrinter
+
+Archive member name at 9D22: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4CB67C1
+  SizeOfData   : 0000001E
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _FreeOtherNames@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 75
+  Name         : FreeOtherNames
+
+Archive member name at 9D90: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1E106AE
+  SizeOfData   : 00000026
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _FreePrintPropertyValue@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : FreePrintPropertyValue
+
+Archive member name at 9E06: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB4E5739
+  SizeOfData   : 00000019
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetFormW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : GetFormW
+
+Archive member name at 9E70: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD2BF05A
+  SizeOfData   : 00000021
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetJobAttributes@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : GetJobAttributes
+
+Archive member name at 9EE2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDA792BD
+  SizeOfData   : 00000023
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetJobAttributesEx@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : GetJobAttributesEx
+
+Archive member name at 9F56: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8E09B68
+  SizeOfData   : 00000029
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetJobNamedPropertyValue@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 80
+  Name         : GetJobNamedPropertyValue
+
+Archive member name at 9FD0: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F098B435
+  SizeOfData   : 00000018
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetJobW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : GetJobW
+
+Archive member name at A038: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2A7086E
+  SizeOfData   : 0000001C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetNetworkId@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 82
+  Name         : GetNetworkId
+
+Archive member name at A0A4: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D956ECA9
+  SizeOfData   : 0000002C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetPrintProcessorDirectoryW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : GetPrintProcessorDirectoryW
+
+Archive member name at A120: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDAD614E
+  SizeOfData   : 00000022
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetPrinterDataExW@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 84
+  Name         : GetPrinterDataExW
+
+Archive member name at A192: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F16F6FEC
+  SizeOfData   : 00000020
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetPrinterDataW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 85
+  Name         : GetPrinterDataW
+
+Archive member name at A202: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7AF29A9
+  SizeOfData   : 0000002B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetPrinterDriverDirectoryW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 86
+  Name         : GetPrinterDriverDirectoryW
+
+Archive member name at A27E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD9DCF01
+  SizeOfData   : 00000024
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetPrinterDriverExW@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 87
+  Name         : GetPrinterDriverExW
+
+Archive member name at A2F2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3DCB905
+  SizeOfData   : 00000022
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetPrinterDriverW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 88
+  Name         : GetPrinterDriverW
+
+Archive member name at A364: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC6FD83B
+  SizeOfData   : 0000001C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetPrinterW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 89
+  Name         : GetPrinterW
+
+Archive member name at A3D0: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1A236D5
+  SizeOfData   : 0000001F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetServerPolicy@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 90
+  Name         : GetServerPolicy
+
+Archive member name at A440: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7C503A7
+  SizeOfData   : 0000001F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetShrinkedSize@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 91
+  Name         : GetShrinkedSize
+
+Archive member name at A4B0: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF15FFC2
+  SizeOfData   : 00000025
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _GetSpoolerTlsIndexes@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 92
+  Name         : GetSpoolerTlsIndexes
+
+Archive member name at A526: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB0A0E88
+  SizeOfData   : 00000028
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ImpersonatePrinterClient@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 93
+  Name         : ImpersonatePrinterClient
+
+Archive member name at A59E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEF9DF04
+  SizeOfData   : 00000020
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _InitializeRouter@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 94
+  Name         : InitializeRouter
+
+Archive member name at A60E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F89F7132
+  SizeOfData   : 00000036
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _IsNameTheLocalMachineOrAClusterSpooler@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 95
+  Name         : IsNameTheLocalMachineOrAClusterSpooler
+
+Archive member name at A694: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F39BE4A9
+  SizeOfData   : 00000022
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _IsNamedPipeRpcCall@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 96
+  Name         : IsNamedPipeRpcCall
+
+Archive member name at A706: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9714713
+  SizeOfData   : 00000023
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _MIDL_user_allocate1@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 97
+  Name         : MIDL_user_allocate1
+
+Archive member name at A77A: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE87687A
+  SizeOfData   : 0000001F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _MIDL_user_free1@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 98
+  Name         : MIDL_user_free1
+
+Archive member name at A7EA: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4267023
+  SizeOfData   : 0000001A
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _MakeOffset@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 99
+  Name         : MakeOffset
+
+Archive member name at A854: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D21ABC0A
+  SizeOfData   : 00000017
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _MakePTR@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 100
+  Name         : MakePTR
+
+Archive member name at A8BC: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C76E1187
+  SizeOfData   : 00000026
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _MarshallDownStructure@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 101
+  Name         : MarshallDownStructure
+
+Archive member name at A932: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7659358
+  SizeOfData   : 0000002C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _MarshallDownStructuresArray@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 102
+  Name         : MarshallDownStructuresArray
+
+Archive member name at A9AE: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C488CF2C
+  SizeOfData   : 00000024
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _MarshallUpStructure@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 103
+  Name         : MarshallUpStructure
+
+Archive member name at AA22: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9C2F4FC
+  SizeOfData   : 0000002A
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _MarshallUpStructuresArray@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 104
+  Name         : MarshallUpStructuresArray
+
+Archive member name at AA9C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB95FB2C
+  SizeOfData   : 00000025
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _OldGetPrinterDriverW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 105
+  Name         : OldGetPrinterDriverW
+
+Archive member name at AB12: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5BCFBD4
+  SizeOfData   : 0000001E
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _OpenPrinter2W@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 106
+  Name         : OpenPrinter2W
+
+Archive member name at AB80: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA2219B0
+  SizeOfData   : 00000022
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _OpenPrinterPort2W@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 108
+  Name         : OpenPrinterPort2W
+
+Archive member name at ABF2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB2C7E3A
+  SizeOfData   : 0000001D
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _OpenPrinterW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 109
+  Name         : OpenPrinterW
+
+Archive member name at AC60: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4C8E126
+  SizeOfData   : 0000001F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _PackStringToEOB@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 110
+  Name         : PackStringToEOB
+
+Archive member name at ACD0: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8A502FE
+  SizeOfData   : 0000001C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _PackStrings@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 111
+  Name         : PackStrings
+
+Archive member name at AD3C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1C7BEA7
+  SizeOfData   : 00000035
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _PartialReplyPrinterChangeNotification@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 112
+  Name         : PartialReplyPrinterChangeNotification
+
+Archive member name at ADC2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA1345FC
+  SizeOfData   : 00000029
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _PlayGdiScriptOnPrinterIC@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 113
+  Name         : PlayGdiScriptOnPrinterIC
+
+Archive member name at AE3C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D89AF90D
+  SizeOfData   : 00000024
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _PrinterHandleRundown@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 114
+  Name         : PrinterHandleRundown
+
+Archive member name at AEB0: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1A3F7A0
+  SizeOfData   : 00000023
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _PrinterMessageBoxW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 115
+  Name         : PrinterMessageBoxW
+
+Archive member name at AF24: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D86F9E9A
+  SizeOfData   : 0000003A
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ProvidorFindClosePrinterChangeNotification@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 116
+  Name         : ProvidorFindClosePrinterChangeNotification
+
+Archive member name at AFAE: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE6F8D6F
+  SizeOfData   : 0000003B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ProvidorFindFirstPrinterChangeNotification@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 117
+  Name         : ProvidorFindFirstPrinterChangeNotification
+
+Archive member name at B03A: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB6D605F
+  SizeOfData   : 0000001C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ReadPrinter@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 118
+  Name         : ReadPrinter
+
+Archive member name at B0A6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F562870F
+  SizeOfData   : 0000001E
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ReallocSplMem@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 119
+  Name         : ReallocSplMem
+
+Archive member name at B114: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA1B8A03
+  SizeOfData   : 0000001D
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ReallocSplStr@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 120
+  Name         : ReallocSplStr
+
+Archive member name at B182: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFC22C3E
+  SizeOfData   : 00000039
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RemoteFindFirstPrinterChangeNotification@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 121
+  Name         : RemoteFindFirstPrinterChangeNotification
+
+Archive member name at B20C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE62B806
+  SizeOfData   : 00000027
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RemovePrintDeviceObject@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 122
+  Name         : RemovePrintDeviceObject
+
+Archive member name at B284: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C88D7D3E
+  SizeOfData   : 00000021
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ReplyClosePrinter@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 123
+  Name         : ReplyClosePrinter
+
+Archive member name at B2F6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C97250DE
+  SizeOfData   : 00000021
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ReplyOpenPrinter@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 124
+  Name         : ReplyOpenPrinter
+
+Archive member name at B368: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC7EBE84
+  SizeOfData   : 0000002F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ReplyPrinterChangeNotification@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 125
+  Name         : ReplyPrinterChangeNotification
+
+Archive member name at B3E8: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6391B2C
+  SizeOfData   : 00000031
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ReplyPrinterChangeNotificationEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 126
+  Name         : ReplyPrinterChangeNotificationEx
+
+Archive member name at B46A: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F437E330
+  SizeOfData   : 0000002C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ReportJobProcessingProgress@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 127
+  Name         : ReportJobProcessingProgress
+
+Archive member name at B4E6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C15CC722
+  SizeOfData   : 0000001D
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ResetPrinterW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 128
+  Name         : ResetPrinterW
+
+Archive member name at B554: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D009B1D0
+  SizeOfData   : 00000023
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RevertToPrinterSelf@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 129
+  Name         : RevertToPrinterSelf
+
+Archive member name at B5C8: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D13CC365
+  SizeOfData   : 0000002C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterAddPrinterConnection2@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 130
+  Name         : RouterAddPrinterConnection2
+
+Archive member name at B644: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8A06BB7
+  SizeOfData   : 00000022
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterAllocBidiMem@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 131
+  Name         : RouterAllocBidiMem
+
+Archive member name at B6B6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFAB8489
+  SizeOfData   : 00000030
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterAllocBidiResponseContainer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 132
+  Name         : RouterAllocBidiResponseContainer
+
+Archive member name at B736: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4AD2452
+  SizeOfData   : 0000002C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterAllocPrinterNotifyInfo@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 133
+  Name         : RouterAllocPrinterNotifyInfo
+
+Archive member name at B7B2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8C2C2C3
+  SizeOfData   : 00000027
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterBroadcastMessage@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 134
+  Name         : RouterBroadcastMessage
+
+Archive member name at B82A: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE6314FF
+  SizeOfData   : 0000002B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterFindCompatibleDriver@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 138
+  Name         : RouterFindCompatibleDriver
+
+Archive member name at B8A6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE353D9A
+  SizeOfData   : 00000039
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterFindFirstPrinterChangeNotification@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 139
+  Name         : RouterFindFirstPrinterChangeNotification
+
+Archive member name at B930: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E860E555
+  SizeOfData   : 00000038
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterFindNextPrinterChangeNotification@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 140
+  Name         : RouterFindNextPrinterChangeNotification
+
+Archive member name at B9B8: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CEE8C529
+  SizeOfData   : 00000021
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterFreeBidiMem@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 141
+  Name         : RouterFreeBidiMem
+
+Archive member name at BA2A: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2167524
+  SizeOfData   : 0000002F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterFreeBidiResponseContainer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 142
+  Name         : RouterFreeBidiResponseContainer
+
+Archive member name at BAAA: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C50DB79B
+  SizeOfData   : 0000002B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterFreePrinterNotifyInfo@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 143
+  Name         : RouterFreePrinterNotifyInfo
+
+Archive member name at BB26: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C261F506
+  SizeOfData   : 0000002F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterInternalGetPrinterDriver@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 148
+  Name         : RouterInternalGetPrinterDriver
+
+Archive member name at BBA6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8D7EEE6
+  SizeOfData   : 00000037
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterRefreshPrinterChangeNotification@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 149
+  Name         : RouterRefreshPrinterChangeNotification
+
+Archive member name at BC2E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D18FB919
+  SizeOfData   : 00000023
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterReplyPrinter@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 151
+  Name         : RouterReplyPrinter
+
+Archive member name at BCA2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EABB39A6
+  SizeOfData   : 00000027
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _RouterSpoolerSetPolicy@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 152
+  Name         : RouterSpoolerSetPolicy
+
+Archive member name at BD1A: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE1C0F67
+  SizeOfData   : 0000001B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _ScheduleJob@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 155
+  Name         : ScheduleJob
+
+Archive member name at BD86: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4E6D1ED
+  SizeOfData   : 0000001C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SeekPrinter@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 156
+  Name         : SeekPrinter
+
+Archive member name at BDF2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA53A932
+  SizeOfData   : 00000021
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SendRecvBidiData@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 157
+  Name         : SendRecvBidiData
+
+Archive member name at BE64: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCA0600A
+  SizeOfData   : 00000019
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SetFormW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 158
+  Name         : SetFormW
+
+Archive member name at BECE: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D09C97E2
+  SizeOfData   : 00000024
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SetJobNamedProperty@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 159
+  Name         : SetJobNamedProperty
+
+Archive member name at BF42: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0BE6652
+  SizeOfData   : 00000018
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SetJobW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 160
+  Name         : SetJobW
+
+Archive member name at BFAA: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F26BDA44
+  SizeOfData   : 00000019
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SetPortW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 161
+  Name         : SetPortW
+
+Archive member name at C014: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D78A7027
+  SizeOfData   : 00000022
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SetPrinterDataExW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 162
+  Name         : SetPrinterDataExW
+
+Archive member name at C086: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C47684FF
+  SizeOfData   : 00000020
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SetPrinterDataW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 163
+  Name         : SetPrinterDataW
+
+Archive member name at C0F6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4165162
+  SizeOfData   : 0000001C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SetPrinterW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 164
+  Name         : SetPrinterW
+
+Archive member name at C162: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7881604
+  SizeOfData   : 00000027
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplCloseSpoolFileHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 165
+  Name         : SplCloseSpoolFileHandle
+
+Archive member name at C1DA: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6A17898
+  SizeOfData   : 00000023
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplCommitSpoolData@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 166
+  Name         : SplCommitSpoolData
+
+Archive member name at C24E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA08CAF7
+  SizeOfData   : 00000027
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplDriverUnloadComplete@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 167
+  Name         : SplDriverUnloadComplete
+
+Archive member name at C2C6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE509C50
+  SizeOfData   : 00000026
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplGetClientUserHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 168
+  Name         : SplGetClientUserHandle
+
+Archive member name at C33C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF2F4A41
+  SizeOfData   : 00000024
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplGetSpoolFileInfo@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 169
+  Name         : SplGetSpoolFileInfo
+
+Archive member name at C3B0: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA67DEAB
+  SizeOfData   : 0000002D
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplGetUserSidStringFromToken@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 170
+  Name         : SplGetUserSidStringFromToken
+
+Archive member name at C42E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9EDC178
+  SizeOfData   : 00000028
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplInitializeWinSpoolDrv@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 171
+  Name         : SplInitializeWinSpoolDrv
+
+Archive member name at C4A6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2097ED7
+  SizeOfData   : 00000021
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplIsSessionZero@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 172
+  Name         : SplIsSessionZero
+
+Archive member name at C518: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D069F2E1
+  SizeOfData   : 0000001C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplIsUpgrade@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 173
+  Name         : SplIsUpgrade
+
+Archive member name at C584: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFBE7A52
+  SizeOfData   : 00000023
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplProcessPnPEvent@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 174
+  Name         : SplProcessPnPEvent
+
+Archive member name at C5F8: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7F740CE
+  SizeOfData   : 00000027
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplProcessSessionEvent@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 175
+  Name         : SplProcessSessionEvent
+
+Archive member name at C670: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBBCB6E8
+  SizeOfData   : 0000002A
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplPromptUIInUsersSession@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 176
+  Name         : SplPromptUIInUsersSession
+
+Archive member name at C6EA: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E99A6AB5
+  SizeOfData   : 00000020
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplQueryUserInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 177
+  Name         : SplQueryUserInfo
+
+Archive member name at C75A: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9E2331D
+  SizeOfData   : 0000001F
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplReadPrinter@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 178
+  Name         : SplReadPrinter
+
+Archive member name at C7CA: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE0125F3
+  SizeOfData   : 0000002B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplRegisterForDeviceEvents@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 179
+  Name         : SplRegisterForDeviceEvents
+
+Archive member name at C846: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2B0960E
+  SizeOfData   : 0000002B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplRegisterForSessionEvents@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 180
+  Name         : SplRegisterForSessionEvents
+
+Archive member name at C8C2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EADFE467
+  SizeOfData   : 00000021
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplShutDownRouter@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 181
+  Name         : SplShutDownRouter
+
+Archive member name at C934: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E22DD75D
+  SizeOfData   : 00000021
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplUalCollectData@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 182
+  Name         : SplUalCollectData
+
+Archive member name at C9A6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA459971
+  SizeOfData   : 0000002C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplUnregisterForDeviceEvents@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 183
+  Name         : SplUnregisterForDeviceEvents
+
+Archive member name at CA22: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDA9B89E
+  SizeOfData   : 0000002D
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SplUnregisterForSessionEvents@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 184
+  Name         : SplUnregisterForSessionEvents
+
+Archive member name at CAA0: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3EC08C4
+  SizeOfData   : 00000039
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SpoolerFindClosePrinterChangeNotification@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 185
+  Name         : SpoolerFindClosePrinterChangeNotification
+
+Archive member name at CB2A: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC986749
+  SizeOfData   : 0000003A
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SpoolerFindFirstPrinterChangeNotification@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 186
+  Name         : SpoolerFindFirstPrinterChangeNotification
+
+Archive member name at CBB4: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2758C68
+  SizeOfData   : 00000039
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SpoolerFindNextPrinterChangeNotification@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 187
+  Name         : SpoolerFindNextPrinterChangeNotification
+
+Archive member name at CC3E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEA380E8
+  SizeOfData   : 0000002C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SpoolerFreePrinterNotifyInfo@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 188
+  Name         : SpoolerFreePrinterNotifyInfo
+
+Archive member name at CCBA: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED6AF489
+  SizeOfData   : 00000025
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SpoolerHasInitialized@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 189
+  Name         : SpoolerHasInitialized
+
+Archive member name at CD30: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB6690FC
+  SizeOfData   : 0000001B
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SpoolerInit@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 190
+  Name         : SpoolerInit
+
+Archive member name at CD9C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6E2988F
+  SizeOfData   : 00000038
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _SpoolerRefreshPrinterChangeNotification@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 191
+  Name         : SpoolerRefreshPrinterChangeNotification
+
+Archive member name at CE24: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE09BCC6
+  SizeOfData   : 00000021
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _StartDocPrinterW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 192
+  Name         : StartDocPrinterW
+
+Archive member name at CE96: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAF44C31
+  SizeOfData   : 00000020
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _StartPagePrinter@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 193
+  Name         : StartPagePrinter
+
+Archive member name at CF06: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0D60448
+  SizeOfData   : 0000001E
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _UndoAlignKMPtr@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 194
+  Name         : UndoAlignKMPtr
+
+Archive member name at CF74: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C57D0FD7
+  SizeOfData   : 00000020
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _UndoAlignRpcPtr@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 195
+  Name         : UndoAlignRpcPtr
+
+Archive member name at CFE4: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4DA8B23
+  SizeOfData   : 00000021
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _UpdateBufferSize@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 196
+  Name         : UpdateBufferSize
+
+Archive member name at D056: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF1F162B
+  SizeOfData   : 00000027
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _UpdatePrintDeviceObject@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 197
+  Name         : UpdatePrintDeviceObject
+
+Archive member name at D0CE: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1991E0D
+  SizeOfData   : 00000024
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _UpdatePrinterRegAll@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 198
+  Name         : UpdatePrinterRegAll
+
+Archive member name at D142: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA3547BA
+  SizeOfData   : 00000026
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _UpdatePrinterRegAllEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 199
+  Name         : UpdatePrinterRegAllEx
+
+Archive member name at D1B8: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF3673D6
+  SizeOfData   : 00000025
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _UpdatePrinterRegUser@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 200
+  Name         : UpdatePrinterRegUser
+
+Archive member name at D22E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBD2538A
+  SizeOfData   : 00000024
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _WaitForPrinterChange@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 201
+  Name         : WaitForPrinterChange
+
+Archive member name at D2A2: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1B9E2E7
+  SizeOfData   : 0000002C
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _WaitForSpoolerInitialization@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 202
+  Name         : WaitForSpoolerInitialization
+
+Archive member name at D31E: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C26224CC
+  SizeOfData   : 0000001D
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _WritePrinter@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 203
+  Name         : WritePrinter
+
+Archive member name at D38C: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2238943
+  SizeOfData   : 00000019
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _XcvDataW@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 204
+  Name         : XcvDataW
+
+Archive member name at D3F6: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0ACBD83
+  SizeOfData   : 00000023
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _bGetDevModePerUser@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 205
+  Name         : bGetDevModePerUser
+
+Archive member name at D46A: SPOOLSS.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D77CE24F
+  SizeOfData   : 00000023
+  DLL name     : SPOOLSS.DLL
+  Symbol name  : _bSetDevModePerUser@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 206
+  Name         : bSetDevModePerUser
+
+     Exports
+
+       ordinal    name
+
+                  ?OpenPrinterExW@@YGHPAGPAPAXPAU_PRINTER_DEFAULTSW@@PAU_SPLCLIENT_CONTAINER@@@Z (int __stdcall OpenPrinterExW(unsigned short *,void * *,struct _PRINTER_DEFAULTSW *,struct _SPLCLIENT_CONTAINER *))
+                  ?RouterCorePrinterDriverInstalled@@YGJPBG0U_GUID@@U_FILETIME@@_KPAH@Z (long __stdcall RouterCorePrinterDriverInstalled(unsigned short const *,unsigned short const *,struct _GUID,struct _FILETIME,unsigned __int64,int *))
+                  ?RouterCreatePrintAsyncNotificationChannel@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAUIPrintAsyncNotifyChannel@@@Z (long __stdcall RouterCreatePrintAsyncNotificationChannel(unsigned short const *,struct _GUID *,enum PrintAsyncNotifyUserFilter,enum PrintAsyncNotifyConversationStyle,struct IPrintAsyncNotifyCallback *,struct IPrintAsyncNotifyChannel * *))
+                  ?RouterDeletePrinterDriverPackage@@YGJPBG00@Z (long __stdcall RouterDeletePrinterDriverPackage(unsigned short const *,unsigned short const *,unsigned short const *))
+                  ?RouterGetCorePrinterDrivers@@YGJPBG00KPAU_CORE_PRINTER_DRIVERW@@@Z (long __stdcall RouterGetCorePrinterDrivers(unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,struct _CORE_PRINTER_DRIVERW *))
+                  ?RouterGetPrintClassObject@@YGJPBGABU_GUID@@PAPAX@Z (long __stdcall RouterGetPrintClassObject(unsigned short const *,struct _GUID const &,void * *))
+                  ?RouterGetPrinterDriverPackagePath@@YGJPBG000PAGKPAK@Z (long __stdcall RouterGetPrinterDriverPackagePath(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short *,unsigned long,unsigned long *))
+                  ?RouterInstallPrinterDriverFromPackage@@YGJPBG000K@Z (long __stdcall RouterInstallPrinterDriverFromPackage(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned long))
+                  ?RouterRegisterForPrintAsyncNotifications@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAX@Z (long __stdcall RouterRegisterForPrintAsyncNotifications(unsigned short const *,struct _GUID *,enum PrintAsyncNotifyUserFilter,enum PrintAsyncNotifyConversationStyle,struct IPrintAsyncNotifyCallback *,void * *))
+                  ?RouterUnregisterForPrintAsyncNotifications@@YGJPAX@Z (long __stdcall RouterUnregisterForPrintAsyncNotifications(void *))
+                  ?RouterUploadPrinterDriverPackage@@YGJPBG00KPAGPAK@Z (long __stdcall RouterUploadPrinterDriverPackage(unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,unsigned short *,unsigned long *))
+                  _AbortPrinter@4
+                  _AddFormW@12
+                  _AddJobW@20
+                  _AddMonitorW@12
+                  _AddPerMachineConnectionW@16
+                  _AddPortExW@16
+                  _AddPortW@12
+                  _AddPrintDeviceObject@8
+                  _AddPrintProcessorW@16
+                  _AddPrintProvidorW@12
+                  _AddPrinterConnectionW@4
+                  _AddPrinterDriverExW@16
+                  _AddPrinterDriverW@12
+                  _AddPrinterExW@20
+                  _AddPrinterW@12
+                  _AdjustPointers@16
+                  _AdjustPointersInStructuresArray@20
+                  _AlignKMPtr@8
+                  _AlignRpcPtr@8
+                  _AllocSplStr@4
+                  _AllowRemoteCalls@0
+                  _AppendPrinterNotifyInfoData@12
+                  _BuildOtherNamesFromMachineName@8
+                  _CacheAddName@4
+                  _CacheCreateAndAddNode@8
+                  _CacheCreateAndAddNodeWithIPAddresses@16
+                  _CacheDeleteNode@4
+                  _CacheIsNameCluster@4
+                  _CacheIsNameInNodeList@8
+                  _CallDrvDevModeConversion@28
+                  _CallRouterFindFirstPrinterChangeNotification@20
+                  _CheckLocalCall@0
+                  _ClosePrinter@4
+                  _ConfigurePortW@12
+                  _CreatePrinterIC@8
+                  _DeleteFormW@8
+                  _DeleteJobNamedProperty@12
+                  _DeleteMonitorW@12
+                  _DeletePerMachineConnectionW@8
+                  _DeletePortW@12
+                  _DeletePrintProcessorW@12
+                  _DeletePrintProvidorW@12
+                  _DeletePrinter@4
+                  _DeletePrinterConnectionW@4
+                  _DeletePrinterDataExW@12
+                  _DeletePrinterDataW@8
+                  _DeletePrinterDriverExW@20
+                  _DeletePrinterDriverW@12
+                  _DeletePrinterIC@4
+                  _DeletePrinterKeyW@8
+                  _DllAllocSplMem@4
+                  _DllAllocSplStr@4
+                  _DllFreeSplMem@4
+                  _DllFreeSplStr@4
+                  _DllMain@12
+                  _DllReallocSplMem@12
+                  _DllReallocSplStr@8
+                  _EndDocPrinter@4
+                  _EndPagePrinter@4
+                  _EnumFormsW@24
+                  _EnumJobsW@32
+                  _EnumMonitorsW@24
+                  _EnumPerMachineConnectionsW@20
+                  _EnumPortsW@24
+                  _EnumPrintProcessorDatatypesW@28
+                  _EnumPrintProcessorsW@28
+                  _EnumPrinterDataExW@24
+                  _EnumPrinterDataW@36
+                  _EnumPrinterDriversW@28
+                  _EnumPrinterKeyW@20
+                  _EnumPrintersW@28
+                  _FindClosePrinterChangeNotification@4
+                  _FlushPrinter@20
+                  _FormatPrinterForRegistryKey@12
+                  _FormatRegistryKeyForPrinter@12
+                  _FreeOtherNames@8
+                  _FreePrintPropertyValue@4
+                  _GetFormW@24
+                  _GetJobAttributes@12
+                  _GetJobAttributesEx@24
+                  _GetJobNamedPropertyValue@16
+                  _GetJobW@24
+                  _GetNetworkId@8
+                  _GetPrintProcessorDirectoryW@24
+                  _GetPrinterDataExW@28
+                  _GetPrinterDataW@24
+                  _GetPrinterDriverDirectoryW@24
+                  _GetPrinterDriverExW@40
+                  _GetPrinterDriverW@24
+                  _GetPrinterW@20
+                  _GetServerPolicy@8
+                  _GetShrinkedSize@8
+                  _GetSpoolerTlsIndexes@12
+                  _ImpersonatePrinterClient@4
+                  _InitializeRouter@4
+                  _IsNameTheLocalMachineOrAClusterSpooler@4
+                  _IsNamedPipeRpcCall@0
+                  _MIDL_user_allocate1@4
+                  _MIDL_user_free1@4
+                  _MakeOffset@8
+                  _MakePTR@8
+                  _MarshallDownStructure@16
+                  _MarshallDownStructuresArray@20
+                  _MarshallUpStructure@20
+                  _MarshallUpStructuresArray@24
+                  _OldGetPrinterDriverW@24
+                  _OpenPrinter2W@16
+                  _OpenPrinterPort2W@16
+                  _OpenPrinterW@12
+                  _PackStringToEOB@8
+                  _PackStrings@16
+                  _PartialReplyPrinterChangeNotification@8
+                  _PlayGdiScriptOnPrinterIC@24
+                  _PrinterHandleRundown@4
+                  _PrinterMessageBoxW@24
+                  _ProvidorFindClosePrinterChangeNotification@4
+                  _ProvidorFindFirstPrinterChangeNotification@24
+                  _ReadPrinter@16
+                  _ReallocSplMem@12
+                  _ReallocSplStr@8
+                  _RemoteFindFirstPrinterChangeNotification@28
+                  _RemovePrintDeviceObject@4
+                  _ReplyClosePrinter@4
+                  _ReplyOpenPrinter@20
+                  _ReplyPrinterChangeNotification@16
+                  _ReplyPrinterChangeNotificationEx@20
+                  _ReportJobProcessingProgress@16
+                  _ResetPrinterW@8
+                  _RevertToPrinterSelf@0
+                  _RouterAddPrinterConnection2@12
+                  _RouterAllocBidiMem@4
+                  _RouterAllocBidiResponseContainer@4
+                  _RouterAllocPrinterNotifyInfo@4
+                  _RouterBroadcastMessage@20
+                  _RouterFindCompatibleDriver@36
+                  _RouterFindFirstPrinterChangeNotification@24
+                  _RouterFindNextPrinterChangeNotification@20
+                  _RouterFreeBidiMem@4
+                  _RouterFreeBidiResponseContainer@4
+                  _RouterFreePrinterNotifyInfo@4
+                  _RouterInternalGetPrinterDriver@40
+                  _RouterRefreshPrinterChangeNotification@16
+                  _RouterReplyPrinter@24
+                  _RouterSpoolerSetPolicy@12
+                  _ScheduleJob@8
+                  _SeekPrinter@24
+                  _SendRecvBidiData@16
+                  _SetFormW@16
+                  _SetJobNamedProperty@12
+                  _SetJobW@20
+                  _SetPortW@16
+                  _SetPrinterDataExW@24
+                  _SetPrinterDataW@20
+                  _SetPrinterW@16
+                  _SplCloseSpoolFileHandle@4
+                  _SplCommitSpoolData@28
+                  _SplDriverUnloadComplete@4
+                  _SplGetClientUserHandle@4
+                  _SplGetSpoolFileInfo@24
+                  _SplGetUserSidStringFromToken@16
+                  _SplInitializeWinSpoolDrv@4
+                  _SplIsSessionZero@12
+                  _SplIsUpgrade@0
+                  _SplProcessPnPEvent@12
+                  _SplProcessSessionEvent@12
+                  _SplPromptUIInUsersSession@16
+                  _SplQueryUserInfo@8
+                  _SplReadPrinter@12
+                  _SplRegisterForDeviceEvents@12
+                  _SplRegisterForSessionEvents@8
+                  _SplShutDownRouter@0
+                  _SplUalCollectData@8
+                  _SplUnregisterForDeviceEvents@4
+                  _SplUnregisterForSessionEvents@4
+                  _SpoolerFindClosePrinterChangeNotification@4
+                  _SpoolerFindFirstPrinterChangeNotification@32
+                  _SpoolerFindNextPrinterChangeNotification@16
+                  _SpoolerFreePrinterNotifyInfo@4
+                  _SpoolerHasInitialized@0
+                  _SpoolerInit@0
+                  _SpoolerRefreshPrinterChangeNotification@16
+                  _StartDocPrinterW@12
+                  _StartPagePrinter@4
+                  _UndoAlignKMPtr@8
+                  _UndoAlignRpcPtr@16
+                  _UpdateBufferSize@24
+                  _UpdatePrintDeviceObject@8
+                  _UpdatePrinterRegAll@16
+                  _UpdatePrinterRegAllEx@20
+                  _UpdatePrinterRegUser@20
+                  _WaitForPrinterChange@8
+                  _WaitForSpoolerInitialization@0
+                  _WritePrinter@16
+                  _XcvDataW@32
+                  _bGetDevModePerUser@12
+                  _bSetDevModePerUser@12
+
+  Summary
+
+          C3 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

@@ -1,0 +1,6461 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\ws2_32.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    2CDF size
+correct header end
+
+    407 public symbols
+
+     5AB6 __imp__socket@12
+     5AB6 _socket@12
+     5B1C __imp__shutdown@8
+     5B1C _shutdown@8
+     5B84 __imp__setsockopt@20
+     5B84 _setsockopt@20
+     5BEE __imp__sendto@24
+     5BEE _sendto@24
+     5C54 __imp__send@16
+     5C54 _send@16
+     5CB8 __imp__select@20
+     5CB8 _select@20
+     5D1E __imp__recvfrom@24
+     5D1E _recvfrom@24
+     5D86 __imp__recv@16
+     5D86 _recv@16
+     5DEA __imp__ntohs@4
+     5DEA _ntohs@4
+     5E4E __imp__ntohl@4
+     5E4E _ntohl@4
+     5EB2 __imp__listen@8
+     5EB2 _listen@8
+     5F18 __imp__ioctlsocket@12
+     5F18 _ioctlsocket@12
+     5F84 __imp__inet_pton@12
+     5F84 _inet_pton@12
+     5FEE __imp__inet_ntop@16
+     5FEE _inet_ntop@16
+     6058 __imp__inet_ntoa@4
+     6058 _inet_ntoa@4
+     60C0 __imp__inet_addr@4
+     60C0 _inet_addr@4
+     6128 __imp__htons@4
+     6128 _htons@4
+     618C __imp__htonl@4
+     618C _htonl@4
+     61F0 __imp__getsockopt@20
+     61F0 _getsockopt@20
+     625A __imp__getsockname@12
+     625A _getsockname@12
+     62C6 __imp__getservbyport@8
+     62C6 _getservbyport@8
+     6332 __imp__getservbyname@8
+     6332 _getservbyname@8
+     639E __imp__getprotobynumber@4
+     639E _getprotobynumber@4
+     640E __imp__getprotobyname@4
+     640E _getprotobyname@4
+     647C __imp__getpeername@12
+     647C _getpeername@12
+     64E8 __imp__getnameinfo@28
+     64E8 _getnameinfo@28
+     6554 __imp__gethostname@8
+     6554 _gethostname@8
+     65BE __imp__gethostbyname@4
+     65BE _gethostbyname@4
+     662A __imp__gethostbyaddr@12
+     662A _gethostbyaddr@12
+     6698 __imp__getaddrinfo@16
+     6698 _getaddrinfo@16
+     6704 __imp__freeaddrinfo@4
+     6704 _freeaddrinfo@4
+     6770 __imp__connect@12
+     6770 _connect@12
+     67D8 __imp__closesocket@4
+     67D8 _closesocket@4
+     6842 __imp__bind@12
+     6842 _bind@12
+     68A6 __imp__accept@12
+     68A6 _accept@12
+     690C ___WSAFDIsSet@8
+     690C __imp____WSAFDIsSet@8
+     6978 _WahWriteLSPEvent@8
+     6978 __imp__WahWriteLSPEvent@8
+     69E8 _WahWaitForNotification@16
+     69E8 __imp__WahWaitForNotification@16
+     6A5E _WahRemoveHandleContext@8
+     6A5E __imp__WahRemoveHandleContext@8
+     6AD4 _WahReferenceContextByHandle@8
+     6AD4 __imp__WahReferenceContextByHandle@8
+     6B4E _WahQueueUserApc@16
+     6B4E __imp__WahQueueUserApc@16
+     6BBE _WahOpenNotificationHandleHelper@4
+     6BBE __imp__WahOpenNotificationHandleHelper@4
+     6C3C _WahOpenHandleHelper@4
+     6C3C __imp__WahOpenHandleHelper@4
+     6CAE _WahOpenCurrentThread@8
+     6CAE __imp__WahOpenCurrentThread@8
+     6D22 _WahOpenApcHelper@4
+     6D22 __imp__WahOpenApcHelper@4
+     6D92 _WahNotifyAllProcesses@4
+     6D92 __imp__WahNotifyAllProcesses@4
+     6E06 _WahInsertHandleContext@8
+     6E06 __imp__WahInsertHandleContext@8
+     6E7C _WahEnumerateHandleContexts@12
+     6E7C __imp__WahEnumerateHandleContexts@12
+     6EF6 _WahEnableNonIFSHandleSupport@0
+     6EF6 __imp__WahEnableNonIFSHandleSupport@0
+     6F72 _WahDisableNonIFSHandleSupport@0
+     6F72 __imp__WahDisableNonIFSHandleSupport@0
+     6FEE _WahDestroyHandleContextTable@4
+     6FEE __imp__WahDestroyHandleContextTable@4
+     706A _WahCreateSocketHandle@8
+     706A __imp__WahCreateSocketHandle@8
+     70DE _WahCreateNotificationHandle@8
+     70DE __imp__WahCreateNotificationHandle@8
+     7158 _WahCreateHandleContextTable@4
+     7158 __imp__WahCreateHandleContextTable@4
+     71D2 _WahCompleteRequest@20
+     71D2 __imp__WahCompleteRequest@20
+     7244 _WahCloseThread@8
+     7244 __imp__WahCloseThread@8
+     72B2 _WahCloseSocketHandle@8
+     72B2 __imp__WahCloseSocketHandle@8
+     7326 _WahCloseNotificationHandleHelper@4
+     7326 __imp__WahCloseNotificationHandleHelper@4
+     73A6 _WahCloseHandleHelper@4
+     73A6 __imp__WahCloseHandleHelper@4
+     741A _WahCloseApcHelper@4
+     741A __imp__WahCloseApcHelper@4
+     748A _WSCWriteProviderOrderEx@12
+     748A __imp__WSCWriteProviderOrderEx@12
+     7502 _WSCWriteProviderOrder@8
+     7502 __imp__WSCWriteProviderOrder@8
+     7576 _WSCWriteNameSpaceOrder@8
+     7576 __imp__WSCWriteNameSpaceOrder@8
+     75EC _WSCUpdateProviderEx@24
+     75EC __imp__WSCUpdateProviderEx@24
+     7660 _WSCUpdateProvider@20
+     7660 __imp__WSCUpdateProvider@20
+     76D2 _WSCUnInstallNameSpaceEx2@8
+     76D2 __imp__WSCUnInstallNameSpaceEx2@8
+     774A _WSCUnInstallNameSpace@4
+     774A __imp__WSCUnInstallNameSpace@4
+     77BE _WSCSetProviderInfo@24
+     77BE __imp__WSCSetProviderInfo@24
+     7830 _WSCSetApplicationCategoryEx@32
+     7830 __imp__WSCSetApplicationCategoryEx@32
+     78AC _WSCSetApplicationCategory@28
+     78AC __imp__WSCSetApplicationCategory@28
+     7926 _WSCInstallProviderEx@28
+     7926 __imp__WSCInstallProviderEx@28
+     799A _WSCInstallProviderAndChains@32
+     799A __imp__WSCInstallProviderAndChains@32
+     7A16 _WSCInstallProvider@20
+     7A16 __imp__WSCInstallProvider@20
+     7A88 _WSCInstallNameSpaceEx@24
+     7A88 __imp__WSCInstallNameSpaceEx@24
+     7AFE _WSCInstallNameSpaceEx2@28
+     7AFE __imp__WSCInstallNameSpaceEx2@28
+     7B74 _WSCInstallNameSpace@20
+     7B74 __imp__WSCInstallNameSpace@20
+     7BE8 _WSCGetProviderPath@16
+     7BE8 __imp__WSCGetProviderPath@16
+     7C5A _WSCGetProviderInfo@24
+     7C5A __imp__WSCGetProviderInfo@24
+     7CCC _WSCGetApplicationCategoryEx@28
+     7CCC __imp__WSCGetApplicationCategoryEx@28
+     7D48 _WSCGetApplicationCategory@24
+     7D48 __imp__WSCGetApplicationCategory@24
+     7DC2 _WSCEnumProtocolsEx@20
+     7DC2 __imp__WSCEnumProtocolsEx@20
+     7E34 _WSCEnumProtocols@16
+     7E34 __imp__WSCEnumProtocols@16
+     7EA4 _WSCEnableNSProvider@8
+     7EA4 __imp__WSCEnableNSProvider@8
+     7F16 _WSCDeinstallProviderEx@12
+     7F16 __imp__WSCDeinstallProviderEx@12
+     7F8C _WSCDeinstallProvider@8
+     7F8C __imp__WSCDeinstallProvider@8
+     8000 _WSAWaitForMultipleEvents@20
+     8000 __imp__WSAWaitForMultipleEvents@20
+     8078 _WSAUnhookBlockingHook@0
+     8078 __imp__WSAUnhookBlockingHook@0
+     80EC _WSAUnadvertiseProvider@4
+     80EC __imp__WSAUnadvertiseProvider@4
+     8162 _WSAStringToAddressW@20
+     8162 __imp__WSAStringToAddressW@20
+     81D6 _WSAStringToAddressA@20
+     81D6 __imp__WSAStringToAddressA@20
+     824A _WSAStartup@8
+     824A __imp__WSAStartup@8
+     82B4 _WSASocketW@24
+     82B4 __imp__WSASocketW@24
+     831E _WSASocketA@24
+     831E __imp__WSASocketA@24
+     8388 _WSASetServiceW@12
+     8388 __imp__WSASetServiceW@12
+     83F6 _WSASetServiceA@12
+     83F6 __imp__WSASetServiceA@12
+     8464 _WSASetLastError@4
+     8464 __imp__WSASetLastError@4
+     84D2 _WSASetEvent@4
+     84D2 __imp__WSASetEvent@4
+     853C _WSASetBlockingHook@4
+     853C __imp__WSASetBlockingHook@4
+     85AE _WSASendTo@36
+     85AE __imp__WSASendTo@36
+     8618 _WSASendMsg@24
+     8618 __imp__WSASendMsg@24
+     8682 _WSASendDisconnect@8
+     8682 __imp__WSASendDisconnect@8
+     86F2 _WSASend@28
+     86F2 __imp__WSASend@28
+     875A _WSAResetEvent@4
+     875A __imp__WSAResetEvent@4
+     87C6 _WSARemoveServiceClass@4
+     87C6 __imp__WSARemoveServiceClass@4
+     883A _WSARecvFrom@36
+     883A __imp__WSARecvFrom@36
+     88A6 _WSARecvDisconnect@8
+     88A6 __imp__WSARecvDisconnect@8
+     8916 _WSARecv@28
+     8916 __imp__WSARecv@28
+     897E _WSAProviderConfigChange@12
+     897E __imp__WSAProviderConfigChange@12
+     89F6 _WSAProviderCompleteAsyncCall@8
+     89F6 __imp__WSAProviderCompleteAsyncCall@8
+     8A72 _WSAPoll@12
+     8A72 __imp__WSAPoll@12
+     8ADA _WSANtohs@12
+     8ADA __imp__WSANtohs@12
+     8B42 _WSANtohl@12
+     8B42 __imp__WSANtohl@12
+     8BAA _WSANSPIoctl@32
+     8BAA __imp__WSANSPIoctl@32
+     8C16 _WSALookupServiceNextW@16
+     8C16 __imp__WSALookupServiceNextW@16
+     8C8C _WSALookupServiceNextA@16
+     8C8C __imp__WSALookupServiceNextA@16
+     8D02 _WSALookupServiceEnd@4
+     8D02 __imp__WSALookupServiceEnd@4
+     8D74 _WSALookupServiceBeginW@12
+     8D74 __imp__WSALookupServiceBeginW@12
+     8DEA _WSALookupServiceBeginA@12
+     8DEA __imp__WSALookupServiceBeginA@12
+     8E60 _WSAJoinLeaf@32
+     8E60 __imp__WSAJoinLeaf@32
+     8ECC _WSAIsBlocking@0
+     8ECC __imp__WSAIsBlocking@0
+     8F38 _WSAIoctl@36
+     8F38 __imp__WSAIoctl@36
+     8FA0 _WSAInstallServiceClassW@4
+     8FA0 __imp__WSAInstallServiceClassW@4
+     9016 _WSAInstallServiceClassA@4
+     9016 __imp__WSAInstallServiceClassA@4
+     908C _WSAHtons@12
+     908C __imp__WSAHtons@12
+     90F4 _WSAHtonl@12
+     90F4 __imp__WSAHtonl@12
+     915C _WSAGetServiceClassNameByClassIdW@12
+     915C __imp__WSAGetServiceClassNameByClassIdW@12
+     91DC _WSAGetServiceClassNameByClassIdA@12
+     91DC __imp__WSAGetServiceClassNameByClassIdA@12
+     925C _WSAGetServiceClassInfoW@16
+     925C __imp__WSAGetServiceClassInfoW@16
+     92D4 _WSAGetServiceClassInfoA@16
+     92D4 __imp__WSAGetServiceClassInfoA@16
+     934C _WSAGetQOSByName@12
+     934C __imp__WSAGetQOSByName@12
+     93BC _WSAGetOverlappedResult@20
+     93BC __imp__WSAGetOverlappedResult@20
+     9432 _WSAGetLastError@0
+     9432 __imp__WSAGetLastError@0
+     94A0 _WSAEventSelect@12
+     94A0 __imp__WSAEventSelect@12
+     950E _WSAEnumProtocolsW@12
+     950E __imp__WSAEnumProtocolsW@12
+     9580 _WSAEnumProtocolsA@12
+     9580 __imp__WSAEnumProtocolsA@12
+     95F2 _WSAEnumNetworkEvents@12
+     95F2 __imp__WSAEnumNetworkEvents@12
+     9666 _WSAEnumNameSpaceProvidersW@8
+     9666 __imp__WSAEnumNameSpaceProvidersW@8
+     96E0 _WSAEnumNameSpaceProvidersExW@8
+     96E0 __imp__WSAEnumNameSpaceProvidersExW@8
+     975C _WSAEnumNameSpaceProvidersExA@8
+     975C __imp__WSAEnumNameSpaceProvidersExA@8
+     97D8 _WSAEnumNameSpaceProvidersA@8
+     97D8 __imp__WSAEnumNameSpaceProvidersA@8
+     9852 _WSADuplicateSocketW@12
+     9852 __imp__WSADuplicateSocketW@12
+     98C6 _WSADuplicateSocketA@12
+     98C6 __imp__WSADuplicateSocketA@12
+     993A _WSACreateEvent@0
+     993A __imp__WSACreateEvent@0
+     99A8 _WSAConnectByNameW@36
+     99A8 __imp__WSAConnectByNameW@36
+     9A1A _WSAConnectByNameA@36
+     9A1A __imp__WSAConnectByNameA@36
+     9A8C _WSAConnectByList@32
+     9A8C __imp__WSAConnectByList@32
+     9AFC _WSAConnect@28
+     9AFC __imp__WSAConnect@28
+     9B66 _WSACloseEvent@4
+     9B66 __imp__WSACloseEvent@4
+     9BD2 _WSACleanup@0
+     9BD2 __imp__WSACleanup@0
+     9C3C _WSACancelBlockingCall@0
+     9C3C __imp__WSACancelBlockingCall@0
+     9CB0 _WSACancelAsyncRequest@4
+     9CB0 __imp__WSACancelAsyncRequest@4
+     9D24 _WSAAsyncSelect@16
+     9D24 __imp__WSAAsyncSelect@16
+     9D92 _WSAAsyncGetServByPort@24
+     9D92 __imp__WSAAsyncGetServByPort@24
+     9E08 _WSAAsyncGetServByName@24
+     9E08 __imp__WSAAsyncGetServByName@24
+     9E7E _WSAAsyncGetProtoByNumber@20
+     9E7E __imp__WSAAsyncGetProtoByNumber@20
+     9EF6 _WSAAsyncGetProtoByName@20
+     9EF6 __imp__WSAAsyncGetProtoByName@20
+     9F6C _WSAAsyncGetHostByName@20
+     9F6C __imp__WSAAsyncGetHostByName@20
+     9FE2 _WSAAsyncGetHostByAddr@28
+     9FE2 __imp__WSAAsyncGetHostByAddr@28
+     A058 _WSAAdvertiseProvider@8
+     A058 __imp__WSAAdvertiseProvider@8
+     A0CC _WSAAddressToStringW@20
+     A0CC __imp__WSAAddressToStringW@20
+     A140 _WSAAddressToStringA@20
+     A140 __imp__WSAAddressToStringA@20
+     A1B4 _WSAAccept@20
+     A1B4 __imp__WSAAccept@20
+     A21E _WPUGetProviderPathEx@20
+     A21E __imp__WPUGetProviderPathEx@20
+     A292 _WPUCompleteOverlappedRequest@20
+     A292 __imp__WPUCompleteOverlappedRequest@20
+     A30E _WEP@0
+     A30E __imp__WEP@0
+     A370 _SetAddrInfoExW@48
+     A370 __imp__SetAddrInfoExW@48
+     A3DE _SetAddrInfoExA@48
+     A3DE __imp__SetAddrInfoExA@48
+     A44C _ProcessSocketNotifications@28
+     A44C __imp__ProcessSocketNotifications@28
+     A4C6 _InetPtonW@12
+     A4C6 __imp__InetPtonW@12
+     A530 _InetNtopW@16
+     A530 __imp__InetNtopW@16
+     A59A _GetNameInfoW@28
+     A59A __imp__GetNameInfoW@28
+     A606 _GetHostNameW@8
+     A606 __imp__GetHostNameW@8
+     A672 _GetAddrInfoW@16
+     A672 __imp__GetAddrInfoW@16
+     A6DE _GetAddrInfoExW@40
+     A6DE __imp__GetAddrInfoExW@40
+     A74C _GetAddrInfoExOverlappedResult@4
+     A74C __imp__GetAddrInfoExOverlappedResult@4
+     A7C8 _GetAddrInfoExCancel@4
+     A7C8 __imp__GetAddrInfoExCancel@4
+     A83A _GetAddrInfoExA@40
+     A83A __imp__GetAddrInfoExA@40
+     A8A8 _FreeAddrInfoW@4
+     A8A8 __imp__FreeAddrInfoW@4
+     A914 _FreeAddrInfoExW@4
+     A914 __imp__FreeAddrInfoExW@4
+     A982 _FreeAddrInfoEx@4
+     A982 __imp__FreeAddrInfoEx@4
+     A9F0 ?WSApSetPostRoutine@@YGHPAX@Z
+     A9F0 __imp_?WSApSetPostRoutine@@YGHPAX@Z
+     AA6A WS2_32_NULL_THUNK_DATA
+     ABBA __NULL_IMPORT_DESCRIPTOR
+     ACF0 __IMPORT_DESCRIPTOR_WS2_32
+     AF16 ??_C@_13CGOKJPIL@?$AA?1@
+     AF16 ??_C@_13FPGAJAPJ@?$AA?2@
+     AF16 ??_C@_15MNCACJLI@?$AA?2?$AA?1@
+     AF16 _AddressFamilyInformation
+     AF16 _BUGCHECK_EFI_GUID
+     AF16 _ExPoolZeroingNativelySupported
+     AF16 _RtlAlternateDosPathSeperatorString
+     AF16 _RtlDosPathSeperatorsString
+     AF16 _RtlNtPathSeperatorString
+     AF16 _eui48_broadcast
+     AF16 _in4addr_alligmpv3routersonlink
+     AF16 _in4addr_allnodesonlink
+     AF16 _in4addr_allroutersonlink
+     AF16 _in4addr_allteredohostsonlink
+     AF16 _in4addr_any
+     AF16 _in4addr_broadcast
+     AF16 _in4addr_linklocalprefix
+     AF16 _in4addr_loopback
+     AF16 _in4addr_multicastprefix
+     AF16 _in6addr_6to4prefix
+     AF16 _in6addr_allmldv2routersonlink
+     AF16 _in6addr_allnodesonlink
+     AF16 _in6addr_allnodesonnode
+     AF16 _in6addr_allroutersonlink
+     AF16 _in6addr_any
+     AF16 _in6addr_linklocalprefix
+     AF16 _in6addr_loopback
+     AF16 _in6addr_multicastprefix
+     AF16 _in6addr_solicitednodemulticastprefix
+     AF16 _in6addr_teredoinitiallinklocaladdress
+     AF16 _in6addr_teredoprefix
+     AF16 _in6addr_teredoprefix_old
+     AF16 _in6addr_v4mappedprefix
+     AF16 _scopeid_unspecified
+    278D2 _HV_GUID_BROADCAST
+    278D2 _HV_GUID_CHILDREN
+    278D2 _HV_GUID_LOOPBACK
+    278D2 _HV_GUID_PARENT
+    278D2 _HV_GUID_SILOHOST
+    278D2 _HV_GUID_VSOCK_TEMPLATE
+    278D2 _HV_GUID_ZERO
+    278D2 _sockaddr_size
+
+Archive member name at 5AB6: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE6EE30B
+  SizeOfData   : 00000016
+  DLL name     : WS2_32.dll
+  Symbol name  : _socket@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 23
+
+Archive member name at 5B1C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E49379CC
+  SizeOfData   : 00000017
+  DLL name     : WS2_32.dll
+  Symbol name  : _shutdown@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 22
+
+Archive member name at 5B84: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C78CAF5E
+  SizeOfData   : 0000001A
+  DLL name     : WS2_32.dll
+  Symbol name  : _setsockopt@20
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 21
+
+Archive member name at 5BEE: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDFC1576
+  SizeOfData   : 00000016
+  DLL name     : WS2_32.dll
+  Symbol name  : _sendto@24
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 20
+
+Archive member name at 5C54: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D976D0D2
+  SizeOfData   : 00000014
+  DLL name     : WS2_32.dll
+  Symbol name  : _send@16
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 19
+
+Archive member name at 5CB8: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F160EA6F
+  SizeOfData   : 00000016
+  DLL name     : WS2_32.dll
+  Symbol name  : _select@20
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 18
+
+Archive member name at 5D1E: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C47E946E
+  SizeOfData   : 00000018
+  DLL name     : WS2_32.dll
+  Symbol name  : _recvfrom@24
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 17
+
+Archive member name at 5D86: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFCBA5EB
+  SizeOfData   : 00000014
+  DLL name     : WS2_32.dll
+  Symbol name  : _recv@16
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 16
+
+Archive member name at 5DEA: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F19A676A
+  SizeOfData   : 00000014
+  DLL name     : WS2_32.dll
+  Symbol name  : _ntohs@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 15
+
+Archive member name at 5E4E: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3330CAC
+  SizeOfData   : 00000014
+  DLL name     : WS2_32.dll
+  Symbol name  : _ntohl@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 14
+
+Archive member name at 5EB2: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDE89E53
+  SizeOfData   : 00000015
+  DLL name     : WS2_32.dll
+  Symbol name  : _listen@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 13
+
+Archive member name at 5F18: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C883FDDC
+  SizeOfData   : 0000001B
+  DLL name     : WS2_32.dll
+  Symbol name  : _ioctlsocket@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 10
+
+Archive member name at 5F84: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFF75B53
+  SizeOfData   : 00000019
+  DLL name     : WS2_32.dll
+  Symbol name  : _inet_pton@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 168
+  Name         : inet_pton
+
+Archive member name at 5FEE: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC9B765F
+  SizeOfData   : 00000019
+  DLL name     : WS2_32.dll
+  Symbol name  : _inet_ntop@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 167
+  Name         : inet_ntop
+
+Archive member name at 6058: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0CE7C55
+  SizeOfData   : 00000018
+  DLL name     : WS2_32.dll
+  Symbol name  : _inet_ntoa@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 12
+
+Archive member name at 60C0: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E078761B
+  SizeOfData   : 00000018
+  DLL name     : WS2_32.dll
+  Symbol name  : _inet_addr@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 11
+
+Archive member name at 6128: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1415C3F
+  SizeOfData   : 00000014
+  DLL name     : WS2_32.dll
+  Symbol name  : _htons@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 9
+
+Archive member name at 618C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE3A80B8
+  SizeOfData   : 00000014
+  DLL name     : WS2_32.dll
+  Symbol name  : _htonl@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 8
+
+Archive member name at 61F0: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD8CAC91
+  SizeOfData   : 0000001A
+  DLL name     : WS2_32.dll
+  Symbol name  : _getsockopt@20
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 7
+
+Archive member name at 625A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE2FB2B3
+  SizeOfData   : 0000001B
+  DLL name     : WS2_32.dll
+  Symbol name  : _getsockname@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 6
+
+Archive member name at 62C6: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBB77969
+  SizeOfData   : 0000001C
+  DLL name     : WS2_32.dll
+  Symbol name  : _getservbyport@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 56
+
+Archive member name at 6332: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE7B4E77
+  SizeOfData   : 0000001C
+  DLL name     : WS2_32.dll
+  Symbol name  : _getservbyname@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 55
+
+Archive member name at 639E: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB568D72
+  SizeOfData   : 0000001F
+  DLL name     : WS2_32.dll
+  Symbol name  : _getprotobynumber@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 54
+
+Archive member name at 640E: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBB41329
+  SizeOfData   : 0000001D
+  DLL name     : WS2_32.dll
+  Symbol name  : _getprotobyname@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 53
+
+Archive member name at 647C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9E185D2
+  SizeOfData   : 0000001B
+  DLL name     : WS2_32.dll
+  Symbol name  : _getpeername@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 5
+
+Archive member name at 64E8: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F40C4311
+  SizeOfData   : 0000001B
+  DLL name     : WS2_32.dll
+  Symbol name  : _getnameinfo@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 155
+  Name         : getnameinfo
+
+Archive member name at 6554: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8928C30
+  SizeOfData   : 0000001A
+  DLL name     : WS2_32.dll
+  Symbol name  : _gethostname@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 57
+
+Archive member name at 65BE: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2D71A03
+  SizeOfData   : 0000001C
+  DLL name     : WS2_32.dll
+  Symbol name  : _gethostbyname@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 52
+
+Archive member name at 662A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1679545
+  SizeOfData   : 0000001D
+  DLL name     : WS2_32.dll
+  Symbol name  : _gethostbyaddr@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 51
+
+Archive member name at 6698: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED693E54
+  SizeOfData   : 0000001B
+  DLL name     : WS2_32.dll
+  Symbol name  : _getaddrinfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 151
+  Name         : getaddrinfo
+
+Archive member name at 6704: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAAA8056
+  SizeOfData   : 0000001B
+  DLL name     : WS2_32.dll
+  Symbol name  : _freeaddrinfo@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 150
+  Name         : freeaddrinfo
+
+Archive member name at 6770: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC0D1B08
+  SizeOfData   : 00000017
+  DLL name     : WS2_32.dll
+  Symbol name  : _connect@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 4
+
+Archive member name at 67D8: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3BA164A
+  SizeOfData   : 0000001A
+  DLL name     : WS2_32.dll
+  Symbol name  : _closesocket@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 3
+
+Archive member name at 6842: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF10F675
+  SizeOfData   : 00000014
+  DLL name     : WS2_32.dll
+  Symbol name  : _bind@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 2
+
+Archive member name at 68A6: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDA4C899
+  SizeOfData   : 00000016
+  DLL name     : WS2_32.dll
+  Symbol name  : _accept@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 1
+
+Archive member name at 690C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2D85C1B
+  SizeOfData   : 0000001B
+  DLL name     : WS2_32.dll
+  Symbol name  : ___WSAFDIsSet@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 151
+
+Archive member name at 6978: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA9E5355
+  SizeOfData   : 0000001F
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahWriteLSPEvent@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 144
+  Name         : WahWriteLSPEvent
+
+Archive member name at 69E8: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7EF21D2
+  SizeOfData   : 00000026
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahWaitForNotification@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 143
+  Name         : WahWaitForNotification
+
+Archive member name at 6A5E: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2B0ED3E
+  SizeOfData   : 00000025
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahRemoveHandleContext@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 142
+  Name         : WahRemoveHandleContext
+
+Archive member name at 6AD4: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D81DEE19
+  SizeOfData   : 0000002A
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahReferenceContextByHandle@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 141
+  Name         : WahReferenceContextByHandle
+
+Archive member name at 6B4E: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C42A8192
+  SizeOfData   : 0000001F
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahQueueUserApc@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 140
+  Name         : WahQueueUserApc
+
+Archive member name at 6BBE: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4EFD715
+  SizeOfData   : 0000002E
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahOpenNotificationHandleHelper@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 139
+  Name         : WahOpenNotificationHandleHelper
+
+Archive member name at 6C3C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0609D6B
+  SizeOfData   : 00000022
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahOpenHandleHelper@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 138
+  Name         : WahOpenHandleHelper
+
+Archive member name at 6CAE: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4BD448E
+  SizeOfData   : 00000023
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahOpenCurrentThread@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 137
+  Name         : WahOpenCurrentThread
+
+Archive member name at 6D22: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2F8CE7C
+  SizeOfData   : 0000001F
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahOpenApcHelper@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 136
+  Name         : WahOpenApcHelper
+
+Archive member name at 6D92: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D20E546A
+  SizeOfData   : 00000024
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahNotifyAllProcesses@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 135
+  Name         : WahNotifyAllProcesses
+
+Archive member name at 6E06: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0DDD033
+  SizeOfData   : 00000025
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahInsertHandleContext@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 134
+  Name         : WahInsertHandleContext
+
+Archive member name at 6E7C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D78BF077
+  SizeOfData   : 0000002A
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahEnumerateHandleContexts@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 133
+  Name         : WahEnumerateHandleContexts
+
+Archive member name at 6EF6: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD738C69
+  SizeOfData   : 0000002B
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahEnableNonIFSHandleSupport@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 132
+  Name         : WahEnableNonIFSHandleSupport
+
+Archive member name at 6F72: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCEBD3BF
+  SizeOfData   : 0000002C
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahDisableNonIFSHandleSupport@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 131
+  Name         : WahDisableNonIFSHandleSupport
+
+Archive member name at 6FEE: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F21C704A
+  SizeOfData   : 0000002B
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahDestroyHandleContextTable@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 130
+  Name         : WahDestroyHandleContextTable
+
+Archive member name at 706A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1CCA5DA
+  SizeOfData   : 00000024
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahCreateSocketHandle@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 129
+  Name         : WahCreateSocketHandle
+
+Archive member name at 70DE: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C25DF27C
+  SizeOfData   : 0000002A
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahCreateNotificationHandle@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 128
+  Name         : WahCreateNotificationHandle
+
+Archive member name at 7158: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC348653
+  SizeOfData   : 0000002A
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahCreateHandleContextTable@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 127
+  Name         : WahCreateHandleContextTable
+
+Archive member name at 71D2: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7E7D4F6
+  SizeOfData   : 00000022
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahCompleteRequest@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 126
+  Name         : WahCompleteRequest
+
+Archive member name at 7244: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C699F13A
+  SizeOfData   : 0000001D
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahCloseThread@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 125
+  Name         : WahCloseThread
+
+Archive member name at 72B2: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE306952
+  SizeOfData   : 00000023
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahCloseSocketHandle@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 124
+  Name         : WahCloseSocketHandle
+
+Archive member name at 7326: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8CB7B4E
+  SizeOfData   : 0000002F
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahCloseNotificationHandleHelper@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 123
+  Name         : WahCloseNotificationHandleHelper
+
+Archive member name at 73A6: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9D2B17F
+  SizeOfData   : 00000023
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahCloseHandleHelper@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 122
+  Name         : WahCloseHandleHelper
+
+Archive member name at 741A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7777194
+  SizeOfData   : 00000020
+  DLL name     : WS2_32.dll
+  Symbol name  : _WahCloseApcHelper@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 121
+  Name         : WahCloseApcHelper
+
+Archive member name at 748A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2780827
+  SizeOfData   : 00000027
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCWriteProviderOrderEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 120
+  Name         : WSCWriteProviderOrderEx
+
+Archive member name at 7502: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7619E94
+  SizeOfData   : 00000024
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCWriteProviderOrder@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 119
+  Name         : WSCWriteProviderOrder
+
+Archive member name at 7576: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F37253DB
+  SizeOfData   : 00000025
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCWriteNameSpaceOrder@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 118
+  Name         : WSCWriteNameSpaceOrder
+
+Archive member name at 75EC: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC54BBF5
+  SizeOfData   : 00000023
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCUpdateProviderEx@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 117
+  Name         : WSCUpdateProviderEx
+
+Archive member name at 7660: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CEC31869
+  SizeOfData   : 00000021
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCUpdateProvider@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 116
+  Name         : WSCUpdateProvider
+
+Archive member name at 76D2: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D50749E3
+  SizeOfData   : 00000027
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCUnInstallNameSpaceEx2@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 115
+  Name         : WSCUnInstallNameSpaceEx2
+
+Archive member name at 774A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCAF8B1D
+  SizeOfData   : 00000024
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCUnInstallNameSpace@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 114
+  Name         : WSCUnInstallNameSpace
+
+Archive member name at 77BE: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6AC470C
+  SizeOfData   : 00000022
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCSetProviderInfo@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 113
+  Name         : WSCSetProviderInfo
+
+Archive member name at 7830: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA20B5DD
+  SizeOfData   : 0000002B
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCSetApplicationCategoryEx@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 112
+  Name         : WSCSetApplicationCategoryEx
+
+Archive member name at 78AC: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0FA730B
+  SizeOfData   : 00000029
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCSetApplicationCategory@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 111
+  Name         : WSCSetApplicationCategory
+
+Archive member name at 7926: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C381617F
+  SizeOfData   : 00000024
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCInstallProviderEx@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 110
+  Name         : WSCInstallProviderEx
+
+Archive member name at 799A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7459F92
+  SizeOfData   : 0000002B
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCInstallProviderAndChains@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 109
+  Name         : WSCInstallProviderAndChains
+
+Archive member name at 7A16: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAAA8A60
+  SizeOfData   : 00000022
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCInstallProvider@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 108
+  Name         : WSCInstallProvider
+
+Archive member name at 7A88: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6563A87
+  SizeOfData   : 00000025
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCInstallNameSpaceEx@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 106
+  Name         : WSCInstallNameSpaceEx
+
+Archive member name at 7AFE: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD682231
+  SizeOfData   : 00000026
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCInstallNameSpaceEx2@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 107
+  Name         : WSCInstallNameSpaceEx2
+
+Archive member name at 7B74: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F796374D
+  SizeOfData   : 00000023
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCInstallNameSpace@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 105
+  Name         : WSCInstallNameSpace
+
+Archive member name at 7BE8: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E517F81E
+  SizeOfData   : 00000022
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCGetProviderPath@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 104
+  Name         : WSCGetProviderPath
+
+Archive member name at 7C5A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4465EC3
+  SizeOfData   : 00000022
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCGetProviderInfo@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 103
+  Name         : WSCGetProviderInfo
+
+Archive member name at 7CCC: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB17A716
+  SizeOfData   : 0000002B
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCGetApplicationCategoryEx@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 102
+  Name         : WSCGetApplicationCategoryEx
+
+Archive member name at 7D48: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDA65F6E
+  SizeOfData   : 00000029
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCGetApplicationCategory@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 101
+  Name         : WSCGetApplicationCategory
+
+Archive member name at 7DC2: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6D3C8C9
+  SizeOfData   : 00000022
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCEnumProtocolsEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 100
+  Name         : WSCEnumProtocolsEx
+
+Archive member name at 7E34: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6E713FA
+  SizeOfData   : 00000020
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCEnumProtocols@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 99
+  Name         : WSCEnumProtocols
+
+Archive member name at 7EA4: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5FF77F2
+  SizeOfData   : 00000022
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCEnableNSProvider@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 98
+  Name         : WSCEnableNSProvider
+
+Archive member name at 7F16: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1E080F2
+  SizeOfData   : 00000026
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCDeinstallProviderEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 97
+  Name         : WSCDeinstallProviderEx
+
+Archive member name at 7F8C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC3F32FC
+  SizeOfData   : 00000023
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSCDeinstallProvider@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 96
+  Name         : WSCDeinstallProvider
+
+Archive member name at 8000: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC997C2A
+  SizeOfData   : 00000028
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAWaitForMultipleEvents@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 94
+  Name         : WSAWaitForMultipleEvents
+
+Archive member name at 8078: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBD560B4
+  SizeOfData   : 00000024
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAUnhookBlockingHook@0
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 110
+
+Archive member name at 80EC: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E01D32FE
+  SizeOfData   : 00000025
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAUnadvertiseProvider@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 92
+  Name         : WSAUnadvertiseProvider
+
+Archive member name at 8162: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0CF864F
+  SizeOfData   : 00000023
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAStringToAddressW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 91
+  Name         : WSAStringToAddressW
+
+Archive member name at 81D6: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED9D1DED
+  SizeOfData   : 00000023
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAStringToAddressA@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 90
+  Name         : WSAStringToAddressA
+
+Archive member name at 824A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA8A4E7E
+  SizeOfData   : 00000019
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAStartup@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 115
+
+Archive member name at 82B4: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3FCA5BA
+  SizeOfData   : 0000001A
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSASocketW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 88
+  Name         : WSASocketW
+
+Archive member name at 831E: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C359B46C
+  SizeOfData   : 0000001A
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSASocketA@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 87
+  Name         : WSASocketA
+
+Archive member name at 8388: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6522576
+  SizeOfData   : 0000001E
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSASetServiceW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 86
+  Name         : WSASetServiceW
+
+Archive member name at 83F6: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EECFC2A1
+  SizeOfData   : 0000001E
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSASetServiceA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 85
+  Name         : WSASetServiceA
+
+Archive member name at 8464: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB3C2094
+  SizeOfData   : 0000001E
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSASetLastError@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 112
+
+Archive member name at 84D2: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F713D574
+  SizeOfData   : 0000001A
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSASetEvent@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : WSASetEvent
+
+Archive member name at 853C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E92FC6BC
+  SizeOfData   : 00000021
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSASetBlockingHook@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 109
+
+Archive member name at 85AE: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFEA4F9A
+  SizeOfData   : 00000019
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSASendTo@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : WSASendTo
+
+Archive member name at 8618: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC8BCCAE
+  SizeOfData   : 0000001A
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSASendMsg@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 80
+  Name         : WSASendMsg
+
+Archive member name at 8682: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB637BA7
+  SizeOfData   : 00000020
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSASendDisconnect@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : WSASendDisconnect
+
+Archive member name at 86F2: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2C69A9C
+  SizeOfData   : 00000017
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSASend@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : WSASend
+
+Archive member name at 875A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECEFBA3E
+  SizeOfData   : 0000001C
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAResetEvent@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : WSAResetEvent
+
+Archive member name at 87C6: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E58DE171
+  SizeOfData   : 00000024
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSARemoveServiceClass@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : WSARemoveServiceClass
+
+Archive member name at 883A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C175057C
+  SizeOfData   : 0000001B
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSARecvFrom@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 75
+  Name         : WSARecvFrom
+
+Archive member name at 88A6: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD6651A2
+  SizeOfData   : 00000020
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSARecvDisconnect@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 74
+  Name         : WSARecvDisconnect
+
+Archive member name at 8916: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB041AF3
+  SizeOfData   : 00000017
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSARecv@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : WSARecv
+
+Archive member name at 897E: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C91AE6C3
+  SizeOfData   : 00000027
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAProviderConfigChange@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : WSAProviderConfigChange
+
+Archive member name at 89F6: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8F20EC0
+  SizeOfData   : 0000002B
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAProviderCompleteAsyncCall@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : WSAProviderCompleteAsyncCall
+
+Archive member name at 8A72: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D10451A4
+  SizeOfData   : 00000017
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAPoll@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : WSAPoll
+
+Archive member name at 8ADA: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCADFED8
+  SizeOfData   : 00000018
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSANtohs@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : WSANtohs
+
+Archive member name at 8B42: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF17B0C8
+  SizeOfData   : 00000018
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSANtohl@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : WSANtohl
+
+Archive member name at 8BAA: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDA31AC8
+  SizeOfData   : 0000001B
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSANSPIoctl@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : WSANSPIoctl
+
+Archive member name at 8C16: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EEB21360
+  SizeOfData   : 00000025
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSALookupServiceNextW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : WSALookupServiceNextW
+
+Archive member name at 8C8C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6368D17
+  SizeOfData   : 00000025
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSALookupServiceNextA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : WSALookupServiceNextA
+
+Archive member name at 8D02: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D706729D
+  SizeOfData   : 00000022
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSALookupServiceEnd@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : WSALookupServiceEnd
+
+Archive member name at 8D74: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF53797B
+  SizeOfData   : 00000026
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSALookupServiceBeginW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : WSALookupServiceBeginW
+
+Archive member name at 8DEA: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F87A04F2
+  SizeOfData   : 00000026
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSALookupServiceBeginA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : WSALookupServiceBeginA
+
+Archive member name at 8E60: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD228289
+  SizeOfData   : 0000001B
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAJoinLeaf@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : WSAJoinLeaf
+
+Archive member name at 8ECC: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7E730B6
+  SizeOfData   : 0000001C
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAIsBlocking@0
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 114
+
+Archive member name at 8F38: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5D7F475
+  SizeOfData   : 00000018
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAIoctl@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : WSAIoctl
+
+Archive member name at 8FA0: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7C97730
+  SizeOfData   : 00000026
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAInstallServiceClassW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : WSAInstallServiceClassW
+
+Archive member name at 9016: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9847404
+  SizeOfData   : 00000026
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAInstallServiceClassA@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : WSAInstallServiceClassA
+
+Archive member name at 908C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D39FB22C
+  SizeOfData   : 00000018
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAHtons@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : WSAHtons
+
+Archive member name at 90F4: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBC3978A
+  SizeOfData   : 00000018
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAHtonl@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : WSAHtonl
+
+Archive member name at 915C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDE37415
+  SizeOfData   : 00000030
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAGetServiceClassNameByClassIdW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : WSAGetServiceClassNameByClassIdW
+
+Archive member name at 91DC: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5D9057A
+  SizeOfData   : 00000030
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAGetServiceClassNameByClassIdA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : WSAGetServiceClassNameByClassIdA
+
+Archive member name at 925C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E367EC1E
+  SizeOfData   : 00000027
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAGetServiceClassInfoW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : WSAGetServiceClassInfoW
+
+Archive member name at 92D4: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0183AB6
+  SizeOfData   : 00000027
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAGetServiceClassInfoA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : WSAGetServiceClassInfoA
+
+Archive member name at 934C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF1F6BCE
+  SizeOfData   : 0000001F
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAGetQOSByName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : WSAGetQOSByName
+
+Archive member name at 93BC: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7924CEA
+  SizeOfData   : 00000026
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAGetOverlappedResult@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : WSAGetOverlappedResult
+
+Archive member name at 9432: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD654A36
+  SizeOfData   : 0000001E
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAGetLastError@0
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 111
+
+Archive member name at 94A0: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDD2794B
+  SizeOfData   : 0000001E
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAEventSelect@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : WSAEventSelect
+
+Archive member name at 950E: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0020B72
+  SizeOfData   : 00000021
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAEnumProtocolsW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : WSAEnumProtocolsW
+
+Archive member name at 9580: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD39A28C
+  SizeOfData   : 00000021
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAEnumProtocolsA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : WSAEnumProtocolsA
+
+Archive member name at 95F2: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6064EC1
+  SizeOfData   : 00000024
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAEnumNetworkEvents@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : WSAEnumNetworkEvents
+
+Archive member name at 9666: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC371B28
+  SizeOfData   : 00000029
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAEnumNameSpaceProvidersW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : WSAEnumNameSpaceProvidersW
+
+Archive member name at 96E0: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6FA4F41
+  SizeOfData   : 0000002B
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAEnumNameSpaceProvidersExW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : WSAEnumNameSpaceProvidersExW
+
+Archive member name at 975C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8D953F0
+  SizeOfData   : 0000002B
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAEnumNameSpaceProvidersExA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : WSAEnumNameSpaceProvidersExA
+
+Archive member name at 97D8: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F005D1BA
+  SizeOfData   : 00000029
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAEnumNameSpaceProvidersA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : WSAEnumNameSpaceProvidersA
+
+Archive member name at 9852: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE7C3AC7
+  SizeOfData   : 00000023
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSADuplicateSocketW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : WSADuplicateSocketW
+
+Archive member name at 98C6: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4E2E3CD
+  SizeOfData   : 00000023
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSADuplicateSocketA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : WSADuplicateSocketA
+
+Archive member name at 993A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C83082CC
+  SizeOfData   : 0000001D
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSACreateEvent@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : WSACreateEvent
+
+Archive member name at 99A8: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA5C54BA
+  SizeOfData   : 00000021
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAConnectByNameW@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : WSAConnectByNameW
+
+Archive member name at 9A1A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5ED3A82
+  SizeOfData   : 00000021
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAConnectByNameA@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : WSAConnectByNameA
+
+Archive member name at 9A8C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D154CEEE
+  SizeOfData   : 00000020
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAConnectByList@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : WSAConnectByList
+
+Archive member name at 9AFC: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F34376AF
+  SizeOfData   : 0000001A
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAConnect@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : WSAConnect
+
+Archive member name at 9B66: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAFB908C
+  SizeOfData   : 0000001C
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSACloseEvent@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : WSACloseEvent
+
+Archive member name at 9BD2: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C04037C3
+  SizeOfData   : 00000019
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSACleanup@0
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 116
+
+Archive member name at 9C3C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4EAD2D1
+  SizeOfData   : 00000024
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSACancelBlockingCall@0
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 113
+
+Archive member name at 9CB0: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8D7C294
+  SizeOfData   : 00000024
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSACancelAsyncRequest@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 108
+
+Archive member name at 9D24: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF8D6823
+  SizeOfData   : 0000001E
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAAsyncSelect@16
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 101
+
+Archive member name at 9D92: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D39BAF35
+  SizeOfData   : 00000025
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAAsyncGetServByPort@24
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 106
+
+Archive member name at 9E08: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2376267
+  SizeOfData   : 00000025
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAAsyncGetServByName@24
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 107
+
+Archive member name at 9E7E: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3D72E52
+  SizeOfData   : 00000028
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAAsyncGetProtoByNumber@20
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 104
+
+Archive member name at 9EF6: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0702F83
+  SizeOfData   : 00000026
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAAsyncGetProtoByName@20
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 105
+
+Archive member name at 9F6C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0752C53
+  SizeOfData   : 00000025
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAAsyncGetHostByName@20
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 103
+
+Archive member name at 9FE2: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F03F20B0
+  SizeOfData   : 00000025
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAAsyncGetHostByAddr@28
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 102
+
+Archive member name at A058: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9773525
+  SizeOfData   : 00000023
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAAdvertiseProvider@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : WSAAdvertiseProvider
+
+Archive member name at A0CC: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0DF48C7
+  SizeOfData   : 00000023
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAAddressToStringW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : WSAAddressToStringW
+
+Archive member name at A140: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5E4AE89
+  SizeOfData   : 00000023
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAAddressToStringA@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : WSAAddressToStringA
+
+Archive member name at A1B4: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E20F2A2D
+  SizeOfData   : 00000019
+  DLL name     : WS2_32.dll
+  Symbol name  : _WSAAccept@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : WSAAccept
+
+Archive member name at A21E: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB268717
+  SizeOfData   : 00000024
+  DLL name     : WS2_32.dll
+  Symbol name  : _WPUGetProviderPathEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : WPUGetProviderPathEx
+
+Archive member name at A292: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D99FCE27
+  SizeOfData   : 0000002C
+  DLL name     : WS2_32.dll
+  Symbol name  : _WPUCompleteOverlappedRequest@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : WPUCompleteOverlappedRequest
+
+Archive member name at A30E: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3DCB08C
+  SizeOfData   : 00000012
+  DLL name     : WS2_32.dll
+  Symbol name  : _WEP@0
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 500
+
+Archive member name at A370: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8425F80
+  SizeOfData   : 0000001E
+  DLL name     : WS2_32.dll
+  Symbol name  : _SetAddrInfoExW@48
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : SetAddrInfoExW
+
+Archive member name at A3DE: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC7CBE5E
+  SizeOfData   : 0000001E
+  DLL name     : WS2_32.dll
+  Symbol name  : _SetAddrInfoExA@48
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : SetAddrInfoExA
+
+Archive member name at A44C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEB26841
+  SizeOfData   : 0000002A
+  DLL name     : WS2_32.dll
+  Symbol name  : _ProcessSocketNotifications@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : ProcessSocketNotifications
+
+Archive member name at A4C6: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB07C510
+  SizeOfData   : 00000019
+  DLL name     : WS2_32.dll
+  Symbol name  : _InetPtonW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : InetPtonW
+
+Archive member name at A530: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E523A0C3
+  SizeOfData   : 00000019
+  DLL name     : WS2_32.dll
+  Symbol name  : _InetNtopW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : InetNtopW
+
+Archive member name at A59A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D40F35A8
+  SizeOfData   : 0000001C
+  DLL name     : WS2_32.dll
+  Symbol name  : _GetNameInfoW@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : GetNameInfoW
+
+Archive member name at A606: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3A7F45A
+  SizeOfData   : 0000001B
+  DLL name     : WS2_32.dll
+  Symbol name  : _GetHostNameW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : GetHostNameW
+
+Archive member name at A672: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC488F02
+  SizeOfData   : 0000001C
+  DLL name     : WS2_32.dll
+  Symbol name  : _GetAddrInfoW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : GetAddrInfoW
+
+Archive member name at A6DE: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E978B767
+  SizeOfData   : 0000001E
+  DLL name     : WS2_32.dll
+  Symbol name  : _GetAddrInfoExW@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : GetAddrInfoExW
+
+Archive member name at A74C: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D55BF60A
+  SizeOfData   : 0000002C
+  DLL name     : WS2_32.dll
+  Symbol name  : _GetAddrInfoExOverlappedResult@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : GetAddrInfoExOverlappedResult
+
+Archive member name at A7C8: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCB1CBF5
+  SizeOfData   : 00000022
+  DLL name     : WS2_32.dll
+  Symbol name  : _GetAddrInfoExCancel@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : GetAddrInfoExCancel
+
+Archive member name at A83A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8E56873
+  SizeOfData   : 0000001E
+  DLL name     : WS2_32.dll
+  Symbol name  : _GetAddrInfoExA@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : GetAddrInfoExA
+
+Archive member name at A8A8: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C555014F
+  SizeOfData   : 0000001C
+  DLL name     : WS2_32.dll
+  Symbol name  : _FreeAddrInfoW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : FreeAddrInfoW
+
+Archive member name at A914: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDF332F2
+  SizeOfData   : 0000001E
+  DLL name     : WS2_32.dll
+  Symbol name  : _FreeAddrInfoExW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : FreeAddrInfoExW
+
+Archive member name at A982: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D975B47D
+  SizeOfData   : 0000001D
+  DLL name     : WS2_32.dll
+  Symbol name  : _FreeAddrInfoEx@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : FreeAddrInfoEx
+
+Archive member name at A9F0: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E066D553
+  SizeOfData   : 00000029
+  DLL name     : WS2_32.dll
+  Symbol name  : ?WSApSetPostRoutine@@YGHPAX@Z (int __stdcall WSApSetPostRoutine(void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 95
+  Name         : WSApSetPostRoutine
+
+Archive member name at AA6A: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     114 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E59B405A time date stamp
+              D4 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CC file pointer to raw data (000000CC to 000000CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data (000000D0 to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at ABBA: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        CE650C0D time date stamp
+              B8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      64 file pointer to raw data (00000064 to 000000A3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A4 file pointer to raw data (000000A4 to 000000B7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at ACF0: WS2_32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1EA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        F6C6D01F time date stamp
+             10A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CC file pointer to raw data (000000CC to 000000DF)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FE file pointer to raw data (000000FE to 00000109)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at AF16: /0              d:\os\obj\x86fre\minio\netio\published\objfre\i386\indef.obj
+FFFFFFFF time/date
+         uid
+         gid
+  100666 mode
+   1C980 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+              65 number of sections
+        E3AACDA3 time date stamp
+           1B205 file pointer to symbol table
+              FF number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.drectve name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+     FDC file pointer to raw data (00000FDC to 00000FDE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+SECTION HEADER #2
+.debug$S name
+       0 physical address
+       0 virtual address
+    A21C size of raw data
+     FDF file pointer to raw data (00000FDF to 0000B1FA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3
+   .data name
+       0 physical address
+       0 virtual address
+      24 size of raw data
+    B1FB file pointer to raw data (0000B1FB to 0000B21E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0301040 flags
+         Initialized Data
+         COMDAT; sym= _AddressFamilyInformation
+         4 byte align
+         Read Write
+
+SECTION HEADER #4
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B21F file pointer to raw data (0000B21F to 0000B226)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_AUTH_TRANSFORM_ID_HMAC_MD5_96
+         4 byte align
+         Read Only
+
+SECTION HEADER #5
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B227 file pointer to raw data (0000B227 to 0000B22E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_1_96
+         4 byte align
+         Read Only
+
+SECTION HEADER #6
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B22F file pointer to raw data (0000B22F to 0000B236)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_AUTH_TRANSFORM_ID_HMAC_SHA_256_128
+         4 byte align
+         Read Only
+
+SECTION HEADER #7
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B237 file pointer to raw data (0000B237 to 0000B23E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_AUTH_TRANSFORM_ID_GCM_AES_128
+         4 byte align
+         Read Only
+
+SECTION HEADER #8
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B23F file pointer to raw data (0000B23F to 0000B246)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_AUTH_TRANSFORM_ID_GCM_AES_192
+         4 byte align
+         Read Only
+
+SECTION HEADER #9
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B247 file pointer to raw data (0000B247 to 0000B24E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_AUTH_TRANSFORM_ID_GCM_AES_256
+         4 byte align
+         Read Only
+
+SECTION HEADER #A
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B24F file pointer to raw data (0000B24F to 0000B256)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_CIPHER_TRANSFORM_ID_CBC_DES
+         4 byte align
+         Read Only
+
+SECTION HEADER #B
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B257 file pointer to raw data (0000B257 to 0000B25E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_CIPHER_TRANSFORM_ID_CBC_3DES
+         4 byte align
+         Read Only
+
+SECTION HEADER #C
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B25F file pointer to raw data (0000B25F to 0000B266)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_CIPHER_TRANSFORM_ID_AES_128
+         4 byte align
+         Read Only
+
+SECTION HEADER #D
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B267 file pointer to raw data (0000B267 to 0000B26E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_CIPHER_TRANSFORM_ID_AES_192
+         4 byte align
+         Read Only
+
+SECTION HEADER #E
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B26F file pointer to raw data (0000B26F to 0000B276)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_CIPHER_TRANSFORM_ID_AES_256
+         4 byte align
+         Read Only
+
+SECTION HEADER #F
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B277 file pointer to raw data (0000B277 to 0000B27E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_128
+         4 byte align
+         Read Only
+
+SECTION HEADER #10
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B27F file pointer to raw data (0000B27F to 0000B286)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_192
+         4 byte align
+         Read Only
+
+SECTION HEADER #11
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B287 file pointer to raw data (0000B287 to 0000B28E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IPSEC_CIPHER_TRANSFORM_ID_GCM_AES_256
+         4 byte align
+         Read Only
+
+SECTION HEADER #12
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B28F file pointer to raw data (0000B28F to 0000B29E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _BUGCHECK_EFI_GUID
+         4 byte align
+         Read Only
+
+SECTION HEADER #13
+    .bss name
+       0 physical address
+       0 virtual address
+       1 size of raw data
+       0 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0101080 flags
+         Uninitialized Data
+         COMDAT; sym= _ExPoolZeroingNativelySupported
+         1 byte align
+         Read Write
+
+SECTION HEADER #14
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B29F file pointer to raw data (0000B29F to 0000B2AE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _BFE_GENERIC_MAPPING
+         4 byte align
+         Read Only
+
+SECTION HEADER #15
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B2AF file pointer to raw data (0000B2AF to 0000B2B6)
+    B2B7 file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlNtPathSeperatorString
+         4 byte align
+         Read Only
+
+SECTION HEADER #16
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    B2C1 file pointer to raw data (0000B2C1 to 0000B2C4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_13FPGAJAPJ@?$AA?2@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #17
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B2C5 file pointer to raw data (0000B2C5 to 0000B2CC)
+    B2CD file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlDosPathSeperatorsString
+         4 byte align
+         Read Only
+
+SECTION HEADER #18
+  .rdata name
+       0 physical address
+       0 virtual address
+       6 size of raw data
+    B2D7 file pointer to raw data (0000B2D7 to 0000B2DC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_15MNCACJLI@?$AA?2?$AA?1@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #19
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    B2DD file pointer to raw data (0000B2DD to 0000B2E4)
+    B2E5 file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlAlternateDosPathSeperatorString
+         4 byte align
+         Read Only
+
+SECTION HEADER #1A
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    B2EF file pointer to raw data (0000B2EF to 0000B2F2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_13CGOKJPIL@?$AA?1@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #1B
+  .rdata name
+       0 physical address
+       0 virtual address
+       6 size of raw data
+    B2F3 file pointer to raw data (0000B2F3 to 0000B2F8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _eui48_broadcast
+         4 byte align
+         Read Only
+
+SECTION HEADER #1C
+    .bss name
+       0 physical address
+       0 virtual address
+       1 size of raw data
+       0 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0101080 flags
+         Uninitialized Data
+         COMDAT; sym= _WFP_TRACE_NULL_DATA
+         1 byte align
+         Read Write
+
+SECTION HEADER #1D
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    B2F9 file pointer to raw data (0000B2F9 to 0000B2FC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _scopeid_unspecified
+         4 byte align
+         Read Only
+
+SECTION HEADER #1E
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    B2FD file pointer to raw data (0000B2FD to 0000B300)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in4addr_any
+         4 byte align
+         Read Only
+
+SECTION HEADER #1F
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    B301 file pointer to raw data (0000B301 to 0000B304)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in4addr_loopback
+         4 byte align
+         Read Only
+
+SECTION HEADER #20
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    B305 file pointer to raw data (0000B305 to 0000B308)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in4addr_broadcast
+         4 byte align
+         Read Only
+
+SECTION HEADER #21
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    B309 file pointer to raw data (0000B309 to 0000B30C)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in4addr_allnodesonlink
+         4 byte align
+         Read Only
+
+SECTION HEADER #22
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    B30D file pointer to raw data (0000B30D to 0000B310)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in4addr_allroutersonlink
+         4 byte align
+         Read Only
+
+SECTION HEADER #23
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    B311 file pointer to raw data (0000B311 to 0000B314)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in4addr_alligmpv3routersonlink
+         4 byte align
+         Read Only
+
+SECTION HEADER #24
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    B315 file pointer to raw data (0000B315 to 0000B318)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in4addr_allteredohostsonlink
+         4 byte align
+         Read Only
+
+SECTION HEADER #25
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    B319 file pointer to raw data (0000B319 to 0000B31C)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in4addr_linklocalprefix
+         4 byte align
+         Read Only
+
+SECTION HEADER #26
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    B31D file pointer to raw data (0000B31D to 0000B320)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in4addr_multicastprefix
+         4 byte align
+         Read Only
+
+SECTION HEADER #27
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B321 file pointer to raw data (0000B321 to 0000B330)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_any
+         4 byte align
+         Read Only
+
+SECTION HEADER #28
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B331 file pointer to raw data (0000B331 to 0000B340)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_loopback
+         4 byte align
+         Read Only
+
+SECTION HEADER #29
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B341 file pointer to raw data (0000B341 to 0000B350)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_allnodesonnode
+         4 byte align
+         Read Only
+
+SECTION HEADER #2A
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B351 file pointer to raw data (0000B351 to 0000B360)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_allnodesonlink
+         4 byte align
+         Read Only
+
+SECTION HEADER #2B
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B361 file pointer to raw data (0000B361 to 0000B370)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_allroutersonlink
+         4 byte align
+         Read Only
+
+SECTION HEADER #2C
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B371 file pointer to raw data (0000B371 to 0000B380)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_allmldv2routersonlink
+         4 byte align
+         Read Only
+
+SECTION HEADER #2D
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B381 file pointer to raw data (0000B381 to 0000B390)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_teredoinitiallinklocaladdress
+         4 byte align
+         Read Only
+
+SECTION HEADER #2E
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B391 file pointer to raw data (0000B391 to 0000B3A0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_linklocalprefix
+         4 byte align
+         Read Only
+
+SECTION HEADER #2F
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B3A1 file pointer to raw data (0000B3A1 to 0000B3B0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_multicastprefix
+         4 byte align
+         Read Only
+
+SECTION HEADER #30
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B3B1 file pointer to raw data (0000B3B1 to 0000B3C0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_solicitednodemulticastprefix
+         4 byte align
+         Read Only
+
+SECTION HEADER #31
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B3C1 file pointer to raw data (0000B3C1 to 0000B3D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_v4mappedprefix
+         4 byte align
+         Read Only
+
+SECTION HEADER #32
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B3D1 file pointer to raw data (0000B3D1 to 0000B3E0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_6to4prefix
+         4 byte align
+         Read Only
+
+SECTION HEADER #33
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B3E1 file pointer to raw data (0000B3E1 to 0000B3F0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_teredoprefix
+         4 byte align
+         Read Only
+
+SECTION HEADER #34
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    B3F1 file pointer to raw data (0000B3F1 to 0000B400)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _in6addr_teredoprefix_old
+         4 byte align
+         Read Only
+
+SECTION HEADER #35
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    B401 file pointer to raw data (0000B401 to 0000B434)
+    B435 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #36
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    B449 file pointer to raw data (0000B449 to 0000B488)
+    B489 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #37
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    B49D file pointer to raw data (0000B49D to 0000B4DC)
+    B4DD file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #38
+.debug$S name
+       0 physical address
+       0 virtual address
+      44 size of raw data
+    B4F1 file pointer to raw data (0000B4F1 to 0000B534)
+    B535 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #39
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    B549 file pointer to raw data (0000B549 to 0000B588)
+    B589 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3A
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    B59D file pointer to raw data (0000B59D to 0000B5DC)
+    B5DD file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3B
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    B5F1 file pointer to raw data (0000B5F1 to 0000B630)
+    B631 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3C
+.debug$S name
+       0 physical address
+       0 virtual address
+      3C size of raw data
+    B645 file pointer to raw data (0000B645 to 0000B680)
+    B681 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3D
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    B695 file pointer to raw data (0000B695 to 0000B6D4)
+    B6D5 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3E
+.debug$S name
+       0 physical address
+       0 virtual address
+      3C size of raw data
+    B6E9 file pointer to raw data (0000B6E9 to 0000B724)
+    B725 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3F
+.debug$S name
+       0 physical address
+       0 virtual address
+      3C size of raw data
+    B739 file pointer to raw data (0000B739 to 0000B774)
+    B775 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #40
+.debug$S name
+       0 physical address
+       0 virtual address
+      3C size of raw data
+    B789 file pointer to raw data (0000B789 to 0000B7C4)
+    B7C5 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #41
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    B7D9 file pointer to raw data (0000B7D9 to 0000B818)
+    B819 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #42
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    B82D file pointer to raw data (0000B82D to 0000B86C)
+    B86D file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #43
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    B881 file pointer to raw data (0000B881 to 0000B8C0)
+    B8C1 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #44
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    B8D5 file pointer to raw data (0000B8D5 to 0000B900)
+    B901 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #45
+.debug$S name
+       0 physical address
+       0 virtual address
+      3C size of raw data
+    B915 file pointer to raw data (0000B915 to 0000B950)
+    B951 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #46
+.debug$S name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    B965 file pointer to raw data (0000B965 to 0000B994)
+    B995 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #47
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    B9A9 file pointer to raw data (0000B9A9 to 0000B9DC)
+    B9DD file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #48
+.debug$S name
+       0 physical address
+       0 virtual address
+      38 size of raw data
+    B9F1 file pointer to raw data (0000B9F1 to 0000BA28)
+    BA29 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #49
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    BA3D file pointer to raw data (0000BA3D to 0000BA7C)
+    BA7D file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #4A
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    BA91 file pointer to raw data (0000BA91 to 0000BABC)
+    BABD file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #4B
+.debug$S name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    BAD1 file pointer to raw data (0000BAD1 to 0000BB00)
+    BB01 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #4C
+.debug$S name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    BB15 file pointer to raw data (0000BB15 to 0000BB44)
+    BB45 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #4D
+.debug$S name
+       0 physical address
+       0 virtual address
+      28 size of raw data
+    BB59 file pointer to raw data (0000BB59 to 0000BB80)
+    BB81 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #4E
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    BB95 file pointer to raw data (0000BB95 to 0000BBC0)
+    BBC1 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #4F
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    BBD5 file pointer to raw data (0000BBD5 to 0000BC00)
+    BC01 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #50
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    BC15 file pointer to raw data (0000BC15 to 0000BC48)
+    BC49 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #51
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    BC5D file pointer to raw data (0000BC5D to 0000BC90)
+    BC91 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #52
+.debug$S name
+       0 physical address
+       0 virtual address
+      3C size of raw data
+    BCA5 file pointer to raw data (0000BCA5 to 0000BCE0)
+    BCE1 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #53
+.debug$S name
+       0 physical address
+       0 virtual address
+      38 size of raw data
+    BCF5 file pointer to raw data (0000BCF5 to 0000BD2C)
+    BD2D file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #54
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    BD41 file pointer to raw data (0000BD41 to 0000BD74)
+    BD75 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #55
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    BD89 file pointer to raw data (0000BD89 to 0000BDBC)
+    BDBD file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #56
+.debug$S name
+       0 physical address
+       0 virtual address
+      28 size of raw data
+    BDD1 file pointer to raw data (0000BDD1 to 0000BDF8)
+    BDF9 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #57
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    BE0D file pointer to raw data (0000BE0D to 0000BE38)
+    BE39 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #58
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    BE4D file pointer to raw data (0000BE4D to 0000BE80)
+    BE81 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #59
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    BE95 file pointer to raw data (0000BE95 to 0000BEC8)
+    BEC9 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #5A
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    BEDD file pointer to raw data (0000BEDD to 0000BF10)
+    BF11 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #5B
+.debug$S name
+       0 physical address
+       0 virtual address
+      38 size of raw data
+    BF25 file pointer to raw data (0000BF25 to 0000BF5C)
+    BF5D file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #5C
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    BF71 file pointer to raw data (0000BF71 to 0000BFB0)
+    BFB1 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #5D
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    BFC5 file pointer to raw data (0000BFC5 to 0000BFF8)
+    BFF9 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #5E
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    C00D file pointer to raw data (0000C00D to 0000C040)
+    C041 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #5F
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    C055 file pointer to raw data (0000C055 to 0000C094)
+    C095 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #60
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    C0A9 file pointer to raw data (0000C0A9 to 0000C0DC)
+    C0DD file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #61
+.debug$S name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    C0F1 file pointer to raw data (0000C0F1 to 0000C120)
+    C121 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #62
+.debug$S name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    C135 file pointer to raw data (0000C135 to 0000C164)
+    C165 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #63
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    C179 file pointer to raw data (0000C179 to 0000C1AC)
+    C1AD file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #64
+.debug$T name
+       0 physical address
+       0 virtual address
+    ED1C size of raw data
+    C1C1 file pointer to raw data (0000C1C1 to 0001AEDC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #65
+ .chks64 name
+       0 physical address
+       0 virtual address
+     328 size of raw data
+   1AEDD file pointer to raw data (0001AEDD to 0001B204)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+Archive member name at 278D2: /61             d:\os\obj\x86fre\minio\netio\published\objfre\i386\sockdef.obj
+FFFFFFFF time/date
+         uid
+         gid
+  100666 mode
+    FAFF size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+              23 number of sections
+        FAAB6573 time date stamp
+            F326 file pointer to symbol table
+              5A number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.drectve name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+     58C file pointer to raw data (0000058C to 0000058E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+SECTION HEADER #2
+.debug$S name
+       0 physical address
+       0 virtual address
+    6128 size of raw data
+     58F file pointer to raw data (0000058F to 000066B6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    66B7 file pointer to raw data (000066B7 to 000066C6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _BUGCHECK_EFI_GUID
+         4 byte align
+         Read Only
+
+SECTION HEADER #4
+    .bss name
+       0 physical address
+       0 virtual address
+       1 size of raw data
+       0 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0101080 flags
+         Uninitialized Data
+         COMDAT; sym= _ExPoolZeroingNativelySupported
+         1 byte align
+         Read Write
+
+SECTION HEADER #5
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    66C7 file pointer to raw data (000066C7 to 000066CE)
+    66CF file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlNtPathSeperatorString
+         4 byte align
+         Read Only
+
+SECTION HEADER #6
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    66D9 file pointer to raw data (000066D9 to 000066DC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_13FPGAJAPJ@?$AA?2@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #7
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    66DD file pointer to raw data (000066DD to 000066E4)
+    66E5 file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlDosPathSeperatorsString
+         4 byte align
+         Read Only
+
+SECTION HEADER #8
+  .rdata name
+       0 physical address
+       0 virtual address
+       6 size of raw data
+    66EF file pointer to raw data (000066EF to 000066F4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_15MNCACJLI@?$AA?2?$AA?1@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #9
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    66F5 file pointer to raw data (000066F5 to 000066FC)
+    66FD file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlAlternateDosPathSeperatorString
+         4 byte align
+         Read Only
+
+SECTION HEADER #A
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    6707 file pointer to raw data (00006707 to 0000670A)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_13CGOKJPIL@?$AA?1@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #B
+    .bss name
+       0 physical address
+       0 virtual address
+       1 size of raw data
+       0 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0101080 flags
+         Uninitialized Data
+         COMDAT; sym= _WFP_TRACE_NULL_DATA
+         1 byte align
+         Read Write
+
+SECTION HEADER #C
+  .rdata name
+       0 physical address
+       0 virtual address
+      23 size of raw data
+    670B file pointer to raw data (0000670B to 0000672D)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _sockaddr_size
+         4 byte align
+         Read Only
+
+SECTION HEADER #D
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    672E file pointer to raw data (0000672E to 0000673D)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _HV_GUID_ZERO
+         4 byte align
+         Read Only
+
+SECTION HEADER #E
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    673E file pointer to raw data (0000673E to 0000674D)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _HV_GUID_BROADCAST
+         4 byte align
+         Read Only
+
+SECTION HEADER #F
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    674E file pointer to raw data (0000674E to 0000675D)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _HV_GUID_CHILDREN
+         4 byte align
+         Read Only
+
+SECTION HEADER #10
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    675E file pointer to raw data (0000675E to 0000676D)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _HV_GUID_LOOPBACK
+         4 byte align
+         Read Only
+
+SECTION HEADER #11
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    676E file pointer to raw data (0000676E to 0000677D)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _HV_GUID_PARENT
+         4 byte align
+         Read Only
+
+SECTION HEADER #12
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    677E file pointer to raw data (0000677E to 0000678D)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _HV_GUID_SILOHOST
+         4 byte align
+         Read Only
+
+SECTION HEADER #13
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    678E file pointer to raw data (0000678E to 0000679D)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _HV_GUID_VSOCK_TEMPLATE
+         4 byte align
+         Read Only
+
+SECTION HEADER #14
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    679E file pointer to raw data (0000679E to 000067C9)
+    67CA file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #15
+.debug$S name
+       0 physical address
+       0 virtual address
+      3C size of raw data
+    67DE file pointer to raw data (000067DE to 00006819)
+    681A file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #16
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    682E file pointer to raw data (0000682E to 00006861)
+    6862 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #17
+.debug$S name
+       0 physical address
+       0 virtual address
+      38 size of raw data
+    6876 file pointer to raw data (00006876 to 000068AD)
+    68AE file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #18
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    68C2 file pointer to raw data (000068C2 to 00006901)
+    6902 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #19
+.debug$S name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    6916 file pointer to raw data (00006916 to 00006945)
+    6946 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #1A
+.debug$S name
+       0 physical address
+       0 virtual address
+      28 size of raw data
+    695A file pointer to raw data (0000695A to 00006981)
+    6982 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #1B
+.debug$S name
+       0 physical address
+       0 virtual address
+      28 size of raw data
+    6996 file pointer to raw data (00006996 to 000069BD)
+    69BE file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #1C
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    69D2 file pointer to raw data (000069D2 to 000069FD)
+    69FE file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #1D
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    6A12 file pointer to raw data (00006A12 to 00006A3D)
+    6A3E file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #1E
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    6A52 file pointer to raw data (00006A52 to 00006A7D)
+    6A7E file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #1F
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    6A92 file pointer to raw data (00006A92 to 00006ABD)
+    6ABE file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #20
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    6AD2 file pointer to raw data (00006AD2 to 00006AFD)
+    6AFE file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #21
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    6B12 file pointer to raw data (00006B12 to 00006B45)
+    6B46 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #22
+.debug$T name
+       0 physical address
+       0 virtual address
+    86B4 size of raw data
+    6B5A file pointer to raw data (00006B5A to 0000F20D)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #23
+ .chks64 name
+       0 physical address
+       0 virtual address
+     118 size of raw data
+    F20E file pointer to raw data (0000F20E to 0000F325)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+     Exports
+
+       ordinal    name
+
+            23    _socket@12
+            22    _shutdown@8
+            21    _setsockopt@20
+            20    _sendto@24
+            19    _send@16
+            18    _select@20
+            17    _recvfrom@24
+            16    _recv@16
+            15    _ntohs@4
+            14    _ntohl@4
+            13    _listen@8
+            10    _ioctlsocket@12
+                  _inet_pton@12
+                  _inet_ntop@16
+            12    _inet_ntoa@4
+            11    _inet_addr@4
+             9    _htons@4
+             8    _htonl@4
+             7    _getsockopt@20
+             6    _getsockname@12
+            56    _getservbyport@8
+            55    _getservbyname@8
+            54    _getprotobynumber@4
+            53    _getprotobyname@4
+             5    _getpeername@12
+                  _getnameinfo@28
+            57    _gethostname@8
+            52    _gethostbyname@4
+            51    _gethostbyaddr@12
+                  _getaddrinfo@16
+                  _freeaddrinfo@4
+             4    _connect@12
+             3    _closesocket@4
+             2    _bind@12
+             1    _accept@12
+           151    ___WSAFDIsSet@8
+                  _WahWriteLSPEvent@8
+                  _WahWaitForNotification@16
+                  _WahRemoveHandleContext@8
+                  _WahReferenceContextByHandle@8
+                  _WahQueueUserApc@16
+                  _WahOpenNotificationHandleHelper@4
+                  _WahOpenHandleHelper@4
+                  _WahOpenCurrentThread@8
+                  _WahOpenApcHelper@4
+                  _WahNotifyAllProcesses@4
+                  _WahInsertHandleContext@8
+                  _WahEnumerateHandleContexts@12
+                  _WahEnableNonIFSHandleSupport@0
+                  _WahDisableNonIFSHandleSupport@0
+                  _WahDestroyHandleContextTable@4
+                  _WahCreateSocketHandle@8
+                  _WahCreateNotificationHandle@8
+                  _WahCreateHandleContextTable@4
+                  _WahCompleteRequest@20
+                  _WahCloseThread@8
+                  _WahCloseSocketHandle@8
+                  _WahCloseNotificationHandleHelper@4
+                  _WahCloseHandleHelper@4
+                  _WahCloseApcHelper@4
+                  _WSCWriteProviderOrderEx@12
+                  _WSCWriteProviderOrder@8
+                  _WSCWriteNameSpaceOrder@8
+                  _WSCUpdateProviderEx@24
+                  _WSCUpdateProvider@20
+                  _WSCUnInstallNameSpaceEx2@8
+                  _WSCUnInstallNameSpace@4
+                  _WSCSetProviderInfo@24
+                  _WSCSetApplicationCategoryEx@32
+                  _WSCSetApplicationCategory@28
+                  _WSCInstallProviderEx@28
+                  _WSCInstallProviderAndChains@32
+                  _WSCInstallProvider@20
+                  _WSCInstallNameSpaceEx@24
+                  _WSCInstallNameSpaceEx2@28
+                  _WSCInstallNameSpace@20
+                  _WSCGetProviderPath@16
+                  _WSCGetProviderInfo@24
+                  _WSCGetApplicationCategoryEx@28
+                  _WSCGetApplicationCategory@24
+                  _WSCEnumProtocolsEx@20
+                  _WSCEnumProtocols@16
+                  _WSCEnableNSProvider@8
+                  _WSCDeinstallProviderEx@12
+                  _WSCDeinstallProvider@8
+                  _WSAWaitForMultipleEvents@20
+           110    _WSAUnhookBlockingHook@0
+                  _WSAUnadvertiseProvider@4
+                  _WSAStringToAddressW@20
+                  _WSAStringToAddressA@20
+           115    _WSAStartup@8
+                  _WSASocketW@24
+                  _WSASocketA@24
+                  _WSASetServiceW@12
+                  _WSASetServiceA@12
+           112    _WSASetLastError@4
+                  _WSASetEvent@4
+           109    _WSASetBlockingHook@4
+                  _WSASendTo@36
+                  _WSASendMsg@24
+                  _WSASendDisconnect@8
+                  _WSASend@28
+                  _WSAResetEvent@4
+                  _WSARemoveServiceClass@4
+                  _WSARecvFrom@36
+                  _WSARecvDisconnect@8
+                  _WSARecv@28
+                  _WSAProviderConfigChange@12
+                  _WSAProviderCompleteAsyncCall@8
+                  _WSAPoll@12
+                  _WSANtohs@12
+                  _WSANtohl@12
+                  _WSANSPIoctl@32
+                  _WSALookupServiceNextW@16
+                  _WSALookupServiceNextA@16
+                  _WSALookupServiceEnd@4
+                  _WSALookupServiceBeginW@12
+                  _WSALookupServiceBeginA@12
+                  _WSAJoinLeaf@32
+           114    _WSAIsBlocking@0
+                  _WSAIoctl@36
+                  _WSAInstallServiceClassW@4
+                  _WSAInstallServiceClassA@4
+                  _WSAHtons@12
+                  _WSAHtonl@12
+                  _WSAGetServiceClassNameByClassIdW@12
+                  _WSAGetServiceClassNameByClassIdA@12
+                  _WSAGetServiceClassInfoW@16
+                  _WSAGetServiceClassInfoA@16
+                  _WSAGetQOSByName@12
+                  _WSAGetOverlappedResult@20
+           111    _WSAGetLastError@0
+                  _WSAEventSelect@12
+                  _WSAEnumProtocolsW@12
+                  _WSAEnumProtocolsA@12
+                  _WSAEnumNetworkEvents@12
+                  _WSAEnumNameSpaceProvidersW@8
+                  _WSAEnumNameSpaceProvidersExW@8
+                  _WSAEnumNameSpaceProvidersExA@8
+                  _WSAEnumNameSpaceProvidersA@8
+                  _WSADuplicateSocketW@12
+                  _WSADuplicateSocketA@12
+                  _WSACreateEvent@0
+                  _WSAConnectByNameW@36
+                  _WSAConnectByNameA@36
+                  _WSAConnectByList@32
+                  _WSAConnect@28
+                  _WSACloseEvent@4
+           116    _WSACleanup@0
+           113    _WSACancelBlockingCall@0
+           108    _WSACancelAsyncRequest@4
+           101    _WSAAsyncSelect@16
+           106    _WSAAsyncGetServByPort@24
+           107    _WSAAsyncGetServByName@24
+           104    _WSAAsyncGetProtoByNumber@20
+           105    _WSAAsyncGetProtoByName@20
+           103    _WSAAsyncGetHostByName@20
+           102    _WSAAsyncGetHostByAddr@28
+                  _WSAAdvertiseProvider@8
+                  _WSAAddressToStringW@20
+                  _WSAAddressToStringA@20
+                  _WSAAccept@20
+                  _WPUGetProviderPathEx@20
+                  _WPUCompleteOverlappedRequest@20
+           500    _WEP@0
+                  _SetAddrInfoExW@48
+                  _SetAddrInfoExA@48
+                  _ProcessSocketNotifications@28
+                  _InetPtonW@12
+                  _InetNtopW@16
+                  _GetNameInfoW@28
+                  _GetHostNameW@8
+                  _GetAddrInfoW@16
+                  _GetAddrInfoExW@40
+                  _GetAddrInfoExOverlappedResult@4
+                  _GetAddrInfoExCancel@4
+                  _GetAddrInfoExA@40
+                  _FreeAddrInfoW@4
+                  _FreeAddrInfoExW@4
+                  _FreeAddrInfoEx@4
+                  ?WSApSetPostRoutine@@YGHPAX@Z (int __stdcall WSApSetPostRoutine(void *))
+
+  Summary
+
+           4 .bss
+         440 .chks64
+          24 .data
+       110BC .debug$S
+       173D0 .debug$T
+           6 .drectve
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6
+         28D .rdata

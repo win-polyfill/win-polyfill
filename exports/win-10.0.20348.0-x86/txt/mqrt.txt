@@ -1,0 +1,1246 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\mqrt.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     B04 size
+correct header end
+
+    97 public symbols
+
+     1692 __IMPORT_DESCRIPTOR_mqrt
+     18B0 __NULL_IMPORT_DESCRIPTOR
+     19E4 mqrt_NULL_THUNK_DATA
+     1E32 _MQCreateQueue@16
+     1E32 __imp__MQCreateQueue@16
+     1E9E _MQDeleteQueue@4
+     1E9E __imp__MQDeleteQueue@4
+     23F4 _MQLocateBegin@20
+     23F4 __imp__MQLocateBegin@20
+     24C8 _MQLocateNext@12
+     24C8 __imp__MQLocateNext@12
+     2460 _MQLocateEnd@4
+     2460 __imp__MQLocateEnd@4
+     26E8 _MQOpenQueue@16
+     26E8 __imp__MQOpenQueue@16
+     1C82 _MQBeginTransaction@4
+     1C82 __imp__MQBeginTransaction@4
+     298A _MQSendMessage@12
+     298A __imp__MQSendMessage@12
+     2830 _MQReceiveMessage@32
+     2830 __imp__MQReceiveMessage@32
+     1DC6 _MQCreateCursor@8
+     1DC6 __imp__MQCreateCursor@8
+     1CF2 _MQCloseCursor@4
+     1CF2 __imp__MQCloseCursor@4
+     1D5C _MQCloseQueue@4
+     1D5C __imp__MQCloseQueue@4
+     27C6 _MQPurgeQueue@4
+     27C6 __imp__MQPurgeQueue@4
+     29F6 _MQSetQueueProperties@8
+     29F6 __imp__MQSetQueueProperties@8
+     2146 _MQGetQueueProperties@8
+     2146 __imp__MQGetQueueProperties@8
+     2A68 _MQSetQueueSecurity@12
+     2A68 __imp__MQSetQueueSecurity@12
+     21B8 _MQGetQueueSecurity@20
+     21B8 __imp__MQGetQueueSecurity@20
+     2752 _MQPathNameToFormatName@12
+     2752 __imp__MQPathNameToFormatName@12
+     230E _MQHandleToFormatName@12
+     230E __imp__MQHandleToFormatName@12
+     2380 _MQInstanceToFormatName@12
+     2380 __imp__MQInstanceToFormatName@12
+     1F08 _MQFreeMemory@4
+     1F08 __imp__MQFreeMemory@4
+     1C14 _MQAllocateMemory@4
+     1C14 __imp__MQAllocateMemory@4
+     2228 _MQGetSecurityContext@12
+     2228 __imp__MQGetSecurityContext@12
+     1F72 _MQFreeSecurityContext@4
+     1F72 __imp__MQFreeSecurityContext@4
+     1FE4 _MQGetMachineProperties@12
+     1FE4 __imp__MQGetMachineProperties@12
+     2916 _MQRegisterCertificate@12
+     2916 __imp__MQRegisterCertificate@12
+     2610 _MQMgmtGetInfo@12
+     2610 __imp__MQMgmtGetInfo@12
+     25A6 _MQMgmtAction@12
+     25A6 __imp__MQMgmtAction@12
+     2058 _MQGetOverlappedResult@4
+     2058 __imp__MQGetOverlappedResult@4
+     20CA _MQGetPrivateComputerInformation@8
+     20CA __imp__MQGetPrivateComputerInformation@8
+     289E _MQReceiveMessageByLookupId@32
+     289E __imp__MQReceiveMessageByLookupId@32
+     229A _MQGetSecurityContextEx@12
+     229A __imp__MQGetSecurityContextEx@12
+     1BA0 _MQADsPathToFormatName@12
+     1BA0 __imp__MQADsPathToFormatName@12
+     2532 _MQMarkMessageRejected@12
+     2532 __imp__MQMarkMessageRejected@12
+     1B30 ?MQLogHR@@YGXJPB_WG@Z
+     1B30 __imp_?MQLogHR@@YGXJPB_WG@Z
+     2D0E _RTLogOnRegisterCert@4
+     2D0E __imp__RTLogOnRegisterCert@4
+     2AD8 _RTCreateInternalCertificate@4
+     2AD8 __imp__RTCreateInternalCertificate@4
+     2B50 _RTDeleteInternalCert@4
+     2B50 __imp__RTDeleteInternalCert@4
+     2BC2 _RTGetInternalCert@20
+     2BC2 __imp__RTGetInternalCert@20
+     2C32 _RTGetUserCerts@12
+     2C32 __imp__RTGetUserCerts@12
+     2D7E _RTOpenInternalCertStore@20
+     2D7E __imp__RTOpenInternalCertStore@20
+     2DF4 _RTRegisterUserCert@8
+     2DF4 __imp__RTRegisterUserCert@8
+     2E64 _RTRemoveUserCert@4
+     2E64 __imp__RTRemoveUserCert@4
+     2ED2 _RTRemoveUserCertSid@8
+     2ED2 __imp__RTRemoveUserCertSid@8
+     2F42 _RTXactGetDTC@4
+     2F42 __imp__RTXactGetDTC@4
+     2C9E _RTIsDependentClient@0
+     2C9E __imp__RTIsDependentClient@0
+     267C _MQMoveMessage@20
+     267C __imp__MQMoveMessage@20
+
+Archive member name at 1692: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1E2 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        F858994E time date stamp
+             106 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3E size of raw data
+      8C file pointer to raw data (0000008C to 000000C9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CA file pointer to raw data (000000CA to 000000DD)
+      DE file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       A size of raw data
+      FC file pointer to raw data (000000FC to 00000105)
+      DE file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 18B0: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F7 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        C286CB7B time date stamp
+              B6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3E size of raw data
+      64 file pointer to raw data (00000064 to 000000A1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A2 file pointer to raw data (000000A2 to 000000B5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 19E4: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     110 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        D0BDD8F6 time date stamp
+              D2 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3E size of raw data
+      8C file pointer to raw data (0000008C to 000000C9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CA file pointer to raw data (000000CA to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1B30: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E64C5F1E
+  SizeOfData   : 0000001F
+  DLL name     : mqrt.dll
+  Symbol name  : ?MQLogHR@@YGXJPB_WG@Z (void __stdcall MQLogHR(long,wchar_t const *,unsigned short))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : MQLogHR
+
+Archive member name at 1BA0: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2165FB2
+  SizeOfData   : 00000023
+  DLL name     : mqrt.dll
+  Symbol name  : _MQADsPathToFormatName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : MQADsPathToFormatName
+
+Archive member name at 1C14: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E86258C1
+  SizeOfData   : 0000001D
+  DLL name     : mqrt.dll
+  Symbol name  : _MQAllocateMemory@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : MQAllocateMemory
+
+Archive member name at 1C82: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB17AE40
+  SizeOfData   : 0000001F
+  DLL name     : mqrt.dll
+  Symbol name  : _MQBeginTransaction@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : MQBeginTransaction
+
+Archive member name at 1CF2: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C749B999
+  SizeOfData   : 0000001A
+  DLL name     : mqrt.dll
+  Symbol name  : _MQCloseCursor@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : MQCloseCursor
+
+Archive member name at 1D5C: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCA1E8DE
+  SizeOfData   : 00000019
+  DLL name     : mqrt.dll
+  Symbol name  : _MQCloseQueue@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : MQCloseQueue
+
+Archive member name at 1DC6: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6DA19D6
+  SizeOfData   : 0000001B
+  DLL name     : mqrt.dll
+  Symbol name  : _MQCreateCursor@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : MQCreateCursor
+
+Archive member name at 1E32: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D06186E8
+  SizeOfData   : 0000001B
+  DLL name     : mqrt.dll
+  Symbol name  : _MQCreateQueue@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : MQCreateQueue
+
+Archive member name at 1E9E: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9E82FAD
+  SizeOfData   : 0000001A
+  DLL name     : mqrt.dll
+  Symbol name  : _MQDeleteQueue@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : MQDeleteQueue
+
+Archive member name at 1F08: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F326149D
+  SizeOfData   : 00000019
+  DLL name     : mqrt.dll
+  Symbol name  : _MQFreeMemory@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : MQFreeMemory
+
+Archive member name at 1F72: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E76F656C
+  SizeOfData   : 00000022
+  DLL name     : mqrt.dll
+  Symbol name  : _MQFreeSecurityContext@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : MQFreeSecurityContext
+
+Archive member name at 1FE4: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C41A85B0
+  SizeOfData   : 00000024
+  DLL name     : mqrt.dll
+  Symbol name  : _MQGetMachineProperties@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : MQGetMachineProperties
+
+Archive member name at 2058: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC91DCD2
+  SizeOfData   : 00000022
+  DLL name     : mqrt.dll
+  Symbol name  : _MQGetOverlappedResult@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : MQGetOverlappedResult
+
+Archive member name at 20CA: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3CEA0AE
+  SizeOfData   : 0000002C
+  DLL name     : mqrt.dll
+  Symbol name  : _MQGetPrivateComputerInformation@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : MQGetPrivateComputerInformation
+
+Archive member name at 2146: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5312BCB
+  SizeOfData   : 00000021
+  DLL name     : mqrt.dll
+  Symbol name  : _MQGetQueueProperties@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : MQGetQueueProperties
+
+Archive member name at 21B8: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4ADE54F
+  SizeOfData   : 00000020
+  DLL name     : mqrt.dll
+  Symbol name  : _MQGetQueueSecurity@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : MQGetQueueSecurity
+
+Archive member name at 2228: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC99D1D7
+  SizeOfData   : 00000022
+  DLL name     : mqrt.dll
+  Symbol name  : _MQGetSecurityContext@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : MQGetSecurityContext
+
+Archive member name at 229A: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFE3D4D3
+  SizeOfData   : 00000024
+  DLL name     : mqrt.dll
+  Symbol name  : _MQGetSecurityContextEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : MQGetSecurityContextEx
+
+Archive member name at 230E: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE535820
+  SizeOfData   : 00000022
+  DLL name     : mqrt.dll
+  Symbol name  : _MQHandleToFormatName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : MQHandleToFormatName
+
+Archive member name at 2380: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5FEBFDC
+  SizeOfData   : 00000024
+  DLL name     : mqrt.dll
+  Symbol name  : _MQInstanceToFormatName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : MQInstanceToFormatName
+
+Archive member name at 23F4: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E970C425
+  SizeOfData   : 0000001B
+  DLL name     : mqrt.dll
+  Symbol name  : _MQLocateBegin@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : MQLocateBegin
+
+Archive member name at 2460: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D38C2E78
+  SizeOfData   : 00000018
+  DLL name     : mqrt.dll
+  Symbol name  : _MQLocateEnd@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : MQLocateEnd
+
+Archive member name at 24C8: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7C79F7B
+  SizeOfData   : 0000001A
+  DLL name     : mqrt.dll
+  Symbol name  : _MQLocateNext@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : MQLocateNext
+
+Archive member name at 2532: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCB84FA0
+  SizeOfData   : 00000023
+  DLL name     : mqrt.dll
+  Symbol name  : _MQMarkMessageRejected@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : MQMarkMessageRejected
+
+Archive member name at 25A6: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA16D022
+  SizeOfData   : 0000001A
+  DLL name     : mqrt.dll
+  Symbol name  : _MQMgmtAction@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : MQMgmtAction
+
+Archive member name at 2610: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2EAB94E
+  SizeOfData   : 0000001B
+  DLL name     : mqrt.dll
+  Symbol name  : _MQMgmtGetInfo@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : MQMgmtGetInfo
+
+Archive member name at 267C: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4BB07D3
+  SizeOfData   : 0000001B
+  DLL name     : mqrt.dll
+  Symbol name  : _MQMoveMessage@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : MQMoveMessage
+
+Archive member name at 26E8: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD9A6E04
+  SizeOfData   : 00000019
+  DLL name     : mqrt.dll
+  Symbol name  : _MQOpenQueue@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : MQOpenQueue
+
+Archive member name at 2752: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8F98377
+  SizeOfData   : 00000024
+  DLL name     : mqrt.dll
+  Symbol name  : _MQPathNameToFormatName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : MQPathNameToFormatName
+
+Archive member name at 27C6: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD2CC3E8
+  SizeOfData   : 00000019
+  DLL name     : mqrt.dll
+  Symbol name  : _MQPurgeQueue@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : MQPurgeQueue
+
+Archive member name at 2830: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D320BFF9
+  SizeOfData   : 0000001E
+  DLL name     : mqrt.dll
+  Symbol name  : _MQReceiveMessage@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : MQReceiveMessage
+
+Archive member name at 289E: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9A33A46
+  SizeOfData   : 00000028
+  DLL name     : mqrt.dll
+  Symbol name  : _MQReceiveMessageByLookupId@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : MQReceiveMessageByLookupId
+
+Archive member name at 2916: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2CB749F
+  SizeOfData   : 00000023
+  DLL name     : mqrt.dll
+  Symbol name  : _MQRegisterCertificate@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : MQRegisterCertificate
+
+Archive member name at 298A: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4D9E973
+  SizeOfData   : 0000001B
+  DLL name     : mqrt.dll
+  Symbol name  : _MQSendMessage@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : MQSendMessage
+
+Archive member name at 29F6: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5EB7E0B
+  SizeOfData   : 00000021
+  DLL name     : mqrt.dll
+  Symbol name  : _MQSetQueueProperties@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : MQSetQueueProperties
+
+Archive member name at 2A68: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F512CCA6
+  SizeOfData   : 00000020
+  DLL name     : mqrt.dll
+  Symbol name  : _MQSetQueueSecurity@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : MQSetQueueSecurity
+
+Archive member name at 2AD8: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C65BF546
+  SizeOfData   : 00000028
+  DLL name     : mqrt.dll
+  Symbol name  : _RTCreateInternalCertificate@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : RTCreateInternalCertificate
+
+Archive member name at 2B50: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E445CC86
+  SizeOfData   : 00000021
+  DLL name     : mqrt.dll
+  Symbol name  : _RTDeleteInternalCert@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : RTDeleteInternalCert
+
+Archive member name at 2BC2: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5FB7CA1
+  SizeOfData   : 0000001F
+  DLL name     : mqrt.dll
+  Symbol name  : _RTGetInternalCert@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : RTGetInternalCert
+
+Archive member name at 2C32: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E81AB6A0
+  SizeOfData   : 0000001C
+  DLL name     : mqrt.dll
+  Symbol name  : _RTGetUserCerts@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : RTGetUserCerts
+
+Archive member name at 2C9E: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC0EF873
+  SizeOfData   : 00000020
+  DLL name     : mqrt.dll
+  Symbol name  : _RTIsDependentClient@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : RTIsDependentClient
+
+Archive member name at 2D0E: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0221A3E
+  SizeOfData   : 00000020
+  DLL name     : mqrt.dll
+  Symbol name  : _RTLogOnRegisterCert@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : RTLogOnRegisterCert
+
+Archive member name at 2D7E: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C70AFDA9
+  SizeOfData   : 00000025
+  DLL name     : mqrt.dll
+  Symbol name  : _RTOpenInternalCertStore@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : RTOpenInternalCertStore
+
+Archive member name at 2DF4: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE11453F
+  SizeOfData   : 0000001F
+  DLL name     : mqrt.dll
+  Symbol name  : _RTRegisterUserCert@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : RTRegisterUserCert
+
+Archive member name at 2E64: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3E3D00B
+  SizeOfData   : 0000001D
+  DLL name     : mqrt.dll
+  Symbol name  : _RTRemoveUserCert@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : RTRemoveUserCert
+
+Archive member name at 2ED2: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE871B13
+  SizeOfData   : 00000020
+  DLL name     : mqrt.dll
+  Symbol name  : _RTRemoveUserCertSid@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : RTRemoveUserCertSid
+
+Archive member name at 2F42: mqrt.dll/       
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9FFFA12
+  SizeOfData   : 00000019
+  DLL name     : mqrt.dll
+  Symbol name  : _RTXactGetDTC@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : RTXactGetDTC
+
+     Exports
+
+       ordinal    name
+
+                  ?MQLogHR@@YGXJPB_WG@Z (void __stdcall MQLogHR(long,wchar_t const *,unsigned short))
+                  _MQADsPathToFormatName@12
+                  _MQAllocateMemory@4
+                  _MQBeginTransaction@4
+                  _MQCloseCursor@4
+                  _MQCloseQueue@4
+                  _MQCreateCursor@8
+                  _MQCreateQueue@16
+                  _MQDeleteQueue@4
+                  _MQFreeMemory@4
+                  _MQFreeSecurityContext@4
+                  _MQGetMachineProperties@12
+                  _MQGetOverlappedResult@4
+                  _MQGetPrivateComputerInformation@8
+                  _MQGetQueueProperties@8
+                  _MQGetQueueSecurity@20
+                  _MQGetSecurityContext@12
+                  _MQGetSecurityContextEx@12
+                  _MQHandleToFormatName@12
+                  _MQInstanceToFormatName@12
+                  _MQLocateBegin@20
+                  _MQLocateEnd@4
+                  _MQLocateNext@12
+                  _MQMarkMessageRejected@12
+                  _MQMgmtAction@12
+                  _MQMgmtGetInfo@12
+                  _MQMoveMessage@20
+                  _MQOpenQueue@16
+                  _MQPathNameToFormatName@12
+                  _MQPurgeQueue@4
+                  _MQReceiveMessage@32
+                  _MQReceiveMessageByLookupId@32
+                  _MQRegisterCertificate@12
+                  _MQSendMessage@12
+                  _MQSetQueueProperties@8
+                  _MQSetQueueSecurity@12
+                  _RTCreateInternalCertificate@4
+                  _RTDeleteInternalCert@4
+                  _RTGetInternalCert@20
+                  _RTGetUserCerts@12
+                  _RTIsDependentClient@0
+                  _RTLogOnRegisterCert@4
+                  _RTOpenInternalCertStore@20
+                  _RTRegisterUserCert@8
+                  _RTRemoveUserCert@4
+                  _RTRemoveUserCertSid@8
+                  _RTXactGetDTC@4
+
+  Summary
+
+          BA .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           A .idata$6

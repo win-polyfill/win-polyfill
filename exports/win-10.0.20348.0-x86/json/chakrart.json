@@ -1,0 +1,3741 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "?CreateChakraEngine@@YGPAVChakraEngine@@XZ (class ChakraEngine * __stdcall CreateChakraEngine(void))"
+    },
+    {
+      "name": "?DumpDiagInfo@@YGXPAUHWND__@@PAUHINSTANCE__@@PADH@Z (void __stdcall DumpDiagInfo(struct HWND__ *,struct HINSTANCE__ *,char *,int))"
+    },
+    {
+      "name": "?JsDiscardBackgroundParse@@YG_NKPAX@Z (bool __stdcall JsDiscardBackgroundParse(unsigned long,void *))"
+    },
+    {
+      "name": "?JsInitializeJITServer@@YGJPAU_GUID@@PAX1@Z (long __stdcall JsInitializeJITServer(struct _GUID *,void *,void *))"
+    },
+    {
+      "name": "?JsQueueBackgroundParse@@YGJPAUScriptContents@JsStaticAPI@@PAK@Z (long __stdcall JsQueueBackgroundParse(struct JsStaticAPI::ScriptContents *,unsigned long *))"
+    },
+    {
+      "name": "?MemProtectHeapAddRootSection@@YGXPAXPAUMemProtectHeapRootSection@@@Z (void __stdcall MemProtectHeapAddRootSection(void *,struct MemProtectHeapRootSection *))"
+    },
+    {
+      "name": "?MemProtectHeapCollect@@YGJPAXW4MemProtectHeapCollectFlags@@@Z (long __stdcall MemProtectHeapCollect(void *,enum MemProtectHeapCollectFlags))"
+    },
+    {
+      "name": "?MemProtectHeapCreate@@YGJPAPAXW4MemProtectHeapCreateFlags@@@Z (long __stdcall MemProtectHeapCreate(void * *,enum MemProtectHeapCreateFlags))"
+    },
+    {
+      "name": "?MemProtectHeapDestroy@@YGJPAX@Z (long __stdcall MemProtectHeapDestroy(void *))"
+    },
+    {
+      "name": "?MemProtectHeapDisableCollection@@YGXPAX@Z (void __stdcall MemProtectHeapDisableCollection(void *))"
+    },
+    {
+      "name": "?MemProtectHeapIsValidObject@@YG_NPAX0@Z (bool __stdcall MemProtectHeapIsValidObject(void *,void *))"
+    },
+    {
+      "name": "?MemProtectHeapMemSize@@YGJPAX0PAI@Z (long __stdcall MemProtectHeapMemSize(void *,void *,unsigned int *))"
+    },
+    {
+      "name": "?MemProtectHeapNotifyCurrentThreadDetach@@YGXPAX@Z (void __stdcall MemProtectHeapNotifyCurrentThreadDetach(void *))"
+    },
+    {
+      "name": "?MemProtectHeapProtectCurrentThread@@YGJPAXP6GX0@Z0@Z (long __stdcall MemProtectHeapProtectCurrentThread(void *,void (__stdcall*)(void *),void *))"
+    },
+    {
+      "name": "?MemProtectHeapRemoveRootSection@@YGJPAXPAUMemProtectHeapRootSection@@@Z (long __stdcall MemProtectHeapRemoveRootSection(void *,struct MemProtectHeapRootSection *))"
+    },
+    {
+      "name": "?MemProtectHeapReportHeapSize@@YGXPAX@Z (void __stdcall MemProtectHeapReportHeapSize(void *))"
+    },
+    {
+      "name": "?MemProtectHeapRootAlloc@@YGPAXPAXI@Z (void * __stdcall MemProtectHeapRootAlloc(void *,unsigned int))"
+    },
+    {
+      "name": "?MemProtectHeapRootAllocLeaf@@YGPAXPAXI@Z (void * __stdcall MemProtectHeapRootAllocLeaf(void *,unsigned int))"
+    },
+    {
+      "name": "?MemProtectHeapRootRealloc@@YGJPAXIPAPAX@Z (long __stdcall MemProtectHeapRootRealloc(void *,unsigned int,void * *))"
+    },
+    {
+      "name": "?MemProtectHeapRootReallocLeaf@@YGJPAXIPAPAX@Z (long __stdcall MemProtectHeapRootReallocLeaf(void *,unsigned int,void * *))"
+    },
+    {
+      "name": "?MemProtectHeapSynchronizeWithCollector@@YGJPAX@Z (long __stdcall MemProtectHeapSynchronizeWithCollector(void *))"
+    },
+    {
+      "name": "?MemProtectHeapUnprotectCurrentThread@@YGJPAX@Z (long __stdcall MemProtectHeapUnprotectCurrentThread(void *))"
+    },
+    {
+      "name": "?MemProtectHeapUnrootAndZero@@YGJPAX0@Z (long __stdcall MemProtectHeapUnrootAndZero(void *,void *))"
+    },
+    {
+      "name": "?RecyclerNativeHeapAddExternalMemoryUsage@@YGXPAXI@Z (void __stdcall RecyclerNativeHeapAddExternalMemoryUsage(void *,unsigned int))"
+    },
+    {
+      "name": "?RecyclerNativeHeapAllocLeaf@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocLeaf(void *,unsigned int))"
+    },
+    {
+      "name": "?RecyclerNativeHeapAllocLeafFinalized@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocLeafFinalized(void *,unsigned int))"
+    },
+    {
+      "name": "?RecyclerNativeHeapAllocTraced@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocTraced(void *,unsigned int))"
+    },
+    {
+      "name": "?RecyclerNativeHeapAllocTracedFinalized@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocTracedFinalized(void *,unsigned int))"
+    },
+    {
+      "name": "?RecyclerNativeHeapCollectGarbageInThread@@YGXPAX_N@Z (void __stdcall RecyclerNativeHeapCollectGarbageInThread(void *,bool))"
+    },
+    {
+      "name": "?RecyclerNativeHeapCreateWeakReference@@YGJPAX0PAPAX@Z (long __stdcall RecyclerNativeHeapCreateWeakReference(void *,void *,void * *))"
+    },
+    {
+      "name": "?RecyclerNativeHeapGetRealAddressFromInterior@@YGPAXPAX0@Z (void * __stdcall RecyclerNativeHeapGetRealAddressFromInterior(void *,void *))"
+    },
+    {
+      "name": "?RecyclerNativeHeapGetStrongReference@@YGPAXPAX0@Z (void * __stdcall RecyclerNativeHeapGetStrongReference(void *,void *))"
+    },
+    {
+      "name": "?RecyclerNativeHeapHasWeakReferenceCleanupOccurred@@YG_NPAXPAI@Z (bool __stdcall RecyclerNativeHeapHasWeakReferenceCleanupOccurred(void *,unsigned int *))"
+    },
+    {
+      "name": "?RecyclerNativeHeapRootAddRef@@YGJPAX0PAI@Z (long __stdcall RecyclerNativeHeapRootAddRef(void *,void *,unsigned int *))"
+    },
+    {
+      "name": "?RecyclerNativeHeapRootRelease@@YGXPAX0PAI@Z (void __stdcall RecyclerNativeHeapRootRelease(void *,void *,unsigned int *))"
+    },
+    {
+      "name": "_JsAddRef@8"
+    },
+    {
+      "name": "_JsBoolToBoolean@8"
+    },
+    {
+      "name": "_JsBooleanToBool@8"
+    },
+    {
+      "name": "_JsCallFunction@16"
+    },
+    {
+      "name": "_JsCollectGarbage@4"
+    },
+    {
+      "name": "_JsConstructObject@16"
+    },
+    {
+      "name": "_JsConvertValueToBoolean@8"
+    },
+    {
+      "name": "_JsConvertValueToNumber@8"
+    },
+    {
+      "name": "_JsConvertValueToObject@8"
+    },
+    {
+      "name": "_JsConvertValueToString@8"
+    },
+    {
+      "name": "_JsCreateArray@8"
+    },
+    {
+      "name": "_JsCreateArrayBuffer@8"
+    },
+    {
+      "name": "_JsCreateContext@8"
+    },
+    {
+      "name": "_JsCreateDataView@16"
+    },
+    {
+      "name": "_JsCreateError@8"
+    },
+    {
+      "name": "_JsCreateExternalArrayBuffer@20"
+    },
+    {
+      "name": "_JsCreateExternalObject@12"
+    },
+    {
+      "name": "_JsCreateFunction@12"
+    },
+    {
+      "name": "_JsCreateNamedFunction@16"
+    },
+    {
+      "name": "_JsCreateObject@4"
+    },
+    {
+      "name": "_JsCreateRangeError@8"
+    },
+    {
+      "name": "_JsCreateReferenceError@8"
+    },
+    {
+      "name": "_JsCreateRuntime@12"
+    },
+    {
+      "name": "_JsCreateSymbol@8"
+    },
+    {
+      "name": "_JsCreateSyntaxError@8"
+    },
+    {
+      "name": "_JsCreateThreadService@8"
+    },
+    {
+      "name": "_JsCreateTypeError@8"
+    },
+    {
+      "name": "_JsCreateTypedArray@20"
+    },
+    {
+      "name": "_JsCreateURIError@8"
+    },
+    {
+      "name": "_JsDefineProperty@16"
+    },
+    {
+      "name": "_JsDeleteIndexedProperty@8"
+    },
+    {
+      "name": "_JsDeleteProperty@16"
+    },
+    {
+      "name": "_JsDisableRuntimeExecution@4"
+    },
+    {
+      "name": "_JsDisposeRuntime@4"
+    },
+    {
+      "name": "_JsDoubleToNumber@12"
+    },
+    {
+      "name": "_JsEnableRuntimeExecution@4"
+    },
+    {
+      "name": "_JsEnumerateHeap@4"
+    },
+    {
+      "name": "_JsEquals@12"
+    },
+    {
+      "name": "_JsGetAndClearException@4"
+    },
+    {
+      "name": "_JsGetArrayBufferStorage@12"
+    },
+    {
+      "name": "_JsGetContextData@8"
+    },
+    {
+      "name": "_JsGetContextOfObject@8"
+    },
+    {
+      "name": "_JsGetCurrentContext@4"
+    },
+    {
+      "name": "_JsGetDataViewStorage@12"
+    },
+    {
+      "name": "_JsGetExtensionAllowed@8"
+    },
+    {
+      "name": "_JsGetExternalData@8"
+    },
+    {
+      "name": "_JsGetFalseValue@4"
+    },
+    {
+      "name": "_JsGetGlobalObject@4"
+    },
+    {
+      "name": "_JsGetIndexedPropertiesExternalData@16"
+    },
+    {
+      "name": "_JsGetIndexedProperty@12"
+    },
+    {
+      "name": "_JsGetNullValue@4"
+    },
+    {
+      "name": "_JsGetOwnPropertyDescriptor@12"
+    },
+    {
+      "name": "_JsGetOwnPropertyNames@8"
+    },
+    {
+      "name": "_JsGetOwnPropertySymbols@8"
+    },
+    {
+      "name": "_JsGetProperty@12"
+    },
+    {
+      "name": "_JsGetPropertyIdFromName@8"
+    },
+    {
+      "name": "_JsGetPropertyIdFromSymbol@8"
+    },
+    {
+      "name": "_JsGetPropertyIdType@8"
+    },
+    {
+      "name": "_JsGetPropertyNameFromId@8"
+    },
+    {
+      "name": "_JsGetPrototype@8"
+    },
+    {
+      "name": "_JsGetRuntime@8"
+    },
+    {
+      "name": "_JsGetRuntimeMemoryLimit@8"
+    },
+    {
+      "name": "_JsGetRuntimeMemoryUsage@8"
+    },
+    {
+      "name": "_JsGetStringLength@8"
+    },
+    {
+      "name": "_JsGetSymbolFromPropertyId@8"
+    },
+    {
+      "name": "_JsGetTrueValue@4"
+    },
+    {
+      "name": "_JsGetTypedArrayInfo@20"
+    },
+    {
+      "name": "_JsGetTypedArrayStorage@20"
+    },
+    {
+      "name": "_JsGetUndefinedValue@4"
+    },
+    {
+      "name": "_JsGetValueType@8"
+    },
+    {
+      "name": "_JsHasException@4"
+    },
+    {
+      "name": "_JsHasExternalData@8"
+    },
+    {
+      "name": "_JsHasIndexedPropertiesExternalData@8"
+    },
+    {
+      "name": "_JsHasIndexedProperty@12"
+    },
+    {
+      "name": "_JsHasProperty@12"
+    },
+    {
+      "name": "_JsIdle@4"
+    },
+    {
+      "name": "_JsInspectableToObject@8"
+    },
+    {
+      "name": "_JsInstanceOf@12"
+    },
+    {
+      "name": "_JsIntToNumber@8"
+    },
+    {
+      "name": "_JsIsEnumeratingHeap@4"
+    },
+    {
+      "name": "_JsIsRuntimeExecutionDisabled@8"
+    },
+    {
+      "name": "_JsNumberToDouble@8"
+    },
+    {
+      "name": "_JsNumberToInt@8"
+    },
+    {
+      "name": "_JsObjectToInspectable@8"
+    },
+    {
+      "name": "_JsParseScript@16"
+    },
+    {
+      "name": "_JsParseScriptWithAttributes@20"
+    },
+    {
+      "name": "_JsParseSerializedScript@20"
+    },
+    {
+      "name": "_JsParseSerializedScriptWithCallback@24"
+    },
+    {
+      "name": "_JsPointerToString@12"
+    },
+    {
+      "name": "_JsPreventExtension@4"
+    },
+    {
+      "name": "_JsProjectWinRTNamespace@4",
+      "ordinal": 400
+    },
+    {
+      "name": "_JsRelease@8"
+    },
+    {
+      "name": "_JsRunScript@16"
+    },
+    {
+      "name": "_JsRunSerializedScript@20"
+    },
+    {
+      "name": "_JsRunSerializedScriptWithCallback@24"
+    },
+    {
+      "name": "_JsSerializeScript@12"
+    },
+    {
+      "name": "_JsSetContextData@8"
+    },
+    {
+      "name": "_JsSetCurrentContext@4"
+    },
+    {
+      "name": "_JsSetException@4"
+    },
+    {
+      "name": "_JsSetExternalData@8"
+    },
+    {
+      "name": "_JsSetIndexedPropertiesToExternalData@16"
+    },
+    {
+      "name": "_JsSetIndexedProperty@12"
+    },
+    {
+      "name": "_JsSetObjectBeforeCollectCallback@12"
+    },
+    {
+      "name": "_JsSetProjectionEnqueueCallback@8",
+      "ordinal": 401
+    },
+    {
+      "name": "_JsSetPromiseContinuationCallback@8"
+    },
+    {
+      "name": "_JsSetProperty@16"
+    },
+    {
+      "name": "_JsSetPrototype@8"
+    },
+    {
+      "name": "_JsSetRuntimeBeforeCollectCallback@12"
+    },
+    {
+      "name": "_JsSetRuntimeMemoryAllocationCallback@12"
+    },
+    {
+      "name": "_JsSetRuntimeMemoryLimit@8"
+    },
+    {
+      "name": "_JsStartDebugging@0"
+    },
+    {
+      "name": "_JsStartProfiling@12"
+    },
+    {
+      "name": "_JsStopProfiling@4"
+    },
+    {
+      "name": "_JsStrictEquals@12"
+    },
+    {
+      "name": "_JsStringToPointer@12"
+    },
+    {
+      "name": "_JsValueToVariant@8"
+    },
+    {
+      "name": "_JsVarAddRef@4"
+    },
+    {
+      "name": "_JsVarRelease@4"
+    },
+    {
+      "name": "_JsVarToExtension@8"
+    },
+    {
+      "name": "_JsVariantToValue@8"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 22818,
+      "name": "__IMPORT_DESCRIPTOR_chakra"
+    },
+    {
+      "offset": 23368,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 23678,
+      "name": "chakra_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 39248,
+      "name": "_JsProjectWinRTNamespace@4"
+    },
+    {
+      "offset": 39248,
+      "name": "__imp__JsProjectWinRTNamespace@4"
+    },
+    {
+      "offset": 40764,
+      "name": "_JsSetProjectionEnqueueCallback@8"
+    },
+    {
+      "offset": 40764,
+      "name": "__imp__JsSetProjectionEnqueueCallback@8"
+    },
+    {
+      "offset": 42502,
+      "name": "_JsVarToExtension@8"
+    },
+    {
+      "offset": 42502,
+      "name": "__imp__JsVarToExtension@8"
+    },
+    {
+      "offset": 42288,
+      "name": "_JsVarAddRef@4"
+    },
+    {
+      "offset": 42288,
+      "name": "__imp__JsVarAddRef@4"
+    },
+    {
+      "offset": 42394,
+      "name": "_JsVarRelease@4"
+    },
+    {
+      "offset": 42394,
+      "name": "__imp__JsVarRelease@4"
+    },
+    {
+      "offset": 40636,
+      "name": "_JsSetObjectBeforeCollectCallback@12"
+    },
+    {
+      "offset": 40636,
+      "name": "__imp__JsSetObjectBeforeCollectCallback@12"
+    },
+    {
+      "offset": 31446,
+      "name": "_JsCreateRuntime@12"
+    },
+    {
+      "offset": 31446,
+      "name": "__imp__JsCreateRuntime@12"
+    },
+    {
+      "offset": 29382,
+      "name": "_JsCollectGarbage@4"
+    },
+    {
+      "offset": 29382,
+      "name": "__imp__JsCollectGarbage@4"
+    },
+    {
+      "offset": 32698,
+      "name": "_JsDisposeRuntime@4"
+    },
+    {
+      "offset": 32698,
+      "name": "__imp__JsDisposeRuntime@4"
+    },
+    {
+      "offset": 28948,
+      "name": "_JsAddRef@8"
+    },
+    {
+      "offset": 28948,
+      "name": "__imp__JsAddRef@8"
+    },
+    {
+      "offset": 39366,
+      "name": "_JsRelease@8"
+    },
+    {
+      "offset": 39366,
+      "name": "__imp__JsRelease@8"
+    },
+    {
+      "offset": 30302,
+      "name": "_JsCreateContext@8"
+    },
+    {
+      "offset": 30302,
+      "name": "__imp__JsCreateContext@8"
+    },
+    {
+      "offset": 33722,
+      "name": "_JsGetCurrentContext@4"
+    },
+    {
+      "offset": 33722,
+      "name": "__imp__JsGetCurrentContext@4"
+    },
+    {
+      "offset": 40052,
+      "name": "_JsSetCurrentContext@4"
+    },
+    {
+      "offset": 40052,
+      "name": "__imp__JsSetCurrentContext@4"
+    },
+    {
+      "offset": 33606,
+      "name": "_JsGetContextOfObject@8"
+    },
+    {
+      "offset": 33606,
+      "name": "__imp__JsGetContextOfObject@8"
+    },
+    {
+      "offset": 33494,
+      "name": "_JsGetContextData@8"
+    },
+    {
+      "offset": 33494,
+      "name": "__imp__JsGetContextData@8"
+    },
+    {
+      "offset": 39940,
+      "name": "_JsSetContextData@8"
+    },
+    {
+      "offset": 39940,
+      "name": "__imp__JsSetContextData@8"
+    },
+    {
+      "offset": 39470,
+      "name": "_JsRunScript@16"
+    },
+    {
+      "offset": 39470,
+      "name": "__imp__JsRunScript@16"
+    },
+    {
+      "offset": 36724,
+      "name": "_JsGetUndefinedValue@4"
+    },
+    {
+      "offset": 36724,
+      "name": "__imp__JsGetUndefinedValue@4"
+    },
+    {
+      "offset": 34648,
+      "name": "_JsGetNullValue@4"
+    },
+    {
+      "offset": 34648,
+      "name": "__imp__JsGetNullValue@4"
+    },
+    {
+      "offset": 36380,
+      "name": "_JsGetTrueValue@4"
+    },
+    {
+      "offset": 36380,
+      "name": "__imp__JsGetTrueValue@4"
+    },
+    {
+      "offset": 34180,
+      "name": "_JsGetFalseValue@4"
+    },
+    {
+      "offset": 34180,
+      "name": "__imp__JsGetFalseValue@4"
+    },
+    {
+      "offset": 29052,
+      "name": "_JsBoolToBoolean@8"
+    },
+    {
+      "offset": 29052,
+      "name": "__imp__JsBoolToBoolean@8"
+    },
+    {
+      "offset": 29162,
+      "name": "_JsBooleanToBool@8"
+    },
+    {
+      "offset": 29162,
+      "name": "__imp__JsBooleanToBool@8"
+    },
+    {
+      "offset": 29608,
+      "name": "_JsConvertValueToBoolean@8"
+    },
+    {
+      "offset": 29608,
+      "name": "__imp__JsConvertValueToBoolean@8"
+    },
+    {
+      "offset": 36838,
+      "name": "_JsGetValueType@8"
+    },
+    {
+      "offset": 36838,
+      "name": "__imp__JsGetValueType@8"
+    },
+    {
+      "offset": 32810,
+      "name": "_JsDoubleToNumber@12"
+    },
+    {
+      "offset": 32810,
+      "name": "__imp__JsDoubleToNumber@12"
+    },
+    {
+      "offset": 37852,
+      "name": "_JsIntToNumber@8"
+    },
+    {
+      "offset": 37852,
+      "name": "__imp__JsIntToNumber@8"
+    },
+    {
+      "offset": 38198,
+      "name": "_JsNumberToDouble@8"
+    },
+    {
+      "offset": 38198,
+      "name": "__imp__JsNumberToDouble@8"
+    },
+    {
+      "offset": 38310,
+      "name": "_JsNumberToInt@8"
+    },
+    {
+      "offset": 38310,
+      "name": "__imp__JsNumberToInt@8"
+    },
+    {
+      "offset": 29726,
+      "name": "_JsConvertValueToNumber@8"
+    },
+    {
+      "offset": 29726,
+      "name": "__imp__JsConvertValueToNumber@8"
+    },
+    {
+      "offset": 39020,
+      "name": "_JsPointerToString@12"
+    },
+    {
+      "offset": 39020,
+      "name": "__imp__JsPointerToString@12"
+    },
+    {
+      "offset": 42062,
+      "name": "_JsStringToPointer@12"
+    },
+    {
+      "offset": 42062,
+      "name": "__imp__JsStringToPointer@12"
+    },
+    {
+      "offset": 29962,
+      "name": "_JsConvertValueToString@8"
+    },
+    {
+      "offset": 29962,
+      "name": "__imp__JsConvertValueToString@8"
+    },
+    {
+      "offset": 34290,
+      "name": "_JsGetGlobalObject@4"
+    },
+    {
+      "offset": 34290,
+      "name": "__imp__JsGetGlobalObject@4"
+    },
+    {
+      "offset": 31104,
+      "name": "_JsCreateObject@4"
+    },
+    {
+      "offset": 31104,
+      "name": "__imp__JsCreateObject@4"
+    },
+    {
+      "offset": 30756,
+      "name": "_JsCreateExternalObject@12"
+    },
+    {
+      "offset": 30756,
+      "name": "__imp__JsCreateExternalObject@12"
+    },
+    {
+      "offset": 29844,
+      "name": "_JsConvertValueToObject@8"
+    },
+    {
+      "offset": 29844,
+      "name": "__imp__JsConvertValueToObject@8"
+    },
+    {
+      "offset": 35694,
+      "name": "_JsGetPrototype@8"
+    },
+    {
+      "offset": 35694,
+      "name": "__imp__JsGetPrototype@8"
+    },
+    {
+      "offset": 41128,
+      "name": "_JsSetPrototype@8"
+    },
+    {
+      "offset": 41128,
+      "name": "__imp__JsSetPrototype@8"
+    },
+    {
+      "offset": 37744,
+      "name": "_JsInstanceOf@12"
+    },
+    {
+      "offset": 37744,
+      "name": "__imp__JsInstanceOf@12"
+    },
+    {
+      "offset": 33952,
+      "name": "_JsGetExtensionAllowed@8"
+    },
+    {
+      "offset": 33952,
+      "name": "__imp__JsGetExtensionAllowed@8"
+    },
+    {
+      "offset": 39134,
+      "name": "_JsPreventExtension@4"
+    },
+    {
+      "offset": 39134,
+      "name": "__imp__JsPreventExtension@4"
+    },
+    {
+      "offset": 35114,
+      "name": "_JsGetProperty@12"
+    },
+    {
+      "offset": 35114,
+      "name": "__imp__JsGetProperty@12"
+    },
+    {
+      "offset": 34758,
+      "name": "_JsGetOwnPropertyDescriptor@12"
+    },
+    {
+      "offset": 34758,
+      "name": "__imp__JsGetOwnPropertyDescriptor@12"
+    },
+    {
+      "offset": 41018,
+      "name": "_JsSetProperty@16"
+    },
+    {
+      "offset": 41018,
+      "name": "__imp__JsSetProperty@16"
+    },
+    {
+      "offset": 37416,
+      "name": "_JsHasProperty@12"
+    },
+    {
+      "offset": 37416,
+      "name": "__imp__JsHasProperty@12"
+    },
+    {
+      "offset": 32466,
+      "name": "_JsDeleteProperty@16"
+    },
+    {
+      "offset": 32466,
+      "name": "__imp__JsDeleteProperty@16"
+    },
+    {
+      "offset": 32236,
+      "name": "_JsDefineProperty@16"
+    },
+    {
+      "offset": 32236,
+      "name": "__imp__JsDefineProperty@16"
+    },
+    {
+      "offset": 30080,
+      "name": "_JsCreateArray@8"
+    },
+    {
+      "offset": 30080,
+      "name": "__imp__JsCreateArray@8"
+    },
+    {
+      "offset": 30188,
+      "name": "_JsCreateArrayBuffer@8"
+    },
+    {
+      "offset": 30188,
+      "name": "__imp__JsCreateArrayBuffer@8"
+    },
+    {
+      "offset": 30632,
+      "name": "_JsCreateExternalArrayBuffer@20"
+    },
+    {
+      "offset": 30632,
+      "name": "__imp__JsCreateExternalArrayBuffer@20"
+    },
+    {
+      "offset": 32010,
+      "name": "_JsCreateTypedArray@20"
+    },
+    {
+      "offset": 32010,
+      "name": "__imp__JsCreateTypedArray@20"
+    },
+    {
+      "offset": 30412,
+      "name": "_JsCreateDataView@16"
+    },
+    {
+      "offset": 30412,
+      "name": "__imp__JsCreateDataView@16"
+    },
+    {
+      "offset": 36490,
+      "name": "_JsGetTypedArrayInfo@20"
+    },
+    {
+      "offset": 36490,
+      "name": "__imp__JsGetTypedArrayInfo@20"
+    },
+    {
+      "offset": 33374,
+      "name": "_JsGetArrayBufferStorage@12"
+    },
+    {
+      "offset": 33374,
+      "name": "__imp__JsGetArrayBufferStorage@12"
+    },
+    {
+      "offset": 36606,
+      "name": "_JsGetTypedArrayStorage@20"
+    },
+    {
+      "offset": 36606,
+      "name": "__imp__JsGetTypedArrayStorage@20"
+    },
+    {
+      "offset": 33836,
+      "name": "_JsGetDataViewStorage@12"
+    },
+    {
+      "offset": 33836,
+      "name": "__imp__JsGetDataViewStorage@12"
+    },
+    {
+      "offset": 37300,
+      "name": "_JsHasIndexedProperty@12"
+    },
+    {
+      "offset": 37300,
+      "name": "__imp__JsHasIndexedProperty@12"
+    },
+    {
+      "offset": 34532,
+      "name": "_JsGetIndexedProperty@12"
+    },
+    {
+      "offset": 34532,
+      "name": "__imp__JsGetIndexedProperty@12"
+    },
+    {
+      "offset": 40520,
+      "name": "_JsSetIndexedProperty@12"
+    },
+    {
+      "offset": 40520,
+      "name": "__imp__JsSetIndexedProperty@12"
+    },
+    {
+      "offset": 32348,
+      "name": "_JsDeleteIndexedProperty@8"
+    },
+    {
+      "offset": 32348,
+      "name": "__imp__JsDeleteIndexedProperty@8"
+    },
+    {
+      "offset": 37170,
+      "name": "_JsHasIndexedPropertiesExternalData@8"
+    },
+    {
+      "offset": 37170,
+      "name": "__imp__JsHasIndexedPropertiesExternalData@8"
+    },
+    {
+      "offset": 34402,
+      "name": "_JsGetIndexedPropertiesExternalData@16"
+    },
+    {
+      "offset": 34402,
+      "name": "__imp__JsGetIndexedPropertiesExternalData@16"
+    },
+    {
+      "offset": 40388,
+      "name": "_JsSetIndexedPropertiesToExternalData@16"
+    },
+    {
+      "offset": 40388,
+      "name": "__imp__JsSetIndexedPropertiesToExternalData@16"
+    },
+    {
+      "offset": 33152,
+      "name": "_JsEquals@12"
+    },
+    {
+      "offset": 33152,
+      "name": "__imp__JsEquals@12"
+    },
+    {
+      "offset": 41952,
+      "name": "_JsStrictEquals@12"
+    },
+    {
+      "offset": 41952,
+      "name": "__imp__JsStrictEquals@12"
+    },
+    {
+      "offset": 37058,
+      "name": "_JsHasExternalData@8"
+    },
+    {
+      "offset": 37058,
+      "name": "__imp__JsHasExternalData@8"
+    },
+    {
+      "offset": 34068,
+      "name": "_JsGetExternalData@8"
+    },
+    {
+      "offset": 34068,
+      "name": "__imp__JsGetExternalData@8"
+    },
+    {
+      "offset": 40276,
+      "name": "_JsSetExternalData@8"
+    },
+    {
+      "offset": 40276,
+      "name": "__imp__JsSetExternalData@8"
+    },
+    {
+      "offset": 29272,
+      "name": "_JsCallFunction@16"
+    },
+    {
+      "offset": 29272,
+      "name": "__imp__JsCallFunction@16"
+    },
+    {
+      "offset": 30874,
+      "name": "_JsCreateFunction@12"
+    },
+    {
+      "offset": 30874,
+      "name": "__imp__JsCreateFunction@12"
+    },
+    {
+      "offset": 30986,
+      "name": "_JsCreateNamedFunction@16"
+    },
+    {
+      "offset": 30986,
+      "name": "__imp__JsCreateNamedFunction@16"
+    },
+    {
+      "offset": 30524,
+      "name": "_JsCreateError@8"
+    },
+    {
+      "offset": 30524,
+      "name": "__imp__JsCreateError@8"
+    },
+    {
+      "offset": 31214,
+      "name": "_JsCreateRangeError@8"
+    },
+    {
+      "offset": 31214,
+      "name": "__imp__JsCreateRangeError@8"
+    },
+    {
+      "offset": 31328,
+      "name": "_JsCreateReferenceError@8"
+    },
+    {
+      "offset": 31328,
+      "name": "__imp__JsCreateReferenceError@8"
+    },
+    {
+      "offset": 31668,
+      "name": "_JsCreateSyntaxError@8"
+    },
+    {
+      "offset": 31668,
+      "name": "__imp__JsCreateSyntaxError@8"
+    },
+    {
+      "offset": 31898,
+      "name": "_JsCreateTypeError@8"
+    },
+    {
+      "offset": 31898,
+      "name": "__imp__JsCreateTypeError@8"
+    },
+    {
+      "offset": 32124,
+      "name": "_JsCreateURIError@8"
+    },
+    {
+      "offset": 32124,
+      "name": "__imp__JsCreateURIError@8"
+    },
+    {
+      "offset": 36948,
+      "name": "_JsHasException@4"
+    },
+    {
+      "offset": 36948,
+      "name": "__imp__JsHasException@4"
+    },
+    {
+      "offset": 33256,
+      "name": "_JsGetAndClearException@4"
+    },
+    {
+      "offset": 33256,
+      "name": "__imp__JsGetAndClearException@4"
+    },
+    {
+      "offset": 40166,
+      "name": "_JsSetException@4"
+    },
+    {
+      "offset": 40166,
+      "name": "__imp__JsSetException@4"
+    },
+    {
+      "offset": 36030,
+      "name": "_JsGetRuntimeMemoryUsage@8"
+    },
+    {
+      "offset": 36030,
+      "name": "__imp__JsGetRuntimeMemoryUsage@8"
+    },
+    {
+      "offset": 35912,
+      "name": "_JsGetRuntimeMemoryLimit@8"
+    },
+    {
+      "offset": 35912,
+      "name": "__imp__JsGetRuntimeMemoryLimit@8"
+    },
+    {
+      "offset": 41500,
+      "name": "_JsSetRuntimeMemoryLimit@8"
+    },
+    {
+      "offset": 41500,
+      "name": "__imp__JsSetRuntimeMemoryLimit@8"
+    },
+    {
+      "offset": 41368,
+      "name": "_JsSetRuntimeMemoryAllocationCallback@12"
+    },
+    {
+      "offset": 41368,
+      "name": "__imp__JsSetRuntimeMemoryAllocationCallback@12"
+    },
+    {
+      "offset": 41238,
+      "name": "_JsSetRuntimeBeforeCollectCallback@12"
+    },
+    {
+      "offset": 41238,
+      "name": "__imp__JsSetRuntimeBeforeCollectCallback@12"
+    },
+    {
+      "offset": 36148,
+      "name": "_JsGetStringLength@8"
+    },
+    {
+      "offset": 36148,
+      "name": "__imp__JsGetStringLength@8"
+    },
+    {
+      "offset": 32578,
+      "name": "_JsDisableRuntimeExecution@4"
+    },
+    {
+      "offset": 32578,
+      "name": "__imp__JsDisableRuntimeExecution@4"
+    },
+    {
+      "offset": 32922,
+      "name": "_JsEnableRuntimeExecution@4"
+    },
+    {
+      "offset": 32922,
+      "name": "__imp__JsEnableRuntimeExecution@4"
+    },
+    {
+      "offset": 38074,
+      "name": "_JsIsRuntimeExecutionDisabled@8"
+    },
+    {
+      "offset": 38074,
+      "name": "__imp__JsIsRuntimeExecutionDisabled@8"
+    },
+    {
+      "offset": 39826,
+      "name": "_JsSerializeScript@12"
+    },
+    {
+      "offset": 39826,
+      "name": "__imp__JsSerializeScript@12"
+    },
+    {
+      "offset": 38768,
+      "name": "_JsParseSerializedScript@20"
+    },
+    {
+      "offset": 38768,
+      "name": "__imp__JsParseSerializedScript@20"
+    },
+    {
+      "offset": 39578,
+      "name": "_JsRunSerializedScript@20"
+    },
+    {
+      "offset": 39578,
+      "name": "__imp__JsRunSerializedScript@20"
+    },
+    {
+      "offset": 38888,
+      "name": "_JsParseSerializedScriptWithCallback@24"
+    },
+    {
+      "offset": 38888,
+      "name": "__imp__JsParseSerializedScriptWithCallback@24"
+    },
+    {
+      "offset": 39696,
+      "name": "_JsRunSerializedScriptWithCallback@24"
+    },
+    {
+      "offset": 39696,
+      "name": "__imp__JsRunSerializedScriptWithCallback@24"
+    },
+    {
+      "offset": 38534,
+      "name": "_JsParseScript@16"
+    },
+    {
+      "offset": 38534,
+      "name": "__imp__JsParseScript@16"
+    },
+    {
+      "offset": 38644,
+      "name": "_JsParseScriptWithAttributes@20"
+    },
+    {
+      "offset": 38644,
+      "name": "__imp__JsParseScriptWithAttributes@20"
+    },
+    {
+      "offset": 29494,
+      "name": "_JsConstructObject@16"
+    },
+    {
+      "offset": 29494,
+      "name": "__imp__JsConstructObject@16"
+    },
+    {
+      "offset": 35224,
+      "name": "_JsGetPropertyIdFromName@8"
+    },
+    {
+      "offset": 35224,
+      "name": "__imp__JsGetPropertyIdFromName@8"
+    },
+    {
+      "offset": 35576,
+      "name": "_JsGetPropertyNameFromId@8"
+    },
+    {
+      "offset": 35576,
+      "name": "__imp__JsGetPropertyNameFromId@8"
+    },
+    {
+      "offset": 35462,
+      "name": "_JsGetPropertyIdType@8"
+    },
+    {
+      "offset": 35462,
+      "name": "__imp__JsGetPropertyIdType@8"
+    },
+    {
+      "offset": 34880,
+      "name": "_JsGetOwnPropertyNames@8"
+    },
+    {
+      "offset": 34880,
+      "name": "__imp__JsGetOwnPropertyNames@8"
+    },
+    {
+      "offset": 35342,
+      "name": "_JsGetPropertyIdFromSymbol@8"
+    },
+    {
+      "offset": 35342,
+      "name": "__imp__JsGetPropertyIdFromSymbol@8"
+    },
+    {
+      "offset": 36260,
+      "name": "_JsGetSymbolFromPropertyId@8"
+    },
+    {
+      "offset": 36260,
+      "name": "__imp__JsGetSymbolFromPropertyId@8"
+    },
+    {
+      "offset": 31558,
+      "name": "_JsCreateSymbol@8"
+    },
+    {
+      "offset": 31558,
+      "name": "__imp__JsCreateSymbol@8"
+    },
+    {
+      "offset": 34996,
+      "name": "_JsGetOwnPropertySymbols@8"
+    },
+    {
+      "offset": 34996,
+      "name": "__imp__JsGetOwnPropertySymbols@8"
+    },
+    {
+      "offset": 35804,
+      "name": "_JsGetRuntime@8"
+    },
+    {
+      "offset": 35804,
+      "name": "__imp__JsGetRuntime@8"
+    },
+    {
+      "offset": 37526,
+      "name": "_JsIdle@4"
+    },
+    {
+      "offset": 37526,
+      "name": "__imp__JsIdle@4"
+    },
+    {
+      "offset": 40890,
+      "name": "_JsSetPromiseContinuationCallback@8"
+    },
+    {
+      "offset": 40890,
+      "name": "__imp__JsSetPromiseContinuationCallback@8"
+    },
+    {
+      "offset": 42176,
+      "name": "_JsValueToVariant@8"
+    },
+    {
+      "offset": 42176,
+      "name": "__imp__JsValueToVariant@8"
+    },
+    {
+      "offset": 42614,
+      "name": "_JsVariantToValue@8"
+    },
+    {
+      "offset": 42614,
+      "name": "__imp__JsVariantToValue@8"
+    },
+    {
+      "offset": 41730,
+      "name": "_JsStartProfiling@12"
+    },
+    {
+      "offset": 41730,
+      "name": "__imp__JsStartProfiling@12"
+    },
+    {
+      "offset": 41842,
+      "name": "_JsStopProfiling@4"
+    },
+    {
+      "offset": 41842,
+      "name": "__imp__JsStopProfiling@4"
+    },
+    {
+      "offset": 33042,
+      "name": "_JsEnumerateHeap@4"
+    },
+    {
+      "offset": 33042,
+      "name": "__imp__JsEnumerateHeap@4"
+    },
+    {
+      "offset": 37960,
+      "name": "_JsIsEnumeratingHeap@4"
+    },
+    {
+      "offset": 37960,
+      "name": "__imp__JsIsEnumeratingHeap@4"
+    },
+    {
+      "offset": 41618,
+      "name": "_JsStartDebugging@0"
+    },
+    {
+      "offset": 41618,
+      "name": "__imp__JsStartDebugging@0"
+    },
+    {
+      "offset": 37628,
+      "name": "_JsInspectableToObject@8"
+    },
+    {
+      "offset": 37628,
+      "name": "__imp__JsInspectableToObject@8"
+    },
+    {
+      "offset": 38418,
+      "name": "_JsObjectToInspectable@8"
+    },
+    {
+      "offset": 38418,
+      "name": "__imp__JsObjectToInspectable@8"
+    },
+    {
+      "offset": 24422,
+      "name": "?JsInitializeJITServer@@YGJPAU_GUID@@PAX1@Z"
+    },
+    {
+      "offset": 24422,
+      "name": "__imp_?JsInitializeJITServer@@YGJPAU_GUID@@PAX1@Z"
+    },
+    {
+      "offset": 31782,
+      "name": "_JsCreateThreadService@8"
+    },
+    {
+      "offset": 31782,
+      "name": "__imp__JsCreateThreadService@8"
+    },
+    {
+      "offset": 24558,
+      "name": "?JsQueueBackgroundParse@@YGJPAUScriptContents@JsStaticAPI@@PAK@Z"
+    },
+    {
+      "offset": 24558,
+      "name": "__imp_?JsQueueBackgroundParse@@YGJPAUScriptContents@JsStaticAPI@@PAK@Z"
+    },
+    {
+      "offset": 24292,
+      "name": "?JsDiscardBackgroundParse@@YG_NKPAX@Z"
+    },
+    {
+      "offset": 24292,
+      "name": "__imp_?JsDiscardBackgroundParse@@YG_NKPAX@Z"
+    },
+    {
+      "offset": 24148,
+      "name": "?DumpDiagInfo@@YGXPAUHWND__@@PAUHINSTANCE__@@PADH@Z"
+    },
+    {
+      "offset": 24148,
+      "name": "__imp_?DumpDiagInfo@@YGXPAUHWND__@@PAUHINSTANCE__@@PADH@Z"
+    },
+    {
+      "offset": 24014,
+      "name": "?CreateChakraEngine@@YGPAVChakraEngine@@XZ"
+    },
+    {
+      "offset": 24014,
+      "name": "__imp_?CreateChakraEngine@@YGPAVChakraEngine@@XZ"
+    },
+    {
+      "offset": 25030,
+      "name": "?MemProtectHeapCreate@@YGJPAPAXW4MemProtectHeapCreateFlags@@@Z"
+    },
+    {
+      "offset": 25030,
+      "name": "__imp_?MemProtectHeapCreate@@YGJPAPAXW4MemProtectHeapCreateFlags@@@Z"
+    },
+    {
+      "offset": 26286,
+      "name": "?MemProtectHeapRootAlloc@@YGPAXPAXI@Z"
+    },
+    {
+      "offset": 26286,
+      "name": "__imp_?MemProtectHeapRootAlloc@@YGPAXPAXI@Z"
+    },
+    {
+      "offset": 26416,
+      "name": "?MemProtectHeapRootAllocLeaf@@YGPAXPAXI@Z"
+    },
+    {
+      "offset": 26416,
+      "name": "__imp_?MemProtectHeapRootAllocLeaf@@YGPAXPAXI@Z"
+    },
+    {
+      "offset": 26550,
+      "name": "?MemProtectHeapRootRealloc@@YGJPAXIPAPAX@Z"
+    },
+    {
+      "offset": 26550,
+      "name": "__imp_?MemProtectHeapRootRealloc@@YGJPAXIPAPAX@Z"
+    },
+    {
+      "offset": 26684,
+      "name": "?MemProtectHeapRootReallocLeaf@@YGJPAXIPAPAX@Z"
+    },
+    {
+      "offset": 26684,
+      "name": "__imp_?MemProtectHeapRootReallocLeaf@@YGJPAXIPAPAX@Z"
+    },
+    {
+      "offset": 27104,
+      "name": "?MemProtectHeapUnrootAndZero@@YGJPAX0@Z"
+    },
+    {
+      "offset": 27104,
+      "name": "__imp_?MemProtectHeapUnrootAndZero@@YGJPAX0@Z"
+    },
+    {
+      "offset": 25574,
+      "name": "?MemProtectHeapMemSize@@YGJPAX0PAI@Z"
+    },
+    {
+      "offset": 25574,
+      "name": "__imp_?MemProtectHeapMemSize@@YGJPAX0PAI@Z"
+    },
+    {
+      "offset": 26154,
+      "name": "?MemProtectHeapReportHeapSize@@YGXPAX@Z"
+    },
+    {
+      "offset": 26154,
+      "name": "__imp_?MemProtectHeapReportHeapSize@@YGXPAX@Z"
+    },
+    {
+      "offset": 25184,
+      "name": "?MemProtectHeapDestroy@@YGJPAX@Z"
+    },
+    {
+      "offset": 25184,
+      "name": "__imp_?MemProtectHeapDestroy@@YGJPAX@Z"
+    },
+    {
+      "offset": 24876,
+      "name": "?MemProtectHeapCollect@@YGJPAXW4MemProtectHeapCollectFlags@@@Z"
+    },
+    {
+      "offset": 24876,
+      "name": "__imp_?MemProtectHeapCollect@@YGJPAXW4MemProtectHeapCollectFlags@@@Z"
+    },
+    {
+      "offset": 25844,
+      "name": "?MemProtectHeapProtectCurrentThread@@YGJPAXP6GX0@Z0@Z"
+    },
+    {
+      "offset": 25844,
+      "name": "__imp_?MemProtectHeapProtectCurrentThread@@YGJPAXP6GX0@Z0@Z"
+    },
+    {
+      "offset": 26964,
+      "name": "?MemProtectHeapUnprotectCurrentThread@@YGJPAX@Z"
+    },
+    {
+      "offset": 26964,
+      "name": "__imp_?MemProtectHeapUnprotectCurrentThread@@YGJPAX@Z"
+    },
+    {
+      "offset": 25702,
+      "name": "?MemProtectHeapNotifyCurrentThreadDetach@@YGXPAX@Z"
+    },
+    {
+      "offset": 25702,
+      "name": "__imp_?MemProtectHeapNotifyCurrentThreadDetach@@YGXPAX@Z"
+    },
+    {
+      "offset": 26822,
+      "name": "?MemProtectHeapSynchronizeWithCollector@@YGJPAX@Z"
+    },
+    {
+      "offset": 26822,
+      "name": "__imp_?MemProtectHeapSynchronizeWithCollector@@YGJPAX@Z"
+    },
+    {
+      "offset": 25308,
+      "name": "?MemProtectHeapDisableCollection@@YGXPAX@Z"
+    },
+    {
+      "offset": 25308,
+      "name": "__imp_?MemProtectHeapDisableCollection@@YGXPAX@Z"
+    },
+    {
+      "offset": 24714,
+      "name": "?MemProtectHeapAddRootSection@@YGXPAXPAUMemProtectHeapRootSection@@@Z"
+    },
+    {
+      "offset": 24714,
+      "name": "__imp_?MemProtectHeapAddRootSection@@YGXPAXPAUMemProtectHeapRootSection@@@Z"
+    },
+    {
+      "offset": 25990,
+      "name": "?MemProtectHeapRemoveRootSection@@YGJPAXPAUMemProtectHeapRootSection@@@Z"
+    },
+    {
+      "offset": 25990,
+      "name": "__imp_?MemProtectHeapRemoveRootSection@@YGJPAXPAUMemProtectHeapRootSection@@@Z"
+    },
+    {
+      "offset": 25442,
+      "name": "?MemProtectHeapIsValidObject@@YG_NPAX0@Z"
+    },
+    {
+      "offset": 25442,
+      "name": "__imp_?MemProtectHeapIsValidObject@@YG_NPAX0@Z"
+    },
+    {
+      "offset": 27656,
+      "name": "?RecyclerNativeHeapAllocTraced@@YGPAXPAXI@Z"
+    },
+    {
+      "offset": 27656,
+      "name": "__imp_?RecyclerNativeHeapAllocTraced@@YGPAXPAXI@Z"
+    },
+    {
+      "offset": 27792,
+      "name": "?RecyclerNativeHeapAllocTracedFinalized@@YGPAXPAXI@Z"
+    },
+    {
+      "offset": 27792,
+      "name": "__imp_?RecyclerNativeHeapAllocTracedFinalized@@YGPAXPAXI@Z"
+    },
+    {
+      "offset": 27380,
+      "name": "?RecyclerNativeHeapAllocLeaf@@YGPAXPAXI@Z"
+    },
+    {
+      "offset": 27380,
+      "name": "__imp_?RecyclerNativeHeapAllocLeaf@@YGPAXPAXI@Z"
+    },
+    {
+      "offset": 27514,
+      "name": "?RecyclerNativeHeapAllocLeafFinalized@@YGPAXPAXI@Z"
+    },
+    {
+      "offset": 27514,
+      "name": "__imp_?RecyclerNativeHeapAllocLeafFinalized@@YGPAXPAXI@Z"
+    },
+    {
+      "offset": 28676,
+      "name": "?RecyclerNativeHeapRootAddRef@@YGJPAX0PAI@Z"
+    },
+    {
+      "offset": 28676,
+      "name": "__imp_?RecyclerNativeHeapRootAddRef@@YGJPAX0PAI@Z"
+    },
+    {
+      "offset": 28812,
+      "name": "?RecyclerNativeHeapRootRelease@@YGXPAX0PAI@Z"
+    },
+    {
+      "offset": 28812,
+      "name": "__imp_?RecyclerNativeHeapRootRelease@@YGXPAX0PAI@Z"
+    },
+    {
+      "offset": 28082,
+      "name": "?RecyclerNativeHeapCreateWeakReference@@YGJPAX0PAPAX@Z"
+    },
+    {
+      "offset": 28082,
+      "name": "__imp_?RecyclerNativeHeapCreateWeakReference@@YGJPAX0PAPAX@Z"
+    },
+    {
+      "offset": 28378,
+      "name": "?RecyclerNativeHeapGetStrongReference@@YGPAXPAX0@Z"
+    },
+    {
+      "offset": 28378,
+      "name": "__imp_?RecyclerNativeHeapGetStrongReference@@YGPAXPAX0@Z"
+    },
+    {
+      "offset": 28520,
+      "name": "?RecyclerNativeHeapHasWeakReferenceCleanupOccurred@@YG_NPAXPAI@Z"
+    },
+    {
+      "offset": 28520,
+      "name": "__imp_?RecyclerNativeHeapHasWeakReferenceCleanupOccurred@@YG_NPAXPAI@Z"
+    },
+    {
+      "offset": 28228,
+      "name": "?RecyclerNativeHeapGetRealAddressFromInterior@@YGPAXPAX0@Z"
+    },
+    {
+      "offset": 28228,
+      "name": "__imp_?RecyclerNativeHeapGetRealAddressFromInterior@@YGPAXPAX0@Z"
+    },
+    {
+      "offset": 27936,
+      "name": "?RecyclerNativeHeapCollectGarbageInThread@@YGXPAX_N@Z"
+    },
+    {
+      "offset": 27936,
+      "name": "__imp_?RecyclerNativeHeapCollectGarbageInThread@@YGXPAX_N@Z"
+    },
+    {
+      "offset": 27236,
+      "name": "?RecyclerNativeHeapAddExternalMemoryUsage@@YGXPAXI@Z"
+    },
+    {
+      "offset": 27236,
+      "name": "__imp_?RecyclerNativeHeapAddExternalMemoryUsage@@YGXPAXI@Z"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 24014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3968465900,
+      "sizeOfData": 54,
+      "dllName": "chakra.dll",
+      "symbolName": "?CreateChakraEngine@@YGPAVChakraEngine@@XZ (class ChakraEngine * __stdcall CreateChakraEngine(void))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "CreateChakraEngine"
+    },
+    {
+      "offset": 24148,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3468553832,
+      "sizeOfData": 63,
+      "dllName": "chakra.dll",
+      "symbolName": "?DumpDiagInfo@@YGXPAUHWND__@@PAUHINSTANCE__@@PADH@Z (void __stdcall DumpDiagInfo(struct HWND__ *,struct HINSTANCE__ *,char *,int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "DumpDiagInfo"
+    },
+    {
+      "offset": 24292,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4251534647,
+      "sizeOfData": 49,
+      "dllName": "chakra.dll",
+      "symbolName": "?JsDiscardBackgroundParse@@YG_NKPAX@Z (bool __stdcall JsDiscardBackgroundParse(unsigned long,void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "JsDiscardBackgroundParse"
+    },
+    {
+      "offset": 24422,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3576503646,
+      "sizeOfData": 55,
+      "dllName": "chakra.dll",
+      "symbolName": "?JsInitializeJITServer@@YGJPAU_GUID@@PAX1@Z (long __stdcall JsInitializeJITServer(struct _GUID *,void *,void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "JsInitializeJITServer"
+    },
+    {
+      "offset": 24558,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3759774075,
+      "sizeOfData": 76,
+      "dllName": "chakra.dll",
+      "symbolName": "?JsQueueBackgroundParse@@YGJPAUScriptContents@JsStaticAPI@@PAK@Z (long __stdcall JsQueueBackgroundParse(struct JsStaticAPI::ScriptContents *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "JsQueueBackgroundParse"
+    },
+    {
+      "offset": 24714,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4104422012,
+      "sizeOfData": 81,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapAddRootSection@@YGXPAXPAUMemProtectHeapRootSection@@@Z (void __stdcall MemProtectHeapAddRootSection(void *,struct MemProtectHeapRootSection *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "MemProtectHeapAddRootSection"
+    },
+    {
+      "offset": 24876,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3413487403,
+      "sizeOfData": 74,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapCollect@@YGJPAXW4MemProtectHeapCollectFlags@@@Z (long __stdcall MemProtectHeapCollect(void *,enum MemProtectHeapCollectFlags))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "MemProtectHeapCollect"
+    },
+    {
+      "offset": 25030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4238056006,
+      "sizeOfData": 74,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapCreate@@YGJPAPAXW4MemProtectHeapCreateFlags@@@Z (long __stdcall MemProtectHeapCreate(void * *,enum MemProtectHeapCreateFlags))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "MemProtectHeapCreate"
+    },
+    {
+      "offset": 25184,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3816186706,
+      "sizeOfData": 44,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapDestroy@@YGJPAX@Z (long __stdcall MemProtectHeapDestroy(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "MemProtectHeapDestroy"
+    },
+    {
+      "offset": 25308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4159359290,
+      "sizeOfData": 54,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapDisableCollection@@YGXPAX@Z (void __stdcall MemProtectHeapDisableCollection(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "MemProtectHeapDisableCollection"
+    },
+    {
+      "offset": 25442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3508030960,
+      "sizeOfData": 52,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapIsValidObject@@YG_NPAX0@Z (bool __stdcall MemProtectHeapIsValidObject(void *,void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "MemProtectHeapIsValidObject"
+    },
+    {
+      "offset": 25574,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4190711950,
+      "sizeOfData": 48,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapMemSize@@YGJPAX0PAI@Z (long __stdcall MemProtectHeapMemSize(void *,void *,unsigned int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "MemProtectHeapMemSize"
+    },
+    {
+      "offset": 25702,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3929353030,
+      "sizeOfData": 62,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapNotifyCurrentThreadDetach@@YGXPAX@Z (void __stdcall MemProtectHeapNotifyCurrentThreadDetach(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "MemProtectHeapNotifyCurrentThreadDetach"
+    },
+    {
+      "offset": 25844,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3807146676,
+      "sizeOfData": 65,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapProtectCurrentThread@@YGJPAXP6GX0@Z0@Z (long __stdcall MemProtectHeapProtectCurrentThread(void *,void (__stdcall*)(void *),void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "MemProtectHeapProtectCurrentThread"
+    },
+    {
+      "offset": 25990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4133709427,
+      "sizeOfData": 84,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapRemoveRootSection@@YGJPAXPAUMemProtectHeapRootSection@@@Z (long __stdcall MemProtectHeapRemoveRootSection(void *,struct MemProtectHeapRootSection *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "MemProtectHeapRemoveRootSection"
+    },
+    {
+      "offset": 26154,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3528817615,
+      "sizeOfData": 51,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapReportHeapSize@@YGXPAX@Z (void __stdcall MemProtectHeapReportHeapSize(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "MemProtectHeapReportHeapSize"
+    },
+    {
+      "offset": 26286,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3720174391,
+      "sizeOfData": 49,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapRootAlloc@@YGPAXPAXI@Z (void * __stdcall MemProtectHeapRootAlloc(void *,unsigned int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "MemProtectHeapRootAlloc"
+    },
+    {
+      "offset": 26416,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3536653179,
+      "sizeOfData": 53,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapRootAllocLeaf@@YGPAXPAXI@Z (void * __stdcall MemProtectHeapRootAllocLeaf(void *,unsigned int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "MemProtectHeapRootAllocLeaf"
+    },
+    {
+      "offset": 26550,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3233274035,
+      "sizeOfData": 54,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapRootRealloc@@YGJPAXIPAPAX@Z (long __stdcall MemProtectHeapRootRealloc(void *,unsigned int,void * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "MemProtectHeapRootRealloc"
+    },
+    {
+      "offset": 26684,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3283895398,
+      "sizeOfData": 58,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapRootReallocLeaf@@YGJPAXIPAPAX@Z (long __stdcall MemProtectHeapRootReallocLeaf(void *,unsigned int,void * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "MemProtectHeapRootReallocLeaf"
+    },
+    {
+      "offset": 26822,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3527254189,
+      "sizeOfData": 61,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapSynchronizeWithCollector@@YGJPAX@Z (long __stdcall MemProtectHeapSynchronizeWithCollector(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "MemProtectHeapSynchronizeWithCollector"
+    },
+    {
+      "offset": 26964,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4127972725,
+      "sizeOfData": 59,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapUnprotectCurrentThread@@YGJPAX@Z (long __stdcall MemProtectHeapUnprotectCurrentThread(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "MemProtectHeapUnprotectCurrentThread"
+    },
+    {
+      "offset": 27104,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4208886702,
+      "sizeOfData": 51,
+      "dllName": "chakra.dll",
+      "symbolName": "?MemProtectHeapUnrootAndZero@@YGJPAX0@Z (long __stdcall MemProtectHeapUnrootAndZero(void *,void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "MemProtectHeapUnrootAndZero"
+    },
+    {
+      "offset": 27236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3831822506,
+      "sizeOfData": 64,
+      "dllName": "chakra.dll",
+      "symbolName": "?RecyclerNativeHeapAddExternalMemoryUsage@@YGXPAXI@Z (void __stdcall RecyclerNativeHeapAddExternalMemoryUsage(void *,unsigned int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "RecyclerNativeHeapAddExternalMemoryUsage"
+    },
+    {
+      "offset": 27380,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3574982400,
+      "sizeOfData": 53,
+      "dllName": "chakra.dll",
+      "symbolName": "?RecyclerNativeHeapAllocLeaf@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocLeaf(void *,unsigned int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "RecyclerNativeHeapAllocLeaf"
+    },
+    {
+      "offset": 27514,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4200549480,
+      "sizeOfData": 62,
+      "dllName": "chakra.dll",
+      "symbolName": "?RecyclerNativeHeapAllocLeafFinalized@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocLeafFinalized(void *,unsigned int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "RecyclerNativeHeapAllocLeafFinalized"
+    },
+    {
+      "offset": 27656,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4085022530,
+      "sizeOfData": 55,
+      "dllName": "chakra.dll",
+      "symbolName": "?RecyclerNativeHeapAllocTraced@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocTraced(void *,unsigned int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "RecyclerNativeHeapAllocTraced"
+    },
+    {
+      "offset": 27792,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4150407141,
+      "sizeOfData": 64,
+      "dllName": "chakra.dll",
+      "symbolName": "?RecyclerNativeHeapAllocTracedFinalized@@YGPAXPAXI@Z (void * __stdcall RecyclerNativeHeapAllocTracedFinalized(void *,unsigned int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "RecyclerNativeHeapAllocTracedFinalized"
+    },
+    {
+      "offset": 27936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3393919911,
+      "sizeOfData": 65,
+      "dllName": "chakra.dll",
+      "symbolName": "?RecyclerNativeHeapCollectGarbageInThread@@YGXPAX_N@Z (void __stdcall RecyclerNativeHeapCollectGarbageInThread(void *,bool))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "RecyclerNativeHeapCollectGarbageInThread"
+    },
+    {
+      "offset": 28082,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4168650382,
+      "sizeOfData": 66,
+      "dllName": "chakra.dll",
+      "symbolName": "?RecyclerNativeHeapCreateWeakReference@@YGJPAX0PAPAX@Z (long __stdcall RecyclerNativeHeapCreateWeakReference(void *,void *,void * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "RecyclerNativeHeapCreateWeakReference"
+    },
+    {
+      "offset": 28228,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3526833667,
+      "sizeOfData": 70,
+      "dllName": "chakra.dll",
+      "symbolName": "?RecyclerNativeHeapGetRealAddressFromInterior@@YGPAXPAX0@Z (void * __stdcall RecyclerNativeHeapGetRealAddressFromInterior(void *,void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "RecyclerNativeHeapGetRealAddressFromInterior"
+    },
+    {
+      "offset": 28378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3928579835,
+      "sizeOfData": 62,
+      "dllName": "chakra.dll",
+      "symbolName": "?RecyclerNativeHeapGetStrongReference@@YGPAXPAX0@Z (void * __stdcall RecyclerNativeHeapGetStrongReference(void *,void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "RecyclerNativeHeapGetStrongReference"
+    },
+    {
+      "offset": 28520,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4112242253,
+      "sizeOfData": 76,
+      "dllName": "chakra.dll",
+      "symbolName": "?RecyclerNativeHeapHasWeakReferenceCleanupOccurred@@YG_NPAXPAI@Z (bool __stdcall RecyclerNativeHeapHasWeakReferenceCleanupOccurred(void *,unsigned int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "RecyclerNativeHeapHasWeakReferenceCleanupOccurred"
+    },
+    {
+      "offset": 28676,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3249415013,
+      "sizeOfData": 55,
+      "dllName": "chakra.dll",
+      "symbolName": "?RecyclerNativeHeapRootAddRef@@YGJPAX0PAI@Z (long __stdcall RecyclerNativeHeapRootAddRef(void *,void *,unsigned int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 158,
+      "name": "RecyclerNativeHeapRootAddRef"
+    },
+    {
+      "offset": 28812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3352003008,
+      "sizeOfData": 56,
+      "dllName": "chakra.dll",
+      "symbolName": "?RecyclerNativeHeapRootRelease@@YGXPAX0PAI@Z (void __stdcall RecyclerNativeHeapRootRelease(void *,void *,unsigned int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 159,
+      "name": "RecyclerNativeHeapRootRelease"
+    },
+    {
+      "offset": 28948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3655444922,
+      "sizeOfData": 23,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsAddRef@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "JsAddRef"
+    },
+    {
+      "offset": 29052,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4050102158,
+      "sizeOfData": 30,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsBoolToBoolean@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "JsBoolToBoolean"
+    },
+    {
+      "offset": 29162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3523868760,
+      "sizeOfData": 30,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsBooleanToBool@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "JsBooleanToBool"
+    },
+    {
+      "offset": 29272,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3918553084,
+      "sizeOfData": 30,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCallFunction@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "JsCallFunction"
+    },
+    {
+      "offset": 29382,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3945458839,
+      "sizeOfData": 31,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCollectGarbage@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "JsCollectGarbage"
+    },
+    {
+      "offset": 29494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3922409274,
+      "sizeOfData": 33,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsConstructObject@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "JsConstructObject"
+    },
+    {
+      "offset": 29608,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3824900623,
+      "sizeOfData": 38,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsConvertValueToBoolean@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "JsConvertValueToBoolean"
+    },
+    {
+      "offset": 29726,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4256079435,
+      "sizeOfData": 37,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsConvertValueToNumber@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "JsConvertValueToNumber"
+    },
+    {
+      "offset": 29844,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3342196731,
+      "sizeOfData": 37,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsConvertValueToObject@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "JsConvertValueToObject"
+    },
+    {
+      "offset": 29962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3333318129,
+      "sizeOfData": 37,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsConvertValueToString@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "JsConvertValueToString"
+    },
+    {
+      "offset": 30080,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3883084074,
+      "sizeOfData": 28,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateArray@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "JsCreateArray"
+    },
+    {
+      "offset": 30188,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3821879295,
+      "sizeOfData": 34,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateArrayBuffer@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "JsCreateArrayBuffer"
+    },
+    {
+      "offset": 30302,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3611500648,
+      "sizeOfData": 30,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateContext@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "JsCreateContext"
+    },
+    {
+      "offset": 30412,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3896928608,
+      "sizeOfData": 32,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateDataView@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "JsCreateDataView"
+    },
+    {
+      "offset": 30524,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4234723228,
+      "sizeOfData": 28,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateError@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "JsCreateError"
+    },
+    {
+      "offset": 30632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3568132339,
+      "sizeOfData": 43,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateExternalArrayBuffer@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "JsCreateExternalArrayBuffer"
+    },
+    {
+      "offset": 30756,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3261265353,
+      "sizeOfData": 38,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateExternalObject@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "JsCreateExternalObject"
+    },
+    {
+      "offset": 30874,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3929120969,
+      "sizeOfData": 32,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateFunction@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "JsCreateFunction"
+    },
+    {
+      "offset": 30986,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3580645816,
+      "sizeOfData": 37,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateNamedFunction@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "JsCreateNamedFunction"
+    },
+    {
+      "offset": 31104,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4246052057,
+      "sizeOfData": 29,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateObject@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "JsCreateObject"
+    },
+    {
+      "offset": 31214,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3720519193,
+      "sizeOfData": 33,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateRangeError@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "JsCreateRangeError"
+    },
+    {
+      "offset": 31328,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3441481183,
+      "sizeOfData": 37,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateReferenceError@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "JsCreateReferenceError"
+    },
+    {
+      "offset": 31446,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3437132368,
+      "sizeOfData": 31,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateRuntime@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "JsCreateRuntime"
+    },
+    {
+      "offset": 31558,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3886196872,
+      "sizeOfData": 29,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateSymbol@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "JsCreateSymbol"
+    },
+    {
+      "offset": 31668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3419681891,
+      "sizeOfData": 34,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateSyntaxError@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "JsCreateSyntaxError"
+    },
+    {
+      "offset": 31782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4044747833,
+      "sizeOfData": 36,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateThreadService@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "JsCreateThreadService"
+    },
+    {
+      "offset": 31898,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3717322711,
+      "sizeOfData": 32,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateTypeError@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "JsCreateTypeError"
+    },
+    {
+      "offset": 32010,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3745560082,
+      "sizeOfData": 34,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateTypedArray@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "JsCreateTypedArray"
+    },
+    {
+      "offset": 32124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4019670919,
+      "sizeOfData": 31,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsCreateURIError@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "JsCreateURIError"
+    },
+    {
+      "offset": 32236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4061964533,
+      "sizeOfData": 32,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsDefineProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "JsDefineProperty"
+    },
+    {
+      "offset": 32348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3858128554,
+      "sizeOfData": 38,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsDeleteIndexedProperty@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "JsDeleteIndexedProperty"
+    },
+    {
+      "offset": 32466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3557878049,
+      "sizeOfData": 32,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsDeleteProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "JsDeleteProperty"
+    },
+    {
+      "offset": 32578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3435701032,
+      "sizeOfData": 40,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsDisableRuntimeExecution@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "JsDisableRuntimeExecution"
+    },
+    {
+      "offset": 32698,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3865613498,
+      "sizeOfData": 31,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsDisposeRuntime@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "JsDisposeRuntime"
+    },
+    {
+      "offset": 32810,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3253859471,
+      "sizeOfData": 32,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsDoubleToNumber@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "JsDoubleToNumber"
+    },
+    {
+      "offset": 32922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3994700258,
+      "sizeOfData": 39,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsEnableRuntimeExecution@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "JsEnableRuntimeExecution"
+    },
+    {
+      "offset": 33042,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3932310548,
+      "sizeOfData": 30,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsEnumerateHeap@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "JsEnumerateHeap"
+    },
+    {
+      "offset": 33152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4213594795,
+      "sizeOfData": 24,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsEquals@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "JsEquals"
+    },
+    {
+      "offset": 33256,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3756831893,
+      "sizeOfData": 37,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetAndClearException@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "JsGetAndClearException"
+    },
+    {
+      "offset": 33374,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3914205918,
+      "sizeOfData": 39,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetArrayBufferStorage@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "JsGetArrayBufferStorage"
+    },
+    {
+      "offset": 33494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4136055922,
+      "sizeOfData": 31,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetContextData@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "JsGetContextData"
+    },
+    {
+      "offset": 33606,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3316034466,
+      "sizeOfData": 35,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetContextOfObject@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "JsGetContextOfObject"
+    },
+    {
+      "offset": 33722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4117022407,
+      "sizeOfData": 34,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetCurrentContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "JsGetCurrentContext"
+    },
+    {
+      "offset": 33836,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3592576072,
+      "sizeOfData": 36,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetDataViewStorage@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "JsGetDataViewStorage"
+    },
+    {
+      "offset": 33952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3855636365,
+      "sizeOfData": 36,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetExtensionAllowed@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "JsGetExtensionAllowed"
+    },
+    {
+      "offset": 34068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3987945226,
+      "sizeOfData": 32,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetExternalData@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "JsGetExternalData"
+    },
+    {
+      "offset": 34180,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4247277986,
+      "sizeOfData": 30,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetFalseValue@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "JsGetFalseValue"
+    },
+    {
+      "offset": 34290,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3358198432,
+      "sizeOfData": 32,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetGlobalObject@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "JsGetGlobalObject"
+    },
+    {
+      "offset": 34402,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4170201470,
+      "sizeOfData": 50,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetIndexedPropertiesExternalData@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "JsGetIndexedPropertiesExternalData"
+    },
+    {
+      "offset": 34532,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3316985256,
+      "sizeOfData": 36,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetIndexedProperty@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "JsGetIndexedProperty"
+    },
+    {
+      "offset": 34648,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3395973835,
+      "sizeOfData": 29,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetNullValue@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "JsGetNullValue"
+    },
+    {
+      "offset": 34758,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4006431213,
+      "sizeOfData": 42,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetOwnPropertyDescriptor@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "JsGetOwnPropertyDescriptor"
+    },
+    {
+      "offset": 34880,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4151524223,
+      "sizeOfData": 36,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetOwnPropertyNames@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "JsGetOwnPropertyNames"
+    },
+    {
+      "offset": 34996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3538183398,
+      "sizeOfData": 38,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetOwnPropertySymbols@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "JsGetOwnPropertySymbols"
+    },
+    {
+      "offset": 35114,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3441966961,
+      "sizeOfData": 29,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetProperty@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "JsGetProperty"
+    },
+    {
+      "offset": 35224,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3793999963,
+      "sizeOfData": 38,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetPropertyIdFromName@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "JsGetPropertyIdFromName"
+    },
+    {
+      "offset": 35342,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4251447776,
+      "sizeOfData": 40,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetPropertyIdFromSymbol@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "JsGetPropertyIdFromSymbol"
+    },
+    {
+      "offset": 35462,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3799841769,
+      "sizeOfData": 34,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetPropertyIdType@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "JsGetPropertyIdType"
+    },
+    {
+      "offset": 35576,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3410721565,
+      "sizeOfData": 38,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetPropertyNameFromId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "JsGetPropertyNameFromId"
+    },
+    {
+      "offset": 35694,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3483433441,
+      "sizeOfData": 29,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetPrototype@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "JsGetPrototype"
+    },
+    {
+      "offset": 35804,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3855444987,
+      "sizeOfData": 27,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetRuntime@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "JsGetRuntime"
+    },
+    {
+      "offset": 35912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3934940752,
+      "sizeOfData": 38,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetRuntimeMemoryLimit@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "JsGetRuntimeMemoryLimit"
+    },
+    {
+      "offset": 36030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3795394297,
+      "sizeOfData": 38,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetRuntimeMemoryUsage@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "JsGetRuntimeMemoryUsage"
+    },
+    {
+      "offset": 36148,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4000498828,
+      "sizeOfData": 32,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetStringLength@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "JsGetStringLength"
+    },
+    {
+      "offset": 36260,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3283770019,
+      "sizeOfData": 40,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetSymbolFromPropertyId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "JsGetSymbolFromPropertyId"
+    },
+    {
+      "offset": 36380,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3533214330,
+      "sizeOfData": 29,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetTrueValue@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "JsGetTrueValue"
+    },
+    {
+      "offset": 36490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3638384239,
+      "sizeOfData": 35,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetTypedArrayInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "JsGetTypedArrayInfo"
+    },
+    {
+      "offset": 36606,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3985339888,
+      "sizeOfData": 38,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetTypedArrayStorage@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "JsGetTypedArrayStorage"
+    },
+    {
+      "offset": 36724,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3313462575,
+      "sizeOfData": 34,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetUndefinedValue@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "JsGetUndefinedValue"
+    },
+    {
+      "offset": 36838,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4122384722,
+      "sizeOfData": 29,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsGetValueType@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "JsGetValueType"
+    },
+    {
+      "offset": 36948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4085811900,
+      "sizeOfData": 29,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsHasException@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "JsHasException"
+    },
+    {
+      "offset": 37058,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3519172503,
+      "sizeOfData": 32,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsHasExternalData@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "JsHasExternalData"
+    },
+    {
+      "offset": 37170,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4086481011,
+      "sizeOfData": 49,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsHasIndexedPropertiesExternalData@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "JsHasIndexedPropertiesExternalData"
+    },
+    {
+      "offset": 37300,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3515319548,
+      "sizeOfData": 36,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsHasIndexedProperty@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "JsHasIndexedProperty"
+    },
+    {
+      "offset": 37416,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3473834292,
+      "sizeOfData": 29,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsHasProperty@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "JsHasProperty"
+    },
+    {
+      "offset": 37526,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3692766038,
+      "sizeOfData": 21,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsIdle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "JsIdle"
+    },
+    {
+      "offset": 37628,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3994879984,
+      "sizeOfData": 36,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsInspectableToObject@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "JsInspectableToObject"
+    },
+    {
+      "offset": 37744,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4042746936,
+      "sizeOfData": 28,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsInstanceOf@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "JsInstanceOf"
+    },
+    {
+      "offset": 37852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4052695863,
+      "sizeOfData": 28,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsIntToNumber@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "JsIntToNumber"
+    },
+    {
+      "offset": 37960,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4047623928,
+      "sizeOfData": 34,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsIsEnumeratingHeap@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "JsIsEnumeratingHeap"
+    },
+    {
+      "offset": 38074,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3706640409,
+      "sizeOfData": 43,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsIsRuntimeExecutionDisabled@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "JsIsRuntimeExecutionDisabled"
+    },
+    {
+      "offset": 38198,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3828527366,
+      "sizeOfData": 31,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsNumberToDouble@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "JsNumberToDouble"
+    },
+    {
+      "offset": 38310,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3485173403,
+      "sizeOfData": 28,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsNumberToInt@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "JsNumberToInt"
+    },
+    {
+      "offset": 38418,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3451718881,
+      "sizeOfData": 36,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsObjectToInspectable@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "JsObjectToInspectable"
+    },
+    {
+      "offset": 38534,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3546034771,
+      "sizeOfData": 29,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsParseScript@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "JsParseScript"
+    },
+    {
+      "offset": 38644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3276516544,
+      "sizeOfData": 43,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsParseScriptWithAttributes@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "JsParseScriptWithAttributes"
+    },
+    {
+      "offset": 38768,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3538649046,
+      "sizeOfData": 39,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsParseSerializedScript@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "JsParseSerializedScript"
+    },
+    {
+      "offset": 38888,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3742804748,
+      "sizeOfData": 51,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsParseSerializedScriptWithCallback@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "JsParseSerializedScriptWithCallback"
+    },
+    {
+      "offset": 39020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3309276285,
+      "sizeOfData": 33,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsPointerToString@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "JsPointerToString"
+    },
+    {
+      "offset": 39134,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3231818886,
+      "sizeOfData": 33,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsPreventExtension@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "JsPreventExtension"
+    },
+    {
+      "offset": 39248,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3533154996,
+      "sizeOfData": 38,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsProjectWinRTNamespace@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 400
+    },
+    {
+      "offset": 39366,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3337016781,
+      "sizeOfData": 24,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsRelease@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "JsRelease"
+    },
+    {
+      "offset": 39470,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3930633854,
+      "sizeOfData": 27,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsRunScript@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "JsRunScript"
+    },
+    {
+      "offset": 39578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3232422736,
+      "sizeOfData": 37,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsRunSerializedScript@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "JsRunSerializedScript"
+    },
+    {
+      "offset": 39696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4150576851,
+      "sizeOfData": 49,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsRunSerializedScriptWithCallback@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "JsRunSerializedScriptWithCallback"
+    },
+    {
+      "offset": 39826,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3373929937,
+      "sizeOfData": 33,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSerializeScript@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "JsSerializeScript"
+    },
+    {
+      "offset": 39940,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3393228896,
+      "sizeOfData": 31,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetContextData@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "JsSetContextData"
+    },
+    {
+      "offset": 40052,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3885694547,
+      "sizeOfData": 34,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetCurrentContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "JsSetCurrentContext"
+    },
+    {
+      "offset": 40166,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3275926723,
+      "sizeOfData": 29,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetException@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "JsSetException"
+    },
+    {
+      "offset": 40276,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3982136209,
+      "sizeOfData": 32,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetExternalData@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "JsSetExternalData"
+    },
+    {
+      "offset": 40388,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3252043210,
+      "sizeOfData": 52,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetIndexedPropertiesToExternalData@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "JsSetIndexedPropertiesToExternalData"
+    },
+    {
+      "offset": 40520,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4100134739,
+      "sizeOfData": 36,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetIndexedProperty@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "JsSetIndexedProperty"
+    },
+    {
+      "offset": 40636,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4026591067,
+      "sizeOfData": 48,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetObjectBeforeCollectCallback@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "JsSetObjectBeforeCollectCallback"
+    },
+    {
+      "offset": 40764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3538180911,
+      "sizeOfData": 45,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetProjectionEnqueueCallback@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 401
+    },
+    {
+      "offset": 40890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3977287670,
+      "sizeOfData": 47,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetPromiseContinuationCallback@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "JsSetPromiseContinuationCallback"
+    },
+    {
+      "offset": 41018,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4203069322,
+      "sizeOfData": 29,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "JsSetProperty"
+    },
+    {
+      "offset": 41128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4249071102,
+      "sizeOfData": 29,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetPrototype@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "JsSetPrototype"
+    },
+    {
+      "offset": 41238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3395595971,
+      "sizeOfData": 49,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetRuntimeBeforeCollectCallback@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "JsSetRuntimeBeforeCollectCallback"
+    },
+    {
+      "offset": 41368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3695293169,
+      "sizeOfData": 52,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetRuntimeMemoryAllocationCallback@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "JsSetRuntimeMemoryAllocationCallback"
+    },
+    {
+      "offset": 41500,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3712674764,
+      "sizeOfData": 38,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsSetRuntimeMemoryLimit@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "JsSetRuntimeMemoryLimit"
+    },
+    {
+      "offset": 41618,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4097742528,
+      "sizeOfData": 31,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsStartDebugging@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "JsStartDebugging"
+    },
+    {
+      "offset": 41730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4281707618,
+      "sizeOfData": 32,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsStartProfiling@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "JsStartProfiling"
+    },
+    {
+      "offset": 41842,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3312819304,
+      "sizeOfData": 30,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsStopProfiling@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "JsStopProfiling"
+    },
+    {
+      "offset": 41952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3888264782,
+      "sizeOfData": 30,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsStrictEquals@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "JsStrictEquals"
+    },
+    {
+      "offset": 42062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3907065949,
+      "sizeOfData": 33,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsStringToPointer@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "JsStringToPointer"
+    },
+    {
+      "offset": 42176,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4118186699,
+      "sizeOfData": 31,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsValueToVariant@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "JsValueToVariant"
+    },
+    {
+      "offset": 42288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4050642996,
+      "sizeOfData": 26,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsVarAddRef@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "JsVarAddRef"
+    },
+    {
+      "offset": 42394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3494744387,
+      "sizeOfData": 27,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsVarRelease@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "JsVarRelease"
+    },
+    {
+      "offset": 42502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4171942689,
+      "sizeOfData": 31,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsVarToExtension@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "JsVarToExtension"
+    },
+    {
+      "offset": 42614,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4175006180,
+      "sizeOfData": 31,
+      "dllName": "chakra.dll",
+      "symbolName": "_JsVariantToValue@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "JsVariantToValue"
+    }
+  ]
+}

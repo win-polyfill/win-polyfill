@@ -1,0 +1,2359 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\bufferoverflowu.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+6095D523 time/date Sat May  8 08:02:43 2021
+         uid
+         gid
+       0 mode
+     2E6 size
+correct header end
+
+    25 public symbols
+
+      94C _ReadNoFence
+      94C _ReadPointerNoFence
+      94C ___guard_check_icall_fptr
+      94C __guard_icall_checks_enforced
+     41B8 @_guard_check_icall_nop@4
+     704E ___guard_check_icall_thunk
+     DF56 @_guard_check_icall@4
+    10EAA ??_C@_13CGOKJPIL@?$AA?1@
+    10EAA ??_C@_13FPGAJAPJ@?$AA?2@
+    10EAA ??_C@_15MNCACJLI@?$AA?2?$AA?1@
+    10EAA _RtlAlternateDosPathSeperatorString
+    10EAA _RtlDosPathSeperatorsString
+    10EAA _RtlNtPathSeperatorString
+    10EAA ___raise_securityfailure
+    10EAA ___report_gsfailure
+    10EAA ___report_rangecheckfailure
+    10EAA ___report_securityfailure
+    10EAA ___report_securityfailureEx
+    1C484 __DllMainCRTStartupForGS2@12
+    1C484 __DllMainCRTStartupForGS@12
+    262B6 ___security_cookie
+    262B6 ___security_cookie_complement
+    262B6 ___security_init_cookie
+    303F6 @__security_check_cookie@4
+    338D6 __load_config_used
+
+Archive member name at 94C: /0              d:\os\obj\x86fre\minkernel\crts\crtw32\misc\dll\objfre\i386\guard_support.obj
+FFFFFFFF time/date
+         uid
+         gid
+  100666 mode
+    382F size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+              11 number of sections
+        D331BAD2 time date stamp
+            3430 file pointer to symbol table
+              2F number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.drectve name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+     2BC file pointer to raw data (000002BC to 000002BE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+SECTION HEADER #2
+.debug$S name
+       0 physical address
+       0 virtual address
+    20BC size of raw data
+     2BF file pointer to raw data (000002BF to 0000237A)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3
+  .00cfg name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    237B file pointer to raw data (0000237B to 0000237E)
+    237F file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= ___guard_check_icall_fptr
+         4 byte align
+         Read Only
+
+SECTION HEADER #4
+.gfids$y name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    2389 file pointer to raw data (00002389 to 0000238C)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= __guard_fids__
+         4 byte align
+         Read Only
+
+SECTION HEADER #5
+.text$mn name
+       0 physical address
+       0 virtual address
+       C size of raw data
+    238D file pointer to raw data (0000238D to 00002398)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= _ReadNoFence
+         1 byte align
+         Execute Read
+
+SECTION HEADER #6
+.debug$S name
+       0 physical address
+       0 virtual address
+     128 size of raw data
+    2399 file pointer to raw data (00002399 to 000024C0)
+    24C1 file pointer to relocation table
+       0 file pointer to line numbers
+       9 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #7
+.text$mn name
+       0 physical address
+       0 virtual address
+       C size of raw data
+    251B file pointer to raw data (0000251B to 00002526)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= _ReadPointerNoFence
+         1 byte align
+         Execute Read
+
+SECTION HEADER #8
+.debug$S name
+       0 physical address
+       0 virtual address
+     150 size of raw data
+    2527 file pointer to raw data (00002527 to 00002676)
+    2677 file pointer to relocation table
+       0 file pointer to line numbers
+       9 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #9
+.text$mn name
+       0 physical address
+       0 virtual address
+      12 size of raw data
+    26D1 file pointer to raw data (000026D1 to 000026E2)
+    26E3 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= __guard_icall_checks_enforced
+         1 byte align
+         Execute Read
+
+SECTION HEADER #A
+.debug$S name
+       0 physical address
+       0 virtual address
+     134 size of raw data
+    26F7 file pointer to raw data (000026F7 to 0000282A)
+    282B file pointer to relocation table
+       0 file pointer to line numbers
+       7 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #B
+.gfids$y name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    2871 file pointer to raw data (00002871 to 00002874)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= __guard_fids___guard_icall_checks_enforced
+         4 byte align
+         Read Only
+
+SECTION HEADER #C
+ .voltbl name
+       0 physical address
+       0 virtual address
+       1 size of raw data
+    2875 file pointer to raw data (00002875 to 00002875)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  101200 flags
+         Info
+         COMDAT; sym= _volmd
+         1 byte align
+
+SECTION HEADER #D
+ .voltbl name
+       0 physical address
+       0 virtual address
+       1 size of raw data
+    2876 file pointer to raw data (00002876 to 00002876)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  101200 flags
+         Info
+         COMDAT; sym= _volmd
+         1 byte align
+
+SECTION HEADER #E
+ .voltbl name
+       0 physical address
+       0 virtual address
+       1 size of raw data
+    2877 file pointer to raw data (00002877 to 00002877)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  101200 flags
+         Info
+         COMDAT; sym= _volmd
+         1 byte align
+
+SECTION HEADER #F
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    2878 file pointer to raw data (00002878 to 000028AB)
+    28AC file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #10
+.debug$T name
+       0 physical address
+       0 virtual address
+     AE8 size of raw data
+    28C0 file pointer to raw data (000028C0 to 000033A7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #11
+ .chks64 name
+       0 physical address
+       0 virtual address
+      88 size of raw data
+    33A8 file pointer to raw data (000033A8 to 0000342F)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+Archive member name at 41B8: /78             d:\os\obj\x86fre\minkernel\crts\crtw32\misc\guard\objfre\i386\guard_check.obj
+FFFFFFFF time/date
+         uid
+         gid
+  100666 mode
+    2E5A size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               6 number of sections
+        E5F29F02 time date stamp
+            2D1C file pointer to symbol table
+              10 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.drectve name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+     104 file pointer to raw data (00000104 to 00000106)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+SECTION HEADER #2
+.debug$S name
+       0 physical address
+       0 virtual address
+    2054 size of raw data
+     107 file pointer to raw data (00000107 to 0000215A)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3
+.text$mn name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+    215B file pointer to raw data (0000215B to 0000215D)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60201020 flags
+         Code
+         COMDAT; sym= @_guard_check_icall_nop@4
+         2 byte align
+         Execute Read
+
+SECTION HEADER #4
+.debug$S name
+       0 physical address
+       0 virtual address
+      FC size of raw data
+    215E file pointer to raw data (0000215E to 00002259)
+    225A file pointer to relocation table
+       0 file pointer to line numbers
+       7 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #5
+.debug$T name
+       0 physical address
+       0 virtual address
+     A4C size of raw data
+    22A0 file pointer to raw data (000022A0 to 00002CEB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #6
+ .chks64 name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    2CEC file pointer to raw data (00002CEC to 00002D1B)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+Archive member name at 704E: /156            d:\os\obj\x86fre\minkernel\crts\crtw32\misc\guard\objfre\i386\cfgcheckthunk.obj
+FFFFFFFF time/date
+         uid
+         gid
+  100666 mode
+     7C9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               5 number of sections
+        D3F9B214 time date stamp
+             66A file pointer to symbol table
+               F number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.text$mn name
+       0 physical address
+       0 virtual address
+       0 size of raw data
+       0 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60500020 flags
+         Code
+         16 byte align
+         Execute Read
+
+SECTION HEADER #2
+   .data name
+       0 physical address
+       0 virtual address
+       0 size of raw data
+       0 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0500040 flags
+         Initialized Data
+         16 byte align
+         Read Write
+
+SECTION HEADER #3
+     /69 name (.text$mn$00)
+       0 physical address
+       0 virtual address
+       F size of raw data
+      DC file pointer to raw data (000000DC to 000000EA)
+      EC file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+60500020 flags
+         Code
+         16 byte align
+         Execute Read
+
+SECTION HEADER #4
+.debug$S name
+       0 physical address
+       0 virtual address
+     2C0 size of raw data
+      F6 file pointer to raw data (000000F6 to 000003B5)
+     3B6 file pointer to relocation table
+       0 file pointer to line numbers
+       4 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #5
+.debug$T name
+       0 physical address
+       0 virtual address
+     28C size of raw data
+     3DE file pointer to raw data (000003DE to 00000669)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+Archive member name at 7854: /0              d:\os\obj\x86fre\minkernel\crts\crtw32\misc\dll\objfre\i386\guard_support.obj
+FFFFFFFF time/date
+         uid
+         gid
+  100666 mode
+    382F size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+              11 number of sections
+        D331BAD2 time date stamp
+            3430 file pointer to symbol table
+              2F number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.drectve name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+     2BC file pointer to raw data (000002BC to 000002BE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+SECTION HEADER #2
+.debug$S name
+       0 physical address
+       0 virtual address
+    20BC size of raw data
+     2BF file pointer to raw data (000002BF to 0000237A)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3
+  .00cfg name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    237B file pointer to raw data (0000237B to 0000237E)
+    237F file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= ___guard_check_icall_fptr
+         4 byte align
+         Read Only
+
+SECTION HEADER #4
+.gfids$y name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    2389 file pointer to raw data (00002389 to 0000238C)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= __guard_fids__
+         4 byte align
+         Read Only
+
+SECTION HEADER #5
+.text$mn name
+       0 physical address
+       0 virtual address
+       C size of raw data
+    238D file pointer to raw data (0000238D to 00002398)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= _ReadNoFence
+         1 byte align
+         Execute Read
+
+SECTION HEADER #6
+.debug$S name
+       0 physical address
+       0 virtual address
+     128 size of raw data
+    2399 file pointer to raw data (00002399 to 000024C0)
+    24C1 file pointer to relocation table
+       0 file pointer to line numbers
+       9 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #7
+.text$mn name
+       0 physical address
+       0 virtual address
+       C size of raw data
+    251B file pointer to raw data (0000251B to 00002526)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= _ReadPointerNoFence
+         1 byte align
+         Execute Read
+
+SECTION HEADER #8
+.debug$S name
+       0 physical address
+       0 virtual address
+     150 size of raw data
+    2527 file pointer to raw data (00002527 to 00002676)
+    2677 file pointer to relocation table
+       0 file pointer to line numbers
+       9 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #9
+.text$mn name
+       0 physical address
+       0 virtual address
+      12 size of raw data
+    26D1 file pointer to raw data (000026D1 to 000026E2)
+    26E3 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= __guard_icall_checks_enforced
+         1 byte align
+         Execute Read
+
+SECTION HEADER #A
+.debug$S name
+       0 physical address
+       0 virtual address
+     134 size of raw data
+    26F7 file pointer to raw data (000026F7 to 0000282A)
+    282B file pointer to relocation table
+       0 file pointer to line numbers
+       7 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #B
+.gfids$y name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    2871 file pointer to raw data (00002871 to 00002874)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= __guard_fids___guard_icall_checks_enforced
+         4 byte align
+         Read Only
+
+SECTION HEADER #C
+ .voltbl name
+       0 physical address
+       0 virtual address
+       1 size of raw data
+    2875 file pointer to raw data (00002875 to 00002875)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  101200 flags
+         Info
+         COMDAT; sym= _volmd
+         1 byte align
+
+SECTION HEADER #D
+ .voltbl name
+       0 physical address
+       0 virtual address
+       1 size of raw data
+    2876 file pointer to raw data (00002876 to 00002876)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  101200 flags
+         Info
+         COMDAT; sym= _volmd
+         1 byte align
+
+SECTION HEADER #E
+ .voltbl name
+       0 physical address
+       0 virtual address
+       1 size of raw data
+    2877 file pointer to raw data (00002877 to 00002877)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  101200 flags
+         Info
+         COMDAT; sym= _volmd
+         1 byte align
+
+SECTION HEADER #F
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    2878 file pointer to raw data (00002878 to 000028AB)
+    28AC file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #10
+.debug$T name
+       0 physical address
+       0 virtual address
+     AE8 size of raw data
+    28C0 file pointer to raw data (000028C0 to 000033A7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #11
+ .chks64 name
+       0 physical address
+       0 virtual address
+      88 size of raw data
+    33A8 file pointer to raw data (000033A8 to 0000342F)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+Archive member name at B0C0: /78             d:\os\obj\x86fre\minkernel\crts\crtw32\misc\guard\objfre\i386\guard_check.obj
+FFFFFFFF time/date
+         uid
+         gid
+  100666 mode
+    2E5A size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               6 number of sections
+        E5F29F02 time date stamp
+            2D1C file pointer to symbol table
+              10 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.drectve name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+     104 file pointer to raw data (00000104 to 00000106)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+SECTION HEADER #2
+.debug$S name
+       0 physical address
+       0 virtual address
+    2054 size of raw data
+     107 file pointer to raw data (00000107 to 0000215A)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3
+.text$mn name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+    215B file pointer to raw data (0000215B to 0000215D)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+60201020 flags
+         Code
+         COMDAT; sym= @_guard_check_icall_nop@4
+         2 byte align
+         Execute Read
+
+SECTION HEADER #4
+.debug$S name
+       0 physical address
+       0 virtual address
+      FC size of raw data
+    215E file pointer to raw data (0000215E to 00002259)
+    225A file pointer to relocation table
+       0 file pointer to line numbers
+       7 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #5
+.debug$T name
+       0 physical address
+       0 virtual address
+     A4C size of raw data
+    22A0 file pointer to raw data (000022A0 to 00002CEB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #6
+ .chks64 name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    2CEC file pointer to raw data (00002CEC to 00002D1B)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+Archive member name at DF56: /236            d:\os\obj\x86fre\minkernel\crts\crtw32\misc\guard\objfre\i386\checkcfg.obj
+FFFFFFFF time/date
+         uid
+         gid
+  100666 mode
+    2F17 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               6 number of sections
+        FC6EE461 time date stamp
+            2DB1 file pointer to symbol table
+              11 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.drectve name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+     104 file pointer to raw data (00000104 to 00000106)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+SECTION HEADER #2
+.debug$S name
+       0 physical address
+       0 virtual address
+    2094 size of raw data
+     107 file pointer to raw data (00000107 to 0000219A)
+    219B file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3
+.text$mn name
+       0 physical address
+       0 virtual address
+       6 size of raw data
+    21AF file pointer to raw data (000021AF to 000021B4)
+    21B5 file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+60201020 flags
+         Code
+         COMDAT; sym= @_guard_check_icall@4
+         2 byte align
+         Execute Read
+
+SECTION HEADER #4
+.debug$S name
+       0 physical address
+       0 virtual address
+     108 size of raw data
+    21BF file pointer to raw data (000021BF to 000022C6)
+    22C7 file pointer to relocation table
+       0 file pointer to line numbers
+       9 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #5
+.debug$T name
+       0 physical address
+       0 virtual address
+     A60 size of raw data
+    2321 file pointer to raw data (00002321 to 00002D80)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #6
+ .chks64 name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    2D81 file pointer to raw data (00002D81 to 00002DB0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+Archive member name at 10EAA: /311            d:\os\obj\x86fre\minkernel\tools\gs_support\umode\objfre\i386\gs_report.obj
+FFFFFFFF time/date
+         uid
+         gid
+  100666 mode
+    B59E size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+              1B number of sections
+        E503B3F2 time date stamp
+            ADDE file pointer to symbol table
+              4F number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.drectve name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+     44C file pointer to raw data (0000044C to 0000044E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+SECTION HEADER #2
+.debug$S name
+       0 physical address
+       0 virtual address
+    42D4 size of raw data
+     44F file pointer to raw data (0000044F to 00004722)
+    4723 file pointer to relocation table
+       0 file pointer to line numbers
+       8 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3
+    .bss name
+       0 physical address
+       0 virtual address
+     31C size of raw data
+       0 file pointer to raw data
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0400080 flags
+         Uninitialized Data
+         8 byte align
+         Read Write
+
+SECTION HEADER #4
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    4773 file pointer to raw data (00004773 to 0000477A)
+    477B file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _GS_ExceptionPointers
+         4 byte align
+         Read Only
+
+SECTION HEADER #5
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    478F file pointer to raw data (0000478F to 00004796)
+    4797 file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlNtPathSeperatorString
+         4 byte align
+         Read Only
+
+SECTION HEADER #6
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    47A1 file pointer to raw data (000047A1 to 000047A4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_13FPGAJAPJ@?$AA?2@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #7
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    47A5 file pointer to raw data (000047A5 to 000047AC)
+    47AD file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlDosPathSeperatorsString
+         4 byte align
+         Read Only
+
+SECTION HEADER #8
+  .rdata name
+       0 physical address
+       0 virtual address
+       6 size of raw data
+    47B7 file pointer to raw data (000047B7 to 000047BC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_15MNCACJLI@?$AA?2?$AA?1@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #9
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    47BD file pointer to raw data (000047BD to 000047C4)
+    47C5 file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlAlternateDosPathSeperatorString
+         4 byte align
+         Read Only
+
+SECTION HEADER #A
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    47CF file pointer to raw data (000047CF to 000047D2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_13CGOKJPIL@?$AA?1@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #B
+.text$mn name
+       0 physical address
+       0 virtual address
+      2A size of raw data
+    47D3 file pointer to raw data (000047D3 to 000047FC)
+    47FD file pointer to relocation table
+       0 file pointer to line numbers
+       4 number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= ___raise_securityfailure
+         1 byte align
+         Execute Read
+
+SECTION HEADER #C
+.debug$S name
+       0 physical address
+       0 virtual address
+     178 size of raw data
+    4825 file pointer to raw data (00004825 to 0000499C)
+    499D file pointer to relocation table
+       0 file pointer to line numbers
+       F number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #D
+.text$mn name
+       0 physical address
+       0 virtual address
+     107 size of raw data
+    4A33 file pointer to raw data (00004A33 to 00004B39)
+    4B3A file pointer to relocation table
+       0 file pointer to line numbers
+      1E number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= ___report_gsfailure
+         1 byte align
+         Execute Read
+
+SECTION HEADER #E
+.debug$S name
+       0 physical address
+       0 virtual address
+     22C size of raw data
+    4C66 file pointer to raw data (00004C66 to 00004E91)
+    4E92 file pointer to relocation table
+       0 file pointer to line numbers
+       D number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #F
+.text$mn name
+       0 physical address
+       0 virtual address
+       E size of raw data
+    4F14 file pointer to raw data (00004F14 to 00004F21)
+    4F22 file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= ___report_rangecheckfailure
+         1 byte align
+         Execute Read
+
+SECTION HEADER #10
+.debug$S name
+       0 physical address
+       0 virtual address
+      D4 size of raw data
+    4F2C file pointer to raw data (00004F2C to 00004FFF)
+    5000 file pointer to relocation table
+       0 file pointer to line numbers
+       5 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #11
+.text$mn name
+       0 physical address
+       0 virtual address
+      66 size of raw data
+    5032 file pointer to raw data (00005032 to 00005097)
+    5098 file pointer to relocation table
+       0 file pointer to line numbers
+       C number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= ___report_securityfailure
+         1 byte align
+         Execute Read
+
+SECTION HEADER #12
+.debug$S name
+       0 physical address
+       0 virtual address
+     13C size of raw data
+    5110 file pointer to raw data (00005110 to 0000524B)
+    524C file pointer to relocation table
+       0 file pointer to line numbers
+       7 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #13
+.text$mn name
+       0 physical address
+       0 virtual address
+      AD size of raw data
+    5292 file pointer to raw data (00005292 to 0000533E)
+    533F file pointer to relocation table
+       0 file pointer to line numbers
+       D number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= ___report_securityfailureEx
+         1 byte align
+         Execute Read
+
+SECTION HEADER #14
+.debug$S name
+       0 physical address
+       0 virtual address
+     1B8 size of raw data
+    53C1 file pointer to raw data (000053C1 to 00005578)
+    5579 file pointer to relocation table
+       0 file pointer to line numbers
+       7 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #15
+ .voltbl name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+    55BF file pointer to raw data (000055BF to 000055C1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  101200 flags
+         Info
+         COMDAT; sym= _volmd
+         1 byte align
+
+SECTION HEADER #16
+.debug$S name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    55C2 file pointer to raw data (000055C2 to 000055F1)
+    55F2 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #17
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    5606 file pointer to raw data (00005606 to 00005639)
+    563A file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #18
+.debug$S name
+       0 physical address
+       0 virtual address
+      38 size of raw data
+    564E file pointer to raw data (0000564E to 00005685)
+    5686 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #19
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    569A file pointer to raw data (0000569A to 000056D9)
+    56DA file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #1A
+.debug$T name
+       0 physical address
+       0 virtual address
+    5618 size of raw data
+    56EE file pointer to raw data (000056EE to 0000AD05)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #1B
+ .chks64 name
+       0 physical address
+       0 virtual address
+      D8 size of raw data
+    AD06 file pointer to raw data (0000AD06 to 0000ADDD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+Archive member name at 1C484: /387            d:\os\obj\x86fre\minkernel\tools\gs_support\umode\objfre\i386\gs_dllmain.obj
+FFFFFFFF time/date
+         uid
+         gid
+  100666 mode
+    9DF5 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+              11 number of sections
+        C99D1667 time date stamp
+            9984 file pointer to symbol table
+              2F number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.drectve name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+     2BC file pointer to raw data (000002BC to 000002BE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+SECTION HEADER #2
+.debug$S name
+       0 physical address
+       0 virtual address
+    4108 size of raw data
+     2BF file pointer to raw data (000002BF to 000043C6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    43C7 file pointer to raw data (000043C7 to 000043CE)
+    43CF file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlNtPathSeperatorString
+         4 byte align
+         Read Only
+
+SECTION HEADER #4
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    43D9 file pointer to raw data (000043D9 to 000043DC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_13FPGAJAPJ@?$AA?2@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #5
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    43DD file pointer to raw data (000043DD to 000043E4)
+    43E5 file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlDosPathSeperatorsString
+         4 byte align
+         Read Only
+
+SECTION HEADER #6
+  .rdata name
+       0 physical address
+       0 virtual address
+       6 size of raw data
+    43EF file pointer to raw data (000043EF to 000043F4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_15MNCACJLI@?$AA?2?$AA?1@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #7
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    43F5 file pointer to raw data (000043F5 to 000043FC)
+    43FD file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlAlternateDosPathSeperatorString
+         4 byte align
+         Read Only
+
+SECTION HEADER #8
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    4407 file pointer to raw data (00004407 to 0000440A)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_13CGOKJPIL@?$AA?1@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #9
+.text$mn name
+       0 physical address
+       0 virtual address
+      17 size of raw data
+    440B file pointer to raw data (0000440B to 00004421)
+    4422 file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= __DllMainCRTStartupForGS2@12
+         1 byte align
+         Execute Read
+
+SECTION HEADER #A
+.debug$S name
+       0 physical address
+       0 virtual address
+     1C4 size of raw data
+    442C file pointer to raw data (0000442C to 000045EF)
+    45F0 file pointer to relocation table
+       0 file pointer to line numbers
+       B number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #B
+.text$mn name
+       0 physical address
+       0 virtual address
+      20 size of raw data
+    465E file pointer to raw data (0000465E to 0000467D)
+    467E file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= __DllMainCRTStartupForGS@12
+         1 byte align
+         Execute Read
+
+SECTION HEADER #C
+.debug$S name
+       0 physical address
+       0 virtual address
+     1DC size of raw data
+    4692 file pointer to raw data (00004692 to 0000486D)
+    486E file pointer to relocation table
+       0 file pointer to line numbers
+       D number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #D
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    48F0 file pointer to raw data (000048F0 to 00004923)
+    4924 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #E
+.debug$S name
+       0 physical address
+       0 virtual address
+      38 size of raw data
+    4938 file pointer to raw data (00004938 to 0000496F)
+    4970 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #F
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    4984 file pointer to raw data (00004984 to 000049C3)
+    49C4 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #10
+.debug$T name
+       0 physical address
+       0 virtual address
+    4F24 size of raw data
+    49D8 file pointer to raw data (000049D8 to 000098FB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #11
+ .chks64 name
+       0 physical address
+       0 virtual address
+      88 size of raw data
+    98FC file pointer to raw data (000098FC to 00009983)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+Archive member name at 262B6: /464            d:\os\obj\x86fre\minkernel\tools\gs_support\umode\objfre\i386\gs_support.obj
+FFFFFFFF time/date
+         uid
+         gid
+  100666 mode
+    A104 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+              13 number of sections
+        ED4F59A2 time date stamp
+            9B9D file pointer to symbol table
+              37 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.drectve name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+     30C file pointer to raw data (0000030C to 0000030E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+SECTION HEADER #2
+.debug$S name
+       0 physical address
+       0 virtual address
+    416C size of raw data
+     30F file pointer to raw data (0000030F to 0000447A)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3
+   .data name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    447B file pointer to raw data (0000447B to 0000447E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0301040 flags
+         Initialized Data
+         COMDAT; sym= ___security_cookie_complement
+         4 byte align
+         Read Write
+
+SECTION HEADER #4
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    447F file pointer to raw data (0000447F to 00004486)
+    4487 file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlNtPathSeperatorString
+         4 byte align
+         Read Only
+
+SECTION HEADER #5
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    4491 file pointer to raw data (00004491 to 00004494)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_13FPGAJAPJ@?$AA?2@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #6
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    4495 file pointer to raw data (00004495 to 0000449C)
+    449D file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlDosPathSeperatorsString
+         4 byte align
+         Read Only
+
+SECTION HEADER #7
+  .rdata name
+       0 physical address
+       0 virtual address
+       6 size of raw data
+    44A7 file pointer to raw data (000044A7 to 000044AC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_15MNCACJLI@?$AA?2?$AA?1@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #8
+  .rdata name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+    44AD file pointer to raw data (000044AD to 000044B4)
+    44B5 file pointer to relocation table
+       0 file pointer to line numbers
+       1 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _RtlAlternateDosPathSeperatorString
+         4 byte align
+         Read Only
+
+SECTION HEADER #9
+  .rdata name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    44BF file pointer to raw data (000044BF to 000044C2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= "`string'" (??_C@_13CGOKJPIL@?$AA?1@)
+         4 byte align
+         Read Only
+
+SECTION HEADER #A
+   .data name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+    44C3 file pointer to raw data (000044C3 to 000044C6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0301040 flags
+         Initialized Data
+         COMDAT; sym= ___security_cookie
+         4 byte align
+         Read Write
+
+SECTION HEADER #B
+.text$mn name
+       0 physical address
+       0 virtual address
+      84 size of raw data
+    44C7 file pointer to raw data (000044C7 to 0000454A)
+    454B file pointer to relocation table
+       0 file pointer to line numbers
+       8 number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= ___security_init_cookie
+         1 byte align
+         Execute Read
+
+SECTION HEADER #C
+.debug$S name
+       0 physical address
+       0 virtual address
+     24C size of raw data
+    459B file pointer to raw data (0000459B to 000047E6)
+    47E7 file pointer to relocation table
+       0 file pointer to line numbers
+      15 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #D
+.debug$S name
+       0 physical address
+       0 virtual address
+      38 size of raw data
+    48B9 file pointer to raw data (000048B9 to 000048F0)
+    48F1 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #E
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    4905 file pointer to raw data (00004905 to 00004938)
+    4939 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #F
+.debug$S name
+       0 physical address
+       0 virtual address
+      38 size of raw data
+    494D file pointer to raw data (0000494D to 00004984)
+    4985 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #10
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+    4999 file pointer to raw data (00004999 to 000049D8)
+    49D9 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #11
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    49ED file pointer to raw data (000049ED to 00004A18)
+    4A19 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #12
+.debug$T name
+       0 physical address
+       0 virtual address
+    50D8 size of raw data
+    4A2D file pointer to raw data (00004A2D to 00009B04)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #13
+ .chks64 name
+       0 physical address
+       0 virtual address
+      98 size of raw data
+    9B05 file pointer to raw data (00009B05 to 00009B9C)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+Archive member name at 303F6: /541            d:\os\obj\x86fre\minkernel\tools\gs_support\umode\objfre\i386\secchk.obj
+FFFFFFFF time/date
+         uid
+         gid
+  100666 mode
+    34A4 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               6 number of sections
+        E0F77F7D time date stamp
+            32FD file pointer to symbol table
+              13 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.drectve name
+       0 physical address
+       0 virtual address
+       3 size of raw data
+     104 file pointer to raw data (00000104 to 00000106)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+SECTION HEADER #2
+.debug$S name
+       0 physical address
+       0 virtual address
+    2398 size of raw data
+     107 file pointer to raw data (00000107 to 0000249E)
+    249F file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3
+.text$mn name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    24B3 file pointer to raw data (000024B3 to 000024C2)
+    24C3 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+60101020 flags
+         Code
+         COMDAT; sym= @__security_check_cookie@4
+         1 byte align
+         Execute Read
+
+SECTION HEADER #4
+.debug$S name
+       0 physical address
+       0 virtual address
+     12C size of raw data
+    24D7 file pointer to raw data (000024D7 to 00002602)
+    2603 file pointer to relocation table
+       0 file pointer to line numbers
+       9 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #5
+.debug$T name
+       0 physical address
+       0 virtual address
+     C70 size of raw data
+    265D file pointer to raw data (0000265D to 000032CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #6
+ .chks64 name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    32CD file pointer to raw data (000032CD to 000032FC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+Archive member name at 338D6: /614            d:\os\public\x86fre\onecore\internal\minwin\priv_sdk\lib\i386\no_volatile_metadata\loadcfg.obj
+6095CE2F time/date Sat May  8 07:33:03 2021
+         uid
+         gid
+  100666 mode
+    3CCC size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               6 number of sections
+        D06242D5 time date stamp
+            396F file pointer to symbol table
+              1E number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.drectve name
+       0 physical address
+       0 virtual address
+      6F size of raw data
+     104 file pointer to raw data (00000104 to 00000172)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+SECTION HEADER #2
+.debug$S name
+       0 physical address
+       0 virtual address
+    2338 size of raw data
+     173 file pointer to raw data (00000173 to 000024AA)
+    24AB file pointer to relocation table
+       0 file pointer to line numbers
+      1C number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #3
+  .rdata name
+       0 physical address
+       0 virtual address
+      BC size of raw data
+    25C3 file pointer to raw data (000025C3 to 0000267E)
+    267F file pointer to relocation table
+       0 file pointer to line numbers
+       E number of relocations
+       0 number of line numbers
+40401040 flags
+         Initialized Data
+         COMDAT; sym= __load_config_used
+         8 byte align
+         Read Only
+
+SECTION HEADER #4
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    270B file pointer to raw data (0000270B to 00002736)
+    2737 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #5
+.debug$T name
+       0 physical address
+       0 virtual address
+    11F4 size of raw data
+    274B file pointer to raw data (0000274B to 0000393E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #6
+ .chks64 name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    393F file pointer to raw data (0000393F to 0000396E)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+  Summary
+
+           8 .00cfg
+         31C .bss
+         3F8 .chks64
+           8 .data
+       1CD94 .debug$S
+       14BCC .debug$T
+          8A .drectve
+          10 .gfids$y
+         136 .rdata
+         37D .text$mn
+           F .text$mn$00
+           9 .voltbl

@@ -1,0 +1,1005 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "?GetAccessRights@@YGJPAXQAPAXKQAK@Z (long __stdcall GetAccessRights(void *,void * * const,unsigned long,unsigned long * const))",
+      "ordinal": 212
+    },
+    {
+      "name": "?GetLocaleName@@YGJPAPAG@Z (long __stdcall GetLocaleName(unsigned short * *))",
+      "ordinal": 213
+    },
+    {
+      "name": "?GetToken@@YGJPAGPBU_CERT_CONTEXT@@PAPAX@Z (long __stdcall GetToken(unsigned short *,struct _CERT_CONTEXT const *,void * *))",
+      "ordinal": 216
+    },
+    {
+      "name": "?GetUserPrincipalName@@YGJPAPAG@Z (long __stdcall GetUserPrincipalName(unsigned short * *))",
+      "ordinal": 217
+    },
+    {
+      "name": "?VerifyCertContextWithNtAuth@@YGJPBU_CERT_CONTEXT@@@Z (long __stdcall VerifyCertContextWithNtAuth(struct _CERT_CONTEXT const *))",
+      "ordinal": 215
+    },
+    {
+      "name": "?myBackupDB@@YGJPBGK0PAU_DBBACKUPPROGRESS@@@Z (long __stdcall myBackupDB(unsigned short const *,unsigned long,unsigned short const *,struct _DBBACKUPPROGRESS *))",
+      "ordinal": 218
+    },
+    {
+      "name": "?myCertServerExportPFX@@YGJPBG00PAXHHHKPAPAG@Z (long __stdcall myCertServerExportPFX(unsigned short const *,unsigned short const *,unsigned short const *,void *,int,int,int,unsigned long,unsigned short * *))",
+      "ordinal": 220
+    },
+    {
+      "name": "?myCertServerImportPFX@@YGJPBG0HPAPAG1PAPBU_CERT_CONTEXT@@@Z (long __stdcall myCertServerImportPFX(unsigned short const *,unsigned short const *,int,unsigned short * *,unsigned short * *,struct _CERT_CONTEXT const * *))",
+      "ordinal": 221
+    },
+    {
+      "name": "?myGetColumnDisplayName@@YGJPBGPAPBG@Z (long __stdcall myGetColumnDisplayName(unsigned short const *,unsigned short const * *))",
+      "ordinal": 210
+    },
+    {
+      "name": "?myGetColumnName@@YGJKHPAPBG@Z (long __stdcall myGetColumnName(unsigned long,int,unsigned short const * *))",
+      "ordinal": 211
+    },
+    {
+      "name": "?myRestoreDB@@YGJPBGK0000PAU_DBBACKUPPROGRESS@@@Z (long __stdcall myRestoreDB(unsigned short const *,unsigned long,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,struct _DBBACKUPPROGRESS *))",
+      "ordinal": 219
+    },
+    {
+      "name": "_CertSrvBackupClose@4",
+      "ordinal": 5
+    },
+    {
+      "name": "_CertSrvBackupEnd@4",
+      "ordinal": 6
+    },
+    {
+      "name": "_CertSrvBackupFree@4",
+      "ordinal": 15
+    },
+    {
+      "name": "_CertSrvBackupGetBackupLogsW@12",
+      "ordinal": 7
+    },
+    {
+      "name": "_CertSrvBackupGetDatabaseNamesW@12",
+      "ordinal": 8
+    },
+    {
+      "name": "_CertSrvBackupGetDynamicFileListW@12",
+      "ordinal": 14
+    },
+    {
+      "name": "_CertSrvBackupOpenFileW@16",
+      "ordinal": 9
+    },
+    {
+      "name": "_CertSrvBackupPrepareW@16",
+      "ordinal": 10
+    },
+    {
+      "name": "_CertSrvBackupRead@16",
+      "ordinal": 11
+    },
+    {
+      "name": "_CertSrvBackupTruncateLogs@4",
+      "ordinal": 12
+    },
+    {
+      "name": "_CertSrvIsServerOnlineW@8",
+      "ordinal": 13
+    },
+    {
+      "name": "_CertSrvRestoreEnd@4",
+      "ordinal": 21
+    },
+    {
+      "name": "_CertSrvRestoreGetDatabaseLocationsW@12",
+      "ordinal": 17
+    },
+    {
+      "name": "_CertSrvRestorePrepareW@12",
+      "ordinal": 18
+    },
+    {
+      "name": "_CertSrvRestoreRegisterComplete@8",
+      "ordinal": 20
+    },
+    {
+      "name": "_CertSrvRestoreRegisterThroughFile@32",
+      "ordinal": 22
+    },
+    {
+      "name": "_CertSrvRestoreRegisterW@32",
+      "ordinal": 19
+    },
+    {
+      "name": "_CertSrvServerControlW@16",
+      "ordinal": 16
+    },
+    {
+      "name": "_ClosePerfMon@0"
+    },
+    {
+      "name": "_CollectPerfMon@16"
+    },
+    {
+      "name": "_CreatePerfObject@4",
+      "ordinal": 203
+    },
+    {
+      "name": "_CreatePerfObjectWithAlias@8",
+      "ordinal": 209
+    },
+    {
+      "name": "_DecrementPerfCounter@8",
+      "ordinal": 207
+    },
+    {
+      "name": "_DeletePerfObject@4",
+      "ordinal": 204
+    },
+    {
+      "name": "_IncrementPerfCounter@8",
+      "ordinal": 206
+    },
+    {
+      "name": "_InitPerfMon@4",
+      "ordinal": 201
+    },
+    {
+      "name": "_OpenPerfMon@4"
+    },
+    {
+      "name": "_ResetPerfObjectList@0",
+      "ordinal": 205
+    },
+    {
+      "name": "_UninitPerfMon@0",
+      "ordinal": 202
+    },
+    {
+      "name": "_UpdatePerfCounter@12",
+      "ordinal": 208
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 6366,
+      "name": "__IMPORT_DESCRIPTOR_certadm"
+    },
+    {
+      "offset": 6920,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 7230,
+      "name": "certadm_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 9054,
+      "name": "_CertSrvBackupClose@4"
+    },
+    {
+      "offset": 9054,
+      "name": "__imp__CertSrvBackupClose@4"
+    },
+    {
+      "offset": 9168,
+      "name": "_CertSrvBackupEnd@4"
+    },
+    {
+      "offset": 9168,
+      "name": "__imp__CertSrvBackupEnd@4"
+    },
+    {
+      "offset": 9394,
+      "name": "_CertSrvBackupGetBackupLogsW@12"
+    },
+    {
+      "offset": 9394,
+      "name": "__imp__CertSrvBackupGetBackupLogsW@12"
+    },
+    {
+      "offset": 9518,
+      "name": "_CertSrvBackupGetDatabaseNamesW@12"
+    },
+    {
+      "offset": 9518,
+      "name": "__imp__CertSrvBackupGetDatabaseNamesW@12"
+    },
+    {
+      "offset": 9776,
+      "name": "_CertSrvBackupOpenFileW@16"
+    },
+    {
+      "offset": 9776,
+      "name": "__imp__CertSrvBackupOpenFileW@16"
+    },
+    {
+      "offset": 9896,
+      "name": "_CertSrvBackupPrepareW@16"
+    },
+    {
+      "offset": 9896,
+      "name": "__imp__CertSrvBackupPrepareW@16"
+    },
+    {
+      "offset": 10014,
+      "name": "_CertSrvBackupRead@16"
+    },
+    {
+      "offset": 10014,
+      "name": "__imp__CertSrvBackupRead@16"
+    },
+    {
+      "offset": 10128,
+      "name": "_CertSrvBackupTruncateLogs@4"
+    },
+    {
+      "offset": 10128,
+      "name": "__imp__CertSrvBackupTruncateLogs@4"
+    },
+    {
+      "offset": 10250,
+      "name": "_CertSrvIsServerOnlineW@8"
+    },
+    {
+      "offset": 10250,
+      "name": "__imp__CertSrvIsServerOnlineW@8"
+    },
+    {
+      "offset": 9646,
+      "name": "_CertSrvBackupGetDynamicFileListW@12"
+    },
+    {
+      "offset": 9646,
+      "name": "__imp__CertSrvBackupGetDynamicFileListW@12"
+    },
+    {
+      "offset": 9280,
+      "name": "_CertSrvBackupFree@4"
+    },
+    {
+      "offset": 9280,
+      "name": "__imp__CertSrvBackupFree@4"
+    },
+    {
+      "offset": 11110,
+      "name": "_CertSrvServerControlW@16"
+    },
+    {
+      "offset": 11110,
+      "name": "__imp__CertSrvServerControlW@16"
+    },
+    {
+      "offset": 10482,
+      "name": "_CertSrvRestoreGetDatabaseLocationsW@12"
+    },
+    {
+      "offset": 10482,
+      "name": "__imp__CertSrvRestoreGetDatabaseLocationsW@12"
+    },
+    {
+      "offset": 10614,
+      "name": "_CertSrvRestorePrepareW@12"
+    },
+    {
+      "offset": 10614,
+      "name": "__imp__CertSrvRestorePrepareW@12"
+    },
+    {
+      "offset": 10990,
+      "name": "_CertSrvRestoreRegisterW@32"
+    },
+    {
+      "offset": 10990,
+      "name": "__imp__CertSrvRestoreRegisterW@32"
+    },
+    {
+      "offset": 10734,
+      "name": "_CertSrvRestoreRegisterComplete@8"
+    },
+    {
+      "offset": 10734,
+      "name": "__imp__CertSrvRestoreRegisterComplete@8"
+    },
+    {
+      "offset": 10368,
+      "name": "_CertSrvRestoreEnd@4"
+    },
+    {
+      "offset": 10368,
+      "name": "__imp__CertSrvRestoreEnd@4"
+    },
+    {
+      "offset": 10860,
+      "name": "_CertSrvRestoreRegisterThroughFile@32"
+    },
+    {
+      "offset": 10860,
+      "name": "__imp__CertSrvRestoreRegisterThroughFile@32"
+    },
+    {
+      "offset": 12026,
+      "name": "_InitPerfMon@4"
+    },
+    {
+      "offset": 12026,
+      "name": "__imp__InitPerfMon@4"
+    },
+    {
+      "offset": 12358,
+      "name": "_UninitPerfMon@0"
+    },
+    {
+      "offset": 12358,
+      "name": "__imp__UninitPerfMon@0"
+    },
+    {
+      "offset": 11448,
+      "name": "_CreatePerfObject@4"
+    },
+    {
+      "offset": 11448,
+      "name": "__imp__CreatePerfObject@4"
+    },
+    {
+      "offset": 11798,
+      "name": "_DeletePerfObject@4"
+    },
+    {
+      "offset": 11798,
+      "name": "__imp__DeletePerfObject@4"
+    },
+    {
+      "offset": 12242,
+      "name": "_ResetPerfObjectList@0"
+    },
+    {
+      "offset": 12242,
+      "name": "__imp__ResetPerfObjectList@0"
+    },
+    {
+      "offset": 11910,
+      "name": "_IncrementPerfCounter@8"
+    },
+    {
+      "offset": 11910,
+      "name": "__imp__IncrementPerfCounter@8"
+    },
+    {
+      "offset": 11682,
+      "name": "_DecrementPerfCounter@8"
+    },
+    {
+      "offset": 11682,
+      "name": "__imp__DecrementPerfCounter@8"
+    },
+    {
+      "offset": 12468,
+      "name": "_UpdatePerfCounter@12"
+    },
+    {
+      "offset": 12468,
+      "name": "__imp__UpdatePerfCounter@12"
+    },
+    {
+      "offset": 11560,
+      "name": "_CreatePerfObjectWithAlias@8"
+    },
+    {
+      "offset": 11560,
+      "name": "__imp__CreatePerfObjectWithAlias@8"
+    },
+    {
+      "offset": 8656,
+      "name": "?myGetColumnDisplayName@@YGJPBGPAPBG@Z"
+    },
+    {
+      "offset": 8656,
+      "name": "__imp_?myGetColumnDisplayName@@YGJPBGPAPBG@Z"
+    },
+    {
+      "offset": 8788,
+      "name": "?myGetColumnName@@YGJKHPAPBG@Z"
+    },
+    {
+      "offset": 8788,
+      "name": "__imp_?myGetColumnName@@YGJKHPAPBG@Z"
+    },
+    {
+      "offset": 7568,
+      "name": "?GetAccessRights@@YGJPAXQAPAXKQAK@Z"
+    },
+    {
+      "offset": 7568,
+      "name": "__imp_?GetAccessRights@@YGJPAXQAPAXKQAK@Z"
+    },
+    {
+      "offset": 7696,
+      "name": "?GetLocaleName@@YGJPAPAG@Z"
+    },
+    {
+      "offset": 7696,
+      "name": "__imp_?GetLocaleName@@YGJPAPAG@Z"
+    },
+    {
+      "offset": 8078,
+      "name": "?VerifyCertContextWithNtAuth@@YGJPBU_CERT_CONTEXT@@@Z"
+    },
+    {
+      "offset": 8078,
+      "name": "__imp_?VerifyCertContextWithNtAuth@@YGJPBU_CERT_CONTEXT@@@Z"
+    },
+    {
+      "offset": 7816,
+      "name": "?GetToken@@YGJPAGPBU_CERT_CONTEXT@@PAPAX@Z"
+    },
+    {
+      "offset": 7816,
+      "name": "__imp_?GetToken@@YGJPAGPBU_CERT_CONTEXT@@PAPAX@Z"
+    },
+    {
+      "offset": 7952,
+      "name": "?GetUserPrincipalName@@YGJPAPAG@Z"
+    },
+    {
+      "offset": 7952,
+      "name": "__imp_?GetUserPrincipalName@@YGJPAPAG@Z"
+    },
+    {
+      "offset": 8224,
+      "name": "?myBackupDB@@YGJPBGK0PAU_DBBACKUPPROGRESS@@@Z"
+    },
+    {
+      "offset": 8224,
+      "name": "__imp_?myBackupDB@@YGJPBGK0PAU_DBBACKUPPROGRESS@@@Z"
+    },
+    {
+      "offset": 8912,
+      "name": "?myRestoreDB@@YGJPBGK0000PAU_DBBACKUPPROGRESS@@@Z"
+    },
+    {
+      "offset": 8912,
+      "name": "__imp_?myRestoreDB@@YGJPBGK0000PAU_DBBACKUPPROGRESS@@@Z"
+    },
+    {
+      "offset": 8362,
+      "name": "?myCertServerExportPFX@@YGJPBG00PAXHHHKPAPAG@Z"
+    },
+    {
+      "offset": 8362,
+      "name": "__imp_?myCertServerExportPFX@@YGJPBG00PAXHHHKPAPAG@Z"
+    },
+    {
+      "offset": 8502,
+      "name": "?myCertServerImportPFX@@YGJPBG0HPAPAG1PAPBU_CERT_CONTEXT@@@Z"
+    },
+    {
+      "offset": 8502,
+      "name": "__imp_?myCertServerImportPFX@@YGJPBG0HPAPAG1PAPBU_CERT_CONTEXT@@@Z"
+    },
+    {
+      "offset": 12134,
+      "name": "_OpenPerfMon@4"
+    },
+    {
+      "offset": 12134,
+      "name": "__imp__OpenPerfMon@4"
+    },
+    {
+      "offset": 11228,
+      "name": "_ClosePerfMon@0"
+    },
+    {
+      "offset": 11228,
+      "name": "__imp__ClosePerfMon@0"
+    },
+    {
+      "offset": 11336,
+      "name": "_CollectPerfMon@16"
+    },
+    {
+      "offset": 11336,
+      "name": "__imp__CollectPerfMon@16"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 7568,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3305028645,
+      "sizeOfData": 48,
+      "dllName": "certadm.dll",
+      "symbolName": "?GetAccessRights@@YGJPAXQAPAXKQAK@Z (long __stdcall GetAccessRights(void *,void * * const,unsigned long,unsigned long * const))",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 212
+    },
+    {
+      "offset": 7696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3509099415,
+      "sizeOfData": 39,
+      "dllName": "certadm.dll",
+      "symbolName": "?GetLocaleName@@YGJPAPAG@Z (long __stdcall GetLocaleName(unsigned short * *))",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 213
+    },
+    {
+      "offset": 7816,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4211478390,
+      "sizeOfData": 55,
+      "dllName": "certadm.dll",
+      "symbolName": "?GetToken@@YGJPAGPBU_CERT_CONTEXT@@PAPAX@Z (long __stdcall GetToken(unsigned short *,struct _CERT_CONTEXT const *,void * *))",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 216
+    },
+    {
+      "offset": 7952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3975016948,
+      "sizeOfData": 46,
+      "dllName": "certadm.dll",
+      "symbolName": "?GetUserPrincipalName@@YGJPAPAG@Z (long __stdcall GetUserPrincipalName(unsigned short * *))",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 217
+    },
+    {
+      "offset": 8078,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3673011576,
+      "sizeOfData": 66,
+      "dllName": "certadm.dll",
+      "symbolName": "?VerifyCertContextWithNtAuth@@YGJPBU_CERT_CONTEXT@@@Z (long __stdcall VerifyCertContextWithNtAuth(struct _CERT_CONTEXT const *))",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 215
+    },
+    {
+      "offset": 8224,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3723491713,
+      "sizeOfData": 58,
+      "dllName": "certadm.dll",
+      "symbolName": "?myBackupDB@@YGJPBGK0PAU_DBBACKUPPROGRESS@@@Z (long __stdcall myBackupDB(unsigned short const *,unsigned long,unsigned short const *,struct _DBBACKUPPROGRESS *))",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 218
+    },
+    {
+      "offset": 8362,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3527910512,
+      "sizeOfData": 59,
+      "dllName": "certadm.dll",
+      "symbolName": "?myCertServerExportPFX@@YGJPBG00PAXHHHKPAPAG@Z (long __stdcall myCertServerExportPFX(unsigned short const *,unsigned short const *,unsigned short const *,void *,int,int,int,unsigned long,unsigned short * *))",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 220
+    },
+    {
+      "offset": 8502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3551380468,
+      "sizeOfData": 73,
+      "dllName": "certadm.dll",
+      "symbolName": "?myCertServerImportPFX@@YGJPBG0HPAPAG1PAPBU_CERT_CONTEXT@@@Z (long __stdcall myCertServerImportPFX(unsigned short const *,unsigned short const *,int,unsigned short * *,unsigned short * *,struct _CERT_CONTEXT const * *))",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 221
+    },
+    {
+      "offset": 8656,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4126674256,
+      "sizeOfData": 51,
+      "dllName": "certadm.dll",
+      "symbolName": "?myGetColumnDisplayName@@YGJPBGPAPBG@Z (long __stdcall myGetColumnDisplayName(unsigned short const *,unsigned short const * *))",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 210
+    },
+    {
+      "offset": 8788,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4017658062,
+      "sizeOfData": 43,
+      "dllName": "certadm.dll",
+      "symbolName": "?myGetColumnName@@YGJKHPAPBG@Z (long __stdcall myGetColumnName(unsigned long,int,unsigned short const * *))",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 211
+    },
+    {
+      "offset": 8912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3281208932,
+      "sizeOfData": 62,
+      "dllName": "certadm.dll",
+      "symbolName": "?myRestoreDB@@YGJPBGK0000PAU_DBBACKUPPROGRESS@@@Z (long __stdcall myRestoreDB(unsigned short const *,unsigned long,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,struct _DBBACKUPPROGRESS *))",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 219
+    },
+    {
+      "offset": 9054,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3837595530,
+      "sizeOfData": 34,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvBackupClose@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 5
+    },
+    {
+      "offset": 9168,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4050275082,
+      "sizeOfData": 32,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvBackupEnd@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 6
+    },
+    {
+      "offset": 9280,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4176058230,
+      "sizeOfData": 33,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvBackupFree@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 15
+    },
+    {
+      "offset": 9394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3236448066,
+      "sizeOfData": 44,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvBackupGetBackupLogsW@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 7
+    },
+    {
+      "offset": 9518,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3519925191,
+      "sizeOfData": 47,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvBackupGetDatabaseNamesW@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 8
+    },
+    {
+      "offset": 9646,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3239150747,
+      "sizeOfData": 49,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvBackupGetDynamicFileListW@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 14
+    },
+    {
+      "offset": 9776,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3716419754,
+      "sizeOfData": 39,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvBackupOpenFileW@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 9
+    },
+    {
+      "offset": 9896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3278504991,
+      "sizeOfData": 38,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvBackupPrepareW@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 10
+    },
+    {
+      "offset": 10014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3856980050,
+      "sizeOfData": 34,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvBackupRead@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 11
+    },
+    {
+      "offset": 10128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4260810738,
+      "sizeOfData": 41,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvBackupTruncateLogs@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 12
+    },
+    {
+      "offset": 10250,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3696078697,
+      "sizeOfData": 38,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvIsServerOnlineW@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 13
+    },
+    {
+      "offset": 10368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3923374196,
+      "sizeOfData": 33,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvRestoreEnd@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 21
+    },
+    {
+      "offset": 10482,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3519178722,
+      "sizeOfData": 52,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvRestoreGetDatabaseLocationsW@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 17
+    },
+    {
+      "offset": 10614,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4213262886,
+      "sizeOfData": 39,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvRestorePrepareW@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 18
+    },
+    {
+      "offset": 10734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3372425372,
+      "sizeOfData": 46,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvRestoreRegisterComplete@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 20
+    },
+    {
+      "offset": 10860,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3296443131,
+      "sizeOfData": 50,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvRestoreRegisterThroughFile@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 22
+    },
+    {
+      "offset": 10990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3672043329,
+      "sizeOfData": 40,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvRestoreRegisterW@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 19
+    },
+    {
+      "offset": 11110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3477006137,
+      "sizeOfData": 38,
+      "dllName": "certadm.dll",
+      "symbolName": "_CertSrvServerControlW@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 16
+    },
+    {
+      "offset": 11228,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3529178789,
+      "sizeOfData": 28,
+      "dllName": "certadm.dll",
+      "symbolName": "_ClosePerfMon@0",
+      "type": "code",
+      "nameType": "name",
+      "hint": 25,
+      "name": "_ClosePerfMon@0"
+    },
+    {
+      "offset": 11336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3859137589,
+      "sizeOfData": 31,
+      "dllName": "certadm.dll",
+      "symbolName": "_CollectPerfMon@16",
+      "type": "code",
+      "nameType": "name",
+      "hint": 26,
+      "name": "_CollectPerfMon@16"
+    },
+    {
+      "offset": 11448,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3818499183,
+      "sizeOfData": 32,
+      "dllName": "certadm.dll",
+      "symbolName": "_CreatePerfObject@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 203
+    },
+    {
+      "offset": 11560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4120993688,
+      "sizeOfData": 41,
+      "dllName": "certadm.dll",
+      "symbolName": "_CreatePerfObjectWithAlias@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 209
+    },
+    {
+      "offset": 11682,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3780949238,
+      "sizeOfData": 36,
+      "dllName": "certadm.dll",
+      "symbolName": "_DecrementPerfCounter@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 207
+    },
+    {
+      "offset": 11798,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3865237459,
+      "sizeOfData": 32,
+      "dllName": "certadm.dll",
+      "symbolName": "_DeletePerfObject@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 204
+    },
+    {
+      "offset": 11910,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3620458387,
+      "sizeOfData": 36,
+      "dllName": "certadm.dll",
+      "symbolName": "_IncrementPerfCounter@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 206
+    },
+    {
+      "offset": 12026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4021260115,
+      "sizeOfData": 27,
+      "dllName": "certadm.dll",
+      "symbolName": "_InitPerfMon@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 201
+    },
+    {
+      "offset": 12134,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4102613890,
+      "sizeOfData": 27,
+      "dllName": "certadm.dll",
+      "symbolName": "_OpenPerfMon@4",
+      "type": "code",
+      "nameType": "name",
+      "hint": 27,
+      "name": "_OpenPerfMon@4"
+    },
+    {
+      "offset": 12242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3430095091,
+      "sizeOfData": 35,
+      "dllName": "certadm.dll",
+      "symbolName": "_ResetPerfObjectList@0",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 205
+    },
+    {
+      "offset": 12358,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4037743947,
+      "sizeOfData": 29,
+      "dllName": "certadm.dll",
+      "symbolName": "_UninitPerfMon@0",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 202
+    },
+    {
+      "offset": 12468,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3722711098,
+      "sizeOfData": 34,
+      "dllName": "certadm.dll",
+      "symbolName": "_UpdatePerfCounter@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 208
+    }
+  ]
+}

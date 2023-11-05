@@ -1,0 +1,2082 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\msdrm.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    15A8 size
+correct header end
+
+    173 public symbols
+
+     2BDA __IMPORT_DESCRIPTOR_msdrm
+     2DFC __NULL_IMPORT_DESCRIPTOR
+     2F30 msdrm_NULL_THUNK_DATA
+     332A _DRMAttest@20
+     332A __imp__DRMAttest@20
+     3470 _DRMCloseEnvironmentHandle@4
+     3470 __imp__DRMCloseEnvironmentHandle@4
+     34E8 _DRMCloseHandle@4
+     34E8 __imp__DRMCloseHandle@4
+     3720 _DRMCreateBoundLicense@20
+     3720 __imp__DRMCreateBoundLicense@20
+     3392 _DRMCheckSecurity@8
+     3392 __imp__DRMCheckSecurity@8
+     380A _DRMCreateEnablingBitsDecryptor@20
+     380A __imp__DRMCreateEnablingBitsDecryptor@20
+     3888 _DRMCreateEnablingBitsEncryptor@20
+     3888 __imp__DRMCreateEnablingBitsEncryptor@20
+     3906 _DRMCreateEnablingPrincipal@24
+     3906 __imp__DRMCreateEnablingPrincipal@24
+     3C36 _DRMDecrypt@24
+     3C36 __imp__DRMDecrypt@24
+     3D0E _DRMDuplicateEnvironmentHandle@8
+     3D0E __imp__DRMDuplicateEnvironmentHandle@8
+     3D8A _DRMDuplicateHandle@8
+     3D8A __imp__DRMDuplicateHandle@8
+     3F48 _DRMEncrypt@24
+     3F48 __imp__DRMEncrypt@24
+     40A0 _DRMGetBoundLicenseAttribute@24
+     40A0 __imp__DRMGetBoundLicenseAttribute@24
+     411A _DRMGetBoundLicenseAttributeCount@12
+     411A __imp__DRMGetBoundLicenseAttributeCount@12
+     419A _DRMGetBoundLicenseObject@16
+     419A __imp__DRMGetBoundLicenseObject@16
+     4212 _DRMGetBoundLicenseObjectCount@12
+     4212 __imp__DRMGetBoundLicenseObjectCount@12
+     437A _DRMGetEnvironmentInfo@20
+     437A __imp__DRMGetEnvironmentInfo@20
+     43EE _DRMGetInfo@20
+     43EE __imp__DRMGetInfo@20
+     4714 _DRMGetProcAddress@12
+     4714 __imp__DRMGetProcAddress@12
+     4ABC _DRMGetTime@12
+     4ABC __imp__DRMGetTime@12
+     4ED4 _DRMInitEnvironment@28
+     4ED4 __imp__DRMInitEnvironment@28
+     5026 _DRMLoadLibrary@20
+     5026 __imp__DRMLoadLibrary@20
+     51F0 _DRMRegisterRevocationList@8
+     51F0 __imp__DRMRegisterRevocationList@8
+     5108 _DRMRegisterContent@4
+     5108 __imp__DRMRegisterContent@4
+     3794 _DRMCreateClientSession@20
+     3794 __imp__DRMCreateClientSession@20
+     4F46 _DRMIsActivated@12
+     4F46 __imp__DRMIsActivated@12
+     31E2 _DRMActivate@24
+     31E2 __imp__DRMActivate@24
+     39F8 _DRMCreateLicenseStorageSession@24
+     39F8 __imp__DRMCreateLicenseStorageSession@24
+     307E _DRMAcquireAdvisories@16
+     307E __imp__DRMAcquireAdvisories@16
+     3172 _DRMAcquireLicense@28
+     3172 __imp__DRMAcquireLicense@28
+     324C _DRMAddLicense@12
+     324C __imp__DRMAddLicense@12
+     3FB2 _DRMEnumerateLicense@24
+     3FB2 __imp__DRMEnumerateLicense@24
+     48DC _DRMGetSecurityProvider@20
+     48DC __imp__DRMGetSecurityProvider@20
+     3636 _DRMCloseSession@4
+     3636 __imp__DRMCloseSession@4
+     3E6E _DRMDuplicateSession@8
+     3E6E __imp__DRMDuplicateSession@8
+     3EE0 _DRMEncode@20
+     3EE0 __imp__DRMEncode@20
+     3B50 _DRMDecode@16
+     3B50 __imp__DRMDecode@16
+     36A4 _DRMConstructCertificateChain@16
+     36A4 __imp__DRMConstructCertificateChain@16
+     3CA0 _DRMDeleteLicense@8
+     3CA0 __imp__DRMDeleteLicense@8
+     5094 _DRMParseUnboundLicense@8
+     5094 __imp__DRMParseUnboundLicense@8
+     35C4 _DRMCloseQueryHandle@4
+     35C4 __imp__DRMCloseQueryHandle@4
+     4C9E _DRMGetUnboundLicenseObjectCount@12
+     4C9E __imp__DRMGetUnboundLicenseObjectCount@12
+     4C24 _DRMGetUnboundLicenseObject@16
+     4C24 __imp__DRMGetUnboundLicenseObject@16
+     4BA2 _DRMGetUnboundLicenseAttributeCount@12
+     4BA2 __imp__DRMGetUnboundLicenseAttributeCount@12
+     4B26 _DRMGetUnboundLicenseAttribute@24
+     4B26 __imp__DRMGetUnboundLicenseAttribute@24
+     428E _DRMGetCertificateChainCount@8
+     428E __imp__DRMGetCertificateChainCount@8
+     3BB8 _DRMDeconstructCertificateChain@16
+     3BB8 __imp__DRMDeconstructCertificateChain@16
+     55F8 _DRMVerify@32
+     55F8 __imp__DRMVerify@32
+     4952 _DRMGetServiceLocation@24
+     4952 __imp__DRMGetServiceLocation@24
+     3980 _DRMCreateIssuanceLicense@32
+     3980 __imp__DRMCreateIssuanceLicense@32
+     3AE4 _DRMCreateUser@16
+     3AE4 __imp__DRMCreateUser@16
+     3A76 _DRMCreateRight@28
+     3A76 __imp__DRMCreateRight@28
+     32B8 _DRMAddRightWithUser@12
+     32B8 __imp__DRMAddRightWithUser@12
+     3400 _DRMClearAllRights@4
+     3400 __imp__DRMClearAllRights@4
+     542E _DRMSetMetaData@28
+     542E __imp__DRMSetMetaData@28
+     45BC _DRMGetMetaData@52
+     45BC __imp__DRMGetMetaData@52
+     5588 _DRMSetUsagePolicy@44
+     5588 __imp__DRMSetUsagePolicy@44
+     5514 _DRMSetRevocationPoint@32
+     5514 __imp__DRMSetRevocationPoint@32
+     52D0 _DRMSetApplicationSpecificData@16
+     52D0 __imp__DRMSetApplicationSpecificData@16
+     549C _DRMSetNameAndDescription@20
+     549C __imp__DRMSetNameAndDescription@20
+     4540 _DRMGetIssuanceLicenseTemplate@12
+     4540 __imp__DRMGetIssuanceLicenseTemplate@12
+     49C6 _DRMGetSignedIssuanceLicense@40
+     49C6 __imp__DRMGetSignedIssuanceLicense@40
+     4A40 _DRMGetSignedIssuanceLicenseEx@44
+     4A40 __imp__DRMGetSignedIssuanceLicenseEx@44
+     3554 _DRMClosePubHandle@4
+     3554 __imp__DRMClosePubHandle@4
+     3DFA _DRMDuplicatePubHandle@8
+     3DFA __imp__DRMDuplicatePubHandle@8
+     4D8C _DRMGetUserInfo@28
+     4D8C __imp__DRMGetUserInfo@28
+     486E _DRMGetRightInfo@20
+     486E __imp__DRMGetRightInfo@20
+     47F8 _DRMGetRightExtendedInfo@24
+     47F8 __imp__DRMGetRightExtendedInfo@24
+     4E6A _DRMGetUsers@12
+     4E6A __imp__DRMGetUsers@12
+     4DFA _DRMGetUserRights@16
+     4DFA __imp__DRMGetUserRights@16
+     4024 _DRMGetApplicationSpecificData@24
+     4024 __imp__DRMGetApplicationSpecificData@24
+     44C8 _DRMGetIssuanceLicenseInfo@40
+     44C8 __imp__DRMGetIssuanceLicenseInfo@40
+     4784 _DRMGetRevocationPoint@48
+     4784 __imp__DRMGetRevocationPoint@48
+     4D1C _DRMGetUsagePolicy@64
+     4D1C __imp__DRMGetUsagePolicy@64
+     462A _DRMGetNameAndDescription@28
+     462A __imp__DRMGetNameAndDescription@28
+     46A2 _DRMGetOwnerLicense@12
+     46A2 __imp__DRMGetOwnerLicense@12
+     534C _DRMSetGlobalOptions@12
+     534C __imp__DRMSetGlobalOptions@12
+     4308 _DRMGetClientVersion@4
+     4308 __imp__DRMGetClientVersion@4
+     53BE _DRMSetIntervalTime@8
+     53BE __imp__DRMSetIntervalTime@8
+     4458 _DRMGetIntervalTime@8
+     4458 __imp__DRMGetIntervalTime@8
+     5268 _DRMRepair@0
+     5268 __imp__DRMRepair@0
+     5660 ___AddMachineCertToLicenseStore@12
+     5660 __imp____AddMachineCertToLicenseStore@12
+     5178 _DRMRegisterProtectedWindow@8
+     5178 __imp__DRMRegisterProtectedWindow@8
+     4FB4 _DRMIsWindowProtected@8
+     4FB4 __imp__DRMIsWindowProtected@8
+     30F2 _DRMAcquireIssuanceLicenseTemplate@28
+     30F2 __imp__DRMAcquireIssuanceLicenseTemplate@28
+
+Archive member name at 2BDA: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1E5 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E912FC69 time date stamp
+             107 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      8C file pointer to raw data (0000008C to 000000CA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CB file pointer to raw data (000000CB to 000000DE)
+      DF file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       A size of raw data
+      FD file pointer to raw data (000000FD to 00000106)
+      DF file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 2DFC: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F8 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        CD2399F6 time date stamp
+              B7 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      64 file pointer to raw data (00000064 to 000000A2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A3 file pointer to raw data (000000A3 to 000000B6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 2F30: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     112 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        F820C1C9 time date stamp
+              D3 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      8C file pointer to raw data (0000008C to 000000CA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CB file pointer to raw data (000000CB to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CF file pointer to raw data (000000CF to 000000D2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 307E: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8199619
+  SizeOfData   : 00000023
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMAcquireAdvisories@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : DRMAcquireAdvisories
+
+Archive member name at 30F2: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F91306E0
+  SizeOfData   : 00000030
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMAcquireIssuanceLicenseTemplate@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : DRMAcquireIssuanceLicenseTemplate
+
+Archive member name at 3172: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB771761
+  SizeOfData   : 00000020
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMAcquireLicense@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : DRMAcquireLicense
+
+Archive member name at 31E2: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFF04F28
+  SizeOfData   : 0000001A
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMActivate@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : DRMActivate
+
+Archive member name at 324C: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E11ED09E
+  SizeOfData   : 0000001C
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMAddLicense@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : DRMAddLicense
+
+Archive member name at 32B8: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE969173
+  SizeOfData   : 00000022
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMAddRightWithUser@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : DRMAddRightWithUser
+
+Archive member name at 332A: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDD91010
+  SizeOfData   : 00000018
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMAttest@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : DRMAttest
+
+Archive member name at 3392: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6BD639A
+  SizeOfData   : 0000001E
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCheckSecurity@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : DRMCheckSecurity
+
+Archive member name at 3400: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC529429
+  SizeOfData   : 0000001F
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMClearAllRights@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : DRMClearAllRights
+
+Archive member name at 3470: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1EEC415
+  SizeOfData   : 00000027
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCloseEnvironmentHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : DRMCloseEnvironmentHandle
+
+Archive member name at 34E8: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA1DF25F
+  SizeOfData   : 0000001C
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCloseHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : DRMCloseHandle
+
+Archive member name at 3554: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF6A72EC
+  SizeOfData   : 0000001F
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMClosePubHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : DRMClosePubHandle
+
+Archive member name at 35C4: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E90D0FC8
+  SizeOfData   : 00000021
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCloseQueryHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : DRMCloseQueryHandle
+
+Archive member name at 3636: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE95A451
+  SizeOfData   : 0000001D
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCloseSession@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : DRMCloseSession
+
+Archive member name at 36A4: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCC63929
+  SizeOfData   : 0000002B
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMConstructCertificateChain@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : DRMConstructCertificateChain
+
+Archive member name at 3720: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6F51BCC
+  SizeOfData   : 00000024
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCreateBoundLicense@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : DRMCreateBoundLicense
+
+Archive member name at 3794: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5A0B3E8
+  SizeOfData   : 00000025
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCreateClientSession@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : DRMCreateClientSession
+
+Archive member name at 380A: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D17E08E5
+  SizeOfData   : 0000002D
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCreateEnablingBitsDecryptor@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : DRMCreateEnablingBitsDecryptor
+
+Archive member name at 3888: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F40C2FFC
+  SizeOfData   : 0000002D
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCreateEnablingBitsEncryptor@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : DRMCreateEnablingBitsEncryptor
+
+Archive member name at 3906: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE84DE9D
+  SizeOfData   : 00000029
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCreateEnablingPrincipal@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : DRMCreateEnablingPrincipal
+
+Archive member name at 3980: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBC4E120
+  SizeOfData   : 00000027
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCreateIssuanceLicense@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : DRMCreateIssuanceLicense
+
+Archive member name at 39F8: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6D8B232
+  SizeOfData   : 0000002D
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCreateLicenseStorageSession@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : DRMCreateLicenseStorageSession
+
+Archive member name at 3A76: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D62087B9
+  SizeOfData   : 0000001D
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCreateRight@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : DRMCreateRight
+
+Archive member name at 3AE4: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7C80754
+  SizeOfData   : 0000001C
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMCreateUser@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : DRMCreateUser
+
+Archive member name at 3B50: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1543FBF
+  SizeOfData   : 00000018
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMDecode@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : DRMDecode
+
+Archive member name at 3BB8: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECB8C9E1
+  SizeOfData   : 0000002D
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMDeconstructCertificateChain@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : DRMDeconstructCertificateChain
+
+Archive member name at 3C36: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D361301F
+  SizeOfData   : 00000019
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMDecrypt@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : DRMDecrypt
+
+Archive member name at 3CA0: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB74E382
+  SizeOfData   : 0000001E
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMDeleteLicense@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : DRMDeleteLicense
+
+Archive member name at 3D0E: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4ED4763
+  SizeOfData   : 0000002B
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMDuplicateEnvironmentHandle@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : DRMDuplicateEnvironmentHandle
+
+Archive member name at 3D8A: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBB0A4E9
+  SizeOfData   : 00000020
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMDuplicateHandle@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : DRMDuplicateHandle
+
+Archive member name at 3DFA: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7079D47
+  SizeOfData   : 00000023
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMDuplicatePubHandle@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : DRMDuplicatePubHandle
+
+Archive member name at 3E6E: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0B0AE31
+  SizeOfData   : 00000021
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMDuplicateSession@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : DRMDuplicateSession
+
+Archive member name at 3EE0: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFE71955
+  SizeOfData   : 00000018
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMEncode@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : DRMEncode
+
+Archive member name at 3F48: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF6E0F23
+  SizeOfData   : 00000019
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMEncrypt@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : DRMEncrypt
+
+Archive member name at 3FB2: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E93D8160
+  SizeOfData   : 00000022
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMEnumerateLicense@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : DRMEnumerateLicense
+
+Archive member name at 4024: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2E87F69
+  SizeOfData   : 0000002C
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetApplicationSpecificData@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : DRMGetApplicationSpecificData
+
+Archive member name at 40A0: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBA03067
+  SizeOfData   : 0000002A
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetBoundLicenseAttribute@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : DRMGetBoundLicenseAttribute
+
+Archive member name at 411A: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F864EA3D
+  SizeOfData   : 0000002F
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetBoundLicenseAttributeCount@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : DRMGetBoundLicenseAttributeCount
+
+Archive member name at 419A: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1CB86A6
+  SizeOfData   : 00000027
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetBoundLicenseObject@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : DRMGetBoundLicenseObject
+
+Archive member name at 4212: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C07F72FA
+  SizeOfData   : 0000002C
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetBoundLicenseObjectCount@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : DRMGetBoundLicenseObjectCount
+
+Archive member name at 428E: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E87D88EE
+  SizeOfData   : 00000029
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetCertificateChainCount@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : DRMGetCertificateChainCount
+
+Archive member name at 4308: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F60487CD
+  SizeOfData   : 00000021
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetClientVersion@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : DRMGetClientVersion
+
+Archive member name at 437A: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6E472D5
+  SizeOfData   : 00000024
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetEnvironmentInfo@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : DRMGetEnvironmentInfo
+
+Archive member name at 43EE: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E299D527
+  SizeOfData   : 00000019
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetInfo@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : DRMGetInfo
+
+Archive member name at 4458: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3590AC1
+  SizeOfData   : 00000020
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetIntervalTime@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : DRMGetIntervalTime
+
+Archive member name at 44C8: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D49F714E
+  SizeOfData   : 00000028
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetIssuanceLicenseInfo@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : DRMGetIssuanceLicenseInfo
+
+Archive member name at 4540: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E01FA2C4
+  SizeOfData   : 0000002C
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetIssuanceLicenseTemplate@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : DRMGetIssuanceLicenseTemplate
+
+Archive member name at 45BC: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D882EB98
+  SizeOfData   : 0000001D
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetMetaData@52
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : DRMGetMetaData
+
+Archive member name at 462A: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F109EACC
+  SizeOfData   : 00000027
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetNameAndDescription@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : DRMGetNameAndDescription
+
+Archive member name at 46A2: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4CCEC91
+  SizeOfData   : 00000021
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetOwnerLicense@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : DRMGetOwnerLicense
+
+Archive member name at 4714: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F152EA60
+  SizeOfData   : 00000020
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetProcAddress@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : DRMGetProcAddress
+
+Archive member name at 4784: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE8D7E55
+  SizeOfData   : 00000024
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetRevocationPoint@48
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : DRMGetRevocationPoint
+
+Archive member name at 47F8: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFBF65F2
+  SizeOfData   : 00000026
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetRightExtendedInfo@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : DRMGetRightExtendedInfo
+
+Archive member name at 486E: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF6F381A
+  SizeOfData   : 0000001E
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetRightInfo@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : DRMGetRightInfo
+
+Archive member name at 48DC: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C855C3F3
+  SizeOfData   : 00000025
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetSecurityProvider@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : DRMGetSecurityProvider
+
+Archive member name at 4952: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3AF6126
+  SizeOfData   : 00000024
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetServiceLocation@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : DRMGetServiceLocation
+
+Archive member name at 49C6: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E43AB7EA
+  SizeOfData   : 0000002A
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetSignedIssuanceLicense@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : DRMGetSignedIssuanceLicense
+
+Archive member name at 4A40: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E96E4BCA
+  SizeOfData   : 0000002C
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetSignedIssuanceLicenseEx@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : DRMGetSignedIssuanceLicenseEx
+
+Archive member name at 4ABC: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA18F078
+  SizeOfData   : 00000019
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetTime@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : DRMGetTime
+
+Archive member name at 4B26: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF619E21
+  SizeOfData   : 0000002C
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetUnboundLicenseAttribute@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : DRMGetUnboundLicenseAttribute
+
+Archive member name at 4BA2: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5CA2E60
+  SizeOfData   : 00000031
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetUnboundLicenseAttributeCount@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : DRMGetUnboundLicenseAttributeCount
+
+Archive member name at 4C24: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEC83086
+  SizeOfData   : 00000029
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetUnboundLicenseObject@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : DRMGetUnboundLicenseObject
+
+Archive member name at 4C9E: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA7BEA9A
+  SizeOfData   : 0000002E
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetUnboundLicenseObjectCount@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : DRMGetUnboundLicenseObjectCount
+
+Archive member name at 4D1C: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA83172C
+  SizeOfData   : 00000020
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetUsagePolicy@64
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : DRMGetUsagePolicy
+
+Archive member name at 4D8C: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBF0B0DE
+  SizeOfData   : 0000001D
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetUserInfo@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : DRMGetUserInfo
+
+Archive member name at 4DFA: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D601FAFF
+  SizeOfData   : 0000001F
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetUserRights@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : DRMGetUserRights
+
+Archive member name at 4E6A: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C10939EC
+  SizeOfData   : 0000001A
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMGetUsers@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : DRMGetUsers
+
+Archive member name at 4ED4: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9127CB5
+  SizeOfData   : 00000021
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMInitEnvironment@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : DRMInitEnvironment
+
+Archive member name at 4F46: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC20CC55
+  SizeOfData   : 0000001D
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMIsActivated@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : DRMIsActivated
+
+Archive member name at 4FB4: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2F24CFC
+  SizeOfData   : 00000022
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMIsWindowProtected@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : DRMIsWindowProtected
+
+Archive member name at 5026: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5A6929B
+  SizeOfData   : 0000001D
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMLoadLibrary@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : DRMLoadLibrary
+
+Archive member name at 5094: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5F0BE8D
+  SizeOfData   : 00000024
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMParseUnboundLicense@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : DRMParseUnboundLicense
+
+Archive member name at 5108: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF4B5F32
+  SizeOfData   : 00000020
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMRegisterContent@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : DRMRegisterContent
+
+Archive member name at 5178: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFDCD341
+  SizeOfData   : 00000028
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMRegisterProtectedWindow@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : DRMRegisterProtectedWindow
+
+Archive member name at 51F0: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3EB9A08
+  SizeOfData   : 00000027
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMRegisterRevocationList@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 74
+  Name         : DRMRegisterRevocationList
+
+Archive member name at 5268: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8A6503D
+  SizeOfData   : 00000017
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMRepair@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 75
+  Name         : DRMRepair
+
+Archive member name at 52D0: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5CA0F67
+  SizeOfData   : 0000002C
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMSetApplicationSpecificData@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : DRMSetApplicationSpecificData
+
+Archive member name at 534C: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F408BC5A
+  SizeOfData   : 00000022
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMSetGlobalOptions@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : DRMSetGlobalOptions
+
+Archive member name at 53BE: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBA36DD5
+  SizeOfData   : 00000020
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMSetIntervalTime@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : DRMSetIntervalTime
+
+Archive member name at 542E: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3713AE4
+  SizeOfData   : 0000001D
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMSetMetaData@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : DRMSetMetaData
+
+Archive member name at 549C: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC25348D
+  SizeOfData   : 00000027
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMSetNameAndDescription@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 80
+  Name         : DRMSetNameAndDescription
+
+Archive member name at 5514: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E206425F
+  SizeOfData   : 00000024
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMSetRevocationPoint@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : DRMSetRevocationPoint
+
+Archive member name at 5588: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E883BD86
+  SizeOfData   : 00000020
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMSetUsagePolicy@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 82
+  Name         : DRMSetUsagePolicy
+
+Archive member name at 55F8: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEA41B31
+  SizeOfData   : 00000018
+  DLL name     : msdrm.dll
+  Symbol name  : _DRMVerify@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : DRMVerify
+
+Archive member name at 5660: msdrm.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E80B8840
+  SizeOfData   : 0000002D
+  DLL name     : msdrm.dll
+  Symbol name  : ___AddMachineCertToLicenseStore@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 94
+  Name         : __AddMachineCertToLicenseStore
+
+     Exports
+
+       ordinal    name
+
+                  _DRMAcquireAdvisories@16
+                  _DRMAcquireIssuanceLicenseTemplate@28
+                  _DRMAcquireLicense@28
+                  _DRMActivate@24
+                  _DRMAddLicense@12
+                  _DRMAddRightWithUser@12
+                  _DRMAttest@20
+                  _DRMCheckSecurity@8
+                  _DRMClearAllRights@4
+                  _DRMCloseEnvironmentHandle@4
+                  _DRMCloseHandle@4
+                  _DRMClosePubHandle@4
+                  _DRMCloseQueryHandle@4
+                  _DRMCloseSession@4
+                  _DRMConstructCertificateChain@16
+                  _DRMCreateBoundLicense@20
+                  _DRMCreateClientSession@20
+                  _DRMCreateEnablingBitsDecryptor@20
+                  _DRMCreateEnablingBitsEncryptor@20
+                  _DRMCreateEnablingPrincipal@24
+                  _DRMCreateIssuanceLicense@32
+                  _DRMCreateLicenseStorageSession@24
+                  _DRMCreateRight@28
+                  _DRMCreateUser@16
+                  _DRMDecode@16
+                  _DRMDeconstructCertificateChain@16
+                  _DRMDecrypt@24
+                  _DRMDeleteLicense@8
+                  _DRMDuplicateEnvironmentHandle@8
+                  _DRMDuplicateHandle@8
+                  _DRMDuplicatePubHandle@8
+                  _DRMDuplicateSession@8
+                  _DRMEncode@20
+                  _DRMEncrypt@24
+                  _DRMEnumerateLicense@24
+                  _DRMGetApplicationSpecificData@24
+                  _DRMGetBoundLicenseAttribute@24
+                  _DRMGetBoundLicenseAttributeCount@12
+                  _DRMGetBoundLicenseObject@16
+                  _DRMGetBoundLicenseObjectCount@12
+                  _DRMGetCertificateChainCount@8
+                  _DRMGetClientVersion@4
+                  _DRMGetEnvironmentInfo@20
+                  _DRMGetInfo@20
+                  _DRMGetIntervalTime@8
+                  _DRMGetIssuanceLicenseInfo@40
+                  _DRMGetIssuanceLicenseTemplate@12
+                  _DRMGetMetaData@52
+                  _DRMGetNameAndDescription@28
+                  _DRMGetOwnerLicense@12
+                  _DRMGetProcAddress@12
+                  _DRMGetRevocationPoint@48
+                  _DRMGetRightExtendedInfo@24
+                  _DRMGetRightInfo@20
+                  _DRMGetSecurityProvider@20
+                  _DRMGetServiceLocation@24
+                  _DRMGetSignedIssuanceLicense@40
+                  _DRMGetSignedIssuanceLicenseEx@44
+                  _DRMGetTime@12
+                  _DRMGetUnboundLicenseAttribute@24
+                  _DRMGetUnboundLicenseAttributeCount@12
+                  _DRMGetUnboundLicenseObject@16
+                  _DRMGetUnboundLicenseObjectCount@12
+                  _DRMGetUsagePolicy@64
+                  _DRMGetUserInfo@28
+                  _DRMGetUserRights@16
+                  _DRMGetUsers@12
+                  _DRMInitEnvironment@28
+                  _DRMIsActivated@12
+                  _DRMIsWindowProtected@8
+                  _DRMLoadLibrary@20
+                  _DRMParseUnboundLicense@8
+                  _DRMRegisterContent@4
+                  _DRMRegisterProtectedWindow@8
+                  _DRMRegisterRevocationList@8
+                  _DRMRepair@0
+                  _DRMSetApplicationSpecificData@16
+                  _DRMSetGlobalOptions@12
+                  _DRMSetIntervalTime@8
+                  _DRMSetMetaData@28
+                  _DRMSetNameAndDescription@20
+                  _DRMSetRevocationPoint@32
+                  _DRMSetUsagePolicy@44
+                  _DRMVerify@32
+                  ___AddMachineCertToLicenseStore@12
+
+  Summary
+
+          BD .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           A .idata$6

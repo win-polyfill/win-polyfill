@@ -1,0 +1,2637 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_CallNtPowerInformation@20"
+    },
+    {
+      "name": "_CanUserWritePwrScheme@0"
+    },
+    {
+      "name": "_DeletePwrScheme@4"
+    },
+    {
+      "name": "_DevicePowerClose@0"
+    },
+    {
+      "name": "_DevicePowerEnumDevices@20"
+    },
+    {
+      "name": "_DevicePowerOpen@4"
+    },
+    {
+      "name": "_DevicePowerSetDeviceState@12"
+    },
+    {
+      "name": "_EnumPwrSchemes@8"
+    },
+    {
+      "name": "_GUIDFormatToGlobalPowerPolicy@8"
+    },
+    {
+      "name": "_GUIDFormatToPowerPolicy@8"
+    },
+    {
+      "name": "_GetActivePwrScheme@4"
+    },
+    {
+      "name": "_GetCurrentPowerPolicies@8"
+    },
+    {
+      "name": "_GetPwrCapabilities@4"
+    },
+    {
+      "name": "_GetPwrDiskSpindownRange@8"
+    },
+    {
+      "name": "_IsAdminOverrideActive@4"
+    },
+    {
+      "name": "_IsPwrHibernateAllowed@0"
+    },
+    {
+      "name": "_IsPwrShutdownAllowed@0"
+    },
+    {
+      "name": "_IsPwrSuspendAllowed@0"
+    },
+    {
+      "name": "_LoadCurrentPwrScheme@16"
+    },
+    {
+      "name": "_MergeLegacyPwrScheme@16"
+    },
+    {
+      "name": "_PowerApplyPowerRequestOverride@0"
+    },
+    {
+      "name": "_PowerCanRestoreIndividualDefaultPowerScheme@4"
+    },
+    {
+      "name": "_PowerCloseEnvironmentalMonitor@4"
+    },
+    {
+      "name": "_PowerCloseLimitsMitigation@4"
+    },
+    {
+      "name": "_PowerCloseLimitsPolicy@4"
+    },
+    {
+      "name": "_PowerCreatePossibleSetting@16"
+    },
+    {
+      "name": "_PowerCreateSetting@12"
+    },
+    {
+      "name": "_PowerDebugDifPowerPolicies@16"
+    },
+    {
+      "name": "_PowerDebugDifSystemPowerPolicies@16"
+    },
+    {
+      "name": "_PowerDebugDumpPowerPolicy@12"
+    },
+    {
+      "name": "_PowerDebugDumpPowerScheme@12"
+    },
+    {
+      "name": "_PowerDebugDumpSystemPowerCapabilities@12"
+    },
+    {
+      "name": "_PowerDebugDumpSystemPowerPolicy@12"
+    },
+    {
+      "name": "_PowerDeleteScheme@8"
+    },
+    {
+      "name": "_PowerDeterminePlatformRole@0"
+    },
+    {
+      "name": "_PowerDeterminePlatformRoleEx@4"
+    },
+    {
+      "name": "_PowerDuplicateScheme@12"
+    },
+    {
+      "name": "_PowerEnumerate@28"
+    },
+    {
+      "name": "_PowerGetActiveScheme@8"
+    },
+    {
+      "name": "_PowerImportPowerScheme@12"
+    },
+    {
+      "name": "_PowerIsSettingRangeDefined@8"
+    },
+    {
+      "name": "_PowerOpenSystemPowerKey@12"
+    },
+    {
+      "name": "_PowerOpenUserPowerKey@12"
+    },
+    {
+      "name": "_PowerPolicyToGUIDFormat@8"
+    },
+    {
+      "name": "_PowerReadACDefaultIndex@20"
+    },
+    {
+      "name": "_PowerReadACValue@28"
+    },
+    {
+      "name": "_PowerReadACValueIndex@20"
+    },
+    {
+      "name": "_PowerReadDCDefaultIndex@20"
+    },
+    {
+      "name": "_PowerReadDCValue@28"
+    },
+    {
+      "name": "_PowerReadDCValueIndex@20"
+    },
+    {
+      "name": "_PowerReadDescription@24"
+    },
+    {
+      "name": "_PowerReadFriendlyName@24"
+    },
+    {
+      "name": "_PowerReadIconResourceSpecifier@24"
+    },
+    {
+      "name": "_PowerReadPossibleDescription@24"
+    },
+    {
+      "name": "_PowerReadPossibleFriendlyName@24"
+    },
+    {
+      "name": "_PowerReadPossibleValue@28"
+    },
+    {
+      "name": "_PowerReadSecurityDescriptor@12"
+    },
+    {
+      "name": "_PowerReadSettingAttributes@8"
+    },
+    {
+      "name": "_PowerReadValueIncrement@16"
+    },
+    {
+      "name": "_PowerReadValueMax@16"
+    },
+    {
+      "name": "_PowerReadValueMin@16"
+    },
+    {
+      "name": "_PowerReadValueUnitsSpecifier@20"
+    },
+    {
+      "name": "_PowerRegisterEnvironmentalMonitor@8"
+    },
+    {
+      "name": "_PowerRegisterForEffectivePowerModeNotifications@16"
+    },
+    {
+      "name": "_PowerRegisterLimitsMitigation@8"
+    },
+    {
+      "name": "_PowerRegisterLimitsPolicy@8"
+    },
+    {
+      "name": "_PowerRegisterSuspendResumeNotification@12"
+    },
+    {
+      "name": "_PowerRemovePowerSetting@8"
+    },
+    {
+      "name": "_PowerReplaceDefaultPowerSchemes@0"
+    },
+    {
+      "name": "_PowerReportLimitsEvent@4"
+    },
+    {
+      "name": "_PowerReportThermalEvent@4"
+    },
+    {
+      "name": "_PowerRestoreDefaultPowerSchemes@0"
+    },
+    {
+      "name": "_PowerRestoreIndividualDefaultPowerScheme@4"
+    },
+    {
+      "name": "_PowerSetActiveScheme@8"
+    },
+    {
+      "name": "_PowerSetAlsBrightnessOffset@4"
+    },
+    {
+      "name": "_PowerSettingAccessCheck@8"
+    },
+    {
+      "name": "_PowerSettingAccessCheckEx@12"
+    },
+    {
+      "name": "_PowerSettingRegisterNotification@16"
+    },
+    {
+      "name": "_PowerSettingUnregisterNotification@4"
+    },
+    {
+      "name": "_PowerUnregisterFromEffectivePowerModeNotifications@4"
+    },
+    {
+      "name": "_PowerUnregisterSuspendResumeNotification@4"
+    },
+    {
+      "name": "_PowerUpdateEnvironmentalMonitorState@12"
+    },
+    {
+      "name": "_PowerUpdateEnvironmentalMonitorThresholds@12"
+    },
+    {
+      "name": "_PowerUpdateLimitsMitigation@8"
+    },
+    {
+      "name": "_PowerWriteACDefaultIndex@20"
+    },
+    {
+      "name": "_PowerWriteACValueIndex@20"
+    },
+    {
+      "name": "_PowerWriteDCDefaultIndex@20"
+    },
+    {
+      "name": "_PowerWriteDCValueIndex@20"
+    },
+    {
+      "name": "_PowerWriteDescription@24"
+    },
+    {
+      "name": "_PowerWriteFriendlyName@24"
+    },
+    {
+      "name": "_PowerWriteIconResourceSpecifier@24"
+    },
+    {
+      "name": "_PowerWritePossibleDescription@24"
+    },
+    {
+      "name": "_PowerWritePossibleFriendlyName@24"
+    },
+    {
+      "name": "_PowerWritePossibleValue@28"
+    },
+    {
+      "name": "_PowerWriteSecurityDescriptor@12"
+    },
+    {
+      "name": "_PowerWriteSettingAttributes@12"
+    },
+    {
+      "name": "_PowerWriteValueIncrement@16"
+    },
+    {
+      "name": "_PowerWriteValueMax@16"
+    },
+    {
+      "name": "_PowerWriteValueMin@16"
+    },
+    {
+      "name": "_PowerWriteValueUnitsSpecifier@20"
+    },
+    {
+      "name": "_ReadGlobalPwrPolicy@4"
+    },
+    {
+      "name": "_ReadProcessorPwrScheme@8"
+    },
+    {
+      "name": "_ReadPwrScheme@8"
+    },
+    {
+      "name": "_SetActivePwrScheme@12"
+    },
+    {
+      "name": "_SetSuspendState@12"
+    },
+    {
+      "name": "_ValidatePowerPolicies@8"
+    },
+    {
+      "name": "_WriteGlobalPwrPolicy@4"
+    },
+    {
+      "name": "_WriteProcessorPwrScheme@8"
+    },
+    {
+      "name": "_WritePwrScheme@16"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 16078,
+      "name": "__IMPORT_DESCRIPTOR_POWRPROF"
+    },
+    {
+      "offset": 16636,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 16948,
+      "name": "POWRPROF_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 18818,
+      "name": "_GetPwrDiskSpindownRange@8"
+    },
+    {
+      "offset": 18818,
+      "name": "__imp__GetPwrDiskSpindownRange@8"
+    },
+    {
+      "offset": 18108,
+      "name": "_EnumPwrSchemes@8"
+    },
+    {
+      "offset": 18108,
+      "name": "__imp__EnumPwrSchemes@8"
+    },
+    {
+      "offset": 29840,
+      "name": "_ReadPwrScheme@8"
+    },
+    {
+      "offset": 29840,
+      "name": "__imp__ReadPwrScheme@8"
+    },
+    {
+      "offset": 29604,
+      "name": "_ReadGlobalPwrPolicy@4"
+    },
+    {
+      "offset": 29604,
+      "name": "__imp__ReadGlobalPwrPolicy@4"
+    },
+    {
+      "offset": 30536,
+      "name": "_WritePwrScheme@16"
+    },
+    {
+      "offset": 30536,
+      "name": "__imp__WritePwrScheme@16"
+    },
+    {
+      "offset": 30298,
+      "name": "_WriteGlobalPwrPolicy@4"
+    },
+    {
+      "offset": 30298,
+      "name": "__imp__WriteGlobalPwrPolicy@4"
+    },
+    {
+      "offset": 17526,
+      "name": "_DeletePwrScheme@4"
+    },
+    {
+      "offset": 17526,
+      "name": "__imp__DeletePwrScheme@4"
+    },
+    {
+      "offset": 18466,
+      "name": "_GetActivePwrScheme@4"
+    },
+    {
+      "offset": 18466,
+      "name": "__imp__GetActivePwrScheme@4"
+    },
+    {
+      "offset": 29950,
+      "name": "_SetActivePwrScheme@12"
+    },
+    {
+      "offset": 29950,
+      "name": "__imp__SetActivePwrScheme@12"
+    },
+    {
+      "offset": 19292,
+      "name": "_IsPwrSuspendAllowed@0"
+    },
+    {
+      "offset": 19292,
+      "name": "__imp__IsPwrSuspendAllowed@0"
+    },
+    {
+      "offset": 19056,
+      "name": "_IsPwrHibernateAllowed@0"
+    },
+    {
+      "offset": 19056,
+      "name": "__imp__IsPwrHibernateAllowed@0"
+    },
+    {
+      "offset": 19174,
+      "name": "_IsPwrShutdownAllowed@0"
+    },
+    {
+      "offset": 19174,
+      "name": "__imp__IsPwrShutdownAllowed@0"
+    },
+    {
+      "offset": 18938,
+      "name": "_IsAdminOverrideActive@4"
+    },
+    {
+      "offset": 18938,
+      "name": "__imp__IsAdminOverrideActive@4"
+    },
+    {
+      "offset": 30066,
+      "name": "_SetSuspendState@12"
+    },
+    {
+      "offset": 30066,
+      "name": "__imp__SetSuspendState@12"
+    },
+    {
+      "offset": 30180,
+      "name": "_ValidatePowerPolicies@8"
+    },
+    {
+      "offset": 30180,
+      "name": "__imp__ValidatePowerPolicies@8"
+    },
+    {
+      "offset": 18582,
+      "name": "_GetCurrentPowerPolicies@8"
+    },
+    {
+      "offset": 18582,
+      "name": "__imp__GetCurrentPowerPolicies@8"
+    },
+    {
+      "offset": 17408,
+      "name": "_CanUserWritePwrScheme@0"
+    },
+    {
+      "offset": 17408,
+      "name": "__imp__CanUserWritePwrScheme@0"
+    },
+    {
+      "offset": 29720,
+      "name": "_ReadProcessorPwrScheme@8"
+    },
+    {
+      "offset": 29720,
+      "name": "__imp__ReadProcessorPwrScheme@8"
+    },
+    {
+      "offset": 30416,
+      "name": "_WriteProcessorPwrScheme@8"
+    },
+    {
+      "offset": 30416,
+      "name": "__imp__WriteProcessorPwrScheme@8"
+    },
+    {
+      "offset": 25820,
+      "name": "_PowerReportThermalEvent@4"
+    },
+    {
+      "offset": 25820,
+      "name": "__imp__PowerReportThermalEvent@4"
+    },
+    {
+      "offset": 17872,
+      "name": "_DevicePowerOpen@4"
+    },
+    {
+      "offset": 17872,
+      "name": "__imp__DevicePowerOpen@4"
+    },
+    {
+      "offset": 17638,
+      "name": "_DevicePowerClose@0"
+    },
+    {
+      "offset": 17638,
+      "name": "__imp__DevicePowerClose@0"
+    },
+    {
+      "offset": 17752,
+      "name": "_DevicePowerEnumDevices@20"
+    },
+    {
+      "offset": 17752,
+      "name": "__imp__DevicePowerEnumDevices@20"
+    },
+    {
+      "offset": 17984,
+      "name": "_DevicePowerSetDeviceState@12"
+    },
+    {
+      "offset": 17984,
+      "name": "__imp__DevicePowerSetDeviceState@12"
+    },
+    {
+      "offset": 24922,
+      "name": "_PowerRegisterForEffectivePowerModeNotifications@16"
+    },
+    {
+      "offset": 24922,
+      "name": "__imp__PowerRegisterForEffectivePowerModeNotifications@16"
+    },
+    {
+      "offset": 26954,
+      "name": "_PowerUnregisterFromEffectivePowerModeNotifications@4"
+    },
+    {
+      "offset": 26954,
+      "name": "__imp__PowerUnregisterFromEffectivePowerModeNotifications@4"
+    },
+    {
+      "offset": 22846,
+      "name": "_PowerReadACValueIndex@20"
+    },
+    {
+      "offset": 22846,
+      "name": "__imp__PowerReadACValueIndex@20"
+    },
+    {
+      "offset": 23202,
+      "name": "_PowerReadDCValueIndex@20"
+    },
+    {
+      "offset": 23202,
+      "name": "__imp__PowerReadDCValueIndex@20"
+    },
+    {
+      "offset": 23440,
+      "name": "_PowerReadFriendlyName@24"
+    },
+    {
+      "offset": 23440,
+      "name": "__imp__PowerReadFriendlyName@24"
+    },
+    {
+      "offset": 23322,
+      "name": "_PowerReadDescription@24"
+    },
+    {
+      "offset": 23322,
+      "name": "__imp__PowerReadDescription@24"
+    },
+    {
+      "offset": 23942,
+      "name": "_PowerReadPossibleValue@28"
+    },
+    {
+      "offset": 23942,
+      "name": "__imp__PowerReadPossibleValue@28"
+    },
+    {
+      "offset": 23814,
+      "name": "_PowerReadPossibleFriendlyName@24"
+    },
+    {
+      "offset": 23814,
+      "name": "__imp__PowerReadPossibleFriendlyName@24"
+    },
+    {
+      "offset": 23688,
+      "name": "_PowerReadPossibleDescription@24"
+    },
+    {
+      "offset": 23688,
+      "name": "__imp__PowerReadPossibleDescription@24"
+    },
+    {
+      "offset": 24062,
+      "name": "_PowerReadSecurityDescriptor@12"
+    },
+    {
+      "offset": 24062,
+      "name": "__imp__PowerReadSecurityDescriptor@12"
+    },
+    {
+      "offset": 24188,
+      "name": "_PowerReadSettingAttributes@8"
+    },
+    {
+      "offset": 24188,
+      "name": "__imp__PowerReadSettingAttributes@8"
+    },
+    {
+      "offset": 24550,
+      "name": "_PowerReadValueMin@16"
+    },
+    {
+      "offset": 24550,
+      "name": "__imp__PowerReadValueMin@16"
+    },
+    {
+      "offset": 24434,
+      "name": "_PowerReadValueMax@16"
+    },
+    {
+      "offset": 24434,
+      "name": "__imp__PowerReadValueMax@16"
+    },
+    {
+      "offset": 24312,
+      "name": "_PowerReadValueIncrement@16"
+    },
+    {
+      "offset": 24312,
+      "name": "__imp__PowerReadValueIncrement@16"
+    },
+    {
+      "offset": 24666,
+      "name": "_PowerReadValueUnitsSpecifier@20"
+    },
+    {
+      "offset": 24666,
+      "name": "__imp__PowerReadValueUnitsSpecifier@20"
+    },
+    {
+      "offset": 22610,
+      "name": "_PowerReadACDefaultIndex@20"
+    },
+    {
+      "offset": 22610,
+      "name": "__imp__PowerReadACDefaultIndex@20"
+    },
+    {
+      "offset": 22966,
+      "name": "_PowerReadDCDefaultIndex@20"
+    },
+    {
+      "offset": 22966,
+      "name": "__imp__PowerReadDCDefaultIndex@20"
+    },
+    {
+      "offset": 23560,
+      "name": "_PowerReadIconResourceSpecifier@24"
+    },
+    {
+      "offset": 23560,
+      "name": "__imp__PowerReadIconResourceSpecifier@24"
+    },
+    {
+      "offset": 22124,
+      "name": "_PowerIsSettingRangeDefined@8"
+    },
+    {
+      "offset": 22124,
+      "name": "__imp__PowerIsSettingRangeDefined@8"
+    },
+    {
+      "offset": 28242,
+      "name": "_PowerWriteFriendlyName@24"
+    },
+    {
+      "offset": 28242,
+      "name": "__imp__PowerWriteFriendlyName@24"
+    },
+    {
+      "offset": 28122,
+      "name": "_PowerWriteDescription@24"
+    },
+    {
+      "offset": 28122,
+      "name": "__imp__PowerWriteDescription@24"
+    },
+    {
+      "offset": 28748,
+      "name": "_PowerWritePossibleValue@28"
+    },
+    {
+      "offset": 28748,
+      "name": "__imp__PowerWritePossibleValue@28"
+    },
+    {
+      "offset": 28620,
+      "name": "_PowerWritePossibleFriendlyName@24"
+    },
+    {
+      "offset": 28620,
+      "name": "__imp__PowerWritePossibleFriendlyName@24"
+    },
+    {
+      "offset": 28492,
+      "name": "_PowerWritePossibleDescription@24"
+    },
+    {
+      "offset": 28492,
+      "name": "__imp__PowerWritePossibleDescription@24"
+    },
+    {
+      "offset": 28870,
+      "name": "_PowerWriteSecurityDescriptor@12"
+    },
+    {
+      "offset": 28870,
+      "name": "__imp__PowerWriteSecurityDescriptor@12"
+    },
+    {
+      "offset": 28996,
+      "name": "_PowerWriteSettingAttributes@12"
+    },
+    {
+      "offset": 28996,
+      "name": "__imp__PowerWriteSettingAttributes@12"
+    },
+    {
+      "offset": 29360,
+      "name": "_PowerWriteValueMin@16"
+    },
+    {
+      "offset": 29360,
+      "name": "__imp__PowerWriteValueMin@16"
+    },
+    {
+      "offset": 29244,
+      "name": "_PowerWriteValueMax@16"
+    },
+    {
+      "offset": 29244,
+      "name": "__imp__PowerWriteValueMax@16"
+    },
+    {
+      "offset": 29122,
+      "name": "_PowerWriteValueIncrement@16"
+    },
+    {
+      "offset": 29122,
+      "name": "__imp__PowerWriteValueIncrement@16"
+    },
+    {
+      "offset": 29476,
+      "name": "_PowerWriteValueUnitsSpecifier@20"
+    },
+    {
+      "offset": 29476,
+      "name": "__imp__PowerWriteValueUnitsSpecifier@20"
+    },
+    {
+      "offset": 27638,
+      "name": "_PowerWriteACDefaultIndex@20"
+    },
+    {
+      "offset": 27638,
+      "name": "__imp__PowerWriteACDefaultIndex@20"
+    },
+    {
+      "offset": 27880,
+      "name": "_PowerWriteDCDefaultIndex@20"
+    },
+    {
+      "offset": 27880,
+      "name": "__imp__PowerWriteDCDefaultIndex@20"
+    },
+    {
+      "offset": 28362,
+      "name": "_PowerWriteIconResourceSpecifier@24"
+    },
+    {
+      "offset": 28362,
+      "name": "__imp__PowerWriteIconResourceSpecifier@24"
+    },
+    {
+      "offset": 21656,
+      "name": "_PowerDuplicateScheme@12"
+    },
+    {
+      "offset": 21656,
+      "name": "__imp__PowerDuplicateScheme@12"
+    },
+    {
+      "offset": 21292,
+      "name": "_PowerDeleteScheme@8"
+    },
+    {
+      "offset": 21292,
+      "name": "__imp__PowerDeleteScheme@8"
+    },
+    {
+      "offset": 25452,
+      "name": "_PowerRemovePowerSetting@8"
+    },
+    {
+      "offset": 25452,
+      "name": "__imp__PowerRemovePowerSetting@8"
+    },
+    {
+      "offset": 20408,
+      "name": "_PowerCreateSetting@12"
+    },
+    {
+      "offset": 20408,
+      "name": "__imp__PowerCreateSetting@12"
+    },
+    {
+      "offset": 20284,
+      "name": "_PowerCreatePossibleSetting@16"
+    },
+    {
+      "offset": 20284,
+      "name": "__imp__PowerCreatePossibleSetting@16"
+    },
+    {
+      "offset": 22004,
+      "name": "_PowerImportPowerScheme@12"
+    },
+    {
+      "offset": 22004,
+      "name": "__imp__PowerImportPowerScheme@12"
+    },
+    {
+      "offset": 21774,
+      "name": "_PowerEnumerate@28"
+    },
+    {
+      "offset": 21774,
+      "name": "__imp__PowerEnumerate@28"
+    },
+    {
+      "offset": 26324,
+      "name": "_PowerSetAlsBrightnessOffset@4"
+    },
+    {
+      "offset": 26324,
+      "name": "__imp__PowerSetAlsBrightnessOffset@4"
+    },
+    {
+      "offset": 22248,
+      "name": "_PowerOpenSystemPowerKey@12"
+    },
+    {
+      "offset": 22248,
+      "name": "__imp__PowerOpenSystemPowerKey@12"
+    },
+    {
+      "offset": 22370,
+      "name": "_PowerOpenUserPowerKey@12"
+    },
+    {
+      "offset": 22370,
+      "name": "__imp__PowerOpenUserPowerKey@12"
+    },
+    {
+      "offset": 22490,
+      "name": "_PowerPolicyToGUIDFormat@8"
+    },
+    {
+      "offset": 22490,
+      "name": "__imp__PowerPolicyToGUIDFormat@8"
+    },
+    {
+      "offset": 18346,
+      "name": "_GUIDFormatToPowerPolicy@8"
+    },
+    {
+      "offset": 18346,
+      "name": "__imp__GUIDFormatToPowerPolicy@8"
+    },
+    {
+      "offset": 18220,
+      "name": "_GUIDFormatToGlobalPowerPolicy@8"
+    },
+    {
+      "offset": 18220,
+      "name": "__imp__GUIDFormatToGlobalPowerPolicy@8"
+    },
+    {
+      "offset": 21162,
+      "name": "_PowerDebugDumpSystemPowerPolicy@12"
+    },
+    {
+      "offset": 21162,
+      "name": "__imp__PowerDebugDumpSystemPowerPolicy@12"
+    },
+    {
+      "offset": 20778,
+      "name": "_PowerDebugDumpPowerPolicy@12"
+    },
+    {
+      "offset": 20778,
+      "name": "__imp__PowerDebugDumpPowerPolicy@12"
+    },
+    {
+      "offset": 21026,
+      "name": "_PowerDebugDumpSystemPowerCapabilities@12"
+    },
+    {
+      "offset": 21026,
+      "name": "__imp__PowerDebugDumpSystemPowerCapabilities@12"
+    },
+    {
+      "offset": 20648,
+      "name": "_PowerDebugDifSystemPowerPolicies@16"
+    },
+    {
+      "offset": 20648,
+      "name": "__imp__PowerDebugDifSystemPowerPolicies@16"
+    },
+    {
+      "offset": 20524,
+      "name": "_PowerDebugDifPowerPolicies@16"
+    },
+    {
+      "offset": 20524,
+      "name": "__imp__PowerDebugDifPowerPolicies@16"
+    },
+    {
+      "offset": 20902,
+      "name": "_PowerDebugDumpPowerScheme@12"
+    },
+    {
+      "offset": 20902,
+      "name": "__imp__PowerDebugDumpPowerScheme@12"
+    },
+    {
+      "offset": 19772,
+      "name": "_PowerCanRestoreIndividualDefaultPowerScheme@4"
+    },
+    {
+      "offset": 19772,
+      "name": "__imp__PowerCanRestoreIndividualDefaultPowerScheme@4"
+    },
+    {
+      "offset": 26068,
+      "name": "_PowerRestoreIndividualDefaultPowerScheme@4"
+    },
+    {
+      "offset": 26068,
+      "name": "__imp__PowerRestoreIndividualDefaultPowerScheme@4"
+    },
+    {
+      "offset": 25940,
+      "name": "_PowerRestoreDefaultPowerSchemes@0"
+    },
+    {
+      "offset": 25940,
+      "name": "__imp__PowerRestoreDefaultPowerSchemes@0"
+    },
+    {
+      "offset": 25572,
+      "name": "_PowerReplaceDefaultPowerSchemes@0"
+    },
+    {
+      "offset": 25572,
+      "name": "__imp__PowerReplaceDefaultPowerSchemes@0"
+    },
+    {
+      "offset": 26448,
+      "name": "_PowerSettingAccessCheck@8"
+    },
+    {
+      "offset": 26448,
+      "name": "__imp__PowerSettingAccessCheck@8"
+    },
+    {
+      "offset": 26568,
+      "name": "_PowerSettingAccessCheckEx@12"
+    },
+    {
+      "offset": 26568,
+      "name": "__imp__PowerSettingAccessCheckEx@12"
+    },
+    {
+      "offset": 21406,
+      "name": "_PowerDeterminePlatformRole@0"
+    },
+    {
+      "offset": 21406,
+      "name": "__imp__PowerDeterminePlatformRole@0"
+    },
+    {
+      "offset": 19644,
+      "name": "_PowerApplyPowerRequestOverride@0"
+    },
+    {
+      "offset": 19644,
+      "name": "__imp__PowerApplyPowerRequestOverride@0"
+    },
+    {
+      "offset": 19408,
+      "name": "_LoadCurrentPwrScheme@16"
+    },
+    {
+      "offset": 19408,
+      "name": "__imp__LoadCurrentPwrScheme@16"
+    },
+    {
+      "offset": 19526,
+      "name": "_MergeLegacyPwrScheme@16"
+    },
+    {
+      "offset": 19526,
+      "name": "__imp__MergeLegacyPwrScheme@16"
+    },
+    {
+      "offset": 17288,
+      "name": "_CallNtPowerInformation@20"
+    },
+    {
+      "offset": 17288,
+      "name": "__imp__CallNtPowerInformation@20"
+    },
+    {
+      "offset": 18702,
+      "name": "_GetPwrCapabilities@4"
+    },
+    {
+      "offset": 18702,
+      "name": "__imp__GetPwrCapabilities@4"
+    },
+    {
+      "offset": 21530,
+      "name": "_PowerDeterminePlatformRoleEx@4"
+    },
+    {
+      "offset": 21530,
+      "name": "__imp__PowerDeterminePlatformRoleEx@4"
+    },
+    {
+      "offset": 25316,
+      "name": "_PowerRegisterSuspendResumeNotification@12"
+    },
+    {
+      "offset": 25316,
+      "name": "__imp__PowerRegisterSuspendResumeNotification@12"
+    },
+    {
+      "offset": 27102,
+      "name": "_PowerUnregisterSuspendResumeNotification@4"
+    },
+    {
+      "offset": 27102,
+      "name": "__imp__PowerUnregisterSuspendResumeNotification@4"
+    },
+    {
+      "offset": 22732,
+      "name": "_PowerReadACValue@28"
+    },
+    {
+      "offset": 22732,
+      "name": "__imp__PowerReadACValue@28"
+    },
+    {
+      "offset": 23088,
+      "name": "_PowerReadDCValue@28"
+    },
+    {
+      "offset": 23088,
+      "name": "__imp__PowerReadDCValue@28"
+    },
+    {
+      "offset": 27760,
+      "name": "_PowerWriteACValueIndex@20"
+    },
+    {
+      "offset": 27760,
+      "name": "__imp__PowerWriteACValueIndex@20"
+    },
+    {
+      "offset": 28002,
+      "name": "_PowerWriteDCValueIndex@20"
+    },
+    {
+      "offset": 28002,
+      "name": "__imp__PowerWriteDCValueIndex@20"
+    },
+    {
+      "offset": 21886,
+      "name": "_PowerGetActiveScheme@8"
+    },
+    {
+      "offset": 21886,
+      "name": "__imp__PowerGetActiveScheme@8"
+    },
+    {
+      "offset": 26206,
+      "name": "_PowerSetActiveScheme@8"
+    },
+    {
+      "offset": 26206,
+      "name": "__imp__PowerSetActiveScheme@8"
+    },
+    {
+      "offset": 26692,
+      "name": "_PowerSettingRegisterNotification@16"
+    },
+    {
+      "offset": 26692,
+      "name": "__imp__PowerSettingRegisterNotification@16"
+    },
+    {
+      "offset": 26822,
+      "name": "_PowerSettingUnregisterNotification@4"
+    },
+    {
+      "offset": 26822,
+      "name": "__imp__PowerSettingUnregisterNotification@4"
+    },
+    {
+      "offset": 24792,
+      "name": "_PowerRegisterEnvironmentalMonitor@8"
+    },
+    {
+      "offset": 24792,
+      "name": "__imp__PowerRegisterEnvironmentalMonitor@8"
+    },
+    {
+      "offset": 27240,
+      "name": "_PowerUpdateEnvironmentalMonitorState@12"
+    },
+    {
+      "offset": 27240,
+      "name": "__imp__PowerUpdateEnvironmentalMonitorState@12"
+    },
+    {
+      "offset": 27374,
+      "name": "_PowerUpdateEnvironmentalMonitorThresholds@12"
+    },
+    {
+      "offset": 27374,
+      "name": "__imp__PowerUpdateEnvironmentalMonitorThresholds@12"
+    },
+    {
+      "offset": 19912,
+      "name": "_PowerCloseEnvironmentalMonitor@4"
+    },
+    {
+      "offset": 19912,
+      "name": "__imp__PowerCloseEnvironmentalMonitor@4"
+    },
+    {
+      "offset": 25194,
+      "name": "_PowerRegisterLimitsPolicy@8"
+    },
+    {
+      "offset": 25194,
+      "name": "__imp__PowerRegisterLimitsPolicy@8"
+    },
+    {
+      "offset": 20164,
+      "name": "_PowerCloseLimitsPolicy@4"
+    },
+    {
+      "offset": 20164,
+      "name": "__imp__PowerCloseLimitsPolicy@4"
+    },
+    {
+      "offset": 25700,
+      "name": "_PowerReportLimitsEvent@4"
+    },
+    {
+      "offset": 25700,
+      "name": "__imp__PowerReportLimitsEvent@4"
+    },
+    {
+      "offset": 25068,
+      "name": "_PowerRegisterLimitsMitigation@8"
+    },
+    {
+      "offset": 25068,
+      "name": "__imp__PowerRegisterLimitsMitigation@8"
+    },
+    {
+      "offset": 27514,
+      "name": "_PowerUpdateLimitsMitigation@8"
+    },
+    {
+      "offset": 27514,
+      "name": "__imp__PowerUpdateLimitsMitigation@8"
+    },
+    {
+      "offset": 20040,
+      "name": "_PowerCloseLimitsMitigation@4"
+    },
+    {
+      "offset": 20040,
+      "name": "__imp__PowerCloseLimitsMitigation@4"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 17288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3444934482,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_CallNtPowerInformation@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "CallNtPowerInformation"
+    },
+    {
+      "offset": 17408,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3502761544,
+      "sizeOfData": 38,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_CanUserWritePwrScheme@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "CanUserWritePwrScheme"
+    },
+    {
+      "offset": 17526,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4025152123,
+      "sizeOfData": 32,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_DeletePwrScheme@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "DeletePwrScheme"
+    },
+    {
+      "offset": 17638,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4181503710,
+      "sizeOfData": 33,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_DevicePowerClose@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "DevicePowerClose"
+    },
+    {
+      "offset": 17752,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4217416817,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_DevicePowerEnumDevices@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "DevicePowerEnumDevices"
+    },
+    {
+      "offset": 17872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4046416231,
+      "sizeOfData": 32,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_DevicePowerOpen@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "DevicePowerOpen"
+    },
+    {
+      "offset": 17984,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3919379815,
+      "sizeOfData": 43,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_DevicePowerSetDeviceState@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "DevicePowerSetDeviceState"
+    },
+    {
+      "offset": 18108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3318000004,
+      "sizeOfData": 31,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_EnumPwrSchemes@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "EnumPwrSchemes"
+    },
+    {
+      "offset": 18220,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3788680129,
+      "sizeOfData": 46,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_GUIDFormatToGlobalPowerPolicy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "GUIDFormatToGlobalPowerPolicy"
+    },
+    {
+      "offset": 18346,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3362465808,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_GUIDFormatToPowerPolicy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "GUIDFormatToPowerPolicy"
+    },
+    {
+      "offset": 18466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4189164620,
+      "sizeOfData": 35,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_GetActivePwrScheme@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "GetActivePwrScheme"
+    },
+    {
+      "offset": 18582,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3766155987,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_GetCurrentPowerPolicies@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "GetCurrentPowerPolicies"
+    },
+    {
+      "offset": 18702,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3731923697,
+      "sizeOfData": 35,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_GetPwrCapabilities@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "GetPwrCapabilities"
+    },
+    {
+      "offset": 18818,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4116106050,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_GetPwrDiskSpindownRange@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "GetPwrDiskSpindownRange"
+    },
+    {
+      "offset": 18938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3518165469,
+      "sizeOfData": 38,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_IsAdminOverrideActive@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "IsAdminOverrideActive"
+    },
+    {
+      "offset": 19056,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3671585729,
+      "sizeOfData": 38,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_IsPwrHibernateAllowed@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "IsPwrHibernateAllowed"
+    },
+    {
+      "offset": 19174,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4177726606,
+      "sizeOfData": 37,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_IsPwrShutdownAllowed@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "IsPwrShutdownAllowed"
+    },
+    {
+      "offset": 19292,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3353456754,
+      "sizeOfData": 36,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_IsPwrSuspendAllowed@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "IsPwrSuspendAllowed"
+    },
+    {
+      "offset": 19408,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3525131546,
+      "sizeOfData": 38,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_LoadCurrentPwrScheme@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "LoadCurrentPwrScheme"
+    },
+    {
+      "offset": 19526,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3966662049,
+      "sizeOfData": 38,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_MergeLegacyPwrScheme@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "MergeLegacyPwrScheme"
+    },
+    {
+      "offset": 19644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4042178359,
+      "sizeOfData": 47,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerApplyPowerRequestOverride@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "PowerApplyPowerRequestOverride"
+    },
+    {
+      "offset": 19772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4292274654,
+      "sizeOfData": 60,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerCanRestoreIndividualDefaultPowerScheme@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "PowerCanRestoreIndividualDefaultPowerScheme"
+    },
+    {
+      "offset": 19912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3236537727,
+      "sizeOfData": 47,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerCloseEnvironmentalMonitor@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "PowerCloseEnvironmentalMonitor"
+    },
+    {
+      "offset": 20040,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3317363014,
+      "sizeOfData": 43,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerCloseLimitsMitigation@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "PowerCloseLimitsMitigation"
+    },
+    {
+      "offset": 20164,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3515419209,
+      "sizeOfData": 39,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerCloseLimitsPolicy@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "PowerCloseLimitsPolicy"
+    },
+    {
+      "offset": 20284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3935898656,
+      "sizeOfData": 44,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerCreatePossibleSetting@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "PowerCreatePossibleSetting"
+    },
+    {
+      "offset": 20408,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3441492492,
+      "sizeOfData": 36,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerCreateSetting@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "PowerCreateSetting"
+    },
+    {
+      "offset": 20524,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3571786430,
+      "sizeOfData": 44,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerDebugDifPowerPolicies@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "PowerDebugDifPowerPolicies"
+    },
+    {
+      "offset": 20648,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4059495155,
+      "sizeOfData": 50,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerDebugDifSystemPowerPolicies@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "PowerDebugDifSystemPowerPolicies"
+    },
+    {
+      "offset": 20778,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3459814726,
+      "sizeOfData": 43,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerDebugDumpPowerPolicy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "PowerDebugDumpPowerPolicy"
+    },
+    {
+      "offset": 20902,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3406576862,
+      "sizeOfData": 43,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerDebugDumpPowerScheme@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "PowerDebugDumpPowerScheme"
+    },
+    {
+      "offset": 21026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3673151401,
+      "sizeOfData": 55,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerDebugDumpSystemPowerCapabilities@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "PowerDebugDumpSystemPowerCapabilities"
+    },
+    {
+      "offset": 21162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4240810189,
+      "sizeOfData": 49,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerDebugDumpSystemPowerPolicy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "PowerDebugDumpSystemPowerPolicy"
+    },
+    {
+      "offset": 21292,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3606620941,
+      "sizeOfData": 34,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerDeleteScheme@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "PowerDeleteScheme"
+    },
+    {
+      "offset": 21406,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3336179676,
+      "sizeOfData": 43,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerDeterminePlatformRole@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "PowerDeterminePlatformRole"
+    },
+    {
+      "offset": 21530,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3664536979,
+      "sizeOfData": 45,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerDeterminePlatformRoleEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "PowerDeterminePlatformRoleEx"
+    },
+    {
+      "offset": 21656,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4209457002,
+      "sizeOfData": 38,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerDuplicateScheme@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "PowerDuplicateScheme"
+    },
+    {
+      "offset": 21774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3876073007,
+      "sizeOfData": 32,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerEnumerate@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "PowerEnumerate"
+    },
+    {
+      "offset": 21886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3622956946,
+      "sizeOfData": 37,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerGetActiveScheme@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "PowerGetActiveScheme"
+    },
+    {
+      "offset": 22004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4109468240,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerImportPowerScheme@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "PowerImportPowerScheme"
+    },
+    {
+      "offset": 22124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3270534140,
+      "sizeOfData": 43,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerIsSettingRangeDefined@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "PowerIsSettingRangeDefined"
+    },
+    {
+      "offset": 22248,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3437943473,
+      "sizeOfData": 41,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerOpenSystemPowerKey@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "PowerOpenSystemPowerKey"
+    },
+    {
+      "offset": 22370,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4275745237,
+      "sizeOfData": 39,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerOpenUserPowerKey@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "PowerOpenUserPowerKey"
+    },
+    {
+      "offset": 22490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4042519629,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerPolicyToGUIDFormat@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "PowerPolicyToGUIDFormat"
+    },
+    {
+      "offset": 22610,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3941992439,
+      "sizeOfData": 41,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadACDefaultIndex@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "PowerReadACDefaultIndex"
+    },
+    {
+      "offset": 22732,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3659805714,
+      "sizeOfData": 34,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadACValue@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "PowerReadACValue"
+    },
+    {
+      "offset": 22846,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3952091159,
+      "sizeOfData": 39,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadACValueIndex@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "PowerReadACValueIndex"
+    },
+    {
+      "offset": 22966,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3735136027,
+      "sizeOfData": 41,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadDCDefaultIndex@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "PowerReadDCDefaultIndex"
+    },
+    {
+      "offset": 23088,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3501785917,
+      "sizeOfData": 34,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadDCValue@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "PowerReadDCValue"
+    },
+    {
+      "offset": 23202,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3484037787,
+      "sizeOfData": 39,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadDCValueIndex@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "PowerReadDCValueIndex"
+    },
+    {
+      "offset": 23322,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4061221032,
+      "sizeOfData": 38,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadDescription@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "PowerReadDescription"
+    },
+    {
+      "offset": 23440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3917811473,
+      "sizeOfData": 39,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadFriendlyName@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "PowerReadFriendlyName"
+    },
+    {
+      "offset": 23560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3305756969,
+      "sizeOfData": 48,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadIconResourceSpecifier@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "PowerReadIconResourceSpecifier"
+    },
+    {
+      "offset": 23688,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3767825034,
+      "sizeOfData": 46,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadPossibleDescription@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "PowerReadPossibleDescription"
+    },
+    {
+      "offset": 23814,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3542269134,
+      "sizeOfData": 47,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadPossibleFriendlyName@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "PowerReadPossibleFriendlyName"
+    },
+    {
+      "offset": 23942,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4141519764,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadPossibleValue@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "PowerReadPossibleValue"
+    },
+    {
+      "offset": 24062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3473440485,
+      "sizeOfData": 45,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadSecurityDescriptor@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "PowerReadSecurityDescriptor"
+    },
+    {
+      "offset": 24188,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3257331298,
+      "sizeOfData": 43,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadSettingAttributes@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "PowerReadSettingAttributes"
+    },
+    {
+      "offset": 24312,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4213534675,
+      "sizeOfData": 41,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadValueIncrement@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "PowerReadValueIncrement"
+    },
+    {
+      "offset": 24434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3970076449,
+      "sizeOfData": 35,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadValueMax@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "PowerReadValueMax"
+    },
+    {
+      "offset": 24550,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4290953855,
+      "sizeOfData": 35,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadValueMin@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "PowerReadValueMin"
+    },
+    {
+      "offset": 24666,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4211872286,
+      "sizeOfData": 46,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReadValueUnitsSpecifier@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "PowerReadValueUnitsSpecifier"
+    },
+    {
+      "offset": 24792,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3938445939,
+      "sizeOfData": 50,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerRegisterEnvironmentalMonitor@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "PowerRegisterEnvironmentalMonitor"
+    },
+    {
+      "offset": 24922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4223603969,
+      "sizeOfData": 65,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerRegisterForEffectivePowerModeNotifications@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "PowerRegisterForEffectivePowerModeNotifications"
+    },
+    {
+      "offset": 25068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4177203646,
+      "sizeOfData": 46,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerRegisterLimitsMitigation@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "PowerRegisterLimitsMitigation"
+    },
+    {
+      "offset": 25194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4069572881,
+      "sizeOfData": 42,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerRegisterLimitsPolicy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "PowerRegisterLimitsPolicy"
+    },
+    {
+      "offset": 25316,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3511173984,
+      "sizeOfData": 56,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerRegisterSuspendResumeNotification@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "PowerRegisterSuspendResumeNotification"
+    },
+    {
+      "offset": 25452,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4007010702,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerRemovePowerSetting@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "PowerRemovePowerSetting"
+    },
+    {
+      "offset": 25572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3574814436,
+      "sizeOfData": 48,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReplaceDefaultPowerSchemes@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "PowerReplaceDefaultPowerSchemes"
+    },
+    {
+      "offset": 25700,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3540872410,
+      "sizeOfData": 39,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReportLimitsEvent@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "PowerReportLimitsEvent"
+    },
+    {
+      "offset": 25820,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3755556325,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerReportThermalEvent@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "PowerReportThermalEvent"
+    },
+    {
+      "offset": 25940,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3906184575,
+      "sizeOfData": 48,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerRestoreDefaultPowerSchemes@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "PowerRestoreDefaultPowerSchemes"
+    },
+    {
+      "offset": 26068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3331513930,
+      "sizeOfData": 57,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerRestoreIndividualDefaultPowerScheme@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "PowerRestoreIndividualDefaultPowerScheme"
+    },
+    {
+      "offset": 26206,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4108230312,
+      "sizeOfData": 37,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerSetActiveScheme@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "PowerSetActiveScheme"
+    },
+    {
+      "offset": 26324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4131924105,
+      "sizeOfData": 44,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerSetAlsBrightnessOffset@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "PowerSetAlsBrightnessOffset"
+    },
+    {
+      "offset": 26448,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3253612149,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerSettingAccessCheck@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "PowerSettingAccessCheck"
+    },
+    {
+      "offset": 26568,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4262027831,
+      "sizeOfData": 43,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerSettingAccessCheckEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "PowerSettingAccessCheckEx"
+    },
+    {
+      "offset": 26692,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3831167778,
+      "sizeOfData": 50,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerSettingRegisterNotification@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "PowerSettingRegisterNotification"
+    },
+    {
+      "offset": 26822,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4219736563,
+      "sizeOfData": 51,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerSettingUnregisterNotification@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "PowerSettingUnregisterNotification"
+    },
+    {
+      "offset": 26954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3414613540,
+      "sizeOfData": 67,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerUnregisterFromEffectivePowerModeNotifications@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "PowerUnregisterFromEffectivePowerModeNotifications"
+    },
+    {
+      "offset": 27102,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3577037734,
+      "sizeOfData": 57,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerUnregisterSuspendResumeNotification@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "PowerUnregisterSuspendResumeNotification"
+    },
+    {
+      "offset": 27240,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3813100221,
+      "sizeOfData": 54,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerUpdateEnvironmentalMonitorState@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "PowerUpdateEnvironmentalMonitorState"
+    },
+    {
+      "offset": 27374,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3933964854,
+      "sizeOfData": 59,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerUpdateEnvironmentalMonitorThresholds@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "PowerUpdateEnvironmentalMonitorThresholds"
+    },
+    {
+      "offset": 27514,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3281207665,
+      "sizeOfData": 44,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerUpdateLimitsMitigation@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "PowerUpdateLimitsMitigation"
+    },
+    {
+      "offset": 27638,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3878418702,
+      "sizeOfData": 42,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWriteACDefaultIndex@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "PowerWriteACDefaultIndex"
+    },
+    {
+      "offset": 27760,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3611568510,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWriteACValueIndex@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "PowerWriteACValueIndex"
+    },
+    {
+      "offset": 27880,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4029104374,
+      "sizeOfData": 42,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWriteDCDefaultIndex@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "PowerWriteDCDefaultIndex"
+    },
+    {
+      "offset": 28002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3599577915,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWriteDCValueIndex@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "PowerWriteDCValueIndex"
+    },
+    {
+      "offset": 28122,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4198824428,
+      "sizeOfData": 39,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWriteDescription@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "PowerWriteDescription"
+    },
+    {
+      "offset": 28242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3422677264,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWriteFriendlyName@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "PowerWriteFriendlyName"
+    },
+    {
+      "offset": 28362,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3885321669,
+      "sizeOfData": 49,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWriteIconResourceSpecifier@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "PowerWriteIconResourceSpecifier"
+    },
+    {
+      "offset": 28492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3418717152,
+      "sizeOfData": 47,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWritePossibleDescription@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "PowerWritePossibleDescription"
+    },
+    {
+      "offset": 28620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4032014989,
+      "sizeOfData": 48,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWritePossibleFriendlyName@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "PowerWritePossibleFriendlyName"
+    },
+    {
+      "offset": 28748,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3473345972,
+      "sizeOfData": 41,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWritePossibleValue@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "PowerWritePossibleValue"
+    },
+    {
+      "offset": 28870,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3691237114,
+      "sizeOfData": 46,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWriteSecurityDescriptor@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "PowerWriteSecurityDescriptor"
+    },
+    {
+      "offset": 28996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4211474782,
+      "sizeOfData": 45,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWriteSettingAttributes@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "PowerWriteSettingAttributes"
+    },
+    {
+      "offset": 29122,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3749502401,
+      "sizeOfData": 42,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWriteValueIncrement@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "PowerWriteValueIncrement"
+    },
+    {
+      "offset": 29244,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4060254521,
+      "sizeOfData": 36,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWriteValueMax@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "PowerWriteValueMax"
+    },
+    {
+      "offset": 29360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4169053009,
+      "sizeOfData": 36,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWriteValueMin@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "PowerWriteValueMin"
+    },
+    {
+      "offset": 29476,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3874558773,
+      "sizeOfData": 47,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_PowerWriteValueUnitsSpecifier@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "PowerWriteValueUnitsSpecifier"
+    },
+    {
+      "offset": 29604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3824208254,
+      "sizeOfData": 36,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_ReadGlobalPwrPolicy@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "ReadGlobalPwrPolicy"
+    },
+    {
+      "offset": 29720,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4263292397,
+      "sizeOfData": 39,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_ReadProcessorPwrScheme@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "ReadProcessorPwrScheme"
+    },
+    {
+      "offset": 29840,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3387218180,
+      "sizeOfData": 30,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_ReadPwrScheme@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "ReadPwrScheme"
+    },
+    {
+      "offset": 29950,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4042025024,
+      "sizeOfData": 36,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_SetActivePwrScheme@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "SetActivePwrScheme"
+    },
+    {
+      "offset": 30066,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4154578941,
+      "sizeOfData": 33,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_SetSuspendState@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "SetSuspendState"
+    },
+    {
+      "offset": 30180,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3707567438,
+      "sizeOfData": 38,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_ValidatePowerPolicies@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "ValidatePowerPolicies"
+    },
+    {
+      "offset": 30298,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3400963369,
+      "sizeOfData": 37,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_WriteGlobalPwrPolicy@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "WriteGlobalPwrPolicy"
+    },
+    {
+      "offset": 30416,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3488713488,
+      "sizeOfData": 40,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_WriteProcessorPwrScheme@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "WriteProcessorPwrScheme"
+    },
+    {
+      "offset": 30536,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4231344468,
+      "sizeOfData": 32,
+      "dllName": "POWRPROF.dll",
+      "symbolName": "_WritePwrScheme@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "WritePwrScheme"
+    }
+  ]
+}

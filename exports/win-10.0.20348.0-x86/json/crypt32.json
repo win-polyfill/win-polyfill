@@ -1,0 +1,5781 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_CertAddCRLContextToStore@16"
+    },
+    {
+      "name": "_CertAddCRLLinkToStore@16"
+    },
+    {
+      "name": "_CertAddCTLContextToStore@16"
+    },
+    {
+      "name": "_CertAddCTLLinkToStore@16"
+    },
+    {
+      "name": "_CertAddCertificateContextToStore@16"
+    },
+    {
+      "name": "_CertAddCertificateLinkToStore@16"
+    },
+    {
+      "name": "_CertAddEncodedCRLToStore@24"
+    },
+    {
+      "name": "_CertAddEncodedCTLToStore@24"
+    },
+    {
+      "name": "_CertAddEncodedCertificateToStore@24"
+    },
+    {
+      "name": "_CertAddEncodedCertificateToSystemStoreA@12"
+    },
+    {
+      "name": "_CertAddEncodedCertificateToSystemStoreW@12"
+    },
+    {
+      "name": "_CertAddEnhancedKeyUsageIdentifier@8"
+    },
+    {
+      "name": "_CertAddRefServerOcspResponse@4"
+    },
+    {
+      "name": "_CertAddRefServerOcspResponseContext@4"
+    },
+    {
+      "name": "_CertAddSerializedElementToStore@32"
+    },
+    {
+      "name": "_CertAddStoreToCollection@16"
+    },
+    {
+      "name": "_CertAlgIdToOID@4"
+    },
+    {
+      "name": "_CertCloseServerOcspResponse@8"
+    },
+    {
+      "name": "_CertCloseStore@8"
+    },
+    {
+      "name": "_CertCompareCertificate@12"
+    },
+    {
+      "name": "_CertCompareCertificateName@12"
+    },
+    {
+      "name": "_CertCompareIntegerBlob@8"
+    },
+    {
+      "name": "_CertComparePublicKeyInfo@12"
+    },
+    {
+      "name": "_CertControlStore@16"
+    },
+    {
+      "name": "_CertCreateCRLContext@12"
+    },
+    {
+      "name": "_CertCreateCTLContext@12"
+    },
+    {
+      "name": "_CertCreateCTLEntryFromCertificateContextProperties@28"
+    },
+    {
+      "name": "_CertCreateCertificateChainEngine@8"
+    },
+    {
+      "name": "_CertCreateCertificateContext@12"
+    },
+    {
+      "name": "_CertCreateContext@24"
+    },
+    {
+      "name": "_CertCreateSelfSignCertificate@32"
+    },
+    {
+      "name": "_CertDeleteCRLFromStore@4"
+    },
+    {
+      "name": "_CertDeleteCTLFromStore@4"
+    },
+    {
+      "name": "_CertDeleteCertificateFromStore@4"
+    },
+    {
+      "name": "_CertDuplicateCRLContext@4"
+    },
+    {
+      "name": "_CertDuplicateCTLContext@4"
+    },
+    {
+      "name": "_CertDuplicateCertificateChain@4"
+    },
+    {
+      "name": "_CertDuplicateCertificateContext@4"
+    },
+    {
+      "name": "_CertDuplicateStore@4"
+    },
+    {
+      "name": "_CertEnumCRLContextProperties@8"
+    },
+    {
+      "name": "_CertEnumCRLsInStore@8"
+    },
+    {
+      "name": "_CertEnumCTLContextProperties@8"
+    },
+    {
+      "name": "_CertEnumCTLsInStore@8"
+    },
+    {
+      "name": "_CertEnumCertificateContextProperties@8"
+    },
+    {
+      "name": "_CertEnumCertificatesInStore@8"
+    },
+    {
+      "name": "_CertEnumPhysicalStore@16"
+    },
+    {
+      "name": "_CertEnumSubjectInSortedCTL@16"
+    },
+    {
+      "name": "_CertEnumSystemStore@16"
+    },
+    {
+      "name": "_CertEnumSystemStoreLocation@12"
+    },
+    {
+      "name": "_CertFindAttribute@12"
+    },
+    {
+      "name": "_CertFindCRLInStore@24"
+    },
+    {
+      "name": "_CertFindCTLInStore@24"
+    },
+    {
+      "name": "_CertFindCertificateInCRL@20"
+    },
+    {
+      "name": "_CertFindCertificateInStore@24"
+    },
+    {
+      "name": "_CertFindChainInStore@24"
+    },
+    {
+      "name": "_CertFindExtension@12"
+    },
+    {
+      "name": "_CertFindRDNAttr@8"
+    },
+    {
+      "name": "_CertFindSubjectInCTL@20"
+    },
+    {
+      "name": "_CertFindSubjectInSortedCTL@20"
+    },
+    {
+      "name": "_CertFreeCRLContext@4"
+    },
+    {
+      "name": "_CertFreeCTLContext@4"
+    },
+    {
+      "name": "_CertFreeCertificateChain@4"
+    },
+    {
+      "name": "_CertFreeCertificateChainEngine@4"
+    },
+    {
+      "name": "_CertFreeCertificateChainList@4"
+    },
+    {
+      "name": "_CertFreeCertificateContext@4"
+    },
+    {
+      "name": "_CertFreeServerOcspResponseContext@4"
+    },
+    {
+      "name": "_CertGetCRLContextProperty@16"
+    },
+    {
+      "name": "_CertGetCRLFromStore@16"
+    },
+    {
+      "name": "_CertGetCTLContextProperty@16"
+    },
+    {
+      "name": "_CertGetCertificateChain@32"
+    },
+    {
+      "name": "_CertGetCertificateContextProperty@16"
+    },
+    {
+      "name": "_CertGetEnhancedKeyUsage@16"
+    },
+    {
+      "name": "_CertGetIntendedKeyUsage@16"
+    },
+    {
+      "name": "_CertGetIssuerCertificateFromStore@16"
+    },
+    {
+      "name": "_CertGetNameStringA@24"
+    },
+    {
+      "name": "_CertGetNameStringW@24"
+    },
+    {
+      "name": "_CertGetPublicKeyLength@8"
+    },
+    {
+      "name": "_CertGetServerOcspResponseContext@12"
+    },
+    {
+      "name": "_CertGetStoreProperty@16"
+    },
+    {
+      "name": "_CertGetSubjectCertificateFromStore@12"
+    },
+    {
+      "name": "_CertGetValidUsages@20"
+    },
+    {
+      "name": "_CertIsRDNAttrsInCertificateName@16"
+    },
+    {
+      "name": "_CertIsStrongHashToSign@12"
+    },
+    {
+      "name": "_CertIsValidCRLForCertificate@16"
+    },
+    {
+      "name": "_CertIsWeakHash@24"
+    },
+    {
+      "name": "_CertNameToStrA@20"
+    },
+    {
+      "name": "_CertNameToStrW@20"
+    },
+    {
+      "name": "_CertOIDToAlgId@4"
+    },
+    {
+      "name": "_CertOpenServerOcspResponse@12"
+    },
+    {
+      "name": "_CertOpenStore@20"
+    },
+    {
+      "name": "_CertOpenSystemStoreA@8"
+    },
+    {
+      "name": "_CertOpenSystemStoreW@8"
+    },
+    {
+      "name": "_CertRDNValueToStrA@16"
+    },
+    {
+      "name": "_CertRDNValueToStrW@16"
+    },
+    {
+      "name": "_CertRegisterPhysicalStore@20"
+    },
+    {
+      "name": "_CertRegisterSystemStore@16"
+    },
+    {
+      "name": "_CertRemoveEnhancedKeyUsageIdentifier@8"
+    },
+    {
+      "name": "_CertRemoveStoreFromCollection@8"
+    },
+    {
+      "name": "_CertResyncCertificateChainEngine@4"
+    },
+    {
+      "name": "_CertRetrieveLogoOrBiometricInfo@36"
+    },
+    {
+      "name": "_CertSaveStore@24"
+    },
+    {
+      "name": "_CertSelectCertificateChains@32"
+    },
+    {
+      "name": "_CertSerializeCRLStoreElement@16"
+    },
+    {
+      "name": "_CertSerializeCTLStoreElement@16"
+    },
+    {
+      "name": "_CertSerializeCertificateStoreElement@16"
+    },
+    {
+      "name": "_CertSetCRLContextProperty@16"
+    },
+    {
+      "name": "_CertSetCTLContextProperty@16"
+    },
+    {
+      "name": "_CertSetCertificateContextPropertiesFromCTLEntry@12"
+    },
+    {
+      "name": "_CertSetCertificateContextProperty@16"
+    },
+    {
+      "name": "_CertSetEnhancedKeyUsage@8"
+    },
+    {
+      "name": "_CertSetStoreProperty@16"
+    },
+    {
+      "name": "_CertStrToNameA@28"
+    },
+    {
+      "name": "_CertStrToNameW@28"
+    },
+    {
+      "name": "_CertUnregisterPhysicalStore@12"
+    },
+    {
+      "name": "_CertUnregisterSystemStore@8"
+    },
+    {
+      "name": "_CertVerifyCRLRevocation@16"
+    },
+    {
+      "name": "_CertVerifyCRLTimeValidity@8"
+    },
+    {
+      "name": "_CertVerifyCTLUsage@28"
+    },
+    {
+      "name": "_CertVerifyCertificateChainPolicy@16"
+    },
+    {
+      "name": "_CertVerifyRevocation@28"
+    },
+    {
+      "name": "_CertVerifySubjectCertificateContext@12"
+    },
+    {
+      "name": "_CertVerifyTimeValidity@8"
+    },
+    {
+      "name": "_CertVerifyValidityNesting@8"
+    },
+    {
+      "name": "_CryptAcquireCertificatePrivateKey@24"
+    },
+    {
+      "name": "_CryptBinaryToStringA@20"
+    },
+    {
+      "name": "_CryptBinaryToStringW@20"
+    },
+    {
+      "name": "_CryptCloseAsyncHandle@4"
+    },
+    {
+      "name": "_CryptCreateAsyncHandle@8"
+    },
+    {
+      "name": "_CryptCreateKeyIdentifierFromCSP@32"
+    },
+    {
+      "name": "_CryptDecodeMessage@52"
+    },
+    {
+      "name": "_CryptDecodeObject@28"
+    },
+    {
+      "name": "_CryptDecodeObjectEx@32"
+    },
+    {
+      "name": "_CryptDecryptAndVerifyMessageSignature@36"
+    },
+    {
+      "name": "_CryptDecryptMessage@24"
+    },
+    {
+      "name": "_CryptEncodeObject@20"
+    },
+    {
+      "name": "_CryptEncodeObjectEx@28"
+    },
+    {
+      "name": "_CryptEncryptMessage@28"
+    },
+    {
+      "name": "_CryptEnumKeyIdentifierProperties@28"
+    },
+    {
+      "name": "_CryptEnumOIDFunction@24"
+    },
+    {
+      "name": "_CryptEnumOIDInfo@16"
+    },
+    {
+      "name": "_CryptExportPKCS8@28"
+    },
+    {
+      "name": "_CryptExportPublicKeyInfo@20"
+    },
+    {
+      "name": "_CryptExportPublicKeyInfoEx@32"
+    },
+    {
+      "name": "_CryptExportPublicKeyInfoFromBCryptKeyHandle@28"
+    },
+    {
+      "name": "_CryptFindCertificateKeyProvInfo@12"
+    },
+    {
+      "name": "_CryptFindLocalizedName@4"
+    },
+    {
+      "name": "_CryptFindOIDInfo@12"
+    },
+    {
+      "name": "_CryptFormatObject@36"
+    },
+    {
+      "name": "_CryptFreeOIDFunctionAddress@8"
+    },
+    {
+      "name": "_CryptGetAsyncParam@16"
+    },
+    {
+      "name": "_CryptGetDefaultOIDDllList@16"
+    },
+    {
+      "name": "_CryptGetDefaultOIDFunctionAddress@24"
+    },
+    {
+      "name": "_CryptGetKeyIdentifierProperty@28"
+    },
+    {
+      "name": "_CryptGetMessageCertificates@20"
+    },
+    {
+      "name": "_CryptGetMessageSignerCount@12"
+    },
+    {
+      "name": "_CryptGetOIDFunctionAddress@24"
+    },
+    {
+      "name": "_CryptGetOIDFunctionValue@28"
+    },
+    {
+      "name": "_CryptHashCertificate2@28"
+    },
+    {
+      "name": "_CryptHashCertificate@28"
+    },
+    {
+      "name": "_CryptHashMessage@36"
+    },
+    {
+      "name": "_CryptHashPublicKeyInfo@28"
+    },
+    {
+      "name": "_CryptHashToBeSigned@24"
+    },
+    {
+      "name": "_CryptImportPKCS8@36"
+    },
+    {
+      "name": "_CryptImportPublicKeyInfo@16"
+    },
+    {
+      "name": "_CryptImportPublicKeyInfoEx2@20"
+    },
+    {
+      "name": "_CryptImportPublicKeyInfoEx@28"
+    },
+    {
+      "name": "_CryptInitOIDFunctionSet@8"
+    },
+    {
+      "name": "_CryptInstallDefaultContext@24"
+    },
+    {
+      "name": "_CryptInstallOIDFunctionAddress@24"
+    },
+    {
+      "name": "_CryptLoadSip@12"
+    },
+    {
+      "name": "_CryptMemAlloc@4"
+    },
+    {
+      "name": "_CryptMemFree@4"
+    },
+    {
+      "name": "_CryptMemRealloc@8"
+    },
+    {
+      "name": "_CryptMsgCalculateEncodedLength@24"
+    },
+    {
+      "name": "_CryptMsgClose@4"
+    },
+    {
+      "name": "_CryptMsgControl@16"
+    },
+    {
+      "name": "_CryptMsgCountersign@16"
+    },
+    {
+      "name": "_CryptMsgCountersignEncoded@28"
+    },
+    {
+      "name": "_CryptMsgDuplicate@4"
+    },
+    {
+      "name": "_CryptMsgEncodeAndSignCTL@24"
+    },
+    {
+      "name": "_CryptMsgGetAndVerifySigner@24"
+    },
+    {
+      "name": "_CryptMsgGetParam@20"
+    },
+    {
+      "name": "_CryptMsgOpenToDecode@24"
+    },
+    {
+      "name": "_CryptMsgOpenToEncode@24"
+    },
+    {
+      "name": "_CryptMsgSignCTL@28"
+    },
+    {
+      "name": "_CryptMsgUpdate@16"
+    },
+    {
+      "name": "_CryptMsgVerifyCountersignatureEncoded@28"
+    },
+    {
+      "name": "_CryptMsgVerifyCountersignatureEncodedEx@40"
+    },
+    {
+      "name": "_CryptProtectData@28"
+    },
+    {
+      "name": "_CryptProtectMemory@12"
+    },
+    {
+      "name": "_CryptQueryObject@44"
+    },
+    {
+      "name": "_CryptRegisterDefaultOIDFunction@16"
+    },
+    {
+      "name": "_CryptRegisterOIDFunction@20"
+    },
+    {
+      "name": "_CryptRegisterOIDInfo@8"
+    },
+    {
+      "name": "_CryptRetrieveTimeStamp@40"
+    },
+    {
+      "name": "_CryptSIPAddProvider@4"
+    },
+    {
+      "name": "_CryptSIPCreateIndirectData@12"
+    },
+    {
+      "name": "_CryptSIPGetCaps@8"
+    },
+    {
+      "name": "_CryptSIPGetSealedDigest@20"
+    },
+    {
+      "name": "_CryptSIPGetSignedDataMsg@20"
+    },
+    {
+      "name": "_CryptSIPLoad@12"
+    },
+    {
+      "name": "_CryptSIPPutSignedDataMsg@20"
+    },
+    {
+      "name": "_CryptSIPRemoveProvider@4"
+    },
+    {
+      "name": "_CryptSIPRemoveSignedDataMsg@8"
+    },
+    {
+      "name": "_CryptSIPRetrieveSubjectGuid@12"
+    },
+    {
+      "name": "_CryptSIPRetrieveSubjectGuidForCatalogFile@12"
+    },
+    {
+      "name": "_CryptSIPVerifyIndirectData@8"
+    },
+    {
+      "name": "_CryptSetAsyncParam@16"
+    },
+    {
+      "name": "_CryptSetKeyIdentifierProperty@24"
+    },
+    {
+      "name": "_CryptSetOIDFunctionValue@28"
+    },
+    {
+      "name": "_CryptSignAndEncodeCertificate@36"
+    },
+    {
+      "name": "_CryptSignAndEncryptMessage@32"
+    },
+    {
+      "name": "_CryptSignCertificate@36"
+    },
+    {
+      "name": "_CryptSignMessage@28"
+    },
+    {
+      "name": "_CryptSignMessageWithKey@20"
+    },
+    {
+      "name": "_CryptStringToBinaryA@28"
+    },
+    {
+      "name": "_CryptStringToBinaryW@28"
+    },
+    {
+      "name": "_CryptUninstallDefaultContext@12"
+    },
+    {
+      "name": "_CryptUnprotectData@28"
+    },
+    {
+      "name": "_CryptUnprotectMemory@12"
+    },
+    {
+      "name": "_CryptUnregisterDefaultOIDFunction@12"
+    },
+    {
+      "name": "_CryptUnregisterOIDFunction@12"
+    },
+    {
+      "name": "_CryptUnregisterOIDInfo@4"
+    },
+    {
+      "name": "_CryptUpdateProtectedState@20"
+    },
+    {
+      "name": "_CryptVerifyCertificateSignature@20"
+    },
+    {
+      "name": "_CryptVerifyCertificateSignatureEx@32"
+    },
+    {
+      "name": "_CryptVerifyDetachedMessageHash@32"
+    },
+    {
+      "name": "_CryptVerifyDetachedMessageSignature@32"
+    },
+    {
+      "name": "_CryptVerifyMessageHash@28"
+    },
+    {
+      "name": "_CryptVerifyMessageSignature@28"
+    },
+    {
+      "name": "_CryptVerifyMessageSignatureWithKey@24"
+    },
+    {
+      "name": "_CryptVerifyTimeStampSignature@32"
+    },
+    {
+      "name": "_DbgInitOSS@4",
+      "ordinal": 1001
+    },
+    {
+      "name": "_DbgPrintf",
+      "ordinal": 1002
+    },
+    {
+      "name": "_PFXExportCertStore2@16"
+    },
+    {
+      "name": "_PFXExportCertStore@16"
+    },
+    {
+      "name": "_PFXExportCertStoreEx@20"
+    },
+    {
+      "name": "_PFXImportCertStore@12"
+    },
+    {
+      "name": "_PFXIsPFXBlob@4"
+    },
+    {
+      "name": "_PFXVerifyPassword@12"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 34322,
+      "name": "__IMPORT_DESCRIPTOR_CRYPT32"
+    },
+    {
+      "offset": 34876,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 35186,
+      "name": "CRYPT32_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 62764,
+      "name": "_CryptVerifyCertificateSignatureEx@32"
+    },
+    {
+      "offset": 62764,
+      "name": "__imp__CryptVerifyCertificateSignatureEx@32"
+    },
+    {
+      "offset": 58162,
+      "name": "_CryptMsgVerifyCountersignatureEncodedEx@40"
+    },
+    {
+      "offset": 58162,
+      "name": "__imp__CryptMsgVerifyCountersignatureEncodedEx@40"
+    },
+    {
+      "offset": 51828,
+      "name": "_CryptEncodeObject@20"
+    },
+    {
+      "offset": 51828,
+      "name": "__imp__CryptEncodeObject@20"
+    },
+    {
+      "offset": 51348,
+      "name": "_CryptDecodeObject@28"
+    },
+    {
+      "offset": 51348,
+      "name": "__imp__CryptDecodeObject@28"
+    },
+    {
+      "offset": 51942,
+      "name": "_CryptEncodeObjectEx@28"
+    },
+    {
+      "offset": 51942,
+      "name": "__imp__CryptEncodeObjectEx@28"
+    },
+    {
+      "offset": 51462,
+      "name": "_CryptDecodeObjectEx@32"
+    },
+    {
+      "offset": 51462,
+      "name": "__imp__CryptDecodeObjectEx@32"
+    },
+    {
+      "offset": 53396,
+      "name": "_CryptFormatObject@36"
+    },
+    {
+      "offset": 53396,
+      "name": "__imp__CryptFormatObject@36"
+    },
+    {
+      "offset": 58528,
+      "name": "_CryptQueryObject@44"
+    },
+    {
+      "offset": 58528,
+      "name": "__imp__CryptQueryObject@44"
+    },
+    {
+      "offset": 55692,
+      "name": "_CryptInitOIDFunctionSet@8"
+    },
+    {
+      "offset": 55692,
+      "name": "__imp__CryptInitOIDFunctionSet@8"
+    },
+    {
+      "offset": 55936,
+      "name": "_CryptInstallOIDFunctionAddress@24"
+    },
+    {
+      "offset": 55936,
+      "name": "__imp__CryptInstallOIDFunctionAddress@24"
+    },
+    {
+      "offset": 54376,
+      "name": "_CryptGetOIDFunctionAddress@24"
+    },
+    {
+      "offset": 54376,
+      "name": "__imp__CryptGetOIDFunctionAddress@24"
+    },
+    {
+      "offset": 53750,
+      "name": "_CryptGetDefaultOIDDllList@16"
+    },
+    {
+      "offset": 53750,
+      "name": "__imp__CryptGetDefaultOIDDllList@16"
+    },
+    {
+      "offset": 53872,
+      "name": "_CryptGetDefaultOIDFunctionAddress@24"
+    },
+    {
+      "offset": 53872,
+      "name": "__imp__CryptGetDefaultOIDFunctionAddress@24"
+    },
+    {
+      "offset": 53510,
+      "name": "_CryptFreeOIDFunctionAddress@8"
+    },
+    {
+      "offset": 53510,
+      "name": "__imp__CryptFreeOIDFunctionAddress@8"
+    },
+    {
+      "offset": 60822,
+      "name": "_CryptSetOIDFunctionValue@28"
+    },
+    {
+      "offset": 60822,
+      "name": "__imp__CryptSetOIDFunctionValue@28"
+    },
+    {
+      "offset": 54500,
+      "name": "_CryptGetOIDFunctionValue@28"
+    },
+    {
+      "offset": 54500,
+      "name": "__imp__CryptGetOIDFunctionValue@28"
+    },
+    {
+      "offset": 58770,
+      "name": "_CryptRegisterOIDFunction@20"
+    },
+    {
+      "offset": 58770,
+      "name": "__imp__CryptRegisterOIDFunction@20"
+    },
+    {
+      "offset": 62272,
+      "name": "_CryptUnregisterOIDFunction@12"
+    },
+    {
+      "offset": 62272,
+      "name": "__imp__CryptUnregisterOIDFunction@12"
+    },
+    {
+      "offset": 58642,
+      "name": "_CryptRegisterDefaultOIDFunction@16"
+    },
+    {
+      "offset": 58642,
+      "name": "__imp__CryptRegisterDefaultOIDFunction@16"
+    },
+    {
+      "offset": 62142,
+      "name": "_CryptUnregisterDefaultOIDFunction@12"
+    },
+    {
+      "offset": 62142,
+      "name": "__imp__CryptUnregisterDefaultOIDFunction@12"
+    },
+    {
+      "offset": 53282,
+      "name": "_CryptFindOIDInfo@12"
+    },
+    {
+      "offset": 53282,
+      "name": "__imp__CryptFindOIDInfo@12"
+    },
+    {
+      "offset": 52422,
+      "name": "_CryptEnumOIDInfo@16"
+    },
+    {
+      "offset": 52422,
+      "name": "__imp__CryptEnumOIDInfo@16"
+    },
+    {
+      "offset": 58892,
+      "name": "_CryptRegisterOIDInfo@8"
+    },
+    {
+      "offset": 58892,
+      "name": "__imp__CryptRegisterOIDInfo@8"
+    },
+    {
+      "offset": 62396,
+      "name": "_CryptUnregisterOIDInfo@4"
+    },
+    {
+      "offset": 62396,
+      "name": "__imp__CryptUnregisterOIDInfo@4"
+    },
+    {
+      "offset": 52304,
+      "name": "_CryptEnumOIDFunction@24"
+    },
+    {
+      "offset": 52304,
+      "name": "__imp__CryptEnumOIDFunction@24"
+    },
+    {
+      "offset": 53164,
+      "name": "_CryptFindLocalizedName@4"
+    },
+    {
+      "offset": 53164,
+      "name": "__imp__CryptFindLocalizedName@4"
+    },
+    {
+      "offset": 50012,
+      "name": "_CertVerifyRevocation@28"
+    },
+    {
+      "offset": 50012,
+      "name": "__imp__CertVerifyRevocation@28"
+    },
+    {
+      "offset": 56064,
+      "name": "_CryptLoadSip@12"
+    },
+    {
+      "offset": 56064,
+      "name": "__imp__CryptLoadSip@12"
+    },
+    {
+      "offset": 59722,
+      "name": "_CryptSIPLoad@12"
+    },
+    {
+      "offset": 59722,
+      "name": "__imp__CryptSIPLoad@12"
+    },
+    {
+      "offset": 60196,
+      "name": "_CryptSIPRetrieveSubjectGuid@12"
+    },
+    {
+      "offset": 60196,
+      "name": "__imp__CryptSIPRetrieveSubjectGuid@12"
+    },
+    {
+      "offset": 60320,
+      "name": "_CryptSIPRetrieveSubjectGuidForCatalogFile@12"
+    },
+    {
+      "offset": 60320,
+      "name": "__imp__CryptSIPRetrieveSubjectGuidForCatalogFile@12"
+    },
+    {
+      "offset": 59128,
+      "name": "_CryptSIPAddProvider@4"
+    },
+    {
+      "offset": 59128,
+      "name": "__imp__CryptSIPAddProvider@4"
+    },
+    {
+      "offset": 59954,
+      "name": "_CryptSIPRemoveProvider@4"
+    },
+    {
+      "offset": 59954,
+      "name": "__imp__CryptSIPRemoveProvider@4"
+    },
+    {
+      "offset": 59832,
+      "name": "_CryptSIPPutSignedDataMsg@20"
+    },
+    {
+      "offset": 59832,
+      "name": "__imp__CryptSIPPutSignedDataMsg@20"
+    },
+    {
+      "offset": 59600,
+      "name": "_CryptSIPGetSignedDataMsg@20"
+    },
+    {
+      "offset": 59600,
+      "name": "__imp__CryptSIPGetSignedDataMsg@20"
+    },
+    {
+      "offset": 60072,
+      "name": "_CryptSIPRemoveSignedDataMsg@8"
+    },
+    {
+      "offset": 60072,
+      "name": "__imp__CryptSIPRemoveSignedDataMsg@8"
+    },
+    {
+      "offset": 59244,
+      "name": "_CryptSIPCreateIndirectData@12"
+    },
+    {
+      "offset": 59244,
+      "name": "__imp__CryptSIPCreateIndirectData@12"
+    },
+    {
+      "offset": 60458,
+      "name": "_CryptSIPVerifyIndirectData@8"
+    },
+    {
+      "offset": 60458,
+      "name": "__imp__CryptSIPVerifyIndirectData@8"
+    },
+    {
+      "offset": 59368,
+      "name": "_CryptSIPGetCaps@8"
+    },
+    {
+      "offset": 59368,
+      "name": "__imp__CryptSIPGetCaps@8"
+    },
+    {
+      "offset": 59480,
+      "name": "_CryptSIPGetSealedDigest@20"
+    },
+    {
+      "offset": 59480,
+      "name": "__imp__CryptSIPGetSealedDigest@20"
+    },
+    {
+      "offset": 46348,
+      "name": "_CertOpenStore@20"
+    },
+    {
+      "offset": 46348,
+      "name": "__imp__CertOpenStore@20"
+    },
+    {
+      "offset": 37776,
+      "name": "_CertCloseStore@8"
+    },
+    {
+      "offset": 37776,
+      "name": "__imp__CertCloseStore@8"
+    },
+    {
+      "offset": 47678,
+      "name": "_CertSaveStore@24"
+    },
+    {
+      "offset": 47678,
+      "name": "__imp__CertSaveStore@24"
+    },
+    {
+      "offset": 40218,
+      "name": "_CertDuplicateStore@4"
+    },
+    {
+      "offset": 40218,
+      "name": "__imp__CertDuplicateStore@4"
+    },
+    {
+      "offset": 36504,
+      "name": "_CertAddEncodedCertificateToStore@24"
+    },
+    {
+      "offset": 36504,
+      "name": "__imp__CertAddEncodedCertificateToStore@24"
+    },
+    {
+      "offset": 36004,
+      "name": "_CertAddCertificateContextToStore@16"
+    },
+    {
+      "offset": 36004,
+      "name": "__imp__CertAddCertificateContextToStore@16"
+    },
+    {
+      "offset": 36260,
+      "name": "_CertAddEncodedCRLToStore@24"
+    },
+    {
+      "offset": 36260,
+      "name": "__imp__CertAddEncodedCRLToStore@24"
+    },
+    {
+      "offset": 35524,
+      "name": "_CertAddCRLContextToStore@16"
+    },
+    {
+      "offset": 35524,
+      "name": "__imp__CertAddCRLContextToStore@16"
+    },
+    {
+      "offset": 39598,
+      "name": "_CertDeleteCertificateFromStore@4"
+    },
+    {
+      "offset": 39598,
+      "name": "__imp__CertDeleteCertificateFromStore@4"
+    },
+    {
+      "offset": 39362,
+      "name": "_CertDeleteCRLFromStore@4"
+    },
+    {
+      "offset": 39362,
+      "name": "__imp__CertDeleteCRLFromStore@4"
+    },
+    {
+      "offset": 40944,
+      "name": "_CertEnumCertificatesInStore@8"
+    },
+    {
+      "offset": 40944,
+      "name": "__imp__CertEnumCertificatesInStore@8"
+    },
+    {
+      "offset": 42018,
+      "name": "_CertFindCertificateInStore@24"
+    },
+    {
+      "offset": 42018,
+      "name": "__imp__CertFindCertificateInStore@24"
+    },
+    {
+      "offset": 45156,
+      "name": "_CertGetSubjectCertificateFromStore@12"
+    },
+    {
+      "offset": 45156,
+      "name": "__imp__CertGetSubjectCertificateFromStore@12"
+    },
+    {
+      "offset": 43700,
+      "name": "_CertGetCRLFromStore@16"
+    },
+    {
+      "offset": 43700,
+      "name": "__imp__CertGetCRLFromStore@16"
+    },
+    {
+      "offset": 40456,
+      "name": "_CertEnumCRLsInStore@8"
+    },
+    {
+      "offset": 40456,
+      "name": "__imp__CertEnumCRLsInStore@8"
+    },
+    {
+      "offset": 41664,
+      "name": "_CertFindCRLInStore@24"
+    },
+    {
+      "offset": 41664,
+      "name": "__imp__CertFindCRLInStore@24"
+    },
+    {
+      "offset": 44428,
+      "name": "_CertGetIssuerCertificateFromStore@16"
+    },
+    {
+      "offset": 44428,
+      "name": "__imp__CertGetIssuerCertificateFromStore@16"
+    },
+    {
+      "offset": 50130,
+      "name": "_CertVerifySubjectCertificateContext@12"
+    },
+    {
+      "offset": 50130,
+      "name": "__imp__CertVerifySubjectCertificateContext@12"
+    },
+    {
+      "offset": 38996,
+      "name": "_CertCreateCertificateContext@12"
+    },
+    {
+      "offset": 38996,
+      "name": "__imp__CertCreateCertificateContext@12"
+    },
+    {
+      "offset": 40090,
+      "name": "_CertDuplicateCertificateContext@4"
+    },
+    {
+      "offset": 40090,
+      "name": "__imp__CertDuplicateCertificateContext@4"
+    },
+    {
+      "offset": 48686,
+      "name": "_CertSetCertificateContextProperty@16"
+    },
+    {
+      "offset": 48686,
+      "name": "__imp__CertSetCertificateContextProperty@16"
+    },
+    {
+      "offset": 44058,
+      "name": "_CertGetCertificateContextProperty@16"
+    },
+    {
+      "offset": 44058,
+      "name": "__imp__CertGetCertificateContextProperty@16"
+    },
+    {
+      "offset": 43326,
+      "name": "_CertFreeCertificateContext@4"
+    },
+    {
+      "offset": 43326,
+      "name": "__imp__CertFreeCertificateContext@4"
+    },
+    {
+      "offset": 38484,
+      "name": "_CertCreateCRLContext@12"
+    },
+    {
+      "offset": 38484,
+      "name": "__imp__CertCreateCRLContext@12"
+    },
+    {
+      "offset": 39724,
+      "name": "_CertDuplicateCRLContext@4"
+    },
+    {
+      "offset": 39724,
+      "name": "__imp__CertDuplicateCRLContext@4"
+    },
+    {
+      "offset": 42728,
+      "name": "_CertFreeCRLContext@4"
+    },
+    {
+      "offset": 42728,
+      "name": "__imp__CertFreeCRLContext@4"
+    },
+    {
+      "offset": 48298,
+      "name": "_CertSetCRLContextProperty@16"
+    },
+    {
+      "offset": 48298,
+      "name": "__imp__CertSetCRLContextProperty@16"
+    },
+    {
+      "offset": 43578,
+      "name": "_CertGetCRLContextProperty@16"
+    },
+    {
+      "offset": 43578,
+      "name": "__imp__CertGetCRLContextProperty@16"
+    },
+    {
+      "offset": 37292,
+      "name": "_CertAddSerializedElementToStore@32"
+    },
+    {
+      "offset": 37292,
+      "name": "__imp__CertAddSerializedElementToStore@32"
+    },
+    {
+      "offset": 48164,
+      "name": "_CertSerializeCertificateStoreElement@16"
+    },
+    {
+      "offset": 48164,
+      "name": "__imp__CertSerializeCertificateStoreElement@16"
+    },
+    {
+      "offset": 47912,
+      "name": "_CertSerializeCRLStoreElement@16"
+    },
+    {
+      "offset": 47912,
+      "name": "__imp__CertSerializeCRLStoreElement@16"
+    },
+    {
+      "offset": 40812,
+      "name": "_CertEnumCertificateContextProperties@8"
+    },
+    {
+      "offset": 40812,
+      "name": "__imp__CertEnumCertificateContextProperties@8"
+    },
+    {
+      "offset": 38720,
+      "name": "_CertCreateCTLEntryFromCertificateContextProperties@28"
+    },
+    {
+      "offset": 38720,
+      "name": "__imp__CertCreateCTLEntryFromCertificateContextProperties@28"
+    },
+    {
+      "offset": 48542,
+      "name": "_CertSetCertificateContextPropertiesFromCTLEntry@12"
+    },
+    {
+      "offset": 48542,
+      "name": "__imp__CertSetCertificateContextPropertiesFromCTLEntry@12"
+    },
+    {
+      "offset": 40332,
+      "name": "_CertEnumCRLContextProperties@8"
+    },
+    {
+      "offset": 40332,
+      "name": "__imp__CertEnumCRLContextProperties@8"
+    },
+    {
+      "offset": 39844,
+      "name": "_CertDuplicateCTLContext@4"
+    },
+    {
+      "offset": 39844,
+      "name": "__imp__CertDuplicateCTLContext@4"
+    },
+    {
+      "offset": 38602,
+      "name": "_CertCreateCTLContext@12"
+    },
+    {
+      "offset": 38602,
+      "name": "__imp__CertCreateCTLContext@12"
+    },
+    {
+      "offset": 42842,
+      "name": "_CertFreeCTLContext@4"
+    },
+    {
+      "offset": 42842,
+      "name": "__imp__CertFreeCTLContext@4"
+    },
+    {
+      "offset": 48420,
+      "name": "_CertSetCTLContextProperty@16"
+    },
+    {
+      "offset": 48420,
+      "name": "__imp__CertSetCTLContextProperty@16"
+    },
+    {
+      "offset": 43816,
+      "name": "_CertGetCTLContextProperty@16"
+    },
+    {
+      "offset": 43816,
+      "name": "__imp__CertGetCTLContextProperty@16"
+    },
+    {
+      "offset": 40572,
+      "name": "_CertEnumCTLContextProperties@8"
+    },
+    {
+      "offset": 40572,
+      "name": "__imp__CertEnumCTLContextProperties@8"
+    },
+    {
+      "offset": 40696,
+      "name": "_CertEnumCTLsInStore@8"
+    },
+    {
+      "offset": 40696,
+      "name": "__imp__CertEnumCTLsInStore@8"
+    },
+    {
+      "offset": 42486,
+      "name": "_CertFindSubjectInCTL@20"
+    },
+    {
+      "offset": 42486,
+      "name": "__imp__CertFindSubjectInCTL@20"
+    },
+    {
+      "offset": 41780,
+      "name": "_CertFindCTLInStore@24"
+    },
+    {
+      "offset": 41780,
+      "name": "__imp__CertFindCTLInStore@24"
+    },
+    {
+      "offset": 36382,
+      "name": "_CertAddEncodedCTLToStore@24"
+    },
+    {
+      "offset": 36382,
+      "name": "__imp__CertAddEncodedCTLToStore@24"
+    },
+    {
+      "offset": 35764,
+      "name": "_CertAddCTLContextToStore@16"
+    },
+    {
+      "offset": 35764,
+      "name": "__imp__CertAddCTLContextToStore@16"
+    },
+    {
+      "offset": 48038,
+      "name": "_CertSerializeCTLStoreElement@16"
+    },
+    {
+      "offset": 48038,
+      "name": "__imp__CertSerializeCTLStoreElement@16"
+    },
+    {
+      "offset": 39480,
+      "name": "_CertDeleteCTLFromStore@4"
+    },
+    {
+      "offset": 39480,
+      "name": "__imp__CertDeleteCTLFromStore@4"
+    },
+    {
+      "offset": 49766,
+      "name": "_CertVerifyCTLUsage@28"
+    },
+    {
+      "offset": 49766,
+      "name": "__imp__CertVerifyCTLUsage@28"
+    },
+    {
+      "offset": 39122,
+      "name": "_CertCreateContext@24"
+    },
+    {
+      "offset": 39122,
+      "name": "__imp__CertCreateContext@24"
+    },
+    {
+      "offset": 42604,
+      "name": "_CertFindSubjectInSortedCTL@20"
+    },
+    {
+      "offset": 42604,
+      "name": "__imp__CertFindSubjectInSortedCTL@20"
+    },
+    {
+      "offset": 41186,
+      "name": "_CertEnumSubjectInSortedCTL@16"
+    },
+    {
+      "offset": 41186,
+      "name": "__imp__CertEnumSubjectInSortedCTL@16"
+    },
+    {
+      "offset": 41896,
+      "name": "_CertFindCertificateInCRL@20"
+    },
+    {
+      "offset": 41896,
+      "name": "__imp__CertFindCertificateInCRL@20"
+    },
+    {
+      "offset": 45652,
+      "name": "_CertIsValidCRLForCertificate@16"
+    },
+    {
+      "offset": 45652,
+      "name": "__imp__CertIsValidCRLForCertificate@16"
+    },
+    {
+      "offset": 38370,
+      "name": "_CertControlStore@16"
+    },
+    {
+      "offset": 38370,
+      "name": "__imp__CertControlStore@16"
+    },
+    {
+      "offset": 37420,
+      "name": "_CertAddStoreToCollection@16"
+    },
+    {
+      "offset": 37420,
+      "name": "__imp__CertAddStoreToCollection@16"
+    },
+    {
+      "offset": 47296,
+      "name": "_CertRemoveStoreFromCollection@8"
+    },
+    {
+      "offset": 47296,
+      "name": "__imp__CertRemoveStoreFromCollection@8"
+    },
+    {
+      "offset": 36134,
+      "name": "_CertAddCertificateLinkToStore@16"
+    },
+    {
+      "offset": 36134,
+      "name": "__imp__CertAddCertificateLinkToStore@16"
+    },
+    {
+      "offset": 35646,
+      "name": "_CertAddCRLLinkToStore@16"
+    },
+    {
+      "offset": 35646,
+      "name": "__imp__CertAddCRLLinkToStore@16"
+    },
+    {
+      "offset": 35886,
+      "name": "_CertAddCTLLinkToStore@16"
+    },
+    {
+      "offset": 35886,
+      "name": "__imp__CertAddCTLLinkToStore@16"
+    },
+    {
+      "offset": 48936,
+      "name": "_CertSetStoreProperty@16"
+    },
+    {
+      "offset": 48936,
+      "name": "__imp__CertSetStoreProperty@16"
+    },
+    {
+      "offset": 45038,
+      "name": "_CertGetStoreProperty@16"
+    },
+    {
+      "offset": 45038,
+      "name": "__imp__CertGetStoreProperty@16"
+    },
+    {
+      "offset": 47044,
+      "name": "_CertRegisterSystemStore@16"
+    },
+    {
+      "offset": 47044,
+      "name": "__imp__CertRegisterSystemStore@16"
+    },
+    {
+      "offset": 46922,
+      "name": "_CertRegisterPhysicalStore@20"
+    },
+    {
+      "offset": 46922,
+      "name": "__imp__CertRegisterPhysicalStore@20"
+    },
+    {
+      "offset": 49402,
+      "name": "_CertUnregisterSystemStore@8"
+    },
+    {
+      "offset": 49402,
+      "name": "__imp__CertUnregisterSystemStore@8"
+    },
+    {
+      "offset": 49278,
+      "name": "_CertUnregisterPhysicalStore@12"
+    },
+    {
+      "offset": 49278,
+      "name": "__imp__CertUnregisterPhysicalStore@12"
+    },
+    {
+      "offset": 41426,
+      "name": "_CertEnumSystemStoreLocation@12"
+    },
+    {
+      "offset": 41426,
+      "name": "__imp__CertEnumSystemStoreLocation@12"
+    },
+    {
+      "offset": 41310,
+      "name": "_CertEnumSystemStore@16"
+    },
+    {
+      "offset": 41310,
+      "name": "__imp__CertEnumSystemStore@16"
+    },
+    {
+      "offset": 41068,
+      "name": "_CertEnumPhysicalStore@16"
+    },
+    {
+      "offset": 41068,
+      "name": "__imp__CertEnumPhysicalStore@16"
+    },
+    {
+      "offset": 44188,
+      "name": "_CertGetEnhancedKeyUsage@16"
+    },
+    {
+      "offset": 44188,
+      "name": "__imp__CertGetEnhancedKeyUsage@16"
+    },
+    {
+      "offset": 48816,
+      "name": "_CertSetEnhancedKeyUsage@8"
+    },
+    {
+      "offset": 48816,
+      "name": "__imp__CertSetEnhancedKeyUsage@8"
+    },
+    {
+      "offset": 36906,
+      "name": "_CertAddEnhancedKeyUsageIdentifier@8"
+    },
+    {
+      "offset": 36906,
+      "name": "__imp__CertAddEnhancedKeyUsageIdentifier@8"
+    },
+    {
+      "offset": 47164,
+      "name": "_CertRemoveEnhancedKeyUsageIdentifier@8"
+    },
+    {
+      "offset": 47164,
+      "name": "__imp__CertRemoveEnhancedKeyUsageIdentifier@8"
+    },
+    {
+      "offset": 45288,
+      "name": "_CertGetValidUsages@20"
+    },
+    {
+      "offset": 45288,
+      "name": "__imp__CertGetValidUsages@20"
+    },
+    {
+      "offset": 39236,
+      "name": "_CertCreateSelfSignCertificate@32"
+    },
+    {
+      "offset": 39236,
+      "name": "__imp__CertCreateSelfSignCertificate@32"
+    },
+    {
+      "offset": 57330,
+      "name": "_CryptMsgGetAndVerifySigner@24"
+    },
+    {
+      "offset": 57330,
+      "name": "__imp__CryptMsgGetAndVerifySigner@24"
+    },
+    {
+      "offset": 57804,
+      "name": "_CryptMsgSignCTL@28"
+    },
+    {
+      "offset": 57804,
+      "name": "__imp__CryptMsgSignCTL@28"
+    },
+    {
+      "offset": 57208,
+      "name": "_CryptMsgEncodeAndSignCTL@24"
+    },
+    {
+      "offset": 57208,
+      "name": "__imp__CryptMsgEncodeAndSignCTL@24"
+    },
+    {
+      "offset": 46458,
+      "name": "_CertOpenSystemStoreA@8"
+    },
+    {
+      "offset": 46458,
+      "name": "__imp__CertOpenSystemStoreA@8"
+    },
+    {
+      "offset": 46574,
+      "name": "_CertOpenSystemStoreW@8"
+    },
+    {
+      "offset": 46574,
+      "name": "__imp__CertOpenSystemStoreW@8"
+    },
+    {
+      "offset": 36634,
+      "name": "_CertAddEncodedCertificateToSystemStoreA@12"
+    },
+    {
+      "offset": 36634,
+      "name": "__imp__CertAddEncodedCertificateToSystemStoreA@12"
+    },
+    {
+      "offset": 36770,
+      "name": "_CertAddEncodedCertificateToSystemStoreW@12"
+    },
+    {
+      "offset": 36770,
+      "name": "__imp__CertAddEncodedCertificateToSystemStoreW@12"
+    },
+    {
+      "offset": 55322,
+      "name": "_CryptImportPublicKeyInfo@16"
+    },
+    {
+      "offset": 55322,
+      "name": "__imp__CryptImportPublicKeyInfo@16"
+    },
+    {
+      "offset": 52650,
+      "name": "_CryptExportPublicKeyInfo@20"
+    },
+    {
+      "offset": 52650,
+      "name": "__imp__CryptExportPublicKeyInfo@20"
+    },
+    {
+      "offset": 54740,
+      "name": "_CryptHashCertificate@28"
+    },
+    {
+      "offset": 54740,
+      "name": "__imp__CryptHashCertificate@28"
+    },
+    {
+      "offset": 54622,
+      "name": "_CryptHashCertificate2@28"
+    },
+    {
+      "offset": 54622,
+      "name": "__imp__CryptHashCertificate2@28"
+    },
+    {
+      "offset": 55092,
+      "name": "_CryptHashToBeSigned@24"
+    },
+    {
+      "offset": 55092,
+      "name": "__imp__CryptHashToBeSigned@24"
+    },
+    {
+      "offset": 54972,
+      "name": "_CryptHashPublicKeyInfo@28"
+    },
+    {
+      "offset": 54972,
+      "name": "__imp__CryptHashPublicKeyInfo@28"
+    },
+    {
+      "offset": 61194,
+      "name": "_CryptSignCertificate@36"
+    },
+    {
+      "offset": 61194,
+      "name": "__imp__CryptSignCertificate@36"
+    },
+    {
+      "offset": 60944,
+      "name": "_CryptSignAndEncodeCertificate@36"
+    },
+    {
+      "offset": 60944,
+      "name": "__imp__CryptSignAndEncodeCertificate@36"
+    },
+    {
+      "offset": 62636,
+      "name": "_CryptVerifyCertificateSignature@20"
+    },
+    {
+      "offset": 62636,
+      "name": "__imp__CryptVerifyCertificateSignature@20"
+    },
+    {
+      "offset": 55812,
+      "name": "_CryptInstallDefaultContext@24"
+    },
+    {
+      "offset": 55812,
+      "name": "__imp__CryptInstallDefaultContext@24"
+    },
+    {
+      "offset": 61782,
+      "name": "_CryptUninstallDefaultContext@12"
+    },
+    {
+      "offset": 61782,
+      "name": "__imp__CryptUninstallDefaultContext@12"
+    },
+    {
+      "offset": 55568,
+      "name": "_CryptImportPublicKeyInfoEx@28"
+    },
+    {
+      "offset": 55568,
+      "name": "__imp__CryptImportPublicKeyInfoEx@28"
+    },
+    {
+      "offset": 55444,
+      "name": "_CryptImportPublicKeyInfoEx2@20"
+    },
+    {
+      "offset": 55444,
+      "name": "__imp__CryptImportPublicKeyInfoEx2@20"
+    },
+    {
+      "offset": 52772,
+      "name": "_CryptExportPublicKeyInfoEx@32"
+    },
+    {
+      "offset": 52772,
+      "name": "__imp__CryptExportPublicKeyInfoEx@32"
+    },
+    {
+      "offset": 52896,
+      "name": "_CryptExportPublicKeyInfoFromBCryptKeyHandle@28"
+    },
+    {
+      "offset": 52896,
+      "name": "__imp__CryptExportPublicKeyInfoFromBCryptKeyHandle@28"
+    },
+    {
+      "offset": 50502,
+      "name": "_CryptAcquireCertificatePrivateKey@24"
+    },
+    {
+      "offset": 50502,
+      "name": "__imp__CryptAcquireCertificatePrivateKey@24"
+    },
+    {
+      "offset": 53036,
+      "name": "_CryptFindCertificateKeyProvInfo@12"
+    },
+    {
+      "offset": 53036,
+      "name": "__imp__CryptFindCertificateKeyProvInfo@12"
+    },
+    {
+      "offset": 54002,
+      "name": "_CryptGetKeyIdentifierProperty@28"
+    },
+    {
+      "offset": 54002,
+      "name": "__imp__CryptGetKeyIdentifierProperty@28"
+    },
+    {
+      "offset": 60696,
+      "name": "_CryptSetKeyIdentifierProperty@24"
+    },
+    {
+      "offset": 60696,
+      "name": "__imp__CryptSetKeyIdentifierProperty@24"
+    },
+    {
+      "offset": 52174,
+      "name": "_CryptEnumKeyIdentifierProperties@28"
+    },
+    {
+      "offset": 52174,
+      "name": "__imp__CryptEnumKeyIdentifierProperties@28"
+    },
+    {
+      "offset": 51104,
+      "name": "_CryptCreateKeyIdentifierFromCSP@32"
+    },
+    {
+      "offset": 51104,
+      "name": "__imp__CryptCreateKeyIdentifierFromCSP@32"
+    },
+    {
+      "offset": 55208,
+      "name": "_CryptImportPKCS8@36"
+    },
+    {
+      "offset": 55208,
+      "name": "__imp__CryptImportPKCS8@36"
+    },
+    {
+      "offset": 52536,
+      "name": "_CryptExportPKCS8@28"
+    },
+    {
+      "offset": 52536,
+      "name": "__imp__CryptExportPKCS8@28"
+    },
+    {
+      "offset": 38130,
+      "name": "_CertCompareIntegerBlob@8"
+    },
+    {
+      "offset": 38130,
+      "name": "__imp__CertCompareIntegerBlob@8"
+    },
+    {
+      "offset": 37886,
+      "name": "_CertCompareCertificate@12"
+    },
+    {
+      "offset": 37886,
+      "name": "__imp__CertCompareCertificate@12"
+    },
+    {
+      "offset": 38006,
+      "name": "_CertCompareCertificateName@12"
+    },
+    {
+      "offset": 38006,
+      "name": "__imp__CertCompareCertificateName@12"
+    },
+    {
+      "offset": 45404,
+      "name": "_CertIsRDNAttrsInCertificateName@16"
+    },
+    {
+      "offset": 45404,
+      "name": "__imp__CertIsRDNAttrsInCertificateName@16"
+    },
+    {
+      "offset": 38248,
+      "name": "_CertComparePublicKeyInfo@12"
+    },
+    {
+      "offset": 38248,
+      "name": "__imp__CertComparePublicKeyInfo@12"
+    },
+    {
+      "offset": 44790,
+      "name": "_CertGetPublicKeyLength@8"
+    },
+    {
+      "offset": 44790,
+      "name": "__imp__CertGetPublicKeyLength@8"
+    },
+    {
+      "offset": 50262,
+      "name": "_CertVerifyTimeValidity@8"
+    },
+    {
+      "offset": 50262,
+      "name": "__imp__CertVerifyTimeValidity@8"
+    },
+    {
+      "offset": 49644,
+      "name": "_CertVerifyCRLTimeValidity@8"
+    },
+    {
+      "offset": 49644,
+      "name": "__imp__CertVerifyCRLTimeValidity@8"
+    },
+    {
+      "offset": 50380,
+      "name": "_CertVerifyValidityNesting@8"
+    },
+    {
+      "offset": 50380,
+      "name": "__imp__CertVerifyValidityNesting@8"
+    },
+    {
+      "offset": 49524,
+      "name": "_CertVerifyCRLRevocation@16"
+    },
+    {
+      "offset": 49524,
+      "name": "__imp__CertVerifyCRLRevocation@16"
+    },
+    {
+      "offset": 37542,
+      "name": "_CertAlgIdToOID@4"
+    },
+    {
+      "offset": 37542,
+      "name": "__imp__CertAlgIdToOID@4"
+    },
+    {
+      "offset": 46114,
+      "name": "_CertOIDToAlgId@4"
+    },
+    {
+      "offset": 46114,
+      "name": "__imp__CertOIDToAlgId@4"
+    },
+    {
+      "offset": 42260,
+      "name": "_CertFindExtension@12"
+    },
+    {
+      "offset": 42260,
+      "name": "__imp__CertFindExtension@12"
+    },
+    {
+      "offset": 41550,
+      "name": "_CertFindAttribute@12"
+    },
+    {
+      "offset": 41550,
+      "name": "__imp__CertFindAttribute@12"
+    },
+    {
+      "offset": 42374,
+      "name": "_CertFindRDNAttr@8"
+    },
+    {
+      "offset": 42374,
+      "name": "__imp__CertFindRDNAttr@8"
+    },
+    {
+      "offset": 44308,
+      "name": "_CertGetIntendedKeyUsage@16"
+    },
+    {
+      "offset": 44308,
+      "name": "__imp__CertGetIntendedKeyUsage@16"
+    },
+    {
+      "offset": 46690,
+      "name": "_CertRDNValueToStrA@16"
+    },
+    {
+      "offset": 46690,
+      "name": "__imp__CertRDNValueToStrA@16"
+    },
+    {
+      "offset": 46806,
+      "name": "_CertRDNValueToStrW@16"
+    },
+    {
+      "offset": 46806,
+      "name": "__imp__CertRDNValueToStrW@16"
+    },
+    {
+      "offset": 45890,
+      "name": "_CertNameToStrA@20"
+    },
+    {
+      "offset": 45890,
+      "name": "__imp__CertNameToStrA@20"
+    },
+    {
+      "offset": 46002,
+      "name": "_CertNameToStrW@20"
+    },
+    {
+      "offset": 46002,
+      "name": "__imp__CertNameToStrW@20"
+    },
+    {
+      "offset": 49054,
+      "name": "_CertStrToNameA@28"
+    },
+    {
+      "offset": 49054,
+      "name": "__imp__CertStrToNameA@28"
+    },
+    {
+      "offset": 49166,
+      "name": "_CertStrToNameW@28"
+    },
+    {
+      "offset": 49166,
+      "name": "__imp__CertStrToNameW@28"
+    },
+    {
+      "offset": 44558,
+      "name": "_CertGetNameStringA@24"
+    },
+    {
+      "offset": 44558,
+      "name": "__imp__CertGetNameStringA@24"
+    },
+    {
+      "offset": 44674,
+      "name": "_CertGetNameStringW@24"
+    },
+    {
+      "offset": 44674,
+      "name": "__imp__CertGetNameStringW@24"
+    },
+    {
+      "offset": 52058,
+      "name": "_CryptEncryptMessage@28"
+    },
+    {
+      "offset": 52058,
+      "name": "__imp__CryptEncryptMessage@28"
+    },
+    {
+      "offset": 51712,
+      "name": "_CryptDecryptMessage@24"
+    },
+    {
+      "offset": 51712,
+      "name": "__imp__CryptDecryptMessage@24"
+    },
+    {
+      "offset": 61312,
+      "name": "_CryptSignMessage@28"
+    },
+    {
+      "offset": 61312,
+      "name": "__imp__CryptSignMessage@28"
+    },
+    {
+      "offset": 63274,
+      "name": "_CryptVerifyMessageSignature@28"
+    },
+    {
+      "offset": 63274,
+      "name": "__imp__CryptVerifyMessageSignature@28"
+    },
+    {
+      "offset": 54252,
+      "name": "_CryptGetMessageSignerCount@12"
+    },
+    {
+      "offset": 54252,
+      "name": "__imp__CryptGetMessageSignerCount@12"
+    },
+    {
+      "offset": 54128,
+      "name": "_CryptGetMessageCertificates@20"
+    },
+    {
+      "offset": 54128,
+      "name": "__imp__CryptGetMessageCertificates@20"
+    },
+    {
+      "offset": 61070,
+      "name": "_CryptSignAndEncryptMessage@32"
+    },
+    {
+      "offset": 61070,
+      "name": "__imp__CryptSignAndEncryptMessage@32"
+    },
+    {
+      "offset": 51578,
+      "name": "_CryptDecryptAndVerifyMessageSignature@36"
+    },
+    {
+      "offset": 51578,
+      "name": "__imp__CryptDecryptAndVerifyMessageSignature@36"
+    },
+    {
+      "offset": 54858,
+      "name": "_CryptHashMessage@36"
+    },
+    {
+      "offset": 54858,
+      "name": "__imp__CryptHashMessage@36"
+    },
+    {
+      "offset": 63154,
+      "name": "_CryptVerifyMessageHash@28"
+    },
+    {
+      "offset": 63154,
+      "name": "__imp__CryptVerifyMessageHash@28"
+    },
+    {
+      "offset": 61426,
+      "name": "_CryptSignMessageWithKey@20"
+    },
+    {
+      "offset": 61426,
+      "name": "__imp__CryptSignMessageWithKey@20"
+    },
+    {
+      "offset": 63398,
+      "name": "_CryptVerifyMessageSignatureWithKey@24"
+    },
+    {
+      "offset": 63398,
+      "name": "__imp__CryptVerifyMessageSignatureWithKey@24"
+    },
+    {
+      "offset": 62894,
+      "name": "_CryptVerifyDetachedMessageHash@32"
+    },
+    {
+      "offset": 62894,
+      "name": "__imp__CryptVerifyDetachedMessageHash@32"
+    },
+    {
+      "offset": 63022,
+      "name": "_CryptVerifyDetachedMessageSignature@32"
+    },
+    {
+      "offset": 63022,
+      "name": "__imp__CryptVerifyDetachedMessageSignature@32"
+    },
+    {
+      "offset": 51232,
+      "name": "_CryptDecodeMessage@52"
+    },
+    {
+      "offset": 51232,
+      "name": "__imp__CryptDecodeMessage@52"
+    },
+    {
+      "offset": 56504,
+      "name": "_CryptMsgCalculateEncodedLength@24"
+    },
+    {
+      "offset": 56504,
+      "name": "__imp__CryptMsgCalculateEncodedLength@24"
+    },
+    {
+      "offset": 56632,
+      "name": "_CryptMsgClose@4"
+    },
+    {
+      "offset": 56632,
+      "name": "__imp__CryptMsgClose@4"
+    },
+    {
+      "offset": 57094,
+      "name": "_CryptMsgDuplicate@4"
+    },
+    {
+      "offset": 57094,
+      "name": "__imp__CryptMsgDuplicate@4"
+    },
+    {
+      "offset": 57454,
+      "name": "_CryptMsgGetParam@20"
+    },
+    {
+      "offset": 57454,
+      "name": "__imp__CryptMsgGetParam@20"
+    },
+    {
+      "offset": 57568,
+      "name": "_CryptMsgOpenToDecode@24"
+    },
+    {
+      "offset": 57568,
+      "name": "__imp__CryptMsgOpenToDecode@24"
+    },
+    {
+      "offset": 57686,
+      "name": "_CryptMsgOpenToEncode@24"
+    },
+    {
+      "offset": 57686,
+      "name": "__imp__CryptMsgOpenToEncode@24"
+    },
+    {
+      "offset": 57916,
+      "name": "_CryptMsgUpdate@16"
+    },
+    {
+      "offset": 57916,
+      "name": "__imp__CryptMsgUpdate@16"
+    },
+    {
+      "offset": 56742,
+      "name": "_CryptMsgControl@16"
+    },
+    {
+      "offset": 56742,
+      "name": "__imp__CryptMsgControl@16"
+    },
+    {
+      "offset": 56854,
+      "name": "_CryptMsgCountersign@16"
+    },
+    {
+      "offset": 56854,
+      "name": "__imp__CryptMsgCountersign@16"
+    },
+    {
+      "offset": 56970,
+      "name": "_CryptMsgCountersignEncoded@28"
+    },
+    {
+      "offset": 56970,
+      "name": "__imp__CryptMsgCountersignEncoded@28"
+    },
+    {
+      "offset": 58028,
+      "name": "_CryptMsgVerifyCountersignatureEncoded@28"
+    },
+    {
+      "offset": 58028,
+      "name": "__imp__CryptMsgVerifyCountersignatureEncoded@28"
+    },
+    {
+      "offset": 64216,
+      "name": "_PFXImportCertStore@12"
+    },
+    {
+      "offset": 64216,
+      "name": "__imp__PFXImportCertStore@12"
+    },
+    {
+      "offset": 63982,
+      "name": "_PFXExportCertStore@16"
+    },
+    {
+      "offset": 63982,
+      "name": "__imp__PFXExportCertStore@16"
+    },
+    {
+      "offset": 64332,
+      "name": "_PFXIsPFXBlob@4"
+    },
+    {
+      "offset": 64332,
+      "name": "__imp__PFXIsPFXBlob@4"
+    },
+    {
+      "offset": 64098,
+      "name": "_PFXExportCertStoreEx@20"
+    },
+    {
+      "offset": 64098,
+      "name": "__imp__PFXExportCertStoreEx@20"
+    },
+    {
+      "offset": 64440,
+      "name": "_PFXVerifyPassword@12"
+    },
+    {
+      "offset": 64440,
+      "name": "__imp__PFXVerifyPassword@12"
+    },
+    {
+      "offset": 63866,
+      "name": "_PFXExportCertStore2@16"
+    },
+    {
+      "offset": 63866,
+      "name": "__imp__PFXExportCertStore2@16"
+    },
+    {
+      "offset": 56174,
+      "name": "_CryptMemAlloc@4"
+    },
+    {
+      "offset": 56174,
+      "name": "__imp__CryptMemAlloc@4"
+    },
+    {
+      "offset": 56392,
+      "name": "_CryptMemRealloc@8"
+    },
+    {
+      "offset": 56392,
+      "name": "__imp__CryptMemRealloc@8"
+    },
+    {
+      "offset": 56284,
+      "name": "_CryptMemFree@4"
+    },
+    {
+      "offset": 56284,
+      "name": "__imp__CryptMemFree@4"
+    },
+    {
+      "offset": 50986,
+      "name": "_CryptCreateAsyncHandle@8"
+    },
+    {
+      "offset": 50986,
+      "name": "__imp__CryptCreateAsyncHandle@8"
+    },
+    {
+      "offset": 60580,
+      "name": "_CryptSetAsyncParam@16"
+    },
+    {
+      "offset": 60580,
+      "name": "__imp__CryptSetAsyncParam@16"
+    },
+    {
+      "offset": 53634,
+      "name": "_CryptGetAsyncParam@16"
+    },
+    {
+      "offset": 53634,
+      "name": "__imp__CryptGetAsyncParam@16"
+    },
+    {
+      "offset": 50868,
+      "name": "_CryptCloseAsyncHandle@4"
+    },
+    {
+      "offset": 50868,
+      "name": "__imp__CryptCloseAsyncHandle@4"
+    },
+    {
+      "offset": 38868,
+      "name": "_CertCreateCertificateChainEngine@8"
+    },
+    {
+      "offset": 38868,
+      "name": "__imp__CertCreateCertificateChainEngine@8"
+    },
+    {
+      "offset": 43076,
+      "name": "_CertFreeCertificateChainEngine@4"
+    },
+    {
+      "offset": 43076,
+      "name": "__imp__CertFreeCertificateChainEngine@4"
+    },
+    {
+      "offset": 47422,
+      "name": "_CertResyncCertificateChainEngine@4"
+    },
+    {
+      "offset": 47422,
+      "name": "__imp__CertResyncCertificateChainEngine@4"
+    },
+    {
+      "offset": 43938,
+      "name": "_CertGetCertificateChain@32"
+    },
+    {
+      "offset": 43938,
+      "name": "__imp__CertGetCertificateChain@32"
+    },
+    {
+      "offset": 42956,
+      "name": "_CertFreeCertificateChain@4"
+    },
+    {
+      "offset": 42956,
+      "name": "__imp__CertFreeCertificateChain@4"
+    },
+    {
+      "offset": 39964,
+      "name": "_CertDuplicateCertificateChain@4"
+    },
+    {
+      "offset": 39964,
+      "name": "__imp__CertDuplicateCertificateChain@4"
+    },
+    {
+      "offset": 42142,
+      "name": "_CertFindChainInStore@24"
+    },
+    {
+      "offset": 42142,
+      "name": "__imp__CertFindChainInStore@24"
+    },
+    {
+      "offset": 49882,
+      "name": "_CertVerifyCertificateChainPolicy@16"
+    },
+    {
+      "offset": 49882,
+      "name": "__imp__CertVerifyCertificateChainPolicy@16"
+    },
+    {
+      "offset": 58298,
+      "name": "_CryptProtectData@28"
+    },
+    {
+      "offset": 58298,
+      "name": "__imp__CryptProtectData@28"
+    },
+    {
+      "offset": 61908,
+      "name": "_CryptUnprotectData@28"
+    },
+    {
+      "offset": 61908,
+      "name": "__imp__CryptUnprotectData@28"
+    },
+    {
+      "offset": 58412,
+      "name": "_CryptProtectMemory@12"
+    },
+    {
+      "offset": 58412,
+      "name": "__imp__CryptProtectMemory@12"
+    },
+    {
+      "offset": 62024,
+      "name": "_CryptUnprotectMemory@12"
+    },
+    {
+      "offset": 62024,
+      "name": "__imp__CryptUnprotectMemory@12"
+    },
+    {
+      "offset": 62514,
+      "name": "_CryptUpdateProtectedState@20"
+    },
+    {
+      "offset": 62514,
+      "name": "__imp__CryptUpdateProtectedState@20"
+    },
+    {
+      "offset": 61546,
+      "name": "_CryptStringToBinaryA@28"
+    },
+    {
+      "offset": 61546,
+      "name": "__imp__CryptStringToBinaryA@28"
+    },
+    {
+      "offset": 61664,
+      "name": "_CryptStringToBinaryW@28"
+    },
+    {
+      "offset": 61664,
+      "name": "__imp__CryptStringToBinaryW@28"
+    },
+    {
+      "offset": 50632,
+      "name": "_CryptBinaryToStringA@20"
+    },
+    {
+      "offset": 50632,
+      "name": "__imp__CryptBinaryToStringA@20"
+    },
+    {
+      "offset": 50750,
+      "name": "_CryptBinaryToStringW@20"
+    },
+    {
+      "offset": 50750,
+      "name": "__imp__CryptBinaryToStringW@20"
+    },
+    {
+      "offset": 46224,
+      "name": "_CertOpenServerOcspResponse@12"
+    },
+    {
+      "offset": 46224,
+      "name": "__imp__CertOpenServerOcspResponse@12"
+    },
+    {
+      "offset": 37036,
+      "name": "_CertAddRefServerOcspResponse@4"
+    },
+    {
+      "offset": 37036,
+      "name": "__imp__CertAddRefServerOcspResponse@4"
+    },
+    {
+      "offset": 37652,
+      "name": "_CertCloseServerOcspResponse@8"
+    },
+    {
+      "offset": 37652,
+      "name": "__imp__CertCloseServerOcspResponse@8"
+    },
+    {
+      "offset": 44908,
+      "name": "_CertGetServerOcspResponseContext@12"
+    },
+    {
+      "offset": 44908,
+      "name": "__imp__CertGetServerOcspResponseContext@12"
+    },
+    {
+      "offset": 37160,
+      "name": "_CertAddRefServerOcspResponseContext@4"
+    },
+    {
+      "offset": 37160,
+      "name": "__imp__CertAddRefServerOcspResponseContext@4"
+    },
+    {
+      "offset": 43448,
+      "name": "_CertFreeServerOcspResponseContext@4"
+    },
+    {
+      "offset": 43448,
+      "name": "__imp__CertFreeServerOcspResponseContext@4"
+    },
+    {
+      "offset": 47550,
+      "name": "_CertRetrieveLogoOrBiometricInfo@36"
+    },
+    {
+      "offset": 47550,
+      "name": "__imp__CertRetrieveLogoOrBiometricInfo@36"
+    },
+    {
+      "offset": 47788,
+      "name": "_CertSelectCertificateChains@32"
+    },
+    {
+      "offset": 47788,
+      "name": "__imp__CertSelectCertificateChains@32"
+    },
+    {
+      "offset": 43202,
+      "name": "_CertFreeCertificateChainList@4"
+    },
+    {
+      "offset": 43202,
+      "name": "__imp__CertFreeCertificateChainList@4"
+    },
+    {
+      "offset": 59008,
+      "name": "_CryptRetrieveTimeStamp@40"
+    },
+    {
+      "offset": 59008,
+      "name": "__imp__CryptRetrieveTimeStamp@40"
+    },
+    {
+      "offset": 63530,
+      "name": "_CryptVerifyTimeStampSignature@32"
+    },
+    {
+      "offset": 63530,
+      "name": "__imp__CryptVerifyTimeStampSignature@32"
+    },
+    {
+      "offset": 45532,
+      "name": "_CertIsStrongHashToSign@12"
+    },
+    {
+      "offset": 45532,
+      "name": "__imp__CertIsStrongHashToSign@12"
+    },
+    {
+      "offset": 45778,
+      "name": "_CertIsWeakHash@24"
+    },
+    {
+      "offset": 45778,
+      "name": "__imp__CertIsWeakHash@24"
+    },
+    {
+      "offset": 63656,
+      "name": "_DbgInitOSS@4"
+    },
+    {
+      "offset": 63656,
+      "name": "__imp__DbgInitOSS@4"
+    },
+    {
+      "offset": 63762,
+      "name": "_DbgPrintf"
+    },
+    {
+      "offset": 63762,
+      "name": "__imp__DbgPrintf"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 35524,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3706505292,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddCRLContextToStore@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "CertAddCRLContextToStore"
+    },
+    {
+      "offset": 35646,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4045701870,
+      "sizeOfData": 38,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddCRLLinkToStore@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "CertAddCRLLinkToStore"
+    },
+    {
+      "offset": 35764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3876754183,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddCTLContextToStore@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "CertAddCTLContextToStore"
+    },
+    {
+      "offset": 35886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4075814291,
+      "sizeOfData": 38,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddCTLLinkToStore@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "CertAddCTLLinkToStore"
+    },
+    {
+      "offset": 36004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3767775631,
+      "sizeOfData": 49,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddCertificateContextToStore@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "CertAddCertificateContextToStore"
+    },
+    {
+      "offset": 36134,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3395514394,
+      "sizeOfData": 46,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddCertificateLinkToStore@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "CertAddCertificateLinkToStore"
+    },
+    {
+      "offset": 36260,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4076590444,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddEncodedCRLToStore@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "CertAddEncodedCRLToStore"
+    },
+    {
+      "offset": 36382,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4068682838,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddEncodedCTLToStore@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "CertAddEncodedCTLToStore"
+    },
+    {
+      "offset": 36504,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3619476854,
+      "sizeOfData": 49,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddEncodedCertificateToStore@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "CertAddEncodedCertificateToStore"
+    },
+    {
+      "offset": 36634,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3621091138,
+      "sizeOfData": 56,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddEncodedCertificateToSystemStoreA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "CertAddEncodedCertificateToSystemStoreA"
+    },
+    {
+      "offset": 36770,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3689053440,
+      "sizeOfData": 56,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddEncodedCertificateToSystemStoreW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "CertAddEncodedCertificateToSystemStoreW"
+    },
+    {
+      "offset": 36906,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3376499933,
+      "sizeOfData": 49,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddEnhancedKeyUsageIdentifier@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "CertAddEnhancedKeyUsageIdentifier"
+    },
+    {
+      "offset": 37036,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3871414205,
+      "sizeOfData": 44,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddRefServerOcspResponse@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "CertAddRefServerOcspResponse"
+    },
+    {
+      "offset": 37160,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3274441385,
+      "sizeOfData": 51,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddRefServerOcspResponseContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "CertAddRefServerOcspResponseContext"
+    },
+    {
+      "offset": 37292,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3695122673,
+      "sizeOfData": 48,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddSerializedElementToStore@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "CertAddSerializedElementToStore"
+    },
+    {
+      "offset": 37420,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3950648197,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAddStoreToCollection@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "CertAddStoreToCollection"
+    },
+    {
+      "offset": 37542,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3976833755,
+      "sizeOfData": 30,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertAlgIdToOID@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "CertAlgIdToOID"
+    },
+    {
+      "offset": 37652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3613627708,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertCloseServerOcspResponse@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "CertCloseServerOcspResponse"
+    },
+    {
+      "offset": 37776,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3278393969,
+      "sizeOfData": 30,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertCloseStore@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "CertCloseStore"
+    },
+    {
+      "offset": 37886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3431116847,
+      "sizeOfData": 39,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertCompareCertificate@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "CertCompareCertificate"
+    },
+    {
+      "offset": 38006,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3996576362,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertCompareCertificateName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "CertCompareCertificateName"
+    },
+    {
+      "offset": 38130,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4130633709,
+      "sizeOfData": 38,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertCompareIntegerBlob@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "CertCompareIntegerBlob"
+    },
+    {
+      "offset": 38248,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4058418964,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertComparePublicKeyInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "CertComparePublicKeyInfo"
+    },
+    {
+      "offset": 38370,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3329840829,
+      "sizeOfData": 33,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertControlStore@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "CertControlStore"
+    },
+    {
+      "offset": 38484,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3708252677,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertCreateCRLContext@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "CertCreateCRLContext"
+    },
+    {
+      "offset": 38602,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3871309623,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertCreateCTLContext@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "CertCreateCTLContext"
+    },
+    {
+      "offset": 38720,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4126568718,
+      "sizeOfData": 67,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertCreateCTLEntryFromCertificateContextProperties@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "CertCreateCTLEntryFromCertificateContextProperties"
+    },
+    {
+      "offset": 38868,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4053713293,
+      "sizeOfData": 48,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertCreateCertificateChainEngine@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "CertCreateCertificateChainEngine"
+    },
+    {
+      "offset": 38996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3409927153,
+      "sizeOfData": 45,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertCreateCertificateContext@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "CertCreateCertificateContext"
+    },
+    {
+      "offset": 39122,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3237176281,
+      "sizeOfData": 34,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertCreateContext@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "CertCreateContext"
+    },
+    {
+      "offset": 39236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3894563847,
+      "sizeOfData": 46,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertCreateSelfSignCertificate@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "CertCreateSelfSignCertificate"
+    },
+    {
+      "offset": 39362,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4062939632,
+      "sizeOfData": 38,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertDeleteCRLFromStore@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "CertDeleteCRLFromStore"
+    },
+    {
+      "offset": 39480,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3397523906,
+      "sizeOfData": 38,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertDeleteCTLFromStore@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "CertDeleteCTLFromStore"
+    },
+    {
+      "offset": 39598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3651782073,
+      "sizeOfData": 46,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertDeleteCertificateFromStore@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "CertDeleteCertificateFromStore"
+    },
+    {
+      "offset": 39724,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3512856448,
+      "sizeOfData": 39,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertDuplicateCRLContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "CertDuplicateCRLContext"
+    },
+    {
+      "offset": 39844,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4041459114,
+      "sizeOfData": 39,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertDuplicateCTLContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "CertDuplicateCTLContext"
+    },
+    {
+      "offset": 39964,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3382973502,
+      "sizeOfData": 45,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertDuplicateCertificateChain@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "CertDuplicateCertificateChain"
+    },
+    {
+      "offset": 40090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4263201275,
+      "sizeOfData": 47,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertDuplicateCertificateContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "CertDuplicateCertificateContext"
+    },
+    {
+      "offset": 40218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3794632170,
+      "sizeOfData": 34,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertDuplicateStore@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "CertDuplicateStore"
+    },
+    {
+      "offset": 40332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3488314765,
+      "sizeOfData": 44,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertEnumCRLContextProperties@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "CertEnumCRLContextProperties"
+    },
+    {
+      "offset": 40456,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3276167539,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertEnumCRLsInStore@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "CertEnumCRLsInStore"
+    },
+    {
+      "offset": 40572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3998954984,
+      "sizeOfData": 44,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertEnumCTLContextProperties@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "CertEnumCTLContextProperties"
+    },
+    {
+      "offset": 40696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4271915086,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertEnumCTLsInStore@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "CertEnumCTLsInStore"
+    },
+    {
+      "offset": 40812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4186051069,
+      "sizeOfData": 52,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertEnumCertificateContextProperties@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "CertEnumCertificateContextProperties"
+    },
+    {
+      "offset": 40944,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3999441652,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertEnumCertificatesInStore@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "CertEnumCertificatesInStore"
+    },
+    {
+      "offset": 41068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3853828327,
+      "sizeOfData": 38,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertEnumPhysicalStore@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "CertEnumPhysicalStore"
+    },
+    {
+      "offset": 41186,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3273638106,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertEnumSubjectInSortedCTL@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "CertEnumSubjectInSortedCTL"
+    },
+    {
+      "offset": 41310,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4253093885,
+      "sizeOfData": 36,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertEnumSystemStore@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "CertEnumSystemStore"
+    },
+    {
+      "offset": 41426,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3245942165,
+      "sizeOfData": 44,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertEnumSystemStoreLocation@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "CertEnumSystemStoreLocation"
+    },
+    {
+      "offset": 41550,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3266518339,
+      "sizeOfData": 34,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFindAttribute@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "CertFindAttribute"
+    },
+    {
+      "offset": 41664,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3753193998,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFindCRLInStore@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "CertFindCRLInStore"
+    },
+    {
+      "offset": 41780,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3585323243,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFindCTLInStore@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "CertFindCTLInStore"
+    },
+    {
+      "offset": 41896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3672488241,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFindCertificateInCRL@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "CertFindCertificateInCRL"
+    },
+    {
+      "offset": 42018,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4125218499,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFindCertificateInStore@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "CertFindCertificateInStore"
+    },
+    {
+      "offset": 42142,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3400887584,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFindChainInStore@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "CertFindChainInStore"
+    },
+    {
+      "offset": 42260,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3338760158,
+      "sizeOfData": 34,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFindExtension@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "CertFindExtension"
+    },
+    {
+      "offset": 42374,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4154917394,
+      "sizeOfData": 31,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFindRDNAttr@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "CertFindRDNAttr"
+    },
+    {
+      "offset": 42486,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3319311176,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFindSubjectInCTL@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "CertFindSubjectInCTL"
+    },
+    {
+      "offset": 42604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3539713161,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFindSubjectInSortedCTL@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "CertFindSubjectInSortedCTL"
+    },
+    {
+      "offset": 42728,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4185726217,
+      "sizeOfData": 34,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFreeCRLContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "CertFreeCRLContext"
+    },
+    {
+      "offset": 42842,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3851261020,
+      "sizeOfData": 34,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFreeCTLContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "CertFreeCTLContext"
+    },
+    {
+      "offset": 42956,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4128721652,
+      "sizeOfData": 40,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFreeCertificateChain@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "CertFreeCertificateChain"
+    },
+    {
+      "offset": 43076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3528800176,
+      "sizeOfData": 46,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFreeCertificateChainEngine@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "CertFreeCertificateChainEngine"
+    },
+    {
+      "offset": 43202,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3972491313,
+      "sizeOfData": 44,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFreeCertificateChainList@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "CertFreeCertificateChainList"
+    },
+    {
+      "offset": 43326,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4007868073,
+      "sizeOfData": 42,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFreeCertificateContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "CertFreeCertificateContext"
+    },
+    {
+      "offset": 43448,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4154889382,
+      "sizeOfData": 49,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertFreeServerOcspResponseContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "CertFreeServerOcspResponseContext"
+    },
+    {
+      "offset": 43578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3991479801,
+      "sizeOfData": 42,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetCRLContextProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "CertGetCRLContextProperty"
+    },
+    {
+      "offset": 43700,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3468439861,
+      "sizeOfData": 36,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetCRLFromStore@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "CertGetCRLFromStore"
+    },
+    {
+      "offset": 43816,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3316748760,
+      "sizeOfData": 42,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetCTLContextProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "CertGetCTLContextProperty"
+    },
+    {
+      "offset": 43938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3358703853,
+      "sizeOfData": 40,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetCertificateChain@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "CertGetCertificateChain"
+    },
+    {
+      "offset": 44058,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3364552394,
+      "sizeOfData": 50,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetCertificateContextProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "CertGetCertificateContextProperty"
+    },
+    {
+      "offset": 44188,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3937469082,
+      "sizeOfData": 40,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetEnhancedKeyUsage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "CertGetEnhancedKeyUsage"
+    },
+    {
+      "offset": 44308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3677881208,
+      "sizeOfData": 40,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetIntendedKeyUsage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "CertGetIntendedKeyUsage"
+    },
+    {
+      "offset": 44428,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3333480501,
+      "sizeOfData": 50,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetIssuerCertificateFromStore@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "CertGetIssuerCertificateFromStore"
+    },
+    {
+      "offset": 44558,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4108880106,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetNameStringA@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "CertGetNameStringA"
+    },
+    {
+      "offset": 44674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3311996418,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetNameStringW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "CertGetNameStringW"
+    },
+    {
+      "offset": 44790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3478559619,
+      "sizeOfData": 38,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetPublicKeyLength@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "CertGetPublicKeyLength"
+    },
+    {
+      "offset": 44908,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3356039926,
+      "sizeOfData": 49,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetServerOcspResponseContext@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "CertGetServerOcspResponseContext"
+    },
+    {
+      "offset": 45038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3709313240,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetStoreProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "CertGetStoreProperty"
+    },
+    {
+      "offset": 45156,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4113417837,
+      "sizeOfData": 51,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetSubjectCertificateFromStore@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "CertGetSubjectCertificateFromStore"
+    },
+    {
+      "offset": 45288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3484516213,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertGetValidUsages@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "CertGetValidUsages"
+    },
+    {
+      "offset": 45404,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3420490892,
+      "sizeOfData": 48,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertIsRDNAttrsInCertificateName@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "CertIsRDNAttrsInCertificateName"
+    },
+    {
+      "offset": 45532,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3824749379,
+      "sizeOfData": 39,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertIsStrongHashToSign@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "CertIsStrongHashToSign"
+    },
+    {
+      "offset": 45652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4231480363,
+      "sizeOfData": 45,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertIsValidCRLForCertificate@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "CertIsValidCRLForCertificate"
+    },
+    {
+      "offset": 45778,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3254562221,
+      "sizeOfData": 31,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertIsWeakHash@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "CertIsWeakHash"
+    },
+    {
+      "offset": 45890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4130644380,
+      "sizeOfData": 31,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertNameToStrA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "CertNameToStrA"
+    },
+    {
+      "offset": 46002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3759615261,
+      "sizeOfData": 31,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertNameToStrW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "CertNameToStrW"
+    },
+    {
+      "offset": 46114,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3303303276,
+      "sizeOfData": 30,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertOIDToAlgId@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "CertOIDToAlgId"
+    },
+    {
+      "offset": 46224,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3987335149,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertOpenServerOcspResponse@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "CertOpenServerOcspResponse"
+    },
+    {
+      "offset": 46348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3946035798,
+      "sizeOfData": 30,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertOpenStore@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "CertOpenStore"
+    },
+    {
+      "offset": 46458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3555740679,
+      "sizeOfData": 36,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertOpenSystemStoreA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "CertOpenSystemStoreA"
+    },
+    {
+      "offset": 46574,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3249816530,
+      "sizeOfData": 36,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertOpenSystemStoreW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "CertOpenSystemStoreW"
+    },
+    {
+      "offset": 46690,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3701671715,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertRDNValueToStrA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "CertRDNValueToStrA"
+    },
+    {
+      "offset": 46806,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3565128709,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertRDNValueToStrW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "CertRDNValueToStrW"
+    },
+    {
+      "offset": 46922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3311391999,
+      "sizeOfData": 42,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertRegisterPhysicalStore@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "CertRegisterPhysicalStore"
+    },
+    {
+      "offset": 47044,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3671651679,
+      "sizeOfData": 40,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertRegisterSystemStore@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "CertRegisterSystemStore"
+    },
+    {
+      "offset": 47164,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3263857281,
+      "sizeOfData": 52,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertRemoveEnhancedKeyUsageIdentifier@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "CertRemoveEnhancedKeyUsageIdentifier"
+    },
+    {
+      "offset": 47296,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4082015090,
+      "sizeOfData": 45,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertRemoveStoreFromCollection@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "CertRemoveStoreFromCollection"
+    },
+    {
+      "offset": 47422,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3904797497,
+      "sizeOfData": 48,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertResyncCertificateChainEngine@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "CertResyncCertificateChainEngine"
+    },
+    {
+      "offset": 47550,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3778901723,
+      "sizeOfData": 48,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertRetrieveLogoOrBiometricInfo@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "CertRetrieveLogoOrBiometricInfo"
+    },
+    {
+      "offset": 47678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3690941768,
+      "sizeOfData": 30,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertSaveStore@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "CertSaveStore"
+    },
+    {
+      "offset": 47788,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3573342742,
+      "sizeOfData": 44,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertSelectCertificateChains@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "CertSelectCertificateChains"
+    },
+    {
+      "offset": 47912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4132444116,
+      "sizeOfData": 45,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertSerializeCRLStoreElement@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "CertSerializeCRLStoreElement"
+    },
+    {
+      "offset": 48038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3442093262,
+      "sizeOfData": 45,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertSerializeCTLStoreElement@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "CertSerializeCTLStoreElement"
+    },
+    {
+      "offset": 48164,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3693212718,
+      "sizeOfData": 53,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertSerializeCertificateStoreElement@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "CertSerializeCertificateStoreElement"
+    },
+    {
+      "offset": 48298,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3515791839,
+      "sizeOfData": 42,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertSetCRLContextProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "CertSetCRLContextProperty"
+    },
+    {
+      "offset": 48420,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3464793934,
+      "sizeOfData": 42,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertSetCTLContextProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "CertSetCTLContextProperty"
+    },
+    {
+      "offset": 48542,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3865060903,
+      "sizeOfData": 64,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertSetCertificateContextPropertiesFromCTLEntry@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "CertSetCertificateContextPropertiesFromCTLEntry"
+    },
+    {
+      "offset": 48686,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4210561798,
+      "sizeOfData": 50,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertSetCertificateContextProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "CertSetCertificateContextProperty"
+    },
+    {
+      "offset": 48816,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3764196853,
+      "sizeOfData": 39,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertSetEnhancedKeyUsage@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "CertSetEnhancedKeyUsage"
+    },
+    {
+      "offset": 48936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3878053673,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertSetStoreProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "CertSetStoreProperty"
+    },
+    {
+      "offset": 49054,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3400919117,
+      "sizeOfData": 31,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertStrToNameA@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "CertStrToNameA"
+    },
+    {
+      "offset": 49166,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3900820932,
+      "sizeOfData": 31,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertStrToNameW@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "CertStrToNameW"
+    },
+    {
+      "offset": 49278,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4212631762,
+      "sizeOfData": 44,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertUnregisterPhysicalStore@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "CertUnregisterPhysicalStore"
+    },
+    {
+      "offset": 49402,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3457306672,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertUnregisterSystemStore@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "CertUnregisterSystemStore"
+    },
+    {
+      "offset": 49524,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3784786134,
+      "sizeOfData": 40,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertVerifyCRLRevocation@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "CertVerifyCRLRevocation"
+    },
+    {
+      "offset": 49644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3431515033,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertVerifyCRLTimeValidity@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "CertVerifyCRLTimeValidity"
+    },
+    {
+      "offset": 49766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3436722763,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertVerifyCTLUsage@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "CertVerifyCTLUsage"
+    },
+    {
+      "offset": 49882,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4039790998,
+      "sizeOfData": 49,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertVerifyCertificateChainPolicy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "CertVerifyCertificateChainPolicy"
+    },
+    {
+      "offset": 50012,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3343723110,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertVerifyRevocation@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "CertVerifyRevocation"
+    },
+    {
+      "offset": 50130,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3892334899,
+      "sizeOfData": 52,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertVerifySubjectCertificateContext@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "CertVerifySubjectCertificateContext"
+    },
+    {
+      "offset": 50262,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3647810809,
+      "sizeOfData": 38,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertVerifyTimeValidity@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "CertVerifyTimeValidity"
+    },
+    {
+      "offset": 50380,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4066751288,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CertVerifyValidityNesting@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "CertVerifyValidityNesting"
+    },
+    {
+      "offset": 50502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3250421282,
+      "sizeOfData": 50,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptAcquireCertificatePrivateKey@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "CryptAcquireCertificatePrivateKey"
+    },
+    {
+      "offset": 50632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4059837620,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptBinaryToStringA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "CryptBinaryToStringA"
+    },
+    {
+      "offset": 50750,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3891531083,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptBinaryToStringW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "CryptBinaryToStringW"
+    },
+    {
+      "offset": 50868,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4067733426,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptCloseAsyncHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "CryptCloseAsyncHandle"
+    },
+    {
+      "offset": 50986,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4035471603,
+      "sizeOfData": 38,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptCreateAsyncHandle@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "CryptCreateAsyncHandle"
+    },
+    {
+      "offset": 51104,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4038827588,
+      "sizeOfData": 48,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptCreateKeyIdentifierFromCSP@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "CryptCreateKeyIdentifierFromCSP"
+    },
+    {
+      "offset": 51232,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3641867409,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptDecodeMessage@52",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "CryptDecodeMessage"
+    },
+    {
+      "offset": 51348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4054277264,
+      "sizeOfData": 34,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptDecodeObject@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "CryptDecodeObject"
+    },
+    {
+      "offset": 51462,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3687889412,
+      "sizeOfData": 36,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptDecodeObjectEx@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "CryptDecodeObjectEx"
+    },
+    {
+      "offset": 51578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3817633595,
+      "sizeOfData": 54,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptDecryptAndVerifyMessageSignature@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "CryptDecryptAndVerifyMessageSignature"
+    },
+    {
+      "offset": 51712,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3774078720,
+      "sizeOfData": 36,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptDecryptMessage@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "CryptDecryptMessage"
+    },
+    {
+      "offset": 51828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3689872794,
+      "sizeOfData": 34,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptEncodeObject@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "CryptEncodeObject"
+    },
+    {
+      "offset": 51942,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3345816678,
+      "sizeOfData": 36,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptEncodeObjectEx@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "CryptEncodeObjectEx"
+    },
+    {
+      "offset": 52058,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3413278044,
+      "sizeOfData": 36,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptEncryptMessage@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "CryptEncryptMessage"
+    },
+    {
+      "offset": 52174,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3428607363,
+      "sizeOfData": 49,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptEnumKeyIdentifierProperties@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "CryptEnumKeyIdentifierProperties"
+    },
+    {
+      "offset": 52304,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3863451935,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptEnumOIDFunction@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "CryptEnumOIDFunction"
+    },
+    {
+      "offset": 52422,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3615001929,
+      "sizeOfData": 33,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptEnumOIDInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "CryptEnumOIDInfo"
+    },
+    {
+      "offset": 52536,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3984558798,
+      "sizeOfData": 33,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptExportPKCS8@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "CryptExportPKCS8"
+    },
+    {
+      "offset": 52650,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4261619883,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptExportPublicKeyInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "CryptExportPublicKeyInfo"
+    },
+    {
+      "offset": 52772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3830911374,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptExportPublicKeyInfoEx@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "CryptExportPublicKeyInfoEx"
+    },
+    {
+      "offset": 52896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3643357916,
+      "sizeOfData": 60,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptExportPublicKeyInfoFromBCryptKeyHandle@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "CryptExportPublicKeyInfoFromBCryptKeyHandle"
+    },
+    {
+      "offset": 53036,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3449143853,
+      "sizeOfData": 48,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptFindCertificateKeyProvInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "CryptFindCertificateKeyProvInfo"
+    },
+    {
+      "offset": 53164,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3938081674,
+      "sizeOfData": 38,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptFindLocalizedName@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "CryptFindLocalizedName"
+    },
+    {
+      "offset": 53282,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3460474458,
+      "sizeOfData": 33,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptFindOIDInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "CryptFindOIDInfo"
+    },
+    {
+      "offset": 53396,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3458293923,
+      "sizeOfData": 34,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptFormatObject@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "CryptFormatObject"
+    },
+    {
+      "offset": 53510,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4008695838,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptFreeOIDFunctionAddress@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "CryptFreeOIDFunctionAddress"
+    },
+    {
+      "offset": 53634,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3636520530,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptGetAsyncParam@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "CryptGetAsyncParam"
+    },
+    {
+      "offset": 53750,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3749124890,
+      "sizeOfData": 42,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptGetDefaultOIDDllList@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "CryptGetDefaultOIDDllList"
+    },
+    {
+      "offset": 53872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3893015709,
+      "sizeOfData": 50,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptGetDefaultOIDFunctionAddress@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "CryptGetDefaultOIDFunctionAddress"
+    },
+    {
+      "offset": 54002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3642711634,
+      "sizeOfData": 46,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptGetKeyIdentifierProperty@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "CryptGetKeyIdentifierProperty"
+    },
+    {
+      "offset": 54128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4049552600,
+      "sizeOfData": 44,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptGetMessageCertificates@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "CryptGetMessageCertificates"
+    },
+    {
+      "offset": 54252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3528442406,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptGetMessageSignerCount@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "CryptGetMessageSignerCount"
+    },
+    {
+      "offset": 54376,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3621148995,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptGetOIDFunctionAddress@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 158,
+      "name": "CryptGetOIDFunctionAddress"
+    },
+    {
+      "offset": 54500,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3464754795,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptGetOIDFunctionValue@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 159,
+      "name": "CryptGetOIDFunctionValue"
+    },
+    {
+      "offset": 54622,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3418875026,
+      "sizeOfData": 38,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptHashCertificate2@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 161,
+      "name": "CryptHashCertificate2"
+    },
+    {
+      "offset": 54740,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3531089199,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptHashCertificate@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 160,
+      "name": "CryptHashCertificate"
+    },
+    {
+      "offset": 54858,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3253483247,
+      "sizeOfData": 33,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptHashMessage@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 162,
+      "name": "CryptHashMessage"
+    },
+    {
+      "offset": 54972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3391615473,
+      "sizeOfData": 39,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptHashPublicKeyInfo@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 163,
+      "name": "CryptHashPublicKeyInfo"
+    },
+    {
+      "offset": 55092,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3400461217,
+      "sizeOfData": 36,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptHashToBeSigned@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 164,
+      "name": "CryptHashToBeSigned"
+    },
+    {
+      "offset": 55208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3601902498,
+      "sizeOfData": 33,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptImportPKCS8@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 165,
+      "name": "CryptImportPKCS8"
+    },
+    {
+      "offset": 55322,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3395607246,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptImportPublicKeyInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 166,
+      "name": "CryptImportPublicKeyInfo"
+    },
+    {
+      "offset": 55444,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4052677548,
+      "sizeOfData": 44,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptImportPublicKeyInfoEx2@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 168,
+      "name": "CryptImportPublicKeyInfoEx2"
+    },
+    {
+      "offset": 55568,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3631464123,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptImportPublicKeyInfoEx@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 167,
+      "name": "CryptImportPublicKeyInfoEx"
+    },
+    {
+      "offset": 55692,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3884308372,
+      "sizeOfData": 39,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptInitOIDFunctionSet@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 169,
+      "name": "CryptInitOIDFunctionSet"
+    },
+    {
+      "offset": 55812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3527130163,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptInstallDefaultContext@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 170,
+      "name": "CryptInstallDefaultContext"
+    },
+    {
+      "offset": 55936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4016269562,
+      "sizeOfData": 47,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptInstallOIDFunctionAddress@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 171,
+      "name": "CryptInstallOIDFunctionAddress"
+    },
+    {
+      "offset": 56064,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4103480986,
+      "sizeOfData": 29,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptLoadSip@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 172,
+      "name": "CryptLoadSip"
+    },
+    {
+      "offset": 56174,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3812634913,
+      "sizeOfData": 29,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMemAlloc@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 173,
+      "name": "CryptMemAlloc"
+    },
+    {
+      "offset": 56284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4237160092,
+      "sizeOfData": 28,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMemFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 174,
+      "name": "CryptMemFree"
+    },
+    {
+      "offset": 56392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3909328024,
+      "sizeOfData": 31,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMemRealloc@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 175,
+      "name": "CryptMemRealloc"
+    },
+    {
+      "offset": 56504,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3834410719,
+      "sizeOfData": 47,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgCalculateEncodedLength@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 176,
+      "name": "CryptMsgCalculateEncodedLength"
+    },
+    {
+      "offset": 56632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3714533874,
+      "sizeOfData": 29,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 177,
+      "name": "CryptMsgClose"
+    },
+    {
+      "offset": 56742,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3335864902,
+      "sizeOfData": 32,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgControl@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 178,
+      "name": "CryptMsgControl"
+    },
+    {
+      "offset": 56854,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3445852124,
+      "sizeOfData": 36,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgCountersign@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 179,
+      "name": "CryptMsgCountersign"
+    },
+    {
+      "offset": 56970,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4236967942,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgCountersignEncoded@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 180,
+      "name": "CryptMsgCountersignEncoded"
+    },
+    {
+      "offset": 57094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4264880698,
+      "sizeOfData": 33,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgDuplicate@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 181,
+      "name": "CryptMsgDuplicate"
+    },
+    {
+      "offset": 57208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3448240198,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgEncodeAndSignCTL@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 182,
+      "name": "CryptMsgEncodeAndSignCTL"
+    },
+    {
+      "offset": 57330,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3915029743,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgGetAndVerifySigner@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 183,
+      "name": "CryptMsgGetAndVerifySigner"
+    },
+    {
+      "offset": 57454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4015011380,
+      "sizeOfData": 33,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgGetParam@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 184,
+      "name": "CryptMsgGetParam"
+    },
+    {
+      "offset": 57568,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3253874692,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgOpenToDecode@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 185,
+      "name": "CryptMsgOpenToDecode"
+    },
+    {
+      "offset": 57686,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3287882249,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgOpenToEncode@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 186,
+      "name": "CryptMsgOpenToEncode"
+    },
+    {
+      "offset": 57804,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3863137788,
+      "sizeOfData": 32,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgSignCTL@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 187,
+      "name": "CryptMsgSignCTL"
+    },
+    {
+      "offset": 57916,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3966367004,
+      "sizeOfData": 31,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgUpdate@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 188,
+      "name": "CryptMsgUpdate"
+    },
+    {
+      "offset": 58028,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3713422827,
+      "sizeOfData": 54,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgVerifyCountersignatureEncoded@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 189,
+      "name": "CryptMsgVerifyCountersignatureEncoded"
+    },
+    {
+      "offset": 58162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4125520213,
+      "sizeOfData": 56,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptMsgVerifyCountersignatureEncodedEx@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 190,
+      "name": "CryptMsgVerifyCountersignatureEncodedEx"
+    },
+    {
+      "offset": 58298,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3386727821,
+      "sizeOfData": 33,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptProtectData@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 198,
+      "name": "CryptProtectData"
+    },
+    {
+      "offset": 58412,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3356714390,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptProtectMemory@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 199,
+      "name": "CryptProtectMemory"
+    },
+    {
+      "offset": 58528,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4243160789,
+      "sizeOfData": 33,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptQueryObject@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 200,
+      "name": "CryptQueryObject"
+    },
+    {
+      "offset": 58642,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3936695202,
+      "sizeOfData": 48,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptRegisterDefaultOIDFunction@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 201,
+      "name": "CryptRegisterDefaultOIDFunction"
+    },
+    {
+      "offset": 58770,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3992016020,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptRegisterOIDFunction@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 202,
+      "name": "CryptRegisterOIDFunction"
+    },
+    {
+      "offset": 58892,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3259871847,
+      "sizeOfData": 36,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptRegisterOIDInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 203,
+      "name": "CryptRegisterOIDInfo"
+    },
+    {
+      "offset": 59008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3290211071,
+      "sizeOfData": 39,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptRetrieveTimeStamp@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 204,
+      "name": "CryptRetrieveTimeStamp"
+    },
+    {
+      "offset": 59128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4068439435,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSIPAddProvider@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 205,
+      "name": "CryptSIPAddProvider"
+    },
+    {
+      "offset": 59244,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4139193697,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSIPCreateIndirectData@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 206,
+      "name": "CryptSIPCreateIndirectData"
+    },
+    {
+      "offset": 59368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3700377691,
+      "sizeOfData": 31,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSIPGetCaps@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 207,
+      "name": "CryptSIPGetCaps"
+    },
+    {
+      "offset": 59480,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3528679139,
+      "sizeOfData": 40,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSIPGetSealedDigest@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 208,
+      "name": "CryptSIPGetSealedDigest"
+    },
+    {
+      "offset": 59600,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3817005970,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSIPGetSignedDataMsg@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 209,
+      "name": "CryptSIPGetSignedDataMsg"
+    },
+    {
+      "offset": 59722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4209018316,
+      "sizeOfData": 29,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSIPLoad@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 210,
+      "name": "CryptSIPLoad"
+    },
+    {
+      "offset": 59832,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3818564272,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSIPPutSignedDataMsg@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 211,
+      "name": "CryptSIPPutSignedDataMsg"
+    },
+    {
+      "offset": 59954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3998242389,
+      "sizeOfData": 38,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSIPRemoveProvider@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 212,
+      "name": "CryptSIPRemoveProvider"
+    },
+    {
+      "offset": 60072,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3984965999,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSIPRemoveSignedDataMsg@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 213,
+      "name": "CryptSIPRemoveSignedDataMsg"
+    },
+    {
+      "offset": 60196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3536603473,
+      "sizeOfData": 44,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSIPRetrieveSubjectGuid@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 214,
+      "name": "CryptSIPRetrieveSubjectGuid"
+    },
+    {
+      "offset": 60320,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3854579799,
+      "sizeOfData": 58,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSIPRetrieveSubjectGuidForCatalogFile@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 215,
+      "name": "CryptSIPRetrieveSubjectGuidForCatalogFile"
+    },
+    {
+      "offset": 60458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3225156389,
+      "sizeOfData": 42,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSIPVerifyIndirectData@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 216,
+      "name": "CryptSIPVerifyIndirectData"
+    },
+    {
+      "offset": 60580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3437581198,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSetAsyncParam@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 217,
+      "name": "CryptSetAsyncParam"
+    },
+    {
+      "offset": 60696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3647687190,
+      "sizeOfData": 46,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSetKeyIdentifierProperty@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 218,
+      "name": "CryptSetKeyIdentifierProperty"
+    },
+    {
+      "offset": 60822,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4237481973,
+      "sizeOfData": 41,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSetOIDFunctionValue@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 219,
+      "name": "CryptSetOIDFunctionValue"
+    },
+    {
+      "offset": 60944,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3472320377,
+      "sizeOfData": 46,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSignAndEncodeCertificate@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 221,
+      "name": "CryptSignAndEncodeCertificate"
+    },
+    {
+      "offset": 61070,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3423539129,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSignAndEncryptMessage@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 222,
+      "name": "CryptSignAndEncryptMessage"
+    },
+    {
+      "offset": 61194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4014172784,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSignCertificate@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 223,
+      "name": "CryptSignCertificate"
+    },
+    {
+      "offset": 61312,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3390516718,
+      "sizeOfData": 33,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSignMessage@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 225,
+      "name": "CryptSignMessage"
+    },
+    {
+      "offset": 61426,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3653775245,
+      "sizeOfData": 40,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptSignMessageWithKey@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 226,
+      "name": "CryptSignMessageWithKey"
+    },
+    {
+      "offset": 61546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3372362805,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptStringToBinaryA@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 227,
+      "name": "CryptStringToBinaryA"
+    },
+    {
+      "offset": 61664,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3662002942,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptStringToBinaryW@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 228,
+      "name": "CryptStringToBinaryW"
+    },
+    {
+      "offset": 61782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3518240307,
+      "sizeOfData": 45,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptUninstallDefaultContext@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 229,
+      "name": "CryptUninstallDefaultContext"
+    },
+    {
+      "offset": 61908,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3803169848,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptUnprotectData@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 230,
+      "name": "CryptUnprotectData"
+    },
+    {
+      "offset": 62024,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4058115789,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptUnprotectMemory@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 231,
+      "name": "CryptUnprotectMemory"
+    },
+    {
+      "offset": 62142,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3288828823,
+      "sizeOfData": 50,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptUnregisterDefaultOIDFunction@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 232,
+      "name": "CryptUnregisterDefaultOIDFunction"
+    },
+    {
+      "offset": 62272,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4081668846,
+      "sizeOfData": 43,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptUnregisterOIDFunction@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 233,
+      "name": "CryptUnregisterOIDFunction"
+    },
+    {
+      "offset": 62396,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3434961394,
+      "sizeOfData": 38,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptUnregisterOIDInfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 234,
+      "name": "CryptUnregisterOIDInfo"
+    },
+    {
+      "offset": 62514,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4033809234,
+      "sizeOfData": 42,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptUpdateProtectedState@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 235,
+      "name": "CryptUpdateProtectedState"
+    },
+    {
+      "offset": 62636,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3486566173,
+      "sizeOfData": 48,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptVerifyCertificateSignature@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 236,
+      "name": "CryptVerifyCertificateSignature"
+    },
+    {
+      "offset": 62764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3704647730,
+      "sizeOfData": 50,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptVerifyCertificateSignatureEx@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 237,
+      "name": "CryptVerifyCertificateSignatureEx"
+    },
+    {
+      "offset": 62894,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3572367950,
+      "sizeOfData": 47,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptVerifyDetachedMessageHash@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 238,
+      "name": "CryptVerifyDetachedMessageHash"
+    },
+    {
+      "offset": 63022,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3861412978,
+      "sizeOfData": 52,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptVerifyDetachedMessageSignature@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 239,
+      "name": "CryptVerifyDetachedMessageSignature"
+    },
+    {
+      "offset": 63154,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4130457658,
+      "sizeOfData": 39,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptVerifyMessageHash@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 240,
+      "name": "CryptVerifyMessageHash"
+    },
+    {
+      "offset": 63274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3301678200,
+      "sizeOfData": 44,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptVerifyMessageSignature@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 241,
+      "name": "CryptVerifyMessageSignature"
+    },
+    {
+      "offset": 63398,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4115620029,
+      "sizeOfData": 51,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptVerifyMessageSignatureWithKey@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 242,
+      "name": "CryptVerifyMessageSignatureWithKey"
+    },
+    {
+      "offset": 63530,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4204203873,
+      "sizeOfData": 46,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_CryptVerifyTimeStampSignature@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 244,
+      "name": "CryptVerifyTimeStampSignature"
+    },
+    {
+      "offset": 63656,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3649363910,
+      "sizeOfData": 26,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_DbgInitOSS@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 1001
+    },
+    {
+      "offset": 63762,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4161411855,
+      "sizeOfData": 23,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_DbgPrintf",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 1002
+    },
+    {
+      "offset": 63866,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3682794234,
+      "sizeOfData": 36,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_PFXExportCertStore2@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 296,
+      "name": "PFXExportCertStore2"
+    },
+    {
+      "offset": 63982,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3443838459,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_PFXExportCertStore@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 295,
+      "name": "PFXExportCertStore"
+    },
+    {
+      "offset": 64098,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3224672165,
+      "sizeOfData": 37,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_PFXExportCertStoreEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 297,
+      "name": "PFXExportCertStoreEx"
+    },
+    {
+      "offset": 64216,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4262018289,
+      "sizeOfData": 35,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_PFXImportCertStore@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 298,
+      "name": "PFXImportCertStore"
+    },
+    {
+      "offset": 64332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4047156558,
+      "sizeOfData": 28,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_PFXIsPFXBlob@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 299,
+      "name": "PFXIsPFXBlob"
+    },
+    {
+      "offset": 64440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3714729355,
+      "sizeOfData": 34,
+      "dllName": "CRYPT32.dll",
+      "symbolName": "_PFXVerifyPassword@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 300,
+      "name": "PFXVerifyPassword"
+    }
+  ]
+}

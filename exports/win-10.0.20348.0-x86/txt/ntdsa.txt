@@ -1,0 +1,3424 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\ntdsa.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    2228 size
+correct header end
+
+    295 public symbols
+
+     44DA __IMPORT_DESCRIPTOR_NTDSA
+     46FC __NULL_IMPORT_DESCRIPTOR
+     4830 NTDSA_NULL_THUNK_DATA
+     65D4 _DsInitialize@12
+     65D4 __imp__DsInitialize@12
+     6862 _DsPrepareUninitialize@0
+     6862 __imp__DsPrepareUninitialize@0
+     6A3A _DsUninitialize@4
+     6A3A __imp__DsUninitialize@4
+     6AA6 _DsUninitializeForServiceStartError@0
+     6AA6 __imp__DsUninitializeForServiceStartError@0
+     6C0E _DsWaitUntilDelayedStartupIsDone@0
+     6C0E __imp__DsWaitUntilDelayedStartupIsDone@0
+     66B0 _DsIsBeingBackSynced@0
+     66B0 __imp__DsIsBeingBackSynced@0
+     619C _DsChangeBootOptions@16
+     619C __imp__DsChangeBootOptions@16
+     6380 _DsGetBootOptions@0
+     6380 __imp__DsGetBootOptions@0
+     7C28 _NtdsaiRegisterKdcAcctChangeNotif@4
+     7C28 __imp__NtdsaiRegisterKdcAcctChangeNotif@4
+     7BA8 _NtdsaiDeRegisterKdcAcctChangeNotif@0
+     7BA8 __imp__NtdsaiDeRegisterKdcAcctChangeNotif@0
+     7CA6 _NtdsaiUpdateKrbtgtAccounts@12
+     7CA6 __imp__NtdsaiUpdateKrbtgtAccounts@12
+     5340 _DirBind@8
+     5340 __imp__DirBind@8
+     58D8 _DirRead@8
+     58D8 __imp__DirRead@8
+     53A6 _DirCompare@8
+     53A6 __imp__DirCompare@8
+     5DB8 _DirSearch@8
+     5DB8 __imp__DirSearch@8
+     52D6 _DirAddEntry@8
+     52D6 __imp__DirAddEntry@8
+     593E _DirRemoveEntry@8
+     593E __imp__DirRemoveEntry@8
+     5632 _DirModifyEntry@8
+     5632 __imp__DirModifyEntry@8
+     55C8 _DirModifyDN@8
+     55C8 __imp__DirModifyDN@8
+     5E94 _DirTransactControl@4
+     5E94 __imp__DirTransactControl@4
+     5780 _DirOperationControl@8
+     5780 __imp__DirOperationControl@8
+     569E _DirNotifyRegister@12
+     569E __imp__DirNotifyRegister@12
+     570E _DirNotifyUnRegister@8
+     570E __imp__DirNotifyUnRegister@8
+     57F2 _DirPrepareForImpersonate@12
+     57F2 __imp__DirPrepareForImpersonate@12
+     5E20 _DirStopImpersonating@12
+     5E20 __imp__DirStopImpersonating@12
+     5558 _DirGetDomainHandle@4
+     5558 __imp__DirGetDomainHandle@4
+     54EE _DirFindEntry@8
+     54EE __imp__DirFindEntry@8
+     59AA _DirReplicaAdd@28
+     59AA __imp__DirReplicaAdd@28
+     5B6E _DirReplicaModify@32
+     5B6E __imp__DirReplicaModify@32
+     5A16 _DirReplicaDelete@12
+     5A16 __imp__DirReplicaDelete@12
+     5D44 _DirReplicaSynchronize@16
+     5D44 __imp__DirReplicaSynchronize@16
+     5BDE _DirReplicaReferenceUpdate@16
+     5BDE __imp__DirReplicaReferenceUpdate@16
+     5AF6 _DirReplicaGetDemoteTarget@16
+     5AF6 __imp__DirReplicaGetDemoteTarget@16
+     5A86 _DirReplicaDemote@16
+     5A86 __imp__DirReplicaDemote@16
+     5CCC _DirReplicaSetCredentials@20
+     5CCC __imp__DirReplicaSetCredentials@20
+     5C56 _DirReplicaReplSingleObj@16
+     5C56 __imp__DirReplicaReplSingleObj@16
+     83AA _THCreate@4
+     83AA __imp__THCreate@4
+     8410 _THDestroy@0
+     8410 __imp__THDestroy@0
+     854A _THQuery@0
+     854A __imp__THQuery@0
+     82D8 _THAlloc@4
+     82D8 __imp__THAlloc@4
+     85B0 _THReAlloc@8
+     85B0 __imp__THReAlloc@8
+     8478 _THFree@4
+     8478 __imp__THFree@4
+     8680 _THSave@0
+     8680 __imp__THSave@0
+     8618 _THRestore@4
+     8618 __imp__THRestore@4
+     833E _THClearErrors@0
+     833E __imp__THClearErrors@0
+     86E4 _THVerifyCount@4
+     86E4 __imp__THVerifyCount@4
+     84DC _THGetErrorString@0
+     84DC __imp__THGetErrorString@0
+     7416 _InitializeSamDsExtension@4
+     7416 __imp__InitializeSamDsExtension@4
+     7E7C _SamIAmIGC@0
+     7E7C __imp__SamIAmIGC@0
+     7F5E _SamIGCLookupNames@24
+     7F5E __imp__SamIGCLookupNames@24
+     7FCE _SamIGCLookupSids@24
+     7FCE __imp__SamIGCLookupSids@24
+     7EE4 _SamIDsResetBadPwdCountOnPdc@4
+     7EE4 __imp__SamIDsResetBadPwdCountOnPdc@4
+     803E _SamISameSite@4
+     803E __imp__SamISameSite@4
+     80A8 _SampDsControl@8
+     80A8 __imp__SampDsControl@8
+     8114 _SampExistsDsTransaction@0
+     8114 __imp__SampExistsDsTransaction@0
+     818A _SampGetClassAttribute@16
+     818A __imp__SampGetClassAttribute@16
+     81FE _SampSetDsa@4
+     81FE __imp__SampSetDsa@4
+     733A _ImpersonateAnyClient@0
+     733A __imp__ImpersonateAnyClient@0
+     8832 _UnImpersonateAnyClient@0
+     8832 __imp__UnImpersonateAnyClient@0
+     6F32 _GetConfigParam@12
+     6F32 __imp__GetConfigParam@12
+     7014 _GetConfigParamW@12
+     7014 __imp__GetConfigParamW@12
+     6FA0 _GetConfigParamAllocW@12
+     6FA0 __imp__GetConfigParamAllocW@12
+     5FDC _DoLogEventW@36
+     5FDC __imp__DoLogEventW@36
+     5F6C _DoLogEventAndTrace@4
+     5F6C __imp__DoLogEventAndTrace@4
+     6046 _DoLogMsgOverride@4
+     6046 __imp__DoLogMsgOverride@4
+     60B4 _DoLogOverride@8
+     60B4 __imp__DoLogOverride@8
+     49F2 @DoLogUnhandledError@12
+     49F2 __imp_@DoLogUnhandledError@12
+     497E @DoLogUnhandledError2@16
+     497E __imp_@DoLogUnhandledError2@16
+     69CE _DsTraceEvent@52
+     69CE __imp__DsTraceEvent@52
+     64E8 _DsGetEventConfig@0
+     64E8 __imp__DsGetEventConfig@0
+     5F04 _DoAssert@12
+     5F04 __imp__DoAssert@12
+     5206 _DebPrintV@20
+     5206 __imp__DebPrintV@20
+     526E _DebugTest@8
+     526E __imp__DebugTest@8
+     7D20 _QuoteRDNValue@16
+     7D20 __imp__QuoteRDNValue@16
+     87C6 _TrimDSNameBy@12
+     87C6 __imp__TrimDSNameBy@12
+     7A5E _NameMatched@8
+     7A5E __imp__NameMatched@8
+     7AC8 _NameMatchedStringNameOnly@8
+     7AC8 __imp__NameMatchedStringNameOnly@8
+     7B40 _NamePrefix@8
+     7B40 __imp__NamePrefix@8
+     4A64 _AppendRDN@24
+     4A64 __imp__AppendRDN@24
+     4ACC _AttrTypeToKey@8
+     4ACC __imp__AttrTypeToKey@8
+     7250 _GetRDNInfoExternal@16
+     7250 __imp__GetRDNInfoExternal@16
+     4C1C _CrackSingleName@36
+     4C1C __imp__CrackSingleName@36
+     7504 _IsMangledRDNExternal@12
+     7504 __imp__IsMangledRDNExternal@12
+     4BB0 _CountNameParts@8
+     4BB0 __imp__CountNameParts@8
+     4FBE _DSNAMEToHashKeyExternal@4
+     4FBE __imp__DSNAMEToHashKeyExternal@4
+     5034 _DSNAMEToMappedStrExternal@4
+     5034 __imp__DSNAMEToMappedStrExternal@4
+     50AC _DSStrToHashKeyExternal@8
+     50AC __imp__DSStrToHashKeyExternal@8
+     5120 _DSStrToMappedStrExternal@8
+     5120 __imp__DSStrToMappedStrExternal@8
+     6EC4 _GetConfigDsName@4
+     6EC4 __imp__GetConfigDsName@4
+     798A _MtxSame@8
+     798A __imp__MtxSame@8
+     5196 _DbgPrintErrorInfo@0
+     5196 __imp__DbgPrintErrorInfo@0
+     70F6 _GetConfigurationName@12
+     70F6 __imp__GetConfigurationName@12
+     716A _GetConfigurationNamesList@16
+     716A __imp__GetConfigurationNamesList@16
+     71E2 _GetDnsRootAlias@8
+     71E2 __imp__GetDnsRootAlias@8
+     73AC _InitCommarg@4
+     73AC __imp__InitCommarg@4
+     88A6 _UpdateDSPerfStats@12
+     88A6 __imp__UpdateDSPerfStats@12
+     6C8C _DsaDisableUpdates@0
+     6C8C __imp__DsaDisableUpdates@0
+     6CFC _DsaEnableUpdates@0
+     6CFC __imp__DsaEnableUpdates@0
+     6D6A _DsaSetInstallCallback@16
+     6D6A __imp__DsaSetInstallCallback@16
+     540E _DirErrorToNtStatus@8
+     540E __imp__DirErrorToNtStatus@8
+     547E _DirErrorToWinError@8
+     547E __imp__DirErrorToWinError@8
+     586A _DirProtectEntry@4
+     586A __imp__DirProtectEntry@4
+     8750 _TransportAddrFromMtxAddr@4
+     8750 __imp__TransportAddrFromMtxAddr@4
+     7914 _MtxAddrFromTransportAddr@4
+     7914 __imp__MtxAddrFromTransportAddr@4
+     72C2 _GuidBasedDNSNameFromDSName@4
+     72C2 __imp__GuidBasedDNSNameFromDSName@4
+     76C8 _MapSpnServiceClass@4
+     76C8 __imp__MapSpnServiceClass@4
+     77B2 _MatchCrossRefBySid@12
+     77B2 __imp__MatchCrossRefBySid@12
+     7738 _MatchCrossRefByNetbiosName@12
+     7738 __imp__MatchCrossRefByNetbiosName@12
+     789A _MatchDomainDnByNetbiosName@12
+     789A __imp__MatchDomainDnByNetbiosName@12
+     7824 _MatchDomainDnByDnsName@12
+     7824 __imp__MatchDomainDnByDnsName@12
+     6DDE _FindNetbiosDomainName@12
+     6DDE __imp__FindNetbiosDomainName@12
+     63EE _DsGetDefaultObjCategory@4
+     63EE __imp__DsGetDefaultObjCategory@4
+     620E _DsCheckConstraint@12
+     620E __imp__DsCheckConstraint@12
+     75EE _IsStringGuid@8
+     75EE __imp__IsStringGuid@8
+     6120 _DsCanRODCHostNdncForNetLogon@12
+     6120 __imp__DsCanRODCHostNdncForNetLogon@12
+     68D6 _DsQueryDnsHostNameForNetLogon@8
+     68D6 __imp__DsQueryDnsHostNameForNetLogon@8
+     6556 _DsGetServersAndSitesForNetLogon@8
+     6556 __imp__DsGetServersAndSitesForNetLogon@8
+     6302 _DsFreeServersAndSitesForNetLogon@4
+     6302 __imp__DsFreeServersAndSitesForNetLogon@4
+     6464 _DsGetDomainControllerInfoForNetLogon@20
+     6464 __imp__DsGetDomainControllerInfoForNetLogon@20
+     627E _DsFreeDomainControllerInfoForNetLogon@12
+     627E __imp__DsFreeDomainControllerInfoForNetLogon@12
+     7578 _IsRODCInSiteForNetlogon@8
+     7578 __imp__IsRODCInSiteForNetlogon@8
+     748C _IsFullDCInSiteForNetlogon@8
+     748C __imp__IsFullDCInSiteForNetlogon@8
+     4D74 _DNSHostNameValueCheckForNetlogon@8
+     4D74 __imp__DNSHostNameValueCheckForNetlogon@8
+     7082 _GetConfigurationInfo@12
+     7082 __imp__GetConfigurationInfo@12
+     4F4A _DSInstanceFromSetupEx@12
+     4F4A __imp__DSInstanceFromSetupEx@12
+     7658 _IsValidDSInstance@4
+     7658 __imp__IsValidDSInstance@4
+     4B38 _ConvertReplicaLinkToNative@8
+     4B38 __imp__ConvertReplicaLinkToNative@8
+     7E02 _ReplicaLinkUpdateDSInstance@8
+     7E02 __imp__ReplicaLinkUpdateDSInstance@8
+     7D8C _ReplicaLinkSizeFromParts@8
+     7D8C __imp__ReplicaLinkSizeFromParts@8
+     4DF2 _DSInstanceCompare@8
+     4DF2 __imp__DSInstanceCompare@8
+     4ED8 _DSInstanceFromNameEx@8
+     4ED8 __imp__DSInstanceFromNameEx@8
+     4E62 _DSInstanceFromNTDSAddrEx@8
+     4E62 __imp__DSInstanceFromNTDSAddrEx@8
+     6722 _DsIsDCReadOnly@0
+     6722 __imp__DsIsDCReadOnly@0
+     6E52 _GCVerifyCacheLookup@8
+     6E52 __imp__GCVerifyCacheLookup@8
+     4C8A _DBDsReplBackupUpdate@24
+     4C8A __imp__DBDsReplBackupUpdate@24
+     4CFE _DBUpdateBackupTimeStamps@0
+     4CFE __imp__DBUpdateBackupTimeStamps@0
+     8916 __imp__phoneticDisplayNameABView@32
+     8916 _phoneticDisplayNameABView@32
+     898E __imp__showInAddressBookArrayV1@32
+     898E _showInAddressBookArrayV1@32
+     67FA _DsLoadDLL@4
+     67FA __imp__DsLoadDLL@4
+     6B26 _DsUnloadDLL@0
+     6B26 __imp__DsUnloadDLL@0
+     678E _DsIsDLLLoaded@0
+     678E __imp__DsIsDLLLoaded@0
+     8266 _StartDsaServiceMain@12
+     8266 __imp__StartDsaServiceMain@12
+     79F0 _NTDSServiceMain@8
+     79F0 __imp__NTDSServiceMain@8
+     6952 _DsRegisterServiceStateCallback@4
+     6952 __imp__DsRegisterServiceStateCallback@4
+     6B90 _DsUnregisterServiceStateCallback@4
+     6B90 __imp__DsUnregisterServiceStateCallback@4
+     6640 _DsInitializeForSAM@0
+     6640 __imp__DsInitializeForSAM@0
+
+Archive member name at 44DA: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1E5 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E9088192 time date stamp
+             107 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      8C file pointer to raw data (0000008C to 000000CA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CB file pointer to raw data (000000CB to 000000DE)
+      DF file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       A size of raw data
+      FD file pointer to raw data (000000FD to 00000106)
+      DF file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 46FC: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F8 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        CB18FBB0 time date stamp
+              B7 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      64 file pointer to raw data (00000064 to 000000A2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A3 file pointer to raw data (000000A3 to 000000B6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 4830: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     112 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E2BBA391 time date stamp
+              D3 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      8C file pointer to raw data (0000008C to 000000CA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CB file pointer to raw data (000000CB to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CF file pointer to raw data (000000CF to 000000D2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 497E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB61C512
+  SizeOfData   : 00000023
+  DLL name     : NTDSA.dll
+  Symbol name  : @DoLogUnhandledError2@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : DoLogUnhandledError2
+
+Archive member name at 49F2: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D356CF6F
+  SizeOfData   : 00000022
+  DLL name     : NTDSA.dll
+  Symbol name  : @DoLogUnhandledError@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : DoLogUnhandledError
+
+Archive member name at 4A64: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE2FBDB4
+  SizeOfData   : 00000018
+  DLL name     : NTDSA.dll
+  Symbol name  : _AppendRDN@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : AppendRDN
+
+Archive member name at 4ACC: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD1AA803
+  SizeOfData   : 0000001B
+  DLL name     : NTDSA.dll
+  Symbol name  : _AttrTypeToKey@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : AttrTypeToKey
+
+Archive member name at 4B38: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F39D404A
+  SizeOfData   : 00000028
+  DLL name     : NTDSA.dll
+  Symbol name  : _ConvertReplicaLinkToNative@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : ConvertReplicaLinkToNative
+
+Archive member name at 4BB0: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5CBB487
+  SizeOfData   : 0000001C
+  DLL name     : NTDSA.dll
+  Symbol name  : _CountNameParts@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : CountNameParts
+
+Archive member name at 4C1C: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D17917DE
+  SizeOfData   : 0000001E
+  DLL name     : NTDSA.dll
+  Symbol name  : _CrackSingleName@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : CrackSingleName
+
+Archive member name at 4C8A: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCC58EA7
+  SizeOfData   : 00000023
+  DLL name     : NTDSA.dll
+  Symbol name  : _DBDsReplBackupUpdate@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : DBDsReplBackupUpdate
+
+Archive member name at 4CFE: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAED0559
+  SizeOfData   : 00000026
+  DLL name     : NTDSA.dll
+  Symbol name  : _DBUpdateBackupTimeStamps@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : DBUpdateBackupTimeStamps
+
+Archive member name at 4D74: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3E9AA91
+  SizeOfData   : 0000002E
+  DLL name     : NTDSA.dll
+  Symbol name  : _DNSHostNameValueCheckForNetlogon@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : DNSHostNameValueCheckForNetlogon
+
+Archive member name at 4DF2: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5F9BED2
+  SizeOfData   : 0000001F
+  DLL name     : NTDSA.dll
+  Symbol name  : _DSInstanceCompare@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : DSInstanceCompare
+
+Archive member name at 4E62: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9912D63
+  SizeOfData   : 00000026
+  DLL name     : NTDSA.dll
+  Symbol name  : _DSInstanceFromNTDSAddrEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : DSInstanceFromNTDSAddrEx
+
+Archive member name at 4ED8: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4A9E8F7
+  SizeOfData   : 00000022
+  DLL name     : NTDSA.dll
+  Symbol name  : _DSInstanceFromNameEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : DSInstanceFromNameEx
+
+Archive member name at 4F4A: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC93A79F
+  SizeOfData   : 00000024
+  DLL name     : NTDSA.dll
+  Symbol name  : _DSInstanceFromSetupEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : DSInstanceFromSetupEx
+
+Archive member name at 4FBE: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF364A71
+  SizeOfData   : 00000025
+  DLL name     : NTDSA.dll
+  Symbol name  : _DSNAMEToHashKeyExternal@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : DSNAMEToHashKeyExternal
+
+Archive member name at 5034: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C81BA56A
+  SizeOfData   : 00000027
+  DLL name     : NTDSA.dll
+  Symbol name  : _DSNAMEToMappedStrExternal@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : DSNAMEToMappedStrExternal
+
+Archive member name at 50AC: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB45D635
+  SizeOfData   : 00000024
+  DLL name     : NTDSA.dll
+  Symbol name  : _DSStrToHashKeyExternal@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : DSStrToHashKeyExternal
+
+Archive member name at 5120: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0E7588F
+  SizeOfData   : 00000026
+  DLL name     : NTDSA.dll
+  Symbol name  : _DSStrToMappedStrExternal@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : DSStrToMappedStrExternal
+
+Archive member name at 5196: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC4289AE
+  SizeOfData   : 0000001F
+  DLL name     : NTDSA.dll
+  Symbol name  : _DbgPrintErrorInfo@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : DbgPrintErrorInfo
+
+Archive member name at 5206: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D619D683
+  SizeOfData   : 00000018
+  DLL name     : NTDSA.dll
+  Symbol name  : _DebPrintV@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : DebPrintV
+
+Archive member name at 526E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9DF00C4
+  SizeOfData   : 00000017
+  DLL name     : NTDSA.dll
+  Symbol name  : _DebugTest@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : DebugTest
+
+Archive member name at 52D6: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E66D008F
+  SizeOfData   : 00000019
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirAddEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : DirAddEntry
+
+Archive member name at 5340: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7A5E734
+  SizeOfData   : 00000015
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirBind@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : DirBind
+
+Archive member name at 53A6: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F12E1C30
+  SizeOfData   : 00000018
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirCompare@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : DirCompare
+
+Archive member name at 540E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF8BB9E6
+  SizeOfData   : 00000020
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirErrorToNtStatus@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : DirErrorToNtStatus
+
+Archive member name at 547E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5E45332
+  SizeOfData   : 00000020
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirErrorToWinError@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : DirErrorToWinError
+
+Archive member name at 54EE: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F32F5BC3
+  SizeOfData   : 0000001A
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirFindEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : DirFindEntry
+
+Archive member name at 5558: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDF852B7
+  SizeOfData   : 00000020
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirGetDomainHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : DirGetDomainHandle
+
+Archive member name at 55C8: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC8D85AE
+  SizeOfData   : 00000019
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirModifyDN@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : DirModifyDN
+
+Archive member name at 5632: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE326A71
+  SizeOfData   : 0000001C
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirModifyEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : DirModifyEntry
+
+Archive member name at 569E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD531E7F
+  SizeOfData   : 00000020
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirNotifyRegister@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : DirNotifyRegister
+
+Archive member name at 570E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7582C0E
+  SizeOfData   : 00000021
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirNotifyUnRegister@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : DirNotifyUnRegister
+
+Archive member name at 5780: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3774AFA
+  SizeOfData   : 00000021
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirOperationControl@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : DirOperationControl
+
+Archive member name at 57F2: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7F97331
+  SizeOfData   : 00000027
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirPrepareForImpersonate@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : DirPrepareForImpersonate
+
+Archive member name at 586A: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBDF339B
+  SizeOfData   : 0000001D
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirProtectEntry@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : DirProtectEntry
+
+Archive member name at 58D8: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF2698FB
+  SizeOfData   : 00000015
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirRead@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : DirRead
+
+Archive member name at 593E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7060BC7
+  SizeOfData   : 0000001C
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirRemoveEntry@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : DirRemoveEntry
+
+Archive member name at 59AA: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D54FE148
+  SizeOfData   : 0000001C
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirReplicaAdd@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : DirReplicaAdd
+
+Archive member name at 5A16: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3DA577C
+  SizeOfData   : 0000001F
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirReplicaDelete@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : DirReplicaDelete
+
+Archive member name at 5A86: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8AAAFE1
+  SizeOfData   : 0000001F
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirReplicaDemote@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : DirReplicaDemote
+
+Archive member name at 5AF6: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCF5F94F
+  SizeOfData   : 00000028
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirReplicaGetDemoteTarget@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : DirReplicaGetDemoteTarget
+
+Archive member name at 5B6E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C54A5308
+  SizeOfData   : 0000001F
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirReplicaModify@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : DirReplicaModify
+
+Archive member name at 5BDE: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E352A698
+  SizeOfData   : 00000028
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirReplicaReferenceUpdate@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : DirReplicaReferenceUpdate
+
+Archive member name at 5C56: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0FACD26
+  SizeOfData   : 00000026
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirReplicaReplSingleObj@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : DirReplicaReplSingleObj
+
+Archive member name at 5CCC: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6E07F53
+  SizeOfData   : 00000027
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirReplicaSetCredentials@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : DirReplicaSetCredentials
+
+Archive member name at 5D44: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0F556F3
+  SizeOfData   : 00000024
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirReplicaSynchronize@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : DirReplicaSynchronize
+
+Archive member name at 5DB8: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5A3B2F9
+  SizeOfData   : 00000017
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirSearch@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : DirSearch
+
+Archive member name at 5E20: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8FFCEAC
+  SizeOfData   : 00000023
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirStopImpersonating@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : DirStopImpersonating
+
+Archive member name at 5E94: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6C5A9FB
+  SizeOfData   : 00000020
+  DLL name     : NTDSA.dll
+  Symbol name  : _DirTransactControl@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : DirTransactControl
+
+Archive member name at 5F04: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA3155A8
+  SizeOfData   : 00000017
+  DLL name     : NTDSA.dll
+  Symbol name  : _DoAssert@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : DoAssert
+
+Archive member name at 5F6C: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7DACC8E
+  SizeOfData   : 00000020
+  DLL name     : NTDSA.dll
+  Symbol name  : _DoLogEventAndTrace@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : DoLogEventAndTrace
+
+Archive member name at 5FDC: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E59613BE
+  SizeOfData   : 0000001A
+  DLL name     : NTDSA.dll
+  Symbol name  : _DoLogEventW@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : DoLogEventW
+
+Archive member name at 6046: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DABD4B57
+  SizeOfData   : 0000001E
+  DLL name     : NTDSA.dll
+  Symbol name  : _DoLogMsgOverride@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : DoLogMsgOverride
+
+Archive member name at 60B4: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBF8E5AB
+  SizeOfData   : 0000001B
+  DLL name     : NTDSA.dll
+  Symbol name  : _DoLogOverride@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : DoLogOverride
+
+Archive member name at 6120: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F24248E7
+  SizeOfData   : 0000002B
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsCanRODCHostNdncForNetLogon@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : DsCanRODCHostNdncForNetLogon
+
+Archive member name at 619C: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C30268F3
+  SizeOfData   : 00000022
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsChangeBootOptions@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : DsChangeBootOptions
+
+Archive member name at 620E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4780F40
+  SizeOfData   : 00000020
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsCheckConstraint@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : DsCheckConstraint
+
+Archive member name at 627E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8FBCCD9
+  SizeOfData   : 00000034
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsFreeDomainControllerInfoForNetLogon@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : DsFreeDomainControllerInfoForNetLogon
+
+Archive member name at 6302: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9995CF1
+  SizeOfData   : 0000002E
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsFreeServersAndSitesForNetLogon@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : DsFreeServersAndSitesForNetLogon
+
+Archive member name at 6380: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC1D4F74
+  SizeOfData   : 0000001E
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsGetBootOptions@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : DsGetBootOptions
+
+Archive member name at 63EE: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4DA52BA
+  SizeOfData   : 00000025
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsGetDefaultObjCategory@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : DsGetDefaultObjCategory
+
+Archive member name at 6464: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D92CF0DC
+  SizeOfData   : 00000033
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsGetDomainControllerInfoForNetLogon@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : DsGetDomainControllerInfoForNetLogon
+
+Archive member name at 64E8: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3DB4098
+  SizeOfData   : 0000001E
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsGetEventConfig@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : DsGetEventConfig
+
+Archive member name at 6556: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4F68741
+  SizeOfData   : 0000002D
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsGetServersAndSitesForNetLogon@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : DsGetServersAndSitesForNetLogon
+
+Archive member name at 65D4: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFDF9C15
+  SizeOfData   : 0000001B
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsInitialize@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : DsInitialize
+
+Archive member name at 6640: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC2DF46C
+  SizeOfData   : 00000020
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsInitializeForSAM@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : DsInitializeForSAM
+
+Archive member name at 66B0: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE2FCC8E
+  SizeOfData   : 00000021
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsIsBeingBackSynced@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : DsIsBeingBackSynced
+
+Archive member name at 6722: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CEE4686B
+  SizeOfData   : 0000001C
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsIsDCReadOnly@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : DsIsDCReadOnly
+
+Archive member name at 678E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7E3EE30
+  SizeOfData   : 0000001B
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsIsDLLLoaded@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : DsIsDLLLoaded
+
+Archive member name at 67FA: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBE8D17D
+  SizeOfData   : 00000017
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsLoadDLL@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : DsLoadDLL
+
+Archive member name at 6862: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA3514AC
+  SizeOfData   : 00000023
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsPrepareUninitialize@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : DsPrepareUninitialize
+
+Archive member name at 68D6: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2BCE89C
+  SizeOfData   : 0000002B
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsQueryDnsHostNameForNetLogon@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : DsQueryDnsHostNameForNetLogon
+
+Archive member name at 6952: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7419DA6
+  SizeOfData   : 0000002C
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsRegisterServiceStateCallback@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : DsRegisterServiceStateCallback
+
+Archive member name at 69CE: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F69C778D
+  SizeOfData   : 0000001B
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsTraceEvent@52
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : DsTraceEvent
+
+Archive member name at 6A3A: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E473CE52
+  SizeOfData   : 0000001C
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsUninitialize@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 74
+  Name         : DsUninitialize
+
+Archive member name at 6AA6: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5C3DEF0
+  SizeOfData   : 00000030
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsUninitializeForServiceStartError@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 75
+  Name         : DsUninitializeForServiceStartError
+
+Archive member name at 6B26: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAF5A3A9
+  SizeOfData   : 00000019
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsUnloadDLL@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : DsUnloadDLL
+
+Archive member name at 6B90: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB1876F1
+  SizeOfData   : 0000002E
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsUnregisterServiceStateCallback@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : DsUnregisterServiceStateCallback
+
+Archive member name at 6C0E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE5F0447
+  SizeOfData   : 0000002D
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsWaitUntilDelayedStartupIsDone@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : DsWaitUntilDelayedStartupIsDone
+
+Archive member name at 6C8C: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6860941
+  SizeOfData   : 0000001F
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsaDisableUpdates@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : DsaDisableUpdates
+
+Archive member name at 6CFC: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDADF538
+  SizeOfData   : 0000001E
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsaEnableUpdates@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 80
+  Name         : DsaEnableUpdates
+
+Archive member name at 6D6A: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBC8FD22
+  SizeOfData   : 00000024
+  DLL name     : NTDSA.dll
+  Symbol name  : _DsaSetInstallCallback@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : DsaSetInstallCallback
+
+Archive member name at 6DDE: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC2D74DC
+  SizeOfData   : 00000024
+  DLL name     : NTDSA.dll
+  Symbol name  : _FindNetbiosDomainName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 82
+  Name         : FindNetbiosDomainName
+
+Archive member name at 6E52: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F613EA3D
+  SizeOfData   : 00000021
+  DLL name     : NTDSA.dll
+  Symbol name  : _GCVerifyCacheLookup@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : GCVerifyCacheLookup
+
+Archive member name at 6EC4: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7B8133B
+  SizeOfData   : 0000001D
+  DLL name     : NTDSA.dll
+  Symbol name  : _GetConfigDsName@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 84
+  Name         : GetConfigDsName
+
+Archive member name at 6F32: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCF743B2
+  SizeOfData   : 0000001D
+  DLL name     : NTDSA.dll
+  Symbol name  : _GetConfigParam@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 85
+  Name         : GetConfigParam
+
+Archive member name at 6FA0: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D81DA660
+  SizeOfData   : 00000023
+  DLL name     : NTDSA.dll
+  Symbol name  : _GetConfigParamAllocW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 86
+  Name         : GetConfigParamAllocW
+
+Archive member name at 7014: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5B8AF97
+  SizeOfData   : 0000001E
+  DLL name     : NTDSA.dll
+  Symbol name  : _GetConfigParamW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 87
+  Name         : GetConfigParamW
+
+Archive member name at 7082: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C795616A
+  SizeOfData   : 00000023
+  DLL name     : NTDSA.dll
+  Symbol name  : _GetConfigurationInfo@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 88
+  Name         : GetConfigurationInfo
+
+Archive member name at 70F6: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2A4CE48
+  SizeOfData   : 00000023
+  DLL name     : NTDSA.dll
+  Symbol name  : _GetConfigurationName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 89
+  Name         : GetConfigurationName
+
+Archive member name at 716A: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD3F8C2C
+  SizeOfData   : 00000028
+  DLL name     : NTDSA.dll
+  Symbol name  : _GetConfigurationNamesList@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 90
+  Name         : GetConfigurationNamesList
+
+Archive member name at 71E2: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA454519
+  SizeOfData   : 0000001D
+  DLL name     : NTDSA.dll
+  Symbol name  : _GetDnsRootAlias@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 91
+  Name         : GetDnsRootAlias
+
+Archive member name at 7250: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5BE9704
+  SizeOfData   : 00000021
+  DLL name     : NTDSA.dll
+  Symbol name  : _GetRDNInfoExternal@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 92
+  Name         : GetRDNInfoExternal
+
+Archive member name at 72C2: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7F977A3
+  SizeOfData   : 00000028
+  DLL name     : NTDSA.dll
+  Symbol name  : _GuidBasedDNSNameFromDSName@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 93
+  Name         : GuidBasedDNSNameFromDSName
+
+Archive member name at 733A: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F58EC781
+  SizeOfData   : 00000022
+  DLL name     : NTDSA.dll
+  Symbol name  : _ImpersonateAnyClient@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 94
+  Name         : ImpersonateAnyClient
+
+Archive member name at 73AC: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7B69DB1
+  SizeOfData   : 00000019
+  DLL name     : NTDSA.dll
+  Symbol name  : _InitCommarg@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 95
+  Name         : InitCommarg
+
+Archive member name at 7416: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC8B6DB8
+  SizeOfData   : 00000026
+  DLL name     : NTDSA.dll
+  Symbol name  : _InitializeSamDsExtension@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 96
+  Name         : InitializeSamDsExtension
+
+Archive member name at 748C: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9CAE371
+  SizeOfData   : 00000027
+  DLL name     : NTDSA.dll
+  Symbol name  : _IsFullDCInSiteForNetlogon@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 97
+  Name         : IsFullDCInSiteForNetlogon
+
+Archive member name at 7504: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED855D8E
+  SizeOfData   : 00000023
+  DLL name     : NTDSA.dll
+  Symbol name  : _IsMangledRDNExternal@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 98
+  Name         : IsMangledRDNExternal
+
+Archive member name at 7578: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7EC2F27
+  SizeOfData   : 00000025
+  DLL name     : NTDSA.dll
+  Symbol name  : _IsRODCInSiteForNetlogon@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 99
+  Name         : IsRODCInSiteForNetlogon
+
+Archive member name at 75EE: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4211608
+  SizeOfData   : 0000001A
+  DLL name     : NTDSA.dll
+  Symbol name  : _IsStringGuid@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 100
+  Name         : IsStringGuid
+
+Archive member name at 7658: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEDA6271
+  SizeOfData   : 0000001F
+  DLL name     : NTDSA.dll
+  Symbol name  : _IsValidDSInstance@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 101
+  Name         : IsValidDSInstance
+
+Archive member name at 76C8: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D856BAD8
+  SizeOfData   : 00000020
+  DLL name     : NTDSA.dll
+  Symbol name  : _MapSpnServiceClass@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 102
+  Name         : MapSpnServiceClass
+
+Archive member name at 7738: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2BD00D1
+  SizeOfData   : 00000029
+  DLL name     : NTDSA.dll
+  Symbol name  : _MatchCrossRefByNetbiosName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 103
+  Name         : MatchCrossRefByNetbiosName
+
+Archive member name at 77B2: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F702CD7F
+  SizeOfData   : 00000021
+  DLL name     : NTDSA.dll
+  Symbol name  : _MatchCrossRefBySid@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 104
+  Name         : MatchCrossRefBySid
+
+Archive member name at 7824: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1BBBC32
+  SizeOfData   : 00000025
+  DLL name     : NTDSA.dll
+  Symbol name  : _MatchDomainDnByDnsName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 105
+  Name         : MatchDomainDnByDnsName
+
+Archive member name at 789A: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C43742C3
+  SizeOfData   : 00000029
+  DLL name     : NTDSA.dll
+  Symbol name  : _MatchDomainDnByNetbiosName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 106
+  Name         : MatchDomainDnByNetbiosName
+
+Archive member name at 7914: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAF930BC
+  SizeOfData   : 00000026
+  DLL name     : NTDSA.dll
+  Symbol name  : _MtxAddrFromTransportAddr@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 107
+  Name         : MtxAddrFromTransportAddr
+
+Archive member name at 798A: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB30E04F
+  SizeOfData   : 00000015
+  DLL name     : NTDSA.dll
+  Symbol name  : _MtxSame@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 108
+  Name         : MtxSame
+
+Archive member name at 79F0: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5D5B2B3
+  SizeOfData   : 0000001D
+  DLL name     : NTDSA.dll
+  Symbol name  : _NTDSServiceMain@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 109
+  Name         : NTDSServiceMain
+
+Archive member name at 7A5E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4463A2E
+  SizeOfData   : 00000019
+  DLL name     : NTDSA.dll
+  Symbol name  : _NameMatched@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 110
+  Name         : NameMatched
+
+Archive member name at 7AC8: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8A1B3BB
+  SizeOfData   : 00000027
+  DLL name     : NTDSA.dll
+  Symbol name  : _NameMatchedStringNameOnly@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 111
+  Name         : NameMatchedStringNameOnly
+
+Archive member name at 7B40: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9D061D3
+  SizeOfData   : 00000018
+  DLL name     : NTDSA.dll
+  Symbol name  : _NamePrefix@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 112
+  Name         : NamePrefix
+
+Archive member name at 7BA8: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE5FDF46
+  SizeOfData   : 00000030
+  DLL name     : NTDSA.dll
+  Symbol name  : _NtdsaiDeRegisterKdcAcctChangeNotif@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 113
+  Name         : NtdsaiDeRegisterKdcAcctChangeNotif
+
+Archive member name at 7C28: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F50540D3
+  SizeOfData   : 0000002E
+  DLL name     : NTDSA.dll
+  Symbol name  : _NtdsaiRegisterKdcAcctChangeNotif@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 114
+  Name         : NtdsaiRegisterKdcAcctChangeNotif
+
+Archive member name at 7CA6: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1205926
+  SizeOfData   : 00000029
+  DLL name     : NTDSA.dll
+  Symbol name  : _NtdsaiUpdateKrbtgtAccounts@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 115
+  Name         : NtdsaiUpdateKrbtgtAccounts
+
+Archive member name at 7D20: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9CCFB28
+  SizeOfData   : 0000001C
+  DLL name     : NTDSA.dll
+  Symbol name  : _QuoteRDNValue@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 116
+  Name         : QuoteRDNValue
+
+Archive member name at 7D8C: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD623F90
+  SizeOfData   : 00000026
+  DLL name     : NTDSA.dll
+  Symbol name  : _ReplicaLinkSizeFromParts@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 117
+  Name         : ReplicaLinkSizeFromParts
+
+Archive member name at 7E02: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAE027F9
+  SizeOfData   : 00000029
+  DLL name     : NTDSA.dll
+  Symbol name  : _ReplicaLinkUpdateDSInstance@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 118
+  Name         : ReplicaLinkUpdateDSInstance
+
+Archive member name at 7E7C: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E87BEA3C
+  SizeOfData   : 00000017
+  DLL name     : NTDSA.dll
+  Symbol name  : _SamIAmIGC@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 119
+  Name         : SamIAmIGC
+
+Archive member name at 7EE4: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC25A6C4
+  SizeOfData   : 00000029
+  DLL name     : NTDSA.dll
+  Symbol name  : _SamIDsResetBadPwdCountOnPdc@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 120
+  Name         : SamIDsResetBadPwdCountOnPdc
+
+Archive member name at 7F5E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C85B6D1C
+  SizeOfData   : 00000020
+  DLL name     : NTDSA.dll
+  Symbol name  : _SamIGCLookupNames@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 121
+  Name         : SamIGCLookupNames
+
+Archive member name at 7FCE: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF945B6A
+  SizeOfData   : 0000001F
+  DLL name     : NTDSA.dll
+  Symbol name  : _SamIGCLookupSids@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 122
+  Name         : SamIGCLookupSids
+
+Archive member name at 803E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6BCBEE1
+  SizeOfData   : 0000001A
+  DLL name     : NTDSA.dll
+  Symbol name  : _SamISameSite@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 123
+  Name         : SamISameSite
+
+Archive member name at 80A8: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC8E9A76
+  SizeOfData   : 0000001B
+  DLL name     : NTDSA.dll
+  Symbol name  : _SampDsControl@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 124
+  Name         : SampDsControl
+
+Archive member name at 8114: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA4CEBB4
+  SizeOfData   : 00000025
+  DLL name     : NTDSA.dll
+  Symbol name  : _SampExistsDsTransaction@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 125
+  Name         : SampExistsDsTransaction
+
+Archive member name at 818A: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E67DBA8E
+  SizeOfData   : 00000024
+  DLL name     : NTDSA.dll
+  Symbol name  : _SampGetClassAttribute@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 126
+  Name         : SampGetClassAttribute
+
+Archive member name at 81FE: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E946A01F
+  SizeOfData   : 00000018
+  DLL name     : NTDSA.dll
+  Symbol name  : _SampSetDsa@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 127
+  Name         : SampSetDsa
+
+Archive member name at 8266: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCDEC22A
+  SizeOfData   : 00000022
+  DLL name     : NTDSA.dll
+  Symbol name  : _StartDsaServiceMain@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 128
+  Name         : StartDsaServiceMain
+
+Archive member name at 82D8: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D03AD8AA
+  SizeOfData   : 00000015
+  DLL name     : NTDSA.dll
+  Symbol name  : _THAlloc@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 129
+  Name         : THAlloc
+
+Archive member name at 833E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E90F5EB2
+  SizeOfData   : 0000001B
+  DLL name     : NTDSA.dll
+  Symbol name  : _THClearErrors@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 130
+  Name         : THClearErrors
+
+Archive member name at 83AA: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6B44FFE
+  SizeOfData   : 00000016
+  DLL name     : NTDSA.dll
+  Symbol name  : _THCreate@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 131
+  Name         : THCreate
+
+Archive member name at 8410: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC1AA5E3
+  SizeOfData   : 00000017
+  DLL name     : NTDSA.dll
+  Symbol name  : _THDestroy@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 132
+  Name         : THDestroy
+
+Archive member name at 8478: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4ACB2C0
+  SizeOfData   : 00000014
+  DLL name     : NTDSA.dll
+  Symbol name  : _THFree@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 133
+  Name         : THFree
+
+Archive member name at 84DC: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEEA0F76
+  SizeOfData   : 0000001E
+  DLL name     : NTDSA.dll
+  Symbol name  : _THGetErrorString@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 134
+  Name         : THGetErrorString
+
+Archive member name at 854A: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD248CE3
+  SizeOfData   : 00000015
+  DLL name     : NTDSA.dll
+  Symbol name  : _THQuery@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 135
+  Name         : THQuery
+
+Archive member name at 85B0: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFD0302A
+  SizeOfData   : 00000017
+  DLL name     : NTDSA.dll
+  Symbol name  : _THReAlloc@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 136
+  Name         : THReAlloc
+
+Archive member name at 8618: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4B70129
+  SizeOfData   : 00000017
+  DLL name     : NTDSA.dll
+  Symbol name  : _THRestore@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 137
+  Name         : THRestore
+
+Archive member name at 8680: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C08B1043
+  SizeOfData   : 00000014
+  DLL name     : NTDSA.dll
+  Symbol name  : _THSave@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 138
+  Name         : THSave
+
+Archive member name at 86E4: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9C6FBD9
+  SizeOfData   : 0000001B
+  DLL name     : NTDSA.dll
+  Symbol name  : _THVerifyCount@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 139
+  Name         : THVerifyCount
+
+Archive member name at 8750: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0A62BC3
+  SizeOfData   : 00000026
+  DLL name     : NTDSA.dll
+  Symbol name  : _TransportAddrFromMtxAddr@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 140
+  Name         : TransportAddrFromMtxAddr
+
+Archive member name at 87C6: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCE7FD74
+  SizeOfData   : 0000001B
+  DLL name     : NTDSA.dll
+  Symbol name  : _TrimDSNameBy@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 141
+  Name         : TrimDSNameBy
+
+Archive member name at 8832: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBED0C5E
+  SizeOfData   : 00000024
+  DLL name     : NTDSA.dll
+  Symbol name  : _UnImpersonateAnyClient@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 142
+  Name         : UnImpersonateAnyClient
+
+Archive member name at 88A6: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4647E12
+  SizeOfData   : 00000020
+  DLL name     : NTDSA.dll
+  Symbol name  : _UpdateDSPerfStats@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 143
+  Name         : UpdateDSPerfStats
+
+Archive member name at 8916: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4121792
+  SizeOfData   : 00000028
+  DLL name     : NTDSA.dll
+  Symbol name  : _phoneticDisplayNameABView@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 144
+  Name         : phoneticDisplayNameABView
+
+Archive member name at 898E: NTDSA.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CED384B9
+  SizeOfData   : 00000027
+  DLL name     : NTDSA.dll
+  Symbol name  : _showInAddressBookArrayV1@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 145
+  Name         : showInAddressBookArrayV1
+
+     Exports
+
+       ordinal    name
+
+                  @DoLogUnhandledError2@16
+                  @DoLogUnhandledError@12
+                  _AppendRDN@24
+                  _AttrTypeToKey@8
+                  _ConvertReplicaLinkToNative@8
+                  _CountNameParts@8
+                  _CrackSingleName@36
+                  _DBDsReplBackupUpdate@24
+                  _DBUpdateBackupTimeStamps@0
+                  _DNSHostNameValueCheckForNetlogon@8
+                  _DSInstanceCompare@8
+                  _DSInstanceFromNTDSAddrEx@8
+                  _DSInstanceFromNameEx@8
+                  _DSInstanceFromSetupEx@12
+                  _DSNAMEToHashKeyExternal@4
+                  _DSNAMEToMappedStrExternal@4
+                  _DSStrToHashKeyExternal@8
+                  _DSStrToMappedStrExternal@8
+                  _DbgPrintErrorInfo@0
+                  _DebPrintV@20
+                  _DebugTest@8
+                  _DirAddEntry@8
+                  _DirBind@8
+                  _DirCompare@8
+                  _DirErrorToNtStatus@8
+                  _DirErrorToWinError@8
+                  _DirFindEntry@8
+                  _DirGetDomainHandle@4
+                  _DirModifyDN@8
+                  _DirModifyEntry@8
+                  _DirNotifyRegister@12
+                  _DirNotifyUnRegister@8
+                  _DirOperationControl@8
+                  _DirPrepareForImpersonate@12
+                  _DirProtectEntry@4
+                  _DirRead@8
+                  _DirRemoveEntry@8
+                  _DirReplicaAdd@28
+                  _DirReplicaDelete@12
+                  _DirReplicaDemote@16
+                  _DirReplicaGetDemoteTarget@16
+                  _DirReplicaModify@32
+                  _DirReplicaReferenceUpdate@16
+                  _DirReplicaReplSingleObj@16
+                  _DirReplicaSetCredentials@20
+                  _DirReplicaSynchronize@16
+                  _DirSearch@8
+                  _DirStopImpersonating@12
+                  _DirTransactControl@4
+                  _DoAssert@12
+                  _DoLogEventAndTrace@4
+                  _DoLogEventW@36
+                  _DoLogMsgOverride@4
+                  _DoLogOverride@8
+                  _DsCanRODCHostNdncForNetLogon@12
+                  _DsChangeBootOptions@16
+                  _DsCheckConstraint@12
+                  _DsFreeDomainControllerInfoForNetLogon@12
+                  _DsFreeServersAndSitesForNetLogon@4
+                  _DsGetBootOptions@0
+                  _DsGetDefaultObjCategory@4
+                  _DsGetDomainControllerInfoForNetLogon@20
+                  _DsGetEventConfig@0
+                  _DsGetServersAndSitesForNetLogon@8
+                  _DsInitialize@12
+                  _DsInitializeForSAM@0
+                  _DsIsBeingBackSynced@0
+                  _DsIsDCReadOnly@0
+                  _DsIsDLLLoaded@0
+                  _DsLoadDLL@4
+                  _DsPrepareUninitialize@0
+                  _DsQueryDnsHostNameForNetLogon@8
+                  _DsRegisterServiceStateCallback@4
+                  _DsTraceEvent@52
+                  _DsUninitialize@4
+                  _DsUninitializeForServiceStartError@0
+                  _DsUnloadDLL@0
+                  _DsUnregisterServiceStateCallback@4
+                  _DsWaitUntilDelayedStartupIsDone@0
+                  _DsaDisableUpdates@0
+                  _DsaEnableUpdates@0
+                  _DsaSetInstallCallback@16
+                  _FindNetbiosDomainName@12
+                  _GCVerifyCacheLookup@8
+                  _GetConfigDsName@4
+                  _GetConfigParam@12
+                  _GetConfigParamAllocW@12
+                  _GetConfigParamW@12
+                  _GetConfigurationInfo@12
+                  _GetConfigurationName@12
+                  _GetConfigurationNamesList@16
+                  _GetDnsRootAlias@8
+                  _GetRDNInfoExternal@16
+                  _GuidBasedDNSNameFromDSName@4
+                  _ImpersonateAnyClient@0
+                  _InitCommarg@4
+                  _InitializeSamDsExtension@4
+                  _IsFullDCInSiteForNetlogon@8
+                  _IsMangledRDNExternal@12
+                  _IsRODCInSiteForNetlogon@8
+                  _IsStringGuid@8
+                  _IsValidDSInstance@4
+                  _MapSpnServiceClass@4
+                  _MatchCrossRefByNetbiosName@12
+                  _MatchCrossRefBySid@12
+                  _MatchDomainDnByDnsName@12
+                  _MatchDomainDnByNetbiosName@12
+                  _MtxAddrFromTransportAddr@4
+                  _MtxSame@8
+                  _NTDSServiceMain@8
+                  _NameMatched@8
+                  _NameMatchedStringNameOnly@8
+                  _NamePrefix@8
+                  _NtdsaiDeRegisterKdcAcctChangeNotif@0
+                  _NtdsaiRegisterKdcAcctChangeNotif@4
+                  _NtdsaiUpdateKrbtgtAccounts@12
+                  _QuoteRDNValue@16
+                  _ReplicaLinkSizeFromParts@8
+                  _ReplicaLinkUpdateDSInstance@8
+                  _SamIAmIGC@0
+                  _SamIDsResetBadPwdCountOnPdc@4
+                  _SamIGCLookupNames@24
+                  _SamIGCLookupSids@24
+                  _SamISameSite@4
+                  _SampDsControl@8
+                  _SampExistsDsTransaction@0
+                  _SampGetClassAttribute@16
+                  _SampSetDsa@4
+                  _StartDsaServiceMain@12
+                  _THAlloc@4
+                  _THClearErrors@0
+                  _THCreate@4
+                  _THDestroy@0
+                  _THFree@4
+                  _THGetErrorString@0
+                  _THQuery@0
+                  _THReAlloc@8
+                  _THRestore@4
+                  _THSave@0
+                  _THVerifyCount@4
+                  _TransportAddrFromMtxAddr@4
+                  _TrimDSNameBy@12
+                  _UnImpersonateAnyClient@0
+                  _UpdateDSPerfStats@12
+                  _phoneticDisplayNameABView@32
+                  _showInAddressBookArrayV1@32
+
+  Summary
+
+          BD .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           A .idata$6

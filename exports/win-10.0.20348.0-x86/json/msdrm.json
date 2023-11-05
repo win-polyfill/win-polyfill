@@ -1,0 +1,2061 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_DRMAcquireAdvisories@16"
+    },
+    {
+      "name": "_DRMAcquireIssuanceLicenseTemplate@28"
+    },
+    {
+      "name": "_DRMAcquireLicense@28"
+    },
+    {
+      "name": "_DRMActivate@24"
+    },
+    {
+      "name": "_DRMAddLicense@12"
+    },
+    {
+      "name": "_DRMAddRightWithUser@12"
+    },
+    {
+      "name": "_DRMAttest@20"
+    },
+    {
+      "name": "_DRMCheckSecurity@8"
+    },
+    {
+      "name": "_DRMClearAllRights@4"
+    },
+    {
+      "name": "_DRMCloseEnvironmentHandle@4"
+    },
+    {
+      "name": "_DRMCloseHandle@4"
+    },
+    {
+      "name": "_DRMClosePubHandle@4"
+    },
+    {
+      "name": "_DRMCloseQueryHandle@4"
+    },
+    {
+      "name": "_DRMCloseSession@4"
+    },
+    {
+      "name": "_DRMConstructCertificateChain@16"
+    },
+    {
+      "name": "_DRMCreateBoundLicense@20"
+    },
+    {
+      "name": "_DRMCreateClientSession@20"
+    },
+    {
+      "name": "_DRMCreateEnablingBitsDecryptor@20"
+    },
+    {
+      "name": "_DRMCreateEnablingBitsEncryptor@20"
+    },
+    {
+      "name": "_DRMCreateEnablingPrincipal@24"
+    },
+    {
+      "name": "_DRMCreateIssuanceLicense@32"
+    },
+    {
+      "name": "_DRMCreateLicenseStorageSession@24"
+    },
+    {
+      "name": "_DRMCreateRight@28"
+    },
+    {
+      "name": "_DRMCreateUser@16"
+    },
+    {
+      "name": "_DRMDecode@16"
+    },
+    {
+      "name": "_DRMDeconstructCertificateChain@16"
+    },
+    {
+      "name": "_DRMDecrypt@24"
+    },
+    {
+      "name": "_DRMDeleteLicense@8"
+    },
+    {
+      "name": "_DRMDuplicateEnvironmentHandle@8"
+    },
+    {
+      "name": "_DRMDuplicateHandle@8"
+    },
+    {
+      "name": "_DRMDuplicatePubHandle@8"
+    },
+    {
+      "name": "_DRMDuplicateSession@8"
+    },
+    {
+      "name": "_DRMEncode@20"
+    },
+    {
+      "name": "_DRMEncrypt@24"
+    },
+    {
+      "name": "_DRMEnumerateLicense@24"
+    },
+    {
+      "name": "_DRMGetApplicationSpecificData@24"
+    },
+    {
+      "name": "_DRMGetBoundLicenseAttribute@24"
+    },
+    {
+      "name": "_DRMGetBoundLicenseAttributeCount@12"
+    },
+    {
+      "name": "_DRMGetBoundLicenseObject@16"
+    },
+    {
+      "name": "_DRMGetBoundLicenseObjectCount@12"
+    },
+    {
+      "name": "_DRMGetCertificateChainCount@8"
+    },
+    {
+      "name": "_DRMGetClientVersion@4"
+    },
+    {
+      "name": "_DRMGetEnvironmentInfo@20"
+    },
+    {
+      "name": "_DRMGetInfo@20"
+    },
+    {
+      "name": "_DRMGetIntervalTime@8"
+    },
+    {
+      "name": "_DRMGetIssuanceLicenseInfo@40"
+    },
+    {
+      "name": "_DRMGetIssuanceLicenseTemplate@12"
+    },
+    {
+      "name": "_DRMGetMetaData@52"
+    },
+    {
+      "name": "_DRMGetNameAndDescription@28"
+    },
+    {
+      "name": "_DRMGetOwnerLicense@12"
+    },
+    {
+      "name": "_DRMGetProcAddress@12"
+    },
+    {
+      "name": "_DRMGetRevocationPoint@48"
+    },
+    {
+      "name": "_DRMGetRightExtendedInfo@24"
+    },
+    {
+      "name": "_DRMGetRightInfo@20"
+    },
+    {
+      "name": "_DRMGetSecurityProvider@20"
+    },
+    {
+      "name": "_DRMGetServiceLocation@24"
+    },
+    {
+      "name": "_DRMGetSignedIssuanceLicense@40"
+    },
+    {
+      "name": "_DRMGetSignedIssuanceLicenseEx@44"
+    },
+    {
+      "name": "_DRMGetTime@12"
+    },
+    {
+      "name": "_DRMGetUnboundLicenseAttribute@24"
+    },
+    {
+      "name": "_DRMGetUnboundLicenseAttributeCount@12"
+    },
+    {
+      "name": "_DRMGetUnboundLicenseObject@16"
+    },
+    {
+      "name": "_DRMGetUnboundLicenseObjectCount@12"
+    },
+    {
+      "name": "_DRMGetUsagePolicy@64"
+    },
+    {
+      "name": "_DRMGetUserInfo@28"
+    },
+    {
+      "name": "_DRMGetUserRights@16"
+    },
+    {
+      "name": "_DRMGetUsers@12"
+    },
+    {
+      "name": "_DRMInitEnvironment@28"
+    },
+    {
+      "name": "_DRMIsActivated@12"
+    },
+    {
+      "name": "_DRMIsWindowProtected@8"
+    },
+    {
+      "name": "_DRMLoadLibrary@20"
+    },
+    {
+      "name": "_DRMParseUnboundLicense@8"
+    },
+    {
+      "name": "_DRMRegisterContent@4"
+    },
+    {
+      "name": "_DRMRegisterProtectedWindow@8"
+    },
+    {
+      "name": "_DRMRegisterRevocationList@8"
+    },
+    {
+      "name": "_DRMRepair@0"
+    },
+    {
+      "name": "_DRMSetApplicationSpecificData@16"
+    },
+    {
+      "name": "_DRMSetGlobalOptions@12"
+    },
+    {
+      "name": "_DRMSetIntervalTime@8"
+    },
+    {
+      "name": "_DRMSetMetaData@28"
+    },
+    {
+      "name": "_DRMSetNameAndDescription@20"
+    },
+    {
+      "name": "_DRMSetRevocationPoint@32"
+    },
+    {
+      "name": "_DRMSetUsagePolicy@44"
+    },
+    {
+      "name": "_DRMVerify@32"
+    },
+    {
+      "name": "___AddMachineCertToLicenseStore@12"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 11226,
+      "name": "__IMPORT_DESCRIPTOR_msdrm"
+    },
+    {
+      "offset": 11772,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 12080,
+      "name": "msdrm_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 13098,
+      "name": "_DRMAttest@20"
+    },
+    {
+      "offset": 13098,
+      "name": "__imp__DRMAttest@20"
+    },
+    {
+      "offset": 13424,
+      "name": "_DRMCloseEnvironmentHandle@4"
+    },
+    {
+      "offset": 13424,
+      "name": "__imp__DRMCloseEnvironmentHandle@4"
+    },
+    {
+      "offset": 13544,
+      "name": "_DRMCloseHandle@4"
+    },
+    {
+      "offset": 13544,
+      "name": "__imp__DRMCloseHandle@4"
+    },
+    {
+      "offset": 14112,
+      "name": "_DRMCreateBoundLicense@20"
+    },
+    {
+      "offset": 14112,
+      "name": "__imp__DRMCreateBoundLicense@20"
+    },
+    {
+      "offset": 13202,
+      "name": "_DRMCheckSecurity@8"
+    },
+    {
+      "offset": 13202,
+      "name": "__imp__DRMCheckSecurity@8"
+    },
+    {
+      "offset": 14346,
+      "name": "_DRMCreateEnablingBitsDecryptor@20"
+    },
+    {
+      "offset": 14346,
+      "name": "__imp__DRMCreateEnablingBitsDecryptor@20"
+    },
+    {
+      "offset": 14472,
+      "name": "_DRMCreateEnablingBitsEncryptor@20"
+    },
+    {
+      "offset": 14472,
+      "name": "__imp__DRMCreateEnablingBitsEncryptor@20"
+    },
+    {
+      "offset": 14598,
+      "name": "_DRMCreateEnablingPrincipal@24"
+    },
+    {
+      "offset": 14598,
+      "name": "__imp__DRMCreateEnablingPrincipal@24"
+    },
+    {
+      "offset": 15414,
+      "name": "_DRMDecrypt@24"
+    },
+    {
+      "offset": 15414,
+      "name": "__imp__DRMDecrypt@24"
+    },
+    {
+      "offset": 15630,
+      "name": "_DRMDuplicateEnvironmentHandle@8"
+    },
+    {
+      "offset": 15630,
+      "name": "__imp__DRMDuplicateEnvironmentHandle@8"
+    },
+    {
+      "offset": 15754,
+      "name": "_DRMDuplicateHandle@8"
+    },
+    {
+      "offset": 15754,
+      "name": "__imp__DRMDuplicateHandle@8"
+    },
+    {
+      "offset": 16200,
+      "name": "_DRMEncrypt@24"
+    },
+    {
+      "offset": 16200,
+      "name": "__imp__DRMEncrypt@24"
+    },
+    {
+      "offset": 16544,
+      "name": "_DRMGetBoundLicenseAttribute@24"
+    },
+    {
+      "offset": 16544,
+      "name": "__imp__DRMGetBoundLicenseAttribute@24"
+    },
+    {
+      "offset": 16666,
+      "name": "_DRMGetBoundLicenseAttributeCount@12"
+    },
+    {
+      "offset": 16666,
+      "name": "__imp__DRMGetBoundLicenseAttributeCount@12"
+    },
+    {
+      "offset": 16794,
+      "name": "_DRMGetBoundLicenseObject@16"
+    },
+    {
+      "offset": 16794,
+      "name": "__imp__DRMGetBoundLicenseObject@16"
+    },
+    {
+      "offset": 16914,
+      "name": "_DRMGetBoundLicenseObjectCount@12"
+    },
+    {
+      "offset": 16914,
+      "name": "__imp__DRMGetBoundLicenseObjectCount@12"
+    },
+    {
+      "offset": 17274,
+      "name": "_DRMGetEnvironmentInfo@20"
+    },
+    {
+      "offset": 17274,
+      "name": "__imp__DRMGetEnvironmentInfo@20"
+    },
+    {
+      "offset": 17390,
+      "name": "_DRMGetInfo@20"
+    },
+    {
+      "offset": 17390,
+      "name": "__imp__DRMGetInfo@20"
+    },
+    {
+      "offset": 18196,
+      "name": "_DRMGetProcAddress@12"
+    },
+    {
+      "offset": 18196,
+      "name": "__imp__DRMGetProcAddress@12"
+    },
+    {
+      "offset": 19132,
+      "name": "_DRMGetTime@12"
+    },
+    {
+      "offset": 19132,
+      "name": "__imp__DRMGetTime@12"
+    },
+    {
+      "offset": 20180,
+      "name": "_DRMInitEnvironment@28"
+    },
+    {
+      "offset": 20180,
+      "name": "__imp__DRMInitEnvironment@28"
+    },
+    {
+      "offset": 20518,
+      "name": "_DRMLoadLibrary@20"
+    },
+    {
+      "offset": 20518,
+      "name": "__imp__DRMLoadLibrary@20"
+    },
+    {
+      "offset": 20976,
+      "name": "_DRMRegisterRevocationList@8"
+    },
+    {
+      "offset": 20976,
+      "name": "__imp__DRMRegisterRevocationList@8"
+    },
+    {
+      "offset": 20744,
+      "name": "_DRMRegisterContent@4"
+    },
+    {
+      "offset": 20744,
+      "name": "__imp__DRMRegisterContent@4"
+    },
+    {
+      "offset": 14228,
+      "name": "_DRMCreateClientSession@20"
+    },
+    {
+      "offset": 14228,
+      "name": "__imp__DRMCreateClientSession@20"
+    },
+    {
+      "offset": 20294,
+      "name": "_DRMIsActivated@12"
+    },
+    {
+      "offset": 20294,
+      "name": "__imp__DRMIsActivated@12"
+    },
+    {
+      "offset": 12770,
+      "name": "_DRMActivate@24"
+    },
+    {
+      "offset": 12770,
+      "name": "__imp__DRMActivate@24"
+    },
+    {
+      "offset": 14840,
+      "name": "_DRMCreateLicenseStorageSession@24"
+    },
+    {
+      "offset": 14840,
+      "name": "__imp__DRMCreateLicenseStorageSession@24"
+    },
+    {
+      "offset": 12414,
+      "name": "_DRMAcquireAdvisories@16"
+    },
+    {
+      "offset": 12414,
+      "name": "__imp__DRMAcquireAdvisories@16"
+    },
+    {
+      "offset": 12658,
+      "name": "_DRMAcquireLicense@28"
+    },
+    {
+      "offset": 12658,
+      "name": "__imp__DRMAcquireLicense@28"
+    },
+    {
+      "offset": 12876,
+      "name": "_DRMAddLicense@12"
+    },
+    {
+      "offset": 12876,
+      "name": "__imp__DRMAddLicense@12"
+    },
+    {
+      "offset": 16306,
+      "name": "_DRMEnumerateLicense@24"
+    },
+    {
+      "offset": 16306,
+      "name": "__imp__DRMEnumerateLicense@24"
+    },
+    {
+      "offset": 18652,
+      "name": "_DRMGetSecurityProvider@20"
+    },
+    {
+      "offset": 18652,
+      "name": "__imp__DRMGetSecurityProvider@20"
+    },
+    {
+      "offset": 13878,
+      "name": "_DRMCloseSession@4"
+    },
+    {
+      "offset": 13878,
+      "name": "__imp__DRMCloseSession@4"
+    },
+    {
+      "offset": 15982,
+      "name": "_DRMDuplicateSession@8"
+    },
+    {
+      "offset": 15982,
+      "name": "__imp__DRMDuplicateSession@8"
+    },
+    {
+      "offset": 16096,
+      "name": "_DRMEncode@20"
+    },
+    {
+      "offset": 16096,
+      "name": "__imp__DRMEncode@20"
+    },
+    {
+      "offset": 15184,
+      "name": "_DRMDecode@16"
+    },
+    {
+      "offset": 15184,
+      "name": "__imp__DRMDecode@16"
+    },
+    {
+      "offset": 13988,
+      "name": "_DRMConstructCertificateChain@16"
+    },
+    {
+      "offset": 13988,
+      "name": "__imp__DRMConstructCertificateChain@16"
+    },
+    {
+      "offset": 15520,
+      "name": "_DRMDeleteLicense@8"
+    },
+    {
+      "offset": 15520,
+      "name": "__imp__DRMDeleteLicense@8"
+    },
+    {
+      "offset": 20628,
+      "name": "_DRMParseUnboundLicense@8"
+    },
+    {
+      "offset": 20628,
+      "name": "__imp__DRMParseUnboundLicense@8"
+    },
+    {
+      "offset": 13764,
+      "name": "_DRMCloseQueryHandle@4"
+    },
+    {
+      "offset": 13764,
+      "name": "__imp__DRMCloseQueryHandle@4"
+    },
+    {
+      "offset": 19614,
+      "name": "_DRMGetUnboundLicenseObjectCount@12"
+    },
+    {
+      "offset": 19614,
+      "name": "__imp__DRMGetUnboundLicenseObjectCount@12"
+    },
+    {
+      "offset": 19492,
+      "name": "_DRMGetUnboundLicenseObject@16"
+    },
+    {
+      "offset": 19492,
+      "name": "__imp__DRMGetUnboundLicenseObject@16"
+    },
+    {
+      "offset": 19362,
+      "name": "_DRMGetUnboundLicenseAttributeCount@12"
+    },
+    {
+      "offset": 19362,
+      "name": "__imp__DRMGetUnboundLicenseAttributeCount@12"
+    },
+    {
+      "offset": 19238,
+      "name": "_DRMGetUnboundLicenseAttribute@24"
+    },
+    {
+      "offset": 19238,
+      "name": "__imp__DRMGetUnboundLicenseAttribute@24"
+    },
+    {
+      "offset": 17038,
+      "name": "_DRMGetCertificateChainCount@8"
+    },
+    {
+      "offset": 17038,
+      "name": "__imp__DRMGetCertificateChainCount@8"
+    },
+    {
+      "offset": 15288,
+      "name": "_DRMDeconstructCertificateChain@16"
+    },
+    {
+      "offset": 15288,
+      "name": "__imp__DRMDeconstructCertificateChain@16"
+    },
+    {
+      "offset": 22008,
+      "name": "_DRMVerify@32"
+    },
+    {
+      "offset": 22008,
+      "name": "__imp__DRMVerify@32"
+    },
+    {
+      "offset": 18770,
+      "name": "_DRMGetServiceLocation@24"
+    },
+    {
+      "offset": 18770,
+      "name": "__imp__DRMGetServiceLocation@24"
+    },
+    {
+      "offset": 14720,
+      "name": "_DRMCreateIssuanceLicense@32"
+    },
+    {
+      "offset": 14720,
+      "name": "__imp__DRMCreateIssuanceLicense@32"
+    },
+    {
+      "offset": 15076,
+      "name": "_DRMCreateUser@16"
+    },
+    {
+      "offset": 15076,
+      "name": "__imp__DRMCreateUser@16"
+    },
+    {
+      "offset": 14966,
+      "name": "_DRMCreateRight@28"
+    },
+    {
+      "offset": 14966,
+      "name": "__imp__DRMCreateRight@28"
+    },
+    {
+      "offset": 12984,
+      "name": "_DRMAddRightWithUser@12"
+    },
+    {
+      "offset": 12984,
+      "name": "__imp__DRMAddRightWithUser@12"
+    },
+    {
+      "offset": 13312,
+      "name": "_DRMClearAllRights@4"
+    },
+    {
+      "offset": 13312,
+      "name": "__imp__DRMClearAllRights@4"
+    },
+    {
+      "offset": 21550,
+      "name": "_DRMSetMetaData@28"
+    },
+    {
+      "offset": 21550,
+      "name": "__imp__DRMSetMetaData@28"
+    },
+    {
+      "offset": 17852,
+      "name": "_DRMGetMetaData@52"
+    },
+    {
+      "offset": 17852,
+      "name": "__imp__DRMGetMetaData@52"
+    },
+    {
+      "offset": 21896,
+      "name": "_DRMSetUsagePolicy@44"
+    },
+    {
+      "offset": 21896,
+      "name": "__imp__DRMSetUsagePolicy@44"
+    },
+    {
+      "offset": 21780,
+      "name": "_DRMSetRevocationPoint@32"
+    },
+    {
+      "offset": 21780,
+      "name": "__imp__DRMSetRevocationPoint@32"
+    },
+    {
+      "offset": 21200,
+      "name": "_DRMSetApplicationSpecificData@16"
+    },
+    {
+      "offset": 21200,
+      "name": "__imp__DRMSetApplicationSpecificData@16"
+    },
+    {
+      "offset": 21660,
+      "name": "_DRMSetNameAndDescription@20"
+    },
+    {
+      "offset": 21660,
+      "name": "__imp__DRMSetNameAndDescription@20"
+    },
+    {
+      "offset": 17728,
+      "name": "_DRMGetIssuanceLicenseTemplate@12"
+    },
+    {
+      "offset": 17728,
+      "name": "__imp__DRMGetIssuanceLicenseTemplate@12"
+    },
+    {
+      "offset": 18886,
+      "name": "_DRMGetSignedIssuanceLicense@40"
+    },
+    {
+      "offset": 18886,
+      "name": "__imp__DRMGetSignedIssuanceLicense@40"
+    },
+    {
+      "offset": 19008,
+      "name": "_DRMGetSignedIssuanceLicenseEx@44"
+    },
+    {
+      "offset": 19008,
+      "name": "__imp__DRMGetSignedIssuanceLicenseEx@44"
+    },
+    {
+      "offset": 13652,
+      "name": "_DRMClosePubHandle@4"
+    },
+    {
+      "offset": 13652,
+      "name": "__imp__DRMClosePubHandle@4"
+    },
+    {
+      "offset": 15866,
+      "name": "_DRMDuplicatePubHandle@8"
+    },
+    {
+      "offset": 15866,
+      "name": "__imp__DRMDuplicatePubHandle@8"
+    },
+    {
+      "offset": 19852,
+      "name": "_DRMGetUserInfo@28"
+    },
+    {
+      "offset": 19852,
+      "name": "__imp__DRMGetUserInfo@28"
+    },
+    {
+      "offset": 18542,
+      "name": "_DRMGetRightInfo@20"
+    },
+    {
+      "offset": 18542,
+      "name": "__imp__DRMGetRightInfo@20"
+    },
+    {
+      "offset": 18424,
+      "name": "_DRMGetRightExtendedInfo@24"
+    },
+    {
+      "offset": 18424,
+      "name": "__imp__DRMGetRightExtendedInfo@24"
+    },
+    {
+      "offset": 20074,
+      "name": "_DRMGetUsers@12"
+    },
+    {
+      "offset": 20074,
+      "name": "__imp__DRMGetUsers@12"
+    },
+    {
+      "offset": 19962,
+      "name": "_DRMGetUserRights@16"
+    },
+    {
+      "offset": 19962,
+      "name": "__imp__DRMGetUserRights@16"
+    },
+    {
+      "offset": 16420,
+      "name": "_DRMGetApplicationSpecificData@24"
+    },
+    {
+      "offset": 16420,
+      "name": "__imp__DRMGetApplicationSpecificData@24"
+    },
+    {
+      "offset": 17608,
+      "name": "_DRMGetIssuanceLicenseInfo@40"
+    },
+    {
+      "offset": 17608,
+      "name": "__imp__DRMGetIssuanceLicenseInfo@40"
+    },
+    {
+      "offset": 18308,
+      "name": "_DRMGetRevocationPoint@48"
+    },
+    {
+      "offset": 18308,
+      "name": "__imp__DRMGetRevocationPoint@48"
+    },
+    {
+      "offset": 19740,
+      "name": "_DRMGetUsagePolicy@64"
+    },
+    {
+      "offset": 19740,
+      "name": "__imp__DRMGetUsagePolicy@64"
+    },
+    {
+      "offset": 17962,
+      "name": "_DRMGetNameAndDescription@28"
+    },
+    {
+      "offset": 17962,
+      "name": "__imp__DRMGetNameAndDescription@28"
+    },
+    {
+      "offset": 18082,
+      "name": "_DRMGetOwnerLicense@12"
+    },
+    {
+      "offset": 18082,
+      "name": "__imp__DRMGetOwnerLicense@12"
+    },
+    {
+      "offset": 21324,
+      "name": "_DRMSetGlobalOptions@12"
+    },
+    {
+      "offset": 21324,
+      "name": "__imp__DRMSetGlobalOptions@12"
+    },
+    {
+      "offset": 17160,
+      "name": "_DRMGetClientVersion@4"
+    },
+    {
+      "offset": 17160,
+      "name": "__imp__DRMGetClientVersion@4"
+    },
+    {
+      "offset": 21438,
+      "name": "_DRMSetIntervalTime@8"
+    },
+    {
+      "offset": 21438,
+      "name": "__imp__DRMSetIntervalTime@8"
+    },
+    {
+      "offset": 17496,
+      "name": "_DRMGetIntervalTime@8"
+    },
+    {
+      "offset": 17496,
+      "name": "__imp__DRMGetIntervalTime@8"
+    },
+    {
+      "offset": 21096,
+      "name": "_DRMRepair@0"
+    },
+    {
+      "offset": 21096,
+      "name": "__imp__DRMRepair@0"
+    },
+    {
+      "offset": 22112,
+      "name": "___AddMachineCertToLicenseStore@12"
+    },
+    {
+      "offset": 22112,
+      "name": "__imp____AddMachineCertToLicenseStore@12"
+    },
+    {
+      "offset": 20856,
+      "name": "_DRMRegisterProtectedWindow@8"
+    },
+    {
+      "offset": 20856,
+      "name": "__imp__DRMRegisterProtectedWindow@8"
+    },
+    {
+      "offset": 20404,
+      "name": "_DRMIsWindowProtected@8"
+    },
+    {
+      "offset": 20404,
+      "name": "__imp__DRMIsWindowProtected@8"
+    },
+    {
+      "offset": 12530,
+      "name": "_DRMAcquireIssuanceLicenseTemplate@28"
+    },
+    {
+      "offset": 12530,
+      "name": "__imp__DRMAcquireIssuanceLicenseTemplate@28"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 12414,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4162426393,
+      "sizeOfData": 35,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMAcquireAdvisories@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "DRMAcquireAdvisories"
+    },
+    {
+      "offset": 12530,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4178773728,
+      "sizeOfData": 48,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMAcquireIssuanceLicenseTemplate@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "DRMAcquireIssuanceLicenseTemplate"
+    },
+    {
+      "offset": 12658,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3682015073,
+      "sizeOfData": 32,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMAcquireLicense@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "DRMAcquireLicense"
+    },
+    {
+      "offset": 12770,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4025503528,
+      "sizeOfData": 26,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMActivate@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "DRMActivate"
+    },
+    {
+      "offset": 12876,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3776893086,
+      "sizeOfData": 28,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMAddLicense@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "DRMAddLicense"
+    },
+    {
+      "offset": 12984,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4271280499,
+      "sizeOfData": 34,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMAddRightWithUser@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "DRMAddRightWithUser"
+    },
+    {
+      "offset": 13098,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3721990160,
+      "sizeOfData": 24,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMAttest@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "DRMAttest"
+    },
+    {
+      "offset": 13202,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3871171482,
+      "sizeOfData": 30,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCheckSecurity@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "DRMCheckSecurity"
+    },
+    {
+      "offset": 13312,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3964834857,
+      "sizeOfData": 31,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMClearAllRights@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "DRMClearAllRights"
+    },
+    {
+      "offset": 13424,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3253650453,
+      "sizeOfData": 39,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCloseEnvironmentHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "DRMCloseEnvironmentHandle"
+    },
+    {
+      "offset": 13544,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3659395679,
+      "sizeOfData": 28,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCloseHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "DRMCloseHandle"
+    },
+    {
+      "offset": 13652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3748295404,
+      "sizeOfData": 31,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMClosePubHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "DRMClosePubHandle"
+    },
+    {
+      "offset": 13764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3909947336,
+      "sizeOfData": 33,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCloseQueryHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "DRMCloseQueryHandle"
+    },
+    {
+      "offset": 13878,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3734348881,
+      "sizeOfData": 29,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCloseSession@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "DRMCloseSession"
+    },
+    {
+      "offset": 13988,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3703978281,
+      "sizeOfData": 43,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMConstructCertificateChain@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "DRMConstructCertificateChain"
+    },
+    {
+      "offset": 14112,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4143258572,
+      "sizeOfData": 36,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCreateBoundLicense@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "DRMCreateBoundLicense"
+    },
+    {
+      "offset": 14228,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4120949736,
+      "sizeOfData": 37,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCreateClientSession@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "DRMCreateClientSession"
+    },
+    {
+      "offset": 14346,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3514697957,
+      "sizeOfData": 45,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCreateEnablingBitsDecryptor@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "DRMCreateEnablingBitsDecryptor"
+    },
+    {
+      "offset": 14472,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4094439420,
+      "sizeOfData": 45,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCreateEnablingBitsEncryptor@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "DRMCreateEnablingBitsEncryptor"
+    },
+    {
+      "offset": 14598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3464814237,
+      "sizeOfData": 41,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCreateEnablingPrincipal@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "DRMCreateEnablingPrincipal"
+    },
+    {
+      "offset": 14720,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3955548448,
+      "sizeOfData": 39,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCreateIssuanceLicense@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "DRMCreateIssuanceLicense"
+    },
+    {
+      "offset": 14840,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3872961074,
+      "sizeOfData": 45,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCreateLicenseStorageSession@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "DRMCreateLicenseStorageSession"
+    },
+    {
+      "offset": 14966,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3592456121,
+      "sizeOfData": 29,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCreateRight@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "DRMCreateRight"
+    },
+    {
+      "offset": 15076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3351775060,
+      "sizeOfData": 28,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMCreateUser@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "DRMCreateUser"
+    },
+    {
+      "offset": 15184,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4048830399,
+      "sizeOfData": 24,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMDecode@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "DRMDecode"
+    },
+    {
+      "offset": 15288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3971533281,
+      "sizeOfData": 45,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMDeconstructCertificateChain@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "DRMDeconstructCertificateChain"
+    },
+    {
+      "offset": 15414,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3546361887,
+      "sizeOfData": 25,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMDecrypt@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "DRMDecrypt"
+    },
+    {
+      "offset": 15520,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3950306178,
+      "sizeOfData": 30,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMDeleteLicense@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "DRMDeleteLicense"
+    },
+    {
+      "offset": 15630,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3572320099,
+      "sizeOfData": 43,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMDuplicateEnvironmentHandle@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "DRMDuplicateEnvironmentHandle"
+    },
+    {
+      "offset": 15754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3954222313,
+      "sizeOfData": 32,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMDuplicateHandle@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "DRMDuplicateHandle"
+    },
+    {
+      "offset": 15866,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4144471367,
+      "sizeOfData": 35,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMDuplicatePubHandle@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "DRMDuplicatePubHandle"
+    },
+    {
+      "offset": 15982,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3501239857,
+      "sizeOfData": 33,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMDuplicateSession@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "DRMDuplicateSession"
+    },
+    {
+      "offset": 16096,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3488029013,
+      "sizeOfData": 24,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMEncode@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "DRMEncode"
+    },
+    {
+      "offset": 16200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3480096547,
+      "sizeOfData": 25,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMEncrypt@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "DRMEncrypt"
+    },
+    {
+      "offset": 16306,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3913122144,
+      "sizeOfData": 34,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMEnumerateLicense@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "DRMEnumerateLicense"
+    },
+    {
+      "offset": 16420,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3270016873,
+      "sizeOfData": 44,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetApplicationSpecificData@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "DRMGetApplicationSpecificData"
+    },
+    {
+      "offset": 16544,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3684708455,
+      "sizeOfData": 42,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetBoundLicenseAttribute@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "DRMGetBoundLicenseAttribute"
+    },
+    {
+      "offset": 16666,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4167363133,
+      "sizeOfData": 47,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetBoundLicenseAttributeCount@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "DRMGetBoundLicenseAttributeCount"
+    },
+    {
+      "offset": 16794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3251340966,
+      "sizeOfData": 39,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetBoundLicenseObject@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "DRMGetBoundLicenseObject"
+    },
+    {
+      "offset": 16914,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3229577978,
+      "sizeOfData": 44,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetBoundLicenseObjectCount@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "DRMGetBoundLicenseObjectCount"
+    },
+    {
+      "offset": 17038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3900541166,
+      "sizeOfData": 41,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetCertificateChainCount@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "DRMGetCertificateChainCount"
+    },
+    {
+      "offset": 17160,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4127492045,
+      "sizeOfData": 33,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetClientVersion@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "DRMGetClientVersion"
+    },
+    {
+      "offset": 17274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3336860373,
+      "sizeOfData": 36,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetEnvironmentInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "DRMGetEnvironmentInfo"
+    },
+    {
+      "offset": 17390,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3801732391,
+      "sizeOfData": 25,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "DRMGetInfo"
+    },
+    {
+      "offset": 17496,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3814263489,
+      "sizeOfData": 32,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetIntervalTime@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "DRMGetIntervalTime"
+    },
+    {
+      "offset": 17608,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3567219022,
+      "sizeOfData": 40,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetIssuanceLicenseInfo@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "DRMGetIssuanceLicenseInfo"
+    },
+    {
+      "offset": 17728,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3760169668,
+      "sizeOfData": 44,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetIssuanceLicenseTemplate@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "DRMGetIssuanceLicenseTemplate"
+    },
+    {
+      "offset": 17852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3632458648,
+      "sizeOfData": 29,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetMetaData@52",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "DRMGetMetaData"
+    },
+    {
+      "offset": 17962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4043958988,
+      "sizeOfData": 39,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetNameAndDescription@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "DRMGetNameAndDescription"
+    },
+    {
+      "offset": 18082,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4107070609,
+      "sizeOfData": 33,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetOwnerLicense@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "DRMGetOwnerLicense"
+    },
+    {
+      "offset": 18196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4048743008,
+      "sizeOfData": 32,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetProcAddress@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "DRMGetProcAddress"
+    },
+    {
+      "offset": 18308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3733814869,
+      "sizeOfData": 36,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetRevocationPoint@48",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "DRMGetRevocationPoint"
+    },
+    {
+      "offset": 18424,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4022298098,
+      "sizeOfData": 38,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetRightExtendedInfo@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "DRMGetRightExtendedInfo"
+    },
+    {
+      "offset": 18542,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3480172570,
+      "sizeOfData": 30,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetRightInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "DRMGetRightInfo"
+    },
+    {
+      "offset": 18652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3361063923,
+      "sizeOfData": 37,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetSecurityProvider@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "DRMGetSecurityProvider"
+    },
+    {
+      "offset": 18770,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3283050790,
+      "sizeOfData": 36,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetServiceLocation@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "DRMGetServiceLocation"
+    },
+    {
+      "offset": 18886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3829053418,
+      "sizeOfData": 42,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetSignedIssuanceLicense@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "DRMGetSignedIssuanceLicense"
+    },
+    {
+      "offset": 19008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3916319690,
+      "sizeOfData": 44,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetSignedIssuanceLicenseEx@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "DRMGetSignedIssuanceLicenseEx"
+    },
+    {
+      "offset": 19132,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3659067512,
+      "sizeOfData": 25,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetTime@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "DRMGetTime"
+    },
+    {
+      "offset": 19238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4284587553,
+      "sizeOfData": 44,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetUnboundLicenseAttribute@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "DRMGetUnboundLicenseAttribute"
+    },
+    {
+      "offset": 19362,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3318361696,
+      "sizeOfData": 49,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetUnboundLicenseAttributeCount@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "DRMGetUnboundLicenseAttributeCount"
+    },
+    {
+      "offset": 19492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3737661574,
+      "sizeOfData": 41,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetUnboundLicenseObject@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "DRMGetUnboundLicenseObject"
+    },
+    {
+      "offset": 19614,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3665554074,
+      "sizeOfData": 46,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetUnboundLicenseObjectCount@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "DRMGetUnboundLicenseObjectCount"
+    },
+    {
+      "offset": 19740,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4202895148,
+      "sizeOfData": 32,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetUsagePolicy@64",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "DRMGetUsagePolicy"
+    },
+    {
+      "offset": 19852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3958419678,
+      "sizeOfData": 29,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetUserInfo@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "DRMGetUserInfo"
+    },
+    {
+      "offset": 19962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3590454015,
+      "sizeOfData": 31,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetUserRights@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "DRMGetUserRights"
+    },
+    {
+      "offset": 20074,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3238607340,
+      "sizeOfData": 26,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMGetUsers@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "DRMGetUsers"
+    },
+    {
+      "offset": 20180,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3373431989,
+      "sizeOfData": 33,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMInitEnvironment@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "DRMInitEnvironment"
+    },
+    {
+      "offset": 20294,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3693136981,
+      "sizeOfData": 29,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMIsActivated@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "DRMIsActivated"
+    },
+    {
+      "offset": 20404,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3807530236,
+      "sizeOfData": 34,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMIsWindowProtected@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "DRMIsWindowProtected"
+    },
+    {
+      "offset": 20518,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3316028059,
+      "sizeOfData": 29,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMLoadLibrary@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "DRMLoadLibrary"
+    },
+    {
+      "offset": 20628,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3320888973,
+      "sizeOfData": 36,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMParseUnboundLicense@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "DRMParseUnboundLicense"
+    },
+    {
+      "offset": 20744,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3746258738,
+      "sizeOfData": 32,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMRegisterContent@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "DRMRegisterContent"
+    },
+    {
+      "offset": 20856,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4292662081,
+      "sizeOfData": 40,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMRegisterProtectedWindow@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "DRMRegisterProtectedWindow"
+    },
+    {
+      "offset": 20976,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3286997512,
+      "sizeOfData": 39,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMRegisterRevocationList@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "DRMRegisterRevocationList"
+    },
+    {
+      "offset": 21096,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4171649085,
+      "sizeOfData": 23,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMRepair@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "DRMRepair"
+    },
+    {
+      "offset": 21200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4123660135,
+      "sizeOfData": 44,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMSetApplicationSpecificData@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "DRMSetApplicationSpecificData"
+    },
+    {
+      "offset": 21324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4094213210,
+      "sizeOfData": 34,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMSetGlobalOptions@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "DRMSetGlobalOptions"
+    },
+    {
+      "offset": 21438,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3416485333,
+      "sizeOfData": 32,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMSetIntervalTime@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "DRMSetIntervalTime"
+    },
+    {
+      "offset": 21550,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3815848676,
+      "sizeOfData": 29,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMSetMetaData@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "DRMSetMetaData"
+    },
+    {
+      "offset": 21660,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4230296717,
+      "sizeOfData": 39,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMSetNameAndDescription@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "DRMSetNameAndDescription"
+    },
+    {
+      "offset": 21780,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3792061023,
+      "sizeOfData": 36,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMSetRevocationPoint@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "DRMSetRevocationPoint"
+    },
+    {
+      "offset": 21896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3900947846,
+      "sizeOfData": 32,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMSetUsagePolicy@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "DRMSetUsagePolicy"
+    },
+    {
+      "offset": 22008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3735296817,
+      "sizeOfData": 24,
+      "dllName": "msdrm.dll",
+      "symbolName": "_DRMVerify@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "DRMVerify"
+    },
+    {
+      "offset": 22112,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3893069888,
+      "sizeOfData": 45,
+      "dllName": "msdrm.dll",
+      "symbolName": "___AddMachineCertToLicenseStore@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "__AddMachineCertToLicenseStore"
+    }
+  ]
+}

@@ -1,0 +1,3093 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "?ClusWorkerStart@@YGKPAU_WORK_CONTEXT@@@Z (unsigned long __stdcall ClusWorkerStart(struct _WORK_CONTEXT *))"
+    },
+    {
+      "name": "_CloseClusterCryptProvider@4"
+    },
+    {
+      "name": "_ClusAddClusterHealthFault@12"
+    },
+    {
+      "name": "_ClusGetClusterHealthFaults@12"
+    },
+    {
+      "name": "_ClusRemoveClusterHealthFault@12"
+    },
+    {
+      "name": "_ClusWorkerCheckTerminate@4"
+    },
+    {
+      "name": "_ClusWorkerCreate@12"
+    },
+    {
+      "name": "_ClusWorkerTerminate@4"
+    },
+    {
+      "name": "_ClusWorkerTerminateEx@12"
+    },
+    {
+      "name": "_ClusWorkersTerminate@16"
+    },
+    {
+      "name": "_ClusterClearBackupStateForSharedVolume@4"
+    },
+    {
+      "name": "_ClusterDecrypt@20"
+    },
+    {
+      "name": "_ClusterEncrypt@20"
+    },
+    {
+      "name": "_ClusterGetVolumeNameForVolumeMountPoint@12"
+    },
+    {
+      "name": "_ClusterGetVolumePathName@12"
+    },
+    {
+      "name": "_ClusterIsPathOnSharedVolume@4"
+    },
+    {
+      "name": "_ClusterPrepareSharedVolumeForBackup@20"
+    },
+    {
+      "name": "_ClusterSharedVolumeCheckSnapshotPresence@4"
+    },
+    {
+      "name": "_ClusterSharedVolumeCreateSnapshot@8"
+    },
+    {
+      "name": "_ClusterSharedVolumeReleaseSnapshot@4"
+    },
+    {
+      "name": "_CreateClusterStorageSpacesClustering@8"
+    },
+    {
+      "name": "_CreateClusterStorageSpacesResourceLocator@4"
+    },
+    {
+      "name": "_CreateClusterStorageSpacesSubProvider@8"
+    },
+    {
+      "name": "_FreeClusterCrypt@4"
+    },
+    {
+      "name": "_FreeClusterHealthFault@4"
+    },
+    {
+      "name": "_FreeClusterHealthFaultArray@4"
+    },
+    {
+      "name": "_InitializeClusterHealthFault@4"
+    },
+    {
+      "name": "_InitializeClusterHealthFaultArray@4"
+    },
+    {
+      "name": "_OpenClusterCryptProvider@16"
+    },
+    {
+      "name": "_OpenClusterCryptProviderEx@20"
+    },
+    {
+      "name": "_ResUtilAddUnknownProperties@24"
+    },
+    {
+      "name": "_ResUtilCreateDirectoryTree@4"
+    },
+    {
+      "name": "_ResUtilDupGroup@8"
+    },
+    {
+      "name": "_ResUtilDupParameterBlock@12"
+    },
+    {
+      "name": "_ResUtilDupResource@8"
+    },
+    {
+      "name": "_ResUtilDupString@4"
+    },
+    {
+      "name": "_ResUtilEnumGroups@16"
+    },
+    {
+      "name": "_ResUtilEnumGroupsEx@20"
+    },
+    {
+      "name": "_ResUtilEnumPrivateProperties@20"
+    },
+    {
+      "name": "_ResUtilEnumProperties@20"
+    },
+    {
+      "name": "_ResUtilEnumResources@16"
+    },
+    {
+      "name": "_ResUtilEnumResourcesEx2@24"
+    },
+    {
+      "name": "_ResUtilEnumResourcesEx@20"
+    },
+    {
+      "name": "_ResUtilExpandEnvironmentStrings@4"
+    },
+    {
+      "name": "_ResUtilFindBinaryProperty@20"
+    },
+    {
+      "name": "_ResUtilFindDependentDiskResourceDriveLetter@16"
+    },
+    {
+      "name": "_ResUtilFindDwordProperty@16"
+    },
+    {
+      "name": "_ResUtilFindExpandSzProperty@16"
+    },
+    {
+      "name": "_ResUtilFindExpandedSzProperty@16"
+    },
+    {
+      "name": "_ResUtilFindFileTimeProperty@16"
+    },
+    {
+      "name": "_ResUtilFindLongProperty@16"
+    },
+    {
+      "name": "_ResUtilFindMultiSzProperty@20"
+    },
+    {
+      "name": "_ResUtilFindSzProperty@16"
+    },
+    {
+      "name": "_ResUtilFindULargeIntegerProperty@16"
+    },
+    {
+      "name": "_ResUtilFreeEnvironment@4"
+    },
+    {
+      "name": "_ResUtilFreeParameterBlock@12"
+    },
+    {
+      "name": "_ResUtilGetAllProperties@24"
+    },
+    {
+      "name": "_ResUtilGetBinaryProperty@28"
+    },
+    {
+      "name": "_ResUtilGetBinaryValue@16"
+    },
+    {
+      "name": "_ResUtilGetClusterGroupType@8"
+    },
+    {
+      "name": "_ResUtilGetClusterId@8"
+    },
+    {
+      "name": "_ResUtilGetClusterRoleState@8"
+    },
+    {
+      "name": "_ResUtilGetCoreClusterResources@16"
+    },
+    {
+      "name": "_ResUtilGetCoreClusterResourcesEx@16"
+    },
+    {
+      "name": "_ResUtilGetCoreGroup@4"
+    },
+    {
+      "name": "_ResUtilGetDwordProperty@28"
+    },
+    {
+      "name": "_ResUtilGetDwordValue@16"
+    },
+    {
+      "name": "_ResUtilGetEnvironmentWithNetName@4"
+    },
+    {
+      "name": "_ResUtilGetFileTimeProperty@40"
+    },
+    {
+      "name": "_ResUtilGetLongProperty@28"
+    },
+    {
+      "name": "_ResUtilGetMultiSzProperty@28"
+    },
+    {
+      "name": "_ResUtilGetPrivateProperties@20"
+    },
+    {
+      "name": "_ResUtilGetProperties@24"
+    },
+    {
+      "name": "_ResUtilGetPropertiesToParameterBlock@20"
+    },
+    {
+      "name": "_ResUtilGetProperty@16"
+    },
+    {
+      "name": "_ResUtilGetPropertyFormats@20"
+    },
+    {
+      "name": "_ResUtilGetPropertySize@16"
+    },
+    {
+      "name": "_ResUtilGetQwordValue@20"
+    },
+    {
+      "name": "_ResUtilGetResourceDependency@8"
+    },
+    {
+      "name": "_ResUtilGetResourceDependencyByClass@16"
+    },
+    {
+      "name": "_ResUtilGetResourceDependencyByClassEx@20"
+    },
+    {
+      "name": "_ResUtilGetResourceDependencyByName@16"
+    },
+    {
+      "name": "_ResUtilGetResourceDependencyByNameAndClass@24"
+    },
+    {
+      "name": "_ResUtilGetResourceDependencyByNameEx@20"
+    },
+    {
+      "name": "_ResUtilGetResourceDependencyEx@12"
+    },
+    {
+      "name": "_ResUtilGetResourceDependentIPAddressProps@28"
+    },
+    {
+      "name": "_ResUtilGetResourceName@12"
+    },
+    {
+      "name": "_ResUtilGetResourceNameDependency@8"
+    },
+    {
+      "name": "_ResUtilGetResourceNameDependencyEx@12"
+    },
+    {
+      "name": "_ResUtilGetSzProperty@20"
+    },
+    {
+      "name": "_ResUtilGetSzValue@8"
+    },
+    {
+      "name": "_ResUtilGroupsEqual@12"
+    },
+    {
+      "name": "_ResUtilIsPathValid@4"
+    },
+    {
+      "name": "_ResUtilIsResourceClassEqual@8"
+    },
+    {
+      "name": "_ResUtilLeftPaxosIsLessThanRight@8"
+    },
+    {
+      "name": "_ResUtilNodeEnum@12"
+    },
+    {
+      "name": "_ResUtilPaxosComparer@8"
+    },
+    {
+      "name": "_ResUtilPropertyListFromParameterBlock@24"
+    },
+    {
+      "name": "_ResUtilRemoveResourceServiceEnvironment@12"
+    },
+    {
+      "name": "_ResUtilResourceDepEnum@16"
+    },
+    {
+      "name": "_ResUtilResourceTypesEqual@8"
+    },
+    {
+      "name": "_ResUtilResourcesEqual@8"
+    },
+    {
+      "name": "_ResUtilSetBinaryValue@24"
+    },
+    {
+      "name": "_ResUtilSetDwordValue@16"
+    },
+    {
+      "name": "_ResUtilSetExpandSzValue@16"
+    },
+    {
+      "name": "_ResUtilSetMultiSzValue@24"
+    },
+    {
+      "name": "_ResUtilSetPrivatePropertyList@12"
+    },
+    {
+      "name": "_ResUtilSetPropertyParameterBlock@28"
+    },
+    {
+      "name": "_ResUtilSetPropertyParameterBlockEx@32"
+    },
+    {
+      "name": "_ResUtilSetPropertyTable@28"
+    },
+    {
+      "name": "_ResUtilSetPropertyTableEx@32"
+    },
+    {
+      "name": "_ResUtilSetQwordValue@20"
+    },
+    {
+      "name": "_ResUtilSetResourceServiceEnvironment@16"
+    },
+    {
+      "name": "_ResUtilSetResourceServiceStartParameters@20"
+    },
+    {
+      "name": "_ResUtilSetResourceServiceStartParametersEx@24"
+    },
+    {
+      "name": "_ResUtilSetSzValue@16"
+    },
+    {
+      "name": "_ResUtilSetUnknownProperties@16"
+    },
+    {
+      "name": "_ResUtilSetValueEx@24"
+    },
+    {
+      "name": "_ResUtilStartResourceService@8"
+    },
+    {
+      "name": "_ResUtilStopResourceService@4"
+    },
+    {
+      "name": "_ResUtilStopService@4"
+    },
+    {
+      "name": "_ResUtilTerminateServiceProcessFromResDll@20"
+    },
+    {
+      "name": "_ResUtilVerifyPrivatePropertyList@8"
+    },
+    {
+      "name": "_ResUtilVerifyPropertyTable@24"
+    },
+    {
+      "name": "_ResUtilVerifyResourceService@4"
+    },
+    {
+      "name": "_ResUtilVerifyService@4"
+    },
+    {
+      "name": "_ResUtilVerifyShutdownSafe@12"
+    },
+    {
+      "name": "_ResUtilsDeleteKeyTree@12"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 19778,
+      "name": "__IMPORT_DESCRIPTOR_RESUTILS"
+    },
+    {
+      "offset": 20336,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 20648,
+      "name": "RESUTILS_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 24252,
+      "name": "_InitializeClusterHealthFault@4"
+    },
+    {
+      "offset": 24252,
+      "name": "__imp__InitializeClusterHealthFault@4"
+    },
+    {
+      "offset": 24378,
+      "name": "_InitializeClusterHealthFaultArray@4"
+    },
+    {
+      "offset": 24378,
+      "name": "__imp__InitializeClusterHealthFaultArray@4"
+    },
+    {
+      "offset": 24008,
+      "name": "_FreeClusterHealthFault@4"
+    },
+    {
+      "offset": 24008,
+      "name": "__imp__FreeClusterHealthFault@4"
+    },
+    {
+      "offset": 24128,
+      "name": "_FreeClusterHealthFaultArray@4"
+    },
+    {
+      "offset": 24128,
+      "name": "__imp__FreeClusterHealthFaultArray@4"
+    },
+    {
+      "offset": 21370,
+      "name": "_ClusGetClusterHealthFaults@12"
+    },
+    {
+      "offset": 21370,
+      "name": "__imp__ClusGetClusterHealthFaults@12"
+    },
+    {
+      "offset": 21494,
+      "name": "_ClusRemoveClusterHealthFault@12"
+    },
+    {
+      "offset": 21494,
+      "name": "__imp__ClusRemoveClusterHealthFault@12"
+    },
+    {
+      "offset": 21246,
+      "name": "_ClusAddClusterHealthFault@12"
+    },
+    {
+      "offset": 21246,
+      "name": "__imp__ClusAddClusterHealthFault@12"
+    },
+    {
+      "offset": 35678,
+      "name": "_ResUtilStartResourceService@8"
+    },
+    {
+      "offset": 35678,
+      "name": "__imp__ResUtilStartResourceService@8"
+    },
+    {
+      "offset": 35802,
+      "name": "_ResUtilStopResourceService@4"
+    },
+    {
+      "offset": 35802,
+      "name": "__imp__ResUtilStopResourceService@4"
+    },
+    {
+      "offset": 36434,
+      "name": "_ResUtilVerifyResourceService@4"
+    },
+    {
+      "offset": 36434,
+      "name": "__imp__ResUtilVerifyResourceService@4"
+    },
+    {
+      "offset": 35926,
+      "name": "_ResUtilStopService@4"
+    },
+    {
+      "offset": 35926,
+      "name": "__imp__ResUtilStopService@4"
+    },
+    {
+      "offset": 36560,
+      "name": "_ResUtilVerifyService@4"
+    },
+    {
+      "offset": 36560,
+      "name": "__imp__ResUtilVerifyService@4"
+    },
+    {
+      "offset": 28188,
+      "name": "_ResUtilGetBinaryValue@16"
+    },
+    {
+      "offset": 28188,
+      "name": "__imp__ResUtilGetBinaryValue@16"
+    },
+    {
+      "offset": 29168,
+      "name": "_ResUtilGetDwordValue@16"
+    },
+    {
+      "offset": 29168,
+      "name": "__imp__ResUtilGetDwordValue@16"
+    },
+    {
+      "offset": 30522,
+      "name": "_ResUtilGetQwordValue@20"
+    },
+    {
+      "offset": 30522,
+      "name": "__imp__ResUtilGetQwordValue@20"
+    },
+    {
+      "offset": 32210,
+      "name": "_ResUtilGetSzValue@8"
+    },
+    {
+      "offset": 32210,
+      "name": "__imp__ResUtilGetSzValue@8"
+    },
+    {
+      "offset": 33674,
+      "name": "_ResUtilSetBinaryValue@24"
+    },
+    {
+      "offset": 33674,
+      "name": "__imp__ResUtilSetBinaryValue@24"
+    },
+    {
+      "offset": 33794,
+      "name": "_ResUtilSetDwordValue@16"
+    },
+    {
+      "offset": 33794,
+      "name": "__imp__ResUtilSetDwordValue@16"
+    },
+    {
+      "offset": 34790,
+      "name": "_ResUtilSetQwordValue@20"
+    },
+    {
+      "offset": 34790,
+      "name": "__imp__ResUtilSetQwordValue@20"
+    },
+    {
+      "offset": 33912,
+      "name": "_ResUtilSetExpandSzValue@16"
+    },
+    {
+      "offset": 33912,
+      "name": "__imp__ResUtilSetExpandSzValue@16"
+    },
+    {
+      "offset": 34034,
+      "name": "_ResUtilSetMultiSzValue@24"
+    },
+    {
+      "offset": 34034,
+      "name": "__imp__ResUtilSetMultiSzValue@24"
+    },
+    {
+      "offset": 35320,
+      "name": "_ResUtilSetSzValue@16"
+    },
+    {
+      "offset": 35320,
+      "name": "__imp__ResUtilSetSzValue@16"
+    },
+    {
+      "offset": 35562,
+      "name": "_ResUtilSetValueEx@24"
+    },
+    {
+      "offset": 35562,
+      "name": "__imp__ResUtilSetValueEx@24"
+    },
+    {
+      "offset": 25354,
+      "name": "_ResUtilDupString@4"
+    },
+    {
+      "offset": 25354,
+      "name": "__imp__ResUtilDupString@4"
+    },
+    {
+      "offset": 28066,
+      "name": "_ResUtilGetBinaryProperty@28"
+    },
+    {
+      "offset": 28066,
+      "name": "__imp__ResUtilGetBinaryProperty@28"
+    },
+    {
+      "offset": 29046,
+      "name": "_ResUtilGetDwordProperty@28"
+    },
+    {
+      "offset": 29046,
+      "name": "__imp__ResUtilGetDwordProperty@28"
+    },
+    {
+      "offset": 29540,
+      "name": "_ResUtilGetLongProperty@28"
+    },
+    {
+      "offset": 29540,
+      "name": "__imp__ResUtilGetLongProperty@28"
+    },
+    {
+      "offset": 29416,
+      "name": "_ResUtilGetFileTimeProperty@40"
+    },
+    {
+      "offset": 29416,
+      "name": "__imp__ResUtilGetFileTimeProperty@40"
+    },
+    {
+      "offset": 29660,
+      "name": "_ResUtilGetMultiSzProperty@28"
+    },
+    {
+      "offset": 29660,
+      "name": "__imp__ResUtilGetMultiSzProperty@28"
+    },
+    {
+      "offset": 32092,
+      "name": "_ResUtilGetSzProperty@20"
+    },
+    {
+      "offset": 32092,
+      "name": "__imp__ResUtilGetSzProperty@20"
+    },
+    {
+      "offset": 25116,
+      "name": "_ResUtilDupParameterBlock@12"
+    },
+    {
+      "offset": 25116,
+      "name": "__imp__ResUtilDupParameterBlock@12"
+    },
+    {
+      "offset": 27820,
+      "name": "_ResUtilFreeParameterBlock@12"
+    },
+    {
+      "offset": 27820,
+      "name": "__imp__ResUtilFreeParameterBlock@12"
+    },
+    {
+      "offset": 32440,
+      "name": "_ResUtilIsPathValid@4"
+    },
+    {
+      "offset": 32440,
+      "name": "__imp__ResUtilIsPathValid@4"
+    },
+    {
+      "offset": 29286,
+      "name": "_ResUtilGetEnvironmentWithNetName@4"
+    },
+    {
+      "offset": 29286,
+      "name": "__imp__ResUtilGetEnvironmentWithNetName@4"
+    },
+    {
+      "offset": 20988,
+      "name": "?ClusWorkerStart@@YGKPAU_WORK_CONTEXT@@@Z"
+    },
+    {
+      "offset": 20988,
+      "name": "__imp_?ClusWorkerStart@@YGKPAU_WORK_CONTEXT@@@Z"
+    },
+    {
+      "offset": 21742,
+      "name": "_ClusWorkerCreate@12"
+    },
+    {
+      "offset": 21742,
+      "name": "__imp__ClusWorkerCreate@12"
+    },
+    {
+      "offset": 21620,
+      "name": "_ClusWorkerCheckTerminate@4"
+    },
+    {
+      "offset": 21620,
+      "name": "__imp__ClusWorkerCheckTerminate@4"
+    },
+    {
+      "offset": 21856,
+      "name": "_ClusWorkerTerminate@4"
+    },
+    {
+      "offset": 21856,
+      "name": "__imp__ClusWorkerTerminate@4"
+    },
+    {
+      "offset": 21972,
+      "name": "_ClusWorkerTerminateEx@12"
+    },
+    {
+      "offset": 21972,
+      "name": "__imp__ClusWorkerTerminateEx@12"
+    },
+    {
+      "offset": 22092,
+      "name": "_ClusWorkersTerminate@16"
+    },
+    {
+      "offset": 22092,
+      "name": "__imp__ClusWorkersTerminate@16"
+    },
+    {
+      "offset": 25828,
+      "name": "_ResUtilEnumProperties@20"
+    },
+    {
+      "offset": 25828,
+      "name": "__imp__ResUtilEnumProperties@20"
+    },
+    {
+      "offset": 29910,
+      "name": "_ResUtilGetProperties@24"
+    },
+    {
+      "offset": 29910,
+      "name": "__imp__ResUtilGetProperties@24"
+    },
+    {
+      "offset": 27944,
+      "name": "_ResUtilGetAllProperties@24"
+    },
+    {
+      "offset": 27944,
+      "name": "__imp__ResUtilGetAllProperties@24"
+    },
+    {
+      "offset": 30028,
+      "name": "_ResUtilGetPropertiesToParameterBlock@20"
+    },
+    {
+      "offset": 30028,
+      "name": "__imp__ResUtilGetPropertiesToParameterBlock@20"
+    },
+    {
+      "offset": 33040,
+      "name": "_ResUtilPropertyListFromParameterBlock@24"
+    },
+    {
+      "offset": 33040,
+      "name": "__imp__ResUtilPropertyListFromParameterBlock@24"
+    },
+    {
+      "offset": 25702,
+      "name": "_ResUtilEnumPrivateProperties@20"
+    },
+    {
+      "offset": 25702,
+      "name": "__imp__ResUtilEnumPrivateProperties@20"
+    },
+    {
+      "offset": 29784,
+      "name": "_ResUtilGetPrivateProperties@20"
+    },
+    {
+      "offset": 29784,
+      "name": "__imp__ResUtilGetPrivateProperties@20"
+    },
+    {
+      "offset": 30402,
+      "name": "_ResUtilGetPropertySize@16"
+    },
+    {
+      "offset": 30402,
+      "name": "__imp__ResUtilGetPropertySize@16"
+    },
+    {
+      "offset": 30162,
+      "name": "_ResUtilGetProperty@16"
+    },
+    {
+      "offset": 30162,
+      "name": "__imp__ResUtilGetProperty@16"
+    },
+    {
+      "offset": 36310,
+      "name": "_ResUtilVerifyPropertyTable@24"
+    },
+    {
+      "offset": 36310,
+      "name": "__imp__ResUtilVerifyPropertyTable@24"
+    },
+    {
+      "offset": 34544,
+      "name": "_ResUtilSetPropertyTable@28"
+    },
+    {
+      "offset": 34544,
+      "name": "__imp__ResUtilSetPropertyTable@28"
+    },
+    {
+      "offset": 34282,
+      "name": "_ResUtilSetPropertyParameterBlock@28"
+    },
+    {
+      "offset": 34282,
+      "name": "__imp__ResUtilSetPropertyParameterBlock@28"
+    },
+    {
+      "offset": 36180,
+      "name": "_ResUtilVerifyPrivatePropertyList@8"
+    },
+    {
+      "offset": 36180,
+      "name": "__imp__ResUtilVerifyPrivatePropertyList@8"
+    },
+    {
+      "offset": 34154,
+      "name": "_ResUtilSetPrivatePropertyList@12"
+    },
+    {
+      "offset": 34154,
+      "name": "__imp__ResUtilSetPrivatePropertyList@12"
+    },
+    {
+      "offset": 24754,
+      "name": "_ResUtilAddUnknownProperties@24"
+    },
+    {
+      "offset": 24754,
+      "name": "__imp__ResUtilAddUnknownProperties@24"
+    },
+    {
+      "offset": 26702,
+      "name": "_ResUtilFindDwordProperty@16"
+    },
+    {
+      "offset": 26702,
+      "name": "__imp__ResUtilFindDwordProperty@16"
+    },
+    {
+      "offset": 27450,
+      "name": "_ResUtilFindSzProperty@16"
+    },
+    {
+      "offset": 27450,
+      "name": "__imp__ResUtilFindSzProperty@16"
+    },
+    {
+      "offset": 25948,
+      "name": "_ResUtilEnumResources@16"
+    },
+    {
+      "offset": 25948,
+      "name": "__imp__ResUtilEnumResources@16"
+    },
+    {
+      "offset": 33556,
+      "name": "_ResUtilResourcesEqual@8"
+    },
+    {
+      "offset": 33556,
+      "name": "__imp__ResUtilResourcesEqual@8"
+    },
+    {
+      "offset": 33434,
+      "name": "_ResUtilResourceTypesEqual@8"
+    },
+    {
+      "offset": 33434,
+      "name": "__imp__ResUtilResourceTypesEqual@8"
+    },
+    {
+      "offset": 30640,
+      "name": "_ResUtilGetResourceDependency@8"
+    },
+    {
+      "offset": 30640,
+      "name": "__imp__ResUtilGetResourceDependency@8"
+    },
+    {
+      "offset": 31830,
+      "name": "_ResUtilGetResourceNameDependency@8"
+    },
+    {
+      "offset": 31830,
+      "name": "__imp__ResUtilGetResourceNameDependency@8"
+    },
+    {
+      "offset": 26436,
+      "name": "_ResUtilFindBinaryProperty@20"
+    },
+    {
+      "offset": 26436,
+      "name": "__imp__ResUtilFindBinaryProperty@20"
+    },
+    {
+      "offset": 27326,
+      "name": "_ResUtilFindMultiSzProperty@20"
+    },
+    {
+      "offset": 27326,
+      "name": "__imp__ResUtilFindMultiSzProperty@20"
+    },
+    {
+      "offset": 27204,
+      "name": "_ResUtilFindLongProperty@16"
+    },
+    {
+      "offset": 27204,
+      "name": "__imp__ResUtilFindLongProperty@16"
+    },
+    {
+      "offset": 27570,
+      "name": "_ResUtilFindULargeIntegerProperty@16"
+    },
+    {
+      "offset": 27570,
+      "name": "__imp__ResUtilFindULargeIntegerProperty@16"
+    },
+    {
+      "offset": 27078,
+      "name": "_ResUtilFindFileTimeProperty@16"
+    },
+    {
+      "offset": 27078,
+      "name": "__imp__ResUtilFindFileTimeProperty@16"
+    },
+    {
+      "offset": 27700,
+      "name": "_ResUtilFreeEnvironment@4"
+    },
+    {
+      "offset": 27700,
+      "name": "__imp__ResUtilFreeEnvironment@4"
+    },
+    {
+      "offset": 26824,
+      "name": "_ResUtilFindExpandSzProperty@16"
+    },
+    {
+      "offset": 26824,
+      "name": "__imp__ResUtilFindExpandSzProperty@16"
+    },
+    {
+      "offset": 26950,
+      "name": "_ResUtilFindExpandedSzProperty@16"
+    },
+    {
+      "offset": 26950,
+      "name": "__imp__ResUtilFindExpandedSzProperty@16"
+    },
+    {
+      "offset": 35436,
+      "name": "_ResUtilSetUnknownProperties@16"
+    },
+    {
+      "offset": 35436,
+      "name": "__imp__ResUtilSetUnknownProperties@16"
+    },
+    {
+      "offset": 32556,
+      "name": "_ResUtilIsResourceClassEqual@8"
+    },
+    {
+      "offset": 32556,
+      "name": "__imp__ResUtilIsResourceClassEqual@8"
+    },
+    {
+      "offset": 31036,
+      "name": "_ResUtilGetResourceDependencyByName@16"
+    },
+    {
+      "offset": 31036,
+      "name": "__imp__ResUtilGetResourceDependencyByName@16"
+    },
+    {
+      "offset": 30766,
+      "name": "_ResUtilGetResourceDependencyByClass@16"
+    },
+    {
+      "offset": 30766,
+      "name": "__imp__ResUtilGetResourceDependencyByClass@16"
+    },
+    {
+      "offset": 26308,
+      "name": "_ResUtilExpandEnvironmentStrings@4"
+    },
+    {
+      "offset": 26308,
+      "name": "__imp__ResUtilExpandEnvironmentStrings@4"
+    },
+    {
+      "offset": 34908,
+      "name": "_ResUtilSetResourceServiceEnvironment@16"
+    },
+    {
+      "offset": 34908,
+      "name": "__imp__ResUtilSetResourceServiceEnvironment@16"
+    },
+    {
+      "offset": 33176,
+      "name": "_ResUtilRemoveResourceServiceEnvironment@12"
+    },
+    {
+      "offset": 33176,
+      "name": "__imp__ResUtilRemoveResourceServiceEnvironment@12"
+    },
+    {
+      "offset": 35042,
+      "name": "_ResUtilSetResourceServiceStartParameters@20"
+    },
+    {
+      "offset": 35042,
+      "name": "__imp__ResUtilSetResourceServiceStartParameters@20"
+    },
+    {
+      "offset": 24880,
+      "name": "_ResUtilCreateDirectoryTree@4"
+    },
+    {
+      "offset": 24880,
+      "name": "__imp__ResUtilCreateDirectoryTree@4"
+    },
+    {
+      "offset": 31570,
+      "name": "_ResUtilGetResourceDependentIPAddressProps@28"
+    },
+    {
+      "offset": 31570,
+      "name": "__imp__ResUtilGetResourceDependentIPAddressProps@28"
+    },
+    {
+      "offset": 34666,
+      "name": "_ResUtilSetPropertyTableEx@32"
+    },
+    {
+      "offset": 34666,
+      "name": "__imp__ResUtilSetPropertyTableEx@32"
+    },
+    {
+      "offset": 34412,
+      "name": "_ResUtilSetPropertyParameterBlockEx@32"
+    },
+    {
+      "offset": 34412,
+      "name": "__imp__ResUtilSetPropertyParameterBlockEx@32"
+    },
+    {
+      "offset": 26560,
+      "name": "_ResUtilFindDependentDiskResourceDriveLetter@16"
+    },
+    {
+      "offset": 26560,
+      "name": "__imp__ResUtilFindDependentDiskResourceDriveLetter@16"
+    },
+    {
+      "offset": 36042,
+      "name": "_ResUtilTerminateServiceProcessFromResDll@20"
+    },
+    {
+      "offset": 36042,
+      "name": "__imp__ResUtilTerminateServiceProcessFromResDll@20"
+    },
+    {
+      "offset": 26188,
+      "name": "_ResUtilEnumResourcesEx@20"
+    },
+    {
+      "offset": 26188,
+      "name": "__imp__ResUtilEnumResourcesEx@20"
+    },
+    {
+      "offset": 30278,
+      "name": "_ResUtilGetPropertyFormats@20"
+    },
+    {
+      "offset": 30278,
+      "name": "__imp__ResUtilGetPropertyFormats@20"
+    },
+    {
+      "offset": 28672,
+      "name": "_ResUtilGetCoreClusterResources@16"
+    },
+    {
+      "offset": 28672,
+      "name": "__imp__ResUtilGetCoreClusterResources@16"
+    },
+    {
+      "offset": 31710,
+      "name": "_ResUtilGetResourceName@12"
+    },
+    {
+      "offset": 31710,
+      "name": "__imp__ResUtilGetResourceName@12"
+    },
+    {
+      "offset": 28548,
+      "name": "_ResUtilGetClusterRoleState@8"
+    },
+    {
+      "offset": 28548,
+      "name": "__imp__ResUtilGetClusterRoleState@8"
+    },
+    {
+      "offset": 22830,
+      "name": "_ClusterIsPathOnSharedVolume@4"
+    },
+    {
+      "offset": 22830,
+      "name": "__imp__ClusterIsPathOnSharedVolume@4"
+    },
+    {
+      "offset": 22708,
+      "name": "_ClusterGetVolumePathName@12"
+    },
+    {
+      "offset": 22708,
+      "name": "__imp__ClusterGetVolumePathName@12"
+    },
+    {
+      "offset": 22570,
+      "name": "_ClusterGetVolumeNameForVolumeMountPoint@12"
+    },
+    {
+      "offset": 22570,
+      "name": "__imp__ClusterGetVolumeNameForVolumeMountPoint@12"
+    },
+    {
+      "offset": 22954,
+      "name": "_ClusterPrepareSharedVolumeForBackup@20"
+    },
+    {
+      "offset": 22954,
+      "name": "__imp__ClusterPrepareSharedVolumeForBackup@20"
+    },
+    {
+      "offset": 22210,
+      "name": "_ClusterClearBackupStateForSharedVolume@4"
+    },
+    {
+      "offset": 22210,
+      "name": "__imp__ClusterClearBackupStateForSharedVolume@4"
+    },
+    {
+      "offset": 23226,
+      "name": "_ClusterSharedVolumeCreateSnapshot@8"
+    },
+    {
+      "offset": 23226,
+      "name": "__imp__ClusterSharedVolumeCreateSnapshot@8"
+    },
+    {
+      "offset": 23356,
+      "name": "_ClusterSharedVolumeReleaseSnapshot@4"
+    },
+    {
+      "offset": 23356,
+      "name": "__imp__ClusterSharedVolumeReleaseSnapshot@4"
+    },
+    {
+      "offset": 23088,
+      "name": "_ClusterSharedVolumeCheckSnapshotPresence@4"
+    },
+    {
+      "offset": 23088,
+      "name": "__imp__ClusterSharedVolumeCheckSnapshotPresence@4"
+    },
+    {
+      "offset": 31442,
+      "name": "_ResUtilGetResourceDependencyEx@12"
+    },
+    {
+      "offset": 31442,
+      "name": "__imp__ResUtilGetResourceDependencyEx@12"
+    },
+    {
+      "offset": 31960,
+      "name": "_ResUtilGetResourceNameDependencyEx@12"
+    },
+    {
+      "offset": 31960,
+      "name": "__imp__ResUtilGetResourceNameDependencyEx@12"
+    },
+    {
+      "offset": 31308,
+      "name": "_ResUtilGetResourceDependencyByNameEx@20"
+    },
+    {
+      "offset": 31308,
+      "name": "__imp__ResUtilGetResourceDependencyByNameEx@20"
+    },
+    {
+      "offset": 30900,
+      "name": "_ResUtilGetResourceDependencyByClassEx@20"
+    },
+    {
+      "offset": 30900,
+      "name": "__imp__ResUtilGetResourceDependencyByClassEx@20"
+    },
+    {
+      "offset": 31168,
+      "name": "_ResUtilGetResourceDependencyByNameAndClass@24"
+    },
+    {
+      "offset": 31168,
+      "name": "__imp__ResUtilGetResourceDependencyByNameAndClass@24"
+    },
+    {
+      "offset": 35180,
+      "name": "_ResUtilSetResourceServiceStartParametersEx@24"
+    },
+    {
+      "offset": 35180,
+      "name": "__imp__ResUtilSetResourceServiceStartParametersEx@24"
+    },
+    {
+      "offset": 28800,
+      "name": "_ResUtilGetCoreClusterResourcesEx@16"
+    },
+    {
+      "offset": 28800,
+      "name": "__imp__ResUtilGetCoreClusterResourcesEx@16"
+    },
+    {
+      "offset": 26066,
+      "name": "_ResUtilEnumResourcesEx2@24"
+    },
+    {
+      "offset": 26066,
+      "name": "__imp__ResUtilEnumResourcesEx2@24"
+    },
+    {
+      "offset": 23760,
+      "name": "_CreateClusterStorageSpacesSubProvider@8"
+    },
+    {
+      "offset": 23760,
+      "name": "__imp__CreateClusterStorageSpacesSubProvider@8"
+    },
+    {
+      "offset": 23488,
+      "name": "_CreateClusterStorageSpacesClustering@8"
+    },
+    {
+      "offset": 23488,
+      "name": "__imp__CreateClusterStorageSpacesClustering@8"
+    },
+    {
+      "offset": 23622,
+      "name": "_CreateClusterStorageSpacesResourceLocator@4"
+    },
+    {
+      "offset": 23622,
+      "name": "__imp__CreateClusterStorageSpacesResourceLocator@4"
+    },
+    {
+      "offset": 24508,
+      "name": "_OpenClusterCryptProvider@16"
+    },
+    {
+      "offset": 24508,
+      "name": "__imp__OpenClusterCryptProvider@16"
+    },
+    {
+      "offset": 21124,
+      "name": "_CloseClusterCryptProvider@4"
+    },
+    {
+      "offset": 21124,
+      "name": "__imp__CloseClusterCryptProvider@4"
+    },
+    {
+      "offset": 22458,
+      "name": "_ClusterEncrypt@20"
+    },
+    {
+      "offset": 22458,
+      "name": "__imp__ClusterEncrypt@20"
+    },
+    {
+      "offset": 22346,
+      "name": "_ClusterDecrypt@20"
+    },
+    {
+      "offset": 22346,
+      "name": "__imp__ClusterDecrypt@20"
+    },
+    {
+      "offset": 23894,
+      "name": "_FreeClusterCrypt@4"
+    },
+    {
+      "offset": 23894,
+      "name": "__imp__FreeClusterCrypt@4"
+    },
+    {
+      "offset": 32922,
+      "name": "_ResUtilPaxosComparer@8"
+    },
+    {
+      "offset": 32922,
+      "name": "__imp__ResUtilPaxosComparer@8"
+    },
+    {
+      "offset": 32680,
+      "name": "_ResUtilLeftPaxosIsLessThanRight@8"
+    },
+    {
+      "offset": 32680,
+      "name": "__imp__ResUtilLeftPaxosIsLessThanRight@8"
+    },
+    {
+      "offset": 36802,
+      "name": "_ResUtilsDeleteKeyTree@12"
+    },
+    {
+      "offset": 36802,
+      "name": "__imp__ResUtilsDeleteKeyTree@12"
+    },
+    {
+      "offset": 32324,
+      "name": "_ResUtilGroupsEqual@12"
+    },
+    {
+      "offset": 32324,
+      "name": "__imp__ResUtilGroupsEqual@12"
+    },
+    {
+      "offset": 25468,
+      "name": "_ResUtilEnumGroups@16"
+    },
+    {
+      "offset": 25468,
+      "name": "__imp__ResUtilEnumGroups@16"
+    },
+    {
+      "offset": 25584,
+      "name": "_ResUtilEnumGroupsEx@20"
+    },
+    {
+      "offset": 25584,
+      "name": "__imp__ResUtilEnumGroupsEx@20"
+    },
+    {
+      "offset": 25004,
+      "name": "_ResUtilDupGroup@8"
+    },
+    {
+      "offset": 25004,
+      "name": "__imp__ResUtilDupGroup@8"
+    },
+    {
+      "offset": 28308,
+      "name": "_ResUtilGetClusterGroupType@8"
+    },
+    {
+      "offset": 28308,
+      "name": "__imp__ResUtilGetClusterGroupType@8"
+    },
+    {
+      "offset": 28930,
+      "name": "_ResUtilGetCoreGroup@4"
+    },
+    {
+      "offset": 28930,
+      "name": "__imp__ResUtilGetCoreGroup@4"
+    },
+    {
+      "offset": 33314,
+      "name": "_ResUtilResourceDepEnum@16"
+    },
+    {
+      "offset": 33314,
+      "name": "__imp__ResUtilResourceDepEnum@16"
+    },
+    {
+      "offset": 25238,
+      "name": "_ResUtilDupResource@8"
+    },
+    {
+      "offset": 25238,
+      "name": "__imp__ResUtilDupResource@8"
+    },
+    {
+      "offset": 28432,
+      "name": "_ResUtilGetClusterId@8"
+    },
+    {
+      "offset": 28432,
+      "name": "__imp__ResUtilGetClusterId@8"
+    },
+    {
+      "offset": 32808,
+      "name": "_ResUtilNodeEnum@12"
+    },
+    {
+      "offset": 32808,
+      "name": "__imp__ResUtilNodeEnum@12"
+    },
+    {
+      "offset": 24630,
+      "name": "_OpenClusterCryptProviderEx@20"
+    },
+    {
+      "offset": 24630,
+      "name": "__imp__OpenClusterCryptProviderEx@20"
+    },
+    {
+      "offset": 36678,
+      "name": "_ResUtilVerifyShutdownSafe@12"
+    },
+    {
+      "offset": 36678,
+      "name": "__imp__ResUtilVerifyShutdownSafe@12"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 20988,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3453996251,
+      "sizeOfData": 55,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "?ClusWorkerStart@@YGKPAU_WORK_CONTEXT@@@Z (unsigned long __stdcall ClusWorkerStart(struct _WORK_CONTEXT *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "ClusWorkerStart"
+    },
+    {
+      "offset": 21124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4046747048,
+      "sizeOfData": 42,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_CloseClusterCryptProvider@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "CloseClusterCryptProvider"
+    },
+    {
+      "offset": 21246,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3651696364,
+      "sizeOfData": 43,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusAddClusterHealthFault@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "ClusAddClusterHealthFault"
+    },
+    {
+      "offset": 21370,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3498560686,
+      "sizeOfData": 44,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusGetClusterHealthFaults@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "ClusGetClusterHealthFaults"
+    },
+    {
+      "offset": 21494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3473493805,
+      "sizeOfData": 46,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusRemoveClusterHealthFault@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "ClusRemoveClusterHealthFault"
+    },
+    {
+      "offset": 21620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4028444613,
+      "sizeOfData": 41,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusWorkerCheckTerminate@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "ClusWorkerCheckTerminate"
+    },
+    {
+      "offset": 21742,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3382029161,
+      "sizeOfData": 34,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusWorkerCreate@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "ClusWorkerCreate"
+    },
+    {
+      "offset": 21856,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4044246253,
+      "sizeOfData": 36,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusWorkerTerminate@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "ClusWorkerTerminate"
+    },
+    {
+      "offset": 21972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3499669678,
+      "sizeOfData": 39,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusWorkerTerminateEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "ClusWorkerTerminateEx"
+    },
+    {
+      "offset": 22092,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4217505603,
+      "sizeOfData": 38,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusWorkersTerminate@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "ClusWorkersTerminate"
+    },
+    {
+      "offset": 22210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3462978444,
+      "sizeOfData": 55,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusterClearBackupStateForSharedVolume@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "ClusterClearBackupStateForSharedVolume"
+    },
+    {
+      "offset": 22346,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3979017836,
+      "sizeOfData": 32,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusterDecrypt@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "ClusterDecrypt"
+    },
+    {
+      "offset": 22458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3366450902,
+      "sizeOfData": 32,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusterEncrypt@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "ClusterEncrypt"
+    },
+    {
+      "offset": 22570,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3751966252,
+      "sizeOfData": 57,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusterGetVolumeNameForVolumeMountPoint@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "ClusterGetVolumeNameForVolumeMountPoint"
+    },
+    {
+      "offset": 22708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3459392703,
+      "sizeOfData": 42,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusterGetVolumePathName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "ClusterGetVolumePathName"
+    },
+    {
+      "offset": 22830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4202257307,
+      "sizeOfData": 44,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusterIsPathOnSharedVolume@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "ClusterIsPathOnSharedVolume"
+    },
+    {
+      "offset": 22954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4128334264,
+      "sizeOfData": 53,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusterPrepareSharedVolumeForBackup@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "ClusterPrepareSharedVolumeForBackup"
+    },
+    {
+      "offset": 23088,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4065379703,
+      "sizeOfData": 57,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusterSharedVolumeCheckSnapshotPresence@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "ClusterSharedVolumeCheckSnapshotPresence"
+    },
+    {
+      "offset": 23226,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4266975574,
+      "sizeOfData": 50,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusterSharedVolumeCreateSnapshot@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "ClusterSharedVolumeCreateSnapshot"
+    },
+    {
+      "offset": 23356,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3386083376,
+      "sizeOfData": 51,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ClusterSharedVolumeReleaseSnapshot@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "ClusterSharedVolumeReleaseSnapshot"
+    },
+    {
+      "offset": 23488,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3747604944,
+      "sizeOfData": 53,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_CreateClusterStorageSpacesClustering@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "CreateClusterStorageSpacesClustering"
+    },
+    {
+      "offset": 23622,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3950382121,
+      "sizeOfData": 58,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_CreateClusterStorageSpacesResourceLocator@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "CreateClusterStorageSpacesResourceLocator"
+    },
+    {
+      "offset": 23760,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3664037711,
+      "sizeOfData": 54,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_CreateClusterStorageSpacesSubProvider@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "CreateClusterStorageSpacesSubProvider"
+    },
+    {
+      "offset": 23894,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4210679752,
+      "sizeOfData": 33,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_FreeClusterCrypt@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "FreeClusterCrypt"
+    },
+    {
+      "offset": 24008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4240656985,
+      "sizeOfData": 39,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_FreeClusterHealthFault@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "FreeClusterHealthFault"
+    },
+    {
+      "offset": 24128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4071626022,
+      "sizeOfData": 44,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_FreeClusterHealthFaultArray@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "FreeClusterHealthFaultArray"
+    },
+    {
+      "offset": 24252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4142108857,
+      "sizeOfData": 45,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_InitializeClusterHealthFault@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "InitializeClusterHealthFault"
+    },
+    {
+      "offset": 24378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3273220458,
+      "sizeOfData": 50,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_InitializeClusterHealthFaultArray@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "InitializeClusterHealthFaultArray"
+    },
+    {
+      "offset": 24508,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3810400217,
+      "sizeOfData": 42,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_OpenClusterCryptProvider@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "OpenClusterCryptProvider"
+    },
+    {
+      "offset": 24630,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3740648810,
+      "sizeOfData": 44,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_OpenClusterCryptProviderEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "OpenClusterCryptProviderEx"
+    },
+    {
+      "offset": 24754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3769440664,
+      "sizeOfData": 45,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilAddUnknownProperties@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "ResUtilAddUnknownProperties"
+    },
+    {
+      "offset": 24880,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3686172054,
+      "sizeOfData": 43,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilCreateDirectoryTree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "ResUtilCreateDirectoryTree"
+    },
+    {
+      "offset": 25004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3421600998,
+      "sizeOfData": 32,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilDupGroup@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "ResUtilDupGroup"
+    },
+    {
+      "offset": 25116,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4096486242,
+      "sizeOfData": 42,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilDupParameterBlock@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "ResUtilDupParameterBlock"
+    },
+    {
+      "offset": 25238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3921176209,
+      "sizeOfData": 35,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilDupResource@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "ResUtilDupResource"
+    },
+    {
+      "offset": 25354,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4209134366,
+      "sizeOfData": 33,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilDupString@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "ResUtilDupString"
+    },
+    {
+      "offset": 25468,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4254381492,
+      "sizeOfData": 35,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilEnumGroups@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "ResUtilEnumGroups"
+    },
+    {
+      "offset": 25584,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3634250071,
+      "sizeOfData": 37,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilEnumGroupsEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "ResUtilEnumGroupsEx"
+    },
+    {
+      "offset": 25702,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3313298830,
+      "sizeOfData": 46,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilEnumPrivateProperties@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "ResUtilEnumPrivateProperties"
+    },
+    {
+      "offset": 25828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4115522845,
+      "sizeOfData": 39,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilEnumProperties@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "ResUtilEnumProperties"
+    },
+    {
+      "offset": 25948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3901376982,
+      "sizeOfData": 38,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilEnumResources@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "ResUtilEnumResources"
+    },
+    {
+      "offset": 26066,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3387105066,
+      "sizeOfData": 41,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilEnumResourcesEx2@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "ResUtilEnumResourcesEx2"
+    },
+    {
+      "offset": 26188,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3853979266,
+      "sizeOfData": 40,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilEnumResourcesEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "ResUtilEnumResourcesEx"
+    },
+    {
+      "offset": 26308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3441090446,
+      "sizeOfData": 48,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilExpandEnvironmentStrings@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "ResUtilExpandEnvironmentStrings"
+    },
+    {
+      "offset": 26436,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3866930896,
+      "sizeOfData": 43,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilFindBinaryProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "ResUtilFindBinaryProperty"
+    },
+    {
+      "offset": 26560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3407849357,
+      "sizeOfData": 61,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilFindDependentDiskResourceDriveLetter@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "ResUtilFindDependentDiskResourceDriveLetter"
+    },
+    {
+      "offset": 26702,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4265931749,
+      "sizeOfData": 42,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilFindDwordProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "ResUtilFindDwordProperty"
+    },
+    {
+      "offset": 26824,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3792286366,
+      "sizeOfData": 45,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilFindExpandSzProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "ResUtilFindExpandSzProperty"
+    },
+    {
+      "offset": 26950,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3274041540,
+      "sizeOfData": 47,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilFindExpandedSzProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "ResUtilFindExpandedSzProperty"
+    },
+    {
+      "offset": 27078,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3699646427,
+      "sizeOfData": 45,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilFindFileTimeProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "ResUtilFindFileTimeProperty"
+    },
+    {
+      "offset": 27204,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3274881485,
+      "sizeOfData": 41,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilFindLongProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "ResUtilFindLongProperty"
+    },
+    {
+      "offset": 27326,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4024359023,
+      "sizeOfData": 44,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilFindMultiSzProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "ResUtilFindMultiSzProperty"
+    },
+    {
+      "offset": 27450,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3756852422,
+      "sizeOfData": 39,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilFindSzProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "ResUtilFindSzProperty"
+    },
+    {
+      "offset": 27570,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3771576975,
+      "sizeOfData": 50,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilFindULargeIntegerProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "ResUtilFindULargeIntegerProperty"
+    },
+    {
+      "offset": 27700,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4017278843,
+      "sizeOfData": 39,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilFreeEnvironment@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "ResUtilFreeEnvironment"
+    },
+    {
+      "offset": 27820,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3806891666,
+      "sizeOfData": 43,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilFreeParameterBlock@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "ResUtilFreeParameterBlock"
+    },
+    {
+      "offset": 27944,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3423764081,
+      "sizeOfData": 41,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetAllProperties@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "ResUtilGetAllProperties"
+    },
+    {
+      "offset": 28066,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3982437397,
+      "sizeOfData": 42,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetBinaryProperty@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "ResUtilGetBinaryProperty"
+    },
+    {
+      "offset": 28188,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3514702559,
+      "sizeOfData": 39,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetBinaryValue@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "ResUtilGetBinaryValue"
+    },
+    {
+      "offset": 28308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3726011681,
+      "sizeOfData": 43,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetClusterGroupType@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "ResUtilGetClusterGroupType"
+    },
+    {
+      "offset": 28432,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3891984246,
+      "sizeOfData": 36,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetClusterId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "ResUtilGetClusterId"
+    },
+    {
+      "offset": 28548,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3898995464,
+      "sizeOfData": 43,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetClusterRoleState@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "ResUtilGetClusterRoleState"
+    },
+    {
+      "offset": 28672,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3337699954,
+      "sizeOfData": 48,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetCoreClusterResources@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "ResUtilGetCoreClusterResources"
+    },
+    {
+      "offset": 28800,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4285725239,
+      "sizeOfData": 50,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetCoreClusterResourcesEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "ResUtilGetCoreClusterResourcesEx"
+    },
+    {
+      "offset": 28930,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4177204557,
+      "sizeOfData": 36,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetCoreGroup@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "ResUtilGetCoreGroup"
+    },
+    {
+      "offset": 29046,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3818557507,
+      "sizeOfData": 41,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetDwordProperty@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "ResUtilGetDwordProperty"
+    },
+    {
+      "offset": 29168,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3761801110,
+      "sizeOfData": 38,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetDwordValue@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "ResUtilGetDwordValue"
+    },
+    {
+      "offset": 29286,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4003599845,
+      "sizeOfData": 49,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetEnvironmentWithNetName@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "ResUtilGetEnvironmentWithNetName"
+    },
+    {
+      "offset": 29416,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3616059859,
+      "sizeOfData": 44,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetFileTimeProperty@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "ResUtilGetFileTimeProperty"
+    },
+    {
+      "offset": 29540,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3374558093,
+      "sizeOfData": 40,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetLongProperty@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "ResUtilGetLongProperty"
+    },
+    {
+      "offset": 29660,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4222423663,
+      "sizeOfData": 43,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetMultiSzProperty@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "ResUtilGetMultiSzProperty"
+    },
+    {
+      "offset": 29784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3460575968,
+      "sizeOfData": 45,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetPrivateProperties@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "ResUtilGetPrivateProperties"
+    },
+    {
+      "offset": 29910,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3687250550,
+      "sizeOfData": 38,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetProperties@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "ResUtilGetProperties"
+    },
+    {
+      "offset": 30028,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4266354402,
+      "sizeOfData": 54,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetPropertiesToParameterBlock@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "ResUtilGetPropertiesToParameterBlock"
+    },
+    {
+      "offset": 30162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3330866717,
+      "sizeOfData": 36,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "ResUtilGetProperty"
+    },
+    {
+      "offset": 30278,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4176812862,
+      "sizeOfData": 43,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetPropertyFormats@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "ResUtilGetPropertyFormats"
+    },
+    {
+      "offset": 30402,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4250879384,
+      "sizeOfData": 40,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetPropertySize@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "ResUtilGetPropertySize"
+    },
+    {
+      "offset": 30522,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3903030905,
+      "sizeOfData": 38,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetQwordValue@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "ResUtilGetQwordValue"
+    },
+    {
+      "offset": 30640,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3261268777,
+      "sizeOfData": 45,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetResourceDependency@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "ResUtilGetResourceDependency"
+    },
+    {
+      "offset": 30766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3663139637,
+      "sizeOfData": 53,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetResourceDependencyByClass@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "ResUtilGetResourceDependencyByClass"
+    },
+    {
+      "offset": 30900,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3355851859,
+      "sizeOfData": 55,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetResourceDependencyByClassEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "ResUtilGetResourceDependencyByClassEx"
+    },
+    {
+      "offset": 31036,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3475786449,
+      "sizeOfData": 52,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetResourceDependencyByName@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "ResUtilGetResourceDependencyByName"
+    },
+    {
+      "offset": 31168,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3504445336,
+      "sizeOfData": 60,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetResourceDependencyByNameAndClass@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "ResUtilGetResourceDependencyByNameAndClass"
+    },
+    {
+      "offset": 31308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3319964930,
+      "sizeOfData": 54,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetResourceDependencyByNameEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "ResUtilGetResourceDependencyByNameEx"
+    },
+    {
+      "offset": 31442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3288074066,
+      "sizeOfData": 48,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetResourceDependencyEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "ResUtilGetResourceDependencyEx"
+    },
+    {
+      "offset": 31570,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3942343641,
+      "sizeOfData": 59,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetResourceDependentIPAddressProps@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "ResUtilGetResourceDependentIPAddressProps"
+    },
+    {
+      "offset": 31710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3444637258,
+      "sizeOfData": 40,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetResourceName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "ResUtilGetResourceName"
+    },
+    {
+      "offset": 31830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3424496722,
+      "sizeOfData": 49,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetResourceNameDependency@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "ResUtilGetResourceNameDependency"
+    },
+    {
+      "offset": 31960,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3908207393,
+      "sizeOfData": 52,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetResourceNameDependencyEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "ResUtilGetResourceNameDependencyEx"
+    },
+    {
+      "offset": 32092,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3802900333,
+      "sizeOfData": 38,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetSzProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "ResUtilGetSzProperty"
+    },
+    {
+      "offset": 32210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3330997518,
+      "sizeOfData": 34,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGetSzValue@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "ResUtilGetSzValue"
+    },
+    {
+      "offset": 32324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4275026764,
+      "sizeOfData": 36,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilGroupsEqual@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "ResUtilGroupsEqual"
+    },
+    {
+      "offset": 32440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4002403923,
+      "sizeOfData": 35,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilIsPathValid@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "ResUtilIsPathValid"
+    },
+    {
+      "offset": 32556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4155841050,
+      "sizeOfData": 44,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilIsResourceClassEqual@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "ResUtilIsResourceClassEqual"
+    },
+    {
+      "offset": 32680,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3666753531,
+      "sizeOfData": 48,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilLeftPaxosIsLessThanRight@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "ResUtilLeftPaxosIsLessThanRight"
+    },
+    {
+      "offset": 32808,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4091514667,
+      "sizeOfData": 33,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilNodeEnum@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "ResUtilNodeEnum"
+    },
+    {
+      "offset": 32922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3937935033,
+      "sizeOfData": 37,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilPaxosComparer@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "ResUtilPaxosComparer"
+    },
+    {
+      "offset": 33040,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3538346977,
+      "sizeOfData": 55,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilPropertyListFromParameterBlock@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "ResUtilPropertyListFromParameterBlock"
+    },
+    {
+      "offset": 33176,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4013624990,
+      "sizeOfData": 57,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilRemoveResourceServiceEnvironment@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "ResUtilRemoveResourceServiceEnvironment"
+    },
+    {
+      "offset": 33314,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3461670697,
+      "sizeOfData": 40,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilResourceDepEnum@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "ResUtilResourceDepEnum"
+    },
+    {
+      "offset": 33434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3659080816,
+      "sizeOfData": 42,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilResourceTypesEqual@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "ResUtilResourceTypesEqual"
+    },
+    {
+      "offset": 33556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3695395133,
+      "sizeOfData": 38,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilResourcesEqual@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "ResUtilResourcesEqual"
+    },
+    {
+      "offset": 33674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4273299893,
+      "sizeOfData": 39,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetBinaryValue@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "ResUtilSetBinaryValue"
+    },
+    {
+      "offset": 33794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3927564014,
+      "sizeOfData": 38,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetDwordValue@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "ResUtilSetDwordValue"
+    },
+    {
+      "offset": 33912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3523609419,
+      "sizeOfData": 41,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetExpandSzValue@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "ResUtilSetExpandSzValue"
+    },
+    {
+      "offset": 34034,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3297105850,
+      "sizeOfData": 40,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetMultiSzValue@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "ResUtilSetMultiSzValue"
+    },
+    {
+      "offset": 34154,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4052054018,
+      "sizeOfData": 47,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetPrivatePropertyList@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "ResUtilSetPrivatePropertyList"
+    },
+    {
+      "offset": 34282,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3818368310,
+      "sizeOfData": 50,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetPropertyParameterBlock@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "ResUtilSetPropertyParameterBlock"
+    },
+    {
+      "offset": 34412,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3941505777,
+      "sizeOfData": 52,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetPropertyParameterBlockEx@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "ResUtilSetPropertyParameterBlockEx"
+    },
+    {
+      "offset": 34544,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3892373759,
+      "sizeOfData": 41,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetPropertyTable@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "ResUtilSetPropertyTable"
+    },
+    {
+      "offset": 34666,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4247205182,
+      "sizeOfData": 43,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetPropertyTableEx@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "ResUtilSetPropertyTableEx"
+    },
+    {
+      "offset": 34790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4278356270,
+      "sizeOfData": 38,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetQwordValue@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "ResUtilSetQwordValue"
+    },
+    {
+      "offset": 34908,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3307384900,
+      "sizeOfData": 54,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetResourceServiceEnvironment@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "ResUtilSetResourceServiceEnvironment"
+    },
+    {
+      "offset": 35042,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3456379541,
+      "sizeOfData": 58,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetResourceServiceStartParameters@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "ResUtilSetResourceServiceStartParameters"
+    },
+    {
+      "offset": 35180,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3748881021,
+      "sizeOfData": 60,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetResourceServiceStartParametersEx@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "ResUtilSetResourceServiceStartParametersEx"
+    },
+    {
+      "offset": 35320,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3518748855,
+      "sizeOfData": 35,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetSzValue@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "ResUtilSetSzValue"
+    },
+    {
+      "offset": 35436,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3417913720,
+      "sizeOfData": 45,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetUnknownProperties@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "ResUtilSetUnknownProperties"
+    },
+    {
+      "offset": 35562,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3248581567,
+      "sizeOfData": 35,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilSetValueEx@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "ResUtilSetValueEx"
+    },
+    {
+      "offset": 35678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3546901430,
+      "sizeOfData": 44,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilStartResourceService@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "ResUtilStartResourceService"
+    },
+    {
+      "offset": 35802,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3269821312,
+      "sizeOfData": 43,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilStopResourceService@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "ResUtilStopResourceService"
+    },
+    {
+      "offset": 35926,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3666044889,
+      "sizeOfData": 35,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilStopService@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "ResUtilStopService"
+    },
+    {
+      "offset": 36042,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3949887960,
+      "sizeOfData": 58,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilTerminateServiceProcessFromResDll@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "ResUtilTerminateServiceProcessFromResDll"
+    },
+    {
+      "offset": 36180,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3580013338,
+      "sizeOfData": 49,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilVerifyPrivatePropertyList@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "ResUtilVerifyPrivatePropertyList"
+    },
+    {
+      "offset": 36310,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4123387526,
+      "sizeOfData": 44,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilVerifyPropertyTable@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "ResUtilVerifyPropertyTable"
+    },
+    {
+      "offset": 36434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3917652395,
+      "sizeOfData": 45,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilVerifyResourceService@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "ResUtilVerifyResourceService"
+    },
+    {
+      "offset": 36560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3348987404,
+      "sizeOfData": 37,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilVerifyService@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "ResUtilVerifyService"
+    },
+    {
+      "offset": 36678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3711671437,
+      "sizeOfData": 43,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilVerifyShutdownSafe@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "ResUtilVerifyShutdownSafe"
+    },
+    {
+      "offset": 36802,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4233100306,
+      "sizeOfData": 39,
+      "dllName": "RESUTILS.dll",
+      "symbolName": "_ResUtilsDeleteKeyTree@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "ResUtilsDeleteKeyTree"
+    }
+  ]
+}

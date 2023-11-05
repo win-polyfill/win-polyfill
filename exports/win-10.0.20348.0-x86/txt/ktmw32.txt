@@ -1,0 +1,1180 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\ktmw32.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     BEC size
+correct header end
+
+    91 public symbols
+
+     1862 __IMPORT_DESCRIPTOR_ktmw32
+     1A88 __NULL_IMPORT_DESCRIPTOR
+     1BBE ktmw32_NULL_THUNK_DATA
+     1FB8 _CreateTransaction@28
+     1FB8 __imp__CreateTransaction@28
+     2554 _OpenTransaction@8
+     2554 __imp__OpenTransaction@8
+     2724 _PrePrepareEnlistment@8
+     2724 __imp__PrePrepareEnlistment@8
+     2806 _PrepareEnlistment@8
+     2806 __imp__PrepareEnlistment@8
+     1D7C _CommitEnlistment@8
+     1D7C __imp__CommitEnlistment@8
+     2D98 _RollbackEnlistment@8
+     2D98 __imp__RollbackEnlistment@8
+     1DEC _CommitTransaction@4
+     1DEC __imp__CommitTransaction@4
+     2E0A _RollbackTransaction@4
+     2E0A __imp__RollbackTransaction@4
+     1E5C _CommitTransactionAsync@4
+     1E5C __imp__CommitTransactionAsync@4
+     2E7C _RollbackTransactionAsync@4
+     2E7C __imp__RollbackTransactionAsync@4
+     26B2 _PrePrepareComplete@8
+     26B2 __imp__PrePrepareComplete@8
+     2798 _PrepareComplete@8
+     2798 __imp__PrepareComplete@8
+     1D0E _CommitComplete@8
+     1D0E __imp__CommitComplete@8
+     2D28 _RollbackComplete@8
+     2D28 __imp__RollbackComplete@8
+     1F42 _CreateResourceManager@20
+     1F42 __imp__CreateResourceManager@20
+     24E0 _OpenResourceManager@12
+     24E0 __imp__OpenResourceManager@12
+     2FF0 _SetResourceManagerCompletionPort@12
+     2FF0 __imp__SetResourceManagerCompletionPort@12
+     2210 _GetNotificationResourceManager@20
+     2210 __imp__GetNotificationResourceManager@20
+     228E _GetNotificationResourceManagerAsync@20
+     228E __imp__GetNotificationResourceManagerAsync@20
+     1ED2 _CreateEnlistment@24
+     1ED2 __imp__CreateEnlistment@24
+     2472 _OpenEnlistment@12
+     2472 __imp__OpenEnlistment@12
+     2190 _GetEnlistmentRecoveryInformation@16
+     2190 __imp__GetEnlistmentRecoveryInformation@16
+     2F70 _SetEnlistmentRecoveryInformation@12
+     2F70 __imp__SetEnlistmentRecoveryInformation@12
+     2122 _GetEnlistmentId@8
+     2122 __imp__GetEnlistmentId@8
+     2382 _GetTransactionInformation@28
+     2382 __imp__GetTransactionInformation@28
+     3070 _SetTransactionInformation@20
+     3070 __imp__SetTransactionInformation@20
+     2AE0 _ReadOnlyEnlistment@8
+     2AE0 __imp__ReadOnlyEnlistment@8
+     30EA _SinglePhaseReject@8
+     30EA __imp__SinglePhaseReject@8
+     202A _CreateTransactionManager@16
+     202A __imp__CreateTransactionManager@16
+     25C2 _OpenTransactionManager@12
+     25C2 __imp__OpenTransactionManager@12
+     2638 _OpenTransactionManagerById@12
+     2638 __imp__OpenTransactionManagerById@12
+     2CB0 _RenameTransactionManager@8
+     2CB0 __imp__RenameTransactionManager@8
+     2EF4 _RollforwardTransactionManager@8
+     2EF4 __imp__RollforwardTransactionManager@8
+     2B52 _RecoverEnlistment@8
+     2B52 __imp__RecoverEnlistment@8
+     2BC2 _RecoverResourceManager@4
+     2BC2 __imp__RecoverResourceManager@4
+     2C38 _RecoverTransactionManager@4
+     2C38 __imp__RecoverTransactionManager@4
+     20A2 _GetCurrentClockTransactionManager@8
+     20A2 __imp__GetCurrentClockTransactionManager@8
+     23FC _GetTransactionManagerId@8
+     23FC __imp__GetTransactionManagerId@8
+     2312 _GetTransactionId@8
+     2312 __imp__GetTransactionId@8
+     2876 _PrivCreateTransaction@28
+     2876 __imp__PrivCreateTransaction@28
+     2A5A _PrivRegisterProtocolAddressInformation@20
+     2A5A __imp__PrivRegisterProtocolAddressInformation@20
+     296E _PrivPropagationComplete@16
+     296E __imp__PrivPropagationComplete@16
+     29E6 _PrivPropagationFailed@8
+     29E6 __imp__PrivPropagationFailed@8
+     28EC _PrivIsLogWritableTransactionManager@4
+     28EC __imp__PrivIsLogWritableTransactionManager@4
+
+Archive member name at 1862: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1EA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E6EE3A99 time date stamp
+             10A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CC file pointer to raw data (000000CC to 000000DF)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FE file pointer to raw data (000000FE to 00000109)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 1A88: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        E603D281 time date stamp
+              B8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      64 file pointer to raw data (00000064 to 000000A3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A4 file pointer to raw data (000000A4 to 000000B7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1BBE: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     114 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        CCF9584E time date stamp
+              D4 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CC file pointer to raw data (000000CC to 000000CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data (000000D0 to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1D0E: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC51D02B
+  SizeOfData   : 0000001D
+  DLL name     : ktmw32.dll
+  Symbol name  : _CommitComplete@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : CommitComplete
+
+Archive member name at 1D7C: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5216D3B
+  SizeOfData   : 0000001F
+  DLL name     : ktmw32.dll
+  Symbol name  : _CommitEnlistment@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : CommitEnlistment
+
+Archive member name at 1DEC: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1D72A30
+  SizeOfData   : 00000020
+  DLL name     : ktmw32.dll
+  Symbol name  : _CommitTransaction@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : CommitTransaction
+
+Archive member name at 1E5C: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8FA92FD
+  SizeOfData   : 00000025
+  DLL name     : ktmw32.dll
+  Symbol name  : _CommitTransactionAsync@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : CommitTransactionAsync
+
+Archive member name at 1ED2: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD4429E3
+  SizeOfData   : 00000020
+  DLL name     : ktmw32.dll
+  Symbol name  : _CreateEnlistment@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : CreateEnlistment
+
+Archive member name at 1F42: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC9ADFE8
+  SizeOfData   : 00000025
+  DLL name     : ktmw32.dll
+  Symbol name  : _CreateResourceManager@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : CreateResourceManager
+
+Archive member name at 1FB8: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC293C83
+  SizeOfData   : 00000021
+  DLL name     : ktmw32.dll
+  Symbol name  : _CreateTransaction@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : CreateTransaction
+
+Archive member name at 202A: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA48CBE0
+  SizeOfData   : 00000028
+  DLL name     : ktmw32.dll
+  Symbol name  : _CreateTransactionManager@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : CreateTransactionManager
+
+Archive member name at 20A2: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFC6CD95
+  SizeOfData   : 00000030
+  DLL name     : ktmw32.dll
+  Symbol name  : _GetCurrentClockTransactionManager@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : GetCurrentClockTransactionManager
+
+Archive member name at 2122: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9C49D0F
+  SizeOfData   : 0000001E
+  DLL name     : ktmw32.dll
+  Symbol name  : _GetEnlistmentId@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : GetEnlistmentId
+
+Archive member name at 2190: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7A9E134
+  SizeOfData   : 00000030
+  DLL name     : ktmw32.dll
+  Symbol name  : _GetEnlistmentRecoveryInformation@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : GetEnlistmentRecoveryInformation
+
+Archive member name at 2210: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C90F7B34
+  SizeOfData   : 0000002E
+  DLL name     : ktmw32.dll
+  Symbol name  : _GetNotificationResourceManager@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : GetNotificationResourceManager
+
+Archive member name at 228E: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2619274
+  SizeOfData   : 00000033
+  DLL name     : ktmw32.dll
+  Symbol name  : _GetNotificationResourceManagerAsync@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : GetNotificationResourceManagerAsync
+
+Archive member name at 2312: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDA64B02
+  SizeOfData   : 0000001F
+  DLL name     : ktmw32.dll
+  Symbol name  : _GetTransactionId@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : GetTransactionId
+
+Archive member name at 2382: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6033766
+  SizeOfData   : 00000029
+  DLL name     : ktmw32.dll
+  Symbol name  : _GetTransactionInformation@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : GetTransactionInformation
+
+Archive member name at 23FC: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBD14DD9
+  SizeOfData   : 00000026
+  DLL name     : ktmw32.dll
+  Symbol name  : _GetTransactionManagerId@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : GetTransactionManagerId
+
+Archive member name at 2472: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F83069E0
+  SizeOfData   : 0000001E
+  DLL name     : ktmw32.dll
+  Symbol name  : _OpenEnlistment@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : OpenEnlistment
+
+Archive member name at 24E0: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2813C49
+  SizeOfData   : 00000023
+  DLL name     : ktmw32.dll
+  Symbol name  : _OpenResourceManager@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : OpenResourceManager
+
+Archive member name at 2554: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFD1F6BE
+  SizeOfData   : 0000001E
+  DLL name     : ktmw32.dll
+  Symbol name  : _OpenTransaction@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : OpenTransaction
+
+Archive member name at 25C2: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBA563F5
+  SizeOfData   : 00000026
+  DLL name     : ktmw32.dll
+  Symbol name  : _OpenTransactionManager@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : OpenTransactionManager
+
+Archive member name at 2638: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2567D59
+  SizeOfData   : 0000002A
+  DLL name     : ktmw32.dll
+  Symbol name  : _OpenTransactionManagerById@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : OpenTransactionManagerById
+
+Archive member name at 26B2: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4DD36F9
+  SizeOfData   : 00000021
+  DLL name     : ktmw32.dll
+  Symbol name  : _PrePrepareComplete@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : PrePrepareComplete
+
+Archive member name at 2724: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAF2838F
+  SizeOfData   : 00000023
+  DLL name     : ktmw32.dll
+  Symbol name  : _PrePrepareEnlistment@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : PrePrepareEnlistment
+
+Archive member name at 2798: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED7A4650
+  SizeOfData   : 0000001E
+  DLL name     : ktmw32.dll
+  Symbol name  : _PrepareComplete@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : PrepareComplete
+
+Archive member name at 2806: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB252743
+  SizeOfData   : 00000020
+  DLL name     : ktmw32.dll
+  Symbol name  : _PrepareEnlistment@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : PrepareEnlistment
+
+Archive member name at 2876: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCF32A95
+  SizeOfData   : 00000025
+  DLL name     : ktmw32.dll
+  Symbol name  : _PrivCreateTransaction@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : PrivCreateTransaction
+
+Archive member name at 28EC: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0D83329
+  SizeOfData   : 00000032
+  DLL name     : ktmw32.dll
+  Symbol name  : _PrivIsLogWritableTransactionManager@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : PrivIsLogWritableTransactionManager
+
+Archive member name at 296E: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEBC8811
+  SizeOfData   : 00000027
+  DLL name     : ktmw32.dll
+  Symbol name  : _PrivPropagationComplete@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : PrivPropagationComplete
+
+Archive member name at 29E6: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9A2562B
+  SizeOfData   : 00000024
+  DLL name     : ktmw32.dll
+  Symbol name  : _PrivPropagationFailed@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : PrivPropagationFailed
+
+Archive member name at 2A5A: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E12F1700
+  SizeOfData   : 00000036
+  DLL name     : ktmw32.dll
+  Symbol name  : _PrivRegisterProtocolAddressInformation@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : PrivRegisterProtocolAddressInformation
+
+Archive member name at 2AE0: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCC1B9D3
+  SizeOfData   : 00000021
+  DLL name     : ktmw32.dll
+  Symbol name  : _ReadOnlyEnlistment@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : ReadOnlyEnlistment
+
+Archive member name at 2B52: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D66F8C14
+  SizeOfData   : 00000020
+  DLL name     : ktmw32.dll
+  Symbol name  : _RecoverEnlistment@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : RecoverEnlistment
+
+Archive member name at 2BC2: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD9C05C7
+  SizeOfData   : 00000025
+  DLL name     : ktmw32.dll
+  Symbol name  : _RecoverResourceManager@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : RecoverResourceManager
+
+Archive member name at 2C38: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1B2A37A
+  SizeOfData   : 00000028
+  DLL name     : ktmw32.dll
+  Symbol name  : _RecoverTransactionManager@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : RecoverTransactionManager
+
+Archive member name at 2CB0: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C38736B8
+  SizeOfData   : 00000027
+  DLL name     : ktmw32.dll
+  Symbol name  : _RenameTransactionManager@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : RenameTransactionManager
+
+Archive member name at 2D28: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5057E5D
+  SizeOfData   : 0000001F
+  DLL name     : ktmw32.dll
+  Symbol name  : _RollbackComplete@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : RollbackComplete
+
+Archive member name at 2D98: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C36F9FCD
+  SizeOfData   : 00000021
+  DLL name     : ktmw32.dll
+  Symbol name  : _RollbackEnlistment@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : RollbackEnlistment
+
+Archive member name at 2E0A: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C737C29A
+  SizeOfData   : 00000022
+  DLL name     : ktmw32.dll
+  Symbol name  : _RollbackTransaction@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : RollbackTransaction
+
+Archive member name at 2E7C: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBF1A5A9
+  SizeOfData   : 00000027
+  DLL name     : ktmw32.dll
+  Symbol name  : _RollbackTransactionAsync@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : RollbackTransactionAsync
+
+Archive member name at 2EF4: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D985A44D
+  SizeOfData   : 0000002C
+  DLL name     : ktmw32.dll
+  Symbol name  : _RollforwardTransactionManager@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : RollforwardTransactionManager
+
+Archive member name at 2F70: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D75642CF
+  SizeOfData   : 00000030
+  DLL name     : ktmw32.dll
+  Symbol name  : _SetEnlistmentRecoveryInformation@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : SetEnlistmentRecoveryInformation
+
+Archive member name at 2FF0: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0213B11
+  SizeOfData   : 00000030
+  DLL name     : ktmw32.dll
+  Symbol name  : _SetResourceManagerCompletionPort@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : SetResourceManagerCompletionPort
+
+Archive member name at 3070: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1BED1A4
+  SizeOfData   : 00000029
+  DLL name     : ktmw32.dll
+  Symbol name  : _SetTransactionInformation@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : SetTransactionInformation
+
+Archive member name at 30EA: ktmw32.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F10F567A
+  SizeOfData   : 00000020
+  DLL name     : ktmw32.dll
+  Symbol name  : _SinglePhaseReject@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : SinglePhaseReject
+
+     Exports
+
+       ordinal    name
+
+                  _CommitComplete@8
+                  _CommitEnlistment@8
+                  _CommitTransaction@4
+                  _CommitTransactionAsync@4
+                  _CreateEnlistment@24
+                  _CreateResourceManager@20
+                  _CreateTransaction@28
+                  _CreateTransactionManager@16
+                  _GetCurrentClockTransactionManager@8
+                  _GetEnlistmentId@8
+                  _GetEnlistmentRecoveryInformation@16
+                  _GetNotificationResourceManager@20
+                  _GetNotificationResourceManagerAsync@20
+                  _GetTransactionId@8
+                  _GetTransactionInformation@28
+                  _GetTransactionManagerId@8
+                  _OpenEnlistment@12
+                  _OpenResourceManager@12
+                  _OpenTransaction@8
+                  _OpenTransactionManager@12
+                  _OpenTransactionManagerById@12
+                  _PrePrepareComplete@8
+                  _PrePrepareEnlistment@8
+                  _PrepareComplete@8
+                  _PrepareEnlistment@8
+                  _PrivCreateTransaction@28
+                  _PrivIsLogWritableTransactionManager@4
+                  _PrivPropagationComplete@16
+                  _PrivPropagationFailed@8
+                  _PrivRegisterProtocolAddressInformation@20
+                  _ReadOnlyEnlistment@8
+                  _RecoverEnlistment@8
+                  _RecoverResourceManager@4
+                  _RecoverTransactionManager@4
+                  _RenameTransactionManager@8
+                  _RollbackComplete@8
+                  _RollbackEnlistment@8
+                  _RollbackTransaction@4
+                  _RollbackTransactionAsync@4
+                  _RollforwardTransactionManager@8
+                  _SetEnlistmentRecoveryInformation@12
+                  _SetResourceManagerCompletionPort@12
+                  _SetTransactionInformation@20
+                  _SinglePhaseReject@8
+
+  Summary
+
+          C0 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

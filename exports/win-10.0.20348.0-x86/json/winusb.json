@@ -1,0 +1,909 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_WinUsb_AbortPipe@8"
+    },
+    {
+      "name": "_WinUsb_AbortPipeAsync@12"
+    },
+    {
+      "name": "_WinUsb_ControlTransfer@28"
+    },
+    {
+      "name": "_WinUsb_FlushPipe@8"
+    },
+    {
+      "name": "_WinUsb_Free@4"
+    },
+    {
+      "name": "_WinUsb_GetAdjustedFrameNumber@12"
+    },
+    {
+      "name": "_WinUsb_GetAssociatedInterface@12"
+    },
+    {
+      "name": "_WinUsb_GetCurrentAlternateSetting@8"
+    },
+    {
+      "name": "_WinUsb_GetCurrentFrameNumber@12"
+    },
+    {
+      "name": "_WinUsb_GetCurrentFrameNumberAndQpc@8"
+    },
+    {
+      "name": "_WinUsb_GetDescriptor@28"
+    },
+    {
+      "name": "_WinUsb_GetOverlappedResult@16"
+    },
+    {
+      "name": "_WinUsb_GetPipePolicy@20"
+    },
+    {
+      "name": "_WinUsb_GetPowerPolicy@16"
+    },
+    {
+      "name": "_WinUsb_Initialize@8"
+    },
+    {
+      "name": "_WinUsb_ParseConfigurationDescriptor@28"
+    },
+    {
+      "name": "_WinUsb_ParseDescriptors@16"
+    },
+    {
+      "name": "_WinUsb_QueryDeviceInformation@16"
+    },
+    {
+      "name": "_WinUsb_QueryInterfaceSettings@12"
+    },
+    {
+      "name": "_WinUsb_QueryPipe@16"
+    },
+    {
+      "name": "_WinUsb_QueryPipeEx@16"
+    },
+    {
+      "name": "_WinUsb_ReadIsochPipe@28"
+    },
+    {
+      "name": "_WinUsb_ReadIsochPipeAsap@28"
+    },
+    {
+      "name": "_WinUsb_ReadPipe@24"
+    },
+    {
+      "name": "_WinUsb_RegisterIsochBuffer@20"
+    },
+    {
+      "name": "_WinUsb_ResetPipe@8"
+    },
+    {
+      "name": "_WinUsb_ResetPipeAsync@12"
+    },
+    {
+      "name": "_WinUsb_SetCurrentAlternateSetting@8"
+    },
+    {
+      "name": "_WinUsb_SetCurrentAlternateSettingAsync@12"
+    },
+    {
+      "name": "_WinUsb_SetPipePolicy@20"
+    },
+    {
+      "name": "_WinUsb_SetPowerPolicy@16"
+    },
+    {
+      "name": "_WinUsb_StartTrackingForTimeSync@8"
+    },
+    {
+      "name": "_WinUsb_StopTrackingForTimeSync@8"
+    },
+    {
+      "name": "_WinUsb_UnregisterIsochBuffer@4"
+    },
+    {
+      "name": "_WinUsb_WriteIsochPipe@20"
+    },
+    {
+      "name": "_WinUsb_WriteIsochPipeAsap@20"
+    },
+    {
+      "name": "_WinUsb_WritePipe@24"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 5566,
+      "name": "__IMPORT_DESCRIPTOR_WINUSB"
+    },
+    {
+      "offset": 6116,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 6426,
+      "name": "WINUSB_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 8434,
+      "name": "_WinUsb_Initialize@8"
+    },
+    {
+      "offset": 8434,
+      "name": "__imp__WinUsb_Initialize@8"
+    },
+    {
+      "offset": 7222,
+      "name": "_WinUsb_Free@4"
+    },
+    {
+      "offset": 7222,
+      "name": "__imp__WinUsb_Free@4"
+    },
+    {
+      "offset": 7962,
+      "name": "_WinUsb_GetDescriptor@28"
+    },
+    {
+      "offset": 7962,
+      "name": "__imp__WinUsb_GetDescriptor@28"
+    },
+    {
+      "offset": 8924,
+      "name": "_WinUsb_QueryInterfaceSettings@12"
+    },
+    {
+      "offset": 8924,
+      "name": "__imp__WinUsb_QueryInterfaceSettings@12"
+    },
+    {
+      "offset": 8798,
+      "name": "_WinUsb_QueryDeviceInformation@16"
+    },
+    {
+      "offset": 8798,
+      "name": "__imp__WinUsb_QueryDeviceInformation@16"
+    },
+    {
+      "offset": 9976,
+      "name": "_WinUsb_SetCurrentAlternateSetting@8"
+    },
+    {
+      "offset": 9976,
+      "name": "__imp__WinUsb_SetCurrentAlternateSetting@8"
+    },
+    {
+      "offset": 10104,
+      "name": "_WinUsb_SetCurrentAlternateSettingAsync@12"
+    },
+    {
+      "offset": 10104,
+      "name": "__imp__WinUsb_SetCurrentAlternateSettingAsync@12"
+    },
+    {
+      "offset": 7580,
+      "name": "_WinUsb_GetCurrentAlternateSetting@8"
+    },
+    {
+      "offset": 7580,
+      "name": "__imp__WinUsb_GetCurrentAlternateSetting@8"
+    },
+    {
+      "offset": 9050,
+      "name": "_WinUsb_QueryPipe@16"
+    },
+    {
+      "offset": 9050,
+      "name": "__imp__WinUsb_QueryPipe@16"
+    },
+    {
+      "offset": 10238,
+      "name": "_WinUsb_SetPipePolicy@20"
+    },
+    {
+      "offset": 10238,
+      "name": "__imp__WinUsb_SetPipePolicy@20"
+    },
+    {
+      "offset": 8200,
+      "name": "_WinUsb_GetPipePolicy@20"
+    },
+    {
+      "offset": 8200,
+      "name": "__imp__WinUsb_GetPipePolicy@20"
+    },
+    {
+      "offset": 9512,
+      "name": "_WinUsb_ReadPipe@24"
+    },
+    {
+      "offset": 9512,
+      "name": "__imp__WinUsb_ReadPipe@24"
+    },
+    {
+      "offset": 11088,
+      "name": "_WinUsb_WritePipe@24"
+    },
+    {
+      "offset": 11088,
+      "name": "__imp__WinUsb_WritePipe@24"
+    },
+    {
+      "offset": 6992,
+      "name": "_WinUsb_ControlTransfer@28"
+    },
+    {
+      "offset": 6992,
+      "name": "__imp__WinUsb_ControlTransfer@28"
+    },
+    {
+      "offset": 9746,
+      "name": "_WinUsb_ResetPipe@8"
+    },
+    {
+      "offset": 9746,
+      "name": "__imp__WinUsb_ResetPipe@8"
+    },
+    {
+      "offset": 9858,
+      "name": "_WinUsb_ResetPipeAsync@12"
+    },
+    {
+      "offset": 9858,
+      "name": "__imp__WinUsb_ResetPipeAsync@12"
+    },
+    {
+      "offset": 6762,
+      "name": "_WinUsb_AbortPipe@8"
+    },
+    {
+      "offset": 6762,
+      "name": "__imp__WinUsb_AbortPipe@8"
+    },
+    {
+      "offset": 6874,
+      "name": "_WinUsb_AbortPipeAsync@12"
+    },
+    {
+      "offset": 6874,
+      "name": "__imp__WinUsb_AbortPipeAsync@12"
+    },
+    {
+      "offset": 7110,
+      "name": "_WinUsb_FlushPipe@8"
+    },
+    {
+      "offset": 7110,
+      "name": "__imp__WinUsb_FlushPipe@8"
+    },
+    {
+      "offset": 10354,
+      "name": "_WinUsb_SetPowerPolicy@16"
+    },
+    {
+      "offset": 10354,
+      "name": "__imp__WinUsb_SetPowerPolicy@16"
+    },
+    {
+      "offset": 8316,
+      "name": "_WinUsb_GetPowerPolicy@16"
+    },
+    {
+      "offset": 8316,
+      "name": "__imp__WinUsb_GetPowerPolicy@16"
+    },
+    {
+      "offset": 8078,
+      "name": "_WinUsb_GetOverlappedResult@16"
+    },
+    {
+      "offset": 8078,
+      "name": "__imp__WinUsb_GetOverlappedResult@16"
+    },
+    {
+      "offset": 7454,
+      "name": "_WinUsb_GetAssociatedInterface@12"
+    },
+    {
+      "offset": 7454,
+      "name": "__imp__WinUsb_GetAssociatedInterface@12"
+    },
+    {
+      "offset": 8678,
+      "name": "_WinUsb_ParseDescriptors@16"
+    },
+    {
+      "offset": 8678,
+      "name": "__imp__WinUsb_ParseDescriptors@16"
+    },
+    {
+      "offset": 8546,
+      "name": "_WinUsb_ParseConfigurationDescriptor@28"
+    },
+    {
+      "offset": 8546,
+      "name": "__imp__WinUsb_ParseConfigurationDescriptor@28"
+    },
+    {
+      "offset": 9624,
+      "name": "_WinUsb_RegisterIsochBuffer@20"
+    },
+    {
+      "offset": 9624,
+      "name": "__imp__WinUsb_RegisterIsochBuffer@20"
+    },
+    {
+      "offset": 10724,
+      "name": "_WinUsb_UnregisterIsochBuffer@4"
+    },
+    {
+      "offset": 10724,
+      "name": "__imp__WinUsb_UnregisterIsochBuffer@4"
+    },
+    {
+      "offset": 10966,
+      "name": "_WinUsb_WriteIsochPipeAsap@20"
+    },
+    {
+      "offset": 10966,
+      "name": "__imp__WinUsb_WriteIsochPipeAsap@20"
+    },
+    {
+      "offset": 9392,
+      "name": "_WinUsb_ReadIsochPipeAsap@28"
+    },
+    {
+      "offset": 9392,
+      "name": "__imp__WinUsb_ReadIsochPipeAsap@28"
+    },
+    {
+      "offset": 10848,
+      "name": "_WinUsb_WriteIsochPipe@20"
+    },
+    {
+      "offset": 10848,
+      "name": "__imp__WinUsb_WriteIsochPipe@20"
+    },
+    {
+      "offset": 9276,
+      "name": "_WinUsb_ReadIsochPipe@28"
+    },
+    {
+      "offset": 9276,
+      "name": "__imp__WinUsb_ReadIsochPipe@28"
+    },
+    {
+      "offset": 7708,
+      "name": "_WinUsb_GetCurrentFrameNumber@12"
+    },
+    {
+      "offset": 7708,
+      "name": "__imp__WinUsb_GetCurrentFrameNumber@12"
+    },
+    {
+      "offset": 7328,
+      "name": "_WinUsb_GetAdjustedFrameNumber@12"
+    },
+    {
+      "offset": 7328,
+      "name": "__imp__WinUsb_GetAdjustedFrameNumber@12"
+    },
+    {
+      "offset": 9162,
+      "name": "_WinUsb_QueryPipeEx@16"
+    },
+    {
+      "offset": 9162,
+      "name": "__imp__WinUsb_QueryPipeEx@16"
+    },
+    {
+      "offset": 10472,
+      "name": "_WinUsb_StartTrackingForTimeSync@8"
+    },
+    {
+      "offset": 10472,
+      "name": "__imp__WinUsb_StartTrackingForTimeSync@8"
+    },
+    {
+      "offset": 7832,
+      "name": "_WinUsb_GetCurrentFrameNumberAndQpc@8"
+    },
+    {
+      "offset": 7832,
+      "name": "__imp__WinUsb_GetCurrentFrameNumberAndQpc@8"
+    },
+    {
+      "offset": 10598,
+      "name": "_WinUsb_StopTrackingForTimeSync@8"
+    },
+    {
+      "offset": 10598,
+      "name": "__imp__WinUsb_StopTrackingForTimeSync@8"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 6762,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3703032969,
+      "sizeOfData": 31,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_AbortPipe@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "WinUsb_AbortPipe"
+    },
+    {
+      "offset": 6874,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3887027408,
+      "sizeOfData": 37,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_AbortPipeAsync@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "WinUsb_AbortPipeAsync"
+    },
+    {
+      "offset": 6992,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3353398861,
+      "sizeOfData": 38,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_ControlTransfer@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "WinUsb_ControlTransfer"
+    },
+    {
+      "offset": 7110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3709220119,
+      "sizeOfData": 31,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_FlushPipe@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "WinUsb_FlushPipe"
+    },
+    {
+      "offset": 7222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3962732117,
+      "sizeOfData": 26,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_Free@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "WinUsb_Free"
+    },
+    {
+      "offset": 7328,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3877319812,
+      "sizeOfData": 45,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_GetAdjustedFrameNumber@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "WinUsb_GetAdjustedFrameNumber"
+    },
+    {
+      "offset": 7454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4064434575,
+      "sizeOfData": 45,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_GetAssociatedInterface@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "WinUsb_GetAssociatedInterface"
+    },
+    {
+      "offset": 7580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4137175970,
+      "sizeOfData": 48,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_GetCurrentAlternateSetting@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "WinUsb_GetCurrentAlternateSetting"
+    },
+    {
+      "offset": 7708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3534321023,
+      "sizeOfData": 44,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_GetCurrentFrameNumber@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "WinUsb_GetCurrentFrameNumber"
+    },
+    {
+      "offset": 7832,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3837317761,
+      "sizeOfData": 49,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_GetCurrentFrameNumberAndQpc@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "WinUsb_GetCurrentFrameNumberAndQpc"
+    },
+    {
+      "offset": 7962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3864609911,
+      "sizeOfData": 36,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_GetDescriptor@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "WinUsb_GetDescriptor"
+    },
+    {
+      "offset": 8078,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3282307092,
+      "sizeOfData": 42,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_GetOverlappedResult@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "WinUsb_GetOverlappedResult"
+    },
+    {
+      "offset": 8200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4074313710,
+      "sizeOfData": 36,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_GetPipePolicy@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "WinUsb_GetPipePolicy"
+    },
+    {
+      "offset": 8316,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3305166371,
+      "sizeOfData": 37,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_GetPowerPolicy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "WinUsb_GetPowerPolicy"
+    },
+    {
+      "offset": 8434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4109354950,
+      "sizeOfData": 32,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_Initialize@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "WinUsb_Initialize"
+    },
+    {
+      "offset": 8546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3729453715,
+      "sizeOfData": 51,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_ParseConfigurationDescriptor@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "WinUsb_ParseConfigurationDescriptor"
+    },
+    {
+      "offset": 8678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3580279023,
+      "sizeOfData": 39,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_ParseDescriptors@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "WinUsb_ParseDescriptors"
+    },
+    {
+      "offset": 8798,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3277584670,
+      "sizeOfData": 45,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_QueryDeviceInformation@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "WinUsb_QueryDeviceInformation"
+    },
+    {
+      "offset": 8924,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3902485422,
+      "sizeOfData": 45,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_QueryInterfaceSettings@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "WinUsb_QueryInterfaceSettings"
+    },
+    {
+      "offset": 9050,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4025296882,
+      "sizeOfData": 32,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_QueryPipe@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "WinUsb_QueryPipe"
+    },
+    {
+      "offset": 9162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3566380286,
+      "sizeOfData": 34,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_QueryPipeEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "WinUsb_QueryPipeEx"
+    },
+    {
+      "offset": 9276,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3301351677,
+      "sizeOfData": 36,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_ReadIsochPipe@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "WinUsb_ReadIsochPipe"
+    },
+    {
+      "offset": 9392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3294089280,
+      "sizeOfData": 40,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_ReadIsochPipeAsap@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "WinUsb_ReadIsochPipeAsap"
+    },
+    {
+      "offset": 9512,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4124235982,
+      "sizeOfData": 31,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_ReadPipe@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "WinUsb_ReadPipe"
+    },
+    {
+      "offset": 9624,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3857189040,
+      "sizeOfData": 42,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_RegisterIsochBuffer@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "WinUsb_RegisterIsochBuffer"
+    },
+    {
+      "offset": 9746,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3762362223,
+      "sizeOfData": 31,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_ResetPipe@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "WinUsb_ResetPipe"
+    },
+    {
+      "offset": 9858,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3688817364,
+      "sizeOfData": 37,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_ResetPipeAsync@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "WinUsb_ResetPipeAsync"
+    },
+    {
+      "offset": 9976,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3229292348,
+      "sizeOfData": 48,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_SetCurrentAlternateSetting@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "WinUsb_SetCurrentAlternateSetting"
+    },
+    {
+      "offset": 10104,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3897120728,
+      "sizeOfData": 54,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_SetCurrentAlternateSettingAsync@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "WinUsb_SetCurrentAlternateSettingAsync"
+    },
+    {
+      "offset": 10238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3856509252,
+      "sizeOfData": 36,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_SetPipePolicy@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "WinUsb_SetPipePolicy"
+    },
+    {
+      "offset": 10354,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3864640323,
+      "sizeOfData": 37,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_SetPowerPolicy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "WinUsb_SetPowerPolicy"
+    },
+    {
+      "offset": 10472,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4023375597,
+      "sizeOfData": 46,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_StartTrackingForTimeSync@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "WinUsb_StartTrackingForTimeSync"
+    },
+    {
+      "offset": 10598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3604997885,
+      "sizeOfData": 45,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_StopTrackingForTimeSync@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "WinUsb_StopTrackingForTimeSync"
+    },
+    {
+      "offset": 10724,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3492562810,
+      "sizeOfData": 43,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_UnregisterIsochBuffer@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "WinUsb_UnregisterIsochBuffer"
+    },
+    {
+      "offset": 10848,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4256966536,
+      "sizeOfData": 37,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_WriteIsochPipe@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "WinUsb_WriteIsochPipe"
+    },
+    {
+      "offset": 10966,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3745614015,
+      "sizeOfData": 41,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_WriteIsochPipeAsap@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "WinUsb_WriteIsochPipeAsap"
+    },
+    {
+      "offset": 11088,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3349982496,
+      "sizeOfData": 32,
+      "dllName": "WINUSB.DLL",
+      "symbolName": "_WinUsb_WritePipe@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "WinUsb_WritePipe"
+    }
+  ]
+}

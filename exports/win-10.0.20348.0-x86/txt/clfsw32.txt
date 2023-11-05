@@ -1,0 +1,1598 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\clfsw32.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     E90 size
+correct header end
+
+    129 public symbols
+
+     1DAA __IMPORT_DESCRIPTOR_clfsw32
+     1FD4 __NULL_IMPORT_DESCRIPTOR
+     210A clfsw32_NULL_THUNK_DATA
+     2584 _CLFS_LSN_NULL
+     2584 __imp__CLFS_LSN_NULL
+     2516 _CLFS_LSN_INVALID
+     2516 __imp__CLFS_LSN_INVALID
+     22DE _AddLogContainer@16
+     22DE __imp__AddLogContainer@16
+     234E _AddLogContainerSet@20
+     234E __imp__AddLogContainerSet@20
+     23C2 _AdvanceLogBase@16
+     23C2 __imp__AdvanceLogBase@16
+     2432 _AlignReservedLog@16
+     2432 __imp__AlignReservedLog@16
+     24A4 _AllocReservedLog@12
+     24A4 __imp__AllocReservedLog@12
+     25F0 _CloseAndResetLogFile@4
+     25F0 __imp__CloseAndResetLogFile@4
+     2664 _CreateLogContainerScanContext@24
+     2664 __imp__CreateLogContainerScanContext@24
+     26E2 _CreateLogFile@24
+     26E2 __imp__CreateLogFile@24
+     2750 _CreateLogMarshallingArea@32
+     2750 __imp__CreateLogMarshallingArea@32
+     27CA _DeleteLogByHandle@4
+     27CA __imp__DeleteLogByHandle@4
+     283C _DeleteLogFile@8
+     283C __imp__DeleteLogFile@8
+     28AA _DeleteLogMarshallingArea@4
+     28AA __imp__DeleteLogMarshallingArea@4
+     29A0 _DumpLogRecords@44
+     29A0 __imp__DumpLogRecords@44
+     2A10 _FlushLogBuffers@8
+     2A10 __imp__FlushLogBuffers@8
+     2A80 _FlushLogToLsn@16
+     2A80 __imp__FlushLogToLsn@16
+     2AEE _FreeReservedLog@12
+     2AEE __imp__FreeReservedLog@12
+     2C48 _GetLogIoStatistics@20
+     2C48 __imp__GetLogIoStatistics@20
+     2B5E _GetLogContainerName@20
+     2B5E __imp__GetLogContainerName@20
+     2BD2 _GetLogFileInformation@12
+     2BD2 __imp__GetLogFileInformation@12
+     2D32 _GetNextLogArchiveExtent@16
+     2D32 __imp__GetNextLogArchiveExtent@16
+     2EFE _LsnBlockOffset@4
+     2EFE __imp__LsnBlockOffset@4
+     2F6C _LsnContainer@4
+     2F6C __imp__LsnContainer@4
+     2FD8 _LsnCreate@12
+     2FD8 __imp__LsnCreate@12
+     225C ?LsnDecrement@@YG?AT_CLS_LSN@@PAT1@@Z
+     225C __imp_?LsnDecrement@@YG?AT_CLS_LSN@@PAT1@@Z
+     3042 _LsnEqual@8
+     3042 __imp__LsnEqual@8
+     30AA _LsnGreater@8
+     30AA __imp__LsnGreater@8
+     3114 _LsnIncrement@4
+     3114 __imp__LsnIncrement@4
+     3180 _LsnInvalid@4
+     3180 __imp__LsnInvalid@4
+     31EA _LsnLess@8
+     31EA __imp__LsnLess@8
+     3252 _LsnNull@4
+     3252 __imp__LsnNull@4
+     32BA _LsnRecordSequence@4
+     32BA __imp__LsnRecordSequence@4
+     332C _PrepareLogArchive@48
+     332C __imp__PrepareLogArchive@48
+     340E _ReadLogArchiveMetadata@20
+     340E __imp__ReadLogArchiveMetadata@20
+     34FA _ReadLogRecord@40
+     34FA __imp__ReadLogRecord@40
+     3568 _ReadLogRestartArea@24
+     3568 __imp__ReadLogRestartArea@24
+     35DC _ReadNextLogRecord@36
+     35DC __imp__ReadNextLogRecord@36
+     364E _ReadPreviousLogRestartArea@20
+     364E __imp__ReadPreviousLogRestartArea@20
+     37C6 _RemoveLogContainer@16
+     37C6 __imp__RemoveLogContainer@16
+     383A _RemoveLogContainerSet@20
+     383A __imp__RemoveLogContainerSet@20
+     3920 _ReserveAndAppendLog@40
+     3920 __imp__ReserveAndAppendLog@40
+     3994 _ReserveAndAppendLogAligned@44
+     3994 __imp__ReserveAndAppendLogAligned@44
+     3A10 _ScanLogContainers@12
+     3A10 __imp__ScanLogContainers@12
+     3A82 _SetEndOfLog@12
+     3A82 __imp__SetEndOfLog@12
+     3AEE _SetLogArchiveMode@8
+     3AEE __imp__SetLogArchiveMode@8
+     3B60 _SetLogArchiveTail@12
+     3B60 __imp__SetLogArchiveTail@12
+     3C4C _TerminateLogArchive@4
+     3C4C __imp__TerminateLogArchive@4
+     3CC0 _TerminateReadLog@4
+     3CC0 __imp__TerminateReadLog@4
+     3D30 _TruncateLog@12
+     3D30 __imp__TruncateLog@12
+     3D9C _ValidateLog@16
+     3D9C __imp__ValidateLog@16
+     3E08 _WriteLogRestartArea@32
+     3E08 __imp__WriteLogRestartArea@32
+     2CBC _GetLogReservationInfo@16
+     2CBC __imp__GetLogReservationInfo@16
+     374A _RegisterManageableLogClient@8
+     374A __imp__RegisterManageableLogClient@8
+     2922 _DeregisterManageableLogClient@4
+     2922 __imp__DeregisterManageableLogClient@4
+     2E18 _InstallLogPolicy@8
+     2E18 __imp__InstallLogPolicy@8
+     38B0 _RemoveLogPolicy@8
+     38B0 __imp__RemoveLogPolicy@8
+     3BD2 _SetLogFileSizeWithPolicy@12
+     3BD2 __imp__SetLogFileSizeWithPolicy@12
+     2DAA _HandleLogFull@4
+     2DAA __imp__HandleLogFull@4
+     3486 _ReadLogNotification@12
+     3486 __imp__ReadLogNotification@12
+     339E _QueryLogPolicy@16
+     339E __imp__QueryLogPolicy@16
+     2E88 _LogTailAdvanceFailure@8
+     2E88 __imp__LogTailAdvanceFailure@8
+     36CA _RegisterForLogWriteNotification@12
+     36CA __imp__RegisterForLogWriteNotification@12
+
+Archive member name at 1DAA: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1ED size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        F8FDAEE7 time date stamp
+             10B file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CD file pointer to raw data (000000CD to 000000E0)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FF file pointer to raw data (000000FF to 0000010A)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 1FD4: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        D36933F6 time date stamp
+              B9 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      64 file pointer to raw data (00000064 to 000000A4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A5 file pointer to raw data (000000A5 to 000000B8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 210A: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     116 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E0A17972 time date stamp
+              D5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D1 file pointer to raw data (000000D1 to 000000D4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 225C: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF9EF558
+  SizeOfData   : 00000032
+  DLL name     : clfsw32.dll
+  Symbol name  : ?LsnDecrement@@YG?AT_CLS_LSN@@PAT1@@Z (union _CLS_LSN __stdcall LsnDecrement(union _CLS_LSN *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : LsnDecrement
+
+Archive member name at 22DE: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDE90DF6
+  SizeOfData   : 00000020
+  DLL name     : clfsw32.dll
+  Symbol name  : _AddLogContainer@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : AddLogContainer
+
+Archive member name at 234E: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F91EDC47
+  SizeOfData   : 00000023
+  DLL name     : clfsw32.dll
+  Symbol name  : _AddLogContainerSet@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : AddLogContainerSet
+
+Archive member name at 23C2: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDE3E174
+  SizeOfData   : 0000001F
+  DLL name     : clfsw32.dll
+  Symbol name  : _AdvanceLogBase@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : AdvanceLogBase
+
+Archive member name at 2432: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4CCA86C
+  SizeOfData   : 00000021
+  DLL name     : clfsw32.dll
+  Symbol name  : _AlignReservedLog@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : AlignReservedLog
+
+Archive member name at 24A4: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3651673
+  SizeOfData   : 00000021
+  DLL name     : clfsw32.dll
+  Symbol name  : _AllocReservedLog@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : AllocReservedLog
+
+Archive member name at 2516: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F99D9A84
+  SizeOfData   : 0000001E
+  DLL name     : clfsw32.dll
+  Symbol name  : _CLFS_LSN_INVALID
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : CLFS_LSN_INVALID
+
+Archive member name at 2584: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F238C071
+  SizeOfData   : 0000001B
+  DLL name     : clfsw32.dll
+  Symbol name  : _CLFS_LSN_NULL
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : CLFS_LSN_NULL
+
+Archive member name at 25F0: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C95B90F3
+  SizeOfData   : 00000024
+  DLL name     : clfsw32.dll
+  Symbol name  : _CloseAndResetLogFile@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : CloseAndResetLogFile
+
+Archive member name at 2664: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0C2CB32
+  SizeOfData   : 0000002E
+  DLL name     : clfsw32.dll
+  Symbol name  : _CreateLogContainerScanContext@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : CreateLogContainerScanContext
+
+Archive member name at 26E2: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1BAC25A
+  SizeOfData   : 0000001E
+  DLL name     : clfsw32.dll
+  Symbol name  : _CreateLogFile@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : CreateLogFile
+
+Archive member name at 2750: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE12C758
+  SizeOfData   : 00000029
+  DLL name     : clfsw32.dll
+  Symbol name  : _CreateLogMarshallingArea@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : CreateLogMarshallingArea
+
+Archive member name at 27CA: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E778C3FD
+  SizeOfData   : 00000021
+  DLL name     : clfsw32.dll
+  Symbol name  : _DeleteLogByHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : DeleteLogByHandle
+
+Archive member name at 283C: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C995CEDE
+  SizeOfData   : 0000001D
+  DLL name     : clfsw32.dll
+  Symbol name  : _DeleteLogFile@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : DeleteLogFile
+
+Archive member name at 28AA: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8CAAFE0
+  SizeOfData   : 00000028
+  DLL name     : clfsw32.dll
+  Symbol name  : _DeleteLogMarshallingArea@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : DeleteLogMarshallingArea
+
+Archive member name at 2922: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0AFE382
+  SizeOfData   : 0000002D
+  DLL name     : clfsw32.dll
+  Symbol name  : _DeregisterManageableLogClient@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : DeregisterManageableLogClient
+
+Archive member name at 29A0: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB04B4BC
+  SizeOfData   : 0000001F
+  DLL name     : clfsw32.dll
+  Symbol name  : _DumpLogRecords@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : DumpLogRecords
+
+Archive member name at 2A10: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D25D1E6A
+  SizeOfData   : 0000001F
+  DLL name     : clfsw32.dll
+  Symbol name  : _FlushLogBuffers@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : FlushLogBuffers
+
+Archive member name at 2A80: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBC008C1
+  SizeOfData   : 0000001E
+  DLL name     : clfsw32.dll
+  Symbol name  : _FlushLogToLsn@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : FlushLogToLsn
+
+Archive member name at 2AEE: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F271A838
+  SizeOfData   : 00000020
+  DLL name     : clfsw32.dll
+  Symbol name  : _FreeReservedLog@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : FreeReservedLog
+
+Archive member name at 2B5E: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4B20616
+  SizeOfData   : 00000024
+  DLL name     : clfsw32.dll
+  Symbol name  : _GetLogContainerName@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : GetLogContainerName
+
+Archive member name at 2BD2: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA4ED115
+  SizeOfData   : 00000026
+  DLL name     : clfsw32.dll
+  Symbol name  : _GetLogFileInformation@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : GetLogFileInformation
+
+Archive member name at 2C48: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E435D33A
+  SizeOfData   : 00000023
+  DLL name     : clfsw32.dll
+  Symbol name  : _GetLogIoStatistics@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : GetLogIoStatistics
+
+Archive member name at 2CBC: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAC5A4D4
+  SizeOfData   : 00000026
+  DLL name     : clfsw32.dll
+  Symbol name  : _GetLogReservationInfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : GetLogReservationInfo
+
+Archive member name at 2D32: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2AFDF8E
+  SizeOfData   : 00000028
+  DLL name     : clfsw32.dll
+  Symbol name  : _GetNextLogArchiveExtent@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : GetNextLogArchiveExtent
+
+Archive member name at 2DAA: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4DF3811
+  SizeOfData   : 0000001D
+  DLL name     : clfsw32.dll
+  Symbol name  : _HandleLogFull@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : HandleLogFull
+
+Archive member name at 2E18: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4AC8D94
+  SizeOfData   : 00000020
+  DLL name     : clfsw32.dll
+  Symbol name  : _InstallLogPolicy@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : InstallLogPolicy
+
+Archive member name at 2E88: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6272EC3
+  SizeOfData   : 00000025
+  DLL name     : clfsw32.dll
+  Symbol name  : _LogTailAdvanceFailure@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : LogTailAdvanceFailure
+
+Archive member name at 2EFE: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB9AE0D0
+  SizeOfData   : 0000001E
+  DLL name     : clfsw32.dll
+  Symbol name  : _LsnBlockOffset@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : LsnBlockOffset
+
+Archive member name at 2F6C: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F62CCCD1
+  SizeOfData   : 0000001C
+  DLL name     : clfsw32.dll
+  Symbol name  : _LsnContainer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : LsnContainer
+
+Archive member name at 2FD8: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5A39445
+  SizeOfData   : 0000001A
+  DLL name     : clfsw32.dll
+  Symbol name  : _LsnCreate@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : LsnCreate
+
+Archive member name at 3042: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCA857B0
+  SizeOfData   : 00000018
+  DLL name     : clfsw32.dll
+  Symbol name  : _LsnEqual@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : LsnEqual
+
+Archive member name at 30AA: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C45A521E
+  SizeOfData   : 0000001A
+  DLL name     : clfsw32.dll
+  Symbol name  : _LsnGreater@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : LsnGreater
+
+Archive member name at 3114: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E696C2E8
+  SizeOfData   : 0000001C
+  DLL name     : clfsw32.dll
+  Symbol name  : _LsnIncrement@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : LsnIncrement
+
+Archive member name at 3180: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3DBE2A3
+  SizeOfData   : 0000001A
+  DLL name     : clfsw32.dll
+  Symbol name  : _LsnInvalid@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : LsnInvalid
+
+Archive member name at 31EA: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFAA8D5C
+  SizeOfData   : 00000017
+  DLL name     : clfsw32.dll
+  Symbol name  : _LsnLess@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : LsnLess
+
+Archive member name at 3252: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9635F27
+  SizeOfData   : 00000017
+  DLL name     : clfsw32.dll
+  Symbol name  : _LsnNull@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : LsnNull
+
+Archive member name at 32BA: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E92D0C97
+  SizeOfData   : 00000021
+  DLL name     : clfsw32.dll
+  Symbol name  : _LsnRecordSequence@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : LsnRecordSequence
+
+Archive member name at 332C: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFD78590
+  SizeOfData   : 00000022
+  DLL name     : clfsw32.dll
+  Symbol name  : _PrepareLogArchive@48
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : PrepareLogArchive
+
+Archive member name at 339E: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD78262F
+  SizeOfData   : 0000001F
+  DLL name     : clfsw32.dll
+  Symbol name  : _QueryLogPolicy@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : QueryLogPolicy
+
+Archive member name at 340E: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC054928
+  SizeOfData   : 00000027
+  DLL name     : clfsw32.dll
+  Symbol name  : _ReadLogArchiveMetadata@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : ReadLogArchiveMetadata
+
+Archive member name at 3486: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E25B0925
+  SizeOfData   : 00000024
+  DLL name     : clfsw32.dll
+  Symbol name  : _ReadLogNotification@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : ReadLogNotification
+
+Archive member name at 34FA: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1808879
+  SizeOfData   : 0000001E
+  DLL name     : clfsw32.dll
+  Symbol name  : _ReadLogRecord@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : ReadLogRecord
+
+Archive member name at 3568: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2CA3D59
+  SizeOfData   : 00000023
+  DLL name     : clfsw32.dll
+  Symbol name  : _ReadLogRestartArea@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : ReadLogRestartArea
+
+Archive member name at 35DC: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2F2C0B6
+  SizeOfData   : 00000022
+  DLL name     : clfsw32.dll
+  Symbol name  : _ReadNextLogRecord@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : ReadNextLogRecord
+
+Archive member name at 364E: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF123017
+  SizeOfData   : 0000002B
+  DLL name     : clfsw32.dll
+  Symbol name  : _ReadPreviousLogRestartArea@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : ReadPreviousLogRestartArea
+
+Archive member name at 36CA: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEB44466
+  SizeOfData   : 00000030
+  DLL name     : clfsw32.dll
+  Symbol name  : _RegisterForLogWriteNotification@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : RegisterForLogWriteNotification
+
+Archive member name at 374A: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D858757F
+  SizeOfData   : 0000002B
+  DLL name     : clfsw32.dll
+  Symbol name  : _RegisterManageableLogClient@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : RegisterManageableLogClient
+
+Archive member name at 37C6: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBFBF215
+  SizeOfData   : 00000023
+  DLL name     : clfsw32.dll
+  Symbol name  : _RemoveLogContainer@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : RemoveLogContainer
+
+Archive member name at 383A: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E042276D
+  SizeOfData   : 00000026
+  DLL name     : clfsw32.dll
+  Symbol name  : _RemoveLogContainerSet@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : RemoveLogContainerSet
+
+Archive member name at 38B0: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3293CBB
+  SizeOfData   : 0000001F
+  DLL name     : clfsw32.dll
+  Symbol name  : _RemoveLogPolicy@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : RemoveLogPolicy
+
+Archive member name at 3920: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5DCC95F
+  SizeOfData   : 00000024
+  DLL name     : clfsw32.dll
+  Symbol name  : _ReserveAndAppendLog@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : ReserveAndAppendLog
+
+Archive member name at 3994: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8BF53AD
+  SizeOfData   : 0000002B
+  DLL name     : clfsw32.dll
+  Symbol name  : _ReserveAndAppendLogAligned@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : ReserveAndAppendLogAligned
+
+Archive member name at 3A10: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3617426
+  SizeOfData   : 00000022
+  DLL name     : clfsw32.dll
+  Symbol name  : _ScanLogContainers@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : ScanLogContainers
+
+Archive member name at 3A82: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA4EAFE8
+  SizeOfData   : 0000001C
+  DLL name     : clfsw32.dll
+  Symbol name  : _SetEndOfLog@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : SetEndOfLog
+
+Archive member name at 3AEE: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8C2A465
+  SizeOfData   : 00000021
+  DLL name     : clfsw32.dll
+  Symbol name  : _SetLogArchiveMode@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : SetLogArchiveMode
+
+Archive member name at 3B60: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0245247
+  SizeOfData   : 00000022
+  DLL name     : clfsw32.dll
+  Symbol name  : _SetLogArchiveTail@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : SetLogArchiveTail
+
+Archive member name at 3BD2: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB211FE8
+  SizeOfData   : 00000029
+  DLL name     : clfsw32.dll
+  Symbol name  : _SetLogFileSizeWithPolicy@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : SetLogFileSizeWithPolicy
+
+Archive member name at 3C4C: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1D68EC8
+  SizeOfData   : 00000023
+  DLL name     : clfsw32.dll
+  Symbol name  : _TerminateLogArchive@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : TerminateLogArchive
+
+Archive member name at 3CC0: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB5DF658
+  SizeOfData   : 00000020
+  DLL name     : clfsw32.dll
+  Symbol name  : _TerminateReadLog@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : TerminateReadLog
+
+Archive member name at 3D30: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFBE08E7
+  SizeOfData   : 0000001C
+  DLL name     : clfsw32.dll
+  Symbol name  : _TruncateLog@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : TruncateLog
+
+Archive member name at 3D9C: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D88572B9
+  SizeOfData   : 0000001C
+  DLL name     : clfsw32.dll
+  Symbol name  : _ValidateLog@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : ValidateLog
+
+Archive member name at 3E08: clfsw32.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA94033E
+  SizeOfData   : 00000024
+  DLL name     : clfsw32.dll
+  Symbol name  : _WriteLogRestartArea@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : WriteLogRestartArea
+
+     Exports
+
+       ordinal    name
+
+                  ?LsnDecrement@@YG?AT_CLS_LSN@@PAT1@@Z (union _CLS_LSN __stdcall LsnDecrement(union _CLS_LSN *))
+                  _AddLogContainer@16
+                  _AddLogContainerSet@20
+                  _AdvanceLogBase@16
+                  _AlignReservedLog@16
+                  _AllocReservedLog@12
+                  _CLFS_LSN_INVALID
+                  _CLFS_LSN_NULL
+                  _CloseAndResetLogFile@4
+                  _CreateLogContainerScanContext@24
+                  _CreateLogFile@24
+                  _CreateLogMarshallingArea@32
+                  _DeleteLogByHandle@4
+                  _DeleteLogFile@8
+                  _DeleteLogMarshallingArea@4
+                  _DeregisterManageableLogClient@4
+                  _DumpLogRecords@44
+                  _FlushLogBuffers@8
+                  _FlushLogToLsn@16
+                  _FreeReservedLog@12
+                  _GetLogContainerName@20
+                  _GetLogFileInformation@12
+                  _GetLogIoStatistics@20
+                  _GetLogReservationInfo@16
+                  _GetNextLogArchiveExtent@16
+                  _HandleLogFull@4
+                  _InstallLogPolicy@8
+                  _LogTailAdvanceFailure@8
+                  _LsnBlockOffset@4
+                  _LsnContainer@4
+                  _LsnCreate@12
+                  _LsnEqual@8
+                  _LsnGreater@8
+                  _LsnIncrement@4
+                  _LsnInvalid@4
+                  _LsnLess@8
+                  _LsnNull@4
+                  _LsnRecordSequence@4
+                  _PrepareLogArchive@48
+                  _QueryLogPolicy@16
+                  _ReadLogArchiveMetadata@20
+                  _ReadLogNotification@12
+                  _ReadLogRecord@40
+                  _ReadLogRestartArea@24
+                  _ReadNextLogRecord@36
+                  _ReadPreviousLogRestartArea@20
+                  _RegisterForLogWriteNotification@12
+                  _RegisterManageableLogClient@8
+                  _RemoveLogContainer@16
+                  _RemoveLogContainerSet@20
+                  _RemoveLogPolicy@8
+                  _ReserveAndAppendLog@40
+                  _ReserveAndAppendLogAligned@44
+                  _ScanLogContainers@12
+                  _SetEndOfLog@12
+                  _SetLogArchiveMode@8
+                  _SetLogArchiveTail@12
+                  _SetLogFileSizeWithPolicy@12
+                  _TerminateLogArchive@4
+                  _TerminateReadLog@4
+                  _TruncateLog@12
+                  _ValidateLog@16
+                  _WriteLogRestartArea@32
+
+  Summary
+
+          C3 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

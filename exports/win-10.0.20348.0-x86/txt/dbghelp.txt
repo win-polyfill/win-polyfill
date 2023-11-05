@@ -1,0 +1,5492 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\dbghelp.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    3742 size
+correct header end
+
+    483 public symbols
+
+     6F0E __IMPORT_DESCRIPTOR_dbghelp
+     7138 __NULL_IMPORT_DESCRIPTOR
+     726E dbghelp_NULL_THUNK_DATA
+     D71C _WinDbgExtensionDllInit@12
+     D71C __imp__WinDbgExtensionDllInit@12
+     7AF6 _ExtensionApiVersion@0
+     7AF6 __imp__ExtensionApiVersion@0
+     D862 __imp__dbghelp@8
+     D862 _dbghelp@8
+     A4CE _SymGetFileLineOffsets64@20
+     A4CE __imp__SymGetFileLineOffsets64@20
+     D8CA __imp__dh@24
+     D8CA _dh@24
+     7658 ?_EFN_DumpImage@@YGX_KK@Z
+     7658 __imp_?_EFN_DumpImage@@YGX_KK@Z
+     D92E __imp__fptr@24
+     D92E _fptr@24
+     DE24 __imp__sym@24
+     DE24 _sym@24
+     DAD2 __imp__lmi@24
+     DAD2 _lmi@24
+     DB36 __imp__lminfo@24
+     DB36 _lminfo@24
+     DCE0 __imp__srcfiles@24
+     DCE0 _srcfiles@24
+     DE88 __imp__symsrv@24
+     DE88 _symsrv@24
+     DEF0 __imp__vc7fpo@24
+     DEF0 _vc7fpo@24
+     D794 __imp__block@24
+     D794 _block@24
+     DB9E __imp__omap@24
+     DB9E _omap@24
+     DDBA __imp__stackdbg@24
+     DDBA _stackdbg@24
+     DD4A __imp__stack_force_ebp@24
+     DD4A _stack_force_ebp@24
+     D994 __imp__homedir@24
+     D994 _homedir@24
+     D7FA __imp__chksym@24
+     D7FA _chksym@24
+     DA66 __imp__itoldyouso@24
+     DA66 _itoldyouso@24
+     DC04 __imp__optdbgdump@24
+     DC04 _optdbgdump@24
+     DC70 __imp__optdbgdumpaddr@24
+     DC70 _optdbgdumpaddr@24
+     D9FC __imp__inlinedbg@24
+     D9FC _inlinedbg@24
+     77BC _EnumDirTree@24
+     77BC __imp__EnumDirTree@24
+     7C50 _FindDebugInfoFileExW@20
+     7C50 __imp__FindDebugInfoFileExW@20
+     848C _MiniDumpWriteDump@28
+     848C __imp__MiniDumpWriteDump@28
+     8414 _MiniDumpReadDumpStream@20
+     8414 __imp__MiniDumpReadDumpStream@20
+     76CE _DbgHelpCreateUserDump@12
+     76CE __imp__DbgHelpCreateUserDump@12
+     7744 _DbgHelpCreateUserDumpW@12
+     7744 __imp__DbgHelpCreateUserDumpW@12
+     AF3A _SymGetOmaps@28
+     AF3A __imp__SymGetOmaps@28
+     B1D2 _SymGetSourceFile@28
+     B1D2 __imp__SymGetSourceFile@28
+     B51C _SymGetSourceFileW@28
+     B51C __imp__SymGetSourceFileW@28
+     90F4 _SymEnumProcesses@8
+     90F4 __imp__SymEnumProcesses@8
+     91DC _SymEnumSourceFiles@24
+     91DC __imp__SymEnumSourceFiles@24
+     9018 _SymEnumLines@28
+     9018 __imp__SymEnumLines@28
+     92C4 _SymEnumSourceLines@36
+     92C4 __imp__SymEnumSourceLines@36
+     9338 _SymEnumSourceLinesW@36
+     9338 __imp__SymEnumSourceLinesW@36
+     9F64 _SymFromIndex@20
+     9F64 __imp__SymFromIndex@20
+     A206 _SymFromToken@20
+     A206 __imp__SymFromToken@20
+     A546 _SymGetHomeDirectory@12
+     A546 __imp__SymGetHomeDirectory@12
+     B014 _SymGetScope@20
+     B014 __imp__SymGetScope@20
+     BEE6 _SymLoadModuleEx@36
+     BEE6 __imp__SymLoadModuleEx@36
+     8D00 _SymAddSymbol@32
+     8D00 __imp__SymAddSymbol@32
+     8F36 _SymDeleteSymbol@28
+     8F36 __imp__SymDeleteSymbol@28
+     C1FC _SymNext@8
+     C1FC __imp__SymNext@8
+     C2CC _SymPrev@8
+     C2CC __imp__SymPrev@8
+     C8A4 _SymSetHomeDirectory@8
+     C8A4 __imp__SymSetHomeDirectory@8
+     C9FA _SymSetParentWindow@4
+     C9FA __imp__SymSetParentWindow@4
+     B42E _SymGetSourceFileToken@24
+     B42E __imp__SymGetSourceFileToken@24
+     B244 _SymGetSourceFileChecksum@32
+     B244 __imp__SymGetSourceFileChecksum@32
+     9164 _SymEnumSourceFileTokens@16
+     9164 __imp__SymEnumSourceFileTokens@16
+     B338 _SymGetSourceFileFromToken@20
+     B338 __imp__SymGetSourceFileFromToken@20
+     B58E _SymGetSourceVarFromToken@24
+     B58E __imp__SymGetSourceVarFromToken@24
+     8BA4 _SymAddSourceStream@24
+     8BA4 __imp__SymAddSourceStream@24
+     8C18 _SymAddSourceStreamA@24
+     8C18 __imp__SymAddSourceStreamA@24
+     8C8C _SymAddSourceStreamW@24
+     8C8C __imp__SymAddSourceStreamW@24
+     C6EC _SymSearch@44
+     C6EC __imp__SymSearch@44
+     BCB8 _SymGetUnwindInfo@20
+     BCB8 __imp__SymGetUnwindInfo@20
+     D152 _SymSrvIsStore@8
+     D152 __imp__SymSrvIsStore@8
+     D1C0 _SymSrvIsStoreW@8
+     D1C0 __imp__SymSrvIsStoreW@8
+     CCB6 _SymSrvDeltaName@20
+     CCB6 __imp__SymSrvDeltaName@20
+     CD26 _SymSrvDeltaNameW@20
+     CD26 __imp__SymSrvDeltaNameW@20
+     CD98 _SymSrvGetFileIndexInfo@12
+     CD98 __imp__SymSrvGetFileIndexInfo@12
+     CE10 _SymSrvGetFileIndexInfoW@12
+     CE10 __imp__SymSrvGetFileIndexInfoW@12
+     D068 _SymSrvGetSupplement@16
+     D068 __imp__SymSrvGetSupplement@16
+     BD98 _SymInitializeW@12
+     BD98 __imp__SymInitializeW@12
+     8D6E _SymAddSymbolW@32
+     8D6E __imp__SymAddSymbolW@32
+     8FA6 _SymDeleteSymbolW@28
+     8FA6 __imp__SymDeleteSymbolW@28
+     8902 _SearchTreeForFileW@12
+     8902 __imp__SearchTreeForFileW@12
+     D630 _UnDecorateSymbolNameW@16
+     D630 __imp__UnDecorateSymbolNameW@16
+     BF56 _SymLoadModuleExW@36
+     BF56 __imp__SymLoadModuleExW@36
+     965A _SymEnumSymbolsW@24
+     965A __imp__SymEnumSymbolsW@24
+     9250 _SymEnumSourceFilesW@24
+     9250 __imp__SymEnumSourceFilesW@24
+     A198 _SymFromNameW@12
+     A198 __imp__SymFromNameW@12
+     9EF6 _SymFromAddrW@20
+     9EF6 __imp__SymFromAddrW@20
+     95E2 _SymEnumSymbolsForAddrW@20
+     95E2 __imp__SymEnumSymbolsForAddrW@20
+     C756 _SymSearchW@44
+     C756 __imp__SymSearchW@44
+     BB62 _SymGetTypeFromNameW@20
+     BB62 __imp__SymGetTypeFromNameW@20
+     9086 _SymEnumLinesW@28
+     9086 __imp__SymEnumLinesW@28
+     A71A _SymGetLineFromAddrW64@20
+     A71A __imp__SymGetLineFromAddrW64@20
+     7DB0 _FindExecutableImageExW@20
+     7DB0 __imp__FindExecutableImageExW@20
+     A974 _SymGetLineFromNameW64@24
+     A974 __imp__SymGetLineFromNameW64@24
+     AAC8 _SymGetLineNextW64@8
+     AAC8 __imp__SymGetLineNextW64@8
+     AC18 _SymGetLinePrevW64@8
+     AC18 __imp__SymGetLinePrevW64@8
+     CC44 _SymSetSearchPathW@8
+     CC44 __imp__SymSetSearchPathW@8
+     B160 _SymGetSearchPathW@12
+     B160 __imp__SymGetSearchPathW@12
+     7828 _EnumDirTreeW@24
+     7828 __imp__EnumDirTreeW@24
+     A274 _SymFromTokenW@20
+     A274 __imp__SymFromTokenW@20
+     9FD2 _SymFromIndexW@20
+     9FD2 __imp__SymFromIndexW@20
+     B080 _SymGetScopeW@20
+     B080 __imp__SymGetScopeW@20
+     C264 _SymNextW@8
+     C264 __imp__SymNextW@8
+     C334 _SymPrevW@8
+     C334 __imp__SymPrevW@8
+     9978 _SymEnumerateModulesW64@12
+     9978 __imp__SymEnumerateModulesW64@12
+     C918 _SymSetHomeDirectoryW@8
+     C918 __imp__SymSetHomeDirectoryW@8
+     A5BA _SymGetHomeDirectoryW@12
+     A5BA __imp__SymGetHomeDirectoryW@12
+     C56E _SymRegisterCallbackW64@16
+     C56E __imp__SymRegisterCallbackW64@16
+     C410 _SymRefreshModuleList@4
+     C410 __imp__SymRefreshModuleList@4
+     9BC8 _SymFindDebugInfoFile@20
+     9BC8 __imp__SymFindDebugInfoFile@20
+     9C3E _SymFindDebugInfoFileW@20
+     9C3E __imp__SymFindDebugInfoFileW@20
+     9CB4 _SymFindExecutableImage@20
+     9CB4 __imp__SymFindExecutableImage@20
+     9D2C _SymFindExecutableImageW@20
+     9D2C __imp__SymFindExecutableImageW@20
+     D0DC _SymSrvGetSupplementW@16
+     D0DC __imp__SymSrvGetSupplementW@16
+     D310 _SymSrvStoreSupplement@20
+     D310 __imp__SymSrvStoreSupplement@20
+     D386 _SymSrvStoreSupplementW@20
+     D386 __imp__SymSrvStoreSupplementW@20
+     D22E _SymSrvStoreFile@16
+     D22E __imp__SymSrvStoreFile@16
+     D29E _SymSrvStoreFileW@16
+     D29E __imp__SymSrvStoreFileW@16
+     857A _RangeMapCreate@0
+     857A __imp__RangeMapCreate@0
+     85E8 _RangeMapFree@4
+     85E8 __imp__RangeMapFree@4
+     84FE _RangeMapAddPeImageSections@36
+     84FE __imp__RangeMapAddPeImageSections@36
+     86C2 _RangeMapRemove@12
+     86C2 __imp__RangeMapRemove@12
+     8654 _RangeMapRead@28
+     8654 __imp__RangeMapRead@28
+     8732 _RangeMapWrite@28
+     8732 __imp__RangeMapWrite@28
+     7B6A _FindDebugInfoFile@12
+     7B6A __imp__FindDebugInfoFile@12
+     7BDC _FindDebugInfoFileEx@20
+     7BDC __imp__FindDebugInfoFileEx@20
+     7E28 _FindFileInPath@32
+     7E28 __imp__FindFileInPath@32
+     7E98 _FindFileInSearchPath@28
+     7E98 __imp__FindFileInSearchPath@28
+     7CC6 _FindExecutableImage@12
+     7CC6 __imp__FindExecutableImage@12
+     7D3A _FindExecutableImageEx@20
+     7D3A __imp__FindExecutableImageEx@20
+     7F7E _GetTimestampForLoadedLibrary@4
+     7F7E __imp__GetTimestampForLoadedLibrary@4
+     7FFA _ImageDirectoryEntryToData@16
+     7FFA __imp__ImageDirectoryEntryToData@16
+     8074 _ImageDirectoryEntryToDataEx@20
+     8074 __imp__ImageDirectoryEntryToDataEx@20
+     80F0 _ImageNtHeader@4
+     80F0 __imp__ImageNtHeader@4
+     815E _ImageRvaToSection@12
+     815E __imp__ImageRvaToSection@12
+     81D0 _ImageRvaToVa@16
+     81D0 __imp__ImageRvaToVa@16
+     823E _ImagehlpApiVersion@0
+     823E __imp__ImagehlpApiVersion@0
+     82B0 _ImagehlpApiVersionEx@4
+     82B0 __imp__ImagehlpApiVersionEx@4
+     8324 _MakeSureDirectoryPathExists@4
+     8324 __imp__MakeSureDirectoryPathExists@4
+     8890 _SearchTreeForFile@12
+     8890 __imp__SearchTreeForFile@12
+     8E56 _SymCleanup@4
+     8E56 __imp__SymCleanup@4
+     9DA4 _SymFindFileInPath@40
+     9DA4 __imp__SymFindFileInPath@40
+     AFA6 _SymGetOptions@0
+     AFA6 __imp__SymGetOptions@0
+     B0EE _SymGetSearchPath@12
+     B0EE __imp__SymGetSearchPath@12
+     BD2A _SymInitialize@12
+     BD2A __imp__SymInitialize@12
+     BFC8 _SymMatchFileName@16
+     BFC8 __imp__SymMatchFileName@16
+     C7C2 _SymSetContext@12
+     C7C2 __imp__SymSetContext@12
+     CA6C _SymSetScopeFromAddr@12
+     CA6C __imp__SymSetScopeFromAddr@12
+     CAE0 _SymSetScopeFromIndex@16
+     CAE0 __imp__SymSetScopeFromIndex@16
+     C98C _SymSetOptions@4
+     C98C __imp__SymSetOptions@4
+     CBD4 _SymSetSearchPath@8
+     CBD4 __imp__SymSetSearchPath@8
+     D5BA _UnDecorateSymbolName@16
+     D5BA __imp__UnDecorateSymbolName@16
+     7896 _EnumerateLoadedModules64@12
+     7896 __imp__EnumerateLoadedModules64@12
+     7A7C _EnumerateLoadedModulesW64@12
+     7A7C __imp__EnumerateLoadedModulesW64@12
+     7988 _EnumerateLoadedModulesEx@12
+     7988 __imp__EnumerateLoadedModulesEx@12
+     7A02 _EnumerateLoadedModulesExW@12
+     7A02 __imp__EnumerateLoadedModulesExW@12
+     8A62 _StackWalk64@36
+     8A62 __imp__StackWalk64@36
+     988E _SymEnumerateModules64@12
+     988E __imp__SymEnumerateModules64@12
+     99F0 _SymEnumerateSymbols64@20
+     99F0 __imp__SymEnumerateSymbols64@20
+     9ADA _SymEnumerateSymbolsW64@20
+     9ADA __imp__SymEnumerateSymbolsW64@20
+     93AC _SymEnumSym@20
+     93AC __imp__SymEnumSym@20
+     9418 _SymEnumSymbols@24
+     9418 __imp__SymEnumSymbols@24
+     956C _SymEnumSymbolsForAddr@20
+     956C __imp__SymEnumSymbolsForAddr@20
+     96CA _SymEnumTypes@20
+     96CA __imp__SymEnumTypes@20
+     9738 _SymEnumTypesByName@24
+     9738 __imp__SymEnumTypesByName@24
+     9E8A _SymFromAddr@20
+     9E8A __imp__SymFromAddr@20
+     A12C _SymFromName@12
+     A12C __imp__SymFromName@12
+     A2E2 _SymFunctionTableAccess64@12
+     A2E2 __imp__SymFunctionTableAccess64@12
+     A630 _SymGetLineFromAddr64@20
+     A630 __imp__SymGetLineFromAddr64@20
+     A88A _SymGetLineFromName64@24
+     A88A __imp__SymGetLineFromName64@24
+     A9EA _SymGetLineNext64@8
+     A9EA __imp__SymGetLineNext64@8
+     AB3A _SymGetLinePrev64@8
+     AB3A __imp__SymGetLinePrev64@8
+     AC8A _SymGetModuleBase64@12
+     AC8A __imp__SymGetModuleBase64@12
+     AD6E _SymGetModuleInfo64@16
+     AD6E __imp__SymGetModuleInfo64@16
+     AE54 _SymGetModuleInfoW64@16
+     AE54 __imp__SymGetModuleInfoW64@16
+     B682 _SymGetSymFromAddr64@20
+     B682 __imp__SymGetSymFromAddr64@20
+     B768 _SymGetSymFromName64@12
+     B768 __imp__SymGetSymFromName64@12
+     B84E _SymGetSymNext64@8
+     B84E __imp__SymGetSymNext64@8
+     B92C _SymGetSymPrev64@8
+     B92C __imp__SymGetSymPrev64@8
+     BAEE _SymGetTypeFromName@20
+     BAEE __imp__SymGetTypeFromName@20
+     BBD6 _SymGetTypeInfo@24
+     BBD6 __imp__SymGetTypeInfo@24
+     BC46 _SymGetTypeInfoEx@16
+     BC46 __imp__SymGetTypeInfoEx@16
+     BE08 _SymLoadModule64@28
+     BE08 __imp__SymLoadModule64@28
+     C484 _SymRegisterCallback64@16
+     C484 __imp__SymRegisterCallback64@16
+     C5E6 _SymRegisterFunctionEntryCallback64@16
+     C5E6 __imp__SymRegisterFunctionEntryCallback64@16
+     D3FE _SymUnDName64@12
+     D3FE __imp__SymUnDName64@12
+     D4D8 _SymUnloadModule64@12
+     D4D8 __imp__SymUnloadModule64@12
+     C0AC _SymMatchString@12
+     C0AC __imp__SymMatchString@12
+     C11C _SymMatchStringA@12
+     C11C __imp__SymMatchStringA@12
+     C18C _SymMatchStringW@12
+     C18C __imp__SymMatchStringW@12
+     9820 _SymEnumTypesW@20
+     9820 __imp__SymEnumTypesW@20
+     97AC _SymEnumTypesByNameW@24
+     97AC __imp__SymEnumTypesByNameW@24
+     B4A4 _SymGetSourceFileTokenW@24
+     B4A4 __imp__SymGetSourceFileTokenW@24
+     B2BE _SymGetSourceFileChecksumW@32
+     B2BE __imp__SymGetSourceFileChecksumW@32
+     9E16 _SymFindFileInPathW@40
+     9E16 __imp__SymFindFileInPathW@40
+     C03A _SymMatchFileNameW@16
+     C03A __imp__SymMatchFileNameW@16
+     B3B2 _SymGetSourceFileFromTokenW@20
+     B3B2 __imp__SymGetSourceFileFromTokenW@20
+     B608 _SymGetSourceVarFromTokenW@24
+     B608 __imp__SymGetSourceVarFromTokenW@24
+     CF7C _SymSrvGetFileIndexes@20
+     CF7C __imp__SymSrvGetFileIndexes@20
+     CFF2 _SymSrvGetFileIndexesW@20
+     CFF2 __imp__SymSrvGetFileIndexesW@20
+     CE88 _SymSrvGetFileIndexString@24
+     CE88 __imp__SymSrvGetFileIndexString@24
+     CF02 _SymSrvGetFileIndexStringW@24
+     CF02 __imp__SymSrvGetFileIndexStringW@24
+     BA0A _SymGetSymbolFile@32
+     BA0A __imp__SymGetSymbolFile@32
+     BA7C _SymGetSymbolFileW@32
+     BA7C __imp__SymGetSymbolFileW@32
+     7910 _EnumerateLoadedModules@12
+     7910 __imp__EnumerateLoadedModules@12
+     83A0 _MapDebugInformation@16
+     83A0 __imp__MapDebugInformation@16
+     8ACE _StackWalk@36
+     8ACE __imp__StackWalk@36
+     9904 _SymEnumerateModules@12
+     9904 __imp__SymEnumerateModules@12
+     9A66 _SymEnumerateSymbols@16
+     9A66 __imp__SymEnumerateSymbols@16
+     9B52 _SymEnumerateSymbolsW@16
+     9B52 __imp__SymEnumerateSymbolsW@16
+     A3E4 _SymFunctionTableAccess@8
+     A3E4 __imp__SymFunctionTableAccess@8
+     A6A6 _SymGetLineFromAddr@16
+     A6A6 __imp__SymGetLineFromAddr@16
+     A900 _SymGetLineFromName@24
+     A900 __imp__SymGetLineFromName@24
+     AA5A _SymGetLineNext@8
+     AA5A __imp__SymGetLineNext@8
+     ABAA _SymGetLinePrev@8
+     ABAA __imp__SymGetLinePrev@8
+     ACFE _SymGetModuleBase@8
+     ACFE __imp__SymGetModuleBase@8
+     ADE2 _SymGetModuleInfo@12
+     ADE2 __imp__SymGetModuleInfo@12
+     AEC8 _SymGetModuleInfoW@12
+     AEC8 __imp__SymGetModuleInfoW@12
+     B6F6 _SymGetSymFromAddr@16
+     B6F6 __imp__SymGetSymFromAddr@16
+     B7DC _SymGetSymFromName@12
+     B7DC __imp__SymGetSymFromName@12
+     B8BE _SymGetSymNext@8
+     B8BE __imp__SymGetSymNext@8
+     B99C _SymGetSymPrev@8
+     B99C __imp__SymGetSymPrev@8
+     BE78 _SymLoadModule@24
+     BE78 __imp__SymLoadModule@24
+     C4FA _SymRegisterCallback@12
+     C4FA __imp__SymRegisterCallback@12
+     C66A _SymRegisterFunctionEntryCallback@12
+     C66A __imp__SymRegisterFunctionEntryCallback@12
+     D46C _SymUnDName@12
+     D46C __imp__SymUnDName@12
+     D54A _SymUnloadModule@8
+     D54A __imp__SymUnloadModule@8
+     D6A6 _UnmapDebugInformation@4
+     D6A6 __imp__UnmapDebugInformation@4
+     8B38 _StackWalkEx@40
+     8B38 __imp__StackWalkEx@40
+     A040 _SymFromInlineContext@24
+     A040 __imp__SymFromInlineContext@24
+     A0B6 _SymFromInlineContextW@24
+     A0B6 __imp__SymFromInlineContextW@24
+     A790 _SymGetLineFromInlineContext@32
+     A790 __imp__SymGetLineFromInlineContext@32
+     A80C _SymGetLineFromInlineContextW@32
+     A80C __imp__SymGetLineFromInlineContextW@32
+     CB56 _SymSetScopeFromInlineContext@16
+     CB56 __imp__SymSetScopeFromInlineContext@16
+     9488 _SymEnumSymbolsEx@28
+     9488 __imp__SymEnumSymbolsEx@28
+     94FA _SymEnumSymbolsExW@28
+     94FA __imp__SymEnumSymbolsExW@28
+     8DDC _SymAddrIncludeInlineTrace@12
+     8DDC __imp__SymAddrIncludeInlineTrace@12
+     8EC0 _SymCompareInlineTrace@40
+     8EC0 __imp__SymCompareInlineTrace@40
+     C39C _SymQueryInlineTrace@40
+     C39C __imp__SymQueryInlineTrace@40
+     8976 _SetCheckUserInterruptShared@4
+     8976 __imp__SetCheckUserInterruptShared@4
+     7F0E _GetSymLoadError@0
+     7F0E __imp__GetSymLoadError@0
+     89F2 _SetSymLoadError@4
+     89F2 __imp__SetSymLoadError@4
+     8818 _ReportSymbolLoadSummary@12
+     8818 __imp__ReportSymbolLoadSummary@12
+     87A0 _RemoveInvalidModuleList@4
+     87A0 __imp__RemoveInvalidModuleList@4
+     A35C _SymFunctionTableAccess64AccessRoutines@20
+     A35C __imp__SymFunctionTableAccess64AccessRoutines@20
+     74B4 ?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z
+     74B4 __imp_?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z
+     7540 ?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z
+     7540 __imp_?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z
+     75CE ?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z
+     75CE __imp_?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z
+     743C ?SymFreeDiaString@@YGXPAG@Z
+     743C __imp_?SymFreeDiaString@@YGXPAG@Z
+     73C0 ?SymAllocDiaString@@YGPAGPBG@Z
+     73C0 __imp_?SymAllocDiaString@@YGPAGPBG@Z
+     A45A _SymGetExtendedOption@4
+     A45A __imp__SymGetExtendedOption@4
+     C830 _SymSetExtendedOption@8
+     C830 __imp__SymSetExtendedOption@8
+
+Archive member name at 6F0E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1ED size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        EB38B21B time date stamp
+             10B file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CD file pointer to raw data (000000CD to 000000E0)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FF file pointer to raw data (000000FF to 0000010A)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 7138: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        FFAC5365 time date stamp
+              B9 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      64 file pointer to raw data (00000064 to 000000A4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A5 file pointer to raw data (000000A5 to 000000B8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 726E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     116 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E8F11549 time date stamp
+              D5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D1 file pointer to raw data (000000D1 to 000000D4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 73C0: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAEB9577
+  SizeOfData   : 0000002B
+  DLL name     : dbghelp.dll
+  Symbol name  : ?SymAllocDiaString@@YGPAGPBG@Z (unsigned short * __stdcall SymAllocDiaString(unsigned short const *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : SymAllocDiaString
+
+Archive member name at 743C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF8026EA
+  SizeOfData   : 00000028
+  DLL name     : dbghelp.dll
+  Symbol name  : ?SymFreeDiaString@@YGXPAG@Z (void __stdcall SymFreeDiaString(unsigned short *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 89
+  Name         : SymFreeDiaString
+
+Archive member name at 74B4: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      50 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C364E0DF
+  SizeOfData   : 0000003C
+  DLL name     : dbghelp.dll
+  Symbol name  : ?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z (int __stdcall SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 103
+  Name         : SymGetDiaSession
+
+Archive member name at 7540: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      52 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E639618B
+  SizeOfData   : 0000003E
+  DLL name     : dbghelp.dll
+  Symbol name  : ?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z (int __stdcall SymGetDiaSource(void *,unsigned __int64,struct IDiaDataSource * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 104
+  Name         : SymGetDiaSource
+
+Archive member name at 75CE: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3A4850A
+  SizeOfData   : 0000003A
+  DLL name     : dbghelp.dll
+  Symbol name  : ?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z (int __stdcall SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 186
+  Name         : SymSetDiaSession
+
+Archive member name at 7658: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBB85D20
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : ?_EFN_DumpImage@@YGX_KK@Z (void __stdcall _EFN_DumpImage(unsigned __int64,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 221
+  Name         : _EFN_DumpImage
+
+Archive member name at 76CE: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0C0F39C
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _DbgHelpCreateUserDump@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : DbgHelpCreateUserDump
+
+Archive member name at 7744: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9F9A7B3
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _DbgHelpCreateUserDumpW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : DbgHelpCreateUserDumpW
+
+Archive member name at 77BC: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C670F0A5
+  SizeOfData   : 0000001C
+  DLL name     : dbghelp.dll
+  Symbol name  : _EnumDirTree@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : EnumDirTree
+
+Archive member name at 7828: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF8A4039
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _EnumDirTreeW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : EnumDirTreeW
+
+Archive member name at 7896: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C335D401
+  SizeOfData   : 00000029
+  DLL name     : dbghelp.dll
+  Symbol name  : _EnumerateLoadedModules64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : EnumerateLoadedModules64
+
+Archive member name at 7910: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C288DAC9
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _EnumerateLoadedModules@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : EnumerateLoadedModules
+
+Archive member name at 7988: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF34F303
+  SizeOfData   : 00000029
+  DLL name     : dbghelp.dll
+  Symbol name  : _EnumerateLoadedModulesEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : EnumerateLoadedModulesEx
+
+Archive member name at 7A02: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E016E136
+  SizeOfData   : 0000002A
+  DLL name     : dbghelp.dll
+  Symbol name  : _EnumerateLoadedModulesExW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : EnumerateLoadedModulesExW
+
+Archive member name at 7A7C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D311858A
+  SizeOfData   : 0000002A
+  DLL name     : dbghelp.dll
+  Symbol name  : _EnumerateLoadedModulesW64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : EnumerateLoadedModulesW64
+
+Archive member name at 7AF6: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2129A38
+  SizeOfData   : 00000023
+  DLL name     : dbghelp.dll
+  Symbol name  : _ExtensionApiVersion@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : ExtensionApiVersion
+
+Archive member name at 7B6A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB271736
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _FindDebugInfoFile@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : FindDebugInfoFile
+
+Archive member name at 7BDC: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2BF09DC
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _FindDebugInfoFileEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : FindDebugInfoFileEx
+
+Archive member name at 7C50: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCE82B8C
+  SizeOfData   : 00000025
+  DLL name     : dbghelp.dll
+  Symbol name  : _FindDebugInfoFileExW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : FindDebugInfoFileExW
+
+Archive member name at 7CC6: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA12A01E
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _FindExecutableImage@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : FindExecutableImage
+
+Archive member name at 7D3A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C65E6703
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _FindExecutableImageEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : FindExecutableImageEx
+
+Archive member name at 7DB0: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1EF9F1B
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _FindExecutableImageExW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : FindExecutableImageExW
+
+Archive member name at 7E28: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4847DAB
+  SizeOfData   : 0000001F
+  DLL name     : dbghelp.dll
+  Symbol name  : _FindFileInPath@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : FindFileInPath
+
+Archive member name at 7E98: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F19F7334
+  SizeOfData   : 00000025
+  DLL name     : dbghelp.dll
+  Symbol name  : _FindFileInSearchPath@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : FindFileInSearchPath
+
+Archive member name at 7F0E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8FB1224
+  SizeOfData   : 0000001F
+  DLL name     : dbghelp.dll
+  Symbol name  : _GetSymLoadError@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : GetSymLoadError
+
+Archive member name at 7F7E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1D9736F
+  SizeOfData   : 0000002C
+  DLL name     : dbghelp.dll
+  Symbol name  : _GetTimestampForLoadedLibrary@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : GetTimestampForLoadedLibrary
+
+Archive member name at 7FFA: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD93AFA6
+  SizeOfData   : 0000002A
+  DLL name     : dbghelp.dll
+  Symbol name  : _ImageDirectoryEntryToData@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : ImageDirectoryEntryToData
+
+Archive member name at 8074: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1ABC968
+  SizeOfData   : 0000002C
+  DLL name     : dbghelp.dll
+  Symbol name  : _ImageDirectoryEntryToDataEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : ImageDirectoryEntryToDataEx
+
+Archive member name at 80F0: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D26A8441
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _ImageNtHeader@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : ImageNtHeader
+
+Archive member name at 815E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E43062CF
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _ImageRvaToSection@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : ImageRvaToSection
+
+Archive member name at 81D0: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBE41DAD
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _ImageRvaToVa@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : ImageRvaToVa
+
+Archive member name at 823E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8FCA967
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _ImagehlpApiVersion@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : ImagehlpApiVersion
+
+Archive member name at 82B0: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC2566C5
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _ImagehlpApiVersionEx@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : ImagehlpApiVersionEx
+
+Archive member name at 8324: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1FFF15C
+  SizeOfData   : 0000002B
+  DLL name     : dbghelp.dll
+  Symbol name  : _MakeSureDirectoryPathExists@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : MakeSureDirectoryPathExists
+
+Archive member name at 83A0: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC785425
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _MapDebugInformation@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : MapDebugInformation
+
+Archive member name at 8414: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAF0E5AF
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _MiniDumpReadDumpStream@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : MiniDumpReadDumpStream
+
+Archive member name at 848C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C58D7DE6
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _MiniDumpWriteDump@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : MiniDumpWriteDump
+
+Archive member name at 84FE: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E414F30E
+  SizeOfData   : 0000002B
+  DLL name     : dbghelp.dll
+  Symbol name  : _RangeMapAddPeImageSections@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : RangeMapAddPeImageSections
+
+Archive member name at 857A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9D0DD92
+  SizeOfData   : 0000001E
+  DLL name     : dbghelp.dll
+  Symbol name  : _RangeMapCreate@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : RangeMapCreate
+
+Archive member name at 85E8: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE7A6055
+  SizeOfData   : 0000001C
+  DLL name     : dbghelp.dll
+  Symbol name  : _RangeMapFree@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : RangeMapFree
+
+Archive member name at 8654: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0E19ABC
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _RangeMapRead@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : RangeMapRead
+
+Archive member name at 86C2: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1D4AA1A
+  SizeOfData   : 0000001F
+  DLL name     : dbghelp.dll
+  Symbol name  : _RangeMapRemove@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : RangeMapRemove
+
+Archive member name at 8732: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBA07F09
+  SizeOfData   : 0000001E
+  DLL name     : dbghelp.dll
+  Symbol name  : _RangeMapWrite@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : RangeMapWrite
+
+Archive member name at 87A0: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE593FB6
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _RemoveInvalidModuleList@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : RemoveInvalidModuleList
+
+Archive member name at 8818: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2D8A39C
+  SizeOfData   : 00000028
+  DLL name     : dbghelp.dll
+  Symbol name  : _ReportSymbolLoadSummary@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : ReportSymbolLoadSummary
+
+Archive member name at 8890: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0609C51
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _SearchTreeForFile@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : SearchTreeForFile
+
+Archive member name at 8902: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D62D7446
+  SizeOfData   : 00000023
+  DLL name     : dbghelp.dll
+  Symbol name  : _SearchTreeForFileW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : SearchTreeForFileW
+
+Archive member name at 8976: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8F85971
+  SizeOfData   : 0000002B
+  DLL name     : dbghelp.dll
+  Symbol name  : _SetCheckUserInterruptShared@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : SetCheckUserInterruptShared
+
+Archive member name at 89F2: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E16A6E1D
+  SizeOfData   : 0000001F
+  DLL name     : dbghelp.dll
+  Symbol name  : _SetSymLoadError@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : SetSymLoadError
+
+Archive member name at 8A62: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2B49B6D
+  SizeOfData   : 0000001C
+  DLL name     : dbghelp.dll
+  Symbol name  : _StackWalk64@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : StackWalk64
+
+Archive member name at 8ACE: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D17BACC7
+  SizeOfData   : 0000001A
+  DLL name     : dbghelp.dll
+  Symbol name  : _StackWalk@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : StackWalk
+
+Archive member name at 8B38: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFBD3B4A
+  SizeOfData   : 0000001C
+  DLL name     : dbghelp.dll
+  Symbol name  : _StackWalkEx@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : StackWalkEx
+
+Archive member name at 8BA4: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7B94029
+  SizeOfData   : 00000023
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymAddSourceStream@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : SymAddSourceStream
+
+Archive member name at 8C18: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED7B0C80
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymAddSourceStreamA@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : SymAddSourceStreamA
+
+Archive member name at 8C8C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC50C271
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymAddSourceStreamW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : SymAddSourceStreamW
+
+Archive member name at 8D00: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4BE7616
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymAddSymbol@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : SymAddSymbol
+
+Archive member name at 8D6E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C85C103F
+  SizeOfData   : 0000001E
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymAddSymbolW@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : SymAddSymbolW
+
+Archive member name at 8DDC: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2994354
+  SizeOfData   : 0000002A
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymAddrIncludeInlineTrace@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : SymAddrIncludeInlineTrace
+
+Archive member name at 8E56: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C372D87D
+  SizeOfData   : 0000001A
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymCleanup@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : SymCleanup
+
+Archive member name at 8EC0: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E48AE04B
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymCompareInlineTrace@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : SymCompareInlineTrace
+
+Archive member name at 8F36: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD87B379
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymDeleteSymbol@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : SymDeleteSymbol
+
+Archive member name at 8FA6: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E235A771
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymDeleteSymbolW@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : SymDeleteSymbolW
+
+Archive member name at 9018: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4AB1960
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumLines@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : SymEnumLines
+
+Archive member name at 9086: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F215C89C
+  SizeOfData   : 0000001E
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumLinesW@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : SymEnumLinesW
+
+Archive member name at 90F4: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D189C18E
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumProcesses@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : SymEnumProcesses
+
+Archive member name at 9164: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CEFD1F80
+  SizeOfData   : 00000028
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumSourceFileTokens@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : SymEnumSourceFileTokens
+
+Archive member name at 91DC: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA3CD1C5
+  SizeOfData   : 00000023
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumSourceFiles@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : SymEnumSourceFiles
+
+Archive member name at 9250: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBAE85DC
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumSourceFilesW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : SymEnumSourceFilesW
+
+Archive member name at 92C4: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5E4263E
+  SizeOfData   : 00000023
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumSourceLines@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : SymEnumSourceLines
+
+Archive member name at 9338: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C84D2E95
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumSourceLinesW@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : SymEnumSourceLinesW
+
+Archive member name at 93AC: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA4F792C
+  SizeOfData   : 0000001B
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumSym@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : SymEnumSym
+
+Archive member name at 9418: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C645EA0E
+  SizeOfData   : 0000001F
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumSymbols@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : SymEnumSymbols
+
+Archive member name at 9488: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F686CBE7
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumSymbolsEx@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : SymEnumSymbolsEx
+
+Archive member name at 94FA: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F324666E
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumSymbolsExW@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : SymEnumSymbolsExW
+
+Archive member name at 956C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD255B2F
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumSymbolsForAddr@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : SymEnumSymbolsForAddr
+
+Archive member name at 95E2: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F625E008
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumSymbolsForAddrW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : SymEnumSymbolsForAddrW
+
+Archive member name at 965A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E81F315D
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumSymbolsW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : SymEnumSymbolsW
+
+Archive member name at 96CA: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4B7EADB
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumTypes@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : SymEnumTypes
+
+Archive member name at 9738: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1F6F89D
+  SizeOfData   : 00000023
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumTypesByName@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : SymEnumTypesByName
+
+Archive member name at 97AC: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1F72128
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumTypesByNameW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 74
+  Name         : SymEnumTypesByNameW
+
+Archive member name at 9820: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F301D03B
+  SizeOfData   : 0000001E
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumTypesW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 75
+  Name         : SymEnumTypesW
+
+Archive member name at 988E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9BA0982
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumerateModules64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : SymEnumerateModules64
+
+Archive member name at 9904: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBC8AD5E
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumerateModules@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : SymEnumerateModules
+
+Archive member name at 9978: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF8B0A05
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumerateModulesW64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : SymEnumerateModulesW64
+
+Archive member name at 99F0: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCB5681D
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumerateSymbols64@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 80
+  Name         : SymEnumerateSymbols64
+
+Archive member name at 9A66: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC281B4C
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumerateSymbols@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : SymEnumerateSymbols
+
+Archive member name at 9ADA: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB18E4C6
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumerateSymbolsW64@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 82
+  Name         : SymEnumerateSymbolsW64
+
+Archive member name at 9B52: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F602251A
+  SizeOfData   : 00000025
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymEnumerateSymbolsW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : SymEnumerateSymbolsW
+
+Archive member name at 9BC8: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD0D7DB4
+  SizeOfData   : 00000025
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFindDebugInfoFile@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : SymFindDebugInfoFile
+
+Archive member name at 9C3E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C08DCFFF
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFindDebugInfoFileW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 84
+  Name         : SymFindDebugInfoFileW
+
+Archive member name at 9CB4: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2C9145E
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFindExecutableImage@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 85
+  Name         : SymFindExecutableImage
+
+Archive member name at 9D2C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF569C8F
+  SizeOfData   : 00000028
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFindExecutableImageW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 86
+  Name         : SymFindExecutableImageW
+
+Archive member name at 9DA4: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7F2DB98
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFindFileInPath@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 87
+  Name         : SymFindFileInPath
+
+Archive member name at 9E16: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED78C84A
+  SizeOfData   : 00000023
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFindFileInPathW@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 88
+  Name         : SymFindFileInPathW
+
+Archive member name at 9E8A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF8F1301
+  SizeOfData   : 0000001C
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFromAddr@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 90
+  Name         : SymFromAddr
+
+Archive member name at 9EF6: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDE31479
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFromAddrW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 91
+  Name         : SymFromAddrW
+
+Archive member name at 9F64: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C21C44BA
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFromIndex@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 92
+  Name         : SymFromIndex
+
+Archive member name at 9FD2: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C73263AD
+  SizeOfData   : 0000001E
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFromIndexW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 93
+  Name         : SymFromIndexW
+
+Archive member name at A040: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB741892
+  SizeOfData   : 00000025
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFromInlineContext@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 94
+  Name         : SymFromInlineContext
+
+Archive member name at A0B6: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDAA20AE
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFromInlineContextW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 95
+  Name         : SymFromInlineContextW
+
+Archive member name at A12C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFAE0E6D
+  SizeOfData   : 0000001C
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFromName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 96
+  Name         : SymFromName
+
+Archive member name at A198: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3AD1026
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFromNameW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 97
+  Name         : SymFromNameW
+
+Archive member name at A206: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB99D793
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFromToken@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 98
+  Name         : SymFromToken
+
+Archive member name at A274: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F809F34F
+  SizeOfData   : 0000001E
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFromTokenW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 99
+  Name         : SymFromTokenW
+
+Archive member name at A2E2: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE1370FA
+  SizeOfData   : 00000029
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFunctionTableAccess64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 101
+  Name         : SymFunctionTableAccess64
+
+Archive member name at A35C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA55122D
+  SizeOfData   : 00000037
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFunctionTableAccess64AccessRoutines@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 102
+  Name         : SymFunctionTableAccess64AccessRoutines
+
+Archive member name at A3E4: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6E2DFDD
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymFunctionTableAccess@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 100
+  Name         : SymFunctionTableAccess
+
+Archive member name at A45A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA2E565C
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetExtendedOption@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 105
+  Name         : SymGetExtendedOption
+
+Archive member name at A4CE: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE253BD1
+  SizeOfData   : 00000028
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetFileLineOffsets64@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 106
+  Name         : SymGetFileLineOffsets64
+
+Archive member name at A546: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFD751CC
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetHomeDirectory@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 107
+  Name         : SymGetHomeDirectory
+
+Archive member name at A5BA: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7D0A517
+  SizeOfData   : 00000025
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetHomeDirectoryW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 108
+  Name         : SymGetHomeDirectoryW
+
+Archive member name at A630: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC35EE6E
+  SizeOfData   : 00000025
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLineFromAddr64@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 110
+  Name         : SymGetLineFromAddr64
+
+Archive member name at A6A6: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5437ABF
+  SizeOfData   : 00000023
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLineFromAddr@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 109
+  Name         : SymGetLineFromAddr
+
+Archive member name at A71A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB1BD11A
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLineFromAddrW64@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 111
+  Name         : SymGetLineFromAddrW64
+
+Archive member name at A790: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CEDE9145
+  SizeOfData   : 0000002C
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLineFromInlineContext@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 112
+  Name         : SymGetLineFromInlineContext
+
+Archive member name at A80C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED9CA223
+  SizeOfData   : 0000002D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLineFromInlineContextW@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 113
+  Name         : SymGetLineFromInlineContextW
+
+Archive member name at A88A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D55A9676
+  SizeOfData   : 00000025
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLineFromName64@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 115
+  Name         : SymGetLineFromName64
+
+Archive member name at A900: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E152CF79
+  SizeOfData   : 00000023
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLineFromName@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 114
+  Name         : SymGetLineFromName
+
+Archive member name at A974: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD693DBD
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLineFromNameW64@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 116
+  Name         : SymGetLineFromNameW64
+
+Archive member name at A9EA: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8BBDD99
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLineNext64@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 118
+  Name         : SymGetLineNext64
+
+Archive member name at AA5A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1240D87
+  SizeOfData   : 0000001E
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLineNext@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 117
+  Name         : SymGetLineNext
+
+Archive member name at AAC8: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE2125CD
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLineNextW64@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 119
+  Name         : SymGetLineNextW64
+
+Archive member name at AB3A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF7ABBB4
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLinePrev64@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 121
+  Name         : SymGetLinePrev64
+
+Archive member name at ABAA: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED403E77
+  SizeOfData   : 0000001E
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLinePrev@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 120
+  Name         : SymGetLinePrev
+
+Archive member name at AC18: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF410175
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetLinePrevW64@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 122
+  Name         : SymGetLinePrevW64
+
+Archive member name at AC8A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC97CEC4
+  SizeOfData   : 00000023
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetModuleBase64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 124
+  Name         : SymGetModuleBase64
+
+Archive member name at ACFE: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCDC0583
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetModuleBase@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 123
+  Name         : SymGetModuleBase
+
+Archive member name at AD6E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9868BCF
+  SizeOfData   : 00000023
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetModuleInfo64@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 126
+  Name         : SymGetModuleInfo64
+
+Archive member name at ADE2: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E89A9C81
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetModuleInfo@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 125
+  Name         : SymGetModuleInfo
+
+Archive member name at AE54: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF72EFB1
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetModuleInfoW64@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 128
+  Name         : SymGetModuleInfoW64
+
+Archive member name at AEC8: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB99FD9E
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetModuleInfoW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 127
+  Name         : SymGetModuleInfoW
+
+Archive member name at AF3A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE31430B
+  SizeOfData   : 0000001C
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetOmaps@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 130
+  Name         : SymGetOmaps
+
+Archive member name at AFA6: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF51FFD3
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetOptions@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 131
+  Name         : SymGetOptions
+
+Archive member name at B014: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC2E121F
+  SizeOfData   : 0000001C
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetScope@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 132
+  Name         : SymGetScope
+
+Archive member name at B080: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE7DB23B
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetScopeW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 133
+  Name         : SymGetScopeW
+
+Archive member name at B0EE: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0CA71FC
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSearchPath@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 134
+  Name         : SymGetSearchPath
+
+Archive member name at B160: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0F60CDB
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSearchPathW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 135
+  Name         : SymGetSearchPathW
+
+Archive member name at B1D2: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0B8F91C
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSourceFile@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 136
+  Name         : SymGetSourceFile
+
+Archive member name at B244: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDDC9BC6
+  SizeOfData   : 00000029
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSourceFileChecksum@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 137
+  Name         : SymGetSourceFileChecksum
+
+Archive member name at B2BE: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EEBF3DBC
+  SizeOfData   : 0000002A
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSourceFileChecksumW@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 138
+  Name         : SymGetSourceFileChecksumW
+
+Archive member name at B338: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF1D0417
+  SizeOfData   : 0000002A
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSourceFileFromToken@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 139
+  Name         : SymGetSourceFileFromToken
+
+Archive member name at B3B2: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E171FD23
+  SizeOfData   : 0000002B
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSourceFileFromTokenW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 140
+  Name         : SymGetSourceFileFromTokenW
+
+Archive member name at B42E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE44B026
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSourceFileToken@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 141
+  Name         : SymGetSourceFileToken
+
+Archive member name at B4A4: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C44021A0
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSourceFileTokenW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 142
+  Name         : SymGetSourceFileTokenW
+
+Archive member name at B51C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE50DA0F
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSourceFileW@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 143
+  Name         : SymGetSourceFileW
+
+Archive member name at B58E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8ED777D
+  SizeOfData   : 00000029
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSourceVarFromToken@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 144
+  Name         : SymGetSourceVarFromToken
+
+Archive member name at B608: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9C3A0F1
+  SizeOfData   : 0000002A
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSourceVarFromTokenW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 145
+  Name         : SymGetSourceVarFromTokenW
+
+Archive member name at B682: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC359AD2
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSymFromAddr64@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 147
+  Name         : SymGetSymFromAddr64
+
+Archive member name at B6F6: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE1E38D9
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSymFromAddr@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 146
+  Name         : SymGetSymFromAddr
+
+Archive member name at B768: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3630297
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSymFromName64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 149
+  Name         : SymGetSymFromName64
+
+Archive member name at B7DC: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5B70C39
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSymFromName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 148
+  Name         : SymGetSymFromName
+
+Archive member name at B84E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2A5002A
+  SizeOfData   : 0000001F
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSymNext64@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 151
+  Name         : SymGetSymNext64
+
+Archive member name at B8BE: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB125AF3
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSymNext@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 150
+  Name         : SymGetSymNext
+
+Archive member name at B92C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE5096E2
+  SizeOfData   : 0000001F
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSymPrev64@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 153
+  Name         : SymGetSymPrev64
+
+Archive member name at B99C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF3424A5
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSymPrev@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 152
+  Name         : SymGetSymPrev
+
+Archive member name at BA0A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F337AA40
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSymbolFile@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 154
+  Name         : SymGetSymbolFile
+
+Archive member name at BA7C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAB3A916
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetSymbolFileW@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 155
+  Name         : SymGetSymbolFileW
+
+Archive member name at BAEE: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDA133B3
+  SizeOfData   : 00000023
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetTypeFromName@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 156
+  Name         : SymGetTypeFromName
+
+Archive member name at BB62: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3104AC9
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetTypeFromNameW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 157
+  Name         : SymGetTypeFromNameW
+
+Archive member name at BBD6: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D51BEF6D
+  SizeOfData   : 0000001F
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetTypeInfo@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 158
+  Name         : SymGetTypeInfo
+
+Archive member name at BC46: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E556A2B9
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetTypeInfoEx@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 159
+  Name         : SymGetTypeInfoEx
+
+Archive member name at BCB8: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C20B0D83
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymGetUnwindInfo@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 160
+  Name         : SymGetUnwindInfo
+
+Archive member name at BD2A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F035E3E6
+  SizeOfData   : 0000001E
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymInitialize@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 161
+  Name         : SymInitialize
+
+Archive member name at BD98: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C173932F
+  SizeOfData   : 0000001F
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymInitializeW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 162
+  Name         : SymInitializeW
+
+Archive member name at BE08: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF587366
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymLoadModule64@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 164
+  Name         : SymLoadModule64
+
+Archive member name at BE78: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C799BDF6
+  SizeOfData   : 0000001E
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymLoadModule@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 163
+  Name         : SymLoadModule
+
+Archive member name at BEE6: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAB0B32A
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymLoadModuleEx@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 165
+  Name         : SymLoadModuleEx
+
+Archive member name at BF56: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE3B9E02
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymLoadModuleExW@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 166
+  Name         : SymLoadModuleExW
+
+Archive member name at BFC8: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E73B3AD6
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymMatchFileName@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 167
+  Name         : SymMatchFileName
+
+Archive member name at C03A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC6A8F49
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymMatchFileNameW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 168
+  Name         : SymMatchFileNameW
+
+Archive member name at C0AC: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F61344AD
+  SizeOfData   : 0000001F
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymMatchString@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 169
+  Name         : SymMatchString
+
+Archive member name at C11C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCA95969
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymMatchStringA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 170
+  Name         : SymMatchStringA
+
+Archive member name at C18C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD2CA668
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymMatchStringW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 171
+  Name         : SymMatchStringW
+
+Archive member name at C1FC: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE3919C0
+  SizeOfData   : 00000017
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymNext@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 172
+  Name         : SymNext
+
+Archive member name at C264: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F52E4C06
+  SizeOfData   : 00000018
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymNextW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 173
+  Name         : SymNextW
+
+Archive member name at C2CC: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF19315A
+  SizeOfData   : 00000017
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymPrev@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 174
+  Name         : SymPrev
+
+Archive member name at C334: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F083CB0C
+  SizeOfData   : 00000018
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymPrevW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 175
+  Name         : SymPrevW
+
+Archive member name at C39C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9E2E799
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymQueryInlineTrace@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 176
+  Name         : SymQueryInlineTrace
+
+Archive member name at C410: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F69505E6
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymRefreshModuleList@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 177
+  Name         : SymRefreshModuleList
+
+Archive member name at C484: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1F599B2
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymRegisterCallback64@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 179
+  Name         : SymRegisterCallback64
+
+Archive member name at C4FA: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F22A867B
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymRegisterCallback@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 178
+  Name         : SymRegisterCallback
+
+Archive member name at C56E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD00D8D5
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymRegisterCallbackW64@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 180
+  Name         : SymRegisterCallbackW64
+
+Archive member name at C5E6: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D97A57D8
+  SizeOfData   : 00000033
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymRegisterFunctionEntryCallback64@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 182
+  Name         : SymRegisterFunctionEntryCallback64
+
+Archive member name at C66A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4B63498
+  SizeOfData   : 00000031
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymRegisterFunctionEntryCallback@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 181
+  Name         : SymRegisterFunctionEntryCallback
+
+Archive member name at C6EC: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6DFAD0A
+  SizeOfData   : 0000001A
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSearch@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 183
+  Name         : SymSearch
+
+Archive member name at C756: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6246258
+  SizeOfData   : 0000001B
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSearchW@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 184
+  Name         : SymSearchW
+
+Archive member name at C7C2: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E90ADA4A
+  SizeOfData   : 0000001E
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSetContext@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 185
+  Name         : SymSetContext
+
+Archive member name at C830: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7FC771A
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSetExtendedOption@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 187
+  Name         : SymSetExtendedOption
+
+Archive member name at C8A4: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD260DDF
+  SizeOfData   : 00000023
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSetHomeDirectory@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 188
+  Name         : SymSetHomeDirectory
+
+Archive member name at C918: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0531081
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSetHomeDirectoryW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 189
+  Name         : SymSetHomeDirectoryW
+
+Archive member name at C98C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0B3B6A9
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSetOptions@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 190
+  Name         : SymSetOptions
+
+Archive member name at C9FA: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C440B5EF
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSetParentWindow@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 191
+  Name         : SymSetParentWindow
+
+Archive member name at CA6C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E87BA8EF
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSetScopeFromAddr@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 192
+  Name         : SymSetScopeFromAddr
+
+Archive member name at CAE0: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4C285C3
+  SizeOfData   : 00000025
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSetScopeFromIndex@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 193
+  Name         : SymSetScopeFromIndex
+
+Archive member name at CB56: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C26EE622
+  SizeOfData   : 0000002D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSetScopeFromInlineContext@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 194
+  Name         : SymSetScopeFromInlineContext
+
+Archive member name at CBD4: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E59652C8
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSetSearchPath@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 195
+  Name         : SymSetSearchPath
+
+Archive member name at CC44: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5CBFA7F
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSetSearchPathW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 196
+  Name         : SymSetSearchPathW
+
+Archive member name at CCB6: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5A66F93
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvDeltaName@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 197
+  Name         : SymSrvDeltaName
+
+Archive member name at CD26: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1CF6F51
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvDeltaNameW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 198
+  Name         : SymSrvDeltaNameW
+
+Archive member name at CD98: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1DB13EA
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvGetFileIndexInfo@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 199
+  Name         : SymSrvGetFileIndexInfo
+
+Archive member name at CE10: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC0A0622
+  SizeOfData   : 00000028
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvGetFileIndexInfoW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 200
+  Name         : SymSrvGetFileIndexInfoW
+
+Archive member name at CE88: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E591FFDF
+  SizeOfData   : 00000029
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvGetFileIndexString@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 201
+  Name         : SymSrvGetFileIndexString
+
+Archive member name at CF02: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCCB3485
+  SizeOfData   : 0000002A
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvGetFileIndexStringW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 202
+  Name         : SymSrvGetFileIndexStringW
+
+Archive member name at CF7C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAC908A3
+  SizeOfData   : 00000025
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvGetFileIndexes@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 203
+  Name         : SymSrvGetFileIndexes
+
+Archive member name at CFF2: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E795B2AE
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvGetFileIndexesW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 204
+  Name         : SymSrvGetFileIndexesW
+
+Archive member name at D068: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F47A7567
+  SizeOfData   : 00000024
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvGetSupplement@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 205
+  Name         : SymSrvGetSupplement
+
+Archive member name at D0DC: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E417F121
+  SizeOfData   : 00000025
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvGetSupplementW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 206
+  Name         : SymSrvGetSupplementW
+
+Archive member name at D152: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2AD158B
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvIsStore@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 207
+  Name         : SymSrvIsStore
+
+Archive member name at D1C0: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7DAD5E3
+  SizeOfData   : 0000001E
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvIsStoreW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 208
+  Name         : SymSrvIsStoreW
+
+Archive member name at D22E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E23C262A
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvStoreFile@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 209
+  Name         : SymSrvStoreFile
+
+Archive member name at D29E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CED124CA
+  SizeOfData   : 00000021
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvStoreFileW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 210
+  Name         : SymSrvStoreFileW
+
+Archive member name at D310: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C31B57A4
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvStoreSupplement@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 211
+  Name         : SymSrvStoreSupplement
+
+Archive member name at D386: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9511354
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymSrvStoreSupplementW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 212
+  Name         : SymSrvStoreSupplementW
+
+Archive member name at D3FE: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EEA04DA0
+  SizeOfData   : 0000001D
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymUnDName64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 214
+  Name         : SymUnDName64
+
+Archive member name at D46C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F920BD6B
+  SizeOfData   : 0000001B
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymUnDName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 213
+  Name         : SymUnDName
+
+Archive member name at D4D8: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEEBDED9
+  SizeOfData   : 00000022
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymUnloadModule64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 216
+  Name         : SymUnloadModule64
+
+Archive member name at D54A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4CA0839
+  SizeOfData   : 0000001F
+  DLL name     : dbghelp.dll
+  Symbol name  : _SymUnloadModule@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 215
+  Name         : SymUnloadModule
+
+Archive member name at D5BA: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDC9BCE8
+  SizeOfData   : 00000025
+  DLL name     : dbghelp.dll
+  Symbol name  : _UnDecorateSymbolName@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 217
+  Name         : UnDecorateSymbolName
+
+Archive member name at D630: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C717A60C
+  SizeOfData   : 00000026
+  DLL name     : dbghelp.dll
+  Symbol name  : _UnDecorateSymbolNameW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 218
+  Name         : UnDecorateSymbolNameW
+
+Archive member name at D6A6: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF2CFAFD
+  SizeOfData   : 00000025
+  DLL name     : dbghelp.dll
+  Symbol name  : _UnmapDebugInformation@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 219
+  Name         : UnmapDebugInformation
+
+Archive member name at D71C: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4287F34
+  SizeOfData   : 00000027
+  DLL name     : dbghelp.dll
+  Symbol name  : _WinDbgExtensionDllInit@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 220
+  Name         : WinDbgExtensionDllInit
+
+Archive member name at D794: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2D951C8
+  SizeOfData   : 00000016
+  DLL name     : dbghelp.dll
+  Symbol name  : _block@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 222
+  Name         : block
+
+Archive member name at D7FA: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6405D69
+  SizeOfData   : 00000017
+  DLL name     : dbghelp.dll
+  Symbol name  : _chksym@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 223
+  Name         : chksym
+
+Archive member name at D862: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C22F24DA
+  SizeOfData   : 00000017
+  DLL name     : dbghelp.dll
+  Symbol name  : _dbghelp@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 224
+  Name         : dbghelp
+
+Archive member name at D8CA: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB1EBDD0
+  SizeOfData   : 00000013
+  DLL name     : dbghelp.dll
+  Symbol name  : _dh@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 225
+  Name         : dh
+
+Archive member name at D92E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6D7FEA8
+  SizeOfData   : 00000015
+  DLL name     : dbghelp.dll
+  Symbol name  : _fptr@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 226
+  Name         : fptr
+
+Archive member name at D994: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CABCF653
+  SizeOfData   : 00000018
+  DLL name     : dbghelp.dll
+  Symbol name  : _homedir@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 227
+  Name         : homedir
+
+Archive member name at D9FC: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA9E7061
+  SizeOfData   : 0000001A
+  DLL name     : dbghelp.dll
+  Symbol name  : _inlinedbg@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 228
+  Name         : inlinedbg
+
+Archive member name at DA66: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBCE0491
+  SizeOfData   : 0000001B
+  DLL name     : dbghelp.dll
+  Symbol name  : _itoldyouso@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 229
+  Name         : itoldyouso
+
+Archive member name at DAD2: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C043FC79
+  SizeOfData   : 00000014
+  DLL name     : dbghelp.dll
+  Symbol name  : _lmi@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 230
+  Name         : lmi
+
+Archive member name at DB36: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E09BE043
+  SizeOfData   : 00000017
+  DLL name     : dbghelp.dll
+  Symbol name  : _lminfo@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 231
+  Name         : lminfo
+
+Archive member name at DB9E: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC3CE50E
+  SizeOfData   : 00000015
+  DLL name     : dbghelp.dll
+  Symbol name  : _omap@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 232
+  Name         : omap
+
+Archive member name at DC04: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C27FBEE1
+  SizeOfData   : 0000001B
+  DLL name     : dbghelp.dll
+  Symbol name  : _optdbgdump@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 233
+  Name         : optdbgdump
+
+Archive member name at DC70: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF4ABF13
+  SizeOfData   : 0000001F
+  DLL name     : dbghelp.dll
+  Symbol name  : _optdbgdumpaddr@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 234
+  Name         : optdbgdumpaddr
+
+Archive member name at DCE0: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7A64F58
+  SizeOfData   : 00000019
+  DLL name     : dbghelp.dll
+  Symbol name  : _srcfiles@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 235
+  Name         : srcfiles
+
+Archive member name at DD4A: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9CF17A9
+  SizeOfData   : 00000020
+  DLL name     : dbghelp.dll
+  Symbol name  : _stack_force_ebp@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 236
+  Name         : stack_force_ebp
+
+Archive member name at DDBA: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED78100C
+  SizeOfData   : 00000019
+  DLL name     : dbghelp.dll
+  Symbol name  : _stackdbg@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 237
+  Name         : stackdbg
+
+Archive member name at DE24: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      28 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9AEEE7A
+  SizeOfData   : 00000014
+  DLL name     : dbghelp.dll
+  Symbol name  : _sym@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 238
+  Name         : sym
+
+Archive member name at DE88: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E48BF49A
+  SizeOfData   : 00000017
+  DLL name     : dbghelp.dll
+  Symbol name  : _symsrv@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 239
+  Name         : symsrv
+
+Archive member name at DEF0: dbghelp.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD918D3D
+  SizeOfData   : 00000017
+  DLL name     : dbghelp.dll
+  Symbol name  : _vc7fpo@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 240
+  Name         : vc7fpo
+
+     Exports
+
+       ordinal    name
+
+                  ?SymAllocDiaString@@YGPAGPBG@Z (unsigned short * __stdcall SymAllocDiaString(unsigned short const *))
+                  ?SymFreeDiaString@@YGXPAG@Z (void __stdcall SymFreeDiaString(unsigned short *))
+                  ?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z (int __stdcall SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
+                  ?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z (int __stdcall SymGetDiaSource(void *,unsigned __int64,struct IDiaDataSource * *))
+                  ?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z (int __stdcall SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
+                  ?_EFN_DumpImage@@YGX_KK@Z (void __stdcall _EFN_DumpImage(unsigned __int64,unsigned long))
+                  _DbgHelpCreateUserDump@12
+                  _DbgHelpCreateUserDumpW@12
+                  _EnumDirTree@24
+                  _EnumDirTreeW@24
+                  _EnumerateLoadedModules64@12
+                  _EnumerateLoadedModules@12
+                  _EnumerateLoadedModulesEx@12
+                  _EnumerateLoadedModulesExW@12
+                  _EnumerateLoadedModulesW64@12
+                  _ExtensionApiVersion@0
+                  _FindDebugInfoFile@12
+                  _FindDebugInfoFileEx@20
+                  _FindDebugInfoFileExW@20
+                  _FindExecutableImage@12
+                  _FindExecutableImageEx@20
+                  _FindExecutableImageExW@20
+                  _FindFileInPath@32
+                  _FindFileInSearchPath@28
+                  _GetSymLoadError@0
+                  _GetTimestampForLoadedLibrary@4
+                  _ImageDirectoryEntryToData@16
+                  _ImageDirectoryEntryToDataEx@20
+                  _ImageNtHeader@4
+                  _ImageRvaToSection@12
+                  _ImageRvaToVa@16
+                  _ImagehlpApiVersion@0
+                  _ImagehlpApiVersionEx@4
+                  _MakeSureDirectoryPathExists@4
+                  _MapDebugInformation@16
+                  _MiniDumpReadDumpStream@20
+                  _MiniDumpWriteDump@28
+                  _RangeMapAddPeImageSections@36
+                  _RangeMapCreate@0
+                  _RangeMapFree@4
+                  _RangeMapRead@28
+                  _RangeMapRemove@12
+                  _RangeMapWrite@28
+                  _RemoveInvalidModuleList@4
+                  _ReportSymbolLoadSummary@12
+                  _SearchTreeForFile@12
+                  _SearchTreeForFileW@12
+                  _SetCheckUserInterruptShared@4
+                  _SetSymLoadError@4
+                  _StackWalk64@36
+                  _StackWalk@36
+                  _StackWalkEx@40
+                  _SymAddSourceStream@24
+                  _SymAddSourceStreamA@24
+                  _SymAddSourceStreamW@24
+                  _SymAddSymbol@32
+                  _SymAddSymbolW@32
+                  _SymAddrIncludeInlineTrace@12
+                  _SymCleanup@4
+                  _SymCompareInlineTrace@40
+                  _SymDeleteSymbol@28
+                  _SymDeleteSymbolW@28
+                  _SymEnumLines@28
+                  _SymEnumLinesW@28
+                  _SymEnumProcesses@8
+                  _SymEnumSourceFileTokens@16
+                  _SymEnumSourceFiles@24
+                  _SymEnumSourceFilesW@24
+                  _SymEnumSourceLines@36
+                  _SymEnumSourceLinesW@36
+                  _SymEnumSym@20
+                  _SymEnumSymbols@24
+                  _SymEnumSymbolsEx@28
+                  _SymEnumSymbolsExW@28
+                  _SymEnumSymbolsForAddr@20
+                  _SymEnumSymbolsForAddrW@20
+                  _SymEnumSymbolsW@24
+                  _SymEnumTypes@20
+                  _SymEnumTypesByName@24
+                  _SymEnumTypesByNameW@24
+                  _SymEnumTypesW@20
+                  _SymEnumerateModules64@12
+                  _SymEnumerateModules@12
+                  _SymEnumerateModulesW64@12
+                  _SymEnumerateSymbols64@20
+                  _SymEnumerateSymbols@16
+                  _SymEnumerateSymbolsW64@20
+                  _SymEnumerateSymbolsW@16
+                  _SymFindDebugInfoFile@20
+                  _SymFindDebugInfoFileW@20
+                  _SymFindExecutableImage@20
+                  _SymFindExecutableImageW@20
+                  _SymFindFileInPath@40
+                  _SymFindFileInPathW@40
+                  _SymFromAddr@20
+                  _SymFromAddrW@20
+                  _SymFromIndex@20
+                  _SymFromIndexW@20
+                  _SymFromInlineContext@24
+                  _SymFromInlineContextW@24
+                  _SymFromName@12
+                  _SymFromNameW@12
+                  _SymFromToken@20
+                  _SymFromTokenW@20
+                  _SymFunctionTableAccess64@12
+                  _SymFunctionTableAccess64AccessRoutines@20
+                  _SymFunctionTableAccess@8
+                  _SymGetExtendedOption@4
+                  _SymGetFileLineOffsets64@20
+                  _SymGetHomeDirectory@12
+                  _SymGetHomeDirectoryW@12
+                  _SymGetLineFromAddr64@20
+                  _SymGetLineFromAddr@16
+                  _SymGetLineFromAddrW64@20
+                  _SymGetLineFromInlineContext@32
+                  _SymGetLineFromInlineContextW@32
+                  _SymGetLineFromName64@24
+                  _SymGetLineFromName@24
+                  _SymGetLineFromNameW64@24
+                  _SymGetLineNext64@8
+                  _SymGetLineNext@8
+                  _SymGetLineNextW64@8
+                  _SymGetLinePrev64@8
+                  _SymGetLinePrev@8
+                  _SymGetLinePrevW64@8
+                  _SymGetModuleBase64@12
+                  _SymGetModuleBase@8
+                  _SymGetModuleInfo64@16
+                  _SymGetModuleInfo@12
+                  _SymGetModuleInfoW64@16
+                  _SymGetModuleInfoW@12
+                  _SymGetOmaps@28
+                  _SymGetOptions@0
+                  _SymGetScope@20
+                  _SymGetScopeW@20
+                  _SymGetSearchPath@12
+                  _SymGetSearchPathW@12
+                  _SymGetSourceFile@28
+                  _SymGetSourceFileChecksum@32
+                  _SymGetSourceFileChecksumW@32
+                  _SymGetSourceFileFromToken@20
+                  _SymGetSourceFileFromTokenW@20
+                  _SymGetSourceFileToken@24
+                  _SymGetSourceFileTokenW@24
+                  _SymGetSourceFileW@28
+                  _SymGetSourceVarFromToken@24
+                  _SymGetSourceVarFromTokenW@24
+                  _SymGetSymFromAddr64@20
+                  _SymGetSymFromAddr@16
+                  _SymGetSymFromName64@12
+                  _SymGetSymFromName@12
+                  _SymGetSymNext64@8
+                  _SymGetSymNext@8
+                  _SymGetSymPrev64@8
+                  _SymGetSymPrev@8
+                  _SymGetSymbolFile@32
+                  _SymGetSymbolFileW@32
+                  _SymGetTypeFromName@20
+                  _SymGetTypeFromNameW@20
+                  _SymGetTypeInfo@24
+                  _SymGetTypeInfoEx@16
+                  _SymGetUnwindInfo@20
+                  _SymInitialize@12
+                  _SymInitializeW@12
+                  _SymLoadModule64@28
+                  _SymLoadModule@24
+                  _SymLoadModuleEx@36
+                  _SymLoadModuleExW@36
+                  _SymMatchFileName@16
+                  _SymMatchFileNameW@16
+                  _SymMatchString@12
+                  _SymMatchStringA@12
+                  _SymMatchStringW@12
+                  _SymNext@8
+                  _SymNextW@8
+                  _SymPrev@8
+                  _SymPrevW@8
+                  _SymQueryInlineTrace@40
+                  _SymRefreshModuleList@4
+                  _SymRegisterCallback64@16
+                  _SymRegisterCallback@12
+                  _SymRegisterCallbackW64@16
+                  _SymRegisterFunctionEntryCallback64@16
+                  _SymRegisterFunctionEntryCallback@12
+                  _SymSearch@44
+                  _SymSearchW@44
+                  _SymSetContext@12
+                  _SymSetExtendedOption@8
+                  _SymSetHomeDirectory@8
+                  _SymSetHomeDirectoryW@8
+                  _SymSetOptions@4
+                  _SymSetParentWindow@4
+                  _SymSetScopeFromAddr@12
+                  _SymSetScopeFromIndex@16
+                  _SymSetScopeFromInlineContext@16
+                  _SymSetSearchPath@8
+                  _SymSetSearchPathW@8
+                  _SymSrvDeltaName@20
+                  _SymSrvDeltaNameW@20
+                  _SymSrvGetFileIndexInfo@12
+                  _SymSrvGetFileIndexInfoW@12
+                  _SymSrvGetFileIndexString@24
+                  _SymSrvGetFileIndexStringW@24
+                  _SymSrvGetFileIndexes@20
+                  _SymSrvGetFileIndexesW@20
+                  _SymSrvGetSupplement@16
+                  _SymSrvGetSupplementW@16
+                  _SymSrvIsStore@8
+                  _SymSrvIsStoreW@8
+                  _SymSrvStoreFile@16
+                  _SymSrvStoreFileW@16
+                  _SymSrvStoreSupplement@20
+                  _SymSrvStoreSupplementW@20
+                  _SymUnDName64@12
+                  _SymUnDName@12
+                  _SymUnloadModule64@12
+                  _SymUnloadModule@8
+                  _UnDecorateSymbolName@16
+                  _UnDecorateSymbolNameW@16
+                  _UnmapDebugInformation@4
+                  _WinDbgExtensionDllInit@12
+                  _block@24
+                  _chksym@24
+                  _dbghelp@8
+                  _dh@24
+                  _fptr@24
+                  _homedir@24
+                  _inlinedbg@24
+                  _itoldyouso@24
+                  _lmi@24
+                  _lminfo@24
+                  _omap@24
+                  _optdbgdump@24
+                  _optdbgdumpaddr@24
+                  _srcfiles@24
+                  _stack_force_ebp@24
+                  _stackdbg@24
+                  _sym@24
+                  _symsrv@24
+                  _vc7fpo@24
+
+  Summary
+
+          C3 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

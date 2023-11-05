@@ -1,0 +1,981 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_ScriptApplyDigitSubstitution@12"
+    },
+    {
+      "name": "_ScriptApplyLogicalWidth@36"
+    },
+    {
+      "name": "_ScriptBreak@16"
+    },
+    {
+      "name": "_ScriptCPtoX@36"
+    },
+    {
+      "name": "_ScriptCacheGetHeight@12"
+    },
+    {
+      "name": "_ScriptFreeCache@4"
+    },
+    {
+      "name": "_ScriptGetCMap@24"
+    },
+    {
+      "name": "_ScriptGetFontAlternateGlyphs@40"
+    },
+    {
+      "name": "_ScriptGetFontFeatureTags@32"
+    },
+    {
+      "name": "_ScriptGetFontLanguageTags@28"
+    },
+    {
+      "name": "_ScriptGetFontProperties@12"
+    },
+    {
+      "name": "_ScriptGetFontScriptTags@24"
+    },
+    {
+      "name": "_ScriptGetGlyphABCWidth@16"
+    },
+    {
+      "name": "_ScriptGetLogicalWidths@28"
+    },
+    {
+      "name": "_ScriptGetProperties@8"
+    },
+    {
+      "name": "_ScriptIsComplex@12"
+    },
+    {
+      "name": "_ScriptItemize@28"
+    },
+    {
+      "name": "_ScriptItemizeOpenType@32"
+    },
+    {
+      "name": "_ScriptJustify@24"
+    },
+    {
+      "name": "_ScriptLayout@16"
+    },
+    {
+      "name": "_ScriptPlace@36"
+    },
+    {
+      "name": "_ScriptPlaceOpenType@72"
+    },
+    {
+      "name": "_ScriptPositionSingleGlyph@52"
+    },
+    {
+      "name": "_ScriptRecordDigitSubstitution@8"
+    },
+    {
+      "name": "_ScriptShape@40"
+    },
+    {
+      "name": "_ScriptShapeOpenType@64"
+    },
+    {
+      "name": "_ScriptStringAnalyse@52"
+    },
+    {
+      "name": "_ScriptStringCPtoX@16"
+    },
+    {
+      "name": "_ScriptStringFree@4"
+    },
+    {
+      "name": "_ScriptStringGetLogicalWidths@8"
+    },
+    {
+      "name": "_ScriptStringGetOrder@8"
+    },
+    {
+      "name": "_ScriptStringOut@32"
+    },
+    {
+      "name": "_ScriptStringValidate@4"
+    },
+    {
+      "name": "_ScriptStringXtoCP@16"
+    },
+    {
+      "name": "_ScriptString_pLogAttr@4"
+    },
+    {
+      "name": "_ScriptString_pSize@4"
+    },
+    {
+      "name": "_ScriptString_pcOutChars@4"
+    },
+    {
+      "name": "_ScriptSubstituteSingleGlyph@36"
+    },
+    {
+      "name": "_ScriptTextOut@56"
+    },
+    {
+      "name": "_ScriptXtoCP@36"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 5238,
+      "name": "__IMPORT_DESCRIPTOR_USP10"
+    },
+    {
+      "offset": 5784,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 6092,
+      "name": "USP10_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 8274,
+      "name": "_ScriptItemize@28"
+    },
+    {
+      "offset": 8274,
+      "name": "__imp__ScriptItemize@28"
+    },
+    {
+      "offset": 9178,
+      "name": "_ScriptShape@40"
+    },
+    {
+      "offset": 9178,
+      "name": "__imp__ScriptShape@40"
+    },
+    {
+      "offset": 8714,
+      "name": "_ScriptPlace@36"
+    },
+    {
+      "offset": 8714,
+      "name": "__imp__ScriptPlace@36"
+    },
+    {
+      "offset": 6668,
+      "name": "_ScriptBreak@16"
+    },
+    {
+      "offset": 6668,
+      "name": "__imp__ScriptBreak@16"
+    },
+    {
+      "offset": 8606,
+      "name": "_ScriptLayout@16"
+    },
+    {
+      "offset": 8606,
+      "name": "__imp__ScriptLayout@16"
+    },
+    {
+      "offset": 10774,
+      "name": "_ScriptTextOut@56"
+    },
+    {
+      "offset": 10774,
+      "name": "__imp__ScriptTextOut@56"
+    },
+    {
+      "offset": 8498,
+      "name": "_ScriptJustify@24"
+    },
+    {
+      "offset": 8498,
+      "name": "__imp__ScriptJustify@24"
+    },
+    {
+      "offset": 6774,
+      "name": "_ScriptCPtoX@36"
+    },
+    {
+      "offset": 6774,
+      "name": "__imp__ScriptCPtoX@36"
+    },
+    {
+      "offset": 10882,
+      "name": "_ScriptXtoCP@36"
+    },
+    {
+      "offset": 10882,
+      "name": "__imp__ScriptXtoCP@36"
+    },
+    {
+      "offset": 6996,
+      "name": "_ScriptFreeCache@4"
+    },
+    {
+      "offset": 6996,
+      "name": "__imp__ScriptFreeCache@4"
+    },
+    {
+      "offset": 7106,
+      "name": "_ScriptGetCMap@24"
+    },
+    {
+      "offset": 7106,
+      "name": "__imp__ScriptGetCMap@24"
+    },
+    {
+      "offset": 8050,
+      "name": "_ScriptGetProperties@8"
+    },
+    {
+      "offset": 8050,
+      "name": "__imp__ScriptGetProperties@8"
+    },
+    {
+      "offset": 7578,
+      "name": "_ScriptGetFontProperties@12"
+    },
+    {
+      "offset": 7578,
+      "name": "__imp__ScriptGetFontProperties@12"
+    },
+    {
+      "offset": 6880,
+      "name": "_ScriptCacheGetHeight@12"
+    },
+    {
+      "offset": 6880,
+      "name": "__imp__ScriptCacheGetHeight@12"
+    },
+    {
+      "offset": 6550,
+      "name": "_ScriptApplyLogicalWidth@36"
+    },
+    {
+      "offset": 6550,
+      "name": "__imp__ScriptApplyLogicalWidth@36"
+    },
+    {
+      "offset": 7932,
+      "name": "_ScriptGetLogicalWidths@28"
+    },
+    {
+      "offset": 7932,
+      "name": "__imp__ScriptGetLogicalWidths@28"
+    },
+    {
+      "offset": 7814,
+      "name": "_ScriptGetGlyphABCWidth@16"
+    },
+    {
+      "offset": 7814,
+      "name": "__imp__ScriptGetGlyphABCWidth@16"
+    },
+    {
+      "offset": 9398,
+      "name": "_ScriptStringAnalyse@52"
+    },
+    {
+      "offset": 9398,
+      "name": "__imp__ScriptStringAnalyse@52"
+    },
+    {
+      "offset": 9970,
+      "name": "_ScriptStringOut@32"
+    },
+    {
+      "offset": 9970,
+      "name": "__imp__ScriptStringOut@32"
+    },
+    {
+      "offset": 9624,
+      "name": "_ScriptStringFree@4"
+    },
+    {
+      "offset": 9624,
+      "name": "__imp__ScriptStringFree@4"
+    },
+    {
+      "offset": 9734,
+      "name": "_ScriptStringGetLogicalWidths@8"
+    },
+    {
+      "offset": 9734,
+      "name": "__imp__ScriptStringGetLogicalWidths@8"
+    },
+    {
+      "offset": 9856,
+      "name": "_ScriptStringGetOrder@8"
+    },
+    {
+      "offset": 9856,
+      "name": "__imp__ScriptStringGetOrder@8"
+    },
+    {
+      "offset": 9512,
+      "name": "_ScriptStringCPtoX@16"
+    },
+    {
+      "offset": 9512,
+      "name": "__imp__ScriptStringCPtoX@16"
+    },
+    {
+      "offset": 10194,
+      "name": "_ScriptStringXtoCP@16"
+    },
+    {
+      "offset": 10194,
+      "name": "__imp__ScriptStringXtoCP@16"
+    },
+    {
+      "offset": 10080,
+      "name": "_ScriptStringValidate@4"
+    },
+    {
+      "offset": 10080,
+      "name": "__imp__ScriptStringValidate@4"
+    },
+    {
+      "offset": 10534,
+      "name": "_ScriptString_pcOutChars@4"
+    },
+    {
+      "offset": 10534,
+      "name": "__imp__ScriptString_pcOutChars@4"
+    },
+    {
+      "offset": 10422,
+      "name": "_ScriptString_pSize@4"
+    },
+    {
+      "offset": 10422,
+      "name": "__imp__ScriptString_pSize@4"
+    },
+    {
+      "offset": 10306,
+      "name": "_ScriptString_pLogAttr@4"
+    },
+    {
+      "offset": 10306,
+      "name": "__imp__ScriptString_pLogAttr@4"
+    },
+    {
+      "offset": 9054,
+      "name": "_ScriptRecordDigitSubstitution@8"
+    },
+    {
+      "offset": 9054,
+      "name": "__imp__ScriptRecordDigitSubstitution@8"
+    },
+    {
+      "offset": 6426,
+      "name": "_ScriptApplyDigitSubstitution@12"
+    },
+    {
+      "offset": 6426,
+      "name": "__imp__ScriptApplyDigitSubstitution@12"
+    },
+    {
+      "offset": 8164,
+      "name": "_ScriptIsComplex@12"
+    },
+    {
+      "offset": 8164,
+      "name": "__imp__ScriptIsComplex@12"
+    },
+    {
+      "offset": 9284,
+      "name": "_ScriptShapeOpenType@64"
+    },
+    {
+      "offset": 9284,
+      "name": "__imp__ScriptShapeOpenType@64"
+    },
+    {
+      "offset": 8820,
+      "name": "_ScriptPlaceOpenType@72"
+    },
+    {
+      "offset": 8820,
+      "name": "__imp__ScriptPlaceOpenType@72"
+    },
+    {
+      "offset": 8382,
+      "name": "_ScriptItemizeOpenType@32"
+    },
+    {
+      "offset": 8382,
+      "name": "__imp__ScriptItemizeOpenType@32"
+    },
+    {
+      "offset": 7696,
+      "name": "_ScriptGetFontScriptTags@24"
+    },
+    {
+      "offset": 7696,
+      "name": "__imp__ScriptGetFontScriptTags@24"
+    },
+    {
+      "offset": 7458,
+      "name": "_ScriptGetFontLanguageTags@28"
+    },
+    {
+      "offset": 7458,
+      "name": "__imp__ScriptGetFontLanguageTags@28"
+    },
+    {
+      "offset": 7338,
+      "name": "_ScriptGetFontFeatureTags@32"
+    },
+    {
+      "offset": 7338,
+      "name": "__imp__ScriptGetFontFeatureTags@32"
+    },
+    {
+      "offset": 7214,
+      "name": "_ScriptGetFontAlternateGlyphs@40"
+    },
+    {
+      "offset": 7214,
+      "name": "__imp__ScriptGetFontAlternateGlyphs@40"
+    },
+    {
+      "offset": 10652,
+      "name": "_ScriptSubstituteSingleGlyph@36"
+    },
+    {
+      "offset": 10652,
+      "name": "__imp__ScriptSubstituteSingleGlyph@36"
+    },
+    {
+      "offset": 8934,
+      "name": "_ScriptPositionSingleGlyph@52"
+    },
+    {
+      "offset": 8934,
+      "name": "__imp__ScriptPositionSingleGlyph@52"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 6426,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3459030308,
+      "sizeOfData": 43,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptApplyDigitSubstitution@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "ScriptApplyDigitSubstitution"
+    },
+    {
+      "offset": 6550,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3693713256,
+      "sizeOfData": 38,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptApplyLogicalWidth@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "ScriptApplyLogicalWidth"
+    },
+    {
+      "offset": 6668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3229610867,
+      "sizeOfData": 26,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptBreak@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "ScriptBreak"
+    },
+    {
+      "offset": 6774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4236989814,
+      "sizeOfData": 26,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptCPtoX@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "ScriptCPtoX"
+    },
+    {
+      "offset": 6880,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3499905747,
+      "sizeOfData": 35,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptCacheGetHeight@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "ScriptCacheGetHeight"
+    },
+    {
+      "offset": 6996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4237799337,
+      "sizeOfData": 29,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptFreeCache@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "ScriptFreeCache"
+    },
+    {
+      "offset": 7106,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4181304055,
+      "sizeOfData": 28,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptGetCMap@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "ScriptGetCMap"
+    },
+    {
+      "offset": 7214,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4211360450,
+      "sizeOfData": 43,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptGetFontAlternateGlyphs@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "ScriptGetFontAlternateGlyphs"
+    },
+    {
+      "offset": 7338,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3841852239,
+      "sizeOfData": 39,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptGetFontFeatureTags@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "ScriptGetFontFeatureTags"
+    },
+    {
+      "offset": 7458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3722001108,
+      "sizeOfData": 40,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptGetFontLanguageTags@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "ScriptGetFontLanguageTags"
+    },
+    {
+      "offset": 7578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3729455259,
+      "sizeOfData": 38,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptGetFontProperties@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "ScriptGetFontProperties"
+    },
+    {
+      "offset": 7696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3779788459,
+      "sizeOfData": 38,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptGetFontScriptTags@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "ScriptGetFontScriptTags"
+    },
+    {
+      "offset": 7814,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3343733848,
+      "sizeOfData": 37,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptGetGlyphABCWidth@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "ScriptGetGlyphABCWidth"
+    },
+    {
+      "offset": 7932,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4013655083,
+      "sizeOfData": 37,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptGetLogicalWidths@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "ScriptGetLogicalWidths"
+    },
+    {
+      "offset": 8050,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3455031477,
+      "sizeOfData": 33,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptGetProperties@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "ScriptGetProperties"
+    },
+    {
+      "offset": 8164,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3871629048,
+      "sizeOfData": 30,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptIsComplex@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "ScriptIsComplex"
+    },
+    {
+      "offset": 8274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3941930743,
+      "sizeOfData": 28,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptItemize@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "ScriptItemize"
+    },
+    {
+      "offset": 8382,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3423595941,
+      "sizeOfData": 36,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptItemizeOpenType@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "ScriptItemizeOpenType"
+    },
+    {
+      "offset": 8498,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3606393814,
+      "sizeOfData": 28,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptJustify@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "ScriptJustify"
+    },
+    {
+      "offset": 8606,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3859852019,
+      "sizeOfData": 27,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptLayout@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "ScriptLayout"
+    },
+    {
+      "offset": 8714,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3498819979,
+      "sizeOfData": 26,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptPlace@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "ScriptPlace"
+    },
+    {
+      "offset": 8820,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3502201744,
+      "sizeOfData": 34,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptPlaceOpenType@72",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "ScriptPlaceOpenType"
+    },
+    {
+      "offset": 8934,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3491915942,
+      "sizeOfData": 40,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptPositionSingleGlyph@52",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "ScriptPositionSingleGlyph"
+    },
+    {
+      "offset": 9054,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3635305997,
+      "sizeOfData": 43,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptRecordDigitSubstitution@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "ScriptRecordDigitSubstitution"
+    },
+    {
+      "offset": 9178,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3543811368,
+      "sizeOfData": 26,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptShape@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "ScriptShape"
+    },
+    {
+      "offset": 9284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3476838363,
+      "sizeOfData": 34,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptShapeOpenType@64",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "ScriptShapeOpenType"
+    },
+    {
+      "offset": 9398,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3688841734,
+      "sizeOfData": 34,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptStringAnalyse@52",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "ScriptStringAnalyse"
+    },
+    {
+      "offset": 9512,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3345701444,
+      "sizeOfData": 32,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptStringCPtoX@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "ScriptStringCPtoX"
+    },
+    {
+      "offset": 9624,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3669873828,
+      "sizeOfData": 30,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptStringFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "ScriptStringFree"
+    },
+    {
+      "offset": 9734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3366226687,
+      "sizeOfData": 42,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptStringGetLogicalWidths@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "ScriptStringGetLogicalWidths"
+    },
+    {
+      "offset": 9856,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3509530228,
+      "sizeOfData": 34,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptStringGetOrder@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "ScriptStringGetOrder"
+    },
+    {
+      "offset": 9970,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3248788021,
+      "sizeOfData": 30,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptStringOut@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "ScriptStringOut"
+    },
+    {
+      "offset": 10080,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4173713901,
+      "sizeOfData": 34,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptStringValidate@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "ScriptStringValidate"
+    },
+    {
+      "offset": 10194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4100312764,
+      "sizeOfData": 32,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptStringXtoCP@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "ScriptStringXtoCP"
+    },
+    {
+      "offset": 10306,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3578356318,
+      "sizeOfData": 35,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptString_pLogAttr@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "ScriptString_pLogAttr"
+    },
+    {
+      "offset": 10422,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3558748270,
+      "sizeOfData": 32,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptString_pSize@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "ScriptString_pSize"
+    },
+    {
+      "offset": 10534,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3260850741,
+      "sizeOfData": 37,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptString_pcOutChars@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "ScriptString_pcOutChars"
+    },
+    {
+      "offset": 10652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4242473315,
+      "sizeOfData": 42,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptSubstituteSingleGlyph@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "ScriptSubstituteSingleGlyph"
+    },
+    {
+      "offset": 10774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3797612833,
+      "sizeOfData": 28,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptTextOut@56",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "ScriptTextOut"
+    },
+    {
+      "offset": 10882,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3275706072,
+      "sizeOfData": 26,
+      "dllName": "USP10.dll",
+      "symbolName": "_ScriptXtoCP@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "ScriptXtoCP"
+    }
+  ]
+}

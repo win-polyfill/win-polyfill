@@ -1,0 +1,4653 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_WsAbandonCall@12"
+    },
+    {
+      "name": "_WsAbandonMessage@12"
+    },
+    {
+      "name": "_WsAbortChannel@8"
+    },
+    {
+      "name": "_WsAbortListener@8"
+    },
+    {
+      "name": "_WsAbortServiceHost@8"
+    },
+    {
+      "name": "_WsAbortServiceProxy@8"
+    },
+    {
+      "name": "_WsAcceptChannel@16"
+    },
+    {
+      "name": "_WsAddCustomHeader@28"
+    },
+    {
+      "name": "_WsAddErrorString@8"
+    },
+    {
+      "name": "_WsAddMappedHeader@28"
+    },
+    {
+      "name": "_WsAddressMessage@12"
+    },
+    {
+      "name": "_WsAlloc@16"
+    },
+    {
+      "name": "_WsAsyncExecute@24"
+    },
+    {
+      "name": "_WsCall@32"
+    },
+    {
+      "name": "_WsCheckMustUnderstandHeaders@8"
+    },
+    {
+      "name": "_WsCloseChannel@12"
+    },
+    {
+      "name": "_WsCloseListener@12"
+    },
+    {
+      "name": "_WsCloseServiceHost@12"
+    },
+    {
+      "name": "_WsCloseServiceProxy@12"
+    },
+    {
+      "name": "_WsCombineUrl@24"
+    },
+    {
+      "name": "_WsCopyError@8"
+    },
+    {
+      "name": "_WsCopyNode@12"
+    },
+    {
+      "name": "_WsCreateChannel@28"
+    },
+    {
+      "name": "_WsCreateChannelForListener@20"
+    },
+    {
+      "name": "_WsCreateError@12"
+    },
+    {
+      "name": "_WsCreateFaultFromError@20"
+    },
+    {
+      "name": "_WsCreateHeap@24"
+    },
+    {
+      "name": "_WsCreateListener@28"
+    },
+    {
+      "name": "_WsCreateMessage@24"
+    },
+    {
+      "name": "_WsCreateMessageForChannel@20"
+    },
+    {
+      "name": "_WsCreateMetadata@16"
+    },
+    {
+      "name": "_WsCreateReader@16"
+    },
+    {
+      "name": "_WsCreateServiceEndpointFromTemplate@56"
+    },
+    {
+      "name": "_WsCreateServiceHost@24"
+    },
+    {
+      "name": "_WsCreateServiceProxy@36"
+    },
+    {
+      "name": "_WsCreateServiceProxyFromTemplate@40"
+    },
+    {
+      "name": "_WsCreateWriter@16"
+    },
+    {
+      "name": "_WsCreateXmlBuffer@20"
+    },
+    {
+      "name": "_WsCreateXmlSecurityToken@24"
+    },
+    {
+      "name": "_WsDateTimeToFileTime@12"
+    },
+    {
+      "name": "_WsDecodeUrl@20"
+    },
+    {
+      "name": "_WsEncodeUrl@20"
+    },
+    {
+      "name": "_WsEndReaderCanonicalization@8"
+    },
+    {
+      "name": "_WsEndWriterCanonicalization@8"
+    },
+    {
+      "name": "_WsFileTimeToDateTime@12"
+    },
+    {
+      "name": "_WsFillBody@16"
+    },
+    {
+      "name": "_WsFillReader@16"
+    },
+    {
+      "name": "_WsFindAttribute@24"
+    },
+    {
+      "name": "_WsFlushBody@16"
+    },
+    {
+      "name": "_WsFlushWriter@16"
+    },
+    {
+      "name": "_WsFreeChannel@4"
+    },
+    {
+      "name": "_WsFreeError@4"
+    },
+    {
+      "name": "_WsFreeHeap@4"
+    },
+    {
+      "name": "_WsFreeListener@4"
+    },
+    {
+      "name": "_WsFreeMessage@4"
+    },
+    {
+      "name": "_WsFreeMetadata@4"
+    },
+    {
+      "name": "_WsFreeReader@4"
+    },
+    {
+      "name": "_WsFreeSecurityToken@4"
+    },
+    {
+      "name": "_WsFreeServiceHost@4"
+    },
+    {
+      "name": "_WsFreeServiceProxy@4"
+    },
+    {
+      "name": "_WsFreeWriter@4"
+    },
+    {
+      "name": "_WsGetChannelProperty@20"
+    },
+    {
+      "name": "_WsGetCustomHeader@40"
+    },
+    {
+      "name": "_WsGetDictionary@12"
+    },
+    {
+      "name": "_WsGetErrorProperty@16"
+    },
+    {
+      "name": "_WsGetErrorString@12"
+    },
+    {
+      "name": "_WsGetFaultErrorDetail@24"
+    },
+    {
+      "name": "_WsGetFaultErrorProperty@16"
+    },
+    {
+      "name": "_WsGetHeader@32"
+    },
+    {
+      "name": "_WsGetHeaderAttributes@16"
+    },
+    {
+      "name": "_WsGetHeapProperty@20"
+    },
+    {
+      "name": "_WsGetListenerProperty@20"
+    },
+    {
+      "name": "_WsGetMappedHeader@40"
+    },
+    {
+      "name": "_WsGetMessageProperty@20"
+    },
+    {
+      "name": "_WsGetMetadataEndpoints@12"
+    },
+    {
+      "name": "_WsGetMetadataProperty@20"
+    },
+    {
+      "name": "_WsGetMissingMetadataDocumentAddress@12"
+    },
+    {
+      "name": "_WsGetNamespaceFromPrefix@20"
+    },
+    {
+      "name": "_WsGetOperationContextProperty@20"
+    },
+    {
+      "name": "_WsGetPolicyAlternativeCount@12"
+    },
+    {
+      "name": "_WsGetPolicyProperty@20"
+    },
+    {
+      "name": "_WsGetPrefixFromNamespace@20"
+    },
+    {
+      "name": "_WsGetReaderNode@12"
+    },
+    {
+      "name": "_WsGetReaderPosition@12"
+    },
+    {
+      "name": "_WsGetReaderProperty@20"
+    },
+    {
+      "name": "_WsGetSecurityContextProperty@20"
+    },
+    {
+      "name": "_WsGetSecurityTokenProperty@24"
+    },
+    {
+      "name": "_WsGetServiceHostProperty@20"
+    },
+    {
+      "name": "_WsGetServiceProxyProperty@20"
+    },
+    {
+      "name": "_WsGetWriterPosition@12"
+    },
+    {
+      "name": "_WsGetWriterProperty@20"
+    },
+    {
+      "name": "_WsGetXmlAttribute@24"
+    },
+    {
+      "name": "_WsInitializeMessage@16"
+    },
+    {
+      "name": "_WsMarkHeaderAsUnderstood@12"
+    },
+    {
+      "name": "_WsMatchPolicyAlternative@24"
+    },
+    {
+      "name": "_WsMoveReader@16"
+    },
+    {
+      "name": "_WsMoveWriter@16"
+    },
+    {
+      "name": "_WsOpenChannel@16"
+    },
+    {
+      "name": "_WsOpenListener@16"
+    },
+    {
+      "name": "_WsOpenServiceHost@12"
+    },
+    {
+      "name": "_WsOpenServiceProxy@16"
+    },
+    {
+      "name": "_WsPullBytes@16"
+    },
+    {
+      "name": "_WsPushBytes@16"
+    },
+    {
+      "name": "_WsReadArray@40"
+    },
+    {
+      "name": "_WsReadAttribute@28"
+    },
+    {
+      "name": "_WsReadBody@28"
+    },
+    {
+      "name": "_WsReadBytes@20"
+    },
+    {
+      "name": "_WsReadChars@20"
+    },
+    {
+      "name": "_WsReadCharsUtf8@20"
+    },
+    {
+      "name": "_WsReadElement@28"
+    },
+    {
+      "name": "_WsReadEndAttribute@8"
+    },
+    {
+      "name": "_WsReadEndElement@8"
+    },
+    {
+      "name": "_WsReadEndpointAddressExtension@32"
+    },
+    {
+      "name": "_WsReadEnvelopeEnd@8"
+    },
+    {
+      "name": "_WsReadEnvelopeStart@20"
+    },
+    {
+      "name": "_WsReadMessageEnd@16"
+    },
+    {
+      "name": "_WsReadMessageStart@16"
+    },
+    {
+      "name": "_WsReadMetadata@16"
+    },
+    {
+      "name": "_WsReadNode@8"
+    },
+    {
+      "name": "_WsReadQualifiedName@24"
+    },
+    {
+      "name": "_WsReadStartAttribute@12"
+    },
+    {
+      "name": "_WsReadStartElement@8"
+    },
+    {
+      "name": "_WsReadToStartElement@20"
+    },
+    {
+      "name": "_WsReadType@36"
+    },
+    {
+      "name": "_WsReadValue@20"
+    },
+    {
+      "name": "_WsReadXmlBuffer@16"
+    },
+    {
+      "name": "_WsReadXmlBufferFromBytes@36"
+    },
+    {
+      "name": "_WsReceiveMessage@48"
+    },
+    {
+      "name": "_WsRegisterOperationForCancel@20"
+    },
+    {
+      "name": "_WsRemoveCustomHeader@16"
+    },
+    {
+      "name": "_WsRemoveHeader@12"
+    },
+    {
+      "name": "_WsRemoveMappedHeader@12"
+    },
+    {
+      "name": "_WsRemoveNode@8"
+    },
+    {
+      "name": "_WsRequestReply@56"
+    },
+    {
+      "name": "_WsRequestSecurityToken@24"
+    },
+    {
+      "name": "_WsResetChannel@8"
+    },
+    {
+      "name": "_WsResetError@4"
+    },
+    {
+      "name": "_WsResetHeap@8"
+    },
+    {
+      "name": "_WsResetListener@8"
+    },
+    {
+      "name": "_WsResetMessage@8"
+    },
+    {
+      "name": "_WsResetMetadata@8"
+    },
+    {
+      "name": "_WsResetServiceHost@8"
+    },
+    {
+      "name": "_WsResetServiceProxy@8"
+    },
+    {
+      "name": "_WsRevokeSecurityContext@8"
+    },
+    {
+      "name": "_WsSendFaultMessageForError@32"
+    },
+    {
+      "name": "_WsSendMessage@32"
+    },
+    {
+      "name": "_WsSendReplyMessage@36"
+    },
+    {
+      "name": "_WsSetChannelProperty@20"
+    },
+    {
+      "name": "_WsSetErrorProperty@16"
+    },
+    {
+      "name": "_WsSetFaultErrorDetail@20"
+    },
+    {
+      "name": "_WsSetFaultErrorProperty@16"
+    },
+    {
+      "name": "_WsSetHeader@28"
+    },
+    {
+      "name": "_WsSetInput@24"
+    },
+    {
+      "name": "_WsSetInputToBuffer@20"
+    },
+    {
+      "name": "_WsSetListenerProperty@20"
+    },
+    {
+      "name": "_WsSetMessageProperty@20"
+    },
+    {
+      "name": "_WsSetOutput@24"
+    },
+    {
+      "name": "_WsSetOutputToBuffer@20"
+    },
+    {
+      "name": "_WsSetReaderPosition@12"
+    },
+    {
+      "name": "_WsSetWriterPosition@12"
+    },
+    {
+      "name": "_WsShutdownSessionChannel@12"
+    },
+    {
+      "name": "_WsSkipNode@8"
+    },
+    {
+      "name": "_WsStartReaderCanonicalization@24"
+    },
+    {
+      "name": "_WsStartWriterCanonicalization@24"
+    },
+    {
+      "name": "_WsTrimXmlWhitespace@20"
+    },
+    {
+      "name": "_WsVerifyXmlNCName@12"
+    },
+    {
+      "name": "_WsWriteArray@36"
+    },
+    {
+      "name": "_WsWriteAttribute@24"
+    },
+    {
+      "name": "_WsWriteBody@24"
+    },
+    {
+      "name": "_WsWriteBytes@16"
+    },
+    {
+      "name": "_WsWriteChars@16"
+    },
+    {
+      "name": "_WsWriteCharsUtf8@16"
+    },
+    {
+      "name": "_WsWriteElement@24"
+    },
+    {
+      "name": "_WsWriteEndAttribute@8"
+    },
+    {
+      "name": "_WsWriteEndCData@8"
+    },
+    {
+      "name": "_WsWriteEndElement@8"
+    },
+    {
+      "name": "_WsWriteEndStartElement@8"
+    },
+    {
+      "name": "_WsWriteEnvelopeEnd@8"
+    },
+    {
+      "name": "_WsWriteEnvelopeStart@20"
+    },
+    {
+      "name": "_WsWriteMessageEnd@16"
+    },
+    {
+      "name": "_WsWriteMessageStart@16"
+    },
+    {
+      "name": "_WsWriteNode@12"
+    },
+    {
+      "name": "_WsWriteQualifiedName@20"
+    },
+    {
+      "name": "_WsWriteStartAttribute@24"
+    },
+    {
+      "name": "_WsWriteStartCData@8"
+    },
+    {
+      "name": "_WsWriteStartElement@20"
+    },
+    {
+      "name": "_WsWriteText@12"
+    },
+    {
+      "name": "_WsWriteType@32"
+    },
+    {
+      "name": "_WsWriteValue@20"
+    },
+    {
+      "name": "_WsWriteXmlBuffer@12"
+    },
+    {
+      "name": "_WsWriteXmlBufferToBytes@36"
+    },
+    {
+      "name": "_WsWriteXmlnsAttribute@20"
+    },
+    {
+      "name": "_WsXmlStringEquals@12"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 22802,
+      "name": "__IMPORT_DESCRIPTOR_webservices"
+    },
+    {
+      "offset": 23372,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 23686,
+      "name": "webservices_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 43244,
+      "name": "_WsStartReaderCanonicalization@24"
+    },
+    {
+      "offset": 43244,
+      "name": "__imp__WsStartReaderCanonicalization@24"
+    },
+    {
+      "offset": 28996,
+      "name": "_WsEndReaderCanonicalization@8"
+    },
+    {
+      "offset": 28996,
+      "name": "__imp__WsEndReaderCanonicalization@8"
+    },
+    {
+      "offset": 43374,
+      "name": "_WsStartWriterCanonicalization@24"
+    },
+    {
+      "offset": 43374,
+      "name": "__imp__WsStartWriterCanonicalization@24"
+    },
+    {
+      "offset": 29124,
+      "name": "_WsEndWriterCanonicalization@8"
+    },
+    {
+      "offset": 29124,
+      "name": "__imp__WsEndWriterCanonicalization@8"
+    },
+    {
+      "offset": 28406,
+      "name": "_WsCreateXmlBuffer@20"
+    },
+    {
+      "offset": 28406,
+      "name": "__imp__WsCreateXmlBuffer@20"
+    },
+    {
+      "offset": 39700,
+      "name": "_WsRemoveNode@8"
+    },
+    {
+      "offset": 39700,
+      "name": "__imp__WsRemoveNode@8"
+    },
+    {
+      "offset": 27662,
+      "name": "_WsCreateReader@16"
+    },
+    {
+      "offset": 27662,
+      "name": "__imp__WsCreateReader@16"
+    },
+    {
+      "offset": 42060,
+      "name": "_WsSetInput@24"
+    },
+    {
+      "offset": 42060,
+      "name": "__imp__WsSetInput@24"
+    },
+    {
+      "offset": 42172,
+      "name": "_WsSetInputToBuffer@20"
+    },
+    {
+      "offset": 42172,
+      "name": "__imp__WsSetInputToBuffer@20"
+    },
+    {
+      "offset": 30620,
+      "name": "_WsFreeReader@4"
+    },
+    {
+      "offset": 30620,
+      "name": "__imp__WsFreeReader@4"
+    },
+    {
+      "offset": 34002,
+      "name": "_WsGetReaderProperty@20"
+    },
+    {
+      "offset": 34002,
+      "name": "__imp__WsGetReaderProperty@20"
+    },
+    {
+      "offset": 33766,
+      "name": "_WsGetReaderNode@12"
+    },
+    {
+      "offset": 33766,
+      "name": "__imp__WsGetReaderNode@12"
+    },
+    {
+      "offset": 29486,
+      "name": "_WsFillReader@16"
+    },
+    {
+      "offset": 29486,
+      "name": "__imp__WsFillReader@16"
+    },
+    {
+      "offset": 38386,
+      "name": "_WsReadStartElement@8"
+    },
+    {
+      "offset": 38386,
+      "name": "__imp__WsReadStartElement@8"
+    },
+    {
+      "offset": 38504,
+      "name": "_WsReadToStartElement@20"
+    },
+    {
+      "offset": 38504,
+      "name": "__imp__WsReadToStartElement@20"
+    },
+    {
+      "offset": 38264,
+      "name": "_WsReadStartAttribute@12"
+    },
+    {
+      "offset": 38264,
+      "name": "__imp__WsReadStartAttribute@12"
+    },
+    {
+      "offset": 37076,
+      "name": "_WsReadEndAttribute@8"
+    },
+    {
+      "offset": 37076,
+      "name": "__imp__WsReadEndAttribute@8"
+    },
+    {
+      "offset": 38034,
+      "name": "_WsReadNode@8"
+    },
+    {
+      "offset": 38034,
+      "name": "__imp__WsReadNode@8"
+    },
+    {
+      "offset": 43134,
+      "name": "_WsSkipNode@8"
+    },
+    {
+      "offset": 43134,
+      "name": "__imp__WsSkipNode@8"
+    },
+    {
+      "offset": 37194,
+      "name": "_WsReadEndElement@8"
+    },
+    {
+      "offset": 37194,
+      "name": "__imp__WsReadEndElement@8"
+    },
+    {
+      "offset": 29600,
+      "name": "_WsFindAttribute@24"
+    },
+    {
+      "offset": 29600,
+      "name": "__imp__WsFindAttribute@24"
+    },
+    {
+      "offset": 38738,
+      "name": "_WsReadValue@20"
+    },
+    {
+      "offset": 38738,
+      "name": "__imp__WsReadValue@20"
+    },
+    {
+      "offset": 36734,
+      "name": "_WsReadChars@20"
+    },
+    {
+      "offset": 36734,
+      "name": "__imp__WsReadChars@20"
+    },
+    {
+      "offset": 36846,
+      "name": "_WsReadCharsUtf8@20"
+    },
+    {
+      "offset": 36846,
+      "name": "__imp__WsReadCharsUtf8@20"
+    },
+    {
+      "offset": 36622,
+      "name": "_WsReadBytes@20"
+    },
+    {
+      "offset": 36622,
+      "name": "__imp__WsReadBytes@20"
+    },
+    {
+      "offset": 36282,
+      "name": "_WsReadArray@40"
+    },
+    {
+      "offset": 36282,
+      "name": "__imp__WsReadArray@40"
+    },
+    {
+      "offset": 33882,
+      "name": "_WsGetReaderPosition@12"
+    },
+    {
+      "offset": 33882,
+      "name": "__imp__WsGetReaderPosition@12"
+    },
+    {
+      "offset": 42768,
+      "name": "_WsSetReaderPosition@12"
+    },
+    {
+      "offset": 42768,
+      "name": "__imp__WsSetReaderPosition@12"
+    },
+    {
+      "offset": 35362,
+      "name": "_WsMoveReader@16"
+    },
+    {
+      "offset": 35362,
+      "name": "__imp__WsMoveReader@16"
+    },
+    {
+      "offset": 28290,
+      "name": "_WsCreateWriter@16"
+    },
+    {
+      "offset": 28290,
+      "name": "__imp__WsCreateWriter@16"
+    },
+    {
+      "offset": 31088,
+      "name": "_WsFreeWriter@4"
+    },
+    {
+      "offset": 31088,
+      "name": "__imp__WsFreeWriter@4"
+    },
+    {
+      "offset": 42536,
+      "name": "_WsSetOutput@24"
+    },
+    {
+      "offset": 42536,
+      "name": "__imp__WsSetOutput@24"
+    },
+    {
+      "offset": 42648,
+      "name": "_WsSetOutputToBuffer@20"
+    },
+    {
+      "offset": 42648,
+      "name": "__imp__WsSetOutputToBuffer@20"
+    },
+    {
+      "offset": 34752,
+      "name": "_WsGetWriterProperty@20"
+    },
+    {
+      "offset": 34752,
+      "name": "__imp__WsGetWriterProperty@20"
+    },
+    {
+      "offset": 29828,
+      "name": "_WsFlushWriter@16"
+    },
+    {
+      "offset": 29828,
+      "name": "__imp__WsFlushWriter@16"
+    },
+    {
+      "offset": 45976,
+      "name": "_WsWriteStartElement@20"
+    },
+    {
+      "offset": 45976,
+      "name": "__imp__WsWriteStartElement@20"
+    },
+    {
+      "offset": 44902,
+      "name": "_WsWriteEndStartElement@8"
+    },
+    {
+      "offset": 44902,
+      "name": "__imp__WsWriteEndStartElement@8"
+    },
+    {
+      "offset": 46676,
+      "name": "_WsWriteXmlnsAttribute@20"
+    },
+    {
+      "offset": 46676,
+      "name": "__imp__WsWriteXmlnsAttribute@20"
+    },
+    {
+      "offset": 45736,
+      "name": "_WsWriteStartAttribute@24"
+    },
+    {
+      "offset": 45736,
+      "name": "__imp__WsWriteStartAttribute@24"
+    },
+    {
+      "offset": 44548,
+      "name": "_WsWriteEndAttribute@8"
+    },
+    {
+      "offset": 44548,
+      "name": "__imp__WsWriteEndAttribute@8"
+    },
+    {
+      "offset": 46320,
+      "name": "_WsWriteValue@20"
+    },
+    {
+      "offset": 46320,
+      "name": "__imp__WsWriteValue@20"
+    },
+    {
+      "offset": 46434,
+      "name": "_WsWriteXmlBuffer@12"
+    },
+    {
+      "offset": 46434,
+      "name": "__imp__WsWriteXmlBuffer@12"
+    },
+    {
+      "offset": 38850,
+      "name": "_WsReadXmlBuffer@16"
+    },
+    {
+      "offset": 38850,
+      "name": "__imp__WsReadXmlBuffer@16"
+    },
+    {
+      "offset": 46552,
+      "name": "_WsWriteXmlBufferToBytes@36"
+    },
+    {
+      "offset": 46552,
+      "name": "__imp__WsWriteXmlBufferToBytes@36"
+    },
+    {
+      "offset": 38966,
+      "name": "_WsReadXmlBufferFromBytes@36"
+    },
+    {
+      "offset": 38966,
+      "name": "__imp__WsReadXmlBufferFromBytes@36"
+    },
+    {
+      "offset": 43742,
+      "name": "_WsWriteArray@36"
+    },
+    {
+      "offset": 43742,
+      "name": "__imp__WsWriteArray@36"
+    },
+    {
+      "offset": 45614,
+      "name": "_WsWriteQualifiedName@20"
+    },
+    {
+      "offset": 45614,
+      "name": "__imp__WsWriteQualifiedName@20"
+    },
+    {
+      "offset": 44200,
+      "name": "_WsWriteChars@16"
+    },
+    {
+      "offset": 44200,
+      "name": "__imp__WsWriteChars@16"
+    },
+    {
+      "offset": 44314,
+      "name": "_WsWriteCharsUtf8@16"
+    },
+    {
+      "offset": 44314,
+      "name": "__imp__WsWriteCharsUtf8@16"
+    },
+    {
+      "offset": 44086,
+      "name": "_WsWriteBytes@16"
+    },
+    {
+      "offset": 44086,
+      "name": "__imp__WsWriteBytes@16"
+    },
+    {
+      "offset": 36170,
+      "name": "_WsPushBytes@16"
+    },
+    {
+      "offset": 36170,
+      "name": "__imp__WsPushBytes@16"
+    },
+    {
+      "offset": 36058,
+      "name": "_WsPullBytes@16"
+    },
+    {
+      "offset": 36058,
+      "name": "__imp__WsPullBytes@16"
+    },
+    {
+      "offset": 44784,
+      "name": "_WsWriteEndElement@8"
+    },
+    {
+      "offset": 44784,
+      "name": "__imp__WsWriteEndElement@8"
+    },
+    {
+      "offset": 46096,
+      "name": "_WsWriteText@12"
+    },
+    {
+      "offset": 46096,
+      "name": "__imp__WsWriteText@12"
+    },
+    {
+      "offset": 45858,
+      "name": "_WsWriteStartCData@8"
+    },
+    {
+      "offset": 45858,
+      "name": "__imp__WsWriteStartCData@8"
+    },
+    {
+      "offset": 44668,
+      "name": "_WsWriteEndCData@8"
+    },
+    {
+      "offset": 44668,
+      "name": "__imp__WsWriteEndCData@8"
+    },
+    {
+      "offset": 45502,
+      "name": "_WsWriteNode@12"
+    },
+    {
+      "offset": 45502,
+      "name": "__imp__WsWriteNode@12"
+    },
+    {
+      "offset": 33640,
+      "name": "_WsGetPrefixFromNamespace@20"
+    },
+    {
+      "offset": 33640,
+      "name": "__imp__WsGetPrefixFromNamespace@20"
+    },
+    {
+      "offset": 34632,
+      "name": "_WsGetWriterPosition@12"
+    },
+    {
+      "offset": 34632,
+      "name": "__imp__WsGetWriterPosition@12"
+    },
+    {
+      "offset": 42888,
+      "name": "_WsSetWriterPosition@12"
+    },
+    {
+      "offset": 42888,
+      "name": "__imp__WsSetWriterPosition@12"
+    },
+    {
+      "offset": 35476,
+      "name": "_WsMoveWriter@16"
+    },
+    {
+      "offset": 35476,
+      "name": "__imp__WsMoveWriter@16"
+    },
+    {
+      "offset": 43504,
+      "name": "_WsTrimXmlWhitespace@20"
+    },
+    {
+      "offset": 43504,
+      "name": "__imp__WsTrimXmlWhitespace@20"
+    },
+    {
+      "offset": 43624,
+      "name": "_WsVerifyXmlNCName@12"
+    },
+    {
+      "offset": 43624,
+      "name": "__imp__WsVerifyXmlNCName@12"
+    },
+    {
+      "offset": 46798,
+      "name": "_WsXmlStringEquals@12"
+    },
+    {
+      "offset": 46798,
+      "name": "__imp__WsXmlStringEquals@12"
+    },
+    {
+      "offset": 33136,
+      "name": "_WsGetNamespaceFromPrefix@20"
+    },
+    {
+      "offset": 33136,
+      "name": "__imp__WsGetNamespaceFromPrefix@20"
+    },
+    {
+      "offset": 38144,
+      "name": "_WsReadQualifiedName@24"
+    },
+    {
+      "offset": 38144,
+      "name": "__imp__WsReadQualifiedName@24"
+    },
+    {
+      "offset": 34872,
+      "name": "_WsGetXmlAttribute@24"
+    },
+    {
+      "offset": 34872,
+      "name": "__imp__WsGetXmlAttribute@24"
+    },
+    {
+      "offset": 26476,
+      "name": "_WsCopyNode@12"
+    },
+    {
+      "offset": 26476,
+      "name": "__imp__WsCopyNode@12"
+    },
+    {
+      "offset": 25426,
+      "name": "_WsAsyncExecute@24"
+    },
+    {
+      "offset": 25426,
+      "name": "__imp__WsAsyncExecute@24"
+    },
+    {
+      "offset": 26588,
+      "name": "_WsCreateChannel@28"
+    },
+    {
+      "offset": 26588,
+      "name": "__imp__WsCreateChannel@28"
+    },
+    {
+      "offset": 35590,
+      "name": "_WsOpenChannel@16"
+    },
+    {
+      "offset": 35590,
+      "name": "__imp__WsOpenChannel@16"
+    },
+    {
+      "offset": 41226,
+      "name": "_WsSendMessage@32"
+    },
+    {
+      "offset": 41226,
+      "name": "__imp__WsSendMessage@32"
+    },
+    {
+      "offset": 39092,
+      "name": "_WsReceiveMessage@48"
+    },
+    {
+      "offset": 39092,
+      "name": "__imp__WsReceiveMessage@48"
+    },
+    {
+      "offset": 39812,
+      "name": "_WsRequestReply@56"
+    },
+    {
+      "offset": 39812,
+      "name": "__imp__WsRequestReply@56"
+    },
+    {
+      "offset": 41340,
+      "name": "_WsSendReplyMessage@36"
+    },
+    {
+      "offset": 41340,
+      "name": "__imp__WsSendReplyMessage@36"
+    },
+    {
+      "offset": 41098,
+      "name": "_WsSendFaultMessageForError@32"
+    },
+    {
+      "offset": 41098,
+      "name": "__imp__WsSendFaultMessageForError@32"
+    },
+    {
+      "offset": 31200,
+      "name": "_WsGetChannelProperty@20"
+    },
+    {
+      "offset": 31200,
+      "name": "__imp__WsGetChannelProperty@20"
+    },
+    {
+      "offset": 41460,
+      "name": "_WsSetChannelProperty@20"
+    },
+    {
+      "offset": 41460,
+      "name": "__imp__WsSetChannelProperty@20"
+    },
+    {
+      "offset": 45382,
+      "name": "_WsWriteMessageStart@16"
+    },
+    {
+      "offset": 45382,
+      "name": "__imp__WsWriteMessageStart@16"
+    },
+    {
+      "offset": 45264,
+      "name": "_WsWriteMessageEnd@16"
+    },
+    {
+      "offset": 45264,
+      "name": "__imp__WsWriteMessageEnd@16"
+    },
+    {
+      "offset": 37798,
+      "name": "_WsReadMessageStart@16"
+    },
+    {
+      "offset": 37798,
+      "name": "__imp__WsReadMessageStart@16"
+    },
+    {
+      "offset": 37680,
+      "name": "_WsReadMessageEnd@16"
+    },
+    {
+      "offset": 37680,
+      "name": "__imp__WsReadMessageEnd@16"
+    },
+    {
+      "offset": 25778,
+      "name": "_WsCloseChannel@12"
+    },
+    {
+      "offset": 25778,
+      "name": "__imp__WsCloseChannel@12"
+    },
+    {
+      "offset": 24264,
+      "name": "_WsAbortChannel@8"
+    },
+    {
+      "offset": 24264,
+      "name": "__imp__WsAbortChannel@8"
+    },
+    {
+      "offset": 29942,
+      "name": "_WsFreeChannel@4"
+    },
+    {
+      "offset": 29942,
+      "name": "__imp__WsFreeChannel@4"
+    },
+    {
+      "offset": 40052,
+      "name": "_WsResetChannel@8"
+    },
+    {
+      "offset": 40052,
+      "name": "__imp__WsResetChannel@8"
+    },
+    {
+      "offset": 24146,
+      "name": "_WsAbandonMessage@12"
+    },
+    {
+      "offset": 24146,
+      "name": "__imp__WsAbandonMessage@12"
+    },
+    {
+      "offset": 43008,
+      "name": "_WsShutdownSessionChannel@12"
+    },
+    {
+      "offset": 43008,
+      "name": "__imp__WsShutdownSessionChannel@12"
+    },
+    {
+      "offset": 33262,
+      "name": "_WsGetOperationContextProperty@20"
+    },
+    {
+      "offset": 33262,
+      "name": "__imp__WsGetOperationContextProperty@20"
+    },
+    {
+      "offset": 31440,
+      "name": "_WsGetDictionary@12"
+    },
+    {
+      "offset": 31440,
+      "name": "__imp__WsGetDictionary@12"
+    },
+    {
+      "offset": 37310,
+      "name": "_WsReadEndpointAddressExtension@32"
+    },
+    {
+      "offset": 37310,
+      "name": "__imp__WsReadEndpointAddressExtension@32"
+    },
+    {
+      "offset": 26832,
+      "name": "_WsCreateError@12"
+    },
+    {
+      "offset": 26832,
+      "name": "__imp__WsCreateError@12"
+    },
+    {
+      "offset": 24966,
+      "name": "_WsAddErrorString@8"
+    },
+    {
+      "offset": 24966,
+      "name": "__imp__WsAddErrorString@8"
+    },
+    {
+      "offset": 31676,
+      "name": "_WsGetErrorString@12"
+    },
+    {
+      "offset": 31676,
+      "name": "__imp__WsGetErrorString@12"
+    },
+    {
+      "offset": 26364,
+      "name": "_WsCopyError@8"
+    },
+    {
+      "offset": 26364,
+      "name": "__imp__WsCopyError@8"
+    },
+    {
+      "offset": 31556,
+      "name": "_WsGetErrorProperty@16"
+    },
+    {
+      "offset": 31556,
+      "name": "__imp__WsGetErrorProperty@16"
+    },
+    {
+      "offset": 41582,
+      "name": "_WsSetErrorProperty@16"
+    },
+    {
+      "offset": 41582,
+      "name": "__imp__WsSetErrorProperty@16"
+    },
+    {
+      "offset": 40166,
+      "name": "_WsResetError@4"
+    },
+    {
+      "offset": 40166,
+      "name": "__imp__WsResetError@4"
+    },
+    {
+      "offset": 30056,
+      "name": "_WsFreeError@4"
+    },
+    {
+      "offset": 30056,
+      "name": "__imp__WsFreeError@4"
+    },
+    {
+      "offset": 31916,
+      "name": "_WsGetFaultErrorProperty@16"
+    },
+    {
+      "offset": 31916,
+      "name": "__imp__WsGetFaultErrorProperty@16"
+    },
+    {
+      "offset": 41824,
+      "name": "_WsSetFaultErrorProperty@16"
+    },
+    {
+      "offset": 41824,
+      "name": "__imp__WsSetFaultErrorProperty@16"
+    },
+    {
+      "offset": 26946,
+      "name": "_WsCreateFaultFromError@20"
+    },
+    {
+      "offset": 26946,
+      "name": "__imp__WsCreateFaultFromError@20"
+    },
+    {
+      "offset": 41702,
+      "name": "_WsSetFaultErrorDetail@20"
+    },
+    {
+      "offset": 41702,
+      "name": "__imp__WsSetFaultErrorDetail@20"
+    },
+    {
+      "offset": 31794,
+      "name": "_WsGetFaultErrorDetail@24"
+    },
+    {
+      "offset": 31794,
+      "name": "__imp__WsGetFaultErrorDetail@24"
+    },
+    {
+      "offset": 27070,
+      "name": "_WsCreateHeap@24"
+    },
+    {
+      "offset": 27070,
+      "name": "__imp__WsCreateHeap@24"
+    },
+    {
+      "offset": 25318,
+      "name": "_WsAlloc@16"
+    },
+    {
+      "offset": 25318,
+      "name": "__imp__WsAlloc@16"
+    },
+    {
+      "offset": 32274,
+      "name": "_WsGetHeapProperty@20"
+    },
+    {
+      "offset": 32274,
+      "name": "__imp__WsGetHeapProperty@20"
+    },
+    {
+      "offset": 40278,
+      "name": "_WsResetHeap@8"
+    },
+    {
+      "offset": 40278,
+      "name": "__imp__WsResetHeap@8"
+    },
+    {
+      "offset": 30168,
+      "name": "_WsFreeHeap@4"
+    },
+    {
+      "offset": 30168,
+      "name": "__imp__WsFreeHeap@4"
+    },
+    {
+      "offset": 27184,
+      "name": "_WsCreateListener@28"
+    },
+    {
+      "offset": 27184,
+      "name": "__imp__WsCreateListener@28"
+    },
+    {
+      "offset": 35704,
+      "name": "_WsOpenListener@16"
+    },
+    {
+      "offset": 35704,
+      "name": "__imp__WsOpenListener@16"
+    },
+    {
+      "offset": 24732,
+      "name": "_WsAcceptChannel@16"
+    },
+    {
+      "offset": 24732,
+      "name": "__imp__WsAcceptChannel@16"
+    },
+    {
+      "offset": 25894,
+      "name": "_WsCloseListener@12"
+    },
+    {
+      "offset": 25894,
+      "name": "__imp__WsCloseListener@12"
+    },
+    {
+      "offset": 24378,
+      "name": "_WsAbortListener@8"
+    },
+    {
+      "offset": 24378,
+      "name": "__imp__WsAbortListener@8"
+    },
+    {
+      "offset": 40390,
+      "name": "_WsResetListener@8"
+    },
+    {
+      "offset": 40390,
+      "name": "__imp__WsResetListener@8"
+    },
+    {
+      "offset": 30278,
+      "name": "_WsFreeListener@4"
+    },
+    {
+      "offset": 30278,
+      "name": "__imp__WsFreeListener@4"
+    },
+    {
+      "offset": 32392,
+      "name": "_WsGetListenerProperty@20"
+    },
+    {
+      "offset": 32392,
+      "name": "__imp__WsGetListenerProperty@20"
+    },
+    {
+      "offset": 42292,
+      "name": "_WsSetListenerProperty@20"
+    },
+    {
+      "offset": 42292,
+      "name": "__imp__WsSetListenerProperty@20"
+    },
+    {
+      "offset": 26704,
+      "name": "_WsCreateChannelForListener@20"
+    },
+    {
+      "offset": 26704,
+      "name": "__imp__WsCreateChannelForListener@20"
+    },
+    {
+      "offset": 27302,
+      "name": "_WsCreateMessage@24"
+    },
+    {
+      "offset": 27302,
+      "name": "__imp__WsCreateMessage@24"
+    },
+    {
+      "offset": 27418,
+      "name": "_WsCreateMessageForChannel@20"
+    },
+    {
+      "offset": 27418,
+      "name": "__imp__WsCreateMessageForChannel@20"
+    },
+    {
+      "offset": 34990,
+      "name": "_WsInitializeMessage@16"
+    },
+    {
+      "offset": 34990,
+      "name": "__imp__WsInitializeMessage@16"
+    },
+    {
+      "offset": 40506,
+      "name": "_WsResetMessage@8"
+    },
+    {
+      "offset": 40506,
+      "name": "__imp__WsResetMessage@8"
+    },
+    {
+      "offset": 30392,
+      "name": "_WsFreeMessage@4"
+    },
+    {
+      "offset": 30392,
+      "name": "__imp__WsFreeMessage@4"
+    },
+    {
+      "offset": 32152,
+      "name": "_WsGetHeaderAttributes@16"
+    },
+    {
+      "offset": 32152,
+      "name": "__imp__WsGetHeaderAttributes@16"
+    },
+    {
+      "offset": 32040,
+      "name": "_WsGetHeader@32"
+    },
+    {
+      "offset": 32040,
+      "name": "__imp__WsGetHeader@32"
+    },
+    {
+      "offset": 31322,
+      "name": "_WsGetCustomHeader@40"
+    },
+    {
+      "offset": 31322,
+      "name": "__imp__WsGetCustomHeader@40"
+    },
+    {
+      "offset": 39462,
+      "name": "_WsRemoveHeader@12"
+    },
+    {
+      "offset": 39462,
+      "name": "__imp__WsRemoveHeader@12"
+    },
+    {
+      "offset": 41948,
+      "name": "_WsSetHeader@28"
+    },
+    {
+      "offset": 41948,
+      "name": "__imp__WsSetHeader@28"
+    },
+    {
+      "offset": 39340,
+      "name": "_WsRemoveCustomHeader@16"
+    },
+    {
+      "offset": 39340,
+      "name": "__imp__WsRemoveCustomHeader@16"
+    },
+    {
+      "offset": 24848,
+      "name": "_WsAddCustomHeader@28"
+    },
+    {
+      "offset": 24848,
+      "name": "__imp__WsAddCustomHeader@28"
+    },
+    {
+      "offset": 25082,
+      "name": "_WsAddMappedHeader@28"
+    },
+    {
+      "offset": 25082,
+      "name": "__imp__WsAddMappedHeader@28"
+    },
+    {
+      "offset": 39578,
+      "name": "_WsRemoveMappedHeader@12"
+    },
+    {
+      "offset": 39578,
+      "name": "__imp__WsRemoveMappedHeader@12"
+    },
+    {
+      "offset": 32514,
+      "name": "_WsGetMappedHeader@40"
+    },
+    {
+      "offset": 32514,
+      "name": "__imp__WsGetMappedHeader@40"
+    },
+    {
+      "offset": 43974,
+      "name": "_WsWriteBody@24"
+    },
+    {
+      "offset": 43974,
+      "name": "__imp__WsWriteBody@24"
+    },
+    {
+      "offset": 36510,
+      "name": "_WsReadBody@28"
+    },
+    {
+      "offset": 36510,
+      "name": "__imp__WsReadBody@28"
+    },
+    {
+      "offset": 45142,
+      "name": "_WsWriteEnvelopeStart@20"
+    },
+    {
+      "offset": 45142,
+      "name": "__imp__WsWriteEnvelopeStart@20"
+    },
+    {
+      "offset": 45024,
+      "name": "_WsWriteEnvelopeEnd@8"
+    },
+    {
+      "offset": 45024,
+      "name": "__imp__WsWriteEnvelopeEnd@8"
+    },
+    {
+      "offset": 37560,
+      "name": "_WsReadEnvelopeStart@20"
+    },
+    {
+      "offset": 37560,
+      "name": "__imp__WsReadEnvelopeStart@20"
+    },
+    {
+      "offset": 37442,
+      "name": "_WsReadEnvelopeEnd@8"
+    },
+    {
+      "offset": 37442,
+      "name": "__imp__WsReadEnvelopeEnd@8"
+    },
+    {
+      "offset": 32632,
+      "name": "_WsGetMessageProperty@20"
+    },
+    {
+      "offset": 32632,
+      "name": "__imp__WsGetMessageProperty@20"
+    },
+    {
+      "offset": 42414,
+      "name": "_WsSetMessageProperty@20"
+    },
+    {
+      "offset": 42414,
+      "name": "__imp__WsSetMessageProperty@20"
+    },
+    {
+      "offset": 25200,
+      "name": "_WsAddressMessage@12"
+    },
+    {
+      "offset": 25200,
+      "name": "__imp__WsAddressMessage@12"
+    },
+    {
+      "offset": 25650,
+      "name": "_WsCheckMustUnderstandHeaders@8"
+    },
+    {
+      "offset": 25650,
+      "name": "__imp__WsCheckMustUnderstandHeaders@8"
+    },
+    {
+      "offset": 35110,
+      "name": "_WsMarkHeaderAsUnderstood@12"
+    },
+    {
+      "offset": 35110,
+      "name": "__imp__WsMarkHeaderAsUnderstood@12"
+    },
+    {
+      "offset": 29374,
+      "name": "_WsFillBody@16"
+    },
+    {
+      "offset": 29374,
+      "name": "__imp__WsFillBody@16"
+    },
+    {
+      "offset": 29716,
+      "name": "_WsFlushBody@16"
+    },
+    {
+      "offset": 29716,
+      "name": "__imp__WsFlushBody@16"
+    },
+    {
+      "offset": 39928,
+      "name": "_WsRequestSecurityToken@24"
+    },
+    {
+      "offset": 39928,
+      "name": "__imp__WsRequestSecurityToken@24"
+    },
+    {
+      "offset": 34252,
+      "name": "_WsGetSecurityTokenProperty@24"
+    },
+    {
+      "offset": 34252,
+      "name": "__imp__WsGetSecurityTokenProperty@24"
+    },
+    {
+      "offset": 28524,
+      "name": "_WsCreateXmlSecurityToken@24"
+    },
+    {
+      "offset": 28524,
+      "name": "__imp__WsCreateXmlSecurityToken@24"
+    },
+    {
+      "offset": 30732,
+      "name": "_WsFreeSecurityToken@4"
+    },
+    {
+      "offset": 30732,
+      "name": "__imp__WsFreeSecurityToken@4"
+    },
+    {
+      "offset": 40974,
+      "name": "_WsRevokeSecurityContext@8"
+    },
+    {
+      "offset": 40974,
+      "name": "__imp__WsRevokeSecurityContext@8"
+    },
+    {
+      "offset": 34122,
+      "name": "_WsGetSecurityContextProperty@20"
+    },
+    {
+      "offset": 34122,
+      "name": "__imp__WsGetSecurityContextProperty@20"
+    },
+    {
+      "offset": 36962,
+      "name": "_WsReadElement@28"
+    },
+    {
+      "offset": 36962,
+      "name": "__imp__WsReadElement@28"
+    },
+    {
+      "offset": 36394,
+      "name": "_WsReadAttribute@28"
+    },
+    {
+      "offset": 36394,
+      "name": "__imp__WsReadAttribute@28"
+    },
+    {
+      "offset": 38626,
+      "name": "_WsReadType@36"
+    },
+    {
+      "offset": 38626,
+      "name": "__imp__WsReadType@36"
+    },
+    {
+      "offset": 44432,
+      "name": "_WsWriteElement@24"
+    },
+    {
+      "offset": 44432,
+      "name": "__imp__WsWriteElement@24"
+    },
+    {
+      "offset": 43856,
+      "name": "_WsWriteAttribute@24"
+    },
+    {
+      "offset": 43856,
+      "name": "__imp__WsWriteAttribute@24"
+    },
+    {
+      "offset": 46208,
+      "name": "_WsWriteType@32"
+    },
+    {
+      "offset": 46208,
+      "name": "__imp__WsWriteType@32"
+    },
+    {
+      "offset": 39210,
+      "name": "_WsRegisterOperationForCancel@20"
+    },
+    {
+      "offset": 39210,
+      "name": "__imp__WsRegisterOperationForCancel@20"
+    },
+    {
+      "offset": 34380,
+      "name": "_WsGetServiceHostProperty@20"
+    },
+    {
+      "offset": 34380,
+      "name": "__imp__WsGetServiceHostProperty@20"
+    },
+    {
+      "offset": 27914,
+      "name": "_WsCreateServiceHost@24"
+    },
+    {
+      "offset": 27914,
+      "name": "__imp__WsCreateServiceHost@24"
+    },
+    {
+      "offset": 35820,
+      "name": "_WsOpenServiceHost@12"
+    },
+    {
+      "offset": 35820,
+      "name": "__imp__WsOpenServiceHost@12"
+    },
+    {
+      "offset": 26010,
+      "name": "_WsCloseServiceHost@12"
+    },
+    {
+      "offset": 26010,
+      "name": "__imp__WsCloseServiceHost@12"
+    },
+    {
+      "offset": 24494,
+      "name": "_WsAbortServiceHost@8"
+    },
+    {
+      "offset": 24494,
+      "name": "__imp__WsAbortServiceHost@8"
+    },
+    {
+      "offset": 30852,
+      "name": "_WsFreeServiceHost@4"
+    },
+    {
+      "offset": 30852,
+      "name": "__imp__WsFreeServiceHost@4"
+    },
+    {
+      "offset": 40736,
+      "name": "_WsResetServiceHost@8"
+    },
+    {
+      "offset": 40736,
+      "name": "__imp__WsResetServiceHost@8"
+    },
+    {
+      "offset": 34506,
+      "name": "_WsGetServiceProxyProperty@20"
+    },
+    {
+      "offset": 34506,
+      "name": "__imp__WsGetServiceProxyProperty@20"
+    },
+    {
+      "offset": 28034,
+      "name": "_WsCreateServiceProxy@36"
+    },
+    {
+      "offset": 28034,
+      "name": "__imp__WsCreateServiceProxy@36"
+    },
+    {
+      "offset": 35938,
+      "name": "_WsOpenServiceProxy@16"
+    },
+    {
+      "offset": 35938,
+      "name": "__imp__WsOpenServiceProxy@16"
+    },
+    {
+      "offset": 26130,
+      "name": "_WsCloseServiceProxy@12"
+    },
+    {
+      "offset": 26130,
+      "name": "__imp__WsCloseServiceProxy@12"
+    },
+    {
+      "offset": 24612,
+      "name": "_WsAbortServiceProxy@8"
+    },
+    {
+      "offset": 24612,
+      "name": "__imp__WsAbortServiceProxy@8"
+    },
+    {
+      "offset": 30970,
+      "name": "_WsFreeServiceProxy@4"
+    },
+    {
+      "offset": 30970,
+      "name": "__imp__WsFreeServiceProxy@4"
+    },
+    {
+      "offset": 40854,
+      "name": "_WsResetServiceProxy@8"
+    },
+    {
+      "offset": 40854,
+      "name": "__imp__WsResetServiceProxy@8"
+    },
+    {
+      "offset": 24032,
+      "name": "_WsAbandonCall@12"
+    },
+    {
+      "offset": 24032,
+      "name": "__imp__WsAbandonCall@12"
+    },
+    {
+      "offset": 25542,
+      "name": "_WsCall@32"
+    },
+    {
+      "offset": 25542,
+      "name": "__imp__WsCall@32"
+    },
+    {
+      "offset": 28772,
+      "name": "_WsDecodeUrl@20"
+    },
+    {
+      "offset": 28772,
+      "name": "__imp__WsDecodeUrl@20"
+    },
+    {
+      "offset": 28884,
+      "name": "_WsEncodeUrl@20"
+    },
+    {
+      "offset": 28884,
+      "name": "__imp__WsEncodeUrl@20"
+    },
+    {
+      "offset": 26250,
+      "name": "_WsCombineUrl@24"
+    },
+    {
+      "offset": 26250,
+      "name": "__imp__WsCombineUrl@24"
+    },
+    {
+      "offset": 28650,
+      "name": "_WsDateTimeToFileTime@12"
+    },
+    {
+      "offset": 28650,
+      "name": "__imp__WsDateTimeToFileTime@12"
+    },
+    {
+      "offset": 29252,
+      "name": "_WsFileTimeToDateTime@12"
+    },
+    {
+      "offset": 29252,
+      "name": "__imp__WsFileTimeToDateTime@12"
+    },
+    {
+      "offset": 27544,
+      "name": "_WsCreateMetadata@16"
+    },
+    {
+      "offset": 27544,
+      "name": "__imp__WsCreateMetadata@16"
+    },
+    {
+      "offset": 37918,
+      "name": "_WsReadMetadata@16"
+    },
+    {
+      "offset": 37918,
+      "name": "__imp__WsReadMetadata@16"
+    },
+    {
+      "offset": 30506,
+      "name": "_WsFreeMetadata@4"
+    },
+    {
+      "offset": 30506,
+      "name": "__imp__WsFreeMetadata@4"
+    },
+    {
+      "offset": 40620,
+      "name": "_WsResetMetadata@8"
+    },
+    {
+      "offset": 40620,
+      "name": "__imp__WsResetMetadata@8"
+    },
+    {
+      "offset": 32878,
+      "name": "_WsGetMetadataProperty@20"
+    },
+    {
+      "offset": 32878,
+      "name": "__imp__WsGetMetadataProperty@20"
+    },
+    {
+      "offset": 33000,
+      "name": "_WsGetMissingMetadataDocumentAddress@12"
+    },
+    {
+      "offset": 33000,
+      "name": "__imp__WsGetMissingMetadataDocumentAddress@12"
+    },
+    {
+      "offset": 32754,
+      "name": "_WsGetMetadataEndpoints@12"
+    },
+    {
+      "offset": 32754,
+      "name": "__imp__WsGetMetadataEndpoints@12"
+    },
+    {
+      "offset": 35236,
+      "name": "_WsMatchPolicyAlternative@24"
+    },
+    {
+      "offset": 35236,
+      "name": "__imp__WsMatchPolicyAlternative@24"
+    },
+    {
+      "offset": 33520,
+      "name": "_WsGetPolicyProperty@20"
+    },
+    {
+      "offset": 33520,
+      "name": "__imp__WsGetPolicyProperty@20"
+    },
+    {
+      "offset": 33392,
+      "name": "_WsGetPolicyAlternativeCount@12"
+    },
+    {
+      "offset": 33392,
+      "name": "__imp__WsGetPolicyAlternativeCount@12"
+    },
+    {
+      "offset": 28156,
+      "name": "_WsCreateServiceProxyFromTemplate@40"
+    },
+    {
+      "offset": 28156,
+      "name": "__imp__WsCreateServiceProxyFromTemplate@40"
+    },
+    {
+      "offset": 27778,
+      "name": "_WsCreateServiceEndpointFromTemplate@56"
+    },
+    {
+      "offset": 27778,
+      "name": "__imp__WsCreateServiceEndpointFromTemplate@56"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 24032,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3714321217,
+      "sizeOfData": 34,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsAbandonCall@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "WsAbandonCall"
+    },
+    {
+      "offset": 24146,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3707115360,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsAbandonMessage@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "WsAbandonMessage"
+    },
+    {
+      "offset": 24264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3936880505,
+      "sizeOfData": 34,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsAbortChannel@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "WsAbortChannel"
+    },
+    {
+      "offset": 24378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3489588927,
+      "sizeOfData": 35,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsAbortListener@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "WsAbortListener"
+    },
+    {
+      "offset": 24494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3278531530,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsAbortServiceHost@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "WsAbortServiceHost"
+    },
+    {
+      "offset": 24612,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3817802185,
+      "sizeOfData": 39,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsAbortServiceProxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "WsAbortServiceProxy"
+    },
+    {
+      "offset": 24732,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3931977944,
+      "sizeOfData": 36,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsAcceptChannel@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "WsAcceptChannel"
+    },
+    {
+      "offset": 24848,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3248832178,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsAddCustomHeader@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "WsAddCustomHeader"
+    },
+    {
+      "offset": 24966,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3511085203,
+      "sizeOfData": 36,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsAddErrorString@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "WsAddErrorString"
+    },
+    {
+      "offset": 25082,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3805729061,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsAddMappedHeader@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "WsAddMappedHeader"
+    },
+    {
+      "offset": 25200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3743444433,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsAddressMessage@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "WsAddressMessage"
+    },
+    {
+      "offset": 25318,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4285417946,
+      "sizeOfData": 28,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsAlloc@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "WsAlloc"
+    },
+    {
+      "offset": 25426,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4226739493,
+      "sizeOfData": 35,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsAsyncExecute@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "WsAsyncExecute"
+    },
+    {
+      "offset": 25542,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4184600933,
+      "sizeOfData": 27,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCall@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "WsCall"
+    },
+    {
+      "offset": 25650,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3892466941,
+      "sizeOfData": 48,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCheckMustUnderstandHeaders@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "WsCheckMustUnderstandHeaders"
+    },
+    {
+      "offset": 25778,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4217273761,
+      "sizeOfData": 35,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCloseChannel@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "WsCloseChannel"
+    },
+    {
+      "offset": 25894,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3915908532,
+      "sizeOfData": 36,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCloseListener@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "WsCloseListener"
+    },
+    {
+      "offset": 26010,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3904472926,
+      "sizeOfData": 39,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCloseServiceHost@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "WsCloseServiceHost"
+    },
+    {
+      "offset": 26130,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3383869616,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCloseServiceProxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "WsCloseServiceProxy"
+    },
+    {
+      "offset": 26250,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3452539219,
+      "sizeOfData": 33,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCombineUrl@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "WsCombineUrl"
+    },
+    {
+      "offset": 26364,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3910738103,
+      "sizeOfData": 31,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCopyError@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "WsCopyError"
+    },
+    {
+      "offset": 26476,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4218202455,
+      "sizeOfData": 31,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCopyNode@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "WsCopyNode"
+    },
+    {
+      "offset": 26588,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3333299234,
+      "sizeOfData": 36,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateChannel@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "WsCreateChannel"
+    },
+    {
+      "offset": 26704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3630374039,
+      "sizeOfData": 47,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateChannelForListener@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "WsCreateChannelForListener"
+    },
+    {
+      "offset": 26832,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3582569061,
+      "sizeOfData": 34,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateError@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "WsCreateError"
+    },
+    {
+      "offset": 26946,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3771716802,
+      "sizeOfData": 43,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateFaultFromError@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "WsCreateFaultFromError"
+    },
+    {
+      "offset": 27070,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4078589793,
+      "sizeOfData": 33,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateHeap@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "WsCreateHeap"
+    },
+    {
+      "offset": 27184,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3646389644,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateListener@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "WsCreateListener"
+    },
+    {
+      "offset": 27302,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3830866334,
+      "sizeOfData": 36,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateMessage@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "WsCreateMessage"
+    },
+    {
+      "offset": 27418,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3769491837,
+      "sizeOfData": 46,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateMessageForChannel@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "WsCreateMessageForChannel"
+    },
+    {
+      "offset": 27544,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4178662627,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateMetadata@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "WsCreateMetadata"
+    },
+    {
+      "offset": 27662,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3311845652,
+      "sizeOfData": 35,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateReader@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "WsCreateReader"
+    },
+    {
+      "offset": 27778,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3918359566,
+      "sizeOfData": 56,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateServiceEndpointFromTemplate@56",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "WsCreateServiceEndpointFromTemplate"
+    },
+    {
+      "offset": 27914,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3493761833,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateServiceHost@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "WsCreateServiceHost"
+    },
+    {
+      "offset": 28034,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4218531589,
+      "sizeOfData": 41,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateServiceProxy@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "WsCreateServiceProxy"
+    },
+    {
+      "offset": 28156,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4053784823,
+      "sizeOfData": 53,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateServiceProxyFromTemplate@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "WsCreateServiceProxyFromTemplate"
+    },
+    {
+      "offset": 28290,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3224174175,
+      "sizeOfData": 35,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateWriter@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "WsCreateWriter"
+    },
+    {
+      "offset": 28406,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3506686028,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateXmlBuffer@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "WsCreateXmlBuffer"
+    },
+    {
+      "offset": 28524,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3625345430,
+      "sizeOfData": 45,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsCreateXmlSecurityToken@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "WsCreateXmlSecurityToken"
+    },
+    {
+      "offset": 28650,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3970190026,
+      "sizeOfData": 41,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsDateTimeToFileTime@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "WsDateTimeToFileTime"
+    },
+    {
+      "offset": 28772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3815575256,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsDecodeUrl@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "WsDecodeUrl"
+    },
+    {
+      "offset": 28884,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3588264801,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsEncodeUrl@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "WsEncodeUrl"
+    },
+    {
+      "offset": 28996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3235281655,
+      "sizeOfData": 47,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsEndReaderCanonicalization@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "WsEndReaderCanonicalization"
+    },
+    {
+      "offset": 29124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3840930948,
+      "sizeOfData": 47,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsEndWriterCanonicalization@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "WsEndWriterCanonicalization"
+    },
+    {
+      "offset": 29252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3978082792,
+      "sizeOfData": 41,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFileTimeToDateTime@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "WsFileTimeToDateTime"
+    },
+    {
+      "offset": 29374,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3561342747,
+      "sizeOfData": 31,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFillBody@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "WsFillBody"
+    },
+    {
+      "offset": 29486,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3993108626,
+      "sizeOfData": 33,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFillReader@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "WsFillReader"
+    },
+    {
+      "offset": 29600,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3545970061,
+      "sizeOfData": 36,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFindAttribute@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "WsFindAttribute"
+    },
+    {
+      "offset": 29716,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4069141754,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFlushBody@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "WsFlushBody"
+    },
+    {
+      "offset": 29828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4130084928,
+      "sizeOfData": 34,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFlushWriter@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "WsFlushWriter"
+    },
+    {
+      "offset": 29942,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4144453977,
+      "sizeOfData": 33,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFreeChannel@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "WsFreeChannel"
+    },
+    {
+      "offset": 30056,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4194080978,
+      "sizeOfData": 31,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFreeError@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "WsFreeError"
+    },
+    {
+      "offset": 30168,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4147739145,
+      "sizeOfData": 30,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFreeHeap@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "WsFreeHeap"
+    },
+    {
+      "offset": 30278,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4173786367,
+      "sizeOfData": 34,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFreeListener@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "WsFreeListener"
+    },
+    {
+      "offset": 30392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4082286939,
+      "sizeOfData": 33,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFreeMessage@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "WsFreeMessage"
+    },
+    {
+      "offset": 30506,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3987998734,
+      "sizeOfData": 34,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFreeMetadata@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "WsFreeMetadata"
+    },
+    {
+      "offset": 30620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3509309817,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFreeReader@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "WsFreeReader"
+    },
+    {
+      "offset": 30732,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3617568030,
+      "sizeOfData": 39,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFreeSecurityToken@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "WsFreeSecurityToken"
+    },
+    {
+      "offset": 30852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3574915249,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFreeServiceHost@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "WsFreeServiceHost"
+    },
+    {
+      "offset": 30970,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4181631630,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFreeServiceProxy@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "WsFreeServiceProxy"
+    },
+    {
+      "offset": 31088,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3803659897,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsFreeWriter@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "WsFreeWriter"
+    },
+    {
+      "offset": 31200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3699471844,
+      "sizeOfData": 41,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetChannelProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "WsGetChannelProperty"
+    },
+    {
+      "offset": 31322,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3307419036,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetCustomHeader@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "WsGetCustomHeader"
+    },
+    {
+      "offset": 31440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3669439455,
+      "sizeOfData": 36,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetDictionary@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "WsGetDictionary"
+    },
+    {
+      "offset": 31556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3238418319,
+      "sizeOfData": 39,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetErrorProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "WsGetErrorProperty"
+    },
+    {
+      "offset": 31676,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4074122849,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetErrorString@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "WsGetErrorString"
+    },
+    {
+      "offset": 31794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3739737808,
+      "sizeOfData": 42,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetFaultErrorDetail@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "WsGetFaultErrorDetail"
+    },
+    {
+      "offset": 31916,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3983873361,
+      "sizeOfData": 44,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetFaultErrorProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "WsGetFaultErrorProperty"
+    },
+    {
+      "offset": 32040,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3608153460,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetHeader@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "WsGetHeader"
+    },
+    {
+      "offset": 32152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4094213519,
+      "sizeOfData": 42,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetHeaderAttributes@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "WsGetHeaderAttributes"
+    },
+    {
+      "offset": 32274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4111217246,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetHeapProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "WsGetHeapProperty"
+    },
+    {
+      "offset": 32392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3941635039,
+      "sizeOfData": 42,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetListenerProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "WsGetListenerProperty"
+    },
+    {
+      "offset": 32514,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3631746560,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetMappedHeader@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "WsGetMappedHeader"
+    },
+    {
+      "offset": 32632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3974144986,
+      "sizeOfData": 41,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetMessageProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "WsGetMessageProperty"
+    },
+    {
+      "offset": 32754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3983626845,
+      "sizeOfData": 43,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetMetadataEndpoints@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "WsGetMetadataEndpoints"
+    },
+    {
+      "offset": 32878,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3807793116,
+      "sizeOfData": 42,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetMetadataProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "WsGetMetadataProperty"
+    },
+    {
+      "offset": 33000,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4211627028,
+      "sizeOfData": 56,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetMissingMetadataDocumentAddress@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "WsGetMissingMetadataDocumentAddress"
+    },
+    {
+      "offset": 33136,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4136845613,
+      "sizeOfData": 45,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetNamespaceFromPrefix@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "WsGetNamespaceFromPrefix"
+    },
+    {
+      "offset": 33262,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3854873786,
+      "sizeOfData": 50,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetOperationContextProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "WsGetOperationContextProperty"
+    },
+    {
+      "offset": 33392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3285430982,
+      "sizeOfData": 48,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetPolicyAlternativeCount@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "WsGetPolicyAlternativeCount"
+    },
+    {
+      "offset": 33520,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3589529379,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetPolicyProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "WsGetPolicyProperty"
+    },
+    {
+      "offset": 33640,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4020525585,
+      "sizeOfData": 45,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetPrefixFromNamespace@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "WsGetPrefixFromNamespace"
+    },
+    {
+      "offset": 33766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3255471230,
+      "sizeOfData": 36,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetReaderNode@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "WsGetReaderNode"
+    },
+    {
+      "offset": 33882,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3667874056,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetReaderPosition@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "WsGetReaderPosition"
+    },
+    {
+      "offset": 34002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3433005012,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetReaderProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "WsGetReaderProperty"
+    },
+    {
+      "offset": 34122,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3717133947,
+      "sizeOfData": 49,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetSecurityContextProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "WsGetSecurityContextProperty"
+    },
+    {
+      "offset": 34252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3996985177,
+      "sizeOfData": 47,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetSecurityTokenProperty@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "WsGetSecurityTokenProperty"
+    },
+    {
+      "offset": 34380,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3281245235,
+      "sizeOfData": 45,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetServiceHostProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "WsGetServiceHostProperty"
+    },
+    {
+      "offset": 34506,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4026430051,
+      "sizeOfData": 46,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetServiceProxyProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "WsGetServiceProxyProperty"
+    },
+    {
+      "offset": 34632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3769342725,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetWriterPosition@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "WsGetWriterPosition"
+    },
+    {
+      "offset": 34752,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4055609023,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetWriterProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "WsGetWriterProperty"
+    },
+    {
+      "offset": 34872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4260499714,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsGetXmlAttribute@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "WsGetXmlAttribute"
+    },
+    {
+      "offset": 34990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4023805696,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsInitializeMessage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "WsInitializeMessage"
+    },
+    {
+      "offset": 35110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3341711147,
+      "sizeOfData": 45,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsMarkHeaderAsUnderstood@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "WsMarkHeaderAsUnderstood"
+    },
+    {
+      "offset": 35236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3326247912,
+      "sizeOfData": 45,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsMatchPolicyAlternative@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "WsMatchPolicyAlternative"
+    },
+    {
+      "offset": 35362,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3571907605,
+      "sizeOfData": 33,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsMoveReader@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "WsMoveReader"
+    },
+    {
+      "offset": 35476,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3637455011,
+      "sizeOfData": 33,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsMoveWriter@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "WsMoveWriter"
+    },
+    {
+      "offset": 35590,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4006871454,
+      "sizeOfData": 34,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsOpenChannel@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "WsOpenChannel"
+    },
+    {
+      "offset": 35704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3741729571,
+      "sizeOfData": 35,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsOpenListener@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "WsOpenListener"
+    },
+    {
+      "offset": 35820,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3941881694,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsOpenServiceHost@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "WsOpenServiceHost"
+    },
+    {
+      "offset": 35938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4102208129,
+      "sizeOfData": 39,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsOpenServiceProxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "WsOpenServiceProxy"
+    },
+    {
+      "offset": 36058,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4192259802,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsPullBytes@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "WsPullBytes"
+    },
+    {
+      "offset": 36170,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3565324173,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsPushBytes@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "WsPushBytes"
+    },
+    {
+      "offset": 36282,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4007991464,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadArray@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "WsReadArray"
+    },
+    {
+      "offset": 36394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3750759797,
+      "sizeOfData": 36,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadAttribute@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "WsReadAttribute"
+    },
+    {
+      "offset": 36510,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4207459727,
+      "sizeOfData": 31,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadBody@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "WsReadBody"
+    },
+    {
+      "offset": 36622,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3588317255,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadBytes@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "WsReadBytes"
+    },
+    {
+      "offset": 36734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3630734195,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadChars@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "WsReadChars"
+    },
+    {
+      "offset": 36846,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4256084040,
+      "sizeOfData": 36,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadCharsUtf8@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "WsReadCharsUtf8"
+    },
+    {
+      "offset": 36962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3679331119,
+      "sizeOfData": 34,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadElement@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "WsReadElement"
+    },
+    {
+      "offset": 37076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3227370473,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadEndAttribute@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "WsReadEndAttribute"
+    },
+    {
+      "offset": 37194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3901105334,
+      "sizeOfData": 36,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadEndElement@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "WsReadEndElement"
+    },
+    {
+      "offset": 37310,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4015551483,
+      "sizeOfData": 51,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadEndpointAddressExtension@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "WsReadEndpointAddressExtension"
+    },
+    {
+      "offset": 37442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3255432376,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadEnvelopeEnd@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "WsReadEnvelopeEnd"
+    },
+    {
+      "offset": 37560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4069717161,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadEnvelopeStart@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "WsReadEnvelopeStart"
+    },
+    {
+      "offset": 37680,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3582353495,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadMessageEnd@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "WsReadMessageEnd"
+    },
+    {
+      "offset": 37798,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4272430928,
+      "sizeOfData": 39,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadMessageStart@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "WsReadMessageStart"
+    },
+    {
+      "offset": 37918,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3839774257,
+      "sizeOfData": 35,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadMetadata@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "WsReadMetadata"
+    },
+    {
+      "offset": 38034,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3625155351,
+      "sizeOfData": 30,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadNode@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "WsReadNode"
+    },
+    {
+      "offset": 38144,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4168660794,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadQualifiedName@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "WsReadQualifiedName"
+    },
+    {
+      "offset": 38264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3915171138,
+      "sizeOfData": 41,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadStartAttribute@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "WsReadStartAttribute"
+    },
+    {
+      "offset": 38386,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4004598881,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadStartElement@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "WsReadStartElement"
+    },
+    {
+      "offset": 38504,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3273945473,
+      "sizeOfData": 41,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadToStartElement@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "WsReadToStartElement"
+    },
+    {
+      "offset": 38626,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4211239587,
+      "sizeOfData": 31,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadType@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "WsReadType"
+    },
+    {
+      "offset": 38738,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3725350822,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadValue@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "WsReadValue"
+    },
+    {
+      "offset": 38850,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4151591083,
+      "sizeOfData": 36,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadXmlBuffer@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "WsReadXmlBuffer"
+    },
+    {
+      "offset": 38966,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3265998076,
+      "sizeOfData": 45,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReadXmlBufferFromBytes@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "WsReadXmlBufferFromBytes"
+    },
+    {
+      "offset": 39092,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4011390596,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsReceiveMessage@48",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "WsReceiveMessage"
+    },
+    {
+      "offset": 39210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4280866103,
+      "sizeOfData": 49,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsRegisterOperationForCancel@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "WsRegisterOperationForCancel"
+    },
+    {
+      "offset": 39340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4245205438,
+      "sizeOfData": 41,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsRemoveCustomHeader@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "WsRemoveCustomHeader"
+    },
+    {
+      "offset": 39462,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3278720146,
+      "sizeOfData": 35,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsRemoveHeader@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "WsRemoveHeader"
+    },
+    {
+      "offset": 39578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3855393702,
+      "sizeOfData": 41,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsRemoveMappedHeader@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "WsRemoveMappedHeader"
+    },
+    {
+      "offset": 39700,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3444384396,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsRemoveNode@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "WsRemoveNode"
+    },
+    {
+      "offset": 39812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3240747984,
+      "sizeOfData": 35,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsRequestReply@56",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "WsRequestReply"
+    },
+    {
+      "offset": 39928,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3728095515,
+      "sizeOfData": 43,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsRequestSecurityToken@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "WsRequestSecurityToken"
+    },
+    {
+      "offset": 40052,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4098013942,
+      "sizeOfData": 34,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsResetChannel@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "WsResetChannel"
+    },
+    {
+      "offset": 40166,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3484140771,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsResetError@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "WsResetError"
+    },
+    {
+      "offset": 40278,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4133151258,
+      "sizeOfData": 31,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsResetHeap@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "WsResetHeap"
+    },
+    {
+      "offset": 40390,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4282078525,
+      "sizeOfData": 35,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsResetListener@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "WsResetListener"
+    },
+    {
+      "offset": 40506,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3536609677,
+      "sizeOfData": 34,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsResetMessage@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "WsResetMessage"
+    },
+    {
+      "offset": 40620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4293278299,
+      "sizeOfData": 35,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsResetMetadata@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "WsResetMetadata"
+    },
+    {
+      "offset": 40736,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3638467121,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsResetServiceHost@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "WsResetServiceHost"
+    },
+    {
+      "offset": 40854,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4265574306,
+      "sizeOfData": 39,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsResetServiceProxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "WsResetServiceProxy"
+    },
+    {
+      "offset": 40974,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3923667143,
+      "sizeOfData": 43,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsRevokeSecurityContext@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "WsRevokeSecurityContext"
+    },
+    {
+      "offset": 41098,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4149462536,
+      "sizeOfData": 47,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSendFaultMessageForError@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "WsSendFaultMessageForError"
+    },
+    {
+      "offset": 41226,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3586733863,
+      "sizeOfData": 34,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSendMessage@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "WsSendMessage"
+    },
+    {
+      "offset": 41340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3705209002,
+      "sizeOfData": 39,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSendReplyMessage@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "WsSendReplyMessage"
+    },
+    {
+      "offset": 41460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4114456474,
+      "sizeOfData": 41,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSetChannelProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "WsSetChannelProperty"
+    },
+    {
+      "offset": 41582,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3245252861,
+      "sizeOfData": 39,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSetErrorProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "WsSetErrorProperty"
+    },
+    {
+      "offset": 41702,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3905944763,
+      "sizeOfData": 42,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSetFaultErrorDetail@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "WsSetFaultErrorDetail"
+    },
+    {
+      "offset": 41824,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4232622475,
+      "sizeOfData": 44,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSetFaultErrorProperty@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "WsSetFaultErrorProperty"
+    },
+    {
+      "offset": 41948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3604150479,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSetHeader@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "WsSetHeader"
+    },
+    {
+      "offset": 42060,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3784532300,
+      "sizeOfData": 31,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSetInput@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "WsSetInput"
+    },
+    {
+      "offset": 42172,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4071385811,
+      "sizeOfData": 39,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSetInputToBuffer@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "WsSetInputToBuffer"
+    },
+    {
+      "offset": 42292,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4071813587,
+      "sizeOfData": 42,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSetListenerProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "WsSetListenerProperty"
+    },
+    {
+      "offset": 42414,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3616502344,
+      "sizeOfData": 41,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSetMessageProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "WsSetMessageProperty"
+    },
+    {
+      "offset": 42536,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3966258562,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSetOutput@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "WsSetOutput"
+    },
+    {
+      "offset": 42648,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3619247704,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSetOutputToBuffer@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "WsSetOutputToBuffer"
+    },
+    {
+      "offset": 42768,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3529250068,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSetReaderPosition@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 158,
+      "name": "WsSetReaderPosition"
+    },
+    {
+      "offset": 42888,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3261902743,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSetWriterPosition@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 159,
+      "name": "WsSetWriterPosition"
+    },
+    {
+      "offset": 43008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3659045669,
+      "sizeOfData": 45,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsShutdownSessionChannel@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 160,
+      "name": "WsShutdownSessionChannel"
+    },
+    {
+      "offset": 43134,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3931250903,
+      "sizeOfData": 30,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsSkipNode@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 161,
+      "name": "WsSkipNode"
+    },
+    {
+      "offset": 43244,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3278196830,
+      "sizeOfData": 50,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsStartReaderCanonicalization@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 162,
+      "name": "WsStartReaderCanonicalization"
+    },
+    {
+      "offset": 43374,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4136541261,
+      "sizeOfData": 50,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsStartWriterCanonicalization@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 163,
+      "name": "WsStartWriterCanonicalization"
+    },
+    {
+      "offset": 43504,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3932159577,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsTrimXmlWhitespace@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 164,
+      "name": "WsTrimXmlWhitespace"
+    },
+    {
+      "offset": 43624,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3850225796,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsVerifyXmlNCName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 165,
+      "name": "WsVerifyXmlNCName"
+    },
+    {
+      "offset": 43742,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3676762159,
+      "sizeOfData": 33,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteArray@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 166,
+      "name": "WsWriteArray"
+    },
+    {
+      "offset": 43856,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3666719480,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteAttribute@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 167,
+      "name": "WsWriteAttribute"
+    },
+    {
+      "offset": 43974,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3250513959,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteBody@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 168,
+      "name": "WsWriteBody"
+    },
+    {
+      "offset": 44086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4126245440,
+      "sizeOfData": 33,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteBytes@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 169,
+      "name": "WsWriteBytes"
+    },
+    {
+      "offset": 44200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4231625563,
+      "sizeOfData": 33,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteChars@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 170,
+      "name": "WsWriteChars"
+    },
+    {
+      "offset": 44314,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3654690066,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteCharsUtf8@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 171,
+      "name": "WsWriteCharsUtf8"
+    },
+    {
+      "offset": 44432,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3682927738,
+      "sizeOfData": 35,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteElement@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 172,
+      "name": "WsWriteElement"
+    },
+    {
+      "offset": 44548,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3273256044,
+      "sizeOfData": 39,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteEndAttribute@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 173,
+      "name": "WsWriteEndAttribute"
+    },
+    {
+      "offset": 44668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3695196689,
+      "sizeOfData": 35,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteEndCData@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 174,
+      "name": "WsWriteEndCData"
+    },
+    {
+      "offset": 44784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3990787738,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteEndElement@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 175,
+      "name": "WsWriteEndElement"
+    },
+    {
+      "offset": 44902,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3296659140,
+      "sizeOfData": 42,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteEndStartElement@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 176,
+      "name": "WsWriteEndStartElement"
+    },
+    {
+      "offset": 45024,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3876640525,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteEnvelopeEnd@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 177,
+      "name": "WsWriteEnvelopeEnd"
+    },
+    {
+      "offset": 45142,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3583812565,
+      "sizeOfData": 41,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteEnvelopeStart@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 178,
+      "name": "WsWriteEnvelopeStart"
+    },
+    {
+      "offset": 45264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3248155750,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteMessageEnd@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 179,
+      "name": "WsWriteMessageEnd"
+    },
+    {
+      "offset": 45382,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3499956373,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteMessageStart@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 180,
+      "name": "WsWriteMessageStart"
+    },
+    {
+      "offset": 45502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3365270825,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteNode@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 181,
+      "name": "WsWriteNode"
+    },
+    {
+      "offset": 45614,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4006755489,
+      "sizeOfData": 41,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteQualifiedName@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 182,
+      "name": "WsWriteQualifiedName"
+    },
+    {
+      "offset": 45736,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4206668837,
+      "sizeOfData": 42,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteStartAttribute@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 183,
+      "name": "WsWriteStartAttribute"
+    },
+    {
+      "offset": 45858,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3884379257,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteStartCData@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 184,
+      "name": "WsWriteStartCData"
+    },
+    {
+      "offset": 45976,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4016906387,
+      "sizeOfData": 40,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteStartElement@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 185,
+      "name": "WsWriteStartElement"
+    },
+    {
+      "offset": 46096,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3741727025,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteText@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 186,
+      "name": "WsWriteText"
+    },
+    {
+      "offset": 46208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3646933890,
+      "sizeOfData": 32,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteType@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 187,
+      "name": "WsWriteType"
+    },
+    {
+      "offset": 46320,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3671918772,
+      "sizeOfData": 33,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteValue@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 188,
+      "name": "WsWriteValue"
+    },
+    {
+      "offset": 46434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4068620103,
+      "sizeOfData": 37,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteXmlBuffer@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 189,
+      "name": "WsWriteXmlBuffer"
+    },
+    {
+      "offset": 46552,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3758138709,
+      "sizeOfData": 44,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteXmlBufferToBytes@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 190,
+      "name": "WsWriteXmlBufferToBytes"
+    },
+    {
+      "offset": 46676,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3414075884,
+      "sizeOfData": 42,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsWriteXmlnsAttribute@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 191,
+      "name": "WsWriteXmlnsAttribute"
+    },
+    {
+      "offset": 46798,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3829413025,
+      "sizeOfData": 38,
+      "dllName": "webservices.dll",
+      "symbolName": "_WsXmlStringEquals@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 192,
+      "name": "WsXmlStringEquals"
+    }
+  ]
+}

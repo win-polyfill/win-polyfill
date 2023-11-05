@@ -1,0 +1,933 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_SnmpSvcAddrIsIpx@12"
+    },
+    {
+      "name": "_SnmpSvcAddrToSocket@8"
+    },
+    {
+      "name": "_SnmpSvcGetEnterpriseOID@0"
+    },
+    {
+      "name": "_SnmpSvcGetUptime@0"
+    },
+    {
+      "name": "_SnmpSvcGetUptimeFromTime@4"
+    },
+    {
+      "name": "_SnmpSvcInitUptime@0"
+    },
+    {
+      "name": "_SnmpSvcSetLogLevel@4"
+    },
+    {
+      "name": "_SnmpSvcSetLogType@4"
+    },
+    {
+      "name": "_SnmpTfxClose@4"
+    },
+    {
+      "name": "_SnmpTfxOpen@8"
+    },
+    {
+      "name": "_SnmpTfxQuery@20"
+    },
+    {
+      "name": "_SnmpUtilAnsiToUnicode@16"
+    },
+    {
+      "name": "_SnmpUtilAsnAnyCpy@8"
+    },
+    {
+      "name": "_SnmpUtilAsnAnyFree@4"
+    },
+    {
+      "name": "_SnmpUtilDbgPrint"
+    },
+    {
+      "name": "_SnmpUtilIdsToA@8"
+    },
+    {
+      "name": "_SnmpUtilMemAlloc@4"
+    },
+    {
+      "name": "_SnmpUtilMemFree@4"
+    },
+    {
+      "name": "_SnmpUtilMemReAlloc@8"
+    },
+    {
+      "name": "_SnmpUtilOctetsCmp@8"
+    },
+    {
+      "name": "_SnmpUtilOctetsCpy@8"
+    },
+    {
+      "name": "_SnmpUtilOctetsFree@4"
+    },
+    {
+      "name": "_SnmpUtilOctetsNCmp@12"
+    },
+    {
+      "name": "_SnmpUtilOidAppend@8"
+    },
+    {
+      "name": "_SnmpUtilOidCmp@8"
+    },
+    {
+      "name": "_SnmpUtilOidCpy@8"
+    },
+    {
+      "name": "_SnmpUtilOidFree@4"
+    },
+    {
+      "name": "_SnmpUtilOidNCmp@12"
+    },
+    {
+      "name": "_SnmpUtilOidToA@4"
+    },
+    {
+      "name": "_SnmpUtilPrintAsnAny@4"
+    },
+    {
+      "name": "_SnmpUtilPrintOid@4"
+    },
+    {
+      "name": "_SnmpUtilUTF8ToUnicode@16"
+    },
+    {
+      "name": "_SnmpUtilUnicodeToAnsi@16"
+    },
+    {
+      "name": "_SnmpUtilUnicodeToUTF8@16"
+    },
+    {
+      "name": "_SnmpUtilVarBindCpy@8"
+    },
+    {
+      "name": "_SnmpUtilVarBindFree@4"
+    },
+    {
+      "name": "_SnmpUtilVarBindListCpy@8"
+    },
+    {
+      "name": "_SnmpUtilVarBindListFree@4"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 4658,
+      "name": "__IMPORT_DESCRIPTOR_snmpapi"
+    },
+    {
+      "offset": 5212,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 5522,
+      "name": "snmpapi_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 6892,
+      "name": "_SnmpTfxOpen@8"
+    },
+    {
+      "offset": 6892,
+      "name": "__imp__SnmpTfxOpen@8"
+    },
+    {
+      "offset": 6784,
+      "name": "_SnmpTfxClose@4"
+    },
+    {
+      "offset": 6784,
+      "name": "__imp__SnmpTfxClose@4"
+    },
+    {
+      "offset": 7000,
+      "name": "_SnmpTfxQuery@20"
+    },
+    {
+      "offset": 7000,
+      "name": "__imp__SnmpTfxQuery@20"
+    },
+    {
+      "offset": 9486,
+      "name": "_SnmpUtilUnicodeToAnsi@16"
+    },
+    {
+      "offset": 9486,
+      "name": "__imp__SnmpUtilUnicodeToAnsi@16"
+    },
+    {
+      "offset": 9604,
+      "name": "_SnmpUtilUnicodeToUTF8@16"
+    },
+    {
+      "offset": 9604,
+      "name": "__imp__SnmpUtilUnicodeToUTF8@16"
+    },
+    {
+      "offset": 7110,
+      "name": "_SnmpUtilAnsiToUnicode@16"
+    },
+    {
+      "offset": 7110,
+      "name": "__imp__SnmpUtilAnsiToUnicode@16"
+    },
+    {
+      "offset": 9368,
+      "name": "_SnmpUtilUTF8ToUnicode@16"
+    },
+    {
+      "offset": 9368,
+      "name": "__imp__SnmpUtilUTF8ToUnicode@16"
+    },
+    {
+      "offset": 8472,
+      "name": "_SnmpUtilOidAppend@8"
+    },
+    {
+      "offset": 8472,
+      "name": "__imp__SnmpUtilOidAppend@8"
+    },
+    {
+      "offset": 8918,
+      "name": "_SnmpUtilOidNCmp@12"
+    },
+    {
+      "offset": 8918,
+      "name": "__imp__SnmpUtilOidNCmp@12"
+    },
+    {
+      "offset": 8586,
+      "name": "_SnmpUtilOidCmp@8"
+    },
+    {
+      "offset": 8586,
+      "name": "__imp__SnmpUtilOidCmp@8"
+    },
+    {
+      "offset": 8696,
+      "name": "_SnmpUtilOidCpy@8"
+    },
+    {
+      "offset": 8696,
+      "name": "__imp__SnmpUtilOidCpy@8"
+    },
+    {
+      "offset": 8806,
+      "name": "_SnmpUtilOidFree@4"
+    },
+    {
+      "offset": 8806,
+      "name": "__imp__SnmpUtilOidFree@4"
+    },
+    {
+      "offset": 8356,
+      "name": "_SnmpUtilOctetsNCmp@12"
+    },
+    {
+      "offset": 8356,
+      "name": "__imp__SnmpUtilOctetsNCmp@12"
+    },
+    {
+      "offset": 8014,
+      "name": "_SnmpUtilOctetsCmp@8"
+    },
+    {
+      "offset": 8014,
+      "name": "__imp__SnmpUtilOctetsCmp@8"
+    },
+    {
+      "offset": 8128,
+      "name": "_SnmpUtilOctetsCpy@8"
+    },
+    {
+      "offset": 8128,
+      "name": "__imp__SnmpUtilOctetsCpy@8"
+    },
+    {
+      "offset": 8242,
+      "name": "_SnmpUtilOctetsFree@4"
+    },
+    {
+      "offset": 8242,
+      "name": "__imp__SnmpUtilOctetsFree@4"
+    },
+    {
+      "offset": 7228,
+      "name": "_SnmpUtilAsnAnyCpy@8"
+    },
+    {
+      "offset": 7228,
+      "name": "__imp__SnmpUtilAsnAnyCpy@8"
+    },
+    {
+      "offset": 7342,
+      "name": "_SnmpUtilAsnAnyFree@4"
+    },
+    {
+      "offset": 7342,
+      "name": "__imp__SnmpUtilAsnAnyFree@4"
+    },
+    {
+      "offset": 9722,
+      "name": "_SnmpUtilVarBindCpy@8"
+    },
+    {
+      "offset": 9722,
+      "name": "__imp__SnmpUtilVarBindCpy@8"
+    },
+    {
+      "offset": 9836,
+      "name": "_SnmpUtilVarBindFree@4"
+    },
+    {
+      "offset": 9836,
+      "name": "__imp__SnmpUtilVarBindFree@4"
+    },
+    {
+      "offset": 9952,
+      "name": "_SnmpUtilVarBindListCpy@8"
+    },
+    {
+      "offset": 9952,
+      "name": "__imp__SnmpUtilVarBindListCpy@8"
+    },
+    {
+      "offset": 10070,
+      "name": "_SnmpUtilVarBindListFree@4"
+    },
+    {
+      "offset": 10070,
+      "name": "__imp__SnmpUtilVarBindListFree@4"
+    },
+    {
+      "offset": 7788,
+      "name": "_SnmpUtilMemFree@4"
+    },
+    {
+      "offset": 7788,
+      "name": "__imp__SnmpUtilMemFree@4"
+    },
+    {
+      "offset": 7676,
+      "name": "_SnmpUtilMemAlloc@4"
+    },
+    {
+      "offset": 7676,
+      "name": "__imp__SnmpUtilMemAlloc@4"
+    },
+    {
+      "offset": 7900,
+      "name": "_SnmpUtilMemReAlloc@8"
+    },
+    {
+      "offset": 7900,
+      "name": "__imp__SnmpUtilMemReAlloc@8"
+    },
+    {
+      "offset": 7456,
+      "name": "_SnmpUtilDbgPrint"
+    },
+    {
+      "offset": 7456,
+      "name": "__imp__SnmpUtilDbgPrint"
+    },
+    {
+      "offset": 9030,
+      "name": "_SnmpUtilOidToA@4"
+    },
+    {
+      "offset": 9030,
+      "name": "__imp__SnmpUtilOidToA@4"
+    },
+    {
+      "offset": 7566,
+      "name": "_SnmpUtilIdsToA@8"
+    },
+    {
+      "offset": 7566,
+      "name": "__imp__SnmpUtilIdsToA@8"
+    },
+    {
+      "offset": 9140,
+      "name": "_SnmpUtilPrintAsnAny@4"
+    },
+    {
+      "offset": 9140,
+      "name": "__imp__SnmpUtilPrintAsnAny@4"
+    },
+    {
+      "offset": 9256,
+      "name": "_SnmpUtilPrintOid@4"
+    },
+    {
+      "offset": 9256,
+      "name": "__imp__SnmpUtilPrintOid@4"
+    },
+    {
+      "offset": 6442,
+      "name": "_SnmpSvcInitUptime@0"
+    },
+    {
+      "offset": 6442,
+      "name": "__imp__SnmpSvcInitUptime@0"
+    },
+    {
+      "offset": 6210,
+      "name": "_SnmpSvcGetUptime@0"
+    },
+    {
+      "offset": 6210,
+      "name": "__imp__SnmpSvcGetUptime@0"
+    },
+    {
+      "offset": 6322,
+      "name": "_SnmpSvcGetUptimeFromTime@4"
+    },
+    {
+      "offset": 6322,
+      "name": "__imp__SnmpSvcGetUptimeFromTime@4"
+    },
+    {
+      "offset": 6090,
+      "name": "_SnmpSvcGetEnterpriseOID@0"
+    },
+    {
+      "offset": 6090,
+      "name": "__imp__SnmpSvcGetEnterpriseOID@0"
+    },
+    {
+      "offset": 5860,
+      "name": "_SnmpSvcAddrIsIpx@12"
+    },
+    {
+      "offset": 5860,
+      "name": "__imp__SnmpSvcAddrIsIpx@12"
+    },
+    {
+      "offset": 5974,
+      "name": "_SnmpSvcAddrToSocket@8"
+    },
+    {
+      "offset": 5974,
+      "name": "__imp__SnmpSvcAddrToSocket@8"
+    },
+    {
+      "offset": 6556,
+      "name": "_SnmpSvcSetLogLevel@4"
+    },
+    {
+      "offset": 6556,
+      "name": "__imp__SnmpSvcSetLogLevel@4"
+    },
+    {
+      "offset": 6670,
+      "name": "_SnmpSvcSetLogType@4"
+    },
+    {
+      "offset": 6670,
+      "name": "__imp__SnmpSvcSetLogType@4"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 5860,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3875236921,
+      "sizeOfData": 33,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpSvcAddrIsIpx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "SnmpSvcAddrIsIpx"
+    },
+    {
+      "offset": 5974,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4184362778,
+      "sizeOfData": 35,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpSvcAddrToSocket@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "SnmpSvcAddrToSocket"
+    },
+    {
+      "offset": 6090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3561963997,
+      "sizeOfData": 39,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpSvcGetEnterpriseOID@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "SnmpSvcGetEnterpriseOID"
+    },
+    {
+      "offset": 6210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3686332736,
+      "sizeOfData": 32,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpSvcGetUptime@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "SnmpSvcGetUptime"
+    },
+    {
+      "offset": 6322,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4067302606,
+      "sizeOfData": 40,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpSvcGetUptimeFromTime@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "SnmpSvcGetUptimeFromTime"
+    },
+    {
+      "offset": 6442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3963302013,
+      "sizeOfData": 33,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpSvcInitUptime@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "SnmpSvcInitUptime"
+    },
+    {
+      "offset": 6556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3388319049,
+      "sizeOfData": 34,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpSvcSetLogLevel@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "SnmpSvcSetLogLevel"
+    },
+    {
+      "offset": 6670,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3272892074,
+      "sizeOfData": 33,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpSvcSetLogType@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "SnmpSvcSetLogType"
+    },
+    {
+      "offset": 6784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3944755943,
+      "sizeOfData": 28,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpTfxClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "SnmpTfxClose"
+    },
+    {
+      "offset": 6892,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4277742153,
+      "sizeOfData": 27,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpTfxOpen@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "SnmpTfxOpen"
+    },
+    {
+      "offset": 7000,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4079371649,
+      "sizeOfData": 29,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpTfxQuery@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "SnmpTfxQuery"
+    },
+    {
+      "offset": 7110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3790966429,
+      "sizeOfData": 38,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilAnsiToUnicode@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "SnmpUtilAnsiToUnicode"
+    },
+    {
+      "offset": 7228,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4181134188,
+      "sizeOfData": 33,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilAsnAnyCpy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "SnmpUtilAsnAnyCpy"
+    },
+    {
+      "offset": 7342,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3249612025,
+      "sizeOfData": 34,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilAsnAnyFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "SnmpUtilAsnAnyFree"
+    },
+    {
+      "offset": 7456,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3409700301,
+      "sizeOfData": 30,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilDbgPrint",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 14,
+      "name": "SnmpUtilDbgPrint"
+    },
+    {
+      "offset": 7566,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3225186629,
+      "sizeOfData": 30,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilIdsToA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "SnmpUtilIdsToA"
+    },
+    {
+      "offset": 7676,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3477320266,
+      "sizeOfData": 32,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilMemAlloc@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "SnmpUtilMemAlloc"
+    },
+    {
+      "offset": 7788,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4088967652,
+      "sizeOfData": 31,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilMemFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "SnmpUtilMemFree"
+    },
+    {
+      "offset": 7900,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3396440908,
+      "sizeOfData": 34,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilMemReAlloc@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "SnmpUtilMemReAlloc"
+    },
+    {
+      "offset": 8014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3561710693,
+      "sizeOfData": 33,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilOctetsCmp@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "SnmpUtilOctetsCmp"
+    },
+    {
+      "offset": 8128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3944246839,
+      "sizeOfData": 33,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilOctetsCpy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "SnmpUtilOctetsCpy"
+    },
+    {
+      "offset": 8242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3636812316,
+      "sizeOfData": 34,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilOctetsFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "SnmpUtilOctetsFree"
+    },
+    {
+      "offset": 8356,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4148442682,
+      "sizeOfData": 35,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilOctetsNCmp@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "SnmpUtilOctetsNCmp"
+    },
+    {
+      "offset": 8472,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3634846126,
+      "sizeOfData": 33,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilOidAppend@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "SnmpUtilOidAppend"
+    },
+    {
+      "offset": 8586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3237337079,
+      "sizeOfData": 30,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilOidCmp@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "SnmpUtilOidCmp"
+    },
+    {
+      "offset": 8696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3708382171,
+      "sizeOfData": 30,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilOidCpy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "SnmpUtilOidCpy"
+    },
+    {
+      "offset": 8806,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4209171581,
+      "sizeOfData": 31,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilOidFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "SnmpUtilOidFree"
+    },
+    {
+      "offset": 8918,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4215487507,
+      "sizeOfData": 32,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilOidNCmp@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "SnmpUtilOidNCmp"
+    },
+    {
+      "offset": 9030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4052101658,
+      "sizeOfData": 30,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilOidToA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "SnmpUtilOidToA"
+    },
+    {
+      "offset": 9140,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3406045419,
+      "sizeOfData": 35,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilPrintAsnAny@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "SnmpUtilPrintAsnAny"
+    },
+    {
+      "offset": 9256,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3645889242,
+      "sizeOfData": 32,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilPrintOid@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "SnmpUtilPrintOid"
+    },
+    {
+      "offset": 9368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3894694131,
+      "sizeOfData": 38,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilUTF8ToUnicode@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "SnmpUtilUTF8ToUnicode"
+    },
+    {
+      "offset": 9486,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3732306906,
+      "sizeOfData": 38,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilUnicodeToAnsi@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "SnmpUtilUnicodeToAnsi"
+    },
+    {
+      "offset": 9604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3375008395,
+      "sizeOfData": 38,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilUnicodeToUTF8@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "SnmpUtilUnicodeToUTF8"
+    },
+    {
+      "offset": 9722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3385133002,
+      "sizeOfData": 34,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilVarBindCpy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "SnmpUtilVarBindCpy"
+    },
+    {
+      "offset": 9836,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3726750109,
+      "sizeOfData": 35,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilVarBindFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "SnmpUtilVarBindFree"
+    },
+    {
+      "offset": 9952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3670025943,
+      "sizeOfData": 38,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilVarBindListCpy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "SnmpUtilVarBindListCpy"
+    },
+    {
+      "offset": 10070,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3742548404,
+      "sizeOfData": 39,
+      "dllName": "snmpapi.dll",
+      "symbolName": "_SnmpUtilVarBindListFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "SnmpUtilVarBindListFree"
+    }
+  ]
+}

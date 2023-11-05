@@ -1,0 +1,2258 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\hbaapi.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    17B4 size
+correct header end
+
+    189 public symbols
+
+     2FF2 __IMPORT_DESCRIPTOR_HBAAPI
+     3218 __NULL_IMPORT_DESCRIPTOR
+     334E HBAAPI_NULL_THUNK_DATA
+     43BA _HBA_RegisterLibrary
+     43BA __imp__HBA_RegisterLibrary
+     3DB4 _HBA_GetVersion
+     3DB4 __imp__HBA_GetVersion
+     3E9C _HBA_LoadLibrary
+     3E9C __imp__HBA_LoadLibrary
+     350C _HBA_FreeLibrary
+     350C __imp__HBA_FreeLibrary
+     3AF2 _HBA_GetNumberOfAdapters
+     3AF2 __imp__HBA_GetNumberOfAdapters
+     35EE _HBA_GetAdapterName
+     35EE __imp__HBA_GetAdapterName
+     3F08 _HBA_OpenAdapter
+     3F08 __imp__HBA_OpenAdapter
+     349E _HBA_CloseAdapter
+     349E __imp__HBA_CloseAdapter
+     3578 _HBA_GetAdapterAttributes
+     3578 __imp__HBA_GetAdapterAttributes
+     365E _HBA_GetAdapterPortAttributes
+     365E __imp__HBA_GetAdapterPortAttributes
+     3C56 _HBA_GetPortStatistics
+     3C56 __imp__HBA_GetPortStatistics
+     37C0 _HBA_GetDiscoveredPortAttributes
+     37C0 __imp__HBA_GetDiscoveredPortAttributes
+     3BDE _HBA_GetPortAttributesByWWN
+     3BDE __imp__HBA_GetPortAttributesByWWN
+     47C4 _HBA_SendCTPassThru
+     47C4 __imp__HBA_SendCTPassThru
+     383C _HBA_GetEventBuffer
+     383C __imp__HBA_GetEventBuffer
+     4DC2 _HBA_SetRNIDMgmtInfo
+     4DC2 __imp__HBA_SetRNIDMgmtInfo
+     3CC8 _HBA_GetRNIDMgmtInfo
+     3CC8 __imp__HBA_GetRNIDMgmtInfo
+     4978 _HBA_SendRNID
+     4978 __imp__HBA_SendRNID
+     3A08 _HBA_GetFcpTargetMapping
+     3A08 __imp__HBA_GetFcpTargetMapping
+     3990 _HBA_GetFcpPersistentBinding
+     3990 __imp__HBA_GetFcpPersistentBinding
+     4C68 _HBA_SendScsiInquiry
+     4C68 __imp__HBA_SendScsiInquiry
+     4B90 _HBA_SendReportLUNs
+     4B90 __imp__HBA_SendReportLUNs
+     4B1E _HBA_SendReadCapacity
+     4B1E __imp__HBA_SendReadCapacity
+     4062 _HBA_RefreshInformation
+     4062 __imp__HBA_RefreshInformation
+     4600 _HBA_ResetStatistics
+     4600 __imp__HBA_ResetStatistics
+     442A _HBA_RegisterLibraryV2
+     442A __imp__HBA_RegisterLibraryV2
+     4518 _HBA_RemoveCallback
+     4518 __imp__HBA_RemoveCallback
+     40D6 _HBA_RegisterForAdapterAddEvents
+     40D6 __imp__HBA_RegisterForAdapterAddEvents
+     4152 _HBA_RegisterForAdapterEvents
+     4152 __imp__HBA_RegisterForAdapterEvents
+     41CC _HBA_RegisterForAdapterPortEvents
+     41CC __imp__HBA_RegisterForAdapterPortEvents
+     424A _HBA_RegisterForAdapterPortStatEvents
+     424A __imp__HBA_RegisterForAdapterPortStatEvents
+     4342 _HBA_RegisterForTargetEvents
+     4342 __imp__HBA_RegisterForTargetEvents
+     42CC _HBA_RegisterForLinkEvents
+     42CC __imp__HBA_RegisterForLinkEvents
+     3F74 _HBA_OpenAdapterByWWN
+     3F74 __imp__HBA_OpenAdapterByWWN
+     3FE6 _HBA_RefreshAdapterConfiguration
+     3FE6 __imp__HBA_RefreshAdapterConfiguration
+     4834 _HBA_SendCTPassThruV2
+     4834 __imp__HBA_SendCTPassThruV2
+     49E2 _HBA_SendRNIDV2
+     49E2 __imp__HBA_SendRNIDV2
+     4A4E _HBA_SendRPL
+     4A4E __imp__HBA_SendRPL
+     4AB6 _HBA_SendRPS
+     4AB6 __imp__HBA_SendRPS
+     4C00 _HBA_SendSRL
+     4C00 __imp__HBA_SendSRL
+     48A6 _HBA_SendLIRR
+     48A6 __imp__HBA_SendLIRR
+     4910 _HBA_SendRLS
+     4910 __imp__HBA_SendRLS
+     38AC _HBA_GetFC4Statistics
+     38AC __imp__HBA_GetFC4Statistics
+     391E _HBA_GetFCPStatistics
+     391E __imp__HBA_GetFCPStatistics
+     3E20 _HBA_GetWrapperLibraryAttributes
+     3E20 __imp__HBA_GetWrapperLibraryAttributes
+     3D38 _HBA_GetVendorLibraryAttributes
+     3D38 __imp__HBA_GetVendorLibraryAttributes
+     4670 _HBA_ScsiInquiryV2
+     4670 __imp__HBA_ScsiInquiryV2
+     4752 _HBA_ScsiReportLUNsV2
+     4752 __imp__HBA_ScsiReportLUNsV2
+     46DE _HBA_ScsiReadCapacityV2
+     46DE __imp__HBA_ScsiReadCapacityV2
+     3A7C _HBA_GetFcpTargetMappingV2
+     3A7C __imp__HBA_GetFcpTargetMappingV2
+     36D8 _HBA_GetBindingCapability
+     36D8 __imp__HBA_GetBindingCapability
+     374E _HBA_GetBindingSupport
+     374E __imp__HBA_GetBindingSupport
+     4CD8 _HBA_SetBindingSupport
+     4CD8 __imp__HBA_SetBindingSupport
+     3B66 _HBA_GetPersistentBindingV2
+     3B66 __imp__HBA_GetPersistentBindingV2
+     4D4A _HBA_SetPersistentBindingV2
+     4D4A __imp__HBA_SetPersistentBindingV2
+     4588 _HBA_RemovePersistentBinding
+     4588 __imp__HBA_RemovePersistentBinding
+     449C _HBA_RemoveAllPersistentBindings
+     449C __imp__HBA_RemoveAllPersistentBindings
+     5624 _SMHBA_GetVersion
+     5624 __imp__SMHBA_GetVersion
+     5A0A _SMHBA_RegisterLibrary
+     5A0A __imp__SMHBA_RegisterLibrary
+     5692 _SMHBA_GetWrapperLibraryAttributes
+     5692 __imp__SMHBA_GetWrapperLibraryAttributes
+     55A6 _SMHBA_GetVendorLibraryAttributes
+     55A6 __imp__SMHBA_GetVendorLibraryAttributes
+     5444 _SMHBA_GetProtocolStatistics
+     5444 __imp__SMHBA_GetProtocolStatistics
+     51FC _SMHBA_GetNumberOfPorts
+     51FC __imp__SMHBA_GetNumberOfPorts
+     4EB4 _SMHBA_GetAdapterAttributes
+     4EB4 __imp__SMHBA_GetAdapterAttributes
+     52E8 _SMHBA_GetPhyStatistics
+     52E8 __imp__SMHBA_GetPhyStatistics
+     5094 _SMHBA_GetDiscoveredPortAttributes
+     5094 __imp__SMHBA_GetDiscoveredPortAttributes
+     535C _SMHBA_GetPortAttributesByWWN
+     535C __imp__SMHBA_GetPortAttributesByWWN
+     53D6 _SMHBA_GetPortType
+     53D6 __imp__SMHBA_GetPortType
+     4F2C _SMHBA_GetAdapterPortAttributes
+     4F2C __imp__SMHBA_GetAdapterPortAttributes
+     5112 _SMHBA_GetFCPhyAttributes
+     5112 __imp__SMHBA_GetFCPhyAttributes
+     54BC _SMHBA_GetSASPhyAttributes
+     54BC __imp__SMHBA_GetSASPhyAttributes
+     5188 _SMHBA_GetLUNStatistics
+     5188 __imp__SMHBA_GetLUNStatistics
+     5532 _SMHBA_GetTargetMapping
+     5532 __imp__SMHBA_GetTargetMapping
+     4FA8 _SMHBA_GetBindingCapability
+     4FA8 __imp__SMHBA_GetBindingCapability
+     5020 _SMHBA_GetBindingSupport
+     5020 __imp__SMHBA_GetBindingSupport
+     5E12 _SMHBA_SetBindingSupport
+     5E12 __imp__SMHBA_SetBindingSupport
+     5270 _SMHBA_GetPersistentBinding
+     5270 __imp__SMHBA_GetPersistentBinding
+     5E86 _SMHBA_SetPersistentBinding
+     5E86 __imp__SMHBA_SetPersistentBinding
+     5AFA _SMHBA_RemovePersistentBinding
+     5AFA __imp__SMHBA_RemovePersistentBinding
+     5A7C _SMHBA_RemoveAllPersistentBindings
+     5A7C __imp__SMHBA_RemoveAllPersistentBindings
+     5B74 _SMHBA_ScsiInquiry
+     5B74 __imp__SMHBA_ScsiInquiry
+     5C56 _SMHBA_ScsiReportLuns
+     5C56 __imp__SMHBA_ScsiReportLuns
+     5BE2 _SMHBA_ScsiReadCapacity
+     5BE2 __imp__SMHBA_ScsiReadCapacity
+     5DA6 _SMHBA_SendTEST
+     5DA6 __imp__SMHBA_SendTEST
+     5CC8 _SMHBA_SendECHO
+     5CC8 __imp__SMHBA_SendECHO
+     5D34 _SMHBA_SendSMPPassThru
+     5D34 __imp__SMHBA_SendSMPPassThru
+     5710 _SMHBA_RegisterForAdapterAddEvents
+     5710 __imp__SMHBA_RegisterForAdapterAddEvents
+     578E _SMHBA_RegisterForAdapterEvents
+     578E __imp__SMHBA_RegisterForAdapterEvents
+     588C _SMHBA_RegisterForAdapterPortEvents
+     588C __imp__SMHBA_RegisterForAdapterPortEvents
+     590C _SMHBA_RegisterForAdapterPortStatEvents
+     590C __imp__SMHBA_RegisterForAdapterPortStatEvents
+     580A _SMHBA_RegisterForAdapterPhyStatEvents
+     580A __imp__SMHBA_RegisterForAdapterPhyStatEvents
+     5990 _SMHBA_RegisterForTargetEvents
+     5990 __imp__SMHBA_RegisterForTargetEvents
+     4E32 _HbaGetAdapterNameByDeviceInstanceId@8
+     4E32 __imp__HbaGetAdapterNameByDeviceInstanceId@8
+
+Archive member name at 2FF2: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1EA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E08B2017 time date stamp
+             10A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CC file pointer to raw data (000000CC to 000000DF)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FE file pointer to raw data (000000FE to 00000109)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 3218: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        D933EC66 time date stamp
+              B8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      64 file pointer to raw data (00000064 to 000000A3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A4 file pointer to raw data (000000A4 to 000000B7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 334E: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     114 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E364B652 time date stamp
+              D4 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CC file pointer to raw data (000000CC to 000000CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data (000000D0 to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 349E: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C06AF602
+  SizeOfData   : 0000001D
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_CloseAdapter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 0
+  Name         : HBA_CloseAdapter
+
+Archive member name at 350C: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D47F957B
+  SizeOfData   : 0000001C
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_FreeLibrary
+  Type         : code
+  Name type    : no prefix
+  Hint         : 1
+  Name         : HBA_FreeLibrary
+
+Archive member name at 3578: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D29E8E04
+  SizeOfData   : 00000025
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetAdapterAttributes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 2
+  Name         : HBA_GetAdapterAttributes
+
+Archive member name at 35EE: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3C3B08D
+  SizeOfData   : 0000001F
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetAdapterName
+  Type         : code
+  Name type    : no prefix
+  Hint         : 3
+  Name         : HBA_GetAdapterName
+
+Archive member name at 365E: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF843349
+  SizeOfData   : 00000029
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetAdapterPortAttributes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 4
+  Name         : HBA_GetAdapterPortAttributes
+
+Archive member name at 36D8: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4B8363D
+  SizeOfData   : 00000025
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetBindingCapability
+  Type         : code
+  Name type    : no prefix
+  Hint         : 5
+  Name         : HBA_GetBindingCapability
+
+Archive member name at 374E: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6348F03
+  SizeOfData   : 00000022
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetBindingSupport
+  Type         : code
+  Name type    : no prefix
+  Hint         : 6
+  Name         : HBA_GetBindingSupport
+
+Archive member name at 37C0: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2A592E1
+  SizeOfData   : 0000002C
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetDiscoveredPortAttributes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 7
+  Name         : HBA_GetDiscoveredPortAttributes
+
+Archive member name at 383C: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D988E64F
+  SizeOfData   : 0000001F
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetEventBuffer
+  Type         : code
+  Name type    : no prefix
+  Hint         : 8
+  Name         : HBA_GetEventBuffer
+
+Archive member name at 38AC: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5D84CA8
+  SizeOfData   : 00000021
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetFC4Statistics
+  Type         : code
+  Name type    : no prefix
+  Hint         : 9
+  Name         : HBA_GetFC4Statistics
+
+Archive member name at 391E: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0817549
+  SizeOfData   : 00000021
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetFCPStatistics
+  Type         : code
+  Name type    : no prefix
+  Hint         : 10
+  Name         : HBA_GetFCPStatistics
+
+Archive member name at 3990: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1F9E410
+  SizeOfData   : 00000028
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetFcpPersistentBinding
+  Type         : code
+  Name type    : no prefix
+  Hint         : 11
+  Name         : HBA_GetFcpPersistentBinding
+
+Archive member name at 3A08: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8C7D975
+  SizeOfData   : 00000024
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetFcpTargetMapping
+  Type         : code
+  Name type    : no prefix
+  Hint         : 12
+  Name         : HBA_GetFcpTargetMapping
+
+Archive member name at 3A7C: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC7FE37D
+  SizeOfData   : 00000026
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetFcpTargetMappingV2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 13
+  Name         : HBA_GetFcpTargetMappingV2
+
+Archive member name at 3AF2: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C20A9EA1
+  SizeOfData   : 00000024
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetNumberOfAdapters
+  Type         : code
+  Name type    : no prefix
+  Hint         : 14
+  Name         : HBA_GetNumberOfAdapters
+
+Archive member name at 3B66: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D748D81D
+  SizeOfData   : 00000027
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetPersistentBindingV2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 15
+  Name         : HBA_GetPersistentBindingV2
+
+Archive member name at 3BDE: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC3AA77C
+  SizeOfData   : 00000027
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetPortAttributesByWWN
+  Type         : code
+  Name type    : no prefix
+  Hint         : 16
+  Name         : HBA_GetPortAttributesByWWN
+
+Archive member name at 3C56: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EEA14CF6
+  SizeOfData   : 00000022
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetPortStatistics
+  Type         : code
+  Name type    : no prefix
+  Hint         : 17
+  Name         : HBA_GetPortStatistics
+
+Archive member name at 3CC8: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4C15742
+  SizeOfData   : 00000020
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetRNIDMgmtInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 18
+  Name         : HBA_GetRNIDMgmtInfo
+
+Archive member name at 3D38: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F55BE951
+  SizeOfData   : 0000002B
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetVendorLibraryAttributes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 19
+  Name         : HBA_GetVendorLibraryAttributes
+
+Archive member name at 3DB4: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0FE05BB
+  SizeOfData   : 0000001B
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetVersion
+  Type         : code
+  Name type    : no prefix
+  Hint         : 20
+  Name         : HBA_GetVersion
+
+Archive member name at 3E20: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7253032
+  SizeOfData   : 0000002C
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_GetWrapperLibraryAttributes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 21
+  Name         : HBA_GetWrapperLibraryAttributes
+
+Archive member name at 3E9C: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3C186CD
+  SizeOfData   : 0000001C
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_LoadLibrary
+  Type         : code
+  Name type    : no prefix
+  Hint         : 22
+  Name         : HBA_LoadLibrary
+
+Archive member name at 3F08: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F68CD822
+  SizeOfData   : 0000001C
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_OpenAdapter
+  Type         : code
+  Name type    : no prefix
+  Hint         : 23
+  Name         : HBA_OpenAdapter
+
+Archive member name at 3F74: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7A77544
+  SizeOfData   : 00000021
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_OpenAdapterByWWN
+  Type         : code
+  Name type    : no prefix
+  Hint         : 24
+  Name         : HBA_OpenAdapterByWWN
+
+Archive member name at 3FE6: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAEECEED
+  SizeOfData   : 0000002C
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_RefreshAdapterConfiguration
+  Type         : code
+  Name type    : no prefix
+  Hint         : 25
+  Name         : HBA_RefreshAdapterConfiguration
+
+Archive member name at 4062: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2593C98
+  SizeOfData   : 00000023
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_RefreshInformation
+  Type         : code
+  Name type    : no prefix
+  Hint         : 26
+  Name         : HBA_RefreshInformation
+
+Archive member name at 40D6: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD479EBF
+  SizeOfData   : 0000002C
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_RegisterForAdapterAddEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 27
+  Name         : HBA_RegisterForAdapterAddEvents
+
+Archive member name at 4152: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5B24316
+  SizeOfData   : 00000029
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_RegisterForAdapterEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 28
+  Name         : HBA_RegisterForAdapterEvents
+
+Archive member name at 41CC: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD833AE3
+  SizeOfData   : 0000002D
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_RegisterForAdapterPortEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 29
+  Name         : HBA_RegisterForAdapterPortEvents
+
+Archive member name at 424A: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1D0B70B
+  SizeOfData   : 00000031
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_RegisterForAdapterPortStatEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 30
+  Name         : HBA_RegisterForAdapterPortStatEvents
+
+Archive member name at 42CC: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD8E55D9
+  SizeOfData   : 00000026
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_RegisterForLinkEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 31
+  Name         : HBA_RegisterForLinkEvents
+
+Archive member name at 4342: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDD40F62
+  SizeOfData   : 00000028
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_RegisterForTargetEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 32
+  Name         : HBA_RegisterForTargetEvents
+
+Archive member name at 43BA: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0966944
+  SizeOfData   : 00000020
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_RegisterLibrary
+  Type         : code
+  Name type    : no prefix
+  Hint         : 33
+  Name         : HBA_RegisterLibrary
+
+Archive member name at 442A: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2AD95FB
+  SizeOfData   : 00000022
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_RegisterLibraryV2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 34
+  Name         : HBA_RegisterLibraryV2
+
+Archive member name at 449C: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA5C5852
+  SizeOfData   : 0000002C
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_RemoveAllPersistentBindings
+  Type         : code
+  Name type    : no prefix
+  Hint         : 35
+  Name         : HBA_RemoveAllPersistentBindings
+
+Archive member name at 4518: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C40AED9A
+  SizeOfData   : 0000001F
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_RemoveCallback
+  Type         : code
+  Name type    : no prefix
+  Hint         : 36
+  Name         : HBA_RemoveCallback
+
+Archive member name at 4588: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7A94729
+  SizeOfData   : 00000028
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_RemovePersistentBinding
+  Type         : code
+  Name type    : no prefix
+  Hint         : 37
+  Name         : HBA_RemovePersistentBinding
+
+Archive member name at 4600: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB85A5B8
+  SizeOfData   : 00000020
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_ResetStatistics
+  Type         : code
+  Name type    : no prefix
+  Hint         : 38
+  Name         : HBA_ResetStatistics
+
+Archive member name at 4670: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0607502
+  SizeOfData   : 0000001E
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_ScsiInquiryV2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 39
+  Name         : HBA_ScsiInquiryV2
+
+Archive member name at 46DE: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9260D61
+  SizeOfData   : 00000023
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_ScsiReadCapacityV2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 40
+  Name         : HBA_ScsiReadCapacityV2
+
+Archive member name at 4752: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C83D688E
+  SizeOfData   : 00000021
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_ScsiReportLUNsV2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 41
+  Name         : HBA_ScsiReportLUNsV2
+
+Archive member name at 47C4: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3EF5968
+  SizeOfData   : 0000001F
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SendCTPassThru
+  Type         : code
+  Name type    : no prefix
+  Hint         : 42
+  Name         : HBA_SendCTPassThru
+
+Archive member name at 4834: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5D046E6
+  SizeOfData   : 00000021
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SendCTPassThruV2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 43
+  Name         : HBA_SendCTPassThruV2
+
+Archive member name at 48A6: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E42F4DAE
+  SizeOfData   : 00000019
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SendLIRR
+  Type         : code
+  Name type    : no prefix
+  Hint         : 44
+  Name         : HBA_SendLIRR
+
+Archive member name at 4910: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC9E4F6D
+  SizeOfData   : 00000018
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SendRLS
+  Type         : code
+  Name type    : no prefix
+  Hint         : 45
+  Name         : HBA_SendRLS
+
+Archive member name at 4978: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF4488D4
+  SizeOfData   : 00000019
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SendRNID
+  Type         : code
+  Name type    : no prefix
+  Hint         : 46
+  Name         : HBA_SendRNID
+
+Archive member name at 49E2: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD803B74
+  SizeOfData   : 0000001B
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SendRNIDV2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 47
+  Name         : HBA_SendRNIDV2
+
+Archive member name at 4A4E: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C643FE4D
+  SizeOfData   : 00000018
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SendRPL
+  Type         : code
+  Name type    : no prefix
+  Hint         : 48
+  Name         : HBA_SendRPL
+
+Archive member name at 4AB6: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9F6FE8A
+  SizeOfData   : 00000018
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SendRPS
+  Type         : code
+  Name type    : no prefix
+  Hint         : 49
+  Name         : HBA_SendRPS
+
+Archive member name at 4B1E: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC06932E
+  SizeOfData   : 00000021
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SendReadCapacity
+  Type         : code
+  Name type    : no prefix
+  Hint         : 50
+  Name         : HBA_SendReadCapacity
+
+Archive member name at 4B90: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F942CFC3
+  SizeOfData   : 0000001F
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SendReportLUNs
+  Type         : code
+  Name type    : no prefix
+  Hint         : 51
+  Name         : HBA_SendReportLUNs
+
+Archive member name at 4C00: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4639AD7
+  SizeOfData   : 00000018
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SendSRL
+  Type         : code
+  Name type    : no prefix
+  Hint         : 52
+  Name         : HBA_SendSRL
+
+Archive member name at 4C68: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4443210
+  SizeOfData   : 00000020
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SendScsiInquiry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 53
+  Name         : HBA_SendScsiInquiry
+
+Archive member name at 4CD8: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED5D87BA
+  SizeOfData   : 00000022
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SetBindingSupport
+  Type         : code
+  Name type    : no prefix
+  Hint         : 54
+  Name         : HBA_SetBindingSupport
+
+Archive member name at 4D4A: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1CAAB38
+  SizeOfData   : 00000027
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SetPersistentBindingV2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 55
+  Name         : HBA_SetPersistentBindingV2
+
+Archive member name at 4DC2: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF3AC425
+  SizeOfData   : 00000020
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HBA_SetRNIDMgmtInfo
+  Type         : code
+  Name type    : no prefix
+  Hint         : 56
+  Name         : HBA_SetRNIDMgmtInfo
+
+Archive member name at 4E32: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB260267
+  SizeOfData   : 00000032
+  DLL name     : HBAAPI.dll
+  Symbol name  : _HbaGetAdapterNameByDeviceInstanceId@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : HbaGetAdapterNameByDeviceInstanceId
+
+Archive member name at 4EB4: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D37F7026
+  SizeOfData   : 00000027
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetAdapterAttributes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 58
+  Name         : SMHBA_GetAdapterAttributes
+
+Archive member name at 4F2C: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB3E98FF
+  SizeOfData   : 0000002B
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetAdapterPortAttributes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 59
+  Name         : SMHBA_GetAdapterPortAttributes
+
+Archive member name at 4FA8: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE767431
+  SizeOfData   : 00000027
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetBindingCapability
+  Type         : code
+  Name type    : no prefix
+  Hint         : 60
+  Name         : SMHBA_GetBindingCapability
+
+Archive member name at 5020: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F01D6542
+  SizeOfData   : 00000024
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetBindingSupport
+  Type         : code
+  Name type    : no prefix
+  Hint         : 61
+  Name         : SMHBA_GetBindingSupport
+
+Archive member name at 5094: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE11F511
+  SizeOfData   : 0000002E
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetDiscoveredPortAttributes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 62
+  Name         : SMHBA_GetDiscoveredPortAttributes
+
+Archive member name at 5112: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF0A603F
+  SizeOfData   : 00000025
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetFCPhyAttributes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 63
+  Name         : SMHBA_GetFCPhyAttributes
+
+Archive member name at 5188: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE4DF352
+  SizeOfData   : 00000023
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetLUNStatistics
+  Type         : code
+  Name type    : no prefix
+  Hint         : 64
+  Name         : SMHBA_GetLUNStatistics
+
+Archive member name at 51FC: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE26C954
+  SizeOfData   : 00000023
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetNumberOfPorts
+  Type         : code
+  Name type    : no prefix
+  Hint         : 65
+  Name         : SMHBA_GetNumberOfPorts
+
+Archive member name at 5270: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB256D3B
+  SizeOfData   : 00000027
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetPersistentBinding
+  Type         : code
+  Name type    : no prefix
+  Hint         : 66
+  Name         : SMHBA_GetPersistentBinding
+
+Archive member name at 52E8: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7FF1470
+  SizeOfData   : 00000023
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetPhyStatistics
+  Type         : code
+  Name type    : no prefix
+  Hint         : 67
+  Name         : SMHBA_GetPhyStatistics
+
+Archive member name at 535C: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8301D07
+  SizeOfData   : 00000029
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetPortAttributesByWWN
+  Type         : code
+  Name type    : no prefix
+  Hint         : 68
+  Name         : SMHBA_GetPortAttributesByWWN
+
+Archive member name at 53D6: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5E4BEC4
+  SizeOfData   : 0000001E
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetPortType
+  Type         : code
+  Name type    : no prefix
+  Hint         : 69
+  Name         : SMHBA_GetPortType
+
+Archive member name at 5444: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDE46594
+  SizeOfData   : 00000028
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetProtocolStatistics
+  Type         : code
+  Name type    : no prefix
+  Hint         : 70
+  Name         : SMHBA_GetProtocolStatistics
+
+Archive member name at 54BC: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E564541A
+  SizeOfData   : 00000026
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetSASPhyAttributes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 71
+  Name         : SMHBA_GetSASPhyAttributes
+
+Archive member name at 5532: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCB647C0
+  SizeOfData   : 00000023
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetTargetMapping
+  Type         : code
+  Name type    : no prefix
+  Hint         : 72
+  Name         : SMHBA_GetTargetMapping
+
+Archive member name at 55A6: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7A58337
+  SizeOfData   : 0000002D
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetVendorLibraryAttributes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 73
+  Name         : SMHBA_GetVendorLibraryAttributes
+
+Archive member name at 5624: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D207CF4A
+  SizeOfData   : 0000001D
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetVersion
+  Type         : code
+  Name type    : no prefix
+  Hint         : 74
+  Name         : SMHBA_GetVersion
+
+Archive member name at 5692: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1208A2D
+  SizeOfData   : 0000002E
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_GetWrapperLibraryAttributes
+  Type         : code
+  Name type    : no prefix
+  Hint         : 75
+  Name         : SMHBA_GetWrapperLibraryAttributes
+
+Archive member name at 5710: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF2C7037
+  SizeOfData   : 0000002E
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_RegisterForAdapterAddEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 76
+  Name         : SMHBA_RegisterForAdapterAddEvents
+
+Archive member name at 578E: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF800D11
+  SizeOfData   : 0000002B
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_RegisterForAdapterEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 77
+  Name         : SMHBA_RegisterForAdapterEvents
+
+Archive member name at 580A: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4A957A5
+  SizeOfData   : 00000032
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_RegisterForAdapterPhyStatEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 78
+  Name         : SMHBA_RegisterForAdapterPhyStatEvents
+
+Archive member name at 588C: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF4757B7
+  SizeOfData   : 0000002F
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_RegisterForAdapterPortEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 79
+  Name         : SMHBA_RegisterForAdapterPortEvents
+
+Archive member name at 590C: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1741AAB
+  SizeOfData   : 00000033
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_RegisterForAdapterPortStatEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 80
+  Name         : SMHBA_RegisterForAdapterPortStatEvents
+
+Archive member name at 5990: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA1870BB
+  SizeOfData   : 0000002A
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_RegisterForTargetEvents
+  Type         : code
+  Name type    : no prefix
+  Hint         : 81
+  Name         : SMHBA_RegisterForTargetEvents
+
+Archive member name at 5A0A: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0A6FAC1
+  SizeOfData   : 00000022
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_RegisterLibrary
+  Type         : code
+  Name type    : no prefix
+  Hint         : 82
+  Name         : SMHBA_RegisterLibrary
+
+Archive member name at 5A7C: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5B27A22
+  SizeOfData   : 0000002E
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_RemoveAllPersistentBindings
+  Type         : code
+  Name type    : no prefix
+  Hint         : 83
+  Name         : SMHBA_RemoveAllPersistentBindings
+
+Archive member name at 5AFA: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAB5810A
+  SizeOfData   : 0000002A
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_RemovePersistentBinding
+  Type         : code
+  Name type    : no prefix
+  Hint         : 84
+  Name         : SMHBA_RemovePersistentBinding
+
+Archive member name at 5B74: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D826DBC9
+  SizeOfData   : 0000001E
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_ScsiInquiry
+  Type         : code
+  Name type    : no prefix
+  Hint         : 85
+  Name         : SMHBA_ScsiInquiry
+
+Archive member name at 5BE2: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E59ACEE8
+  SizeOfData   : 00000023
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_ScsiReadCapacity
+  Type         : code
+  Name type    : no prefix
+  Hint         : 86
+  Name         : SMHBA_ScsiReadCapacity
+
+Archive member name at 5C56: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7466297
+  SizeOfData   : 00000021
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_ScsiReportLuns
+  Type         : code
+  Name type    : no prefix
+  Hint         : 87
+  Name         : SMHBA_ScsiReportLuns
+
+Archive member name at 5CC8: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6E5190E
+  SizeOfData   : 0000001B
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_SendECHO
+  Type         : code
+  Name type    : no prefix
+  Hint         : 88
+  Name         : SMHBA_SendECHO
+
+Archive member name at 5D34: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE0788CA
+  SizeOfData   : 00000022
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_SendSMPPassThru
+  Type         : code
+  Name type    : no prefix
+  Hint         : 89
+  Name         : SMHBA_SendSMPPassThru
+
+Archive member name at 5DA6: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD77976F
+  SizeOfData   : 0000001B
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_SendTEST
+  Type         : code
+  Name type    : no prefix
+  Hint         : 90
+  Name         : SMHBA_SendTEST
+
+Archive member name at 5E12: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E06F783E
+  SizeOfData   : 00000024
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_SetBindingSupport
+  Type         : code
+  Name type    : no prefix
+  Hint         : 91
+  Name         : SMHBA_SetBindingSupport
+
+Archive member name at 5E86: HBAAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCE2A1FB
+  SizeOfData   : 00000027
+  DLL name     : HBAAPI.dll
+  Symbol name  : _SMHBA_SetPersistentBinding
+  Type         : code
+  Name type    : no prefix
+  Hint         : 92
+  Name         : SMHBA_SetPersistentBinding
+
+     Exports
+
+       ordinal    name
+
+                  _HBA_CloseAdapter
+                  _HBA_FreeLibrary
+                  _HBA_GetAdapterAttributes
+                  _HBA_GetAdapterName
+                  _HBA_GetAdapterPortAttributes
+                  _HBA_GetBindingCapability
+                  _HBA_GetBindingSupport
+                  _HBA_GetDiscoveredPortAttributes
+                  _HBA_GetEventBuffer
+                  _HBA_GetFC4Statistics
+                  _HBA_GetFCPStatistics
+                  _HBA_GetFcpPersistentBinding
+                  _HBA_GetFcpTargetMapping
+                  _HBA_GetFcpTargetMappingV2
+                  _HBA_GetNumberOfAdapters
+                  _HBA_GetPersistentBindingV2
+                  _HBA_GetPortAttributesByWWN
+                  _HBA_GetPortStatistics
+                  _HBA_GetRNIDMgmtInfo
+                  _HBA_GetVendorLibraryAttributes
+                  _HBA_GetVersion
+                  _HBA_GetWrapperLibraryAttributes
+                  _HBA_LoadLibrary
+                  _HBA_OpenAdapter
+                  _HBA_OpenAdapterByWWN
+                  _HBA_RefreshAdapterConfiguration
+                  _HBA_RefreshInformation
+                  _HBA_RegisterForAdapterAddEvents
+                  _HBA_RegisterForAdapterEvents
+                  _HBA_RegisterForAdapterPortEvents
+                  _HBA_RegisterForAdapterPortStatEvents
+                  _HBA_RegisterForLinkEvents
+                  _HBA_RegisterForTargetEvents
+                  _HBA_RegisterLibrary
+                  _HBA_RegisterLibraryV2
+                  _HBA_RemoveAllPersistentBindings
+                  _HBA_RemoveCallback
+                  _HBA_RemovePersistentBinding
+                  _HBA_ResetStatistics
+                  _HBA_ScsiInquiryV2
+                  _HBA_ScsiReadCapacityV2
+                  _HBA_ScsiReportLUNsV2
+                  _HBA_SendCTPassThru
+                  _HBA_SendCTPassThruV2
+                  _HBA_SendLIRR
+                  _HBA_SendRLS
+                  _HBA_SendRNID
+                  _HBA_SendRNIDV2
+                  _HBA_SendRPL
+                  _HBA_SendRPS
+                  _HBA_SendReadCapacity
+                  _HBA_SendReportLUNs
+                  _HBA_SendSRL
+                  _HBA_SendScsiInquiry
+                  _HBA_SetBindingSupport
+                  _HBA_SetPersistentBindingV2
+                  _HBA_SetRNIDMgmtInfo
+                  _HbaGetAdapterNameByDeviceInstanceId@8
+                  _SMHBA_GetAdapterAttributes
+                  _SMHBA_GetAdapterPortAttributes
+                  _SMHBA_GetBindingCapability
+                  _SMHBA_GetBindingSupport
+                  _SMHBA_GetDiscoveredPortAttributes
+                  _SMHBA_GetFCPhyAttributes
+                  _SMHBA_GetLUNStatistics
+                  _SMHBA_GetNumberOfPorts
+                  _SMHBA_GetPersistentBinding
+                  _SMHBA_GetPhyStatistics
+                  _SMHBA_GetPortAttributesByWWN
+                  _SMHBA_GetPortType
+                  _SMHBA_GetProtocolStatistics
+                  _SMHBA_GetSASPhyAttributes
+                  _SMHBA_GetTargetMapping
+                  _SMHBA_GetVendorLibraryAttributes
+                  _SMHBA_GetVersion
+                  _SMHBA_GetWrapperLibraryAttributes
+                  _SMHBA_RegisterForAdapterAddEvents
+                  _SMHBA_RegisterForAdapterEvents
+                  _SMHBA_RegisterForAdapterPhyStatEvents
+                  _SMHBA_RegisterForAdapterPortEvents
+                  _SMHBA_RegisterForAdapterPortStatEvents
+                  _SMHBA_RegisterForTargetEvents
+                  _SMHBA_RegisterLibrary
+                  _SMHBA_RemoveAllPersistentBindings
+                  _SMHBA_RemovePersistentBinding
+                  _SMHBA_ScsiInquiry
+                  _SMHBA_ScsiReadCapacity
+                  _SMHBA_ScsiReportLuns
+                  _SMHBA_SendECHO
+                  _SMHBA_SendSMPPassThru
+                  _SMHBA_SendTEST
+                  _SMHBA_SetBindingSupport
+                  _SMHBA_SetPersistentBinding
+
+  Summary
+
+          C0 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

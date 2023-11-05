@@ -1,0 +1,2632 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\pdh.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    1B6E size
+correct header end
+
+    223 public symbols
+
+     3766 __IMPORT_DESCRIPTOR_pdh
+     3980 __NULL_IMPORT_DESCRIPTOR
+     3AB2 pdh_NULL_THUNK_DATA
+     54DC _PdhGetDllVersion@4
+     54DC __imp__PdhGetDllVersion@4
+     5CE0 _PdhOpenQuery@12
+     5CE0 __imp__PdhOpenQuery@12
+     5D4A _PdhOpenQueryA@12
+     5D4A __imp__PdhOpenQueryA@12
+     5E1E _PdhOpenQueryW@12
+     5E1E __imp__PdhOpenQueryW@12
+     3BFC _PdhAddCounterA@16
+     3BFC __imp__PdhAddCounterA@16
+     3C68 _PdhAddCounterW@16
+     3C68 __imp__PdhAddCounterW@16
+     60C0 _PdhRemoveCounter@4
+     60C0 __imp__PdhRemoveCounter@4
+     41AA _PdhCollectQueryData@4
+     41AA __imp__PdhCollectQueryData@4
+     4140 _PdhCloseQuery@4
+     4140 __imp__PdhCloseQuery@4
+     563C _PdhGetFormattedCounterValue@16
+     563C __imp__PdhGetFormattedCounterValue@16
+     5878 _PdhGetRawCounterValue@12
+     5878 __imp__PdhGetRawCounterValue@12
+     405C _PdhCalculateCounterFromRawValue@20
+     405C __imp__PdhCalculateCounterFromRawValue@20
+     4304 _PdhComputeCounterStatistics@24
+     4304 __imp__PdhComputeCounterStatistics@24
+     4E6E _PdhGetCounterInfoA@16
+     4E6E __imp__PdhGetCounterInfoA@16
+     4EDE _PdhGetCounterInfoW@16
+     4EDE __imp__PdhGetCounterInfoW@16
+     6210 _PdhSetCounterScaleFactor@8
+     6210 __imp__PdhSetCounterScaleFactor@8
+     437C _PdhConnectMachineA@4
+     437C __imp__PdhConnectMachineA@4
+     43EA _PdhConnectMachineW@4
+     43EA __imp__PdhConnectMachineW@4
+     4618 _PdhEnumMachinesA@12
+     4618 __imp__PdhEnumMachinesA@12
+     4762 _PdhEnumMachinesW@12
+     4762 __imp__PdhEnumMachinesW@12
+     4994 _PdhEnumObjectsA@24
+     4994 __imp__PdhEnumObjectsA@24
+     4ADC _PdhEnumObjectsW@24
+     4ADC __imp__PdhEnumObjectsW@24
+     47D0 _PdhEnumObjectItemsA@36
+     47D0 __imp__PdhEnumObjectItemsA@36
+     4924 _PdhEnumObjectItemsW@36
+     4924 __imp__PdhEnumObjectItemsW@36
+     5B30 _PdhMakeCounterPathA@16
+     5B30 __imp__PdhMakeCounterPathA@16
+     5BA0 _PdhMakeCounterPathW@16
+     5BA0 __imp__PdhMakeCounterPathW@16
+     5E88 _PdhParseCounterPathA@16
+     5E88 __imp__PdhParseCounterPathA@16
+     5EFA _PdhParseCounterPathW@16
+     5EFA __imp__PdhParseCounterPathW@16
+     5F6C _PdhParseInstanceNameA@24
+     5F6C __imp__PdhParseInstanceNameA@24
+     5FDE _PdhParseInstanceNameW@24
+     5FDE __imp__PdhParseInstanceNameW@24
+     6526 _PdhValidatePathA@4
+     6526 __imp__PdhValidatePathA@4
+     666E _PdhValidatePathW@4
+     666E __imp__PdhValidatePathW@4
+     5304 _PdhGetDefaultPerfObjectA@16
+     5304 __imp__PdhGetDefaultPerfObjectA@16
+     5466 _PdhGetDefaultPerfObjectW@16
+     5466 __imp__PdhGetDefaultPerfObjectW@16
+     5128 _PdhGetDefaultPerfCounterA@20
+     5128 __imp__PdhGetDefaultPerfCounterA@20
+     528E _PdhGetDefaultPerfCounterW@20
+     528E __imp__PdhGetDefaultPerfCounterW@20
+     3EA0 _PdhBrowseCountersA@4
+     3EA0 __imp__PdhBrowseCountersA@4
+     3FEE _PdhBrowseCountersW@4
+     3FEE __imp__PdhBrowseCountersW@4
+     4B48 _PdhExpandCounterPathA@12
+     4B48 __imp__PdhExpandCounterPathA@12
+     4BBA _PdhExpandCounterPathW@12
+     4BBA __imp__PdhExpandCounterPathW@12
+     5ABA _PdhLookupPerfNameByIndexW@16
+     5ABA __imp__PdhLookupPerfNameByIndexW@16
+     5A44 _PdhLookupPerfNameByIndexA@16
+     5A44 __imp__PdhLookupPerfNameByIndexA@16
+     59CE _PdhLookupPerfIndexByNameW@12
+     59CE __imp__PdhLookupPerfIndexByNameW@12
+     5958 _PdhLookupPerfIndexByNameA@12
+     5958 __imp__PdhLookupPerfIndexByNameA@12
+     5C78 _PdhOpenLogW@28
+     5C78 __imp__PdhOpenLogW@28
+     5C10 _PdhOpenLogA@28
+     5C10 __imp__PdhOpenLogA@28
+     63DE _PdhUpdateLogA@8
+     63DE __imp__PdhUpdateLogA@8
+     64BC _PdhUpdateLogW@8
+     64BC __imp__PdhUpdateLogW@8
+     56B4 _PdhGetLogFileSize@8
+     56B4 __imp__PdhGetLogFileSize@8
+     40D8 _PdhCloseLog@8
+     40D8 __imp__PdhCloseLog@8
+     636E _PdhSetQueryTimeRange@8
+     636E __imp__PdhSetQueryTimeRange@8
+     58EA _PdhIsRealTimeQuery@4
+     58EA __imp__PdhIsRealTimeQuery@4
+     4FC0 _PdhGetDataSourceTimeRangeA@16
+     4FC0 __imp__PdhGetDataSourceTimeRangeA@16
+     50B0 _PdhGetDataSourceTimeRangeW@16
+     50B0 __imp__PdhGetDataSourceTimeRangeW@16
+     612C _PdhSelectDataSourceA@16
+     612C __imp__PdhSelectDataSourceA@16
+     619E _PdhSelectDataSourceW@16
+     619E __imp__PdhSelectDataSourceW@16
+     5548 _PdhGetFormattedCounterArrayA@20
+     5548 __imp__PdhGetFormattedCounterArrayA@20
+     55C2 _PdhGetFormattedCounterArrayW@20
+     55C2 __imp__PdhGetFormattedCounterArrayW@20
+     5790 _PdhGetRawCounterArrayA@16
+     5790 __imp__PdhGetRawCounterArrayA@16
+     5804 _PdhGetRawCounterArrayW@16
+     5804 __imp__PdhGetRawCounterArrayW@16
+     421A _PdhCollectQueryDataEx@12
+     421A __imp__PdhCollectQueryDataEx@12
+     4DFC _PdhFormatFromRawValue@24
+     4DFC __imp__PdhFormatFromRawValue@24
+     6284 _PdhSetDefaultRealTimeDataSource@4
+     6284 __imp__PdhSetDefaultRealTimeDataSource@4
+     6050 _PdhReadRawLogRecord@20
+     6050 __imp__PdhReadRawLogRecord@20
+     4F4E _PdhGetCounterTimeBase@8
+     4F4E __imp__PdhGetCounterTimeBase@8
+     6448 _PdhUpdateLogFileCatalog@4
+     6448 __imp__PdhUpdateLogFileCatalog@4
+     4C2C _PdhExpandWildCardPathA@20
+     4C2C __imp__PdhExpandWildCardPathA@20
+     4D88 _PdhExpandWildCardPathW@20
+     4D88 __imp__PdhExpandWildCardPathW@20
+     6ADE _PdhVbOpenQuery@4
+     6ADE __imp__PdhVbOpenQuery@4
+     66DA _PdhVbAddCounter@12
+     66DA __imp__PdhVbAddCounter@12
+     68AC _PdhVbGetDoubleCounterValue@8
+     68AC __imp__PdhVbGetDoubleCounterValue@8
+     6992 _PdhVbGetOneCounterPath@16
+     6992 __imp__PdhVbGetOneCounterPath@16
+     6746 _PdhVbCreateCounterPathList@8
+     6746 __imp__PdhVbCreateCounterPathList@8
+     6834 _PdhVbGetCounterPathFromList@12
+     6834 __imp__PdhVbGetCounterPathFromList@12
+     67BC _PdhVbGetCounterPathElements@28
+     67BC __imp__PdhVbGetCounterPathElements@28
+     6A06 _PdhVbIsGoodStatus@4
+     6A06 __imp__PdhVbIsGoodStatus@4
+     6A74 _PdhVbOpenLog@28
+     6A74 __imp__PdhVbOpenLog@28
+     6B48 _PdhVbUpdateLog@8
+     6B48 __imp__PdhVbUpdateLog@8
+     6922 _PdhVbGetLogFileSize@8
+     6922 __imp__PdhVbGetLogFileSize@8
+     3D46 _PdhAddEnglishCounterW@16
+     3D46 __imp__PdhAddEnglishCounterW@16
+     3CD4 _PdhAddEnglishCounterA@16
+     3CD4 __imp__PdhAddEnglishCounterA@16
+     6600 _PdhValidatePathExW@8
+     6600 __imp__PdhValidatePathExW@8
+     6592 _PdhValidatePathExA@8
+     6592 __imp__PdhValidatePathExA@8
+     428C _PdhCollectQueryDataWithTime@8
+     428C __imp__PdhCollectQueryDataWithTime@8
+     3E2C _PdhBindInputDataSourceW@8
+     3E2C __imp__PdhBindInputDataSourceW@8
+     3DB8 _PdhBindInputDataSourceA@8
+     3DB8 __imp__PdhBindInputDataSourceA@8
+     5DB4 _PdhOpenQueryH@12
+     5DB4 __imp__PdhOpenQueryH@12
+     46F4 _PdhEnumMachinesHW@12
+     46F4 __imp__PdhEnumMachinesHW@12
+     4686 _PdhEnumMachinesHA@12
+     4686 __imp__PdhEnumMachinesHA@12
+     4A6E _PdhEnumObjectsHW@24
+     4A6E __imp__PdhEnumObjectsHW@24
+     4A00 _PdhEnumObjectsHA@24
+     4A00 __imp__PdhEnumObjectsHA@24
+     48B2 _PdhEnumObjectItemsHW@36
+     48B2 __imp__PdhEnumObjectItemsHW@36
+     4840 _PdhEnumObjectItemsHA@36
+     4840 __imp__PdhEnumObjectItemsHA@36
+     4D14 _PdhExpandWildCardPathHW@20
+     4D14 __imp__PdhExpandWildCardPathHW@20
+     4CA0 _PdhExpandWildCardPathHA@20
+     4CA0 __imp__PdhExpandWildCardPathHA@20
+     5038 _PdhGetDataSourceTimeRangeH@16
+     5038 __imp__PdhGetDataSourceTimeRangeH@16
+     537A _PdhGetDefaultPerfObjectHA@16
+     537A __imp__PdhGetDefaultPerfObjectHA@16
+     53F0 _PdhGetDefaultPerfObjectHW@16
+     53F0 __imp__PdhGetDefaultPerfObjectHW@16
+     519E _PdhGetDefaultPerfCounterHA@20
+     519E __imp__PdhGetDefaultPerfCounterHA@20
+     5216 _PdhGetDefaultPerfCounterHW@20
+     5216 __imp__PdhGetDefaultPerfCounterHW@20
+     3F7E _PdhBrowseCountersHW@4
+     3F7E __imp__PdhBrowseCountersHW@4
+     3F0E _PdhBrowseCountersHA@4
+     3F0E __imp__PdhBrowseCountersHA@4
+     4538 _PdhEnumLogSetNamesA@12
+     4538 __imp__PdhEnumLogSetNamesA@12
+     45A8 _PdhEnumLogSetNamesW@12
+     45A8 __imp__PdhEnumLogSetNamesW@12
+     6BB2 _PdhVerifySQLDBA@4
+     6BB2 __imp__PdhVerifySQLDBA@4
+     6C1E _PdhVerifySQLDBW@4
+     6C1E __imp__PdhVerifySQLDBW@4
+     4458 _PdhCreateSQLTablesA@4
+     4458 __imp__PdhCreateSQLTablesA@4
+     44C8 _PdhCreateSQLTablesW@4
+     44C8 __imp__PdhCreateSQLTablesW@4
+     6300 _PdhSetLogSetRunID@8
+     6300 __imp__PdhSetLogSetRunID@8
+     5722 _PdhGetLogSetGUID@12
+     5722 __imp__PdhGetLogSetGUID@12
+
+Archive member name at 3766: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1DD size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        CA27BE62 time date stamp
+             103 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3D size of raw data
+      8C file pointer to raw data (0000008C to 000000C8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      C9 file pointer to raw data (000000C9 to 000000DC)
+      DD file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+      FB file pointer to raw data (000000FB to 00000102)
+      DD file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 3980: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F6 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        D799187D time date stamp
+              B5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3D size of raw data
+      64 file pointer to raw data (00000064 to 000000A0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A1 file pointer to raw data (000000A1 to 000000B4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 3AB2: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     10E size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E8630882 time date stamp
+              D1 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3D size of raw data
+      8C file pointer to raw data (0000008C to 000000C8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      C9 file pointer to raw data (000000C9 to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 3BFC: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C644E6FF
+  SizeOfData   : 0000001B
+  DLL name     : pdh.dll
+  Symbol name  : _PdhAddCounterA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : PdhAddCounterA
+
+Archive member name at 3C68: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAFE2D29
+  SizeOfData   : 0000001B
+  DLL name     : pdh.dll
+  Symbol name  : _PdhAddCounterW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : PdhAddCounterW
+
+Archive member name at 3CD4: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CEE714C9
+  SizeOfData   : 00000022
+  DLL name     : pdh.dll
+  Symbol name  : _PdhAddEnglishCounterA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : PdhAddEnglishCounterA
+
+Archive member name at 3D46: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C916A60A
+  SizeOfData   : 00000022
+  DLL name     : pdh.dll
+  Symbol name  : _PdhAddEnglishCounterW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : PdhAddEnglishCounterW
+
+Archive member name at 3DB8: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C34DE49D
+  SizeOfData   : 00000023
+  DLL name     : pdh.dll
+  Symbol name  : _PdhBindInputDataSourceA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : PdhBindInputDataSourceA
+
+Archive member name at 3E2C: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFB70419
+  SizeOfData   : 00000023
+  DLL name     : pdh.dll
+  Symbol name  : _PdhBindInputDataSourceW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : PdhBindInputDataSourceW
+
+Archive member name at 3EA0: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E81328FA
+  SizeOfData   : 0000001E
+  DLL name     : pdh.dll
+  Symbol name  : _PdhBrowseCountersA@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : PdhBrowseCountersA
+
+Archive member name at 3F0E: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5A7E1FB
+  SizeOfData   : 0000001F
+  DLL name     : pdh.dll
+  Symbol name  : _PdhBrowseCountersHA@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : PdhBrowseCountersHA
+
+Archive member name at 3F7E: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB6CA05F
+  SizeOfData   : 0000001F
+  DLL name     : pdh.dll
+  Symbol name  : _PdhBrowseCountersHW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : PdhBrowseCountersHW
+
+Archive member name at 3FEE: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAA5E5A6
+  SizeOfData   : 0000001E
+  DLL name     : pdh.dll
+  Symbol name  : _PdhBrowseCountersW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : PdhBrowseCountersW
+
+Archive member name at 405C: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8D547ED
+  SizeOfData   : 0000002C
+  DLL name     : pdh.dll
+  Symbol name  : _PdhCalculateCounterFromRawValue@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : PdhCalculateCounterFromRawValue
+
+Archive member name at 40D8: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4F75C74
+  SizeOfData   : 00000017
+  DLL name     : pdh.dll
+  Symbol name  : _PdhCloseLog@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : PdhCloseLog
+
+Archive member name at 4140: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCD3BE53
+  SizeOfData   : 00000019
+  DLL name     : pdh.dll
+  Symbol name  : _PdhCloseQuery@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : PdhCloseQuery
+
+Archive member name at 41AA: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4B259EF
+  SizeOfData   : 0000001F
+  DLL name     : pdh.dll
+  Symbol name  : _PdhCollectQueryData@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : PdhCollectQueryData
+
+Archive member name at 421A: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E778FC08
+  SizeOfData   : 00000022
+  DLL name     : pdh.dll
+  Symbol name  : _PdhCollectQueryDataEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : PdhCollectQueryDataEx
+
+Archive member name at 428C: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7FE6032
+  SizeOfData   : 00000027
+  DLL name     : pdh.dll
+  Symbol name  : _PdhCollectQueryDataWithTime@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : PdhCollectQueryDataWithTime
+
+Archive member name at 4304: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2A2206F
+  SizeOfData   : 00000028
+  DLL name     : pdh.dll
+  Symbol name  : _PdhComputeCounterStatistics@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : PdhComputeCounterStatistics
+
+Archive member name at 437C: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EABD4A02
+  SizeOfData   : 0000001E
+  DLL name     : pdh.dll
+  Symbol name  : _PdhConnectMachineA@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : PdhConnectMachineA
+
+Archive member name at 43EA: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBBE69F0
+  SizeOfData   : 0000001E
+  DLL name     : pdh.dll
+  Symbol name  : _PdhConnectMachineW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : PdhConnectMachineW
+
+Archive member name at 4458: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9D36C31
+  SizeOfData   : 0000001F
+  DLL name     : pdh.dll
+  Symbol name  : _PdhCreateSQLTablesA@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : PdhCreateSQLTablesA
+
+Archive member name at 44C8: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB069C49
+  SizeOfData   : 0000001F
+  DLL name     : pdh.dll
+  Symbol name  : _PdhCreateSQLTablesW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : PdhCreateSQLTablesW
+
+Archive member name at 4538: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F95B3DAB
+  SizeOfData   : 00000020
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumLogSetNamesA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : PdhEnumLogSetNamesA
+
+Archive member name at 45A8: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE6CA1FB
+  SizeOfData   : 00000020
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumLogSetNamesW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : PdhEnumLogSetNamesW
+
+Archive member name at 4618: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDD51EAE
+  SizeOfData   : 0000001D
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumMachinesA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : PdhEnumMachinesA
+
+Archive member name at 4686: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C171497A
+  SizeOfData   : 0000001E
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumMachinesHA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : PdhEnumMachinesHA
+
+Archive member name at 46F4: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1AC22A3
+  SizeOfData   : 0000001E
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumMachinesHW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : PdhEnumMachinesHW
+
+Archive member name at 4762: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC981F9E
+  SizeOfData   : 0000001D
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumMachinesW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : PdhEnumMachinesW
+
+Archive member name at 47D0: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F41F145F
+  SizeOfData   : 00000020
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumObjectItemsA@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : PdhEnumObjectItemsA
+
+Archive member name at 4840: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6D906DB
+  SizeOfData   : 00000021
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumObjectItemsHA@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : PdhEnumObjectItemsHA
+
+Archive member name at 48B2: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC0B8056
+  SizeOfData   : 00000021
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumObjectItemsHW@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : PdhEnumObjectItemsHW
+
+Archive member name at 4924: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F977357E
+  SizeOfData   : 00000020
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumObjectItemsW@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : PdhEnumObjectItemsW
+
+Archive member name at 4994: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6F27A3B
+  SizeOfData   : 0000001C
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumObjectsA@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : PdhEnumObjectsA
+
+Archive member name at 4A00: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F99D8FEF
+  SizeOfData   : 0000001D
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumObjectsHA@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : PdhEnumObjectsHA
+
+Archive member name at 4A6E: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5DABA05
+  SizeOfData   : 0000001D
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumObjectsHW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : PdhEnumObjectsHW
+
+Archive member name at 4ADC: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6EEF1DB
+  SizeOfData   : 0000001C
+  DLL name     : pdh.dll
+  Symbol name  : _PdhEnumObjectsW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : PdhEnumObjectsW
+
+Archive member name at 4B48: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD92D94E
+  SizeOfData   : 00000022
+  DLL name     : pdh.dll
+  Symbol name  : _PdhExpandCounterPathA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : PdhExpandCounterPathA
+
+Archive member name at 4BBA: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCFBCB4E
+  SizeOfData   : 00000022
+  DLL name     : pdh.dll
+  Symbol name  : _PdhExpandCounterPathW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : PdhExpandCounterPathW
+
+Archive member name at 4C2C: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6E93763
+  SizeOfData   : 00000023
+  DLL name     : pdh.dll
+  Symbol name  : _PdhExpandWildCardPathA@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : PdhExpandWildCardPathA
+
+Archive member name at 4CA0: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD10E660
+  SizeOfData   : 00000024
+  DLL name     : pdh.dll
+  Symbol name  : _PdhExpandWildCardPathHA@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : PdhExpandWildCardPathHA
+
+Archive member name at 4D14: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECAA75A6
+  SizeOfData   : 00000024
+  DLL name     : pdh.dll
+  Symbol name  : _PdhExpandWildCardPathHW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : PdhExpandWildCardPathHW
+
+Archive member name at 4D88: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA272617
+  SizeOfData   : 00000023
+  DLL name     : pdh.dll
+  Symbol name  : _PdhExpandWildCardPathW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : PdhExpandWildCardPathW
+
+Archive member name at 4DFC: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4E15C51
+  SizeOfData   : 00000022
+  DLL name     : pdh.dll
+  Symbol name  : _PdhFormatFromRawValue@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : PdhFormatFromRawValue
+
+Archive member name at 4E6E: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD828EA3
+  SizeOfData   : 0000001F
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetCounterInfoA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : PdhGetCounterInfoA
+
+Archive member name at 4EDE: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF24DC8A
+  SizeOfData   : 0000001F
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetCounterInfoW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : PdhGetCounterInfoW
+
+Archive member name at 4F4E: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE327A65
+  SizeOfData   : 00000021
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetCounterTimeBase@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : PdhGetCounterTimeBase
+
+Archive member name at 4FC0: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA8AFA72
+  SizeOfData   : 00000027
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetDataSourceTimeRangeA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : PdhGetDataSourceTimeRangeA
+
+Archive member name at 5038: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D09B132A
+  SizeOfData   : 00000027
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetDataSourceTimeRangeH@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : PdhGetDataSourceTimeRangeH
+
+Archive member name at 50B0: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8FFEF02
+  SizeOfData   : 00000027
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetDataSourceTimeRangeW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : PdhGetDataSourceTimeRangeW
+
+Archive member name at 5128: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6C3D5D1
+  SizeOfData   : 00000026
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetDefaultPerfCounterA@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : PdhGetDefaultPerfCounterA
+
+Archive member name at 519E: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C376AA6A
+  SizeOfData   : 00000027
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetDefaultPerfCounterHA@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : PdhGetDefaultPerfCounterHA
+
+Archive member name at 5216: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED2F24F8
+  SizeOfData   : 00000027
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetDefaultPerfCounterHW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : PdhGetDefaultPerfCounterHW
+
+Archive member name at 528E: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FADC4945
+  SizeOfData   : 00000026
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetDefaultPerfCounterW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : PdhGetDefaultPerfCounterW
+
+Archive member name at 5304: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C57F199C
+  SizeOfData   : 00000025
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetDefaultPerfObjectA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : PdhGetDefaultPerfObjectA
+
+Archive member name at 537A: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C21B3F30
+  SizeOfData   : 00000026
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetDefaultPerfObjectHA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : PdhGetDefaultPerfObjectHA
+
+Archive member name at 53F0: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3ABACB9
+  SizeOfData   : 00000026
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetDefaultPerfObjectHW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : PdhGetDefaultPerfObjectHW
+
+Archive member name at 5466: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE462F51
+  SizeOfData   : 00000025
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetDefaultPerfObjectW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : PdhGetDefaultPerfObjectW
+
+Archive member name at 54DC: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1FAAEB8
+  SizeOfData   : 0000001C
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetDllVersion@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : PdhGetDllVersion
+
+Archive member name at 5548: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D116D2E6
+  SizeOfData   : 00000029
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetFormattedCounterArrayA@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : PdhGetFormattedCounterArrayA
+
+Archive member name at 55C2: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF406638
+  SizeOfData   : 00000029
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetFormattedCounterArrayW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : PdhGetFormattedCounterArrayW
+
+Archive member name at 563C: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2F6005C
+  SizeOfData   : 00000028
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetFormattedCounterValue@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : PdhGetFormattedCounterValue
+
+Archive member name at 56B4: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF8B73C7
+  SizeOfData   : 0000001D
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetLogFileSize@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : PdhGetLogFileSize
+
+Archive member name at 5722: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED49BDEF
+  SizeOfData   : 0000001D
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetLogSetGUID@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : PdhGetLogSetGUID
+
+Archive member name at 5790: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3D0406B
+  SizeOfData   : 00000023
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetRawCounterArrayA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : PdhGetRawCounterArrayA
+
+Archive member name at 5804: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7D1E425
+  SizeOfData   : 00000023
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetRawCounterArrayW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : PdhGetRawCounterArrayW
+
+Archive member name at 5878: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8FD87B8
+  SizeOfData   : 00000022
+  DLL name     : pdh.dll
+  Symbol name  : _PdhGetRawCounterValue@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : PdhGetRawCounterValue
+
+Archive member name at 58EA: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA23696A
+  SizeOfData   : 0000001E
+  DLL name     : pdh.dll
+  Symbol name  : _PdhIsRealTimeQuery@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : PdhIsRealTimeQuery
+
+Archive member name at 5958: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAE0D7CB
+  SizeOfData   : 00000026
+  DLL name     : pdh.dll
+  Symbol name  : _PdhLookupPerfIndexByNameA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : PdhLookupPerfIndexByNameA
+
+Archive member name at 59CE: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA3E60FA
+  SizeOfData   : 00000026
+  DLL name     : pdh.dll
+  Symbol name  : _PdhLookupPerfIndexByNameW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : PdhLookupPerfIndexByNameW
+
+Archive member name at 5A44: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7D7804E
+  SizeOfData   : 00000026
+  DLL name     : pdh.dll
+  Symbol name  : _PdhLookupPerfNameByIndexA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : PdhLookupPerfNameByIndexA
+
+Archive member name at 5ABA: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2C6A06D
+  SizeOfData   : 00000026
+  DLL name     : pdh.dll
+  Symbol name  : _PdhLookupPerfNameByIndexW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : PdhLookupPerfNameByIndexW
+
+Archive member name at 5B30: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF0E9435
+  SizeOfData   : 00000020
+  DLL name     : pdh.dll
+  Symbol name  : _PdhMakeCounterPathA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : PdhMakeCounterPathA
+
+Archive member name at 5BA0: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E343773A
+  SizeOfData   : 00000020
+  DLL name     : pdh.dll
+  Symbol name  : _PdhMakeCounterPathW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 74
+  Name         : PdhMakeCounterPathW
+
+Archive member name at 5C10: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED683A71
+  SizeOfData   : 00000018
+  DLL name     : pdh.dll
+  Symbol name  : _PdhOpenLogA@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 75
+  Name         : PdhOpenLogA
+
+Archive member name at 5C78: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3C6079A
+  SizeOfData   : 00000018
+  DLL name     : pdh.dll
+  Symbol name  : _PdhOpenLogW@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : PdhOpenLogW
+
+Archive member name at 5CE0: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAD31BCF
+  SizeOfData   : 00000019
+  DLL name     : pdh.dll
+  Symbol name  : _PdhOpenQuery@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : PdhOpenQuery
+
+Archive member name at 5D4A: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC0D6381
+  SizeOfData   : 0000001A
+  DLL name     : pdh.dll
+  Symbol name  : _PdhOpenQueryA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : PdhOpenQueryA
+
+Archive member name at 5DB4: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C73C1975
+  SizeOfData   : 0000001A
+  DLL name     : pdh.dll
+  Symbol name  : _PdhOpenQueryH@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : PdhOpenQueryH
+
+Archive member name at 5E1E: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9C0459F
+  SizeOfData   : 0000001A
+  DLL name     : pdh.dll
+  Symbol name  : _PdhOpenQueryW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 80
+  Name         : PdhOpenQueryW
+
+Archive member name at 5E88: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5496CB4
+  SizeOfData   : 00000021
+  DLL name     : pdh.dll
+  Symbol name  : _PdhParseCounterPathA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : PdhParseCounterPathA
+
+Archive member name at 5EFA: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0267E4C
+  SizeOfData   : 00000021
+  DLL name     : pdh.dll
+  Symbol name  : _PdhParseCounterPathW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 82
+  Name         : PdhParseCounterPathW
+
+Archive member name at 5F6C: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D86CC6BC
+  SizeOfData   : 00000022
+  DLL name     : pdh.dll
+  Symbol name  : _PdhParseInstanceNameA@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : PdhParseInstanceNameA
+
+Archive member name at 5FDE: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAA36649
+  SizeOfData   : 00000022
+  DLL name     : pdh.dll
+  Symbol name  : _PdhParseInstanceNameW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 84
+  Name         : PdhParseInstanceNameW
+
+Archive member name at 6050: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFE1C75E
+  SizeOfData   : 00000020
+  DLL name     : pdh.dll
+  Symbol name  : _PdhReadRawLogRecord@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 85
+  Name         : PdhReadRawLogRecord
+
+Archive member name at 60C0: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2739E1B
+  SizeOfData   : 0000001C
+  DLL name     : pdh.dll
+  Symbol name  : _PdhRemoveCounter@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 87
+  Name         : PdhRemoveCounter
+
+Archive member name at 612C: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3E2401F
+  SizeOfData   : 00000021
+  DLL name     : pdh.dll
+  Symbol name  : _PdhSelectDataSourceA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 89
+  Name         : PdhSelectDataSourceA
+
+Archive member name at 619E: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD4D2E40
+  SizeOfData   : 00000021
+  DLL name     : pdh.dll
+  Symbol name  : _PdhSelectDataSourceW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 90
+  Name         : PdhSelectDataSourceW
+
+Archive member name at 6210: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4E20E80
+  SizeOfData   : 00000024
+  DLL name     : pdh.dll
+  Symbol name  : _PdhSetCounterScaleFactor@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 91
+  Name         : PdhSetCounterScaleFactor
+
+Archive member name at 6284: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA75C252
+  SizeOfData   : 0000002B
+  DLL name     : pdh.dll
+  Symbol name  : _PdhSetDefaultRealTimeDataSource@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 93
+  Name         : PdhSetDefaultRealTimeDataSource
+
+Archive member name at 6300: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6C6979E
+  SizeOfData   : 0000001D
+  DLL name     : pdh.dll
+  Symbol name  : _PdhSetLogSetRunID@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 94
+  Name         : PdhSetLogSetRunID
+
+Archive member name at 636E: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D68704E8
+  SizeOfData   : 00000020
+  DLL name     : pdh.dll
+  Symbol name  : _PdhSetQueryTimeRange@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 95
+  Name         : PdhSetQueryTimeRange
+
+Archive member name at 63DE: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC63A4C8
+  SizeOfData   : 00000019
+  DLL name     : pdh.dll
+  Symbol name  : _PdhUpdateLogA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 98
+  Name         : PdhUpdateLogA
+
+Archive member name at 6448: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFC95840
+  SizeOfData   : 00000023
+  DLL name     : pdh.dll
+  Symbol name  : _PdhUpdateLogFileCatalog@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 99
+  Name         : PdhUpdateLogFileCatalog
+
+Archive member name at 64BC: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C15B6E40
+  SizeOfData   : 00000019
+  DLL name     : pdh.dll
+  Symbol name  : _PdhUpdateLogW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 100
+  Name         : PdhUpdateLogW
+
+Archive member name at 6526: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF1DC90C
+  SizeOfData   : 0000001C
+  DLL name     : pdh.dll
+  Symbol name  : _PdhValidatePathA@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 101
+  Name         : PdhValidatePathA
+
+Archive member name at 6592: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC72ABE4
+  SizeOfData   : 0000001E
+  DLL name     : pdh.dll
+  Symbol name  : _PdhValidatePathExA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 102
+  Name         : PdhValidatePathExA
+
+Archive member name at 6600: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F54BBEF4
+  SizeOfData   : 0000001E
+  DLL name     : pdh.dll
+  Symbol name  : _PdhValidatePathExW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 103
+  Name         : PdhValidatePathExW
+
+Archive member name at 666E: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDAF5263
+  SizeOfData   : 0000001C
+  DLL name     : pdh.dll
+  Symbol name  : _PdhValidatePathW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 104
+  Name         : PdhValidatePathW
+
+Archive member name at 66DA: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DADCAEA6
+  SizeOfData   : 0000001C
+  DLL name     : pdh.dll
+  Symbol name  : _PdhVbAddCounter@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 105
+  Name         : PdhVbAddCounter
+
+Archive member name at 6746: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2B3878F
+  SizeOfData   : 00000026
+  DLL name     : pdh.dll
+  Symbol name  : _PdhVbCreateCounterPathList@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 106
+  Name         : PdhVbCreateCounterPathList
+
+Archive member name at 67BC: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D78F1429
+  SizeOfData   : 00000028
+  DLL name     : pdh.dll
+  Symbol name  : _PdhVbGetCounterPathElements@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 107
+  Name         : PdhVbGetCounterPathElements
+
+Archive member name at 6834: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F970B618
+  SizeOfData   : 00000028
+  DLL name     : pdh.dll
+  Symbol name  : _PdhVbGetCounterPathFromList@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 108
+  Name         : PdhVbGetCounterPathFromList
+
+Archive member name at 68AC: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1E1288A
+  SizeOfData   : 00000026
+  DLL name     : pdh.dll
+  Symbol name  : _PdhVbGetDoubleCounterValue@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 109
+  Name         : PdhVbGetDoubleCounterValue
+
+Archive member name at 6922: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C434F1CA
+  SizeOfData   : 0000001F
+  DLL name     : pdh.dll
+  Symbol name  : _PdhVbGetLogFileSize@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 110
+  Name         : PdhVbGetLogFileSize
+
+Archive member name at 6992: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9CA61E1
+  SizeOfData   : 00000023
+  DLL name     : pdh.dll
+  Symbol name  : _PdhVbGetOneCounterPath@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 111
+  Name         : PdhVbGetOneCounterPath
+
+Archive member name at 6A06: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAB6F58E
+  SizeOfData   : 0000001D
+  DLL name     : pdh.dll
+  Symbol name  : _PdhVbIsGoodStatus@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 112
+  Name         : PdhVbIsGoodStatus
+
+Archive member name at 6A74: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB23B5BD
+  SizeOfData   : 00000019
+  DLL name     : pdh.dll
+  Symbol name  : _PdhVbOpenLog@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 113
+  Name         : PdhVbOpenLog
+
+Archive member name at 6ADE: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5CC1690
+  SizeOfData   : 0000001A
+  DLL name     : pdh.dll
+  Symbol name  : _PdhVbOpenQuery@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 114
+  Name         : PdhVbOpenQuery
+
+Archive member name at 6B48: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CACCF893
+  SizeOfData   : 0000001A
+  DLL name     : pdh.dll
+  Symbol name  : _PdhVbUpdateLog@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 115
+  Name         : PdhVbUpdateLog
+
+Archive member name at 6BB2: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0DE8CD9
+  SizeOfData   : 0000001B
+  DLL name     : pdh.dll
+  Symbol name  : _PdhVerifySQLDBA@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 116
+  Name         : PdhVerifySQLDBA
+
+Archive member name at 6C1E: pdh.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4D4DF37
+  SizeOfData   : 0000001B
+  DLL name     : pdh.dll
+  Symbol name  : _PdhVerifySQLDBW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 117
+  Name         : PdhVerifySQLDBW
+
+     Exports
+
+       ordinal    name
+
+                  _PdhAddCounterA@16
+                  _PdhAddCounterW@16
+                  _PdhAddEnglishCounterA@16
+                  _PdhAddEnglishCounterW@16
+                  _PdhBindInputDataSourceA@8
+                  _PdhBindInputDataSourceW@8
+                  _PdhBrowseCountersA@4
+                  _PdhBrowseCountersHA@4
+                  _PdhBrowseCountersHW@4
+                  _PdhBrowseCountersW@4
+                  _PdhCalculateCounterFromRawValue@20
+                  _PdhCloseLog@8
+                  _PdhCloseQuery@4
+                  _PdhCollectQueryData@4
+                  _PdhCollectQueryDataEx@12
+                  _PdhCollectQueryDataWithTime@8
+                  _PdhComputeCounterStatistics@24
+                  _PdhConnectMachineA@4
+                  _PdhConnectMachineW@4
+                  _PdhCreateSQLTablesA@4
+                  _PdhCreateSQLTablesW@4
+                  _PdhEnumLogSetNamesA@12
+                  _PdhEnumLogSetNamesW@12
+                  _PdhEnumMachinesA@12
+                  _PdhEnumMachinesHA@12
+                  _PdhEnumMachinesHW@12
+                  _PdhEnumMachinesW@12
+                  _PdhEnumObjectItemsA@36
+                  _PdhEnumObjectItemsHA@36
+                  _PdhEnumObjectItemsHW@36
+                  _PdhEnumObjectItemsW@36
+                  _PdhEnumObjectsA@24
+                  _PdhEnumObjectsHA@24
+                  _PdhEnumObjectsHW@24
+                  _PdhEnumObjectsW@24
+                  _PdhExpandCounterPathA@12
+                  _PdhExpandCounterPathW@12
+                  _PdhExpandWildCardPathA@20
+                  _PdhExpandWildCardPathHA@20
+                  _PdhExpandWildCardPathHW@20
+                  _PdhExpandWildCardPathW@20
+                  _PdhFormatFromRawValue@24
+                  _PdhGetCounterInfoA@16
+                  _PdhGetCounterInfoW@16
+                  _PdhGetCounterTimeBase@8
+                  _PdhGetDataSourceTimeRangeA@16
+                  _PdhGetDataSourceTimeRangeH@16
+                  _PdhGetDataSourceTimeRangeW@16
+                  _PdhGetDefaultPerfCounterA@20
+                  _PdhGetDefaultPerfCounterHA@20
+                  _PdhGetDefaultPerfCounterHW@20
+                  _PdhGetDefaultPerfCounterW@20
+                  _PdhGetDefaultPerfObjectA@16
+                  _PdhGetDefaultPerfObjectHA@16
+                  _PdhGetDefaultPerfObjectHW@16
+                  _PdhGetDefaultPerfObjectW@16
+                  _PdhGetDllVersion@4
+                  _PdhGetFormattedCounterArrayA@20
+                  _PdhGetFormattedCounterArrayW@20
+                  _PdhGetFormattedCounterValue@16
+                  _PdhGetLogFileSize@8
+                  _PdhGetLogSetGUID@12
+                  _PdhGetRawCounterArrayA@16
+                  _PdhGetRawCounterArrayW@16
+                  _PdhGetRawCounterValue@12
+                  _PdhIsRealTimeQuery@4
+                  _PdhLookupPerfIndexByNameA@12
+                  _PdhLookupPerfIndexByNameW@12
+                  _PdhLookupPerfNameByIndexA@16
+                  _PdhLookupPerfNameByIndexW@16
+                  _PdhMakeCounterPathA@16
+                  _PdhMakeCounterPathW@16
+                  _PdhOpenLogA@28
+                  _PdhOpenLogW@28
+                  _PdhOpenQuery@12
+                  _PdhOpenQueryA@12
+                  _PdhOpenQueryH@12
+                  _PdhOpenQueryW@12
+                  _PdhParseCounterPathA@16
+                  _PdhParseCounterPathW@16
+                  _PdhParseInstanceNameA@24
+                  _PdhParseInstanceNameW@24
+                  _PdhReadRawLogRecord@20
+                  _PdhRemoveCounter@4
+                  _PdhSelectDataSourceA@16
+                  _PdhSelectDataSourceW@16
+                  _PdhSetCounterScaleFactor@8
+                  _PdhSetDefaultRealTimeDataSource@4
+                  _PdhSetLogSetRunID@8
+                  _PdhSetQueryTimeRange@8
+                  _PdhUpdateLogA@8
+                  _PdhUpdateLogFileCatalog@4
+                  _PdhUpdateLogW@8
+                  _PdhValidatePathA@4
+                  _PdhValidatePathExA@8
+                  _PdhValidatePathExW@8
+                  _PdhValidatePathW@4
+                  _PdhVbAddCounter@12
+                  _PdhVbCreateCounterPathList@8
+                  _PdhVbGetCounterPathElements@28
+                  _PdhVbGetCounterPathFromList@12
+                  _PdhVbGetDoubleCounterValue@8
+                  _PdhVbGetLogFileSize@8
+                  _PdhVbGetOneCounterPath@16
+                  _PdhVbIsGoodStatus@4
+                  _PdhVbOpenLog@28
+                  _PdhVbOpenQuery@4
+                  _PdhVbUpdateLog@8
+                  _PdhVerifySQLDBA@4
+                  _PdhVerifySQLDBW@4
+
+  Summary
+
+          B7 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           8 .idata$6

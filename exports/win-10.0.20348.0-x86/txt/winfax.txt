@@ -1,0 +1,1444 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\winfax.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     D6C size
+correct header end
+
+    115 public symbols
+
+     1B62 __IMPORT_DESCRIPTOR_WINFAX
+     1D88 __NULL_IMPORT_DESCRIPTOR
+     1EBE WINFAX_NULL_THUNK_DATA
+     200E _FaxAbort@8
+     200E __imp__FaxAbort@8
+     2076 _FaxAccessCheck@8
+     2076 __imp__FaxAccessCheck@8
+     20E4 _FaxClose@4
+     20E4 __imp__FaxClose@4
+     214C _FaxCompleteJobParamsA@8
+     214C __imp__FaxCompleteJobParamsA@8
+     21C0 _FaxCompleteJobParamsW@8
+     21C0 __imp__FaxCompleteJobParamsW@8
+     2234 _FaxConnectFaxServerA@8
+     2234 __imp__FaxConnectFaxServerA@8
+     22A8 _FaxConnectFaxServerW@8
+     22A8 __imp__FaxConnectFaxServerW@8
+     231C _FaxEnableRoutingMethodA@12
+     231C __imp__FaxEnableRoutingMethodA@12
+     2394 _FaxEnableRoutingMethodW@12
+     2394 __imp__FaxEnableRoutingMethodW@12
+     240C _FaxEnumGlobalRoutingInfoA@12
+     240C __imp__FaxEnumGlobalRoutingInfoA@12
+     2486 _FaxEnumGlobalRoutingInfoW@12
+     2486 __imp__FaxEnumGlobalRoutingInfoW@12
+     2500 _FaxEnumJobsA@12
+     2500 __imp__FaxEnumJobsA@12
+     256C _FaxEnumJobsW@12
+     256C __imp__FaxEnumJobsW@12
+     25D8 _FaxEnumPortsA@12
+     25D8 __imp__FaxEnumPortsA@12
+     2646 _FaxEnumPortsW@12
+     2646 __imp__FaxEnumPortsW@12
+     26B4 _FaxEnumRoutingMethodsA@12
+     26B4 __imp__FaxEnumRoutingMethodsA@12
+     272A _FaxEnumRoutingMethodsW@12
+     272A __imp__FaxEnumRoutingMethodsW@12
+     27A0 _FaxFreeBuffer@4
+     27A0 __imp__FaxFreeBuffer@4
+     280C _FaxGetConfigurationA@8
+     280C __imp__FaxGetConfigurationA@8
+     2880 _FaxGetConfigurationW@8
+     2880 __imp__FaxGetConfigurationW@8
+     28F4 _FaxGetDeviceStatusA@8
+     28F4 __imp__FaxGetDeviceStatusA@8
+     2966 _FaxGetDeviceStatusW@8
+     2966 __imp__FaxGetDeviceStatusW@8
+     29D8 _FaxGetJobA@12
+     29D8 __imp__FaxGetJobA@12
+     2A42 _FaxGetJobW@12
+     2A42 __imp__FaxGetJobW@12
+     2AAC _FaxGetLoggingCategoriesA@12
+     2AAC __imp__FaxGetLoggingCategoriesA@12
+     2B24 _FaxGetLoggingCategoriesW@12
+     2B24 __imp__FaxGetLoggingCategoriesW@12
+     2B9C _FaxGetPageData@24
+     2B9C __imp__FaxGetPageData@24
+     2C0A _FaxGetPortA@8
+     2C0A __imp__FaxGetPortA@8
+     2C74 _FaxGetPortW@8
+     2C74 __imp__FaxGetPortW@8
+     2CDE _FaxGetRoutingInfoA@16
+     2CDE __imp__FaxGetRoutingInfoA@16
+     2D50 _FaxGetRoutingInfoW@16
+     2D50 __imp__FaxGetRoutingInfoW@16
+     2DC2 _FaxInitializeEventQueue@20
+     2DC2 __imp__FaxInitializeEventQueue@20
+     2E3A _FaxOpenPort@16
+     2E3A __imp__FaxOpenPort@16
+     2EA6 _FaxPrintCoverPageA@8
+     2EA6 __imp__FaxPrintCoverPageA@8
+     2F18 _FaxPrintCoverPageW@8
+     2F18 __imp__FaxPrintCoverPageW@8
+     2F8A _FaxRegisterRoutingExtensionW@24
+     2F8A __imp__FaxRegisterRoutingExtensionW@24
+     3006 _FaxRegisterServiceProviderW@16
+     3006 __imp__FaxRegisterServiceProviderW@16
+     3892 _FaxUnregisterServiceProviderW@4
+     3892 __imp__FaxUnregisterServiceProviderW@4
+     3082 _FaxSendDocumentA@20
+     3082 __imp__FaxSendDocumentA@20
+     31EA _FaxSendDocumentW@20
+     31EA __imp__FaxSendDocumentW@20
+     30F2 _FaxSendDocumentForBroadcastA@20
+     30F2 __imp__FaxSendDocumentForBroadcastA@20
+     316E _FaxSendDocumentForBroadcastW@20
+     316E __imp__FaxSendDocumentForBroadcastW@20
+     325A _FaxSetConfigurationA@8
+     325A __imp__FaxSetConfigurationA@8
+     32CE _FaxSetConfigurationW@8
+     32CE __imp__FaxSetConfigurationW@8
+     3342 _FaxSetGlobalRoutingInfoA@8
+     3342 __imp__FaxSetGlobalRoutingInfoA@8
+     33BA _FaxSetGlobalRoutingInfoW@8
+     33BA __imp__FaxSetGlobalRoutingInfoW@8
+     3432 _FaxSetJobA@16
+     3432 __imp__FaxSetJobA@16
+     349C _FaxSetJobW@16
+     349C __imp__FaxSetJobW@16
+     3506 _FaxSetLoggingCategoriesA@12
+     3506 __imp__FaxSetLoggingCategoriesA@12
+     357E _FaxSetLoggingCategoriesW@12
+     357E __imp__FaxSetLoggingCategoriesW@12
+     35F6 _FaxSetPortA@8
+     35F6 __imp__FaxSetPortA@8
+     3660 _FaxSetPortW@8
+     3660 __imp__FaxSetPortW@8
+     36CA _FaxSetRoutingInfoA@16
+     36CA __imp__FaxSetRoutingInfoA@16
+     373C _FaxSetRoutingInfoW@16
+     373C __imp__FaxSetRoutingInfoW@16
+     37AE _FaxStartPrintJobA@16
+     37AE __imp__FaxStartPrintJobA@16
+     3820 _FaxStartPrintJobW@16
+     3820 __imp__FaxStartPrintJobW@16
+
+Archive member name at 1B62: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1EA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        DF3F07EC time date stamp
+             10A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CC file pointer to raw data (000000CC to 000000DF)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FE file pointer to raw data (000000FE to 00000109)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 1D88: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        E231F7FB time date stamp
+              B8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      64 file pointer to raw data (00000064 to 000000A3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A4 file pointer to raw data (000000A4 to 000000B7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1EBE: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     114 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        C30B1B9C time date stamp
+              D4 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CC file pointer to raw data (000000CC to 000000CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data (000000D0 to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 200E: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC1A3719
+  SizeOfData   : 00000017
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxAbort@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : FaxAbort
+
+Archive member name at 2076: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E81B306A
+  SizeOfData   : 0000001D
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxAccessCheck@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : FaxAccessCheck
+
+Archive member name at 20E4: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4C47DB5
+  SizeOfData   : 00000017
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxClose@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : FaxClose
+
+Archive member name at 214C: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E094E4EA
+  SizeOfData   : 00000024
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxCompleteJobParamsA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : FaxCompleteJobParamsA
+
+Archive member name at 21C0: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8C8D7A4
+  SizeOfData   : 00000024
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxCompleteJobParamsW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : FaxCompleteJobParamsW
+
+Archive member name at 2234: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D76C7B18
+  SizeOfData   : 00000023
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxConnectFaxServerA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : FaxConnectFaxServerA
+
+Archive member name at 22A8: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB817B58
+  SizeOfData   : 00000023
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxConnectFaxServerW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : FaxConnectFaxServerW
+
+Archive member name at 231C: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6B8E085
+  SizeOfData   : 00000027
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxEnableRoutingMethodA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : FaxEnableRoutingMethodA
+
+Archive member name at 2394: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2A104BB
+  SizeOfData   : 00000027
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxEnableRoutingMethodW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : FaxEnableRoutingMethodW
+
+Archive member name at 240C: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE78C0F9
+  SizeOfData   : 00000029
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxEnumGlobalRoutingInfoA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : FaxEnumGlobalRoutingInfoA
+
+Archive member name at 2486: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3E7AFD4
+  SizeOfData   : 00000029
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxEnumGlobalRoutingInfoW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : FaxEnumGlobalRoutingInfoW
+
+Archive member name at 2500: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C148EE59
+  SizeOfData   : 0000001C
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxEnumJobsA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : FaxEnumJobsA
+
+Archive member name at 256C: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F062FB18
+  SizeOfData   : 0000001C
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxEnumJobsW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : FaxEnumJobsW
+
+Archive member name at 25D8: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2A1F340
+  SizeOfData   : 0000001D
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxEnumPortsA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : FaxEnumPortsA
+
+Archive member name at 2646: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3E6353D
+  SizeOfData   : 0000001D
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxEnumPortsW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : FaxEnumPortsW
+
+Archive member name at 26B4: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0695540
+  SizeOfData   : 00000026
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxEnumRoutingMethodsA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : FaxEnumRoutingMethodsA
+
+Archive member name at 272A: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE4F42D8
+  SizeOfData   : 00000026
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxEnumRoutingMethodsW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : FaxEnumRoutingMethodsW
+
+Archive member name at 27A0: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC600395
+  SizeOfData   : 0000001C
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxFreeBuffer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : FaxFreeBuffer
+
+Archive member name at 280C: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4D37E63
+  SizeOfData   : 00000023
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxGetConfigurationA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : FaxGetConfigurationA
+
+Archive member name at 2880: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E13FF8CB
+  SizeOfData   : 00000023
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxGetConfigurationW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : FaxGetConfigurationW
+
+Archive member name at 28F4: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC71BB46
+  SizeOfData   : 00000022
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxGetDeviceStatusA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : FaxGetDeviceStatusA
+
+Archive member name at 2966: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1DA268E
+  SizeOfData   : 00000022
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxGetDeviceStatusW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : FaxGetDeviceStatusW
+
+Archive member name at 29D8: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBA45FCD
+  SizeOfData   : 0000001A
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxGetJobA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : FaxGetJobA
+
+Archive member name at 2A42: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2D3B55C
+  SizeOfData   : 0000001A
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxGetJobW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : FaxGetJobW
+
+Archive member name at 2AAC: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9DCDA30
+  SizeOfData   : 00000028
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxGetLoggingCategoriesA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : FaxGetLoggingCategoriesA
+
+Archive member name at 2B24: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D57A20E3
+  SizeOfData   : 00000028
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxGetLoggingCategoriesW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : FaxGetLoggingCategoriesW
+
+Archive member name at 2B9C: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2F7934D
+  SizeOfData   : 0000001E
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxGetPageData@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : FaxGetPageData
+
+Archive member name at 2C0A: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F697A19B
+  SizeOfData   : 0000001A
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxGetPortA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : FaxGetPortA
+
+Archive member name at 2C74: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5481F56
+  SizeOfData   : 0000001A
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxGetPortW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : FaxGetPortW
+
+Archive member name at 2CDE: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4C1D58B
+  SizeOfData   : 00000022
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxGetRoutingInfoA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : FaxGetRoutingInfoA
+
+Archive member name at 2D50: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1664EC0
+  SizeOfData   : 00000022
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxGetRoutingInfoW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : FaxGetRoutingInfoW
+
+Archive member name at 2DC2: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0AE2070
+  SizeOfData   : 00000027
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxInitializeEventQueue@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : FaxInitializeEventQueue
+
+Archive member name at 2E3A: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C97071E1
+  SizeOfData   : 0000001B
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxOpenPort@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : FaxOpenPort
+
+Archive member name at 2EA6: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7A050AE
+  SizeOfData   : 00000021
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxPrintCoverPageA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : FaxPrintCoverPageA
+
+Archive member name at 2F18: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA238EF5
+  SizeOfData   : 00000021
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxPrintCoverPageW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : FaxPrintCoverPageW
+
+Archive member name at 2F8A: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF772824
+  SizeOfData   : 0000002C
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxRegisterRoutingExtensionW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : FaxRegisterRoutingExtensionW
+
+Archive member name at 3006: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF86F67B
+  SizeOfData   : 0000002B
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxRegisterServiceProviderW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : FaxRegisterServiceProviderW
+
+Archive member name at 3082: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0CEA8B8
+  SizeOfData   : 00000020
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSendDocumentA@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : FaxSendDocumentA
+
+Archive member name at 30F2: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9C9D771
+  SizeOfData   : 0000002C
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSendDocumentForBroadcastA@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : FaxSendDocumentForBroadcastA
+
+Archive member name at 316E: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3940EE1
+  SizeOfData   : 0000002C
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSendDocumentForBroadcastW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : FaxSendDocumentForBroadcastW
+
+Archive member name at 31EA: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9FCE604
+  SizeOfData   : 00000020
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSendDocumentW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : FaxSendDocumentW
+
+Archive member name at 325A: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA4DD28D
+  SizeOfData   : 00000023
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSetConfigurationA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : FaxSetConfigurationA
+
+Archive member name at 32CE: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7C6CA4C
+  SizeOfData   : 00000023
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSetConfigurationW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : FaxSetConfigurationW
+
+Archive member name at 3342: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D44E96A0
+  SizeOfData   : 00000027
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSetGlobalRoutingInfoA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : FaxSetGlobalRoutingInfoA
+
+Archive member name at 33BA: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D525202F
+  SizeOfData   : 00000027
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSetGlobalRoutingInfoW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : FaxSetGlobalRoutingInfoW
+
+Archive member name at 3432: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDC517AE
+  SizeOfData   : 0000001A
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSetJobA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : FaxSetJobA
+
+Archive member name at 349C: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F93D3F33
+  SizeOfData   : 0000001A
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSetJobW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : FaxSetJobW
+
+Archive member name at 3506: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C97B70A9
+  SizeOfData   : 00000028
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSetLoggingCategoriesA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : FaxSetLoggingCategoriesA
+
+Archive member name at 357E: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F84662DD
+  SizeOfData   : 00000028
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSetLoggingCategoriesW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : FaxSetLoggingCategoriesW
+
+Archive member name at 35F6: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAFEBCED
+  SizeOfData   : 0000001A
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSetPortA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : FaxSetPortA
+
+Archive member name at 3660: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFBE611B
+  SizeOfData   : 0000001A
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSetPortW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : FaxSetPortW
+
+Archive member name at 36CA: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C374AE74
+  SizeOfData   : 00000022
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSetRoutingInfoA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : FaxSetRoutingInfoA
+
+Archive member name at 373C: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6944883
+  SizeOfData   : 00000022
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxSetRoutingInfoW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : FaxSetRoutingInfoW
+
+Archive member name at 37AE: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFC44579
+  SizeOfData   : 00000021
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxStartPrintJobA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : FaxStartPrintJobA
+
+Archive member name at 3820: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F09C2760
+  SizeOfData   : 00000021
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxStartPrintJobW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : FaxStartPrintJobW
+
+Archive member name at 3892: WINFAX.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBC14103
+  SizeOfData   : 0000002C
+  DLL name     : WINFAX.dll
+  Symbol name  : _FaxUnregisterServiceProviderW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : FaxUnregisterServiceProviderW
+
+     Exports
+
+       ordinal    name
+
+                  _FaxAbort@8
+                  _FaxAccessCheck@8
+                  _FaxClose@4
+                  _FaxCompleteJobParamsA@8
+                  _FaxCompleteJobParamsW@8
+                  _FaxConnectFaxServerA@8
+                  _FaxConnectFaxServerW@8
+                  _FaxEnableRoutingMethodA@12
+                  _FaxEnableRoutingMethodW@12
+                  _FaxEnumGlobalRoutingInfoA@12
+                  _FaxEnumGlobalRoutingInfoW@12
+                  _FaxEnumJobsA@12
+                  _FaxEnumJobsW@12
+                  _FaxEnumPortsA@12
+                  _FaxEnumPortsW@12
+                  _FaxEnumRoutingMethodsA@12
+                  _FaxEnumRoutingMethodsW@12
+                  _FaxFreeBuffer@4
+                  _FaxGetConfigurationA@8
+                  _FaxGetConfigurationW@8
+                  _FaxGetDeviceStatusA@8
+                  _FaxGetDeviceStatusW@8
+                  _FaxGetJobA@12
+                  _FaxGetJobW@12
+                  _FaxGetLoggingCategoriesA@12
+                  _FaxGetLoggingCategoriesW@12
+                  _FaxGetPageData@24
+                  _FaxGetPortA@8
+                  _FaxGetPortW@8
+                  _FaxGetRoutingInfoA@16
+                  _FaxGetRoutingInfoW@16
+                  _FaxInitializeEventQueue@20
+                  _FaxOpenPort@16
+                  _FaxPrintCoverPageA@8
+                  _FaxPrintCoverPageW@8
+                  _FaxRegisterRoutingExtensionW@24
+                  _FaxRegisterServiceProviderW@16
+                  _FaxSendDocumentA@20
+                  _FaxSendDocumentForBroadcastA@20
+                  _FaxSendDocumentForBroadcastW@20
+                  _FaxSendDocumentW@20
+                  _FaxSetConfigurationA@8
+                  _FaxSetConfigurationW@8
+                  _FaxSetGlobalRoutingInfoA@8
+                  _FaxSetGlobalRoutingInfoW@8
+                  _FaxSetJobA@16
+                  _FaxSetJobW@16
+                  _FaxSetLoggingCategoriesA@12
+                  _FaxSetLoggingCategoriesW@12
+                  _FaxSetPortA@8
+                  _FaxSetPortW@8
+                  _FaxSetRoutingInfoA@16
+                  _FaxSetRoutingInfoW@16
+                  _FaxStartPrintJobA@16
+                  _FaxStartPrintJobW@16
+                  _FaxUnregisterServiceProviderW@4
+
+  Summary
+
+          C0 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

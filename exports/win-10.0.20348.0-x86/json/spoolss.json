@@ -1,0 +1,4989 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "?OpenPrinterExW@@YGHPAGPAPAXPAU_PRINTER_DEFAULTSW@@PAU_SPLCLIENT_CONTAINER@@@Z (int __stdcall OpenPrinterExW(unsigned short *,void * *,struct _PRINTER_DEFAULTSW *,struct _SPLCLIENT_CONTAINER *))"
+    },
+    {
+      "name": "?RouterCorePrinterDriverInstalled@@YGJPBG0U_GUID@@U_FILETIME@@_KPAH@Z (long __stdcall RouterCorePrinterDriverInstalled(unsigned short const *,unsigned short const *,struct _GUID,struct _FILETIME,unsigned __int64,int *))"
+    },
+    {
+      "name": "?RouterCreatePrintAsyncNotificationChannel@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAUIPrintAsyncNotifyChannel@@@Z (long __stdcall RouterCreatePrintAsyncNotificationChannel(unsigned short const *,struct _GUID *,enum PrintAsyncNotifyUserFilter,enum PrintAsyncNotifyConversationStyle,struct IPrintAsyncNotifyCallback *,struct IPrintAsyncNotifyChannel * *))"
+    },
+    {
+      "name": "?RouterDeletePrinterDriverPackage@@YGJPBG00@Z (long __stdcall RouterDeletePrinterDriverPackage(unsigned short const *,unsigned short const *,unsigned short const *))"
+    },
+    {
+      "name": "?RouterGetCorePrinterDrivers@@YGJPBG00KPAU_CORE_PRINTER_DRIVERW@@@Z (long __stdcall RouterGetCorePrinterDrivers(unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,struct _CORE_PRINTER_DRIVERW *))"
+    },
+    {
+      "name": "?RouterGetPrintClassObject@@YGJPBGABU_GUID@@PAPAX@Z (long __stdcall RouterGetPrintClassObject(unsigned short const *,struct _GUID const &,void * *))"
+    },
+    {
+      "name": "?RouterGetPrinterDriverPackagePath@@YGJPBG000PAGKPAK@Z (long __stdcall RouterGetPrinterDriverPackagePath(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short *,unsigned long,unsigned long *))"
+    },
+    {
+      "name": "?RouterInstallPrinterDriverFromPackage@@YGJPBG000K@Z (long __stdcall RouterInstallPrinterDriverFromPackage(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned long))"
+    },
+    {
+      "name": "?RouterRegisterForPrintAsyncNotifications@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAX@Z (long __stdcall RouterRegisterForPrintAsyncNotifications(unsigned short const *,struct _GUID *,enum PrintAsyncNotifyUserFilter,enum PrintAsyncNotifyConversationStyle,struct IPrintAsyncNotifyCallback *,void * *))"
+    },
+    {
+      "name": "?RouterUnregisterForPrintAsyncNotifications@@YGJPAX@Z (long __stdcall RouterUnregisterForPrintAsyncNotifications(void *))"
+    },
+    {
+      "name": "?RouterUploadPrinterDriverPackage@@YGJPBG00KPAGPAK@Z (long __stdcall RouterUploadPrinterDriverPackage(unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,unsigned short *,unsigned long *))"
+    },
+    {
+      "name": "_AbortPrinter@4"
+    },
+    {
+      "name": "_AddFormW@12"
+    },
+    {
+      "name": "_AddJobW@20"
+    },
+    {
+      "name": "_AddMonitorW@12"
+    },
+    {
+      "name": "_AddPerMachineConnectionW@16"
+    },
+    {
+      "name": "_AddPortExW@16"
+    },
+    {
+      "name": "_AddPortW@12"
+    },
+    {
+      "name": "_AddPrintDeviceObject@8"
+    },
+    {
+      "name": "_AddPrintProcessorW@16"
+    },
+    {
+      "name": "_AddPrintProvidorW@12"
+    },
+    {
+      "name": "_AddPrinterConnectionW@4"
+    },
+    {
+      "name": "_AddPrinterDriverExW@16"
+    },
+    {
+      "name": "_AddPrinterDriverW@12"
+    },
+    {
+      "name": "_AddPrinterExW@20"
+    },
+    {
+      "name": "_AddPrinterW@12"
+    },
+    {
+      "name": "_AdjustPointers@16"
+    },
+    {
+      "name": "_AdjustPointersInStructuresArray@20"
+    },
+    {
+      "name": "_AlignKMPtr@8"
+    },
+    {
+      "name": "_AlignRpcPtr@8"
+    },
+    {
+      "name": "_AllocSplStr@4"
+    },
+    {
+      "name": "_AllowRemoteCalls@0"
+    },
+    {
+      "name": "_AppendPrinterNotifyInfoData@12"
+    },
+    {
+      "name": "_BuildOtherNamesFromMachineName@8"
+    },
+    {
+      "name": "_CacheAddName@4"
+    },
+    {
+      "name": "_CacheCreateAndAddNode@8"
+    },
+    {
+      "name": "_CacheCreateAndAddNodeWithIPAddresses@16"
+    },
+    {
+      "name": "_CacheDeleteNode@4"
+    },
+    {
+      "name": "_CacheIsNameCluster@4"
+    },
+    {
+      "name": "_CacheIsNameInNodeList@8"
+    },
+    {
+      "name": "_CallDrvDevModeConversion@28"
+    },
+    {
+      "name": "_CallRouterFindFirstPrinterChangeNotification@20"
+    },
+    {
+      "name": "_CheckLocalCall@0"
+    },
+    {
+      "name": "_ClosePrinter@4"
+    },
+    {
+      "name": "_ConfigurePortW@12"
+    },
+    {
+      "name": "_CreatePrinterIC@8"
+    },
+    {
+      "name": "_DeleteFormW@8"
+    },
+    {
+      "name": "_DeleteJobNamedProperty@12"
+    },
+    {
+      "name": "_DeleteMonitorW@12"
+    },
+    {
+      "name": "_DeletePerMachineConnectionW@8"
+    },
+    {
+      "name": "_DeletePortW@12"
+    },
+    {
+      "name": "_DeletePrintProcessorW@12"
+    },
+    {
+      "name": "_DeletePrintProvidorW@12"
+    },
+    {
+      "name": "_DeletePrinter@4"
+    },
+    {
+      "name": "_DeletePrinterConnectionW@4"
+    },
+    {
+      "name": "_DeletePrinterDataExW@12"
+    },
+    {
+      "name": "_DeletePrinterDataW@8"
+    },
+    {
+      "name": "_DeletePrinterDriverExW@20"
+    },
+    {
+      "name": "_DeletePrinterDriverW@12"
+    },
+    {
+      "name": "_DeletePrinterIC@4"
+    },
+    {
+      "name": "_DeletePrinterKeyW@8"
+    },
+    {
+      "name": "_DllAllocSplMem@4"
+    },
+    {
+      "name": "_DllAllocSplStr@4"
+    },
+    {
+      "name": "_DllFreeSplMem@4"
+    },
+    {
+      "name": "_DllFreeSplStr@4"
+    },
+    {
+      "name": "_DllMain@12"
+    },
+    {
+      "name": "_DllReallocSplMem@12"
+    },
+    {
+      "name": "_DllReallocSplStr@8"
+    },
+    {
+      "name": "_EndDocPrinter@4"
+    },
+    {
+      "name": "_EndPagePrinter@4"
+    },
+    {
+      "name": "_EnumFormsW@24"
+    },
+    {
+      "name": "_EnumJobsW@32"
+    },
+    {
+      "name": "_EnumMonitorsW@24"
+    },
+    {
+      "name": "_EnumPerMachineConnectionsW@20"
+    },
+    {
+      "name": "_EnumPortsW@24"
+    },
+    {
+      "name": "_EnumPrintProcessorDatatypesW@28"
+    },
+    {
+      "name": "_EnumPrintProcessorsW@28"
+    },
+    {
+      "name": "_EnumPrinterDataExW@24"
+    },
+    {
+      "name": "_EnumPrinterDataW@36"
+    },
+    {
+      "name": "_EnumPrinterDriversW@28"
+    },
+    {
+      "name": "_EnumPrinterKeyW@20"
+    },
+    {
+      "name": "_EnumPrintersW@28"
+    },
+    {
+      "name": "_FindClosePrinterChangeNotification@4"
+    },
+    {
+      "name": "_FlushPrinter@20"
+    },
+    {
+      "name": "_FormatPrinterForRegistryKey@12"
+    },
+    {
+      "name": "_FormatRegistryKeyForPrinter@12"
+    },
+    {
+      "name": "_FreeOtherNames@8"
+    },
+    {
+      "name": "_FreePrintPropertyValue@4"
+    },
+    {
+      "name": "_GetFormW@24"
+    },
+    {
+      "name": "_GetJobAttributes@12"
+    },
+    {
+      "name": "_GetJobAttributesEx@24"
+    },
+    {
+      "name": "_GetJobNamedPropertyValue@16"
+    },
+    {
+      "name": "_GetJobW@24"
+    },
+    {
+      "name": "_GetNetworkId@8"
+    },
+    {
+      "name": "_GetPrintProcessorDirectoryW@24"
+    },
+    {
+      "name": "_GetPrinterDataExW@28"
+    },
+    {
+      "name": "_GetPrinterDataW@24"
+    },
+    {
+      "name": "_GetPrinterDriverDirectoryW@24"
+    },
+    {
+      "name": "_GetPrinterDriverExW@40"
+    },
+    {
+      "name": "_GetPrinterDriverW@24"
+    },
+    {
+      "name": "_GetPrinterW@20"
+    },
+    {
+      "name": "_GetServerPolicy@8"
+    },
+    {
+      "name": "_GetShrinkedSize@8"
+    },
+    {
+      "name": "_GetSpoolerTlsIndexes@12"
+    },
+    {
+      "name": "_ImpersonatePrinterClient@4"
+    },
+    {
+      "name": "_InitializeRouter@4"
+    },
+    {
+      "name": "_IsNameTheLocalMachineOrAClusterSpooler@4"
+    },
+    {
+      "name": "_IsNamedPipeRpcCall@0"
+    },
+    {
+      "name": "_MIDL_user_allocate1@4"
+    },
+    {
+      "name": "_MIDL_user_free1@4"
+    },
+    {
+      "name": "_MakeOffset@8"
+    },
+    {
+      "name": "_MakePTR@8"
+    },
+    {
+      "name": "_MarshallDownStructure@16"
+    },
+    {
+      "name": "_MarshallDownStructuresArray@20"
+    },
+    {
+      "name": "_MarshallUpStructure@20"
+    },
+    {
+      "name": "_MarshallUpStructuresArray@24"
+    },
+    {
+      "name": "_OldGetPrinterDriverW@24"
+    },
+    {
+      "name": "_OpenPrinter2W@16"
+    },
+    {
+      "name": "_OpenPrinterPort2W@16"
+    },
+    {
+      "name": "_OpenPrinterW@12"
+    },
+    {
+      "name": "_PackStringToEOB@8"
+    },
+    {
+      "name": "_PackStrings@16"
+    },
+    {
+      "name": "_PartialReplyPrinterChangeNotification@8"
+    },
+    {
+      "name": "_PlayGdiScriptOnPrinterIC@24"
+    },
+    {
+      "name": "_PrinterHandleRundown@4"
+    },
+    {
+      "name": "_PrinterMessageBoxW@24"
+    },
+    {
+      "name": "_ProvidorFindClosePrinterChangeNotification@4"
+    },
+    {
+      "name": "_ProvidorFindFirstPrinterChangeNotification@24"
+    },
+    {
+      "name": "_ReadPrinter@16"
+    },
+    {
+      "name": "_ReallocSplMem@12"
+    },
+    {
+      "name": "_ReallocSplStr@8"
+    },
+    {
+      "name": "_RemoteFindFirstPrinterChangeNotification@28"
+    },
+    {
+      "name": "_RemovePrintDeviceObject@4"
+    },
+    {
+      "name": "_ReplyClosePrinter@4"
+    },
+    {
+      "name": "_ReplyOpenPrinter@20"
+    },
+    {
+      "name": "_ReplyPrinterChangeNotification@16"
+    },
+    {
+      "name": "_ReplyPrinterChangeNotificationEx@20"
+    },
+    {
+      "name": "_ReportJobProcessingProgress@16"
+    },
+    {
+      "name": "_ResetPrinterW@8"
+    },
+    {
+      "name": "_RevertToPrinterSelf@0"
+    },
+    {
+      "name": "_RouterAddPrinterConnection2@12"
+    },
+    {
+      "name": "_RouterAllocBidiMem@4"
+    },
+    {
+      "name": "_RouterAllocBidiResponseContainer@4"
+    },
+    {
+      "name": "_RouterAllocPrinterNotifyInfo@4"
+    },
+    {
+      "name": "_RouterBroadcastMessage@20"
+    },
+    {
+      "name": "_RouterFindCompatibleDriver@36"
+    },
+    {
+      "name": "_RouterFindFirstPrinterChangeNotification@24"
+    },
+    {
+      "name": "_RouterFindNextPrinterChangeNotification@20"
+    },
+    {
+      "name": "_RouterFreeBidiMem@4"
+    },
+    {
+      "name": "_RouterFreeBidiResponseContainer@4"
+    },
+    {
+      "name": "_RouterFreePrinterNotifyInfo@4"
+    },
+    {
+      "name": "_RouterInternalGetPrinterDriver@40"
+    },
+    {
+      "name": "_RouterRefreshPrinterChangeNotification@16"
+    },
+    {
+      "name": "_RouterReplyPrinter@24"
+    },
+    {
+      "name": "_RouterSpoolerSetPolicy@12"
+    },
+    {
+      "name": "_ScheduleJob@8"
+    },
+    {
+      "name": "_SeekPrinter@24"
+    },
+    {
+      "name": "_SendRecvBidiData@16"
+    },
+    {
+      "name": "_SetFormW@16"
+    },
+    {
+      "name": "_SetJobNamedProperty@12"
+    },
+    {
+      "name": "_SetJobW@20"
+    },
+    {
+      "name": "_SetPortW@16"
+    },
+    {
+      "name": "_SetPrinterDataExW@24"
+    },
+    {
+      "name": "_SetPrinterDataW@20"
+    },
+    {
+      "name": "_SetPrinterW@16"
+    },
+    {
+      "name": "_SplCloseSpoolFileHandle@4"
+    },
+    {
+      "name": "_SplCommitSpoolData@28"
+    },
+    {
+      "name": "_SplDriverUnloadComplete@4"
+    },
+    {
+      "name": "_SplGetClientUserHandle@4"
+    },
+    {
+      "name": "_SplGetSpoolFileInfo@24"
+    },
+    {
+      "name": "_SplGetUserSidStringFromToken@16"
+    },
+    {
+      "name": "_SplInitializeWinSpoolDrv@4"
+    },
+    {
+      "name": "_SplIsSessionZero@12"
+    },
+    {
+      "name": "_SplIsUpgrade@0"
+    },
+    {
+      "name": "_SplProcessPnPEvent@12"
+    },
+    {
+      "name": "_SplProcessSessionEvent@12"
+    },
+    {
+      "name": "_SplPromptUIInUsersSession@16"
+    },
+    {
+      "name": "_SplQueryUserInfo@8"
+    },
+    {
+      "name": "_SplReadPrinter@12"
+    },
+    {
+      "name": "_SplRegisterForDeviceEvents@12"
+    },
+    {
+      "name": "_SplRegisterForSessionEvents@8"
+    },
+    {
+      "name": "_SplShutDownRouter@0"
+    },
+    {
+      "name": "_SplUalCollectData@8"
+    },
+    {
+      "name": "_SplUnregisterForDeviceEvents@4"
+    },
+    {
+      "name": "_SplUnregisterForSessionEvents@4"
+    },
+    {
+      "name": "_SpoolerFindClosePrinterChangeNotification@4"
+    },
+    {
+      "name": "_SpoolerFindFirstPrinterChangeNotification@32"
+    },
+    {
+      "name": "_SpoolerFindNextPrinterChangeNotification@16"
+    },
+    {
+      "name": "_SpoolerFreePrinterNotifyInfo@4"
+    },
+    {
+      "name": "_SpoolerHasInitialized@0"
+    },
+    {
+      "name": "_SpoolerInit@0"
+    },
+    {
+      "name": "_SpoolerRefreshPrinterChangeNotification@16"
+    },
+    {
+      "name": "_StartDocPrinterW@12"
+    },
+    {
+      "name": "_StartPagePrinter@4"
+    },
+    {
+      "name": "_UndoAlignKMPtr@8"
+    },
+    {
+      "name": "_UndoAlignRpcPtr@16"
+    },
+    {
+      "name": "_UpdateBufferSize@24"
+    },
+    {
+      "name": "_UpdatePrintDeviceObject@8"
+    },
+    {
+      "name": "_UpdatePrinterRegAll@16"
+    },
+    {
+      "name": "_UpdatePrinterRegAllEx@20"
+    },
+    {
+      "name": "_UpdatePrinterRegUser@20"
+    },
+    {
+      "name": "_WaitForPrinterChange@8"
+    },
+    {
+      "name": "_WaitForSpoolerInitialization@0"
+    },
+    {
+      "name": "_WritePrinter@16"
+    },
+    {
+      "name": "_XcvDataW@32"
+    },
+    {
+      "name": "_bGetDevModePerUser@12"
+    },
+    {
+      "name": "_bSetDevModePerUser@12"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 28534,
+      "name": "__IMPORT_DESCRIPTOR_SPOOLSS"
+    },
+    {
+      "offset": 29088,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 29398,
+      "name": "SPOOLSS_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 42398,
+      "name": "_InitializeRouter@4"
+    },
+    {
+      "offset": 42398,
+      "name": "__imp__InitializeRouter@4"
+    },
+    {
+      "offset": 48962,
+      "name": "_SetJobW@20"
+    },
+    {
+      "offset": 48962,
+      "name": "__imp__SetJobW@20"
+    },
+    {
+      "offset": 40912,
+      "name": "_GetJobW@24"
+    },
+    {
+      "offset": 40912,
+      "name": "__imp__GetJobW@24"
+    },
+    {
+      "offset": 38478,
+      "name": "_EnumJobsW@32"
+    },
+    {
+      "offset": 38478,
+      "name": "__imp__EnumJobsW@32"
+    },
+    {
+      "offset": 33204,
+      "name": "_AddPrinterW@12"
+    },
+    {
+      "offset": 33204,
+      "name": "__imp__AddPrinterW@12"
+    },
+    {
+      "offset": 33094,
+      "name": "_AddPrinterExW@20"
+    },
+    {
+      "offset": 33094,
+      "name": "__imp__AddPrinterExW@20"
+    },
+    {
+      "offset": 36454,
+      "name": "_DeletePrinter@4"
+    },
+    {
+      "offset": 36454,
+      "name": "__imp__DeletePrinter@4"
+    },
+    {
+      "offset": 49398,
+      "name": "_SetPrinterW@16"
+    },
+    {
+      "offset": 49398,
+      "name": "__imp__SetPrinterW@16"
+    },
+    {
+      "offset": 41828,
+      "name": "_GetPrinterW@20"
+    },
+    {
+      "offset": 41828,
+      "name": "__imp__GetPrinterW@20"
+    },
+    {
+      "offset": 41714,
+      "name": "_GetPrinterDriverW@24"
+    },
+    {
+      "offset": 41714,
+      "name": "__imp__GetPrinterDriverW@24"
+    },
+    {
+      "offset": 43676,
+      "name": "_OldGetPrinterDriverW@24"
+    },
+    {
+      "offset": 43676,
+      "name": "__imp__OldGetPrinterDriverW@24"
+    },
+    {
+      "offset": 41474,
+      "name": "_GetPrinterDriverDirectoryW@24"
+    },
+    {
+      "offset": 41474,
+      "name": "__imp__GetPrinterDriverDirectoryW@24"
+    },
+    {
+      "offset": 39628,
+      "name": "_EnumPrintersW@28"
+    },
+    {
+      "offset": 39628,
+      "name": "__imp__EnumPrintersW@28"
+    },
+    {
+      "offset": 32746,
+      "name": "_AddPrinterConnectionW@4"
+    },
+    {
+      "offset": 32746,
+      "name": "__imp__AddPrinterConnectionW@4"
+    },
+    {
+      "offset": 36564,
+      "name": "_DeletePrinterConnectionW@4"
+    },
+    {
+      "offset": 36564,
+      "name": "__imp__DeletePrinterConnectionW@4"
+    },
+    {
+      "offset": 32980,
+      "name": "_AddPrinterDriverW@12"
+    },
+    {
+      "offset": 32980,
+      "name": "__imp__AddPrinterDriverW@12"
+    },
+    {
+      "offset": 32864,
+      "name": "_AddPrinterDriverExW@16"
+    },
+    {
+      "offset": 32864,
+      "name": "__imp__AddPrinterDriverExW@16"
+    },
+    {
+      "offset": 39400,
+      "name": "_EnumPrinterDriversW@28"
+    },
+    {
+      "offset": 39400,
+      "name": "__imp__EnumPrinterDriversW@28"
+    },
+    {
+      "offset": 37036,
+      "name": "_DeletePrinterDriverW@12"
+    },
+    {
+      "offset": 37036,
+      "name": "__imp__DeletePrinterDriverW@12"
+    },
+    {
+      "offset": 36916,
+      "name": "_DeletePrinterDriverExW@20"
+    },
+    {
+      "offset": 36916,
+      "name": "__imp__DeletePrinterDriverExW@20"
+    },
+    {
+      "offset": 32516,
+      "name": "_AddPrintProcessorW@16"
+    },
+    {
+      "offset": 32516,
+      "name": "__imp__AddPrintProcessorW@16"
+    },
+    {
+      "offset": 39052,
+      "name": "_EnumPrintProcessorsW@28"
+    },
+    {
+      "offset": 39052,
+      "name": "__imp__EnumPrintProcessorsW@28"
+    },
+    {
+      "offset": 41124,
+      "name": "_GetPrintProcessorDirectoryW@24"
+    },
+    {
+      "offset": 41124,
+      "name": "__imp__GetPrintProcessorDirectoryW@24"
+    },
+    {
+      "offset": 36218,
+      "name": "_DeletePrintProcessorW@12"
+    },
+    {
+      "offset": 36218,
+      "name": "__imp__DeletePrintProcessorW@12"
+    },
+    {
+      "offset": 38926,
+      "name": "_EnumPrintProcessorDatatypesW@28"
+    },
+    {
+      "offset": 38926,
+      "name": "__imp__EnumPrintProcessorDatatypesW@28"
+    },
+    {
+      "offset": 44018,
+      "name": "_OpenPrinterW@12"
+    },
+    {
+      "offset": 44018,
+      "name": "__imp__OpenPrinterW@12"
+    },
+    {
+      "offset": 29736,
+      "name": "?OpenPrinterExW@@YGHPAGPAPAXPAU_PRINTER_DEFAULTSW@@PAU_SPLCLIENT_CONTAINER@@@Z"
+    },
+    {
+      "offset": 29736,
+      "name": "__imp_?OpenPrinterExW@@YGHPAGPAPAXPAU_PRINTER_DEFAULTSW@@PAU_SPLCLIENT_CONTAINER@@@Z"
+    },
+    {
+      "offset": 43794,
+      "name": "_OpenPrinter2W@16"
+    },
+    {
+      "offset": 43794,
+      "name": "__imp__OpenPrinter2W@16"
+    },
+    {
+      "offset": 46310,
+      "name": "_ResetPrinterW@8"
+    },
+    {
+      "offset": 46310,
+      "name": "__imp__ResetPrinterW@8"
+    },
+    {
+      "offset": 43904,
+      "name": "_OpenPrinterPort2W@16"
+    },
+    {
+      "offset": 43904,
+      "name": "__imp__OpenPrinterPort2W@16"
+    },
+    {
+      "offset": 52772,
+      "name": "_StartDocPrinterW@12"
+    },
+    {
+      "offset": 52772,
+      "name": "__imp__StartDocPrinterW@12"
+    },
+    {
+      "offset": 52886,
+      "name": "_StartPagePrinter@4"
+    },
+    {
+      "offset": 52886,
+      "name": "__imp__StartPagePrinter@4"
+    },
+    {
+      "offset": 54046,
+      "name": "_WritePrinter@16"
+    },
+    {
+      "offset": 54046,
+      "name": "__imp__WritePrinter@16"
+    },
+    {
+      "offset": 48518,
+      "name": "_SeekPrinter@24"
+    },
+    {
+      "offset": 48518,
+      "name": "__imp__SeekPrinter@24"
+    },
+    {
+      "offset": 39868,
+      "name": "_FlushPrinter@20"
+    },
+    {
+      "offset": 39868,
+      "name": "__imp__FlushPrinter@20"
+    },
+    {
+      "offset": 38260,
+      "name": "_EndPagePrinter@4"
+    },
+    {
+      "offset": 38260,
+      "name": "__imp__EndPagePrinter@4"
+    },
+    {
+      "offset": 41362,
+      "name": "_GetPrinterDataW@24"
+    },
+    {
+      "offset": 41362,
+      "name": "__imp__GetPrinterDataW@24"
+    },
+    {
+      "offset": 41248,
+      "name": "_GetPrinterDataExW@28"
+    },
+    {
+      "offset": 41248,
+      "name": "__imp__GetPrinterDataExW@28"
+    },
+    {
+      "offset": 39286,
+      "name": "_EnumPrinterDataW@36"
+    },
+    {
+      "offset": 39286,
+      "name": "__imp__EnumPrinterDataW@36"
+    },
+    {
+      "offset": 39170,
+      "name": "_EnumPrinterDataExW@24"
+    },
+    {
+      "offset": 39170,
+      "name": "__imp__EnumPrinterDataExW@24"
+    },
+    {
+      "offset": 39516,
+      "name": "_EnumPrinterKeyW@20"
+    },
+    {
+      "offset": 39516,
+      "name": "__imp__EnumPrinterKeyW@20"
+    },
+    {
+      "offset": 36802,
+      "name": "_DeletePrinterDataW@8"
+    },
+    {
+      "offset": 36802,
+      "name": "__imp__DeletePrinterDataW@8"
+    },
+    {
+      "offset": 36684,
+      "name": "_DeletePrinterDataExW@12"
+    },
+    {
+      "offset": 36684,
+      "name": "__imp__DeletePrinterDataExW@12"
+    },
+    {
+      "offset": 37266,
+      "name": "_DeletePrinterKeyW@8"
+    },
+    {
+      "offset": 37266,
+      "name": "__imp__DeletePrinterKeyW@8"
+    },
+    {
+      "offset": 49286,
+      "name": "_SetPrinterDataW@20"
+    },
+    {
+      "offset": 49286,
+      "name": "__imp__SetPrinterDataW@20"
+    },
+    {
+      "offset": 49172,
+      "name": "_SetPrinterDataExW@24"
+    },
+    {
+      "offset": 49172,
+      "name": "__imp__SetPrinterDataExW@24"
+    },
+    {
+      "offset": 31638,
+      "name": "_AbortPrinter@4"
+    },
+    {
+      "offset": 31638,
+      "name": "__imp__AbortPrinter@4"
+    },
+    {
+      "offset": 45114,
+      "name": "_ReadPrinter@16"
+    },
+    {
+      "offset": 45114,
+      "name": "__imp__ReadPrinter@16"
+    },
+    {
+      "offset": 51034,
+      "name": "_SplReadPrinter@12"
+    },
+    {
+      "offset": 51034,
+      "name": "__imp__SplReadPrinter@12"
+    },
+    {
+      "offset": 38150,
+      "name": "_EndDocPrinter@4"
+    },
+    {
+      "offset": 38150,
+      "name": "__imp__EndDocPrinter@4"
+    },
+    {
+      "offset": 31852,
+      "name": "_AddJobW@20"
+    },
+    {
+      "offset": 31852,
+      "name": "__imp__AddJobW@20"
+    },
+    {
+      "offset": 46186,
+      "name": "_ReportJobProcessingProgress@16"
+    },
+    {
+      "offset": 46186,
+      "name": "__imp__ReportJobProcessingProgress@16"
+    },
+    {
+      "offset": 48410,
+      "name": "_ScheduleJob@8"
+    },
+    {
+      "offset": 48410,
+      "name": "__imp__ScheduleJob@8"
+    },
+    {
+      "offset": 32064,
+      "name": "_AddPerMachineConnectionW@16"
+    },
+    {
+      "offset": 32064,
+      "name": "__imp__AddPerMachineConnectionW@16"
+    },
+    {
+      "offset": 35986,
+      "name": "_DeletePerMachineConnectionW@8"
+    },
+    {
+      "offset": 35986,
+      "name": "__imp__DeletePerMachineConnectionW@8"
+    },
+    {
+      "offset": 38694,
+      "name": "_EnumPerMachineConnectionsW@20"
+    },
+    {
+      "offset": 38694,
+      "name": "__imp__EnumPerMachineConnectionsW@20"
+    },
+    {
+      "offset": 49980,
+      "name": "_SplGetSpoolFileInfo@24"
+    },
+    {
+      "offset": 49980,
+      "name": "__imp__SplGetSpoolFileInfo@24"
+    },
+    {
+      "offset": 49626,
+      "name": "_SplCommitSpoolData@28"
+    },
+    {
+      "offset": 49626,
+      "name": "__imp__SplCommitSpoolData@28"
+    },
+    {
+      "offset": 49506,
+      "name": "_SplCloseSpoolFileHandle@4"
+    },
+    {
+      "offset": 49506,
+      "name": "__imp__SplCloseSpoolFileHandle@4"
+    },
+    {
+      "offset": 53806,
+      "name": "_WaitForPrinterChange@8"
+    },
+    {
+      "offset": 53806,
+      "name": "__imp__WaitForPrinterChange@8"
+    },
+    {
+      "offset": 47270,
+      "name": "_RouterFindFirstPrinterChangeNotification@24"
+    },
+    {
+      "offset": 47270,
+      "name": "__imp__RouterFindFirstPrinterChangeNotification@24"
+    },
+    {
+      "offset": 45442,
+      "name": "_RemoteFindFirstPrinterChangeNotification@28"
+    },
+    {
+      "offset": 45442,
+      "name": "__imp__RemoteFindFirstPrinterChangeNotification@28"
+    },
+    {
+      "offset": 47408,
+      "name": "_RouterFindNextPrinterChangeNotification@20"
+    },
+    {
+      "offset": 47408,
+      "name": "__imp__RouterFindNextPrinterChangeNotification@20"
+    },
+    {
+      "offset": 39738,
+      "name": "_FindClosePrinterChangeNotification@4"
+    },
+    {
+      "offset": 39738,
+      "name": "__imp__FindClosePrinterChangeNotification@4"
+    },
+    {
+      "offset": 48038,
+      "name": "_RouterRefreshPrinterChangeNotification@16"
+    },
+    {
+      "offset": 48038,
+      "name": "__imp__RouterRefreshPrinterChangeNotification@16"
+    },
+    {
+      "offset": 33986,
+      "name": "_AppendPrinterNotifyInfoData@12"
+    },
+    {
+      "offset": 33986,
+      "name": "__imp__AppendPrinterNotifyInfoData@12"
+    },
+    {
+      "offset": 46902,
+      "name": "_RouterAllocPrinterNotifyInfo@4"
+    },
+    {
+      "offset": 46902,
+      "name": "__imp__RouterAllocPrinterNotifyInfo@4"
+    },
+    {
+      "offset": 47786,
+      "name": "_RouterFreePrinterNotifyInfo@4"
+    },
+    {
+      "offset": 47786,
+      "name": "__imp__RouterFreePrinterNotifyInfo@4"
+    },
+    {
+      "offset": 45928,
+      "name": "_ReplyPrinterChangeNotification@16"
+    },
+    {
+      "offset": 45928,
+      "name": "__imp__ReplyPrinterChangeNotification@16"
+    },
+    {
+      "offset": 46056,
+      "name": "_ReplyPrinterChangeNotificationEx@20"
+    },
+    {
+      "offset": 46056,
+      "name": "__imp__ReplyPrinterChangeNotificationEx@20"
+    },
+    {
+      "offset": 35062,
+      "name": "_CallRouterFindFirstPrinterChangeNotification@20"
+    },
+    {
+      "offset": 35062,
+      "name": "__imp__CallRouterFindFirstPrinterChangeNotification@20"
+    },
+    {
+      "offset": 44348,
+      "name": "_PartialReplyPrinterChangeNotification@8"
+    },
+    {
+      "offset": 44348,
+      "name": "__imp__PartialReplyPrinterChangeNotification@8"
+    },
+    {
+      "offset": 44974,
+      "name": "_ProvidorFindFirstPrinterChangeNotification@24"
+    },
+    {
+      "offset": 44974,
+      "name": "__imp__ProvidorFindFirstPrinterChangeNotification@24"
+    },
+    {
+      "offset": 44836,
+      "name": "_ProvidorFindClosePrinterChangeNotification@4"
+    },
+    {
+      "offset": 44836,
+      "name": "__imp__ProvidorFindClosePrinterChangeNotification@4"
+    },
+    {
+      "offset": 52010,
+      "name": "_SpoolerFindFirstPrinterChangeNotification@32"
+    },
+    {
+      "offset": 52010,
+      "name": "__imp__SpoolerFindFirstPrinterChangeNotification@32"
+    },
+    {
+      "offset": 52148,
+      "name": "_SpoolerFindNextPrinterChangeNotification@16"
+    },
+    {
+      "offset": 52148,
+      "name": "__imp__SpoolerFindNextPrinterChangeNotification@16"
+    },
+    {
+      "offset": 51872,
+      "name": "_SpoolerFindClosePrinterChangeNotification@4"
+    },
+    {
+      "offset": 51872,
+      "name": "__imp__SpoolerFindClosePrinterChangeNotification@4"
+    },
+    {
+      "offset": 52286,
+      "name": "_SpoolerFreePrinterNotifyInfo@4"
+    },
+    {
+      "offset": 52286,
+      "name": "__imp__SpoolerFreePrinterNotifyInfo@4"
+    },
+    {
+      "offset": 52636,
+      "name": "_SpoolerRefreshPrinterChangeNotification@16"
+    },
+    {
+      "offset": 52636,
+      "name": "__imp__SpoolerRefreshPrinterChangeNotification@16"
+    },
+    {
+      "offset": 48174,
+      "name": "_RouterReplyPrinter@24"
+    },
+    {
+      "offset": 48174,
+      "name": "__imp__RouterReplyPrinter@24"
+    },
+    {
+      "offset": 45814,
+      "name": "_ReplyOpenPrinter@20"
+    },
+    {
+      "offset": 45814,
+      "name": "__imp__ReplyOpenPrinter@20"
+    },
+    {
+      "offset": 45700,
+      "name": "_ReplyClosePrinter@4"
+    },
+    {
+      "offset": 45700,
+      "name": "__imp__ReplyClosePrinter@4"
+    },
+    {
+      "offset": 44720,
+      "name": "_PrinterMessageBoxW@24"
+    },
+    {
+      "offset": 44720,
+      "name": "__imp__PrinterMessageBoxW@24"
+    },
+    {
+      "offset": 35314,
+      "name": "_ClosePrinter@4"
+    },
+    {
+      "offset": 35314,
+      "name": "__imp__ClosePrinter@4"
+    },
+    {
+      "offset": 44604,
+      "name": "_PrinterHandleRundown@4"
+    },
+    {
+      "offset": 44604,
+      "name": "__imp__PrinterHandleRundown@4"
+    },
+    {
+      "offset": 31746,
+      "name": "_AddFormW@12"
+    },
+    {
+      "offset": 31746,
+      "name": "__imp__AddFormW@12"
+    },
+    {
+      "offset": 35646,
+      "name": "_DeleteFormW@8"
+    },
+    {
+      "offset": 35646,
+      "name": "__imp__DeleteFormW@8"
+    },
+    {
+      "offset": 40454,
+      "name": "_GetFormW@24"
+    },
+    {
+      "offset": 40454,
+      "name": "__imp__GetFormW@24"
+    },
+    {
+      "offset": 48740,
+      "name": "_SetFormW@16"
+    },
+    {
+      "offset": 48740,
+      "name": "__imp__SetFormW@16"
+    },
+    {
+      "offset": 38370,
+      "name": "_EnumFormsW@24"
+    },
+    {
+      "offset": 38370,
+      "name": "__imp__EnumFormsW@24"
+    },
+    {
+      "offset": 38818,
+      "name": "_EnumPortsW@24"
+    },
+    {
+      "offset": 38818,
+      "name": "__imp__EnumPortsW@24"
+    },
+    {
+      "offset": 38584,
+      "name": "_EnumMonitorsW@24"
+    },
+    {
+      "offset": 38584,
+      "name": "__imp__EnumMonitorsW@24"
+    },
+    {
+      "offset": 32294,
+      "name": "_AddPortW@12"
+    },
+    {
+      "offset": 32294,
+      "name": "__imp__AddPortW@12"
+    },
+    {
+      "offset": 35422,
+      "name": "_ConfigurePortW@12"
+    },
+    {
+      "offset": 35422,
+      "name": "__imp__ConfigurePortW@12"
+    },
+    {
+      "offset": 36110,
+      "name": "_DeletePortW@12"
+    },
+    {
+      "offset": 36110,
+      "name": "__imp__DeletePortW@12"
+    },
+    {
+      "offset": 49066,
+      "name": "_SetPortW@16"
+    },
+    {
+      "offset": 49066,
+      "name": "__imp__SetPortW@16"
+    },
+    {
+      "offset": 35534,
+      "name": "_CreatePrinterIC@8"
+    },
+    {
+      "offset": 35534,
+      "name": "__imp__CreatePrinterIC@8"
+    },
+    {
+      "offset": 44482,
+      "name": "_PlayGdiScriptOnPrinterIC@24"
+    },
+    {
+      "offset": 44482,
+      "name": "__imp__PlayGdiScriptOnPrinterIC@24"
+    },
+    {
+      "offset": 37154,
+      "name": "_DeletePrinterIC@4"
+    },
+    {
+      "offset": 37154,
+      "name": "__imp__DeletePrinterIC@4"
+    },
+    {
+      "offset": 46420,
+      "name": "_RevertToPrinterSelf@0"
+    },
+    {
+      "offset": 46420,
+      "name": "__imp__RevertToPrinterSelf@0"
+    },
+    {
+      "offset": 42278,
+      "name": "_ImpersonatePrinterClient@4"
+    },
+    {
+      "offset": 42278,
+      "name": "__imp__ImpersonatePrinterClient@4"
+    },
+    {
+      "offset": 31956,
+      "name": "_AddMonitorW@12"
+    },
+    {
+      "offset": 31956,
+      "name": "__imp__AddMonitorW@12"
+    },
+    {
+      "offset": 35874,
+      "name": "_DeleteMonitorW@12"
+    },
+    {
+      "offset": 35874,
+      "name": "__imp__DeleteMonitorW@12"
+    },
+    {
+      "offset": 32632,
+      "name": "_AddPrintProvidorW@12"
+    },
+    {
+      "offset": 32632,
+      "name": "__imp__AddPrintProvidorW@12"
+    },
+    {
+      "offset": 36336,
+      "name": "_DeletePrintProvidorW@12"
+    },
+    {
+      "offset": 36336,
+      "name": "__imp__DeletePrintProvidorW@12"
+    },
+    {
+      "offset": 37380,
+      "name": "_DllAllocSplMem@4"
+    },
+    {
+      "offset": 37380,
+      "name": "__imp__DllAllocSplMem@4"
+    },
+    {
+      "offset": 37600,
+      "name": "_DllFreeSplMem@4"
+    },
+    {
+      "offset": 37600,
+      "name": "__imp__DllFreeSplMem@4"
+    },
+    {
+      "offset": 45222,
+      "name": "_ReallocSplMem@12"
+    },
+    {
+      "offset": 45222,
+      "name": "__imp__ReallocSplMem@12"
+    },
+    {
+      "offset": 37924,
+      "name": "_DllReallocSplMem@12"
+    },
+    {
+      "offset": 37924,
+      "name": "__imp__DllReallocSplMem@12"
+    },
+    {
+      "offset": 33766,
+      "name": "_AllocSplStr@4"
+    },
+    {
+      "offset": 33766,
+      "name": "__imp__AllocSplStr@4"
+    },
+    {
+      "offset": 37490,
+      "name": "_DllAllocSplStr@4"
+    },
+    {
+      "offset": 37490,
+      "name": "__imp__DllAllocSplStr@4"
+    },
+    {
+      "offset": 37710,
+      "name": "_DllFreeSplStr@4"
+    },
+    {
+      "offset": 37710,
+      "name": "__imp__DllFreeSplStr@4"
+    },
+    {
+      "offset": 45332,
+      "name": "_ReallocSplStr@8"
+    },
+    {
+      "offset": 45332,
+      "name": "__imp__ReallocSplStr@8"
+    },
+    {
+      "offset": 38038,
+      "name": "_DllReallocSplStr@8"
+    },
+    {
+      "offset": 38038,
+      "name": "__imp__DllReallocSplStr@8"
+    },
+    {
+      "offset": 44240,
+      "name": "_PackStrings@16"
+    },
+    {
+      "offset": 44240,
+      "name": "__imp__PackStrings@16"
+    },
+    {
+      "offset": 33658,
+      "name": "_AlignRpcPtr@8"
+    },
+    {
+      "offset": 33658,
+      "name": "__imp__AlignRpcPtr@8"
+    },
+    {
+      "offset": 53108,
+      "name": "_UndoAlignRpcPtr@16"
+    },
+    {
+      "offset": 53108,
+      "name": "__imp__UndoAlignRpcPtr@16"
+    },
+    {
+      "offset": 33552,
+      "name": "_AlignKMPtr@8"
+    },
+    {
+      "offset": 33552,
+      "name": "__imp__AlignKMPtr@8"
+    },
+    {
+      "offset": 52998,
+      "name": "_UndoAlignKMPtr@8"
+    },
+    {
+      "offset": 52998,
+      "name": "__imp__UndoAlignKMPtr@8"
+    },
+    {
+      "offset": 44128,
+      "name": "_PackStringToEOB@8"
+    },
+    {
+      "offset": 44128,
+      "name": "__imp__PackStringToEOB@8"
+    },
+    {
+      "offset": 43092,
+      "name": "_MakePTR@8"
+    },
+    {
+      "offset": 43092,
+      "name": "__imp__MakePTR@8"
+    },
+    {
+      "offset": 42986,
+      "name": "_MakeOffset@8"
+    },
+    {
+      "offset": 42986,
+      "name": "__imp__MakeOffset@8"
+    },
+    {
+      "offset": 39978,
+      "name": "_FormatPrinterForRegistryKey@12"
+    },
+    {
+      "offset": 39978,
+      "name": "__imp__FormatPrinterForRegistryKey@12"
+    },
+    {
+      "offset": 40102,
+      "name": "_FormatRegistryKeyForPrinter@12"
+    },
+    {
+      "offset": 40102,
+      "name": "__imp__FormatRegistryKeyForPrinter@12"
+    },
+    {
+      "offset": 49862,
+      "name": "_SplGetClientUserHandle@4"
+    },
+    {
+      "offset": 49862,
+      "name": "__imp__SplGetClientUserHandle@4"
+    },
+    {
+      "offset": 41598,
+      "name": "_GetPrinterDriverExW@40"
+    },
+    {
+      "offset": 41598,
+      "name": "__imp__GetPrinterDriverExW@40"
+    },
+    {
+      "offset": 53922,
+      "name": "_WaitForSpoolerInitialization@0"
+    },
+    {
+      "offset": 53922,
+      "name": "__imp__WaitForSpoolerInitialization@0"
+    },
+    {
+      "offset": 32186,
+      "name": "_AddPortExW@16"
+    },
+    {
+      "offset": 32186,
+      "name": "__imp__AddPortExW@16"
+    },
+    {
+      "offset": 42644,
+      "name": "_IsNamedPipeRpcCall@0"
+    },
+    {
+      "offset": 42644,
+      "name": "__imp__IsNamedPipeRpcCall@0"
+    },
+    {
+      "offset": 35204,
+      "name": "_CheckLocalCall@0"
+    },
+    {
+      "offset": 35204,
+      "name": "__imp__CheckLocalCall@0"
+    },
+    {
+      "offset": 52528,
+      "name": "_SpoolerInit@0"
+    },
+    {
+      "offset": 52528,
+      "name": "__imp__SpoolerInit@0"
+    },
+    {
+      "offset": 53688,
+      "name": "_UpdatePrinterRegUser@20"
+    },
+    {
+      "offset": 53688,
+      "name": "__imp__UpdatePrinterRegUser@20"
+    },
+    {
+      "offset": 53454,
+      "name": "_UpdatePrinterRegAll@16"
+    },
+    {
+      "offset": 53454,
+      "name": "__imp__UpdatePrinterRegAll@16"
+    },
+    {
+      "offset": 41016,
+      "name": "_GetNetworkId@8"
+    },
+    {
+      "offset": 41016,
+      "name": "__imp__GetNetworkId@8"
+    },
+    {
+      "offset": 49742,
+      "name": "_SplDriverUnloadComplete@4"
+    },
+    {
+      "offset": 49742,
+      "name": "__imp__SplDriverUnloadComplete@4"
+    },
+    {
+      "offset": 34940,
+      "name": "_CallDrvDevModeConversion@28"
+    },
+    {
+      "offset": 34940,
+      "name": "__imp__CallDrvDevModeConversion@28"
+    },
+    {
+      "offset": 42758,
+      "name": "_MIDL_user_allocate1@4"
+    },
+    {
+      "offset": 42758,
+      "name": "__imp__MIDL_user_allocate1@4"
+    },
+    {
+      "offset": 42874,
+      "name": "_MIDL_user_free1@4"
+    },
+    {
+      "offset": 42874,
+      "name": "__imp__MIDL_user_free1@4"
+    },
+    {
+      "offset": 43438,
+      "name": "_MarshallUpStructure@20"
+    },
+    {
+      "offset": 43438,
+      "name": "__imp__MarshallUpStructure@20"
+    },
+    {
+      "offset": 43196,
+      "name": "_MarshallDownStructure@16"
+    },
+    {
+      "offset": 43196,
+      "name": "__imp__MarshallDownStructure@16"
+    },
+    {
+      "offset": 53220,
+      "name": "_UpdateBufferSize@24"
+    },
+    {
+      "offset": 53220,
+      "name": "__imp__UpdateBufferSize@24"
+    },
+    {
+      "offset": 43314,
+      "name": "_MarshallDownStructuresArray@20"
+    },
+    {
+      "offset": 43314,
+      "name": "__imp__MarshallDownStructuresArray@20"
+    },
+    {
+      "offset": 43554,
+      "name": "_MarshallUpStructuresArray@24"
+    },
+    {
+      "offset": 43554,
+      "name": "__imp__MarshallUpStructuresArray@24"
+    },
+    {
+      "offset": 42048,
+      "name": "_GetShrinkedSize@8"
+    },
+    {
+      "offset": 42048,
+      "name": "__imp__GetShrinkedSize@8"
+    },
+    {
+      "offset": 33312,
+      "name": "_AdjustPointers@16"
+    },
+    {
+      "offset": 33312,
+      "name": "__imp__AdjustPointers@16"
+    },
+    {
+      "offset": 33424,
+      "name": "_AdjustPointersInStructuresArray@20"
+    },
+    {
+      "offset": 33424,
+      "name": "__imp__AdjustPointersInStructuresArray@20"
+    },
+    {
+      "offset": 34110,
+      "name": "_BuildOtherNamesFromMachineName@8"
+    },
+    {
+      "offset": 34110,
+      "name": "__imp__BuildOtherNamesFromMachineName@8"
+    },
+    {
+      "offset": 40226,
+      "name": "_FreeOtherNames@8"
+    },
+    {
+      "offset": 40226,
+      "name": "__imp__FreeOtherNames@8"
+    },
+    {
+      "offset": 54156,
+      "name": "_XcvDataW@32"
+    },
+    {
+      "offset": 54156,
+      "name": "__imp__XcvDataW@32"
+    },
+    {
+      "offset": 50222,
+      "name": "_SplInitializeWinSpoolDrv@4"
+    },
+    {
+      "offset": 50222,
+      "name": "__imp__SplInitializeWinSpoolDrv@4"
+    },
+    {
+      "offset": 54262,
+      "name": "__imp__bGetDevModePerUser@12"
+    },
+    {
+      "offset": 54262,
+      "name": "_bGetDevModePerUser@12"
+    },
+    {
+      "offset": 54378,
+      "name": "__imp__bSetDevModePerUser@12"
+    },
+    {
+      "offset": 54378,
+      "name": "_bSetDevModePerUser@12"
+    },
+    {
+      "offset": 50564,
+      "name": "_SplProcessPnPEvent@12"
+    },
+    {
+      "offset": 50564,
+      "name": "__imp__SplProcessPnPEvent@12"
+    },
+    {
+      "offset": 51146,
+      "name": "_SplRegisterForDeviceEvents@12"
+    },
+    {
+      "offset": 51146,
+      "name": "__imp__SplRegisterForDeviceEvents@12"
+    },
+    {
+      "offset": 51622,
+      "name": "_SplUnregisterForDeviceEvents@4"
+    },
+    {
+      "offset": 51622,
+      "name": "__imp__SplUnregisterForDeviceEvents@4"
+    },
+    {
+      "offset": 50922,
+      "name": "_SplQueryUserInfo@8"
+    },
+    {
+      "offset": 50922,
+      "name": "__imp__SplQueryUserInfo@8"
+    },
+    {
+      "offset": 50680,
+      "name": "_SplProcessSessionEvent@12"
+    },
+    {
+      "offset": 50680,
+      "name": "__imp__SplProcessSessionEvent@12"
+    },
+    {
+      "offset": 51270,
+      "name": "_SplRegisterForSessionEvents@8"
+    },
+    {
+      "offset": 51270,
+      "name": "__imp__SplRegisterForSessionEvents@8"
+    },
+    {
+      "offset": 51746,
+      "name": "_SplUnregisterForSessionEvents@4"
+    },
+    {
+      "offset": 51746,
+      "name": "__imp__SplUnregisterForSessionEvents@4"
+    },
+    {
+      "offset": 50096,
+      "name": "_SplGetUserSidStringFromToken@16"
+    },
+    {
+      "offset": 50096,
+      "name": "__imp__SplGetUserSidStringFromToken@16"
+    },
+    {
+      "offset": 50456,
+      "name": "_SplIsUpgrade@0"
+    },
+    {
+      "offset": 50456,
+      "name": "__imp__SplIsUpgrade@0"
+    },
+    {
+      "offset": 52410,
+      "name": "_SpoolerHasInitialized@0"
+    },
+    {
+      "offset": 52410,
+      "name": "__imp__SpoolerHasInitialized@0"
+    },
+    {
+      "offset": 40560,
+      "name": "_GetJobAttributes@12"
+    },
+    {
+      "offset": 40560,
+      "name": "__imp__GetJobAttributes@12"
+    },
+    {
+      "offset": 40674,
+      "name": "_GetJobAttributesEx@24"
+    },
+    {
+      "offset": 40674,
+      "name": "__imp__GetJobAttributesEx@24"
+    },
+    {
+      "offset": 48626,
+      "name": "_SendRecvBidiData@16"
+    },
+    {
+      "offset": 48626,
+      "name": "__imp__SendRecvBidiData@16"
+    },
+    {
+      "offset": 46660,
+      "name": "_RouterAllocBidiMem@4"
+    },
+    {
+      "offset": 46660,
+      "name": "__imp__RouterAllocBidiMem@4"
+    },
+    {
+      "offset": 47544,
+      "name": "_RouterFreeBidiMem@4"
+    },
+    {
+      "offset": 47544,
+      "name": "__imp__RouterFreeBidiMem@4"
+    },
+    {
+      "offset": 46774,
+      "name": "_RouterAllocBidiResponseContainer@4"
+    },
+    {
+      "offset": 46774,
+      "name": "__imp__RouterAllocBidiResponseContainer@4"
+    },
+    {
+      "offset": 47658,
+      "name": "_RouterFreeBidiResponseContainer@4"
+    },
+    {
+      "offset": 47658,
+      "name": "__imp__RouterFreeBidiResponseContainer@4"
+    },
+    {
+      "offset": 51394,
+      "name": "_SplShutDownRouter@0"
+    },
+    {
+      "offset": 51394,
+      "name": "__imp__SplShutDownRouter@0"
+    },
+    {
+      "offset": 50800,
+      "name": "_SplPromptUIInUsersSession@16"
+    },
+    {
+      "offset": 50800,
+      "name": "__imp__SplPromptUIInUsersSession@16"
+    },
+    {
+      "offset": 50342,
+      "name": "_SplIsSessionZero@12"
+    },
+    {
+      "offset": 50342,
+      "name": "__imp__SplIsSessionZero@12"
+    },
+    {
+      "offset": 34236,
+      "name": "_CacheAddName@4"
+    },
+    {
+      "offset": 34236,
+      "name": "__imp__CacheAddName@4"
+    },
+    {
+      "offset": 34596,
+      "name": "_CacheDeleteNode@4"
+    },
+    {
+      "offset": 34596,
+      "name": "__imp__CacheDeleteNode@4"
+    },
+    {
+      "offset": 34822,
+      "name": "_CacheIsNameInNodeList@8"
+    },
+    {
+      "offset": 34822,
+      "name": "__imp__CacheIsNameInNodeList@8"
+    },
+    {
+      "offset": 34344,
+      "name": "_CacheCreateAndAddNode@8"
+    },
+    {
+      "offset": 34344,
+      "name": "__imp__CacheCreateAndAddNode@8"
+    },
+    {
+      "offset": 34462,
+      "name": "_CacheCreateAndAddNodeWithIPAddresses@16"
+    },
+    {
+      "offset": 34462,
+      "name": "__imp__CacheCreateAndAddNodeWithIPAddresses@16"
+    },
+    {
+      "offset": 33874,
+      "name": "_AllowRemoteCalls@0"
+    },
+    {
+      "offset": 33874,
+      "name": "__imp__AllowRemoteCalls@0"
+    },
+    {
+      "offset": 41936,
+      "name": "_GetServerPolicy@8"
+    },
+    {
+      "offset": 41936,
+      "name": "__imp__GetServerPolicy@8"
+    },
+    {
+      "offset": 48290,
+      "name": "_RouterSpoolerSetPolicy@12"
+    },
+    {
+      "offset": 48290,
+      "name": "__imp__RouterSpoolerSetPolicy@12"
+    },
+    {
+      "offset": 47146,
+      "name": "_RouterFindCompatibleDriver@36"
+    },
+    {
+      "offset": 47146,
+      "name": "__imp__RouterFindCompatibleDriver@36"
+    },
+    {
+      "offset": 34708,
+      "name": "_CacheIsNameCluster@4"
+    },
+    {
+      "offset": 34708,
+      "name": "__imp__CacheIsNameCluster@4"
+    },
+    {
+      "offset": 46536,
+      "name": "_RouterAddPrinterConnection2@12"
+    },
+    {
+      "offset": 46536,
+      "name": "__imp__RouterAddPrinterConnection2@12"
+    },
+    {
+      "offset": 31090,
+      "name": "?RouterRegisterForPrintAsyncNotifications@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAX@Z"
+    },
+    {
+      "offset": 31090,
+      "name": "__imp_?RouterRegisterForPrintAsyncNotifications@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAX@Z"
+    },
+    {
+      "offset": 31346,
+      "name": "?RouterUnregisterForPrintAsyncNotifications@@YGJPAX@Z"
+    },
+    {
+      "offset": 31346,
+      "name": "__imp_?RouterUnregisterForPrintAsyncNotifications@@YGJPAX@Z"
+    },
+    {
+      "offset": 30070,
+      "name": "?RouterCreatePrintAsyncNotificationChannel@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAUIPrintAsyncNotifyChannel@@@Z"
+    },
+    {
+      "offset": 30070,
+      "name": "__imp_?RouterCreatePrintAsyncNotificationChannel@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAUIPrintAsyncNotifyChannel@@@Z"
+    },
+    {
+      "offset": 30652,
+      "name": "?RouterGetPrintClassObject@@YGJPBGABU_GUID@@PAPAX@Z"
+    },
+    {
+      "offset": 30652,
+      "name": "__imp_?RouterGetPrintClassObject@@YGJPBGABU_GUID@@PAPAX@Z"
+    },
+    {
+      "offset": 30944,
+      "name": "?RouterInstallPrinterDriverFromPackage@@YGJPBG000K@Z"
+    },
+    {
+      "offset": 30944,
+      "name": "__imp_?RouterInstallPrinterDriverFromPackage@@YGJPBG000K@Z"
+    },
+    {
+      "offset": 31492,
+      "name": "?RouterUploadPrinterDriverPackage@@YGJPBG00KPAGPAK@Z"
+    },
+    {
+      "offset": 31492,
+      "name": "__imp_?RouterUploadPrinterDriverPackage@@YGJPBG00KPAGPAK@Z"
+    },
+    {
+      "offset": 30492,
+      "name": "?RouterGetCorePrinterDrivers@@YGJPBG00KPAU_CORE_PRINTER_DRIVERW@@@Z"
+    },
+    {
+      "offset": 30492,
+      "name": "__imp_?RouterGetCorePrinterDrivers@@YGJPBG00KPAU_CORE_PRINTER_DRIVERW@@@Z"
+    },
+    {
+      "offset": 29908,
+      "name": "?RouterCorePrinterDriverInstalled@@YGJPBG0U_GUID@@U_FILETIME@@_KPAH@Z"
+    },
+    {
+      "offset": 29908,
+      "name": "__imp_?RouterCorePrinterDriverInstalled@@YGJPBG0U_GUID@@U_FILETIME@@_KPAH@Z"
+    },
+    {
+      "offset": 30796,
+      "name": "?RouterGetPrinterDriverPackagePath@@YGJPBG000PAGKPAK@Z"
+    },
+    {
+      "offset": 30796,
+      "name": "__imp_?RouterGetPrinterDriverPackagePath@@YGJPBG000PAGKPAK@Z"
+    },
+    {
+      "offset": 30354,
+      "name": "?RouterDeletePrinterDriverPackage@@YGJPBG00@Z"
+    },
+    {
+      "offset": 30354,
+      "name": "__imp_?RouterDeletePrinterDriverPackage@@YGJPBG00@Z"
+    },
+    {
+      "offset": 47026,
+      "name": "_RouterBroadcastMessage@20"
+    },
+    {
+      "offset": 47026,
+      "name": "__imp__RouterBroadcastMessage@20"
+    },
+    {
+      "offset": 42160,
+      "name": "_GetSpoolerTlsIndexes@12"
+    },
+    {
+      "offset": 42160,
+      "name": "__imp__GetSpoolerTlsIndexes@12"
+    },
+    {
+      "offset": 37820,
+      "name": "_DllMain@12"
+    },
+    {
+      "offset": 37820,
+      "name": "__imp__DllMain@12"
+    },
+    {
+      "offset": 47910,
+      "name": "_RouterInternalGetPrinterDriver@40"
+    },
+    {
+      "offset": 47910,
+      "name": "__imp__RouterInternalGetPrinterDriver@40"
+    },
+    {
+      "offset": 42510,
+      "name": "_IsNameTheLocalMachineOrAClusterSpooler@4"
+    },
+    {
+      "offset": 42510,
+      "name": "__imp__IsNameTheLocalMachineOrAClusterSpooler@4"
+    },
+    {
+      "offset": 32400,
+      "name": "_AddPrintDeviceObject@8"
+    },
+    {
+      "offset": 32400,
+      "name": "__imp__AddPrintDeviceObject@8"
+    },
+    {
+      "offset": 45580,
+      "name": "_RemovePrintDeviceObject@4"
+    },
+    {
+      "offset": 45580,
+      "name": "__imp__RemovePrintDeviceObject@4"
+    },
+    {
+      "offset": 53334,
+      "name": "_UpdatePrintDeviceObject@8"
+    },
+    {
+      "offset": 53334,
+      "name": "__imp__UpdatePrintDeviceObject@8"
+    },
+    {
+      "offset": 51508,
+      "name": "_SplUalCollectData@8"
+    },
+    {
+      "offset": 51508,
+      "name": "__imp__SplUalCollectData@8"
+    },
+    {
+      "offset": 40790,
+      "name": "_GetJobNamedPropertyValue@16"
+    },
+    {
+      "offset": 40790,
+      "name": "__imp__GetJobNamedPropertyValue@16"
+    },
+    {
+      "offset": 40336,
+      "name": "_FreePrintPropertyValue@4"
+    },
+    {
+      "offset": 40336,
+      "name": "__imp__FreePrintPropertyValue@4"
+    },
+    {
+      "offset": 35754,
+      "name": "_DeleteJobNamedProperty@12"
+    },
+    {
+      "offset": 35754,
+      "name": "__imp__DeleteJobNamedProperty@12"
+    },
+    {
+      "offset": 53570,
+      "name": "_UpdatePrinterRegAllEx@20"
+    },
+    {
+      "offset": 53570,
+      "name": "__imp__UpdatePrinterRegAllEx@20"
+    },
+    {
+      "offset": 48846,
+      "name": "_SetJobNamedProperty@12"
+    },
+    {
+      "offset": 48846,
+      "name": "__imp__SetJobNamedProperty@12"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 29736,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3611405345,
+      "sizeOfData": 91,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "?OpenPrinterExW@@YGHPAGPAPAXPAU_PRINTER_DEFAULTSW@@PAU_SPLCLIENT_CONTAINER@@@Z (int __stdcall OpenPrinterExW(unsigned short *,void * *,struct _PRINTER_DEFAULTSW *,struct _SPLCLIENT_CONTAINER *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "OpenPrinterExW"
+    },
+    {
+      "offset": 29908,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3967364517,
+      "sizeOfData": 82,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "?RouterCorePrinterDriverInstalled@@YGJPBG0U_GUID@@U_FILETIME@@_KPAH@Z (long __stdcall RouterCorePrinterDriverInstalled(unsigned short const *,unsigned short const *,struct _GUID,struct _FILETIME,unsigned __int64,int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "RouterCorePrinterDriverInstalled"
+    },
+    {
+      "offset": 30070,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3829237534,
+      "sizeOfData": 203,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "?RouterCreatePrintAsyncNotificationChannel@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAUIPrintAsyncNotifyChannel@@@Z (long __stdcall RouterCreatePrintAsyncNotificationChannel(unsigned short const *,struct _GUID *,enum PrintAsyncNotifyUserFilter,enum PrintAsyncNotifyConversationStyle,struct IPrintAsyncNotifyCallback *,struct IPrintAsyncNotifyChannel * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "RouterCreatePrintAsyncNotificationChannel"
+    },
+    {
+      "offset": 30354,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3432119615,
+      "sizeOfData": 58,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "?RouterDeletePrinterDriverPackage@@YGJPBG00@Z (long __stdcall RouterDeletePrinterDriverPackage(unsigned short const *,unsigned short const *,unsigned short const *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "RouterDeletePrinterDriverPackage"
+    },
+    {
+      "offset": 30492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3262441711,
+      "sizeOfData": 80,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "?RouterGetCorePrinterDrivers@@YGJPBG00KPAU_CORE_PRINTER_DRIVERW@@@Z (long __stdcall RouterGetCorePrinterDrivers(unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,struct _CORE_PRINTER_DRIVERW *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "RouterGetCorePrinterDrivers"
+    },
+    {
+      "offset": 30652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3775185950,
+      "sizeOfData": 64,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "?RouterGetPrintClassObject@@YGJPBGABU_GUID@@PAPAX@Z (long __stdcall RouterGetPrintClassObject(unsigned short const *,struct _GUID const &,void * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "RouterGetPrintClassObject"
+    },
+    {
+      "offset": 30796,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3911031218,
+      "sizeOfData": 67,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "?RouterGetPrinterDriverPackagePath@@YGJPBG000PAGKPAK@Z (long __stdcall RouterGetPrinterDriverPackagePath(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short *,unsigned long,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "RouterGetPrinterDriverPackagePath"
+    },
+    {
+      "offset": 30944,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4255926960,
+      "sizeOfData": 65,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "?RouterInstallPrinterDriverFromPackage@@YGJPBG000K@Z (long __stdcall RouterInstallPrinterDriverFromPackage(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "RouterInstallPrinterDriverFromPackage"
+    },
+    {
+      "offset": 31090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3616848051,
+      "sizeOfData": 176,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "?RouterRegisterForPrintAsyncNotifications@@YGJPBGPAU_GUID@@W4PrintAsyncNotifyUserFilter@@W4PrintAsyncNotifyConversationStyle@@PAUIPrintAsyncNotifyCallback@@PAPAX@Z (long __stdcall RouterRegisterForPrintAsyncNotifications(unsigned short const *,struct _GUID *,enum PrintAsyncNotifyUserFilter,enum PrintAsyncNotifyConversationStyle,struct IPrintAsyncNotifyCallback *,void * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "RouterRegisterForPrintAsyncNotifications"
+    },
+    {
+      "offset": 31346,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3851608975,
+      "sizeOfData": 66,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "?RouterUnregisterForPrintAsyncNotifications@@YGJPAX@Z (long __stdcall RouterUnregisterForPrintAsyncNotifications(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "RouterUnregisterForPrintAsyncNotifications"
+    },
+    {
+      "offset": 31492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4264461152,
+      "sizeOfData": 65,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "?RouterUploadPrinterDriverPackage@@YGJPBG00KPAGPAK@Z (long __stdcall RouterUploadPrinterDriverPackage(unsigned short const *,unsigned short const *,unsigned short const *,unsigned long,unsigned short *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "RouterUploadPrinterDriverPackage"
+    },
+    {
+      "offset": 31638,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3848240798,
+      "sizeOfData": 28,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AbortPrinter@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "AbortPrinter"
+    },
+    {
+      "offset": 31746,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3639935653,
+      "sizeOfData": 25,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddFormW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "AddFormW"
+    },
+    {
+      "offset": 31852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3936572008,
+      "sizeOfData": 24,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddJobW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "AddJobW"
+    },
+    {
+      "offset": 31956,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3566914331,
+      "sizeOfData": 28,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddMonitorW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "AddMonitorW"
+    },
+    {
+      "offset": 32064,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4271987201,
+      "sizeOfData": 41,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddPerMachineConnectionW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "AddPerMachineConnectionW"
+    },
+    {
+      "offset": 32186,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3249919035,
+      "sizeOfData": 27,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddPortExW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "AddPortExW"
+    },
+    {
+      "offset": 32294,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3304752541,
+      "sizeOfData": 25,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddPortW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "AddPortW"
+    },
+    {
+      "offset": 32400,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3514829644,
+      "sizeOfData": 36,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddPrintDeviceObject@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "AddPrintDeviceObject"
+    },
+    {
+      "offset": 32516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3939814037,
+      "sizeOfData": 35,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddPrintProcessorW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "AddPrintProcessorW"
+    },
+    {
+      "offset": 32632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3964572137,
+      "sizeOfData": 34,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddPrintProvidorW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "AddPrintProvidorW"
+    },
+    {
+      "offset": 32746,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3312233350,
+      "sizeOfData": 37,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddPrinterConnectionW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "AddPrinterConnectionW"
+    },
+    {
+      "offset": 32864,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4119859595,
+      "sizeOfData": 36,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddPrinterDriverExW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "AddPrinterDriverExW"
+    },
+    {
+      "offset": 32980,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3335925407,
+      "sizeOfData": 34,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddPrinterDriverW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "AddPrinterDriverW"
+    },
+    {
+      "offset": 33094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3704616519,
+      "sizeOfData": 30,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddPrinterExW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "AddPrinterExW"
+    },
+    {
+      "offset": 33204,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3715101667,
+      "sizeOfData": 28,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AddPrinterW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "AddPrinterW"
+    },
+    {
+      "offset": 33312,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4149915028,
+      "sizeOfData": 31,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AdjustPointers@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "AdjustPointers"
+    },
+    {
+      "offset": 33424,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3275872622,
+      "sizeOfData": 48,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AdjustPointersInStructuresArray@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "AdjustPointersInStructuresArray"
+    },
+    {
+      "offset": 33552,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4125978456,
+      "sizeOfData": 26,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AlignKMPtr@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "AlignKMPtr"
+    },
+    {
+      "offset": 33658,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3978060753,
+      "sizeOfData": 27,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AlignRpcPtr@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "AlignRpcPtr"
+    },
+    {
+      "offset": 33766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4291174118,
+      "sizeOfData": 27,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AllocSplStr@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "AllocSplStr"
+    },
+    {
+      "offset": 33874,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4242653481,
+      "sizeOfData": 32,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AllowRemoteCalls@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "AllowRemoteCalls"
+    },
+    {
+      "offset": 33986,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3728445076,
+      "sizeOfData": 44,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_AppendPrinterNotifyInfoData@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "AppendPrinterNotifyInfoData"
+    },
+    {
+      "offset": 34110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3603533527,
+      "sizeOfData": 46,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_BuildOtherNamesFromMachineName@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "BuildOtherNamesFromMachineName"
+    },
+    {
+      "offset": 34236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3743752345,
+      "sizeOfData": 28,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_CacheAddName@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "CacheAddName"
+    },
+    {
+      "offset": 34344,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4212401303,
+      "sizeOfData": 37,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_CacheCreateAndAddNode@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "CacheCreateAndAddNode"
+    },
+    {
+      "offset": 34462,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4182385080,
+      "sizeOfData": 53,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_CacheCreateAndAddNodeWithIPAddresses@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "CacheCreateAndAddNodeWithIPAddresses"
+    },
+    {
+      "offset": 34596,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3450491464,
+      "sizeOfData": 31,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_CacheDeleteNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "CacheDeleteNode"
+    },
+    {
+      "offset": 34708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4148200815,
+      "sizeOfData": 34,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_CacheIsNameCluster@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "CacheIsNameCluster"
+    },
+    {
+      "offset": 34822,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3462036493,
+      "sizeOfData": 37,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_CacheIsNameInNodeList@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "CacheIsNameInNodeList"
+    },
+    {
+      "offset": 34940,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3922505104,
+      "sizeOfData": 41,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_CallDrvDevModeConversion@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "CallDrvDevModeConversion"
+    },
+    {
+      "offset": 35062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3255623281,
+      "sizeOfData": 61,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_CallRouterFindFirstPrinterChangeNotification@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "CallRouterFindFirstPrinterChangeNotification"
+    },
+    {
+      "offset": 35204,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3987811194,
+      "sizeOfData": 30,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_CheckLocalCall@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "CheckLocalCall"
+    },
+    {
+      "offset": 35314,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3243080760,
+      "sizeOfData": 28,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ClosePrinter@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "ClosePrinter"
+    },
+    {
+      "offset": 35422,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3316794614,
+      "sizeOfData": 31,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ConfigurePortW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "ConfigurePortW"
+    },
+    {
+      "offset": 35534,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4043970990,
+      "sizeOfData": 31,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_CreatePrinterIC@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "CreatePrinterIC"
+    },
+    {
+      "offset": 35646,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3463011821,
+      "sizeOfData": 27,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeleteFormW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "DeleteFormW"
+    },
+    {
+      "offset": 35754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4022334290,
+      "sizeOfData": 39,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeleteJobNamedProperty@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "DeleteJobNamedProperty"
+    },
+    {
+      "offset": 35874,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3237386178,
+      "sizeOfData": 31,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeleteMonitorW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "DeleteMonitorW"
+    },
+    {
+      "offset": 35986,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3562166765,
+      "sizeOfData": 43,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeletePerMachineConnectionW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "DeletePerMachineConnectionW"
+    },
+    {
+      "offset": 36110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3901701934,
+      "sizeOfData": 28,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeletePortW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "DeletePortW"
+    },
+    {
+      "offset": 36218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3466482487,
+      "sizeOfData": 38,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeletePrintProcessorW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "DeletePrintProcessorW"
+    },
+    {
+      "offset": 36336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4141040640,
+      "sizeOfData": 37,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeletePrintProvidorW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "DeletePrintProvidorW"
+    },
+    {
+      "offset": 36454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4202060985,
+      "sizeOfData": 29,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeletePrinter@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "DeletePrinter"
+    },
+    {
+      "offset": 36564,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3538270288,
+      "sizeOfData": 40,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeletePrinterConnectionW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "DeletePrinterConnectionW"
+    },
+    {
+      "offset": 36684,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4045710515,
+      "sizeOfData": 37,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeletePrinterDataExW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "DeletePrinterDataExW"
+    },
+    {
+      "offset": 36802,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4012343076,
+      "sizeOfData": 34,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeletePrinterDataW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "DeletePrinterDataW"
+    },
+    {
+      "offset": 36916,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3461458891,
+      "sizeOfData": 39,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeletePrinterDriverExW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "DeletePrinterDriverExW"
+    },
+    {
+      "offset": 37036,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3412228916,
+      "sizeOfData": 37,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeletePrinterDriverW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "DeletePrinterDriverW"
+    },
+    {
+      "offset": 37154,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4029178132,
+      "sizeOfData": 31,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeletePrinterIC@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "DeletePrinterIC"
+    },
+    {
+      "offset": 37266,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3827197400,
+      "sizeOfData": 33,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DeletePrinterKeyW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "DeletePrinterKeyW"
+    },
+    {
+      "offset": 37380,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3394484532,
+      "sizeOfData": 30,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DllAllocSplMem@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "DllAllocSplMem"
+    },
+    {
+      "offset": 37490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4266369991,
+      "sizeOfData": 30,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DllAllocSplStr@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "DllAllocSplStr"
+    },
+    {
+      "offset": 37600,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4066022147,
+      "sizeOfData": 29,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DllFreeSplMem@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "DllFreeSplMem"
+    },
+    {
+      "offset": 37710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3722723603,
+      "sizeOfData": 29,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DllFreeSplStr@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "DllFreeSplStr"
+    },
+    {
+      "offset": 37820,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3875137543,
+      "sizeOfData": 24,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DllMain@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "DllMain"
+    },
+    {
+      "offset": 37924,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4204797554,
+      "sizeOfData": 33,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DllReallocSplMem@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "DllReallocSplMem"
+    },
+    {
+      "offset": 38038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3798916993,
+      "sizeOfData": 32,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_DllReallocSplStr@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "DllReallocSplStr"
+    },
+    {
+      "offset": 38150,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4112892208,
+      "sizeOfData": 29,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EndDocPrinter@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "EndDocPrinter"
+    },
+    {
+      "offset": 38260,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3356417008,
+      "sizeOfData": 30,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EndPagePrinter@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "EndPagePrinter"
+    },
+    {
+      "offset": 38370,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3704380381,
+      "sizeOfData": 27,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EnumFormsW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "EnumFormsW"
+    },
+    {
+      "offset": 38478,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3401677771,
+      "sizeOfData": 26,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EnumJobsW@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "EnumJobsW"
+    },
+    {
+      "offset": 38584,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3736362452,
+      "sizeOfData": 30,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EnumMonitorsW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "EnumMonitorsW"
+    },
+    {
+      "offset": 38694,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3749376206,
+      "sizeOfData": 43,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EnumPerMachineConnectionsW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "EnumPerMachineConnectionsW"
+    },
+    {
+      "offset": 38818,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3407550972,
+      "sizeOfData": 27,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EnumPortsW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "EnumPortsW"
+    },
+    {
+      "offset": 38926,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4159173459,
+      "sizeOfData": 45,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EnumPrintProcessorDatatypesW@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "EnumPrintProcessorDatatypesW"
+    },
+    {
+      "offset": 39052,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3715887633,
+      "sizeOfData": 37,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EnumPrintProcessorsW@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "EnumPrintProcessorsW"
+    },
+    {
+      "offset": 39170,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3320436792,
+      "sizeOfData": 35,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EnumPrinterDataExW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "EnumPrinterDataExW"
+    },
+    {
+      "offset": 39286,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3396667835,
+      "sizeOfData": 33,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EnumPrinterDataW@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "EnumPrinterDataW"
+    },
+    {
+      "offset": 39400,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3973406513,
+      "sizeOfData": 36,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EnumPrinterDriversW@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "EnumPrinterDriversW"
+    },
+    {
+      "offset": 39516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3863888320,
+      "sizeOfData": 32,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EnumPrinterKeyW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "EnumPrinterKeyW"
+    },
+    {
+      "offset": 39628,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3245271805,
+      "sizeOfData": 30,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_EnumPrintersW@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "EnumPrintersW"
+    },
+    {
+      "offset": 39738,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3640847670,
+      "sizeOfData": 50,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_FindClosePrinterChangeNotification@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "FindClosePrinterChangeNotification"
+    },
+    {
+      "offset": 39868,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3877969628,
+      "sizeOfData": 29,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_FlushPrinter@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "FlushPrinter"
+    },
+    {
+      "offset": 39978,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3238289244,
+      "sizeOfData": 44,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_FormatPrinterForRegistryKey@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "FormatPrinterForRegistryKey"
+    },
+    {
+      "offset": 40102,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4027944873,
+      "sizeOfData": 44,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_FormatRegistryKeyForPrinter@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "FormatRegistryKeyForPrinter"
+    },
+    {
+      "offset": 40226,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3838535617,
+      "sizeOfData": 30,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_FreeOtherNames@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "FreeOtherNames"
+    },
+    {
+      "offset": 40336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4058056366,
+      "sizeOfData": 38,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_FreePrintPropertyValue@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "FreePrintPropertyValue"
+    },
+    {
+      "offset": 40454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3679344441,
+      "sizeOfData": 25,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetFormW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "GetFormW"
+    },
+    {
+      "offset": 40560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4247515226,
+      "sizeOfData": 33,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetJobAttributes@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "GetJobAttributes"
+    },
+    {
+      "offset": 40674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4255617725,
+      "sizeOfData": 35,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetJobAttributesEx@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "GetJobAttributesEx"
+    },
+    {
+      "offset": 40790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3638598504,
+      "sizeOfData": 41,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetJobNamedPropertyValue@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "GetJobNamedPropertyValue"
+    },
+    {
+      "offset": 40912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4036539445,
+      "sizeOfData": 24,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetJobW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "GetJobW"
+    },
+    {
+      "offset": 41016,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3802597486,
+      "sizeOfData": 28,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetNetworkId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "GetNetworkId"
+    },
+    {
+      "offset": 41124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3646352553,
+      "sizeOfData": 44,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetPrintProcessorDirectoryW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "GetPrintProcessorDirectoryW"
+    },
+    {
+      "offset": 41248,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3719127374,
+      "sizeOfData": 34,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetPrinterDataExW@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "GetPrinterDataExW"
+    },
+    {
+      "offset": 41362,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4050612204,
+      "sizeOfData": 32,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetPrinterDataW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "GetPrinterDataW"
+    },
+    {
+      "offset": 41474,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4155451817,
+      "sizeOfData": 43,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetPrinterDriverDirectoryW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "GetPrinterDriverDirectoryW"
+    },
+    {
+      "offset": 41598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3718106881,
+      "sizeOfData": 36,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetPrinterDriverExW@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "GetPrinterDriverExW"
+    },
+    {
+      "offset": 41714,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4091328773,
+      "sizeOfData": 34,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetPrinterDriverW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "GetPrinterDriverW"
+    },
+    {
+      "offset": 41828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3966752827,
+      "sizeOfData": 28,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetPrinterW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "GetPrinterW"
+    },
+    {
+      "offset": 41936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3248633557,
+      "sizeOfData": 31,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetServerPolicy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "GetServerPolicy"
+    },
+    {
+      "offset": 42048,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3351577511,
+      "sizeOfData": 31,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetShrinkedSize@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "GetShrinkedSize"
+    },
+    {
+      "offset": 42160,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3474325442,
+      "sizeOfData": 37,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_GetSpoolerTlsIndexes@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "GetSpoolerTlsIndexes"
+    },
+    {
+      "offset": 42278,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3674869384,
+      "sizeOfData": 40,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ImpersonatePrinterClient@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "ImpersonatePrinterClient"
+    },
+    {
+      "offset": 42398,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3740917508,
+      "sizeOfData": 32,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_InitializeRouter@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "InitializeRouter"
+    },
+    {
+      "offset": 42510,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4171198770,
+      "sizeOfData": 54,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_IsNameTheLocalMachineOrAClusterSpooler@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "IsNameTheLocalMachineOrAClusterSpooler"
+    },
+    {
+      "offset": 42644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4087080105,
+      "sizeOfData": 34,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_IsNamedPipeRpcCall@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "IsNamedPipeRpcCall"
+    },
+    {
+      "offset": 42758,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3916515091,
+      "sizeOfData": 35,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_MIDL_user_allocate1@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "MIDL_user_allocate1"
+    },
+    {
+      "offset": 42874,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4270286970,
+      "sizeOfData": 31,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_MIDL_user_free1@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "MIDL_user_free1"
+    },
+    {
+      "offset": 42986,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3290853411,
+      "sizeOfData": 26,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_MakeOffset@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "MakeOffset"
+    },
+    {
+      "offset": 43092,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3524967434,
+      "sizeOfData": 23,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_MakePTR@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "MakePTR"
+    },
+    {
+      "offset": 43196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3345879431,
+      "sizeOfData": 38,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_MarshallDownStructure@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "MarshallDownStructure"
+    },
+    {
+      "offset": 43314,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3613758296,
+      "sizeOfData": 44,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_MarshallDownStructuresArray@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "MarshallDownStructuresArray"
+    },
+    {
+      "offset": 43438,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3297300268,
+      "sizeOfData": 36,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_MarshallUpStructure@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "MarshallUpStructure"
+    },
+    {
+      "offset": 43554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3653432572,
+      "sizeOfData": 42,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_MarshallUpStructuresArray@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "MarshallUpStructuresArray"
+    },
+    {
+      "offset": 43676,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4220910380,
+      "sizeOfData": 37,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_OldGetPrinterDriverW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "OldGetPrinterDriverW"
+    },
+    {
+      "offset": 43794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3317496788,
+      "sizeOfData": 30,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_OpenPrinter2W@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "OpenPrinter2W"
+    },
+    {
+      "offset": 43904,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3928103344,
+      "sizeOfData": 34,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_OpenPrinterPort2W@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "OpenPrinterPort2W"
+    },
+    {
+      "offset": 44018,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3408690746,
+      "sizeOfData": 29,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_OpenPrinterW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "OpenPrinterW"
+    },
+    {
+      "offset": 44128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3569934630,
+      "sizeOfData": 31,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_PackStringToEOB@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "PackStringToEOB"
+    },
+    {
+      "offset": 44240,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3903128318,
+      "sizeOfData": 28,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_PackStrings@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "PackStrings"
+    },
+    {
+      "offset": 44348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3251093159,
+      "sizeOfData": 53,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_PartialReplyPrinterChangeNotification@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "PartialReplyPrinterChangeNotification"
+    },
+    {
+      "offset": 44482,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3390260732,
+      "sizeOfData": 41,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_PlayGdiScriptOnPrinterIC@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "PlayGdiScriptOnPrinterIC"
+    },
+    {
+      "offset": 44604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3634034957,
+      "sizeOfData": 36,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_PrinterHandleRundown@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "PrinterHandleRundown"
+    },
+    {
+      "offset": 44720,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4054054816,
+      "sizeOfData": 35,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_PrinterMessageBoxW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "PrinterMessageBoxW"
+    },
+    {
+      "offset": 44836,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3631193754,
+      "sizeOfData": 58,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ProvidorFindClosePrinterChangeNotification@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "ProvidorFindClosePrinterChangeNotification"
+    },
+    {
+      "offset": 44974,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4000288111,
+      "sizeOfData": 59,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ProvidorFindFirstPrinterChangeNotification@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "ProvidorFindFirstPrinterChangeNotification"
+    },
+    {
+      "offset": 45114,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4218249311,
+      "sizeOfData": 28,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ReadPrinter@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "ReadPrinter"
+    },
+    {
+      "offset": 45222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4116875023,
+      "sizeOfData": 30,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ReallocSplMem@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "ReallocSplMem"
+    },
+    {
+      "offset": 45332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3927673347,
+      "sizeOfData": 29,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ReallocSplStr@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "ReallocSplStr"
+    },
+    {
+      "offset": 45442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4290915390,
+      "sizeOfData": 57,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RemoteFindFirstPrinterChangeNotification@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "RemoteFindFirstPrinterChangeNotification"
+    },
+    {
+      "offset": 45580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3462576134,
+      "sizeOfData": 39,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RemovePrintDeviceObject@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "RemovePrintDeviceObject"
+    },
+    {
+      "offset": 45700,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3364715838,
+      "sizeOfData": 33,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ReplyClosePrinter@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "ReplyClosePrinter"
+    },
+    {
+      "offset": 45814,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3379712222,
+      "sizeOfData": 33,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ReplyOpenPrinter@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "ReplyOpenPrinter"
+    },
+    {
+      "offset": 45928,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4236164740,
+      "sizeOfData": 47,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ReplyPrinterChangeNotification@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "ReplyPrinterChangeNotification"
+    },
+    {
+      "offset": 46056,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3325631276,
+      "sizeOfData": 49,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ReplyPrinterChangeNotificationEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "ReplyPrinterChangeNotificationEx"
+    },
+    {
+      "offset": 46186,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4097303344,
+      "sizeOfData": 44,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ReportJobProcessingProgress@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "ReportJobProcessingProgress"
+    },
+    {
+      "offset": 46310,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3244082978,
+      "sizeOfData": 29,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ResetPrinterW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "ResetPrinterW"
+    },
+    {
+      "offset": 46420,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3490296272,
+      "sizeOfData": 35,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RevertToPrinterSelf@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "RevertToPrinterSelf"
+    },
+    {
+      "offset": 46536,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3510420325,
+      "sizeOfData": 44,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterAddPrinterConnection2@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "RouterAddPrinterConnection2"
+    },
+    {
+      "offset": 46660,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3365956535,
+      "sizeOfData": 34,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterAllocBidiMem@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "RouterAllocBidiMem"
+    },
+    {
+      "offset": 46774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4289430665,
+      "sizeOfData": 48,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterAllocBidiResponseContainer@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "RouterAllocBidiResponseContainer"
+    },
+    {
+      "offset": 46902,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3299681362,
+      "sizeOfData": 44,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterAllocPrinterNotifyInfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "RouterAllocPrinterNotifyInfo"
+    },
+    {
+      "offset": 47026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4173513411,
+      "sizeOfData": 39,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterBroadcastMessage@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "RouterBroadcastMessage"
+    },
+    {
+      "offset": 47146,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3999470847,
+      "sizeOfData": 43,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterFindCompatibleDriver@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "RouterFindCompatibleDriver"
+    },
+    {
+      "offset": 47270,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3459595674,
+      "sizeOfData": 57,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterFindFirstPrinterChangeNotification@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "RouterFindFirstPrinterChangeNotification"
+    },
+    {
+      "offset": 47408,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3898664277,
+      "sizeOfData": 56,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterFindNextPrinterChangeNotification@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "RouterFindNextPrinterChangeNotification"
+    },
+    {
+      "offset": 47544,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3471361321,
+      "sizeOfData": 33,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterFreeBidiMem@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "RouterFreeBidiMem"
+    },
+    {
+      "offset": 47658,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3256251684,
+      "sizeOfData": 47,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterFreeBidiResponseContainer@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "RouterFreeBidiResponseContainer"
+    },
+    {
+      "offset": 47786,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3306010523,
+      "sizeOfData": 43,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterFreePrinterNotifyInfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "RouterFreePrinterNotifyInfo"
+    },
+    {
+      "offset": 47910,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3261199622,
+      "sizeOfData": 47,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterInternalGetPrinterDriver@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "RouterInternalGetPrinterDriver"
+    },
+    {
+      "offset": 48038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4174900966,
+      "sizeOfData": 55,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterRefreshPrinterChangeNotification@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "RouterRefreshPrinterChangeNotification"
+    },
+    {
+      "offset": 48174,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3515857177,
+      "sizeOfData": 35,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterReplyPrinter@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "RouterReplyPrinter"
+    },
+    {
+      "offset": 48290,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3938138534,
+      "sizeOfData": 39,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_RouterSpoolerSetPolicy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "RouterSpoolerSetPolicy"
+    },
+    {
+      "offset": 48410,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3994816359,
+      "sizeOfData": 27,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_ScheduleJob@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "ScheduleJob"
+    },
+    {
+      "offset": 48518,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3840332269,
+      "sizeOfData": 28,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SeekPrinter@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "SeekPrinter"
+    },
+    {
+      "offset": 48626,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3662915890,
+      "sizeOfData": 33,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SendRecvBidiData@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "SendRecvBidiData"
+    },
+    {
+      "offset": 48740,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3433062410,
+      "sizeOfData": 25,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SetFormW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 158,
+      "name": "SetFormW"
+    },
+    {
+      "offset": 48846,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3499923426,
+      "sizeOfData": 36,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SetJobNamedProperty@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 159,
+      "name": "SetJobNamedProperty"
+    },
+    {
+      "offset": 48962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3770574418,
+      "sizeOfData": 24,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SetJobW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 160,
+      "name": "SetJobW"
+    },
+    {
+      "offset": 49066,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4067154500,
+      "sizeOfData": 25,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SetPortW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 161,
+      "name": "SetPortW"
+    },
+    {
+      "offset": 49172,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3616174119,
+      "sizeOfData": 34,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SetPrinterDataExW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 162,
+      "name": "SetPrinterDataExW"
+    },
+    {
+      "offset": 49286,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3296101631,
+      "sizeOfData": 32,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SetPrinterDataW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 163,
+      "name": "SetPrinterDataW"
+    },
+    {
+      "offset": 49398,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3289796962,
+      "sizeOfData": 28,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SetPrinterW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 164,
+      "name": "SetPrinterW"
+    },
+    {
+      "offset": 49506,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4152890884,
+      "sizeOfData": 39,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplCloseSpoolFileHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 165,
+      "name": "SplCloseSpoolFileHandle"
+    },
+    {
+      "offset": 49626,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4137777304,
+      "sizeOfData": 35,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplCommitSpoolData@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 166,
+      "name": "SplCommitSpoolData"
+    },
+    {
+      "offset": 49742,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4194880247,
+      "sizeOfData": 39,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplDriverUnloadComplete@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 167,
+      "name": "SplDriverUnloadComplete"
+    },
+    {
+      "offset": 49862,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3998260304,
+      "sizeOfData": 38,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplGetClientUserHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 168,
+      "name": "SplGetClientUserHandle"
+    },
+    {
+      "offset": 49980,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4281289281,
+      "sizeOfData": 36,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplGetSpoolFileInfo@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 169,
+      "name": "SplGetSpoolFileInfo"
+    },
+    {
+      "offset": 50096,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3932675755,
+      "sizeOfData": 45,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplGetUserSidStringFromToken@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 170,
+      "name": "SplGetUserSidStringFromToken"
+    },
+    {
+      "offset": 50222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3656237432,
+      "sizeOfData": 40,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplInitializeWinSpoolDrv@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 171,
+      "name": "SplInitializeWinSpoolDrv"
+    },
+    {
+      "offset": 50342,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4060708567,
+      "sizeOfData": 33,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplIsSessionZero@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 172,
+      "name": "SplIsSessionZero"
+    },
+    {
+      "offset": 50456,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3496604385,
+      "sizeOfData": 28,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplIsUpgrade@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 173,
+      "name": "SplIsUpgrade"
+    },
+    {
+      "offset": 50564,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3485366866,
+      "sizeOfData": 35,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplProcessPnPEvent@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 174,
+      "name": "SplProcessPnPEvent"
+    },
+    {
+      "offset": 50680,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3623305422,
+      "sizeOfData": 39,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplProcessSessionEvent@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 175,
+      "name": "SplProcessSessionEvent"
+    },
+    {
+      "offset": 50800,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3955013352,
+      "sizeOfData": 42,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplPromptUIInUsersSession@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 176,
+      "name": "SplPromptUIInUsersSession"
+    },
+    {
+      "offset": 50922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3919211189,
+      "sizeOfData": 32,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplQueryUserInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 177,
+      "name": "SplQueryUserInfo"
+    },
+    {
+      "offset": 51034,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3387044637,
+      "sizeOfData": 31,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplReadPrinter@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 178,
+      "name": "SplReadPrinter"
+    },
+    {
+      "offset": 51146,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3724617203,
+      "sizeOfData": 43,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplRegisterForDeviceEvents@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 179,
+      "name": "SplRegisterForDeviceEvents"
+    },
+    {
+      "offset": 51270,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3534788110,
+      "sizeOfData": 43,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplRegisterForSessionEvents@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 180,
+      "name": "SplRegisterForSessionEvents"
+    },
+    {
+      "offset": 51394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3940541543,
+      "sizeOfData": 33,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplShutDownRouter@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 181,
+      "name": "SplShutDownRouter"
+    },
+    {
+      "offset": 51508,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3794655069,
+      "sizeOfData": 33,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplUalCollectData@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 182,
+      "name": "SplUalCollectData"
+    },
+    {
+      "offset": 51622,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3930429809,
+      "sizeOfData": 44,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplUnregisterForDeviceEvents@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 183,
+      "name": "SplUnregisterForDeviceEvents"
+    },
+    {
+      "offset": 51746,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3987323038,
+      "sizeOfData": 45,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SplUnregisterForSessionEvents@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 184,
+      "name": "SplUnregisterForSessionEvents"
+    },
+    {
+      "offset": 51872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4092332228,
+      "sizeOfData": 57,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SpoolerFindClosePrinterChangeNotification@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 185,
+      "name": "SpoolerFindClosePrinterChangeNotification"
+    },
+    {
+      "offset": 52010,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3700975433,
+      "sizeOfData": 58,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SpoolerFindFirstPrinterChangeNotification@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 186,
+      "name": "SpoolerFindFirstPrinterChangeNotification"
+    },
+    {
+      "offset": 52148,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3530919016,
+      "sizeOfData": 57,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SpoolerFindNextPrinterChangeNotification@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 187,
+      "name": "SpoolerFindNextPrinterChangeNotification"
+    },
+    {
+      "offset": 52286,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4272128232,
+      "sizeOfData": 44,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SpoolerFreePrinterNotifyInfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 188,
+      "name": "SpoolerFreePrinterNotifyInfo"
+    },
+    {
+      "offset": 52410,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3983209609,
+      "sizeOfData": 37,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SpoolerHasInitialized@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 189,
+      "name": "SpoolerHasInitialized"
+    },
+    {
+      "offset": 52528,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4217803004,
+      "sizeOfData": 27,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SpoolerInit@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 190,
+      "name": "SpoolerInit"
+    },
+    {
+      "offset": 52636,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3605174415,
+      "sizeOfData": 56,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_SpoolerRefreshPrinterChangeNotification@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 191,
+      "name": "SpoolerRefreshPrinterChangeNotification"
+    },
+    {
+      "offset": 52772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3456744646,
+      "sizeOfData": 33,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_StartDocPrinterW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 192,
+      "name": "StartDocPrinterW"
+    },
+    {
+      "offset": 52886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3941878833,
+      "sizeOfData": 32,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_StartPagePrinter@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 193,
+      "name": "StartPagePrinter"
+    },
+    {
+      "offset": 52998,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4040557640,
+      "sizeOfData": 30,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_UndoAlignKMPtr@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 194,
+      "name": "UndoAlignKMPtr"
+    },
+    {
+      "offset": 53108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3313307607,
+      "sizeOfData": 32,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_UndoAlignRpcPtr@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 195,
+      "name": "UndoAlignRpcPtr"
+    },
+    {
+      "offset": 53220,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4107963171,
+      "sizeOfData": 33,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_UpdateBufferSize@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 196,
+      "name": "UpdateBufferSize"
+    },
+    {
+      "offset": 53334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4280227371,
+      "sizeOfData": 39,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_UpdatePrintDeviceObject@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 197,
+      "name": "UpdatePrintDeviceObject"
+    },
+    {
+      "offset": 53454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4053343757,
+      "sizeOfData": 36,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_UpdatePrinterRegAll@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 198,
+      "name": "UpdatePrinterRegAll"
+    },
+    {
+      "offset": 53570,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4197795770,
+      "sizeOfData": 38,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_UpdatePrinterRegAllEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 199,
+      "name": "UpdatePrinterRegAllEx"
+    },
+    {
+      "offset": 53688,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3476452310,
+      "sizeOfData": 37,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_UpdatePrinterRegUser@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 200,
+      "name": "UpdatePrinterRegUser"
+    },
+    {
+      "offset": 53806,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3687994250,
+      "sizeOfData": 36,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_WaitForPrinterChange@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 201,
+      "name": "WaitForPrinterChange"
+    },
+    {
+      "offset": 53922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3518620391,
+      "sizeOfData": 44,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_WaitForSpoolerInitialization@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 202,
+      "name": "WaitForSpoolerInitialization"
+    },
+    {
+      "offset": 54046,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3261211852,
+      "sizeOfData": 29,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_WritePrinter@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 203,
+      "name": "WritePrinter"
+    },
+    {
+      "offset": 54156,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3257108803,
+      "sizeOfData": 25,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_XcvDataW@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 204,
+      "name": "XcvDataW"
+    },
+    {
+      "offset": 54262,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3769417091,
+      "sizeOfData": 35,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_bGetDevModePerUser@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 205,
+      "name": "bGetDevModePerUser"
+    },
+    {
+      "offset": 54378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3615285839,
+      "sizeOfData": 35,
+      "dllName": "SPOOLSS.DLL",
+      "symbolName": "_bSetDevModePerUser@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 206,
+      "name": "bSetDevModePerUser"
+    }
+  ]
+}

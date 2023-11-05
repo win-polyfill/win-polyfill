@@ -1,0 +1,813 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_NtFrsApiDestroyBackupRestore@20"
+    },
+    {
+      "name": "_NtFrsApiEnumBackupRestoreSets@12"
+    },
+    {
+      "name": "_NtFrsApiFinishedRestoringDirectory@12"
+    },
+    {
+      "name": "_NtFrsApiGetBackupRestoreSetDirectory@16"
+    },
+    {
+      "name": "_NtFrsApiGetBackupRestoreSetGuid@16"
+    },
+    {
+      "name": "_NtFrsApiGetBackupRestoreSetPaths@24"
+    },
+    {
+      "name": "_NtFrsApiGetBackupRestoreSetType@16"
+    },
+    {
+      "name": "_NtFrsApiGetBackupRestoreSets@4"
+    },
+    {
+      "name": "_NtFrsApiInitializeBackupRestore@12"
+    },
+    {
+      "name": "_NtFrsApiIsBackupRestoreSetASysvol@12"
+    },
+    {
+      "name": "_NtFrsApiRestoringDirectory@12"
+    },
+    {
+      "name": "_NtFrsApi_AbortDemotionW@0"
+    },
+    {
+      "name": "_NtFrsApi_AbortPromotionW@0"
+    },
+    {
+      "name": "_NtFrsApi_CommitDemotionW@8"
+    },
+    {
+      "name": "_NtFrsApi_CommitPromotionW@8"
+    },
+    {
+      "name": "_NtFrsApi_DeleteSysvolMember@16"
+    },
+    {
+      "name": "_NtFrsApi_ForceReplication@20"
+    },
+    {
+      "name": "_NtFrsApi_Get_DsPollingIntervalW@16"
+    },
+    {
+      "name": "_NtFrsApi_InfoFreeW@4"
+    },
+    {
+      "name": "_NtFrsApi_InfoLineW@8"
+    },
+    {
+      "name": "_NtFrsApi_InfoMoreW@4"
+    },
+    {
+      "name": "_NtFrsApi_InfoW@16"
+    },
+    {
+      "name": "_NtFrsApi_IsPathReplicated@28"
+    },
+    {
+      "name": "_NtFrsApi_PrepareForDemotionUsingCredW@12"
+    },
+    {
+      "name": "_NtFrsApi_PrepareForDemotionW@4"
+    },
+    {
+      "name": "_NtFrsApi_PrepareForPromotionW@16"
+    },
+    {
+      "name": "_NtFrsApi_PrepareForUnload@0"
+    },
+    {
+      "name": "_NtFrsApi_Set_DsPollingIntervalW@16"
+    },
+    {
+      "name": "_NtFrsApi_StartDemotionW@8"
+    },
+    {
+      "name": "_NtFrsApi_StartPromotionW@44"
+    },
+    {
+      "name": "_NtFrsApi_WaitForDemotionW@8"
+    },
+    {
+      "name": "_NtFrsApi_WaitForPromotionW@8"
+    },
+    {
+      "name": "_NtFrsApi_WriterCommand@8"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 5382,
+      "name": "__IMPORT_DESCRIPTOR_NTFRSAPI"
+    },
+    {
+      "offset": 5940,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 6252,
+      "name": "NTFRSAPI_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 9976,
+      "name": "_NtFrsApi_Set_DsPollingIntervalW@16"
+    },
+    {
+      "offset": 9976,
+      "name": "__imp__NtFrsApi_Set_DsPollingIntervalW@16"
+    },
+    {
+      "offset": 8750,
+      "name": "_NtFrsApi_Get_DsPollingIntervalW@16"
+    },
+    {
+      "offset": 8750,
+      "name": "__imp__NtFrsApi_Get_DsPollingIntervalW@16"
+    },
+    {
+      "offset": 9726,
+      "name": "_NtFrsApi_PrepareForPromotionW@16"
+    },
+    {
+      "offset": 9726,
+      "name": "__imp__NtFrsApi_PrepareForPromotionW@16"
+    },
+    {
+      "offset": 9600,
+      "name": "_NtFrsApi_PrepareForDemotionW@4"
+    },
+    {
+      "offset": 9600,
+      "name": "__imp__NtFrsApi_PrepareForDemotionW@4"
+    },
+    {
+      "offset": 9464,
+      "name": "_NtFrsApi_PrepareForDemotionUsingCredW@12"
+    },
+    {
+      "offset": 9464,
+      "name": "__imp__NtFrsApi_PrepareForDemotionUsingCredW@12"
+    },
+    {
+      "offset": 10226,
+      "name": "_NtFrsApi_StartPromotionW@44"
+    },
+    {
+      "offset": 10226,
+      "name": "__imp__NtFrsApi_StartPromotionW@44"
+    },
+    {
+      "offset": 10106,
+      "name": "_NtFrsApi_StartDemotionW@8"
+    },
+    {
+      "offset": 10106,
+      "name": "__imp__NtFrsApi_StartDemotionW@8"
+    },
+    {
+      "offset": 8378,
+      "name": "_NtFrsApi_CommitPromotionW@8"
+    },
+    {
+      "offset": 8378,
+      "name": "__imp__NtFrsApi_CommitPromotionW@8"
+    },
+    {
+      "offset": 8256,
+      "name": "_NtFrsApi_CommitDemotionW@8"
+    },
+    {
+      "offset": 8256,
+      "name": "__imp__NtFrsApi_CommitDemotionW@8"
+    },
+    {
+      "offset": 8134,
+      "name": "_NtFrsApi_AbortPromotionW@0"
+    },
+    {
+      "offset": 8134,
+      "name": "__imp__NtFrsApi_AbortPromotionW@0"
+    },
+    {
+      "offset": 8014,
+      "name": "_NtFrsApi_AbortDemotionW@0"
+    },
+    {
+      "offset": 8014,
+      "name": "__imp__NtFrsApi_AbortDemotionW@0"
+    },
+    {
+      "offset": 10470,
+      "name": "_NtFrsApi_WaitForPromotionW@8"
+    },
+    {
+      "offset": 10470,
+      "name": "__imp__NtFrsApi_WaitForPromotionW@8"
+    },
+    {
+      "offset": 10348,
+      "name": "_NtFrsApi_WaitForDemotionW@8"
+    },
+    {
+      "offset": 10348,
+      "name": "__imp__NtFrsApi_WaitForDemotionW@8"
+    },
+    {
+      "offset": 9228,
+      "name": "_NtFrsApi_InfoW@16"
+    },
+    {
+      "offset": 9228,
+      "name": "__imp__NtFrsApi_InfoW@16"
+    },
+    {
+      "offset": 8880,
+      "name": "_NtFrsApi_InfoFreeW@4"
+    },
+    {
+      "offset": 8880,
+      "name": "__imp__NtFrsApi_InfoFreeW@4"
+    },
+    {
+      "offset": 9112,
+      "name": "_NtFrsApi_InfoMoreW@4"
+    },
+    {
+      "offset": 9112,
+      "name": "__imp__NtFrsApi_InfoMoreW@4"
+    },
+    {
+      "offset": 8996,
+      "name": "_NtFrsApi_InfoLineW@8"
+    },
+    {
+      "offset": 8996,
+      "name": "__imp__NtFrsApi_InfoLineW@8"
+    },
+    {
+      "offset": 7628,
+      "name": "_NtFrsApiInitializeBackupRestore@12"
+    },
+    {
+      "offset": 7628,
+      "name": "__imp__NtFrsApiInitializeBackupRestore@12"
+    },
+    {
+      "offset": 6592,
+      "name": "_NtFrsApiDestroyBackupRestore@20"
+    },
+    {
+      "offset": 6592,
+      "name": "__imp__NtFrsApiDestroyBackupRestore@20"
+    },
+    {
+      "offset": 7502,
+      "name": "_NtFrsApiGetBackupRestoreSets@4"
+    },
+    {
+      "offset": 7502,
+      "name": "__imp__NtFrsApiGetBackupRestoreSets@4"
+    },
+    {
+      "offset": 6718,
+      "name": "_NtFrsApiEnumBackupRestoreSets@12"
+    },
+    {
+      "offset": 6718,
+      "name": "__imp__NtFrsApiEnumBackupRestoreSets@12"
+    },
+    {
+      "offset": 7758,
+      "name": "_NtFrsApiIsBackupRestoreSetASysvol@12"
+    },
+    {
+      "offset": 7758,
+      "name": "__imp__NtFrsApiIsBackupRestoreSetASysvol@12"
+    },
+    {
+      "offset": 6978,
+      "name": "_NtFrsApiGetBackupRestoreSetDirectory@16"
+    },
+    {
+      "offset": 6978,
+      "name": "__imp__NtFrsApiGetBackupRestoreSetDirectory@16"
+    },
+    {
+      "offset": 7890,
+      "name": "_NtFrsApiRestoringDirectory@12"
+    },
+    {
+      "offset": 7890,
+      "name": "__imp__NtFrsApiRestoringDirectory@12"
+    },
+    {
+      "offset": 6846,
+      "name": "_NtFrsApiFinishedRestoringDirectory@12"
+    },
+    {
+      "offset": 6846,
+      "name": "__imp__NtFrsApiFinishedRestoringDirectory@12"
+    },
+    {
+      "offset": 7242,
+      "name": "_NtFrsApiGetBackupRestoreSetPaths@24"
+    },
+    {
+      "offset": 7242,
+      "name": "__imp__NtFrsApiGetBackupRestoreSetPaths@24"
+    },
+    {
+      "offset": 8500,
+      "name": "_NtFrsApi_DeleteSysvolMember@16"
+    },
+    {
+      "offset": 8500,
+      "name": "__imp__NtFrsApi_DeleteSysvolMember@16"
+    },
+    {
+      "offset": 9340,
+      "name": "_NtFrsApi_IsPathReplicated@28"
+    },
+    {
+      "offset": 9340,
+      "name": "__imp__NtFrsApi_IsPathReplicated@28"
+    },
+    {
+      "offset": 10594,
+      "name": "_NtFrsApi_WriterCommand@8"
+    },
+    {
+      "offset": 10594,
+      "name": "__imp__NtFrsApi_WriterCommand@8"
+    },
+    {
+      "offset": 7372,
+      "name": "_NtFrsApiGetBackupRestoreSetType@16"
+    },
+    {
+      "offset": 7372,
+      "name": "__imp__NtFrsApiGetBackupRestoreSetType@16"
+    },
+    {
+      "offset": 7112,
+      "name": "_NtFrsApiGetBackupRestoreSetGuid@16"
+    },
+    {
+      "offset": 7112,
+      "name": "__imp__NtFrsApiGetBackupRestoreSetGuid@16"
+    },
+    {
+      "offset": 8626,
+      "name": "_NtFrsApi_ForceReplication@20"
+    },
+    {
+      "offset": 8626,
+      "name": "__imp__NtFrsApi_ForceReplication@20"
+    },
+    {
+      "offset": 9854,
+      "name": "_NtFrsApi_PrepareForUnload@0"
+    },
+    {
+      "offset": 9854,
+      "name": "__imp__NtFrsApi_PrepareForUnload@0"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 6592,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3307053870,
+      "sizeOfData": 46,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApiDestroyBackupRestore@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "NtFrsApiDestroyBackupRestore"
+    },
+    {
+      "offset": 6718,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3723751315,
+      "sizeOfData": 47,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApiEnumBackupRestoreSets@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "NtFrsApiEnumBackupRestoreSets"
+    },
+    {
+      "offset": 6846,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3957892454,
+      "sizeOfData": 52,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApiFinishedRestoringDirectory@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "NtFrsApiFinishedRestoringDirectory"
+    },
+    {
+      "offset": 6978,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3721584266,
+      "sizeOfData": 54,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApiGetBackupRestoreSetDirectory@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "NtFrsApiGetBackupRestoreSetDirectory"
+    },
+    {
+      "offset": 7112,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4027394593,
+      "sizeOfData": 49,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApiGetBackupRestoreSetGuid@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "NtFrsApiGetBackupRestoreSetGuid"
+    },
+    {
+      "offset": 7242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3489341393,
+      "sizeOfData": 50,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApiGetBackupRestoreSetPaths@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "NtFrsApiGetBackupRestoreSetPaths"
+    },
+    {
+      "offset": 7372,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4105510386,
+      "sizeOfData": 49,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApiGetBackupRestoreSetType@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "NtFrsApiGetBackupRestoreSetType"
+    },
+    {
+      "offset": 7502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3989017398,
+      "sizeOfData": 45,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApiGetBackupRestoreSets@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "NtFrsApiGetBackupRestoreSets"
+    },
+    {
+      "offset": 7628,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3432767987,
+      "sizeOfData": 49,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApiInitializeBackupRestore@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "NtFrsApiInitializeBackupRestore"
+    },
+    {
+      "offset": 7758,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3508133448,
+      "sizeOfData": 51,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApiIsBackupRestoreSetASysvol@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "NtFrsApiIsBackupRestoreSetASysvol"
+    },
+    {
+      "offset": 7890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4202806443,
+      "sizeOfData": 44,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApiRestoringDirectory@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "NtFrsApiRestoringDirectory"
+    },
+    {
+      "offset": 8014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3920461491,
+      "sizeOfData": 40,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_AbortDemotionW@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "NtFrsApi_AbortDemotionW"
+    },
+    {
+      "offset": 8134,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4146036755,
+      "sizeOfData": 41,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_AbortPromotionW@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "NtFrsApi_AbortPromotionW"
+    },
+    {
+      "offset": 8256,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3537280559,
+      "sizeOfData": 41,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_CommitDemotionW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "NtFrsApi_CommitDemotionW"
+    },
+    {
+      "offset": 8378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4174358817,
+      "sizeOfData": 42,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_CommitPromotionW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "NtFrsApi_CommitPromotionW"
+    },
+    {
+      "offset": 8500,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4190073240,
+      "sizeOfData": 45,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_DeleteSysvolMember@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "NtFrsApi_DeleteSysvolMember"
+    },
+    {
+      "offset": 8626,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4266966372,
+      "sizeOfData": 43,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_ForceReplication@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "NtFrsApi_ForceReplication"
+    },
+    {
+      "offset": 8750,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3237018534,
+      "sizeOfData": 49,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_Get_DsPollingIntervalW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "NtFrsApi_Get_DsPollingIntervalW"
+    },
+    {
+      "offset": 8880,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4227385857,
+      "sizeOfData": 35,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_InfoFreeW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "NtFrsApi_InfoFreeW"
+    },
+    {
+      "offset": 8996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3586176417,
+      "sizeOfData": 35,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_InfoLineW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "NtFrsApi_InfoLineW"
+    },
+    {
+      "offset": 9112,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3623336676,
+      "sizeOfData": 35,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_InfoMoreW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "NtFrsApi_InfoMoreW"
+    },
+    {
+      "offset": 9228,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3987401814,
+      "sizeOfData": 32,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_InfoW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "NtFrsApi_InfoW"
+    },
+    {
+      "offset": 9340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3384122477,
+      "sizeOfData": 43,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_IsPathReplicated@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "NtFrsApi_IsPathReplicated"
+    },
+    {
+      "offset": 9464,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4269907444,
+      "sizeOfData": 55,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_PrepareForDemotionUsingCredW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "NtFrsApi_PrepareForDemotionUsingCredW"
+    },
+    {
+      "offset": 9600,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4212140611,
+      "sizeOfData": 45,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_PrepareForDemotionW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "NtFrsApi_PrepareForDemotionW"
+    },
+    {
+      "offset": 9726,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4194908099,
+      "sizeOfData": 47,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_PrepareForPromotionW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "NtFrsApi_PrepareForPromotionW"
+    },
+    {
+      "offset": 9854,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4042071349,
+      "sizeOfData": 42,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_PrepareForUnload@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "NtFrsApi_PrepareForUnload"
+    },
+    {
+      "offset": 9976,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3522845560,
+      "sizeOfData": 49,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_Set_DsPollingIntervalW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "NtFrsApi_Set_DsPollingIntervalW"
+    },
+    {
+      "offset": 10106,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3651310105,
+      "sizeOfData": 40,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_StartDemotionW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "NtFrsApi_StartDemotionW"
+    },
+    {
+      "offset": 10226,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3242883747,
+      "sizeOfData": 42,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_StartPromotionW@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "NtFrsApi_StartPromotionW"
+    },
+    {
+      "offset": 10348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4023414064,
+      "sizeOfData": 42,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_WaitForDemotionW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "NtFrsApi_WaitForDemotionW"
+    },
+    {
+      "offset": 10470,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3842642167,
+      "sizeOfData": 43,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_WaitForPromotionW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "NtFrsApi_WaitForPromotionW"
+    },
+    {
+      "offset": 10594,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4256458471,
+      "sizeOfData": 39,
+      "dllName": "NTFRSAPI.DLL",
+      "symbolName": "_NtFrsApi_WriterCommand@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "NtFrsApi_WriterCommand"
+    }
+  ]
+}

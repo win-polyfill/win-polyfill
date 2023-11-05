@@ -1,0 +1,5901 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_LdapGetLastError",
+      "ordinal": 16
+    },
+    {
+      "name": "_LdapMapErrorToWin32",
+      "ordinal": 18
+    },
+    {
+      "name": "_LdapUTF8ToUnicode",
+      "ordinal": 29
+    },
+    {
+      "name": "_LdapUnicodeToUTF8",
+      "ordinal": 53
+    },
+    {
+      "name": "_ber_alloc_t",
+      "ordinal": 304
+    },
+    {
+      "name": "_ber_bvdup",
+      "ordinal": 303
+    },
+    {
+      "name": "_ber_bvecfree",
+      "ordinal": 302
+    },
+    {
+      "name": "_ber_bvfree",
+      "ordinal": 54
+    },
+    {
+      "name": "_ber_first_element",
+      "ordinal": 307
+    },
+    {
+      "name": "_ber_flatten",
+      "ordinal": 309
+    },
+    {
+      "name": "_ber_free",
+      "ordinal": 301
+    },
+    {
+      "name": "_ber_init",
+      "ordinal": 300
+    },
+    {
+      "name": "_ber_next_element",
+      "ordinal": 308
+    },
+    {
+      "name": "_ber_peek_tag",
+      "ordinal": 306
+    },
+    {
+      "name": "_ber_printf",
+      "ordinal": 310
+    },
+    {
+      "name": "_ber_scanf",
+      "ordinal": 311
+    },
+    {
+      "name": "_ber_skip_tag",
+      "ordinal": 305
+    },
+    {
+      "name": "_cldap_open",
+      "ordinal": 17
+    },
+    {
+      "name": "_cldap_openA",
+      "ordinal": 55
+    },
+    {
+      "name": "_cldap_openW",
+      "ordinal": 28
+    },
+    {
+      "name": "_ldap_abandon",
+      "ordinal": 10
+    },
+    {
+      "name": "_ldap_add",
+      "ordinal": 11
+    },
+    {
+      "name": "_ldap_addA",
+      "ordinal": 56
+    },
+    {
+      "name": "_ldap_addW",
+      "ordinal": 42
+    },
+    {
+      "name": "_ldap_add_ext",
+      "ordinal": 57
+    },
+    {
+      "name": "_ldap_add_extA",
+      "ordinal": 58
+    },
+    {
+      "name": "_ldap_add_extW",
+      "ordinal": 62
+    },
+    {
+      "name": "_ldap_add_ext_s",
+      "ordinal": 63
+    },
+    {
+      "name": "_ldap_add_ext_sA",
+      "ordinal": 64
+    },
+    {
+      "name": "_ldap_add_ext_sW",
+      "ordinal": 65
+    },
+    {
+      "name": "_ldap_add_s",
+      "ordinal": 44
+    },
+    {
+      "name": "_ldap_add_sA",
+      "ordinal": 66
+    },
+    {
+      "name": "_ldap_add_sW",
+      "ordinal": 69
+    },
+    {
+      "name": "_ldap_bind",
+      "ordinal": 61
+    },
+    {
+      "name": "_ldap_bindA",
+      "ordinal": 70
+    },
+    {
+      "name": "_ldap_bindW",
+      "ordinal": 71
+    },
+    {
+      "name": "_ldap_bind_s",
+      "ordinal": 45
+    },
+    {
+      "name": "_ldap_bind_sA",
+      "ordinal": 72
+    },
+    {
+      "name": "_ldap_bind_sW",
+      "ordinal": 73
+    },
+    {
+      "name": "_ldap_check_filterA",
+      "ordinal": 230
+    },
+    {
+      "name": "_ldap_check_filterW",
+      "ordinal": 231
+    },
+    {
+      "name": "_ldap_cleanup",
+      "ordinal": 202
+    },
+    {
+      "name": "_ldap_close_extended_op",
+      "ordinal": 74
+    },
+    {
+      "name": "_ldap_compare",
+      "ordinal": 19
+    },
+    {
+      "name": "_ldap_compareA",
+      "ordinal": 75
+    },
+    {
+      "name": "_ldap_compareW",
+      "ordinal": 76
+    },
+    {
+      "name": "_ldap_compare_ext",
+      "ordinal": 78
+    },
+    {
+      "name": "_ldap_compare_extA",
+      "ordinal": 80
+    },
+    {
+      "name": "_ldap_compare_extW",
+      "ordinal": 81
+    },
+    {
+      "name": "_ldap_compare_ext_s",
+      "ordinal": 83
+    },
+    {
+      "name": "_ldap_compare_ext_sA",
+      "ordinal": 84
+    },
+    {
+      "name": "_ldap_compare_ext_sW",
+      "ordinal": 85
+    },
+    {
+      "name": "_ldap_compare_s",
+      "ordinal": 52
+    },
+    {
+      "name": "_ldap_compare_sA",
+      "ordinal": 86
+    },
+    {
+      "name": "_ldap_compare_sW",
+      "ordinal": 87
+    },
+    {
+      "name": "_ldap_conn_from_msg",
+      "ordinal": 312
+    },
+    {
+      "name": "_ldap_connect",
+      "ordinal": 88
+    },
+    {
+      "name": "_ldap_control_free",
+      "ordinal": 89
+    },
+    {
+      "name": "_ldap_control_freeA",
+      "ordinal": 90
+    },
+    {
+      "name": "_ldap_control_freeW",
+      "ordinal": 91
+    },
+    {
+      "name": "_ldap_controls_free",
+      "ordinal": 92
+    },
+    {
+      "name": "_ldap_controls_freeA",
+      "ordinal": 93
+    },
+    {
+      "name": "_ldap_controls_freeW",
+      "ordinal": 94
+    },
+    {
+      "name": "_ldap_count_entries",
+      "ordinal": 36
+    },
+    {
+      "name": "_ldap_count_references",
+      "ordinal": 95
+    },
+    {
+      "name": "_ldap_count_values",
+      "ordinal": 37
+    },
+    {
+      "name": "_ldap_count_valuesA",
+      "ordinal": 96
+    },
+    {
+      "name": "_ldap_count_valuesW",
+      "ordinal": 97
+    },
+    {
+      "name": "_ldap_count_values_len",
+      "ordinal": 77
+    },
+    {
+      "name": "_ldap_create_page_control",
+      "ordinal": 98
+    },
+    {
+      "name": "_ldap_create_page_controlA",
+      "ordinal": 99
+    },
+    {
+      "name": "_ldap_create_page_controlW",
+      "ordinal": 100
+    },
+    {
+      "name": "_ldap_create_sort_control",
+      "ordinal": 101
+    },
+    {
+      "name": "_ldap_create_sort_controlA",
+      "ordinal": 102
+    },
+    {
+      "name": "_ldap_create_sort_controlW",
+      "ordinal": 103
+    },
+    {
+      "name": "_ldap_create_vlv_controlA",
+      "ordinal": 320
+    },
+    {
+      "name": "_ldap_create_vlv_controlW",
+      "ordinal": 319
+    },
+    {
+      "name": "_ldap_delete",
+      "ordinal": 20
+    },
+    {
+      "name": "_ldap_deleteA",
+      "ordinal": 104
+    },
+    {
+      "name": "_ldap_deleteW",
+      "ordinal": 105
+    },
+    {
+      "name": "_ldap_delete_ext",
+      "ordinal": 106
+    },
+    {
+      "name": "_ldap_delete_extA",
+      "ordinal": 107
+    },
+    {
+      "name": "_ldap_delete_extW",
+      "ordinal": 108
+    },
+    {
+      "name": "_ldap_delete_ext_s",
+      "ordinal": 109
+    },
+    {
+      "name": "_ldap_delete_ext_sA",
+      "ordinal": 110
+    },
+    {
+      "name": "_ldap_delete_ext_sW",
+      "ordinal": 111
+    },
+    {
+      "name": "_ldap_delete_s",
+      "ordinal": 47
+    },
+    {
+      "name": "_ldap_delete_sA",
+      "ordinal": 112
+    },
+    {
+      "name": "_ldap_delete_sW",
+      "ordinal": 113
+    },
+    {
+      "name": "_ldap_dn2ufn",
+      "ordinal": 31
+    },
+    {
+      "name": "_ldap_dn2ufnA",
+      "ordinal": 232
+    },
+    {
+      "name": "_ldap_dn2ufnW",
+      "ordinal": 114
+    },
+    {
+      "name": "_ldap_encode_sort_controlA",
+      "ordinal": 115
+    },
+    {
+      "name": "_ldap_encode_sort_controlW",
+      "ordinal": 116
+    },
+    {
+      "name": "_ldap_err2string",
+      "ordinal": 22
+    },
+    {
+      "name": "_ldap_err2stringA",
+      "ordinal": 117
+    },
+    {
+      "name": "_ldap_err2stringW",
+      "ordinal": 118
+    },
+    {
+      "name": "_ldap_escape_filter_element",
+      "ordinal": 197
+    },
+    {
+      "name": "_ldap_escape_filter_elementA",
+      "ordinal": 119
+    },
+    {
+      "name": "_ldap_escape_filter_elementW",
+      "ordinal": 120
+    },
+    {
+      "name": "_ldap_explode_dn",
+      "ordinal": 39
+    },
+    {
+      "name": "_ldap_explode_dnA",
+      "ordinal": 121
+    },
+    {
+      "name": "_ldap_explode_dnW",
+      "ordinal": 122
+    },
+    {
+      "name": "_ldap_extended_operation",
+      "ordinal": 123
+    },
+    {
+      "name": "_ldap_extended_operationA",
+      "ordinal": 124
+    },
+    {
+      "name": "_ldap_extended_operationW",
+      "ordinal": 125
+    },
+    {
+      "name": "_ldap_extended_operation_sA",
+      "ordinal": 333
+    },
+    {
+      "name": "_ldap_extended_operation_sW",
+      "ordinal": 332
+    },
+    {
+      "name": "_ldap_first_attribute",
+      "ordinal": 32
+    },
+    {
+      "name": "_ldap_first_attributeA",
+      "ordinal": 126
+    },
+    {
+      "name": "_ldap_first_attributeW",
+      "ordinal": 127
+    },
+    {
+      "name": "_ldap_first_entry",
+      "ordinal": 26
+    },
+    {
+      "name": "_ldap_first_reference",
+      "ordinal": 128
+    },
+    {
+      "name": "_ldap_free_controls",
+      "ordinal": 129
+    },
+    {
+      "name": "_ldap_free_controlsA",
+      "ordinal": 130
+    },
+    {
+      "name": "_ldap_free_controlsW",
+      "ordinal": 131
+    },
+    {
+      "name": "_ldap_get_dn",
+      "ordinal": 30
+    },
+    {
+      "name": "_ldap_get_dnA",
+      "ordinal": 132
+    },
+    {
+      "name": "_ldap_get_dnW",
+      "ordinal": 133
+    },
+    {
+      "name": "_ldap_get_next_page",
+      "ordinal": 134
+    },
+    {
+      "name": "_ldap_get_next_page_s",
+      "ordinal": 135
+    },
+    {
+      "name": "_ldap_get_option",
+      "ordinal": 136
+    },
+    {
+      "name": "_ldap_get_optionA",
+      "ordinal": 137
+    },
+    {
+      "name": "_ldap_get_optionW",
+      "ordinal": 12
+    },
+    {
+      "name": "_ldap_get_paged_count",
+      "ordinal": 138
+    },
+    {
+      "name": "_ldap_get_values",
+      "ordinal": 34
+    },
+    {
+      "name": "_ldap_get_valuesA",
+      "ordinal": 139
+    },
+    {
+      "name": "_ldap_get_valuesW",
+      "ordinal": 140
+    },
+    {
+      "name": "_ldap_get_values_len",
+      "ordinal": 35
+    },
+    {
+      "name": "_ldap_get_values_lenA",
+      "ordinal": 141
+    },
+    {
+      "name": "_ldap_get_values_lenW",
+      "ordinal": 142
+    },
+    {
+      "name": "_ldap_init",
+      "ordinal": 143
+    },
+    {
+      "name": "_ldap_initA",
+      "ordinal": 144
+    },
+    {
+      "name": "_ldap_initW",
+      "ordinal": 145
+    },
+    {
+      "name": "_ldap_memfree",
+      "ordinal": 200
+    },
+    {
+      "name": "_ldap_memfreeA",
+      "ordinal": 146
+    },
+    {
+      "name": "_ldap_memfreeW",
+      "ordinal": 147
+    },
+    {
+      "name": "_ldap_modify",
+      "ordinal": 23
+    },
+    {
+      "name": "_ldap_modifyA",
+      "ordinal": 148
+    },
+    {
+      "name": "_ldap_modifyW",
+      "ordinal": 149
+    },
+    {
+      "name": "_ldap_modify_ext",
+      "ordinal": 150
+    },
+    {
+      "name": "_ldap_modify_extA",
+      "ordinal": 151
+    },
+    {
+      "name": "_ldap_modify_extW",
+      "ordinal": 152
+    },
+    {
+      "name": "_ldap_modify_ext_s",
+      "ordinal": 153
+    },
+    {
+      "name": "_ldap_modify_ext_sA",
+      "ordinal": 154
+    },
+    {
+      "name": "_ldap_modify_ext_sW",
+      "ordinal": 155
+    },
+    {
+      "name": "_ldap_modify_s",
+      "ordinal": 48
+    },
+    {
+      "name": "_ldap_modify_sA",
+      "ordinal": 156
+    },
+    {
+      "name": "_ldap_modify_sW",
+      "ordinal": 157
+    },
+    {
+      "name": "_ldap_modrdn",
+      "ordinal": 24
+    },
+    {
+      "name": "_ldap_modrdn2",
+      "ordinal": 67
+    },
+    {
+      "name": "_ldap_modrdn2A",
+      "ordinal": 158
+    },
+    {
+      "name": "_ldap_modrdn2W",
+      "ordinal": 159
+    },
+    {
+      "name": "_ldap_modrdn2_s",
+      "ordinal": 68
+    },
+    {
+      "name": "_ldap_modrdn2_sA",
+      "ordinal": 160
+    },
+    {
+      "name": "_ldap_modrdn2_sW",
+      "ordinal": 161
+    },
+    {
+      "name": "_ldap_modrdnA",
+      "ordinal": 162
+    },
+    {
+      "name": "_ldap_modrdnW",
+      "ordinal": 163
+    },
+    {
+      "name": "_ldap_modrdn_s",
+      "ordinal": 49
+    },
+    {
+      "name": "_ldap_modrdn_sA",
+      "ordinal": 164
+    },
+    {
+      "name": "_ldap_modrdn_sW",
+      "ordinal": 165
+    },
+    {
+      "name": "_ldap_msgfree",
+      "ordinal": 41
+    },
+    {
+      "name": "_ldap_next_attribute",
+      "ordinal": 33
+    },
+    {
+      "name": "_ldap_next_attributeA",
+      "ordinal": 166
+    },
+    {
+      "name": "_ldap_next_attributeW",
+      "ordinal": 167
+    },
+    {
+      "name": "_ldap_next_entry",
+      "ordinal": 27
+    },
+    {
+      "name": "_ldap_next_reference",
+      "ordinal": 168
+    },
+    {
+      "name": "_ldap_open",
+      "ordinal": 25
+    },
+    {
+      "name": "_ldap_openA",
+      "ordinal": 169
+    },
+    {
+      "name": "_ldap_openW",
+      "ordinal": 170
+    },
+    {
+      "name": "_ldap_parse_extended_resultA",
+      "ordinal": 318
+    },
+    {
+      "name": "_ldap_parse_extended_resultW",
+      "ordinal": 317
+    },
+    {
+      "name": "_ldap_parse_page_control",
+      "ordinal": 171
+    },
+    {
+      "name": "_ldap_parse_page_controlA",
+      "ordinal": 172
+    },
+    {
+      "name": "_ldap_parse_page_controlW",
+      "ordinal": 173
+    },
+    {
+      "name": "_ldap_parse_reference",
+      "ordinal": 174
+    },
+    {
+      "name": "_ldap_parse_referenceA",
+      "ordinal": 175
+    },
+    {
+      "name": "_ldap_parse_referenceW",
+      "ordinal": 176
+    },
+    {
+      "name": "_ldap_parse_result",
+      "ordinal": 177
+    },
+    {
+      "name": "_ldap_parse_resultA",
+      "ordinal": 178
+    },
+    {
+      "name": "_ldap_parse_resultW",
+      "ordinal": 179
+    },
+    {
+      "name": "_ldap_parse_sort_control",
+      "ordinal": 180
+    },
+    {
+      "name": "_ldap_parse_sort_controlA",
+      "ordinal": 181
+    },
+    {
+      "name": "_ldap_parse_sort_controlW",
+      "ordinal": 182
+    },
+    {
+      "name": "_ldap_parse_vlv_controlA",
+      "ordinal": 322
+    },
+    {
+      "name": "_ldap_parse_vlv_controlW",
+      "ordinal": 321
+    },
+    {
+      "name": "_ldap_perror",
+      "ordinal": 82
+    },
+    {
+      "name": "_ldap_rename_ext",
+      "ordinal": 183
+    },
+    {
+      "name": "_ldap_rename_extA",
+      "ordinal": 184
+    },
+    {
+      "name": "_ldap_rename_extW",
+      "ordinal": 185
+    },
+    {
+      "name": "_ldap_rename_ext_s",
+      "ordinal": 186
+    },
+    {
+      "name": "_ldap_rename_ext_sA",
+      "ordinal": 187
+    },
+    {
+      "name": "_ldap_rename_ext_sW",
+      "ordinal": 188
+    },
+    {
+      "name": "_ldap_result",
+      "ordinal": 40
+    },
+    {
+      "name": "_ldap_result2error",
+      "ordinal": 21
+    },
+    {
+      "name": "_ldap_sasl_bindA",
+      "ordinal": 315
+    },
+    {
+      "name": "_ldap_sasl_bindW",
+      "ordinal": 313
+    },
+    {
+      "name": "_ldap_sasl_bind_sA",
+      "ordinal": 316
+    },
+    {
+      "name": "_ldap_sasl_bind_sW",
+      "ordinal": 314
+    },
+    {
+      "name": "_ldap_search",
+      "ordinal": 43
+    },
+    {
+      "name": "_ldap_searchA",
+      "ordinal": 189
+    },
+    {
+      "name": "_ldap_searchW",
+      "ordinal": 190
+    },
+    {
+      "name": "_ldap_search_abandon_page",
+      "ordinal": 191
+    },
+    {
+      "name": "_ldap_search_ext",
+      "ordinal": 192
+    },
+    {
+      "name": "_ldap_search_extA",
+      "ordinal": 193
+    },
+    {
+      "name": "_ldap_search_extW",
+      "ordinal": 194
+    },
+    {
+      "name": "_ldap_search_ext_s",
+      "ordinal": 195
+    },
+    {
+      "name": "_ldap_search_ext_sA",
+      "ordinal": 196
+    },
+    {
+      "name": "_ldap_search_ext_sW",
+      "ordinal": 203
+    },
+    {
+      "name": "_ldap_search_init_page",
+      "ordinal": 204
+    },
+    {
+      "name": "_ldap_search_init_pageA",
+      "ordinal": 205
+    },
+    {
+      "name": "_ldap_search_init_pageW",
+      "ordinal": 206
+    },
+    {
+      "name": "_ldap_search_s",
+      "ordinal": 50
+    },
+    {
+      "name": "_ldap_search_sA",
+      "ordinal": 207
+    },
+    {
+      "name": "_ldap_search_sW",
+      "ordinal": 208
+    },
+    {
+      "name": "_ldap_search_st",
+      "ordinal": 51
+    },
+    {
+      "name": "_ldap_search_stA",
+      "ordinal": 209
+    },
+    {
+      "name": "_ldap_search_stW",
+      "ordinal": 210
+    },
+    {
+      "name": "_ldap_set_dbg_flags",
+      "ordinal": 198
+    },
+    {
+      "name": "_ldap_set_dbg_routine",
+      "ordinal": 199
+    },
+    {
+      "name": "_ldap_set_option",
+      "ordinal": 211
+    },
+    {
+      "name": "_ldap_set_optionA",
+      "ordinal": 212
+    },
+    {
+      "name": "_ldap_set_optionW",
+      "ordinal": 14
+    },
+    {
+      "name": "_ldap_simple_bind",
+      "ordinal": 59
+    },
+    {
+      "name": "_ldap_simple_bindA",
+      "ordinal": 213
+    },
+    {
+      "name": "_ldap_simple_bindW",
+      "ordinal": 214
+    },
+    {
+      "name": "_ldap_simple_bind_s",
+      "ordinal": 60
+    },
+    {
+      "name": "_ldap_simple_bind_sA",
+      "ordinal": 215
+    },
+    {
+      "name": "_ldap_simple_bind_sW",
+      "ordinal": 216
+    },
+    {
+      "name": "_ldap_sslinit",
+      "ordinal": 217
+    },
+    {
+      "name": "_ldap_sslinitA",
+      "ordinal": 218
+    },
+    {
+      "name": "_ldap_sslinitW",
+      "ordinal": 219
+    },
+    {
+      "name": "_ldap_start_tls_sA",
+      "ordinal": 330
+    },
+    {
+      "name": "_ldap_start_tls_sW",
+      "ordinal": 329
+    },
+    {
+      "name": "_ldap_startup",
+      "ordinal": 201
+    },
+    {
+      "name": "_ldap_stop_tls_s",
+      "ordinal": 331
+    },
+    {
+      "name": "_ldap_ufn2dn",
+      "ordinal": 220
+    },
+    {
+      "name": "_ldap_ufn2dnA",
+      "ordinal": 221
+    },
+    {
+      "name": "_ldap_ufn2dnW",
+      "ordinal": 222
+    },
+    {
+      "name": "_ldap_unbind",
+      "ordinal": 13
+    },
+    {
+      "name": "_ldap_unbind_s",
+      "ordinal": 46
+    },
+    {
+      "name": "_ldap_value_free",
+      "ordinal": 38
+    },
+    {
+      "name": "_ldap_value_freeA",
+      "ordinal": 223
+    },
+    {
+      "name": "_ldap_value_freeW",
+      "ordinal": 224
+    },
+    {
+      "name": "_ldap_value_free_len",
+      "ordinal": 79
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 24926,
+      "name": "__IMPORT_DESCRIPTOR_WLDAP32"
+    },
+    {
+      "offset": 25480,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 25790,
+      "name": "WLDAP32_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 26128,
+      "name": "_LdapGetLastError"
+    },
+    {
+      "offset": 26128,
+      "name": "__imp__LdapGetLastError"
+    },
+    {
+      "offset": 26238,
+      "name": "_LdapMapErrorToWin32"
+    },
+    {
+      "offset": 26238,
+      "name": "__imp__LdapMapErrorToWin32"
+    },
+    {
+      "offset": 26352,
+      "name": "_LdapUTF8ToUnicode"
+    },
+    {
+      "offset": 26352,
+      "name": "__imp__LdapUTF8ToUnicode"
+    },
+    {
+      "offset": 26464,
+      "name": "_LdapUnicodeToUTF8"
+    },
+    {
+      "offset": 26464,
+      "name": "__imp__LdapUnicodeToUTF8"
+    },
+    {
+      "offset": 27948,
+      "name": "__imp__cldap_open"
+    },
+    {
+      "offset": 27948,
+      "name": "_cldap_open"
+    },
+    {
+      "offset": 28052,
+      "name": "__imp__cldap_openA"
+    },
+    {
+      "offset": 28052,
+      "name": "_cldap_openA"
+    },
+    {
+      "offset": 28158,
+      "name": "__imp__cldap_openW"
+    },
+    {
+      "offset": 28158,
+      "name": "_cldap_openW"
+    },
+    {
+      "offset": 28264,
+      "name": "__imp__ldap_abandon"
+    },
+    {
+      "offset": 28264,
+      "name": "_ldap_abandon"
+    },
+    {
+      "offset": 28370,
+      "name": "__imp__ldap_add"
+    },
+    {
+      "offset": 28370,
+      "name": "_ldap_add"
+    },
+    {
+      "offset": 28472,
+      "name": "__imp__ldap_addA"
+    },
+    {
+      "offset": 28472,
+      "name": "_ldap_addA"
+    },
+    {
+      "offset": 28576,
+      "name": "__imp__ldap_addW"
+    },
+    {
+      "offset": 28576,
+      "name": "_ldap_addW"
+    },
+    {
+      "offset": 28680,
+      "name": "__imp__ldap_add_ext"
+    },
+    {
+      "offset": 28680,
+      "name": "_ldap_add_ext"
+    },
+    {
+      "offset": 28786,
+      "name": "__imp__ldap_add_extA"
+    },
+    {
+      "offset": 28786,
+      "name": "_ldap_add_extA"
+    },
+    {
+      "offset": 28894,
+      "name": "__imp__ldap_add_extW"
+    },
+    {
+      "offset": 28894,
+      "name": "_ldap_add_extW"
+    },
+    {
+      "offset": 29002,
+      "name": "__imp__ldap_add_ext_s"
+    },
+    {
+      "offset": 29002,
+      "name": "_ldap_add_ext_s"
+    },
+    {
+      "offset": 29110,
+      "name": "__imp__ldap_add_ext_sA"
+    },
+    {
+      "offset": 29110,
+      "name": "_ldap_add_ext_sA"
+    },
+    {
+      "offset": 29220,
+      "name": "__imp__ldap_add_ext_sW"
+    },
+    {
+      "offset": 29220,
+      "name": "_ldap_add_ext_sW"
+    },
+    {
+      "offset": 29330,
+      "name": "__imp__ldap_add_s"
+    },
+    {
+      "offset": 29330,
+      "name": "_ldap_add_s"
+    },
+    {
+      "offset": 29434,
+      "name": "__imp__ldap_add_sA"
+    },
+    {
+      "offset": 29434,
+      "name": "_ldap_add_sA"
+    },
+    {
+      "offset": 29540,
+      "name": "__imp__ldap_add_sW"
+    },
+    {
+      "offset": 29540,
+      "name": "_ldap_add_sW"
+    },
+    {
+      "offset": 29646,
+      "name": "__imp__ldap_bind"
+    },
+    {
+      "offset": 29646,
+      "name": "_ldap_bind"
+    },
+    {
+      "offset": 29750,
+      "name": "__imp__ldap_bindA"
+    },
+    {
+      "offset": 29750,
+      "name": "_ldap_bindA"
+    },
+    {
+      "offset": 29854,
+      "name": "__imp__ldap_bindW"
+    },
+    {
+      "offset": 29854,
+      "name": "_ldap_bindW"
+    },
+    {
+      "offset": 29958,
+      "name": "__imp__ldap_bind_s"
+    },
+    {
+      "offset": 29958,
+      "name": "_ldap_bind_s"
+    },
+    {
+      "offset": 30064,
+      "name": "__imp__ldap_bind_sA"
+    },
+    {
+      "offset": 30064,
+      "name": "_ldap_bind_sA"
+    },
+    {
+      "offset": 30170,
+      "name": "__imp__ldap_bind_sW"
+    },
+    {
+      "offset": 30170,
+      "name": "_ldap_bind_sW"
+    },
+    {
+      "offset": 30500,
+      "name": "__imp__ldap_cleanup"
+    },
+    {
+      "offset": 30500,
+      "name": "_ldap_cleanup"
+    },
+    {
+      "offset": 30606,
+      "name": "__imp__ldap_close_extended_op"
+    },
+    {
+      "offset": 30606,
+      "name": "_ldap_close_extended_op"
+    },
+    {
+      "offset": 30722,
+      "name": "__imp__ldap_compare"
+    },
+    {
+      "offset": 30722,
+      "name": "_ldap_compare"
+    },
+    {
+      "offset": 30828,
+      "name": "__imp__ldap_compareA"
+    },
+    {
+      "offset": 30828,
+      "name": "_ldap_compareA"
+    },
+    {
+      "offset": 30936,
+      "name": "__imp__ldap_compareW"
+    },
+    {
+      "offset": 30936,
+      "name": "_ldap_compareW"
+    },
+    {
+      "offset": 31044,
+      "name": "__imp__ldap_compare_ext"
+    },
+    {
+      "offset": 31044,
+      "name": "_ldap_compare_ext"
+    },
+    {
+      "offset": 31154,
+      "name": "__imp__ldap_compare_extA"
+    },
+    {
+      "offset": 31154,
+      "name": "_ldap_compare_extA"
+    },
+    {
+      "offset": 31266,
+      "name": "__imp__ldap_compare_extW"
+    },
+    {
+      "offset": 31266,
+      "name": "_ldap_compare_extW"
+    },
+    {
+      "offset": 31378,
+      "name": "__imp__ldap_compare_ext_s"
+    },
+    {
+      "offset": 31378,
+      "name": "_ldap_compare_ext_s"
+    },
+    {
+      "offset": 31490,
+      "name": "__imp__ldap_compare_ext_sA"
+    },
+    {
+      "offset": 31490,
+      "name": "_ldap_compare_ext_sA"
+    },
+    {
+      "offset": 31604,
+      "name": "__imp__ldap_compare_ext_sW"
+    },
+    {
+      "offset": 31604,
+      "name": "_ldap_compare_ext_sW"
+    },
+    {
+      "offset": 31718,
+      "name": "__imp__ldap_compare_s"
+    },
+    {
+      "offset": 31718,
+      "name": "_ldap_compare_s"
+    },
+    {
+      "offset": 31826,
+      "name": "__imp__ldap_compare_sA"
+    },
+    {
+      "offset": 31826,
+      "name": "_ldap_compare_sA"
+    },
+    {
+      "offset": 31936,
+      "name": "__imp__ldap_compare_sW"
+    },
+    {
+      "offset": 31936,
+      "name": "_ldap_compare_sW"
+    },
+    {
+      "offset": 32158,
+      "name": "__imp__ldap_connect"
+    },
+    {
+      "offset": 32158,
+      "name": "_ldap_connect"
+    },
+    {
+      "offset": 32264,
+      "name": "__imp__ldap_control_free"
+    },
+    {
+      "offset": 32264,
+      "name": "_ldap_control_free"
+    },
+    {
+      "offset": 32376,
+      "name": "__imp__ldap_control_freeA"
+    },
+    {
+      "offset": 32376,
+      "name": "_ldap_control_freeA"
+    },
+    {
+      "offset": 32488,
+      "name": "__imp__ldap_control_freeW"
+    },
+    {
+      "offset": 32488,
+      "name": "_ldap_control_freeW"
+    },
+    {
+      "offset": 32600,
+      "name": "__imp__ldap_controls_free"
+    },
+    {
+      "offset": 32600,
+      "name": "_ldap_controls_free"
+    },
+    {
+      "offset": 32712,
+      "name": "__imp__ldap_controls_freeA"
+    },
+    {
+      "offset": 32712,
+      "name": "_ldap_controls_freeA"
+    },
+    {
+      "offset": 32826,
+      "name": "__imp__ldap_controls_freeW"
+    },
+    {
+      "offset": 32826,
+      "name": "_ldap_controls_freeW"
+    },
+    {
+      "offset": 32940,
+      "name": "__imp__ldap_count_entries"
+    },
+    {
+      "offset": 32940,
+      "name": "_ldap_count_entries"
+    },
+    {
+      "offset": 33052,
+      "name": "__imp__ldap_count_references"
+    },
+    {
+      "offset": 33052,
+      "name": "_ldap_count_references"
+    },
+    {
+      "offset": 33168,
+      "name": "__imp__ldap_count_values"
+    },
+    {
+      "offset": 33168,
+      "name": "_ldap_count_values"
+    },
+    {
+      "offset": 33280,
+      "name": "__imp__ldap_count_valuesA"
+    },
+    {
+      "offset": 33280,
+      "name": "_ldap_count_valuesA"
+    },
+    {
+      "offset": 33392,
+      "name": "__imp__ldap_count_valuesW"
+    },
+    {
+      "offset": 33392,
+      "name": "_ldap_count_valuesW"
+    },
+    {
+      "offset": 33504,
+      "name": "__imp__ldap_count_values_len"
+    },
+    {
+      "offset": 33504,
+      "name": "_ldap_count_values_len"
+    },
+    {
+      "offset": 33620,
+      "name": "__imp__ldap_create_page_control"
+    },
+    {
+      "offset": 33620,
+      "name": "_ldap_create_page_control"
+    },
+    {
+      "offset": 33738,
+      "name": "__imp__ldap_create_page_controlA"
+    },
+    {
+      "offset": 33738,
+      "name": "_ldap_create_page_controlA"
+    },
+    {
+      "offset": 33858,
+      "name": "__imp__ldap_create_page_controlW"
+    },
+    {
+      "offset": 33858,
+      "name": "_ldap_create_page_controlW"
+    },
+    {
+      "offset": 33978,
+      "name": "__imp__ldap_create_sort_control"
+    },
+    {
+      "offset": 33978,
+      "name": "_ldap_create_sort_control"
+    },
+    {
+      "offset": 34096,
+      "name": "__imp__ldap_create_sort_controlA"
+    },
+    {
+      "offset": 34096,
+      "name": "_ldap_create_sort_controlA"
+    },
+    {
+      "offset": 34216,
+      "name": "__imp__ldap_create_sort_controlW"
+    },
+    {
+      "offset": 34216,
+      "name": "_ldap_create_sort_controlW"
+    },
+    {
+      "offset": 34572,
+      "name": "__imp__ldap_delete"
+    },
+    {
+      "offset": 34572,
+      "name": "_ldap_delete"
+    },
+    {
+      "offset": 34678,
+      "name": "__imp__ldap_deleteA"
+    },
+    {
+      "offset": 34678,
+      "name": "_ldap_deleteA"
+    },
+    {
+      "offset": 34784,
+      "name": "__imp__ldap_deleteW"
+    },
+    {
+      "offset": 34784,
+      "name": "_ldap_deleteW"
+    },
+    {
+      "offset": 34890,
+      "name": "__imp__ldap_delete_ext"
+    },
+    {
+      "offset": 34890,
+      "name": "_ldap_delete_ext"
+    },
+    {
+      "offset": 35000,
+      "name": "__imp__ldap_delete_extA"
+    },
+    {
+      "offset": 35000,
+      "name": "_ldap_delete_extA"
+    },
+    {
+      "offset": 35110,
+      "name": "__imp__ldap_delete_extW"
+    },
+    {
+      "offset": 35110,
+      "name": "_ldap_delete_extW"
+    },
+    {
+      "offset": 35220,
+      "name": "__imp__ldap_delete_ext_s"
+    },
+    {
+      "offset": 35220,
+      "name": "_ldap_delete_ext_s"
+    },
+    {
+      "offset": 35332,
+      "name": "__imp__ldap_delete_ext_sA"
+    },
+    {
+      "offset": 35332,
+      "name": "_ldap_delete_ext_sA"
+    },
+    {
+      "offset": 35444,
+      "name": "__imp__ldap_delete_ext_sW"
+    },
+    {
+      "offset": 35444,
+      "name": "_ldap_delete_ext_sW"
+    },
+    {
+      "offset": 35556,
+      "name": "__imp__ldap_delete_s"
+    },
+    {
+      "offset": 35556,
+      "name": "_ldap_delete_s"
+    },
+    {
+      "offset": 35664,
+      "name": "__imp__ldap_delete_sA"
+    },
+    {
+      "offset": 35664,
+      "name": "_ldap_delete_sA"
+    },
+    {
+      "offset": 35772,
+      "name": "__imp__ldap_delete_sW"
+    },
+    {
+      "offset": 35772,
+      "name": "_ldap_delete_sW"
+    },
+    {
+      "offset": 35880,
+      "name": "__imp__ldap_dn2ufn"
+    },
+    {
+      "offset": 35880,
+      "name": "_ldap_dn2ufn"
+    },
+    {
+      "offset": 35986,
+      "name": "__imp__ldap_dn2ufnA"
+    },
+    {
+      "offset": 35986,
+      "name": "_ldap_dn2ufnA"
+    },
+    {
+      "offset": 36092,
+      "name": "__imp__ldap_dn2ufnW"
+    },
+    {
+      "offset": 36092,
+      "name": "_ldap_dn2ufnW"
+    },
+    {
+      "offset": 36198,
+      "name": "__imp__ldap_encode_sort_controlA"
+    },
+    {
+      "offset": 36198,
+      "name": "_ldap_encode_sort_controlA"
+    },
+    {
+      "offset": 36318,
+      "name": "__imp__ldap_encode_sort_controlW"
+    },
+    {
+      "offset": 36318,
+      "name": "_ldap_encode_sort_controlW"
+    },
+    {
+      "offset": 36438,
+      "name": "__imp__ldap_err2string"
+    },
+    {
+      "offset": 36438,
+      "name": "_ldap_err2string"
+    },
+    {
+      "offset": 36548,
+      "name": "__imp__ldap_err2stringA"
+    },
+    {
+      "offset": 36548,
+      "name": "_ldap_err2stringA"
+    },
+    {
+      "offset": 36658,
+      "name": "__imp__ldap_err2stringW"
+    },
+    {
+      "offset": 36658,
+      "name": "_ldap_err2stringW"
+    },
+    {
+      "offset": 36768,
+      "name": "__imp__ldap_escape_filter_element"
+    },
+    {
+      "offset": 36768,
+      "name": "_ldap_escape_filter_element"
+    },
+    {
+      "offset": 36888,
+      "name": "__imp__ldap_escape_filter_elementA"
+    },
+    {
+      "offset": 36888,
+      "name": "_ldap_escape_filter_elementA"
+    },
+    {
+      "offset": 37010,
+      "name": "__imp__ldap_escape_filter_elementW"
+    },
+    {
+      "offset": 37010,
+      "name": "_ldap_escape_filter_elementW"
+    },
+    {
+      "offset": 37132,
+      "name": "__imp__ldap_explode_dn"
+    },
+    {
+      "offset": 37132,
+      "name": "_ldap_explode_dn"
+    },
+    {
+      "offset": 37242,
+      "name": "__imp__ldap_explode_dnA"
+    },
+    {
+      "offset": 37242,
+      "name": "_ldap_explode_dnA"
+    },
+    {
+      "offset": 37352,
+      "name": "__imp__ldap_explode_dnW"
+    },
+    {
+      "offset": 37352,
+      "name": "_ldap_explode_dnW"
+    },
+    {
+      "offset": 37462,
+      "name": "__imp__ldap_extended_operation"
+    },
+    {
+      "offset": 37462,
+      "name": "_ldap_extended_operation"
+    },
+    {
+      "offset": 37580,
+      "name": "__imp__ldap_extended_operationA"
+    },
+    {
+      "offset": 37580,
+      "name": "_ldap_extended_operationA"
+    },
+    {
+      "offset": 37698,
+      "name": "__imp__ldap_extended_operationW"
+    },
+    {
+      "offset": 37698,
+      "name": "_ldap_extended_operationW"
+    },
+    {
+      "offset": 38056,
+      "name": "__imp__ldap_first_attribute"
+    },
+    {
+      "offset": 38056,
+      "name": "_ldap_first_attribute"
+    },
+    {
+      "offset": 38170,
+      "name": "__imp__ldap_first_attributeA"
+    },
+    {
+      "offset": 38170,
+      "name": "_ldap_first_attributeA"
+    },
+    {
+      "offset": 38286,
+      "name": "__imp__ldap_first_attributeW"
+    },
+    {
+      "offset": 38286,
+      "name": "_ldap_first_attributeW"
+    },
+    {
+      "offset": 38402,
+      "name": "__imp__ldap_first_entry"
+    },
+    {
+      "offset": 38402,
+      "name": "_ldap_first_entry"
+    },
+    {
+      "offset": 38512,
+      "name": "__imp__ldap_first_reference"
+    },
+    {
+      "offset": 38512,
+      "name": "_ldap_first_reference"
+    },
+    {
+      "offset": 38626,
+      "name": "__imp__ldap_free_controls"
+    },
+    {
+      "offset": 38626,
+      "name": "_ldap_free_controls"
+    },
+    {
+      "offset": 38738,
+      "name": "__imp__ldap_free_controlsA"
+    },
+    {
+      "offset": 38738,
+      "name": "_ldap_free_controlsA"
+    },
+    {
+      "offset": 38852,
+      "name": "__imp__ldap_free_controlsW"
+    },
+    {
+      "offset": 38852,
+      "name": "_ldap_free_controlsW"
+    },
+    {
+      "offset": 38966,
+      "name": "__imp__ldap_get_dn"
+    },
+    {
+      "offset": 38966,
+      "name": "_ldap_get_dn"
+    },
+    {
+      "offset": 39072,
+      "name": "__imp__ldap_get_dnA"
+    },
+    {
+      "offset": 39072,
+      "name": "_ldap_get_dnA"
+    },
+    {
+      "offset": 39178,
+      "name": "__imp__ldap_get_dnW"
+    },
+    {
+      "offset": 39178,
+      "name": "_ldap_get_dnW"
+    },
+    {
+      "offset": 39284,
+      "name": "__imp__ldap_get_next_page"
+    },
+    {
+      "offset": 39284,
+      "name": "_ldap_get_next_page"
+    },
+    {
+      "offset": 39396,
+      "name": "__imp__ldap_get_next_page_s"
+    },
+    {
+      "offset": 39396,
+      "name": "_ldap_get_next_page_s"
+    },
+    {
+      "offset": 39510,
+      "name": "__imp__ldap_get_option"
+    },
+    {
+      "offset": 39510,
+      "name": "_ldap_get_option"
+    },
+    {
+      "offset": 39620,
+      "name": "__imp__ldap_get_optionA"
+    },
+    {
+      "offset": 39620,
+      "name": "_ldap_get_optionA"
+    },
+    {
+      "offset": 39730,
+      "name": "__imp__ldap_get_optionW"
+    },
+    {
+      "offset": 39730,
+      "name": "_ldap_get_optionW"
+    },
+    {
+      "offset": 39840,
+      "name": "__imp__ldap_get_paged_count"
+    },
+    {
+      "offset": 39840,
+      "name": "_ldap_get_paged_count"
+    },
+    {
+      "offset": 39954,
+      "name": "__imp__ldap_get_values"
+    },
+    {
+      "offset": 39954,
+      "name": "_ldap_get_values"
+    },
+    {
+      "offset": 40064,
+      "name": "__imp__ldap_get_valuesA"
+    },
+    {
+      "offset": 40064,
+      "name": "_ldap_get_valuesA"
+    },
+    {
+      "offset": 40174,
+      "name": "__imp__ldap_get_valuesW"
+    },
+    {
+      "offset": 40174,
+      "name": "_ldap_get_valuesW"
+    },
+    {
+      "offset": 40284,
+      "name": "__imp__ldap_get_values_len"
+    },
+    {
+      "offset": 40284,
+      "name": "_ldap_get_values_len"
+    },
+    {
+      "offset": 40398,
+      "name": "__imp__ldap_get_values_lenA"
+    },
+    {
+      "offset": 40398,
+      "name": "_ldap_get_values_lenA"
+    },
+    {
+      "offset": 40512,
+      "name": "__imp__ldap_get_values_lenW"
+    },
+    {
+      "offset": 40512,
+      "name": "_ldap_get_values_lenW"
+    },
+    {
+      "offset": 40626,
+      "name": "__imp__ldap_init"
+    },
+    {
+      "offset": 40626,
+      "name": "_ldap_init"
+    },
+    {
+      "offset": 40730,
+      "name": "__imp__ldap_initA"
+    },
+    {
+      "offset": 40730,
+      "name": "_ldap_initA"
+    },
+    {
+      "offset": 40834,
+      "name": "__imp__ldap_initW"
+    },
+    {
+      "offset": 40834,
+      "name": "_ldap_initW"
+    },
+    {
+      "offset": 40938,
+      "name": "__imp__ldap_memfree"
+    },
+    {
+      "offset": 40938,
+      "name": "_ldap_memfree"
+    },
+    {
+      "offset": 41044,
+      "name": "__imp__ldap_memfreeA"
+    },
+    {
+      "offset": 41044,
+      "name": "_ldap_memfreeA"
+    },
+    {
+      "offset": 41152,
+      "name": "__imp__ldap_memfreeW"
+    },
+    {
+      "offset": 41152,
+      "name": "_ldap_memfreeW"
+    },
+    {
+      "offset": 41260,
+      "name": "__imp__ldap_modify"
+    },
+    {
+      "offset": 41260,
+      "name": "_ldap_modify"
+    },
+    {
+      "offset": 41366,
+      "name": "__imp__ldap_modifyA"
+    },
+    {
+      "offset": 41366,
+      "name": "_ldap_modifyA"
+    },
+    {
+      "offset": 41472,
+      "name": "__imp__ldap_modifyW"
+    },
+    {
+      "offset": 41472,
+      "name": "_ldap_modifyW"
+    },
+    {
+      "offset": 41578,
+      "name": "__imp__ldap_modify_ext"
+    },
+    {
+      "offset": 41578,
+      "name": "_ldap_modify_ext"
+    },
+    {
+      "offset": 41688,
+      "name": "__imp__ldap_modify_extA"
+    },
+    {
+      "offset": 41688,
+      "name": "_ldap_modify_extA"
+    },
+    {
+      "offset": 41798,
+      "name": "__imp__ldap_modify_extW"
+    },
+    {
+      "offset": 41798,
+      "name": "_ldap_modify_extW"
+    },
+    {
+      "offset": 41908,
+      "name": "__imp__ldap_modify_ext_s"
+    },
+    {
+      "offset": 41908,
+      "name": "_ldap_modify_ext_s"
+    },
+    {
+      "offset": 42020,
+      "name": "__imp__ldap_modify_ext_sA"
+    },
+    {
+      "offset": 42020,
+      "name": "_ldap_modify_ext_sA"
+    },
+    {
+      "offset": 42132,
+      "name": "__imp__ldap_modify_ext_sW"
+    },
+    {
+      "offset": 42132,
+      "name": "_ldap_modify_ext_sW"
+    },
+    {
+      "offset": 42244,
+      "name": "__imp__ldap_modify_s"
+    },
+    {
+      "offset": 42244,
+      "name": "_ldap_modify_s"
+    },
+    {
+      "offset": 42352,
+      "name": "__imp__ldap_modify_sA"
+    },
+    {
+      "offset": 42352,
+      "name": "_ldap_modify_sA"
+    },
+    {
+      "offset": 42460,
+      "name": "__imp__ldap_modify_sW"
+    },
+    {
+      "offset": 42460,
+      "name": "_ldap_modify_sW"
+    },
+    {
+      "offset": 42568,
+      "name": "__imp__ldap_modrdn"
+    },
+    {
+      "offset": 42568,
+      "name": "_ldap_modrdn"
+    },
+    {
+      "offset": 42674,
+      "name": "__imp__ldap_modrdn2"
+    },
+    {
+      "offset": 42674,
+      "name": "_ldap_modrdn2"
+    },
+    {
+      "offset": 42780,
+      "name": "__imp__ldap_modrdn2A"
+    },
+    {
+      "offset": 42780,
+      "name": "_ldap_modrdn2A"
+    },
+    {
+      "offset": 42888,
+      "name": "__imp__ldap_modrdn2W"
+    },
+    {
+      "offset": 42888,
+      "name": "_ldap_modrdn2W"
+    },
+    {
+      "offset": 42996,
+      "name": "__imp__ldap_modrdn2_s"
+    },
+    {
+      "offset": 42996,
+      "name": "_ldap_modrdn2_s"
+    },
+    {
+      "offset": 43104,
+      "name": "__imp__ldap_modrdn2_sA"
+    },
+    {
+      "offset": 43104,
+      "name": "_ldap_modrdn2_sA"
+    },
+    {
+      "offset": 43214,
+      "name": "__imp__ldap_modrdn2_sW"
+    },
+    {
+      "offset": 43214,
+      "name": "_ldap_modrdn2_sW"
+    },
+    {
+      "offset": 43324,
+      "name": "__imp__ldap_modrdnA"
+    },
+    {
+      "offset": 43324,
+      "name": "_ldap_modrdnA"
+    },
+    {
+      "offset": 43430,
+      "name": "__imp__ldap_modrdnW"
+    },
+    {
+      "offset": 43430,
+      "name": "_ldap_modrdnW"
+    },
+    {
+      "offset": 43536,
+      "name": "__imp__ldap_modrdn_s"
+    },
+    {
+      "offset": 43536,
+      "name": "_ldap_modrdn_s"
+    },
+    {
+      "offset": 43644,
+      "name": "__imp__ldap_modrdn_sA"
+    },
+    {
+      "offset": 43644,
+      "name": "_ldap_modrdn_sA"
+    },
+    {
+      "offset": 43752,
+      "name": "__imp__ldap_modrdn_sW"
+    },
+    {
+      "offset": 43752,
+      "name": "_ldap_modrdn_sW"
+    },
+    {
+      "offset": 43860,
+      "name": "__imp__ldap_msgfree"
+    },
+    {
+      "offset": 43860,
+      "name": "_ldap_msgfree"
+    },
+    {
+      "offset": 43966,
+      "name": "__imp__ldap_next_attribute"
+    },
+    {
+      "offset": 43966,
+      "name": "_ldap_next_attribute"
+    },
+    {
+      "offset": 44080,
+      "name": "__imp__ldap_next_attributeA"
+    },
+    {
+      "offset": 44080,
+      "name": "_ldap_next_attributeA"
+    },
+    {
+      "offset": 44194,
+      "name": "__imp__ldap_next_attributeW"
+    },
+    {
+      "offset": 44194,
+      "name": "_ldap_next_attributeW"
+    },
+    {
+      "offset": 44308,
+      "name": "__imp__ldap_next_entry"
+    },
+    {
+      "offset": 44308,
+      "name": "_ldap_next_entry"
+    },
+    {
+      "offset": 44418,
+      "name": "__imp__ldap_next_reference"
+    },
+    {
+      "offset": 44418,
+      "name": "_ldap_next_reference"
+    },
+    {
+      "offset": 44532,
+      "name": "__imp__ldap_open"
+    },
+    {
+      "offset": 44532,
+      "name": "_ldap_open"
+    },
+    {
+      "offset": 44636,
+      "name": "__imp__ldap_openA"
+    },
+    {
+      "offset": 44636,
+      "name": "_ldap_openA"
+    },
+    {
+      "offset": 44740,
+      "name": "__imp__ldap_openW"
+    },
+    {
+      "offset": 44740,
+      "name": "_ldap_openW"
+    },
+    {
+      "offset": 45088,
+      "name": "__imp__ldap_parse_page_control"
+    },
+    {
+      "offset": 45088,
+      "name": "_ldap_parse_page_control"
+    },
+    {
+      "offset": 45206,
+      "name": "__imp__ldap_parse_page_controlA"
+    },
+    {
+      "offset": 45206,
+      "name": "_ldap_parse_page_controlA"
+    },
+    {
+      "offset": 45324,
+      "name": "__imp__ldap_parse_page_controlW"
+    },
+    {
+      "offset": 45324,
+      "name": "_ldap_parse_page_controlW"
+    },
+    {
+      "offset": 45442,
+      "name": "__imp__ldap_parse_reference"
+    },
+    {
+      "offset": 45442,
+      "name": "_ldap_parse_reference"
+    },
+    {
+      "offset": 45556,
+      "name": "__imp__ldap_parse_referenceA"
+    },
+    {
+      "offset": 45556,
+      "name": "_ldap_parse_referenceA"
+    },
+    {
+      "offset": 45672,
+      "name": "__imp__ldap_parse_referenceW"
+    },
+    {
+      "offset": 45672,
+      "name": "_ldap_parse_referenceW"
+    },
+    {
+      "offset": 45788,
+      "name": "__imp__ldap_parse_result"
+    },
+    {
+      "offset": 45788,
+      "name": "_ldap_parse_result"
+    },
+    {
+      "offset": 45900,
+      "name": "__imp__ldap_parse_resultA"
+    },
+    {
+      "offset": 45900,
+      "name": "_ldap_parse_resultA"
+    },
+    {
+      "offset": 46012,
+      "name": "__imp__ldap_parse_resultW"
+    },
+    {
+      "offset": 46012,
+      "name": "_ldap_parse_resultW"
+    },
+    {
+      "offset": 46124,
+      "name": "__imp__ldap_parse_sort_control"
+    },
+    {
+      "offset": 46124,
+      "name": "_ldap_parse_sort_control"
+    },
+    {
+      "offset": 46242,
+      "name": "__imp__ldap_parse_sort_controlA"
+    },
+    {
+      "offset": 46242,
+      "name": "_ldap_parse_sort_controlA"
+    },
+    {
+      "offset": 46360,
+      "name": "__imp__ldap_parse_sort_controlW"
+    },
+    {
+      "offset": 46360,
+      "name": "_ldap_parse_sort_controlW"
+    },
+    {
+      "offset": 46714,
+      "name": "__imp__ldap_perror"
+    },
+    {
+      "offset": 46714,
+      "name": "_ldap_perror"
+    },
+    {
+      "offset": 46820,
+      "name": "__imp__ldap_rename_ext"
+    },
+    {
+      "offset": 46820,
+      "name": "_ldap_rename_ext"
+    },
+    {
+      "offset": 46930,
+      "name": "__imp__ldap_rename_extA"
+    },
+    {
+      "offset": 46930,
+      "name": "_ldap_rename_extA"
+    },
+    {
+      "offset": 47040,
+      "name": "__imp__ldap_rename_extW"
+    },
+    {
+      "offset": 47040,
+      "name": "_ldap_rename_extW"
+    },
+    {
+      "offset": 47150,
+      "name": "__imp__ldap_rename_ext_s"
+    },
+    {
+      "offset": 47150,
+      "name": "_ldap_rename_ext_s"
+    },
+    {
+      "offset": 47262,
+      "name": "__imp__ldap_rename_ext_sA"
+    },
+    {
+      "offset": 47262,
+      "name": "_ldap_rename_ext_sA"
+    },
+    {
+      "offset": 47374,
+      "name": "__imp__ldap_rename_ext_sW"
+    },
+    {
+      "offset": 47374,
+      "name": "_ldap_rename_ext_sW"
+    },
+    {
+      "offset": 47486,
+      "name": "__imp__ldap_result"
+    },
+    {
+      "offset": 47486,
+      "name": "_ldap_result"
+    },
+    {
+      "offset": 47592,
+      "name": "__imp__ldap_result2error"
+    },
+    {
+      "offset": 47592,
+      "name": "_ldap_result2error"
+    },
+    {
+      "offset": 48148,
+      "name": "__imp__ldap_search"
+    },
+    {
+      "offset": 48148,
+      "name": "_ldap_search"
+    },
+    {
+      "offset": 48254,
+      "name": "__imp__ldap_searchA"
+    },
+    {
+      "offset": 48254,
+      "name": "_ldap_searchA"
+    },
+    {
+      "offset": 48360,
+      "name": "__imp__ldap_searchW"
+    },
+    {
+      "offset": 48360,
+      "name": "_ldap_searchW"
+    },
+    {
+      "offset": 48466,
+      "name": "__imp__ldap_search_abandon_page"
+    },
+    {
+      "offset": 48466,
+      "name": "_ldap_search_abandon_page"
+    },
+    {
+      "offset": 48584,
+      "name": "__imp__ldap_search_ext"
+    },
+    {
+      "offset": 48584,
+      "name": "_ldap_search_ext"
+    },
+    {
+      "offset": 48694,
+      "name": "__imp__ldap_search_extA"
+    },
+    {
+      "offset": 48694,
+      "name": "_ldap_search_extA"
+    },
+    {
+      "offset": 48804,
+      "name": "__imp__ldap_search_extW"
+    },
+    {
+      "offset": 48804,
+      "name": "_ldap_search_extW"
+    },
+    {
+      "offset": 48914,
+      "name": "__imp__ldap_search_ext_s"
+    },
+    {
+      "offset": 48914,
+      "name": "_ldap_search_ext_s"
+    },
+    {
+      "offset": 49026,
+      "name": "__imp__ldap_search_ext_sA"
+    },
+    {
+      "offset": 49026,
+      "name": "_ldap_search_ext_sA"
+    },
+    {
+      "offset": 49138,
+      "name": "__imp__ldap_search_ext_sW"
+    },
+    {
+      "offset": 49138,
+      "name": "_ldap_search_ext_sW"
+    },
+    {
+      "offset": 49250,
+      "name": "__imp__ldap_search_init_page"
+    },
+    {
+      "offset": 49250,
+      "name": "_ldap_search_init_page"
+    },
+    {
+      "offset": 49366,
+      "name": "__imp__ldap_search_init_pageA"
+    },
+    {
+      "offset": 49366,
+      "name": "_ldap_search_init_pageA"
+    },
+    {
+      "offset": 49482,
+      "name": "__imp__ldap_search_init_pageW"
+    },
+    {
+      "offset": 49482,
+      "name": "_ldap_search_init_pageW"
+    },
+    {
+      "offset": 49598,
+      "name": "__imp__ldap_search_s"
+    },
+    {
+      "offset": 49598,
+      "name": "_ldap_search_s"
+    },
+    {
+      "offset": 49706,
+      "name": "__imp__ldap_search_sA"
+    },
+    {
+      "offset": 49706,
+      "name": "_ldap_search_sA"
+    },
+    {
+      "offset": 49814,
+      "name": "__imp__ldap_search_sW"
+    },
+    {
+      "offset": 49814,
+      "name": "_ldap_search_sW"
+    },
+    {
+      "offset": 49922,
+      "name": "__imp__ldap_search_st"
+    },
+    {
+      "offset": 49922,
+      "name": "_ldap_search_st"
+    },
+    {
+      "offset": 50030,
+      "name": "__imp__ldap_search_stA"
+    },
+    {
+      "offset": 50030,
+      "name": "_ldap_search_stA"
+    },
+    {
+      "offset": 50140,
+      "name": "__imp__ldap_search_stW"
+    },
+    {
+      "offset": 50140,
+      "name": "_ldap_search_stW"
+    },
+    {
+      "offset": 50250,
+      "name": "__imp__ldap_set_dbg_flags"
+    },
+    {
+      "offset": 50250,
+      "name": "_ldap_set_dbg_flags"
+    },
+    {
+      "offset": 50362,
+      "name": "__imp__ldap_set_dbg_routine"
+    },
+    {
+      "offset": 50362,
+      "name": "_ldap_set_dbg_routine"
+    },
+    {
+      "offset": 50476,
+      "name": "__imp__ldap_set_option"
+    },
+    {
+      "offset": 50476,
+      "name": "_ldap_set_option"
+    },
+    {
+      "offset": 50586,
+      "name": "__imp__ldap_set_optionA"
+    },
+    {
+      "offset": 50586,
+      "name": "_ldap_set_optionA"
+    },
+    {
+      "offset": 50696,
+      "name": "__imp__ldap_set_optionW"
+    },
+    {
+      "offset": 50696,
+      "name": "_ldap_set_optionW"
+    },
+    {
+      "offset": 50806,
+      "name": "__imp__ldap_simple_bind"
+    },
+    {
+      "offset": 50806,
+      "name": "_ldap_simple_bind"
+    },
+    {
+      "offset": 50916,
+      "name": "__imp__ldap_simple_bindA"
+    },
+    {
+      "offset": 50916,
+      "name": "_ldap_simple_bindA"
+    },
+    {
+      "offset": 51028,
+      "name": "__imp__ldap_simple_bindW"
+    },
+    {
+      "offset": 51028,
+      "name": "_ldap_simple_bindW"
+    },
+    {
+      "offset": 51140,
+      "name": "__imp__ldap_simple_bind_s"
+    },
+    {
+      "offset": 51140,
+      "name": "_ldap_simple_bind_s"
+    },
+    {
+      "offset": 51252,
+      "name": "__imp__ldap_simple_bind_sA"
+    },
+    {
+      "offset": 51252,
+      "name": "_ldap_simple_bind_sA"
+    },
+    {
+      "offset": 51366,
+      "name": "__imp__ldap_simple_bind_sW"
+    },
+    {
+      "offset": 51366,
+      "name": "_ldap_simple_bind_sW"
+    },
+    {
+      "offset": 51480,
+      "name": "__imp__ldap_sslinit"
+    },
+    {
+      "offset": 51480,
+      "name": "_ldap_sslinit"
+    },
+    {
+      "offset": 51586,
+      "name": "__imp__ldap_sslinitA"
+    },
+    {
+      "offset": 51586,
+      "name": "_ldap_sslinitA"
+    },
+    {
+      "offset": 51694,
+      "name": "__imp__ldap_sslinitW"
+    },
+    {
+      "offset": 51694,
+      "name": "_ldap_sslinitW"
+    },
+    {
+      "offset": 52026,
+      "name": "__imp__ldap_startup"
+    },
+    {
+      "offset": 52026,
+      "name": "_ldap_startup"
+    },
+    {
+      "offset": 52242,
+      "name": "__imp__ldap_ufn2dn"
+    },
+    {
+      "offset": 52242,
+      "name": "_ldap_ufn2dn"
+    },
+    {
+      "offset": 52348,
+      "name": "__imp__ldap_ufn2dnA"
+    },
+    {
+      "offset": 52348,
+      "name": "_ldap_ufn2dnA"
+    },
+    {
+      "offset": 52454,
+      "name": "__imp__ldap_ufn2dnW"
+    },
+    {
+      "offset": 52454,
+      "name": "_ldap_ufn2dnW"
+    },
+    {
+      "offset": 52560,
+      "name": "__imp__ldap_unbind"
+    },
+    {
+      "offset": 52560,
+      "name": "_ldap_unbind"
+    },
+    {
+      "offset": 52666,
+      "name": "__imp__ldap_unbind_s"
+    },
+    {
+      "offset": 52666,
+      "name": "_ldap_unbind_s"
+    },
+    {
+      "offset": 52774,
+      "name": "__imp__ldap_value_free"
+    },
+    {
+      "offset": 52774,
+      "name": "_ldap_value_free"
+    },
+    {
+      "offset": 52884,
+      "name": "__imp__ldap_value_freeA"
+    },
+    {
+      "offset": 52884,
+      "name": "_ldap_value_freeA"
+    },
+    {
+      "offset": 52994,
+      "name": "__imp__ldap_value_freeW"
+    },
+    {
+      "offset": 52994,
+      "name": "_ldap_value_freeW"
+    },
+    {
+      "offset": 53104,
+      "name": "__imp__ldap_value_free_len"
+    },
+    {
+      "offset": 53104,
+      "name": "_ldap_value_free_len"
+    },
+    {
+      "offset": 30276,
+      "name": "__imp__ldap_check_filterA"
+    },
+    {
+      "offset": 30276,
+      "name": "_ldap_check_filterA"
+    },
+    {
+      "offset": 30388,
+      "name": "__imp__ldap_check_filterW"
+    },
+    {
+      "offset": 30388,
+      "name": "_ldap_check_filterW"
+    },
+    {
+      "offset": 27316,
+      "name": "__imp__ber_init"
+    },
+    {
+      "offset": 27316,
+      "name": "_ber_init"
+    },
+    {
+      "offset": 27214,
+      "name": "__imp__ber_free"
+    },
+    {
+      "offset": 27214,
+      "name": "_ber_free"
+    },
+    {
+      "offset": 26892,
+      "name": "__imp__ber_bvfree"
+    },
+    {
+      "offset": 26892,
+      "name": "_ber_bvfree"
+    },
+    {
+      "offset": 26786,
+      "name": "__imp__ber_bvecfree"
+    },
+    {
+      "offset": 26786,
+      "name": "_ber_bvecfree"
+    },
+    {
+      "offset": 26682,
+      "name": "__imp__ber_bvdup"
+    },
+    {
+      "offset": 26682,
+      "name": "_ber_bvdup"
+    },
+    {
+      "offset": 26576,
+      "name": "__imp__ber_alloc_t"
+    },
+    {
+      "offset": 26576,
+      "name": "_ber_alloc_t"
+    },
+    {
+      "offset": 27842,
+      "name": "__imp__ber_skip_tag"
+    },
+    {
+      "offset": 27842,
+      "name": "_ber_skip_tag"
+    },
+    {
+      "offset": 27528,
+      "name": "__imp__ber_peek_tag"
+    },
+    {
+      "offset": 27528,
+      "name": "_ber_peek_tag"
+    },
+    {
+      "offset": 26996,
+      "name": "__imp__ber_first_element"
+    },
+    {
+      "offset": 26996,
+      "name": "_ber_first_element"
+    },
+    {
+      "offset": 27418,
+      "name": "__imp__ber_next_element"
+    },
+    {
+      "offset": 27418,
+      "name": "_ber_next_element"
+    },
+    {
+      "offset": 27108,
+      "name": "__imp__ber_flatten"
+    },
+    {
+      "offset": 27108,
+      "name": "_ber_flatten"
+    },
+    {
+      "offset": 27634,
+      "name": "__imp__ber_printf"
+    },
+    {
+      "offset": 27634,
+      "name": "_ber_printf"
+    },
+    {
+      "offset": 27738,
+      "name": "__imp__ber_scanf"
+    },
+    {
+      "offset": 27738,
+      "name": "_ber_scanf"
+    },
+    {
+      "offset": 32046,
+      "name": "__imp__ldap_conn_from_msg"
+    },
+    {
+      "offset": 32046,
+      "name": "_ldap_conn_from_msg"
+    },
+    {
+      "offset": 47814,
+      "name": "__imp__ldap_sasl_bindW"
+    },
+    {
+      "offset": 47814,
+      "name": "_ldap_sasl_bindW"
+    },
+    {
+      "offset": 48036,
+      "name": "__imp__ldap_sasl_bind_sW"
+    },
+    {
+      "offset": 48036,
+      "name": "_ldap_sasl_bind_sW"
+    },
+    {
+      "offset": 47704,
+      "name": "__imp__ldap_sasl_bindA"
+    },
+    {
+      "offset": 47704,
+      "name": "_ldap_sasl_bindA"
+    },
+    {
+      "offset": 47924,
+      "name": "__imp__ldap_sasl_bind_sA"
+    },
+    {
+      "offset": 47924,
+      "name": "_ldap_sasl_bind_sA"
+    },
+    {
+      "offset": 44966,
+      "name": "__imp__ldap_parse_extended_resultW"
+    },
+    {
+      "offset": 44966,
+      "name": "_ldap_parse_extended_resultW"
+    },
+    {
+      "offset": 44844,
+      "name": "__imp__ldap_parse_extended_resultA"
+    },
+    {
+      "offset": 44844,
+      "name": "_ldap_parse_extended_resultA"
+    },
+    {
+      "offset": 34454,
+      "name": "__imp__ldap_create_vlv_controlW"
+    },
+    {
+      "offset": 34454,
+      "name": "_ldap_create_vlv_controlW"
+    },
+    {
+      "offset": 34336,
+      "name": "__imp__ldap_create_vlv_controlA"
+    },
+    {
+      "offset": 34336,
+      "name": "_ldap_create_vlv_controlA"
+    },
+    {
+      "offset": 46596,
+      "name": "__imp__ldap_parse_vlv_controlW"
+    },
+    {
+      "offset": 46596,
+      "name": "_ldap_parse_vlv_controlW"
+    },
+    {
+      "offset": 46478,
+      "name": "__imp__ldap_parse_vlv_controlA"
+    },
+    {
+      "offset": 46478,
+      "name": "_ldap_parse_vlv_controlA"
+    },
+    {
+      "offset": 51914,
+      "name": "__imp__ldap_start_tls_sW"
+    },
+    {
+      "offset": 51914,
+      "name": "_ldap_start_tls_sW"
+    },
+    {
+      "offset": 51802,
+      "name": "__imp__ldap_start_tls_sA"
+    },
+    {
+      "offset": 51802,
+      "name": "_ldap_start_tls_sA"
+    },
+    {
+      "offset": 52132,
+      "name": "__imp__ldap_stop_tls_s"
+    },
+    {
+      "offset": 52132,
+      "name": "_ldap_stop_tls_s"
+    },
+    {
+      "offset": 37936,
+      "name": "__imp__ldap_extended_operation_sW"
+    },
+    {
+      "offset": 37936,
+      "name": "_ldap_extended_operation_sW"
+    },
+    {
+      "offset": 37816,
+      "name": "__imp__ldap_extended_operation_sA"
+    },
+    {
+      "offset": 37816,
+      "name": "_ldap_extended_operation_sA"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 26128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3669055155,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_LdapGetLastError",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 16
+    },
+    {
+      "offset": 26238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3605676464,
+      "sizeOfData": 33,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_LdapMapErrorToWin32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 18
+    },
+    {
+      "offset": 26352,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3463103098,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_LdapUTF8ToUnicode",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 29
+    },
+    {
+      "offset": 26464,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3982535526,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_LdapUnicodeToUTF8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 53
+    },
+    {
+      "offset": 26576,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3660841981,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ber_alloc_t",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 304
+    },
+    {
+      "offset": 26682,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4159888519,
+      "sizeOfData": 23,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ber_bvdup",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 303
+    },
+    {
+      "offset": 26786,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3705309243,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ber_bvecfree",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 302
+    },
+    {
+      "offset": 26892,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3534707491,
+      "sizeOfData": 24,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ber_bvfree",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 54
+    },
+    {
+      "offset": 26996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3347249354,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ber_first_element",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 307
+    },
+    {
+      "offset": 27108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3651094430,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ber_flatten",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 309
+    },
+    {
+      "offset": 27214,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4206136361,
+      "sizeOfData": 22,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ber_free",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 301
+    },
+    {
+      "offset": 27316,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3937576869,
+      "sizeOfData": 22,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ber_init",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 300
+    },
+    {
+      "offset": 27418,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3430316090,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ber_next_element",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 308
+    },
+    {
+      "offset": 27528,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3590765752,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ber_peek_tag",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 306
+    },
+    {
+      "offset": 27634,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3835380218,
+      "sizeOfData": 24,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ber_printf",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 310
+    },
+    {
+      "offset": 27738,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4251400934,
+      "sizeOfData": 23,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ber_scanf",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 311
+    },
+    {
+      "offset": 27842,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3889565512,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ber_skip_tag",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 305
+    },
+    {
+      "offset": 27948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4258472838,
+      "sizeOfData": 24,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_cldap_open",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 17
+    },
+    {
+      "offset": 28052,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4045991770,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_cldap_openA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 55
+    },
+    {
+      "offset": 28158,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3502717800,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_cldap_openW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 28
+    },
+    {
+      "offset": 28264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3319014993,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_abandon",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 10
+    },
+    {
+      "offset": 28370,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3512921633,
+      "sizeOfData": 22,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_add",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 11
+    },
+    {
+      "offset": 28472,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3960818769,
+      "sizeOfData": 23,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_addA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 56
+    },
+    {
+      "offset": 28576,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3325424303,
+      "sizeOfData": 23,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_addW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 42
+    },
+    {
+      "offset": 28680,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3677289939,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_add_ext",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 57
+    },
+    {
+      "offset": 28786,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3853772458,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_add_extA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 58
+    },
+    {
+      "offset": 28894,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3605914366,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_add_extW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 62
+    },
+    {
+      "offset": 29002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3772478632,
+      "sizeOfData": 28,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_add_ext_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 63
+    },
+    {
+      "offset": 29110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3611944333,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_add_ext_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 64
+    },
+    {
+      "offset": 29220,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3359212086,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_add_ext_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 65
+    },
+    {
+      "offset": 29330,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3284863549,
+      "sizeOfData": 24,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_add_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 44
+    },
+    {
+      "offset": 29434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3681009779,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_add_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 66
+    },
+    {
+      "offset": 29540,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3284734221,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_add_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 69
+    },
+    {
+      "offset": 29646,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3427809955,
+      "sizeOfData": 23,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_bind",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 61
+    },
+    {
+      "offset": 29750,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3668996090,
+      "sizeOfData": 24,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_bindA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 70
+    },
+    {
+      "offset": 29854,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3988235491,
+      "sizeOfData": 24,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_bindW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 71
+    },
+    {
+      "offset": 29958,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3363815411,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_bind_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 45
+    },
+    {
+      "offset": 30064,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3936018299,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_bind_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 72
+    },
+    {
+      "offset": 30170,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3305573669,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_bind_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 73
+    },
+    {
+      "offset": 30276,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3422901116,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_check_filterA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 230
+    },
+    {
+      "offset": 30388,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3863781996,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_check_filterW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 231
+    },
+    {
+      "offset": 30500,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4010943335,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_cleanup",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 202
+    },
+    {
+      "offset": 30606,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3753502611,
+      "sizeOfData": 36,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_close_extended_op",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 74
+    },
+    {
+      "offset": 30722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3446700025,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_compare",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 19
+    },
+    {
+      "offset": 30828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3740805004,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_compareA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 75
+    },
+    {
+      "offset": 30936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3631637248,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_compareW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 76
+    },
+    {
+      "offset": 31044,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4192448396,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_compare_ext",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 78
+    },
+    {
+      "offset": 31154,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3629296095,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_compare_extA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 80
+    },
+    {
+      "offset": 31266,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4054762495,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_compare_extW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 81
+    },
+    {
+      "offset": 31378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3499443759,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_compare_ext_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 83
+    },
+    {
+      "offset": 31490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3962367122,
+      "sizeOfData": 33,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_compare_ext_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 84
+    },
+    {
+      "offset": 31604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4056222169,
+      "sizeOfData": 33,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_compare_ext_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 85
+    },
+    {
+      "offset": 31718,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3510916349,
+      "sizeOfData": 28,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_compare_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 52
+    },
+    {
+      "offset": 31826,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3621121238,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_compare_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 86
+    },
+    {
+      "offset": 31936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4249915710,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_compare_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 87
+    },
+    {
+      "offset": 32046,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3503803694,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_conn_from_msg",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 312
+    },
+    {
+      "offset": 32158,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4118569675,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_connect",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 88
+    },
+    {
+      "offset": 32264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3645643057,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_control_free",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 89
+    },
+    {
+      "offset": 32376,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3460793418,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_control_freeA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 90
+    },
+    {
+      "offset": 32488,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3853681792,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_control_freeW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 91
+    },
+    {
+      "offset": 32600,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3385605479,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_controls_free",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 92
+    },
+    {
+      "offset": 32712,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3448837141,
+      "sizeOfData": 33,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_controls_freeA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 93
+    },
+    {
+      "offset": 32826,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3350824578,
+      "sizeOfData": 33,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_controls_freeW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 94
+    },
+    {
+      "offset": 32940,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3669756430,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_count_entries",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 36
+    },
+    {
+      "offset": 33052,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4261385066,
+      "sizeOfData": 35,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_count_references",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 95
+    },
+    {
+      "offset": 33168,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3733114885,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_count_values",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 37
+    },
+    {
+      "offset": 33280,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4074364225,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_count_valuesA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 96
+    },
+    {
+      "offset": 33392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4034655280,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_count_valuesW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 97
+    },
+    {
+      "offset": 33504,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3387503785,
+      "sizeOfData": 35,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_count_values_len",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 77
+    },
+    {
+      "offset": 33620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3500660234,
+      "sizeOfData": 38,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_create_page_control",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 98
+    },
+    {
+      "offset": 33738,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3416269124,
+      "sizeOfData": 39,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_create_page_controlA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 99
+    },
+    {
+      "offset": 33858,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3507752566,
+      "sizeOfData": 39,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_create_page_controlW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 100
+    },
+    {
+      "offset": 33978,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3579010027,
+      "sizeOfData": 38,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_create_sort_control",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 101
+    },
+    {
+      "offset": 34096,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3294458936,
+      "sizeOfData": 39,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_create_sort_controlA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 102
+    },
+    {
+      "offset": 34216,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3918485722,
+      "sizeOfData": 39,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_create_sort_controlW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 103
+    },
+    {
+      "offset": 34336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3987640308,
+      "sizeOfData": 38,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_create_vlv_controlA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 320
+    },
+    {
+      "offset": 34454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4062624043,
+      "sizeOfData": 38,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_create_vlv_controlW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 319
+    },
+    {
+      "offset": 34572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3737165826,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_delete",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 20
+    },
+    {
+      "offset": 34678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4095622578,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_deleteA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 104
+    },
+    {
+      "offset": 34784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3533775544,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_deleteW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 105
+    },
+    {
+      "offset": 34890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3732192755,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_delete_ext",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 106
+    },
+    {
+      "offset": 35000,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3856037814,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_delete_extA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 107
+    },
+    {
+      "offset": 35110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3712680540,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_delete_extW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 108
+    },
+    {
+      "offset": 35220,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3767140309,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_delete_ext_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 109
+    },
+    {
+      "offset": 35332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3448128131,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_delete_ext_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 110
+    },
+    {
+      "offset": 35444,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4168232157,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_delete_ext_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 111
+    },
+    {
+      "offset": 35556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3662078352,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_delete_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 47
+    },
+    {
+      "offset": 35664,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4212867517,
+      "sizeOfData": 28,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_delete_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 112
+    },
+    {
+      "offset": 35772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3642819029,
+      "sizeOfData": 28,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_delete_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 113
+    },
+    {
+      "offset": 35880,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4039767966,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_dn2ufn",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 31
+    },
+    {
+      "offset": 35986,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3860594964,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_dn2ufnA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 232
+    },
+    {
+      "offset": 36092,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4010167927,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_dn2ufnW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 114
+    },
+    {
+      "offset": 36198,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3660016513,
+      "sizeOfData": 39,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_encode_sort_controlA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 115
+    },
+    {
+      "offset": 36318,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3748914331,
+      "sizeOfData": 39,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_encode_sort_controlW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 116
+    },
+    {
+      "offset": 36438,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4247821864,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_err2string",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 22
+    },
+    {
+      "offset": 36548,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4108518798,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_err2stringA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 117
+    },
+    {
+      "offset": 36658,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3639436755,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_err2stringW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 118
+    },
+    {
+      "offset": 36768,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4165698304,
+      "sizeOfData": 40,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_escape_filter_element",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 197
+    },
+    {
+      "offset": 36888,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4195828093,
+      "sizeOfData": 41,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_escape_filter_elementA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 119
+    },
+    {
+      "offset": 37010,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4158536455,
+      "sizeOfData": 41,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_escape_filter_elementW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 120
+    },
+    {
+      "offset": 37132,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3904988849,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_explode_dn",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 39
+    },
+    {
+      "offset": 37242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3897461584,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_explode_dnA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 121
+    },
+    {
+      "offset": 37352,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4145273955,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_explode_dnW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 122
+    },
+    {
+      "offset": 37462,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4059849498,
+      "sizeOfData": 37,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_extended_operation",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 123
+    },
+    {
+      "offset": 37580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4062841562,
+      "sizeOfData": 38,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_extended_operationA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 124
+    },
+    {
+      "offset": 37698,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3591076142,
+      "sizeOfData": 38,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_extended_operationW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 125
+    },
+    {
+      "offset": 37816,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3328916028,
+      "sizeOfData": 40,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_extended_operation_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 333
+    },
+    {
+      "offset": 37936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3922698073,
+      "sizeOfData": 40,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_extended_operation_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 332
+    },
+    {
+      "offset": 38056,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3853493533,
+      "sizeOfData": 34,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_first_attribute",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 32
+    },
+    {
+      "offset": 38170,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3613455113,
+      "sizeOfData": 35,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_first_attributeA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 126
+    },
+    {
+      "offset": 38286,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3593421523,
+      "sizeOfData": 35,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_first_attributeW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 127
+    },
+    {
+      "offset": 38402,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3891953768,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_first_entry",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 26
+    },
+    {
+      "offset": 38512,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4287750978,
+      "sizeOfData": 34,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_first_reference",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 128
+    },
+    {
+      "offset": 38626,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4155823612,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_free_controls",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 129
+    },
+    {
+      "offset": 38738,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3580307535,
+      "sizeOfData": 33,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_free_controlsA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 130
+    },
+    {
+      "offset": 38852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3921840401,
+      "sizeOfData": 33,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_free_controlsW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 131
+    },
+    {
+      "offset": 38966,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3613270752,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_dn",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 30
+    },
+    {
+      "offset": 39072,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3852105396,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_dnA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 132
+    },
+    {
+      "offset": 39178,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4047557384,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_dnW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 133
+    },
+    {
+      "offset": 39284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3538164410,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_next_page",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 134
+    },
+    {
+      "offset": 39396,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3945663916,
+      "sizeOfData": 34,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_next_page_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 135
+    },
+    {
+      "offset": 39510,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3956817853,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_option",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 136
+    },
+    {
+      "offset": 39620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3680494249,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_optionA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 137
+    },
+    {
+      "offset": 39730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3537282200,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_optionW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 12
+    },
+    {
+      "offset": 39840,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3486613467,
+      "sizeOfData": 34,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_paged_count",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 138
+    },
+    {
+      "offset": 39954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3787357073,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_values",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 34
+    },
+    {
+      "offset": 40064,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3764238200,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_valuesA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 139
+    },
+    {
+      "offset": 40174,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3355744016,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_valuesW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 140
+    },
+    {
+      "offset": 40284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3445925904,
+      "sizeOfData": 33,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_values_len",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 35
+    },
+    {
+      "offset": 40398,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3465136781,
+      "sizeOfData": 34,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_values_lenA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 141
+    },
+    {
+      "offset": 40512,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3268183151,
+      "sizeOfData": 34,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_get_values_lenW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 142
+    },
+    {
+      "offset": 40626,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3401438463,
+      "sizeOfData": 23,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_init",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 143
+    },
+    {
+      "offset": 40730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3707467864,
+      "sizeOfData": 24,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_initA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 144
+    },
+    {
+      "offset": 40834,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4246249299,
+      "sizeOfData": 24,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_initW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 145
+    },
+    {
+      "offset": 40938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3673185740,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_memfree",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 200
+    },
+    {
+      "offset": 41044,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4180329063,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_memfreeA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 146
+    },
+    {
+      "offset": 41152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4143986159,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_memfreeW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 147
+    },
+    {
+      "offset": 41260,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3580681878,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modify",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 23
+    },
+    {
+      "offset": 41366,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4044441921,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modifyA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 148
+    },
+    {
+      "offset": 41472,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3386237182,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modifyW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 149
+    },
+    {
+      "offset": 41578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4164373508,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modify_ext",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 150
+    },
+    {
+      "offset": 41688,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3919736421,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modify_extA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 151
+    },
+    {
+      "offset": 41798,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3714942004,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modify_extW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 152
+    },
+    {
+      "offset": 41908,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3675283651,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modify_ext_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 153
+    },
+    {
+      "offset": 42020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4224663157,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modify_ext_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 154
+    },
+    {
+      "offset": 42132,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3501774218,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modify_ext_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 155
+    },
+    {
+      "offset": 42244,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4179076481,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modify_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 48
+    },
+    {
+      "offset": 42352,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3627854657,
+      "sizeOfData": 28,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modify_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 156
+    },
+    {
+      "offset": 42460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3697505258,
+      "sizeOfData": 28,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modify_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 157
+    },
+    {
+      "offset": 42568,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3951922345,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modrdn",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 24
+    },
+    {
+      "offset": 42674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4106577519,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modrdn2",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 67
+    },
+    {
+      "offset": 42780,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3655489552,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modrdn2A",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 158
+    },
+    {
+      "offset": 42888,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4213335811,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modrdn2W",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 159
+    },
+    {
+      "offset": 42996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3560528013,
+      "sizeOfData": 28,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modrdn2_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 68
+    },
+    {
+      "offset": 43104,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3521143843,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modrdn2_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 160
+    },
+    {
+      "offset": 43214,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3238915695,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modrdn2_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 161
+    },
+    {
+      "offset": 43324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3927857670,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modrdnA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 162
+    },
+    {
+      "offset": 43430,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3790916671,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modrdnW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 163
+    },
+    {
+      "offset": 43536,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3450369652,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modrdn_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 49
+    },
+    {
+      "offset": 43644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3521493020,
+      "sizeOfData": 28,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modrdn_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 164
+    },
+    {
+      "offset": 43752,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4160505228,
+      "sizeOfData": 28,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_modrdn_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 165
+    },
+    {
+      "offset": 43860,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3715462051,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_msgfree",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 41
+    },
+    {
+      "offset": 43966,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3411057483,
+      "sizeOfData": 33,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_next_attribute",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 33
+    },
+    {
+      "offset": 44080,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3535539814,
+      "sizeOfData": 34,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_next_attributeA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 166
+    },
+    {
+      "offset": 44194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3989961756,
+      "sizeOfData": 34,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_next_attributeW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 167
+    },
+    {
+      "offset": 44308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3853829639,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_next_entry",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 27
+    },
+    {
+      "offset": 44418,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3274161382,
+      "sizeOfData": 33,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_next_reference",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 168
+    },
+    {
+      "offset": 44532,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3454136757,
+      "sizeOfData": 23,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_open",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 25
+    },
+    {
+      "offset": 44636,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3836096647,
+      "sizeOfData": 24,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_openA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 169
+    },
+    {
+      "offset": 44740,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4010464482,
+      "sizeOfData": 24,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_openW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 170
+    },
+    {
+      "offset": 44844,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3482884802,
+      "sizeOfData": 41,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_extended_resultA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 318
+    },
+    {
+      "offset": 44966,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3634882488,
+      "sizeOfData": 41,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_extended_resultW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 317
+    },
+    {
+      "offset": 45088,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4124742712,
+      "sizeOfData": 37,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_page_control",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 171
+    },
+    {
+      "offset": 45206,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3345652389,
+      "sizeOfData": 38,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_page_controlA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 172
+    },
+    {
+      "offset": 45324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3727980280,
+      "sizeOfData": 38,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_page_controlW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 173
+    },
+    {
+      "offset": 45442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3339280125,
+      "sizeOfData": 34,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_reference",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 174
+    },
+    {
+      "offset": 45556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3945815819,
+      "sizeOfData": 35,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_referenceA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 175
+    },
+    {
+      "offset": 45672,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3299321525,
+      "sizeOfData": 35,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_referenceW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 176
+    },
+    {
+      "offset": 45788,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4270361303,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_result",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 177
+    },
+    {
+      "offset": 45900,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3386218174,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_resultA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 178
+    },
+    {
+      "offset": 46012,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3583796860,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_resultW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 179
+    },
+    {
+      "offset": 46124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3239325159,
+      "sizeOfData": 37,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_sort_control",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 180
+    },
+    {
+      "offset": 46242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3829326554,
+      "sizeOfData": 38,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_sort_controlA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 181
+    },
+    {
+      "offset": 46360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3274663951,
+      "sizeOfData": 38,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_sort_controlW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 182
+    },
+    {
+      "offset": 46478,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4133710640,
+      "sizeOfData": 37,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_vlv_controlA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 322
+    },
+    {
+      "offset": 46596,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3232209728,
+      "sizeOfData": 37,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_parse_vlv_controlW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 321
+    },
+    {
+      "offset": 46714,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3771685455,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_perror",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 82
+    },
+    {
+      "offset": 46820,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4122687293,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_rename_ext",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 183
+    },
+    {
+      "offset": 46930,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4277113853,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_rename_extA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 184
+    },
+    {
+      "offset": 47040,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3651817207,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_rename_extW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 185
+    },
+    {
+      "offset": 47150,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3230364012,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_rename_ext_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 186
+    },
+    {
+      "offset": 47262,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3234275670,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_rename_ext_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 187
+    },
+    {
+      "offset": 47374,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4248321891,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_rename_ext_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 188
+    },
+    {
+      "offset": 47486,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3650442265,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_result",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 40
+    },
+    {
+      "offset": 47592,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4088906875,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_result2error",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 21
+    },
+    {
+      "offset": 47704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3452446359,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_sasl_bindA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 315
+    },
+    {
+      "offset": 47814,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3726483371,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_sasl_bindW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 313
+    },
+    {
+      "offset": 47924,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4080049783,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_sasl_bind_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 316
+    },
+    {
+      "offset": 48036,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3474912872,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_sasl_bind_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 314
+    },
+    {
+      "offset": 48148,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3899564247,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 43
+    },
+    {
+      "offset": 48254,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4050196304,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_searchA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 189
+    },
+    {
+      "offset": 48360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4115472398,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_searchW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 190
+    },
+    {
+      "offset": 48466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3713594695,
+      "sizeOfData": 38,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_abandon_page",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 191
+    },
+    {
+      "offset": 48584,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3440981552,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_ext",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 192
+    },
+    {
+      "offset": 48694,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3560605253,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_extA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 193
+    },
+    {
+      "offset": 48804,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3636545364,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_extW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 194
+    },
+    {
+      "offset": 48914,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3555999137,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_ext_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 195
+    },
+    {
+      "offset": 49026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3813573788,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_ext_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 196
+    },
+    {
+      "offset": 49138,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3818913543,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_ext_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 203
+    },
+    {
+      "offset": 49250,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4121745846,
+      "sizeOfData": 35,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_init_page",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 204
+    },
+    {
+      "offset": 49366,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4146267668,
+      "sizeOfData": 36,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_init_pageA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 205
+    },
+    {
+      "offset": 49482,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3481380034,
+      "sizeOfData": 36,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_init_pageW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 206
+    },
+    {
+      "offset": 49598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3816899973,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 50
+    },
+    {
+      "offset": 49706,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4139972264,
+      "sizeOfData": 28,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 207
+    },
+    {
+      "offset": 49814,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3930198024,
+      "sizeOfData": 28,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 208
+    },
+    {
+      "offset": 49922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3677402847,
+      "sizeOfData": 28,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_st",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 51
+    },
+    {
+      "offset": 50030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3938446072,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_stA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 209
+    },
+    {
+      "offset": 50140,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3286422114,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_search_stW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 210
+    },
+    {
+      "offset": 50250,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3914611647,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_set_dbg_flags",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 198
+    },
+    {
+      "offset": 50362,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3952778458,
+      "sizeOfData": 34,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_set_dbg_routine",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 199
+    },
+    {
+      "offset": 50476,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3784607332,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_set_option",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 211
+    },
+    {
+      "offset": 50586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3946748006,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_set_optionA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 212
+    },
+    {
+      "offset": 50696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3540465899,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_set_optionW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 14
+    },
+    {
+      "offset": 50806,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3778769570,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_simple_bind",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 59
+    },
+    {
+      "offset": 50916,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3622625025,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_simple_bindA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 213
+    },
+    {
+      "offset": 51028,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4081992208,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_simple_bindW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 214
+    },
+    {
+      "offset": 51140,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3662271342,
+      "sizeOfData": 32,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_simple_bind_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 60
+    },
+    {
+      "offset": 51252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3582197467,
+      "sizeOfData": 33,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_simple_bind_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 215
+    },
+    {
+      "offset": 51366,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3891042985,
+      "sizeOfData": 33,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_simple_bind_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 216
+    },
+    {
+      "offset": 51480,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3285869704,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_sslinit",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 217
+    },
+    {
+      "offset": 51586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3589695618,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_sslinitA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 218
+    },
+    {
+      "offset": 51694,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4211981930,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_sslinitW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 219
+    },
+    {
+      "offset": 51802,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3978411093,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_start_tls_sA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 330
+    },
+    {
+      "offset": 51914,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3306080774,
+      "sizeOfData": 31,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_start_tls_sW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 329
+    },
+    {
+      "offset": 52026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3497742668,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_startup",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 201
+    },
+    {
+      "offset": 52132,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3963167195,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_stop_tls_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 331
+    },
+    {
+      "offset": 52242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4048170215,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_ufn2dn",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 220
+    },
+    {
+      "offset": 52348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4028707995,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_ufn2dnA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 221
+    },
+    {
+      "offset": 52454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3585442577,
+      "sizeOfData": 26,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_ufn2dnW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 222
+    },
+    {
+      "offset": 52560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4037927848,
+      "sizeOfData": 25,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_unbind",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 13
+    },
+    {
+      "offset": 52666,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4163043125,
+      "sizeOfData": 27,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_unbind_s",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 46
+    },
+    {
+      "offset": 52774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3476534615,
+      "sizeOfData": 29,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_value_free",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 38
+    },
+    {
+      "offset": 52884,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3363341788,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_value_freeA",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 223
+    },
+    {
+      "offset": 52994,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4274078781,
+      "sizeOfData": 30,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_value_freeW",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 224
+    },
+    {
+      "offset": 53104,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3610722475,
+      "sizeOfData": 33,
+      "dllName": "WLDAP32.dll",
+      "symbolName": "_ldap_value_free_len",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 79
+    }
+  ]
+}

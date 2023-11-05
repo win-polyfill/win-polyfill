@@ -1,0 +1,1665 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_DhcpAcquireParameters@4"
+    },
+    {
+      "name": "_DhcpAcquireParametersByBroadcast@4"
+    },
+    {
+      "name": "_DhcpCApiCleanup@0"
+    },
+    {
+      "name": "_DhcpCApiInitialize@4"
+    },
+    {
+      "name": "_DhcpClient_Generalize@0"
+    },
+    {
+      "name": "_DhcpDeRegisterConnectionStateNotification@8"
+    },
+    {
+      "name": "_DhcpDeRegisterOptions@4"
+    },
+    {
+      "name": "_DhcpDeRegisterParamChange@12"
+    },
+    {
+      "name": "_DhcpDelPersistentRequestParams@8"
+    },
+    {
+      "name": "_DhcpEnableDhcp@8"
+    },
+    {
+      "name": "_DhcpEnableDhcpAdvanced@24"
+    },
+    {
+      "name": "_DhcpEnableTracing@4"
+    },
+    {
+      "name": "_DhcpEnumClasses@16"
+    },
+    {
+      "name": "_DhcpEnumInterfaces@4"
+    },
+    {
+      "name": "_DhcpFallbackRefreshParams@4"
+    },
+    {
+      "name": "_DhcpFreeEnumeratedInterfaces@4"
+    },
+    {
+      "name": "_DhcpFreeLeaseInfo@4"
+    },
+    {
+      "name": "_DhcpFreeLeaseInfoArray@8"
+    },
+    {
+      "name": "_DhcpFreeMem@4"
+    },
+    {
+      "name": "_DhcpGetClassId@8"
+    },
+    {
+      "name": "_DhcpGetClientId@8"
+    },
+    {
+      "name": "_DhcpGetDhcpServicedConnections@12"
+    },
+    {
+      "name": "_DhcpGetFallbackParams@8"
+    },
+    {
+      "name": "_DhcpGetNotificationStatus@8"
+    },
+    {
+      "name": "_DhcpGetOriginalSubnetMask@8"
+    },
+    {
+      "name": "_DhcpGetTraceArray@4"
+    },
+    {
+      "name": "_DhcpGlobalIsShuttingDown"
+    },
+    {
+      "name": "_DhcpGlobalServiceSyncEvent"
+    },
+    {
+      "name": "_DhcpGlobalTerminateEvent"
+    },
+    {
+      "name": "_DhcpHandlePnPEvent@20"
+    },
+    {
+      "name": "_DhcpIsEnabled@8"
+    },
+    {
+      "name": "_DhcpIsMeteredDetected@8"
+    },
+    {
+      "name": "_DhcpLeaseIpAddress@24"
+    },
+    {
+      "name": "_DhcpLeaseIpAddressEx@32"
+    },
+    {
+      "name": "_DhcpNotifyConfigChange@28"
+    },
+    {
+      "name": "_DhcpNotifyConfigChangeEx@32"
+    },
+    {
+      "name": "_DhcpNotifyMediaReconnected@4"
+    },
+    {
+      "name": "_DhcpOpenGlobalEvent@0"
+    },
+    {
+      "name": "_DhcpPersistentRequestParams@28"
+    },
+    {
+      "name": "_DhcpQueryLeaseInfo@8"
+    },
+    {
+      "name": "_DhcpQueryLeaseInfoArray@12"
+    },
+    {
+      "name": "_DhcpQueryLeaseInfoEx@12"
+    },
+    {
+      "name": "_DhcpRegisterConnectionStateNotification@12"
+    },
+    {
+      "name": "_DhcpRegisterOptions@16"
+    },
+    {
+      "name": "_DhcpRegisterParamChange@28"
+    },
+    {
+      "name": "_DhcpReleaseIpAddressLease@8"
+    },
+    {
+      "name": "_DhcpReleaseIpAddressLeaseEx@16"
+    },
+    {
+      "name": "_DhcpReleaseParameters@4"
+    },
+    {
+      "name": "_DhcpRemoveDNSRegistrations@0"
+    },
+    {
+      "name": "_DhcpRenewIpAddressLease@16"
+    },
+    {
+      "name": "_DhcpRenewIpAddressLeaseEx@24"
+    },
+    {
+      "name": "_DhcpRequestCachedParams@20"
+    },
+    {
+      "name": "_DhcpRequestOptions@28"
+    },
+    {
+      "name": "_DhcpRequestParams@44"
+    },
+    {
+      "name": "_DhcpSetClassId@8"
+    },
+    {
+      "name": "_DhcpSetClientId@8"
+    },
+    {
+      "name": "_DhcpSetFallbackParams@8"
+    },
+    {
+      "name": "_DhcpSetMSFTVendorSpecificOptions@24"
+    },
+    {
+      "name": "_DhcpStaticRefreshParams@4"
+    },
+    {
+      "name": "_DhcpUndoRequestParams@16"
+    },
+    {
+      "name": "_Dhcpv4CheckServerAvailability@8"
+    },
+    {
+      "name": "_Dhcpv4EnableDhcpEx@4"
+    },
+    {
+      "name": "_McastApiCleanup@0"
+    },
+    {
+      "name": "_McastApiStartup@4"
+    },
+    {
+      "name": "_McastEnumerateScopes@20"
+    },
+    {
+      "name": "_McastGenUID@4"
+    },
+    {
+      "name": "_McastReleaseAddress@12"
+    },
+    {
+      "name": "_McastRenewAddress@16"
+    },
+    {
+      "name": "_McastRequestAddress@20"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 9184,
+      "name": "__IMPORT_DESCRIPTOR_dhcpcsvc"
+    },
+    {
+      "offset": 9742,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 10054,
+      "name": "dhcpcsvc_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 14796,
+      "name": "_DhcpOpenGlobalEvent@0"
+    },
+    {
+      "offset": 14796,
+      "name": "__imp__DhcpOpenGlobalEvent@0"
+    },
+    {
+      "offset": 10394,
+      "name": "_DhcpAcquireParameters@4"
+    },
+    {
+      "offset": 10394,
+      "name": "__imp__DhcpAcquireParameters@4"
+    },
+    {
+      "offset": 10512,
+      "name": "_DhcpAcquireParametersByBroadcast@4"
+    },
+    {
+      "offset": 10512,
+      "name": "__imp__DhcpAcquireParametersByBroadcast@4"
+    },
+    {
+      "offset": 16020,
+      "name": "_DhcpReleaseParameters@4"
+    },
+    {
+      "offset": 16020,
+      "name": "__imp__DhcpReleaseParameters@4"
+    },
+    {
+      "offset": 14430,
+      "name": "_DhcpNotifyConfigChange@28"
+    },
+    {
+      "offset": 14430,
+      "name": "__imp__DhcpNotifyConfigChange@28"
+    },
+    {
+      "offset": 14550,
+      "name": "_DhcpNotifyConfigChangeEx@32"
+    },
+    {
+      "offset": 14550,
+      "name": "__imp__DhcpNotifyConfigChangeEx@32"
+    },
+    {
+      "offset": 16630,
+      "name": "_DhcpRequestOptions@28"
+    },
+    {
+      "offset": 16630,
+      "name": "__imp__DhcpRequestOptions@28"
+    },
+    {
+      "offset": 15532,
+      "name": "_DhcpRegisterOptions@16"
+    },
+    {
+      "offset": 15532,
+      "name": "__imp__DhcpRegisterOptions@16"
+    },
+    {
+      "offset": 11126,
+      "name": "_DhcpDeRegisterOptions@4"
+    },
+    {
+      "offset": 11126,
+      "name": "__imp__DhcpDeRegisterOptions@4"
+    },
+    {
+      "offset": 10754,
+      "name": "_DhcpCApiInitialize@4"
+    },
+    {
+      "offset": 10754,
+      "name": "__imp__DhcpCApiInitialize@4"
+    },
+    {
+      "offset": 10642,
+      "name": "_DhcpCApiCleanup@0"
+    },
+    {
+      "offset": 10642,
+      "name": "__imp__DhcpCApiCleanup@0"
+    },
+    {
+      "offset": 16746,
+      "name": "_DhcpRequestParams@44"
+    },
+    {
+      "offset": 16746,
+      "name": "__imp__DhcpRequestParams@44"
+    },
+    {
+      "offset": 17454,
+      "name": "_DhcpUndoRequestParams@16"
+    },
+    {
+      "offset": 17454,
+      "name": "__imp__DhcpUndoRequestParams@16"
+    },
+    {
+      "offset": 15650,
+      "name": "_DhcpRegisterParamChange@28"
+    },
+    {
+      "offset": 15650,
+      "name": "__imp__DhcpRegisterParamChange@28"
+    },
+    {
+      "offset": 11244,
+      "name": "_DhcpDeRegisterParamChange@12"
+    },
+    {
+      "offset": 11244,
+      "name": "__imp__DhcpDeRegisterParamChange@12"
+    },
+    {
+      "offset": 11368,
+      "name": "_DhcpDelPersistentRequestParams@8"
+    },
+    {
+      "offset": 11368,
+      "name": "__imp__DhcpDelPersistentRequestParams@8"
+    },
+    {
+      "offset": 17334,
+      "name": "_DhcpStaticRefreshParams@4"
+    },
+    {
+      "offset": 17334,
+      "name": "__imp__DhcpStaticRefreshParams@4"
+    },
+    {
+      "offset": 12072,
+      "name": "_DhcpFallbackRefreshParams@4"
+    },
+    {
+      "offset": 12072,
+      "name": "__imp__DhcpFallbackRefreshParams@4"
+    },
+    {
+      "offset": 16138,
+      "name": "_DhcpRemoveDNSRegistrations@0"
+    },
+    {
+      "offset": 16138,
+      "name": "__imp__DhcpRemoveDNSRegistrations@0"
+    },
+    {
+      "offset": 13254,
+      "name": "_DhcpGetOriginalSubnetMask@8"
+    },
+    {
+      "offset": 13254,
+      "name": "__imp__DhcpGetOriginalSubnetMask@8"
+    },
+    {
+      "offset": 11842,
+      "name": "_DhcpEnumClasses@16"
+    },
+    {
+      "offset": 11842,
+      "name": "__imp__DhcpEnumClasses@16"
+    },
+    {
+      "offset": 13852,
+      "name": "_DhcpHandlePnPEvent@20"
+    },
+    {
+      "offset": 13852,
+      "name": "__imp__DhcpHandlePnPEvent@20"
+    },
+    {
+      "offset": 11956,
+      "name": "_DhcpEnumInterfaces@4"
+    },
+    {
+      "offset": 11956,
+      "name": "__imp__DhcpEnumInterfaces@4"
+    },
+    {
+      "offset": 12194,
+      "name": "_DhcpFreeEnumeratedInterfaces@4"
+    },
+    {
+      "offset": 12194,
+      "name": "__imp__DhcpFreeEnumeratedInterfaces@4"
+    },
+    {
+      "offset": 11496,
+      "name": "_DhcpEnableDhcp@8"
+    },
+    {
+      "offset": 11496,
+      "name": "__imp__DhcpEnableDhcp@8"
+    },
+    {
+      "offset": 11608,
+      "name": "_DhcpEnableDhcpAdvanced@24"
+    },
+    {
+      "offset": 11608,
+      "name": "__imp__DhcpEnableDhcpAdvanced@24"
+    },
+    {
+      "offset": 13968,
+      "name": "_DhcpIsEnabled@8"
+    },
+    {
+      "offset": 13968,
+      "name": "__imp__DhcpIsEnabled@8"
+    },
+    {
+      "offset": 15038,
+      "name": "_DhcpQueryLeaseInfo@8"
+    },
+    {
+      "offset": 15038,
+      "name": "__imp__DhcpQueryLeaseInfo@8"
+    },
+    {
+      "offset": 15154,
+      "name": "_DhcpQueryLeaseInfoArray@12"
+    },
+    {
+      "offset": 15154,
+      "name": "__imp__DhcpQueryLeaseInfoArray@12"
+    },
+    {
+      "offset": 15276,
+      "name": "_DhcpQueryLeaseInfoEx@12"
+    },
+    {
+      "offset": 15276,
+      "name": "__imp__DhcpQueryLeaseInfoEx@12"
+    },
+    {
+      "offset": 12320,
+      "name": "_DhcpFreeLeaseInfo@4"
+    },
+    {
+      "offset": 12320,
+      "name": "__imp__DhcpFreeLeaseInfo@4"
+    },
+    {
+      "offset": 12434,
+      "name": "_DhcpFreeLeaseInfoArray@8"
+    },
+    {
+      "offset": 12434,
+      "name": "__imp__DhcpFreeLeaseInfoArray@8"
+    },
+    {
+      "offset": 16862,
+      "name": "_DhcpSetClassId@8"
+    },
+    {
+      "offset": 16862,
+      "name": "__imp__DhcpSetClassId@8"
+    },
+    {
+      "offset": 12662,
+      "name": "_DhcpGetClassId@8"
+    },
+    {
+      "offset": 12662,
+      "name": "__imp__DhcpGetClassId@8"
+    },
+    {
+      "offset": 16974,
+      "name": "_DhcpSetClientId@8"
+    },
+    {
+      "offset": 16974,
+      "name": "__imp__DhcpSetClientId@8"
+    },
+    {
+      "offset": 12774,
+      "name": "_DhcpGetClientId@8"
+    },
+    {
+      "offset": 12774,
+      "name": "__imp__DhcpGetClientId@8"
+    },
+    {
+      "offset": 17086,
+      "name": "_DhcpSetFallbackParams@8"
+    },
+    {
+      "offset": 17086,
+      "name": "__imp__DhcpSetFallbackParams@8"
+    },
+    {
+      "offset": 13014,
+      "name": "_DhcpGetFallbackParams@8"
+    },
+    {
+      "offset": 13014,
+      "name": "__imp__DhcpGetFallbackParams@8"
+    },
+    {
+      "offset": 14672,
+      "name": "_DhcpNotifyMediaReconnected@4"
+    },
+    {
+      "offset": 14672,
+      "name": "__imp__DhcpNotifyMediaReconnected@4"
+    },
+    {
+      "offset": 14912,
+      "name": "_DhcpPersistentRequestParams@28"
+    },
+    {
+      "offset": 14912,
+      "name": "__imp__DhcpPersistentRequestParams@28"
+    },
+    {
+      "offset": 17204,
+      "name": "_DhcpSetMSFTVendorSpecificOptions@24"
+    },
+    {
+      "offset": 17204,
+      "name": "__imp__DhcpSetMSFTVendorSpecificOptions@24"
+    },
+    {
+      "offset": 16508,
+      "name": "_DhcpRequestCachedParams@20"
+    },
+    {
+      "offset": 16508,
+      "name": "__imp__DhcpRequestCachedParams@20"
+    },
+    {
+      "offset": 15394,
+      "name": "_DhcpRegisterConnectionStateNotification@12"
+    },
+    {
+      "offset": 15394,
+      "name": "__imp__DhcpRegisterConnectionStateNotification@12"
+    },
+    {
+      "offset": 13132,
+      "name": "_DhcpGetNotificationStatus@8"
+    },
+    {
+      "offset": 13132,
+      "name": "__imp__DhcpGetNotificationStatus@8"
+    },
+    {
+      "offset": 10988,
+      "name": "_DhcpDeRegisterConnectionStateNotification@8"
+    },
+    {
+      "offset": 10988,
+      "name": "__imp__DhcpDeRegisterConnectionStateNotification@8"
+    },
+    {
+      "offset": 12886,
+      "name": "_DhcpGetDhcpServicedConnections@12"
+    },
+    {
+      "offset": 12886,
+      "name": "__imp__DhcpGetDhcpServicedConnections@12"
+    },
+    {
+      "offset": 12554,
+      "name": "_DhcpFreeMem@4"
+    },
+    {
+      "offset": 12554,
+      "name": "__imp__DhcpFreeMem@4"
+    },
+    {
+      "offset": 13490,
+      "name": "__imp__DhcpGlobalIsShuttingDown"
+    },
+    {
+      "offset": 13732,
+      "name": "__imp__DhcpGlobalTerminateEvent"
+    },
+    {
+      "offset": 13610,
+      "name": "__imp__DhcpGlobalServiceSyncEvent"
+    },
+    {
+      "offset": 13376,
+      "name": "_DhcpGetTraceArray@4"
+    },
+    {
+      "offset": 13376,
+      "name": "__imp__DhcpGetTraceArray@4"
+    },
+    {
+      "offset": 11728,
+      "name": "_DhcpEnableTracing@4"
+    },
+    {
+      "offset": 11728,
+      "name": "__imp__DhcpEnableTracing@4"
+    },
+    {
+      "offset": 10870,
+      "name": "_DhcpClient_Generalize@0"
+    },
+    {
+      "offset": 10870,
+      "name": "__imp__DhcpClient_Generalize@0"
+    },
+    {
+      "offset": 17700,
+      "name": "_Dhcpv4EnableDhcpEx@4"
+    },
+    {
+      "offset": 17700,
+      "name": "__imp__Dhcpv4EnableDhcpEx@4"
+    },
+    {
+      "offset": 17574,
+      "name": "_Dhcpv4CheckServerAvailability@8"
+    },
+    {
+      "offset": 17574,
+      "name": "__imp__Dhcpv4CheckServerAvailability@8"
+    },
+    {
+      "offset": 14078,
+      "name": "_DhcpIsMeteredDetected@8"
+    },
+    {
+      "offset": 14078,
+      "name": "__imp__DhcpIsMeteredDetected@8"
+    },
+    {
+      "offset": 14312,
+      "name": "_DhcpLeaseIpAddressEx@32"
+    },
+    {
+      "offset": 14312,
+      "name": "__imp__DhcpLeaseIpAddressEx@32"
+    },
+    {
+      "offset": 14196,
+      "name": "_DhcpLeaseIpAddress@24"
+    },
+    {
+      "offset": 14196,
+      "name": "__imp__DhcpLeaseIpAddress@24"
+    },
+    {
+      "offset": 16384,
+      "name": "_DhcpRenewIpAddressLeaseEx@24"
+    },
+    {
+      "offset": 16384,
+      "name": "__imp__DhcpRenewIpAddressLeaseEx@24"
+    },
+    {
+      "offset": 16262,
+      "name": "_DhcpRenewIpAddressLease@16"
+    },
+    {
+      "offset": 16262,
+      "name": "__imp__DhcpRenewIpAddressLease@16"
+    },
+    {
+      "offset": 15772,
+      "name": "_DhcpReleaseIpAddressLease@8"
+    },
+    {
+      "offset": 15772,
+      "name": "__imp__DhcpReleaseIpAddressLease@8"
+    },
+    {
+      "offset": 15894,
+      "name": "_DhcpReleaseIpAddressLeaseEx@16"
+    },
+    {
+      "offset": 15894,
+      "name": "__imp__DhcpReleaseIpAddressLeaseEx@16"
+    },
+    {
+      "offset": 17928,
+      "name": "_McastApiStartup@4"
+    },
+    {
+      "offset": 17928,
+      "name": "__imp__McastApiStartup@4"
+    },
+    {
+      "offset": 17816,
+      "name": "_McastApiCleanup@0"
+    },
+    {
+      "offset": 17816,
+      "name": "__imp__McastApiCleanup@0"
+    },
+    {
+      "offset": 18040,
+      "name": "_McastEnumerateScopes@20"
+    },
+    {
+      "offset": 18040,
+      "name": "__imp__McastEnumerateScopes@20"
+    },
+    {
+      "offset": 18158,
+      "name": "_McastGenUID@4"
+    },
+    {
+      "offset": 18158,
+      "name": "__imp__McastGenUID@4"
+    },
+    {
+      "offset": 18500,
+      "name": "_McastRequestAddress@20"
+    },
+    {
+      "offset": 18500,
+      "name": "__imp__McastRequestAddress@20"
+    },
+    {
+      "offset": 18384,
+      "name": "_McastRenewAddress@16"
+    },
+    {
+      "offset": 18384,
+      "name": "__imp__McastRenewAddress@16"
+    },
+    {
+      "offset": 18266,
+      "name": "_McastReleaseAddress@12"
+    },
+    {
+      "offset": 18266,
+      "name": "__imp__McastReleaseAddress@12"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 10394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4031141711,
+      "sizeOfData": 38,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpAcquireParameters@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "DhcpAcquireParameters"
+    },
+    {
+      "offset": 10512,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3354776158,
+      "sizeOfData": 49,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpAcquireParametersByBroadcast@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "DhcpAcquireParametersByBroadcast"
+    },
+    {
+      "offset": 10642,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3490483972,
+      "sizeOfData": 32,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpCApiCleanup@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "DhcpCApiCleanup"
+    },
+    {
+      "offset": 10754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4016581357,
+      "sizeOfData": 35,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpCApiInitialize@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "DhcpCApiInitialize"
+    },
+    {
+      "offset": 10870,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3552364905,
+      "sizeOfData": 38,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpClient_Generalize@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "DhcpClient_Generalize"
+    },
+    {
+      "offset": 10988,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4162712114,
+      "sizeOfData": 58,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpDeRegisterConnectionStateNotification@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "DhcpDeRegisterConnectionStateNotification"
+    },
+    {
+      "offset": 11126,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3435164774,
+      "sizeOfData": 38,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpDeRegisterOptions@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "DhcpDeRegisterOptions"
+    },
+    {
+      "offset": 11244,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4076812787,
+      "sizeOfData": 43,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpDeRegisterParamChange@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "DhcpDeRegisterParamChange"
+    },
+    {
+      "offset": 11368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3604131608,
+      "sizeOfData": 47,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpDelPersistentRequestParams@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "DhcpDelPersistentRequestParams"
+    },
+    {
+      "offset": 11496,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3296511419,
+      "sizeOfData": 31,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpEnableDhcp@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "DhcpEnableDhcp"
+    },
+    {
+      "offset": 11608,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4116541714,
+      "sizeOfData": 40,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpEnableDhcpAdvanced@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "DhcpEnableDhcpAdvanced"
+    },
+    {
+      "offset": 11728,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3904829098,
+      "sizeOfData": 34,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpEnableTracing@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "DhcpEnableTracing"
+    },
+    {
+      "offset": 11842,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3982241407,
+      "sizeOfData": 33,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpEnumClasses@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "DhcpEnumClasses"
+    },
+    {
+      "offset": 11956,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4266459797,
+      "sizeOfData": 35,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpEnumInterfaces@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "DhcpEnumInterfaces"
+    },
+    {
+      "offset": 12072,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4286625251,
+      "sizeOfData": 42,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpFallbackRefreshParams@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "DhcpFallbackRefreshParams"
+    },
+    {
+      "offset": 12194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4118666804,
+      "sizeOfData": 45,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpFreeEnumeratedInterfaces@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "DhcpFreeEnumeratedInterfaces"
+    },
+    {
+      "offset": 12320,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4161042453,
+      "sizeOfData": 34,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpFreeLeaseInfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "DhcpFreeLeaseInfo"
+    },
+    {
+      "offset": 12434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3501973751,
+      "sizeOfData": 39,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpFreeLeaseInfoArray@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "DhcpFreeLeaseInfoArray"
+    },
+    {
+      "offset": 12554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3421389241,
+      "sizeOfData": 28,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpFreeMem@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "DhcpFreeMem"
+    },
+    {
+      "offset": 12662,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3885289841,
+      "sizeOfData": 31,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpGetClassId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "DhcpGetClassId"
+    },
+    {
+      "offset": 12774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3755867113,
+      "sizeOfData": 32,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpGetClientId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "DhcpGetClientId"
+    },
+    {
+      "offset": 12886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3823464572,
+      "sizeOfData": 48,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpGetDhcpServicedConnections@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "DhcpGetDhcpServicedConnections"
+    },
+    {
+      "offset": 13014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3850976112,
+      "sizeOfData": 38,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpGetFallbackParams@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "DhcpGetFallbackParams"
+    },
+    {
+      "offset": 13132,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4036925008,
+      "sizeOfData": 42,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpGetNotificationStatus@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "DhcpGetNotificationStatus"
+    },
+    {
+      "offset": 13254,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3983358206,
+      "sizeOfData": 42,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpGetOriginalSubnetMask@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "DhcpGetOriginalSubnetMask"
+    },
+    {
+      "offset": 13376,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3996581794,
+      "sizeOfData": 34,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpGetTraceArray@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "DhcpGetTraceArray"
+    },
+    {
+      "offset": 13490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3315728904,
+      "sizeOfData": 39,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpGlobalIsShuttingDown",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 26,
+      "name": "DhcpGlobalIsShuttingDown"
+    },
+    {
+      "offset": 13610,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4170993774,
+      "sizeOfData": 41,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpGlobalServiceSyncEvent",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 27,
+      "name": "DhcpGlobalServiceSyncEvent"
+    },
+    {
+      "offset": 13732,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3506563302,
+      "sizeOfData": 39,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpGlobalTerminateEvent",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 28,
+      "name": "DhcpGlobalTerminateEvent"
+    },
+    {
+      "offset": 13852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3818889116,
+      "sizeOfData": 36,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpHandlePnPEvent@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "DhcpHandlePnPEvent"
+    },
+    {
+      "offset": 13968,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4276621303,
+      "sizeOfData": 30,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpIsEnabled@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "DhcpIsEnabled"
+    },
+    {
+      "offset": 14078,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3801922425,
+      "sizeOfData": 38,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpIsMeteredDetected@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "DhcpIsMeteredDetected"
+    },
+    {
+      "offset": 14196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4062978219,
+      "sizeOfData": 36,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpLeaseIpAddress@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "DhcpLeaseIpAddress"
+    },
+    {
+      "offset": 14312,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3975219606,
+      "sizeOfData": 38,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpLeaseIpAddressEx@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "DhcpLeaseIpAddressEx"
+    },
+    {
+      "offset": 14430,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3608809843,
+      "sizeOfData": 40,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpNotifyConfigChange@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "DhcpNotifyConfigChange"
+    },
+    {
+      "offset": 14550,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4018531169,
+      "sizeOfData": 42,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpNotifyConfigChangeEx@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "DhcpNotifyConfigChangeEx"
+    },
+    {
+      "offset": 14672,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4172576584,
+      "sizeOfData": 43,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpNotifyMediaReconnected@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "DhcpNotifyMediaReconnected"
+    },
+    {
+      "offset": 14796,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3641879041,
+      "sizeOfData": 36,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpOpenGlobalEvent@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "DhcpOpenGlobalEvent"
+    },
+    {
+      "offset": 14912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4045944225,
+      "sizeOfData": 45,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpPersistentRequestParams@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "DhcpPersistentRequestParams"
+    },
+    {
+      "offset": 15038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4177495879,
+      "sizeOfData": 35,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpQueryLeaseInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "DhcpQueryLeaseInfo"
+    },
+    {
+      "offset": 15154,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3223452882,
+      "sizeOfData": 41,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpQueryLeaseInfoArray@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "DhcpQueryLeaseInfoArray"
+    },
+    {
+      "offset": 15276,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3320628022,
+      "sizeOfData": 38,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpQueryLeaseInfoEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "DhcpQueryLeaseInfoEx"
+    },
+    {
+      "offset": 15394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3535032673,
+      "sizeOfData": 57,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpRegisterConnectionStateNotification@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "DhcpRegisterConnectionStateNotification"
+    },
+    {
+      "offset": 15532,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3732970179,
+      "sizeOfData": 37,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpRegisterOptions@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "DhcpRegisterOptions"
+    },
+    {
+      "offset": 15650,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4131020990,
+      "sizeOfData": 41,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpRegisterParamChange@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "DhcpRegisterParamChange"
+    },
+    {
+      "offset": 15772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3390289733,
+      "sizeOfData": 42,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpReleaseIpAddressLease@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "DhcpReleaseIpAddressLease"
+    },
+    {
+      "offset": 15894,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3685799519,
+      "sizeOfData": 45,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpReleaseIpAddressLeaseEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "DhcpReleaseIpAddressLeaseEx"
+    },
+    {
+      "offset": 16020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3486550914,
+      "sizeOfData": 38,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpReleaseParameters@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "DhcpReleaseParameters"
+    },
+    {
+      "offset": 16138,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4279371332,
+      "sizeOfData": 43,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpRemoveDNSRegistrations@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "DhcpRemoveDNSRegistrations"
+    },
+    {
+      "offset": 16262,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4187080295,
+      "sizeOfData": 41,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpRenewIpAddressLease@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "DhcpRenewIpAddressLease"
+    },
+    {
+      "offset": 16384,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4262555507,
+      "sizeOfData": 43,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpRenewIpAddressLeaseEx@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "DhcpRenewIpAddressLeaseEx"
+    },
+    {
+      "offset": 16508,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3302330736,
+      "sizeOfData": 41,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpRequestCachedParams@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "DhcpRequestCachedParams"
+    },
+    {
+      "offset": 16630,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4177303703,
+      "sizeOfData": 36,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpRequestOptions@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "DhcpRequestOptions"
+    },
+    {
+      "offset": 16746,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3448565956,
+      "sizeOfData": 35,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpRequestParams@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "DhcpRequestParams"
+    },
+    {
+      "offset": 16862,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3536630719,
+      "sizeOfData": 31,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpSetClassId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "DhcpSetClassId"
+    },
+    {
+      "offset": 16974,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3569758431,
+      "sizeOfData": 32,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpSetClientId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "DhcpSetClientId"
+    },
+    {
+      "offset": 17086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3728248045,
+      "sizeOfData": 38,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpSetFallbackParams@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "DhcpSetFallbackParams"
+    },
+    {
+      "offset": 17204,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3694989625,
+      "sizeOfData": 50,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpSetMSFTVendorSpecificOptions@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "DhcpSetMSFTVendorSpecificOptions"
+    },
+    {
+      "offset": 17334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3596127022,
+      "sizeOfData": 40,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpStaticRefreshParams@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "DhcpStaticRefreshParams"
+    },
+    {
+      "offset": 17454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3685497719,
+      "sizeOfData": 39,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_DhcpUndoRequestParams@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "DhcpUndoRequestParams"
+    },
+    {
+      "offset": 17574,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3811286206,
+      "sizeOfData": 46,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_Dhcpv4CheckServerAvailability@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "Dhcpv4CheckServerAvailability"
+    },
+    {
+      "offset": 17700,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3980333469,
+      "sizeOfData": 35,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_Dhcpv4EnableDhcpEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "Dhcpv4EnableDhcpEx"
+    },
+    {
+      "offset": 17816,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3532177868,
+      "sizeOfData": 32,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_McastApiCleanup@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "McastApiCleanup"
+    },
+    {
+      "offset": 17928,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3533111949,
+      "sizeOfData": 32,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_McastApiStartup@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "McastApiStartup"
+    },
+    {
+      "offset": 18040,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4241900282,
+      "sizeOfData": 38,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_McastEnumerateScopes@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "McastEnumerateScopes"
+    },
+    {
+      "offset": 18158,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3555547626,
+      "sizeOfData": 28,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_McastGenUID@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "McastGenUID"
+    },
+    {
+      "offset": 18266,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3268629885,
+      "sizeOfData": 37,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_McastReleaseAddress@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "McastReleaseAddress"
+    },
+    {
+      "offset": 18384,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4148914105,
+      "sizeOfData": 35,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_McastRenewAddress@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "McastRenewAddress"
+    },
+    {
+      "offset": 18500,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4150812702,
+      "sizeOfData": 37,
+      "dllName": "dhcpcsvc.DLL",
+      "symbolName": "_McastRequestAddress@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "McastRequestAddress"
+    }
+  ]
+}

@@ -1,0 +1,4581 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_WICSetEncoderFormat_Proxy@16"
+    },
+    {
+      "name": "_WICSerializeMetadataContent@16"
+    },
+    {
+      "name": "_WICMatchMetadataContent@16"
+    },
+    {
+      "name": "_WICMapShortNameToGuid@8"
+    },
+    {
+      "name": "_WICMapSchemaToName@20"
+    },
+    {
+      "name": "_WICMapGuidToShortName@16"
+    },
+    {
+      "name": "_WICGetMetadataContentSize@12"
+    },
+    {
+      "name": "_WICCreateImagingFactory_Proxy@8"
+    },
+    {
+      "name": "_WICCreateColorContext_Proxy@8"
+    },
+    {
+      "name": "_WICCreateBitmapFromSectionEx@32"
+    },
+    {
+      "name": "_WICCreateBitmapFromSection@28"
+    },
+    {
+      "name": "_WICConvertBitmapSource@12"
+    },
+    {
+      "name": "_IWICStream_InitializeFromMemory_Proxy@12"
+    },
+    {
+      "name": "_IWICStream_InitializeFromIStream_Proxy@8"
+    },
+    {
+      "name": "_IWICPixelFormatInfo_GetChannelMask_Proxy@20"
+    },
+    {
+      "name": "_IWICPixelFormatInfo_GetChannelCount_Proxy@8"
+    },
+    {
+      "name": "_IWICPixelFormatInfo_GetBitsPerPixel_Proxy@8"
+    },
+    {
+      "name": "_IWICPalette_InitializePredefined_Proxy@12"
+    },
+    {
+      "name": "_IWICPalette_InitializeFromPalette_Proxy@8"
+    },
+    {
+      "name": "_IWICPalette_InitializeFromBitmap_Proxy@16"
+    },
+    {
+      "name": "_IWICPalette_InitializeCustom_Proxy@12"
+    },
+    {
+      "name": "_IWICPalette_HasAlpha_Proxy@8"
+    },
+    {
+      "name": "_IWICPalette_GetType_Proxy@8"
+    },
+    {
+      "name": "_IWICPalette_GetColors_Proxy@16"
+    },
+    {
+      "name": "_IWICPalette_GetColorCount_Proxy@8"
+    },
+    {
+      "name": "_IWICMetadataQueryWriter_SetMetadataByName_Proxy@12"
+    },
+    {
+      "name": "_IWICMetadataQueryWriter_RemoveMetadataByName_Proxy@8"
+    },
+    {
+      "name": "_IWICMetadataQueryReader_GetMetadataByName_Proxy@12"
+    },
+    {
+      "name": "_IWICMetadataQueryReader_GetLocation_Proxy@16"
+    },
+    {
+      "name": "_IWICMetadataQueryReader_GetEnumerator_Proxy@8"
+    },
+    {
+      "name": "_IWICMetadataQueryReader_GetContainerFormat_Proxy@8"
+    },
+    {
+      "name": "_IWICMetadataBlockReader_GetReaderByIndex_Proxy@12"
+    },
+    {
+      "name": "_IWICMetadataBlockReader_GetCount_Proxy@8"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateStream_Proxy@8"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateQueryWriter_Proxy@16"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateQueryWriterFromReader_Proxy@16"
+    },
+    {
+      "name": "_IWICImagingFactory_CreatePalette_Proxy@8"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateFormatConverter_Proxy@8"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateFastMetadataEncoderFromFrameDecode_Proxy@12"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateFastMetadataEncoderFromDecoder_Proxy@12"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateEncoder_Proxy@16"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateDecoderFromStream_Proxy@20"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateDecoderFromFilename_Proxy@24"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateDecoderFromFileHandle_Proxy@20"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateComponentInfo_Proxy@12"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateBitmap_Proxy@24"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateBitmapScaler_Proxy@8"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateBitmapFromSource_Proxy@16"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateBitmapFromMemory_Proxy@32"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateBitmapFromHICON_Proxy@12"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateBitmapFromHBITMAP_Proxy@20"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateBitmapFlipRotator_Proxy@8"
+    },
+    {
+      "name": "_IWICImagingFactory_CreateBitmapClipper_Proxy@8"
+    },
+    {
+      "name": "_IWICFormatConverter_Initialize_Proxy@32"
+    },
+    {
+      "name": "_IWICFastMetadataEncoder_GetMetadataQueryWriter_Proxy@8"
+    },
+    {
+      "name": "_IWICFastMetadataEncoder_Commit_Proxy@4"
+    },
+    {
+      "name": "_IWICComponentInfo_GetVersion_Proxy@16"
+    },
+    {
+      "name": "_IWICComponentInfo_GetSpecVersion_Proxy@16"
+    },
+    {
+      "name": "_IWICComponentInfo_GetFriendlyName_Proxy@16"
+    },
+    {
+      "name": "_IWICComponentInfo_GetCLSID_Proxy@8"
+    },
+    {
+      "name": "_IWICComponentInfo_GetAuthor_Proxy@16"
+    },
+    {
+      "name": "_IWICComponentFactory_CreateQueryWriterFromBlockWriter_Proxy@12"
+    },
+    {
+      "name": "_IWICComponentFactory_CreateMetadataWriterFromReader_Proxy@16"
+    },
+    {
+      "name": "_IWICColorContext_InitializeFromMemory_Proxy@12"
+    },
+    {
+      "name": "_IWICBitmap_SetResolution_Proxy@20"
+    },
+    {
+      "name": "_IWICBitmap_SetPalette_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmap_Lock_Proxy@16"
+    },
+    {
+      "name": "_IWICBitmapSource_GetSize_Proxy@12"
+    },
+    {
+      "name": "_IWICBitmapSource_GetResolution_Proxy@12"
+    },
+    {
+      "name": "_IWICBitmapSource_GetPixelFormat_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapSource_CopyPixels_Proxy@20"
+    },
+    {
+      "name": "_IWICBitmapSource_CopyPalette_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapScaler_Initialize_Proxy@20"
+    },
+    {
+      "name": "_IWICBitmapLock_GetStride_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapLock_GetDataPointer_STA_Proxy@12"
+    },
+    {
+      "name": "_IWICBitmapFrameEncode_WriteSource_Proxy@12"
+    },
+    {
+      "name": "_IWICBitmapFrameEncode_SetThumbnail_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapFrameEncode_SetSize_Proxy@12"
+    },
+    {
+      "name": "_IWICBitmapFrameEncode_SetResolution_Proxy@20"
+    },
+    {
+      "name": "_IWICBitmapFrameEncode_SetColorContexts_Proxy@12"
+    },
+    {
+      "name": "_IWICBitmapFrameEncode_Initialize_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapFrameEncode_GetMetadataQueryWriter_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapFrameEncode_Commit_Proxy@4"
+    },
+    {
+      "name": "_IWICBitmapFrameDecode_GetThumbnail_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapFrameDecode_GetMetadataQueryReader_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapFrameDecode_GetColorContexts_Proxy@16"
+    },
+    {
+      "name": "_IWICBitmapFlipRotator_Initialize_Proxy@12"
+    },
+    {
+      "name": "_IWICBitmapEncoder_SetThumbnail_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapEncoder_SetPalette_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapEncoder_Initialize_Proxy@12"
+    },
+    {
+      "name": "_IWICBitmapEncoder_GetMetadataQueryWriter_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapEncoder_GetEncoderInfo_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapEncoder_CreateNewFrame_Proxy@12"
+    },
+    {
+      "name": "_IWICBitmapEncoder_Commit_Proxy@4"
+    },
+    {
+      "name": "_IWICBitmapDecoder_GetThumbnail_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapDecoder_GetPreview_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapDecoder_GetMetadataQueryReader_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapDecoder_GetFrame_Proxy@12"
+    },
+    {
+      "name": "_IWICBitmapDecoder_GetFrameCount_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapDecoder_GetDecoderInfo_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapDecoder_GetColorContexts_Proxy@16"
+    },
+    {
+      "name": "_IWICBitmapDecoder_CopyPalette_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapCodecInfo_GetMimeTypes_Proxy@16"
+    },
+    {
+      "name": "_IWICBitmapCodecInfo_GetFileExtensions_Proxy@16"
+    },
+    {
+      "name": "_IWICBitmapCodecInfo_GetDeviceModels_Proxy@16"
+    },
+    {
+      "name": "_IWICBitmapCodecInfo_GetDeviceManufacturer_Proxy@16"
+    },
+    {
+      "name": "_IWICBitmapCodecInfo_GetContainerFormat_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapCodecInfo_DoesSupportMultiframe_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapCodecInfo_DoesSupportLossless_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapCodecInfo_DoesSupportAnimation_Proxy@8"
+    },
+    {
+      "name": "_IWICBitmapClipper_Initialize_Proxy@12"
+    },
+    {
+      "name": "_IPropertyBag2_Write_Proxy@16"
+    },
+    {
+      "name": "_IEnumString_Reset_WIC_Proxy@4"
+    },
+    {
+      "name": "_IEnumString_Next_WIC_Proxy@16"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 52970,
+      "name": "_WICSetEncoderFormat_Proxy@16"
+    },
+    {
+      "offset": 52970,
+      "name": "__imp__WICSetEncoderFormat_Proxy@16"
+    },
+    {
+      "offset": 53098,
+      "name": "_WICSerializeMetadataContent@16"
+    },
+    {
+      "offset": 53098,
+      "name": "__imp__WICSerializeMetadataContent@16"
+    },
+    {
+      "offset": 53228,
+      "name": "_WICMatchMetadataContent@16"
+    },
+    {
+      "offset": 53228,
+      "name": "__imp__WICMatchMetadataContent@16"
+    },
+    {
+      "offset": 53354,
+      "name": "_WICMapShortNameToGuid@8"
+    },
+    {
+      "offset": 53354,
+      "name": "__imp__WICMapShortNameToGuid@8"
+    },
+    {
+      "offset": 53478,
+      "name": "_WICMapSchemaToName@20"
+    },
+    {
+      "offset": 53478,
+      "name": "__imp__WICMapSchemaToName@20"
+    },
+    {
+      "offset": 53600,
+      "name": "_WICMapGuidToShortName@16"
+    },
+    {
+      "offset": 53600,
+      "name": "__imp__WICMapGuidToShortName@16"
+    },
+    {
+      "offset": 53724,
+      "name": "_WICGetMetadataContentSize@12"
+    },
+    {
+      "offset": 53724,
+      "name": "__imp__WICGetMetadataContentSize@12"
+    },
+    {
+      "offset": 53852,
+      "name": "_WICCreateImagingFactory_Proxy@8"
+    },
+    {
+      "offset": 53852,
+      "name": "__imp__WICCreateImagingFactory_Proxy@8"
+    },
+    {
+      "offset": 53984,
+      "name": "_WICCreateColorContext_Proxy@8"
+    },
+    {
+      "offset": 53984,
+      "name": "__imp__WICCreateColorContext_Proxy@8"
+    },
+    {
+      "offset": 54114,
+      "name": "_WICCreateBitmapFromSectionEx@32"
+    },
+    {
+      "offset": 54114,
+      "name": "__imp__WICCreateBitmapFromSectionEx@32"
+    },
+    {
+      "offset": 54246,
+      "name": "_WICCreateBitmapFromSection@28"
+    },
+    {
+      "offset": 54246,
+      "name": "__imp__WICCreateBitmapFromSection@28"
+    },
+    {
+      "offset": 54376,
+      "name": "_WICConvertBitmapSource@12"
+    },
+    {
+      "offset": 54376,
+      "name": "__imp__WICConvertBitmapSource@12"
+    },
+    {
+      "offset": 54502,
+      "name": "_IWICStream_InitializeFromMemory_Proxy@12"
+    },
+    {
+      "offset": 54502,
+      "name": "__imp__IWICStream_InitializeFromMemory_Proxy@12"
+    },
+    {
+      "offset": 54642,
+      "name": "_IWICStream_InitializeFromIStream_Proxy@8"
+    },
+    {
+      "offset": 54642,
+      "name": "__imp__IWICStream_InitializeFromIStream_Proxy@8"
+    },
+    {
+      "offset": 54782,
+      "name": "_IWICPixelFormatInfo_GetChannelMask_Proxy@20"
+    },
+    {
+      "offset": 54782,
+      "name": "__imp__IWICPixelFormatInfo_GetChannelMask_Proxy@20"
+    },
+    {
+      "offset": 54926,
+      "name": "_IWICPixelFormatInfo_GetChannelCount_Proxy@8"
+    },
+    {
+      "offset": 54926,
+      "name": "__imp__IWICPixelFormatInfo_GetChannelCount_Proxy@8"
+    },
+    {
+      "offset": 55070,
+      "name": "_IWICPixelFormatInfo_GetBitsPerPixel_Proxy@8"
+    },
+    {
+      "offset": 55070,
+      "name": "__imp__IWICPixelFormatInfo_GetBitsPerPixel_Proxy@8"
+    },
+    {
+      "offset": 55214,
+      "name": "_IWICPalette_InitializePredefined_Proxy@12"
+    },
+    {
+      "offset": 55214,
+      "name": "__imp__IWICPalette_InitializePredefined_Proxy@12"
+    },
+    {
+      "offset": 55356,
+      "name": "_IWICPalette_InitializeFromPalette_Proxy@8"
+    },
+    {
+      "offset": 55356,
+      "name": "__imp__IWICPalette_InitializeFromPalette_Proxy@8"
+    },
+    {
+      "offset": 55498,
+      "name": "_IWICPalette_InitializeFromBitmap_Proxy@16"
+    },
+    {
+      "offset": 55498,
+      "name": "__imp__IWICPalette_InitializeFromBitmap_Proxy@16"
+    },
+    {
+      "offset": 55640,
+      "name": "_IWICPalette_InitializeCustom_Proxy@12"
+    },
+    {
+      "offset": 55640,
+      "name": "__imp__IWICPalette_InitializeCustom_Proxy@12"
+    },
+    {
+      "offset": 55778,
+      "name": "_IWICPalette_HasAlpha_Proxy@8"
+    },
+    {
+      "offset": 55778,
+      "name": "__imp__IWICPalette_HasAlpha_Proxy@8"
+    },
+    {
+      "offset": 55906,
+      "name": "_IWICPalette_GetType_Proxy@8"
+    },
+    {
+      "offset": 55906,
+      "name": "__imp__IWICPalette_GetType_Proxy@8"
+    },
+    {
+      "offset": 56034,
+      "name": "_IWICPalette_GetColors_Proxy@16"
+    },
+    {
+      "offset": 56034,
+      "name": "__imp__IWICPalette_GetColors_Proxy@16"
+    },
+    {
+      "offset": 56164,
+      "name": "_IWICPalette_GetColorCount_Proxy@8"
+    },
+    {
+      "offset": 56164,
+      "name": "__imp__IWICPalette_GetColorCount_Proxy@8"
+    },
+    {
+      "offset": 56298,
+      "name": "_IWICMetadataQueryWriter_SetMetadataByName_Proxy@12"
+    },
+    {
+      "offset": 56298,
+      "name": "__imp__IWICMetadataQueryWriter_SetMetadataByName_Proxy@12"
+    },
+    {
+      "offset": 56448,
+      "name": "_IWICMetadataQueryWriter_RemoveMetadataByName_Proxy@8"
+    },
+    {
+      "offset": 56448,
+      "name": "__imp__IWICMetadataQueryWriter_RemoveMetadataByName_Proxy@8"
+    },
+    {
+      "offset": 56600,
+      "name": "_IWICMetadataQueryReader_GetMetadataByName_Proxy@12"
+    },
+    {
+      "offset": 56600,
+      "name": "__imp__IWICMetadataQueryReader_GetMetadataByName_Proxy@12"
+    },
+    {
+      "offset": 56750,
+      "name": "_IWICMetadataQueryReader_GetLocation_Proxy@16"
+    },
+    {
+      "offset": 56750,
+      "name": "__imp__IWICMetadataQueryReader_GetLocation_Proxy@16"
+    },
+    {
+      "offset": 56894,
+      "name": "_IWICMetadataQueryReader_GetEnumerator_Proxy@8"
+    },
+    {
+      "offset": 56894,
+      "name": "__imp__IWICMetadataQueryReader_GetEnumerator_Proxy@8"
+    },
+    {
+      "offset": 57040,
+      "name": "_IWICMetadataQueryReader_GetContainerFormat_Proxy@8"
+    },
+    {
+      "offset": 57040,
+      "name": "__imp__IWICMetadataQueryReader_GetContainerFormat_Proxy@8"
+    },
+    {
+      "offset": 57190,
+      "name": "_IWICMetadataBlockReader_GetReaderByIndex_Proxy@12"
+    },
+    {
+      "offset": 57190,
+      "name": "__imp__IWICMetadataBlockReader_GetReaderByIndex_Proxy@12"
+    },
+    {
+      "offset": 57340,
+      "name": "_IWICMetadataBlockReader_GetCount_Proxy@8"
+    },
+    {
+      "offset": 57340,
+      "name": "__imp__IWICMetadataBlockReader_GetCount_Proxy@8"
+    },
+    {
+      "offset": 57480,
+      "name": "_IWICImagingFactory_CreateStream_Proxy@8"
+    },
+    {
+      "offset": 57480,
+      "name": "__imp__IWICImagingFactory_CreateStream_Proxy@8"
+    },
+    {
+      "offset": 57620,
+      "name": "_IWICImagingFactory_CreateQueryWriter_Proxy@16"
+    },
+    {
+      "offset": 57620,
+      "name": "__imp__IWICImagingFactory_CreateQueryWriter_Proxy@16"
+    },
+    {
+      "offset": 57766,
+      "name": "_IWICImagingFactory_CreateQueryWriterFromReader_Proxy@16"
+    },
+    {
+      "offset": 57766,
+      "name": "__imp__IWICImagingFactory_CreateQueryWriterFromReader_Proxy@16"
+    },
+    {
+      "offset": 57922,
+      "name": "_IWICImagingFactory_CreatePalette_Proxy@8"
+    },
+    {
+      "offset": 57922,
+      "name": "__imp__IWICImagingFactory_CreatePalette_Proxy@8"
+    },
+    {
+      "offset": 58062,
+      "name": "_IWICImagingFactory_CreateFormatConverter_Proxy@8"
+    },
+    {
+      "offset": 58062,
+      "name": "__imp__IWICImagingFactory_CreateFormatConverter_Proxy@8"
+    },
+    {
+      "offset": 58210,
+      "name": "_IWICImagingFactory_CreateFastMetadataEncoderFromFrameDecode_Proxy@12"
+    },
+    {
+      "offset": 58210,
+      "name": "__imp__IWICImagingFactory_CreateFastMetadataEncoderFromFrameDecode_Proxy@12"
+    },
+    {
+      "offset": 58378,
+      "name": "_IWICImagingFactory_CreateFastMetadataEncoderFromDecoder_Proxy@12"
+    },
+    {
+      "offset": 58378,
+      "name": "__imp__IWICImagingFactory_CreateFastMetadataEncoderFromDecoder_Proxy@12"
+    },
+    {
+      "offset": 58542,
+      "name": "_IWICImagingFactory_CreateEncoder_Proxy@16"
+    },
+    {
+      "offset": 58542,
+      "name": "__imp__IWICImagingFactory_CreateEncoder_Proxy@16"
+    },
+    {
+      "offset": 58684,
+      "name": "_IWICImagingFactory_CreateDecoderFromStream_Proxy@20"
+    },
+    {
+      "offset": 58684,
+      "name": "__imp__IWICImagingFactory_CreateDecoderFromStream_Proxy@20"
+    },
+    {
+      "offset": 58836,
+      "name": "_IWICImagingFactory_CreateDecoderFromFilename_Proxy@24"
+    },
+    {
+      "offset": 58836,
+      "name": "__imp__IWICImagingFactory_CreateDecoderFromFilename_Proxy@24"
+    },
+    {
+      "offset": 58990,
+      "name": "_IWICImagingFactory_CreateDecoderFromFileHandle_Proxy@20"
+    },
+    {
+      "offset": 58990,
+      "name": "__imp__IWICImagingFactory_CreateDecoderFromFileHandle_Proxy@20"
+    },
+    {
+      "offset": 59146,
+      "name": "_IWICImagingFactory_CreateComponentInfo_Proxy@12"
+    },
+    {
+      "offset": 59146,
+      "name": "__imp__IWICImagingFactory_CreateComponentInfo_Proxy@12"
+    },
+    {
+      "offset": 59294,
+      "name": "_IWICImagingFactory_CreateBitmap_Proxy@24"
+    },
+    {
+      "offset": 59294,
+      "name": "__imp__IWICImagingFactory_CreateBitmap_Proxy@24"
+    },
+    {
+      "offset": 59434,
+      "name": "_IWICImagingFactory_CreateBitmapScaler_Proxy@8"
+    },
+    {
+      "offset": 59434,
+      "name": "__imp__IWICImagingFactory_CreateBitmapScaler_Proxy@8"
+    },
+    {
+      "offset": 59580,
+      "name": "_IWICImagingFactory_CreateBitmapFromSource_Proxy@16"
+    },
+    {
+      "offset": 59580,
+      "name": "__imp__IWICImagingFactory_CreateBitmapFromSource_Proxy@16"
+    },
+    {
+      "offset": 59730,
+      "name": "_IWICImagingFactory_CreateBitmapFromMemory_Proxy@32"
+    },
+    {
+      "offset": 59730,
+      "name": "__imp__IWICImagingFactory_CreateBitmapFromMemory_Proxy@32"
+    },
+    {
+      "offset": 59880,
+      "name": "_IWICImagingFactory_CreateBitmapFromHICON_Proxy@12"
+    },
+    {
+      "offset": 59880,
+      "name": "__imp__IWICImagingFactory_CreateBitmapFromHICON_Proxy@12"
+    },
+    {
+      "offset": 60030,
+      "name": "_IWICImagingFactory_CreateBitmapFromHBITMAP_Proxy@20"
+    },
+    {
+      "offset": 60030,
+      "name": "__imp__IWICImagingFactory_CreateBitmapFromHBITMAP_Proxy@20"
+    },
+    {
+      "offset": 60182,
+      "name": "_IWICImagingFactory_CreateBitmapFlipRotator_Proxy@8"
+    },
+    {
+      "offset": 60182,
+      "name": "__imp__IWICImagingFactory_CreateBitmapFlipRotator_Proxy@8"
+    },
+    {
+      "offset": 60332,
+      "name": "_IWICImagingFactory_CreateBitmapClipper_Proxy@8"
+    },
+    {
+      "offset": 60332,
+      "name": "__imp__IWICImagingFactory_CreateBitmapClipper_Proxy@8"
+    },
+    {
+      "offset": 60478,
+      "name": "_IWICFormatConverter_Initialize_Proxy@32"
+    },
+    {
+      "offset": 60478,
+      "name": "__imp__IWICFormatConverter_Initialize_Proxy@32"
+    },
+    {
+      "offset": 60618,
+      "name": "_IWICFastMetadataEncoder_GetMetadataQueryWriter_Proxy@8"
+    },
+    {
+      "offset": 60618,
+      "name": "__imp__IWICFastMetadataEncoder_GetMetadataQueryWriter_Proxy@8"
+    },
+    {
+      "offset": 60772,
+      "name": "_IWICFastMetadataEncoder_Commit_Proxy@4"
+    },
+    {
+      "offset": 60772,
+      "name": "__imp__IWICFastMetadataEncoder_Commit_Proxy@4"
+    },
+    {
+      "offset": 60910,
+      "name": "_IWICComponentInfo_GetVersion_Proxy@16"
+    },
+    {
+      "offset": 60910,
+      "name": "__imp__IWICComponentInfo_GetVersion_Proxy@16"
+    },
+    {
+      "offset": 61048,
+      "name": "_IWICComponentInfo_GetSpecVersion_Proxy@16"
+    },
+    {
+      "offset": 61048,
+      "name": "__imp__IWICComponentInfo_GetSpecVersion_Proxy@16"
+    },
+    {
+      "offset": 61190,
+      "name": "_IWICComponentInfo_GetFriendlyName_Proxy@16"
+    },
+    {
+      "offset": 61190,
+      "name": "__imp__IWICComponentInfo_GetFriendlyName_Proxy@16"
+    },
+    {
+      "offset": 61332,
+      "name": "_IWICComponentInfo_GetCLSID_Proxy@8"
+    },
+    {
+      "offset": 61332,
+      "name": "__imp__IWICComponentInfo_GetCLSID_Proxy@8"
+    },
+    {
+      "offset": 61466,
+      "name": "_IWICComponentInfo_GetAuthor_Proxy@16"
+    },
+    {
+      "offset": 61466,
+      "name": "__imp__IWICComponentInfo_GetAuthor_Proxy@16"
+    },
+    {
+      "offset": 61602,
+      "name": "_IWICComponentFactory_CreateQueryWriterFromBlockWriter_Proxy@12"
+    },
+    {
+      "offset": 61602,
+      "name": "__imp__IWICComponentFactory_CreateQueryWriterFromBlockWriter_Proxy@12"
+    },
+    {
+      "offset": 61764,
+      "name": "_IWICComponentFactory_CreateMetadataWriterFromReader_Proxy@16"
+    },
+    {
+      "offset": 61764,
+      "name": "__imp__IWICComponentFactory_CreateMetadataWriterFromReader_Proxy@16"
+    },
+    {
+      "offset": 61924,
+      "name": "_IWICColorContext_InitializeFromMemory_Proxy@12"
+    },
+    {
+      "offset": 61924,
+      "name": "__imp__IWICColorContext_InitializeFromMemory_Proxy@12"
+    },
+    {
+      "offset": 62070,
+      "name": "_IWICBitmap_SetResolution_Proxy@20"
+    },
+    {
+      "offset": 62070,
+      "name": "__imp__IWICBitmap_SetResolution_Proxy@20"
+    },
+    {
+      "offset": 62204,
+      "name": "_IWICBitmap_SetPalette_Proxy@8"
+    },
+    {
+      "offset": 62204,
+      "name": "__imp__IWICBitmap_SetPalette_Proxy@8"
+    },
+    {
+      "offset": 62334,
+      "name": "_IWICBitmap_Lock_Proxy@16"
+    },
+    {
+      "offset": 62334,
+      "name": "__imp__IWICBitmap_Lock_Proxy@16"
+    },
+    {
+      "offset": 62458,
+      "name": "_IWICBitmapSource_GetSize_Proxy@12"
+    },
+    {
+      "offset": 62458,
+      "name": "__imp__IWICBitmapSource_GetSize_Proxy@12"
+    },
+    {
+      "offset": 62592,
+      "name": "_IWICBitmapSource_GetResolution_Proxy@12"
+    },
+    {
+      "offset": 62592,
+      "name": "__imp__IWICBitmapSource_GetResolution_Proxy@12"
+    },
+    {
+      "offset": 62732,
+      "name": "_IWICBitmapSource_GetPixelFormat_Proxy@8"
+    },
+    {
+      "offset": 62732,
+      "name": "__imp__IWICBitmapSource_GetPixelFormat_Proxy@8"
+    },
+    {
+      "offset": 62872,
+      "name": "_IWICBitmapSource_CopyPixels_Proxy@20"
+    },
+    {
+      "offset": 62872,
+      "name": "__imp__IWICBitmapSource_CopyPixels_Proxy@20"
+    },
+    {
+      "offset": 63008,
+      "name": "_IWICBitmapSource_CopyPalette_Proxy@8"
+    },
+    {
+      "offset": 63008,
+      "name": "__imp__IWICBitmapSource_CopyPalette_Proxy@8"
+    },
+    {
+      "offset": 63144,
+      "name": "_IWICBitmapScaler_Initialize_Proxy@20"
+    },
+    {
+      "offset": 63144,
+      "name": "__imp__IWICBitmapScaler_Initialize_Proxy@20"
+    },
+    {
+      "offset": 63280,
+      "name": "_IWICBitmapLock_GetStride_Proxy@8"
+    },
+    {
+      "offset": 63280,
+      "name": "__imp__IWICBitmapLock_GetStride_Proxy@8"
+    },
+    {
+      "offset": 63412,
+      "name": "_IWICBitmapLock_GetDataPointer_STA_Proxy@12"
+    },
+    {
+      "offset": 63412,
+      "name": "__imp__IWICBitmapLock_GetDataPointer_STA_Proxy@12"
+    },
+    {
+      "offset": 63554,
+      "name": "_IWICBitmapFrameEncode_WriteSource_Proxy@12"
+    },
+    {
+      "offset": 63554,
+      "name": "__imp__IWICBitmapFrameEncode_WriteSource_Proxy@12"
+    },
+    {
+      "offset": 63696,
+      "name": "_IWICBitmapFrameEncode_SetThumbnail_Proxy@8"
+    },
+    {
+      "offset": 63696,
+      "name": "__imp__IWICBitmapFrameEncode_SetThumbnail_Proxy@8"
+    },
+    {
+      "offset": 63838,
+      "name": "_IWICBitmapFrameEncode_SetSize_Proxy@12"
+    },
+    {
+      "offset": 63838,
+      "name": "__imp__IWICBitmapFrameEncode_SetSize_Proxy@12"
+    },
+    {
+      "offset": 63976,
+      "name": "_IWICBitmapFrameEncode_SetResolution_Proxy@20"
+    },
+    {
+      "offset": 63976,
+      "name": "__imp__IWICBitmapFrameEncode_SetResolution_Proxy@20"
+    },
+    {
+      "offset": 64120,
+      "name": "_IWICBitmapFrameEncode_SetColorContexts_Proxy@12"
+    },
+    {
+      "offset": 64120,
+      "name": "__imp__IWICBitmapFrameEncode_SetColorContexts_Proxy@12"
+    },
+    {
+      "offset": 64268,
+      "name": "_IWICBitmapFrameEncode_Initialize_Proxy@8"
+    },
+    {
+      "offset": 64268,
+      "name": "__imp__IWICBitmapFrameEncode_Initialize_Proxy@8"
+    },
+    {
+      "offset": 64408,
+      "name": "_IWICBitmapFrameEncode_GetMetadataQueryWriter_Proxy@8"
+    },
+    {
+      "offset": 64408,
+      "name": "__imp__IWICBitmapFrameEncode_GetMetadataQueryWriter_Proxy@8"
+    },
+    {
+      "offset": 64560,
+      "name": "_IWICBitmapFrameEncode_Commit_Proxy@4"
+    },
+    {
+      "offset": 64560,
+      "name": "__imp__IWICBitmapFrameEncode_Commit_Proxy@4"
+    },
+    {
+      "offset": 64696,
+      "name": "_IWICBitmapFrameDecode_GetThumbnail_Proxy@8"
+    },
+    {
+      "offset": 64696,
+      "name": "__imp__IWICBitmapFrameDecode_GetThumbnail_Proxy@8"
+    },
+    {
+      "offset": 64838,
+      "name": "_IWICBitmapFrameDecode_GetMetadataQueryReader_Proxy@8"
+    },
+    {
+      "offset": 64838,
+      "name": "__imp__IWICBitmapFrameDecode_GetMetadataQueryReader_Proxy@8"
+    },
+    {
+      "offset": 64990,
+      "name": "_IWICBitmapFrameDecode_GetColorContexts_Proxy@16"
+    },
+    {
+      "offset": 64990,
+      "name": "__imp__IWICBitmapFrameDecode_GetColorContexts_Proxy@16"
+    },
+    {
+      "offset": 65138,
+      "name": "_IWICBitmapFlipRotator_Initialize_Proxy@12"
+    },
+    {
+      "offset": 65138,
+      "name": "__imp__IWICBitmapFlipRotator_Initialize_Proxy@12"
+    },
+    {
+      "offset": 65280,
+      "name": "_IWICBitmapEncoder_SetThumbnail_Proxy@8"
+    },
+    {
+      "offset": 65280,
+      "name": "__imp__IWICBitmapEncoder_SetThumbnail_Proxy@8"
+    },
+    {
+      "offset": 65418,
+      "name": "_IWICBitmapEncoder_SetPalette_Proxy@8"
+    },
+    {
+      "offset": 65418,
+      "name": "__imp__IWICBitmapEncoder_SetPalette_Proxy@8"
+    },
+    {
+      "offset": 65554,
+      "name": "_IWICBitmapEncoder_Initialize_Proxy@12"
+    },
+    {
+      "offset": 65554,
+      "name": "__imp__IWICBitmapEncoder_Initialize_Proxy@12"
+    },
+    {
+      "offset": 65692,
+      "name": "_IWICBitmapEncoder_GetMetadataQueryWriter_Proxy@8"
+    },
+    {
+      "offset": 65692,
+      "name": "__imp__IWICBitmapEncoder_GetMetadataQueryWriter_Proxy@8"
+    },
+    {
+      "offset": 65840,
+      "name": "_IWICBitmapEncoder_GetEncoderInfo_Proxy@8"
+    },
+    {
+      "offset": 65840,
+      "name": "__imp__IWICBitmapEncoder_GetEncoderInfo_Proxy@8"
+    },
+    {
+      "offset": 65980,
+      "name": "_IWICBitmapEncoder_CreateNewFrame_Proxy@12"
+    },
+    {
+      "offset": 65980,
+      "name": "__imp__IWICBitmapEncoder_CreateNewFrame_Proxy@12"
+    },
+    {
+      "offset": 66122,
+      "name": "_IWICBitmapEncoder_Commit_Proxy@4"
+    },
+    {
+      "offset": 66122,
+      "name": "__imp__IWICBitmapEncoder_Commit_Proxy@4"
+    },
+    {
+      "offset": 66254,
+      "name": "_IWICBitmapDecoder_GetThumbnail_Proxy@8"
+    },
+    {
+      "offset": 66254,
+      "name": "__imp__IWICBitmapDecoder_GetThumbnail_Proxy@8"
+    },
+    {
+      "offset": 66392,
+      "name": "_IWICBitmapDecoder_GetPreview_Proxy@8"
+    },
+    {
+      "offset": 66392,
+      "name": "__imp__IWICBitmapDecoder_GetPreview_Proxy@8"
+    },
+    {
+      "offset": 66528,
+      "name": "_IWICBitmapDecoder_GetMetadataQueryReader_Proxy@8"
+    },
+    {
+      "offset": 66528,
+      "name": "__imp__IWICBitmapDecoder_GetMetadataQueryReader_Proxy@8"
+    },
+    {
+      "offset": 66676,
+      "name": "_IWICBitmapDecoder_GetFrame_Proxy@12"
+    },
+    {
+      "offset": 66676,
+      "name": "__imp__IWICBitmapDecoder_GetFrame_Proxy@12"
+    },
+    {
+      "offset": 66812,
+      "name": "_IWICBitmapDecoder_GetFrameCount_Proxy@8"
+    },
+    {
+      "offset": 66812,
+      "name": "__imp__IWICBitmapDecoder_GetFrameCount_Proxy@8"
+    },
+    {
+      "offset": 66952,
+      "name": "_IWICBitmapDecoder_GetDecoderInfo_Proxy@8"
+    },
+    {
+      "offset": 66952,
+      "name": "__imp__IWICBitmapDecoder_GetDecoderInfo_Proxy@8"
+    },
+    {
+      "offset": 67092,
+      "name": "_IWICBitmapDecoder_GetColorContexts_Proxy@16"
+    },
+    {
+      "offset": 67092,
+      "name": "__imp__IWICBitmapDecoder_GetColorContexts_Proxy@16"
+    },
+    {
+      "offset": 67236,
+      "name": "_IWICBitmapDecoder_CopyPalette_Proxy@8"
+    },
+    {
+      "offset": 67236,
+      "name": "__imp__IWICBitmapDecoder_CopyPalette_Proxy@8"
+    },
+    {
+      "offset": 67374,
+      "name": "_IWICBitmapCodecInfo_GetMimeTypes_Proxy@16"
+    },
+    {
+      "offset": 67374,
+      "name": "__imp__IWICBitmapCodecInfo_GetMimeTypes_Proxy@16"
+    },
+    {
+      "offset": 67516,
+      "name": "_IWICBitmapCodecInfo_GetFileExtensions_Proxy@16"
+    },
+    {
+      "offset": 67516,
+      "name": "__imp__IWICBitmapCodecInfo_GetFileExtensions_Proxy@16"
+    },
+    {
+      "offset": 67662,
+      "name": "_IWICBitmapCodecInfo_GetDeviceModels_Proxy@16"
+    },
+    {
+      "offset": 67662,
+      "name": "__imp__IWICBitmapCodecInfo_GetDeviceModels_Proxy@16"
+    },
+    {
+      "offset": 67806,
+      "name": "_IWICBitmapCodecInfo_GetDeviceManufacturer_Proxy@16"
+    },
+    {
+      "offset": 67806,
+      "name": "__imp__IWICBitmapCodecInfo_GetDeviceManufacturer_Proxy@16"
+    },
+    {
+      "offset": 67956,
+      "name": "_IWICBitmapCodecInfo_GetContainerFormat_Proxy@8"
+    },
+    {
+      "offset": 67956,
+      "name": "__imp__IWICBitmapCodecInfo_GetContainerFormat_Proxy@8"
+    },
+    {
+      "offset": 68102,
+      "name": "_IWICBitmapCodecInfo_DoesSupportMultiframe_Proxy@8"
+    },
+    {
+      "offset": 68102,
+      "name": "__imp__IWICBitmapCodecInfo_DoesSupportMultiframe_Proxy@8"
+    },
+    {
+      "offset": 68252,
+      "name": "_IWICBitmapCodecInfo_DoesSupportLossless_Proxy@8"
+    },
+    {
+      "offset": 68252,
+      "name": "__imp__IWICBitmapCodecInfo_DoesSupportLossless_Proxy@8"
+    },
+    {
+      "offset": 68400,
+      "name": "_IWICBitmapCodecInfo_DoesSupportAnimation_Proxy@8"
+    },
+    {
+      "offset": 68400,
+      "name": "__imp__IWICBitmapCodecInfo_DoesSupportAnimation_Proxy@8"
+    },
+    {
+      "offset": 68548,
+      "name": "_IWICBitmapClipper_Initialize_Proxy@12"
+    },
+    {
+      "offset": 68548,
+      "name": "__imp__IWICBitmapClipper_Initialize_Proxy@12"
+    },
+    {
+      "offset": 68686,
+      "name": "_IPropertyBag2_Write_Proxy@16"
+    },
+    {
+      "offset": 68686,
+      "name": "__imp__IPropertyBag2_Write_Proxy@16"
+    },
+    {
+      "offset": 68814,
+      "name": "_IEnumString_Reset_WIC_Proxy@4"
+    },
+    {
+      "offset": 68814,
+      "name": "__imp__IEnumString_Reset_WIC_Proxy@4"
+    },
+    {
+      "offset": 68944,
+      "name": "_IEnumString_Next_WIC_Proxy@16"
+    },
+    {
+      "offset": 68944,
+      "name": "__imp__IEnumString_Next_WIC_Proxy@16"
+    },
+    {
+      "offset": 69074,
+      "name": "WindowsCodecs_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 69424,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 69740,
+      "name": "__IMPORT_DESCRIPTOR_WindowsCodecs"
+    },
+    {
+      "offset": 70318,
+      "name": "_CATID_WICBitmapDecoders"
+    },
+    {
+      "offset": 70318,
+      "name": "_CATID_WICBitmapEncoders"
+    },
+    {
+      "offset": 70318,
+      "name": "_CATID_WICFormatConverters"
+    },
+    {
+      "offset": 70318,
+      "name": "_CATID_WICMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CATID_WICMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CATID_WICPixelFormats"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WIC8BIMIPTCDigestMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WIC8BIMIPTCDigestMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WIC8BIMIPTCMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WIC8BIMIPTCMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WIC8BIMResolutionInfoMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WIC8BIMResolutionInfoMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICAPEMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICAPEMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICAdngDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICApp0MetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICApp0MetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICApp13MetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICApp13MetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICApp1MetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICApp1MetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICBmpDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICBmpEncoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICCurDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICDdsDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICDdsEncoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICDdsMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICDdsMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICDefaultFormatConverter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICExifMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICExifMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICFormatConverterHighColor"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICFormatConverterNChannel"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICFormatConverterWMPhoto"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICGCEMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICGCEMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICGifCommentMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICGifCommentMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICGifDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICGifEncoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICGpsMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICGpsMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICHeifDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICHeifEncoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICHeifHDRMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICHeifMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICHeifMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICIMDMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICIMDMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICIPTCMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICIPTCMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICIRBMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICIRBMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICIcoDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICIfdMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICIfdMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICImagingCategories"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICImagingFactory"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICImagingFactory1"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICImagingFactory2"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICInteropMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICInteropMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICJpegChrominanceMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICJpegChrominanceMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICJpegCommentMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICJpegCommentMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICJpegDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICJpegEncoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICJpegLuminanceMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICJpegLuminanceMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICJpegQualcommPhoneEncoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICLSDMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICLSDMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPlanarFormatConverter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngBkgdMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngBkgdMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngChrmMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngChrmMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngDecoder1"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngDecoder2"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngEncoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngGamaMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngGamaMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngHistMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngHistMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngIccpMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngIccpMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngItxtMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngItxtMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngSrgbMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngSrgbMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngTextMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngTextMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngTimeMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICPngTimeMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICRAWDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICSubIfdMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICSubIfdMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICThumbnailMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICThumbnailMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICTiffDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICTiffEncoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICUnknownMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICUnknownMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICWebpAnimMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICWebpAnmfMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICWebpDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICWmpDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICWmpEncoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICXMPAltMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICXMPAltMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICXMPBagMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICXMPBagMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICXMPMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICXMPMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICXMPSeqMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICXMPSeqMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICXMPStructMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_CLSID_WICXMPStructMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDCONFIGURE_CRYPTOSESSION"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDCONFIGURE_ENCRYPTIONWHENACCESSIBLE"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDCONFIGURE_INITIALIZE"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDCONFIGURE_PROTECTION"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDCONFIGURE_SHAREDRESOURCE"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDQUERY_ACCESSIBILITYATTRIBUTES"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDQUERY_CHANNELTYPE"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDQUERY_CRYPTOSESSION"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDQUERY_CURRENTENCRYPTIONWHENACCESSIBLE"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDQUERY_DEVICEHANDLE"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDQUERY_ENCRYPTIONWHENACCESSIBLEGUID"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDQUERY_ENCRYPTIONWHENACCESSIBLEGUIDCOUNT"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDQUERY_OUTPUTID"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDQUERY_OUTPUTIDCOUNT"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDQUERY_PROTECTION"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDQUERY_RESTRICTEDSHAREDRESOURCEPROCESS"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDQUERY_RESTRICTEDSHAREDRESOURCEPROCESSCOUNT"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3DAUTHENTICATEDQUERY_UNRESTRICTEDPROTECTEDSHAREDRESOURCECOUNT"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3D_TEXTURE_LAYOUT_64KB_STANDARD_SWIZZLE"
+    },
+    {
+      "offset": 70318,
+      "name": "_D3D_TEXTURE_LAYOUT_ROW_MAJOR"
+    },
+    {
+      "offset": 70318,
+      "name": "_DXGI_DEBUG_D3D10"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_ContainerFormatAdng"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_ContainerFormatBmp"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_ContainerFormatCur"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_ContainerFormatDds"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_ContainerFormatGif"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_ContainerFormatHeif"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_ContainerFormatIco"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_ContainerFormatJpeg"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_ContainerFormatPng"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_ContainerFormatRaw"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_ContainerFormatTiff"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_ContainerFormatWebp"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_ContainerFormatWmp"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_DeviceType"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormat8BIMIPTC"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormat8BIMIPTCDigest"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormat8BIMResolutionInfo"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatAPE"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatApp0"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatApp1"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatApp13"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatChunkbKGD"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatChunkcHRM"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatChunkgAMA"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatChunkhIST"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatChunkiCCP"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatChunkiTXt"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatChunksRGB"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatChunktEXt"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatChunktIME"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatDds"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatExif"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatGCE"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatGifComment"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatGps"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatHeif"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatHeifHDR"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatIMD"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatIPTC"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatIRB"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatIfd"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatInterop"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatJpegChrominance"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatJpegComment"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatJpegLuminance"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatLSD"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatSubIfd"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatThumbnail"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatUnknown"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatWebpANIM"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatWebpANMF"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatXMP"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatXMPAlt"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatXMPBag"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatXMPSeq"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_MetadataFormatXMPStruct"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_VendorMicrosoft"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_VendorMicrosoftBuiltIn"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat112bpp6ChannelsAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat112bpp7Channels"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat128bpp7ChannelsAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat128bpp8Channels"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat128bppPRGBAFloat"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat128bppRGBAFixedPoint"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat128bppRGBAFloat"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat128bppRGBFixedPoint"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat128bppRGBFloat"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat144bpp8ChannelsAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat16bppBGR555"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat16bppBGR565"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat16bppBGRA5551"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat16bppCbCr"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat16bppCbQuantizedDctCoefficients"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat16bppCrQuantizedDctCoefficients"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat16bppGray"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat16bppGrayFixedPoint"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat16bppGrayHalf"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat16bppYQuantizedDctCoefficients"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat1bppIndexed"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat24bpp3Channels"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat24bppBGR"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat24bppRGB"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat2bppGray"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat2bppIndexed"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bpp3ChannelsAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bpp4Channels"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppBGR"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppBGR101010"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppBGRA"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppCMYK"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppGrayFixedPoint"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppGrayFloat"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppPBGRA"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppPRGBA"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppR10G10B10A2"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppR10G10B10A2HDR10"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppRGB"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppRGBA"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppRGBA1010102"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppRGBA1010102XR"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat32bppRGBE"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat40bpp4ChannelsAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat40bpp5Channels"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat40bppCMYKAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat48bpp3Channels"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat48bpp5ChannelsAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat48bpp6Channels"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat48bppBGR"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat48bppBGRFixedPoint"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat48bppRGB"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat48bppRGBFixedPoint"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat48bppRGBHalf"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat4bppGray"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat4bppIndexed"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat56bpp6ChannelsAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat56bpp7Channels"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bpp3ChannelsAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bpp4Channels"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bpp7ChannelsAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bpp8Channels"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bppBGRA"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bppBGRAFixedPoint"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bppCMYK"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bppPBGRA"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bppPRGBA"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bppPRGBAHalf"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bppRGB"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bppRGBA"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bppRGBAFixedPoint"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bppRGBAHalf"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bppRGBFixedPoint"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat64bppRGBHalf"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat72bpp8ChannelsAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat80bpp4ChannelsAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat80bpp5Channels"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat80bppCMYKAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat8bppAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat8bppCb"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat8bppCr"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat8bppGray"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat8bppIndexed"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat8bppY"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat96bpp5ChannelsAlpha"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat96bpp6Channels"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat96bppRGBFixedPoint"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormat96bppRGBFloat"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormatBlackWhite"
+    },
+    {
+      "offset": 70318,
+      "name": "_GUID_WICPixelFormatDontCare"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Asynchronous"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10BlendState"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10BlendState1"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Blob"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Buffer"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Counter"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Debug"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10DepthStencilState"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10DepthStencilView"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Device"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Device1"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10DeviceChild"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Effect"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectBlendVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectConstantBuffer"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectDepthStencilVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectDepthStencilViewVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectMatrixVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectPass"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectPool"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectRasterizerVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectRenderTargetViewVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectSamplerVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectScalarVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectShaderResourceVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectShaderVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectStringVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectTechnique"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectType"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10EffectVectorVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10GeometryShader"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10InfoQueue"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10InputLayout"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Multithread"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10PixelShader"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Predicate"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Query"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10RasterizerState"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10RenderTargetView"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Resource"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10SamplerState"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10ShaderReflection"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10ShaderReflection1"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10ShaderReflectionConstantBuffer"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10ShaderReflectionType"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10ShaderReflectionVariable"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10ShaderResourceView"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10ShaderResourceView1"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10StateBlock"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10SwitchToRef"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Texture1D"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Texture2D"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10Texture3D"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10VertexShader"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_ID3D10View"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGIAdapter"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGIAdapter1"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGIDevice"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGIDevice1"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGIDeviceSubObject"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGIFactory"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGIFactory1"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGIKeyedMutex"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGIObject"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGIOutput"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGIResource"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGISurface"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGISurface1"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IDXGISwapChain"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmap"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffect"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectConnections"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectConnectionsInfo"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectConnector"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectConnectorInfo"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectEvents"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectFactory"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectGroup"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectGroupImpl"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectImpl"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectInputConnector"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectInteriorInputConnector"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectInteriorOutputConnector"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectOutputConnector"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectOutputConnectorImpl"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectPrimitive"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectPrimitiveImpl"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectRenderContext"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffectRenderContextImpl"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapEffects"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapLock"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapScaler"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILBitmapSource"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILFormatConverter"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IMILPalette"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmap"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapClipper"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapCodecInfo"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapCodecProgressNotification"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapDecoderInfo"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapEncoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapEncoderInfo"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapFlipRotator"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapFrameDecode"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapFrameEncode"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapFrameEncodeInternal"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapLock"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapScaler"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapSource"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICBitmapSourceTransform"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICColorContext"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICColorTransform"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICComponentFactory"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICComponentInfo"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICComponentInternal"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICCursorDecodeInternal"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICDdsDecoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICDdsEncoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICDdsFrameDecode"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICDecoderBitmapSource"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICDevelopRaw"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICDevelopRawNotificationCallback"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICEnumMetadataItem"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICFastMetadataEncoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICFormatConverter"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICFormatConverterInfo"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICGdiPlusInternal"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICImageEncoder"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICImagingFactory"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICImagingFactory2"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICImagingFactoryInternal"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICImagingFactoryTestInternal"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICJpegFrameDecode"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICJpegFrameDecodeInternal"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICJpegFrameEncode"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICMetadataBlockReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICMetadataBlockWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICMetadataHandlerInfo"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICMetadataQueryReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICMetadataQueryWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICMetadataReader"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICMetadataReaderInfo"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICMetadataWriter"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICMetadataWriterInfo"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICPalette"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICPersistStream"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICPixelFormatInfo"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICPixelFormatInfo2"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICPlanarBitmapFrameEncode"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICPlanarBitmapSourceTransform"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICPlanarFormatConverter"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICProgressCallback"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICProgressiveLevelControl"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICStream"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICStreamProvider"
+    },
+    {
+      "offset": 70318,
+      "name": "_IID_IWICTransformSource"
+    },
+    {
+      "offset": 70318,
+      "name": "_LIBID_MILEffects"
+    },
+    {
+      "offset": 70318,
+      "name": "_WKPDID_CommentStringW"
+    },
+    {
+      "offset": 70318,
+      "name": "_WKPDID_D3D12UniqueObjectId"
+    },
+    {
+      "offset": 70318,
+      "name": "_WKPDID_D3DDebugObjectName"
+    },
+    {
+      "offset": 70318,
+      "name": "_WKPDID_D3DDebugObjectNameW"
+    },
+    {
+      "offset": 70318,
+      "name": "_c_DwmMaxAdapters"
+    },
+    {
+      "offset": 70318,
+      "name": "_c_DwmMaxMonitors"
+    },
+    {
+      "offset": 70318,
+      "name": "_c_DwmMaxQueuedBuffers"
+    },
+    {
+      "offset": 70318,
+      "name": "_g_wcdv"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 52970,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3556425571,
+      "sizeOfData": 48,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_WICSetEncoderFormat_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "WICSetEncoderFormat_Proxy"
+    },
+    {
+      "offset": 53098,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3749346091,
+      "sizeOfData": 50,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_WICSerializeMetadataContent@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "WICSerializeMetadataContent"
+    },
+    {
+      "offset": 53228,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3609641612,
+      "sizeOfData": 46,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_WICMatchMetadataContent@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "WICMatchMetadataContent"
+    },
+    {
+      "offset": 53354,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4125530898,
+      "sizeOfData": 43,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_WICMapShortNameToGuid@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "WICMapShortNameToGuid"
+    },
+    {
+      "offset": 53478,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3651413469,
+      "sizeOfData": 41,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_WICMapSchemaToName@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "WICMapSchemaToName"
+    },
+    {
+      "offset": 53600,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4015783143,
+      "sizeOfData": 44,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_WICMapGuidToShortName@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "WICMapGuidToShortName"
+    },
+    {
+      "offset": 53724,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4199018205,
+      "sizeOfData": 48,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_WICGetMetadataContentSize@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "WICGetMetadataContentSize"
+    },
+    {
+      "offset": 53852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4079172452,
+      "sizeOfData": 51,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_WICCreateImagingFactory_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "WICCreateImagingFactory_Proxy"
+    },
+    {
+      "offset": 53984,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4208143521,
+      "sizeOfData": 49,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_WICCreateColorContext_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "WICCreateColorContext_Proxy"
+    },
+    {
+      "offset": 54114,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4002356523,
+      "sizeOfData": 51,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_WICCreateBitmapFromSectionEx@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "WICCreateBitmapFromSectionEx"
+    },
+    {
+      "offset": 54246,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4241715227,
+      "sizeOfData": 49,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_WICCreateBitmapFromSection@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "WICCreateBitmapFromSection"
+    },
+    {
+      "offset": 54376,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3843610137,
+      "sizeOfData": 45,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_WICConvertBitmapSource@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "WICConvertBitmapSource"
+    },
+    {
+      "offset": 54502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3318523825,
+      "sizeOfData": 60,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICStream_InitializeFromMemory_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "IWICStream_InitializeFromMemory_Proxy"
+    },
+    {
+      "offset": 54642,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3318170289,
+      "sizeOfData": 60,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICStream_InitializeFromIStream_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "IWICStream_InitializeFromIStream_Proxy"
+    },
+    {
+      "offset": 54782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3299845939,
+      "sizeOfData": 63,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICPixelFormatInfo_GetChannelMask_Proxy@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "IWICPixelFormatInfo_GetChannelMask_Proxy"
+    },
+    {
+      "offset": 54926,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3597827071,
+      "sizeOfData": 63,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICPixelFormatInfo_GetChannelCount_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "IWICPixelFormatInfo_GetChannelCount_Proxy"
+    },
+    {
+      "offset": 55070,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4051379444,
+      "sizeOfData": 63,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICPixelFormatInfo_GetBitsPerPixel_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "IWICPixelFormatInfo_GetBitsPerPixel_Proxy"
+    },
+    {
+      "offset": 55214,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3894278759,
+      "sizeOfData": 61,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICPalette_InitializePredefined_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "IWICPalette_InitializePredefined_Proxy"
+    },
+    {
+      "offset": 55356,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3351908310,
+      "sizeOfData": 61,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICPalette_InitializeFromPalette_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "IWICPalette_InitializeFromPalette_Proxy"
+    },
+    {
+      "offset": 55498,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3333044282,
+      "sizeOfData": 61,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICPalette_InitializeFromBitmap_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "IWICPalette_InitializeFromBitmap_Proxy"
+    },
+    {
+      "offset": 55640,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3936870501,
+      "sizeOfData": 57,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICPalette_InitializeCustom_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "IWICPalette_InitializeCustom_Proxy"
+    },
+    {
+      "offset": 55778,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4022727815,
+      "sizeOfData": 48,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICPalette_HasAlpha_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "IWICPalette_HasAlpha_Proxy"
+    },
+    {
+      "offset": 55906,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3520452371,
+      "sizeOfData": 47,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICPalette_GetType_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "IWICPalette_GetType_Proxy"
+    },
+    {
+      "offset": 56034,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3895293364,
+      "sizeOfData": 50,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICPalette_GetColors_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "IWICPalette_GetColors_Proxy"
+    },
+    {
+      "offset": 56164,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4222759528,
+      "sizeOfData": 53,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICPalette_GetColorCount_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "IWICPalette_GetColorCount_Proxy"
+    },
+    {
+      "offset": 56298,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4057921876,
+      "sizeOfData": 70,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICMetadataQueryWriter_SetMetadataByName_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "IWICMetadataQueryWriter_SetMetadataByName_Proxy"
+    },
+    {
+      "offset": 56448,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3626733827,
+      "sizeOfData": 72,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICMetadataQueryWriter_RemoveMetadataByName_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "IWICMetadataQueryWriter_RemoveMetadataByName_Proxy"
+    },
+    {
+      "offset": 56600,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3756758963,
+      "sizeOfData": 70,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICMetadataQueryReader_GetMetadataByName_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "IWICMetadataQueryReader_GetMetadataByName_Proxy"
+    },
+    {
+      "offset": 56750,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3334448683,
+      "sizeOfData": 64,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICMetadataQueryReader_GetLocation_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "IWICMetadataQueryReader_GetLocation_Proxy"
+    },
+    {
+      "offset": 56894,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3603922775,
+      "sizeOfData": 65,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICMetadataQueryReader_GetEnumerator_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "IWICMetadataQueryReader_GetEnumerator_Proxy"
+    },
+    {
+      "offset": 57040,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4115994135,
+      "sizeOfData": 70,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICMetadataQueryReader_GetContainerFormat_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "IWICMetadataQueryReader_GetContainerFormat_Proxy"
+    },
+    {
+      "offset": 57190,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3551143039,
+      "sizeOfData": 69,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICMetadataBlockReader_GetReaderByIndex_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "IWICMetadataBlockReader_GetReaderByIndex_Proxy"
+    },
+    {
+      "offset": 57340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3412895658,
+      "sizeOfData": 60,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICMetadataBlockReader_GetCount_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "IWICMetadataBlockReader_GetCount_Proxy"
+    },
+    {
+      "offset": 57480,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3448901916,
+      "sizeOfData": 59,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateStream_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "IWICImagingFactory_CreateStream_Proxy"
+    },
+    {
+      "offset": 57620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4009807328,
+      "sizeOfData": 65,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateQueryWriter_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "IWICImagingFactory_CreateQueryWriter_Proxy"
+    },
+    {
+      "offset": 57766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3321613876,
+      "sizeOfData": 75,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateQueryWriterFromReader_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "IWICImagingFactory_CreateQueryWriterFromReader_Proxy"
+    },
+    {
+      "offset": 57922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3957200994,
+      "sizeOfData": 60,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreatePalette_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "IWICImagingFactory_CreatePalette_Proxy"
+    },
+    {
+      "offset": 58062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3391639985,
+      "sizeOfData": 68,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateFormatConverter_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "IWICImagingFactory_CreateFormatConverter_Proxy"
+    },
+    {
+      "offset": 58210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3755711022,
+      "sizeOfData": 88,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateFastMetadataEncoderFromFrameDecode_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "IWICImagingFactory_CreateFastMetadataEncoderFromFrameDecode_Proxy"
+    },
+    {
+      "offset": 58378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3792325739,
+      "sizeOfData": 84,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateFastMetadataEncoderFromDecoder_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "IWICImagingFactory_CreateFastMetadataEncoderFromDecoder_Proxy"
+    },
+    {
+      "offset": 58542,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3557845898,
+      "sizeOfData": 61,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateEncoder_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "IWICImagingFactory_CreateEncoder_Proxy"
+    },
+    {
+      "offset": 58684,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3498614022,
+      "sizeOfData": 71,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateDecoderFromStream_Proxy@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "IWICImagingFactory_CreateDecoderFromStream_Proxy"
+    },
+    {
+      "offset": 58836,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3264120399,
+      "sizeOfData": 73,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateDecoderFromFilename_Proxy@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "IWICImagingFactory_CreateDecoderFromFilename_Proxy"
+    },
+    {
+      "offset": 58990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3617423146,
+      "sizeOfData": 75,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateDecoderFromFileHandle_Proxy@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "IWICImagingFactory_CreateDecoderFromFileHandle_Proxy"
+    },
+    {
+      "offset": 59146,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3346585092,
+      "sizeOfData": 67,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateComponentInfo_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "IWICImagingFactory_CreateComponentInfo_Proxy"
+    },
+    {
+      "offset": 59294,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3661098803,
+      "sizeOfData": 60,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateBitmap_Proxy@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "IWICImagingFactory_CreateBitmap_Proxy"
+    },
+    {
+      "offset": 59434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3463104442,
+      "sizeOfData": 65,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateBitmapScaler_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "IWICImagingFactory_CreateBitmapScaler_Proxy"
+    },
+    {
+      "offset": 59580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3538529931,
+      "sizeOfData": 70,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateBitmapFromSource_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "IWICImagingFactory_CreateBitmapFromSource_Proxy"
+    },
+    {
+      "offset": 59730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4006693554,
+      "sizeOfData": 70,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateBitmapFromMemory_Proxy@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "IWICImagingFactory_CreateBitmapFromMemory_Proxy"
+    },
+    {
+      "offset": 59880,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4042793295,
+      "sizeOfData": 69,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateBitmapFromHICON_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "IWICImagingFactory_CreateBitmapFromHICON_Proxy"
+    },
+    {
+      "offset": 60030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3351519710,
+      "sizeOfData": 71,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateBitmapFromHBITMAP_Proxy@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "IWICImagingFactory_CreateBitmapFromHBITMAP_Proxy"
+    },
+    {
+      "offset": 60182,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3573592236,
+      "sizeOfData": 70,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateBitmapFlipRotator_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "IWICImagingFactory_CreateBitmapFlipRotator_Proxy"
+    },
+    {
+      "offset": 60332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4074974713,
+      "sizeOfData": 66,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICImagingFactory_CreateBitmapClipper_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "IWICImagingFactory_CreateBitmapClipper_Proxy"
+    },
+    {
+      "offset": 60478,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4135318357,
+      "sizeOfData": 59,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICFormatConverter_Initialize_Proxy@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "IWICFormatConverter_Initialize_Proxy"
+    },
+    {
+      "offset": 60618,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3875312808,
+      "sizeOfData": 74,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICFastMetadataEncoder_GetMetadataQueryWriter_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "IWICFastMetadataEncoder_GetMetadataQueryWriter_Proxy"
+    },
+    {
+      "offset": 60772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3615511234,
+      "sizeOfData": 58,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICFastMetadataEncoder_Commit_Proxy@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "IWICFastMetadataEncoder_Commit_Proxy"
+    },
+    {
+      "offset": 60910,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3576898088,
+      "sizeOfData": 57,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICComponentInfo_GetVersion_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "IWICComponentInfo_GetVersion_Proxy"
+    },
+    {
+      "offset": 61048,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3342414799,
+      "sizeOfData": 61,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICComponentInfo_GetSpecVersion_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "IWICComponentInfo_GetSpecVersion_Proxy"
+    },
+    {
+      "offset": 61190,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3254591645,
+      "sizeOfData": 62,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICComponentInfo_GetFriendlyName_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "IWICComponentInfo_GetFriendlyName_Proxy"
+    },
+    {
+      "offset": 61332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3611178629,
+      "sizeOfData": 54,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICComponentInfo_GetCLSID_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "IWICComponentInfo_GetCLSID_Proxy"
+    },
+    {
+      "offset": 61466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3238895150,
+      "sizeOfData": 56,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICComponentInfo_GetAuthor_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "IWICComponentInfo_GetAuthor_Proxy"
+    },
+    {
+      "offset": 61602,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3836303824,
+      "sizeOfData": 82,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICComponentFactory_CreateQueryWriterFromBlockWriter_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "IWICComponentFactory_CreateQueryWriterFromBlockWriter_Proxy"
+    },
+    {
+      "offset": 61764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3601722750,
+      "sizeOfData": 80,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICComponentFactory_CreateMetadataWriterFromReader_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "IWICComponentFactory_CreateMetadataWriterFromReader_Proxy"
+    },
+    {
+      "offset": 61924,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3310622853,
+      "sizeOfData": 66,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICColorContext_InitializeFromMemory_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "IWICColorContext_InitializeFromMemory_Proxy"
+    },
+    {
+      "offset": 62070,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3975053029,
+      "sizeOfData": 53,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmap_SetResolution_Proxy@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "IWICBitmap_SetResolution_Proxy"
+    },
+    {
+      "offset": 62204,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3506874206,
+      "sizeOfData": 49,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmap_SetPalette_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "IWICBitmap_SetPalette_Proxy"
+    },
+    {
+      "offset": 62334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3381534356,
+      "sizeOfData": 44,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmap_Lock_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "IWICBitmap_Lock_Proxy"
+    },
+    {
+      "offset": 62458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4071136966,
+      "sizeOfData": 53,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapSource_GetSize_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "IWICBitmapSource_GetSize_Proxy"
+    },
+    {
+      "offset": 62592,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3812844727,
+      "sizeOfData": 59,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapSource_GetResolution_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "IWICBitmapSource_GetResolution_Proxy"
+    },
+    {
+      "offset": 62732,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3431593593,
+      "sizeOfData": 59,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapSource_GetPixelFormat_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "IWICBitmapSource_GetPixelFormat_Proxy"
+    },
+    {
+      "offset": 62872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3697715431,
+      "sizeOfData": 56,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapSource_CopyPixels_Proxy@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "IWICBitmapSource_CopyPixels_Proxy"
+    },
+    {
+      "offset": 63008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3465056940,
+      "sizeOfData": 56,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapSource_CopyPalette_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "IWICBitmapSource_CopyPalette_Proxy"
+    },
+    {
+      "offset": 63144,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3635291737,
+      "sizeOfData": 56,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapScaler_Initialize_Proxy@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "IWICBitmapScaler_Initialize_Proxy"
+    },
+    {
+      "offset": 63280,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3883306392,
+      "sizeOfData": 52,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapLock_GetStride_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "IWICBitmapLock_GetStride_Proxy"
+    },
+    {
+      "offset": 63412,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3618635040,
+      "sizeOfData": 62,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapLock_GetDataPointer_STA_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "IWICBitmapLock_GetDataPointer_STA_Proxy"
+    },
+    {
+      "offset": 63554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4168469624,
+      "sizeOfData": 62,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapFrameEncode_WriteSource_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "IWICBitmapFrameEncode_WriteSource_Proxy"
+    },
+    {
+      "offset": 63696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3794841728,
+      "sizeOfData": 62,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapFrameEncode_SetThumbnail_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "IWICBitmapFrameEncode_SetThumbnail_Proxy"
+    },
+    {
+      "offset": 63838,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3820232659,
+      "sizeOfData": 58,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapFrameEncode_SetSize_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "IWICBitmapFrameEncode_SetSize_Proxy"
+    },
+    {
+      "offset": 63976,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3402932709,
+      "sizeOfData": 64,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapFrameEncode_SetResolution_Proxy@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "IWICBitmapFrameEncode_SetResolution_Proxy"
+    },
+    {
+      "offset": 64120,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3770867921,
+      "sizeOfData": 67,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapFrameEncode_SetColorContexts_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "IWICBitmapFrameEncode_SetColorContexts_Proxy"
+    },
+    {
+      "offset": 64268,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4112721591,
+      "sizeOfData": 60,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapFrameEncode_Initialize_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "IWICBitmapFrameEncode_Initialize_Proxy"
+    },
+    {
+      "offset": 64408,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3332921236,
+      "sizeOfData": 72,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapFrameEncode_GetMetadataQueryWriter_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "IWICBitmapFrameEncode_GetMetadataQueryWriter_Proxy"
+    },
+    {
+      "offset": 64560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3833655380,
+      "sizeOfData": 56,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapFrameEncode_Commit_Proxy@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "IWICBitmapFrameEncode_Commit_Proxy"
+    },
+    {
+      "offset": 64696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3793159916,
+      "sizeOfData": 62,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapFrameDecode_GetThumbnail_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "IWICBitmapFrameDecode_GetThumbnail_Proxy"
+    },
+    {
+      "offset": 64838,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3690108821,
+      "sizeOfData": 72,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapFrameDecode_GetMetadataQueryReader_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "IWICBitmapFrameDecode_GetMetadataQueryReader_Proxy"
+    },
+    {
+      "offset": 64990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4021858093,
+      "sizeOfData": 67,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapFrameDecode_GetColorContexts_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "IWICBitmapFrameDecode_GetColorContexts_Proxy"
+    },
+    {
+      "offset": 65138,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3997125969,
+      "sizeOfData": 61,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapFlipRotator_Initialize_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "IWICBitmapFlipRotator_Initialize_Proxy"
+    },
+    {
+      "offset": 65280,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3433017294,
+      "sizeOfData": 58,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapEncoder_SetThumbnail_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "IWICBitmapEncoder_SetThumbnail_Proxy"
+    },
+    {
+      "offset": 65418,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3313266579,
+      "sizeOfData": 56,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapEncoder_SetPalette_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "IWICBitmapEncoder_SetPalette_Proxy"
+    },
+    {
+      "offset": 65554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4093070763,
+      "sizeOfData": 57,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapEncoder_Initialize_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "IWICBitmapEncoder_Initialize_Proxy"
+    },
+    {
+      "offset": 65692,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3265520692,
+      "sizeOfData": 68,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapEncoder_GetMetadataQueryWriter_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "IWICBitmapEncoder_GetMetadataQueryWriter_Proxy"
+    },
+    {
+      "offset": 65840,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4289099019,
+      "sizeOfData": 60,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapEncoder_GetEncoderInfo_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "IWICBitmapEncoder_GetEncoderInfo_Proxy"
+    },
+    {
+      "offset": 65980,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3761540623,
+      "sizeOfData": 61,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapEncoder_CreateNewFrame_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "IWICBitmapEncoder_CreateNewFrame_Proxy"
+    },
+    {
+      "offset": 66122,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3673272710,
+      "sizeOfData": 52,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapEncoder_Commit_Proxy@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "IWICBitmapEncoder_Commit_Proxy"
+    },
+    {
+      "offset": 66254,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3325750112,
+      "sizeOfData": 58,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapDecoder_GetThumbnail_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "IWICBitmapDecoder_GetThumbnail_Proxy"
+    },
+    {
+      "offset": 66392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3311782586,
+      "sizeOfData": 56,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapDecoder_GetPreview_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "IWICBitmapDecoder_GetPreview_Proxy"
+    },
+    {
+      "offset": 66528,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4055712016,
+      "sizeOfData": 68,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapDecoder_GetMetadataQueryReader_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "IWICBitmapDecoder_GetMetadataQueryReader_Proxy"
+    },
+    {
+      "offset": 66676,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3301356690,
+      "sizeOfData": 55,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapDecoder_GetFrame_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "IWICBitmapDecoder_GetFrame_Proxy"
+    },
+    {
+      "offset": 66812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3326447359,
+      "sizeOfData": 59,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapDecoder_GetFrameCount_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "IWICBitmapDecoder_GetFrameCount_Proxy"
+    },
+    {
+      "offset": 66952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3809803034,
+      "sizeOfData": 60,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapDecoder_GetDecoderInfo_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "IWICBitmapDecoder_GetDecoderInfo_Proxy"
+    },
+    {
+      "offset": 67092,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4098065264,
+      "sizeOfData": 63,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapDecoder_GetColorContexts_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "IWICBitmapDecoder_GetColorContexts_Proxy"
+    },
+    {
+      "offset": 67236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4252706350,
+      "sizeOfData": 57,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapDecoder_CopyPalette_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "IWICBitmapDecoder_CopyPalette_Proxy"
+    },
+    {
+      "offset": 67374,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4048903083,
+      "sizeOfData": 61,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapCodecInfo_GetMimeTypes_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "IWICBitmapCodecInfo_GetMimeTypes_Proxy"
+    },
+    {
+      "offset": 67516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4059854014,
+      "sizeOfData": 66,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapCodecInfo_GetFileExtensions_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "IWICBitmapCodecInfo_GetFileExtensions_Proxy"
+    },
+    {
+      "offset": 67662,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3558585082,
+      "sizeOfData": 64,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapCodecInfo_GetDeviceModels_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "IWICBitmapCodecInfo_GetDeviceModels_Proxy"
+    },
+    {
+      "offset": 67806,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3633955583,
+      "sizeOfData": 70,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapCodecInfo_GetDeviceManufacturer_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "IWICBitmapCodecInfo_GetDeviceManufacturer_Proxy"
+    },
+    {
+      "offset": 67956,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3429676242,
+      "sizeOfData": 66,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapCodecInfo_GetContainerFormat_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "IWICBitmapCodecInfo_GetContainerFormat_Proxy"
+    },
+    {
+      "offset": 68102,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3872964605,
+      "sizeOfData": 69,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapCodecInfo_DoesSupportMultiframe_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "IWICBitmapCodecInfo_DoesSupportMultiframe_Proxy"
+    },
+    {
+      "offset": 68252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4227133205,
+      "sizeOfData": 67,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapCodecInfo_DoesSupportLossless_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "IWICBitmapCodecInfo_DoesSupportLossless_Proxy"
+    },
+    {
+      "offset": 68400,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3725641195,
+      "sizeOfData": 68,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapCodecInfo_DoesSupportAnimation_Proxy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "IWICBitmapCodecInfo_DoesSupportAnimation_Proxy"
+    },
+    {
+      "offset": 68548,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3552003890,
+      "sizeOfData": 57,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IWICBitmapClipper_Initialize_Proxy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "IWICBitmapClipper_Initialize_Proxy"
+    },
+    {
+      "offset": 68686,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3697534073,
+      "sizeOfData": 48,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IPropertyBag2_Write_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "IPropertyBag2_Write_Proxy"
+    },
+    {
+      "offset": 68814,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4204293950,
+      "sizeOfData": 49,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IEnumString_Reset_WIC_Proxy@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "IEnumString_Reset_WIC_Proxy"
+    },
+    {
+      "offset": 68944,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3227571136,
+      "sizeOfData": 49,
+      "dllName": "WindowsCodecs.dll",
+      "symbolName": "_IEnumString_Next_WIC_Proxy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "IEnumString_Next_WIC_Proxy"
+    }
+  ]
+}

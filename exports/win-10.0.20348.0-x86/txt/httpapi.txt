@@ -1,0 +1,1290 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\httpapi.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     D3A size
+correct header end
+
+    101 public symbols
+
+     1AFE __IMPORT_DESCRIPTOR_HTTPAPI
+     1D28 __NULL_IMPORT_DESCRIPTOR
+     1E5E HTTPAPI_NULL_THUNK_DATA
+     2028 _HttpAddUrl@12
+     2028 __imp__HttpAddUrl@12
+     2F74 _HttpRemoveUrl@8
+     2F74 __imp__HttpRemoveUrl@8
+     2352 _HttpCreateHttpHandle@8
+     2352 __imp__HttpCreateHttpHandle@8
+     23C6 _HttpCreateRequestQueue@20
+     23C6 __imp__HttpCreateRequestQueue@20
+     2180 _HttpCloseRequestQueue@4
+     2180 __imp__HttpCloseRequestQueue@4
+     31C6 _HttpSetRequestQueueProperty@24
+     31C6 __imp__HttpSetRequestQueueProperty@24
+     2B90 _HttpQueryRequestQueueProperty@28
+     2B90 __imp__HttpQueryRequestQueueProperty@28
+     2E7E _HttpReceiveHttpRequest@32
+     2E7E __imp__HttpReceiveHttpRequest@32
+     2EF6 _HttpReceiveRequestEntityBody@32
+     2EF6 __imp__HttpReceiveRequestEntityBody@32
+     305C _HttpSendHttpResponse@44
+     305C __imp__HttpSendHttpResponse@44
+     30D2 _HttpSendResponseEntityBody@44
+     30D2 __imp__HttpSendResponseEntityBody@44
+     3590 _HttpWaitForDisconnect@16
+     3590 __imp__HttpWaitForDisconnect@16
+     3606 _HttpWaitForDisconnectEx@20
+     3606 __imp__HttpWaitForDisconnectEx@20
+     210A _HttpCancelHttpRequest@16
+     210A __imp__HttpCancelHttpRequest@16
+     29C0 _HttpInitialize@12
+     29C0 __imp__HttpInitialize@12
+     342C _HttpTerminate@8
+     342C __imp__HttpTerminate@8
+     24B8 _HttpCreateServerSession@12
+     24B8 __imp__HttpCreateServerSession@12
+     21F6 _HttpCloseServerSession@8
+     21F6 __imp__HttpCloseServerSession@8
+     2C0E _HttpQueryServerSessionProperty@24
+     2C0E __imp__HttpQueryServerSessionProperty@24
+     3242 _HttpSetServerSessionProperty@20
+     3242 __imp__HttpSetServerSessionProperty@20
+     2530 _HttpCreateUrlGroup@16
+     2530 __imp__HttpCreateUrlGroup@16
+     226C _HttpCloseUrlGroup@8
+     226C __imp__HttpCloseUrlGroup@8
+     2094 _HttpAddUrlToUrlGroup@24
+     2094 __imp__HttpAddUrlToUrlGroup@24
+     2FE2 _HttpRemoveUrlFromUrlGroup@16
+     2FE2 __imp__HttpRemoveUrlFromUrlGroup@16
+     2D0C _HttpQueryUrlGroupProperty@24
+     2D0C __imp__HttpQueryUrlGroupProperty@24
+     333C _HttpSetUrlGroupProperty@20
+     333C __imp__HttpSetUrlGroupProperty@20
+     33B4 _HttpShutdownRequestQueue@4
+     33B4 __imp__HttpShutdownRequestQueue@4
+     2866 _HttpFlushResponseCache@16
+     2866 __imp__HttpFlushResponseCache@16
+     351A _HttpWaitForDemandStart@8
+     351A __imp__HttpWaitForDemandStart@8
+     2E00 _HttpReceiveClientCertificate@32
+     2E00 __imp__HttpReceiveClientCertificate@32
+     28DE _HttpGetCounters@24
+     28DE __imp__HttpGetCounters@24
+     1FB0 _HttpAddFragmentToCache@20
+     1FB0 __imp__HttpAddFragmentToCache@20
+     2D86 _HttpReadFragmentFromCache@28
+     2D86 __imp__HttpReadFragmentFromCache@28
+     2C8E _HttpQueryServiceConfiguration@32
+     2C8E __imp__HttpQueryServiceConfiguration@32
+     32C0 _HttpSetServiceConfiguration@20
+     32C0 __imp__HttpSetServiceConfiguration@20
+     349A _HttpUpdateServiceConfiguration@20
+     349A __imp__HttpUpdateServiceConfiguration@20
+     26FE _HttpDeleteServiceConfiguration@20
+     26FE __imp__HttpDeleteServiceConfiguration@20
+     22DE _HttpControlService@20
+     22DE __imp__HttpControlService@20
+     2AA6 _HttpPrepareUrl@16
+     2AA6 __imp__HttpPrepareUrl@16
+     277E _HttpEvaluateRequest@16
+     277E __imp__HttpEvaluateRequest@16
+     25A4 _HttpDeclarePush@28
+     25A4 __imp__HttpDeclarePush@28
+     2614 _HttpDelegateRequest@24
+     2614 __imp__HttpDelegateRequest@24
+     2B16 _HttpQueryRequestProperty@40
+     2B16 __imp__HttpQueryRequestProperty@40
+     294E _HttpGetExtension@16
+     294E __imp__HttpGetExtension@16
+     2688 _HttpDelegateRequestEx@32
+     2688 __imp__HttpDelegateRequestEx@32
+     27F2 _HttpFindUrlGroupId@12
+     27F2 __imp__HttpFindUrlGroupId@12
+     314E _HttpSetRequestProperty@28
+     314E __imp__HttpSetRequestProperty@28
+     2A30 _HttpIsFeatureSupported@4
+     2A30 __imp__HttpIsFeatureSupported@4
+     243E _HttpCreateRequestQueueEx@28
+     243E __imp__HttpCreateRequestQueueEx@28
+
+Archive member name at 1AFE: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1ED size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        C659C43A time date stamp
+             10B file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CD file pointer to raw data (000000CD to 000000E0)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FF file pointer to raw data (000000FF to 0000010A)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 1D28: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        F02AFC5C time date stamp
+              B9 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      64 file pointer to raw data (00000064 to 000000A4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A5 file pointer to raw data (000000A5 to 000000B8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1E5E: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     116 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        FD47A60D time date stamp
+              D5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D1 file pointer to raw data (000000D1 to 000000D4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1FB0: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F75DA101
+  SizeOfData   : 00000027
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpAddFragmentToCache@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : HttpAddFragmentToCache
+
+Archive member name at 2028: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C725E216
+  SizeOfData   : 0000001B
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpAddUrl@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : HttpAddUrl
+
+Archive member name at 2094: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCD29306
+  SizeOfData   : 00000025
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpAddUrlToUrlGroup@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : HttpAddUrlToUrlGroup
+
+Archive member name at 210A: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAB3DEB7
+  SizeOfData   : 00000026
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpCancelHttpRequest@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : HttpCancelHttpRequest
+
+Archive member name at 2180: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC6CD5DB
+  SizeOfData   : 00000025
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpCloseRequestQueue@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : HttpCloseRequestQueue
+
+Archive member name at 21F6: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF3E7E1A
+  SizeOfData   : 00000026
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpCloseServerSession@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : HttpCloseServerSession
+
+Archive member name at 226C: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB9A25C2
+  SizeOfData   : 00000021
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpCloseUrlGroup@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : HttpCloseUrlGroup
+
+Archive member name at 22DE: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5EBE920
+  SizeOfData   : 00000023
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpControlService@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : HttpControlService
+
+Archive member name at 2352: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBA059DE
+  SizeOfData   : 00000024
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpCreateHttpHandle@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : HttpCreateHttpHandle
+
+Archive member name at 23C6: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCBF2BE1
+  SizeOfData   : 00000027
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpCreateRequestQueue@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : HttpCreateRequestQueue
+
+Archive member name at 243E: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2CB5F85
+  SizeOfData   : 00000029
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpCreateRequestQueueEx@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : HttpCreateRequestQueueEx
+
+Archive member name at 24B8: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFED48BF
+  SizeOfData   : 00000028
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpCreateServerSession@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : HttpCreateServerSession
+
+Archive member name at 2530: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB166103
+  SizeOfData   : 00000023
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpCreateUrlGroup@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : HttpCreateUrlGroup
+
+Archive member name at 25A4: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5F37132
+  SizeOfData   : 00000020
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpDeclarePush@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : HttpDeclarePush
+
+Archive member name at 2614: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F787F2E0
+  SizeOfData   : 00000024
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpDelegateRequest@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : HttpDelegateRequest
+
+Archive member name at 2688: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D315336A
+  SizeOfData   : 00000026
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpDelegateRequestEx@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : HttpDelegateRequestEx
+
+Archive member name at 26FE: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEC2B50D
+  SizeOfData   : 0000002F
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpDeleteServiceConfiguration@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : HttpDeleteServiceConfiguration
+
+Archive member name at 277E: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE0FABA7
+  SizeOfData   : 00000024
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpEvaluateRequest@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : HttpEvaluateRequest
+
+Archive member name at 27F2: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6225353
+  SizeOfData   : 00000023
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpFindUrlGroupId@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : HttpFindUrlGroupId
+
+Archive member name at 2866: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0AAC011
+  SizeOfData   : 00000027
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpFlushResponseCache@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : HttpFlushResponseCache
+
+Archive member name at 28DE: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBDE0D00
+  SizeOfData   : 00000020
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpGetCounters@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : HttpGetCounters
+
+Archive member name at 294E: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2A6AB56
+  SizeOfData   : 00000021
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpGetExtension@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : HttpGetExtension
+
+Archive member name at 29C0: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE2FB414
+  SizeOfData   : 0000001F
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpInitialize@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : HttpInitialize
+
+Archive member name at 2A30: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBFB45FA
+  SizeOfData   : 00000026
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpIsFeatureSupported@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : HttpIsFeatureSupported
+
+Archive member name at 2AA6: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D65F33D9
+  SizeOfData   : 0000001F
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpPrepareUrl@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : HttpPrepareUrl
+
+Archive member name at 2B16: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C04CD252
+  SizeOfData   : 00000029
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpQueryRequestProperty@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : HttpQueryRequestProperty
+
+Archive member name at 2B90: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8A9865E
+  SizeOfData   : 0000002E
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpQueryRequestQueueProperty@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : HttpQueryRequestQueueProperty
+
+Archive member name at 2C0E: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D44012D8
+  SizeOfData   : 0000002F
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpQueryServerSessionProperty@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : HttpQueryServerSessionProperty
+
+Archive member name at 2C8E: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E48D3DCE
+  SizeOfData   : 0000002E
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpQueryServiceConfiguration@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : HttpQueryServiceConfiguration
+
+Archive member name at 2D0C: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C02BF42D
+  SizeOfData   : 0000002A
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpQueryUrlGroupProperty@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : HttpQueryUrlGroupProperty
+
+Archive member name at 2D86: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3F71CD4
+  SizeOfData   : 0000002A
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpReadFragmentFromCache@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : HttpReadFragmentFromCache
+
+Archive member name at 2E00: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E753001C
+  SizeOfData   : 0000002D
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpReceiveClientCertificate@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : HttpReceiveClientCertificate
+
+Archive member name at 2E7E: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3E08F4D
+  SizeOfData   : 00000027
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpReceiveHttpRequest@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : HttpReceiveHttpRequest
+
+Archive member name at 2EF6: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE117468
+  SizeOfData   : 0000002D
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpReceiveRequestEntityBody@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : HttpReceiveRequestEntityBody
+
+Archive member name at 2F74: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8290A08
+  SizeOfData   : 0000001D
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpRemoveUrl@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : HttpRemoveUrl
+
+Archive member name at 2FE2: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3595C90
+  SizeOfData   : 0000002A
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpRemoveUrlFromUrlGroup@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : HttpRemoveUrlFromUrlGroup
+
+Archive member name at 305C: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6E273EA
+  SizeOfData   : 00000025
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpSendHttpResponse@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : HttpSendHttpResponse
+
+Archive member name at 30D2: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE56BCD2
+  SizeOfData   : 0000002B
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpSendResponseEntityBody@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : HttpSendResponseEntityBody
+
+Archive member name at 314E: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0E93AFD
+  SizeOfData   : 00000027
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpSetRequestProperty@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : HttpSetRequestProperty
+
+Archive member name at 31C6: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D51A6BF1
+  SizeOfData   : 0000002C
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpSetRequestQueueProperty@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : HttpSetRequestQueueProperty
+
+Archive member name at 3242: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE1DB907
+  SizeOfData   : 0000002D
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpSetServerSessionProperty@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : HttpSetServerSessionProperty
+
+Archive member name at 32C0: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F24D7C0C
+  SizeOfData   : 0000002C
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpSetServiceConfiguration@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : HttpSetServiceConfiguration
+
+Archive member name at 333C: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5F3489C
+  SizeOfData   : 00000028
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpSetUrlGroupProperty@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : HttpSetUrlGroupProperty
+
+Archive member name at 33B4: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFF445B6
+  SizeOfData   : 00000028
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpShutdownRequestQueue@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : HttpShutdownRequestQueue
+
+Archive member name at 342C: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB51A8D4
+  SizeOfData   : 0000001D
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpTerminate@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : HttpTerminate
+
+Archive member name at 349A: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0A55D08
+  SizeOfData   : 0000002F
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpUpdateServiceConfiguration@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : HttpUpdateServiceConfiguration
+
+Archive member name at 351A: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4275C95
+  SizeOfData   : 00000026
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpWaitForDemandStart@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : HttpWaitForDemandStart
+
+Archive member name at 3590: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBF54CAF
+  SizeOfData   : 00000026
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpWaitForDisconnect@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : HttpWaitForDisconnect
+
+Archive member name at 3606: HTTPAPI.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE090DAA
+  SizeOfData   : 00000028
+  DLL name     : HTTPAPI.dll
+  Symbol name  : _HttpWaitForDisconnectEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : HttpWaitForDisconnectEx
+
+     Exports
+
+       ordinal    name
+
+                  _HttpAddFragmentToCache@20
+                  _HttpAddUrl@12
+                  _HttpAddUrlToUrlGroup@24
+                  _HttpCancelHttpRequest@16
+                  _HttpCloseRequestQueue@4
+                  _HttpCloseServerSession@8
+                  _HttpCloseUrlGroup@8
+                  _HttpControlService@20
+                  _HttpCreateHttpHandle@8
+                  _HttpCreateRequestQueue@20
+                  _HttpCreateRequestQueueEx@28
+                  _HttpCreateServerSession@12
+                  _HttpCreateUrlGroup@16
+                  _HttpDeclarePush@28
+                  _HttpDelegateRequest@24
+                  _HttpDelegateRequestEx@32
+                  _HttpDeleteServiceConfiguration@20
+                  _HttpEvaluateRequest@16
+                  _HttpFindUrlGroupId@12
+                  _HttpFlushResponseCache@16
+                  _HttpGetCounters@24
+                  _HttpGetExtension@16
+                  _HttpInitialize@12
+                  _HttpIsFeatureSupported@4
+                  _HttpPrepareUrl@16
+                  _HttpQueryRequestProperty@40
+                  _HttpQueryRequestQueueProperty@28
+                  _HttpQueryServerSessionProperty@24
+                  _HttpQueryServiceConfiguration@32
+                  _HttpQueryUrlGroupProperty@24
+                  _HttpReadFragmentFromCache@28
+                  _HttpReceiveClientCertificate@32
+                  _HttpReceiveHttpRequest@32
+                  _HttpReceiveRequestEntityBody@32
+                  _HttpRemoveUrl@8
+                  _HttpRemoveUrlFromUrlGroup@16
+                  _HttpSendHttpResponse@44
+                  _HttpSendResponseEntityBody@44
+                  _HttpSetRequestProperty@28
+                  _HttpSetRequestQueueProperty@24
+                  _HttpSetServerSessionProperty@20
+                  _HttpSetServiceConfiguration@20
+                  _HttpSetUrlGroupProperty@20
+                  _HttpShutdownRequestQueue@4
+                  _HttpTerminate@8
+                  _HttpUpdateServiceConfiguration@20
+                  _HttpWaitForDemandStart@8
+                  _HttpWaitForDisconnect@16
+                  _HttpWaitForDisconnectEx@20
+
+  Summary
+
+          C3 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

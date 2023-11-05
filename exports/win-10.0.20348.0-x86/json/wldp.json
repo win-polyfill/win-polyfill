@@ -1,0 +1,597 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "?WldpIsAppApprovedByPolicy@@YGJPBG_K@Z (long __stdcall WldpIsAppApprovedByPolicy(unsigned short const *,unsigned __int64))"
+    },
+    {
+      "name": "?WldpQueryPolicySettingEnabled@@YGJW4WLDP_POLICY_SETTING@@PAH@Z (long __stdcall WldpQueryPolicySettingEnabled(enum WLDP_POLICY_SETTING,int *))"
+    },
+    {
+      "name": "?WldpQueryPolicySettingEnabledInternal@@YGJW4WLDP_POLICY_SETTING_INTERNAL@@PAH@Z (long __stdcall WldpQueryPolicySettingEnabledInternal(enum WLDP_POLICY_SETTING_INTERNAL,int *))"
+    },
+    {
+      "name": "?WldpQueryWindowsLockdownMode@@YGJPAW4WLDP_WINDOWS_LOCKDOWN_MODE@@@Z (long __stdcall WldpQueryWindowsLockdownMode(enum WLDP_WINDOWS_LOCKDOWN_MODE *))"
+    },
+    {
+      "name": "?WldpQueryWindowsLockdownRestriction@@YGJPAW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __stdcall WldpQueryWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION *))"
+    },
+    {
+      "name": "?WldpSetWindowsLockdownRestriction@@YGJW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __stdcall WldpSetWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION))"
+    },
+    {
+      "name": "_WldpAddDeveloperCertificateForDynamicCodeTrust@4"
+    },
+    {
+      "name": "_WldpCheckDeviceEncryptionNotStarted@4"
+    },
+    {
+      "name": "_WldpCheckRetailConfiguration@16"
+    },
+    {
+      "name": "_WldpCheckWcosDeviceEncryptionSecure@4"
+    },
+    {
+      "name": "_WldpDisableDeveloperMode@0"
+    },
+    {
+      "name": "_WldpEnableDeveloperMode@4"
+    },
+    {
+      "name": "_WldpGetLockdownPolicy@12"
+    },
+    {
+      "name": "_WldpIsAllowedEntryPoint@16"
+    },
+    {
+      "name": "_WldpIsClassInApprovedList@16"
+    },
+    {
+      "name": "_WldpIsDebugAllowed@8"
+    },
+    {
+      "name": "_WldpIsDynamicCodePolicyEnabled@4"
+    },
+    {
+      "name": "_WldpIsWcosProductionConfiguration@4"
+    },
+    {
+      "name": "_WldpQueryDeviceSecurityInformation@12"
+    },
+    {
+      "name": "_WldpQueryDynamicCodeTrust@12"
+    },
+    {
+      "name": "_WldpQuerySecurityPolicy@24"
+    },
+    {
+      "name": "_WldpResetWcosProductionConfiguration@0"
+    },
+    {
+      "name": "_WldpSetDynamicCodeTrust2@8"
+    },
+    {
+      "name": "_WldpSetDynamicCodeTrust@4"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 4986,
+      "name": "__IMPORT_DESCRIPTOR_Wldp"
+    },
+    {
+      "offset": 5528,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 5836,
+      "name": "Wldp_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 7870,
+      "name": "_WldpGetLockdownPolicy@12"
+    },
+    {
+      "offset": 7870,
+      "name": "__imp__WldpGetLockdownPolicy@12"
+    },
+    {
+      "offset": 8104,
+      "name": "_WldpIsClassInApprovedList@16"
+    },
+    {
+      "offset": 8104,
+      "name": "__imp__WldpIsClassInApprovedList@16"
+    },
+    {
+      "offset": 8224,
+      "name": "_WldpIsDebugAllowed@8"
+    },
+    {
+      "offset": 8224,
+      "name": "__imp__WldpIsDebugAllowed@8"
+    },
+    {
+      "offset": 7386,
+      "name": "_WldpCheckRetailConfiguration@16"
+    },
+    {
+      "offset": 7386,
+      "name": "__imp__WldpCheckRetailConfiguration@16"
+    },
+    {
+      "offset": 7986,
+      "name": "_WldpIsAllowedEntryPoint@16"
+    },
+    {
+      "offset": 7986,
+      "name": "__imp__WldpIsAllowedEntryPoint@16"
+    },
+    {
+      "offset": 8834,
+      "name": "_WldpQuerySecurityPolicy@24"
+    },
+    {
+      "offset": 8834,
+      "name": "__imp__WldpQuerySecurityPolicy@24"
+    },
+    {
+      "offset": 8336,
+      "name": "_WldpIsDynamicCodePolicyEnabled@4"
+    },
+    {
+      "offset": 8336,
+      "name": "__imp__WldpIsDynamicCodePolicyEnabled@4"
+    },
+    {
+      "offset": 9200,
+      "name": "_WldpSetDynamicCodeTrust@4"
+    },
+    {
+      "offset": 9200,
+      "name": "__imp__WldpSetDynamicCodeTrust@4"
+    },
+    {
+      "offset": 8714,
+      "name": "_WldpQueryDynamicCodeTrust@12"
+    },
+    {
+      "offset": 8714,
+      "name": "__imp__WldpQueryDynamicCodeTrust@12"
+    },
+    {
+      "offset": 6296,
+      "name": "?WldpQueryPolicySettingEnabled@@YGJW4WLDP_POLICY_SETTING@@PAH@Z"
+    },
+    {
+      "offset": 6296,
+      "name": "__imp_?WldpQueryPolicySettingEnabled@@YGJW4WLDP_POLICY_SETTING@@PAH@Z"
+    },
+    {
+      "offset": 6450,
+      "name": "?WldpQueryPolicySettingEnabledInternal@@YGJW4WLDP_POLICY_SETTING_INTERNAL@@PAH@Z"
+    },
+    {
+      "offset": 6450,
+      "name": "__imp_?WldpQueryPolicySettingEnabledInternal@@YGJW4WLDP_POLICY_SETTING_INTERNAL@@PAH@Z"
+    },
+    {
+      "offset": 6620,
+      "name": "?WldpQueryWindowsLockdownMode@@YGJPAW4WLDP_WINDOWS_LOCKDOWN_MODE@@@Z"
+    },
+    {
+      "offset": 6620,
+      "name": "__imp_?WldpQueryWindowsLockdownMode@@YGJPAW4WLDP_WINDOWS_LOCKDOWN_MODE@@@Z"
+    },
+    {
+      "offset": 9082,
+      "name": "_WldpSetDynamicCodeTrust2@8"
+    },
+    {
+      "offset": 9082,
+      "name": "__imp__WldpSetDynamicCodeTrust2@8"
+    },
+    {
+      "offset": 7754,
+      "name": "_WldpEnableDeveloperMode@4"
+    },
+    {
+      "offset": 7754,
+      "name": "__imp__WldpEnableDeveloperMode@4"
+    },
+    {
+      "offset": 7636,
+      "name": "_WldpDisableDeveloperMode@0"
+    },
+    {
+      "offset": 7636,
+      "name": "__imp__WldpDisableDeveloperMode@0"
+    },
+    {
+      "offset": 6950,
+      "name": "?WldpSetWindowsLockdownRestriction@@YGJW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z"
+    },
+    {
+      "offset": 6950,
+      "name": "__imp_?WldpSetWindowsLockdownRestriction@@YGJW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z"
+    },
+    {
+      "offset": 6778,
+      "name": "?WldpQueryWindowsLockdownRestriction@@YGJPAW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z"
+    },
+    {
+      "offset": 6778,
+      "name": "__imp_?WldpQueryWindowsLockdownRestriction@@YGJPAW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z"
+    },
+    {
+      "offset": 6168,
+      "name": "?WldpIsAppApprovedByPolicy@@YGJPBG_K@Z"
+    },
+    {
+      "offset": 6168,
+      "name": "__imp_?WldpIsAppApprovedByPolicy@@YGJPBG_K@Z"
+    },
+    {
+      "offset": 7118,
+      "name": "_WldpAddDeveloperCertificateForDynamicCodeTrust@4"
+    },
+    {
+      "offset": 7118,
+      "name": "__imp__WldpAddDeveloperCertificateForDynamicCodeTrust@4"
+    },
+    {
+      "offset": 8460,
+      "name": "_WldpIsWcosProductionConfiguration@4"
+    },
+    {
+      "offset": 8460,
+      "name": "__imp__WldpIsWcosProductionConfiguration@4"
+    },
+    {
+      "offset": 8952,
+      "name": "_WldpResetWcosProductionConfiguration@0"
+    },
+    {
+      "offset": 8952,
+      "name": "__imp__WldpResetWcosProductionConfiguration@0"
+    },
+    {
+      "offset": 7258,
+      "name": "_WldpCheckDeviceEncryptionNotStarted@4"
+    },
+    {
+      "offset": 7258,
+      "name": "__imp__WldpCheckDeviceEncryptionNotStarted@4"
+    },
+    {
+      "offset": 7508,
+      "name": "_WldpCheckWcosDeviceEncryptionSecure@4"
+    },
+    {
+      "offset": 7508,
+      "name": "__imp__WldpCheckWcosDeviceEncryptionSecure@4"
+    },
+    {
+      "offset": 8586,
+      "name": "_WldpQueryDeviceSecurityInformation@12"
+    },
+    {
+      "offset": 8586,
+      "name": "__imp__WldpQueryDeviceSecurityInformation@12"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 6168,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3922034439,
+      "sizeOfData": 48,
+      "dllName": "Wldp.dll",
+      "symbolName": "?WldpIsAppApprovedByPolicy@@YGJPBG_K@Z (long __stdcall WldpIsAppApprovedByPolicy(unsigned short const *,unsigned __int64))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "WldpIsAppApprovedByPolicy"
+    },
+    {
+      "offset": 6296,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3999809309,
+      "sizeOfData": 73,
+      "dllName": "Wldp.dll",
+      "symbolName": "?WldpQueryPolicySettingEnabled@@YGJW4WLDP_POLICY_SETTING@@PAH@Z (long __stdcall WldpQueryPolicySettingEnabled(enum WLDP_POLICY_SETTING,int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "WldpQueryPolicySettingEnabled"
+    },
+    {
+      "offset": 6450,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3402684831,
+      "sizeOfData": 90,
+      "dllName": "Wldp.dll",
+      "symbolName": "?WldpQueryPolicySettingEnabledInternal@@YGJW4WLDP_POLICY_SETTING_INTERNAL@@PAH@Z (long __stdcall WldpQueryPolicySettingEnabledInternal(enum WLDP_POLICY_SETTING_INTERNAL,int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "WldpQueryPolicySettingEnabledInternal"
+    },
+    {
+      "offset": 6620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4209867538,
+      "sizeOfData": 78,
+      "dllName": "Wldp.dll",
+      "symbolName": "?WldpQueryWindowsLockdownMode@@YGJPAW4WLDP_WINDOWS_LOCKDOWN_MODE@@@Z (long __stdcall WldpQueryWindowsLockdownMode(enum WLDP_WINDOWS_LOCKDOWN_MODE *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "WldpQueryWindowsLockdownMode"
+    },
+    {
+      "offset": 6778,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3438160868,
+      "sizeOfData": 92,
+      "dllName": "Wldp.dll",
+      "symbolName": "?WldpQueryWindowsLockdownRestriction@@YGJPAW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __stdcall WldpQueryWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "WldpQueryWindowsLockdownRestriction"
+    },
+    {
+      "offset": 6950,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3685640450,
+      "sizeOfData": 88,
+      "dllName": "Wldp.dll",
+      "symbolName": "?WldpSetWindowsLockdownRestriction@@YGJW4WLDP_WINDOWS_LOCKDOWN_RESTRICTION@@@Z (long __stdcall WldpSetWindowsLockdownRestriction(enum WLDP_WINDOWS_LOCKDOWN_RESTRICTION))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "WldpSetWindowsLockdownRestriction"
+    },
+    {
+      "offset": 7118,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3719609266,
+      "sizeOfData": 59,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpAddDeveloperCertificateForDynamicCodeTrust@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "WldpAddDeveloperCertificateForDynamicCodeTrust"
+    },
+    {
+      "offset": 7258,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3247114606,
+      "sizeOfData": 48,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpCheckDeviceEncryptionNotStarted@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "WldpCheckDeviceEncryptionNotStarted"
+    },
+    {
+      "offset": 7386,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3611315692,
+      "sizeOfData": 42,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpCheckRetailConfiguration@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "WldpCheckRetailConfiguration"
+    },
+    {
+      "offset": 7508,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3690969499,
+      "sizeOfData": 48,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpCheckWcosDeviceEncryptionSecure@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "WldpCheckWcosDeviceEncryptionSecure"
+    },
+    {
+      "offset": 7636,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3844734063,
+      "sizeOfData": 37,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpDisableDeveloperMode@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "WldpDisableDeveloperMode"
+    },
+    {
+      "offset": 7754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3370888756,
+      "sizeOfData": 36,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpEnableDeveloperMode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "WldpEnableDeveloperMode"
+    },
+    {
+      "offset": 7870,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3581153057,
+      "sizeOfData": 35,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpGetLockdownPolicy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "WldpGetLockdownPolicy"
+    },
+    {
+      "offset": 7986,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3256676695,
+      "sizeOfData": 37,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpIsAllowedEntryPoint@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "WldpIsAllowedEntryPoint"
+    },
+    {
+      "offset": 8104,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3542574377,
+      "sizeOfData": 39,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpIsClassInApprovedList@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "WldpIsClassInApprovedList"
+    },
+    {
+      "offset": 8224,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3373921225,
+      "sizeOfData": 31,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpIsDebugAllowed@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "WldpIsDebugAllowed"
+    },
+    {
+      "offset": 8336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3654640567,
+      "sizeOfData": 43,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpIsDynamicCodePolicyEnabled@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "WldpIsDynamicCodePolicyEnabled"
+    },
+    {
+      "offset": 8460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3755675996,
+      "sizeOfData": 46,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpIsWcosProductionConfiguration@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "WldpIsWcosProductionConfiguration"
+    },
+    {
+      "offset": 8586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3841217293,
+      "sizeOfData": 48,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpQueryDeviceSecurityInformation@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "WldpQueryDeviceSecurityInformation"
+    },
+    {
+      "offset": 8714,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4259813504,
+      "sizeOfData": 39,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpQueryDynamicCodeTrust@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "WldpQueryDynamicCodeTrust"
+    },
+    {
+      "offset": 8834,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4112313338,
+      "sizeOfData": 37,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpQuerySecurityPolicy@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "WldpQuerySecurityPolicy"
+    },
+    {
+      "offset": 8952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3464311956,
+      "sizeOfData": 49,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpResetWcosProductionConfiguration@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "WldpResetWcosProductionConfiguration"
+    },
+    {
+      "offset": 9082,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3274939117,
+      "sizeOfData": 37,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpSetDynamicCodeTrust2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "WldpSetDynamicCodeTrust2"
+    },
+    {
+      "offset": 9200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3328681582,
+      "sizeOfData": 36,
+      "dllName": "Wldp.dll",
+      "symbolName": "_WldpSetDynamicCodeTrust@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "WldpSetDynamicCodeTrust"
+    }
+  ]
+}

@@ -1,0 +1,2253 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_AcceptSecurityContext@36"
+    },
+    {
+      "name": "_AcquireCredentialsHandleA@36"
+    },
+    {
+      "name": "_AcquireCredentialsHandleW@36"
+    },
+    {
+      "name": "_AddCredentialsA@32"
+    },
+    {
+      "name": "_AddCredentialsW@32"
+    },
+    {
+      "name": "_AddSecurityPackageA@8"
+    },
+    {
+      "name": "_AddSecurityPackageW@8"
+    },
+    {
+      "name": "_ApplyControlToken@8"
+    },
+    {
+      "name": "_ChangeAccountPasswordA@32"
+    },
+    {
+      "name": "_ChangeAccountPasswordW@32"
+    },
+    {
+      "name": "_CompleteAuthToken@8"
+    },
+    {
+      "name": "_DecryptMessage@16"
+    },
+    {
+      "name": "_DeleteSecurityContext@4"
+    },
+    {
+      "name": "_DeleteSecurityPackageA@4"
+    },
+    {
+      "name": "_DeleteSecurityPackageW@4"
+    },
+    {
+      "name": "_EncryptMessage@16"
+    },
+    {
+      "name": "_EnumerateSecurityPackagesA@8"
+    },
+    {
+      "name": "_EnumerateSecurityPackagesW@8"
+    },
+    {
+      "name": "_ExportSecurityContext@16"
+    },
+    {
+      "name": "_FreeContextBuffer@4"
+    },
+    {
+      "name": "_FreeCredentialsHandle@4"
+    },
+    {
+      "name": "_GetComputerObjectNameA@12"
+    },
+    {
+      "name": "_GetComputerObjectNameW@12"
+    },
+    {
+      "name": "_GetSecurityUserInfo@12"
+    },
+    {
+      "name": "_GetUserNameExA@12"
+    },
+    {
+      "name": "_GetUserNameExW@12"
+    },
+    {
+      "name": "_ImpersonateSecurityContext@4"
+    },
+    {
+      "name": "_ImportSecurityContextA@16"
+    },
+    {
+      "name": "_ImportSecurityContextW@16"
+    },
+    {
+      "name": "_InitSecurityInterfaceA@0"
+    },
+    {
+      "name": "_InitSecurityInterfaceW@0"
+    },
+    {
+      "name": "_InitializeSecurityContextA@48"
+    },
+    {
+      "name": "_InitializeSecurityContextW@48"
+    },
+    {
+      "name": "_LsaCallAuthenticationPackage@28"
+    },
+    {
+      "name": "_LsaConnectUntrusted@4"
+    },
+    {
+      "name": "_LsaDeregisterLogonProcess@4"
+    },
+    {
+      "name": "_LsaEnumerateLogonSessions@8"
+    },
+    {
+      "name": "_LsaFreeReturnBuffer@4"
+    },
+    {
+      "name": "_LsaGetLogonSessionData@8"
+    },
+    {
+      "name": "_LsaLogonUser@56"
+    },
+    {
+      "name": "_LsaLookupAuthenticationPackage@12"
+    },
+    {
+      "name": "_LsaRegisterLogonProcess@12"
+    },
+    {
+      "name": "_LsaRegisterPolicyChangeNotification@8"
+    },
+    {
+      "name": "_LsaUnregisterPolicyChangeNotification@8"
+    },
+    {
+      "name": "_MakeSignature@16"
+    },
+    {
+      "name": "_QueryContextAttributesA@12"
+    },
+    {
+      "name": "_QueryContextAttributesW@12"
+    },
+    {
+      "name": "_QueryCredentialsAttributesA@12"
+    },
+    {
+      "name": "_QueryCredentialsAttributesW@12"
+    },
+    {
+      "name": "_QuerySecurityContextToken@8"
+    },
+    {
+      "name": "_QuerySecurityPackageInfoA@8"
+    },
+    {
+      "name": "_QuerySecurityPackageInfoW@8"
+    },
+    {
+      "name": "_RevertSecurityContext@4"
+    },
+    {
+      "name": "_SaslAcceptSecurityContext@36"
+    },
+    {
+      "name": "_SaslEnumerateProfilesA@8"
+    },
+    {
+      "name": "_SaslEnumerateProfilesW@8"
+    },
+    {
+      "name": "_SaslGetContextOption@20"
+    },
+    {
+      "name": "_SaslGetProfilePackageA@8"
+    },
+    {
+      "name": "_SaslGetProfilePackageW@8"
+    },
+    {
+      "name": "_SaslIdentifyPackageA@8"
+    },
+    {
+      "name": "_SaslIdentifyPackageW@8"
+    },
+    {
+      "name": "_SaslInitializeSecurityContextA@48"
+    },
+    {
+      "name": "_SaslInitializeSecurityContextW@48"
+    },
+    {
+      "name": "_SaslSetContextOption@16"
+    },
+    {
+      "name": "_SealMessage@16"
+    },
+    {
+      "name": "_SeciAllocateAndSetCallFlags@8"
+    },
+    {
+      "name": "_SeciAllocateAndSetIPAddress@12"
+    },
+    {
+      "name": "_SeciFreeCallContext@0"
+    },
+    {
+      "name": "_SetContextAttributesA@16"
+    },
+    {
+      "name": "_SetContextAttributesW@16"
+    },
+    {
+      "name": "_SetCredentialsAttributesA@16"
+    },
+    {
+      "name": "_SetCredentialsAttributesW@16"
+    },
+    {
+      "name": "_SspiCompareAuthIdentities@16"
+    },
+    {
+      "name": "_SspiCopyAuthIdentity@8"
+    },
+    {
+      "name": "_SspiDecryptAuthIdentity@4"
+    },
+    {
+      "name": "_SspiEncodeAuthIdentityAsStrings@16"
+    },
+    {
+      "name": "_SspiEncodeStringsAsAuthIdentity@16"
+    },
+    {
+      "name": "_SspiEncryptAuthIdentity@4"
+    },
+    {
+      "name": "_SspiExcludePackage@12"
+    },
+    {
+      "name": "_SspiFreeAuthIdentity@4"
+    },
+    {
+      "name": "_SspiGetTargetHostName@8"
+    },
+    {
+      "name": "_SspiIsAuthIdentityEncrypted@4"
+    },
+    {
+      "name": "_SspiLocalFree@4"
+    },
+    {
+      "name": "_SspiMarshalAuthIdentity@12"
+    },
+    {
+      "name": "_SspiPrepareForCredRead@16"
+    },
+    {
+      "name": "_SspiPrepareForCredWrite@28"
+    },
+    {
+      "name": "_SspiUnmarshalAuthIdentity@12"
+    },
+    {
+      "name": "_SspiValidateAuthIdentity@4"
+    },
+    {
+      "name": "_SspiZeroAuthIdentity@4"
+    },
+    {
+      "name": "_TranslateNameA@20"
+    },
+    {
+      "name": "_TranslateNameW@20"
+    },
+    {
+      "name": "_UnsealMessage@16"
+    },
+    {
+      "name": "_VerifySignature@16"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 12766,
+      "name": "__IMPORT_DESCRIPTOR_Secur32"
+    },
+    {
+      "offset": 13320,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 13630,
+      "name": "Secur32_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 24584,
+      "name": "_TranslateNameA@20"
+    },
+    {
+      "offset": 24584,
+      "name": "__imp__TranslateNameA@20"
+    },
+    {
+      "offset": 24696,
+      "name": "_TranslateNameW@20"
+    },
+    {
+      "offset": 24696,
+      "name": "__imp__TranslateNameW@20"
+    },
+    {
+      "offset": 16426,
+      "name": "_GetComputerObjectNameA@12"
+    },
+    {
+      "offset": 16426,
+      "name": "__imp__GetComputerObjectNameA@12"
+    },
+    {
+      "offset": 16546,
+      "name": "_GetComputerObjectNameW@12"
+    },
+    {
+      "offset": 16546,
+      "name": "__imp__GetComputerObjectNameW@12"
+    },
+    {
+      "offset": 17486,
+      "name": "_InitSecurityInterfaceW@0"
+    },
+    {
+      "offset": 17486,
+      "name": "__imp__InitSecurityInterfaceW@0"
+    },
+    {
+      "offset": 17368,
+      "name": "_InitSecurityInterfaceA@0"
+    },
+    {
+      "offset": 17368,
+      "name": "__imp__InitSecurityInterfaceA@0"
+    },
+    {
+      "offset": 20038,
+      "name": "_QuerySecurityPackageInfoW@8"
+    },
+    {
+      "offset": 20038,
+      "name": "__imp__QuerySecurityPackageInfoW@8"
+    },
+    {
+      "offset": 19916,
+      "name": "_QuerySecurityPackageInfoA@8"
+    },
+    {
+      "offset": 19916,
+      "name": "__imp__QuerySecurityPackageInfoA@8"
+    },
+    {
+      "offset": 15954,
+      "name": "_EnumerateSecurityPackagesW@8"
+    },
+    {
+      "offset": 15954,
+      "name": "__imp__EnumerateSecurityPackagesW@8"
+    },
+    {
+      "offset": 15832,
+      "name": "_EnumerateSecurityPackagesA@8"
+    },
+    {
+      "offset": 15832,
+      "name": "__imp__EnumerateSecurityPackagesA@8"
+    },
+    {
+      "offset": 14208,
+      "name": "_AcquireCredentialsHandleW@36"
+    },
+    {
+      "offset": 14208,
+      "name": "__imp__AcquireCredentialsHandleW@36"
+    },
+    {
+      "offset": 14086,
+      "name": "_AcquireCredentialsHandleA@36"
+    },
+    {
+      "offset": 14086,
+      "name": "__imp__AcquireCredentialsHandleA@36"
+    },
+    {
+      "offset": 17728,
+      "name": "_InitializeSecurityContextW@48"
+    },
+    {
+      "offset": 17728,
+      "name": "__imp__InitializeSecurityContextW@48"
+    },
+    {
+      "offset": 17604,
+      "name": "_InitializeSecurityContextA@48"
+    },
+    {
+      "offset": 17604,
+      "name": "__imp__InitializeSecurityContextA@48"
+    },
+    {
+      "offset": 19426,
+      "name": "_QueryContextAttributesW@12"
+    },
+    {
+      "offset": 19426,
+      "name": "__imp__QueryContextAttributesW@12"
+    },
+    {
+      "offset": 19306,
+      "name": "_QueryContextAttributesA@12"
+    },
+    {
+      "offset": 19306,
+      "name": "__imp__QueryContextAttributesA@12"
+    },
+    {
+      "offset": 22186,
+      "name": "_SetContextAttributesW@16"
+    },
+    {
+      "offset": 22186,
+      "name": "__imp__SetContextAttributesW@16"
+    },
+    {
+      "offset": 22068,
+      "name": "_SetContextAttributesA@16"
+    },
+    {
+      "offset": 22068,
+      "name": "__imp__SetContextAttributesA@16"
+    },
+    {
+      "offset": 19670,
+      "name": "_QueryCredentialsAttributesW@12"
+    },
+    {
+      "offset": 19670,
+      "name": "__imp__QueryCredentialsAttributesW@12"
+    },
+    {
+      "offset": 19546,
+      "name": "_QueryCredentialsAttributesA@12"
+    },
+    {
+      "offset": 19546,
+      "name": "__imp__QueryCredentialsAttributesA@12"
+    },
+    {
+      "offset": 22426,
+      "name": "_SetCredentialsAttributesW@16"
+    },
+    {
+      "offset": 22426,
+      "name": "__imp__SetCredentialsAttributesW@16"
+    },
+    {
+      "offset": 22304,
+      "name": "_SetCredentialsAttributesA@16"
+    },
+    {
+      "offset": 22304,
+      "name": "__imp__SetCredentialsAttributesA@16"
+    },
+    {
+      "offset": 14442,
+      "name": "_AddCredentialsW@32"
+    },
+    {
+      "offset": 14442,
+      "name": "__imp__AddCredentialsW@32"
+    },
+    {
+      "offset": 14330,
+      "name": "_AddCredentialsA@32"
+    },
+    {
+      "offset": 14330,
+      "name": "__imp__AddCredentialsA@32"
+    },
+    {
+      "offset": 16308,
+      "name": "_FreeCredentialsHandle@4"
+    },
+    {
+      "offset": 16308,
+      "name": "__imp__FreeCredentialsHandle@4"
+    },
+    {
+      "offset": 13968,
+      "name": "_AcceptSecurityContext@36"
+    },
+    {
+      "offset": 13968,
+      "name": "__imp__AcceptSecurityContext@36"
+    },
+    {
+      "offset": 15366,
+      "name": "_DeleteSecurityContext@4"
+    },
+    {
+      "offset": 15366,
+      "name": "__imp__DeleteSecurityContext@4"
+    },
+    {
+      "offset": 14786,
+      "name": "_ApplyControlToken@8"
+    },
+    {
+      "offset": 14786,
+      "name": "__imp__ApplyControlToken@8"
+    },
+    {
+      "offset": 15140,
+      "name": "_CompleteAuthToken@8"
+    },
+    {
+      "offset": 15140,
+      "name": "__imp__CompleteAuthToken@8"
+    },
+    {
+      "offset": 19196,
+      "name": "_MakeSignature@16"
+    },
+    {
+      "offset": 19196,
+      "name": "__imp__MakeSignature@16"
+    },
+    {
+      "offset": 24918,
+      "name": "_VerifySignature@16"
+    },
+    {
+      "offset": 24918,
+      "name": "__imp__VerifySignature@16"
+    },
+    {
+      "offset": 21596,
+      "name": "_SealMessage@16"
+    },
+    {
+      "offset": 21596,
+      "name": "__imp__SealMessage@16"
+    },
+    {
+      "offset": 24808,
+      "name": "_UnsealMessage@16"
+    },
+    {
+      "offset": 24808,
+      "name": "__imp__UnsealMessage@16"
+    },
+    {
+      "offset": 15720,
+      "name": "_EncryptMessage@16"
+    },
+    {
+      "offset": 15720,
+      "name": "__imp__EncryptMessage@16"
+    },
+    {
+      "offset": 15254,
+      "name": "_DecryptMessage@16"
+    },
+    {
+      "offset": 15254,
+      "name": "__imp__DecryptMessage@16"
+    },
+    {
+      "offset": 16076,
+      "name": "_ExportSecurityContext@16"
+    },
+    {
+      "offset": 16076,
+      "name": "__imp__ExportSecurityContext@16"
+    },
+    {
+      "offset": 17128,
+      "name": "_ImportSecurityContextA@16"
+    },
+    {
+      "offset": 17128,
+      "name": "__imp__ImportSecurityContextA@16"
+    },
+    {
+      "offset": 17248,
+      "name": "_ImportSecurityContextW@16"
+    },
+    {
+      "offset": 17248,
+      "name": "__imp__ImportSecurityContextW@16"
+    },
+    {
+      "offset": 17006,
+      "name": "_ImpersonateSecurityContext@4"
+    },
+    {
+      "offset": 17006,
+      "name": "__imp__ImpersonateSecurityContext@4"
+    },
+    {
+      "offset": 20160,
+      "name": "_RevertSecurityContext@4"
+    },
+    {
+      "offset": 20160,
+      "name": "__imp__RevertSecurityContext@4"
+    },
+    {
+      "offset": 16194,
+      "name": "_FreeContextBuffer@4"
+    },
+    {
+      "offset": 16194,
+      "name": "__imp__FreeContextBuffer@4"
+    },
+    {
+      "offset": 19794,
+      "name": "_QuerySecurityContextToken@8"
+    },
+    {
+      "offset": 19794,
+      "name": "__imp__QuerySecurityContextToken@8"
+    },
+    {
+      "offset": 16666,
+      "name": "_GetSecurityUserInfo@12"
+    },
+    {
+      "offset": 16666,
+      "name": "__imp__GetSecurityUserInfo@12"
+    },
+    {
+      "offset": 14670,
+      "name": "_AddSecurityPackageW@8"
+    },
+    {
+      "offset": 14670,
+      "name": "__imp__AddSecurityPackageW@8"
+    },
+    {
+      "offset": 14554,
+      "name": "_AddSecurityPackageA@8"
+    },
+    {
+      "offset": 14554,
+      "name": "__imp__AddSecurityPackageA@8"
+    },
+    {
+      "offset": 15602,
+      "name": "_DeleteSecurityPackageW@4"
+    },
+    {
+      "offset": 15602,
+      "name": "__imp__DeleteSecurityPackageW@4"
+    },
+    {
+      "offset": 15484,
+      "name": "_DeleteSecurityPackageA@4"
+    },
+    {
+      "offset": 15484,
+      "name": "__imp__DeleteSecurityPackageA@4"
+    },
+    {
+      "offset": 18810,
+      "name": "_LsaRegisterLogonProcess@12"
+    },
+    {
+      "offset": 18810,
+      "name": "__imp__LsaRegisterLogonProcess@12"
+    },
+    {
+      "offset": 18682,
+      "name": "_LsaLookupAuthenticationPackage@12"
+    },
+    {
+      "offset": 18682,
+      "name": "__imp__LsaLookupAuthenticationPackage@12"
+    },
+    {
+      "offset": 18338,
+      "name": "_LsaFreeReturnBuffer@4"
+    },
+    {
+      "offset": 18338,
+      "name": "__imp__LsaFreeReturnBuffer@4"
+    },
+    {
+      "offset": 18094,
+      "name": "_LsaDeregisterLogonProcess@4"
+    },
+    {
+      "offset": 18094,
+      "name": "__imp__LsaDeregisterLogonProcess@4"
+    },
+    {
+      "offset": 17852,
+      "name": "_LsaCallAuthenticationPackage@28"
+    },
+    {
+      "offset": 17852,
+      "name": "__imp__LsaCallAuthenticationPackage@28"
+    },
+    {
+      "offset": 18572,
+      "name": "_LsaLogonUser@56"
+    },
+    {
+      "offset": 18572,
+      "name": "__imp__LsaLogonUser@56"
+    },
+    {
+      "offset": 17978,
+      "name": "_LsaConnectUntrusted@4"
+    },
+    {
+      "offset": 17978,
+      "name": "__imp__LsaConnectUntrusted@4"
+    },
+    {
+      "offset": 18930,
+      "name": "_LsaRegisterPolicyChangeNotification@8"
+    },
+    {
+      "offset": 18930,
+      "name": "__imp__LsaRegisterPolicyChangeNotification@8"
+    },
+    {
+      "offset": 19062,
+      "name": "_LsaUnregisterPolicyChangeNotification@8"
+    },
+    {
+      "offset": 19062,
+      "name": "__imp__LsaUnregisterPolicyChangeNotification@8"
+    },
+    {
+      "offset": 18216,
+      "name": "_LsaEnumerateLogonSessions@8"
+    },
+    {
+      "offset": 18216,
+      "name": "__imp__LsaEnumerateLogonSessions@8"
+    },
+    {
+      "offset": 18454,
+      "name": "_LsaGetLogonSessionData@8"
+    },
+    {
+      "offset": 18454,
+      "name": "__imp__LsaGetLogonSessionData@8"
+    },
+    {
+      "offset": 16782,
+      "name": "_GetUserNameExA@12"
+    },
+    {
+      "offset": 16782,
+      "name": "__imp__GetUserNameExA@12"
+    },
+    {
+      "offset": 16894,
+      "name": "_GetUserNameExW@12"
+    },
+    {
+      "offset": 16894,
+      "name": "__imp__GetUserNameExW@12"
+    },
+    {
+      "offset": 20400,
+      "name": "_SaslEnumerateProfilesA@8"
+    },
+    {
+      "offset": 20400,
+      "name": "__imp__SaslEnumerateProfilesA@8"
+    },
+    {
+      "offset": 20518,
+      "name": "_SaslEnumerateProfilesW@8"
+    },
+    {
+      "offset": 20518,
+      "name": "__imp__SaslEnumerateProfilesW@8"
+    },
+    {
+      "offset": 20754,
+      "name": "_SaslGetProfilePackageA@8"
+    },
+    {
+      "offset": 20754,
+      "name": "__imp__SaslGetProfilePackageA@8"
+    },
+    {
+      "offset": 20872,
+      "name": "_SaslGetProfilePackageW@8"
+    },
+    {
+      "offset": 20872,
+      "name": "__imp__SaslGetProfilePackageW@8"
+    },
+    {
+      "offset": 20990,
+      "name": "_SaslIdentifyPackageA@8"
+    },
+    {
+      "offset": 20990,
+      "name": "__imp__SaslIdentifyPackageA@8"
+    },
+    {
+      "offset": 21106,
+      "name": "_SaslIdentifyPackageW@8"
+    },
+    {
+      "offset": 21106,
+      "name": "__imp__SaslIdentifyPackageW@8"
+    },
+    {
+      "offset": 21222,
+      "name": "_SaslInitializeSecurityContextA@48"
+    },
+    {
+      "offset": 21222,
+      "name": "__imp__SaslInitializeSecurityContextA@48"
+    },
+    {
+      "offset": 21350,
+      "name": "_SaslInitializeSecurityContextW@48"
+    },
+    {
+      "offset": 21350,
+      "name": "__imp__SaslInitializeSecurityContextW@48"
+    },
+    {
+      "offset": 20278,
+      "name": "_SaslAcceptSecurityContext@36"
+    },
+    {
+      "offset": 20278,
+      "name": "__imp__SaslAcceptSecurityContext@36"
+    },
+    {
+      "offset": 20636,
+      "name": "_SaslGetContextOption@20"
+    },
+    {
+      "offset": 20636,
+      "name": "__imp__SaslGetContextOption@20"
+    },
+    {
+      "offset": 21478,
+      "name": "_SaslSetContextOption@16"
+    },
+    {
+      "offset": 21478,
+      "name": "__imp__SaslSetContextOption@16"
+    },
+    {
+      "offset": 21828,
+      "name": "_SeciAllocateAndSetIPAddress@12"
+    },
+    {
+      "offset": 21828,
+      "name": "__imp__SeciAllocateAndSetIPAddress@12"
+    },
+    {
+      "offset": 21704,
+      "name": "_SeciAllocateAndSetCallFlags@8"
+    },
+    {
+      "offset": 21704,
+      "name": "__imp__SeciAllocateAndSetCallFlags@8"
+    },
+    {
+      "offset": 21952,
+      "name": "_SeciFreeCallContext@0"
+    },
+    {
+      "offset": 21952,
+      "name": "__imp__SeciFreeCallContext@0"
+    },
+    {
+      "offset": 14900,
+      "name": "_ChangeAccountPasswordA@32"
+    },
+    {
+      "offset": 14900,
+      "name": "__imp__ChangeAccountPasswordA@32"
+    },
+    {
+      "offset": 15020,
+      "name": "_ChangeAccountPasswordW@32"
+    },
+    {
+      "offset": 15020,
+      "name": "__imp__ChangeAccountPasswordW@32"
+    },
+    {
+      "offset": 22548,
+      "name": "_SspiCompareAuthIdentities@16"
+    },
+    {
+      "offset": 22548,
+      "name": "__imp__SspiCompareAuthIdentities@16"
+    },
+    {
+      "offset": 22670,
+      "name": "_SspiCopyAuthIdentity@8"
+    },
+    {
+      "offset": 22670,
+      "name": "__imp__SspiCopyAuthIdentity@8"
+    },
+    {
+      "offset": 22786,
+      "name": "_SspiDecryptAuthIdentity@4"
+    },
+    {
+      "offset": 22786,
+      "name": "__imp__SspiDecryptAuthIdentity@4"
+    },
+    {
+      "offset": 22906,
+      "name": "_SspiEncodeAuthIdentityAsStrings@16"
+    },
+    {
+      "offset": 22906,
+      "name": "__imp__SspiEncodeAuthIdentityAsStrings@16"
+    },
+    {
+      "offset": 23034,
+      "name": "_SspiEncodeStringsAsAuthIdentity@16"
+    },
+    {
+      "offset": 23034,
+      "name": "__imp__SspiEncodeStringsAsAuthIdentity@16"
+    },
+    {
+      "offset": 23162,
+      "name": "_SspiEncryptAuthIdentity@4"
+    },
+    {
+      "offset": 23162,
+      "name": "__imp__SspiEncryptAuthIdentity@4"
+    },
+    {
+      "offset": 23398,
+      "name": "_SspiFreeAuthIdentity@4"
+    },
+    {
+      "offset": 23398,
+      "name": "__imp__SspiFreeAuthIdentity@4"
+    },
+    {
+      "offset": 23632,
+      "name": "_SspiIsAuthIdentityEncrypted@4"
+    },
+    {
+      "offset": 23632,
+      "name": "__imp__SspiIsAuthIdentityEncrypted@4"
+    },
+    {
+      "offset": 23866,
+      "name": "_SspiMarshalAuthIdentity@12"
+    },
+    {
+      "offset": 23866,
+      "name": "__imp__SspiMarshalAuthIdentity@12"
+    },
+    {
+      "offset": 24226,
+      "name": "_SspiUnmarshalAuthIdentity@12"
+    },
+    {
+      "offset": 24226,
+      "name": "__imp__SspiUnmarshalAuthIdentity@12"
+    },
+    {
+      "offset": 24348,
+      "name": "_SspiValidateAuthIdentity@4"
+    },
+    {
+      "offset": 24348,
+      "name": "__imp__SspiValidateAuthIdentity@4"
+    },
+    {
+      "offset": 24468,
+      "name": "_SspiZeroAuthIdentity@4"
+    },
+    {
+      "offset": 24468,
+      "name": "__imp__SspiZeroAuthIdentity@4"
+    },
+    {
+      "offset": 23282,
+      "name": "_SspiExcludePackage@12"
+    },
+    {
+      "offset": 23282,
+      "name": "__imp__SspiExcludePackage@12"
+    },
+    {
+      "offset": 23514,
+      "name": "_SspiGetTargetHostName@8"
+    },
+    {
+      "offset": 23514,
+      "name": "__imp__SspiGetTargetHostName@8"
+    },
+    {
+      "offset": 23756,
+      "name": "_SspiLocalFree@4"
+    },
+    {
+      "offset": 23756,
+      "name": "__imp__SspiLocalFree@4"
+    },
+    {
+      "offset": 23986,
+      "name": "_SspiPrepareForCredRead@16"
+    },
+    {
+      "offset": 23986,
+      "name": "__imp__SspiPrepareForCredRead@16"
+    },
+    {
+      "offset": 24106,
+      "name": "_SspiPrepareForCredWrite@28"
+    },
+    {
+      "offset": 24106,
+      "name": "__imp__SspiPrepareForCredWrite@28"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 13968,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3480773362,
+      "sizeOfData": 38,
+      "dllName": "Secur32.dll",
+      "symbolName": "_AcceptSecurityContext@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "AcceptSecurityContext"
+    },
+    {
+      "offset": 14086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3889623413,
+      "sizeOfData": 42,
+      "dllName": "Secur32.dll",
+      "symbolName": "_AcquireCredentialsHandleA@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "AcquireCredentialsHandleA"
+    },
+    {
+      "offset": 14208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3789481371,
+      "sizeOfData": 42,
+      "dllName": "Secur32.dll",
+      "symbolName": "_AcquireCredentialsHandleW@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "AcquireCredentialsHandleW"
+    },
+    {
+      "offset": 14330,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3763008489,
+      "sizeOfData": 32,
+      "dllName": "Secur32.dll",
+      "symbolName": "_AddCredentialsA@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "AddCredentialsA"
+    },
+    {
+      "offset": 14442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4203578663,
+      "sizeOfData": 32,
+      "dllName": "Secur32.dll",
+      "symbolName": "_AddCredentialsW@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "AddCredentialsW"
+    },
+    {
+      "offset": 14554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3716467485,
+      "sizeOfData": 35,
+      "dllName": "Secur32.dll",
+      "symbolName": "_AddSecurityPackageA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "AddSecurityPackageA"
+    },
+    {
+      "offset": 14670,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3834091499,
+      "sizeOfData": 35,
+      "dllName": "Secur32.dll",
+      "symbolName": "_AddSecurityPackageW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "AddSecurityPackageW"
+    },
+    {
+      "offset": 14786,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3668406802,
+      "sizeOfData": 33,
+      "dllName": "Secur32.dll",
+      "symbolName": "_ApplyControlToken@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "ApplyControlToken"
+    },
+    {
+      "offset": 14900,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3666773142,
+      "sizeOfData": 39,
+      "dllName": "Secur32.dll",
+      "symbolName": "_ChangeAccountPasswordA@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "ChangeAccountPasswordA"
+    },
+    {
+      "offset": 15020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3230419990,
+      "sizeOfData": 39,
+      "dllName": "Secur32.dll",
+      "symbolName": "_ChangeAccountPasswordW@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "ChangeAccountPasswordW"
+    },
+    {
+      "offset": 15140,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3660646236,
+      "sizeOfData": 33,
+      "dllName": "Secur32.dll",
+      "symbolName": "_CompleteAuthToken@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "CompleteAuthToken"
+    },
+    {
+      "offset": 15254,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3477801665,
+      "sizeOfData": 31,
+      "dllName": "Secur32.dll",
+      "symbolName": "_DecryptMessage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "DecryptMessage"
+    },
+    {
+      "offset": 15366,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3447769913,
+      "sizeOfData": 37,
+      "dllName": "Secur32.dll",
+      "symbolName": "_DeleteSecurityContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "DeleteSecurityContext"
+    },
+    {
+      "offset": 15484,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4109459273,
+      "sizeOfData": 38,
+      "dllName": "Secur32.dll",
+      "symbolName": "_DeleteSecurityPackageA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "DeleteSecurityPackageA"
+    },
+    {
+      "offset": 15602,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3979488657,
+      "sizeOfData": 38,
+      "dllName": "Secur32.dll",
+      "symbolName": "_DeleteSecurityPackageW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "DeleteSecurityPackageW"
+    },
+    {
+      "offset": 15720,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4029589745,
+      "sizeOfData": 31,
+      "dllName": "Secur32.dll",
+      "symbolName": "_EncryptMessage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "EncryptMessage"
+    },
+    {
+      "offset": 15832,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4006151037,
+      "sizeOfData": 42,
+      "dllName": "Secur32.dll",
+      "symbolName": "_EnumerateSecurityPackagesA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "EnumerateSecurityPackagesA"
+    },
+    {
+      "offset": 15954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4116102911,
+      "sizeOfData": 42,
+      "dllName": "Secur32.dll",
+      "symbolName": "_EnumerateSecurityPackagesW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "EnumerateSecurityPackagesW"
+    },
+    {
+      "offset": 16076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4286968482,
+      "sizeOfData": 38,
+      "dllName": "Secur32.dll",
+      "symbolName": "_ExportSecurityContext@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "ExportSecurityContext"
+    },
+    {
+      "offset": 16194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3729861643,
+      "sizeOfData": 33,
+      "dllName": "Secur32.dll",
+      "symbolName": "_FreeContextBuffer@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "FreeContextBuffer"
+    },
+    {
+      "offset": 16308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3390222302,
+      "sizeOfData": 37,
+      "dllName": "Secur32.dll",
+      "symbolName": "_FreeCredentialsHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "FreeCredentialsHandle"
+    },
+    {
+      "offset": 16426,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3286296204,
+      "sizeOfData": 39,
+      "dllName": "Secur32.dll",
+      "symbolName": "_GetComputerObjectNameA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "GetComputerObjectNameA"
+    },
+    {
+      "offset": 16546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3395315104,
+      "sizeOfData": 39,
+      "dllName": "Secur32.dll",
+      "symbolName": "_GetComputerObjectNameW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "GetComputerObjectNameW"
+    },
+    {
+      "offset": 16666,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3412128772,
+      "sizeOfData": 36,
+      "dllName": "Secur32.dll",
+      "symbolName": "_GetSecurityUserInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "GetSecurityUserInfo"
+    },
+    {
+      "offset": 16782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3955430908,
+      "sizeOfData": 31,
+      "dllName": "Secur32.dll",
+      "symbolName": "_GetUserNameExA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "GetUserNameExA"
+    },
+    {
+      "offset": 16894,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4188642703,
+      "sizeOfData": 31,
+      "dllName": "Secur32.dll",
+      "symbolName": "_GetUserNameExW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "GetUserNameExW"
+    },
+    {
+      "offset": 17006,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3769975405,
+      "sizeOfData": 42,
+      "dllName": "Secur32.dll",
+      "symbolName": "_ImpersonateSecurityContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "ImpersonateSecurityContext"
+    },
+    {
+      "offset": 17128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3723892314,
+      "sizeOfData": 39,
+      "dllName": "Secur32.dll",
+      "symbolName": "_ImportSecurityContextA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "ImportSecurityContextA"
+    },
+    {
+      "offset": 17248,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4260402575,
+      "sizeOfData": 39,
+      "dllName": "Secur32.dll",
+      "symbolName": "_ImportSecurityContextW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "ImportSecurityContextW"
+    },
+    {
+      "offset": 17368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3567278569,
+      "sizeOfData": 38,
+      "dllName": "Secur32.dll",
+      "symbolName": "_InitSecurityInterfaceA@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "InitSecurityInterfaceA"
+    },
+    {
+      "offset": 17486,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4012596679,
+      "sizeOfData": 38,
+      "dllName": "Secur32.dll",
+      "symbolName": "_InitSecurityInterfaceW@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "InitSecurityInterfaceW"
+    },
+    {
+      "offset": 17604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3945303080,
+      "sizeOfData": 43,
+      "dllName": "Secur32.dll",
+      "symbolName": "_InitializeSecurityContextA@48",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "InitializeSecurityContextA"
+    },
+    {
+      "offset": 17728,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3275875676,
+      "sizeOfData": 43,
+      "dllName": "Secur32.dll",
+      "symbolName": "_InitializeSecurityContextW@48",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "InitializeSecurityContextW"
+    },
+    {
+      "offset": 17852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4186261228,
+      "sizeOfData": 45,
+      "dllName": "Secur32.dll",
+      "symbolName": "_LsaCallAuthenticationPackage@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "LsaCallAuthenticationPackage"
+    },
+    {
+      "offset": 17978,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3482265926,
+      "sizeOfData": 35,
+      "dllName": "Secur32.dll",
+      "symbolName": "_LsaConnectUntrusted@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "LsaConnectUntrusted"
+    },
+    {
+      "offset": 18094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3889847697,
+      "sizeOfData": 41,
+      "dllName": "Secur32.dll",
+      "symbolName": "_LsaDeregisterLogonProcess@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "LsaDeregisterLogonProcess"
+    },
+    {
+      "offset": 18216,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3985990615,
+      "sizeOfData": 41,
+      "dllName": "Secur32.dll",
+      "symbolName": "_LsaEnumerateLogonSessions@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "LsaEnumerateLogonSessions"
+    },
+    {
+      "offset": 18338,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3320619416,
+      "sizeOfData": 35,
+      "dllName": "Secur32.dll",
+      "symbolName": "_LsaFreeReturnBuffer@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "LsaFreeReturnBuffer"
+    },
+    {
+      "offset": 18454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3533977202,
+      "sizeOfData": 38,
+      "dllName": "Secur32.dll",
+      "symbolName": "_LsaGetLogonSessionData@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "LsaGetLogonSessionData"
+    },
+    {
+      "offset": 18572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4101889019,
+      "sizeOfData": 29,
+      "dllName": "Secur32.dll",
+      "symbolName": "_LsaLogonUser@56",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "LsaLogonUser"
+    },
+    {
+      "offset": 18682,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4106556407,
+      "sizeOfData": 47,
+      "dllName": "Secur32.dll",
+      "symbolName": "_LsaLookupAuthenticationPackage@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "LsaLookupAuthenticationPackage"
+    },
+    {
+      "offset": 18810,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3497097019,
+      "sizeOfData": 40,
+      "dllName": "Secur32.dll",
+      "symbolName": "_LsaRegisterLogonProcess@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "LsaRegisterLogonProcess"
+    },
+    {
+      "offset": 18930,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4166836309,
+      "sizeOfData": 51,
+      "dllName": "Secur32.dll",
+      "symbolName": "_LsaRegisterPolicyChangeNotification@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "LsaRegisterPolicyChangeNotification"
+    },
+    {
+      "offset": 19062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3566236622,
+      "sizeOfData": 53,
+      "dllName": "Secur32.dll",
+      "symbolName": "_LsaUnregisterPolicyChangeNotification@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "LsaUnregisterPolicyChangeNotification"
+    },
+    {
+      "offset": 19196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4170661454,
+      "sizeOfData": 30,
+      "dllName": "Secur32.dll",
+      "symbolName": "_MakeSignature@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "MakeSignature"
+    },
+    {
+      "offset": 19306,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3465800405,
+      "sizeOfData": 40,
+      "dllName": "Secur32.dll",
+      "symbolName": "_QueryContextAttributesA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "QueryContextAttributesA"
+    },
+    {
+      "offset": 19426,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3806099564,
+      "sizeOfData": 40,
+      "dllName": "Secur32.dll",
+      "symbolName": "_QueryContextAttributesW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "QueryContextAttributesW"
+    },
+    {
+      "offset": 19546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3863279399,
+      "sizeOfData": 44,
+      "dllName": "Secur32.dll",
+      "symbolName": "_QueryCredentialsAttributesA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "QueryCredentialsAttributesA"
+    },
+    {
+      "offset": 19670,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4154241886,
+      "sizeOfData": 44,
+      "dllName": "Secur32.dll",
+      "symbolName": "_QueryCredentialsAttributesW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "QueryCredentialsAttributesW"
+    },
+    {
+      "offset": 19794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4102267246,
+      "sizeOfData": 41,
+      "dllName": "Secur32.dll",
+      "symbolName": "_QuerySecurityContextToken@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "QuerySecurityContextToken"
+    },
+    {
+      "offset": 19916,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3802921211,
+      "sizeOfData": 41,
+      "dllName": "Secur32.dll",
+      "symbolName": "_QuerySecurityPackageInfoA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "QuerySecurityPackageInfoA"
+    },
+    {
+      "offset": 20038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3223815145,
+      "sizeOfData": 41,
+      "dllName": "Secur32.dll",
+      "symbolName": "_QuerySecurityPackageInfoW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "QuerySecurityPackageInfoW"
+    },
+    {
+      "offset": 20160,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4196753047,
+      "sizeOfData": 37,
+      "dllName": "Secur32.dll",
+      "symbolName": "_RevertSecurityContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "RevertSecurityContext"
+    },
+    {
+      "offset": 20278,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3570224299,
+      "sizeOfData": 42,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SaslAcceptSecurityContext@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "SaslAcceptSecurityContext"
+    },
+    {
+      "offset": 20400,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4052726464,
+      "sizeOfData": 38,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SaslEnumerateProfilesA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "SaslEnumerateProfilesA"
+    },
+    {
+      "offset": 20518,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3686008235,
+      "sizeOfData": 38,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SaslEnumerateProfilesW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "SaslEnumerateProfilesW"
+    },
+    {
+      "offset": 20636,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3289481895,
+      "sizeOfData": 37,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SaslGetContextOption@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "SaslGetContextOption"
+    },
+    {
+      "offset": 20754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4291671446,
+      "sizeOfData": 38,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SaslGetProfilePackageA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "SaslGetProfilePackageA"
+    },
+    {
+      "offset": 20872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3905755707,
+      "sizeOfData": 38,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SaslGetProfilePackageW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "SaslGetProfilePackageW"
+    },
+    {
+      "offset": 20990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3286952162,
+      "sizeOfData": 36,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SaslIdentifyPackageA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "SaslIdentifyPackageA"
+    },
+    {
+      "offset": 21106,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3570073781,
+      "sizeOfData": 36,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SaslIdentifyPackageW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "SaslIdentifyPackageW"
+    },
+    {
+      "offset": 21222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3663711983,
+      "sizeOfData": 47,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SaslInitializeSecurityContextA@48",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "SaslInitializeSecurityContextA"
+    },
+    {
+      "offset": 21350,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3973649614,
+      "sizeOfData": 47,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SaslInitializeSecurityContextW@48",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "SaslInitializeSecurityContextW"
+    },
+    {
+      "offset": 21478,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3318004647,
+      "sizeOfData": 37,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SaslSetContextOption@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "SaslSetContextOption"
+    },
+    {
+      "offset": 21596,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3627281406,
+      "sizeOfData": 28,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SealMessage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "SealMessage"
+    },
+    {
+      "offset": 21704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3337574551,
+      "sizeOfData": 43,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SeciAllocateAndSetCallFlags@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "SeciAllocateAndSetCallFlags"
+    },
+    {
+      "offset": 21828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4127175500,
+      "sizeOfData": 44,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SeciAllocateAndSetIPAddress@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "SeciAllocateAndSetIPAddress"
+    },
+    {
+      "offset": 21952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3945032089,
+      "sizeOfData": 35,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SeciFreeCallContext@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "SeciFreeCallContext"
+    },
+    {
+      "offset": 22068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3446639909,
+      "sizeOfData": 38,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SetContextAttributesA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "SetContextAttributesA"
+    },
+    {
+      "offset": 22186,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3718326103,
+      "sizeOfData": 38,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SetContextAttributesW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "SetContextAttributesW"
+    },
+    {
+      "offset": 22304,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3755821133,
+      "sizeOfData": 42,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SetCredentialsAttributesA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "SetCredentialsAttributesA"
+    },
+    {
+      "offset": 22426,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4200905878,
+      "sizeOfData": 42,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SetCredentialsAttributesW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "SetCredentialsAttributesW"
+    },
+    {
+      "offset": 22548,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4018991316,
+      "sizeOfData": 42,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiCompareAuthIdentities@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "SspiCompareAuthIdentities"
+    },
+    {
+      "offset": 22670,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3862387008,
+      "sizeOfData": 36,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiCopyAuthIdentity@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "SspiCopyAuthIdentity"
+    },
+    {
+      "offset": 22786,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3616168312,
+      "sizeOfData": 39,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiDecryptAuthIdentity@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "SspiDecryptAuthIdentity"
+    },
+    {
+      "offset": 22906,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3516225886,
+      "sizeOfData": 48,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiEncodeAuthIdentityAsStrings@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "SspiEncodeAuthIdentityAsStrings"
+    },
+    {
+      "offset": 23034,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3440167570,
+      "sizeOfData": 48,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiEncodeStringsAsAuthIdentity@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "SspiEncodeStringsAsAuthIdentity"
+    },
+    {
+      "offset": 23162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3590255087,
+      "sizeOfData": 39,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiEncryptAuthIdentity@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "SspiEncryptAuthIdentity"
+    },
+    {
+      "offset": 23282,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4065409615,
+      "sizeOfData": 35,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiExcludePackage@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "SspiExcludePackage"
+    },
+    {
+      "offset": 23398,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3354709668,
+      "sizeOfData": 36,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiFreeAuthIdentity@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "SspiFreeAuthIdentity"
+    },
+    {
+      "offset": 23514,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3587362542,
+      "sizeOfData": 37,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiGetTargetHostName@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "SspiGetTargetHostName"
+    },
+    {
+      "offset": 23632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3677046218,
+      "sizeOfData": 43,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiIsAuthIdentityEncrypted@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "SspiIsAuthIdentityEncrypted"
+    },
+    {
+      "offset": 23756,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3886519342,
+      "sizeOfData": 29,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiLocalFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "SspiLocalFree"
+    },
+    {
+      "offset": 23866,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3448884275,
+      "sizeOfData": 40,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiMarshalAuthIdentity@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "SspiMarshalAuthIdentity"
+    },
+    {
+      "offset": 23986,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4231423381,
+      "sizeOfData": 39,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiPrepareForCredRead@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "SspiPrepareForCredRead"
+    },
+    {
+      "offset": 24106,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3737047078,
+      "sizeOfData": 40,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiPrepareForCredWrite@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "SspiPrepareForCredWrite"
+    },
+    {
+      "offset": 24226,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3650971491,
+      "sizeOfData": 42,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiUnmarshalAuthIdentity@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "SspiUnmarshalAuthIdentity"
+    },
+    {
+      "offset": 24348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3951552769,
+      "sizeOfData": 40,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiValidateAuthIdentity@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "SspiValidateAuthIdentity"
+    },
+    {
+      "offset": 24468,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3277056936,
+      "sizeOfData": 36,
+      "dllName": "Secur32.dll",
+      "symbolName": "_SspiZeroAuthIdentity@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "SspiZeroAuthIdentity"
+    },
+    {
+      "offset": 24584,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4190958169,
+      "sizeOfData": 31,
+      "dllName": "Secur32.dll",
+      "symbolName": "_TranslateNameA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "TranslateNameA"
+    },
+    {
+      "offset": 24696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4158863887,
+      "sizeOfData": 31,
+      "dllName": "Secur32.dll",
+      "symbolName": "_TranslateNameW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "TranslateNameW"
+    },
+    {
+      "offset": 24808,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3868514425,
+      "sizeOfData": 30,
+      "dllName": "Secur32.dll",
+      "symbolName": "_UnsealMessage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "UnsealMessage"
+    },
+    {
+      "offset": 24918,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4000365434,
+      "sizeOfData": 32,
+      "dllName": "Secur32.dll",
+      "symbolName": "_VerifySignature@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "VerifySignature"
+    }
+  ]
+}

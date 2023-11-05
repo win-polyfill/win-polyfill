@@ -1,0 +1,3578 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\imagehlp.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    252E size
+correct header end
+
+    309 public symbols
+
+     4AE6 __IMPORT_DESCRIPTOR_imagehlp
+     4D14 __NULL_IMPORT_DESCRIPTOR
+     4E4C imagehlp_NULL_THUNK_DATA
+     5240 _BindImage@12
+     5240 __imp__BindImage@12
+     52AC _BindImageEx@20
+     52AC __imp__BindImageEx@20
+     531A _CheckSumMappedFile@16
+     531A __imp__CheckSumMappedFile@16
+     58B0 _GetImageConfigInformation@8
+     58B0 __imp__GetImageConfigInformation@8
+     592A _GetImageUnusedHeaderBytes@8
+     592A __imp__GetImageUnusedHeaderBytes@8
+     5A92 _ImageAddCertificate@12
+     5A92 __imp__ImageAddCertificate@12
+     5C02 _ImageEnumerateCertificates@20
+     5C02 __imp__ImageEnumerateCertificates@20
+     5C7E _ImageGetCertificateData@16
+     5C7E __imp__ImageGetCertificateData@16
+     5CF8 _ImageGetCertificateHeader@12
+     5CF8 __imp__ImageGetCertificateHeader@12
+     5D74 _ImageGetDigestStream@16
+     5D74 __imp__ImageGetDigestStream@16
+     5DEA _ImageLoad@8
+     5DEA __imp__ImageLoad@8
+     5EC2 _ImageRemoveCertificate@8
+     5EC2 __imp__ImageRemoveCertificate@8
+     601C _ImageUnload@4
+     601C __imp__ImageUnload@4
+     61EE _MapAndLoad@20
+     61EE __imp__MapAndLoad@20
+     62D0 _MapFileAndCheckSumA@12
+     62D0 __imp__MapFileAndCheckSumA@12
+     6346 _MapFileAndCheckSumW@12
+     6346 __imp__MapFileAndCheckSumW@12
+     642C _ReBaseImage@44
+     642C __imp__ReBaseImage@44
+     6766 _SplitSymbols@16
+     6766 __imp__SplitSymbols@16
+     63BC _ReBaseImage64@44
+     63BC __imp__ReBaseImage64@44
+     667C _SetImageConfigInformation@8
+     667C __imp__SetImageConfigInformation@8
+     930A _TouchFileTimes@8
+     930A __imp__TouchFileTimes@8
+     93F0 _UnMapAndLoad@4
+     93F0 __imp__UnMapAndLoad@4
+     94D4 _UpdateDebugInfoFile@16
+     94D4 __imp__UpdateDebugInfoFile@16
+     954A _UpdateDebugInfoFileEx@20
+     954A __imp__UpdateDebugInfoFileEx@20
+     55F2 _FindDebugInfoFile@12
+     55F2 __imp__FindDebugInfoFile@12
+     5666 _FindDebugInfoFileEx@20
+     5666 __imp__FindDebugInfoFileEx@20
+     57CA _FindFileInPath@32
+     57CA __imp__FindFileInPath@32
+     583A _FindFileInSearchPath@28
+     583A __imp__FindFileInSearchPath@28
+     56DC _FindExecutableImage@12
+     56DC __imp__FindExecutableImage@12
+     5752 _FindExecutableImageEx@20
+     5752 __imp__FindExecutableImageEx@20
+     5A14 _GetTimestampForLoadedLibrary@4
+     5A14 __imp__GetTimestampForLoadedLibrary@4
+     5B08 _ImageDirectoryEntryToData@16
+     5B08 __imp__ImageDirectoryEntryToData@16
+     5B84 _ImageDirectoryEntryToDataEx@20
+     5B84 __imp__ImageDirectoryEntryToDataEx@20
+     5E54 _ImageNtHeader@4
+     5E54 __imp__ImageNtHeader@4
+     5F3A _ImageRvaToSection@12
+     5F3A __imp__ImageRvaToSection@12
+     5FAE _ImageRvaToVa@16
+     5FAE __imp__ImageRvaToVa@16
+     6088 _ImagehlpApiVersion@0
+     6088 __imp__ImagehlpApiVersion@0
+     60FC _ImagehlpApiVersionEx@4
+     60FC __imp__ImagehlpApiVersionEx@4
+     6172 _MakeSureDirectoryPathExists@4
+     6172 __imp__MakeSureDirectoryPathExists@4
+     658C _SearchTreeForFile@12
+     658C __imp__SearchTreeForFile@12
+     6998 _SymCleanup@4
+     6998 __imp__SymCleanup@4
+     7148 _SymFindFileInPath@40
+     7148 __imp__SymFindFileInPath@40
+     7D34 _SymGetOptions@0
+     7D34 __imp__SymGetOptions@0
+     7DA2 _SymGetSearchPath@12
+     7DA2 __imp__SymGetSearchPath@12
+     8642 _SymInitialize@12
+     8642 __imp__SymInitialize@12
+     8794 _SymMatchFileName@16
+     8794 __imp__SymMatchFileName@16
+     8C38 _SymSetContext@12
+     8C38 __imp__SymSetContext@12
+     8D8C _SymSetScopeFromAddr@12
+     8D8C __imp__SymSetScopeFromAddr@12
+     8E02 _SymSetScopeFromIndex@16
+     8E02 __imp__SymSetScopeFromIndex@16
+     8D1E _SymSetOptions@4
+     8D1E __imp__SymSetOptions@4
+     8EF6 _SymSetSearchPath@8
+     8EF6 __imp__SymSetSearchPath@8
+     937A _UnDecorateSymbolName@16
+     937A __imp__UnDecorateSymbolName@16
+     538E _EnumerateLoadedModules64@12
+     538E __imp__EnumerateLoadedModules64@12
+     5576 _EnumerateLoadedModulesW64@12
+     5576 __imp__EnumerateLoadedModulesW64@12
+     5480 _EnumerateLoadedModulesEx@12
+     5480 __imp__EnumerateLoadedModulesEx@12
+     54FA _EnumerateLoadedModulesExW@12
+     54FA __imp__EnumerateLoadedModulesExW@12
+     67D4 _StackWalk64@36
+     67D4 __imp__StackWalk64@36
+     6E7E _SymEnumerateModules64@12
+     6E7E __imp__SymEnumerateModules64@12
+     6F6C _SymEnumerateSymbols64@20
+     6F6C __imp__SymEnumerateSymbols64@20
+     705A _SymEnumerateSymbolsW64@20
+     705A __imp__SymEnumerateSymbolsW64@20
+     6A7C _SymEnumSym@20
+     6A7C __imp__SymEnumSym@20
+     6AE8 _SymEnumSymbols@24
+     6AE8 __imp__SymEnumSymbols@24
+     6C3E _SymEnumSymbolsForAddr@20
+     6C3E __imp__SymEnumSymbolsForAddr@20
+     6CB6 _SymEnumTypes@20
+     6CB6 __imp__SymEnumTypes@20
+     6D24 _SymEnumTypesByName@24
+     6D24 __imp__SymEnumTypesByName@24
+     7230 _SymFromAddr@20
+     7230 __imp__SymFromAddr@20
+     738C _SymFromName@12
+     738C __imp__SymFromName@12
+     73FA _SymFunctionTableAccess64@12
+     73FA __imp__SymFunctionTableAccess64@12
+     75EA _SymGetLineFromAddr64@20
+     75EA __imp__SymGetLineFromAddr64@20
+     77D0 _SymGetLineFromName64@24
+     77D0 __imp__SymGetLineFromName64@24
+     78BA _SymGetLineNext64@8
+     78BA __imp__SymGetLineNext64@8
+     799C _SymGetLinePrev64@8
+     799C __imp__SymGetLinePrev64@8
+     7A7E _SymGetModuleBase64@12
+     7A7E __imp__SymGetModuleBase64@12
+     7B64 _SymGetModuleInfo64@16
+     7B64 __imp__SymGetModuleInfo64@16
+     7C4A _SymGetModuleInfoW64@16
+     7C4A __imp__SymGetModuleInfoW64@16
+     8000 _SymGetSymFromAddr64@20
+     8000 __imp__SymGetSymFromAddr64@20
+     80EA _SymGetSymFromName64@12
+     80EA __imp__SymGetSymFromName64@12
+     81D4 _SymGetSymNext64@8
+     81D4 __imp__SymGetSymNext64@8
+     82B2 _SymGetSymPrev64@8
+     82B2 __imp__SymGetSymPrev64@8
+     8476 _SymGetTypeFromName@20
+     8476 __imp__SymGetTypeFromName@20
+     8560 _SymGetTypeInfo@24
+     8560 __imp__SymGetTypeInfo@24
+     85D0 _SymGetTypeInfoEx@16
+     85D0 __imp__SymGetTypeInfoEx@16
+     86B2 _SymLoadModule64@28
+     86B2 __imp__SymLoadModule64@28
+     8A44 _SymRegisterCallback64@16
+     8A44 __imp__SymRegisterCallback64@16
+     8B32 _SymRegisterFunctionEntryCallback64@16
+     8B32 __imp__SymRegisterFunctionEntryCallback64@16
+     914C _SymUnDName64@12
+     914C __imp__SymUnDName64@12
+     9226 _SymUnloadModule64@12
+     9226 __imp__SymUnloadModule64@12
+     887A _SymMatchString@12
+     887A __imp__SymMatchString@12
+     88EA _SymMatchStringA@12
+     88EA __imp__SymMatchStringA@12
+     895C _SymMatchStringW@12
+     895C __imp__SymMatchStringW@12
+     84EA _SymGetTypeFromNameW@20
+     84EA __imp__SymGetTypeFromNameW@20
+     6E0E _SymEnumTypesW@20
+     6E0E __imp__SymEnumTypesW@20
+     6D98 _SymEnumTypesByNameW@24
+     6D98 __imp__SymEnumTypesByNameW@24
+     7F0C _SymGetSourceFileTokenW@24
+     7F0C __imp__SymGetSourceFileTokenW@24
+     7E14 _SymGetSourceFileChecksumW@32
+     7E14 __imp__SymGetSourceFileChecksumW@32
+     71BC _SymFindFileInPathW@40
+     71BC __imp__SymFindFileInPathW@40
+     8806 _SymMatchFileNameW@16
+     8806 __imp__SymMatchFileNameW@16
+     7E90 _SymGetSourceFileFromTokenW@20
+     7E90 __imp__SymGetSourceFileFromTokenW@20
+     7F84 _SymGetSourceVarFromTokenW@24
+     7F84 __imp__SymGetSourceVarFromTokenW@24
+     905E _SymSrvGetFileIndexes@20
+     905E __imp__SymSrvGetFileIndexes@20
+     90D4 _SymSrvGetFileIndexesW@20
+     90D4 __imp__SymSrvGetFileIndexesW@20
+     8F68 _SymSrvGetFileIndexString@24
+     8F68 __imp__SymSrvGetFileIndexString@24
+     8FE2 _SymSrvGetFileIndexStringW@24
+     8FE2 __imp__SymSrvGetFileIndexStringW@24
+     8390 _SymGetSymbolFile@32
+     8390 __imp__SymGetSymbolFile@32
+     8402 _SymGetSymbolFileW@32
+     8402 __imp__SymGetSymbolFileW@32
+     5408 _EnumerateLoadedModules@12
+     5408 __imp__EnumerateLoadedModules@12
+     625A _MapDebugInformation@16
+     625A __imp__MapDebugInformation@16
+     6842 _StackWalk@36
+     6842 __imp__StackWalk@36
+     6EF6 _SymEnumerateModules@12
+     6EF6 __imp__SymEnumerateModules@12
+     6FE4 _SymEnumerateSymbols@16
+     6FE4 __imp__SymEnumerateSymbols@16
+     70D2 _SymEnumerateSymbolsW@16
+     70D2 __imp__SymEnumerateSymbolsW@16
+     74FC _SymFunctionTableAccess@8
+     74FC __imp__SymFunctionTableAccess@8
+     7660 _SymGetLineFromAddr@16
+     7660 __imp__SymGetLineFromAddr@16
+     7846 _SymGetLineFromName@24
+     7846 __imp__SymGetLineFromName@24
+     792C _SymGetLineNext@8
+     792C __imp__SymGetLineNext@8
+     7A0E _SymGetLinePrev@8
+     7A0E __imp__SymGetLinePrev@8
+     7AF2 _SymGetModuleBase@8
+     7AF2 __imp__SymGetModuleBase@8
+     7BD8 _SymGetModuleInfo@12
+     7BD8 __imp__SymGetModuleInfo@12
+     7CC0 _SymGetModuleInfoW@12
+     7CC0 __imp__SymGetModuleInfoW@12
+     8076 _SymGetSymFromAddr@16
+     8076 __imp__SymGetSymFromAddr@16
+     8160 _SymGetSymFromName@12
+     8160 __imp__SymGetSymFromName@12
+     8244 _SymGetSymNext@8
+     8244 __imp__SymGetSymNext@8
+     8322 _SymGetSymPrev@8
+     8322 __imp__SymGetSymPrev@8
+     8724 _SymLoadModule@24
+     8724 __imp__SymLoadModule@24
+     8ABC _SymRegisterCallback@12
+     8ABC __imp__SymRegisterCallback@12
+     8BB6 _SymRegisterFunctionEntryCallback@12
+     8BB6 __imp__SymRegisterFunctionEntryCallback@12
+     91BA _SymUnDName@12
+     91BA __imp__SymUnDName@12
+     929A _SymUnloadModule@8
+     929A __imp__SymUnloadModule@8
+     945E _UnmapDebugInformation@4
+     945E __imp__UnmapDebugInformation@4
+     68AE _StackWalkEx@40
+     68AE __imp__StackWalkEx@40
+     729E _SymFromInlineContext@24
+     729E __imp__SymFromInlineContext@24
+     7314 _SymFromInlineContextW@24
+     7314 __imp__SymFromInlineContextW@24
+     76D4 _SymGetLineFromInlineContext@32
+     76D4 __imp__SymGetLineFromInlineContext@32
+     7752 _SymGetLineFromInlineContextW@32
+     7752 __imp__SymGetLineFromInlineContextW@32
+     8E78 _SymSetScopeFromInlineContext@16
+     8E78 __imp__SymSetScopeFromInlineContext@16
+     6B58 _SymEnumSymbolsEx@28
+     6B58 __imp__SymEnumSymbolsEx@28
+     6BCA _SymEnumSymbolsExW@28
+     6BCA __imp__SymEnumSymbolsExW@28
+     691C _SymAddrIncludeInlineTrace@12
+     691C __imp__SymAddrIncludeInlineTrace@12
+     6A04 _SymCompareInlineTrace@40
+     6A04 __imp__SymCompareInlineTrace@40
+     89CE _SymQueryInlineTrace@40
+     89CE __imp__SymQueryInlineTrace@40
+     6600 _SetCheckUserInterruptShared@4
+     6600 __imp__SetCheckUserInterruptShared@4
+     59A4 _GetSymLoadError@0
+     59A4 __imp__GetSymLoadError@0
+     66F6 _SetSymLoadError@4
+     66F6 __imp__SetSymLoadError@4
+     6512 _ReportSymbolLoadSummary@12
+     6512 __imp__ReportSymbolLoadSummary@12
+     649A _RemoveInvalidModuleList@4
+     649A __imp__RemoveInvalidModuleList@4
+     7474 _SymFunctionTableAccess64AccessRoutines@20
+     7474 __imp__SymFunctionTableAccess64AccessRoutines@20
+     5096 ?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z
+     5096 __imp_?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z
+     5124 ?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z
+     5124 __imp_?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z
+     51B4 ?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z
+     51B4 __imp_?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z
+     501C ?SymFreeDiaString@@YGXPAG@Z
+     501C __imp_?SymFreeDiaString@@YGXPAG@Z
+     4FA0 ?SymAllocDiaString@@YGPAGPBG@Z
+     4FA0 __imp_?SymAllocDiaString@@YGPAGPBG@Z
+     7574 _SymGetExtendedOption@4
+     7574 __imp__SymGetExtendedOption@4
+     8CA8 _SymSetExtendedOption@8
+     8CA8 __imp__SymSetExtendedOption@8
+
+Archive member name at 4AE6: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1F2 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E976C449 time date stamp
+             10E file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CE file pointer to raw data (000000CE to 000000E1)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     100 file pointer to raw data (00000100 to 0000010D)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 4D14: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        E3E755F5 time date stamp
+              BA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      64 file pointer to raw data (00000064 to 000000A5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A6 file pointer to raw data (000000A6 to 000000B9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 4E4C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     118 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        C30113E6 time date stamp
+              D6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 4FA0: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D574D8A9
+  SizeOfData   : 0000002C
+  DLL name     : imagehlp.dll
+  Symbol name  : ?SymAllocDiaString@@YGPAGPBG@Z (unsigned short * __stdcall SymAllocDiaString(unsigned short const *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : SymAllocDiaString
+
+Archive member name at 501C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9CFF409
+  SizeOfData   : 00000029
+  DLL name     : imagehlp.dll
+  Symbol name  : ?SymFreeDiaString@@YGXPAG@Z (void __stdcall SymFreeDiaString(unsigned short *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : SymFreeDiaString
+
+Archive member name at 5096: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      51 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD169E5C
+  SizeOfData   : 0000003D
+  DLL name     : imagehlp.dll
+  Symbol name  : ?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z (int __stdcall SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 84
+  Name         : SymGetDiaSession
+
+Archive member name at 5124: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      53 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB801927
+  SizeOfData   : 0000003F
+  DLL name     : imagehlp.dll
+  Symbol name  : ?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z (int __stdcall SymGetDiaSource(void *,unsigned __int64,struct IDiaDataSource * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 85
+  Name         : SymGetDiaSource
+
+Archive member name at 51B4: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7397CBC
+  SizeOfData   : 0000003B
+  DLL name     : imagehlp.dll
+  Symbol name  : ?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z (int __stdcall SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 137
+  Name         : SymSetDiaSession
+
+Archive member name at 5240: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F545B1E8
+  SizeOfData   : 0000001B
+  DLL name     : imagehlp.dll
+  Symbol name  : _BindImage@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : BindImage
+
+Archive member name at 52AC: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3E34AB9
+  SizeOfData   : 0000001D
+  DLL name     : imagehlp.dll
+  Symbol name  : _BindImageEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : BindImageEx
+
+Archive member name at 531A: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD5E074E
+  SizeOfData   : 00000024
+  DLL name     : imagehlp.dll
+  Symbol name  : _CheckSumMappedFile@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : CheckSumMappedFile
+
+Archive member name at 538E: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA06BB3C
+  SizeOfData   : 0000002A
+  DLL name     : imagehlp.dll
+  Symbol name  : _EnumerateLoadedModules64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : EnumerateLoadedModules64
+
+Archive member name at 5408: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D509223D
+  SizeOfData   : 00000028
+  DLL name     : imagehlp.dll
+  Symbol name  : _EnumerateLoadedModules@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : EnumerateLoadedModules
+
+Archive member name at 5480: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDE2BF8C
+  SizeOfData   : 0000002A
+  DLL name     : imagehlp.dll
+  Symbol name  : _EnumerateLoadedModulesEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : EnumerateLoadedModulesEx
+
+Archive member name at 54FA: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C11F9B3D
+  SizeOfData   : 0000002B
+  DLL name     : imagehlp.dll
+  Symbol name  : _EnumerateLoadedModulesExW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : EnumerateLoadedModulesExW
+
+Archive member name at 5576: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAD6B0D6
+  SizeOfData   : 0000002B
+  DLL name     : imagehlp.dll
+  Symbol name  : _EnumerateLoadedModulesW64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : EnumerateLoadedModulesW64
+
+Archive member name at 55F2: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7A3CE20
+  SizeOfData   : 00000023
+  DLL name     : imagehlp.dll
+  Symbol name  : _FindDebugInfoFile@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : FindDebugInfoFile
+
+Archive member name at 5666: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4D330E6
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _FindDebugInfoFileEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : FindDebugInfoFileEx
+
+Archive member name at 56DC: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C98F8F77
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _FindExecutableImage@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : FindExecutableImage
+
+Archive member name at 5752: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C540FDAF
+  SizeOfData   : 00000027
+  DLL name     : imagehlp.dll
+  Symbol name  : _FindExecutableImageEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : FindExecutableImageEx
+
+Archive member name at 57CA: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8700A1D
+  SizeOfData   : 00000020
+  DLL name     : imagehlp.dll
+  Symbol name  : _FindFileInPath@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : FindFileInPath
+
+Archive member name at 583A: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA01B2BE
+  SizeOfData   : 00000026
+  DLL name     : imagehlp.dll
+  Symbol name  : _FindFileInSearchPath@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : FindFileInSearchPath
+
+Archive member name at 58B0: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E35919E7
+  SizeOfData   : 0000002A
+  DLL name     : imagehlp.dll
+  Symbol name  : _GetImageConfigInformation@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : GetImageConfigInformation
+
+Archive member name at 592A: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0E238A6
+  SizeOfData   : 0000002A
+  DLL name     : imagehlp.dll
+  Symbol name  : _GetImageUnusedHeaderBytes@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : GetImageUnusedHeaderBytes
+
+Archive member name at 59A4: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D90C54DE
+  SizeOfData   : 00000020
+  DLL name     : imagehlp.dll
+  Symbol name  : _GetSymLoadError@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : GetSymLoadError
+
+Archive member name at 5A14: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7514672
+  SizeOfData   : 0000002D
+  DLL name     : imagehlp.dll
+  Symbol name  : _GetTimestampForLoadedLibrary@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : GetTimestampForLoadedLibrary
+
+Archive member name at 5A92: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA614E3C
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImageAddCertificate@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : ImageAddCertificate
+
+Archive member name at 5B08: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD553836
+  SizeOfData   : 0000002B
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImageDirectoryEntryToData@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : ImageDirectoryEntryToData
+
+Archive member name at 5B84: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDD5AF1F
+  SizeOfData   : 0000002D
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImageDirectoryEntryToDataEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : ImageDirectoryEntryToDataEx
+
+Archive member name at 5C02: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E22B560E
+  SizeOfData   : 0000002C
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImageEnumerateCertificates@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : ImageEnumerateCertificates
+
+Archive member name at 5C7E: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D10DA545
+  SizeOfData   : 00000029
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImageGetCertificateData@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : ImageGetCertificateData
+
+Archive member name at 5CF8: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8662612
+  SizeOfData   : 0000002B
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImageGetCertificateHeader@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : ImageGetCertificateHeader
+
+Archive member name at 5D74: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E98F85DF
+  SizeOfData   : 00000026
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImageGetDigestStream@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : ImageGetDigestStream
+
+Archive member name at 5DEA: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E88B2A8C
+  SizeOfData   : 0000001A
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImageLoad@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : ImageLoad
+
+Archive member name at 5E54: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F629ACCA
+  SizeOfData   : 0000001E
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImageNtHeader@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : ImageNtHeader
+
+Archive member name at 5EC2: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAF12E42
+  SizeOfData   : 00000027
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImageRemoveCertificate@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : ImageRemoveCertificate
+
+Archive member name at 5F3A: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6D6DB77
+  SizeOfData   : 00000023
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImageRvaToSection@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : ImageRvaToSection
+
+Archive member name at 5FAE: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F31F33CA
+  SizeOfData   : 0000001E
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImageRvaToVa@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : ImageRvaToVa
+
+Archive member name at 601C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2F58A7E
+  SizeOfData   : 0000001C
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImageUnload@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : ImageUnload
+
+Archive member name at 6088: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2BA28BB
+  SizeOfData   : 00000023
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImagehlpApiVersion@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : ImagehlpApiVersion
+
+Archive member name at 60FC: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F965CD09
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _ImagehlpApiVersionEx@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : ImagehlpApiVersionEx
+
+Archive member name at 6172: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFC4D9A5
+  SizeOfData   : 0000002C
+  DLL name     : imagehlp.dll
+  Symbol name  : _MakeSureDirectoryPathExists@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : MakeSureDirectoryPathExists
+
+Archive member name at 61EE: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E50346B2
+  SizeOfData   : 0000001C
+  DLL name     : imagehlp.dll
+  Symbol name  : _MapAndLoad@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : MapAndLoad
+
+Archive member name at 625A: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDC40BBE
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _MapDebugInformation@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : MapDebugInformation
+
+Archive member name at 62D0: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2A0B785
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _MapFileAndCheckSumA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : MapFileAndCheckSumA
+
+Archive member name at 6346: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAE91B47
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _MapFileAndCheckSumW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : MapFileAndCheckSumW
+
+Archive member name at 63BC: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFD3F06B
+  SizeOfData   : 0000001F
+  DLL name     : imagehlp.dll
+  Symbol name  : _ReBaseImage64@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : ReBaseImage64
+
+Archive member name at 642C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF0659AF
+  SizeOfData   : 0000001D
+  DLL name     : imagehlp.dll
+  Symbol name  : _ReBaseImage@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : ReBaseImage
+
+Archive member name at 649A: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7C116BF
+  SizeOfData   : 00000028
+  DLL name     : imagehlp.dll
+  Symbol name  : _RemoveInvalidModuleList@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : RemoveInvalidModuleList
+
+Archive member name at 6512: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0E37784
+  SizeOfData   : 00000029
+  DLL name     : imagehlp.dll
+  Symbol name  : _ReportSymbolLoadSummary@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : ReportSymbolLoadSummary
+
+Archive member name at 658C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1813A6D
+  SizeOfData   : 00000023
+  DLL name     : imagehlp.dll
+  Symbol name  : _SearchTreeForFile@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : SearchTreeForFile
+
+Archive member name at 6600: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA8ADF57
+  SizeOfData   : 0000002C
+  DLL name     : imagehlp.dll
+  Symbol name  : _SetCheckUserInterruptShared@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : SetCheckUserInterruptShared
+
+Archive member name at 667C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBACA55C
+  SizeOfData   : 0000002A
+  DLL name     : imagehlp.dll
+  Symbol name  : _SetImageConfigInformation@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : SetImageConfigInformation
+
+Archive member name at 66F6: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D21CB9CE
+  SizeOfData   : 00000020
+  DLL name     : imagehlp.dll
+  Symbol name  : _SetSymLoadError@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : SetSymLoadError
+
+Archive member name at 6766: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5912928
+  SizeOfData   : 0000001E
+  DLL name     : imagehlp.dll
+  Symbol name  : _SplitSymbols@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : SplitSymbols
+
+Archive member name at 67D4: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E724F926
+  SizeOfData   : 0000001D
+  DLL name     : imagehlp.dll
+  Symbol name  : _StackWalk64@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : StackWalk64
+
+Archive member name at 6842: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1C59D77
+  SizeOfData   : 0000001B
+  DLL name     : imagehlp.dll
+  Symbol name  : _StackWalk@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : StackWalk
+
+Archive member name at 68AE: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE54ECC3
+  SizeOfData   : 0000001D
+  DLL name     : imagehlp.dll
+  Symbol name  : _StackWalkEx@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : StackWalkEx
+
+Archive member name at 691C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E45C4CA5
+  SizeOfData   : 0000002B
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymAddrIncludeInlineTrace@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : SymAddrIncludeInlineTrace
+
+Archive member name at 6998: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9B633C0
+  SizeOfData   : 0000001B
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymCleanup@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : SymCleanup
+
+Archive member name at 6A04: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF7F7A64
+  SizeOfData   : 00000027
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymCompareInlineTrace@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : SymCompareInlineTrace
+
+Archive member name at 6A7C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5515F03
+  SizeOfData   : 0000001C
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumSym@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : SymEnumSym
+
+Archive member name at 6AE8: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F43C1408
+  SizeOfData   : 00000020
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumSymbols@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : SymEnumSymbols
+
+Archive member name at 6B58: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8670C55
+  SizeOfData   : 00000022
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumSymbolsEx@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : SymEnumSymbolsEx
+
+Archive member name at 6BCA: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3231E19
+  SizeOfData   : 00000023
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumSymbolsExW@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : SymEnumSymbolsExW
+
+Archive member name at 6C3E: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF5E4B77
+  SizeOfData   : 00000027
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumSymbolsForAddr@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : SymEnumSymbolsForAddr
+
+Archive member name at 6CB6: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4E8345A
+  SizeOfData   : 0000001E
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumTypes@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : SymEnumTypes
+
+Archive member name at 6D24: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDB6E1C1
+  SizeOfData   : 00000024
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumTypesByName@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : SymEnumTypesByName
+
+Archive member name at 6D98: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA0F297B
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumTypesByNameW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : SymEnumTypesByNameW
+
+Archive member name at 6E0E: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F06922D8
+  SizeOfData   : 0000001F
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumTypesW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : SymEnumTypesW
+
+Archive member name at 6E7E: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C491B7B7
+  SizeOfData   : 00000027
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumerateModules64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : SymEnumerateModules64
+
+Archive member name at 6EF6: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB45E953
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumerateModules@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : SymEnumerateModules
+
+Archive member name at 6F6C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9E9451D
+  SizeOfData   : 00000027
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumerateSymbols64@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : SymEnumerateSymbols64
+
+Archive member name at 6FE4: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF404F4B
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumerateSymbols@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : SymEnumerateSymbols
+
+Archive member name at 705A: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E67788C6
+  SizeOfData   : 00000028
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumerateSymbolsW64@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : SymEnumerateSymbolsW64
+
+Archive member name at 70D2: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F63FFCC9
+  SizeOfData   : 00000026
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymEnumerateSymbolsW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : SymEnumerateSymbolsW
+
+Archive member name at 7148: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5BFDF07
+  SizeOfData   : 00000023
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymFindFileInPath@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 74
+  Name         : SymFindFileInPath
+
+Archive member name at 71BC: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D885E686
+  SizeOfData   : 00000024
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymFindFileInPathW@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 75
+  Name         : SymFindFileInPathW
+
+Archive member name at 7230: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE34D53E
+  SizeOfData   : 0000001D
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymFromAddr@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : SymFromAddr
+
+Archive member name at 729E: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D18D92B1
+  SizeOfData   : 00000026
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymFromInlineContext@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : SymFromInlineContext
+
+Archive member name at 7314: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7631234
+  SizeOfData   : 00000027
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymFromInlineContextW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : SymFromInlineContextW
+
+Archive member name at 738C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9A49183
+  SizeOfData   : 0000001D
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymFromName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 80
+  Name         : SymFromName
+
+Archive member name at 73FA: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3CF973C
+  SizeOfData   : 0000002A
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymFunctionTableAccess64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 82
+  Name         : SymFunctionTableAccess64
+
+Archive member name at 7474: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDD8ABDB
+  SizeOfData   : 00000038
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymFunctionTableAccess64AccessRoutines@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : SymFunctionTableAccess64AccessRoutines
+
+Archive member name at 74FC: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E91CFB12
+  SizeOfData   : 00000027
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymFunctionTableAccess@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : SymFunctionTableAccess
+
+Archive member name at 7574: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB8E2D9C
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetExtendedOption@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 86
+  Name         : SymGetExtendedOption
+
+Archive member name at 75EA: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFBADC30
+  SizeOfData   : 00000026
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetLineFromAddr64@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 88
+  Name         : SymGetLineFromAddr64
+
+Archive member name at 7660: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F42AC61B
+  SizeOfData   : 00000024
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetLineFromAddr@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 87
+  Name         : SymGetLineFromAddr
+
+Archive member name at 76D4: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C05AAEB8
+  SizeOfData   : 0000002D
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetLineFromInlineContext@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 89
+  Name         : SymGetLineFromInlineContext
+
+Archive member name at 7752: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C151D9E3
+  SizeOfData   : 0000002E
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetLineFromInlineContextW@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 90
+  Name         : SymGetLineFromInlineContextW
+
+Archive member name at 77D0: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAD8F68C
+  SizeOfData   : 00000026
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetLineFromName64@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 92
+  Name         : SymGetLineFromName64
+
+Archive member name at 7846: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBBEE019
+  SizeOfData   : 00000024
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetLineFromName@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 91
+  Name         : SymGetLineFromName
+
+Archive member name at 78BA: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9EF59CF
+  SizeOfData   : 00000021
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetLineNext64@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 94
+  Name         : SymGetLineNext64
+
+Archive member name at 792C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD1C2BFC
+  SizeOfData   : 0000001F
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetLineNext@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 93
+  Name         : SymGetLineNext
+
+Archive member name at 799C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED262CE2
+  SizeOfData   : 00000021
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetLinePrev64@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 96
+  Name         : SymGetLinePrev64
+
+Archive member name at 7A0E: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDAE8E35
+  SizeOfData   : 0000001F
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetLinePrev@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 95
+  Name         : SymGetLinePrev
+
+Archive member name at 7A7E: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E93BB835
+  SizeOfData   : 00000024
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetModuleBase64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 98
+  Name         : SymGetModuleBase64
+
+Archive member name at 7AF2: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD3FBB4E
+  SizeOfData   : 00000021
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetModuleBase@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 97
+  Name         : SymGetModuleBase
+
+Archive member name at 7B64: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6E11225
+  SizeOfData   : 00000024
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetModuleInfo64@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 100
+  Name         : SymGetModuleInfo64
+
+Archive member name at 7BD8: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9D3EE32
+  SizeOfData   : 00000022
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetModuleInfo@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 99
+  Name         : SymGetModuleInfo
+
+Archive member name at 7C4A: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9950474
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetModuleInfoW64@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 102
+  Name         : SymGetModuleInfoW64
+
+Archive member name at 7CC0: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2267B56
+  SizeOfData   : 00000023
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetModuleInfoW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 101
+  Name         : SymGetModuleInfoW
+
+Archive member name at 7D34: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5F13641
+  SizeOfData   : 0000001E
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetOptions@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 103
+  Name         : SymGetOptions
+
+Archive member name at 7DA2: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB77C10F
+  SizeOfData   : 00000022
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSearchPath@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 104
+  Name         : SymGetSearchPath
+
+Archive member name at 7E14: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8E5131B
+  SizeOfData   : 0000002B
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSourceFileChecksumW@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 105
+  Name         : SymGetSourceFileChecksumW
+
+Archive member name at 7E90: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E497458F
+  SizeOfData   : 0000002C
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSourceFileFromTokenW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 106
+  Name         : SymGetSourceFileFromTokenW
+
+Archive member name at 7F0C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D27D8ECB
+  SizeOfData   : 00000028
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSourceFileTokenW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 107
+  Name         : SymGetSourceFileTokenW
+
+Archive member name at 7F84: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE0126F0
+  SizeOfData   : 0000002B
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSourceVarFromTokenW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 108
+  Name         : SymGetSourceVarFromTokenW
+
+Archive member name at 8000: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2CC928A
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSymFromAddr64@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 110
+  Name         : SymGetSymFromAddr64
+
+Archive member name at 8076: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3E2A87E
+  SizeOfData   : 00000023
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSymFromAddr@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 109
+  Name         : SymGetSymFromAddr
+
+Archive member name at 80EA: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED5966AD
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSymFromName64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 112
+  Name         : SymGetSymFromName64
+
+Archive member name at 8160: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D72710D2
+  SizeOfData   : 00000023
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSymFromName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 111
+  Name         : SymGetSymFromName
+
+Archive member name at 81D4: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C92AC657
+  SizeOfData   : 00000020
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSymNext64@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 114
+  Name         : SymGetSymNext64
+
+Archive member name at 8244: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA9D5944
+  SizeOfData   : 0000001E
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSymNext@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 113
+  Name         : SymGetSymNext
+
+Archive member name at 82B2: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC956EEB
+  SizeOfData   : 00000020
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSymPrev64@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 116
+  Name         : SymGetSymPrev64
+
+Archive member name at 8322: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F35B5B72
+  SizeOfData   : 0000001E
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSymPrev@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 115
+  Name         : SymGetSymPrev
+
+Archive member name at 8390: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2A50686
+  SizeOfData   : 00000022
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSymbolFile@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 117
+  Name         : SymGetSymbolFile
+
+Archive member name at 8402: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F35F5B1E
+  SizeOfData   : 00000023
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetSymbolFileW@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 118
+  Name         : SymGetSymbolFileW
+
+Archive member name at 8476: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F57185AB
+  SizeOfData   : 00000024
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetTypeFromName@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 119
+  Name         : SymGetTypeFromName
+
+Archive member name at 84EA: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB25756C
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetTypeFromNameW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 120
+  Name         : SymGetTypeFromNameW
+
+Archive member name at 8560: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEDB97C6
+  SizeOfData   : 00000020
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetTypeInfo@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 121
+  Name         : SymGetTypeInfo
+
+Archive member name at 85D0: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7ECC374
+  SizeOfData   : 00000022
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymGetTypeInfoEx@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 122
+  Name         : SymGetTypeInfoEx
+
+Archive member name at 8642: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0248A8D
+  SizeOfData   : 0000001F
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymInitialize@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 123
+  Name         : SymInitialize
+
+Archive member name at 86B2: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9344340
+  SizeOfData   : 00000021
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymLoadModule64@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 125
+  Name         : SymLoadModule64
+
+Archive member name at 8724: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2A843FF
+  SizeOfData   : 0000001F
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymLoadModule@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 124
+  Name         : SymLoadModule
+
+Archive member name at 8794: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F07E6259
+  SizeOfData   : 00000022
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymMatchFileName@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 126
+  Name         : SymMatchFileName
+
+Archive member name at 8806: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED0340F5
+  SizeOfData   : 00000023
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymMatchFileNameW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 127
+  Name         : SymMatchFileNameW
+
+Archive member name at 887A: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C849893C
+  SizeOfData   : 00000020
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymMatchString@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 128
+  Name         : SymMatchString
+
+Archive member name at 88EA: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4CC24D9
+  SizeOfData   : 00000021
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymMatchStringA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 129
+  Name         : SymMatchStringA
+
+Archive member name at 895C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF12A182
+  SizeOfData   : 00000021
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymMatchStringW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 130
+  Name         : SymMatchStringW
+
+Archive member name at 89CE: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5A51EC6
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymQueryInlineTrace@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 131
+  Name         : SymQueryInlineTrace
+
+Archive member name at 8A44: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAAE41A3
+  SizeOfData   : 00000027
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymRegisterCallback64@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 133
+  Name         : SymRegisterCallback64
+
+Archive member name at 8ABC: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFCC80BD
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymRegisterCallback@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 132
+  Name         : SymRegisterCallback
+
+Archive member name at 8B32: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7E62B13
+  SizeOfData   : 00000034
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymRegisterFunctionEntryCallback64@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 135
+  Name         : SymRegisterFunctionEntryCallback64
+
+Archive member name at 8BB6: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2BF3048
+  SizeOfData   : 00000032
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymRegisterFunctionEntryCallback@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 134
+  Name         : SymRegisterFunctionEntryCallback
+
+Archive member name at 8C38: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD11FF5F
+  SizeOfData   : 0000001F
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymSetContext@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 136
+  Name         : SymSetContext
+
+Archive member name at 8CA8: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0FF61AA
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymSetExtendedOption@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 138
+  Name         : SymSetExtendedOption
+
+Archive member name at 8D1E: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E144A64C
+  SizeOfData   : 0000001E
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymSetOptions@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 139
+  Name         : SymSetOptions
+
+Archive member name at 8D8C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBAE6D56
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymSetScopeFromAddr@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 140
+  Name         : SymSetScopeFromAddr
+
+Archive member name at 8E02: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1AAFDD4
+  SizeOfData   : 00000026
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymSetScopeFromIndex@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 141
+  Name         : SymSetScopeFromIndex
+
+Archive member name at 8E78: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4E6A792
+  SizeOfData   : 0000002E
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymSetScopeFromInlineContext@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 142
+  Name         : SymSetScopeFromInlineContext
+
+Archive member name at 8EF6: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E81315F4
+  SizeOfData   : 00000021
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymSetSearchPath@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 143
+  Name         : SymSetSearchPath
+
+Archive member name at 8F68: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F97E08DE
+  SizeOfData   : 0000002A
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymSrvGetFileIndexString@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 144
+  Name         : SymSrvGetFileIndexString
+
+Archive member name at 8FE2: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F06E73D5
+  SizeOfData   : 0000002B
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymSrvGetFileIndexStringW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 145
+  Name         : SymSrvGetFileIndexStringW
+
+Archive member name at 905E: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF2B87DE
+  SizeOfData   : 00000026
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymSrvGetFileIndexes@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 146
+  Name         : SymSrvGetFileIndexes
+
+Archive member name at 90D4: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDB8C559
+  SizeOfData   : 00000027
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymSrvGetFileIndexesW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 147
+  Name         : SymSrvGetFileIndexesW
+
+Archive member name at 914C: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC44D114
+  SizeOfData   : 0000001E
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymUnDName64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 149
+  Name         : SymUnDName64
+
+Archive member name at 91BA: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CEE1FB9F
+  SizeOfData   : 0000001C
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymUnDName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 148
+  Name         : SymUnDName
+
+Archive member name at 9226: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF777919
+  SizeOfData   : 00000023
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymUnloadModule64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 151
+  Name         : SymUnloadModule64
+
+Archive member name at 929A: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3997CBE
+  SizeOfData   : 00000020
+  DLL name     : imagehlp.dll
+  Symbol name  : _SymUnloadModule@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 150
+  Name         : SymUnloadModule
+
+Archive member name at 930A: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4264895
+  SizeOfData   : 0000001F
+  DLL name     : imagehlp.dll
+  Symbol name  : _TouchFileTimes@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 152
+  Name         : TouchFileTimes
+
+Archive member name at 937A: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9132844
+  SizeOfData   : 00000026
+  DLL name     : imagehlp.dll
+  Symbol name  : _UnDecorateSymbolName@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 153
+  Name         : UnDecorateSymbolName
+
+Archive member name at 93F0: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E994A65E
+  SizeOfData   : 0000001D
+  DLL name     : imagehlp.dll
+  Symbol name  : _UnMapAndLoad@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 154
+  Name         : UnMapAndLoad
+
+Archive member name at 945E: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D540CE86
+  SizeOfData   : 00000026
+  DLL name     : imagehlp.dll
+  Symbol name  : _UnmapDebugInformation@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 155
+  Name         : UnmapDebugInformation
+
+Archive member name at 94D4: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB7E6B18
+  SizeOfData   : 00000025
+  DLL name     : imagehlp.dll
+  Symbol name  : _UpdateDebugInfoFile@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 156
+  Name         : UpdateDebugInfoFile
+
+Archive member name at 954A: imagehlp.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF2CDB7B
+  SizeOfData   : 00000027
+  DLL name     : imagehlp.dll
+  Symbol name  : _UpdateDebugInfoFileEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 157
+  Name         : UpdateDebugInfoFileEx
+
+     Exports
+
+       ordinal    name
+
+                  ?SymAllocDiaString@@YGPAGPBG@Z (unsigned short * __stdcall SymAllocDiaString(unsigned short const *))
+                  ?SymFreeDiaString@@YGXPAG@Z (void __stdcall SymFreeDiaString(unsigned short *))
+                  ?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z (int __stdcall SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))
+                  ?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z (int __stdcall SymGetDiaSource(void *,unsigned __int64,struct IDiaDataSource * *))
+                  ?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z (int __stdcall SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))
+                  _BindImage@12
+                  _BindImageEx@20
+                  _CheckSumMappedFile@16
+                  _EnumerateLoadedModules64@12
+                  _EnumerateLoadedModules@12
+                  _EnumerateLoadedModulesEx@12
+                  _EnumerateLoadedModulesExW@12
+                  _EnumerateLoadedModulesW64@12
+                  _FindDebugInfoFile@12
+                  _FindDebugInfoFileEx@20
+                  _FindExecutableImage@12
+                  _FindExecutableImageEx@20
+                  _FindFileInPath@32
+                  _FindFileInSearchPath@28
+                  _GetImageConfigInformation@8
+                  _GetImageUnusedHeaderBytes@8
+                  _GetSymLoadError@0
+                  _GetTimestampForLoadedLibrary@4
+                  _ImageAddCertificate@12
+                  _ImageDirectoryEntryToData@16
+                  _ImageDirectoryEntryToDataEx@20
+                  _ImageEnumerateCertificates@20
+                  _ImageGetCertificateData@16
+                  _ImageGetCertificateHeader@12
+                  _ImageGetDigestStream@16
+                  _ImageLoad@8
+                  _ImageNtHeader@4
+                  _ImageRemoveCertificate@8
+                  _ImageRvaToSection@12
+                  _ImageRvaToVa@16
+                  _ImageUnload@4
+                  _ImagehlpApiVersion@0
+                  _ImagehlpApiVersionEx@4
+                  _MakeSureDirectoryPathExists@4
+                  _MapAndLoad@20
+                  _MapDebugInformation@16
+                  _MapFileAndCheckSumA@12
+                  _MapFileAndCheckSumW@12
+                  _ReBaseImage64@44
+                  _ReBaseImage@44
+                  _RemoveInvalidModuleList@4
+                  _ReportSymbolLoadSummary@12
+                  _SearchTreeForFile@12
+                  _SetCheckUserInterruptShared@4
+                  _SetImageConfigInformation@8
+                  _SetSymLoadError@4
+                  _SplitSymbols@16
+                  _StackWalk64@36
+                  _StackWalk@36
+                  _StackWalkEx@40
+                  _SymAddrIncludeInlineTrace@12
+                  _SymCleanup@4
+                  _SymCompareInlineTrace@40
+                  _SymEnumSym@20
+                  _SymEnumSymbols@24
+                  _SymEnumSymbolsEx@28
+                  _SymEnumSymbolsExW@28
+                  _SymEnumSymbolsForAddr@20
+                  _SymEnumTypes@20
+                  _SymEnumTypesByName@24
+                  _SymEnumTypesByNameW@24
+                  _SymEnumTypesW@20
+                  _SymEnumerateModules64@12
+                  _SymEnumerateModules@12
+                  _SymEnumerateSymbols64@20
+                  _SymEnumerateSymbols@16
+                  _SymEnumerateSymbolsW64@20
+                  _SymEnumerateSymbolsW@16
+                  _SymFindFileInPath@40
+                  _SymFindFileInPathW@40
+                  _SymFromAddr@20
+                  _SymFromInlineContext@24
+                  _SymFromInlineContextW@24
+                  _SymFromName@12
+                  _SymFunctionTableAccess64@12
+                  _SymFunctionTableAccess64AccessRoutines@20
+                  _SymFunctionTableAccess@8
+                  _SymGetExtendedOption@4
+                  _SymGetLineFromAddr64@20
+                  _SymGetLineFromAddr@16
+                  _SymGetLineFromInlineContext@32
+                  _SymGetLineFromInlineContextW@32
+                  _SymGetLineFromName64@24
+                  _SymGetLineFromName@24
+                  _SymGetLineNext64@8
+                  _SymGetLineNext@8
+                  _SymGetLinePrev64@8
+                  _SymGetLinePrev@8
+                  _SymGetModuleBase64@12
+                  _SymGetModuleBase@8
+                  _SymGetModuleInfo64@16
+                  _SymGetModuleInfo@12
+                  _SymGetModuleInfoW64@16
+                  _SymGetModuleInfoW@12
+                  _SymGetOptions@0
+                  _SymGetSearchPath@12
+                  _SymGetSourceFileChecksumW@32
+                  _SymGetSourceFileFromTokenW@20
+                  _SymGetSourceFileTokenW@24
+                  _SymGetSourceVarFromTokenW@24
+                  _SymGetSymFromAddr64@20
+                  _SymGetSymFromAddr@16
+                  _SymGetSymFromName64@12
+                  _SymGetSymFromName@12
+                  _SymGetSymNext64@8
+                  _SymGetSymNext@8
+                  _SymGetSymPrev64@8
+                  _SymGetSymPrev@8
+                  _SymGetSymbolFile@32
+                  _SymGetSymbolFileW@32
+                  _SymGetTypeFromName@20
+                  _SymGetTypeFromNameW@20
+                  _SymGetTypeInfo@24
+                  _SymGetTypeInfoEx@16
+                  _SymInitialize@12
+                  _SymLoadModule64@28
+                  _SymLoadModule@24
+                  _SymMatchFileName@16
+                  _SymMatchFileNameW@16
+                  _SymMatchString@12
+                  _SymMatchStringA@12
+                  _SymMatchStringW@12
+                  _SymQueryInlineTrace@40
+                  _SymRegisterCallback64@16
+                  _SymRegisterCallback@12
+                  _SymRegisterFunctionEntryCallback64@16
+                  _SymRegisterFunctionEntryCallback@12
+                  _SymSetContext@12
+                  _SymSetExtendedOption@8
+                  _SymSetOptions@4
+                  _SymSetScopeFromAddr@12
+                  _SymSetScopeFromIndex@16
+                  _SymSetScopeFromInlineContext@16
+                  _SymSetSearchPath@8
+                  _SymSrvGetFileIndexString@24
+                  _SymSrvGetFileIndexStringW@24
+                  _SymSrvGetFileIndexes@20
+                  _SymSrvGetFileIndexesW@20
+                  _SymUnDName64@12
+                  _SymUnDName@12
+                  _SymUnloadModule64@12
+                  _SymUnloadModule@8
+                  _TouchFileTimes@8
+                  _UnDecorateSymbolName@16
+                  _UnMapAndLoad@4
+                  _UnmapDebugInformation@4
+                  _UpdateDebugInfoFile@16
+                  _UpdateDebugInfoFileEx@20
+
+  Summary
+
+          C6 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           E .idata$6

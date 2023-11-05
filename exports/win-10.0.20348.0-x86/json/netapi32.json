@@ -1,0 +1,5109 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_DavAddConnection@24"
+    },
+    {
+      "name": "_DavDeleteConnection@4"
+    },
+    {
+      "name": "_DavFlushFile@4"
+    },
+    {
+      "name": "_DavGetExtendedError@16"
+    },
+    {
+      "name": "_DavGetHTTPFromUNCPath@12"
+    },
+    {
+      "name": "_DavGetUNCFromHTTPPath@12"
+    },
+    {
+      "name": "_DsAddressToSiteNamesA@16"
+    },
+    {
+      "name": "_DsAddressToSiteNamesExA@20"
+    },
+    {
+      "name": "_DsAddressToSiteNamesExW@20"
+    },
+    {
+      "name": "_DsAddressToSiteNamesW@16"
+    },
+    {
+      "name": "_DsDeregisterDnsHostRecordsA@20"
+    },
+    {
+      "name": "_DsDeregisterDnsHostRecordsW@20"
+    },
+    {
+      "name": "_DsEnumerateDomainTrustsA@16"
+    },
+    {
+      "name": "_DsEnumerateDomainTrustsW@16"
+    },
+    {
+      "name": "_DsGetDcCloseW@4"
+    },
+    {
+      "name": "_DsGetDcNameA@24"
+    },
+    {
+      "name": "_DsGetDcNameW@24"
+    },
+    {
+      "name": "_DsGetDcNameWithAccountA@32"
+    },
+    {
+      "name": "_DsGetDcNameWithAccountW@32"
+    },
+    {
+      "name": "_DsGetDcNextA@16"
+    },
+    {
+      "name": "_DsGetDcNextW@16"
+    },
+    {
+      "name": "_DsGetDcOpenA@28"
+    },
+    {
+      "name": "_DsGetDcOpenW@28"
+    },
+    {
+      "name": "_DsGetDcSiteCoverageA@12"
+    },
+    {
+      "name": "_DsGetDcSiteCoverageW@12"
+    },
+    {
+      "name": "_DsGetForestTrustInformationW@16"
+    },
+    {
+      "name": "_DsGetSiteNameA@8"
+    },
+    {
+      "name": "_DsGetSiteNameW@8"
+    },
+    {
+      "name": "_DsMergeForestTrustInformationW@16"
+    },
+    {
+      "name": "_DsRoleFreeMemory@4"
+    },
+    {
+      "name": "_DsRoleGetPrimaryDomainInformation@12"
+    },
+    {
+      "name": "_DsValidateSubnetNameA@4"
+    },
+    {
+      "name": "_DsValidateSubnetNameW@4"
+    },
+    {
+      "name": "_I_NetLogonControl2@20"
+    },
+    {
+      "name": "_I_NetServerPasswordGet@28"
+    },
+    {
+      "name": "_I_NetServerPasswordSet2@28"
+    },
+    {
+      "name": "_NetAccessAdd@16"
+    },
+    {
+      "name": "_NetAccessDel@8"
+    },
+    {
+      "name": "_NetAccessEnum@36"
+    },
+    {
+      "name": "_NetAccessGetInfo@16"
+    },
+    {
+      "name": "_NetAccessGetUserPerms@16"
+    },
+    {
+      "name": "_NetAccessSetInfo@20"
+    },
+    {
+      "name": "_NetAddAlternateComputerName@20"
+    },
+    {
+      "name": "_NetAddServiceAccount@16"
+    },
+    {
+      "name": "_NetAlertRaise@12"
+    },
+    {
+      "name": "_NetAlertRaiseEx@16"
+    },
+    {
+      "name": "_NetApiBufferAllocate@8"
+    },
+    {
+      "name": "_NetApiBufferFree@4"
+    },
+    {
+      "name": "_NetApiBufferReallocate@12"
+    },
+    {
+      "name": "_NetApiBufferSize@8"
+    },
+    {
+      "name": "_NetAuditClear@12"
+    },
+    {
+      "name": "_NetAuditRead@44"
+    },
+    {
+      "name": "_NetAuditWrite@20"
+    },
+    {
+      "name": "_NetConfigGet@16"
+    },
+    {
+      "name": "_NetConfigGetAll@12"
+    },
+    {
+      "name": "_NetConfigSet@28"
+    },
+    {
+      "name": "_NetConnectionEnum@32"
+    },
+    {
+      "name": "_NetCreateProvisioningPackage@16"
+    },
+    {
+      "name": "_NetDfsAdd@20"
+    },
+    {
+      "name": "_NetDfsAddFtRoot@20"
+    },
+    {
+      "name": "_NetDfsAddRootTarget@20"
+    },
+    {
+      "name": "_NetDfsAddStdRoot@16"
+    },
+    {
+      "name": "_NetDfsEnum@24"
+    },
+    {
+      "name": "_NetDfsGetClientInfo@20"
+    },
+    {
+      "name": "_NetDfsGetFtContainerSecurity@16"
+    },
+    {
+      "name": "_NetDfsGetInfo@20"
+    },
+    {
+      "name": "_NetDfsGetSecurity@16"
+    },
+    {
+      "name": "_NetDfsGetStdContainerSecurity@16"
+    },
+    {
+      "name": "_NetDfsGetSupportedNamespaceVersion@12"
+    },
+    {
+      "name": "_NetDfsMove@12"
+    },
+    {
+      "name": "_NetDfsRemove@12"
+    },
+    {
+      "name": "_NetDfsRemoveFtRoot@16"
+    },
+    {
+      "name": "_NetDfsRemoveFtRootForced@20"
+    },
+    {
+      "name": "_NetDfsRemoveRootTarget@12"
+    },
+    {
+      "name": "_NetDfsRemoveStdRoot@12"
+    },
+    {
+      "name": "_NetDfsSetClientInfo@20"
+    },
+    {
+      "name": "_NetDfsSetFtContainerSecurity@12"
+    },
+    {
+      "name": "_NetDfsSetInfo@20"
+    },
+    {
+      "name": "_NetDfsSetSecurity@12"
+    },
+    {
+      "name": "_NetDfsSetStdContainerSecurity@12"
+    },
+    {
+      "name": "_NetEnumerateComputerNames@20"
+    },
+    {
+      "name": "_NetEnumerateServiceAccounts@16"
+    },
+    {
+      "name": "_NetErrorLogClear@12"
+    },
+    {
+      "name": "_NetErrorLogRead@44"
+    },
+    {
+      "name": "_NetErrorLogWrite@32"
+    },
+    {
+      "name": "_NetFileClose@8"
+    },
+    {
+      "name": "_NetFileEnum@36"
+    },
+    {
+      "name": "_NetFileGetInfo@16"
+    },
+    {
+      "name": "_NetFreeAadJoinInformation@4"
+    },
+    {
+      "name": "_NetGetAadJoinInformation@8"
+    },
+    {
+      "name": "_NetGetAnyDCName@12"
+    },
+    {
+      "name": "_NetGetDCName@12"
+    },
+    {
+      "name": "_NetGetDisplayInformationIndex@16"
+    },
+    {
+      "name": "_NetGetJoinInformation@12"
+    },
+    {
+      "name": "_NetGetJoinableOUs@24"
+    },
+    {
+      "name": "_NetGroupAdd@16"
+    },
+    {
+      "name": "_NetGroupAddUser@12"
+    },
+    {
+      "name": "_NetGroupDel@8"
+    },
+    {
+      "name": "_NetGroupDelUser@12"
+    },
+    {
+      "name": "_NetGroupEnum@28"
+    },
+    {
+      "name": "_NetGroupGetInfo@16"
+    },
+    {
+      "name": "_NetGroupGetUsers@32"
+    },
+    {
+      "name": "_NetGroupSetInfo@20"
+    },
+    {
+      "name": "_NetGroupSetUsers@20"
+    },
+    {
+      "name": "_NetIsServiceAccount@12"
+    },
+    {
+      "name": "_NetJoinDomain@24"
+    },
+    {
+      "name": "_NetLocalGroupAdd@16"
+    },
+    {
+      "name": "_NetLocalGroupAddMember@12"
+    },
+    {
+      "name": "_NetLocalGroupAddMembers@20"
+    },
+    {
+      "name": "_NetLocalGroupDel@8"
+    },
+    {
+      "name": "_NetLocalGroupDelMember@12"
+    },
+    {
+      "name": "_NetLocalGroupDelMembers@20"
+    },
+    {
+      "name": "_NetLocalGroupEnum@28"
+    },
+    {
+      "name": "_NetLocalGroupGetInfo@16"
+    },
+    {
+      "name": "_NetLocalGroupGetMembers@32"
+    },
+    {
+      "name": "_NetLocalGroupSetInfo@20"
+    },
+    {
+      "name": "_NetLocalGroupSetMembers@20"
+    },
+    {
+      "name": "_NetLogonGetTimeServiceParentDomain@12"
+    },
+    {
+      "name": "_NetMessageBufferSend@20"
+    },
+    {
+      "name": "_NetMessageNameAdd@8"
+    },
+    {
+      "name": "_NetMessageNameDel@8"
+    },
+    {
+      "name": "_NetMessageNameEnum@28"
+    },
+    {
+      "name": "_NetMessageNameGetInfo@16"
+    },
+    {
+      "name": "_NetProvisionComputerAccount@32"
+    },
+    {
+      "name": "_NetQueryDisplayInformation@28"
+    },
+    {
+      "name": "_NetQueryServiceAccount@16"
+    },
+    {
+      "name": "_NetRemoteComputerSupports@12"
+    },
+    {
+      "name": "_NetRemoteTOD@8"
+    },
+    {
+      "name": "_NetRemoveAlternateComputerName@20"
+    },
+    {
+      "name": "_NetRemoveServiceAccount@12"
+    },
+    {
+      "name": "_NetRenameMachineInDomain@20"
+    },
+    {
+      "name": "_NetReplExportDirAdd@16"
+    },
+    {
+      "name": "_NetReplExportDirDel@8"
+    },
+    {
+      "name": "_NetReplExportDirEnum@28"
+    },
+    {
+      "name": "_NetReplExportDirGetInfo@16"
+    },
+    {
+      "name": "_NetReplExportDirLock@8"
+    },
+    {
+      "name": "_NetReplExportDirSetInfo@20"
+    },
+    {
+      "name": "_NetReplExportDirUnlock@12"
+    },
+    {
+      "name": "_NetReplGetInfo@12"
+    },
+    {
+      "name": "_NetReplImportDirAdd@16"
+    },
+    {
+      "name": "_NetReplImportDirDel@8"
+    },
+    {
+      "name": "_NetReplImportDirEnum@28"
+    },
+    {
+      "name": "_NetReplImportDirGetInfo@16"
+    },
+    {
+      "name": "_NetReplImportDirLock@8"
+    },
+    {
+      "name": "_NetReplImportDirUnlock@12"
+    },
+    {
+      "name": "_NetReplSetInfo@16"
+    },
+    {
+      "name": "_NetRequestOfflineDomainJoin@16"
+    },
+    {
+      "name": "_NetRequestProvisioningPackageInstall@20"
+    },
+    {
+      "name": "_NetScheduleJobAdd@12"
+    },
+    {
+      "name": "_NetScheduleJobDel@12"
+    },
+    {
+      "name": "_NetScheduleJobEnum@24"
+    },
+    {
+      "name": "_NetScheduleJobGetInfo@12"
+    },
+    {
+      "name": "_NetServerAliasAdd@12"
+    },
+    {
+      "name": "_NetServerAliasDel@12"
+    },
+    {
+      "name": "_NetServerAliasEnum@28"
+    },
+    {
+      "name": "_NetServerComputerNameAdd@12"
+    },
+    {
+      "name": "_NetServerComputerNameDel@8"
+    },
+    {
+      "name": "_NetServerDiskEnum@28"
+    },
+    {
+      "name": "_NetServerEnum@36"
+    },
+    {
+      "name": "_NetServerGetInfo@12"
+    },
+    {
+      "name": "_NetServerSetInfo@16"
+    },
+    {
+      "name": "_NetServerTransportAdd@12"
+    },
+    {
+      "name": "_NetServerTransportAddEx@12"
+    },
+    {
+      "name": "_NetServerTransportDel@12"
+    },
+    {
+      "name": "_NetServerTransportEnum@28"
+    },
+    {
+      "name": "_NetServiceControl@20"
+    },
+    {
+      "name": "_NetServiceEnum@28"
+    },
+    {
+      "name": "_NetServiceGetInfo@16"
+    },
+    {
+      "name": "_NetServiceInstall@20"
+    },
+    {
+      "name": "_NetSessionDel@12"
+    },
+    {
+      "name": "_NetSessionEnum@36"
+    },
+    {
+      "name": "_NetSessionGetInfo@20"
+    },
+    {
+      "name": "_NetSetPrimaryComputerName@20"
+    },
+    {
+      "name": "_NetShareAdd@16"
+    },
+    {
+      "name": "_NetShareCheck@12"
+    },
+    {
+      "name": "_NetShareDel@12"
+    },
+    {
+      "name": "_NetShareDelEx@12"
+    },
+    {
+      "name": "_NetShareDelSticky@12"
+    },
+    {
+      "name": "_NetShareEnum@28"
+    },
+    {
+      "name": "_NetShareEnumSticky@28"
+    },
+    {
+      "name": "_NetShareGetInfo@16"
+    },
+    {
+      "name": "_NetShareSetInfo@20"
+    },
+    {
+      "name": "_NetStatisticsGet@20"
+    },
+    {
+      "name": "_NetUnjoinDomain@16"
+    },
+    {
+      "name": "_NetUseAdd@16"
+    },
+    {
+      "name": "_NetUseDel@12"
+    },
+    {
+      "name": "_NetUseEnum@28"
+    },
+    {
+      "name": "_NetUseGetInfo@16"
+    },
+    {
+      "name": "_NetUserAdd@16"
+    },
+    {
+      "name": "_NetUserChangePassword@16"
+    },
+    {
+      "name": "_NetUserDel@8"
+    },
+    {
+      "name": "_NetUserEnum@32"
+    },
+    {
+      "name": "_NetUserGetGroups@28"
+    },
+    {
+      "name": "_NetUserGetInfo@16"
+    },
+    {
+      "name": "_NetUserGetLocalGroups@32"
+    },
+    {
+      "name": "_NetUserModalsGet@12"
+    },
+    {
+      "name": "_NetUserModalsSet@16"
+    },
+    {
+      "name": "_NetUserSetGroups@20"
+    },
+    {
+      "name": "_NetUserSetInfo@20"
+    },
+    {
+      "name": "_NetValidateName@20"
+    },
+    {
+      "name": "_NetValidatePasswordPolicy@20"
+    },
+    {
+      "name": "_NetValidatePasswordPolicyFree@4"
+    },
+    {
+      "name": "_NetWkstaGetInfo@12"
+    },
+    {
+      "name": "_NetWkstaSetInfo@16"
+    },
+    {
+      "name": "_NetWkstaTransportAdd@16"
+    },
+    {
+      "name": "_NetWkstaTransportDel@12"
+    },
+    {
+      "name": "_NetWkstaTransportEnum@28"
+    },
+    {
+      "name": "_NetWkstaUserEnum@28"
+    },
+    {
+      "name": "_NetWkstaUserGetInfo@12"
+    },
+    {
+      "name": "_NetWkstaUserSetInfo@16"
+    },
+    {
+      "name": "_Netbios@4"
+    },
+    {
+      "name": "_NlBindingSetAuthInfo@20"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 25942,
+      "name": "__IMPORT_DESCRIPTOR_NETAPI32"
+    },
+    {
+      "offset": 26500,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 26812,
+      "name": "NETAPI32_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 46536,
+      "name": "_NetServiceControl@20"
+    },
+    {
+      "offset": 46536,
+      "name": "__imp__NetServiceControl@20"
+    },
+    {
+      "offset": 46652,
+      "name": "_NetServiceEnum@28"
+    },
+    {
+      "offset": 46652,
+      "name": "__imp__NetServiceEnum@28"
+    },
+    {
+      "offset": 46764,
+      "name": "_NetServiceGetInfo@16"
+    },
+    {
+      "offset": 46764,
+      "name": "__imp__NetServiceGetInfo@16"
+    },
+    {
+      "offset": 46880,
+      "name": "_NetServiceInstall@20"
+    },
+    {
+      "offset": 46880,
+      "name": "__imp__NetServiceInstall@20"
+    },
+    {
+      "offset": 48474,
+      "name": "_NetStatisticsGet@20"
+    },
+    {
+      "offset": 48474,
+      "name": "__imp__NetStatisticsGet@20"
+    },
+    {
+      "offset": 45714,
+      "name": "_NetServerEnum@36"
+    },
+    {
+      "offset": 45714,
+      "name": "__imp__NetServerEnum@36"
+    },
+    {
+      "offset": 27152,
+      "name": "_DavAddConnection@24"
+    },
+    {
+      "offset": 27152,
+      "name": "__imp__DavAddConnection@24"
+    },
+    {
+      "offset": 27266,
+      "name": "_DavDeleteConnection@4"
+    },
+    {
+      "offset": 27266,
+      "name": "__imp__DavDeleteConnection@4"
+    },
+    {
+      "offset": 27382,
+      "name": "_DavFlushFile@4"
+    },
+    {
+      "offset": 27382,
+      "name": "__imp__DavFlushFile@4"
+    },
+    {
+      "offset": 27492,
+      "name": "_DavGetExtendedError@16"
+    },
+    {
+      "offset": 27492,
+      "name": "__imp__DavGetExtendedError@16"
+    },
+    {
+      "offset": 27610,
+      "name": "_DavGetHTTPFromUNCPath@12"
+    },
+    {
+      "offset": 27610,
+      "name": "__imp__DavGetHTTPFromUNCPath@12"
+    },
+    {
+      "offset": 27730,
+      "name": "_DavGetUNCFromHTTPPath@12"
+    },
+    {
+      "offset": 27730,
+      "name": "__imp__DavGetUNCFromHTTPPath@12"
+    },
+    {
+      "offset": 33924,
+      "name": "_NetDfsAdd@20"
+    },
+    {
+      "offset": 33924,
+      "name": "__imp__NetDfsAdd@20"
+    },
+    {
+      "offset": 34032,
+      "name": "_NetDfsAddFtRoot@20"
+    },
+    {
+      "offset": 34032,
+      "name": "__imp__NetDfsAddFtRoot@20"
+    },
+    {
+      "offset": 34146,
+      "name": "_NetDfsAddRootTarget@20"
+    },
+    {
+      "offset": 34146,
+      "name": "__imp__NetDfsAddRootTarget@20"
+    },
+    {
+      "offset": 34264,
+      "name": "_NetDfsAddStdRoot@16"
+    },
+    {
+      "offset": 34264,
+      "name": "__imp__NetDfsAddStdRoot@16"
+    },
+    {
+      "offset": 34378,
+      "name": "_NetDfsEnum@24"
+    },
+    {
+      "offset": 34378,
+      "name": "__imp__NetDfsEnum@24"
+    },
+    {
+      "offset": 34486,
+      "name": "_NetDfsGetClientInfo@20"
+    },
+    {
+      "offset": 34486,
+      "name": "__imp__NetDfsGetClientInfo@20"
+    },
+    {
+      "offset": 34604,
+      "name": "_NetDfsGetFtContainerSecurity@16"
+    },
+    {
+      "offset": 34604,
+      "name": "__imp__NetDfsGetFtContainerSecurity@16"
+    },
+    {
+      "offset": 34730,
+      "name": "_NetDfsGetInfo@20"
+    },
+    {
+      "offset": 34730,
+      "name": "__imp__NetDfsGetInfo@20"
+    },
+    {
+      "offset": 34842,
+      "name": "_NetDfsGetSecurity@16"
+    },
+    {
+      "offset": 34842,
+      "name": "__imp__NetDfsGetSecurity@16"
+    },
+    {
+      "offset": 34958,
+      "name": "_NetDfsGetStdContainerSecurity@16"
+    },
+    {
+      "offset": 34958,
+      "name": "__imp__NetDfsGetStdContainerSecurity@16"
+    },
+    {
+      "offset": 35086,
+      "name": "_NetDfsGetSupportedNamespaceVersion@12"
+    },
+    {
+      "offset": 35086,
+      "name": "__imp__NetDfsGetSupportedNamespaceVersion@12"
+    },
+    {
+      "offset": 35218,
+      "name": "_NetDfsMove@12"
+    },
+    {
+      "offset": 35218,
+      "name": "__imp__NetDfsMove@12"
+    },
+    {
+      "offset": 35326,
+      "name": "_NetDfsRemove@12"
+    },
+    {
+      "offset": 35326,
+      "name": "__imp__NetDfsRemove@12"
+    },
+    {
+      "offset": 35436,
+      "name": "_NetDfsRemoveFtRoot@16"
+    },
+    {
+      "offset": 35436,
+      "name": "__imp__NetDfsRemoveFtRoot@16"
+    },
+    {
+      "offset": 35552,
+      "name": "_NetDfsRemoveFtRootForced@20"
+    },
+    {
+      "offset": 35552,
+      "name": "__imp__NetDfsRemoveFtRootForced@20"
+    },
+    {
+      "offset": 35674,
+      "name": "_NetDfsRemoveRootTarget@12"
+    },
+    {
+      "offset": 35674,
+      "name": "__imp__NetDfsRemoveRootTarget@12"
+    },
+    {
+      "offset": 35794,
+      "name": "_NetDfsRemoveStdRoot@12"
+    },
+    {
+      "offset": 35794,
+      "name": "__imp__NetDfsRemoveStdRoot@12"
+    },
+    {
+      "offset": 35912,
+      "name": "_NetDfsSetClientInfo@20"
+    },
+    {
+      "offset": 35912,
+      "name": "__imp__NetDfsSetClientInfo@20"
+    },
+    {
+      "offset": 36030,
+      "name": "_NetDfsSetFtContainerSecurity@12"
+    },
+    {
+      "offset": 36030,
+      "name": "__imp__NetDfsSetFtContainerSecurity@12"
+    },
+    {
+      "offset": 36156,
+      "name": "_NetDfsSetInfo@20"
+    },
+    {
+      "offset": 36156,
+      "name": "__imp__NetDfsSetInfo@20"
+    },
+    {
+      "offset": 36268,
+      "name": "_NetDfsSetSecurity@12"
+    },
+    {
+      "offset": 36268,
+      "name": "__imp__NetDfsSetSecurity@12"
+    },
+    {
+      "offset": 36384,
+      "name": "_NetDfsSetStdContainerSecurity@12"
+    },
+    {
+      "offset": 36384,
+      "name": "__imp__NetDfsSetStdContainerSecurity@12"
+    },
+    {
+      "offset": 37436,
+      "name": "_NetFreeAadJoinInformation@4"
+    },
+    {
+      "offset": 37436,
+      "name": "__imp__NetFreeAadJoinInformation@4"
+    },
+    {
+      "offset": 37558,
+      "name": "_NetGetAadJoinInformation@8"
+    },
+    {
+      "offset": 37558,
+      "name": "__imp__NetGetAadJoinInformation@8"
+    },
+    {
+      "offset": 30558,
+      "name": "_DsRoleFreeMemory@4"
+    },
+    {
+      "offset": 30558,
+      "name": "__imp__DsRoleFreeMemory@4"
+    },
+    {
+      "offset": 30672,
+      "name": "_DsRoleGetPrimaryDomainInformation@12"
+    },
+    {
+      "offset": 30672,
+      "name": "__imp__DsRoleGetPrimaryDomainInformation@12"
+    },
+    {
+      "offset": 27850,
+      "name": "_DsAddressToSiteNamesA@16"
+    },
+    {
+      "offset": 27850,
+      "name": "__imp__DsAddressToSiteNamesA@16"
+    },
+    {
+      "offset": 28214,
+      "name": "_DsAddressToSiteNamesW@16"
+    },
+    {
+      "offset": 28214,
+      "name": "__imp__DsAddressToSiteNamesW@16"
+    },
+    {
+      "offset": 27970,
+      "name": "_DsAddressToSiteNamesExA@20"
+    },
+    {
+      "offset": 27970,
+      "name": "__imp__DsAddressToSiteNamesExA@20"
+    },
+    {
+      "offset": 28092,
+      "name": "_DsAddressToSiteNamesExW@20"
+    },
+    {
+      "offset": 28092,
+      "name": "__imp__DsAddressToSiteNamesExW@20"
+    },
+    {
+      "offset": 28334,
+      "name": "_DsDeregisterDnsHostRecordsA@20"
+    },
+    {
+      "offset": 28334,
+      "name": "__imp__DsDeregisterDnsHostRecordsA@20"
+    },
+    {
+      "offset": 28460,
+      "name": "_DsDeregisterDnsHostRecordsW@20"
+    },
+    {
+      "offset": 28460,
+      "name": "__imp__DsDeregisterDnsHostRecordsW@20"
+    },
+    {
+      "offset": 28586,
+      "name": "_DsEnumerateDomainTrustsA@16"
+    },
+    {
+      "offset": 28586,
+      "name": "__imp__DsEnumerateDomainTrustsA@16"
+    },
+    {
+      "offset": 28708,
+      "name": "_DsEnumerateDomainTrustsW@16"
+    },
+    {
+      "offset": 28708,
+      "name": "__imp__DsEnumerateDomainTrustsW@16"
+    },
+    {
+      "offset": 28830,
+      "name": "_DsGetDcCloseW@4"
+    },
+    {
+      "offset": 28830,
+      "name": "__imp__DsGetDcCloseW@4"
+    },
+    {
+      "offset": 28940,
+      "name": "_DsGetDcNameA@24"
+    },
+    {
+      "offset": 28940,
+      "name": "__imp__DsGetDcNameA@24"
+    },
+    {
+      "offset": 29050,
+      "name": "_DsGetDcNameW@24"
+    },
+    {
+      "offset": 29050,
+      "name": "__imp__DsGetDcNameW@24"
+    },
+    {
+      "offset": 29160,
+      "name": "_DsGetDcNameWithAccountA@32"
+    },
+    {
+      "offset": 29160,
+      "name": "__imp__DsGetDcNameWithAccountA@32"
+    },
+    {
+      "offset": 29282,
+      "name": "_DsGetDcNameWithAccountW@32"
+    },
+    {
+      "offset": 29282,
+      "name": "__imp__DsGetDcNameWithAccountW@32"
+    },
+    {
+      "offset": 29404,
+      "name": "_DsGetDcNextA@16"
+    },
+    {
+      "offset": 29404,
+      "name": "__imp__DsGetDcNextA@16"
+    },
+    {
+      "offset": 29514,
+      "name": "_DsGetDcNextW@16"
+    },
+    {
+      "offset": 29514,
+      "name": "__imp__DsGetDcNextW@16"
+    },
+    {
+      "offset": 29624,
+      "name": "_DsGetDcOpenA@28"
+    },
+    {
+      "offset": 29624,
+      "name": "__imp__DsGetDcOpenA@28"
+    },
+    {
+      "offset": 29734,
+      "name": "_DsGetDcOpenW@28"
+    },
+    {
+      "offset": 29734,
+      "name": "__imp__DsGetDcOpenW@28"
+    },
+    {
+      "offset": 29844,
+      "name": "_DsGetDcSiteCoverageA@12"
+    },
+    {
+      "offset": 29844,
+      "name": "__imp__DsGetDcSiteCoverageA@12"
+    },
+    {
+      "offset": 29962,
+      "name": "_DsGetDcSiteCoverageW@12"
+    },
+    {
+      "offset": 29962,
+      "name": "__imp__DsGetDcSiteCoverageW@12"
+    },
+    {
+      "offset": 30080,
+      "name": "_DsGetForestTrustInformationW@16"
+    },
+    {
+      "offset": 30080,
+      "name": "__imp__DsGetForestTrustInformationW@16"
+    },
+    {
+      "offset": 30206,
+      "name": "_DsGetSiteNameA@8"
+    },
+    {
+      "offset": 30206,
+      "name": "__imp__DsGetSiteNameA@8"
+    },
+    {
+      "offset": 30318,
+      "name": "_DsGetSiteNameW@8"
+    },
+    {
+      "offset": 30318,
+      "name": "__imp__DsGetSiteNameW@8"
+    },
+    {
+      "offset": 30430,
+      "name": "_DsMergeForestTrustInformationW@16"
+    },
+    {
+      "offset": 30430,
+      "name": "__imp__DsMergeForestTrustInformationW@16"
+    },
+    {
+      "offset": 30804,
+      "name": "_DsValidateSubnetNameA@4"
+    },
+    {
+      "offset": 30804,
+      "name": "__imp__DsValidateSubnetNameA@4"
+    },
+    {
+      "offset": 30922,
+      "name": "_DsValidateSubnetNameW@4"
+    },
+    {
+      "offset": 30922,
+      "name": "__imp__DsValidateSubnetNameW@4"
+    },
+    {
+      "offset": 31040,
+      "name": "_I_NetLogonControl2@20"
+    },
+    {
+      "offset": 31040,
+      "name": "__imp__I_NetLogonControl2@20"
+    },
+    {
+      "offset": 31156,
+      "name": "_I_NetServerPasswordGet@28"
+    },
+    {
+      "offset": 31156,
+      "name": "__imp__I_NetServerPasswordGet@28"
+    },
+    {
+      "offset": 31276,
+      "name": "_I_NetServerPasswordSet2@28"
+    },
+    {
+      "offset": 31276,
+      "name": "__imp__I_NetServerPasswordSet2@28"
+    },
+    {
+      "offset": 32204,
+      "name": "_NetAddServiceAccount@16"
+    },
+    {
+      "offset": 32204,
+      "name": "__imp__NetAddServiceAccount@16"
+    },
+    {
+      "offset": 36636,
+      "name": "_NetEnumerateServiceAccounts@16"
+    },
+    {
+      "offset": 36636,
+      "name": "__imp__NetEnumerateServiceAccounts@16"
+    },
+    {
+      "offset": 37680,
+      "name": "_NetGetAnyDCName@12"
+    },
+    {
+      "offset": 37680,
+      "name": "__imp__NetGetAnyDCName@12"
+    },
+    {
+      "offset": 37794,
+      "name": "_NetGetDCName@12"
+    },
+    {
+      "offset": 37794,
+      "name": "__imp__NetGetDCName@12"
+    },
+    {
+      "offset": 39280,
+      "name": "_NetIsServiceAccount@12"
+    },
+    {
+      "offset": 39280,
+      "name": "__imp__NetIsServiceAccount@12"
+    },
+    {
+      "offset": 40818,
+      "name": "_NetLogonGetTimeServiceParentDomain@12"
+    },
+    {
+      "offset": 40818,
+      "name": "__imp__NetLogonGetTimeServiceParentDomain@12"
+    },
+    {
+      "offset": 41782,
+      "name": "_NetQueryServiceAccount@16"
+    },
+    {
+      "offset": 41782,
+      "name": "__imp__NetQueryServiceAccount@16"
+    },
+    {
+      "offset": 42264,
+      "name": "_NetRemoveServiceAccount@12"
+    },
+    {
+      "offset": 42264,
+      "name": "__imp__NetRemoveServiceAccount@12"
+    },
+    {
+      "offset": 51786,
+      "name": "_NlBindingSetAuthInfo@20"
+    },
+    {
+      "offset": 51786,
+      "name": "__imp__NlBindingSetAuthInfo@20"
+    },
+    {
+      "offset": 51682,
+      "name": "_Netbios@4"
+    },
+    {
+      "offset": 51682,
+      "name": "__imp__Netbios@4"
+    },
+    {
+      "offset": 41532,
+      "name": "_NetProvisionComputerAccount@32"
+    },
+    {
+      "offset": 41532,
+      "name": "__imp__NetProvisionComputerAccount@32"
+    },
+    {
+      "offset": 44278,
+      "name": "_NetRequestOfflineDomainJoin@16"
+    },
+    {
+      "offset": 44278,
+      "name": "__imp__NetRequestOfflineDomainJoin@16"
+    },
+    {
+      "offset": 33798,
+      "name": "_NetCreateProvisioningPackage@16"
+    },
+    {
+      "offset": 33798,
+      "name": "__imp__NetCreateProvisioningPackage@16"
+    },
+    {
+      "offset": 44404,
+      "name": "_NetRequestProvisioningPackageInstall@20"
+    },
+    {
+      "offset": 44404,
+      "name": "__imp__NetRequestProvisioningPackageInstall@20"
+    },
+    {
+      "offset": 32548,
+      "name": "_NetApiBufferAllocate@8"
+    },
+    {
+      "offset": 32548,
+      "name": "__imp__NetApiBufferAllocate@8"
+    },
+    {
+      "offset": 32666,
+      "name": "_NetApiBufferFree@4"
+    },
+    {
+      "offset": 32666,
+      "name": "__imp__NetApiBufferFree@4"
+    },
+    {
+      "offset": 32780,
+      "name": "_NetApiBufferReallocate@12"
+    },
+    {
+      "offset": 32780,
+      "name": "__imp__NetApiBufferReallocate@12"
+    },
+    {
+      "offset": 32900,
+      "name": "_NetApiBufferSize@8"
+    },
+    {
+      "offset": 32900,
+      "name": "__imp__NetApiBufferSize@8"
+    },
+    {
+      "offset": 41902,
+      "name": "_NetRemoteComputerSupports@12"
+    },
+    {
+      "offset": 41902,
+      "name": "__imp__NetRemoteComputerSupports@12"
+    },
+    {
+      "offset": 37904,
+      "name": "_NetGetDisplayInformationIndex@16"
+    },
+    {
+      "offset": 37904,
+      "name": "__imp__NetGetDisplayInformationIndex@16"
+    },
+    {
+      "offset": 38268,
+      "name": "_NetGroupAdd@16"
+    },
+    {
+      "offset": 38268,
+      "name": "__imp__NetGroupAdd@16"
+    },
+    {
+      "offset": 38378,
+      "name": "_NetGroupAddUser@12"
+    },
+    {
+      "offset": 38378,
+      "name": "__imp__NetGroupAddUser@12"
+    },
+    {
+      "offset": 38492,
+      "name": "_NetGroupDel@8"
+    },
+    {
+      "offset": 38492,
+      "name": "__imp__NetGroupDel@8"
+    },
+    {
+      "offset": 38600,
+      "name": "_NetGroupDelUser@12"
+    },
+    {
+      "offset": 38600,
+      "name": "__imp__NetGroupDelUser@12"
+    },
+    {
+      "offset": 38714,
+      "name": "_NetGroupEnum@28"
+    },
+    {
+      "offset": 38714,
+      "name": "__imp__NetGroupEnum@28"
+    },
+    {
+      "offset": 38824,
+      "name": "_NetGroupGetInfo@16"
+    },
+    {
+      "offset": 38824,
+      "name": "__imp__NetGroupGetInfo@16"
+    },
+    {
+      "offset": 38938,
+      "name": "_NetGroupGetUsers@32"
+    },
+    {
+      "offset": 38938,
+      "name": "__imp__NetGroupGetUsers@32"
+    },
+    {
+      "offset": 39052,
+      "name": "_NetGroupSetInfo@20"
+    },
+    {
+      "offset": 39052,
+      "name": "__imp__NetGroupSetInfo@20"
+    },
+    {
+      "offset": 39166,
+      "name": "_NetGroupSetUsers@20"
+    },
+    {
+      "offset": 39166,
+      "name": "__imp__NetGroupSetUsers@20"
+    },
+    {
+      "offset": 39510,
+      "name": "_NetLocalGroupAdd@16"
+    },
+    {
+      "offset": 39510,
+      "name": "__imp__NetLocalGroupAdd@16"
+    },
+    {
+      "offset": 39624,
+      "name": "_NetLocalGroupAddMember@12"
+    },
+    {
+      "offset": 39624,
+      "name": "__imp__NetLocalGroupAddMember@12"
+    },
+    {
+      "offset": 39744,
+      "name": "_NetLocalGroupAddMembers@20"
+    },
+    {
+      "offset": 39744,
+      "name": "__imp__NetLocalGroupAddMembers@20"
+    },
+    {
+      "offset": 39866,
+      "name": "_NetLocalGroupDel@8"
+    },
+    {
+      "offset": 39866,
+      "name": "__imp__NetLocalGroupDel@8"
+    },
+    {
+      "offset": 39980,
+      "name": "_NetLocalGroupDelMember@12"
+    },
+    {
+      "offset": 39980,
+      "name": "__imp__NetLocalGroupDelMember@12"
+    },
+    {
+      "offset": 40100,
+      "name": "_NetLocalGroupDelMembers@20"
+    },
+    {
+      "offset": 40100,
+      "name": "__imp__NetLocalGroupDelMembers@20"
+    },
+    {
+      "offset": 40222,
+      "name": "_NetLocalGroupEnum@28"
+    },
+    {
+      "offset": 40222,
+      "name": "__imp__NetLocalGroupEnum@28"
+    },
+    {
+      "offset": 40338,
+      "name": "_NetLocalGroupGetInfo@16"
+    },
+    {
+      "offset": 40338,
+      "name": "__imp__NetLocalGroupGetInfo@16"
+    },
+    {
+      "offset": 40456,
+      "name": "_NetLocalGroupGetMembers@32"
+    },
+    {
+      "offset": 40456,
+      "name": "__imp__NetLocalGroupGetMembers@32"
+    },
+    {
+      "offset": 40578,
+      "name": "_NetLocalGroupSetInfo@20"
+    },
+    {
+      "offset": 40578,
+      "name": "__imp__NetLocalGroupSetInfo@20"
+    },
+    {
+      "offset": 40696,
+      "name": "_NetLocalGroupSetMembers@20"
+    },
+    {
+      "offset": 40696,
+      "name": "__imp__NetLocalGroupSetMembers@20"
+    },
+    {
+      "offset": 41658,
+      "name": "_NetQueryDisplayInformation@28"
+    },
+    {
+      "offset": 41658,
+      "name": "__imp__NetQueryDisplayInformation@28"
+    },
+    {
+      "offset": 49138,
+      "name": "_NetUserAdd@16"
+    },
+    {
+      "offset": 49138,
+      "name": "__imp__NetUserAdd@16"
+    },
+    {
+      "offset": 49246,
+      "name": "_NetUserChangePassword@16"
+    },
+    {
+      "offset": 49246,
+      "name": "__imp__NetUserChangePassword@16"
+    },
+    {
+      "offset": 49366,
+      "name": "_NetUserDel@8"
+    },
+    {
+      "offset": 49366,
+      "name": "__imp__NetUserDel@8"
+    },
+    {
+      "offset": 49474,
+      "name": "_NetUserEnum@32"
+    },
+    {
+      "offset": 49474,
+      "name": "__imp__NetUserEnum@32"
+    },
+    {
+      "offset": 49584,
+      "name": "_NetUserGetGroups@28"
+    },
+    {
+      "offset": 49584,
+      "name": "__imp__NetUserGetGroups@28"
+    },
+    {
+      "offset": 49810,
+      "name": "_NetUserGetLocalGroups@32"
+    },
+    {
+      "offset": 49810,
+      "name": "__imp__NetUserGetLocalGroups@32"
+    },
+    {
+      "offset": 49698,
+      "name": "_NetUserGetInfo@16"
+    },
+    {
+      "offset": 49698,
+      "name": "__imp__NetUserGetInfo@16"
+    },
+    {
+      "offset": 49930,
+      "name": "_NetUserModalsGet@12"
+    },
+    {
+      "offset": 49930,
+      "name": "__imp__NetUserModalsGet@12"
+    },
+    {
+      "offset": 50044,
+      "name": "_NetUserModalsSet@16"
+    },
+    {
+      "offset": 50044,
+      "name": "__imp__NetUserModalsSet@16"
+    },
+    {
+      "offset": 50158,
+      "name": "_NetUserSetGroups@20"
+    },
+    {
+      "offset": 50158,
+      "name": "__imp__NetUserSetGroups@20"
+    },
+    {
+      "offset": 50272,
+      "name": "_NetUserSetInfo@20"
+    },
+    {
+      "offset": 50272,
+      "name": "__imp__NetUserSetInfo@20"
+    },
+    {
+      "offset": 50498,
+      "name": "_NetValidatePasswordPolicy@20"
+    },
+    {
+      "offset": 50498,
+      "name": "__imp__NetValidatePasswordPolicy@20"
+    },
+    {
+      "offset": 50622,
+      "name": "_NetValidatePasswordPolicyFree@4"
+    },
+    {
+      "offset": 50622,
+      "name": "__imp__NetValidatePasswordPolicyFree@4"
+    },
+    {
+      "offset": 44538,
+      "name": "_NetScheduleJobAdd@12"
+    },
+    {
+      "offset": 44538,
+      "name": "__imp__NetScheduleJobAdd@12"
+    },
+    {
+      "offset": 44654,
+      "name": "_NetScheduleJobDel@12"
+    },
+    {
+      "offset": 44654,
+      "name": "__imp__NetScheduleJobDel@12"
+    },
+    {
+      "offset": 44770,
+      "name": "_NetScheduleJobEnum@24"
+    },
+    {
+      "offset": 44770,
+      "name": "__imp__NetScheduleJobEnum@24"
+    },
+    {
+      "offset": 44886,
+      "name": "_NetScheduleJobGetInfo@12"
+    },
+    {
+      "offset": 44886,
+      "name": "__imp__NetScheduleJobGetInfo@12"
+    },
+    {
+      "offset": 33682,
+      "name": "_NetConnectionEnum@32"
+    },
+    {
+      "offset": 33682,
+      "name": "__imp__NetConnectionEnum@32"
+    },
+    {
+      "offset": 37104,
+      "name": "_NetFileClose@8"
+    },
+    {
+      "offset": 37104,
+      "name": "__imp__NetFileClose@8"
+    },
+    {
+      "offset": 37214,
+      "name": "_NetFileEnum@36"
+    },
+    {
+      "offset": 37214,
+      "name": "__imp__NetFileEnum@36"
+    },
+    {
+      "offset": 37324,
+      "name": "_NetFileGetInfo@16"
+    },
+    {
+      "offset": 37324,
+      "name": "__imp__NetFileGetInfo@16"
+    },
+    {
+      "offset": 42026,
+      "name": "_NetRemoteTOD@8"
+    },
+    {
+      "offset": 42026,
+      "name": "__imp__NetRemoteTOD@8"
+    },
+    {
+      "offset": 45006,
+      "name": "_NetServerAliasAdd@12"
+    },
+    {
+      "offset": 45006,
+      "name": "__imp__NetServerAliasAdd@12"
+    },
+    {
+      "offset": 45122,
+      "name": "_NetServerAliasDel@12"
+    },
+    {
+      "offset": 45122,
+      "name": "__imp__NetServerAliasDel@12"
+    },
+    {
+      "offset": 45238,
+      "name": "_NetServerAliasEnum@28"
+    },
+    {
+      "offset": 45238,
+      "name": "__imp__NetServerAliasEnum@28"
+    },
+    {
+      "offset": 45354,
+      "name": "_NetServerComputerNameAdd@12"
+    },
+    {
+      "offset": 45354,
+      "name": "__imp__NetServerComputerNameAdd@12"
+    },
+    {
+      "offset": 45476,
+      "name": "_NetServerComputerNameDel@8"
+    },
+    {
+      "offset": 45476,
+      "name": "__imp__NetServerComputerNameDel@8"
+    },
+    {
+      "offset": 45598,
+      "name": "_NetServerDiskEnum@28"
+    },
+    {
+      "offset": 45598,
+      "name": "__imp__NetServerDiskEnum@28"
+    },
+    {
+      "offset": 45826,
+      "name": "_NetServerGetInfo@12"
+    },
+    {
+      "offset": 45826,
+      "name": "__imp__NetServerGetInfo@12"
+    },
+    {
+      "offset": 45940,
+      "name": "_NetServerSetInfo@16"
+    },
+    {
+      "offset": 45940,
+      "name": "__imp__NetServerSetInfo@16"
+    },
+    {
+      "offset": 46054,
+      "name": "_NetServerTransportAdd@12"
+    },
+    {
+      "offset": 46054,
+      "name": "__imp__NetServerTransportAdd@12"
+    },
+    {
+      "offset": 46174,
+      "name": "_NetServerTransportAddEx@12"
+    },
+    {
+      "offset": 46174,
+      "name": "__imp__NetServerTransportAddEx@12"
+    },
+    {
+      "offset": 46296,
+      "name": "_NetServerTransportDel@12"
+    },
+    {
+      "offset": 46296,
+      "name": "__imp__NetServerTransportDel@12"
+    },
+    {
+      "offset": 46416,
+      "name": "_NetServerTransportEnum@28"
+    },
+    {
+      "offset": 46416,
+      "name": "__imp__NetServerTransportEnum@28"
+    },
+    {
+      "offset": 46996,
+      "name": "_NetSessionDel@12"
+    },
+    {
+      "offset": 46996,
+      "name": "__imp__NetSessionDel@12"
+    },
+    {
+      "offset": 47108,
+      "name": "_NetSessionEnum@36"
+    },
+    {
+      "offset": 47108,
+      "name": "__imp__NetSessionEnum@36"
+    },
+    {
+      "offset": 47220,
+      "name": "_NetSessionGetInfo@20"
+    },
+    {
+      "offset": 47220,
+      "name": "__imp__NetSessionGetInfo@20"
+    },
+    {
+      "offset": 47460,
+      "name": "_NetShareAdd@16"
+    },
+    {
+      "offset": 47460,
+      "name": "__imp__NetShareAdd@16"
+    },
+    {
+      "offset": 47570,
+      "name": "_NetShareCheck@12"
+    },
+    {
+      "offset": 47570,
+      "name": "__imp__NetShareCheck@12"
+    },
+    {
+      "offset": 47682,
+      "name": "_NetShareDel@12"
+    },
+    {
+      "offset": 47682,
+      "name": "__imp__NetShareDel@12"
+    },
+    {
+      "offset": 47792,
+      "name": "_NetShareDelEx@12"
+    },
+    {
+      "offset": 47792,
+      "name": "__imp__NetShareDelEx@12"
+    },
+    {
+      "offset": 47904,
+      "name": "_NetShareDelSticky@12"
+    },
+    {
+      "offset": 47904,
+      "name": "__imp__NetShareDelSticky@12"
+    },
+    {
+      "offset": 48020,
+      "name": "_NetShareEnum@28"
+    },
+    {
+      "offset": 48020,
+      "name": "__imp__NetShareEnum@28"
+    },
+    {
+      "offset": 48130,
+      "name": "_NetShareEnumSticky@28"
+    },
+    {
+      "offset": 48130,
+      "name": "__imp__NetShareEnumSticky@28"
+    },
+    {
+      "offset": 48246,
+      "name": "_NetShareGetInfo@16"
+    },
+    {
+      "offset": 48246,
+      "name": "__imp__NetShareGetInfo@16"
+    },
+    {
+      "offset": 48360,
+      "name": "_NetShareSetInfo@20"
+    },
+    {
+      "offset": 48360,
+      "name": "__imp__NetShareSetInfo@20"
+    },
+    {
+      "offset": 32078,
+      "name": "_NetAddAlternateComputerName@20"
+    },
+    {
+      "offset": 32078,
+      "name": "__imp__NetAddAlternateComputerName@20"
+    },
+    {
+      "offset": 36512,
+      "name": "_NetEnumerateComputerNames@20"
+    },
+    {
+      "offset": 36512,
+      "name": "__imp__NetEnumerateComputerNames@20"
+    },
+    {
+      "offset": 38152,
+      "name": "_NetGetJoinableOUs@24"
+    },
+    {
+      "offset": 38152,
+      "name": "__imp__NetGetJoinableOUs@24"
+    },
+    {
+      "offset": 38032,
+      "name": "_NetGetJoinInformation@12"
+    },
+    {
+      "offset": 38032,
+      "name": "__imp__NetGetJoinInformation@12"
+    },
+    {
+      "offset": 39398,
+      "name": "_NetJoinDomain@24"
+    },
+    {
+      "offset": 39398,
+      "name": "__imp__NetJoinDomain@24"
+    },
+    {
+      "offset": 42136,
+      "name": "_NetRemoveAlternateComputerName@20"
+    },
+    {
+      "offset": 42136,
+      "name": "__imp__NetRemoveAlternateComputerName@20"
+    },
+    {
+      "offset": 42386,
+      "name": "_NetRenameMachineInDomain@20"
+    },
+    {
+      "offset": 42386,
+      "name": "__imp__NetRenameMachineInDomain@20"
+    },
+    {
+      "offset": 47336,
+      "name": "_NetSetPrimaryComputerName@20"
+    },
+    {
+      "offset": 47336,
+      "name": "__imp__NetSetPrimaryComputerName@20"
+    },
+    {
+      "offset": 48588,
+      "name": "_NetUnjoinDomain@16"
+    },
+    {
+      "offset": 48588,
+      "name": "__imp__NetUnjoinDomain@16"
+    },
+    {
+      "offset": 48702,
+      "name": "_NetUseAdd@16"
+    },
+    {
+      "offset": 48702,
+      "name": "__imp__NetUseAdd@16"
+    },
+    {
+      "offset": 48810,
+      "name": "_NetUseDel@12"
+    },
+    {
+      "offset": 48810,
+      "name": "__imp__NetUseDel@12"
+    },
+    {
+      "offset": 48918,
+      "name": "_NetUseEnum@28"
+    },
+    {
+      "offset": 48918,
+      "name": "__imp__NetUseEnum@28"
+    },
+    {
+      "offset": 49026,
+      "name": "_NetUseGetInfo@16"
+    },
+    {
+      "offset": 49026,
+      "name": "__imp__NetUseGetInfo@16"
+    },
+    {
+      "offset": 50384,
+      "name": "_NetValidateName@20"
+    },
+    {
+      "offset": 50384,
+      "name": "__imp__NetValidateName@20"
+    },
+    {
+      "offset": 50748,
+      "name": "_NetWkstaGetInfo@12"
+    },
+    {
+      "offset": 50748,
+      "name": "__imp__NetWkstaGetInfo@12"
+    },
+    {
+      "offset": 50862,
+      "name": "_NetWkstaSetInfo@16"
+    },
+    {
+      "offset": 50862,
+      "name": "__imp__NetWkstaSetInfo@16"
+    },
+    {
+      "offset": 51332,
+      "name": "_NetWkstaUserEnum@28"
+    },
+    {
+      "offset": 51332,
+      "name": "__imp__NetWkstaUserEnum@28"
+    },
+    {
+      "offset": 51446,
+      "name": "_NetWkstaUserGetInfo@12"
+    },
+    {
+      "offset": 51446,
+      "name": "__imp__NetWkstaUserGetInfo@12"
+    },
+    {
+      "offset": 51564,
+      "name": "_NetWkstaUserSetInfo@16"
+    },
+    {
+      "offset": 51564,
+      "name": "__imp__NetWkstaUserSetInfo@16"
+    },
+    {
+      "offset": 50976,
+      "name": "_NetWkstaTransportAdd@16"
+    },
+    {
+      "offset": 50976,
+      "name": "__imp__NetWkstaTransportAdd@16"
+    },
+    {
+      "offset": 51094,
+      "name": "_NetWkstaTransportDel@12"
+    },
+    {
+      "offset": 51094,
+      "name": "__imp__NetWkstaTransportDel@12"
+    },
+    {
+      "offset": 51212,
+      "name": "_NetWkstaTransportEnum@28"
+    },
+    {
+      "offset": 51212,
+      "name": "__imp__NetWkstaTransportEnum@28"
+    },
+    {
+      "offset": 31398,
+      "name": "_NetAccessAdd@16"
+    },
+    {
+      "offset": 31398,
+      "name": "__imp__NetAccessAdd@16"
+    },
+    {
+      "offset": 31508,
+      "name": "_NetAccessDel@8"
+    },
+    {
+      "offset": 31508,
+      "name": "__imp__NetAccessDel@8"
+    },
+    {
+      "offset": 31618,
+      "name": "_NetAccessEnum@36"
+    },
+    {
+      "offset": 31618,
+      "name": "__imp__NetAccessEnum@36"
+    },
+    {
+      "offset": 31730,
+      "name": "_NetAccessGetInfo@16"
+    },
+    {
+      "offset": 31730,
+      "name": "__imp__NetAccessGetInfo@16"
+    },
+    {
+      "offset": 31844,
+      "name": "_NetAccessGetUserPerms@16"
+    },
+    {
+      "offset": 31844,
+      "name": "__imp__NetAccessGetUserPerms@16"
+    },
+    {
+      "offset": 31964,
+      "name": "_NetAccessSetInfo@20"
+    },
+    {
+      "offset": 31964,
+      "name": "__imp__NetAccessSetInfo@20"
+    },
+    {
+      "offset": 32322,
+      "name": "_NetAlertRaise@12"
+    },
+    {
+      "offset": 32322,
+      "name": "__imp__NetAlertRaise@12"
+    },
+    {
+      "offset": 32434,
+      "name": "_NetAlertRaiseEx@16"
+    },
+    {
+      "offset": 32434,
+      "name": "__imp__NetAlertRaiseEx@16"
+    },
+    {
+      "offset": 33014,
+      "name": "_NetAuditClear@12"
+    },
+    {
+      "offset": 33014,
+      "name": "__imp__NetAuditClear@12"
+    },
+    {
+      "offset": 33126,
+      "name": "_NetAuditRead@44"
+    },
+    {
+      "offset": 33126,
+      "name": "__imp__NetAuditRead@44"
+    },
+    {
+      "offset": 33236,
+      "name": "_NetAuditWrite@20"
+    },
+    {
+      "offset": 33236,
+      "name": "__imp__NetAuditWrite@20"
+    },
+    {
+      "offset": 33348,
+      "name": "_NetConfigGet@16"
+    },
+    {
+      "offset": 33348,
+      "name": "__imp__NetConfigGet@16"
+    },
+    {
+      "offset": 33458,
+      "name": "_NetConfigGetAll@12"
+    },
+    {
+      "offset": 33458,
+      "name": "__imp__NetConfigGetAll@12"
+    },
+    {
+      "offset": 33572,
+      "name": "_NetConfigSet@28"
+    },
+    {
+      "offset": 33572,
+      "name": "__imp__NetConfigSet@28"
+    },
+    {
+      "offset": 36762,
+      "name": "_NetErrorLogClear@12"
+    },
+    {
+      "offset": 36762,
+      "name": "__imp__NetErrorLogClear@12"
+    },
+    {
+      "offset": 36876,
+      "name": "_NetErrorLogRead@44"
+    },
+    {
+      "offset": 36876,
+      "name": "__imp__NetErrorLogRead@44"
+    },
+    {
+      "offset": 36990,
+      "name": "_NetErrorLogWrite@32"
+    },
+    {
+      "offset": 36990,
+      "name": "__imp__NetErrorLogWrite@32"
+    },
+    {
+      "offset": 40950,
+      "name": "_NetMessageBufferSend@20"
+    },
+    {
+      "offset": 40950,
+      "name": "__imp__NetMessageBufferSend@20"
+    },
+    {
+      "offset": 41068,
+      "name": "_NetMessageNameAdd@8"
+    },
+    {
+      "offset": 41068,
+      "name": "__imp__NetMessageNameAdd@8"
+    },
+    {
+      "offset": 41296,
+      "name": "_NetMessageNameEnum@28"
+    },
+    {
+      "offset": 41296,
+      "name": "__imp__NetMessageNameEnum@28"
+    },
+    {
+      "offset": 41412,
+      "name": "_NetMessageNameGetInfo@16"
+    },
+    {
+      "offset": 41412,
+      "name": "__imp__NetMessageNameGetInfo@16"
+    },
+    {
+      "offset": 41182,
+      "name": "_NetMessageNameDel@8"
+    },
+    {
+      "offset": 41182,
+      "name": "__imp__NetMessageNameDel@8"
+    },
+    {
+      "offset": 42508,
+      "name": "_NetReplExportDirAdd@16"
+    },
+    {
+      "offset": 42508,
+      "name": "__imp__NetReplExportDirAdd@16"
+    },
+    {
+      "offset": 42626,
+      "name": "_NetReplExportDirDel@8"
+    },
+    {
+      "offset": 42626,
+      "name": "__imp__NetReplExportDirDel@8"
+    },
+    {
+      "offset": 42742,
+      "name": "_NetReplExportDirEnum@28"
+    },
+    {
+      "offset": 42742,
+      "name": "__imp__NetReplExportDirEnum@28"
+    },
+    {
+      "offset": 42860,
+      "name": "_NetReplExportDirGetInfo@16"
+    },
+    {
+      "offset": 42860,
+      "name": "__imp__NetReplExportDirGetInfo@16"
+    },
+    {
+      "offset": 43100,
+      "name": "_NetReplExportDirSetInfo@20"
+    },
+    {
+      "offset": 43100,
+      "name": "__imp__NetReplExportDirSetInfo@20"
+    },
+    {
+      "offset": 42982,
+      "name": "_NetReplExportDirLock@8"
+    },
+    {
+      "offset": 42982,
+      "name": "__imp__NetReplExportDirLock@8"
+    },
+    {
+      "offset": 43222,
+      "name": "_NetReplExportDirUnlock@12"
+    },
+    {
+      "offset": 43222,
+      "name": "__imp__NetReplExportDirUnlock@12"
+    },
+    {
+      "offset": 43342,
+      "name": "_NetReplGetInfo@12"
+    },
+    {
+      "offset": 43342,
+      "name": "__imp__NetReplGetInfo@12"
+    },
+    {
+      "offset": 43454,
+      "name": "_NetReplImportDirAdd@16"
+    },
+    {
+      "offset": 43454,
+      "name": "__imp__NetReplImportDirAdd@16"
+    },
+    {
+      "offset": 43572,
+      "name": "_NetReplImportDirDel@8"
+    },
+    {
+      "offset": 43572,
+      "name": "__imp__NetReplImportDirDel@8"
+    },
+    {
+      "offset": 43688,
+      "name": "_NetReplImportDirEnum@28"
+    },
+    {
+      "offset": 43688,
+      "name": "__imp__NetReplImportDirEnum@28"
+    },
+    {
+      "offset": 43806,
+      "name": "_NetReplImportDirGetInfo@16"
+    },
+    {
+      "offset": 43806,
+      "name": "__imp__NetReplImportDirGetInfo@16"
+    },
+    {
+      "offset": 43928,
+      "name": "_NetReplImportDirLock@8"
+    },
+    {
+      "offset": 43928,
+      "name": "__imp__NetReplImportDirLock@8"
+    },
+    {
+      "offset": 44046,
+      "name": "_NetReplImportDirUnlock@12"
+    },
+    {
+      "offset": 44046,
+      "name": "__imp__NetReplImportDirUnlock@12"
+    },
+    {
+      "offset": 44166,
+      "name": "_NetReplSetInfo@16"
+    },
+    {
+      "offset": 44166,
+      "name": "__imp__NetReplSetInfo@16"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 27152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3358254432,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DavAddConnection@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "DavAddConnection"
+    },
+    {
+      "offset": 27266,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4180831614,
+      "sizeOfData": 36,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DavDeleteConnection@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "DavDeleteConnection"
+    },
+    {
+      "offset": 27382,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3719214055,
+      "sizeOfData": 29,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DavFlushFile@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "DavFlushFile"
+    },
+    {
+      "offset": 27492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3234254814,
+      "sizeOfData": 37,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DavGetExtendedError@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "DavGetExtendedError"
+    },
+    {
+      "offset": 27610,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3549754919,
+      "sizeOfData": 39,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DavGetHTTPFromUNCPath@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "DavGetHTTPFromUNCPath"
+    },
+    {
+      "offset": 27730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3860507290,
+      "sizeOfData": 39,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DavGetUNCFromHTTPPath@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "DavGetUNCFromHTTPPath"
+    },
+    {
+      "offset": 27850,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3359737186,
+      "sizeOfData": 39,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsAddressToSiteNamesA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "DsAddressToSiteNamesA"
+    },
+    {
+      "offset": 27970,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3296739675,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsAddressToSiteNamesExA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "DsAddressToSiteNamesExA"
+    },
+    {
+      "offset": 28092,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4225873442,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsAddressToSiteNamesExW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "DsAddressToSiteNamesExW"
+    },
+    {
+      "offset": 28214,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3623621484,
+      "sizeOfData": 39,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsAddressToSiteNamesW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "DsAddressToSiteNamesW"
+    },
+    {
+      "offset": 28334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3535933814,
+      "sizeOfData": 45,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsDeregisterDnsHostRecordsA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "DsDeregisterDnsHostRecordsA"
+    },
+    {
+      "offset": 28460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3239481206,
+      "sizeOfData": 45,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsDeregisterDnsHostRecordsW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "DsDeregisterDnsHostRecordsW"
+    },
+    {
+      "offset": 28586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4053094910,
+      "sizeOfData": 42,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsEnumerateDomainTrustsA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "DsEnumerateDomainTrustsA"
+    },
+    {
+      "offset": 28708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3860874370,
+      "sizeOfData": 42,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsEnumerateDomainTrustsW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "DsEnumerateDomainTrustsW"
+    },
+    {
+      "offset": 28830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3307911358,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetDcCloseW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "DsGetDcCloseW"
+    },
+    {
+      "offset": 28940,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3572307415,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetDcNameA@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "DsGetDcNameA"
+    },
+    {
+      "offset": 29050,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3660208878,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetDcNameW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "DsGetDcNameW"
+    },
+    {
+      "offset": 29160,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4228503843,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetDcNameWithAccountA@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "DsGetDcNameWithAccountA"
+    },
+    {
+      "offset": 29282,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4009987076,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetDcNameWithAccountW@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "DsGetDcNameWithAccountW"
+    },
+    {
+      "offset": 29404,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3284380455,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetDcNextA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "DsGetDcNextA"
+    },
+    {
+      "offset": 29514,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4180015994,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetDcNextW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "DsGetDcNextW"
+    },
+    {
+      "offset": 29624,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3677384960,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetDcOpenA@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "DsGetDcOpenA"
+    },
+    {
+      "offset": 29734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3921619419,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetDcOpenW@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "DsGetDcOpenW"
+    },
+    {
+      "offset": 29844,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3322326658,
+      "sizeOfData": 38,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetDcSiteCoverageA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "DsGetDcSiteCoverageA"
+    },
+    {
+      "offset": 29962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4216749922,
+      "sizeOfData": 38,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetDcSiteCoverageW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "DsGetDcSiteCoverageW"
+    },
+    {
+      "offset": 30080,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3852773157,
+      "sizeOfData": 46,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetForestTrustInformationW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "DsGetForestTrustInformationW"
+    },
+    {
+      "offset": 30206,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3373749422,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetSiteNameA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "DsGetSiteNameA"
+    },
+    {
+      "offset": 30318,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3399931860,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsGetSiteNameW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "DsGetSiteNameW"
+    },
+    {
+      "offset": 30430,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3455520494,
+      "sizeOfData": 48,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsMergeForestTrustInformationW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "DsMergeForestTrustInformationW"
+    },
+    {
+      "offset": 30558,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3476424587,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsRoleFreeMemory@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "DsRoleFreeMemory"
+    },
+    {
+      "offset": 30672,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3221706996,
+      "sizeOfData": 51,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsRoleGetPrimaryDomainInformation@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "DsRoleGetPrimaryDomainInformation"
+    },
+    {
+      "offset": 30804,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3704610995,
+      "sizeOfData": 38,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsValidateSubnetNameA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "DsValidateSubnetNameA"
+    },
+    {
+      "offset": 30922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3480320560,
+      "sizeOfData": 38,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_DsValidateSubnetNameW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "DsValidateSubnetNameW"
+    },
+    {
+      "offset": 31040,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3666348690,
+      "sizeOfData": 36,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_I_NetLogonControl2@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "I_NetLogonControl2"
+    },
+    {
+      "offset": 31156,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3737828695,
+      "sizeOfData": 40,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_I_NetServerPasswordGet@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "I_NetServerPasswordGet"
+    },
+    {
+      "offset": 31276,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4221714175,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_I_NetServerPasswordSet2@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "I_NetServerPasswordSet2"
+    },
+    {
+      "offset": 31398,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3643252030,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetAccessAdd@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "NetAccessAdd"
+    },
+    {
+      "offset": 31508,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3887100687,
+      "sizeOfData": 29,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetAccessDel@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "NetAccessDel"
+    },
+    {
+      "offset": 31618,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4000866701,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetAccessEnum@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "NetAccessEnum"
+    },
+    {
+      "offset": 31730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3511467129,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetAccessGetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "NetAccessGetInfo"
+    },
+    {
+      "offset": 31844,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4169902619,
+      "sizeOfData": 39,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetAccessGetUserPerms@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "NetAccessGetUserPerms"
+    },
+    {
+      "offset": 31964,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3763713755,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetAccessSetInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "NetAccessSetInfo"
+    },
+    {
+      "offset": 32078,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3266622908,
+      "sizeOfData": 45,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetAddAlternateComputerName@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "NetAddAlternateComputerName"
+    },
+    {
+      "offset": 32204,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3318836590,
+      "sizeOfData": 38,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetAddServiceAccount@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "NetAddServiceAccount"
+    },
+    {
+      "offset": 32322,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3549723172,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetAlertRaise@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "NetAlertRaise"
+    },
+    {
+      "offset": 32434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3914185805,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetAlertRaiseEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "NetAlertRaiseEx"
+    },
+    {
+      "offset": 32548,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3672462863,
+      "sizeOfData": 37,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetApiBufferAllocate@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "NetApiBufferAllocate"
+    },
+    {
+      "offset": 32666,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3833262346,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetApiBufferFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "NetApiBufferFree"
+    },
+    {
+      "offset": 32780,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4031191480,
+      "sizeOfData": 40,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetApiBufferReallocate@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "NetApiBufferReallocate"
+    },
+    {
+      "offset": 32900,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3817522054,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetApiBufferSize@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "NetApiBufferSize"
+    },
+    {
+      "offset": 33014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3346500215,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetAuditClear@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "NetAuditClear"
+    },
+    {
+      "offset": 33126,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3890972120,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetAuditRead@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "NetAuditRead"
+    },
+    {
+      "offset": 33236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3952569044,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetAuditWrite@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "NetAuditWrite"
+    },
+    {
+      "offset": 33348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3389368464,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetConfigGet@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "NetConfigGet"
+    },
+    {
+      "offset": 33458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4076474591,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetConfigGetAll@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "NetConfigGetAll"
+    },
+    {
+      "offset": 33572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3441645109,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetConfigSet@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "NetConfigSet"
+    },
+    {
+      "offset": 33682,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3392949598,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetConnectionEnum@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "NetConnectionEnum"
+    },
+    {
+      "offset": 33798,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3437663172,
+      "sizeOfData": 46,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetCreateProvisioningPackage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "NetCreateProvisioningPackage"
+    },
+    {
+      "offset": 33924,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4079892443,
+      "sizeOfData": 27,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsAdd@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "NetDfsAdd"
+    },
+    {
+      "offset": 34032,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3872439177,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsAddFtRoot@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "NetDfsAddFtRoot"
+    },
+    {
+      "offset": 34146,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4143261201,
+      "sizeOfData": 37,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsAddRootTarget@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "NetDfsAddRootTarget"
+    },
+    {
+      "offset": 34264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3668953793,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsAddStdRoot@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "NetDfsAddStdRoot"
+    },
+    {
+      "offset": 34378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3534593462,
+      "sizeOfData": 28,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsEnum@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "NetDfsEnum"
+    },
+    {
+      "offset": 34486,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3774153564,
+      "sizeOfData": 37,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsGetClientInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "NetDfsGetClientInfo"
+    },
+    {
+      "offset": 34604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4066960776,
+      "sizeOfData": 46,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsGetFtContainerSecurity@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "NetDfsGetFtContainerSecurity"
+    },
+    {
+      "offset": 34730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3280491581,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsGetInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "NetDfsGetInfo"
+    },
+    {
+      "offset": 34842,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4163208390,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsGetSecurity@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "NetDfsGetSecurity"
+    },
+    {
+      "offset": 34958,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4249373743,
+      "sizeOfData": 47,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsGetStdContainerSecurity@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "NetDfsGetStdContainerSecurity"
+    },
+    {
+      "offset": 35086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3301809085,
+      "sizeOfData": 52,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsGetSupportedNamespaceVersion@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "NetDfsGetSupportedNamespaceVersion"
+    },
+    {
+      "offset": 35218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3384270580,
+      "sizeOfData": 28,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsMove@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "NetDfsMove"
+    },
+    {
+      "offset": 35326,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3500773562,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsRemove@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "NetDfsRemove"
+    },
+    {
+      "offset": 35436,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4011205077,
+      "sizeOfData": 36,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsRemoveFtRoot@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "NetDfsRemoveFtRoot"
+    },
+    {
+      "offset": 35552,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3423784693,
+      "sizeOfData": 42,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsRemoveFtRootForced@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "NetDfsRemoveFtRootForced"
+    },
+    {
+      "offset": 35674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4180261922,
+      "sizeOfData": 40,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsRemoveRootTarget@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "NetDfsRemoveRootTarget"
+    },
+    {
+      "offset": 35794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3342746071,
+      "sizeOfData": 37,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsRemoveStdRoot@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "NetDfsRemoveStdRoot"
+    },
+    {
+      "offset": 35912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3620871498,
+      "sizeOfData": 37,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsSetClientInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "NetDfsSetClientInfo"
+    },
+    {
+      "offset": 36030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4289782503,
+      "sizeOfData": 46,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsSetFtContainerSecurity@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "NetDfsSetFtContainerSecurity"
+    },
+    {
+      "offset": 36156,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4224762889,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsSetInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "NetDfsSetInfo"
+    },
+    {
+      "offset": 36268,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3319725350,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsSetSecurity@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "NetDfsSetSecurity"
+    },
+    {
+      "offset": 36384,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3710073261,
+      "sizeOfData": 47,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetDfsSetStdContainerSecurity@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "NetDfsSetStdContainerSecurity"
+    },
+    {
+      "offset": 36512,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3513026448,
+      "sizeOfData": 43,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetEnumerateComputerNames@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "NetEnumerateComputerNames"
+    },
+    {
+      "offset": 36636,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4226544633,
+      "sizeOfData": 45,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetEnumerateServiceAccounts@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "NetEnumerateServiceAccounts"
+    },
+    {
+      "offset": 36762,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3498410238,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetErrorLogClear@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "NetErrorLogClear"
+    },
+    {
+      "offset": 36876,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3775122562,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetErrorLogRead@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "NetErrorLogRead"
+    },
+    {
+      "offset": 36990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3412099514,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetErrorLogWrite@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "NetErrorLogWrite"
+    },
+    {
+      "offset": 37104,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4237730423,
+      "sizeOfData": 29,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetFileClose@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "NetFileClose"
+    },
+    {
+      "offset": 37214,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3390932390,
+      "sizeOfData": 29,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetFileEnum@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "NetFileEnum"
+    },
+    {
+      "offset": 37324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4130614168,
+      "sizeOfData": 32,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetFileGetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "NetFileGetInfo"
+    },
+    {
+      "offset": 37436,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4260852073,
+      "sizeOfData": 42,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetFreeAadJoinInformation@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "NetFreeAadJoinInformation"
+    },
+    {
+      "offset": 37558,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3995053511,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGetAadJoinInformation@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "NetGetAadJoinInformation"
+    },
+    {
+      "offset": 37680,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3581237617,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGetAnyDCName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "NetGetAnyDCName"
+    },
+    {
+      "offset": 37794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3667440862,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGetDCName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "NetGetDCName"
+    },
+    {
+      "offset": 37904,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3664973959,
+      "sizeOfData": 47,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGetDisplayInformationIndex@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "NetGetDisplayInformationIndex"
+    },
+    {
+      "offset": 38032,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3850770362,
+      "sizeOfData": 39,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGetJoinInformation@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "NetGetJoinInformation"
+    },
+    {
+      "offset": 38152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3580652293,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGetJoinableOUs@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "NetGetJoinableOUs"
+    },
+    {
+      "offset": 38268,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3706874747,
+      "sizeOfData": 29,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGroupAdd@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "NetGroupAdd"
+    },
+    {
+      "offset": 38378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3755343665,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGroupAddUser@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "NetGroupAddUser"
+    },
+    {
+      "offset": 38492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3845479841,
+      "sizeOfData": 28,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGroupDel@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "NetGroupDel"
+    },
+    {
+      "offset": 38600,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4092556744,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGroupDelUser@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "NetGroupDelUser"
+    },
+    {
+      "offset": 38714,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4153325176,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGroupEnum@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "NetGroupEnum"
+    },
+    {
+      "offset": 38824,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3958725097,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGroupGetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "NetGroupGetInfo"
+    },
+    {
+      "offset": 38938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3402940184,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGroupGetUsers@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "NetGroupGetUsers"
+    },
+    {
+      "offset": 39052,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3388736344,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGroupSetInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "NetGroupSetInfo"
+    },
+    {
+      "offset": 39166,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3635211233,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetGroupSetUsers@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "NetGroupSetUsers"
+    },
+    {
+      "offset": 39280,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3619217558,
+      "sizeOfData": 37,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetIsServiceAccount@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "NetIsServiceAccount"
+    },
+    {
+      "offset": 39398,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3601730739,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetJoinDomain@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "NetJoinDomain"
+    },
+    {
+      "offset": 39510,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4029607491,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetLocalGroupAdd@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "NetLocalGroupAdd"
+    },
+    {
+      "offset": 39624,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3845933790,
+      "sizeOfData": 40,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetLocalGroupAddMember@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "NetLocalGroupAddMember"
+    },
+    {
+      "offset": 39744,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3987572573,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetLocalGroupAddMembers@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "NetLocalGroupAddMembers"
+    },
+    {
+      "offset": 39866,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3744396640,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetLocalGroupDel@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "NetLocalGroupDel"
+    },
+    {
+      "offset": 39980,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3294775802,
+      "sizeOfData": 40,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetLocalGroupDelMember@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "NetLocalGroupDelMember"
+    },
+    {
+      "offset": 40100,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3560304831,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetLocalGroupDelMembers@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "NetLocalGroupDelMembers"
+    },
+    {
+      "offset": 40222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3283873421,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetLocalGroupEnum@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "NetLocalGroupEnum"
+    },
+    {
+      "offset": 40338,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4065591438,
+      "sizeOfData": 38,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetLocalGroupGetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "NetLocalGroupGetInfo"
+    },
+    {
+      "offset": 40456,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3953320313,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetLocalGroupGetMembers@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "NetLocalGroupGetMembers"
+    },
+    {
+      "offset": 40578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4158219424,
+      "sizeOfData": 38,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetLocalGroupSetInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "NetLocalGroupSetInfo"
+    },
+    {
+      "offset": 40696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4182878512,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetLocalGroupSetMembers@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "NetLocalGroupSetMembers"
+    },
+    {
+      "offset": 40818,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4226293504,
+      "sizeOfData": 52,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetLogonGetTimeServiceParentDomain@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 158,
+      "name": "NetLogonGetTimeServiceParentDomain"
+    },
+    {
+      "offset": 40950,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3607142778,
+      "sizeOfData": 38,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetMessageBufferSend@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 160,
+      "name": "NetMessageBufferSend"
+    },
+    {
+      "offset": 41068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4138359913,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetMessageNameAdd@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 161,
+      "name": "NetMessageNameAdd"
+    },
+    {
+      "offset": 41182,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4201339991,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetMessageNameDel@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 162,
+      "name": "NetMessageNameDel"
+    },
+    {
+      "offset": 41296,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4066754073,
+      "sizeOfData": 36,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetMessageNameEnum@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 163,
+      "name": "NetMessageNameEnum"
+    },
+    {
+      "offset": 41412,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3811256300,
+      "sizeOfData": 39,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetMessageNameGetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 164,
+      "name": "NetMessageNameGetInfo"
+    },
+    {
+      "offset": 41532,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3452608839,
+      "sizeOfData": 45,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetProvisionComputerAccount@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 165,
+      "name": "NetProvisionComputerAccount"
+    },
+    {
+      "offset": 41658,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3275606468,
+      "sizeOfData": 44,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetQueryDisplayInformation@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 166,
+      "name": "NetQueryDisplayInformation"
+    },
+    {
+      "offset": 41782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4009340659,
+      "sizeOfData": 40,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetQueryServiceAccount@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 167,
+      "name": "NetQueryServiceAccount"
+    },
+    {
+      "offset": 41902,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3313702393,
+      "sizeOfData": 43,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetRemoteComputerSupports@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 169,
+      "name": "NetRemoteComputerSupports"
+    },
+    {
+      "offset": 42026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4288590253,
+      "sizeOfData": 29,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetRemoteTOD@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 170,
+      "name": "NetRemoteTOD"
+    },
+    {
+      "offset": 42136,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4095556267,
+      "sizeOfData": 48,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetRemoveAlternateComputerName@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 171,
+      "name": "NetRemoveAlternateComputerName"
+    },
+    {
+      "offset": 42264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3844715908,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetRemoveServiceAccount@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 172,
+      "name": "NetRemoveServiceAccount"
+    },
+    {
+      "offset": 42386,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3820076784,
+      "sizeOfData": 42,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetRenameMachineInDomain@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 173,
+      "name": "NetRenameMachineInDomain"
+    },
+    {
+      "offset": 42508,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3315931339,
+      "sizeOfData": 37,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplExportDirAdd@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 174,
+      "name": "NetReplExportDirAdd"
+    },
+    {
+      "offset": 42626,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3580168312,
+      "sizeOfData": 36,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplExportDirDel@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 175,
+      "name": "NetReplExportDirDel"
+    },
+    {
+      "offset": 42742,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3461616255,
+      "sizeOfData": 38,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplExportDirEnum@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 176,
+      "name": "NetReplExportDirEnum"
+    },
+    {
+      "offset": 42860,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3753012307,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplExportDirGetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 177,
+      "name": "NetReplExportDirGetInfo"
+    },
+    {
+      "offset": 42982,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3337828067,
+      "sizeOfData": 37,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplExportDirLock@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 178,
+      "name": "NetReplExportDirLock"
+    },
+    {
+      "offset": 43100,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3848838103,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplExportDirSetInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 179,
+      "name": "NetReplExportDirSetInfo"
+    },
+    {
+      "offset": 43222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3281278938,
+      "sizeOfData": 40,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplExportDirUnlock@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 180,
+      "name": "NetReplExportDirUnlock"
+    },
+    {
+      "offset": 43342,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4010342583,
+      "sizeOfData": 32,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplGetInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 181,
+      "name": "NetReplGetInfo"
+    },
+    {
+      "offset": 43454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3653168363,
+      "sizeOfData": 37,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplImportDirAdd@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 182,
+      "name": "NetReplImportDirAdd"
+    },
+    {
+      "offset": 43572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3979270411,
+      "sizeOfData": 36,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplImportDirDel@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 183,
+      "name": "NetReplImportDirDel"
+    },
+    {
+      "offset": 43688,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3347377539,
+      "sizeOfData": 38,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplImportDirEnum@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 184,
+      "name": "NetReplImportDirEnum"
+    },
+    {
+      "offset": 43806,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3865054431,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplImportDirGetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 185,
+      "name": "NetReplImportDirGetInfo"
+    },
+    {
+      "offset": 43928,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3307451982,
+      "sizeOfData": 37,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplImportDirLock@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 186,
+      "name": "NetReplImportDirLock"
+    },
+    {
+      "offset": 44046,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3268076546,
+      "sizeOfData": 40,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplImportDirUnlock@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 187,
+      "name": "NetReplImportDirUnlock"
+    },
+    {
+      "offset": 44166,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3600767550,
+      "sizeOfData": 32,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetReplSetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 188,
+      "name": "NetReplSetInfo"
+    },
+    {
+      "offset": 44278,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4168378480,
+      "sizeOfData": 45,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetRequestOfflineDomainJoin@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 189,
+      "name": "NetRequestOfflineDomainJoin"
+    },
+    {
+      "offset": 44404,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4272029780,
+      "sizeOfData": 54,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetRequestProvisioningPackageInstall@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 190,
+      "name": "NetRequestProvisioningPackageInstall"
+    },
+    {
+      "offset": 44538,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3769820323,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetScheduleJobAdd@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 191,
+      "name": "NetScheduleJobAdd"
+    },
+    {
+      "offset": 44654,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3933074810,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetScheduleJobDel@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 192,
+      "name": "NetScheduleJobDel"
+    },
+    {
+      "offset": 44770,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4176506648,
+      "sizeOfData": 36,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetScheduleJobEnum@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 193,
+      "name": "NetScheduleJobEnum"
+    },
+    {
+      "offset": 44886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3558239538,
+      "sizeOfData": 39,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetScheduleJobGetInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 194,
+      "name": "NetScheduleJobGetInfo"
+    },
+    {
+      "offset": 45006,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3682197491,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServerAliasAdd@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 195,
+      "name": "NetServerAliasAdd"
+    },
+    {
+      "offset": 45122,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3611537879,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServerAliasDel@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 196,
+      "name": "NetServerAliasDel"
+    },
+    {
+      "offset": 45238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3788028537,
+      "sizeOfData": 36,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServerAliasEnum@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 197,
+      "name": "NetServerAliasEnum"
+    },
+    {
+      "offset": 45354,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3319512012,
+      "sizeOfData": 42,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServerComputerNameAdd@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 198,
+      "name": "NetServerComputerNameAdd"
+    },
+    {
+      "offset": 45476,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3967471041,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServerComputerNameDel@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 199,
+      "name": "NetServerComputerNameDel"
+    },
+    {
+      "offset": 45598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3795625537,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServerDiskEnum@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 200,
+      "name": "NetServerDiskEnum"
+    },
+    {
+      "offset": 45714,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3667020121,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServerEnum@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 201,
+      "name": "NetServerEnum"
+    },
+    {
+      "offset": 45826,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3804590227,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServerGetInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 203,
+      "name": "NetServerGetInfo"
+    },
+    {
+      "offset": 45940,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4186517228,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServerSetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 204,
+      "name": "NetServerSetInfo"
+    },
+    {
+      "offset": 46054,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3626562387,
+      "sizeOfData": 39,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServerTransportAdd@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 205,
+      "name": "NetServerTransportAdd"
+    },
+    {
+      "offset": 46174,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3609749162,
+      "sizeOfData": 41,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServerTransportAddEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 206,
+      "name": "NetServerTransportAddEx"
+    },
+    {
+      "offset": 46296,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3486763395,
+      "sizeOfData": 39,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServerTransportDel@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 207,
+      "name": "NetServerTransportDel"
+    },
+    {
+      "offset": 46416,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3927512293,
+      "sizeOfData": 40,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServerTransportEnum@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 208,
+      "name": "NetServerTransportEnum"
+    },
+    {
+      "offset": 46536,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3757443252,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServiceControl@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 209,
+      "name": "NetServiceControl"
+    },
+    {
+      "offset": 46652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3840624443,
+      "sizeOfData": 32,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServiceEnum@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 210,
+      "name": "NetServiceEnum"
+    },
+    {
+      "offset": 46764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3775788865,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServiceGetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 211,
+      "name": "NetServiceGetInfo"
+    },
+    {
+      "offset": 46880,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4004702808,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetServiceInstall@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 212,
+      "name": "NetServiceInstall"
+    },
+    {
+      "offset": 46996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3627159140,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetSessionDel@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 213,
+      "name": "NetSessionDel"
+    },
+    {
+      "offset": 47108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3858764642,
+      "sizeOfData": 32,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetSessionEnum@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 214,
+      "name": "NetSessionEnum"
+    },
+    {
+      "offset": 47220,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3454831790,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetSessionGetInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 215,
+      "name": "NetSessionGetInfo"
+    },
+    {
+      "offset": 47336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3348044818,
+      "sizeOfData": 43,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetSetPrimaryComputerName@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 216,
+      "name": "NetSetPrimaryComputerName"
+    },
+    {
+      "offset": 47460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3955568004,
+      "sizeOfData": 29,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetShareAdd@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 217,
+      "name": "NetShareAdd"
+    },
+    {
+      "offset": 47570,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4149466104,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetShareCheck@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 218,
+      "name": "NetShareCheck"
+    },
+    {
+      "offset": 47682,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3737450812,
+      "sizeOfData": 29,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetShareDel@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 219,
+      "name": "NetShareDel"
+    },
+    {
+      "offset": 47792,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4081992004,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetShareDelEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 220,
+      "name": "NetShareDelEx"
+    },
+    {
+      "offset": 47904,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3553647985,
+      "sizeOfData": 35,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetShareDelSticky@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 221,
+      "name": "NetShareDelSticky"
+    },
+    {
+      "offset": 48020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4286402879,
+      "sizeOfData": 30,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetShareEnum@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 222,
+      "name": "NetShareEnum"
+    },
+    {
+      "offset": 48130,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3813003009,
+      "sizeOfData": 36,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetShareEnumSticky@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 223,
+      "name": "NetShareEnumSticky"
+    },
+    {
+      "offset": 48246,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3926761741,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetShareGetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 224,
+      "name": "NetShareGetInfo"
+    },
+    {
+      "offset": 48360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3919135375,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetShareSetInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 225,
+      "name": "NetShareSetInfo"
+    },
+    {
+      "offset": 48474,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3458937211,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetStatisticsGet@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 226,
+      "name": "NetStatisticsGet"
+    },
+    {
+      "offset": 48588,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3306905715,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUnjoinDomain@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 227,
+      "name": "NetUnjoinDomain"
+    },
+    {
+      "offset": 48702,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4270624204,
+      "sizeOfData": 27,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUseAdd@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 229,
+      "name": "NetUseAdd"
+    },
+    {
+      "offset": 48810,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3597472104,
+      "sizeOfData": 27,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUseDel@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 230,
+      "name": "NetUseDel"
+    },
+    {
+      "offset": 48918,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3442105863,
+      "sizeOfData": 28,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUseEnum@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 231,
+      "name": "NetUseEnum"
+    },
+    {
+      "offset": 49026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3262373170,
+      "sizeOfData": 31,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUseGetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 232,
+      "name": "NetUseGetInfo"
+    },
+    {
+      "offset": 49138,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4248071498,
+      "sizeOfData": 28,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUserAdd@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 233,
+      "name": "NetUserAdd"
+    },
+    {
+      "offset": 49246,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3543538055,
+      "sizeOfData": 39,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUserChangePassword@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 234,
+      "name": "NetUserChangePassword"
+    },
+    {
+      "offset": 49366,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4197608482,
+      "sizeOfData": 27,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUserDel@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 235,
+      "name": "NetUserDel"
+    },
+    {
+      "offset": 49474,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4125259172,
+      "sizeOfData": 29,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUserEnum@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 236,
+      "name": "NetUserEnum"
+    },
+    {
+      "offset": 49584,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4242407962,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUserGetGroups@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 237,
+      "name": "NetUserGetGroups"
+    },
+    {
+      "offset": 49698,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3824476805,
+      "sizeOfData": 32,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUserGetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 238,
+      "name": "NetUserGetInfo"
+    },
+    {
+      "offset": 49810,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3480473705,
+      "sizeOfData": 39,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUserGetLocalGroups@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 239,
+      "name": "NetUserGetLocalGroups"
+    },
+    {
+      "offset": 49930,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3696908641,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUserModalsGet@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 240,
+      "name": "NetUserModalsGet"
+    },
+    {
+      "offset": 50044,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3354696564,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUserModalsSet@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 241,
+      "name": "NetUserModalsSet"
+    },
+    {
+      "offset": 50158,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3564723993,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUserSetGroups@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 242,
+      "name": "NetUserSetGroups"
+    },
+    {
+      "offset": 50272,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3756350306,
+      "sizeOfData": 32,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetUserSetInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 243,
+      "name": "NetUserSetInfo"
+    },
+    {
+      "offset": 50384,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3605219843,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetValidateName@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 244,
+      "name": "NetValidateName"
+    },
+    {
+      "offset": 50498,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3328850259,
+      "sizeOfData": 43,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetValidatePasswordPolicy@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 245,
+      "name": "NetValidatePasswordPolicy"
+    },
+    {
+      "offset": 50622,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4177997395,
+      "sizeOfData": 46,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetValidatePasswordPolicyFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 246,
+      "name": "NetValidatePasswordPolicyFree"
+    },
+    {
+      "offset": 50748,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3824171008,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetWkstaGetInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 247,
+      "name": "NetWkstaGetInfo"
+    },
+    {
+      "offset": 50862,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4150703444,
+      "sizeOfData": 33,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetWkstaSetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 248,
+      "name": "NetWkstaSetInfo"
+    },
+    {
+      "offset": 50976,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4155574778,
+      "sizeOfData": 38,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetWkstaTransportAdd@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 249,
+      "name": "NetWkstaTransportAdd"
+    },
+    {
+      "offset": 51094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3580655547,
+      "sizeOfData": 38,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetWkstaTransportDel@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 250,
+      "name": "NetWkstaTransportDel"
+    },
+    {
+      "offset": 51212,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4080144608,
+      "sizeOfData": 39,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetWkstaTransportEnum@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 251,
+      "name": "NetWkstaTransportEnum"
+    },
+    {
+      "offset": 51332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4077939383,
+      "sizeOfData": 34,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetWkstaUserEnum@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 252,
+      "name": "NetWkstaUserEnum"
+    },
+    {
+      "offset": 51446,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4055240689,
+      "sizeOfData": 37,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetWkstaUserGetInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 253,
+      "name": "NetWkstaUserGetInfo"
+    },
+    {
+      "offset": 51564,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3775598589,
+      "sizeOfData": 37,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NetWkstaUserSetInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 254,
+      "name": "NetWkstaUserSetInfo"
+    },
+    {
+      "offset": 51682,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3269869033,
+      "sizeOfData": 24,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_Netbios@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 256,
+      "name": "Netbios"
+    },
+    {
+      "offset": 51786,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3430310255,
+      "sizeOfData": 38,
+      "dllName": "NETAPI32.dll",
+      "symbolName": "_NlBindingSetAuthInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 286,
+      "name": "NlBindingSetAuthInfo"
+    }
+  ]
+}

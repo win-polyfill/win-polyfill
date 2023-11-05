@@ -1,0 +1,3693 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "?SymAllocDiaString@@YGPAGPBG@Z (unsigned short * __stdcall SymAllocDiaString(unsigned short const *))"
+    },
+    {
+      "name": "?SymFreeDiaString@@YGXPAG@Z (void __stdcall SymFreeDiaString(unsigned short *))"
+    },
+    {
+      "name": "?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z (int __stdcall SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))"
+    },
+    {
+      "name": "?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z (int __stdcall SymGetDiaSource(void *,unsigned __int64,struct IDiaDataSource * *))"
+    },
+    {
+      "name": "?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z (int __stdcall SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))"
+    },
+    {
+      "name": "_BindImage@12"
+    },
+    {
+      "name": "_BindImageEx@20"
+    },
+    {
+      "name": "_CheckSumMappedFile@16"
+    },
+    {
+      "name": "_EnumerateLoadedModules64@12"
+    },
+    {
+      "name": "_EnumerateLoadedModules@12"
+    },
+    {
+      "name": "_EnumerateLoadedModulesEx@12"
+    },
+    {
+      "name": "_EnumerateLoadedModulesExW@12"
+    },
+    {
+      "name": "_EnumerateLoadedModulesW64@12"
+    },
+    {
+      "name": "_FindDebugInfoFile@12"
+    },
+    {
+      "name": "_FindDebugInfoFileEx@20"
+    },
+    {
+      "name": "_FindExecutableImage@12"
+    },
+    {
+      "name": "_FindExecutableImageEx@20"
+    },
+    {
+      "name": "_FindFileInPath@32"
+    },
+    {
+      "name": "_FindFileInSearchPath@28"
+    },
+    {
+      "name": "_GetImageConfigInformation@8"
+    },
+    {
+      "name": "_GetImageUnusedHeaderBytes@8"
+    },
+    {
+      "name": "_GetSymLoadError@0"
+    },
+    {
+      "name": "_GetTimestampForLoadedLibrary@4"
+    },
+    {
+      "name": "_ImageAddCertificate@12"
+    },
+    {
+      "name": "_ImageDirectoryEntryToData@16"
+    },
+    {
+      "name": "_ImageDirectoryEntryToDataEx@20"
+    },
+    {
+      "name": "_ImageEnumerateCertificates@20"
+    },
+    {
+      "name": "_ImageGetCertificateData@16"
+    },
+    {
+      "name": "_ImageGetCertificateHeader@12"
+    },
+    {
+      "name": "_ImageGetDigestStream@16"
+    },
+    {
+      "name": "_ImageLoad@8"
+    },
+    {
+      "name": "_ImageNtHeader@4"
+    },
+    {
+      "name": "_ImageRemoveCertificate@8"
+    },
+    {
+      "name": "_ImageRvaToSection@12"
+    },
+    {
+      "name": "_ImageRvaToVa@16"
+    },
+    {
+      "name": "_ImageUnload@4"
+    },
+    {
+      "name": "_ImagehlpApiVersion@0"
+    },
+    {
+      "name": "_ImagehlpApiVersionEx@4"
+    },
+    {
+      "name": "_MakeSureDirectoryPathExists@4"
+    },
+    {
+      "name": "_MapAndLoad@20"
+    },
+    {
+      "name": "_MapDebugInformation@16"
+    },
+    {
+      "name": "_MapFileAndCheckSumA@12"
+    },
+    {
+      "name": "_MapFileAndCheckSumW@12"
+    },
+    {
+      "name": "_ReBaseImage64@44"
+    },
+    {
+      "name": "_ReBaseImage@44"
+    },
+    {
+      "name": "_RemoveInvalidModuleList@4"
+    },
+    {
+      "name": "_ReportSymbolLoadSummary@12"
+    },
+    {
+      "name": "_SearchTreeForFile@12"
+    },
+    {
+      "name": "_SetCheckUserInterruptShared@4"
+    },
+    {
+      "name": "_SetImageConfigInformation@8"
+    },
+    {
+      "name": "_SetSymLoadError@4"
+    },
+    {
+      "name": "_SplitSymbols@16"
+    },
+    {
+      "name": "_StackWalk64@36"
+    },
+    {
+      "name": "_StackWalk@36"
+    },
+    {
+      "name": "_StackWalkEx@40"
+    },
+    {
+      "name": "_SymAddrIncludeInlineTrace@12"
+    },
+    {
+      "name": "_SymCleanup@4"
+    },
+    {
+      "name": "_SymCompareInlineTrace@40"
+    },
+    {
+      "name": "_SymEnumSym@20"
+    },
+    {
+      "name": "_SymEnumSymbols@24"
+    },
+    {
+      "name": "_SymEnumSymbolsEx@28"
+    },
+    {
+      "name": "_SymEnumSymbolsExW@28"
+    },
+    {
+      "name": "_SymEnumSymbolsForAddr@20"
+    },
+    {
+      "name": "_SymEnumTypes@20"
+    },
+    {
+      "name": "_SymEnumTypesByName@24"
+    },
+    {
+      "name": "_SymEnumTypesByNameW@24"
+    },
+    {
+      "name": "_SymEnumTypesW@20"
+    },
+    {
+      "name": "_SymEnumerateModules64@12"
+    },
+    {
+      "name": "_SymEnumerateModules@12"
+    },
+    {
+      "name": "_SymEnumerateSymbols64@20"
+    },
+    {
+      "name": "_SymEnumerateSymbols@16"
+    },
+    {
+      "name": "_SymEnumerateSymbolsW64@20"
+    },
+    {
+      "name": "_SymEnumerateSymbolsW@16"
+    },
+    {
+      "name": "_SymFindFileInPath@40"
+    },
+    {
+      "name": "_SymFindFileInPathW@40"
+    },
+    {
+      "name": "_SymFromAddr@20"
+    },
+    {
+      "name": "_SymFromInlineContext@24"
+    },
+    {
+      "name": "_SymFromInlineContextW@24"
+    },
+    {
+      "name": "_SymFromName@12"
+    },
+    {
+      "name": "_SymFunctionTableAccess64@12"
+    },
+    {
+      "name": "_SymFunctionTableAccess64AccessRoutines@20"
+    },
+    {
+      "name": "_SymFunctionTableAccess@8"
+    },
+    {
+      "name": "_SymGetExtendedOption@4"
+    },
+    {
+      "name": "_SymGetLineFromAddr64@20"
+    },
+    {
+      "name": "_SymGetLineFromAddr@16"
+    },
+    {
+      "name": "_SymGetLineFromInlineContext@32"
+    },
+    {
+      "name": "_SymGetLineFromInlineContextW@32"
+    },
+    {
+      "name": "_SymGetLineFromName64@24"
+    },
+    {
+      "name": "_SymGetLineFromName@24"
+    },
+    {
+      "name": "_SymGetLineNext64@8"
+    },
+    {
+      "name": "_SymGetLineNext@8"
+    },
+    {
+      "name": "_SymGetLinePrev64@8"
+    },
+    {
+      "name": "_SymGetLinePrev@8"
+    },
+    {
+      "name": "_SymGetModuleBase64@12"
+    },
+    {
+      "name": "_SymGetModuleBase@8"
+    },
+    {
+      "name": "_SymGetModuleInfo64@16"
+    },
+    {
+      "name": "_SymGetModuleInfo@12"
+    },
+    {
+      "name": "_SymGetModuleInfoW64@16"
+    },
+    {
+      "name": "_SymGetModuleInfoW@12"
+    },
+    {
+      "name": "_SymGetOptions@0"
+    },
+    {
+      "name": "_SymGetSearchPath@12"
+    },
+    {
+      "name": "_SymGetSourceFileChecksumW@32"
+    },
+    {
+      "name": "_SymGetSourceFileFromTokenW@20"
+    },
+    {
+      "name": "_SymGetSourceFileTokenW@24"
+    },
+    {
+      "name": "_SymGetSourceVarFromTokenW@24"
+    },
+    {
+      "name": "_SymGetSymFromAddr64@20"
+    },
+    {
+      "name": "_SymGetSymFromAddr@16"
+    },
+    {
+      "name": "_SymGetSymFromName64@12"
+    },
+    {
+      "name": "_SymGetSymFromName@12"
+    },
+    {
+      "name": "_SymGetSymNext64@8"
+    },
+    {
+      "name": "_SymGetSymNext@8"
+    },
+    {
+      "name": "_SymGetSymPrev64@8"
+    },
+    {
+      "name": "_SymGetSymPrev@8"
+    },
+    {
+      "name": "_SymGetSymbolFile@32"
+    },
+    {
+      "name": "_SymGetSymbolFileW@32"
+    },
+    {
+      "name": "_SymGetTypeFromName@20"
+    },
+    {
+      "name": "_SymGetTypeFromNameW@20"
+    },
+    {
+      "name": "_SymGetTypeInfo@24"
+    },
+    {
+      "name": "_SymGetTypeInfoEx@16"
+    },
+    {
+      "name": "_SymInitialize@12"
+    },
+    {
+      "name": "_SymLoadModule64@28"
+    },
+    {
+      "name": "_SymLoadModule@24"
+    },
+    {
+      "name": "_SymMatchFileName@16"
+    },
+    {
+      "name": "_SymMatchFileNameW@16"
+    },
+    {
+      "name": "_SymMatchString@12"
+    },
+    {
+      "name": "_SymMatchStringA@12"
+    },
+    {
+      "name": "_SymMatchStringW@12"
+    },
+    {
+      "name": "_SymQueryInlineTrace@40"
+    },
+    {
+      "name": "_SymRegisterCallback64@16"
+    },
+    {
+      "name": "_SymRegisterCallback@12"
+    },
+    {
+      "name": "_SymRegisterFunctionEntryCallback64@16"
+    },
+    {
+      "name": "_SymRegisterFunctionEntryCallback@12"
+    },
+    {
+      "name": "_SymSetContext@12"
+    },
+    {
+      "name": "_SymSetExtendedOption@8"
+    },
+    {
+      "name": "_SymSetOptions@4"
+    },
+    {
+      "name": "_SymSetScopeFromAddr@12"
+    },
+    {
+      "name": "_SymSetScopeFromIndex@16"
+    },
+    {
+      "name": "_SymSetScopeFromInlineContext@16"
+    },
+    {
+      "name": "_SymSetSearchPath@8"
+    },
+    {
+      "name": "_SymSrvGetFileIndexString@24"
+    },
+    {
+      "name": "_SymSrvGetFileIndexStringW@24"
+    },
+    {
+      "name": "_SymSrvGetFileIndexes@20"
+    },
+    {
+      "name": "_SymSrvGetFileIndexesW@20"
+    },
+    {
+      "name": "_SymUnDName64@12"
+    },
+    {
+      "name": "_SymUnDName@12"
+    },
+    {
+      "name": "_SymUnloadModule64@12"
+    },
+    {
+      "name": "_SymUnloadModule@8"
+    },
+    {
+      "name": "_TouchFileTimes@8"
+    },
+    {
+      "name": "_UnDecorateSymbolName@16"
+    },
+    {
+      "name": "_UnMapAndLoad@4"
+    },
+    {
+      "name": "_UnmapDebugInformation@4"
+    },
+    {
+      "name": "_UpdateDebugInfoFile@16"
+    },
+    {
+      "name": "_UpdateDebugInfoFileEx@20"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 19174,
+      "name": "__IMPORT_DESCRIPTOR_imagehlp"
+    },
+    {
+      "offset": 19732,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 20044,
+      "name": "imagehlp_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 21056,
+      "name": "_BindImage@12"
+    },
+    {
+      "offset": 21056,
+      "name": "__imp__BindImage@12"
+    },
+    {
+      "offset": 21164,
+      "name": "_BindImageEx@20"
+    },
+    {
+      "offset": 21164,
+      "name": "__imp__BindImageEx@20"
+    },
+    {
+      "offset": 21274,
+      "name": "_CheckSumMappedFile@16"
+    },
+    {
+      "offset": 21274,
+      "name": "__imp__CheckSumMappedFile@16"
+    },
+    {
+      "offset": 22704,
+      "name": "_GetImageConfigInformation@8"
+    },
+    {
+      "offset": 22704,
+      "name": "__imp__GetImageConfigInformation@8"
+    },
+    {
+      "offset": 22826,
+      "name": "_GetImageUnusedHeaderBytes@8"
+    },
+    {
+      "offset": 22826,
+      "name": "__imp__GetImageUnusedHeaderBytes@8"
+    },
+    {
+      "offset": 23186,
+      "name": "_ImageAddCertificate@12"
+    },
+    {
+      "offset": 23186,
+      "name": "__imp__ImageAddCertificate@12"
+    },
+    {
+      "offset": 23554,
+      "name": "_ImageEnumerateCertificates@20"
+    },
+    {
+      "offset": 23554,
+      "name": "__imp__ImageEnumerateCertificates@20"
+    },
+    {
+      "offset": 23678,
+      "name": "_ImageGetCertificateData@16"
+    },
+    {
+      "offset": 23678,
+      "name": "__imp__ImageGetCertificateData@16"
+    },
+    {
+      "offset": 23800,
+      "name": "_ImageGetCertificateHeader@12"
+    },
+    {
+      "offset": 23800,
+      "name": "__imp__ImageGetCertificateHeader@12"
+    },
+    {
+      "offset": 23924,
+      "name": "_ImageGetDigestStream@16"
+    },
+    {
+      "offset": 23924,
+      "name": "__imp__ImageGetDigestStream@16"
+    },
+    {
+      "offset": 24042,
+      "name": "_ImageLoad@8"
+    },
+    {
+      "offset": 24042,
+      "name": "__imp__ImageLoad@8"
+    },
+    {
+      "offset": 24258,
+      "name": "_ImageRemoveCertificate@8"
+    },
+    {
+      "offset": 24258,
+      "name": "__imp__ImageRemoveCertificate@8"
+    },
+    {
+      "offset": 24604,
+      "name": "_ImageUnload@4"
+    },
+    {
+      "offset": 24604,
+      "name": "__imp__ImageUnload@4"
+    },
+    {
+      "offset": 25070,
+      "name": "_MapAndLoad@20"
+    },
+    {
+      "offset": 25070,
+      "name": "__imp__MapAndLoad@20"
+    },
+    {
+      "offset": 25296,
+      "name": "_MapFileAndCheckSumA@12"
+    },
+    {
+      "offset": 25296,
+      "name": "__imp__MapFileAndCheckSumA@12"
+    },
+    {
+      "offset": 25414,
+      "name": "_MapFileAndCheckSumW@12"
+    },
+    {
+      "offset": 25414,
+      "name": "__imp__MapFileAndCheckSumW@12"
+    },
+    {
+      "offset": 25644,
+      "name": "_ReBaseImage@44"
+    },
+    {
+      "offset": 25644,
+      "name": "__imp__ReBaseImage@44"
+    },
+    {
+      "offset": 26470,
+      "name": "_SplitSymbols@16"
+    },
+    {
+      "offset": 26470,
+      "name": "__imp__SplitSymbols@16"
+    },
+    {
+      "offset": 25532,
+      "name": "_ReBaseImage64@44"
+    },
+    {
+      "offset": 25532,
+      "name": "__imp__ReBaseImage64@44"
+    },
+    {
+      "offset": 26236,
+      "name": "_SetImageConfigInformation@8"
+    },
+    {
+      "offset": 26236,
+      "name": "__imp__SetImageConfigInformation@8"
+    },
+    {
+      "offset": 37642,
+      "name": "_TouchFileTimes@8"
+    },
+    {
+      "offset": 37642,
+      "name": "__imp__TouchFileTimes@8"
+    },
+    {
+      "offset": 37872,
+      "name": "_UnMapAndLoad@4"
+    },
+    {
+      "offset": 37872,
+      "name": "__imp__UnMapAndLoad@4"
+    },
+    {
+      "offset": 38100,
+      "name": "_UpdateDebugInfoFile@16"
+    },
+    {
+      "offset": 38100,
+      "name": "__imp__UpdateDebugInfoFile@16"
+    },
+    {
+      "offset": 38218,
+      "name": "_UpdateDebugInfoFileEx@20"
+    },
+    {
+      "offset": 38218,
+      "name": "__imp__UpdateDebugInfoFileEx@20"
+    },
+    {
+      "offset": 22002,
+      "name": "_FindDebugInfoFile@12"
+    },
+    {
+      "offset": 22002,
+      "name": "__imp__FindDebugInfoFile@12"
+    },
+    {
+      "offset": 22118,
+      "name": "_FindDebugInfoFileEx@20"
+    },
+    {
+      "offset": 22118,
+      "name": "__imp__FindDebugInfoFileEx@20"
+    },
+    {
+      "offset": 22474,
+      "name": "_FindFileInPath@32"
+    },
+    {
+      "offset": 22474,
+      "name": "__imp__FindFileInPath@32"
+    },
+    {
+      "offset": 22586,
+      "name": "_FindFileInSearchPath@28"
+    },
+    {
+      "offset": 22586,
+      "name": "__imp__FindFileInSearchPath@28"
+    },
+    {
+      "offset": 22236,
+      "name": "_FindExecutableImage@12"
+    },
+    {
+      "offset": 22236,
+      "name": "__imp__FindExecutableImage@12"
+    },
+    {
+      "offset": 22354,
+      "name": "_FindExecutableImageEx@20"
+    },
+    {
+      "offset": 22354,
+      "name": "__imp__FindExecutableImageEx@20"
+    },
+    {
+      "offset": 23060,
+      "name": "_GetTimestampForLoadedLibrary@4"
+    },
+    {
+      "offset": 23060,
+      "name": "__imp__GetTimestampForLoadedLibrary@4"
+    },
+    {
+      "offset": 23304,
+      "name": "_ImageDirectoryEntryToData@16"
+    },
+    {
+      "offset": 23304,
+      "name": "__imp__ImageDirectoryEntryToData@16"
+    },
+    {
+      "offset": 23428,
+      "name": "_ImageDirectoryEntryToDataEx@20"
+    },
+    {
+      "offset": 23428,
+      "name": "__imp__ImageDirectoryEntryToDataEx@20"
+    },
+    {
+      "offset": 24148,
+      "name": "_ImageNtHeader@4"
+    },
+    {
+      "offset": 24148,
+      "name": "__imp__ImageNtHeader@4"
+    },
+    {
+      "offset": 24378,
+      "name": "_ImageRvaToSection@12"
+    },
+    {
+      "offset": 24378,
+      "name": "__imp__ImageRvaToSection@12"
+    },
+    {
+      "offset": 24494,
+      "name": "_ImageRvaToVa@16"
+    },
+    {
+      "offset": 24494,
+      "name": "__imp__ImageRvaToVa@16"
+    },
+    {
+      "offset": 24712,
+      "name": "_ImagehlpApiVersion@0"
+    },
+    {
+      "offset": 24712,
+      "name": "__imp__ImagehlpApiVersion@0"
+    },
+    {
+      "offset": 24828,
+      "name": "_ImagehlpApiVersionEx@4"
+    },
+    {
+      "offset": 24828,
+      "name": "__imp__ImagehlpApiVersionEx@4"
+    },
+    {
+      "offset": 24946,
+      "name": "_MakeSureDirectoryPathExists@4"
+    },
+    {
+      "offset": 24946,
+      "name": "__imp__MakeSureDirectoryPathExists@4"
+    },
+    {
+      "offset": 25996,
+      "name": "_SearchTreeForFile@12"
+    },
+    {
+      "offset": 25996,
+      "name": "__imp__SearchTreeForFile@12"
+    },
+    {
+      "offset": 27032,
+      "name": "_SymCleanup@4"
+    },
+    {
+      "offset": 27032,
+      "name": "__imp__SymCleanup@4"
+    },
+    {
+      "offset": 29000,
+      "name": "_SymFindFileInPath@40"
+    },
+    {
+      "offset": 29000,
+      "name": "__imp__SymFindFileInPath@40"
+    },
+    {
+      "offset": 32052,
+      "name": "_SymGetOptions@0"
+    },
+    {
+      "offset": 32052,
+      "name": "__imp__SymGetOptions@0"
+    },
+    {
+      "offset": 32162,
+      "name": "_SymGetSearchPath@12"
+    },
+    {
+      "offset": 32162,
+      "name": "__imp__SymGetSearchPath@12"
+    },
+    {
+      "offset": 34370,
+      "name": "_SymInitialize@12"
+    },
+    {
+      "offset": 34370,
+      "name": "__imp__SymInitialize@12"
+    },
+    {
+      "offset": 34708,
+      "name": "_SymMatchFileName@16"
+    },
+    {
+      "offset": 34708,
+      "name": "__imp__SymMatchFileName@16"
+    },
+    {
+      "offset": 35896,
+      "name": "_SymSetContext@12"
+    },
+    {
+      "offset": 35896,
+      "name": "__imp__SymSetContext@12"
+    },
+    {
+      "offset": 36236,
+      "name": "_SymSetScopeFromAddr@12"
+    },
+    {
+      "offset": 36236,
+      "name": "__imp__SymSetScopeFromAddr@12"
+    },
+    {
+      "offset": 36354,
+      "name": "_SymSetScopeFromIndex@16"
+    },
+    {
+      "offset": 36354,
+      "name": "__imp__SymSetScopeFromIndex@16"
+    },
+    {
+      "offset": 36126,
+      "name": "_SymSetOptions@4"
+    },
+    {
+      "offset": 36126,
+      "name": "__imp__SymSetOptions@4"
+    },
+    {
+      "offset": 36598,
+      "name": "_SymSetSearchPath@8"
+    },
+    {
+      "offset": 36598,
+      "name": "__imp__SymSetSearchPath@8"
+    },
+    {
+      "offset": 37754,
+      "name": "_UnDecorateSymbolName@16"
+    },
+    {
+      "offset": 37754,
+      "name": "__imp__UnDecorateSymbolName@16"
+    },
+    {
+      "offset": 21390,
+      "name": "_EnumerateLoadedModules64@12"
+    },
+    {
+      "offset": 21390,
+      "name": "__imp__EnumerateLoadedModules64@12"
+    },
+    {
+      "offset": 21878,
+      "name": "_EnumerateLoadedModulesW64@12"
+    },
+    {
+      "offset": 21878,
+      "name": "__imp__EnumerateLoadedModulesW64@12"
+    },
+    {
+      "offset": 21632,
+      "name": "_EnumerateLoadedModulesEx@12"
+    },
+    {
+      "offset": 21632,
+      "name": "__imp__EnumerateLoadedModulesEx@12"
+    },
+    {
+      "offset": 21754,
+      "name": "_EnumerateLoadedModulesExW@12"
+    },
+    {
+      "offset": 21754,
+      "name": "__imp__EnumerateLoadedModulesExW@12"
+    },
+    {
+      "offset": 26580,
+      "name": "_StackWalk64@36"
+    },
+    {
+      "offset": 26580,
+      "name": "__imp__StackWalk64@36"
+    },
+    {
+      "offset": 28286,
+      "name": "_SymEnumerateModules64@12"
+    },
+    {
+      "offset": 28286,
+      "name": "__imp__SymEnumerateModules64@12"
+    },
+    {
+      "offset": 28524,
+      "name": "_SymEnumerateSymbols64@20"
+    },
+    {
+      "offset": 28524,
+      "name": "__imp__SymEnumerateSymbols64@20"
+    },
+    {
+      "offset": 28762,
+      "name": "_SymEnumerateSymbolsW64@20"
+    },
+    {
+      "offset": 28762,
+      "name": "__imp__SymEnumerateSymbolsW64@20"
+    },
+    {
+      "offset": 27260,
+      "name": "_SymEnumSym@20"
+    },
+    {
+      "offset": 27260,
+      "name": "__imp__SymEnumSym@20"
+    },
+    {
+      "offset": 27368,
+      "name": "_SymEnumSymbols@24"
+    },
+    {
+      "offset": 27368,
+      "name": "__imp__SymEnumSymbols@24"
+    },
+    {
+      "offset": 27710,
+      "name": "_SymEnumSymbolsForAddr@20"
+    },
+    {
+      "offset": 27710,
+      "name": "__imp__SymEnumSymbolsForAddr@20"
+    },
+    {
+      "offset": 27830,
+      "name": "_SymEnumTypes@20"
+    },
+    {
+      "offset": 27830,
+      "name": "__imp__SymEnumTypes@20"
+    },
+    {
+      "offset": 27940,
+      "name": "_SymEnumTypesByName@24"
+    },
+    {
+      "offset": 27940,
+      "name": "__imp__SymEnumTypesByName@24"
+    },
+    {
+      "offset": 29232,
+      "name": "_SymFromAddr@20"
+    },
+    {
+      "offset": 29232,
+      "name": "__imp__SymFromAddr@20"
+    },
+    {
+      "offset": 29580,
+      "name": "_SymFromName@12"
+    },
+    {
+      "offset": 29580,
+      "name": "__imp__SymFromName@12"
+    },
+    {
+      "offset": 29690,
+      "name": "_SymFunctionTableAccess64@12"
+    },
+    {
+      "offset": 29690,
+      "name": "__imp__SymFunctionTableAccess64@12"
+    },
+    {
+      "offset": 30186,
+      "name": "_SymGetLineFromAddr64@20"
+    },
+    {
+      "offset": 30186,
+      "name": "__imp__SymGetLineFromAddr64@20"
+    },
+    {
+      "offset": 30672,
+      "name": "_SymGetLineFromName64@24"
+    },
+    {
+      "offset": 30672,
+      "name": "__imp__SymGetLineFromName64@24"
+    },
+    {
+      "offset": 30906,
+      "name": "_SymGetLineNext64@8"
+    },
+    {
+      "offset": 30906,
+      "name": "__imp__SymGetLineNext64@8"
+    },
+    {
+      "offset": 31132,
+      "name": "_SymGetLinePrev64@8"
+    },
+    {
+      "offset": 31132,
+      "name": "__imp__SymGetLinePrev64@8"
+    },
+    {
+      "offset": 31358,
+      "name": "_SymGetModuleBase64@12"
+    },
+    {
+      "offset": 31358,
+      "name": "__imp__SymGetModuleBase64@12"
+    },
+    {
+      "offset": 31588,
+      "name": "_SymGetModuleInfo64@16"
+    },
+    {
+      "offset": 31588,
+      "name": "__imp__SymGetModuleInfo64@16"
+    },
+    {
+      "offset": 31818,
+      "name": "_SymGetModuleInfoW64@16"
+    },
+    {
+      "offset": 31818,
+      "name": "__imp__SymGetModuleInfoW64@16"
+    },
+    {
+      "offset": 32768,
+      "name": "_SymGetSymFromAddr64@20"
+    },
+    {
+      "offset": 32768,
+      "name": "__imp__SymGetSymFromAddr64@20"
+    },
+    {
+      "offset": 33002,
+      "name": "_SymGetSymFromName64@12"
+    },
+    {
+      "offset": 33002,
+      "name": "__imp__SymGetSymFromName64@12"
+    },
+    {
+      "offset": 33236,
+      "name": "_SymGetSymNext64@8"
+    },
+    {
+      "offset": 33236,
+      "name": "__imp__SymGetSymNext64@8"
+    },
+    {
+      "offset": 33458,
+      "name": "_SymGetSymPrev64@8"
+    },
+    {
+      "offset": 33458,
+      "name": "__imp__SymGetSymPrev64@8"
+    },
+    {
+      "offset": 33910,
+      "name": "_SymGetTypeFromName@20"
+    },
+    {
+      "offset": 33910,
+      "name": "__imp__SymGetTypeFromName@20"
+    },
+    {
+      "offset": 34144,
+      "name": "_SymGetTypeInfo@24"
+    },
+    {
+      "offset": 34144,
+      "name": "__imp__SymGetTypeInfo@24"
+    },
+    {
+      "offset": 34256,
+      "name": "_SymGetTypeInfoEx@16"
+    },
+    {
+      "offset": 34256,
+      "name": "__imp__SymGetTypeInfoEx@16"
+    },
+    {
+      "offset": 34482,
+      "name": "_SymLoadModule64@28"
+    },
+    {
+      "offset": 34482,
+      "name": "__imp__SymLoadModule64@28"
+    },
+    {
+      "offset": 35396,
+      "name": "_SymRegisterCallback64@16"
+    },
+    {
+      "offset": 35396,
+      "name": "__imp__SymRegisterCallback64@16"
+    },
+    {
+      "offset": 35634,
+      "name": "_SymRegisterFunctionEntryCallback64@16"
+    },
+    {
+      "offset": 35634,
+      "name": "__imp__SymRegisterFunctionEntryCallback64@16"
+    },
+    {
+      "offset": 37196,
+      "name": "_SymUnDName64@12"
+    },
+    {
+      "offset": 37196,
+      "name": "__imp__SymUnDName64@12"
+    },
+    {
+      "offset": 37414,
+      "name": "_SymUnloadModule64@12"
+    },
+    {
+      "offset": 37414,
+      "name": "__imp__SymUnloadModule64@12"
+    },
+    {
+      "offset": 34938,
+      "name": "_SymMatchString@12"
+    },
+    {
+      "offset": 34938,
+      "name": "__imp__SymMatchString@12"
+    },
+    {
+      "offset": 35050,
+      "name": "_SymMatchStringA@12"
+    },
+    {
+      "offset": 35050,
+      "name": "__imp__SymMatchStringA@12"
+    },
+    {
+      "offset": 35164,
+      "name": "_SymMatchStringW@12"
+    },
+    {
+      "offset": 35164,
+      "name": "__imp__SymMatchStringW@12"
+    },
+    {
+      "offset": 34026,
+      "name": "_SymGetTypeFromNameW@20"
+    },
+    {
+      "offset": 34026,
+      "name": "__imp__SymGetTypeFromNameW@20"
+    },
+    {
+      "offset": 28174,
+      "name": "_SymEnumTypesW@20"
+    },
+    {
+      "offset": 28174,
+      "name": "__imp__SymEnumTypesW@20"
+    },
+    {
+      "offset": 28056,
+      "name": "_SymEnumTypesByNameW@24"
+    },
+    {
+      "offset": 28056,
+      "name": "__imp__SymEnumTypesByNameW@24"
+    },
+    {
+      "offset": 32524,
+      "name": "_SymGetSourceFileTokenW@24"
+    },
+    {
+      "offset": 32524,
+      "name": "__imp__SymGetSourceFileTokenW@24"
+    },
+    {
+      "offset": 32276,
+      "name": "_SymGetSourceFileChecksumW@32"
+    },
+    {
+      "offset": 32276,
+      "name": "__imp__SymGetSourceFileChecksumW@32"
+    },
+    {
+      "offset": 29116,
+      "name": "_SymFindFileInPathW@40"
+    },
+    {
+      "offset": 29116,
+      "name": "__imp__SymFindFileInPathW@40"
+    },
+    {
+      "offset": 34822,
+      "name": "_SymMatchFileNameW@16"
+    },
+    {
+      "offset": 34822,
+      "name": "__imp__SymMatchFileNameW@16"
+    },
+    {
+      "offset": 32400,
+      "name": "_SymGetSourceFileFromTokenW@20"
+    },
+    {
+      "offset": 32400,
+      "name": "__imp__SymGetSourceFileFromTokenW@20"
+    },
+    {
+      "offset": 32644,
+      "name": "_SymGetSourceVarFromTokenW@24"
+    },
+    {
+      "offset": 32644,
+      "name": "__imp__SymGetSourceVarFromTokenW@24"
+    },
+    {
+      "offset": 36958,
+      "name": "_SymSrvGetFileIndexes@20"
+    },
+    {
+      "offset": 36958,
+      "name": "__imp__SymSrvGetFileIndexes@20"
+    },
+    {
+      "offset": 37076,
+      "name": "_SymSrvGetFileIndexesW@20"
+    },
+    {
+      "offset": 37076,
+      "name": "__imp__SymSrvGetFileIndexesW@20"
+    },
+    {
+      "offset": 36712,
+      "name": "_SymSrvGetFileIndexString@24"
+    },
+    {
+      "offset": 36712,
+      "name": "__imp__SymSrvGetFileIndexString@24"
+    },
+    {
+      "offset": 36834,
+      "name": "_SymSrvGetFileIndexStringW@24"
+    },
+    {
+      "offset": 36834,
+      "name": "__imp__SymSrvGetFileIndexStringW@24"
+    },
+    {
+      "offset": 33680,
+      "name": "_SymGetSymbolFile@32"
+    },
+    {
+      "offset": 33680,
+      "name": "__imp__SymGetSymbolFile@32"
+    },
+    {
+      "offset": 33794,
+      "name": "_SymGetSymbolFileW@32"
+    },
+    {
+      "offset": 33794,
+      "name": "__imp__SymGetSymbolFileW@32"
+    },
+    {
+      "offset": 21512,
+      "name": "_EnumerateLoadedModules@12"
+    },
+    {
+      "offset": 21512,
+      "name": "__imp__EnumerateLoadedModules@12"
+    },
+    {
+      "offset": 25178,
+      "name": "_MapDebugInformation@16"
+    },
+    {
+      "offset": 25178,
+      "name": "__imp__MapDebugInformation@16"
+    },
+    {
+      "offset": 26690,
+      "name": "_StackWalk@36"
+    },
+    {
+      "offset": 26690,
+      "name": "__imp__StackWalk@36"
+    },
+    {
+      "offset": 28406,
+      "name": "_SymEnumerateModules@12"
+    },
+    {
+      "offset": 28406,
+      "name": "__imp__SymEnumerateModules@12"
+    },
+    {
+      "offset": 28644,
+      "name": "_SymEnumerateSymbols@16"
+    },
+    {
+      "offset": 28644,
+      "name": "__imp__SymEnumerateSymbols@16"
+    },
+    {
+      "offset": 28882,
+      "name": "_SymEnumerateSymbolsW@16"
+    },
+    {
+      "offset": 28882,
+      "name": "__imp__SymEnumerateSymbolsW@16"
+    },
+    {
+      "offset": 29948,
+      "name": "_SymFunctionTableAccess@8"
+    },
+    {
+      "offset": 29948,
+      "name": "__imp__SymFunctionTableAccess@8"
+    },
+    {
+      "offset": 30304,
+      "name": "_SymGetLineFromAddr@16"
+    },
+    {
+      "offset": 30304,
+      "name": "__imp__SymGetLineFromAddr@16"
+    },
+    {
+      "offset": 30790,
+      "name": "_SymGetLineFromName@24"
+    },
+    {
+      "offset": 30790,
+      "name": "__imp__SymGetLineFromName@24"
+    },
+    {
+      "offset": 31020,
+      "name": "_SymGetLineNext@8"
+    },
+    {
+      "offset": 31020,
+      "name": "__imp__SymGetLineNext@8"
+    },
+    {
+      "offset": 31246,
+      "name": "_SymGetLinePrev@8"
+    },
+    {
+      "offset": 31246,
+      "name": "__imp__SymGetLinePrev@8"
+    },
+    {
+      "offset": 31474,
+      "name": "_SymGetModuleBase@8"
+    },
+    {
+      "offset": 31474,
+      "name": "__imp__SymGetModuleBase@8"
+    },
+    {
+      "offset": 31704,
+      "name": "_SymGetModuleInfo@12"
+    },
+    {
+      "offset": 31704,
+      "name": "__imp__SymGetModuleInfo@12"
+    },
+    {
+      "offset": 31936,
+      "name": "_SymGetModuleInfoW@12"
+    },
+    {
+      "offset": 31936,
+      "name": "__imp__SymGetModuleInfoW@12"
+    },
+    {
+      "offset": 32886,
+      "name": "_SymGetSymFromAddr@16"
+    },
+    {
+      "offset": 32886,
+      "name": "__imp__SymGetSymFromAddr@16"
+    },
+    {
+      "offset": 33120,
+      "name": "_SymGetSymFromName@12"
+    },
+    {
+      "offset": 33120,
+      "name": "__imp__SymGetSymFromName@12"
+    },
+    {
+      "offset": 33348,
+      "name": "_SymGetSymNext@8"
+    },
+    {
+      "offset": 33348,
+      "name": "__imp__SymGetSymNext@8"
+    },
+    {
+      "offset": 33570,
+      "name": "_SymGetSymPrev@8"
+    },
+    {
+      "offset": 33570,
+      "name": "__imp__SymGetSymPrev@8"
+    },
+    {
+      "offset": 34596,
+      "name": "_SymLoadModule@24"
+    },
+    {
+      "offset": 34596,
+      "name": "__imp__SymLoadModule@24"
+    },
+    {
+      "offset": 35516,
+      "name": "_SymRegisterCallback@12"
+    },
+    {
+      "offset": 35516,
+      "name": "__imp__SymRegisterCallback@12"
+    },
+    {
+      "offset": 35766,
+      "name": "_SymRegisterFunctionEntryCallback@12"
+    },
+    {
+      "offset": 35766,
+      "name": "__imp__SymRegisterFunctionEntryCallback@12"
+    },
+    {
+      "offset": 37306,
+      "name": "_SymUnDName@12"
+    },
+    {
+      "offset": 37306,
+      "name": "__imp__SymUnDName@12"
+    },
+    {
+      "offset": 37530,
+      "name": "_SymUnloadModule@8"
+    },
+    {
+      "offset": 37530,
+      "name": "__imp__SymUnloadModule@8"
+    },
+    {
+      "offset": 37982,
+      "name": "_UnmapDebugInformation@4"
+    },
+    {
+      "offset": 37982,
+      "name": "__imp__UnmapDebugInformation@4"
+    },
+    {
+      "offset": 26798,
+      "name": "_StackWalkEx@40"
+    },
+    {
+      "offset": 26798,
+      "name": "__imp__StackWalkEx@40"
+    },
+    {
+      "offset": 29342,
+      "name": "_SymFromInlineContext@24"
+    },
+    {
+      "offset": 29342,
+      "name": "__imp__SymFromInlineContext@24"
+    },
+    {
+      "offset": 29460,
+      "name": "_SymFromInlineContextW@24"
+    },
+    {
+      "offset": 29460,
+      "name": "__imp__SymFromInlineContextW@24"
+    },
+    {
+      "offset": 30420,
+      "name": "_SymGetLineFromInlineContext@32"
+    },
+    {
+      "offset": 30420,
+      "name": "__imp__SymGetLineFromInlineContext@32"
+    },
+    {
+      "offset": 30546,
+      "name": "_SymGetLineFromInlineContextW@32"
+    },
+    {
+      "offset": 30546,
+      "name": "__imp__SymGetLineFromInlineContextW@32"
+    },
+    {
+      "offset": 36472,
+      "name": "_SymSetScopeFromInlineContext@16"
+    },
+    {
+      "offset": 36472,
+      "name": "__imp__SymSetScopeFromInlineContext@16"
+    },
+    {
+      "offset": 27480,
+      "name": "_SymEnumSymbolsEx@28"
+    },
+    {
+      "offset": 27480,
+      "name": "__imp__SymEnumSymbolsEx@28"
+    },
+    {
+      "offset": 27594,
+      "name": "_SymEnumSymbolsExW@28"
+    },
+    {
+      "offset": 27594,
+      "name": "__imp__SymEnumSymbolsExW@28"
+    },
+    {
+      "offset": 26908,
+      "name": "_SymAddrIncludeInlineTrace@12"
+    },
+    {
+      "offset": 26908,
+      "name": "__imp__SymAddrIncludeInlineTrace@12"
+    },
+    {
+      "offset": 27140,
+      "name": "_SymCompareInlineTrace@40"
+    },
+    {
+      "offset": 27140,
+      "name": "__imp__SymCompareInlineTrace@40"
+    },
+    {
+      "offset": 35278,
+      "name": "_SymQueryInlineTrace@40"
+    },
+    {
+      "offset": 35278,
+      "name": "__imp__SymQueryInlineTrace@40"
+    },
+    {
+      "offset": 26112,
+      "name": "_SetCheckUserInterruptShared@4"
+    },
+    {
+      "offset": 26112,
+      "name": "__imp__SetCheckUserInterruptShared@4"
+    },
+    {
+      "offset": 22948,
+      "name": "_GetSymLoadError@0"
+    },
+    {
+      "offset": 22948,
+      "name": "__imp__GetSymLoadError@0"
+    },
+    {
+      "offset": 26358,
+      "name": "_SetSymLoadError@4"
+    },
+    {
+      "offset": 26358,
+      "name": "__imp__SetSymLoadError@4"
+    },
+    {
+      "offset": 25874,
+      "name": "_ReportSymbolLoadSummary@12"
+    },
+    {
+      "offset": 25874,
+      "name": "__imp__ReportSymbolLoadSummary@12"
+    },
+    {
+      "offset": 25754,
+      "name": "_RemoveInvalidModuleList@4"
+    },
+    {
+      "offset": 25754,
+      "name": "__imp__RemoveInvalidModuleList@4"
+    },
+    {
+      "offset": 29812,
+      "name": "_SymFunctionTableAccess64AccessRoutines@20"
+    },
+    {
+      "offset": 29812,
+      "name": "__imp__SymFunctionTableAccess64AccessRoutines@20"
+    },
+    {
+      "offset": 20630,
+      "name": "?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z"
+    },
+    {
+      "offset": 20630,
+      "name": "__imp_?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z"
+    },
+    {
+      "offset": 20772,
+      "name": "?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z"
+    },
+    {
+      "offset": 20772,
+      "name": "__imp_?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z"
+    },
+    {
+      "offset": 20916,
+      "name": "?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z"
+    },
+    {
+      "offset": 20916,
+      "name": "__imp_?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z"
+    },
+    {
+      "offset": 20508,
+      "name": "?SymFreeDiaString@@YGXPAG@Z"
+    },
+    {
+      "offset": 20508,
+      "name": "__imp_?SymFreeDiaString@@YGXPAG@Z"
+    },
+    {
+      "offset": 20384,
+      "name": "?SymAllocDiaString@@YGPAGPBG@Z"
+    },
+    {
+      "offset": 20384,
+      "name": "__imp_?SymAllocDiaString@@YGPAGPBG@Z"
+    },
+    {
+      "offset": 30068,
+      "name": "_SymGetExtendedOption@4"
+    },
+    {
+      "offset": 30068,
+      "name": "__imp__SymGetExtendedOption@4"
+    },
+    {
+      "offset": 36008,
+      "name": "_SymSetExtendedOption@8"
+    },
+    {
+      "offset": 36008,
+      "name": "__imp__SymSetExtendedOption@8"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 20384,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3581204649,
+      "sizeOfData": 44,
+      "dllName": "imagehlp.dll",
+      "symbolName": "?SymAllocDiaString@@YGPAGPBG@Z (unsigned short * __stdcall SymAllocDiaString(unsigned short const *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "SymAllocDiaString"
+    },
+    {
+      "offset": 20508,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4191155209,
+      "sizeOfData": 41,
+      "dllName": "imagehlp.dll",
+      "symbolName": "?SymFreeDiaString@@YGXPAG@Z (void __stdcall SymFreeDiaString(unsigned short *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "SymFreeDiaString"
+    },
+    {
+      "offset": 20630,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3709247068,
+      "sizeOfData": 61,
+      "dllName": "imagehlp.dll",
+      "symbolName": "?SymGetDiaSession@@YGHPAX_KPAPAUIDiaSession@@@Z (int __stdcall SymGetDiaSession(void *,unsigned __int64,struct IDiaSession * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "SymGetDiaSession"
+    },
+    {
+      "offset": 20772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3414169895,
+      "sizeOfData": 63,
+      "dllName": "imagehlp.dll",
+      "symbolName": "?SymGetDiaSource@@YGHPAX_KPAPAUIDiaDataSource@@@Z (int __stdcall SymGetDiaSource(void *,unsigned __int64,struct IDiaDataSource * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "SymGetDiaSource"
+    },
+    {
+      "offset": 20916,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3879304380,
+      "sizeOfData": 59,
+      "dllName": "imagehlp.dll",
+      "symbolName": "?SymSetDiaSession@@YGHPAX_KPAUIDiaSession@@@Z (int __stdcall SymSetDiaSession(void *,unsigned __int64,struct IDiaSession *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "SymSetDiaSession"
+    },
+    {
+      "offset": 21056,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4114985448,
+      "sizeOfData": 27,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_BindImage@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "BindImage"
+    },
+    {
+      "offset": 21164,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3286452921,
+      "sizeOfData": 29,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_BindImageEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "BindImageEx"
+    },
+    {
+      "offset": 21274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3713926990,
+      "sizeOfData": 36,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_CheckSumMappedFile@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "CheckSumMappedFile"
+    },
+    {
+      "offset": 21390,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3389438780,
+      "sizeOfData": 42,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_EnumerateLoadedModules64@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "EnumerateLoadedModules64"
+    },
+    {
+      "offset": 21512,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3574145597,
+      "sizeOfData": 40,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_EnumerateLoadedModules@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "EnumerateLoadedModules"
+    },
+    {
+      "offset": 21632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3454189452,
+      "sizeOfData": 42,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_EnumerateLoadedModulesEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "EnumerateLoadedModulesEx"
+    },
+    {
+      "offset": 21754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3240074045,
+      "sizeOfData": 43,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_EnumerateLoadedModulesExW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "EnumerateLoadedModulesExW"
+    },
+    {
+      "offset": 21878,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3939938518,
+      "sizeOfData": 43,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_EnumerateLoadedModulesW64@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "EnumerateLoadedModulesW64"
+    },
+    {
+      "offset": 22002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4154707488,
+      "sizeOfData": 35,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_FindDebugInfoFile@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "FindDebugInfoFile"
+    },
+    {
+      "offset": 22118,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4107481318,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_FindDebugInfoFileEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "FindDebugInfoFileEx"
+    },
+    {
+      "offset": 22236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3381628791,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_FindExecutableImage@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "FindExecutableImage"
+    },
+    {
+      "offset": 22354,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3309370799,
+      "sizeOfData": 39,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_FindExecutableImageEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "FindExecutableImageEx"
+    },
+    {
+      "offset": 22474,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4168092189,
+      "sizeOfData": 32,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_FindFileInPath@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "FindFileInPath"
+    },
+    {
+      "offset": 22586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3657544382,
+      "sizeOfData": 38,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_FindFileInSearchPath@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "FindFileInSearchPath"
+    },
+    {
+      "offset": 22704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3814267367,
+      "sizeOfData": 42,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_GetImageConfigInformation@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "GetImageConfigInformation"
+    },
+    {
+      "offset": 22826,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3772922022,
+      "sizeOfData": 42,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_GetImageUnusedHeaderBytes@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "GetImageUnusedHeaderBytes"
+    },
+    {
+      "offset": 22948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3641464030,
+      "sizeOfData": 32,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_GetSymLoadError@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "GetSymLoadError"
+    },
+    {
+      "offset": 23060,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4149298802,
+      "sizeOfData": 45,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_GetTimestampForLoadedLibrary@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "GetTimestampForLoadedLibrary"
+    },
+    {
+      "offset": 23186,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3932245564,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImageAddCertificate@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "ImageAddCertificate"
+    },
+    {
+      "offset": 23304,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3713349686,
+      "sizeOfData": 43,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImageDirectoryEntryToData@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "ImageDirectoryEntryToData"
+    },
+    {
+      "offset": 23428,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3453333279,
+      "sizeOfData": 45,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImageDirectoryEntryToDataEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "ImageDirectoryEntryToDataEx"
+    },
+    {
+      "offset": 23554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3794490894,
+      "sizeOfData": 44,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImageEnumerateCertificates@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "ImageEnumerateCertificates"
+    },
+    {
+      "offset": 23678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3507332421,
+      "sizeOfData": 41,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImageGetCertificateData@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "ImageGetCertificateData"
+    },
+    {
+      "offset": 23800,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3630573074,
+      "sizeOfData": 43,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImageGetCertificateHeader@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "ImageGetCertificateHeader"
+    },
+    {
+      "offset": 23924,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3918497247,
+      "sizeOfData": 38,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImageGetDigestStream@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "ImageGetDigestStream"
+    },
+    {
+      "offset": 24042,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3901434508,
+      "sizeOfData": 26,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImageLoad@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "ImageLoad"
+    },
+    {
+      "offset": 24148,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4129926346,
+      "sizeOfData": 30,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImageNtHeader@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "ImageNtHeader"
+    },
+    {
+      "offset": 24258,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3404803650,
+      "sizeOfData": 39,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImageRemoveCertificate@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "ImageRemoveCertificate"
+    },
+    {
+      "offset": 24378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3604405111,
+      "sizeOfData": 35,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImageRvaToSection@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "ImageRvaToSection"
+    },
+    {
+      "offset": 24494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4078908362,
+      "sizeOfData": 30,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImageRvaToVa@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "ImageRvaToVa"
+    },
+    {
+      "offset": 24604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4076178046,
+      "sizeOfData": 28,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImageUnload@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "ImageUnload"
+    },
+    {
+      "offset": 24712,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3266980027,
+      "sizeOfData": 35,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImagehlpApiVersion@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "ImagehlpApiVersion"
+    },
+    {
+      "offset": 24828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4184198409,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ImagehlpApiVersionEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "ImagehlpApiVersionEx"
+    },
+    {
+      "offset": 24946,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4291090853,
+      "sizeOfData": 44,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_MakeSureDirectoryPathExists@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "MakeSureDirectoryPathExists"
+    },
+    {
+      "offset": 25070,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3842197170,
+      "sizeOfData": 28,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_MapAndLoad@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "MapAndLoad"
+    },
+    {
+      "offset": 25178,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3720612798,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_MapDebugInformation@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "MapDebugInformation"
+    },
+    {
+      "offset": 25296,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3533748101,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_MapFileAndCheckSumA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "MapFileAndCheckSumA"
+    },
+    {
+      "offset": 25414,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3672709959,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_MapFileAndCheckSumW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "MapFileAndCheckSumW"
+    },
+    {
+      "offset": 25532,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3755208811,
+      "sizeOfData": 31,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ReBaseImage64@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "ReBaseImage64"
+    },
+    {
+      "offset": 25644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3741735343,
+      "sizeOfData": 29,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ReBaseImage@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "ReBaseImage"
+    },
+    {
+      "offset": 25754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3888191167,
+      "sizeOfData": 40,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_RemoveInvalidModuleList@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "RemoveInvalidModuleList"
+    },
+    {
+      "offset": 25874,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3773003652,
+      "sizeOfData": 41,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_ReportSymbolLoadSummary@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "ReportSymbolLoadSummary"
+    },
+    {
+      "offset": 25996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3246471789,
+      "sizeOfData": 35,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SearchTreeForFile@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "SearchTreeForFile"
+    },
+    {
+      "offset": 26112,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4203405143,
+      "sizeOfData": 44,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SetCheckUserInterruptShared@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "SetCheckUserInterruptShared"
+    },
+    {
+      "offset": 26236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3685524828,
+      "sizeOfData": 42,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SetImageConfigInformation@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "SetImageConfigInformation"
+    },
+    {
+      "offset": 26358,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3525097934,
+      "sizeOfData": 32,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SetSymLoadError@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "SetSymLoadError"
+    },
+    {
+      "offset": 26470,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3314624808,
+      "sizeOfData": 30,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SplitSymbols@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "SplitSymbols"
+    },
+    {
+      "offset": 26580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3877959974,
+      "sizeOfData": 29,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_StackWalk64@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "StackWalk64"
+    },
+    {
+      "offset": 26690,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4056259959,
+      "sizeOfData": 27,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_StackWalk@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "StackWalk"
+    },
+    {
+      "offset": 26798,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3730107587,
+      "sizeOfData": 29,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_StackWalkEx@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "StackWalkEx"
+    },
+    {
+      "offset": 26908,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3831254181,
+      "sizeOfData": 43,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymAddrIncludeInlineTrace@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "SymAddrIncludeInlineTrace"
+    },
+    {
+      "offset": 27032,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3921032128,
+      "sizeOfData": 27,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymCleanup@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "SymCleanup"
+    },
+    {
+      "offset": 27140,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3749673572,
+      "sizeOfData": 39,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymCompareInlineTrace@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "SymCompareInlineTrace"
+    },
+    {
+      "offset": 27260,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3578879747,
+      "sizeOfData": 28,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumSym@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "SymEnumSym"
+    },
+    {
+      "offset": 27368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4097577992,
+      "sizeOfData": 32,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumSymbols@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "SymEnumSymbols"
+    },
+    {
+      "offset": 27480,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4167502933,
+      "sizeOfData": 34,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumSymbolsEx@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "SymEnumSymbolsEx"
+    },
+    {
+      "offset": 27594,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3810729497,
+      "sizeOfData": 35,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumSymbolsExW@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "SymEnumSymbolsExW"
+    },
+    {
+      "offset": 27710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3479063415,
+      "sizeOfData": 39,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumSymbolsForAddr@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "SymEnumSymbolsForAddr"
+    },
+    {
+      "offset": 27830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3840423002,
+      "sizeOfData": 30,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumTypes@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "SymEnumTypes"
+    },
+    {
+      "offset": 27940,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3719750081,
+      "sizeOfData": 36,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumTypesByName@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "SymEnumTypesByName"
+    },
+    {
+      "offset": 28056,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4195297659,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumTypesByNameW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "SymEnumTypesByNameW"
+    },
+    {
+      "offset": 28174,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4033422040,
+      "sizeOfData": 31,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumTypesW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "SymEnumTypesW"
+    },
+    {
+      "offset": 28286,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3297884087,
+      "sizeOfData": 39,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumerateModules64@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "SymEnumerateModules64"
+    },
+    {
+      "offset": 28406,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4215662931,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumerateModules@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "SymEnumerateModules"
+    },
+    {
+      "offset": 28524,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3924378909,
+      "sizeOfData": 39,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumerateSymbols64@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "SymEnumerateSymbols64"
+    },
+    {
+      "offset": 28644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4013969227,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumerateSymbols@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "SymEnumerateSymbols"
+    },
+    {
+      "offset": 28762,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3866593478,
+      "sizeOfData": 40,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumerateSymbolsW64@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "SymEnumerateSymbolsW64"
+    },
+    {
+      "offset": 28882,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4131388617,
+      "sizeOfData": 38,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymEnumerateSymbolsW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "SymEnumerateSymbolsW"
+    },
+    {
+      "offset": 29000,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4122992391,
+      "sizeOfData": 35,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymFindFileInPath@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "SymFindFileInPath"
+    },
+    {
+      "offset": 29116,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3632653958,
+      "sizeOfData": 36,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymFindFileInPathW@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "SymFindFileInPathW"
+    },
+    {
+      "offset": 29232,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3996439870,
+      "sizeOfData": 29,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymFromAddr@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "SymFromAddr"
+    },
+    {
+      "offset": 29342,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3515716273,
+      "sizeOfData": 38,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymFromInlineContext@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "SymFromInlineContext"
+    },
+    {
+      "offset": 29460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4150465076,
+      "sizeOfData": 39,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymFromInlineContextW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "SymFromInlineContextW"
+    },
+    {
+      "offset": 29580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3383005571,
+      "sizeOfData": 29,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymFromName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "SymFromName"
+    },
+    {
+      "offset": 29690,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3822032700,
+      "sizeOfData": 42,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymFunctionTableAccess64@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "SymFunctionTableAccess64"
+    },
+    {
+      "offset": 29812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3453529051,
+      "sizeOfData": 56,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymFunctionTableAccess64AccessRoutines@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "SymFunctionTableAccess64AccessRoutines"
+    },
+    {
+      "offset": 29948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3910990610,
+      "sizeOfData": 39,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymFunctionTableAccess@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "SymFunctionTableAccess"
+    },
+    {
+      "offset": 30068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3415092636,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetExtendedOption@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "SymGetExtendedOption"
+    },
+    {
+      "offset": 30186,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3753565232,
+      "sizeOfData": 38,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetLineFromAddr64@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "SymGetLineFromAddr64"
+    },
+    {
+      "offset": 30304,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4096443931,
+      "sizeOfData": 36,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetLineFromAddr@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "SymGetLineFromAddr"
+    },
+    {
+      "offset": 30420,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3227168440,
+      "sizeOfData": 45,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetLineFromInlineContext@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "SymGetLineFromInlineContext"
+    },
+    {
+      "offset": 30546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3243366883,
+      "sizeOfData": 46,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetLineFromInlineContextW@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "SymGetLineFromInlineContextW"
+    },
+    {
+      "offset": 30672,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3403216524,
+      "sizeOfData": 38,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetLineFromName64@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "SymGetLineFromName64"
+    },
+    {
+      "offset": 30790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3955154969,
+      "sizeOfData": 36,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetLineFromName@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "SymGetLineFromName"
+    },
+    {
+      "offset": 30906,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3924777423,
+      "sizeOfData": 33,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetLineNext64@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "SymGetLineNext64"
+    },
+    {
+      "offset": 31020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3441175548,
+      "sizeOfData": 31,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetLineNext@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "SymGetLineNext"
+    },
+    {
+      "offset": 31132,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3978702050,
+      "sizeOfData": 33,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetLinePrev64@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "SymGetLinePrev64"
+    },
+    {
+      "offset": 31246,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3987639861,
+      "sizeOfData": 31,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetLinePrev@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "SymGetLinePrev"
+    },
+    {
+      "offset": 31358,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3913005109,
+      "sizeOfData": 36,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetModuleBase64@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "SymGetModuleBase64"
+    },
+    {
+      "offset": 31474,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4248812366,
+      "sizeOfData": 33,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetModuleBase@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "SymGetModuleBase"
+    },
+    {
+      "offset": 31588,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3873509925,
+      "sizeOfData": 36,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetModuleInfo64@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "SymGetModuleInfo64"
+    },
+    {
+      "offset": 31704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4191415858,
+      "sizeOfData": 34,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetModuleInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "SymGetModuleInfo"
+    },
+    {
+      "offset": 31818,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4187292788,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetModuleInfoW64@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "SymGetModuleInfoW64"
+    },
+    {
+      "offset": 31936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3794172758,
+      "sizeOfData": 35,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetModuleInfoW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "SymGetModuleInfoW"
+    },
+    {
+      "offset": 32052,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3857790529,
+      "sizeOfData": 30,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetOptions@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "SymGetOptions"
+    },
+    {
+      "offset": 32162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3950493967,
+      "sizeOfData": 34,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSearchPath@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "SymGetSearchPath"
+    },
+    {
+      "offset": 32276,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3907326747,
+      "sizeOfData": 43,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSourceFileChecksumW@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "SymGetSourceFileChecksumW"
+    },
+    {
+      "offset": 32400,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3835118991,
+      "sizeOfData": 44,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSourceFileFromTokenW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "SymGetSourceFileFromTokenW"
+    },
+    {
+      "offset": 32524,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3531443915,
+      "sizeOfData": 40,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSourceFileTokenW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "SymGetSourceFileTokenW"
+    },
+    {
+      "offset": 32644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3456182000,
+      "sizeOfData": 43,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSourceVarFromTokenW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "SymGetSourceVarFromTokenW"
+    },
+    {
+      "offset": 32768,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3805057674,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSymFromAddr64@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "SymGetSymFromAddr64"
+    },
+    {
+      "offset": 32886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3554846846,
+      "sizeOfData": 35,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSymFromAddr@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "SymGetSymFromAddr"
+    },
+    {
+      "offset": 33002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3982059181,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSymFromName64@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "SymGetSymFromName64"
+    },
+    {
+      "offset": 33120,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3609661650,
+      "sizeOfData": 35,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSymFromName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "SymGetSymFromName"
+    },
+    {
+      "offset": 33236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3375023703,
+      "sizeOfData": 32,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSymNext64@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "SymGetSymNext64"
+    },
+    {
+      "offset": 33348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3667745092,
+      "sizeOfData": 30,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSymNext@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "SymGetSymNext"
+    },
+    {
+      "offset": 33458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4237651691,
+      "sizeOfData": 32,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSymPrev64@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "SymGetSymPrev64"
+    },
+    {
+      "offset": 33570,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4082850674,
+      "sizeOfData": 30,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSymPrev@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "SymGetSymPrev"
+    },
+    {
+      "offset": 33680,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3534030470,
+      "sizeOfData": 34,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSymbolFile@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "SymGetSymbolFile"
+    },
+    {
+      "offset": 33794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4083112734,
+      "sizeOfData": 35,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetSymbolFileW@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "SymGetSymbolFileW"
+    },
+    {
+      "offset": 33910,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4117857707,
+      "sizeOfData": 36,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetTypeFromName@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "SymGetTypeFromName"
+    },
+    {
+      "offset": 34026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4213536108,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetTypeFromNameW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "SymGetTypeFromNameW"
+    },
+    {
+      "offset": 34144,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4275804102,
+      "sizeOfData": 32,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetTypeInfo@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "SymGetTypeInfo"
+    },
+    {
+      "offset": 34256,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4159488884,
+      "sizeOfData": 34,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymGetTypeInfoEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "SymGetTypeInfoEx"
+    },
+    {
+      "offset": 34370,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3760491149,
+      "sizeOfData": 31,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymInitialize@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "SymInitialize"
+    },
+    {
+      "offset": 34482,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4180951872,
+      "sizeOfData": 33,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymLoadModule64@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "SymLoadModule64"
+    },
+    {
+      "offset": 34596,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3802678271,
+      "sizeOfData": 31,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymLoadModule@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "SymLoadModule"
+    },
+    {
+      "offset": 34708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4034814553,
+      "sizeOfData": 34,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymMatchFileName@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "SymMatchFileName"
+    },
+    {
+      "offset": 34822,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3976413429,
+      "sizeOfData": 35,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymMatchFileNameW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "SymMatchFileNameW"
+    },
+    {
+      "offset": 34938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3360262460,
+      "sizeOfData": 32,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymMatchString@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "SymMatchString"
+    },
+    {
+      "offset": 35050,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3838584025,
+      "sizeOfData": 33,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymMatchStringA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "SymMatchStringA"
+    },
+    {
+      "offset": 35164,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4010975618,
+      "sizeOfData": 33,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymMatchStringW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "SymMatchStringW"
+    },
+    {
+      "offset": 35278,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4121239238,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymQueryInlineTrace@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "SymQueryInlineTrace"
+    },
+    {
+      "offset": 35396,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3937288611,
+      "sizeOfData": 39,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymRegisterCallback64@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "SymRegisterCallback64"
+    },
+    {
+      "offset": 35516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3754721469,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymRegisterCallback@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "SymRegisterCallback"
+    },
+    {
+      "offset": 35634,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4159056659,
+      "sizeOfData": 52,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymRegisterFunctionEntryCallback64@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "SymRegisterFunctionEntryCallback64"
+    },
+    {
+      "offset": 35766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3535745096,
+      "sizeOfData": 50,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymRegisterFunctionEntryCallback@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "SymRegisterFunctionEntryCallback"
+    },
+    {
+      "offset": 35896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3708944223,
+      "sizeOfData": 31,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymSetContext@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "SymSetContext"
+    },
+    {
+      "offset": 36008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4043268522,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymSetExtendedOption@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "SymSetExtendedOption"
+    },
+    {
+      "offset": 36126,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3779372620,
+      "sizeOfData": 30,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymSetOptions@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "SymSetOptions"
+    },
+    {
+      "offset": 36236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3954077014,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymSetScopeFromAddr@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "SymSetScopeFromAddr"
+    },
+    {
+      "offset": 36354,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3249208788,
+      "sizeOfData": 38,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymSetScopeFromIndex@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "SymSetScopeFromIndex"
+    },
+    {
+      "offset": 36472,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3840321426,
+      "sizeOfData": 46,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymSetScopeFromInlineContext@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "SymSetScopeFromInlineContext"
+    },
+    {
+      "offset": 36598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3893564916,
+      "sizeOfData": 33,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymSetSearchPath@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "SymSetSearchPath"
+    },
+    {
+      "offset": 36712,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4185786590,
+      "sizeOfData": 42,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymSrvGetFileIndexString@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "SymSrvGetFileIndexString"
+    },
+    {
+      "offset": 36834,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4033770453,
+      "sizeOfData": 43,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymSrvGetFileIndexStringW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "SymSrvGetFileIndexStringW"
+    },
+    {
+      "offset": 36958,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4281042910,
+      "sizeOfData": 38,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymSrvGetFileIndexes@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "SymSrvGetFileIndexes"
+    },
+    {
+      "offset": 37076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3988309337,
+      "sizeOfData": 39,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymSrvGetFileIndexesW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "SymSrvGetFileIndexesW"
+    },
+    {
+      "offset": 37196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3963932948,
+      "sizeOfData": 30,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymUnDName64@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "SymUnDName64"
+    },
+    {
+      "offset": 37306,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3470916511,
+      "sizeOfData": 28,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymUnDName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "SymUnDName"
+    },
+    {
+      "offset": 37414,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3749148953,
+      "sizeOfData": 35,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymUnloadModule64@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "SymUnloadModule64"
+    },
+    {
+      "offset": 37530,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3550051518,
+      "sizeOfData": 32,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_SymUnloadModule@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "SymUnloadModule"
+    },
+    {
+      "offset": 37642,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4096149653,
+      "sizeOfData": 31,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_TouchFileTimes@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "TouchFileTimes"
+    },
+    {
+      "offset": 37754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3641911364,
+      "sizeOfData": 38,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_UnDecorateSymbolName@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "UnDecorateSymbolName"
+    },
+    {
+      "offset": 37872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3918833246,
+      "sizeOfData": 29,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_UnMapAndLoad@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "UnMapAndLoad"
+    },
+    {
+      "offset": 37982,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3577794182,
+      "sizeOfData": 38,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_UnmapDebugInformation@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "UnmapDebugInformation"
+    },
+    {
+      "offset": 38100,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3682495256,
+      "sizeOfData": 37,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_UpdateDebugInfoFile@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "UpdateDebugInfoFile"
+    },
+    {
+      "offset": 38218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4012694395,
+      "sizeOfData": 39,
+      "dllName": "imagehlp.dll",
+      "symbolName": "_UpdateDebugInfoFileEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "UpdateDebugInfoFileEx"
+    }
+  ]
+}

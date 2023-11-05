@@ -1,0 +1,3402 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\wer.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    34F6 size
+correct header end
+
+    293 public symbols
+
+     6A76 __IMPORT_DESCRIPTOR_wer
+     6C90 __NULL_IMPORT_DESCRIPTOR
+     6DC2 wer_NULL_THUNK_DATA
+     A4FC _WerReportCreate@16
+     A4FC __imp__WerReportCreate@16
+     A568 _WerReportSetParameter@16
+     A568 __imp__WerReportSetParameter@16
+     A5DA _WerReportSetUIOption@12
+     A5DA __imp__WerReportSetUIOption@12
+     A41E _WerReportAddFile@16
+     A41E __imp__WerReportAddFile@16
+     A3B0 _WerReportAddDump@28
+     A3B0 __imp__WerReportAddDump@28
+     A64C _WerReportSubmit@16
+     A64C __imp__WerReportSubmit@16
+     A48C _WerReportCloseHandle@4
+     A48C __imp__WerReportCloseHandle@4
+     A8F0 _WerStoreOpen@8
+     A8F0 __imp__WerStoreOpen@8
+     A6B8 _WerStoreClose@4
+     A6B8 __imp__WerStoreClose@4
+     A2CE _WerFreeString@4
+     A2CE __imp__WerFreeString@4
+     A722 _WerStoreGetFirstReportKey@8
+     A722 __imp__WerStoreGetFirstReportKey@8
+     A798 _WerStoreGetNextReportKey@8
+     A798 __imp__WerStoreGetNextReportKey@8
+     A80C _WerStoreGetReportCount@8
+     A80C __imp__WerStoreGetReportCount@8
+     A87E _WerStoreGetSizeOnDisk@8
+     A87E __imp__WerStoreGetSizeOnDisk@8
+     A958 _WerStorePurge@0
+     A958 __imp__WerStorePurge@0
+     A9C2 _WerStoreQueryReportMetadataV1@12
+     A9C2 __imp__WerStoreQueryReportMetadataV1@12
+     AA3C _WerStoreQueryReportMetadataV2@12
+     AA3C __imp__WerStoreQueryReportMetadataV2@12
+     AAB6 _WerStoreQueryReportMetadataV3@12
+     AAB6 __imp__WerStoreQueryReportMetadataV3@12
+     AB30 _WerStoreUploadReport@16
+     AB30 __imp__WerStoreUploadReport@16
+     716E ?WerpAddMemoryBlock@@YGJPAXK0KK@Z
+     716E __imp_?WerpAddMemoryBlock@@YGJPAXK0KK@Z
+     B478 _WerpSetCallBack@12
+     B478 __imp__WerpSetCallBack@12
+     8C4E ?WerpPruneStore@@YGJPAX@Z
+     8C4E __imp_?WerpPruneStore@@YGJPAX@Z
+     746A ?WerpCleanWer@@YGJXZ
+     746A __imp_?WerpCleanWer@@YGJXZ
+     74D8 ?WerpCloseStore@@YGXPAX@Z
+     74D8 __imp_?WerpCloseStore@@YGXPAX@Z
+     75C6 ?WerpDeleteReport@@YGJPAXPBG@Z
+     75C6 __imp_?WerpDeleteReport@@YGJPAXPBG@Z
+     76B8 ?WerpEnumerateStoreNext@@YGJPAXPAPAX@Z
+     76B8 __imp_?WerpEnumerateStoreNext@@YGJPAXPAPAX@Z
+     7738 ?WerpEnumerateStoreStart@@YGJPAX@Z
+     7738 __imp_?WerpEnumerateStoreStart@@YGJPAX@Z
+     B394 _WerpLoadReport@20
+     B394 __imp__WerpLoadReport@20
+     8B38 ?WerpOpenMachineQueue@@YGJPAPAX@Z
+     8B38 __imp_?WerpOpenMachineQueue@@YGJPAPAX@Z
+     8498 ?WerpGetStorePath@@YGJW4_REPORT_STORE_TYPES@@PAGPAK@Z
+     8498 __imp_?WerpGetStorePath@@YGJW4_REPORT_STORE_TYPES@@PAGPAK@Z
+     7EE2 ?WerpGetPathOfWERTempDirectory@@YGJPAGK@Z
+     7EE2 __imp_?WerpGetPathOfWERTempDirectory@@YGJPAGK@Z
+     ABA2 _WerpAddFile@24
+     ABA2 __imp__WerpAddFile@24
+     AC0A _WerpAddFileBuffer@28
+     AC0A __imp__WerpAddFileBuffer@28
+     AC78 _WerpAddFileCallback@28
+     AC78 __imp__WerpAddFileCallback@28
+     8FFC ?WerpSetDynamicParameter@@YGJPAXKPBG1@Z
+     8FFC __imp_?WerpSetDynamicParameter@@YGJPAXKPBG1@Z
+     9A00 ?WerpSubmitReportFromStore@@YGJPAXPBG0PAVIReportUI@@PAPAXKPAW4_WER_SUBMIT_RESULT@@@Z
+     9A00 __imp_?WerpSubmitReportFromStore@@YGJPAXPBG0PAVIReportUI@@PAPAXKPAW4_WER_SUBMIT_RESULT@@@Z
+     7964 ?WerpGetBucketId@@YGJPAXPAPAX@Z
+     7964 __imp_?WerpGetBucketId@@YGJPAXPAPAX@Z
+     7A5E ?WerpGetEventType@@YGJPAXPAPBG@Z
+     7A5E __imp_?WerpGetEventType@@YGJPAXPAPBG@Z
+     7AD8 ?WerpGetExtendedDiagData@@YGJPAXPAPAXPAK@Z
+     7AD8 __imp_?WerpGetExtendedDiagData@@YGJPAXPAPAXPAK@Z
+     7BF2 ?WerpGetFilePathByIndex@@YGJPAXKPAPBG@Z
+     7BF2 __imp_?WerpGetFilePathByIndex@@YGJPAXKPAPBG@Z
+     7B5C ?WerpGetFileByIndex@@YGJPAXKPAW4_WER_FILE_TYPE@@PAKPAPBG33@Z
+     7B5C __imp_?WerpGetFileByIndex@@YGJPAXKPAW4_WER_FILE_TYPE@@PAKPAPBG33@Z
+     7C72 ?WerpGetLegacyBucketId@@YGJPAXPAPAX@Z
+     7C72 __imp_?WerpGetLegacyBucketId@@YGJPAXPAPAX@Z
+     7D74 ?WerpGetNumFiles@@YGJPAXPAK@Z
+     7D74 __imp_?WerpGetNumFiles@@YGJPAXPAK@Z
+     7E68 ?WerpGetNumSigParams@@YGJPAXPAK@Z
+     7E68 __imp_?WerpGetNumSigParams@@YGJPAXPAK@Z
+     8416 ?WerpGetSigParamByIndex@@YGJPAXKPAPBG1@Z
+     8416 __imp_?WerpGetSigParamByIndex@@YGJPAXKPAPBG1@Z
+     8636 ?WerpGetUIParamByIndex@@YGJPAXKPAPBG@Z
+     8636 __imp_?WerpGetUIParamByIndex@@YGJPAXKPAPBG@Z
+     828C ?WerpGetReportTime@@YGJPAXPAU_FILETIME@@@Z
+     828C __imp_?WerpGetReportTime@@YGJPAXPAU_FILETIME@@@Z
+     94B4 ?WerpSetReportTime@@YGJPAXPAU_FILETIME@@@Z
+     94B4 __imp_?WerpSetReportTime@@YGJPAXPAU_FILETIME@@@Z
+     8310 ?WerpGetReportType@@YGJPAXPAW4_WER_REPORT_TYPE@@@Z
+     8310 __imp_?WerpGetReportType@@YGJPAXPAW4_WER_REPORT_TYPE@@@Z
+     894A ?WerpIsOnBattery@@YGHXZ
+     894A __imp_?WerpIsOnBattery@@YGHXZ
+     89BA ?WerpIsTransportAvailable@@YGJHPAH@Z
+     89BA __imp_?WerpIsTransportAvailable@@YGJHPAH@Z
+     763E ?WerpDestroyWerString@@YGXPAPAX@Z
+     763E __imp_?WerpDestroyWerString@@YGXPAPAX@Z
+     873A ?WerpGetWerStringData@@YGPBGPAX@Z
+     873A __imp_?WerpGetWerStringData@@YGPBGPAX@Z
+     8164 ?WerpGetReportInformation@@YGJPAXPAPBU_WER_REPORT_INFORMATION_V5@@@Z
+     8164 __imp_?WerpGetReportInformation@@YGJPAXPAPBU_WER_REPORT_INFORMATION_V5@@@Z
+     B2B8 _WerpGetStoreLocation@12
+     B2B8 __imp__WerpGetStoreLocation@12
+     754A ?WerpCreateMachineStore@@YGJPAPAX@Z
+     754A __imp_?WerpCreateMachineStore@@YGJPAPAX@Z
+     8ABC ?WerpOpenMachineArchive@@YGJPAPAX@Z
+     8ABC __imp_?WerpOpenMachineArchive@@YGJPAPAX@Z
+     73F6 ?WerpCancelUpload@@YGJPAX@Z
+     73F6 __imp_?WerpCancelUpload@@YGJPAX@Z
+     7FDE ?WerpGetReportFinalConsent@@YGJPAXPAW4_CONSENT_SETTING@@@Z
+     7FDE __imp_?WerpGetReportFinalConsent@@YGJPAXPAW4_CONSENT_SETTING@@@Z
+     85B4 ?WerpGetTextFromReport@@YGJPAXPBGPAPBG@Z
+     85B4 __imp_?WerpGetTextFromReport@@YGJPAXPBGPAPBG@Z
+     7068 ?WerpAddAppCompatData@@YGJPAXPBG1@Z
+     7068 __imp_?WerpAddAppCompatData@@YGJPAXPBG1@Z
+     B0F2 _WerpExtractReportFiles@12
+     B0F2 __imp__WerpExtractReportFiles@12
+     9316 ?WerpSetReportInformation@@YGJPAXPBU_WER_REPORT_INFORMATION_V5@@@Z
+     9316 __imp_?WerpSetReportInformation@@YGJPAXPBU_WER_REPORT_INFORMATION_V5@@@Z
+     8F7A ?WerpRestartApplication@@YGJPAXPBG1PAH2@Z
+     8F7A __imp_?WerpRestartApplication@@YGJPAXPBG1PAH2@Z
+     839C ?WerpGetResponseId@@YGJPAXPAH1@Z
+     839C __imp_?WerpGetResponseId@@YGJPAXPAH1@Z
+     8BB2 ?WerpPromptUser@@YGJPAXPAUHWND__@@PAU_WER_USER_PROMPT_INPUT@@PAH@Z
+     8BB2 __imp_?WerpPromptUser@@YGJPAXPAUHWND__@@PAU_WER_USER_PROMPT_INPUT@@PAH@Z
+     86B6 ?WerpGetUploadTime@@YGJPAXPAU_FILETIME@@@Z
+     86B6 __imp_?WerpGetUploadTime@@YGJPAXPAU_FILETIME@@@Z
+     907C ?WerpSetEventName@@YGJPAXPBG@Z
+     907C __imp_?WerpSetEventName@@YGJPAXPBG@Z
+     929E ?WerpSetReportFlags@@YGJPAXK@Z
+     929E __imp_?WerpSetReportFlags@@YGJPAXK@Z
+     8072 ?WerpGetReportFlags@@YGJPAXPAK@Z
+     8072 __imp_?WerpGetReportFlags@@YGJPAXPAK@Z
+     71E8 ?WerpAddRegisteredDataToReport@@YGJPAX0@Z
+     71E8 __imp_?WerpAddRegisteredDataToReport@@YGJPAX0@Z
+     726A ?WerpAddRegisteredDumpsToReport@@YGJPAX0@Z
+     726A __imp_?WerpAddRegisteredDumpsToReport@@YGJPAX0@Z
+     72EE ?WerpAddRegisteredMetadataToReport@@YGJPAX0@Z
+     72EE __imp_?WerpAddRegisteredMetadataToReport@@YGJPAX0@Z
+     70E4 ?WerpAddIfRegisteredForAppLocalDump@@YGJPAX0PBG@Z
+     70E4 __imp_?WerpAddIfRegisteredForAppLocalDump@@YGJPAX0PBG@Z
+     B246 _WerpGetReportConsent@12
+     B246 __imp__WerpGetReportConsent@12
+     79DC ?WerpGetDynamicParameter@@YGJPAXKPAPBG1@Z
+     79DC __imp_?WerpGetDynamicParameter@@YGJPAXKPAPBG1@Z
+     9760 ?WerpShowUpsellUI@@YGJPAUHWND__@@PAH@Z
+     9760 __imp_?WerpShowUpsellUI@@YGJPAUHWND__@@PAH@Z
+     7374 ?WerpArchiveReport@@YGJPAXPBGHPAPAXPAH@Z
+     7374 __imp_?WerpArchiveReport@@YGJPAXPBGHPAPAXPAH@Z
+     8CC0 ?WerpReportCancel@@YGJPAX@Z
+     8CC0 __imp_?WerpReportCancel@@YGJPAX@Z
+     8526 ?WerpGetStoreType@@YGJPAXPAW4_REPORT_STORE_TYPES@@@Z
+     8526 __imp_?WerpGetStoreType@@YGJPAXPAW4_REPORT_STORE_TYPES@@@Z
+     9538 ?WerpSetReportUploadContextToken@@YGJPAX0@Z
+     9538 __imp_?WerpSetReportUploadContextToken@@YGJPAX0@Z
+     B32A _WerpIsDisabled@8
+     B32A __imp__WerpIsDisabled@8
+     8202 ?WerpGetReportSettings@@YGJPAXPAPAVCSettings@@@Z
+     8202 __imp_?WerpGetReportSettings@@YGJPAXPAPAVCSettings@@@Z
+     7DEA ?WerpGetNumLoadedModules@@YGJPAXPAK@Z
+     7DEA __imp_?WerpGetNumLoadedModules@@YGJPAXPAK@Z
+     7CF0 ?WerpGetLoadedModuleByIndex@@YGJPAXKPAPBG@Z
+     7CF0 __imp_?WerpGetLoadedModuleByIndex@@YGJPAXKPAPBG@Z
+     B5CA _WerpSetIntegratorReportId@8
+     B5CA __imp__WerpSetIntegratorReportId@8
+     B1D0 _WerpGetIntegratorReportId@8
+     B1D0 __imp__WerpGetIntegratorReportId@8
+     B07A _WerpCreateIntegratorReportId@4
+     B07A __imp__WerpCreateIntegratorReportId@4
+     B166 _WerpFreeString@4
+     B166 __imp__WerpFreeString@4
+     B4E4 _WerpSetDefaultUserConsent@8
+     B4E4 __imp__WerpSetDefaultUserConsent@8
+     87B4 ?WerpGetWow64Process@@YGJPAXPAK1@Z
+     87B4 __imp_?WerpGetWow64Process@@YGJPAXPAK1@Z
+     942C ?WerpSetReportNamespaceParameter@@YGJPAXKPBG1@Z
+     942C __imp_?WerpSetReportNamespaceParameter@@YGJPAXKPBG1@Z
+     8E54 ?WerpReserveMachineQueueReportDir@@YGJPAXPAGK@Z
+     8E54 __imp_?WerpReserveMachineQueueReportDir@@YGJPAXPAGK@Z
+     9F7A ?WerpValidateReportKey@@YGJPBG@Z
+     9F7A __imp_?WerpValidateReportKey@@YGJPBG@Z
+     8A38 ?WerpLoadReportFromBuffer@@YGJPAXKPAPAXH@Z
+     8A38 __imp_?WerpLoadReportFromBuffer@@YGJPAXKPAPAXH@Z
+     8DC0 ?WerpReportSprintfParameter@@YAJPAXKPAUHINSTANCE__@@IPBGZZ
+     8DC0 __imp_?WerpReportSprintfParameter@@YAJPAXKPAUHINSTANCE__@@IPBGZZ
+     B400 _WerpSetAuxiliaryArchivePath@8
+     B400 __imp__WerpSetAuxiliaryArchivePath@8
+     8830 ?WerpHashApplicationParameters@@YGXPAEPBG1PAGK@Z
+     8830 __imp_?WerpHashApplicationParameters@@YGXPAEPBG1PAGK@Z
+     9216 ?WerpSetReportApplicationIdentity@@YGJPAXPAE@Z
+     9216 __imp_?WerpSetReportApplicationIdentity@@YGJPAXPAE@Z
+     95BC ?WerpSetTelemetryAppParams@@YGJPAXPBU_WER_TELEMETRY_APP_PARAMS@@@Z
+     95BC __imp_?WerpSetTelemetryAppParams@@YGJPAXPBU_WER_TELEMETRY_APP_PARAMS@@@Z
+     96DA ?WerpSetTelemetryServiceParams@@YGJPAXPBG1H@Z
+     96DA __imp_?WerpSetTelemetryServiceParams@@YGJPAXPBG1H@Z
+     9658 ?WerpSetTelemetryKernelParams@@YGJPAXK@Z
+     9658 __imp_?WerpSetTelemetryKernelParams@@YGJPAXK@Z
+     90F4 ?WerpSetProcessTimelines@@YGJPAXPBU_WER_PROCESS_TIMELINES@@K@Z
+     90F4 __imp_?WerpSetProcessTimelines@@YGJPAXPBU_WER_PROCESS_TIMELINES@@K@Z
+     9EE2 ?WerpUnmapProcessViews@@YGJPAU_WERP_UNMAPPED_VA_RANGES@@PAXK@Z
+     9EE2 __imp_?WerpUnmapProcessViews@@YGJPAU_WERP_UNMAPPED_VA_RANGES@@PAXK@Z
+     78CE ?WerpFreeUnmappedVaRanges@@YGXPAU_WERP_UNMAPPED_VA_RANGES@@@Z
+     78CE __imp_?WerpFreeUnmappedVaRanges@@YGXPAU_WERP_UNMAPPED_VA_RANGES@@@Z
+     AD5E _WerpAuxmdDumpProcessImages@8
+     AD5E __imp__WerpAuxmdDumpProcessImages@8
+     ADD4 _WerpAuxmdDumpRegisteredBlocks@4
+     ADD4 __imp__WerpAuxmdDumpRegisteredBlocks@4
+     B00E _WerpAuxmdMapFile@4
+     B00E __imp__WerpAuxmdMapFile@4
+     AF2C _WerpAuxmdHashVaRanges@8
+     AF2C __imp__WerpAuxmdHashVaRanges@8
+     AF9E _WerpAuxmdInitialize@16
+     AF9E __imp__WerpAuxmdInitialize@16
+     AEB8 _WerpAuxmdFreeCopyBuffer@4
+     AEB8 __imp__WerpAuxmdFreeCopyBuffer@4
+     AE4E _WerpAuxmdFree@4
+     AE4E __imp__WerpAuxmdFree@4
+     88BA ?WerpInitializeImageCache@@YGJPAU_WERP_IMAGE_CACHE@@K@Z
+     88BA __imp_?WerpInitializeImageCache@@YGJPAU_WERP_IMAGE_CACHE@@K@Z
+     77B4 ?WerpFlushImageCache@@YGKPAU_WERP_IMAGE_CACHE@@K@Z
+     77B4 __imp_?WerpFlushImageCache@@YGKPAU_WERP_IMAGE_CACHE@@K@Z
+     8EDC ?WerpResetTransientImageCacheStatistics@@YGXPAU_WERP_IMAGE_CACHE@@@Z
+     8EDC __imp_?WerpResetTransientImageCacheStatistics@@YGXPAU_WERP_IMAGE_CACHE@@@Z
+     9940 ?WerpStitchedMinidumpVmQueryCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAU_MINIDUMP_MEMORY_INFO@@_K@Z
+     9940 __imp_?WerpStitchedMinidumpVmQueryCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAU_MINIDUMP_MEMORY_INFO@@_K@Z
+     9892 ?WerpStitchedMinidumpVmPreReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXK@Z
+     9892 __imp_?WerpStitchedMinidumpVmPreReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXK@Z
+     97E0 ?WerpStitchedMinidumpVmPostReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXKKJ@Z
+     97E0 __imp_?WerpStitchedMinidumpVmPostReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXKKJ@Z
+     9AAE ?WerpTraceAuxMemDumpStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_AUXILIARY_MEMORY_DUMP@@PAT_LARGE_INTEGER@@5@Z
+     9AAE __imp_?WerpTraceAuxMemDumpStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_AUXILIARY_MEMORY_DUMP@@PAT_LARGE_INTEGER@@5@Z
+     9C0C ?WerpTraceImageCacheStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_IMAGE_CACHE@@PAT_LARGE_INTEGER@@@Z
+     9C0C __imp_?WerpTraceImageCacheStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_IMAGE_CACHE@@PAT_LARGE_INTEGER@@@Z
+     9CC4 ?WerpTraceSnapshotStatistics@@YGXP6GXPAXKPBGPAD@Z00@Z
+     9CC4 __imp_?WerpTraceSnapshotStatistics@@YGXP6GXPAXKPBGPAD@Z00@Z
+     9D52 ?WerpTraceStitchedDumpWriterStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_STITCHED_DUMP_WRITER@@PAT_LARGE_INTEGER@@@Z
+     9D52 __imp_?WerpTraceStitchedDumpWriterStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_STITCHED_DUMP_WRITER@@PAT_LARGE_INTEGER@@@Z
+     9E1C ?WerpTraceUnmappedVaRangesStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_UNMAPPED_VA_RANGES@@PAT_LARGE_INTEGER@@5@Z
+     9E1C __imp_?WerpTraceUnmappedVaRangesStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_UNMAPPED_VA_RANGES@@PAT_LARGE_INTEGER@@5@Z
+     9B72 ?WerpTraceDuration@@YGXP6GXPAXKPBGPAD@Z0KPAT_LARGE_INTEGER@@44@Z
+     9B72 __imp_?WerpTraceDuration@@YGXP6GXPAXKPBGPAD@Z0KPAT_LARGE_INTEGER@@44@Z
+     7840 ?WerpForceDeferredCollection@@YGKPAXP6GX0KPBGPAD@Z0@Z
+     7840 __imp_?WerpForceDeferredCollection@@YGKPAXP6GX0KPBGPAD@Z0@Z
+     9FF4 ?WerpWalkGatherBlocks@@YGJPAU_WER_GATHER@@PAPAXPAX1@Z
+     9FF4 __imp_?WerpWalkGatherBlocks@@YGJPAU_WER_GATHER@@PAPAXPAX1@Z
+     7F64 ?WerpGetReportCount@@YGJPAXPAK@Z
+     7F64 __imp_?WerpGetReportCount@@YGJPAXPAK@Z
+     ACE8 _WerpAddTerminationReason@16
+     ACE8 __imp__WerpAddTerminationReason@16
+     B6AE _WerpSetReportOption@12
+     B6AE __imp__WerpSetReportOption@12
+     B640 _WerpSetIptEnabled@8
+     B640 __imp__WerpSetIptEnabled@8
+     93B2 ?WerpSetReportIsFatal@@YGJPAXH@Z
+     93B2 __imp_?WerpSetReportIsFatal@@YGJPAXH@Z
+     918C ?WerpSetQuickDumpType@@YGJPAXW4_WER_DUMP_TYPE@@@Z
+     918C __imp_?WerpSetQuickDumpType@@YGJPAXW4_WER_DUMP_TYPE@@@Z
+     80EC ?WerpGetReportId@@YGJPAXPAGK@Z
+     80EC __imp_?WerpGetReportId@@YGJPAXPAGK@Z
+     B71E _WerpSetTtdStatus@8
+     B71E __imp__WerpSetTtdStatus@8
+     B55A _WerpSetExitListeners@0
+     B55A __imp__WerpSetExitListeners@0
+     8D34 ?WerpReportSetMaxProcessHoldMilliseconds@@YGJPAXK@Z
+     8D34 __imp_?WerpReportSetMaxProcessHoldMilliseconds@@YGJPAXK@Z
+     A258 _WerAddExcludedApplication@8
+     A258 __imp__WerAddExcludedApplication@8
+     A338 _WerRemoveExcludedApplication@8
+     A338 __imp__WerRemoveExcludedApplication@8
+     6FF4 ?WerUnattendedSetup@@YGXXZ
+     6FF4 __imp_?WerUnattendedSetup@@YGXXZ
+     6F7E ?WerSysprepGeneralize@@YGKXZ
+     6F7E __imp_?WerSysprepGeneralize@@YGKXZ
+     6F0C ?WerSysprepCleanup@@YGKXZ
+     6F0C __imp_?WerSysprepCleanup@@YGKXZ
+     A16A _OpenThreadWaitChainSession@8
+     A16A __imp__OpenThreadWaitChainSession@8
+     A082 _CloseThreadWaitChainSession@4
+     A082 __imp__CloseThreadWaitChainSession@4
+     A0FA _GetThreadWaitChain@28
+     A0FA __imp__GetThreadWaitChain@28
+     A1E0 _RegisterWaitChainCOMCallback@8
+     A1E0 __imp__RegisterWaitChainCOMCallback@8
+
+Archive member name at 6A76: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1DD size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        F16F5690 time date stamp
+             103 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3D size of raw data
+      8C file pointer to raw data (0000008C to 000000C8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      C9 file pointer to raw data (000000C9 to 000000DC)
+      DD file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+      FB file pointer to raw data (000000FB to 00000102)
+      DD file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 6C90: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F6 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        D94ABCF2 time date stamp
+              B5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3D size of raw data
+      64 file pointer to raw data (00000064 to 000000A0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A1 file pointer to raw data (000000A1 to 000000B4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 6DC2: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     10E size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        D9005916 time date stamp
+              D1 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3D size of raw data
+      8C file pointer to raw data (0000008C to 000000C8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      C9 file pointer to raw data (000000C9 to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 6F0C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCFEC298
+  SizeOfData   : 00000022
+  DLL name     : wer.dll
+  Symbol name  : ?WerSysprepCleanup@@YGKXZ (unsigned long __stdcall WerSysprepCleanup(void))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : WerSysprepCleanup
+
+Archive member name at 6F7E: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EEB83C45
+  SizeOfData   : 00000025
+  DLL name     : wer.dll
+  Symbol name  : ?WerSysprepGeneralize@@YGKXZ (unsigned long __stdcall WerSysprepGeneralize(void))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : WerSysprepGeneralize
+
+Archive member name at 6FF4: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6874410
+  SizeOfData   : 00000023
+  DLL name     : wer.dll
+  Symbol name  : ?WerUnattendedSetup@@YGXXZ (void __stdcall WerUnattendedSetup(void))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : WerUnattendedSetup
+
+Archive member name at 7068: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D386DEF4
+  SizeOfData   : 0000002C
+  DLL name     : wer.dll
+  Symbol name  : ?WerpAddAppCompatData@@YGJPAXPBG1@Z (long __stdcall WerpAddAppCompatData(void *,unsigned short const *,unsigned short const *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : WerpAddAppCompatData
+
+Archive member name at 70E4: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E63D2E61
+  SizeOfData   : 0000003A
+  DLL name     : wer.dll
+  Symbol name  : ?WerpAddIfRegisteredForAppLocalDump@@YGJPAX0PBG@Z (long __stdcall WerpAddIfRegisteredForAppLocalDump(void *,void *,unsigned short const *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : WerpAddIfRegisteredForAppLocalDump
+
+Archive member name at 716E: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE06B4D8
+  SizeOfData   : 0000002A
+  DLL name     : wer.dll
+  Symbol name  : ?WerpAddMemoryBlock@@YGJPAXK0KK@Z (long __stdcall WerpAddMemoryBlock(void *,unsigned long,void *,unsigned long,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : WerpAddMemoryBlock
+
+Archive member name at 71E8: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9F54D34
+  SizeOfData   : 00000032
+  DLL name     : wer.dll
+  Symbol name  : ?WerpAddRegisteredDataToReport@@YGJPAX0@Z (long __stdcall WerpAddRegisteredDataToReport(void *,void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : WerpAddRegisteredDataToReport
+
+Archive member name at 726A: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE70DE02
+  SizeOfData   : 00000033
+  DLL name     : wer.dll
+  Symbol name  : ?WerpAddRegisteredDumpsToReport@@YGJPAX0@Z (long __stdcall WerpAddRegisteredDumpsToReport(void *,void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : WerpAddRegisteredDumpsToReport
+
+Archive member name at 72EE: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E086235D
+  SizeOfData   : 00000036
+  DLL name     : wer.dll
+  Symbol name  : ?WerpAddRegisteredMetadataToReport@@YGJPAX0@Z (long __stdcall WerpAddRegisteredMetadataToReport(void *,void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : WerpAddRegisteredMetadataToReport
+
+Archive member name at 7374: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9C8097A
+  SizeOfData   : 00000031
+  DLL name     : wer.dll
+  Symbol name  : ?WerpArchiveReport@@YGJPAXPBGHPAPAXPAH@Z (long __stdcall WerpArchiveReport(void *,unsigned short const *,int,void * *,int *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : WerpArchiveReport
+
+Archive member name at 73F6: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8A63BDA
+  SizeOfData   : 00000024
+  DLL name     : wer.dll
+  Symbol name  : ?WerpCancelUpload@@YGJPAX@Z (long __stdcall WerpCancelUpload(void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : WerpCancelUpload
+
+Archive member name at 746A: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF0466CC
+  SizeOfData   : 0000001D
+  DLL name     : wer.dll
+  Symbol name  : ?WerpCleanWer@@YGJXZ (long __stdcall WerpCleanWer(void))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : WerpCleanWer
+
+Archive member name at 74D8: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D892DA7D
+  SizeOfData   : 00000022
+  DLL name     : wer.dll
+  Symbol name  : ?WerpCloseStore@@YGXPAX@Z (void __stdcall WerpCloseStore(void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : WerpCloseStore
+
+Archive member name at 754A: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED0C14C4
+  SizeOfData   : 0000002C
+  DLL name     : wer.dll
+  Symbol name  : ?WerpCreateMachineStore@@YGJPAPAX@Z (long __stdcall WerpCreateMachineStore(void * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : WerpCreateMachineStore
+
+Archive member name at 75C6: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7270952
+  SizeOfData   : 00000027
+  DLL name     : wer.dll
+  Symbol name  : ?WerpDeleteReport@@YGJPAXPBG@Z (long __stdcall WerpDeleteReport(void *,unsigned short const *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : WerpDeleteReport
+
+Archive member name at 763E: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C46DA542
+  SizeOfData   : 0000002A
+  DLL name     : wer.dll
+  Symbol name  : ?WerpDestroyWerString@@YGXPAPAX@Z (void __stdcall WerpDestroyWerString(void * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : WerpDestroyWerString
+
+Archive member name at 76B8: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFD11290
+  SizeOfData   : 0000002F
+  DLL name     : wer.dll
+  Symbol name  : ?WerpEnumerateStoreNext@@YGJPAXPAPAX@Z (long __stdcall WerpEnumerateStoreNext(void *,void * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : WerpEnumerateStoreNext
+
+Archive member name at 7738: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4AC0809
+  SizeOfData   : 0000002B
+  DLL name     : wer.dll
+  Symbol name  : ?WerpEnumerateStoreStart@@YGJPAX@Z (long __stdcall WerpEnumerateStoreStart(void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : WerpEnumerateStoreStart
+
+Archive member name at 77B4: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D414D2C6
+  SizeOfData   : 0000003B
+  DLL name     : wer.dll
+  Symbol name  : ?WerpFlushImageCache@@YGKPAU_WERP_IMAGE_CACHE@@K@Z (unsigned long __stdcall WerpFlushImageCache(struct _WERP_IMAGE_CACHE *,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : WerpFlushImageCache
+
+Archive member name at 7840: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      52 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0F6E1C6
+  SizeOfData   : 0000003E
+  DLL name     : wer.dll
+  Symbol name  : ?WerpForceDeferredCollection@@YGKPAXP6GX0KPBGPAD@Z0@Z (unsigned long __stdcall WerpForceDeferredCollection(void *,void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : WerpForceDeferredCollection
+
+Archive member name at 78CE: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4D710BF
+  SizeOfData   : 00000046
+  DLL name     : wer.dll
+  Symbol name  : ?WerpFreeUnmappedVaRanges@@YGXPAU_WERP_UNMAPPED_VA_RANGES@@@Z (void __stdcall WerpFreeUnmappedVaRanges(struct _WERP_UNMAPPED_VA_RANGES *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : WerpFreeUnmappedVaRanges
+
+Archive member name at 7964: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4030AC8
+  SizeOfData   : 00000028
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetBucketId@@YGJPAXPAPAX@Z (long __stdcall WerpGetBucketId(void *,void * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : WerpGetBucketId
+
+Archive member name at 79DC: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6C2BA46
+  SizeOfData   : 00000032
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetDynamicParameter@@YGJPAXKPAPBG1@Z (long __stdcall WerpGetDynamicParameter(void *,unsigned long,unsigned short const * *,unsigned short const * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : WerpGetDynamicParameter
+
+Archive member name at 7A5E: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC51E75D
+  SizeOfData   : 00000029
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetEventType@@YGJPAXPAPBG@Z (long __stdcall WerpGetEventType(void *,unsigned short const * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : WerpGetEventType
+
+Archive member name at 7AD8: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC2A04E0
+  SizeOfData   : 00000033
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetExtendedDiagData@@YGJPAXPAPAXPAK@Z (long __stdcall WerpGetExtendedDiagData(void *,void * *,unsigned long *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : WerpGetExtendedDiagData
+
+Archive member name at 7B5C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      59 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0C2A87B
+  SizeOfData   : 00000045
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetFileByIndex@@YGJPAXKPAW4_WER_FILE_TYPE@@PAKPAPBG33@Z (long __stdcall WerpGetFileByIndex(void *,unsigned long,enum _WER_FILE_TYPE *,unsigned long *,unsigned short const * *,unsigned short const * *,unsigned short const * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : WerpGetFileByIndex
+
+Archive member name at 7BF2: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D17FAC7A
+  SizeOfData   : 00000030
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetFilePathByIndex@@YGJPAXKPAPBG@Z (long __stdcall WerpGetFilePathByIndex(void *,unsigned long,unsigned short const * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : WerpGetFilePathByIndex
+
+Archive member name at 7C72: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDB2FA17
+  SizeOfData   : 0000002E
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetLegacyBucketId@@YGJPAXPAPAX@Z (long __stdcall WerpGetLegacyBucketId(void *,void * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : WerpGetLegacyBucketId
+
+Archive member name at 7CF0: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4CCD5D1
+  SizeOfData   : 00000034
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetLoadedModuleByIndex@@YGJPAXKPAPBG@Z (long __stdcall WerpGetLoadedModuleByIndex(void *,unsigned long,unsigned short const * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : WerpGetLoadedModuleByIndex
+
+Archive member name at 7D74: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEA5F20C
+  SizeOfData   : 00000026
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetNumFiles@@YGJPAXPAK@Z (long __stdcall WerpGetNumFiles(void *,unsigned long *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : WerpGetNumFiles
+
+Archive member name at 7DEA: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEF6CAE2
+  SizeOfData   : 0000002E
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetNumLoadedModules@@YGJPAXPAK@Z (long __stdcall WerpGetNumLoadedModules(void *,unsigned long *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : WerpGetNumLoadedModules
+
+Archive member name at 7E68: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E88A665E
+  SizeOfData   : 0000002A
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetNumSigParams@@YGJPAXPAK@Z (long __stdcall WerpGetNumSigParams(void *,unsigned long *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : WerpGetNumSigParams
+
+Archive member name at 7EE2: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3B74A68
+  SizeOfData   : 00000032
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetPathOfWERTempDirectory@@YGJPAGK@Z (long __stdcall WerpGetPathOfWERTempDirectory(unsigned short *,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : WerpGetPathOfWERTempDirectory
+
+Archive member name at 7F64: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC98B5A1
+  SizeOfData   : 00000029
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetReportCount@@YGJPAXPAK@Z (long __stdcall WerpGetReportCount(void *,unsigned long *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 74
+  Name         : WerpGetReportCount
+
+Archive member name at 7FDE: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      57 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8E0FCE9
+  SizeOfData   : 00000043
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetReportFinalConsent@@YGJPAXPAW4_CONSENT_SETTING@@@Z (long __stdcall WerpGetReportFinalConsent(void *,enum _CONSENT_SETTING *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 75
+  Name         : WerpGetReportFinalConsent
+
+Archive member name at 8072: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFD5FC1F
+  SizeOfData   : 00000029
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetReportFlags@@YGJPAXPAK@Z (long __stdcall WerpGetReportFlags(void *,unsigned long *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : WerpGetReportFlags
+
+Archive member name at 80EC: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E51B49D4
+  SizeOfData   : 00000027
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetReportId@@YGJPAXPAGK@Z (long __stdcall WerpGetReportId(void *,unsigned short *,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : WerpGetReportId
+
+Archive member name at 8164: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      61 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2298F7B
+  SizeOfData   : 0000004D
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetReportInformation@@YGJPAXPAPBU_WER_REPORT_INFORMATION_V5@@@Z (long __stdcall WerpGetReportInformation(void *,struct _WER_REPORT_INFORMATION_V5 const * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : WerpGetReportInformation
+
+Archive member name at 8202: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEBA858E
+  SizeOfData   : 00000039
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetReportSettings@@YGJPAXPAPAVCSettings@@@Z (long __stdcall WerpGetReportSettings(void *,class CSettings * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : WerpGetReportSettings
+
+Archive member name at 828C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1EFE885
+  SizeOfData   : 00000033
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetReportTime@@YGJPAXPAU_FILETIME@@@Z (long __stdcall WerpGetReportTime(void *,struct _FILETIME *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 80
+  Name         : WerpGetReportTime
+
+Archive member name at 8310: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C762CCEF
+  SizeOfData   : 0000003B
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetReportType@@YGJPAXPAW4_WER_REPORT_TYPE@@@Z (long __stdcall WerpGetReportType(void *,enum _WER_REPORT_TYPE *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : WerpGetReportType
+
+Archive member name at 839C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6F1C091
+  SizeOfData   : 00000029
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetResponseId@@YGJPAXPAH1@Z (long __stdcall WerpGetResponseId(void *,int *,int *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 82
+  Name         : WerpGetResponseId
+
+Archive member name at 8416: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7BC7E66
+  SizeOfData   : 00000031
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetSigParamByIndex@@YGJPAXKPAPBG1@Z (long __stdcall WerpGetSigParamByIndex(void *,unsigned long,unsigned short const * *,unsigned short const * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : WerpGetSigParamByIndex
+
+Archive member name at 8498: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      52 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD96789F
+  SizeOfData   : 0000003E
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetStorePath@@YGJW4_REPORT_STORE_TYPES@@PAGPAK@Z (long __stdcall WerpGetStorePath(enum _REPORT_STORE_TYPES,unsigned short *,unsigned long *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 85
+  Name         : WerpGetStorePath
+
+Archive member name at 8526: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      51 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1E42399
+  SizeOfData   : 0000003D
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetStoreType@@YGJPAXPAW4_REPORT_STORE_TYPES@@@Z (long __stdcall WerpGetStoreType(void *,enum _REPORT_STORE_TYPES *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 86
+  Name         : WerpGetStoreType
+
+Archive member name at 85B4: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F47B86DF
+  SizeOfData   : 00000031
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetTextFromReport@@YGJPAXPBGPAPBG@Z (long __stdcall WerpGetTextFromReport(void *,unsigned short const *,unsigned short const * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 87
+  Name         : WerpGetTextFromReport
+
+Archive member name at 8636: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9EC7982
+  SizeOfData   : 0000002F
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetUIParamByIndex@@YGJPAXKPAPBG@Z (long __stdcall WerpGetUIParamByIndex(void *,unsigned long,unsigned short const * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 88
+  Name         : WerpGetUIParamByIndex
+
+Archive member name at 86B6: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8577E6B
+  SizeOfData   : 00000033
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetUploadTime@@YGJPAXPAU_FILETIME@@@Z (long __stdcall WerpGetUploadTime(void *,struct _FILETIME *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 89
+  Name         : WerpGetUploadTime
+
+Archive member name at 873A: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5AF12D2
+  SizeOfData   : 0000002A
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetWerStringData@@YGPBGPAX@Z (unsigned short const * __stdcall WerpGetWerStringData(void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 90
+  Name         : WerpGetWerStringData
+
+Archive member name at 87B4: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F44BEE60
+  SizeOfData   : 0000002B
+  DLL name     : wer.dll
+  Symbol name  : ?WerpGetWow64Process@@YGJPAXPAK1@Z (long __stdcall WerpGetWow64Process(void *,unsigned long *,unsigned long *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 91
+  Name         : WerpGetWow64Process
+
+Archive member name at 8830: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F47C6EA1
+  SizeOfData   : 00000039
+  DLL name     : wer.dll
+  Symbol name  : ?WerpHashApplicationParameters@@YGXPAEPBG1PAGK@Z (void __stdcall WerpHashApplicationParameters(unsigned char *,unsigned short const *,unsigned short const *,unsigned short *,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 92
+  Name         : WerpHashApplicationParameters
+
+Archive member name at 88BA: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      54 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2332927
+  SizeOfData   : 00000040
+  DLL name     : wer.dll
+  Symbol name  : ?WerpInitializeImageCache@@YGJPAU_WERP_IMAGE_CACHE@@K@Z (long __stdcall WerpInitializeImageCache(struct _WERP_IMAGE_CACHE *,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 93
+  Name         : WerpInitializeImageCache
+
+Archive member name at 894A: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9450FA0
+  SizeOfData   : 00000020
+  DLL name     : wer.dll
+  Symbol name  : ?WerpIsOnBattery@@YGHXZ (int __stdcall WerpIsOnBattery(void))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 95
+  Name         : WerpIsOnBattery
+
+Archive member name at 89BA: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3DA2505
+  SizeOfData   : 0000002D
+  DLL name     : wer.dll
+  Symbol name  : ?WerpIsTransportAvailable@@YGJHPAH@Z (long __stdcall WerpIsTransportAvailable(int,int *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 96
+  Name         : WerpIsTransportAvailable
+
+Archive member name at 8A38: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F674D43D
+  SizeOfData   : 00000033
+  DLL name     : wer.dll
+  Symbol name  : ?WerpLoadReportFromBuffer@@YGJPAXKPAPAXH@Z (long __stdcall WerpLoadReportFromBuffer(void *,unsigned long,void * *,int))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 98
+  Name         : WerpLoadReportFromBuffer
+
+Archive member name at 8ABC: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3658E0E
+  SizeOfData   : 0000002C
+  DLL name     : wer.dll
+  Symbol name  : ?WerpOpenMachineArchive@@YGJPAPAX@Z (long __stdcall WerpOpenMachineArchive(void * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 99
+  Name         : WerpOpenMachineArchive
+
+Archive member name at 8B38: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D479D51A
+  SizeOfData   : 0000002A
+  DLL name     : wer.dll
+  Symbol name  : ?WerpOpenMachineQueue@@YGJPAPAX@Z (long __stdcall WerpOpenMachineQueue(void * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 100
+  Name         : WerpOpenMachineQueue
+
+Archive member name at 8BB2: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D238ED66
+  SizeOfData   : 0000004B
+  DLL name     : wer.dll
+  Symbol name  : ?WerpPromptUser@@YGJPAXPAUHWND__@@PAU_WER_USER_PROMPT_INPUT@@PAH@Z (long __stdcall WerpPromptUser(void *,struct HWND__ *,struct _WER_USER_PROMPT_INPUT *,int *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 101
+  Name         : WerpPromptUser
+
+Archive member name at 8C4E: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE2F6D55
+  SizeOfData   : 00000022
+  DLL name     : wer.dll
+  Symbol name  : ?WerpPruneStore@@YGJPAX@Z (long __stdcall WerpPruneStore(void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 102
+  Name         : WerpPruneStore
+
+Archive member name at 8CC0: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D26CACCF
+  SizeOfData   : 00000024
+  DLL name     : wer.dll
+  Symbol name  : ?WerpReportCancel@@YGJPAX@Z (long __stdcall WerpReportCancel(void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 103
+  Name         : WerpReportCancel
+
+Archive member name at 8D34: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      50 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB28F5E4
+  SizeOfData   : 0000003C
+  DLL name     : wer.dll
+  Symbol name  : ?WerpReportSetMaxProcessHoldMilliseconds@@YGJPAXK@Z (long __stdcall WerpReportSetMaxProcessHoldMilliseconds(void *,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 104
+  Name         : WerpReportSetMaxProcessHoldMilliseconds
+
+Archive member name at 8DC0: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      57 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C039E7EC
+  SizeOfData   : 00000043
+  DLL name     : wer.dll
+  Symbol name  : ?WerpReportSprintfParameter@@YAJPAXKPAUHINSTANCE__@@IPBGZZ (long __cdecl WerpReportSprintfParameter(void *,unsigned long,struct HINSTANCE__ *,unsigned int,unsigned short const *,...))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 105
+  Name         : WerpReportSprintfParameter
+
+Archive member name at 8E54: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD6AD78B
+  SizeOfData   : 00000038
+  DLL name     : wer.dll
+  Symbol name  : ?WerpReserveMachineQueueReportDir@@YGJPAXPAGK@Z (long __stdcall WerpReserveMachineQueueReportDir(void *,unsigned short *,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 106
+  Name         : WerpReserveMachineQueueReportDir
+
+Archive member name at 8EDC: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      61 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6E63001
+  SizeOfData   : 0000004D
+  DLL name     : wer.dll
+  Symbol name  : ?WerpResetTransientImageCacheStatistics@@YGXPAU_WERP_IMAGE_CACHE@@@Z (void __stdcall WerpResetTransientImageCacheStatistics(struct _WERP_IMAGE_CACHE *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 107
+  Name         : WerpResetTransientImageCacheStatistics
+
+Archive member name at 8F7A: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB29FF7E
+  SizeOfData   : 00000032
+  DLL name     : wer.dll
+  Symbol name  : ?WerpRestartApplication@@YGJPAXPBG1PAH2@Z (long __stdcall WerpRestartApplication(void *,unsigned short const *,unsigned short const *,int *,int *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 108
+  Name         : WerpRestartApplication
+
+Archive member name at 8FFC: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C039A661
+  SizeOfData   : 00000030
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetDynamicParameter@@YGJPAXKPBG1@Z (long __stdcall WerpSetDynamicParameter(void *,unsigned long,unsigned short const *,unsigned short const *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 112
+  Name         : WerpSetDynamicParameter
+
+Archive member name at 907C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1856241
+  SizeOfData   : 00000027
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetEventName@@YGJPAXPBG@Z (long __stdcall WerpSetEventName(void *,unsigned short const *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 113
+  Name         : WerpSetEventName
+
+Archive member name at 90F4: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7F90974
+  SizeOfData   : 00000047
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetProcessTimelines@@YGJPAXPBU_WER_PROCESS_TIMELINES@@K@Z (long __stdcall WerpSetProcessTimelines(void *,struct _WER_PROCESS_TIMELINES const *,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 117
+  Name         : WerpSetProcessTimelines
+
+Archive member name at 918C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBF88C5E
+  SizeOfData   : 0000003A
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetQuickDumpType@@YGJPAXW4_WER_DUMP_TYPE@@@Z (long __stdcall WerpSetQuickDumpType(void *,enum _WER_DUMP_TYPE))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 118
+  Name         : WerpSetQuickDumpType
+
+Archive member name at 9216: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBF9C74E
+  SizeOfData   : 00000037
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetReportApplicationIdentity@@YGJPAXPAE@Z (long __stdcall WerpSetReportApplicationIdentity(void *,unsigned char *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 119
+  Name         : WerpSetReportApplicationIdentity
+
+Archive member name at 929E: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F04B5AFB
+  SizeOfData   : 00000027
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetReportFlags@@YGJPAXK@Z (long __stdcall WerpSetReportFlags(void *,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 120
+  Name         : WerpSetReportFlags
+
+Archive member name at 9316: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB83A684
+  SizeOfData   : 0000004B
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetReportInformation@@YGJPAXPBU_WER_REPORT_INFORMATION_V5@@@Z (long __stdcall WerpSetReportInformation(void *,struct _WER_REPORT_INFORMATION_V5 const *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 121
+  Name         : WerpSetReportInformation
+
+Archive member name at 93B2: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2DA4DBC
+  SizeOfData   : 00000029
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetReportIsFatal@@YGJPAXH@Z (long __stdcall WerpSetReportIsFatal(void *,int))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 122
+  Name         : WerpSetReportIsFatal
+
+Archive member name at 942C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3042DE9
+  SizeOfData   : 00000038
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetReportNamespaceParameter@@YGJPAXKPBG1@Z (long __stdcall WerpSetReportNamespaceParameter(void *,unsigned long,unsigned short const *,unsigned short const *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 123
+  Name         : WerpSetReportNamespaceParameter
+
+Archive member name at 94B4: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFBE32E7
+  SizeOfData   : 00000033
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetReportTime@@YGJPAXPAU_FILETIME@@@Z (long __stdcall WerpSetReportTime(void *,struct _FILETIME *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 125
+  Name         : WerpSetReportTime
+
+Archive member name at 9538: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFB20126
+  SizeOfData   : 00000034
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetReportUploadContextToken@@YGJPAX0@Z (long __stdcall WerpSetReportUploadContextToken(void *,void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 126
+  Name         : WerpSetReportUploadContextToken
+
+Archive member name at 95BC: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7787B13
+  SizeOfData   : 0000004B
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetTelemetryAppParams@@YGJPAXPBU_WER_TELEMETRY_APP_PARAMS@@@Z (long __stdcall WerpSetTelemetryAppParams(void *,struct _WER_TELEMETRY_APP_PARAMS const *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 127
+  Name         : WerpSetTelemetryAppParams
+
+Archive member name at 9658: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C32A0F9A
+  SizeOfData   : 00000031
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetTelemetryKernelParams@@YGJPAXK@Z (long __stdcall WerpSetTelemetryKernelParams(void *,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 128
+  Name         : WerpSetTelemetryKernelParams
+
+Archive member name at 96DA: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC5A0B65
+  SizeOfData   : 00000036
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSetTelemetryServiceParams@@YGJPAXPBG1H@Z (long __stdcall WerpSetTelemetryServiceParams(void *,unsigned short const *,unsigned short const *,int))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 129
+  Name         : WerpSetTelemetryServiceParams
+
+Archive member name at 9760: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE3EC11B
+  SizeOfData   : 0000002F
+  DLL name     : wer.dll
+  Symbol name  : ?WerpShowUpsellUI@@YGJPAUHWND__@@PAH@Z (long __stdcall WerpShowUpsellUI(struct HWND__ *,int *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 131
+  Name         : WerpShowUpsellUI
+
+Archive member name at 97E0: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      75 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E09E2DD5
+  SizeOfData   : 00000061
+  DLL name     : wer.dll
+  Symbol name  : ?WerpStitchedMinidumpVmPostReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXKKJ@Z (long __stdcall WerpStitchedMinidumpVmPostReadCallback(struct _WERP_STITCHED_DUMP_WRITER *,unsigned long *,unsigned __int64,void *,unsigned long,unsigned long,long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 132
+  Name         : WerpStitchedMinidumpVmPostReadCallback
+
+Archive member name at 9892: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      72 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE76C388
+  SizeOfData   : 0000005E
+  DLL name     : wer.dll
+  Symbol name  : ?WerpStitchedMinidumpVmPreReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXK@Z (long __stdcall WerpStitchedMinidumpVmPreReadCallback(struct _WERP_STITCHED_DUMP_WRITER *,unsigned long *,unsigned __int64,void *,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 133
+  Name         : WerpStitchedMinidumpVmPreReadCallback
+
+Archive member name at 9940: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      83 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA161D81
+  SizeOfData   : 0000006F
+  DLL name     : wer.dll
+  Symbol name  : ?WerpStitchedMinidumpVmQueryCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAU_MINIDUMP_MEMORY_INFO@@_K@Z (long __stdcall WerpStitchedMinidumpVmQueryCallback(struct _WERP_STITCHED_DUMP_WRITER *,struct _MINIDUMP_MEMORY_INFO *,unsigned __int64))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 134
+  Name         : WerpStitchedMinidumpVmQueryCallback
+
+Archive member name at 9A00: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      71 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDED72C3
+  SizeOfData   : 0000005D
+  DLL name     : wer.dll
+  Symbol name  : ?WerpSubmitReportFromStore@@YGJPAXPBG0PAVIReportUI@@PAPAXKPAW4_WER_SUBMIT_RESULT@@@Z (long __stdcall WerpSubmitReportFromStore(void *,unsigned short const *,void *,class IReportUI *,void * *,unsigned long,enum _WER_SUBMIT_RESULT *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 135
+  Name         : WerpSubmitReportFromStore
+
+Archive member name at 9AAE: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      87 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBC3953C
+  SizeOfData   : 00000073
+  DLL name     : wer.dll
+  Symbol name  : ?WerpTraceAuxMemDumpStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_AUXILIARY_MEMORY_DUMP@@PAT_LARGE_INTEGER@@5@Z (void __stdcall WerpTraceAuxMemDumpStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_AUXILIARY_MEMORY_DUMP *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 136
+  Name         : WerpTraceAuxMemDumpStatistics
+
+Archive member name at 9B72: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3CA52E9
+  SizeOfData   : 00000049
+  DLL name     : wer.dll
+  Symbol name  : ?WerpTraceDuration@@YGXP6GXPAXKPBGPAD@Z0KPAT_LARGE_INTEGER@@44@Z (void __stdcall WerpTraceDuration(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,unsigned long,union _LARGE_INTEGER *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 137
+  Name         : WerpTraceDuration
+
+Archive member name at 9C0C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      7C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E29DA489
+  SizeOfData   : 00000068
+  DLL name     : wer.dll
+  Symbol name  : ?WerpTraceImageCacheStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_IMAGE_CACHE@@PAT_LARGE_INTEGER@@@Z (void __stdcall WerpTraceImageCacheStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_IMAGE_CACHE *,union _LARGE_INTEGER *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 138
+  Name         : WerpTraceImageCacheStatistics
+
+Archive member name at 9CC4: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      52 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6AA75D8
+  SizeOfData   : 0000003E
+  DLL name     : wer.dll
+  Symbol name  : ?WerpTraceSnapshotStatistics@@YGXP6GXPAXKPBGPAD@Z00@Z (void __stdcall WerpTraceSnapshotStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,void *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 139
+  Name         : WerpTraceSnapshotStatistics
+
+Archive member name at 9D52: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      8D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFFA3F05
+  SizeOfData   : 00000079
+  DLL name     : wer.dll
+  Symbol name  : ?WerpTraceStitchedDumpWriterStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_STITCHED_DUMP_WRITER@@PAT_LARGE_INTEGER@@@Z (void __stdcall WerpTraceStitchedDumpWriterStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_STITCHED_DUMP_WRITER *,union _LARGE_INTEGER *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 140
+  Name         : WerpTraceStitchedDumpWriterStatistics
+
+Archive member name at 9E1C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      8A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3860FC3
+  SizeOfData   : 00000076
+  DLL name     : wer.dll
+  Symbol name  : ?WerpTraceUnmappedVaRangesStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_UNMAPPED_VA_RANGES@@PAT_LARGE_INTEGER@@5@Z (void __stdcall WerpTraceUnmappedVaRangesStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_UNMAPPED_VA_RANGES *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 141
+  Name         : WerpTraceUnmappedVaRangesStatistics
+
+Archive member name at 9EE2: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9816DD3
+  SizeOfData   : 00000047
+  DLL name     : wer.dll
+  Symbol name  : ?WerpUnmapProcessViews@@YGJPAU_WERP_UNMAPPED_VA_RANGES@@PAXK@Z (long __stdcall WerpUnmapProcessViews(struct _WERP_UNMAPPED_VA_RANGES *,void *,unsigned long))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 142
+  Name         : WerpUnmapProcessViews
+
+Archive member name at 9F7A: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCE0EDBB
+  SizeOfData   : 00000029
+  DLL name     : wer.dll
+  Symbol name  : ?WerpValidateReportKey@@YGJPBG@Z (long __stdcall WerpValidateReportKey(unsigned short const *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 143
+  Name         : WerpValidateReportKey
+
+Archive member name at 9FF4: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      52 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8F2ACA7
+  SizeOfData   : 0000003E
+  DLL name     : wer.dll
+  Symbol name  : ?WerpWalkGatherBlocks@@YGJPAU_WER_GATHER@@PAPAXPAX1@Z (long __stdcall WerpWalkGatherBlocks(struct _WER_GATHER *,void * *,void *,void * *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 144
+  Name         : WerpWalkGatherBlocks
+
+Archive member name at A082: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C82F1DD9
+  SizeOfData   : 00000027
+  DLL name     : wer.dll
+  Symbol name  : _CloseThreadWaitChainSession@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : CloseThreadWaitChainSession
+
+Archive member name at A0FA: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F999938D
+  SizeOfData   : 0000001F
+  DLL name     : wer.dll
+  Symbol name  : _GetThreadWaitChain@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : GetThreadWaitChain
+
+Archive member name at A16A: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C45E9E6E
+  SizeOfData   : 00000026
+  DLL name     : wer.dll
+  Symbol name  : _OpenThreadWaitChainSession@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : OpenThreadWaitChainSession
+
+Archive member name at A1E0: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2C7813D
+  SizeOfData   : 00000028
+  DLL name     : wer.dll
+  Symbol name  : _RegisterWaitChainCOMCallback@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : RegisterWaitChainCOMCallback
+
+Archive member name at A258: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDF0206E
+  SizeOfData   : 00000025
+  DLL name     : wer.dll
+  Symbol name  : _WerAddExcludedApplication@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : WerAddExcludedApplication
+
+Archive member name at A2CE: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F966C7C4
+  SizeOfData   : 00000019
+  DLL name     : wer.dll
+  Symbol name  : _WerFreeString@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : WerFreeString
+
+Archive member name at A338: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F186E638
+  SizeOfData   : 00000028
+  DLL name     : wer.dll
+  Symbol name  : _WerRemoveExcludedApplication@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : WerRemoveExcludedApplication
+
+Archive member name at A3B0: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D65F91B0
+  SizeOfData   : 0000001D
+  DLL name     : wer.dll
+  Symbol name  : _WerReportAddDump@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : WerReportAddDump
+
+Archive member name at A41E: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE7A628B
+  SizeOfData   : 0000001D
+  DLL name     : wer.dll
+  Symbol name  : _WerReportAddFile@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : WerReportAddFile
+
+Archive member name at A48C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE071832
+  SizeOfData   : 00000020
+  DLL name     : wer.dll
+  Symbol name  : _WerReportCloseHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : WerReportCloseHandle
+
+Archive member name at A4FC: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C85D3DC7
+  SizeOfData   : 0000001C
+  DLL name     : wer.dll
+  Symbol name  : _WerReportCreate@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : WerReportCreate
+
+Archive member name at A568: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8415F84
+  SizeOfData   : 00000022
+  DLL name     : wer.dll
+  Symbol name  : _WerReportSetParameter@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : WerReportSetParameter
+
+Archive member name at A5DA: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE0D1B3D
+  SizeOfData   : 00000021
+  DLL name     : wer.dll
+  Symbol name  : _WerReportSetUIOption@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : WerReportSetUIOption
+
+Archive member name at A64C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8AEDCF2
+  SizeOfData   : 0000001C
+  DLL name     : wer.dll
+  Symbol name  : _WerReportSubmit@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : WerReportSubmit
+
+Archive member name at A6B8: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9FC1250
+  SizeOfData   : 00000019
+  DLL name     : wer.dll
+  Symbol name  : _WerStoreClose@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : WerStoreClose
+
+Archive member name at A722: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA236A65
+  SizeOfData   : 00000025
+  DLL name     : wer.dll
+  Symbol name  : _WerStoreGetFirstReportKey@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : WerStoreGetFirstReportKey
+
+Archive member name at A798: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3AE1F2B
+  SizeOfData   : 00000024
+  DLL name     : wer.dll
+  Symbol name  : _WerStoreGetNextReportKey@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : WerStoreGetNextReportKey
+
+Archive member name at A80C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBFC0ECF
+  SizeOfData   : 00000022
+  DLL name     : wer.dll
+  Symbol name  : _WerStoreGetReportCount@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : WerStoreGetReportCount
+
+Archive member name at A87E: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA01F95C
+  SizeOfData   : 00000021
+  DLL name     : wer.dll
+  Symbol name  : _WerStoreGetSizeOnDisk@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : WerStoreGetSizeOnDisk
+
+Archive member name at A8F0: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7B35604
+  SizeOfData   : 00000018
+  DLL name     : wer.dll
+  Symbol name  : _WerStoreOpen@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : WerStoreOpen
+
+Archive member name at A958: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6C1DF45
+  SizeOfData   : 00000019
+  DLL name     : wer.dll
+  Symbol name  : _WerStorePurge@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : WerStorePurge
+
+Archive member name at A9C2: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F336DC8A
+  SizeOfData   : 0000002A
+  DLL name     : wer.dll
+  Symbol name  : _WerStoreQueryReportMetadataV1@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : WerStoreQueryReportMetadataV1
+
+Archive member name at AA3C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA177275
+  SizeOfData   : 0000002A
+  DLL name     : wer.dll
+  Symbol name  : _WerStoreQueryReportMetadataV2@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : WerStoreQueryReportMetadataV2
+
+Archive member name at AAB6: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB776953
+  SizeOfData   : 0000002A
+  DLL name     : wer.dll
+  Symbol name  : _WerStoreQueryReportMetadataV3@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : WerStoreQueryReportMetadataV3
+
+Archive member name at AB30: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C78E16BF
+  SizeOfData   : 00000021
+  DLL name     : wer.dll
+  Symbol name  : _WerStoreUploadReport@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : WerStoreUploadReport
+
+Archive member name at ABA2: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD78EE70
+  SizeOfData   : 00000018
+  DLL name     : wer.dll
+  Symbol name  : _WerpAddFile@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : WerpAddFile
+
+Archive member name at AC0A: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFC5AC9C
+  SizeOfData   : 0000001E
+  DLL name     : wer.dll
+  Symbol name  : _WerpAddFileBuffer@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : WerpAddFileBuffer
+
+Archive member name at AC78: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6BF16FD
+  SizeOfData   : 00000020
+  DLL name     : wer.dll
+  Symbol name  : _WerpAddFileCallback@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : WerpAddFileCallback
+
+Archive member name at ACE8: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9869281
+  SizeOfData   : 00000025
+  DLL name     : wer.dll
+  Symbol name  : _WerpAddTerminationReason@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : WerpAddTerminationReason
+
+Archive member name at AD5E: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB818711
+  SizeOfData   : 00000026
+  DLL name     : wer.dll
+  Symbol name  : _WerpAuxmdDumpProcessImages@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : WerpAuxmdDumpProcessImages
+
+Archive member name at ADD4: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFCDC7C7
+  SizeOfData   : 00000029
+  DLL name     : wer.dll
+  Symbol name  : _WerpAuxmdDumpRegisteredBlocks@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : WerpAuxmdDumpRegisteredBlocks
+
+Archive member name at AE4E: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D03F66A5
+  SizeOfData   : 00000019
+  DLL name     : wer.dll
+  Symbol name  : _WerpAuxmdFree@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : WerpAuxmdFree
+
+Archive member name at AEB8: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E81C7A1E
+  SizeOfData   : 00000023
+  DLL name     : wer.dll
+  Symbol name  : _WerpAuxmdFreeCopyBuffer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : WerpAuxmdFreeCopyBuffer
+
+Archive member name at AF2C: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9BF561E
+  SizeOfData   : 00000021
+  DLL name     : wer.dll
+  Symbol name  : _WerpAuxmdHashVaRanges@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : WerpAuxmdHashVaRanges
+
+Archive member name at AF9E: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9F8E140
+  SizeOfData   : 00000020
+  DLL name     : wer.dll
+  Symbol name  : _WerpAuxmdInitialize@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : WerpAuxmdInitialize
+
+Archive member name at B00E: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAF35F2E
+  SizeOfData   : 0000001C
+  DLL name     : wer.dll
+  Symbol name  : _WerpAuxmdMapFile@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : WerpAuxmdMapFile
+
+Archive member name at B07A: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD525DEF
+  SizeOfData   : 00000028
+  DLL name     : wer.dll
+  Symbol name  : _WerpCreateIntegratorReportId@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : WerpCreateIntegratorReportId
+
+Archive member name at B0F2: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6440674
+  SizeOfData   : 00000023
+  DLL name     : wer.dll
+  Symbol name  : _WerpExtractReportFiles@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : WerpExtractReportFiles
+
+Archive member name at B166: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA111236
+  SizeOfData   : 0000001A
+  DLL name     : wer.dll
+  Symbol name  : _WerpFreeString@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : WerpFreeString
+
+Archive member name at B1D0: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA1F7567
+  SizeOfData   : 00000025
+  DLL name     : wer.dll
+  Symbol name  : _WerpGetIntegratorReportId@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : WerpGetIntegratorReportId
+
+Archive member name at B246: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0990E43
+  SizeOfData   : 00000021
+  DLL name     : wer.dll
+  Symbol name  : _WerpGetReportConsent@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : WerpGetReportConsent
+
+Archive member name at B2B8: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE5C76E0
+  SizeOfData   : 00000021
+  DLL name     : wer.dll
+  Symbol name  : _WerpGetStoreLocation@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 84
+  Name         : WerpGetStoreLocation
+
+Archive member name at B32A: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF1BBEEA
+  SizeOfData   : 0000001A
+  DLL name     : wer.dll
+  Symbol name  : _WerpIsDisabled@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 94
+  Name         : WerpIsDisabled
+
+Archive member name at B394: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F243C798
+  SizeOfData   : 0000001B
+  DLL name     : wer.dll
+  Symbol name  : _WerpLoadReport@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 97
+  Name         : WerpLoadReport
+
+Archive member name at B400: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D50970C9
+  SizeOfData   : 00000027
+  DLL name     : wer.dll
+  Symbol name  : _WerpSetAuxiliaryArchivePath@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 109
+  Name         : WerpSetAuxiliaryArchivePath
+
+Archive member name at B478: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC98347B
+  SizeOfData   : 0000001C
+  DLL name     : wer.dll
+  Symbol name  : _WerpSetCallBack@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 110
+  Name         : WerpSetCallBack
+
+Archive member name at B4E4: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3EF3A36
+  SizeOfData   : 00000025
+  DLL name     : wer.dll
+  Symbol name  : _WerpSetDefaultUserConsent@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 111
+  Name         : WerpSetDefaultUserConsent
+
+Archive member name at B55A: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF98B7CD
+  SizeOfData   : 00000020
+  DLL name     : wer.dll
+  Symbol name  : _WerpSetExitListeners@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 114
+  Name         : WerpSetExitListeners
+
+Archive member name at B5CA: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0F8EA66
+  SizeOfData   : 00000025
+  DLL name     : wer.dll
+  Symbol name  : _WerpSetIntegratorReportId@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 115
+  Name         : WerpSetIntegratorReportId
+
+Archive member name at B640: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F52FA708
+  SizeOfData   : 0000001D
+  DLL name     : wer.dll
+  Symbol name  : _WerpSetIptEnabled@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 116
+  Name         : WerpSetIptEnabled
+
+Archive member name at B6AE: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7C42158
+  SizeOfData   : 00000020
+  DLL name     : wer.dll
+  Symbol name  : _WerpSetReportOption@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 124
+  Name         : WerpSetReportOption
+
+Archive member name at B71E: wer.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8722AAD
+  SizeOfData   : 0000001C
+  DLL name     : wer.dll
+  Symbol name  : _WerpSetTtdStatus@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 130
+  Name         : WerpSetTtdStatus
+
+     Exports
+
+       ordinal    name
+
+                  ?WerSysprepCleanup@@YGKXZ (unsigned long __stdcall WerSysprepCleanup(void))
+                  ?WerSysprepGeneralize@@YGKXZ (unsigned long __stdcall WerSysprepGeneralize(void))
+                  ?WerUnattendedSetup@@YGXXZ (void __stdcall WerUnattendedSetup(void))
+                  ?WerpAddAppCompatData@@YGJPAXPBG1@Z (long __stdcall WerpAddAppCompatData(void *,unsigned short const *,unsigned short const *))
+                  ?WerpAddIfRegisteredForAppLocalDump@@YGJPAX0PBG@Z (long __stdcall WerpAddIfRegisteredForAppLocalDump(void *,void *,unsigned short const *))
+                  ?WerpAddMemoryBlock@@YGJPAXK0KK@Z (long __stdcall WerpAddMemoryBlock(void *,unsigned long,void *,unsigned long,unsigned long))
+                  ?WerpAddRegisteredDataToReport@@YGJPAX0@Z (long __stdcall WerpAddRegisteredDataToReport(void *,void *))
+                  ?WerpAddRegisteredDumpsToReport@@YGJPAX0@Z (long __stdcall WerpAddRegisteredDumpsToReport(void *,void *))
+                  ?WerpAddRegisteredMetadataToReport@@YGJPAX0@Z (long __stdcall WerpAddRegisteredMetadataToReport(void *,void *))
+                  ?WerpArchiveReport@@YGJPAXPBGHPAPAXPAH@Z (long __stdcall WerpArchiveReport(void *,unsigned short const *,int,void * *,int *))
+                  ?WerpCancelUpload@@YGJPAX@Z (long __stdcall WerpCancelUpload(void *))
+                  ?WerpCleanWer@@YGJXZ (long __stdcall WerpCleanWer(void))
+                  ?WerpCloseStore@@YGXPAX@Z (void __stdcall WerpCloseStore(void *))
+                  ?WerpCreateMachineStore@@YGJPAPAX@Z (long __stdcall WerpCreateMachineStore(void * *))
+                  ?WerpDeleteReport@@YGJPAXPBG@Z (long __stdcall WerpDeleteReport(void *,unsigned short const *))
+                  ?WerpDestroyWerString@@YGXPAPAX@Z (void __stdcall WerpDestroyWerString(void * *))
+                  ?WerpEnumerateStoreNext@@YGJPAXPAPAX@Z (long __stdcall WerpEnumerateStoreNext(void *,void * *))
+                  ?WerpEnumerateStoreStart@@YGJPAX@Z (long __stdcall WerpEnumerateStoreStart(void *))
+                  ?WerpFlushImageCache@@YGKPAU_WERP_IMAGE_CACHE@@K@Z (unsigned long __stdcall WerpFlushImageCache(struct _WERP_IMAGE_CACHE *,unsigned long))
+                  ?WerpForceDeferredCollection@@YGKPAXP6GX0KPBGPAD@Z0@Z (unsigned long __stdcall WerpForceDeferredCollection(void *,void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *))
+                  ?WerpFreeUnmappedVaRanges@@YGXPAU_WERP_UNMAPPED_VA_RANGES@@@Z (void __stdcall WerpFreeUnmappedVaRanges(struct _WERP_UNMAPPED_VA_RANGES *))
+                  ?WerpGetBucketId@@YGJPAXPAPAX@Z (long __stdcall WerpGetBucketId(void *,void * *))
+                  ?WerpGetDynamicParameter@@YGJPAXKPAPBG1@Z (long __stdcall WerpGetDynamicParameter(void *,unsigned long,unsigned short const * *,unsigned short const * *))
+                  ?WerpGetEventType@@YGJPAXPAPBG@Z (long __stdcall WerpGetEventType(void *,unsigned short const * *))
+                  ?WerpGetExtendedDiagData@@YGJPAXPAPAXPAK@Z (long __stdcall WerpGetExtendedDiagData(void *,void * *,unsigned long *))
+                  ?WerpGetFileByIndex@@YGJPAXKPAW4_WER_FILE_TYPE@@PAKPAPBG33@Z (long __stdcall WerpGetFileByIndex(void *,unsigned long,enum _WER_FILE_TYPE *,unsigned long *,unsigned short const * *,unsigned short const * *,unsigned short const * *))
+                  ?WerpGetFilePathByIndex@@YGJPAXKPAPBG@Z (long __stdcall WerpGetFilePathByIndex(void *,unsigned long,unsigned short const * *))
+                  ?WerpGetLegacyBucketId@@YGJPAXPAPAX@Z (long __stdcall WerpGetLegacyBucketId(void *,void * *))
+                  ?WerpGetLoadedModuleByIndex@@YGJPAXKPAPBG@Z (long __stdcall WerpGetLoadedModuleByIndex(void *,unsigned long,unsigned short const * *))
+                  ?WerpGetNumFiles@@YGJPAXPAK@Z (long __stdcall WerpGetNumFiles(void *,unsigned long *))
+                  ?WerpGetNumLoadedModules@@YGJPAXPAK@Z (long __stdcall WerpGetNumLoadedModules(void *,unsigned long *))
+                  ?WerpGetNumSigParams@@YGJPAXPAK@Z (long __stdcall WerpGetNumSigParams(void *,unsigned long *))
+                  ?WerpGetPathOfWERTempDirectory@@YGJPAGK@Z (long __stdcall WerpGetPathOfWERTempDirectory(unsigned short *,unsigned long))
+                  ?WerpGetReportCount@@YGJPAXPAK@Z (long __stdcall WerpGetReportCount(void *,unsigned long *))
+                  ?WerpGetReportFinalConsent@@YGJPAXPAW4_CONSENT_SETTING@@@Z (long __stdcall WerpGetReportFinalConsent(void *,enum _CONSENT_SETTING *))
+                  ?WerpGetReportFlags@@YGJPAXPAK@Z (long __stdcall WerpGetReportFlags(void *,unsigned long *))
+                  ?WerpGetReportId@@YGJPAXPAGK@Z (long __stdcall WerpGetReportId(void *,unsigned short *,unsigned long))
+                  ?WerpGetReportInformation@@YGJPAXPAPBU_WER_REPORT_INFORMATION_V5@@@Z (long __stdcall WerpGetReportInformation(void *,struct _WER_REPORT_INFORMATION_V5 const * *))
+                  ?WerpGetReportSettings@@YGJPAXPAPAVCSettings@@@Z (long __stdcall WerpGetReportSettings(void *,class CSettings * *))
+                  ?WerpGetReportTime@@YGJPAXPAU_FILETIME@@@Z (long __stdcall WerpGetReportTime(void *,struct _FILETIME *))
+                  ?WerpGetReportType@@YGJPAXPAW4_WER_REPORT_TYPE@@@Z (long __stdcall WerpGetReportType(void *,enum _WER_REPORT_TYPE *))
+                  ?WerpGetResponseId@@YGJPAXPAH1@Z (long __stdcall WerpGetResponseId(void *,int *,int *))
+                  ?WerpGetSigParamByIndex@@YGJPAXKPAPBG1@Z (long __stdcall WerpGetSigParamByIndex(void *,unsigned long,unsigned short const * *,unsigned short const * *))
+                  ?WerpGetStorePath@@YGJW4_REPORT_STORE_TYPES@@PAGPAK@Z (long __stdcall WerpGetStorePath(enum _REPORT_STORE_TYPES,unsigned short *,unsigned long *))
+                  ?WerpGetStoreType@@YGJPAXPAW4_REPORT_STORE_TYPES@@@Z (long __stdcall WerpGetStoreType(void *,enum _REPORT_STORE_TYPES *))
+                  ?WerpGetTextFromReport@@YGJPAXPBGPAPBG@Z (long __stdcall WerpGetTextFromReport(void *,unsigned short const *,unsigned short const * *))
+                  ?WerpGetUIParamByIndex@@YGJPAXKPAPBG@Z (long __stdcall WerpGetUIParamByIndex(void *,unsigned long,unsigned short const * *))
+                  ?WerpGetUploadTime@@YGJPAXPAU_FILETIME@@@Z (long __stdcall WerpGetUploadTime(void *,struct _FILETIME *))
+                  ?WerpGetWerStringData@@YGPBGPAX@Z (unsigned short const * __stdcall WerpGetWerStringData(void *))
+                  ?WerpGetWow64Process@@YGJPAXPAK1@Z (long __stdcall WerpGetWow64Process(void *,unsigned long *,unsigned long *))
+                  ?WerpHashApplicationParameters@@YGXPAEPBG1PAGK@Z (void __stdcall WerpHashApplicationParameters(unsigned char *,unsigned short const *,unsigned short const *,unsigned short *,unsigned long))
+                  ?WerpInitializeImageCache@@YGJPAU_WERP_IMAGE_CACHE@@K@Z (long __stdcall WerpInitializeImageCache(struct _WERP_IMAGE_CACHE *,unsigned long))
+                  ?WerpIsOnBattery@@YGHXZ (int __stdcall WerpIsOnBattery(void))
+                  ?WerpIsTransportAvailable@@YGJHPAH@Z (long __stdcall WerpIsTransportAvailable(int,int *))
+                  ?WerpLoadReportFromBuffer@@YGJPAXKPAPAXH@Z (long __stdcall WerpLoadReportFromBuffer(void *,unsigned long,void * *,int))
+                  ?WerpOpenMachineArchive@@YGJPAPAX@Z (long __stdcall WerpOpenMachineArchive(void * *))
+                  ?WerpOpenMachineQueue@@YGJPAPAX@Z (long __stdcall WerpOpenMachineQueue(void * *))
+                  ?WerpPromptUser@@YGJPAXPAUHWND__@@PAU_WER_USER_PROMPT_INPUT@@PAH@Z (long __stdcall WerpPromptUser(void *,struct HWND__ *,struct _WER_USER_PROMPT_INPUT *,int *))
+                  ?WerpPruneStore@@YGJPAX@Z (long __stdcall WerpPruneStore(void *))
+                  ?WerpReportCancel@@YGJPAX@Z (long __stdcall WerpReportCancel(void *))
+                  ?WerpReportSetMaxProcessHoldMilliseconds@@YGJPAXK@Z (long __stdcall WerpReportSetMaxProcessHoldMilliseconds(void *,unsigned long))
+                  ?WerpReportSprintfParameter@@YAJPAXKPAUHINSTANCE__@@IPBGZZ (long __cdecl WerpReportSprintfParameter(void *,unsigned long,struct HINSTANCE__ *,unsigned int,unsigned short const *,...))
+                  ?WerpReserveMachineQueueReportDir@@YGJPAXPAGK@Z (long __stdcall WerpReserveMachineQueueReportDir(void *,unsigned short *,unsigned long))
+                  ?WerpResetTransientImageCacheStatistics@@YGXPAU_WERP_IMAGE_CACHE@@@Z (void __stdcall WerpResetTransientImageCacheStatistics(struct _WERP_IMAGE_CACHE *))
+                  ?WerpRestartApplication@@YGJPAXPBG1PAH2@Z (long __stdcall WerpRestartApplication(void *,unsigned short const *,unsigned short const *,int *,int *))
+                  ?WerpSetDynamicParameter@@YGJPAXKPBG1@Z (long __stdcall WerpSetDynamicParameter(void *,unsigned long,unsigned short const *,unsigned short const *))
+                  ?WerpSetEventName@@YGJPAXPBG@Z (long __stdcall WerpSetEventName(void *,unsigned short const *))
+                  ?WerpSetProcessTimelines@@YGJPAXPBU_WER_PROCESS_TIMELINES@@K@Z (long __stdcall WerpSetProcessTimelines(void *,struct _WER_PROCESS_TIMELINES const *,unsigned long))
+                  ?WerpSetQuickDumpType@@YGJPAXW4_WER_DUMP_TYPE@@@Z (long __stdcall WerpSetQuickDumpType(void *,enum _WER_DUMP_TYPE))
+                  ?WerpSetReportApplicationIdentity@@YGJPAXPAE@Z (long __stdcall WerpSetReportApplicationIdentity(void *,unsigned char *))
+                  ?WerpSetReportFlags@@YGJPAXK@Z (long __stdcall WerpSetReportFlags(void *,unsigned long))
+                  ?WerpSetReportInformation@@YGJPAXPBU_WER_REPORT_INFORMATION_V5@@@Z (long __stdcall WerpSetReportInformation(void *,struct _WER_REPORT_INFORMATION_V5 const *))
+                  ?WerpSetReportIsFatal@@YGJPAXH@Z (long __stdcall WerpSetReportIsFatal(void *,int))
+                  ?WerpSetReportNamespaceParameter@@YGJPAXKPBG1@Z (long __stdcall WerpSetReportNamespaceParameter(void *,unsigned long,unsigned short const *,unsigned short const *))
+                  ?WerpSetReportTime@@YGJPAXPAU_FILETIME@@@Z (long __stdcall WerpSetReportTime(void *,struct _FILETIME *))
+                  ?WerpSetReportUploadContextToken@@YGJPAX0@Z (long __stdcall WerpSetReportUploadContextToken(void *,void *))
+                  ?WerpSetTelemetryAppParams@@YGJPAXPBU_WER_TELEMETRY_APP_PARAMS@@@Z (long __stdcall WerpSetTelemetryAppParams(void *,struct _WER_TELEMETRY_APP_PARAMS const *))
+                  ?WerpSetTelemetryKernelParams@@YGJPAXK@Z (long __stdcall WerpSetTelemetryKernelParams(void *,unsigned long))
+                  ?WerpSetTelemetryServiceParams@@YGJPAXPBG1H@Z (long __stdcall WerpSetTelemetryServiceParams(void *,unsigned short const *,unsigned short const *,int))
+                  ?WerpShowUpsellUI@@YGJPAUHWND__@@PAH@Z (long __stdcall WerpShowUpsellUI(struct HWND__ *,int *))
+                  ?WerpStitchedMinidumpVmPostReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXKKJ@Z (long __stdcall WerpStitchedMinidumpVmPostReadCallback(struct _WERP_STITCHED_DUMP_WRITER *,unsigned long *,unsigned __int64,void *,unsigned long,unsigned long,long))
+                  ?WerpStitchedMinidumpVmPreReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXK@Z (long __stdcall WerpStitchedMinidumpVmPreReadCallback(struct _WERP_STITCHED_DUMP_WRITER *,unsigned long *,unsigned __int64,void *,unsigned long))
+                  ?WerpStitchedMinidumpVmQueryCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAU_MINIDUMP_MEMORY_INFO@@_K@Z (long __stdcall WerpStitchedMinidumpVmQueryCallback(struct _WERP_STITCHED_DUMP_WRITER *,struct _MINIDUMP_MEMORY_INFO *,unsigned __int64))
+                  ?WerpSubmitReportFromStore@@YGJPAXPBG0PAVIReportUI@@PAPAXKPAW4_WER_SUBMIT_RESULT@@@Z (long __stdcall WerpSubmitReportFromStore(void *,unsigned short const *,void *,class IReportUI *,void * *,unsigned long,enum _WER_SUBMIT_RESULT *))
+                  ?WerpTraceAuxMemDumpStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_AUXILIARY_MEMORY_DUMP@@PAT_LARGE_INTEGER@@5@Z (void __stdcall WerpTraceAuxMemDumpStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_AUXILIARY_MEMORY_DUMP *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))
+                  ?WerpTraceDuration@@YGXP6GXPAXKPBGPAD@Z0KPAT_LARGE_INTEGER@@44@Z (void __stdcall WerpTraceDuration(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,unsigned long,union _LARGE_INTEGER *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))
+                  ?WerpTraceImageCacheStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_IMAGE_CACHE@@PAT_LARGE_INTEGER@@@Z (void __stdcall WerpTraceImageCacheStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_IMAGE_CACHE *,union _LARGE_INTEGER *))
+                  ?WerpTraceSnapshotStatistics@@YGXP6GXPAXKPBGPAD@Z00@Z (void __stdcall WerpTraceSnapshotStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,void *))
+                  ?WerpTraceStitchedDumpWriterStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_STITCHED_DUMP_WRITER@@PAT_LARGE_INTEGER@@@Z (void __stdcall WerpTraceStitchedDumpWriterStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_STITCHED_DUMP_WRITER *,union _LARGE_INTEGER *))
+                  ?WerpTraceUnmappedVaRangesStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_UNMAPPED_VA_RANGES@@PAT_LARGE_INTEGER@@5@Z (void __stdcall WerpTraceUnmappedVaRangesStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_UNMAPPED_VA_RANGES *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))
+                  ?WerpUnmapProcessViews@@YGJPAU_WERP_UNMAPPED_VA_RANGES@@PAXK@Z (long __stdcall WerpUnmapProcessViews(struct _WERP_UNMAPPED_VA_RANGES *,void *,unsigned long))
+                  ?WerpValidateReportKey@@YGJPBG@Z (long __stdcall WerpValidateReportKey(unsigned short const *))
+                  ?WerpWalkGatherBlocks@@YGJPAU_WER_GATHER@@PAPAXPAX1@Z (long __stdcall WerpWalkGatherBlocks(struct _WER_GATHER *,void * *,void *,void * *))
+                  _CloseThreadWaitChainSession@4
+                  _GetThreadWaitChain@28
+                  _OpenThreadWaitChainSession@8
+                  _RegisterWaitChainCOMCallback@8
+                  _WerAddExcludedApplication@8
+                  _WerFreeString@4
+                  _WerRemoveExcludedApplication@8
+                  _WerReportAddDump@28
+                  _WerReportAddFile@16
+                  _WerReportCloseHandle@4
+                  _WerReportCreate@16
+                  _WerReportSetParameter@16
+                  _WerReportSetUIOption@12
+                  _WerReportSubmit@16
+                  _WerStoreClose@4
+                  _WerStoreGetFirstReportKey@8
+                  _WerStoreGetNextReportKey@8
+                  _WerStoreGetReportCount@8
+                  _WerStoreGetSizeOnDisk@8
+                  _WerStoreOpen@8
+                  _WerStorePurge@0
+                  _WerStoreQueryReportMetadataV1@12
+                  _WerStoreQueryReportMetadataV2@12
+                  _WerStoreQueryReportMetadataV3@12
+                  _WerStoreUploadReport@16
+                  _WerpAddFile@24
+                  _WerpAddFileBuffer@28
+                  _WerpAddFileCallback@28
+                  _WerpAddTerminationReason@16
+                  _WerpAuxmdDumpProcessImages@8
+                  _WerpAuxmdDumpRegisteredBlocks@4
+                  _WerpAuxmdFree@4
+                  _WerpAuxmdFreeCopyBuffer@4
+                  _WerpAuxmdHashVaRanges@8
+                  _WerpAuxmdInitialize@16
+                  _WerpAuxmdMapFile@4
+                  _WerpCreateIntegratorReportId@4
+                  _WerpExtractReportFiles@12
+                  _WerpFreeString@4
+                  _WerpGetIntegratorReportId@8
+                  _WerpGetReportConsent@12
+                  _WerpGetStoreLocation@12
+                  _WerpIsDisabled@8
+                  _WerpLoadReport@20
+                  _WerpSetAuxiliaryArchivePath@8
+                  _WerpSetCallBack@12
+                  _WerpSetDefaultUserConsent@8
+                  _WerpSetExitListeners@0
+                  _WerpSetIntegratorReportId@8
+                  _WerpSetIptEnabled@8
+                  _WerpSetReportOption@12
+                  _WerpSetTtdStatus@8
+
+  Summary
+
+          B7 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           8 .idata$6

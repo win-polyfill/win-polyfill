@@ -1,0 +1,1576 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\winbio.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    108C size
+correct header end
+
+    127 public symbols
+
+     21A2 __IMPORT_DESCRIPTOR_winbio
+     23C8 __NULL_IMPORT_DESCRIPTOR
+     24FE winbio_NULL_THUNK_DATA
+     3166 _WinBioEnumServiceProviders@12
+     3166 __imp__WinBioEnumServiceProviders@12
+     3004 _WinBioEnumBiometricUnits@12
+     3004 __imp__WinBioEnumBiometricUnits@12
+     307C _WinBioEnumDatabases@12
+     307C __imp__WinBioEnumDatabases@12
+     3A20 _WinBioOpenSession@28
+     3A20 __imp__WinBioOpenSession@28
+     2B76 _WinBioCloseSession@4
+     2B76 __imp__WinBioCloseSession@4
+     4116 _WinBioVerify@24
+     4116 __imp__WinBioVerify@24
+     41FE _WinBioVerifyWithCallback@20
+     41FE __imp__WinBioVerifyWithCallback@20
+     358E _WinBioIdentify@20
+     358E __imp__WinBioIdentify@20
+     367A _WinBioIdentifyWithCallback@12
+     367A __imp__WinBioIdentifyWithCallback@12
+     4276 _WinBioWait@4
+     4276 __imp__WinBioWait@4
+     29A2 _WinBioCancel@4
+     29A2 __imp__WinBioCancel@4
+     37D6 _WinBioLocateSensor@8
+     37D6 __imp__WinBioLocateSensor@8
+     3848 _WinBioLocateSensorWithCallback@12
+     3848 __imp__WinBioLocateSensorWithCallback@12
+     2D4A _WinBioEnrollBegin@12
+     2D4A __imp__WinBioEnrollBegin@12
+     2DBC _WinBioEnrollCapture@8
+     2DBC __imp__WinBioEnrollCapture@8
+     2E2E _WinBioEnrollCaptureWithCallback@12
+     2E2E __imp__WinBioEnrollCaptureWithCallback@12
+     2EAE _WinBioEnrollCommit@12
+     2EAE __imp__WinBioEnrollCommit@12
+     2F20 _WinBioEnrollDiscard@4
+     2F20 __imp__WinBioEnrollDiscard@4
+     30F0 _WinBioEnumEnrollments@20
+     30F0 __imp__WinBioEnumEnrollments@20
+     36F4 _WinBioImproveBegin@8
+     36F4 __imp__WinBioImproveBegin@8
+     3766 _WinBioImproveEnd@4
+     3766 __imp__WinBioImproveEnd@4
+     3B04 _WinBioRegisterEventMonitor@16
+     3B04 __imp__WinBioRegisterEventMonitor@16
+     401C _WinBioUnregisterEventMonitor@4
+     401C __imp__WinBioUnregisterEventMonitor@4
+     2A0E _WinBioCaptureSample@28
+     2A0E __imp__WinBioCaptureSample@28
+     2A82 _WinBioCaptureSampleWithCallback@20
+     2A82 __imp__WinBioCaptureSampleWithCallback@20
+     2CD6 _WinBioDeleteTemplate@16
+     2CD6 __imp__WinBioDeleteTemplate@16
+     38C6 _WinBioLockUnit@8
+     38C6 __imp__WinBioLockUnit@8
+     3F38 _WinBioUnlockUnit@8
+     3F38 __imp__WinBioUnlockUnit@8
+     2BE8 _WinBioControlUnit@40
+     2BE8 __imp__WinBioControlUnit@40
+     2C5A _WinBioControlUnitPrivileged@40
+     2C5A __imp__WinBioControlUnitPrivileged@40
+     351C _WinBioGetProperty@32
+     351C __imp__WinBioGetProperty@32
+     3EC6 _WinBioSetProperty@32
+     3EC6 __imp__WinBioSetProperty@32
+     31E0 _WinBioFree@4
+     31E0 __imp__WinBioFree@4
+     3DDC _WinBioSetCredential@16
+     3DDC __imp__WinBioSetCredential@16
+     3D66 _WinBioRemoveCredential@80
+     3D66 __imp__WinBioRemoveCredential@80
+     3C6C _WinBioRemoveAllCredentials@0
+     3C6C __imp__WinBioRemoveAllCredentials@0
+     3CE6 _WinBioRemoveAllDomainCredentials@0
+     3CE6 __imp__WinBioRemoveAllDomainCredentials@0
+     324A _WinBioGetCredentialState@84
+     324A __imp__WinBioGetCredentialState@84
+     3934 _WinBioLogonIdentifiedUser@4
+     3934 __imp__WinBioLogonIdentifiedUser@4
+     3B7E _WinBioRegisterServiceMonitor@16
+     3B7E __imp__WinBioRegisterServiceMonitor@16
+     4098 _WinBioUnregisterServiceMonitor@4
+     4098 __imp__WinBioUnregisterServiceMonitor@4
+     33BA _WinBioGetEnabledSetting@8
+     33BA __imp__WinBioGetEnabledSetting@8
+     34A8 _WinBioGetLogonSetting@8
+     34A8 __imp__WinBioGetLogonSetting@8
+     3340 _WinBioGetDomainLogonSetting@8
+     3340 __imp__WinBioGetDomainLogonSetting@8
+     264E _WinBioAcquireFocus@0
+     264E __imp__WinBioAcquireFocus@0
+     3BFA _WinBioReleaseFocus@0
+     3BFA __imp__WinBioReleaseFocus@0
+     292C _WinBioAsyncOpenSession@52
+     292C __imp__WinBioAsyncOpenSession@52
+     28B4 _WinBioAsyncOpenFramework@28
+     28B4 __imp__WinBioAsyncOpenFramework@28
+     2B02 _WinBioCloseFramework@4
+     2B02 __imp__WinBioCloseFramework@4
+     27B4 _WinBioAsyncEnumServiceProviders@8
+     27B4 __imp__WinBioAsyncEnumServiceProviders@8
+     26C0 _WinBioAsyncEnumBiometricUnits@8
+     26C0 __imp__WinBioAsyncEnumBiometricUnits@8
+     273C _WinBioAsyncEnumDatabases@8
+     273C __imp__WinBioAsyncEnumDatabases@8
+     2832 _WinBioAsyncMonitorFrameworkChanges@8
+     2832 __imp__WinBioAsyncMonitorFrameworkChanges@8
+     4182 _WinBioVerifyAndReleaseTicket@28
+     4182 __imp__WinBioVerifyAndReleaseTicket@28
+     35FC _WinBioIdentifyAndReleaseTicket@24
+     35FC __imp__WinBioIdentifyAndReleaseTicket@24
+     3A92 _WinBioProtectData@20
+     3A92 __imp__WinBioProtectData@20
+     3FA8 _WinBioUnprotectData@24
+     3FA8 __imp__WinBioUnprotectData@24
+     32C2 _WinBioGetCredentialWithTicket@24
+     32C2 __imp__WinBioGetCredentialWithTicket@24
+     3E50 _WinBioSetMSACredential@12
+     3E50 __imp__WinBioSetMSACredential@12
+     39AC _WinBioMonitorPresence@8
+     39AC __imp__WinBioMonitorPresence@8
+     2F92 _WinBioEnrollSelect@12
+     2F92 __imp__WinBioEnrollSelect@12
+     3430 _WinBioGetEnrolledFactors@8
+     3430 __imp__WinBioGetEnrolledFactors@8
+
+Archive member name at 21A2: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1EA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        C120D217 time date stamp
+             10A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CC file pointer to raw data (000000CC to 000000DF)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FE file pointer to raw data (000000FE to 00000109)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 23C8: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        FB4763AB time date stamp
+              B8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      64 file pointer to raw data (00000064 to 000000A3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A4 file pointer to raw data (000000A4 to 000000B7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 24FE: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     114 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        C54C8E8C time date stamp
+              D4 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CC file pointer to raw data (000000CC to 000000CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data (000000D0 to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 264E: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAB501E3
+  SizeOfData   : 00000021
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioAcquireFocus@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : WinBioAcquireFocus
+
+Archive member name at 26C0: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2526E52
+  SizeOfData   : 0000002C
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioAsyncEnumBiometricUnits@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : WinBioAsyncEnumBiometricUnits
+
+Archive member name at 273C: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBEEDA90
+  SizeOfData   : 00000027
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioAsyncEnumDatabases@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : WinBioAsyncEnumDatabases
+
+Archive member name at 27B4: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D72331EB
+  SizeOfData   : 0000002E
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioAsyncEnumServiceProviders@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : WinBioAsyncEnumServiceProviders
+
+Archive member name at 2832: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBBDF1D2
+  SizeOfData   : 00000031
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioAsyncMonitorFrameworkChanges@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : WinBioAsyncMonitorFrameworkChanges
+
+Archive member name at 28B4: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA90F0E0
+  SizeOfData   : 00000028
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioAsyncOpenFramework@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : WinBioAsyncOpenFramework
+
+Archive member name at 292C: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D882D79F
+  SizeOfData   : 00000026
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioAsyncOpenSession@52
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : WinBioAsyncOpenSession
+
+Archive member name at 29A2: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D726C09F
+  SizeOfData   : 0000001B
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioCancel@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : WinBioCancel
+
+Archive member name at 2A0E: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD1CBC75
+  SizeOfData   : 00000023
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioCaptureSample@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : WinBioCaptureSample
+
+Archive member name at 2A82: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED7D9EA9
+  SizeOfData   : 0000002F
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioCaptureSampleWithCallback@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : WinBioCaptureSampleWithCallback
+
+Archive member name at 2B02: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E784644E
+  SizeOfData   : 00000023
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioCloseFramework@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : WinBioCloseFramework
+
+Archive member name at 2B76: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F78A8BBF
+  SizeOfData   : 00000021
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioCloseSession@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : WinBioCloseSession
+
+Archive member name at 2BE8: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD7880A7
+  SizeOfData   : 00000021
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioControlUnit@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : WinBioControlUnit
+
+Archive member name at 2C5A: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFEF8FB2
+  SizeOfData   : 0000002B
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioControlUnitPrivileged@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : WinBioControlUnitPrivileged
+
+Archive member name at 2CD6: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBC7B6B9
+  SizeOfData   : 00000024
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioDeleteTemplate@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : WinBioDeleteTemplate
+
+Archive member name at 2D4A: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8E3C09D
+  SizeOfData   : 00000021
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioEnrollBegin@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : WinBioEnrollBegin
+
+Archive member name at 2DBC: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4E78E2F
+  SizeOfData   : 00000022
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioEnrollCapture@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : WinBioEnrollCapture
+
+Archive member name at 2E2E: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFACC654
+  SizeOfData   : 0000002F
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioEnrollCaptureWithCallback@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : WinBioEnrollCaptureWithCallback
+
+Archive member name at 2EAE: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9D174E3
+  SizeOfData   : 00000022
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioEnrollCommit@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : WinBioEnrollCommit
+
+Archive member name at 2F20: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D22A54C8
+  SizeOfData   : 00000022
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioEnrollDiscard@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : WinBioEnrollDiscard
+
+Archive member name at 2F92: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4663AA3
+  SizeOfData   : 00000022
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioEnrollSelect@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : WinBioEnrollSelect
+
+Archive member name at 3004: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC19B20F
+  SizeOfData   : 00000028
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioEnumBiometricUnits@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : WinBioEnumBiometricUnits
+
+Archive member name at 307C: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EECE2A02
+  SizeOfData   : 00000023
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioEnumDatabases@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : WinBioEnumDatabases
+
+Archive member name at 30F0: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7CC7BEF
+  SizeOfData   : 00000025
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioEnumEnrollments@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : WinBioEnumEnrollments
+
+Archive member name at 3166: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA9870E3
+  SizeOfData   : 0000002A
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioEnumServiceProviders@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : WinBioEnumServiceProviders
+
+Archive member name at 31E0: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3A69C02
+  SizeOfData   : 00000019
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioFree@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : WinBioFree
+
+Archive member name at 324A: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6011E8C
+  SizeOfData   : 00000028
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioGetCredentialState@84
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : WinBioGetCredentialState
+
+Archive member name at 32C2: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7A3C731
+  SizeOfData   : 0000002D
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioGetCredentialWithTicket@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : WinBioGetCredentialWithTicket
+
+Archive member name at 3340: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC81A06A
+  SizeOfData   : 0000002A
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioGetDomainLogonSetting@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : WinBioGetDomainLogonSetting
+
+Archive member name at 33BA: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F47A83E5
+  SizeOfData   : 00000026
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioGetEnabledSetting@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : WinBioGetEnabledSetting
+
+Archive member name at 3430: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C56E5385
+  SizeOfData   : 00000027
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioGetEnrolledFactors@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : WinBioGetEnrolledFactors
+
+Archive member name at 34A8: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7A4C5C6
+  SizeOfData   : 00000024
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioGetLogonSetting@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : WinBioGetLogonSetting
+
+Archive member name at 351C: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA0D07F5
+  SizeOfData   : 00000021
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioGetProperty@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : WinBioGetProperty
+
+Archive member name at 358E: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D595BA6E
+  SizeOfData   : 0000001E
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioIdentify@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : WinBioIdentify
+
+Archive member name at 35FC: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F304753E
+  SizeOfData   : 0000002E
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioIdentifyAndReleaseTicket@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : WinBioIdentifyAndReleaseTicket
+
+Archive member name at 367A: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB77BB18
+  SizeOfData   : 0000002A
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioIdentifyWithCallback@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : WinBioIdentifyWithCallback
+
+Archive member name at 36F4: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F01FF7C1
+  SizeOfData   : 00000021
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioImproveBegin@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : WinBioImproveBegin
+
+Archive member name at 3766: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5345D71
+  SizeOfData   : 0000001F
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioImproveEnd@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : WinBioImproveEnd
+
+Archive member name at 37D6: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E131CB22
+  SizeOfData   : 00000021
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioLocateSensor@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : WinBioLocateSensor
+
+Archive member name at 3848: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D71073DE
+  SizeOfData   : 0000002E
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioLocateSensorWithCallback@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : WinBioLocateSensorWithCallback
+
+Archive member name at 38C6: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFE69D11
+  SizeOfData   : 0000001D
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioLockUnit@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : WinBioLockUnit
+
+Archive member name at 3934: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4653219
+  SizeOfData   : 00000028
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioLogonIdentifiedUser@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : WinBioLogonIdentifiedUser
+
+Archive member name at 39AC: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9150225
+  SizeOfData   : 00000024
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioMonitorPresence@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : WinBioMonitorPresence
+
+Archive member name at 3A20: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC530722
+  SizeOfData   : 00000021
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioOpenSession@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : WinBioOpenSession
+
+Archive member name at 3A92: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C51702D7
+  SizeOfData   : 00000021
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioProtectData@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : WinBioProtectData
+
+Archive member name at 3B04: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDEC2A5A
+  SizeOfData   : 0000002A
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioRegisterEventMonitor@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : WinBioRegisterEventMonitor
+
+Archive member name at 3B7E: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAC1DA17
+  SizeOfData   : 0000002C
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioRegisterServiceMonitor@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : WinBioRegisterServiceMonitor
+
+Archive member name at 3BFA: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC5C823E
+  SizeOfData   : 00000021
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioReleaseFocus@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : WinBioReleaseFocus
+
+Archive member name at 3C6C: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4491704
+  SizeOfData   : 00000029
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioRemoveAllCredentials@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : WinBioRemoveAllCredentials
+
+Archive member name at 3CE6: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E27D573E
+  SizeOfData   : 0000002F
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioRemoveAllDomainCredentials@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : WinBioRemoveAllDomainCredentials
+
+Archive member name at 3D66: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF8CAEDD
+  SizeOfData   : 00000026
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioRemoveCredential@80
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : WinBioRemoveCredential
+
+Archive member name at 3DDC: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F55891C5
+  SizeOfData   : 00000023
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioSetCredential@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : WinBioSetCredential
+
+Archive member name at 3E50: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBFA30B6
+  SizeOfData   : 00000026
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioSetMSACredential@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : WinBioSetMSACredential
+
+Archive member name at 3EC6: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3715E0E
+  SizeOfData   : 00000021
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioSetProperty@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : WinBioSetProperty
+
+Archive member name at 3F38: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4F73BF5
+  SizeOfData   : 0000001F
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioUnlockUnit@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : WinBioUnlockUnit
+
+Archive member name at 3FA8: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE192B3E
+  SizeOfData   : 00000023
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioUnprotectData@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : WinBioUnprotectData
+
+Archive member name at 401C: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5C0E60C
+  SizeOfData   : 0000002B
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioUnregisterEventMonitor@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : WinBioUnregisterEventMonitor
+
+Archive member name at 4098: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8E217F4
+  SizeOfData   : 0000002D
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioUnregisterServiceMonitor@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : WinBioUnregisterServiceMonitor
+
+Archive member name at 4116: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D970C06F
+  SizeOfData   : 0000001C
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioVerify@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : WinBioVerify
+
+Archive member name at 4182: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD22AB4A
+  SizeOfData   : 0000002C
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioVerifyAndReleaseTicket@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : WinBioVerifyAndReleaseTicket
+
+Archive member name at 41FE: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD35D372
+  SizeOfData   : 00000028
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioVerifyWithCallback@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : WinBioVerifyWithCallback
+
+Archive member name at 4276: winbio.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF1BA6F4
+  SizeOfData   : 00000019
+  DLL name     : winbio.dll
+  Symbol name  : _WinBioWait@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : WinBioWait
+
+     Exports
+
+       ordinal    name
+
+                  _WinBioAcquireFocus@0
+                  _WinBioAsyncEnumBiometricUnits@8
+                  _WinBioAsyncEnumDatabases@8
+                  _WinBioAsyncEnumServiceProviders@8
+                  _WinBioAsyncMonitorFrameworkChanges@8
+                  _WinBioAsyncOpenFramework@28
+                  _WinBioAsyncOpenSession@52
+                  _WinBioCancel@4
+                  _WinBioCaptureSample@28
+                  _WinBioCaptureSampleWithCallback@20
+                  _WinBioCloseFramework@4
+                  _WinBioCloseSession@4
+                  _WinBioControlUnit@40
+                  _WinBioControlUnitPrivileged@40
+                  _WinBioDeleteTemplate@16
+                  _WinBioEnrollBegin@12
+                  _WinBioEnrollCapture@8
+                  _WinBioEnrollCaptureWithCallback@12
+                  _WinBioEnrollCommit@12
+                  _WinBioEnrollDiscard@4
+                  _WinBioEnrollSelect@12
+                  _WinBioEnumBiometricUnits@12
+                  _WinBioEnumDatabases@12
+                  _WinBioEnumEnrollments@20
+                  _WinBioEnumServiceProviders@12
+                  _WinBioFree@4
+                  _WinBioGetCredentialState@84
+                  _WinBioGetCredentialWithTicket@24
+                  _WinBioGetDomainLogonSetting@8
+                  _WinBioGetEnabledSetting@8
+                  _WinBioGetEnrolledFactors@8
+                  _WinBioGetLogonSetting@8
+                  _WinBioGetProperty@32
+                  _WinBioIdentify@20
+                  _WinBioIdentifyAndReleaseTicket@24
+                  _WinBioIdentifyWithCallback@12
+                  _WinBioImproveBegin@8
+                  _WinBioImproveEnd@4
+                  _WinBioLocateSensor@8
+                  _WinBioLocateSensorWithCallback@12
+                  _WinBioLockUnit@8
+                  _WinBioLogonIdentifiedUser@4
+                  _WinBioMonitorPresence@8
+                  _WinBioOpenSession@28
+                  _WinBioProtectData@20
+                  _WinBioRegisterEventMonitor@16
+                  _WinBioRegisterServiceMonitor@16
+                  _WinBioReleaseFocus@0
+                  _WinBioRemoveAllCredentials@0
+                  _WinBioRemoveAllDomainCredentials@0
+                  _WinBioRemoveCredential@80
+                  _WinBioSetCredential@16
+                  _WinBioSetMSACredential@12
+                  _WinBioSetProperty@32
+                  _WinBioUnlockUnit@8
+                  _WinBioUnprotectData@24
+                  _WinBioUnregisterEventMonitor@4
+                  _WinBioUnregisterServiceMonitor@4
+                  _WinBioVerify@24
+                  _WinBioVerifyAndReleaseTicket@28
+                  _WinBioVerifyWithCallback@20
+                  _WinBioWait@4
+
+  Summary
+
+          C0 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

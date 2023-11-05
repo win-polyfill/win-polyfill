@@ -1,0 +1,7005 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "?CCHlpAddNodeUpdateCluster@@YGJPAU_HCLUSTER@@PA_WPAK@Z (long __stdcall CCHlpAddNodeUpdateCluster(struct _HCLUSTER *,wchar_t *,unsigned long *))"
+    },
+    {
+      "name": "?CCHlpConfigureNode@@YGKV?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@KU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@K@std@@@2@@std@@AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@2@1AAV?$vector@EV?$allocator@E@std@@@2@11111PAKAAV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@2@_NK@Z (unsigned long __stdcall CCHlpConfigureNode(class std::map<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,unsigned long,struct std::less<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >,class std::allocator<struct std::pair<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const ,unsigned long> > >,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::vector<unsigned char,class std::allocator<unsigned char> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,unsigned long *,class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > &,bool,unsigned long))"
+    },
+    {
+      "name": "?CCHlpCreateClusterNameCOIfNotExists@@YGKPB_W000000HHPAH1AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@22@Z (unsigned long __stdcall CCHlpCreateClusterNameCOIfNotExists(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,int,int,int *,int *,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &))"
+    },
+    {
+      "name": "?CCHlpCreateClusterNameInAD@@YGKPB_W000HPAPAVClusterNameADClusterState@@@Z (unsigned long __stdcall CCHlpCreateClusterNameInAD(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,int,class ClusterNameADClusterState * *))"
+    },
+    {
+      "name": "?CCHlpGetClusterServiceSecret@@YGJPB_WPAPA_W@Z (long __stdcall CCHlpGetClusterServiceSecret(wchar_t const *,wchar_t * *))"
+    },
+    {
+      "name": "?CCHlpGetDNSHostLabel@@YGJPB_WPAPA_W@Z (long __stdcall CCHlpGetDNSHostLabel(wchar_t const *,wchar_t * *))"
+    },
+    {
+      "name": "?CCHlpRestoreClusterVirtualObjectToInitialState@@YGKPA_W00H@Z (unsigned long __stdcall CCHlpRestoreClusterVirtualObjectToInitialState(wchar_t *,wchar_t *,wchar_t *,int))"
+    },
+    {
+      "name": "_AddClusterGroupDependency@8"
+    },
+    {
+      "name": "_AddClusterGroupSetDependency@8"
+    },
+    {
+      "name": "_AddClusterGroupToGroupSetDependency@8"
+    },
+    {
+      "name": "_AddClusterNode@16"
+    },
+    {
+      "name": "_AddClusterNodeEx@20"
+    },
+    {
+      "name": "_AddClusterResourceDependency@8"
+    },
+    {
+      "name": "_AddClusterResourceNode@8"
+    },
+    {
+      "name": "_AddClusterStorageNode@24"
+    },
+    {
+      "name": "_AddCrossClusterGroupSetDependency@12"
+    },
+    {
+      "name": "_AddResourceToClusterSharedVolumes@4"
+    },
+    {
+      "name": "_AddResourceToClusterSharedVolumesEx@12"
+    },
+    {
+      "name": "_BackupClusterDatabase@8"
+    },
+    {
+      "name": "_CanResourceBeDependent@8"
+    },
+    {
+      "name": "_CancelClusterGroupOperation@8"
+    },
+    {
+      "name": "_ChangeClusterResourceGroup@8"
+    },
+    {
+      "name": "_ChangeClusterResourceGroupEx@16"
+    },
+    {
+      "name": "_CloseCluster@4"
+    },
+    {
+      "name": "_CloseClusterGroup@4"
+    },
+    {
+      "name": "_CloseClusterGroupSet@4"
+    },
+    {
+      "name": "_CloseClusterNetInterface@4"
+    },
+    {
+      "name": "_CloseClusterNetwork@4"
+    },
+    {
+      "name": "_CloseClusterNode@4"
+    },
+    {
+      "name": "_CloseClusterNotifyPort@4"
+    },
+    {
+      "name": "_CloseClusterResource@4"
+    },
+    {
+      "name": "_CluFreeFaultDomainInfo@4"
+    },
+    {
+      "name": "_CluFreeGuidArrayPtr@4"
+    },
+    {
+      "name": "_CluFreeStr@4"
+    },
+    {
+      "name": "_CluGetDriveInfo@16"
+    },
+    {
+      "name": "_CluGetFaultDomainObject@16"
+    },
+    {
+      "name": "_CluGetFaultDomainObjects@12"
+    },
+    {
+      "name": "_CluRemoveFaultDomainObject@12"
+    },
+    {
+      "name": "_ClusterAddGroupToAffinityRule@12"
+    },
+    {
+      "name": "_ClusterAddGroupToGroupSet@8"
+    },
+    {
+      "name": "_ClusterAddGroupToGroupSetWithDomains@16"
+    },
+    {
+      "name": "_ClusterAffinityRuleControl@36"
+    },
+    {
+      "name": "_ClusterCaptureLiveDump@100"
+    },
+    {
+      "name": "_ClusterChangeVMSettings@12"
+    },
+    {
+      "name": "_ClusterCloseEnum@4"
+    },
+    {
+      "name": "_ClusterCloseEnumEx@4"
+    },
+    {
+      "name": "_ClusterControl@32"
+    },
+    {
+      "name": "_ClusterCreateAffinityRule@12"
+    },
+    {
+      "name": "_ClusterCreateClusterStorageEnclosure@52"
+    },
+    {
+      "name": "_ClusterCreateFaultDomain@28"
+    },
+    {
+      "name": "_ClusterCreateFaultDomainFromXML@12"
+    },
+    {
+      "name": "_ClusterCreateVMReservation@24"
+    },
+    {
+      "name": "_ClusterCreateVMReservationWithDomains@32"
+    },
+    {
+      "name": "_ClusterEnum@20"
+    },
+    {
+      "name": "_ClusterEnumEx@16"
+    },
+    {
+      "name": "_ClusterFreeMemory@4"
+    },
+    {
+      "name": "_ClusterFreeMrrResponse@4"
+    },
+    {
+      "name": "_ClusterFreeVMReservation@12"
+    },
+    {
+      "name": "_ClusterGetClusterStorageEnclosureObject@16"
+    },
+    {
+      "name": "_ClusterGetClusterStorageEnclosureObjects@20"
+    },
+    {
+      "name": "_ClusterGetDriveInfo@20"
+    },
+    {
+      "name": "_ClusterGetEnumCount@4"
+    },
+    {
+      "name": "_ClusterGetEnumCountEx@4"
+    },
+    {
+      "name": "_ClusterGetFaultDomainObject@16"
+    },
+    {
+      "name": "_ClusterGetFaultDomainObjects@20"
+    },
+    {
+      "name": "_ClusterGetFaultDomainState@16"
+    },
+    {
+      "name": "_ClusterGetFaultDomainXML@12"
+    },
+    {
+      "name": "_ClusterGetPlacementScore@24"
+    },
+    {
+      "name": "_ClusterGroupCloseEnum@4"
+    },
+    {
+      "name": "_ClusterGroupCloseEnumEx@4"
+    },
+    {
+      "name": "_ClusterGroupControl@32"
+    },
+    {
+      "name": "_ClusterGroupEnum@20"
+    },
+    {
+      "name": "_ClusterGroupEnumEx@16"
+    },
+    {
+      "name": "_ClusterGroupGetEnumCount@4"
+    },
+    {
+      "name": "_ClusterGroupGetEnumCountEx@4"
+    },
+    {
+      "name": "_ClusterGroupOpenEnum@8"
+    },
+    {
+      "name": "_ClusterGroupOpenEnumEx@24"
+    },
+    {
+      "name": "_ClusterGroupSetCloseEnum@4"
+    },
+    {
+      "name": "_ClusterGroupSetControl@32"
+    },
+    {
+      "name": "_ClusterGroupSetEnum@16"
+    },
+    {
+      "name": "_ClusterGroupSetGetEnumCount@4"
+    },
+    {
+      "name": "_ClusterGroupSetOpenEnum@4"
+    },
+    {
+      "name": "_ClusterNetInterfaceCloseEnum@4"
+    },
+    {
+      "name": "_ClusterNetInterfaceControl@32"
+    },
+    {
+      "name": "_ClusterNetInterfaceEnum@16"
+    },
+    {
+      "name": "_ClusterNetInterfaceOpenEnum@12"
+    },
+    {
+      "name": "_ClusterNetworkCloseEnum@4"
+    },
+    {
+      "name": "_ClusterNetworkControl@32"
+    },
+    {
+      "name": "_ClusterNetworkEnum@20"
+    },
+    {
+      "name": "_ClusterNetworkGetEnumCount@4"
+    },
+    {
+      "name": "_ClusterNetworkHealthFreeInterfaceConnections@4"
+    },
+    {
+      "name": "_ClusterNetworkHealthFreeNodeConnections@4"
+    },
+    {
+      "name": "_ClusterNetworkHealthGetInterfaceConnections@12"
+    },
+    {
+      "name": "_ClusterNetworkHealthGetNodeConnections@12"
+    },
+    {
+      "name": "_ClusterNetworkOpenEnum@8"
+    },
+    {
+      "name": "_ClusterNodeCloseEnum@4"
+    },
+    {
+      "name": "_ClusterNodeCloseEnumEx@4"
+    },
+    {
+      "name": "_ClusterNodeControl@32"
+    },
+    {
+      "name": "_ClusterNodeEnum@20"
+    },
+    {
+      "name": "_ClusterNodeEnumEx@16"
+    },
+    {
+      "name": "_ClusterNodeGetEnumCount@4"
+    },
+    {
+      "name": "_ClusterNodeGetEnumCountEx@4"
+    },
+    {
+      "name": "_ClusterNodeOpenEnum@8"
+    },
+    {
+      "name": "_ClusterNodeOpenEnumEx@12"
+    },
+    {
+      "name": "_ClusterNodeReplacement@12"
+    },
+    {
+      "name": "_ClusterOpenEnum@8"
+    },
+    {
+      "name": "_ClusterOpenEnumEx@12"
+    },
+    {
+      "name": "_ClusterRegBatchAddCommand@24"
+    },
+    {
+      "name": "_ClusterRegBatchCloseNotification@4"
+    },
+    {
+      "name": "_ClusterRegBatchReadCommand@8"
+    },
+    {
+      "name": "_ClusterRegCloseBatch@12"
+    },
+    {
+      "name": "_ClusterRegCloseBatchEx@12"
+    },
+    {
+      "name": "_ClusterRegCloseBatchNotifyPort@4"
+    },
+    {
+      "name": "_ClusterRegCloseKey@4"
+    },
+    {
+      "name": "_ClusterRegCloseReadBatch@8"
+    },
+    {
+      "name": "_ClusterRegCloseReadBatchEx@12"
+    },
+    {
+      "name": "_ClusterRegCloseReadBatchReply@4"
+    },
+    {
+      "name": "_ClusterRegCreateBatch@8"
+    },
+    {
+      "name": "_ClusterRegCreateBatchNotifyPort@8"
+    },
+    {
+      "name": "_ClusterRegCreateKey@28"
+    },
+    {
+      "name": "_ClusterRegCreateKeyForceSync@16"
+    },
+    {
+      "name": "_ClusterRegCreateReadBatch@8"
+    },
+    {
+      "name": "_ClusterRegDeleteKey@8"
+    },
+    {
+      "name": "_ClusterRegDeleteKeyForceSync@8"
+    },
+    {
+      "name": "_ClusterRegDeleteValue@8"
+    },
+    {
+      "name": "_ClusterRegDeleteValueForceSync@8"
+    },
+    {
+      "name": "_ClusterRegEnumKey@20"
+    },
+    {
+      "name": "_ClusterRegEnumValue@28"
+    },
+    {
+      "name": "_ClusterRegGetBatchNotification@8"
+    },
+    {
+      "name": "_ClusterRegGetKeySecurity@16"
+    },
+    {
+      "name": "_ClusterRegOpenKey@16"
+    },
+    {
+      "name": "_ClusterRegQueryAllValues@12"
+    },
+    {
+      "name": "_ClusterRegQueryInfoKey@32"
+    },
+    {
+      "name": "_ClusterRegQueryValue@20"
+    },
+    {
+      "name": "_ClusterRegReadBatchAddCommand@12"
+    },
+    {
+      "name": "_ClusterRegReadBatchReplyNextCommand@8"
+    },
+    {
+      "name": "_ClusterRegSetKeySecurity@12"
+    },
+    {
+      "name": "_ClusterRegSetValue@20"
+    },
+    {
+      "name": "_ClusterRegSetValueForceSync@20"
+    },
+    {
+      "name": "_ClusterRegSyncDatabase@8"
+    },
+    {
+      "name": "_ClusterRemoveAffinityRule@8"
+    },
+    {
+      "name": "_ClusterRemoveClusterStorageEnclosure@12"
+    },
+    {
+      "name": "_ClusterRemoveFaultDomain@12"
+    },
+    {
+      "name": "_ClusterRemoveGroupFromAffinityRule@12"
+    },
+    {
+      "name": "_ClusterRemoveGroupFromGroupSet@4"
+    },
+    {
+      "name": "_ClusterResourceCloseEnum@4"
+    },
+    {
+      "name": "_ClusterResourceCloseEnumEx@4"
+    },
+    {
+      "name": "_ClusterResourceControl@32"
+    },
+    {
+      "name": "_ClusterResourceControlAsUser@32"
+    },
+    {
+      "name": "_ClusterResourceEnum@20"
+    },
+    {
+      "name": "_ClusterResourceEnumEx@16"
+    },
+    {
+      "name": "_ClusterResourceGetEnumCount@4"
+    },
+    {
+      "name": "_ClusterResourceGetEnumCountEx@4"
+    },
+    {
+      "name": "_ClusterResourceOpenEnum@8"
+    },
+    {
+      "name": "_ClusterResourceOpenEnumEx@24"
+    },
+    {
+      "name": "_ClusterResourceTypeCloseEnum@4"
+    },
+    {
+      "name": "_ClusterResourceTypeControl@36"
+    },
+    {
+      "name": "_ClusterResourceTypeControlAsUser@36"
+    },
+    {
+      "name": "_ClusterResourceTypeEnum@20"
+    },
+    {
+      "name": "_ClusterResourceTypeGetEnumCount@4"
+    },
+    {
+      "name": "_ClusterResourceTypeOpenEnum@12"
+    },
+    {
+      "name": "_ClusterSendReceiveMrr@40"
+    },
+    {
+      "name": "_ClusterSendReceiveMrrAsUser@40"
+    },
+    {
+      "name": "_ClusterSetAccountAccess@16"
+    },
+    {
+      "name": "_ClusterSetClusterStorageEnclosure@44"
+    },
+    {
+      "name": "_ClusterSetFaultDomain@28"
+    },
+    {
+      "name": "_ClusterSetNodeFaultDomain@12"
+    },
+    {
+      "name": "_ClusterSharedVolumeClearBackupState@4"
+    },
+    {
+      "name": "_ClusterSharedVolumeSetSnapshotState@24"
+    },
+    {
+      "name": "_ClusterStmFindDisk@24"
+    },
+    {
+      "name": "_ClusterUpgradeFunctionalLevel@16"
+    },
+    {
+      "name": "_ClusterUpgradeFunctionalLevelEx@20"
+    },
+    {
+      "name": "_CreateCluster@12"
+    },
+    {
+      "name": "_CreateClusterAvailabilitySet@12"
+    },
+    {
+      "name": "_CreateClusterGroup@8"
+    },
+    {
+      "name": "_CreateClusterGroupEx@12"
+    },
+    {
+      "name": "_CreateClusterGroupSet@8"
+    },
+    {
+      "name": "_CreateClusterManagementPoint@20"
+    },
+    {
+      "name": "_CreateClusterNameAccount@16"
+    },
+    {
+      "name": "_CreateClusterNotifyPort@16"
+    },
+    {
+      "name": "_CreateClusterNotifyPortV2@20"
+    },
+    {
+      "name": "_CreateClusterResource@16"
+    },
+    {
+      "name": "_CreateClusterResourceType@24"
+    },
+    {
+      "name": "_CreateClusterResourceWithId@20"
+    },
+    {
+      "name": "_DeleteClusterGroup@4"
+    },
+    {
+      "name": "_DeleteClusterGroupSet@4"
+    },
+    {
+      "name": "_DeleteClusterResource@4"
+    },
+    {
+      "name": "_DeleteClusterResourceType@8"
+    },
+    {
+      "name": "_DestroyCluster@16"
+    },
+    {
+      "name": "_DestroyClusterGroup@4"
+    },
+    {
+      "name": "_DetermineCNOResTypeFromCluster@8"
+    },
+    {
+      "name": "_DetermineCNOResTypeFromNodelist@12"
+    },
+    {
+      "name": "_DetermineClusterCloudTypeFromCluster@8"
+    },
+    {
+      "name": "_DetermineClusterCloudTypeFromNodelist@12"
+    },
+    {
+      "name": "_EvictClusterNode@4"
+    },
+    {
+      "name": "_EvictClusterNodeEx@12"
+    },
+    {
+      "name": "_FailClusterResource@4"
+    },
+    {
+      "name": "_FreeClusFaultDomainInfo@4"
+    },
+    {
+      "name": "_FreeClusFaultDomainInfoArray@4"
+    },
+    {
+      "name": "_FreeClusFaultDomainXML@4"
+    },
+    {
+      "name": "_FreeClusStorageEnclosureInfo@4"
+    },
+    {
+      "name": "_FreeClusStorageEnclosureInfoArray@4"
+    },
+    {
+      "name": "_GetClusterFromGroup@4"
+    },
+    {
+      "name": "_GetClusterFromNetInterface@4"
+    },
+    {
+      "name": "_GetClusterFromNetwork@4"
+    },
+    {
+      "name": "_GetClusterFromNode@4"
+    },
+    {
+      "name": "_GetClusterFromResource@4"
+    },
+    {
+      "name": "_GetClusterGroupKey@8"
+    },
+    {
+      "name": "_GetClusterGroupState@12"
+    },
+    {
+      "name": "_GetClusterInformation@16"
+    },
+    {
+      "name": "_GetClusterKey@8"
+    },
+    {
+      "name": "_GetClusterNetInterface@20"
+    },
+    {
+      "name": "_GetClusterNetInterfaceKey@8"
+    },
+    {
+      "name": "_GetClusterNetInterfaceState@4"
+    },
+    {
+      "name": "_GetClusterNetworkId@12"
+    },
+    {
+      "name": "_GetClusterNetworkKey@8"
+    },
+    {
+      "name": "_GetClusterNetworkState@4"
+    },
+    {
+      "name": "_GetClusterNodeId@12"
+    },
+    {
+      "name": "_GetClusterNodeKey@8"
+    },
+    {
+      "name": "_GetClusterNodeState@4"
+    },
+    {
+      "name": "_GetClusterNotify@24"
+    },
+    {
+      "name": "_GetClusterNotifyV2@56"
+    },
+    {
+      "name": "_GetClusterQuorumResource@24"
+    },
+    {
+      "name": "_GetClusterResourceDependencyExpression@12"
+    },
+    {
+      "name": "_GetClusterResourceKey@8"
+    },
+    {
+      "name": "_GetClusterResourceNetworkName@12"
+    },
+    {
+      "name": "_GetClusterResourceState@20"
+    },
+    {
+      "name": "_GetClusterResourceTypeKey@12"
+    },
+    {
+      "name": "_GetClusterSharedVolumeNameForFile@24"
+    },
+    {
+      "name": "_GetNodeCloudTypeDW@8"
+    },
+    {
+      "name": "_GetNodeClusterState@8"
+    },
+    {
+      "name": "_GetNotifyEventHandle@8"
+    },
+    {
+      "name": "_InitializeClusFaultDomainInfo@4"
+    },
+    {
+      "name": "_InitializeClusFaultDomainInfoArray@4"
+    },
+    {
+      "name": "_InitializeClusStorageEnclosureInfo@4"
+    },
+    {
+      "name": "_InitializeClusStorageEnclosureInfoArray@4"
+    },
+    {
+      "name": "_IsFileOnClusterSharedVolume@8"
+    },
+    {
+      "name": "_MoveClusterGroup@8"
+    },
+    {
+      "name": "_MoveClusterGroupEx@20"
+    },
+    {
+      "name": "_OfflineClusterGroup@4"
+    },
+    {
+      "name": "_OfflineClusterGroupEx@16"
+    },
+    {
+      "name": "_OfflineClusterResource@4"
+    },
+    {
+      "name": "_OfflineClusterResourceEx@16"
+    },
+    {
+      "name": "_OnlineClusterGroup@8"
+    },
+    {
+      "name": "_OnlineClusterGroupEx@20"
+    },
+    {
+      "name": "_OnlineClusterResource@4"
+    },
+    {
+      "name": "_OnlineClusterResourceEx@16"
+    },
+    {
+      "name": "_OpenCluster@4"
+    },
+    {
+      "name": "_OpenClusterEx2@16"
+    },
+    {
+      "name": "_OpenClusterEx@12"
+    },
+    {
+      "name": "_OpenClusterGroup@8"
+    },
+    {
+      "name": "_OpenClusterGroupEx@16"
+    },
+    {
+      "name": "_OpenClusterGroupSet@8"
+    },
+    {
+      "name": "_OpenClusterNetInterface@8"
+    },
+    {
+      "name": "_OpenClusterNetInterfaceEx@16"
+    },
+    {
+      "name": "_OpenClusterNetwork@8"
+    },
+    {
+      "name": "_OpenClusterNetworkEx@16"
+    },
+    {
+      "name": "_OpenClusterNode@8"
+    },
+    {
+      "name": "_OpenClusterNodeById@8"
+    },
+    {
+      "name": "_OpenClusterNodeEx@16"
+    },
+    {
+      "name": "_OpenClusterResource@8"
+    },
+    {
+      "name": "_OpenClusterResourceEx@16"
+    },
+    {
+      "name": "_PauseClusterNode@4"
+    },
+    {
+      "name": "_PauseClusterNodeEx@16"
+    },
+    {
+      "name": "_RegisterClusterNotify@16"
+    },
+    {
+      "name": "_RegisterClusterNotifyV2@28"
+    },
+    {
+      "name": "_RegisterClusterResourceTypeNotifyV2@24"
+    },
+    {
+      "name": "_RemoveClusterGroupDependency@8"
+    },
+    {
+      "name": "_RemoveClusterGroupSetDependency@8"
+    },
+    {
+      "name": "_RemoveClusterGroupToGroupSetDependency@8"
+    },
+    {
+      "name": "_RemoveClusterNameAccount@8"
+    },
+    {
+      "name": "_RemoveClusterResourceDependency@8"
+    },
+    {
+      "name": "_RemoveClusterResourceNode@8"
+    },
+    {
+      "name": "_RemoveClusterStorageNode@16"
+    },
+    {
+      "name": "_RemoveCrossClusterGroupSetDependency@12"
+    },
+    {
+      "name": "_RemoveResourceFromClusterSharedVolumes@4"
+    },
+    {
+      "name": "_RestartClusterResource@8"
+    },
+    {
+      "name": "_RestoreClusterDatabase@12"
+    },
+    {
+      "name": "_ResumeClusterNode@4"
+    },
+    {
+      "name": "_ResumeClusterNodeEx@12"
+    },
+    {
+      "name": "_SetClusterGroupName@8"
+    },
+    {
+      "name": "_SetClusterGroupNodeList@12"
+    },
+    {
+      "name": "_SetClusterGroupSetDependencyExpression@8"
+    },
+    {
+      "name": "_SetClusterName@8"
+    },
+    {
+      "name": "_SetClusterNetworkName@8"
+    },
+    {
+      "name": "_SetClusterNetworkPriorityOrder@12"
+    },
+    {
+      "name": "_SetClusterQuorumResource@12"
+    },
+    {
+      "name": "_SetClusterResourceDependencyExpression@8"
+    },
+    {
+      "name": "_SetClusterResourceName@8"
+    },
+    {
+      "name": "_SetClusterServiceAccountPassword@20"
+    },
+    {
+      "name": "_SetGroupDependencyExpression@8"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 44526,
+      "name": "__IMPORT_DESCRIPTOR_CLUSAPI"
+    },
+    {
+      "offset": 45080,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 45390,
+      "name": "CLUSAPI_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 76368,
+      "name": "_OpenCluster@4"
+    },
+    {
+      "offset": 76368,
+      "name": "__imp__OpenCluster@4"
+    },
+    {
+      "offset": 49304,
+      "name": "_CloseCluster@4"
+    },
+    {
+      "offset": 49304,
+      "name": "__imp__CloseCluster@4"
+    },
+    {
+      "offset": 80674,
+      "name": "_SetClusterName@8"
+    },
+    {
+      "offset": 80674,
+      "name": "__imp__SetClusterName@8"
+    },
+    {
+      "offset": 71812,
+      "name": "_GetClusterInformation@16"
+    },
+    {
+      "offset": 71812,
+      "name": "__imp__GetClusterInformation@16"
+    },
+    {
+      "offset": 73330,
+      "name": "_GetClusterQuorumResource@24"
+    },
+    {
+      "offset": 73330,
+      "name": "__imp__GetClusterQuorumResource@24"
+    },
+    {
+      "offset": 81030,
+      "name": "_SetClusterQuorumResource@12"
+    },
+    {
+      "offset": 81030,
+      "name": "__imp__SetClusterQuorumResource@12"
+    },
+    {
+      "offset": 48696,
+      "name": "_BackupClusterDatabase@8"
+    },
+    {
+      "offset": 48696,
+      "name": "__imp__BackupClusterDatabase@8"
+    },
+    {
+      "offset": 79954,
+      "name": "_RestoreClusterDatabase@12"
+    },
+    {
+      "offset": 79954,
+      "name": "__imp__RestoreClusterDatabase@12"
+    },
+    {
+      "offset": 68206,
+      "name": "_CreateClusterNotifyPort@16"
+    },
+    {
+      "offset": 68206,
+      "name": "__imp__CreateClusterNotifyPort@16"
+    },
+    {
+      "offset": 78320,
+      "name": "_RegisterClusterNotify@16"
+    },
+    {
+      "offset": 78320,
+      "name": "__imp__RegisterClusterNotify@16"
+    },
+    {
+      "offset": 49990,
+      "name": "_CloseClusterNotifyPort@4"
+    },
+    {
+      "offset": 49990,
+      "name": "__imp__CloseClusterNotifyPort@4"
+    },
+    {
+      "offset": 73100,
+      "name": "_GetClusterNotify@24"
+    },
+    {
+      "offset": 73100,
+      "name": "__imp__GetClusterNotify@24"
+    },
+    {
+      "offset": 59176,
+      "name": "_ClusterOpenEnum@8"
+    },
+    {
+      "offset": 59176,
+      "name": "__imp__ClusterOpenEnum@8"
+    },
+    {
+      "offset": 52890,
+      "name": "_ClusterEnum@20"
+    },
+    {
+      "offset": 52890,
+      "name": "__imp__ClusterEnum@20"
+    },
+    {
+      "offset": 51788,
+      "name": "_ClusterCloseEnum@4"
+    },
+    {
+      "offset": 51788,
+      "name": "__imp__ClusterCloseEnum@4"
+    },
+    {
+      "offset": 77516,
+      "name": "_OpenClusterNode@8"
+    },
+    {
+      "offset": 77516,
+      "name": "__imp__OpenClusterNode@8"
+    },
+    {
+      "offset": 49878,
+      "name": "_CloseClusterNode@4"
+    },
+    {
+      "offset": 49878,
+      "name": "__imp__CloseClusterNode@4"
+    },
+    {
+      "offset": 72984,
+      "name": "_GetClusterNodeState@4"
+    },
+    {
+      "offset": 72984,
+      "name": "__imp__GetClusterNodeState@4"
+    },
+    {
+      "offset": 72756,
+      "name": "_GetClusterNodeId@12"
+    },
+    {
+      "offset": 72756,
+      "name": "__imp__GetClusterNodeId@12"
+    },
+    {
+      "offset": 78092,
+      "name": "_PauseClusterNode@4"
+    },
+    {
+      "offset": 78092,
+      "name": "__imp__PauseClusterNode@4"
+    },
+    {
+      "offset": 80074,
+      "name": "_ResumeClusterNode@4"
+    },
+    {
+      "offset": 80074,
+      "name": "__imp__ResumeClusterNode@4"
+    },
+    {
+      "offset": 70032,
+      "name": "_EvictClusterNode@4"
+    },
+    {
+      "offset": 70032,
+      "name": "__imp__EvictClusterNode@4"
+    },
+    {
+      "offset": 58238,
+      "name": "_ClusterNodeControl@32"
+    },
+    {
+      "offset": 58238,
+      "name": "__imp__ClusterNodeControl@32"
+    },
+    {
+      "offset": 56734,
+      "name": "_ClusterNetInterfaceOpenEnum@12"
+    },
+    {
+      "offset": 56734,
+      "name": "__imp__ClusterNetInterfaceOpenEnum@12"
+    },
+    {
+      "offset": 56614,
+      "name": "_ClusterNetInterfaceEnum@16"
+    },
+    {
+      "offset": 56614,
+      "name": "__imp__ClusterNetInterfaceEnum@16"
+    },
+    {
+      "offset": 56366,
+      "name": "_ClusterNetInterfaceCloseEnum@4"
+    },
+    {
+      "offset": 56366,
+      "name": "__imp__ClusterNetInterfaceCloseEnum@4"
+    },
+    {
+      "offset": 77858,
+      "name": "_OpenClusterResource@8"
+    },
+    {
+      "offset": 77858,
+      "name": "__imp__OpenClusterResource@8"
+    },
+    {
+      "offset": 68448,
+      "name": "_CreateClusterResource@16"
+    },
+    {
+      "offset": 68448,
+      "name": "__imp__CreateClusterResource@16"
+    },
+    {
+      "offset": 50108,
+      "name": "_CloseClusterResource@4"
+    },
+    {
+      "offset": 50108,
+      "name": "__imp__CloseClusterResource@4"
+    },
+    {
+      "offset": 73832,
+      "name": "_GetClusterResourceState@20"
+    },
+    {
+      "offset": 73832,
+      "name": "__imp__GetClusterResourceState@20"
+    },
+    {
+      "offset": 81286,
+      "name": "_SetClusterResourceName@8"
+    },
+    {
+      "offset": 81286,
+      "name": "__imp__SetClusterResourceName@8"
+    },
+    {
+      "offset": 70260,
+      "name": "_FailClusterResource@4"
+    },
+    {
+      "offset": 70260,
+      "name": "__imp__FailClusterResource@4"
+    },
+    {
+      "offset": 79836,
+      "name": "_RestartClusterResource@8"
+    },
+    {
+      "offset": 79836,
+      "name": "__imp__RestartClusterResource@8"
+    },
+    {
+      "offset": 76130,
+      "name": "_OnlineClusterResource@4"
+    },
+    {
+      "offset": 76130,
+      "name": "__imp__OnlineClusterResource@4"
+    },
+    {
+      "offset": 75658,
+      "name": "_OfflineClusterResource@4"
+    },
+    {
+      "offset": 75658,
+      "name": "__imp__OfflineClusterResource@4"
+    },
+    {
+      "offset": 69044,
+      "name": "_DeleteClusterResource@4"
+    },
+    {
+      "offset": 69044,
+      "name": "__imp__DeleteClusterResource@4"
+    },
+    {
+      "offset": 49056,
+      "name": "_ChangeClusterResourceGroup@8"
+    },
+    {
+      "offset": 49056,
+      "name": "__imp__ChangeClusterResourceGroup@8"
+    },
+    {
+      "offset": 48068,
+      "name": "_AddClusterResourceNode@8"
+    },
+    {
+      "offset": 48068,
+      "name": "__imp__AddClusterResourceNode@8"
+    },
+    {
+      "offset": 79324,
+      "name": "_RemoveClusterResourceNode@8"
+    },
+    {
+      "offset": 79324,
+      "name": "__imp__RemoveClusterResourceNode@8"
+    },
+    {
+      "offset": 47944,
+      "name": "_AddClusterResourceDependency@8"
+    },
+    {
+      "offset": 47944,
+      "name": "__imp__AddClusterResourceDependency@8"
+    },
+    {
+      "offset": 79196,
+      "name": "_RemoveClusterResourceDependency@8"
+    },
+    {
+      "offset": 79196,
+      "name": "__imp__RemoveClusterResourceDependency@8"
+    },
+    {
+      "offset": 48814,
+      "name": "_CanResourceBeDependent@8"
+    },
+    {
+      "offset": 48814,
+      "name": "__imp__CanResourceBeDependent@8"
+    },
+    {
+      "offset": 65014,
+      "name": "_ClusterResourceOpenEnum@8"
+    },
+    {
+      "offset": 65014,
+      "name": "__imp__ClusterResourceOpenEnum@8"
+    },
+    {
+      "offset": 64530,
+      "name": "_ClusterResourceEnum@20"
+    },
+    {
+      "offset": 64530,
+      "name": "__imp__ClusterResourceEnum@20"
+    },
+    {
+      "offset": 64042,
+      "name": "_ClusterResourceCloseEnum@4"
+    },
+    {
+      "offset": 64042,
+      "name": "__imp__ClusterResourceCloseEnum@4"
+    },
+    {
+      "offset": 68566,
+      "name": "_CreateClusterResourceType@24"
+    },
+    {
+      "offset": 68566,
+      "name": "__imp__CreateClusterResourceType@24"
+    },
+    {
+      "offset": 69162,
+      "name": "_DeleteClusterResourceType@8"
+    },
+    {
+      "offset": 69162,
+      "name": "__imp__DeleteClusterResourceType@8"
+    },
+    {
+      "offset": 65380,
+      "name": "_ClusterResourceTypeControl@36"
+    },
+    {
+      "offset": 65380,
+      "name": "__imp__ClusterResourceTypeControl@36"
+    },
+    {
+      "offset": 64284,
+      "name": "_ClusterResourceControl@32"
+    },
+    {
+      "offset": 64284,
+      "name": "__imp__ClusterResourceControl@32"
+    },
+    {
+      "offset": 73706,
+      "name": "_GetClusterResourceNetworkName@12"
+    },
+    {
+      "offset": 73706,
+      "name": "__imp__GetClusterResourceNetworkName@12"
+    },
+    {
+      "offset": 67608,
+      "name": "_CreateClusterGroup@8"
+    },
+    {
+      "offset": 67608,
+      "name": "__imp__CreateClusterGroup@8"
+    },
+    {
+      "offset": 76698,
+      "name": "_OpenClusterGroup@8"
+    },
+    {
+      "offset": 76698,
+      "name": "__imp__OpenClusterGroup@8"
+    },
+    {
+      "offset": 49412,
+      "name": "_CloseClusterGroup@4"
+    },
+    {
+      "offset": 49412,
+      "name": "__imp__CloseClusterGroup@4"
+    },
+    {
+      "offset": 71694,
+      "name": "_GetClusterGroupState@12"
+    },
+    {
+      "offset": 71694,
+      "name": "__imp__GetClusterGroupState@12"
+    },
+    {
+      "offset": 80304,
+      "name": "_SetClusterGroupName@8"
+    },
+    {
+      "offset": 80304,
+      "name": "__imp__SetClusterGroupName@8"
+    },
+    {
+      "offset": 80420,
+      "name": "_SetClusterGroupNodeList@12"
+    },
+    {
+      "offset": 80420,
+      "name": "__imp__SetClusterGroupNodeList@12"
+    },
+    {
+      "offset": 75898,
+      "name": "_OnlineClusterGroup@8"
+    },
+    {
+      "offset": 75898,
+      "name": "__imp__OnlineClusterGroup@8"
+    },
+    {
+      "offset": 75196,
+      "name": "_MoveClusterGroup@8"
+    },
+    {
+      "offset": 75196,
+      "name": "__imp__MoveClusterGroup@8"
+    },
+    {
+      "offset": 75424,
+      "name": "_OfflineClusterGroup@4"
+    },
+    {
+      "offset": 75424,
+      "name": "__imp__OfflineClusterGroup@4"
+    },
+    {
+      "offset": 68812,
+      "name": "_DeleteClusterGroup@4"
+    },
+    {
+      "offset": 68812,
+      "name": "__imp__DeleteClusterGroup@4"
+    },
+    {
+      "offset": 55530,
+      "name": "_ClusterGroupOpenEnum@8"
+    },
+    {
+      "offset": 55530,
+      "name": "__imp__ClusterGroupOpenEnum@8"
+    },
+    {
+      "offset": 55058,
+      "name": "_ClusterGroupEnum@20"
+    },
+    {
+      "offset": 55058,
+      "name": "__imp__ClusterGroupEnum@20"
+    },
+    {
+      "offset": 54704,
+      "name": "_ClusterGroupCloseEnum@4"
+    },
+    {
+      "offset": 54704,
+      "name": "__imp__ClusterGroupCloseEnum@4"
+    },
+    {
+      "offset": 54942,
+      "name": "_ClusterGroupControl@32"
+    },
+    {
+      "offset": 54942,
+      "name": "__imp__ClusterGroupControl@32"
+    },
+    {
+      "offset": 71930,
+      "name": "_GetClusterKey@8"
+    },
+    {
+      "offset": 71930,
+      "name": "__imp__GetClusterKey@8"
+    },
+    {
+      "offset": 72870,
+      "name": "_GetClusterNodeKey@8"
+    },
+    {
+      "offset": 72870,
+      "name": "__imp__GetClusterNodeKey@8"
+    },
+    {
+      "offset": 71580,
+      "name": "_GetClusterGroupKey@8"
+    },
+    {
+      "offset": 71580,
+      "name": "__imp__GetClusterGroupKey@8"
+    },
+    {
+      "offset": 73588,
+      "name": "_GetClusterResourceKey@8"
+    },
+    {
+      "offset": 73588,
+      "name": "__imp__GetClusterResourceKey@8"
+    },
+    {
+      "offset": 73952,
+      "name": "_GetClusterResourceTypeKey@12"
+    },
+    {
+      "offset": 73952,
+      "name": "__imp__GetClusterResourceTypeKey@12"
+    },
+    {
+      "offset": 72522,
+      "name": "_GetClusterNetworkKey@8"
+    },
+    {
+      "offset": 72522,
+      "name": "__imp__GetClusterNetworkKey@8"
+    },
+    {
+      "offset": 72160,
+      "name": "_GetClusterNetInterfaceKey@8"
+    },
+    {
+      "offset": 72160,
+      "name": "__imp__GetClusterNetInterfaceKey@8"
+    },
+    {
+      "offset": 60868,
+      "name": "_ClusterRegCreateKey@28"
+    },
+    {
+      "offset": 60868,
+      "name": "__imp__ClusterRegCreateKey@28"
+    },
+    {
+      "offset": 60984,
+      "name": "_ClusterRegCreateKeyForceSync@16"
+    },
+    {
+      "offset": 60984,
+      "name": "__imp__ClusterRegCreateKeyForceSync@16"
+    },
+    {
+      "offset": 62194,
+      "name": "_ClusterRegOpenKey@16"
+    },
+    {
+      "offset": 62194,
+      "name": "__imp__ClusterRegOpenKey@16"
+    },
+    {
+      "offset": 61232,
+      "name": "_ClusterRegDeleteKey@8"
+    },
+    {
+      "offset": 61232,
+      "name": "__imp__ClusterRegDeleteKey@8"
+    },
+    {
+      "offset": 61348,
+      "name": "_ClusterRegDeleteKeyForceSync@8"
+    },
+    {
+      "offset": 61348,
+      "name": "__imp__ClusterRegDeleteKeyForceSync@8"
+    },
+    {
+      "offset": 60138,
+      "name": "_ClusterRegCloseKey@4"
+    },
+    {
+      "offset": 60138,
+      "name": "__imp__ClusterRegCloseKey@4"
+    },
+    {
+      "offset": 61716,
+      "name": "_ClusterRegEnumKey@20"
+    },
+    {
+      "offset": 61716,
+      "name": "__imp__ClusterRegEnumKey@20"
+    },
+    {
+      "offset": 63048,
+      "name": "_ClusterRegSetValue@20"
+    },
+    {
+      "offset": 63048,
+      "name": "__imp__ClusterRegSetValue@20"
+    },
+    {
+      "offset": 63164,
+      "name": "_ClusterRegSetValueForceSync@20"
+    },
+    {
+      "offset": 63164,
+      "name": "__imp__ClusterRegSetValueForceSync@20"
+    },
+    {
+      "offset": 61472,
+      "name": "_ClusterRegDeleteValue@8"
+    },
+    {
+      "offset": 61472,
+      "name": "__imp__ClusterRegDeleteValue@8"
+    },
+    {
+      "offset": 61590,
+      "name": "_ClusterRegDeleteValueForceSync@8"
+    },
+    {
+      "offset": 61590,
+      "name": "__imp__ClusterRegDeleteValueForceSync@8"
+    },
+    {
+      "offset": 62550,
+      "name": "_ClusterRegQueryValue@20"
+    },
+    {
+      "offset": 62550,
+      "name": "__imp__ClusterRegQueryValue@20"
+    },
+    {
+      "offset": 61830,
+      "name": "_ClusterRegEnumValue@28"
+    },
+    {
+      "offset": 61830,
+      "name": "__imp__ClusterRegEnumValue@28"
+    },
+    {
+      "offset": 62926,
+      "name": "_ClusterRegSetKeySecurity@12"
+    },
+    {
+      "offset": 62926,
+      "name": "__imp__ClusterRegSetKeySecurity@12"
+    },
+    {
+      "offset": 62072,
+      "name": "_ClusterRegGetKeySecurity@16"
+    },
+    {
+      "offset": 62072,
+      "name": "__imp__ClusterRegGetKeySecurity@16"
+    },
+    {
+      "offset": 62430,
+      "name": "_ClusterRegQueryInfoKey@32"
+    },
+    {
+      "offset": 62430,
+      "name": "__imp__ClusterRegQueryInfoKey@32"
+    },
+    {
+      "offset": 63288,
+      "name": "_ClusterRegSyncDatabase@8"
+    },
+    {
+      "offset": 63288,
+      "name": "__imp__ClusterRegSyncDatabase@8"
+    },
+    {
+      "offset": 77284,
+      "name": "_OpenClusterNetwork@8"
+    },
+    {
+      "offset": 77284,
+      "name": "__imp__OpenClusterNetwork@8"
+    },
+    {
+      "offset": 49762,
+      "name": "_CloseClusterNetwork@4"
+    },
+    {
+      "offset": 49762,
+      "name": "__imp__CloseClusterNetwork@4"
+    },
+    {
+      "offset": 57886,
+      "name": "_ClusterNetworkOpenEnum@8"
+    },
+    {
+      "offset": 57886,
+      "name": "__imp__ClusterNetworkOpenEnum@8"
+    },
+    {
+      "offset": 57096,
+      "name": "_ClusterNetworkEnum@20"
+    },
+    {
+      "offset": 57096,
+      "name": "__imp__ClusterNetworkEnum@20"
+    },
+    {
+      "offset": 56858,
+      "name": "_ClusterNetworkCloseEnum@4"
+    },
+    {
+      "offset": 56858,
+      "name": "__imp__ClusterNetworkCloseEnum@4"
+    },
+    {
+      "offset": 72638,
+      "name": "_GetClusterNetworkState@4"
+    },
+    {
+      "offset": 72638,
+      "name": "__imp__GetClusterNetworkState@4"
+    },
+    {
+      "offset": 80784,
+      "name": "_SetClusterNetworkName@8"
+    },
+    {
+      "offset": 80784,
+      "name": "__imp__SetClusterNetworkName@8"
+    },
+    {
+      "offset": 56978,
+      "name": "_ClusterNetworkControl@32"
+    },
+    {
+      "offset": 56978,
+      "name": "__imp__ClusterNetworkControl@32"
+    },
+    {
+      "offset": 72406,
+      "name": "_GetClusterNetworkId@12"
+    },
+    {
+      "offset": 72406,
+      "name": "__imp__GetClusterNetworkId@12"
+    },
+    {
+      "offset": 77042,
+      "name": "_OpenClusterNetInterface@8"
+    },
+    {
+      "offset": 77042,
+      "name": "__imp__OpenClusterNetInterface@8"
+    },
+    {
+      "offset": 49642,
+      "name": "_CloseClusterNetInterface@4"
+    },
+    {
+      "offset": 49642,
+      "name": "__imp__CloseClusterNetInterface@4"
+    },
+    {
+      "offset": 72040,
+      "name": "_GetClusterNetInterface@20"
+    },
+    {
+      "offset": 72040,
+      "name": "__imp__GetClusterNetInterface@20"
+    },
+    {
+      "offset": 72282,
+      "name": "_GetClusterNetInterfaceState@4"
+    },
+    {
+      "offset": 72282,
+      "name": "__imp__GetClusterNetInterfaceState@4"
+    },
+    {
+      "offset": 56490,
+      "name": "_ClusterNetInterfaceControl@32"
+    },
+    {
+      "offset": 56490,
+      "name": "__imp__ClusterNetInterfaceControl@32"
+    },
+    {
+      "offset": 58822,
+      "name": "_ClusterNodeOpenEnum@8"
+    },
+    {
+      "offset": 58822,
+      "name": "__imp__ClusterNodeOpenEnum@8"
+    },
+    {
+      "offset": 58004,
+      "name": "_ClusterNodeCloseEnum@4"
+    },
+    {
+      "offset": 58004,
+      "name": "__imp__ClusterNodeCloseEnum@4"
+    },
+    {
+      "offset": 58354,
+      "name": "_ClusterNodeEnum@20"
+    },
+    {
+      "offset": 58354,
+      "name": "__imp__ClusterNodeEnum@20"
+    },
+    {
+      "offset": 80902,
+      "name": "_SetClusterNetworkPriorityOrder@12"
+    },
+    {
+      "offset": 80902,
+      "name": "__imp__SetClusterNetworkPriorityOrder@12"
+    },
+    {
+      "offset": 74318,
+      "name": "_GetNodeClusterState@8"
+    },
+    {
+      "offset": 74318,
+      "name": "__imp__GetNodeClusterState@8"
+    },
+    {
+      "offset": 65882,
+      "name": "_ClusterResourceTypeOpenEnum@12"
+    },
+    {
+      "offset": 65882,
+      "name": "__imp__ClusterResourceTypeOpenEnum@12"
+    },
+    {
+      "offset": 65634,
+      "name": "_ClusterResourceTypeEnum@20"
+    },
+    {
+      "offset": 65634,
+      "name": "__imp__ClusterResourceTypeEnum@20"
+    },
+    {
+      "offset": 65256,
+      "name": "_ClusterResourceTypeCloseEnum@4"
+    },
+    {
+      "offset": 65256,
+      "name": "__imp__ClusterResourceTypeCloseEnum@4"
+    },
+    {
+      "offset": 52014,
+      "name": "_ClusterControl@32"
+    },
+    {
+      "offset": 52014,
+      "name": "__imp__ClusterControl@32"
+    },
+    {
+      "offset": 71348,
+      "name": "_GetClusterFromNode@4"
+    },
+    {
+      "offset": 71348,
+      "name": "__imp__GetClusterFromNode@4"
+    },
+    {
+      "offset": 70992,
+      "name": "_GetClusterFromGroup@4"
+    },
+    {
+      "offset": 70992,
+      "name": "__imp__GetClusterFromGroup@4"
+    },
+    {
+      "offset": 71462,
+      "name": "_GetClusterFromResource@4"
+    },
+    {
+      "offset": 71462,
+      "name": "__imp__GetClusterFromResource@4"
+    },
+    {
+      "offset": 71230,
+      "name": "_GetClusterFromNetwork@4"
+    },
+    {
+      "offset": 71230,
+      "name": "__imp__GetClusterFromNetwork@4"
+    },
+    {
+      "offset": 71108,
+      "name": "_GetClusterFromNetInterface@4"
+    },
+    {
+      "offset": 71108,
+      "name": "__imp__GetClusterFromNetInterface@4"
+    },
+    {
+      "offset": 70144,
+      "name": "_EvictClusterNodeEx@12"
+    },
+    {
+      "offset": 70144,
+      "name": "__imp__EvictClusterNodeEx@12"
+    },
+    {
+      "offset": 53852,
+      "name": "_ClusterGetEnumCount@4"
+    },
+    {
+      "offset": 53852,
+      "name": "__imp__ClusterGetEnumCount@4"
+    },
+    {
+      "offset": 58580,
+      "name": "_ClusterNodeGetEnumCount@4"
+    },
+    {
+      "offset": 58580,
+      "name": "__imp__ClusterNodeGetEnumCount@4"
+    },
+    {
+      "offset": 55288,
+      "name": "_ClusterGroupGetEnumCount@4"
+    },
+    {
+      "offset": 55288,
+      "name": "__imp__ClusterGroupGetEnumCount@4"
+    },
+    {
+      "offset": 57212,
+      "name": "_ClusterNetworkGetEnumCount@4"
+    },
+    {
+      "offset": 57212,
+      "name": "__imp__ClusterNetworkGetEnumCount@4"
+    },
+    {
+      "offset": 64764,
+      "name": "_ClusterResourceGetEnumCount@4"
+    },
+    {
+      "offset": 64764,
+      "name": "__imp__ClusterResourceGetEnumCount@4"
+    },
+    {
+      "offset": 65754,
+      "name": "_ClusterResourceTypeGetEnumCount@4"
+    },
+    {
+      "offset": 65754,
+      "name": "__imp__ClusterResourceTypeGetEnumCount@4"
+    },
+    {
+      "offset": 81404,
+      "name": "_SetClusterServiceAccountPassword@20"
+    },
+    {
+      "offset": 81404,
+      "name": "__imp__SetClusterServiceAccountPassword@20"
+    },
+    {
+      "offset": 81152,
+      "name": "_SetClusterResourceDependencyExpression@8"
+    },
+    {
+      "offset": 81152,
+      "name": "__imp__SetClusterResourceDependencyExpression@8"
+    },
+    {
+      "offset": 73452,
+      "name": "_GetClusterResourceDependencyExpression@12"
+    },
+    {
+      "offset": 73452,
+      "name": "__imp__GetClusterResourceDependencyExpression@12"
+    },
+    {
+      "offset": 67372,
+      "name": "_CreateCluster@12"
+    },
+    {
+      "offset": 67372,
+      "name": "__imp__CreateCluster@12"
+    },
+    {
+      "offset": 47718,
+      "name": "_AddClusterNode@16"
+    },
+    {
+      "offset": 47718,
+      "name": "__imp__AddClusterNode@16"
+    },
+    {
+      "offset": 69284,
+      "name": "_DestroyCluster@16"
+    },
+    {
+      "offset": 69284,
+      "name": "__imp__DestroyCluster@16"
+    },
+    {
+      "offset": 60622,
+      "name": "_ClusterRegCreateBatch@8"
+    },
+    {
+      "offset": 60622,
+      "name": "__imp__ClusterRegCreateBatch@8"
+    },
+    {
+      "offset": 59402,
+      "name": "_ClusterRegBatchAddCommand@24"
+    },
+    {
+      "offset": 59402,
+      "name": "__imp__ClusterRegBatchAddCommand@24"
+    },
+    {
+      "offset": 59774,
+      "name": "_ClusterRegCloseBatch@12"
+    },
+    {
+      "offset": 59774,
+      "name": "__imp__ClusterRegCloseBatch@12"
+    },
+    {
+      "offset": 59892,
+      "name": "_ClusterRegCloseBatchEx@12"
+    },
+    {
+      "offset": 59892,
+      "name": "__imp__ClusterRegCloseBatchEx@12"
+    },
+    {
+      "offset": 59652,
+      "name": "_ClusterRegBatchReadCommand@8"
+    },
+    {
+      "offset": 59652,
+      "name": "__imp__ClusterRegBatchReadCommand@8"
+    },
+    {
+      "offset": 59524,
+      "name": "_ClusterRegBatchCloseNotification@4"
+    },
+    {
+      "offset": 59524,
+      "name": "__imp__ClusterRegBatchCloseNotification@4"
+    },
+    {
+      "offset": 60740,
+      "name": "_ClusterRegCreateBatchNotifyPort@8"
+    },
+    {
+      "offset": 60740,
+      "name": "__imp__ClusterRegCreateBatchNotifyPort@8"
+    },
+    {
+      "offset": 60012,
+      "name": "_ClusterRegCloseBatchNotifyPort@4"
+    },
+    {
+      "offset": 60012,
+      "name": "__imp__ClusterRegCloseBatchNotifyPort@4"
+    },
+    {
+      "offset": 61946,
+      "name": "_ClusterRegGetBatchNotification@8"
+    },
+    {
+      "offset": 61946,
+      "name": "__imp__ClusterRegGetBatchNotification@8"
+    },
+    {
+      "offset": 61110,
+      "name": "_ClusterRegCreateReadBatch@8"
+    },
+    {
+      "offset": 61110,
+      "name": "__imp__ClusterRegCreateReadBatch@8"
+    },
+    {
+      "offset": 62668,
+      "name": "_ClusterRegReadBatchAddCommand@12"
+    },
+    {
+      "offset": 62668,
+      "name": "__imp__ClusterRegReadBatchAddCommand@12"
+    },
+    {
+      "offset": 60252,
+      "name": "_ClusterRegCloseReadBatch@8"
+    },
+    {
+      "offset": 60252,
+      "name": "__imp__ClusterRegCloseReadBatch@8"
+    },
+    {
+      "offset": 60372,
+      "name": "_ClusterRegCloseReadBatchEx@12"
+    },
+    {
+      "offset": 60372,
+      "name": "__imp__ClusterRegCloseReadBatchEx@12"
+    },
+    {
+      "offset": 62794,
+      "name": "_ClusterRegReadBatchReplyNextCommand@8"
+    },
+    {
+      "offset": 62794,
+      "name": "__imp__ClusterRegReadBatchReplyNextCommand@8"
+    },
+    {
+      "offset": 60496,
+      "name": "_ClusterRegCloseReadBatchReply@4"
+    },
+    {
+      "offset": 60496,
+      "name": "__imp__ClusterRegCloseReadBatchReply@4"
+    },
+    {
+      "offset": 69396,
+      "name": "_DestroyClusterGroup@4"
+    },
+    {
+      "offset": 69396,
+      "name": "__imp__DestroyClusterGroup@4"
+    },
+    {
+      "offset": 76588,
+      "name": "_OpenClusterEx@12"
+    },
+    {
+      "offset": 76588,
+      "name": "__imp__OpenClusterEx@12"
+    },
+    {
+      "offset": 76476,
+      "name": "_OpenClusterEx2@16"
+    },
+    {
+      "offset": 76476,
+      "name": "__imp__OpenClusterEx2@16"
+    },
+    {
+      "offset": 77744,
+      "name": "_OpenClusterNodeEx@16"
+    },
+    {
+      "offset": 77744,
+      "name": "__imp__OpenClusterNodeEx@16"
+    },
+    {
+      "offset": 76810,
+      "name": "_OpenClusterGroupEx@16"
+    },
+    {
+      "offset": 76810,
+      "name": "__imp__OpenClusterGroupEx@16"
+    },
+    {
+      "offset": 77974,
+      "name": "_OpenClusterResourceEx@16"
+    },
+    {
+      "offset": 77974,
+      "name": "__imp__OpenClusterResourceEx@16"
+    },
+    {
+      "offset": 77398,
+      "name": "_OpenClusterNetworkEx@16"
+    },
+    {
+      "offset": 77398,
+      "name": "__imp__OpenClusterNetworkEx@16"
+    },
+    {
+      "offset": 77162,
+      "name": "_OpenClusterNetInterfaceEx@16"
+    },
+    {
+      "offset": 77162,
+      "name": "__imp__OpenClusterNetInterfaceEx@16"
+    },
+    {
+      "offset": 48434,
+      "name": "_AddResourceToClusterSharedVolumes@4"
+    },
+    {
+      "offset": 48434,
+      "name": "__imp__AddResourceToClusterSharedVolumes@4"
+    },
+    {
+      "offset": 48564,
+      "name": "_AddResourceToClusterSharedVolumesEx@12"
+    },
+    {
+      "offset": 48564,
+      "name": "__imp__AddResourceToClusterSharedVolumesEx@12"
+    },
+    {
+      "offset": 79702,
+      "name": "_RemoveResourceFromClusterSharedVolumes@4"
+    },
+    {
+      "offset": 79702,
+      "name": "__imp__RemoveResourceFromClusterSharedVolumes@4"
+    },
+    {
+      "offset": 75072,
+      "name": "_IsFileOnClusterSharedVolume@8"
+    },
+    {
+      "offset": 75072,
+      "name": "__imp__IsFileOnClusterSharedVolume@8"
+    },
+    {
+      "offset": 74074,
+      "name": "_GetClusterSharedVolumeNameForFile@24"
+    },
+    {
+      "offset": 74074,
+      "name": "__imp__GetClusterSharedVolumeNameForFile@24"
+    },
+    {
+      "offset": 66738,
+      "name": "_ClusterSharedVolumeClearBackupState@4"
+    },
+    {
+      "offset": 66738,
+      "name": "__imp__ClusterSharedVolumeClearBackupState@4"
+    },
+    {
+      "offset": 66870,
+      "name": "_ClusterSharedVolumeSetSnapshotState@24"
+    },
+    {
+      "offset": 66870,
+      "name": "__imp__ClusterSharedVolumeSetSnapshotState@24"
+    },
+    {
+      "offset": 58938,
+      "name": "_ClusterNodeOpenEnumEx@12"
+    },
+    {
+      "offset": 58938,
+      "name": "__imp__ClusterNodeOpenEnumEx@12"
+    },
+    {
+      "offset": 58700,
+      "name": "_ClusterNodeGetEnumCountEx@4"
+    },
+    {
+      "offset": 58700,
+      "name": "__imp__ClusterNodeGetEnumCountEx@4"
+    },
+    {
+      "offset": 58466,
+      "name": "_ClusterNodeEnumEx@16"
+    },
+    {
+      "offset": 58466,
+      "name": "__imp__ClusterNodeEnumEx@16"
+    },
+    {
+      "offset": 58120,
+      "name": "_ClusterNodeCloseEnumEx@4"
+    },
+    {
+      "offset": 58120,
+      "name": "__imp__ClusterNodeCloseEnumEx@4"
+    },
+    {
+      "offset": 59288,
+      "name": "_ClusterOpenEnumEx@12"
+    },
+    {
+      "offset": 59288,
+      "name": "__imp__ClusterOpenEnumEx@12"
+    },
+    {
+      "offset": 53968,
+      "name": "_ClusterGetEnumCountEx@4"
+    },
+    {
+      "offset": 53968,
+      "name": "__imp__ClusterGetEnumCountEx@4"
+    },
+    {
+      "offset": 52998,
+      "name": "_ClusterEnumEx@16"
+    },
+    {
+      "offset": 52998,
+      "name": "__imp__ClusterEnumEx@16"
+    },
+    {
+      "offset": 51900,
+      "name": "_ClusterCloseEnumEx@4"
+    },
+    {
+      "offset": 51900,
+      "name": "__imp__ClusterCloseEnumEx@4"
+    },
+    {
+      "offset": 67722,
+      "name": "_CreateClusterGroupEx@12"
+    },
+    {
+      "offset": 67722,
+      "name": "__imp__CreateClusterGroupEx@12"
+    },
+    {
+      "offset": 55646,
+      "name": "_ClusterGroupOpenEnumEx@24"
+    },
+    {
+      "offset": 55646,
+      "name": "__imp__ClusterGroupOpenEnumEx@24"
+    },
+    {
+      "offset": 55408,
+      "name": "_ClusterGroupGetEnumCountEx@4"
+    },
+    {
+      "offset": 55408,
+      "name": "__imp__ClusterGroupGetEnumCountEx@4"
+    },
+    {
+      "offset": 55172,
+      "name": "_ClusterGroupEnumEx@16"
+    },
+    {
+      "offset": 55172,
+      "name": "__imp__ClusterGroupEnumEx@16"
+    },
+    {
+      "offset": 54822,
+      "name": "_ClusterGroupCloseEnumEx@4"
+    },
+    {
+      "offset": 54822,
+      "name": "__imp__ClusterGroupCloseEnumEx@4"
+    },
+    {
+      "offset": 75308,
+      "name": "_MoveClusterGroupEx@20"
+    },
+    {
+      "offset": 75308,
+      "name": "__imp__MoveClusterGroupEx@20"
+    },
+    {
+      "offset": 48932,
+      "name": "_CancelClusterGroupOperation@8"
+    },
+    {
+      "offset": 48932,
+      "name": "__imp__CancelClusterGroupOperation@8"
+    },
+    {
+      "offset": 68326,
+      "name": "_CreateClusterNotifyPortV2@20"
+    },
+    {
+      "offset": 68326,
+      "name": "__imp__CreateClusterNotifyPortV2@20"
+    },
+    {
+      "offset": 78438,
+      "name": "_RegisterClusterNotifyV2@28"
+    },
+    {
+      "offset": 78438,
+      "name": "__imp__RegisterClusterNotifyV2@28"
+    },
+    {
+      "offset": 73214,
+      "name": "_GetClusterNotifyV2@56"
+    },
+    {
+      "offset": 73214,
+      "name": "__imp__GetClusterNotifyV2@56"
+    },
+    {
+      "offset": 74434,
+      "name": "_GetNotifyEventHandle@8"
+    },
+    {
+      "offset": 74434,
+      "name": "__imp__GetNotifyEventHandle@8"
+    },
+    {
+      "offset": 62308,
+      "name": "_ClusterRegQueryAllValues@12"
+    },
+    {
+      "offset": 62308,
+      "name": "__imp__ClusterRegQueryAllValues@12"
+    },
+    {
+      "offset": 53108,
+      "name": "_ClusterFreeMemory@4"
+    },
+    {
+      "offset": 53108,
+      "name": "__imp__ClusterFreeMemory@4"
+    },
+    {
+      "offset": 76012,
+      "name": "_OnlineClusterGroupEx@20"
+    },
+    {
+      "offset": 76012,
+      "name": "__imp__OnlineClusterGroupEx@20"
+    },
+    {
+      "offset": 75540,
+      "name": "_OfflineClusterGroupEx@16"
+    },
+    {
+      "offset": 75540,
+      "name": "__imp__OfflineClusterGroupEx@16"
+    },
+    {
+      "offset": 76248,
+      "name": "_OnlineClusterResourceEx@16"
+    },
+    {
+      "offset": 76248,
+      "name": "__imp__OnlineClusterResourceEx@16"
+    },
+    {
+      "offset": 75776,
+      "name": "_OfflineClusterResourceEx@16"
+    },
+    {
+      "offset": 75776,
+      "name": "__imp__OfflineClusterResourceEx@16"
+    },
+    {
+      "offset": 65134,
+      "name": "_ClusterResourceOpenEnumEx@24"
+    },
+    {
+      "offset": 65134,
+      "name": "__imp__ClusterResourceOpenEnumEx@24"
+    },
+    {
+      "offset": 64888,
+      "name": "_ClusterResourceGetEnumCountEx@4"
+    },
+    {
+      "offset": 64888,
+      "name": "__imp__ClusterResourceGetEnumCountEx@4"
+    },
+    {
+      "offset": 64646,
+      "name": "_ClusterResourceEnumEx@16"
+    },
+    {
+      "offset": 64646,
+      "name": "__imp__ClusterResourceEnumEx@16"
+    },
+    {
+      "offset": 64162,
+      "name": "_ClusterResourceCloseEnumEx@4"
+    },
+    {
+      "offset": 64162,
+      "name": "__imp__ClusterResourceCloseEnumEx@4"
+    },
+    {
+      "offset": 66006,
+      "name": "_ClusterSendReceiveMrr@40"
+    },
+    {
+      "offset": 66006,
+      "name": "__imp__ClusterSendReceiveMrr@40"
+    },
+    {
+      "offset": 53222,
+      "name": "_ClusterFreeMrrResponse@4"
+    },
+    {
+      "offset": 53222,
+      "name": "__imp__ClusterFreeMrrResponse@4"
+    },
+    {
+      "offset": 67002,
+      "name": "_ClusterStmFindDisk@24"
+    },
+    {
+      "offset": 67002,
+      "name": "__imp__ClusterStmFindDisk@24"
+    },
+    {
+      "offset": 78204,
+      "name": "_PauseClusterNodeEx@16"
+    },
+    {
+      "offset": 78204,
+      "name": "__imp__PauseClusterNodeEx@16"
+    },
+    {
+      "offset": 80188,
+      "name": "_ResumeClusterNodeEx@12"
+    },
+    {
+      "offset": 80188,
+      "name": "__imp__ResumeClusterNodeEx@12"
+    },
+    {
+      "offset": 46524,
+      "name": "?CCHlpCreateClusterNameCOIfNotExists@@YGKPB_W000000HHPAH1AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@22@Z"
+    },
+    {
+      "offset": 46524,
+      "name": "__imp_?CCHlpCreateClusterNameCOIfNotExists@@YGKPB_W000000HHPAH1AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@22@Z"
+    },
+    {
+      "offset": 46746,
+      "name": "?CCHlpCreateClusterNameInAD@@YGKPB_W000HPAPAVClusterNameADClusterState@@@Z"
+    },
+    {
+      "offset": 46746,
+      "name": "__imp_?CCHlpCreateClusterNameInAD@@YGKPB_W000HPAPAVClusterNameADClusterState@@@Z"
+    },
+    {
+      "offset": 47186,
+      "name": "?CCHlpRestoreClusterVirtualObjectToInitialState@@YGKPA_W00H@Z"
+    },
+    {
+      "offset": 47186,
+      "name": "__imp_?CCHlpRestoreClusterVirtualObjectToInitialState@@YGKPA_W00H@Z"
+    },
+    {
+      "offset": 45876,
+      "name": "?CCHlpConfigureNode@@YGKV?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@KU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@K@std@@@2@@std@@AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@2@1AAV?$vector@EV?$allocator@E@std@@@2@11111PAKAAV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@2@_NK@Z"
+    },
+    {
+      "offset": 45876,
+      "name": "__imp_?CCHlpConfigureNode@@YGKV?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@KU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@K@std@@@2@@std@@AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@2@1AAV?$vector@EV?$allocator@E@std@@@2@11111PAKAAV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@2@_NK@Z"
+    },
+    {
+      "offset": 47054,
+      "name": "?CCHlpGetDNSHostLabel@@YGJPB_WPAPA_W@Z"
+    },
+    {
+      "offset": 47054,
+      "name": "__imp_?CCHlpGetDNSHostLabel@@YGJPB_WPAPA_W@Z"
+    },
+    {
+      "offset": 45728,
+      "name": "?CCHlpAddNodeUpdateCluster@@YGJPAU_HCLUSTER@@PA_WPAK@Z"
+    },
+    {
+      "offset": 45728,
+      "name": "__imp_?CCHlpAddNodeUpdateCluster@@YGJPAU_HCLUSTER@@PA_WPAK@Z"
+    },
+    {
+      "offset": 46914,
+      "name": "?CCHlpGetClusterServiceSecret@@YGJPB_WPAPA_W@Z"
+    },
+    {
+      "offset": 46914,
+      "name": "__imp_?CCHlpGetClusterServiceSecret@@YGJPB_WPAPA_W@Z"
+    },
+    {
+      "offset": 67958,
+      "name": "_CreateClusterManagementPoint@20"
+    },
+    {
+      "offset": 67958,
+      "name": "__imp__CreateClusterManagementPoint@20"
+    },
+    {
+      "offset": 68084,
+      "name": "_CreateClusterNameAccount@16"
+    },
+    {
+      "offset": 68084,
+      "name": "__imp__CreateClusterNameAccount@16"
+    },
+    {
+      "offset": 68688,
+      "name": "_CreateClusterResourceWithId@20"
+    },
+    {
+      "offset": 68688,
+      "name": "__imp__CreateClusterResourceWithId@20"
+    },
+    {
+      "offset": 67118,
+      "name": "_ClusterUpgradeFunctionalLevel@16"
+    },
+    {
+      "offset": 67118,
+      "name": "__imp__ClusterUpgradeFunctionalLevel@16"
+    },
+    {
+      "offset": 67244,
+      "name": "_ClusterUpgradeFunctionalLevelEx@20"
+    },
+    {
+      "offset": 67244,
+      "name": "__imp__ClusterUpgradeFunctionalLevelEx@20"
+    },
+    {
+      "offset": 78558,
+      "name": "_RegisterClusterResourceTypeNotifyV2@24"
+    },
+    {
+      "offset": 78558,
+      "name": "__imp__RegisterClusterResourceTypeNotifyV2@24"
+    },
+    {
+      "offset": 51548,
+      "name": "_ClusterCaptureLiveDump@100"
+    },
+    {
+      "offset": 51548,
+      "name": "__imp__ClusterCaptureLiveDump@100"
+    },
+    {
+      "offset": 50796,
+      "name": "_CluGetFaultDomainObjects@12"
+    },
+    {
+      "offset": 50796,
+      "name": "__imp__CluGetFaultDomainObjects@12"
+    },
+    {
+      "offset": 50676,
+      "name": "_CluGetFaultDomainObject@16"
+    },
+    {
+      "offset": 50676,
+      "name": "__imp__CluGetFaultDomainObject@16"
+    },
+    {
+      "offset": 50564,
+      "name": "_CluGetDriveInfo@16"
+    },
+    {
+      "offset": 50564,
+      "name": "__imp__CluGetDriveInfo@16"
+    },
+    {
+      "offset": 50458,
+      "name": "_CluFreeStr@4"
+    },
+    {
+      "offset": 50458,
+      "name": "__imp__CluFreeStr@4"
+    },
+    {
+      "offset": 50342,
+      "name": "_CluFreeGuidArrayPtr@4"
+    },
+    {
+      "offset": 50342,
+      "name": "__imp__CluFreeGuidArrayPtr@4"
+    },
+    {
+      "offset": 50224,
+      "name": "_CluFreeFaultDomainInfo@4"
+    },
+    {
+      "offset": 50224,
+      "name": "__imp__CluFreeFaultDomainInfo@4"
+    },
+    {
+      "offset": 66124,
+      "name": "_ClusterSendReceiveMrrAsUser@40"
+    },
+    {
+      "offset": 66124,
+      "name": "__imp__ClusterSendReceiveMrrAsUser@40"
+    },
+    {
+      "offset": 65504,
+      "name": "_ClusterResourceTypeControlAsUser@36"
+    },
+    {
+      "offset": 65504,
+      "name": "__imp__ClusterResourceTypeControlAsUser@36"
+    },
+    {
+      "offset": 64404,
+      "name": "_ClusterResourceControlAsUser@32"
+    },
+    {
+      "offset": 64404,
+      "name": "__imp__ClusterResourceControlAsUser@32"
+    },
+    {
+      "offset": 50918,
+      "name": "_CluRemoveFaultDomainObject@12"
+    },
+    {
+      "offset": 50918,
+      "name": "__imp__CluRemoveFaultDomainObject@12"
+    },
+    {
+      "offset": 66248,
+      "name": "_ClusterSetAccountAccess@16"
+    },
+    {
+      "offset": 66248,
+      "name": "__imp__ClusterSetAccountAccess@16"
+    },
+    {
+      "offset": 52382,
+      "name": "_ClusterCreateFaultDomain@28"
+    },
+    {
+      "offset": 52382,
+      "name": "__imp__ClusterCreateFaultDomain@28"
+    },
+    {
+      "offset": 52504,
+      "name": "_ClusterCreateFaultDomainFromXML@12"
+    },
+    {
+      "offset": 52504,
+      "name": "__imp__ClusterCreateFaultDomainFromXML@12"
+    },
+    {
+      "offset": 63662,
+      "name": "_ClusterRemoveFaultDomain@12"
+    },
+    {
+      "offset": 63662,
+      "name": "__imp__ClusterRemoveFaultDomain@12"
+    },
+    {
+      "offset": 66498,
+      "name": "_ClusterSetFaultDomain@28"
+    },
+    {
+      "offset": 66498,
+      "name": "__imp__ClusterSetFaultDomain@28"
+    },
+    {
+      "offset": 54086,
+      "name": "_ClusterGetFaultDomainObject@16"
+    },
+    {
+      "offset": 54086,
+      "name": "__imp__ClusterGetFaultDomainObject@16"
+    },
+    {
+      "offset": 54210,
+      "name": "_ClusterGetFaultDomainObjects@20"
+    },
+    {
+      "offset": 54210,
+      "name": "__imp__ClusterGetFaultDomainObjects@20"
+    },
+    {
+      "offset": 54336,
+      "name": "_ClusterGetFaultDomainState@16"
+    },
+    {
+      "offset": 54336,
+      "name": "__imp__ClusterGetFaultDomainState@16"
+    },
+    {
+      "offset": 66616,
+      "name": "_ClusterSetNodeFaultDomain@12"
+    },
+    {
+      "offset": 66616,
+      "name": "__imp__ClusterSetNodeFaultDomain@12"
+    },
+    {
+      "offset": 54460,
+      "name": "_ClusterGetFaultDomainXML@12"
+    },
+    {
+      "offset": 54460,
+      "name": "__imp__ClusterGetFaultDomainXML@12"
+    },
+    {
+      "offset": 52248,
+      "name": "_ClusterCreateClusterStorageEnclosure@52"
+    },
+    {
+      "offset": 52248,
+      "name": "__imp__ClusterCreateClusterStorageEnclosure@52"
+    },
+    {
+      "offset": 63528,
+      "name": "_ClusterRemoveClusterStorageEnclosure@12"
+    },
+    {
+      "offset": 63528,
+      "name": "__imp__ClusterRemoveClusterStorageEnclosure@12"
+    },
+    {
+      "offset": 66368,
+      "name": "_ClusterSetClusterStorageEnclosure@44"
+    },
+    {
+      "offset": 66368,
+      "name": "__imp__ClusterSetClusterStorageEnclosure@44"
+    },
+    {
+      "offset": 53462,
+      "name": "_ClusterGetClusterStorageEnclosureObject@16"
+    },
+    {
+      "offset": 53462,
+      "name": "__imp__ClusterGetClusterStorageEnclosureObject@16"
+    },
+    {
+      "offset": 53598,
+      "name": "_ClusterGetClusterStorageEnclosureObjects@20"
+    },
+    {
+      "offset": 53598,
+      "name": "__imp__ClusterGetClusterStorageEnclosureObjects@20"
+    },
+    {
+      "offset": 53736,
+      "name": "_ClusterGetDriveInfo@20"
+    },
+    {
+      "offset": 53736,
+      "name": "__imp__ClusterGetDriveInfo@20"
+    },
+    {
+      "offset": 74550,
+      "name": "_InitializeClusFaultDomainInfo@4"
+    },
+    {
+      "offset": 74550,
+      "name": "__imp__InitializeClusFaultDomainInfo@4"
+    },
+    {
+      "offset": 74676,
+      "name": "_InitializeClusFaultDomainInfoArray@4"
+    },
+    {
+      "offset": 74676,
+      "name": "__imp__InitializeClusFaultDomainInfoArray@4"
+    },
+    {
+      "offset": 70376,
+      "name": "_FreeClusFaultDomainInfo@4"
+    },
+    {
+      "offset": 70376,
+      "name": "__imp__FreeClusFaultDomainInfo@4"
+    },
+    {
+      "offset": 70496,
+      "name": "_FreeClusFaultDomainInfoArray@4"
+    },
+    {
+      "offset": 70496,
+      "name": "__imp__FreeClusFaultDomainInfoArray@4"
+    },
+    {
+      "offset": 70620,
+      "name": "_FreeClusFaultDomainXML@4"
+    },
+    {
+      "offset": 70620,
+      "name": "__imp__FreeClusFaultDomainXML@4"
+    },
+    {
+      "offset": 74806,
+      "name": "_InitializeClusStorageEnclosureInfo@4"
+    },
+    {
+      "offset": 74806,
+      "name": "__imp__InitializeClusStorageEnclosureInfo@4"
+    },
+    {
+      "offset": 74936,
+      "name": "_InitializeClusStorageEnclosureInfoArray@4"
+    },
+    {
+      "offset": 74936,
+      "name": "__imp__InitializeClusStorageEnclosureInfoArray@4"
+    },
+    {
+      "offset": 70738,
+      "name": "_FreeClusStorageEnclosureInfo@4"
+    },
+    {
+      "offset": 70738,
+      "name": "__imp__FreeClusStorageEnclosureInfo@4"
+    },
+    {
+      "offset": 70862,
+      "name": "_FreeClusStorageEnclosureInfoArray@4"
+    },
+    {
+      "offset": 70862,
+      "name": "__imp__FreeClusStorageEnclosureInfoArray@4"
+    },
+    {
+      "offset": 67840,
+      "name": "_CreateClusterGroupSet@8"
+    },
+    {
+      "offset": 67840,
+      "name": "__imp__CreateClusterGroupSet@8"
+    },
+    {
+      "offset": 76926,
+      "name": "_OpenClusterGroupSet@8"
+    },
+    {
+      "offset": 76926,
+      "name": "__imp__OpenClusterGroupSet@8"
+    },
+    {
+      "offset": 49526,
+      "name": "_CloseClusterGroupSet@4"
+    },
+    {
+      "offset": 49526,
+      "name": "__imp__CloseClusterGroupSet@4"
+    },
+    {
+      "offset": 68926,
+      "name": "_DeleteClusterGroupSet@4"
+    },
+    {
+      "offset": 68926,
+      "name": "__imp__DeleteClusterGroupSet@4"
+    },
+    {
+      "offset": 51168,
+      "name": "_ClusterAddGroupToGroupSet@8"
+    },
+    {
+      "offset": 51168,
+      "name": "__imp__ClusterAddGroupToGroupSet@8"
+    },
+    {
+      "offset": 51290,
+      "name": "_ClusterAddGroupToGroupSetWithDomains@16"
+    },
+    {
+      "offset": 51290,
+      "name": "__imp__ClusterAddGroupToGroupSetWithDomains@16"
+    },
+    {
+      "offset": 63916,
+      "name": "_ClusterRemoveGroupFromGroupSet@4"
+    },
+    {
+      "offset": 63916,
+      "name": "__imp__ClusterRemoveGroupFromGroupSet@4"
+    },
+    {
+      "offset": 47340,
+      "name": "_AddClusterGroupDependency@8"
+    },
+    {
+      "offset": 47340,
+      "name": "__imp__AddClusterGroupDependency@8"
+    },
+    {
+      "offset": 47462,
+      "name": "_AddClusterGroupSetDependency@8"
+    },
+    {
+      "offset": 47462,
+      "name": "__imp__AddClusterGroupSetDependency@8"
+    },
+    {
+      "offset": 47586,
+      "name": "_AddClusterGroupToGroupSetDependency@8"
+    },
+    {
+      "offset": 47586,
+      "name": "__imp__AddClusterGroupToGroupSetDependency@8"
+    },
+    {
+      "offset": 55886,
+      "name": "_ClusterGroupSetControl@32"
+    },
+    {
+      "offset": 55886,
+      "name": "__imp__ClusterGroupSetControl@32"
+    },
+    {
+      "offset": 81534,
+      "name": "_SetGroupDependencyExpression@8"
+    },
+    {
+      "offset": 81534,
+      "name": "__imp__SetGroupDependencyExpression@8"
+    },
+    {
+      "offset": 78690,
+      "name": "_RemoveClusterGroupDependency@8"
+    },
+    {
+      "offset": 78690,
+      "name": "__imp__RemoveClusterGroupDependency@8"
+    },
+    {
+      "offset": 80540,
+      "name": "_SetClusterGroupSetDependencyExpression@8"
+    },
+    {
+      "offset": 80540,
+      "name": "__imp__SetClusterGroupSetDependencyExpression@8"
+    },
+    {
+      "offset": 78814,
+      "name": "_RemoveClusterGroupSetDependency@8"
+    },
+    {
+      "offset": 78814,
+      "name": "__imp__RemoveClusterGroupSetDependency@8"
+    },
+    {
+      "offset": 78942,
+      "name": "_RemoveClusterGroupToGroupSetDependency@8"
+    },
+    {
+      "offset": 78942,
+      "name": "__imp__RemoveClusterGroupToGroupSetDependency@8"
+    },
+    {
+      "offset": 56246,
+      "name": "_ClusterGroupSetOpenEnum@4"
+    },
+    {
+      "offset": 56246,
+      "name": "__imp__ClusterGroupSetOpenEnum@4"
+    },
+    {
+      "offset": 56122,
+      "name": "_ClusterGroupSetGetEnumCount@4"
+    },
+    {
+      "offset": 56122,
+      "name": "__imp__ClusterGroupSetGetEnumCount@4"
+    },
+    {
+      "offset": 56006,
+      "name": "_ClusterGroupSetEnum@16"
+    },
+    {
+      "offset": 56006,
+      "name": "__imp__ClusterGroupSetEnum@16"
+    },
+    {
+      "offset": 55766,
+      "name": "_ClusterGroupSetCloseEnum@4"
+    },
+    {
+      "offset": 55766,
+      "name": "__imp__ClusterGroupSetCloseEnum@4"
+    },
+    {
+      "offset": 52632,
+      "name": "_ClusterCreateVMReservation@24"
+    },
+    {
+      "offset": 52632,
+      "name": "__imp__ClusterCreateVMReservation@24"
+    },
+    {
+      "offset": 52756,
+      "name": "_ClusterCreateVMReservationWithDomains@32"
+    },
+    {
+      "offset": 52756,
+      "name": "__imp__ClusterCreateVMReservationWithDomains@32"
+    },
+    {
+      "offset": 54582,
+      "name": "_ClusterGetPlacementScore@24"
+    },
+    {
+      "offset": 54582,
+      "name": "__imp__ClusterGetPlacementScore@24"
+    },
+    {
+      "offset": 53340,
+      "name": "_ClusterFreeVMReservation@12"
+    },
+    {
+      "offset": 53340,
+      "name": "__imp__ClusterFreeVMReservation@12"
+    },
+    {
+      "offset": 57750,
+      "name": "_ClusterNetworkHealthGetNodeConnections@12"
+    },
+    {
+      "offset": 57750,
+      "name": "__imp__ClusterNetworkHealthGetNodeConnections@12"
+    },
+    {
+      "offset": 57610,
+      "name": "_ClusterNetworkHealthGetInterfaceConnections@12"
+    },
+    {
+      "offset": 57610,
+      "name": "__imp__ClusterNetworkHealthGetInterfaceConnections@12"
+    },
+    {
+      "offset": 57474,
+      "name": "_ClusterNetworkHealthFreeNodeConnections@4"
+    },
+    {
+      "offset": 57474,
+      "name": "__imp__ClusterNetworkHealthFreeNodeConnections@4"
+    },
+    {
+      "offset": 57334,
+      "name": "_ClusterNetworkHealthFreeInterfaceConnections@4"
+    },
+    {
+      "offset": 57334,
+      "name": "__imp__ClusterNetworkHealthFreeInterfaceConnections@4"
+    },
+    {
+      "offset": 67482,
+      "name": "_CreateClusterAvailabilitySet@12"
+    },
+    {
+      "offset": 67482,
+      "name": "__imp__CreateClusterAvailabilitySet@12"
+    },
+    {
+      "offset": 59056,
+      "name": "_ClusterNodeReplacement@12"
+    },
+    {
+      "offset": 59056,
+      "name": "__imp__ClusterNodeReplacement@12"
+    },
+    {
+      "offset": 48304,
+      "name": "_AddCrossClusterGroupSetDependency@12"
+    },
+    {
+      "offset": 48304,
+      "name": "__imp__AddCrossClusterGroupSetDependency@12"
+    },
+    {
+      "offset": 79568,
+      "name": "_RemoveCrossClusterGroupSetDependency@12"
+    },
+    {
+      "offset": 79568,
+      "name": "__imp__RemoveCrossClusterGroupSetDependency@12"
+    },
+    {
+      "offset": 48186,
+      "name": "_AddClusterStorageNode@24"
+    },
+    {
+      "offset": 48186,
+      "name": "__imp__AddClusterStorageNode@24"
+    },
+    {
+      "offset": 79446,
+      "name": "_RemoveClusterStorageNode@16"
+    },
+    {
+      "offset": 79446,
+      "name": "__imp__RemoveClusterStorageNode@16"
+    },
+    {
+      "offset": 77628,
+      "name": "_OpenClusterNodeById@8"
+    },
+    {
+      "offset": 77628,
+      "name": "__imp__OpenClusterNodeById@8"
+    },
+    {
+      "offset": 79076,
+      "name": "_RemoveClusterNameAccount@8"
+    },
+    {
+      "offset": 79076,
+      "name": "__imp__RemoveClusterNameAccount@8"
+    },
+    {
+      "offset": 69898,
+      "name": "_DetermineClusterCloudTypeFromNodelist@12"
+    },
+    {
+      "offset": 69898,
+      "name": "__imp__DetermineClusterCloudTypeFromNodelist@12"
+    },
+    {
+      "offset": 69766,
+      "name": "_DetermineClusterCloudTypeFromCluster@8"
+    },
+    {
+      "offset": 69766,
+      "name": "__imp__DetermineClusterCloudTypeFromCluster@8"
+    },
+    {
+      "offset": 69638,
+      "name": "_DetermineCNOResTypeFromNodelist@12"
+    },
+    {
+      "offset": 69638,
+      "name": "__imp__DetermineCNOResTypeFromNodelist@12"
+    },
+    {
+      "offset": 69512,
+      "name": "_DetermineCNOResTypeFromCluster@8"
+    },
+    {
+      "offset": 69512,
+      "name": "__imp__DetermineCNOResTypeFromCluster@8"
+    },
+    {
+      "offset": 51668,
+      "name": "_ClusterChangeVMSettings@12"
+    },
+    {
+      "offset": 51668,
+      "name": "__imp__ClusterChangeVMSettings@12"
+    },
+    {
+      "offset": 74204,
+      "name": "_GetNodeCloudTypeDW@8"
+    },
+    {
+      "offset": 74204,
+      "name": "__imp__GetNodeCloudTypeDW@8"
+    },
+    {
+      "offset": 49178,
+      "name": "_ChangeClusterResourceGroupEx@16"
+    },
+    {
+      "offset": 49178,
+      "name": "__imp__ChangeClusterResourceGroupEx@16"
+    },
+    {
+      "offset": 52126,
+      "name": "_ClusterCreateAffinityRule@12"
+    },
+    {
+      "offset": 52126,
+      "name": "__imp__ClusterCreateAffinityRule@12"
+    },
+    {
+      "offset": 63406,
+      "name": "_ClusterRemoveAffinityRule@8"
+    },
+    {
+      "offset": 63406,
+      "name": "__imp__ClusterRemoveAffinityRule@8"
+    },
+    {
+      "offset": 51042,
+      "name": "_ClusterAddGroupToAffinityRule@12"
+    },
+    {
+      "offset": 51042,
+      "name": "__imp__ClusterAddGroupToAffinityRule@12"
+    },
+    {
+      "offset": 63784,
+      "name": "_ClusterRemoveGroupFromAffinityRule@12"
+    },
+    {
+      "offset": 63784,
+      "name": "__imp__ClusterRemoveGroupFromAffinityRule@12"
+    },
+    {
+      "offset": 51424,
+      "name": "_ClusterAffinityRuleControl@36"
+    },
+    {
+      "offset": 51424,
+      "name": "__imp__ClusterAffinityRuleControl@36"
+    },
+    {
+      "offset": 47830,
+      "name": "_AddClusterNodeEx@20"
+    },
+    {
+      "offset": 47830,
+      "name": "__imp__AddClusterNodeEx@20"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 45728,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4124582553,
+      "sizeOfData": 67,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "?CCHlpAddNodeUpdateCluster@@YGJPAU_HCLUSTER@@PA_WPAK@Z (long __stdcall CCHlpAddNodeUpdateCluster(struct _HCLUSTER *,wchar_t *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "CCHlpAddNodeUpdateCluster"
+    },
+    {
+      "offset": 45876,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3776456166,
+      "sizeOfData": 567,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "?CCHlpConfigureNode@@YGKV?$map@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@KU?$less@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@V?$allocator@U?$pair@$$CBV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@K@std@@@2@@std@@AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@2@1AAV?$vector@EV?$allocator@E@std@@@2@11111PAKAAV?$vector@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@V?$allocator@V?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@@2@@2@_NK@Z (unsigned long __stdcall CCHlpConfigureNode(class std::map<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,unsigned long,struct std::less<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > >,class std::allocator<struct std::pair<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > const ,unsigned long> > >,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::vector<unsigned char,class std::allocator<unsigned char> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,unsigned long *,class std::vector<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> >,class std::allocator<class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > > > &,bool,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "CCHlpConfigureNode"
+    },
+    {
+      "offset": 46524,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3870382723,
+      "sizeOfData": 141,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "?CCHlpCreateClusterNameCOIfNotExists@@YGKPB_W000000HHPAH1AAV?$basic_string@_WU?$char_traits@_W@std@@V?$allocator@_W@2@@std@@22@Z (unsigned long __stdcall CCHlpCreateClusterNameCOIfNotExists(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,int,int,int *,int *,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &,class std::basic_string<wchar_t,struct std::char_traits<wchar_t>,class std::allocator<wchar_t> > &))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "CCHlpCreateClusterNameCOIfNotExists"
+    },
+    {
+      "offset": 46746,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3770909099,
+      "sizeOfData": 87,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "?CCHlpCreateClusterNameInAD@@YGKPB_W000HPAPAVClusterNameADClusterState@@@Z (unsigned long __stdcall CCHlpCreateClusterNameInAD(wchar_t const *,wchar_t const *,wchar_t const *,wchar_t const *,int,class ClusterNameADClusterState * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "CCHlpCreateClusterNameInAD"
+    },
+    {
+      "offset": 46914,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3829743746,
+      "sizeOfData": 59,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "?CCHlpGetClusterServiceSecret@@YGJPB_WPAPA_W@Z (long __stdcall CCHlpGetClusterServiceSecret(wchar_t const *,wchar_t * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "CCHlpGetClusterServiceSecret"
+    },
+    {
+      "offset": 47054,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3728874134,
+      "sizeOfData": 51,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "?CCHlpGetDNSHostLabel@@YGJPB_WPAPA_W@Z (long __stdcall CCHlpGetDNSHostLabel(wchar_t const *,wchar_t * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "CCHlpGetDNSHostLabel"
+    },
+    {
+      "offset": 47186,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3242001647,
+      "sizeOfData": 74,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "?CCHlpRestoreClusterVirtualObjectToInitialState@@YGKPA_W00H@Z (unsigned long __stdcall CCHlpRestoreClusterVirtualObjectToInitialState(wchar_t *,wchar_t *,wchar_t *,int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "CCHlpRestoreClusterVirtualObjectToInitialState"
+    },
+    {
+      "offset": 47340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4210443046,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_AddClusterGroupDependency@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "AddClusterGroupDependency"
+    },
+    {
+      "offset": 47462,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3659472389,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_AddClusterGroupSetDependency@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "AddClusterGroupSetDependency"
+    },
+    {
+      "offset": 47586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4044689174,
+      "sizeOfData": 51,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_AddClusterGroupToGroupSetDependency@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "AddClusterGroupToGroupSetDependency"
+    },
+    {
+      "offset": 47718,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3427655983,
+      "sizeOfData": 31,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_AddClusterNode@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "AddClusterNode"
+    },
+    {
+      "offset": 47830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3721622166,
+      "sizeOfData": 33,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_AddClusterNodeEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "AddClusterNodeEx"
+    },
+    {
+      "offset": 47944,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4089649724,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_AddClusterResourceDependency@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "AddClusterResourceDependency"
+    },
+    {
+      "offset": 48068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3585436533,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_AddClusterResourceNode@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "AddClusterResourceNode"
+    },
+    {
+      "offset": 48186,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3769330704,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_AddClusterStorageNode@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "AddClusterStorageNode"
+    },
+    {
+      "offset": 48304,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3282709854,
+      "sizeOfData": 50,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_AddCrossClusterGroupSetDependency@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "AddCrossClusterGroupSetDependency"
+    },
+    {
+      "offset": 48434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3658178214,
+      "sizeOfData": 49,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_AddResourceToClusterSharedVolumes@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "AddResourceToClusterSharedVolumes"
+    },
+    {
+      "offset": 48564,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4182750975,
+      "sizeOfData": 52,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_AddResourceToClusterSharedVolumesEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "AddResourceToClusterSharedVolumesEx"
+    },
+    {
+      "offset": 48696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4204215122,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_BackupClusterDatabase@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "BackupClusterDatabase"
+    },
+    {
+      "offset": 48814,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4164811565,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CanResourceBeDependent@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "CanResourceBeDependent"
+    },
+    {
+      "offset": 48932,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3294447246,
+      "sizeOfData": 43,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CancelClusterGroupOperation@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "CancelClusterGroupOperation"
+    },
+    {
+      "offset": 49056,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3979404334,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ChangeClusterResourceGroup@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "ChangeClusterResourceGroup"
+    },
+    {
+      "offset": 49178,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3612424864,
+      "sizeOfData": 45,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ChangeClusterResourceGroupEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "ChangeClusterResourceGroupEx"
+    },
+    {
+      "offset": 49304,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3245111586,
+      "sizeOfData": 28,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CloseCluster@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "CloseCluster"
+    },
+    {
+      "offset": 49412,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3689693845,
+      "sizeOfData": 33,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CloseClusterGroup@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "CloseClusterGroup"
+    },
+    {
+      "offset": 49526,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3808293969,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CloseClusterGroupSet@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "CloseClusterGroupSet"
+    },
+    {
+      "offset": 49642,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3997152657,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CloseClusterNetInterface@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "CloseClusterNetInterface"
+    },
+    {
+      "offset": 49762,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3323078869,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CloseClusterNetwork@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "CloseClusterNetwork"
+    },
+    {
+      "offset": 49878,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3961388464,
+      "sizeOfData": 32,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CloseClusterNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "CloseClusterNode"
+    },
+    {
+      "offset": 49990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4112476509,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CloseClusterNotifyPort@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "CloseClusterNotifyPort"
+    },
+    {
+      "offset": 50108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3650588540,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CloseClusterResource@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "CloseClusterResource"
+    },
+    {
+      "offset": 50224,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3276089975,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CluFreeFaultDomainInfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "CluFreeFaultDomainInfo"
+    },
+    {
+      "offset": 50342,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3731250267,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CluFreeGuidArrayPtr@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "CluFreeGuidArrayPtr"
+    },
+    {
+      "offset": 50458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4035642748,
+      "sizeOfData": 26,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CluFreeStr@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "CluFreeStr"
+    },
+    {
+      "offset": 50564,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3708242900,
+      "sizeOfData": 32,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CluGetDriveInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "CluGetDriveInfo"
+    },
+    {
+      "offset": 50676,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3318489438,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CluGetFaultDomainObject@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "CluGetFaultDomainObject"
+    },
+    {
+      "offset": 50796,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3829269054,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CluGetFaultDomainObjects@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "CluGetFaultDomainObjects"
+    },
+    {
+      "offset": 50918,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3754971664,
+      "sizeOfData": 43,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CluRemoveFaultDomainObject@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "CluRemoveFaultDomainObject"
+    },
+    {
+      "offset": 51042,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3887594249,
+      "sizeOfData": 46,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterAddGroupToAffinityRule@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "ClusterAddGroupToAffinityRule"
+    },
+    {
+      "offset": 51168,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3807909290,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterAddGroupToGroupSet@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "ClusterAddGroupToGroupSet"
+    },
+    {
+      "offset": 51290,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3910522940,
+      "sizeOfData": 53,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterAddGroupToGroupSetWithDomains@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "ClusterAddGroupToGroupSetWithDomains"
+    },
+    {
+      "offset": 51424,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4093200963,
+      "sizeOfData": 43,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterAffinityRuleControl@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "ClusterAffinityRuleControl"
+    },
+    {
+      "offset": 51548,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3333675520,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterCaptureLiveDump@100",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "ClusterCaptureLiveDump"
+    },
+    {
+      "offset": 51668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3699702392,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterChangeVMSettings@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "ClusterChangeVMSettings"
+    },
+    {
+      "offset": 51788,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3763643698,
+      "sizeOfData": 32,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterCloseEnum@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "ClusterCloseEnum"
+    },
+    {
+      "offset": 51900,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3597797576,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterCloseEnumEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "ClusterCloseEnumEx"
+    },
+    {
+      "offset": 52014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4132839676,
+      "sizeOfData": 31,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterControl@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "ClusterControl"
+    },
+    {
+      "offset": 52126,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4074089646,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterCreateAffinityRule@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "ClusterCreateAffinityRule"
+    },
+    {
+      "offset": 52248,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3832320801,
+      "sizeOfData": 53,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterCreateClusterStorageEnclosure@52",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "ClusterCreateClusterStorageEnclosure"
+    },
+    {
+      "offset": 52382,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3733420139,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterCreateFaultDomain@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "ClusterCreateFaultDomain"
+    },
+    {
+      "offset": 52504,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3670581084,
+      "sizeOfData": 48,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterCreateFaultDomainFromXML@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "ClusterCreateFaultDomainFromXML"
+    },
+    {
+      "offset": 52632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3442012935,
+      "sizeOfData": 43,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterCreateVMReservation@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "ClusterCreateVMReservation"
+    },
+    {
+      "offset": 52756,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3349381482,
+      "sizeOfData": 54,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterCreateVMReservationWithDomains@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "ClusterCreateVMReservationWithDomains"
+    },
+    {
+      "offset": 52890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3522643990,
+      "sizeOfData": 28,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterEnum@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "ClusterEnum"
+    },
+    {
+      "offset": 52998,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3271068568,
+      "sizeOfData": 30,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterEnumEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "ClusterEnumEx"
+    },
+    {
+      "offset": 53108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4009539695,
+      "sizeOfData": 33,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterFreeMemory@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "ClusterFreeMemory"
+    },
+    {
+      "offset": 53222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3745704881,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterFreeMrrResponse@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "ClusterFreeMrrResponse"
+    },
+    {
+      "offset": 53340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3520920926,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterFreeVMReservation@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "ClusterFreeVMReservation"
+    },
+    {
+      "offset": 53462,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3486557818,
+      "sizeOfData": 56,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGetClusterStorageEnclosureObject@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "ClusterGetClusterStorageEnclosureObject"
+    },
+    {
+      "offset": 53598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3613950930,
+      "sizeOfData": 57,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGetClusterStorageEnclosureObjects@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "ClusterGetClusterStorageEnclosureObjects"
+    },
+    {
+      "offset": 53736,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4225398169,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGetDriveInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "ClusterGetDriveInfo"
+    },
+    {
+      "offset": 53852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3377682700,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGetEnumCount@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "ClusterGetEnumCount"
+    },
+    {
+      "offset": 53968,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4022176815,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGetEnumCountEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "ClusterGetEnumCountEx"
+    },
+    {
+      "offset": 54086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4259564329,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGetFaultDomainObject@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "ClusterGetFaultDomainObject"
+    },
+    {
+      "offset": 54210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3533493915,
+      "sizeOfData": 45,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGetFaultDomainObjects@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "ClusterGetFaultDomainObjects"
+    },
+    {
+      "offset": 54336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3732476925,
+      "sizeOfData": 43,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGetFaultDomainState@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "ClusterGetFaultDomainState"
+    },
+    {
+      "offset": 54460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3392191064,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGetFaultDomainXML@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "ClusterGetFaultDomainXML"
+    },
+    {
+      "offset": 54582,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3716554834,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGetPlacementScore@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "ClusterGetPlacementScore"
+    },
+    {
+      "offset": 54704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3956425670,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupCloseEnum@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "ClusterGroupCloseEnum"
+    },
+    {
+      "offset": 54822,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3581549298,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupCloseEnumEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "ClusterGroupCloseEnumEx"
+    },
+    {
+      "offset": 54942,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3817135929,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupControl@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "ClusterGroupControl"
+    },
+    {
+      "offset": 55058,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4287062367,
+      "sizeOfData": 33,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupEnum@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "ClusterGroupEnum"
+    },
+    {
+      "offset": 55172,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3824556986,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupEnumEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "ClusterGroupEnumEx"
+    },
+    {
+      "offset": 55288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3844980191,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupGetEnumCount@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "ClusterGroupGetEnumCount"
+    },
+    {
+      "offset": 55408,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3282540003,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupGetEnumCountEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "ClusterGroupGetEnumCountEx"
+    },
+    {
+      "offset": 55530,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3420752589,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupOpenEnum@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "ClusterGroupOpenEnum"
+    },
+    {
+      "offset": 55646,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4269473920,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupOpenEnumEx@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "ClusterGroupOpenEnumEx"
+    },
+    {
+      "offset": 55766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3634436791,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupSetCloseEnum@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "ClusterGroupSetCloseEnum"
+    },
+    {
+      "offset": 55886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3839183592,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupSetControl@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "ClusterGroupSetControl"
+    },
+    {
+      "offset": 56006,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3781224640,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupSetEnum@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "ClusterGroupSetEnum"
+    },
+    {
+      "offset": 56122,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3634809461,
+      "sizeOfData": 43,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupSetGetEnumCount@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "ClusterGroupSetGetEnumCount"
+    },
+    {
+      "offset": 56246,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4029660013,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterGroupSetOpenEnum@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "ClusterGroupSetOpenEnum"
+    },
+    {
+      "offset": 56366,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3445744792,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNetInterfaceCloseEnum@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "ClusterNetInterfaceCloseEnum"
+    },
+    {
+      "offset": 56490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3597949751,
+      "sizeOfData": 43,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNetInterfaceControl@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "ClusterNetInterfaceControl"
+    },
+    {
+      "offset": 56614,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4188463709,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNetInterfaceEnum@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "ClusterNetInterfaceEnum"
+    },
+    {
+      "offset": 56734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4204605463,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNetInterfaceOpenEnum@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "ClusterNetInterfaceOpenEnum"
+    },
+    {
+      "offset": 56858,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3968189228,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNetworkCloseEnum@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "ClusterNetworkCloseEnum"
+    },
+    {
+      "offset": 56978,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3515606200,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNetworkControl@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "ClusterNetworkControl"
+    },
+    {
+      "offset": 57096,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3349259831,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNetworkEnum@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "ClusterNetworkEnum"
+    },
+    {
+      "offset": 57212,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4183883674,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNetworkGetEnumCount@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "ClusterNetworkGetEnumCount"
+    },
+    {
+      "offset": 57334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3446419855,
+      "sizeOfData": 60,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNetworkHealthFreeInterfaceConnections@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "ClusterNetworkHealthFreeInterfaceConnections"
+    },
+    {
+      "offset": 57474,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3697631858,
+      "sizeOfData": 55,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNetworkHealthFreeNodeConnections@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "ClusterNetworkHealthFreeNodeConnections"
+    },
+    {
+      "offset": 57610,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3593933502,
+      "sizeOfData": 60,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNetworkHealthGetInterfaceConnections@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "ClusterNetworkHealthGetInterfaceConnections"
+    },
+    {
+      "offset": 57750,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3748925929,
+      "sizeOfData": 55,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNetworkHealthGetNodeConnections@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "ClusterNetworkHealthGetNodeConnections"
+    },
+    {
+      "offset": 57886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3390704921,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNetworkOpenEnum@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "ClusterNetworkOpenEnum"
+    },
+    {
+      "offset": 58004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3516571403,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNodeCloseEnum@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "ClusterNodeCloseEnum"
+    },
+    {
+      "offset": 58120,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3681606352,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNodeCloseEnumEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "ClusterNodeCloseEnumEx"
+    },
+    {
+      "offset": 58238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3982274619,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNodeControl@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "ClusterNodeControl"
+    },
+    {
+      "offset": 58354,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4167234321,
+      "sizeOfData": 32,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNodeEnum@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "ClusterNodeEnum"
+    },
+    {
+      "offset": 58466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4170576894,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNodeEnumEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "ClusterNodeEnumEx"
+    },
+    {
+      "offset": 58580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3946695026,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNodeGetEnumCount@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "ClusterNodeGetEnumCount"
+    },
+    {
+      "offset": 58700,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3639440950,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNodeGetEnumCountEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "ClusterNodeGetEnumCountEx"
+    },
+    {
+      "offset": 58822,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3935393741,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNodeOpenEnum@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "ClusterNodeOpenEnum"
+    },
+    {
+      "offset": 58938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4090457056,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNodeOpenEnumEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "ClusterNodeOpenEnumEx"
+    },
+    {
+      "offset": 59056,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3468083457,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterNodeReplacement@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "ClusterNodeReplacement"
+    },
+    {
+      "offset": 59176,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3257495838,
+      "sizeOfData": 31,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterOpenEnum@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "ClusterOpenEnum"
+    },
+    {
+      "offset": 59288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3418211434,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterOpenEnumEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "ClusterOpenEnumEx"
+    },
+    {
+      "offset": 59402,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4115581487,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegBatchAddCommand@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "ClusterRegBatchAddCommand"
+    },
+    {
+      "offset": 59524,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3612495029,
+      "sizeOfData": 48,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegBatchCloseNotification@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "ClusterRegBatchCloseNotification"
+    },
+    {
+      "offset": 59652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4048146403,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegBatchReadCommand@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "ClusterRegBatchReadCommand"
+    },
+    {
+      "offset": 59774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3803669509,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegCloseBatch@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "ClusterRegCloseBatch"
+    },
+    {
+      "offset": 59892,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3592518046,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegCloseBatchEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "ClusterRegCloseBatchEx"
+    },
+    {
+      "offset": 60012,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4123857763,
+      "sizeOfData": 46,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegCloseBatchNotifyPort@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "ClusterRegCloseBatchNotifyPort"
+    },
+    {
+      "offset": 60138,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4282893171,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegCloseKey@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "ClusterRegCloseKey"
+    },
+    {
+      "offset": 60252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3629650079,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegCloseReadBatch@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "ClusterRegCloseReadBatch"
+    },
+    {
+      "offset": 60372,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4293086102,
+      "sizeOfData": 43,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegCloseReadBatchEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "ClusterRegCloseReadBatchEx"
+    },
+    {
+      "offset": 60496,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4040727547,
+      "sizeOfData": 45,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegCloseReadBatchReply@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "ClusterRegCloseReadBatchReply"
+    },
+    {
+      "offset": 60622,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3223255659,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegCreateBatch@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "ClusterRegCreateBatch"
+    },
+    {
+      "offset": 60740,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3781725114,
+      "sizeOfData": 47,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegCreateBatchNotifyPort@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "ClusterRegCreateBatchNotifyPort"
+    },
+    {
+      "offset": 60868,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3751829676,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegCreateKey@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "ClusterRegCreateKey"
+    },
+    {
+      "offset": 60984,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3312242661,
+      "sizeOfData": 45,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegCreateKeyForceSync@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "ClusterRegCreateKeyForceSync"
+    },
+    {
+      "offset": 61110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3570073735,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegCreateReadBatch@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "ClusterRegCreateReadBatch"
+    },
+    {
+      "offset": 61232,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3287052325,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegDeleteKey@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "ClusterRegDeleteKey"
+    },
+    {
+      "offset": 61348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3778788068,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegDeleteKeyForceSync@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "ClusterRegDeleteKeyForceSync"
+    },
+    {
+      "offset": 61472,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3246061415,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegDeleteValue@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "ClusterRegDeleteValue"
+    },
+    {
+      "offset": 61590,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3736908318,
+      "sizeOfData": 46,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegDeleteValueForceSync@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "ClusterRegDeleteValueForceSync"
+    },
+    {
+      "offset": 61716,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3655633911,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegEnumKey@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "ClusterRegEnumKey"
+    },
+    {
+      "offset": 61830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4257297068,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegEnumValue@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "ClusterRegEnumValue"
+    },
+    {
+      "offset": 61946,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4030847819,
+      "sizeOfData": 46,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegGetBatchNotification@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "ClusterRegGetBatchNotification"
+    },
+    {
+      "offset": 62072,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4162344375,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegGetKeySecurity@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "ClusterRegGetKeySecurity"
+    },
+    {
+      "offset": 62194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3254987750,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegOpenKey@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "ClusterRegOpenKey"
+    },
+    {
+      "offset": 62308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4007318021,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegQueryAllValues@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "ClusterRegQueryAllValues"
+    },
+    {
+      "offset": 62430,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3947891103,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegQueryInfoKey@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "ClusterRegQueryInfoKey"
+    },
+    {
+      "offset": 62550,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3278959853,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegQueryValue@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "ClusterRegQueryValue"
+    },
+    {
+      "offset": 62668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3896426412,
+      "sizeOfData": 46,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegReadBatchAddCommand@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "ClusterRegReadBatchAddCommand"
+    },
+    {
+      "offset": 62794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3742221107,
+      "sizeOfData": 51,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegReadBatchReplyNextCommand@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "ClusterRegReadBatchReplyNextCommand"
+    },
+    {
+      "offset": 62926,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3568751566,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegSetKeySecurity@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "ClusterRegSetKeySecurity"
+    },
+    {
+      "offset": 63048,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3662816843,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegSetValue@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "ClusterRegSetValue"
+    },
+    {
+      "offset": 63164,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3554821273,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegSetValueForceSync@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "ClusterRegSetValueForceSync"
+    },
+    {
+      "offset": 63288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3542192291,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRegSyncDatabase@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "ClusterRegSyncDatabase"
+    },
+    {
+      "offset": 63406,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3585036538,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRemoveAffinityRule@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "ClusterRemoveAffinityRule"
+    },
+    {
+      "offset": 63528,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3317749193,
+      "sizeOfData": 53,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRemoveClusterStorageEnclosure@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "ClusterRemoveClusterStorageEnclosure"
+    },
+    {
+      "offset": 63662,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4070019476,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRemoveFaultDomain@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "ClusterRemoveFaultDomain"
+    },
+    {
+      "offset": 63784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3713727039,
+      "sizeOfData": 51,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRemoveGroupFromAffinityRule@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "ClusterRemoveGroupFromAffinityRule"
+    },
+    {
+      "offset": 63916,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3475344318,
+      "sizeOfData": 46,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterRemoveGroupFromGroupSet@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "ClusterRemoveGroupFromGroupSet"
+    },
+    {
+      "offset": 64042,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3749826856,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceCloseEnum@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "ClusterResourceCloseEnum"
+    },
+    {
+      "offset": 64162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3824068516,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceCloseEnumEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "ClusterResourceCloseEnumEx"
+    },
+    {
+      "offset": 64284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3924019477,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceControl@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "ClusterResourceControl"
+    },
+    {
+      "offset": 64404,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3490458077,
+      "sizeOfData": 45,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceControlAsUser@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "ClusterResourceControlAsUser"
+    },
+    {
+      "offset": 64530,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4184782673,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceEnum@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "ClusterResourceEnum"
+    },
+    {
+      "offset": 64646,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3580320845,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceEnumEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "ClusterResourceEnumEx"
+    },
+    {
+      "offset": 64764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4117652927,
+      "sizeOfData": 43,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceGetEnumCount@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "ClusterResourceGetEnumCount"
+    },
+    {
+      "offset": 64888,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3354587190,
+      "sizeOfData": 45,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceGetEnumCountEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "ClusterResourceGetEnumCountEx"
+    },
+    {
+      "offset": 65014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3865218697,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceOpenEnum@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "ClusterResourceOpenEnum"
+    },
+    {
+      "offset": 65134,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3307122383,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceOpenEnumEx@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "ClusterResourceOpenEnumEx"
+    },
+    {
+      "offset": 65256,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3621780113,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceTypeCloseEnum@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "ClusterResourceTypeCloseEnum"
+    },
+    {
+      "offset": 65380,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4276457608,
+      "sizeOfData": 43,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceTypeControl@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "ClusterResourceTypeControl"
+    },
+    {
+      "offset": 65504,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3844925669,
+      "sizeOfData": 49,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceTypeControlAsUser@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "ClusterResourceTypeControlAsUser"
+    },
+    {
+      "offset": 65634,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3837269483,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceTypeEnum@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 158,
+      "name": "ClusterResourceTypeEnum"
+    },
+    {
+      "offset": 65754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3840077969,
+      "sizeOfData": 47,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceTypeGetEnumCount@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 159,
+      "name": "ClusterResourceTypeGetEnumCount"
+    },
+    {
+      "offset": 65882,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3634986903,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterResourceTypeOpenEnum@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 160,
+      "name": "ClusterResourceTypeOpenEnum"
+    },
+    {
+      "offset": 66006,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3760021846,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterSendReceiveMrr@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 161,
+      "name": "ClusterSendReceiveMrr"
+    },
+    {
+      "offset": 66124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4212632877,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterSendReceiveMrrAsUser@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 162,
+      "name": "ClusterSendReceiveMrrAsUser"
+    },
+    {
+      "offset": 66248,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4111271280,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterSetAccountAccess@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 163,
+      "name": "ClusterSetAccountAccess"
+    },
+    {
+      "offset": 66368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3406935603,
+      "sizeOfData": 50,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterSetClusterStorageEnclosure@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 164,
+      "name": "ClusterSetClusterStorageEnclosure"
+    },
+    {
+      "offset": 66498,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3835563167,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterSetFaultDomain@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 165,
+      "name": "ClusterSetFaultDomain"
+    },
+    {
+      "offset": 66616,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3314182444,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterSetNodeFaultDomain@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 166,
+      "name": "ClusterSetNodeFaultDomain"
+    },
+    {
+      "offset": 66738,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3850819483,
+      "sizeOfData": 51,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterSharedVolumeClearBackupState@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 167,
+      "name": "ClusterSharedVolumeClearBackupState"
+    },
+    {
+      "offset": 66870,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3830345198,
+      "sizeOfData": 52,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterSharedVolumeSetSnapshotState@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 168,
+      "name": "ClusterSharedVolumeSetSnapshotState"
+    },
+    {
+      "offset": 67002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4274941889,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterStmFindDisk@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 169,
+      "name": "ClusterStmFindDisk"
+    },
+    {
+      "offset": 67118,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3515867819,
+      "sizeOfData": 46,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterUpgradeFunctionalLevel@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 170,
+      "name": "ClusterUpgradeFunctionalLevel"
+    },
+    {
+      "offset": 67244,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3584188992,
+      "sizeOfData": 48,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ClusterUpgradeFunctionalLevelEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 171,
+      "name": "ClusterUpgradeFunctionalLevelEx"
+    },
+    {
+      "offset": 67372,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3412430041,
+      "sizeOfData": 30,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CreateCluster@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 172,
+      "name": "CreateCluster"
+    },
+    {
+      "offset": 67482,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3710704116,
+      "sizeOfData": 45,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CreateClusterAvailabilitySet@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 173,
+      "name": "CreateClusterAvailabilitySet"
+    },
+    {
+      "offset": 67608,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3332171779,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CreateClusterGroup@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 174,
+      "name": "CreateClusterGroup"
+    },
+    {
+      "offset": 67722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3236274894,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CreateClusterGroupEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 175,
+      "name": "CreateClusterGroupEx"
+    },
+    {
+      "offset": 67840,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4168581524,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CreateClusterGroupSet@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 176,
+      "name": "CreateClusterGroupSet"
+    },
+    {
+      "offset": 67958,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3456633100,
+      "sizeOfData": 45,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CreateClusterManagementPoint@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 177,
+      "name": "CreateClusterManagementPoint"
+    },
+    {
+      "offset": 68084,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3282638004,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CreateClusterNameAccount@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 178,
+      "name": "CreateClusterNameAccount"
+    },
+    {
+      "offset": 68206,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4008094544,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CreateClusterNotifyPort@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 179,
+      "name": "CreateClusterNotifyPort"
+    },
+    {
+      "offset": 68326,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3543571605,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CreateClusterNotifyPortV2@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 180,
+      "name": "CreateClusterNotifyPortV2"
+    },
+    {
+      "offset": 68448,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3675266006,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CreateClusterResource@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 181,
+      "name": "CreateClusterResource"
+    },
+    {
+      "offset": 68566,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3518912418,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CreateClusterResourceType@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 182,
+      "name": "CreateClusterResourceType"
+    },
+    {
+      "offset": 68688,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3339004537,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_CreateClusterResourceWithId@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 183,
+      "name": "CreateClusterResourceWithId"
+    },
+    {
+      "offset": 68812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3342273802,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_DeleteClusterGroup@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 184,
+      "name": "DeleteClusterGroup"
+    },
+    {
+      "offset": 68926,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3782097595,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_DeleteClusterGroupSet@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 185,
+      "name": "DeleteClusterGroupSet"
+    },
+    {
+      "offset": 69044,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3650765654,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_DeleteClusterResource@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 186,
+      "name": "DeleteClusterResource"
+    },
+    {
+      "offset": 69162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3484350522,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_DeleteClusterResourceType@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 187,
+      "name": "DeleteClusterResourceType"
+    },
+    {
+      "offset": 69284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3769564514,
+      "sizeOfData": 31,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_DestroyCluster@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 188,
+      "name": "DestroyCluster"
+    },
+    {
+      "offset": 69396,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4243670732,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_DestroyClusterGroup@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 189,
+      "name": "DestroyClusterGroup"
+    },
+    {
+      "offset": 69512,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3643642530,
+      "sizeOfData": 46,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_DetermineCNOResTypeFromCluster@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 190,
+      "name": "DetermineCNOResTypeFromCluster"
+    },
+    {
+      "offset": 69638,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3558370791,
+      "sizeOfData": 48,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_DetermineCNOResTypeFromNodelist@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 191,
+      "name": "DetermineCNOResTypeFromNodelist"
+    },
+    {
+      "offset": 69766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3555076812,
+      "sizeOfData": 52,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_DetermineClusterCloudTypeFromCluster@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 192,
+      "name": "DetermineClusterCloudTypeFromCluster"
+    },
+    {
+      "offset": 69898,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4222917229,
+      "sizeOfData": 54,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_DetermineClusterCloudTypeFromNodelist@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 193,
+      "name": "DetermineClusterCloudTypeFromNodelist"
+    },
+    {
+      "offset": 70032,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3970852272,
+      "sizeOfData": 32,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_EvictClusterNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 194,
+      "name": "EvictClusterNode"
+    },
+    {
+      "offset": 70144,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3844258300,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_EvictClusterNodeEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 195,
+      "name": "EvictClusterNodeEx"
+    },
+    {
+      "offset": 70260,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3254643616,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_FailClusterResource@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 196,
+      "name": "FailClusterResource"
+    },
+    {
+      "offset": 70376,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3367153367,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_FreeClusFaultDomainInfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 197,
+      "name": "FreeClusFaultDomainInfo"
+    },
+    {
+      "offset": 70496,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3866458011,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_FreeClusFaultDomainInfoArray@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 198,
+      "name": "FreeClusFaultDomainInfoArray"
+    },
+    {
+      "offset": 70620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3768035873,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_FreeClusFaultDomainXML@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 199,
+      "name": "FreeClusFaultDomainXML"
+    },
+    {
+      "offset": 70738,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3935372862,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_FreeClusStorageEnclosureInfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 200,
+      "name": "FreeClusStorageEnclosureInfo"
+    },
+    {
+      "offset": 70862,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4136836122,
+      "sizeOfData": 49,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_FreeClusStorageEnclosureInfoArray@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 201,
+      "name": "FreeClusStorageEnclosureInfoArray"
+    },
+    {
+      "offset": 70992,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4148338618,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterFromGroup@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 202,
+      "name": "GetClusterFromGroup"
+    },
+    {
+      "offset": 71108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3878983191,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterFromNetInterface@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 203,
+      "name": "GetClusterFromNetInterface"
+    },
+    {
+      "offset": 71230,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3300848272,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterFromNetwork@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 204,
+      "name": "GetClusterFromNetwork"
+    },
+    {
+      "offset": 71348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4017975825,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterFromNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 205,
+      "name": "GetClusterFromNode"
+    },
+    {
+      "offset": 71462,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4133536056,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterFromResource@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 206,
+      "name": "GetClusterFromResource"
+    },
+    {
+      "offset": 71580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4277052831,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterGroupKey@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 207,
+      "name": "GetClusterGroupKey"
+    },
+    {
+      "offset": 71694,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3432018131,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterGroupState@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 208,
+      "name": "GetClusterGroupState"
+    },
+    {
+      "offset": 71812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3396688180,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterInformation@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 209,
+      "name": "GetClusterInformation"
+    },
+    {
+      "offset": 71930,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3956999873,
+      "sizeOfData": 29,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterKey@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 210,
+      "name": "GetClusterKey"
+    },
+    {
+      "offset": 72040,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3270503297,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterNetInterface@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 211,
+      "name": "GetClusterNetInterface"
+    },
+    {
+      "offset": 72160,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3381669988,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterNetInterfaceKey@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 212,
+      "name": "GetClusterNetInterfaceKey"
+    },
+    {
+      "offset": 72282,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3470704022,
+      "sizeOfData": 43,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterNetInterfaceState@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 213,
+      "name": "GetClusterNetInterfaceState"
+    },
+    {
+      "offset": 72406,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3448579358,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterNetworkId@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 214,
+      "name": "GetClusterNetworkId"
+    },
+    {
+      "offset": 72522,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3366321100,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterNetworkKey@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 215,
+      "name": "GetClusterNetworkKey"
+    },
+    {
+      "offset": 72638,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3751855180,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterNetworkState@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 216,
+      "name": "GetClusterNetworkState"
+    },
+    {
+      "offset": 72756,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3711826347,
+      "sizeOfData": 33,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterNodeId@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 217,
+      "name": "GetClusterNodeId"
+    },
+    {
+      "offset": 72870,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4244528200,
+      "sizeOfData": 33,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterNodeKey@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 218,
+      "name": "GetClusterNodeKey"
+    },
+    {
+      "offset": 72984,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4052478959,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterNodeState@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 219,
+      "name": "GetClusterNodeState"
+    },
+    {
+      "offset": 73100,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3833595595,
+      "sizeOfData": 33,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterNotify@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 220,
+      "name": "GetClusterNotify"
+    },
+    {
+      "offset": 73214,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3678073830,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterNotifyV2@56",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 221,
+      "name": "GetClusterNotifyV2"
+    },
+    {
+      "offset": 73330,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3686745689,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterQuorumResource@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 222,
+      "name": "GetClusterQuorumResource"
+    },
+    {
+      "offset": 73452,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3740430068,
+      "sizeOfData": 55,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterResourceDependencyExpression@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 223,
+      "name": "GetClusterResourceDependencyExpression"
+    },
+    {
+      "offset": 73588,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3755716262,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterResourceKey@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 224,
+      "name": "GetClusterResourceKey"
+    },
+    {
+      "offset": 73706,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3852926468,
+      "sizeOfData": 46,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterResourceNetworkName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 225,
+      "name": "GetClusterResourceNetworkName"
+    },
+    {
+      "offset": 73832,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4064190739,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterResourceState@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 226,
+      "name": "GetClusterResourceState"
+    },
+    {
+      "offset": 73952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3718887463,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterResourceTypeKey@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 227,
+      "name": "GetClusterResourceTypeKey"
+    },
+    {
+      "offset": 74074,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3604374799,
+      "sizeOfData": 50,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetClusterSharedVolumeNameForFile@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 228,
+      "name": "GetClusterSharedVolumeNameForFile"
+    },
+    {
+      "offset": 74204,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3255807761,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetNodeCloudTypeDW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 229,
+      "name": "GetNodeCloudTypeDW"
+    },
+    {
+      "offset": 74318,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3307103892,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetNodeClusterState@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 230,
+      "name": "GetNodeClusterState"
+    },
+    {
+      "offset": 74434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3431365113,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_GetNotifyEventHandle@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 231,
+      "name": "GetNotifyEventHandle"
+    },
+    {
+      "offset": 74550,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4157615706,
+      "sizeOfData": 45,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_InitializeClusFaultDomainInfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 232,
+      "name": "InitializeClusFaultDomainInfo"
+    },
+    {
+      "offset": 74676,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3518628854,
+      "sizeOfData": 50,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_InitializeClusFaultDomainInfoArray@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 233,
+      "name": "InitializeClusFaultDomainInfoArray"
+    },
+    {
+      "offset": 74806,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3835676362,
+      "sizeOfData": 50,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_InitializeClusStorageEnclosureInfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 234,
+      "name": "InitializeClusStorageEnclosureInfo"
+    },
+    {
+      "offset": 74936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3646795385,
+      "sizeOfData": 55,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_InitializeClusStorageEnclosureInfoArray@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 235,
+      "name": "InitializeClusStorageEnclosureInfoArray"
+    },
+    {
+      "offset": 75072,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4284180471,
+      "sizeOfData": 43,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_IsFileOnClusterSharedVolume@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 236,
+      "name": "IsFileOnClusterSharedVolume"
+    },
+    {
+      "offset": 75196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3319500175,
+      "sizeOfData": 32,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_MoveClusterGroup@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 237,
+      "name": "MoveClusterGroup"
+    },
+    {
+      "offset": 75308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3577610341,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_MoveClusterGroupEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 238,
+      "name": "MoveClusterGroupEx"
+    },
+    {
+      "offset": 75424,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3350765635,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OfflineClusterGroup@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 239,
+      "name": "OfflineClusterGroup"
+    },
+    {
+      "offset": 75540,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3961522365,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OfflineClusterGroupEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 240,
+      "name": "OfflineClusterGroupEx"
+    },
+    {
+      "offset": 75658,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3782236739,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OfflineClusterResource@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 241,
+      "name": "OfflineClusterResource"
+    },
+    {
+      "offset": 75776,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3676799117,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OfflineClusterResourceEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 242,
+      "name": "OfflineClusterResourceEx"
+    },
+    {
+      "offset": 75898,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3462172175,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OnlineClusterGroup@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 243,
+      "name": "OnlineClusterGroup"
+    },
+    {
+      "offset": 76012,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3680263079,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OnlineClusterGroupEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 244,
+      "name": "OnlineClusterGroupEx"
+    },
+    {
+      "offset": 76130,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4195856711,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OnlineClusterResource@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 245,
+      "name": "OnlineClusterResource"
+    },
+    {
+      "offset": 76248,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3634604813,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OnlineClusterResourceEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 246,
+      "name": "OnlineClusterResourceEx"
+    },
+    {
+      "offset": 76368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4168576414,
+      "sizeOfData": 27,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenCluster@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 247,
+      "name": "OpenCluster"
+    },
+    {
+      "offset": 76476,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3375172483,
+      "sizeOfData": 31,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterEx2@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 249,
+      "name": "OpenClusterEx2"
+    },
+    {
+      "offset": 76588,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4199067902,
+      "sizeOfData": 30,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 248,
+      "name": "OpenClusterEx"
+    },
+    {
+      "offset": 76698,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3416138481,
+      "sizeOfData": 32,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterGroup@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 250,
+      "name": "OpenClusterGroup"
+    },
+    {
+      "offset": 76810,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3833779229,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterGroupEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 251,
+      "name": "OpenClusterGroupEx"
+    },
+    {
+      "offset": 76926,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3672157012,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterGroupSet@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 252,
+      "name": "OpenClusterGroupSet"
+    },
+    {
+      "offset": 77042,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4156218270,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterNetInterface@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 253,
+      "name": "OpenClusterNetInterface"
+    },
+    {
+      "offset": 77162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3612215582,
+      "sizeOfData": 42,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterNetInterfaceEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 254,
+      "name": "OpenClusterNetInterfaceEx"
+    },
+    {
+      "offset": 77284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4082311375,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterNetwork@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 255,
+      "name": "OpenClusterNetwork"
+    },
+    {
+      "offset": 77398,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3877010422,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterNetworkEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 256,
+      "name": "OpenClusterNetworkEx"
+    },
+    {
+      "offset": 77516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3810342194,
+      "sizeOfData": 31,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterNode@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 257,
+      "name": "OpenClusterNode"
+    },
+    {
+      "offset": 77628,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4045236283,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterNodeById@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 258,
+      "name": "OpenClusterNodeById"
+    },
+    {
+      "offset": 77744,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4293098451,
+      "sizeOfData": 34,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterNodeEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 259,
+      "name": "OpenClusterNodeEx"
+    },
+    {
+      "offset": 77858,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3615407023,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterResource@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 260,
+      "name": "OpenClusterResource"
+    },
+    {
+      "offset": 77974,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3379317963,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_OpenClusterResourceEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 261,
+      "name": "OpenClusterResourceEx"
+    },
+    {
+      "offset": 78092,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3694823402,
+      "sizeOfData": 32,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_PauseClusterNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 262,
+      "name": "PauseClusterNode"
+    },
+    {
+      "offset": 78204,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3511402986,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_PauseClusterNodeEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 263,
+      "name": "PauseClusterNodeEx"
+    },
+    {
+      "offset": 78320,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3471623552,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RegisterClusterNotify@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 264,
+      "name": "RegisterClusterNotify"
+    },
+    {
+      "offset": 78438,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3811719711,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RegisterClusterNotifyV2@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 265,
+      "name": "RegisterClusterNotifyV2"
+    },
+    {
+      "offset": 78558,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3433198986,
+      "sizeOfData": 52,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RegisterClusterResourceTypeNotifyV2@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 266,
+      "name": "RegisterClusterResourceTypeNotifyV2"
+    },
+    {
+      "offset": 78690,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4105019521,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RemoveClusterGroupDependency@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 267,
+      "name": "RemoveClusterGroupDependency"
+    },
+    {
+      "offset": 78814,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3996986427,
+      "sizeOfData": 47,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RemoveClusterGroupSetDependency@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 268,
+      "name": "RemoveClusterGroupSetDependency"
+    },
+    {
+      "offset": 78942,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3222673666,
+      "sizeOfData": 54,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RemoveClusterGroupToGroupSetDependency@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 269,
+      "name": "RemoveClusterGroupToGroupSetDependency"
+    },
+    {
+      "offset": 79076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3494244722,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RemoveClusterNameAccount@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 270,
+      "name": "RemoveClusterNameAccount"
+    },
+    {
+      "offset": 79196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3645593523,
+      "sizeOfData": 47,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RemoveClusterResourceDependency@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 271,
+      "name": "RemoveClusterResourceDependency"
+    },
+    {
+      "offset": 79324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3960756270,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RemoveClusterResourceNode@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 272,
+      "name": "RemoveClusterResourceNode"
+    },
+    {
+      "offset": 79446,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3441239020,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RemoveClusterStorageNode@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 273,
+      "name": "RemoveClusterStorageNode"
+    },
+    {
+      "offset": 79568,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3616006452,
+      "sizeOfData": 53,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RemoveCrossClusterGroupSetDependency@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 274,
+      "name": "RemoveCrossClusterGroupSetDependency"
+    },
+    {
+      "offset": 79702,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3470726902,
+      "sizeOfData": 54,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RemoveResourceFromClusterSharedVolumes@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 275,
+      "name": "RemoveResourceFromClusterSharedVolumes"
+    },
+    {
+      "offset": 79836,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3654715706,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RestartClusterResource@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 276,
+      "name": "RestartClusterResource"
+    },
+    {
+      "offset": 79954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3560863845,
+      "sizeOfData": 39,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_RestoreClusterDatabase@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 277,
+      "name": "RestoreClusterDatabase"
+    },
+    {
+      "offset": 80074,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3420610904,
+      "sizeOfData": 33,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ResumeClusterNode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 278,
+      "name": "ResumeClusterNode"
+    },
+    {
+      "offset": 80188,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4044115095,
+      "sizeOfData": 36,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_ResumeClusterNodeEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 279,
+      "name": "ResumeClusterNodeEx"
+    },
+    {
+      "offset": 80304,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3234542285,
+      "sizeOfData": 35,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_SetClusterGroupName@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 280,
+      "name": "SetClusterGroupName"
+    },
+    {
+      "offset": 80420,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3256209301,
+      "sizeOfData": 40,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_SetClusterGroupNodeList@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 281,
+      "name": "SetClusterGroupNodeList"
+    },
+    {
+      "offset": 80540,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3857858178,
+      "sizeOfData": 54,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_SetClusterGroupSetDependencyExpression@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 282,
+      "name": "SetClusterGroupSetDependencyExpression"
+    },
+    {
+      "offset": 80674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3325473626,
+      "sizeOfData": 30,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_SetClusterName@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 283,
+      "name": "SetClusterName"
+    },
+    {
+      "offset": 80784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3438042087,
+      "sizeOfData": 37,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_SetClusterNetworkName@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 284,
+      "name": "SetClusterNetworkName"
+    },
+    {
+      "offset": 80902,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3516069274,
+      "sizeOfData": 47,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_SetClusterNetworkPriorityOrder@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 285,
+      "name": "SetClusterNetworkPriorityOrder"
+    },
+    {
+      "offset": 81030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4234217314,
+      "sizeOfData": 41,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_SetClusterQuorumResource@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 286,
+      "name": "SetClusterQuorumResource"
+    },
+    {
+      "offset": 81152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4064781870,
+      "sizeOfData": 54,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_SetClusterResourceDependencyExpression@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 287,
+      "name": "SetClusterResourceDependencyExpression"
+    },
+    {
+      "offset": 81286,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3705851922,
+      "sizeOfData": 38,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_SetClusterResourceName@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 288,
+      "name": "SetClusterResourceName"
+    },
+    {
+      "offset": 81404,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3613349713,
+      "sizeOfData": 49,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_SetClusterServiceAccountPassword@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 289,
+      "name": "SetClusterServiceAccountPassword"
+    },
+    {
+      "offset": 81534,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3362170113,
+      "sizeOfData": 44,
+      "dllName": "CLUSAPI.dll",
+      "symbolName": "_SetGroupDependencyExpression@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 290,
+      "name": "SetGroupDependencyExpression"
+    }
+  ]
+}

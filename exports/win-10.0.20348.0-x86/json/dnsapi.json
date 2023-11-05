@@ -1,0 +1,7481 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "@DnsGetDomainName@4"
+    },
+    {
+      "name": "@DnsIsAMailboxType@4"
+    },
+    {
+      "name": "@DnsIsNSECType@4"
+    },
+    {
+      "name": "@DnsIsStatusRcode@4"
+    },
+    {
+      "name": "@DnsMapRcodeToStatus@4"
+    },
+    {
+      "name": "@DnsStatusString@4"
+    },
+    {
+      "name": "@DnsUnicodeToUtf8@16"
+    },
+    {
+      "name": "@DnsUtf8ToUnicode@16"
+    },
+    {
+      "name": "@Dns_ReadPacketName@28"
+    },
+    {
+      "name": "@Dns_ReadPacketNameAllocate@28"
+    },
+    {
+      "name": "@Dns_SkipPacketName@8"
+    },
+    {
+      "name": "@Dns_WriteDottedNameToPacket@24"
+    },
+    {
+      "name": "_AdaptiveTimeout_ClearInterfaceSpecificConfiguration@0"
+    },
+    {
+      "name": "_AdaptiveTimeout_ResetAdaptiveTimeout@0"
+    },
+    {
+      "name": "_AddRefQueryBlobEx@16"
+    },
+    {
+      "name": "_BreakRecordsIntoBlob@12"
+    },
+    {
+      "name": "_Coalesce_UpdateNetVersion@0"
+    },
+    {
+      "name": "_CombineRecordsInBlob@8"
+    },
+    {
+      "name": "_DeRefQueryBlobEx@16"
+    },
+    {
+      "name": "_DelaySortDAServerlist@0"
+    },
+    {
+      "name": "_DnsAcquireContextHandle_A@12"
+    },
+    {
+      "name": "_DnsAcquireContextHandle_W@12"
+    },
+    {
+      "name": "_DnsAddrArrayAddAddr@16"
+    },
+    {
+      "name": "_DnsAddrArrayAddIp4@12"
+    },
+    {
+      "name": "_DnsAddrArrayCreate@4"
+    },
+    {
+      "name": "_DnsAddrBuildFromDnsRecord@8"
+    },
+    {
+      "name": "_DnsAllocateRecord@4"
+    },
+    {
+      "name": "_DnsApiAlloc@4"
+    },
+    {
+      "name": "_DnsApiAllocZero@4"
+    },
+    {
+      "name": "_DnsApiFree@4"
+    },
+    {
+      "name": "_DnsApiHeapReset@12"
+    },
+    {
+      "name": "_DnsApiOnNetworkChange@8"
+    },
+    {
+      "name": "_DnsApiRealloc@8"
+    },
+    {
+      "name": "_DnsApiSetDebugGlobals@4"
+    },
+    {
+      "name": "_DnsAsyncRegisterHostAddrs@40"
+    },
+    {
+      "name": "_DnsAsyncRegisterInit@4"
+    },
+    {
+      "name": "_DnsAsyncRegisterTerm@0"
+    },
+    {
+      "name": "_DnsCancelQuery@4"
+    },
+    {
+      "name": "_DnsCheckNrptRuleIntegrity@4"
+    },
+    {
+      "name": "_DnsCheckNrptRules@12"
+    },
+    {
+      "name": "_DnsCleanupTcpConnections@4"
+    },
+    {
+      "name": "_DnsConnectionDeletePolicyEntries@4"
+    },
+    {
+      "name": "_DnsConnectionDeletePolicyEntriesPrivate@8"
+    },
+    {
+      "name": "_DnsConnectionDeleteProxyInfo@8"
+    },
+    {
+      "name": "_DnsConnectionFreeNameList@4"
+    },
+    {
+      "name": "_DnsConnectionFreeProxyInfo@4"
+    },
+    {
+      "name": "_DnsConnectionFreeProxyInfoEx@4"
+    },
+    {
+      "name": "_DnsConnectionFreeProxyList@4"
+    },
+    {
+      "name": "_DnsConnectionGetHandleForHostUrlPrivate@24"
+    },
+    {
+      "name": "_DnsConnectionGetNameList@4"
+    },
+    {
+      "name": "_DnsConnectionGetProxyInfo@12"
+    },
+    {
+      "name": "_DnsConnectionGetProxyInfoForHostUrl@20"
+    },
+    {
+      "name": "_DnsConnectionGetProxyList@8"
+    },
+    {
+      "name": "_DnsConnectionSetPolicyEntries@8"
+    },
+    {
+      "name": "_DnsConnectionSetPolicyEntriesPrivate@12"
+    },
+    {
+      "name": "_DnsConnectionSetProxyInfo@12"
+    },
+    {
+      "name": "_DnsConnectionUpdateIfIndexTable@4"
+    },
+    {
+      "name": "_DnsCopyStringEx@20"
+    },
+    {
+      "name": "_DnsCreateReverseNameStringForIpAddress@4"
+    },
+    {
+      "name": "_DnsCreateStandardDnsNameCopy@12"
+    },
+    {
+      "name": "_DnsCreateStringCopy@8"
+    },
+    {
+      "name": "_DnsDeRegisterLocal@8"
+    },
+    {
+      "name": "_DnsDeleteSettings@8"
+    },
+    {
+      "name": "_DnsDhcpRegisterAddrs@4"
+    },
+    {
+      "name": "_DnsDhcpRegisterHostAddrs@40"
+    },
+    {
+      "name": "_DnsDhcpRegisterInit@0"
+    },
+    {
+      "name": "_DnsDhcpRegisterTerm@0"
+    },
+    {
+      "name": "_DnsDhcpRemoveRegistrations@0"
+    },
+    {
+      "name": "_DnsDhcpSrvRegisterHostAddr@4"
+    },
+    {
+      "name": "_DnsDhcpSrvRegisterHostAddrEx@4"
+    },
+    {
+      "name": "_DnsDhcpSrvRegisterHostName@48"
+    },
+    {
+      "name": "_DnsDhcpSrvRegisterHostNameEx@60"
+    },
+    {
+      "name": "_DnsDhcpSrvRegisterInit@8"
+    },
+    {
+      "name": "_DnsDhcpSrvRegisterInitEx@12"
+    },
+    {
+      "name": "_DnsDhcpSrvRegisterInitialize@4"
+    },
+    {
+      "name": "_DnsDhcpSrvRegisterTerm@0"
+    },
+    {
+      "name": "_DnsDisableIdnEncoding@8"
+    },
+    {
+      "name": "_DnsDowncaseDnsNameLabel@16"
+    },
+    {
+      "name": "_DnsExtractRecordsFromMessage_UTF8@12"
+    },
+    {
+      "name": "_DnsExtractRecordsFromMessage_W@12"
+    },
+    {
+      "name": "_DnsFindAuthoritativeZone@16"
+    },
+    {
+      "name": "_DnsFlushResolverCache@0"
+    },
+    {
+      "name": "_DnsFlushResolverCacheEntry_A@4"
+    },
+    {
+      "name": "_DnsFlushResolverCacheEntry_UTF8@4"
+    },
+    {
+      "name": "_DnsFlushResolverCacheEntry_W@4"
+    },
+    {
+      "name": "_DnsFree@8"
+    },
+    {
+      "name": "_DnsFreeAdaptersInfo@8"
+    },
+    {
+      "name": "_DnsFreeConfigStructure@8"
+    },
+    {
+      "name": "_DnsFreeNrptRule@4"
+    },
+    {
+      "name": "_DnsFreeNrptRuleNamesList@8"
+    },
+    {
+      "name": "_DnsFreePolicyConfig@4"
+    },
+    {
+      "name": "_DnsFreeProxyName@4"
+    },
+    {
+      "name": "_DnsFreeWellKnownServerProperty@4"
+    },
+    {
+      "name": "_DnsFreeWellKnownServers@8"
+    },
+    {
+      "name": "_DnsGetAdaptersInfo@24"
+    },
+    {
+      "name": "_DnsGetApplicationIdentifier@12"
+    },
+    {
+      "name": "_DnsGetBufferLengthForStringCopy@16"
+    },
+    {
+      "name": "_DnsGetCacheDataTable@4"
+    },
+    {
+      "name": "_DnsGetCacheDataTableEx@12"
+    },
+    {
+      "name": "_DnsGetDnsServerList@4"
+    },
+    {
+      "name": "_DnsGetInterfaceSettings@20"
+    },
+    {
+      "name": "_DnsGetInterfaceSettingsInProc@20"
+    },
+    {
+      "name": "_DnsGetLastFailedUpdateInfo@4"
+    },
+    {
+      "name": "_DnsGetNrptRuleNamesList@8"
+    },
+    {
+      "name": "_DnsGetPolicyTableInfo@16"
+    },
+    {
+      "name": "_DnsGetPolicyTableInfoPrivate@16"
+    },
+    {
+      "name": "_DnsGetPrimaryDomainName_A@0"
+    },
+    {
+      "name": "_DnsGetProxyInfoPrivate@16"
+    },
+    {
+      "name": "_DnsGetProxyInformation@20"
+    },
+    {
+      "name": "_DnsGetProxyInformationEx@28"
+    },
+    {
+      "name": "_DnsGetQueryRetryTimeouts@24"
+    },
+    {
+      "name": "_DnsGetSettings@4"
+    },
+    {
+      "name": "_DnsGetWellKnownServerProperty@12"
+    },
+    {
+      "name": "_DnsGetWellKnownServers@16"
+    },
+    {
+      "name": "_DnsGlobals"
+    },
+    {
+      "name": "_DnsIp6AddressToReverseNameW@20"
+    },
+    {
+      "name": "_DnsIp6ReverseNameToAddressW@8"
+    },
+    {
+      "name": "_DnsIpv6AddressToString@8"
+    },
+    {
+      "name": "_DnsIpv6StringToAddress@12"
+    },
+    {
+      "name": "_DnsIsStringCountValidForTextType@8"
+    },
+    {
+      "name": "_DnsLogEvent@16"
+    },
+    {
+      "name": "_DnsModifyRecordsInSet_A@24"
+    },
+    {
+      "name": "_DnsModifyRecordsInSet_UTF8@24"
+    },
+    {
+      "name": "_DnsModifyRecordsInSet_W@24"
+    },
+    {
+      "name": "_DnsNameCompareEx_A@12"
+    },
+    {
+      "name": "_DnsNameCompareEx_UTF8@12"
+    },
+    {
+      "name": "_DnsNameCompareEx_W@12"
+    },
+    {
+      "name": "_DnsNameCompare_A@8"
+    },
+    {
+      "name": "_DnsNameCompare_UTF8@8"
+    },
+    {
+      "name": "_DnsNameCompare_W@8"
+    },
+    {
+      "name": "_DnsNameCopy@24"
+    },
+    {
+      "name": "_DnsNameCopyAllocate@16"
+    },
+    {
+      "name": "_DnsNetworkInfo_CreateFromFAZ@20"
+    },
+    {
+      "name": "_DnsNetworkInformation_CreateFromFAZ@16"
+    },
+    {
+      "name": "_DnsNotifyResolver@8"
+    },
+    {
+      "name": "_DnsNotifyResolverClusterIp@8"
+    },
+    {
+      "name": "_DnsNotifyResolverEx@16"
+    },
+    {
+      "name": "_DnsQueryConfig@24"
+    },
+    {
+      "name": "_DnsQueryConfigAllocEx@12"
+    },
+    {
+      "name": "_DnsQueryConfigDword@8"
+    },
+    {
+      "name": "_DnsQueryEx@12"
+    },
+    {
+      "name": "_DnsQueryExA@4"
+    },
+    {
+      "name": "_DnsQueryExUTF8@4"
+    },
+    {
+      "name": "_DnsQueryExW@4"
+    },
+    {
+      "name": "_DnsQuery_A@24"
+    },
+    {
+      "name": "_DnsQuery_UTF8@24"
+    },
+    {
+      "name": "_DnsQuery_W@24"
+    },
+    {
+      "name": "_DnsRecordBuild_UTF8@28"
+    },
+    {
+      "name": "_DnsRecordBuild_W@28"
+    },
+    {
+      "name": "_DnsRecordCompare@8"
+    },
+    {
+      "name": "_DnsRecordCopyEx@12"
+    },
+    {
+      "name": "_DnsRecordListFree@8"
+    },
+    {
+      "name": "_DnsRecordListUnmapV4MappedAAAAInPlace@4"
+    },
+    {
+      "name": "_DnsRecordSetCompare@16"
+    },
+    {
+      "name": "_DnsRecordSetCopyEx@12"
+    },
+    {
+      "name": "_DnsRecordSetDetach@4"
+    },
+    {
+      "name": "_DnsRecordStringForType@4"
+    },
+    {
+      "name": "_DnsRecordStringForWritableType@4"
+    },
+    {
+      "name": "_DnsRecordTypeForName@8"
+    },
+    {
+      "name": "_DnsRegisterLocal@16"
+    },
+    {
+      "name": "_DnsReleaseContextHandle@4"
+    },
+    {
+      "name": "_DnsRemoveNrptRule@4"
+    },
+    {
+      "name": "_DnsRemoveRegistrations@0"
+    },
+    {
+      "name": "_DnsReplaceRecordSetA@20"
+    },
+    {
+      "name": "_DnsReplaceRecordSetUTF8@20"
+    },
+    {
+      "name": "_DnsReplaceRecordSetW@20"
+    },
+    {
+      "name": "_DnsResetQueryRetryTimeouts@16"
+    },
+    {
+      "name": "_DnsResolverOp@12"
+    },
+    {
+      "name": "_DnsResolverQueryHvsi@32"
+    },
+    {
+      "name": "_DnsScreenLocalAddrsForRegistration@12"
+    },
+    {
+      "name": "_DnsServiceBrowse@8"
+    },
+    {
+      "name": "_DnsServiceBrowseCancel@4"
+    },
+    {
+      "name": "_DnsServiceConstructInstance@40"
+    },
+    {
+      "name": "_DnsServiceCopyInstance@4"
+    },
+    {
+      "name": "_DnsServiceDeRegister@8"
+    },
+    {
+      "name": "_DnsServiceFreeInstance@4"
+    },
+    {
+      "name": "_DnsServiceRegister@8"
+    },
+    {
+      "name": "_DnsServiceRegisterCancel@4"
+    },
+    {
+      "name": "_DnsServiceResolve@8"
+    },
+    {
+      "name": "_DnsServiceResolveCancel@4"
+    },
+    {
+      "name": "_DnsSetConfigDword@12"
+    },
+    {
+      "name": "_DnsSetConfigValue@20"
+    },
+    {
+      "name": "_DnsSetInterfaceSettings@20"
+    },
+    {
+      "name": "_DnsSetNrptRule@12"
+    },
+    {
+      "name": "_DnsSetNrptRules@16"
+    },
+    {
+      "name": "_DnsSetQueryRetryTimeouts@24"
+    },
+    {
+      "name": "_DnsSetSettings@4"
+    },
+    {
+      "name": "_DnsSetWellKnownServerProperty@12"
+    },
+    {
+      "name": "_DnsStartMulticastQuery@8"
+    },
+    {
+      "name": "_DnsStopMulticastQuery@4"
+    },
+    {
+      "name": "_DnsStringCopyAllocateEx@16"
+    },
+    {
+      "name": "_DnsStringToAddress@24"
+    },
+    {
+      "name": "_DnsTraceServerConfig@12"
+    },
+    {
+      "name": "_DnsUpdate@20"
+    },
+    {
+      "name": "_DnsUpdateCaptivePortalPresence@4"
+    },
+    {
+      "name": "_DnsUpdateMachinePresence@0"
+    },
+    {
+      "name": "_DnsUpdateTest_A@16"
+    },
+    {
+      "name": "_DnsUpdateTest_UTF8@16"
+    },
+    {
+      "name": "_DnsUpdateTest_W@16"
+    },
+    {
+      "name": "_DnsValidateNameOrIp_TempW@8"
+    },
+    {
+      "name": "_DnsValidateName_A@8"
+    },
+    {
+      "name": "_DnsValidateName_UTF8@8"
+    },
+    {
+      "name": "_DnsValidateName_W@8"
+    },
+    {
+      "name": "_DnsValidateServerArray_A@12"
+    },
+    {
+      "name": "_DnsValidateServerArray_W@12"
+    },
+    {
+      "name": "_DnsValidateServerStatus@12"
+    },
+    {
+      "name": "_DnsValidateServer_A@12"
+    },
+    {
+      "name": "_DnsValidateServer_W@12"
+    },
+    {
+      "name": "_DnsValidateUtf8Byte@8"
+    },
+    {
+      "name": "_DnsWriteQuestionToBuffer_UTF8@24"
+    },
+    {
+      "name": "_DnsWriteQuestionToBuffer_W@24"
+    },
+    {
+      "name": "_DnsWriteReverseNameStringForIpAddress@8"
+    },
+    {
+      "name": "_DnsWriteReverseNameStringForIpAddressW@8"
+    },
+    {
+      "name": "_Dns_AddRecordsToMessage@12"
+    },
+    {
+      "name": "_Dns_AllocateMsgBuf@4"
+    },
+    {
+      "name": "_Dns_BuildPacket@28"
+    },
+    {
+      "name": "_Dns_CacheServiceCleanup@0"
+    },
+    {
+      "name": "_Dns_CacheServiceInit@0"
+    },
+    {
+      "name": "_Dns_CacheServiceInitEx@12"
+    },
+    {
+      "name": "_Dns_CacheServiceStopIssued@0"
+    },
+    {
+      "name": "_Dns_CleanupWinsock@0"
+    },
+    {
+      "name": "_Dns_CloseConnection@4"
+    },
+    {
+      "name": "_Dns_CloseSocket@4"
+    },
+    {
+      "name": "_Dns_CreateMulticastSocket@20"
+    },
+    {
+      "name": "_Dns_CreateSocket@12"
+    },
+    {
+      "name": "_Dns_CreateSocketEx@20"
+    },
+    {
+      "name": "_Dns_ExtractRecordsFromMessage@12"
+    },
+    {
+      "name": "_Dns_FindAuthoritativeZoneLib@16"
+    },
+    {
+      "name": "_Dns_FreeMsgBuf@4"
+    },
+    {
+      "name": "_Dns_GetRandomXid@4"
+    },
+    {
+      "name": "_Dns_InitializeMsgBuf@4"
+    },
+    {
+      "name": "_Dns_InitializeMsgRemoteSockaddr@8"
+    },
+    {
+      "name": "_Dns_InitializeWinsock@0"
+    },
+    {
+      "name": "_Dns_OpenTcpConnectionAndSend@12"
+    },
+    {
+      "name": "_Dns_ParseMessage@20"
+    },
+    {
+      "name": "_Dns_ParsePacketRecord@12"
+    },
+    {
+      "name": "_Dns_PingAdapterServers@4"
+    },
+    {
+      "name": "_Dns_ReadRecordStructureFromPacket@12"
+    },
+    {
+      "name": "_Dns_RecvTcp@4"
+    },
+    {
+      "name": "_Dns_ResetNetworkInfo@4"
+    },
+    {
+      "name": "_Dns_SendAndRecvUdp@20"
+    },
+    {
+      "name": "_Dns_SendEx@12"
+    },
+    {
+      "name": "_Dns_SetRecordDatalength@8"
+    },
+    {
+      "name": "_Dns_SetRecordsScopeId@12"
+    },
+    {
+      "name": "_Dns_SetRecordsSection@8"
+    },
+    {
+      "name": "_Dns_SetRecordsTtl@8"
+    },
+    {
+      "name": "_Dns_SkipToRecord@12"
+    },
+    {
+      "name": "_Dns_UpdateLib@20"
+    },
+    {
+      "name": "_Dns_UpdateLibEx@28"
+    },
+    {
+      "name": "_Dns_WriteQuestionToMessage@16"
+    },
+    {
+      "name": "_Dns_WriteRecordStructureToPacketEx@20"
+    },
+    {
+      "name": "_ExtraInfo_Init@8"
+    },
+    {
+      "name": "_Faz_AreServerListsInSameNameSpace@12"
+    },
+    {
+      "name": "_FlushDnsPolicyUnreachableStatus@0"
+    },
+    {
+      "name": "_GetCurrentTimeInSeconds@0"
+    },
+    {
+      "name": "_HostsFile_Close@4"
+    },
+    {
+      "name": "_HostsFile_Open@4"
+    },
+    {
+      "name": "_HostsFile_ReadLine@4"
+    },
+    {
+      "name": "_IpHelp_IsAddrOnLink@4"
+    },
+    {
+      "name": "_Local_GetRecordsForLocalName@8"
+    },
+    {
+      "name": "_Local_GetRecordsForLocalNameEx@20"
+    },
+    {
+      "name": "_NetInfo_Build@8"
+    },
+    {
+      "name": "_NetInfo_BuildEx@12"
+    },
+    {
+      "name": "_NetInfo_Clean@8"
+    },
+    {
+      "name": "_NetInfo_Copy@4"
+    },
+    {
+      "name": "_NetInfo_CopyNetworkIndex@8"
+    },
+    {
+      "name": "_NetInfo_CreatePerNetworkNetinfo@8"
+    },
+    {
+      "name": "_NetInfo_Free@4"
+    },
+    {
+      "name": "_NetInfo_GetAdapterByAddress@12"
+    },
+    {
+      "name": "_NetInfo_GetAdapterByInterfaceIndex@12"
+    },
+    {
+      "name": "_NetInfo_GetAdapterByName@8"
+    },
+    {
+      "name": "_NetInfo_IsAddrConfig@8"
+    },
+    {
+      "name": "_NetInfo_IsForUpdate@4"
+    },
+    {
+      "name": "_NetInfo_IsTcpipConfigChange@4"
+    },
+    {
+      "name": "_NetInfo_ResetServerPriorities@8"
+    },
+    {
+      "name": "_NetInfo_UpdateDnsInterfaceConfigChange@4"
+    },
+    {
+      "name": "_NetInfo_UpdateNetworkProperties@28"
+    },
+    {
+      "name": "_NetInfo_UpdateServerReachability@12"
+    },
+    {
+      "name": "_QueryDirectEx@40"
+    },
+    {
+      "name": "_Query_Cancel@12"
+    },
+    {
+      "name": "_Query_Main@4"
+    },
+    {
+      "name": "_Reg_FreeUpdateInfo@8"
+    },
+    {
+      "name": "_Reg_GetValueEx@28"
+    },
+    {
+      "name": "_Reg_ReadGlobalsEx@8"
+    },
+    {
+      "name": "_Reg_ReadUpdateInfo@8"
+    },
+    {
+      "name": "_Security_ContextListTimeout@4"
+    },
+    {
+      "name": "_Send_AndRecvUdpWithParam@4"
+    },
+    {
+      "name": "_Send_MessagePrivate@12"
+    },
+    {
+      "name": "_Send_MessagePrivateEx@16"
+    },
+    {
+      "name": "_Send_OpenTcpConnectionAndSend@12"
+    },
+    {
+      "name": "_Socket_CacheCleanup@0"
+    },
+    {
+      "name": "_Socket_CacheInit@4"
+    },
+    {
+      "name": "_Socket_CleanupWinsock@0"
+    },
+    {
+      "name": "_Socket_ClearMessageSockets@4"
+    },
+    {
+      "name": "_Socket_CloseEx@8"
+    },
+    {
+      "name": "_Socket_CloseMessageSockets@4"
+    },
+    {
+      "name": "_Socket_Create@20"
+    },
+    {
+      "name": "_Socket_CreateMulticast@20"
+    },
+    {
+      "name": "_Socket_InitWinsock@4"
+    },
+    {
+      "name": "_Socket_JoinMulticast@20"
+    },
+    {
+      "name": "_Socket_RecvFrom@40"
+    },
+    {
+      "name": "_Socket_SetMulticastInterface@16"
+    },
+    {
+      "name": "_Socket_SetMulticastLoopBack@12"
+    },
+    {
+      "name": "_Socket_SetTtl@20"
+    },
+    {
+      "name": "_Socket_TcpListen@4"
+    },
+    {
+      "name": "_ThreadPool_QueueWork@8"
+    },
+    {
+      "name": "_Trace_Reset@0"
+    },
+    {
+      "name": "_Update_ReplaceAddressRecordsW@20"
+    },
+    {
+      "name": "_Util_IsIp6Running@0"
+    },
+    {
+      "name": "_Util_IsRunningOnXboxOne@0"
+    },
+    {
+      "name": "_WriteDnsNrptRulesToRegistry@16"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 41296,
+      "name": "__IMPORT_DESCRIPTOR_DNSAPI"
+    },
+    {
+      "offset": 41846,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 42156,
+      "name": "DNSAPI_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 44830,
+      "name": "_DnsAcquireContextHandle_A@12"
+    },
+    {
+      "offset": 44830,
+      "name": "__imp__DnsAcquireContextHandle_A@12"
+    },
+    {
+      "offset": 44952,
+      "name": "_DnsAcquireContextHandle_W@12"
+    },
+    {
+      "offset": 44952,
+      "name": "__imp__DnsAcquireContextHandle_W@12"
+    },
+    {
+      "offset": 61348,
+      "name": "_DnsReleaseContextHandle@4"
+    },
+    {
+      "offset": 61348,
+      "name": "__imp__DnsReleaseContextHandle@4"
+    },
+    {
+      "offset": 56988,
+      "name": "_DnsModifyRecordsInSet_UTF8@24"
+    },
+    {
+      "offset": 56988,
+      "name": "__imp__DnsModifyRecordsInSet_UTF8@24"
+    },
+    {
+      "offset": 56868,
+      "name": "_DnsModifyRecordsInSet_A@24"
+    },
+    {
+      "offset": 56868,
+      "name": "__imp__DnsModifyRecordsInSet_A@24"
+    },
+    {
+      "offset": 57110,
+      "name": "_DnsModifyRecordsInSet_W@24"
+    },
+    {
+      "offset": 57110,
+      "name": "__imp__DnsModifyRecordsInSet_W@24"
+    },
+    {
+      "offset": 61812,
+      "name": "_DnsReplaceRecordSetUTF8@20"
+    },
+    {
+      "offset": 61812,
+      "name": "__imp__DnsReplaceRecordSetUTF8@20"
+    },
+    {
+      "offset": 61696,
+      "name": "_DnsReplaceRecordSetA@20"
+    },
+    {
+      "offset": 61696,
+      "name": "__imp__DnsReplaceRecordSetA@20"
+    },
+    {
+      "offset": 61932,
+      "name": "_DnsReplaceRecordSetW@20"
+    },
+    {
+      "offset": 61932,
+      "name": "__imp__DnsReplaceRecordSetW@20"
+    },
+    {
+      "offset": 59620,
+      "name": "_DnsQuery_UTF8@24"
+    },
+    {
+      "offset": 59620,
+      "name": "__imp__DnsQuery_UTF8@24"
+    },
+    {
+      "offset": 59514,
+      "name": "_DnsQuery_A@24"
+    },
+    {
+      "offset": 59514,
+      "name": "__imp__DnsQuery_A@24"
+    },
+    {
+      "offset": 59730,
+      "name": "_DnsQuery_W@24"
+    },
+    {
+      "offset": 59730,
+      "name": "__imp__DnsQuery_W@24"
+    },
+    {
+      "offset": 59086,
+      "name": "_DnsQueryEx@12"
+    },
+    {
+      "offset": 59086,
+      "name": "__imp__DnsQueryEx@12"
+    },
+    {
+      "offset": 46778,
+      "name": "_DnsCancelQuery@4"
+    },
+    {
+      "offset": 46778,
+      "name": "__imp__DnsCancelQuery@4"
+    },
+    {
+      "offset": 62756,
+      "name": "_DnsServiceConstructInstance@40"
+    },
+    {
+      "offset": 62756,
+      "name": "__imp__DnsServiceConstructInstance@40"
+    },
+    {
+      "offset": 62880,
+      "name": "_DnsServiceCopyInstance@4"
+    },
+    {
+      "offset": 62880,
+      "name": "__imp__DnsServiceCopyInstance@4"
+    },
+    {
+      "offset": 63114,
+      "name": "_DnsServiceFreeInstance@4"
+    },
+    {
+      "offset": 63114,
+      "name": "__imp__DnsServiceFreeInstance@4"
+    },
+    {
+      "offset": 62526,
+      "name": "_DnsServiceBrowse@8"
+    },
+    {
+      "offset": 62526,
+      "name": "__imp__DnsServiceBrowse@8"
+    },
+    {
+      "offset": 63466,
+      "name": "_DnsServiceResolve@8"
+    },
+    {
+      "offset": 63466,
+      "name": "__imp__DnsServiceResolve@8"
+    },
+    {
+      "offset": 63232,
+      "name": "_DnsServiceRegister@8"
+    },
+    {
+      "offset": 63232,
+      "name": "__imp__DnsServiceRegister@8"
+    },
+    {
+      "offset": 62998,
+      "name": "_DnsServiceDeRegister@8"
+    },
+    {
+      "offset": 62998,
+      "name": "__imp__DnsServiceDeRegister@8"
+    },
+    {
+      "offset": 62638,
+      "name": "_DnsServiceBrowseCancel@4"
+    },
+    {
+      "offset": 62638,
+      "name": "__imp__DnsServiceBrowseCancel@4"
+    },
+    {
+      "offset": 63578,
+      "name": "_DnsServiceResolveCancel@4"
+    },
+    {
+      "offset": 63578,
+      "name": "__imp__DnsServiceResolveCancel@4"
+    },
+    {
+      "offset": 63346,
+      "name": "_DnsServiceRegisterCancel@4"
+    },
+    {
+      "offset": 63346,
+      "name": "__imp__DnsServiceRegisterCancel@4"
+    },
+    {
+      "offset": 61236,
+      "name": "_DnsRegisterLocal@16"
+    },
+    {
+      "offset": 61236,
+      "name": "__imp__DnsRegisterLocal@16"
+    },
+    {
+      "offset": 49734,
+      "name": "_DnsDeRegisterLocal@8"
+    },
+    {
+      "offset": 49734,
+      "name": "__imp__DnsDeRegisterLocal@8"
+    },
+    {
+      "offset": 64622,
+      "name": "_DnsStartMulticastQuery@8"
+    },
+    {
+      "offset": 64622,
+      "name": "__imp__DnsStartMulticastQuery@8"
+    },
+    {
+      "offset": 64740,
+      "name": "_DnsStopMulticastQuery@4"
+    },
+    {
+      "offset": 64740,
+      "name": "__imp__DnsStopMulticastQuery@4"
+    },
+    {
+      "offset": 59408,
+      "name": "_DnsQueryExW@4"
+    },
+    {
+      "offset": 59408,
+      "name": "__imp__DnsQueryExW@4"
+    },
+    {
+      "offset": 59192,
+      "name": "_DnsQueryExA@4"
+    },
+    {
+      "offset": 59192,
+      "name": "__imp__DnsQueryExA@4"
+    },
+    {
+      "offset": 59298,
+      "name": "_DnsQueryExUTF8@4"
+    },
+    {
+      "offset": 59298,
+      "name": "__imp__DnsQueryExUTF8@4"
+    },
+    {
+      "offset": 60176,
+      "name": "_DnsRecordCopyEx@12"
+    },
+    {
+      "offset": 60176,
+      "name": "__imp__DnsRecordCopyEx@12"
+    },
+    {
+      "offset": 60648,
+      "name": "_DnsRecordSetCopyEx@12"
+    },
+    {
+      "offset": 60648,
+      "name": "__imp__DnsRecordSetCopyEx@12"
+    },
+    {
+      "offset": 60064,
+      "name": "_DnsRecordCompare@8"
+    },
+    {
+      "offset": 60064,
+      "name": "__imp__DnsRecordCompare@8"
+    },
+    {
+      "offset": 60532,
+      "name": "_DnsRecordSetCompare@16"
+    },
+    {
+      "offset": 60532,
+      "name": "__imp__DnsRecordSetCompare@16"
+    },
+    {
+      "offset": 60762,
+      "name": "_DnsRecordSetDetach@4"
+    },
+    {
+      "offset": 60762,
+      "name": "__imp__DnsRecordSetDetach@4"
+    },
+    {
+      "offset": 60288,
+      "name": "_DnsRecordListFree@8"
+    },
+    {
+      "offset": 60288,
+      "name": "__imp__DnsRecordListFree@8"
+    },
+    {
+      "offset": 67188,
+      "name": "_DnsWriteQuestionToBuffer_W@24"
+    },
+    {
+      "offset": 67188,
+      "name": "__imp__DnsWriteQuestionToBuffer_W@24"
+    },
+    {
+      "offset": 67062,
+      "name": "_DnsWriteQuestionToBuffer_UTF8@24"
+    },
+    {
+      "offset": 67062,
+      "name": "__imp__DnsWriteQuestionToBuffer_UTF8@24"
+    },
+    {
+      "offset": 51884,
+      "name": "_DnsExtractRecordsFromMessage_W@12"
+    },
+    {
+      "offset": 51884,
+      "name": "__imp__DnsExtractRecordsFromMessage_W@12"
+    },
+    {
+      "offset": 51754,
+      "name": "_DnsExtractRecordsFromMessage_UTF8@12"
+    },
+    {
+      "offset": 51754,
+      "name": "__imp__DnsExtractRecordsFromMessage_UTF8@12"
+    },
+    {
+      "offset": 57802,
+      "name": "_DnsNameCompare_W@8"
+    },
+    {
+      "offset": 57802,
+      "name": "__imp__DnsNameCompare_W@8"
+    },
+    {
+      "offset": 57576,
+      "name": "_DnsNameCompare_A@8"
+    },
+    {
+      "offset": 57576,
+      "name": "__imp__DnsNameCompare_A@8"
+    },
+    {
+      "offset": 66128,
+      "name": "_DnsValidateName_UTF8@8"
+    },
+    {
+      "offset": 66128,
+      "name": "__imp__DnsValidateName_UTF8@8"
+    },
+    {
+      "offset": 66244,
+      "name": "_DnsValidateName_W@8"
+    },
+    {
+      "offset": 66244,
+      "name": "__imp__DnsValidateName_W@8"
+    },
+    {
+      "offset": 66016,
+      "name": "_DnsValidateName_A@8"
+    },
+    {
+      "offset": 66016,
+      "name": "__imp__DnsValidateName_A@8"
+    },
+    {
+      "offset": 58744,
+      "name": "_DnsQueryConfig@24"
+    },
+    {
+      "offset": 58744,
+      "name": "__imp__DnsQueryConfig@24"
+    },
+    {
+      "offset": 52620,
+      "name": "_DnsFree@8"
+    },
+    {
+      "offset": 52620,
+      "name": "__imp__DnsFree@8"
+    },
+    {
+      "offset": 50196,
+      "name": "_DnsDhcpRegisterInit@0"
+    },
+    {
+      "offset": 50196,
+      "name": "__imp__DnsDhcpRegisterInit@0"
+    },
+    {
+      "offset": 50310,
+      "name": "_DnsDhcpRegisterTerm@0"
+    },
+    {
+      "offset": 50310,
+      "name": "__imp__DnsDhcpRegisterTerm@0"
+    },
+    {
+      "offset": 50076,
+      "name": "_DnsDhcpRegisterHostAddrs@40"
+    },
+    {
+      "offset": 50076,
+      "name": "__imp__DnsDhcpRegisterHostAddrs@40"
+    },
+    {
+      "offset": 49960,
+      "name": "_DnsDhcpRegisterAddrs@4"
+    },
+    {
+      "offset": 49960,
+      "name": "__imp__DnsDhcpRegisterAddrs@4"
+    },
+    {
+      "offset": 50424,
+      "name": "_DnsDhcpRemoveRegistrations@0"
+    },
+    {
+      "offset": 50424,
+      "name": "__imp__DnsDhcpRemoveRegistrations@0"
+    },
+    {
+      "offset": 51038,
+      "name": "_DnsDhcpSrvRegisterInit@8"
+    },
+    {
+      "offset": 51038,
+      "name": "__imp__DnsDhcpSrvRegisterInit@8"
+    },
+    {
+      "offset": 51400,
+      "name": "_DnsDhcpSrvRegisterTerm@0"
+    },
+    {
+      "offset": 51400,
+      "name": "__imp__DnsDhcpSrvRegisterTerm@0"
+    },
+    {
+      "offset": 50792,
+      "name": "_DnsDhcpSrvRegisterHostName@48"
+    },
+    {
+      "offset": 50792,
+      "name": "__imp__DnsDhcpSrvRegisterHostName@48"
+    },
+    {
+      "offset": 50546,
+      "name": "_DnsDhcpSrvRegisterHostAddr@4"
+    },
+    {
+      "offset": 50546,
+      "name": "__imp__DnsDhcpSrvRegisterHostAddr@4"
+    },
+    {
+      "offset": 50914,
+      "name": "_DnsDhcpSrvRegisterHostNameEx@60"
+    },
+    {
+      "offset": 50914,
+      "name": "__imp__DnsDhcpSrvRegisterHostNameEx@60"
+    },
+    {
+      "offset": 50668,
+      "name": "_DnsDhcpSrvRegisterHostAddrEx@4"
+    },
+    {
+      "offset": 50668,
+      "name": "__imp__DnsDhcpSrvRegisterHostAddrEx@4"
+    },
+    {
+      "offset": 51156,
+      "name": "_DnsDhcpSrvRegisterInitEx@12"
+    },
+    {
+      "offset": 51156,
+      "name": "__imp__DnsDhcpSrvRegisterInitEx@12"
+    },
+    {
+      "offset": 65670,
+      "name": "_DnsUpdateTest_UTF8@16"
+    },
+    {
+      "offset": 65670,
+      "name": "__imp__DnsUpdateTest_UTF8@16"
+    },
+    {
+      "offset": 65558,
+      "name": "_DnsUpdateTest_A@16"
+    },
+    {
+      "offset": 65558,
+      "name": "__imp__DnsUpdateTest_A@16"
+    },
+    {
+      "offset": 65784,
+      "name": "_DnsUpdateTest_W@16"
+    },
+    {
+      "offset": 65784,
+      "name": "__imp__DnsUpdateTest_W@16"
+    },
+    {
+      "offset": 62170,
+      "name": "_DnsResolverOp@12"
+    },
+    {
+      "offset": 62170,
+      "name": "__imp__DnsResolverOp@12"
+    },
+    {
+      "offset": 58394,
+      "name": "_DnsNotifyResolver@8"
+    },
+    {
+      "offset": 58394,
+      "name": "__imp__DnsNotifyResolver@8"
+    },
+    {
+      "offset": 58628,
+      "name": "_DnsNotifyResolverEx@16"
+    },
+    {
+      "offset": 58628,
+      "name": "__imp__DnsNotifyResolverEx@16"
+    },
+    {
+      "offset": 52130,
+      "name": "_DnsFlushResolverCache@0"
+    },
+    {
+      "offset": 52130,
+      "name": "__imp__DnsFlushResolverCache@0"
+    },
+    {
+      "offset": 52370,
+      "name": "_DnsFlushResolverCacheEntry_UTF8@4"
+    },
+    {
+      "offset": 52370,
+      "name": "__imp__DnsFlushResolverCacheEntry_UTF8@4"
+    },
+    {
+      "offset": 52246,
+      "name": "_DnsFlushResolverCacheEntry_A@4"
+    },
+    {
+      "offset": 52246,
+      "name": "__imp__DnsFlushResolverCacheEntry_A@4"
+    },
+    {
+      "offset": 52496,
+      "name": "_DnsFlushResolverCacheEntry_W@4"
+    },
+    {
+      "offset": 52496,
+      "name": "__imp__DnsFlushResolverCacheEntry_W@4"
+    },
+    {
+      "offset": 54020,
+      "name": "_DnsGetCacheDataTable@4"
+    },
+    {
+      "offset": 54020,
+      "name": "__imp__DnsGetCacheDataTable@4"
+    },
+    {
+      "offset": 54136,
+      "name": "_DnsGetCacheDataTableEx@12"
+    },
+    {
+      "offset": 54136,
+      "name": "__imp__DnsGetCacheDataTableEx@12"
+    },
+    {
+      "offset": 62280,
+      "name": "_DnsResolverQueryHvsi@32"
+    },
+    {
+      "offset": 62280,
+      "name": "__imp__DnsResolverQueryHvsi@32"
+    },
+    {
+      "offset": 57688,
+      "name": "_DnsNameCompare_UTF8@8"
+    },
+    {
+      "offset": 57688,
+      "name": "__imp__DnsNameCompare_UTF8@8"
+    },
+    {
+      "offset": 57462,
+      "name": "_DnsNameCompareEx_W@12"
+    },
+    {
+      "offset": 57462,
+      "name": "__imp__DnsNameCompareEx_W@12"
+    },
+    {
+      "offset": 57230,
+      "name": "_DnsNameCompareEx_A@12"
+    },
+    {
+      "offset": 57230,
+      "name": "__imp__DnsNameCompareEx_A@12"
+    },
+    {
+      "offset": 57344,
+      "name": "_DnsNameCompareEx_UTF8@12"
+    },
+    {
+      "offset": 57344,
+      "name": "__imp__DnsNameCompareEx_UTF8@12"
+    },
+    {
+      "offset": 65896,
+      "name": "_DnsValidateNameOrIp_TempW@8"
+    },
+    {
+      "offset": 65896,
+      "name": "__imp__DnsValidateNameOrIp_TempW@8"
+    },
+    {
+      "offset": 67810,
+      "name": "_Dns_BuildPacket@28"
+    },
+    {
+      "offset": 67810,
+      "name": "__imp__Dns_BuildPacket@28"
+    },
+    {
+      "offset": 70036,
+      "name": "_Dns_ParseMessage@20"
+    },
+    {
+      "offset": 70036,
+      "name": "__imp__Dns_ParseMessage@20"
+    },
+    {
+      "offset": 53654,
+      "name": "_DnsGetAdaptersInfo@24"
+    },
+    {
+      "offset": 53654,
+      "name": "__imp__DnsGetAdaptersInfo@24"
+    },
+    {
+      "offset": 52722,
+      "name": "_DnsFreeAdaptersInfo@8"
+    },
+    {
+      "offset": 52722,
+      "name": "__imp__DnsFreeAdaptersInfo@8"
+    },
+    {
+      "offset": 58854,
+      "name": "_DnsQueryConfigAllocEx@12"
+    },
+    {
+      "offset": 58854,
+      "name": "__imp__DnsQueryConfigAllocEx@12"
+    },
+    {
+      "offset": 52836,
+      "name": "_DnsFreeConfigStructure@8"
+    },
+    {
+      "offset": 52836,
+      "name": "__imp__DnsFreeConfigStructure@8"
+    },
+    {
+      "offset": 58972,
+      "name": "_DnsQueryConfigDword@8"
+    },
+    {
+      "offset": 58972,
+      "name": "__imp__DnsQueryConfigDword@8"
+    },
+    {
+      "offset": 63696,
+      "name": "_DnsSetConfigDword@12"
+    },
+    {
+      "offset": 63696,
+      "name": "__imp__DnsSetConfigDword@12"
+    },
+    {
+      "offset": 63810,
+      "name": "_DnsSetConfigValue@20"
+    },
+    {
+      "offset": 63810,
+      "name": "__imp__DnsSetConfigValue@20"
+    },
+    {
+      "offset": 55692,
+      "name": "_DnsGetSettings@4"
+    },
+    {
+      "offset": 55692,
+      "name": "__imp__DnsGetSettings@4"
+    },
+    {
+      "offset": 64386,
+      "name": "_DnsSetSettings@4"
+    },
+    {
+      "offset": 64386,
+      "name": "__imp__DnsSetSettings@4"
+    },
+    {
+      "offset": 49848,
+      "name": "_DnsDeleteSettings@8"
+    },
+    {
+      "offset": 49848,
+      "name": "__imp__DnsDeleteSettings@8"
+    },
+    {
+      "offset": 54368,
+      "name": "_DnsGetInterfaceSettings@20"
+    },
+    {
+      "offset": 54368,
+      "name": "__imp__DnsGetInterfaceSettings@20"
+    },
+    {
+      "offset": 63924,
+      "name": "_DnsSetInterfaceSettings@20"
+    },
+    {
+      "offset": 63924,
+      "name": "__imp__DnsSetInterfaceSettings@20"
+    },
+    {
+      "offset": 54488,
+      "name": "_DnsGetInterfaceSettingsInProc@20"
+    },
+    {
+      "offset": 54488,
+      "name": "__imp__DnsGetInterfaceSettingsInProc@20"
+    },
+    {
+      "offset": 45972,
+      "name": "_DnsApiHeapReset@12"
+    },
+    {
+      "offset": 45972,
+      "name": "__imp__DnsApiHeapReset@12"
+    },
+    {
+      "offset": 45650,
+      "name": "_DnsApiAlloc@4"
+    },
+    {
+      "offset": 45650,
+      "name": "__imp__DnsApiAlloc@4"
+    },
+    {
+      "offset": 45756,
+      "name": "_DnsApiAllocZero@4"
+    },
+    {
+      "offset": 45756,
+      "name": "__imp__DnsApiAllocZero@4"
+    },
+    {
+      "offset": 46200,
+      "name": "_DnsApiRealloc@8"
+    },
+    {
+      "offset": 46200,
+      "name": "__imp__DnsApiRealloc@8"
+    },
+    {
+      "offset": 45866,
+      "name": "_DnsApiFree@4"
+    },
+    {
+      "offset": 45866,
+      "name": "__imp__DnsApiFree@4"
+    },
+    {
+      "offset": 46308,
+      "name": "_DnsApiSetDebugGlobals@4"
+    },
+    {
+      "offset": 46308,
+      "name": "__imp__DnsApiSetDebugGlobals@4"
+    },
+    {
+      "offset": 66596,
+      "name": "_DnsValidateServerStatus@12"
+    },
+    {
+      "offset": 66596,
+      "name": "__imp__DnsValidateServerStatus@12"
+    },
+    {
+      "offset": 53768,
+      "name": "_DnsGetApplicationIdentifier@12"
+    },
+    {
+      "offset": 53768,
+      "name": "__imp__DnsGetApplicationIdentifier@12"
+    },
+    {
+      "offset": 47370,
+      "name": "_DnsConnectionDeletePolicyEntriesPrivate@8"
+    },
+    {
+      "offset": 47370,
+      "name": "__imp__DnsConnectionDeletePolicyEntriesPrivate@8"
+    },
+    {
+      "offset": 48116,
+      "name": "_DnsConnectionGetHandleForHostUrlPrivate@24"
+    },
+    {
+      "offset": 48116,
+      "name": "__imp__DnsConnectionGetHandleForHostUrlPrivate@24"
+    },
+    {
+      "offset": 48870,
+      "name": "_DnsConnectionSetPolicyEntriesPrivate@12"
+    },
+    {
+      "offset": 48870,
+      "name": "__imp__DnsConnectionSetPolicyEntriesPrivate@12"
+    },
+    {
+      "offset": 61466,
+      "name": "_DnsRemoveNrptRule@4"
+    },
+    {
+      "offset": 61466,
+      "name": "__imp__DnsRemoveNrptRule@4"
+    },
+    {
+      "offset": 64044,
+      "name": "_DnsSetNrptRule@12"
+    },
+    {
+      "offset": 64044,
+      "name": "__imp__DnsSetNrptRule@12"
+    },
+    {
+      "offset": 64154,
+      "name": "_DnsSetNrptRules@16"
+    },
+    {
+      "offset": 64154,
+      "name": "__imp__DnsSetNrptRules@16"
+    },
+    {
+      "offset": 52954,
+      "name": "_DnsFreeNrptRule@4"
+    },
+    {
+      "offset": 52954,
+      "name": "__imp__DnsFreeNrptRule@4"
+    },
+    {
+      "offset": 54736,
+      "name": "_DnsGetNrptRuleNamesList@8"
+    },
+    {
+      "offset": 54736,
+      "name": "__imp__DnsGetNrptRuleNamesList@8"
+    },
+    {
+      "offset": 53064,
+      "name": "_DnsFreeNrptRuleNamesList@8"
+    },
+    {
+      "offset": 53064,
+      "name": "__imp__DnsFreeNrptRuleNamesList@8"
+    },
+    {
+      "offset": 58138,
+      "name": "_DnsNetworkInfo_CreateFromFAZ@20"
+    },
+    {
+      "offset": 58138,
+      "name": "__imp__DnsNetworkInfo_CreateFromFAZ@20"
+    },
+    {
+      "offset": 58262,
+      "name": "_DnsNetworkInformation_CreateFromFAZ@16"
+    },
+    {
+      "offset": 58262,
+      "name": "__imp__DnsNetworkInformation_CreateFromFAZ@16"
+    },
+    {
+      "offset": 62396,
+      "name": "_DnsScreenLocalAddrsForRegistration@12"
+    },
+    {
+      "offset": 62396,
+      "name": "__imp__DnsScreenLocalAddrsForRegistration@12"
+    },
+    {
+      "offset": 68040,
+      "name": "_Dns_CacheServiceInit@0"
+    },
+    {
+      "offset": 68040,
+      "name": "__imp__Dns_CacheServiceInit@0"
+    },
+    {
+      "offset": 68156,
+      "name": "_Dns_CacheServiceInitEx@12"
+    },
+    {
+      "offset": 68156,
+      "name": "__imp__Dns_CacheServiceInitEx@12"
+    },
+    {
+      "offset": 67922,
+      "name": "_Dns_CacheServiceCleanup@0"
+    },
+    {
+      "offset": 67922,
+      "name": "__imp__Dns_CacheServiceCleanup@0"
+    },
+    {
+      "offset": 68274,
+      "name": "_Dns_CacheServiceStopIssued@0"
+    },
+    {
+      "offset": 68274,
+      "name": "__imp__Dns_CacheServiceStopIssued@0"
+    },
+    {
+      "offset": 56046,
+      "name": "__imp__DnsGlobals"
+    },
+    {
+      "offset": 75766,
+      "name": "_Reg_ReadGlobalsEx@8"
+    },
+    {
+      "offset": 75766,
+      "name": "__imp__Reg_ReadGlobalsEx@8"
+    },
+    {
+      "offset": 75656,
+      "name": "_Reg_GetValueEx@28"
+    },
+    {
+      "offset": 75656,
+      "name": "__imp__Reg_GetValueEx@28"
+    },
+    {
+      "offset": 73516,
+      "name": "_NetInfo_Copy@4"
+    },
+    {
+      "offset": 73516,
+      "name": "__imp__NetInfo_Copy@4"
+    },
+    {
+      "offset": 73870,
+      "name": "_NetInfo_Free@4"
+    },
+    {
+      "offset": 73870,
+      "name": "__imp__NetInfo_Free@4"
+    },
+    {
+      "offset": 73624,
+      "name": "_NetInfo_CopyNetworkIndex@8"
+    },
+    {
+      "offset": 73624,
+      "name": "__imp__NetInfo_CopyNetworkIndex@8"
+    },
+    {
+      "offset": 73188,
+      "name": "_NetInfo_Build@8"
+    },
+    {
+      "offset": 73188,
+      "name": "__imp__NetInfo_Build@8"
+    },
+    {
+      "offset": 73296,
+      "name": "_NetInfo_BuildEx@12"
+    },
+    {
+      "offset": 73296,
+      "name": "__imp__NetInfo_BuildEx@12"
+    },
+    {
+      "offset": 73408,
+      "name": "_NetInfo_Clean@8"
+    },
+    {
+      "offset": 73408,
+      "name": "__imp__NetInfo_Clean@8"
+    },
+    {
+      "offset": 74704,
+      "name": "_NetInfo_ResetServerPriorities@8"
+    },
+    {
+      "offset": 74704,
+      "name": "__imp__NetInfo_ResetServerPriorities@8"
+    },
+    {
+      "offset": 74102,
+      "name": "_NetInfo_GetAdapterByInterfaceIndex@12"
+    },
+    {
+      "offset": 74102,
+      "name": "__imp__NetInfo_GetAdapterByInterfaceIndex@12"
+    },
+    {
+      "offset": 74232,
+      "name": "_NetInfo_GetAdapterByName@8"
+    },
+    {
+      "offset": 74232,
+      "name": "__imp__NetInfo_GetAdapterByName@8"
+    },
+    {
+      "offset": 73978,
+      "name": "_NetInfo_GetAdapterByAddress@12"
+    },
+    {
+      "offset": 73978,
+      "name": "__imp__NetInfo_GetAdapterByAddress@12"
+    },
+    {
+      "offset": 74352,
+      "name": "_NetInfo_IsAddrConfig@8"
+    },
+    {
+      "offset": 74352,
+      "name": "__imp__NetInfo_IsAddrConfig@8"
+    },
+    {
+      "offset": 73744,
+      "name": "_NetInfo_CreatePerNetworkNetinfo@8"
+    },
+    {
+      "offset": 73744,
+      "name": "__imp__NetInfo_CreatePerNetworkNetinfo@8"
+    },
+    {
+      "offset": 74962,
+      "name": "_NetInfo_UpdateNetworkProperties@28"
+    },
+    {
+      "offset": 74962,
+      "name": "__imp__NetInfo_UpdateNetworkProperties@28"
+    },
+    {
+      "offset": 74582,
+      "name": "_NetInfo_IsTcpipConfigChange@4"
+    },
+    {
+      "offset": 74582,
+      "name": "__imp__NetInfo_IsTcpipConfigChange@4"
+    },
+    {
+      "offset": 74828,
+      "name": "_NetInfo_UpdateDnsInterfaceConfigChange@4"
+    },
+    {
+      "offset": 74828,
+      "name": "__imp__NetInfo_UpdateDnsInterfaceConfigChange@4"
+    },
+    {
+      "offset": 70620,
+      "name": "_Dns_ResetNetworkInfo@4"
+    },
+    {
+      "offset": 70620,
+      "name": "__imp__Dns_ResetNetworkInfo@4"
+    },
+    {
+      "offset": 75328,
+      "name": "_Query_Cancel@12"
+    },
+    {
+      "offset": 75328,
+      "name": "__imp__Query_Cancel@12"
+    },
+    {
+      "offset": 75436,
+      "name": "_Query_Main@4"
+    },
+    {
+      "offset": 75436,
+      "name": "__imp__Query_Main@4"
+    },
+    {
+      "offset": 44486,
+      "name": "_CombineRecordsInBlob@8"
+    },
+    {
+      "offset": 44486,
+      "name": "__imp__CombineRecordsInBlob@8"
+    },
+    {
+      "offset": 44250,
+      "name": "_BreakRecordsIntoBlob@12"
+    },
+    {
+      "offset": 44250,
+      "name": "__imp__BreakRecordsIntoBlob@12"
+    },
+    {
+      "offset": 72938,
+      "name": "_Local_GetRecordsForLocalName@8"
+    },
+    {
+      "offset": 72938,
+      "name": "__imp__Local_GetRecordsForLocalName@8"
+    },
+    {
+      "offset": 73062,
+      "name": "_Local_GetRecordsForLocalNameEx@20"
+    },
+    {
+      "offset": 73062,
+      "name": "__imp__Local_GetRecordsForLocalNameEx@20"
+    },
+    {
+      "offset": 44136,
+      "name": "_AddRefQueryBlobEx@16"
+    },
+    {
+      "offset": 44136,
+      "name": "__imp__AddRefQueryBlobEx@16"
+    },
+    {
+      "offset": 44602,
+      "name": "_DeRefQueryBlobEx@16"
+    },
+    {
+      "offset": 44602,
+      "name": "__imp__DeRefQueryBlobEx@16"
+    },
+    {
+      "offset": 72600,
+      "name": "_HostsFile_Open@4"
+    },
+    {
+      "offset": 72600,
+      "name": "__imp__HostsFile_Open@4"
+    },
+    {
+      "offset": 72490,
+      "name": "_HostsFile_Close@4"
+    },
+    {
+      "offset": 72490,
+      "name": "__imp__HostsFile_Close@4"
+    },
+    {
+      "offset": 72710,
+      "name": "_HostsFile_ReadLine@4"
+    },
+    {
+      "offset": 72710,
+      "name": "__imp__HostsFile_ReadLine@4"
+    },
+    {
+      "offset": 56760,
+      "name": "_DnsLogEvent@16"
+    },
+    {
+      "offset": 56760,
+      "name": "__imp__DnsLogEvent@16"
+    },
+    {
+      "offset": 72006,
+      "name": "_ExtraInfo_Init@8"
+    },
+    {
+      "offset": 72006,
+      "name": "__imp__ExtraInfo_Init@8"
+    },
+    {
+      "offset": 72116,
+      "name": "_Faz_AreServerListsInSameNameSpace@12"
+    },
+    {
+      "offset": 72116,
+      "name": "__imp__Faz_AreServerListsInSameNameSpace@12"
+    },
+    {
+      "offset": 78552,
+      "name": "_Update_ReplaceAddressRecordsW@20"
+    },
+    {
+      "offset": 78552,
+      "name": "__imp__Update_ReplaceAddressRecordsW@20"
+    },
+    {
+      "offset": 75992,
+      "name": "_Security_ContextListTimeout@4"
+    },
+    {
+      "offset": 75992,
+      "name": "__imp__Security_ContextListTimeout@4"
+    },
+    {
+      "offset": 75542,
+      "name": "_Reg_FreeUpdateInfo@8"
+    },
+    {
+      "offset": 75542,
+      "name": "__imp__Reg_FreeUpdateInfo@8"
+    },
+    {
+      "offset": 75878,
+      "name": "_Reg_ReadUpdateInfo@8"
+    },
+    {
+      "offset": 75878,
+      "name": "__imp__Reg_ReadUpdateInfo@8"
+    },
+    {
+      "offset": 76594,
+      "name": "_Socket_CacheCleanup@0"
+    },
+    {
+      "offset": 76594,
+      "name": "__imp__Socket_CacheCleanup@0"
+    },
+    {
+      "offset": 76708,
+      "name": "_Socket_CacheInit@4"
+    },
+    {
+      "offset": 76708,
+      "name": "__imp__Socket_CacheInit@4"
+    },
+    {
+      "offset": 77290,
+      "name": "_Socket_Create@20"
+    },
+    {
+      "offset": 77290,
+      "name": "__imp__Socket_Create@20"
+    },
+    {
+      "offset": 77400,
+      "name": "_Socket_CreateMulticast@20"
+    },
+    {
+      "offset": 77400,
+      "name": "__imp__Socket_CreateMulticast@20"
+    },
+    {
+      "offset": 77058,
+      "name": "_Socket_CloseEx@8"
+    },
+    {
+      "offset": 77058,
+      "name": "__imp__Socket_CloseEx@8"
+    },
+    {
+      "offset": 77518,
+      "name": "_Socket_InitWinsock@4"
+    },
+    {
+      "offset": 77518,
+      "name": "__imp__Socket_InitWinsock@4"
+    },
+    {
+      "offset": 76820,
+      "name": "_Socket_CleanupWinsock@0"
+    },
+    {
+      "offset": 76820,
+      "name": "__imp__Socket_CleanupWinsock@0"
+    },
+    {
+      "offset": 78108,
+      "name": "_Socket_SetTtl@20"
+    },
+    {
+      "offset": 78108,
+      "name": "__imp__Socket_SetTtl@20"
+    },
+    {
+      "offset": 77984,
+      "name": "_Socket_SetMulticastLoopBack@12"
+    },
+    {
+      "offset": 77984,
+      "name": "__imp__Socket_SetMulticastLoopBack@12"
+    },
+    {
+      "offset": 77632,
+      "name": "_Socket_JoinMulticast@20"
+    },
+    {
+      "offset": 77632,
+      "name": "__imp__Socket_JoinMulticast@20"
+    },
+    {
+      "offset": 77860,
+      "name": "_Socket_SetMulticastInterface@16"
+    },
+    {
+      "offset": 77860,
+      "name": "__imp__Socket_SetMulticastInterface@16"
+    },
+    {
+      "offset": 78218,
+      "name": "_Socket_TcpListen@4"
+    },
+    {
+      "offset": 78218,
+      "name": "__imp__Socket_TcpListen@4"
+    },
+    {
+      "offset": 77748,
+      "name": "_Socket_RecvFrom@40"
+    },
+    {
+      "offset": 77748,
+      "name": "__imp__Socket_RecvFrom@40"
+    },
+    {
+      "offset": 71532,
+      "name": "_Dns_UpdateLib@20"
+    },
+    {
+      "offset": 71532,
+      "name": "__imp__Dns_UpdateLib@20"
+    },
+    {
+      "offset": 70266,
+      "name": "_Dns_PingAdapterServers@4"
+    },
+    {
+      "offset": 70266,
+      "name": "__imp__Dns_PingAdapterServers@4"
+    },
+    {
+      "offset": 67576,
+      "name": "_Dns_AddRecordsToMessage@12"
+    },
+    {
+      "offset": 67576,
+      "name": "__imp__Dns_AddRecordsToMessage@12"
+    },
+    {
+      "offset": 69082,
+      "name": "_Dns_ExtractRecordsFromMessage@12"
+    },
+    {
+      "offset": 69082,
+      "name": "__imp__Dns_ExtractRecordsFromMessage@12"
+    },
+    {
+      "offset": 43384,
+      "name": "@Dns_ReadPacketName@28"
+    },
+    {
+      "offset": 43384,
+      "name": "__imp_@Dns_ReadPacketName@28"
+    },
+    {
+      "offset": 67696,
+      "name": "_Dns_AllocateMsgBuf@4"
+    },
+    {
+      "offset": 67696,
+      "name": "__imp__Dns_AllocateMsgBuf@4"
+    },
+    {
+      "offset": 78678,
+      "name": "_Util_IsIp6Running@0"
+    },
+    {
+      "offset": 78678,
+      "name": "__imp__Util_IsIp6Running@0"
+    },
+    {
+      "offset": 69554,
+      "name": "_Dns_InitializeMsgBuf@4"
+    },
+    {
+      "offset": 69554,
+      "name": "__imp__Dns_InitializeMsgBuf@4"
+    },
+    {
+      "offset": 71074,
+      "name": "_Dns_SetRecordsScopeId@12"
+    },
+    {
+      "offset": 71074,
+      "name": "__imp__Dns_SetRecordsScopeId@12"
+    },
+    {
+      "offset": 71192,
+      "name": "_Dns_SetRecordsSection@8"
+    },
+    {
+      "offset": 71192,
+      "name": "__imp__Dns_SetRecordsSection@8"
+    },
+    {
+      "offset": 71308,
+      "name": "_Dns_SetRecordsTtl@8"
+    },
+    {
+      "offset": 71308,
+      "name": "__imp__Dns_SetRecordsTtl@8"
+    },
+    {
+      "offset": 69332,
+      "name": "_Dns_FreeMsgBuf@4"
+    },
+    {
+      "offset": 69332,
+      "name": "__imp__Dns_FreeMsgBuf@4"
+    },
+    {
+      "offset": 75218,
+      "name": "_QueryDirectEx@40"
+    },
+    {
+      "offset": 75218,
+      "name": "__imp__QueryDirectEx@40"
+    },
+    {
+      "offset": 71642,
+      "name": "_Dns_UpdateLibEx@28"
+    },
+    {
+      "offset": 71642,
+      "name": "__imp__Dns_UpdateLibEx@28"
+    },
+    {
+      "offset": 65206,
+      "name": "_DnsUpdate@20"
+    },
+    {
+      "offset": 65206,
+      "name": "__imp__DnsUpdate@20"
+    },
+    {
+      "offset": 76936,
+      "name": "_Socket_ClearMessageSockets@4"
+    },
+    {
+      "offset": 76936,
+      "name": "__imp__Socket_ClearMessageSockets@4"
+    },
+    {
+      "offset": 77168,
+      "name": "_Socket_CloseMessageSockets@4"
+    },
+    {
+      "offset": 77168,
+      "name": "__imp__Socket_CloseMessageSockets@4"
+    },
+    {
+      "offset": 76468,
+      "name": "_Send_OpenTcpConnectionAndSend@12"
+    },
+    {
+      "offset": 76468,
+      "name": "__imp__Send_OpenTcpConnectionAndSend@12"
+    },
+    {
+      "offset": 76234,
+      "name": "_Send_MessagePrivate@12"
+    },
+    {
+      "offset": 76234,
+      "name": "__imp__Send_MessagePrivate@12"
+    },
+    {
+      "offset": 76350,
+      "name": "_Send_MessagePrivateEx@16"
+    },
+    {
+      "offset": 76350,
+      "name": "__imp__Send_MessagePrivateEx@16"
+    },
+    {
+      "offset": 70514,
+      "name": "_Dns_RecvTcp@4"
+    },
+    {
+      "offset": 70514,
+      "name": "__imp__Dns_RecvTcp@4"
+    },
+    {
+      "offset": 47122,
+      "name": "_DnsCleanupTcpConnections@4"
+    },
+    {
+      "offset": 47122,
+      "name": "__imp__DnsCleanupTcpConnections@4"
+    },
+    {
+      "offset": 46084,
+      "name": "_DnsApiOnNetworkChange@8"
+    },
+    {
+      "offset": 46084,
+      "name": "__imp__DnsApiOnNetworkChange@8"
+    },
+    {
+      "offset": 76114,
+      "name": "_Send_AndRecvUdpWithParam@4"
+    },
+    {
+      "offset": 76114,
+      "name": "__imp__Send_AndRecvUdpWithParam@4"
+    },
+    {
+      "offset": 71420,
+      "name": "_Dns_SkipToRecord@12"
+    },
+    {
+      "offset": 71420,
+      "name": "__imp__Dns_SkipToRecord@12"
+    },
+    {
+      "offset": 70956,
+      "name": "_Dns_SetRecordDatalength@8"
+    },
+    {
+      "offset": 70956,
+      "name": "__imp__Dns_SetRecordDatalength@8"
+    },
+    {
+      "offset": 70148,
+      "name": "_Dns_ParsePacketRecord@12"
+    },
+    {
+      "offset": 70148,
+      "name": "__imp__Dns_ParsePacketRecord@12"
+    },
+    {
+      "offset": 70384,
+      "name": "_Dns_ReadRecordStructureFromPacket@12"
+    },
+    {
+      "offset": 70384,
+      "name": "__imp__Dns_ReadRecordStructureFromPacket@12"
+    },
+    {
+      "offset": 69442,
+      "name": "_Dns_GetRandomXid@4"
+    },
+    {
+      "offset": 69442,
+      "name": "__imp__Dns_GetRandomXid@4"
+    },
+    {
+      "offset": 71754,
+      "name": "_Dns_WriteQuestionToMessage@16"
+    },
+    {
+      "offset": 71754,
+      "name": "__imp__Dns_WriteQuestionToMessage@16"
+    },
+    {
+      "offset": 71876,
+      "name": "_Dns_WriteRecordStructureToPacketEx@20"
+    },
+    {
+      "offset": 71876,
+      "name": "__imp__Dns_WriteRecordStructureToPacketEx@20"
+    },
+    {
+      "offset": 43734,
+      "name": "@Dns_WriteDottedNameToPacket@24"
+    },
+    {
+      "offset": 43734,
+      "name": "__imp_@Dns_WriteDottedNameToPacket@24"
+    },
+    {
+      "offset": 43498,
+      "name": "@Dns_ReadPacketNameAllocate@28"
+    },
+    {
+      "offset": 43498,
+      "name": "__imp_@Dns_ReadPacketNameAllocate@28"
+    },
+    {
+      "offset": 43620,
+      "name": "@Dns_SkipPacketName@8"
+    },
+    {
+      "offset": 43620,
+      "name": "__imp_@Dns_SkipPacketName@8"
+    },
+    {
+      "offset": 45538,
+      "name": "_DnsAllocateRecord@4"
+    },
+    {
+      "offset": 45538,
+      "name": "__imp__DnsAllocateRecord@4"
+    },
+    {
+      "offset": 59836,
+      "name": "_DnsRecordBuild_UTF8@28"
+    },
+    {
+      "offset": 59836,
+      "name": "__imp__DnsRecordBuild_UTF8@28"
+    },
+    {
+      "offset": 59952,
+      "name": "_DnsRecordBuild_W@28"
+    },
+    {
+      "offset": 59952,
+      "name": "__imp__DnsRecordBuild_W@28"
+    },
+    {
+      "offset": 72372,
+      "name": "_GetCurrentTimeInSeconds@0"
+    },
+    {
+      "offset": 72372,
+      "name": "__imp__GetCurrentTimeInSeconds@0"
+    },
+    {
+      "offset": 78790,
+      "name": "_Util_IsRunningOnXboxOne@0"
+    },
+    {
+      "offset": 78790,
+      "name": "__imp__Util_IsRunningOnXboxOne@0"
+    },
+    {
+      "offset": 72824,
+      "name": "_IpHelp_IsAddrOnLink@4"
+    },
+    {
+      "offset": 72824,
+      "name": "__imp__IpHelp_IsAddrOnLink@4"
+    },
+    {
+      "offset": 43050,
+      "name": "@DnsStatusString@4"
+    },
+    {
+      "offset": 43050,
+      "name": "__imp_@DnsStatusString@4"
+    },
+    {
+      "offset": 42936,
+      "name": "@DnsMapRcodeToStatus@4"
+    },
+    {
+      "offset": 42936,
+      "name": "__imp_@DnsMapRcodeToStatus@4"
+    },
+    {
+      "offset": 42824,
+      "name": "@DnsIsStatusRcode@4"
+    },
+    {
+      "offset": 42824,
+      "name": "__imp_@DnsIsStatusRcode@4"
+    },
+    {
+      "offset": 42492,
+      "name": "@DnsGetDomainName@4"
+    },
+    {
+      "offset": 42492,
+      "name": "__imp_@DnsGetDomainName@4"
+    },
+    {
+      "offset": 61120,
+      "name": "_DnsRecordTypeForName@8"
+    },
+    {
+      "offset": 61120,
+      "name": "__imp__DnsRecordTypeForName@8"
+    },
+    {
+      "offset": 60876,
+      "name": "_DnsRecordStringForType@4"
+    },
+    {
+      "offset": 60876,
+      "name": "__imp__DnsRecordStringForType@4"
+    },
+    {
+      "offset": 60994,
+      "name": "_DnsRecordStringForWritableType@4"
+    },
+    {
+      "offset": 60994,
+      "name": "__imp__DnsRecordStringForWritableType@4"
+    },
+    {
+      "offset": 56632,
+      "name": "_DnsIsStringCountValidForTextType@8"
+    },
+    {
+      "offset": 56632,
+      "name": "__imp__DnsIsStringCountValidForTextType@8"
+    },
+    {
+      "offset": 42604,
+      "name": "@DnsIsAMailboxType@4"
+    },
+    {
+      "offset": 42604,
+      "name": "__imp_@DnsIsAMailboxType@4"
+    },
+    {
+      "offset": 42716,
+      "name": "@DnsIsNSECType@4"
+    },
+    {
+      "offset": 42716,
+      "name": "__imp_@DnsIsNSECType@4"
+    },
+    {
+      "offset": 43160,
+      "name": "@DnsUnicodeToUtf8@16"
+    },
+    {
+      "offset": 43160,
+      "name": "__imp_@DnsUnicodeToUtf8@16"
+    },
+    {
+      "offset": 51634,
+      "name": "_DnsDowncaseDnsNameLabel@16"
+    },
+    {
+      "offset": 51634,
+      "name": "__imp__DnsDowncaseDnsNameLabel@16"
+    },
+    {
+      "offset": 43272,
+      "name": "@DnsUtf8ToUnicode@16"
+    },
+    {
+      "offset": 43272,
+      "name": "__imp_@DnsUtf8ToUnicode@16"
+    },
+    {
+      "offset": 49496,
+      "name": "_DnsCreateStandardDnsNameCopy@12"
+    },
+    {
+      "offset": 49496,
+      "name": "__imp__DnsCreateStandardDnsNameCopy@12"
+    },
+    {
+      "offset": 66948,
+      "name": "_DnsValidateUtf8Byte@8"
+    },
+    {
+      "offset": 66948,
+      "name": "__imp__DnsValidateUtf8Byte@8"
+    },
+    {
+      "offset": 57914,
+      "name": "_DnsNameCopy@24"
+    },
+    {
+      "offset": 57914,
+      "name": "__imp__DnsNameCopy@24"
+    },
+    {
+      "offset": 58022,
+      "name": "_DnsNameCopyAllocate@16"
+    },
+    {
+      "offset": 58022,
+      "name": "__imp__DnsNameCopyAllocate@16"
+    },
+    {
+      "offset": 49620,
+      "name": "_DnsCreateStringCopy@8"
+    },
+    {
+      "offset": 49620,
+      "name": "__imp__DnsCreateStringCopy@8"
+    },
+    {
+      "offset": 53892,
+      "name": "_DnsGetBufferLengthForStringCopy@16"
+    },
+    {
+      "offset": 53892,
+      "name": "__imp__DnsGetBufferLengthForStringCopy@16"
+    },
+    {
+      "offset": 49250,
+      "name": "_DnsCopyStringEx@20"
+    },
+    {
+      "offset": 49250,
+      "name": "__imp__DnsCopyStringEx@20"
+    },
+    {
+      "offset": 64856,
+      "name": "_DnsStringCopyAllocateEx@16"
+    },
+    {
+      "offset": 64856,
+      "name": "__imp__DnsStringCopyAllocateEx@16"
+    },
+    {
+      "offset": 64976,
+      "name": "_DnsStringToAddress@24"
+    },
+    {
+      "offset": 64976,
+      "name": "__imp__DnsStringToAddress@24"
+    },
+    {
+      "offset": 66832,
+      "name": "_DnsValidateServer_W@12"
+    },
+    {
+      "offset": 66832,
+      "name": "__imp__DnsValidateServer_W@12"
+    },
+    {
+      "offset": 66716,
+      "name": "_DnsValidateServer_A@12"
+    },
+    {
+      "offset": 66716,
+      "name": "__imp__DnsValidateServer_A@12"
+    },
+    {
+      "offset": 66476,
+      "name": "_DnsValidateServerArray_W@12"
+    },
+    {
+      "offset": 66476,
+      "name": "__imp__DnsValidateServerArray_W@12"
+    },
+    {
+      "offset": 66356,
+      "name": "_DnsValidateServerArray_A@12"
+    },
+    {
+      "offset": 66356,
+      "name": "__imp__DnsValidateServerArray_A@12"
+    },
+    {
+      "offset": 67310,
+      "name": "_DnsWriteReverseNameStringForIpAddress@8"
+    },
+    {
+      "offset": 67310,
+      "name": "__imp__DnsWriteReverseNameStringForIpAddress@8"
+    },
+    {
+      "offset": 67442,
+      "name": "_DnsWriteReverseNameStringForIpAddressW@8"
+    },
+    {
+      "offset": 67442,
+      "name": "__imp__DnsWriteReverseNameStringForIpAddressW@8"
+    },
+    {
+      "offset": 49362,
+      "name": "_DnsCreateReverseNameStringForIpAddress@4"
+    },
+    {
+      "offset": 49362,
+      "name": "__imp__DnsCreateReverseNameStringForIpAddress@4"
+    },
+    {
+      "offset": 56274,
+      "name": "_DnsIp6ReverseNameToAddressW@8"
+    },
+    {
+      "offset": 56274,
+      "name": "__imp__DnsIp6ReverseNameToAddressW@8"
+    },
+    {
+      "offset": 56150,
+      "name": "_DnsIp6AddressToReverseNameW@20"
+    },
+    {
+      "offset": 56150,
+      "name": "__imp__DnsIp6AddressToReverseNameW@20"
+    },
+    {
+      "offset": 56514,
+      "name": "_DnsIpv6StringToAddress@12"
+    },
+    {
+      "offset": 56514,
+      "name": "__imp__DnsIpv6StringToAddress@12"
+    },
+    {
+      "offset": 56396,
+      "name": "_DnsIpv6AddressToString@8"
+    },
+    {
+      "offset": 56396,
+      "name": "__imp__DnsIpv6AddressToString@8"
+    },
+    {
+      "offset": 60400,
+      "name": "_DnsRecordListUnmapV4MappedAAAAInPlace@4"
+    },
+    {
+      "offset": 60400,
+      "name": "__imp__DnsRecordListUnmapV4MappedAAAAInPlace@4"
+    },
+    {
+      "offset": 58506,
+      "name": "_DnsNotifyResolverClusterIp@8"
+    },
+    {
+      "offset": 58506,
+      "name": "__imp__DnsNotifyResolverClusterIp@8"
+    },
+    {
+      "offset": 55096,
+      "name": "_DnsGetPrimaryDomainName_A@0"
+    },
+    {
+      "offset": 55096,
+      "name": "__imp__DnsGetPrimaryDomainName_A@0"
+    },
+    {
+      "offset": 54254,
+      "name": "_DnsGetDnsServerList@4"
+    },
+    {
+      "offset": 54254,
+      "name": "__imp__DnsGetDnsServerList@4"
+    },
+    {
+      "offset": 54614,
+      "name": "_DnsGetLastFailedUpdateInfo@4"
+    },
+    {
+      "offset": 54614,
+      "name": "__imp__DnsGetLastFailedUpdateInfo@4"
+    },
+    {
+      "offset": 69796,
+      "name": "_Dns_InitializeWinsock@0"
+    },
+    {
+      "offset": 69796,
+      "name": "__imp__Dns_InitializeWinsock@0"
+    },
+    {
+      "offset": 68396,
+      "name": "_Dns_CleanupWinsock@0"
+    },
+    {
+      "offset": 68396,
+      "name": "__imp__Dns_CleanupWinsock@0"
+    },
+    {
+      "offset": 68734,
+      "name": "_Dns_CreateMulticastSocket@20"
+    },
+    {
+      "offset": 68734,
+      "name": "__imp__Dns_CreateMulticastSocket@20"
+    },
+    {
+      "offset": 68856,
+      "name": "_Dns_CreateSocket@12"
+    },
+    {
+      "offset": 68856,
+      "name": "__imp__Dns_CreateSocket@12"
+    },
+    {
+      "offset": 68968,
+      "name": "_Dns_CreateSocketEx@20"
+    },
+    {
+      "offset": 68968,
+      "name": "__imp__Dns_CreateSocketEx@20"
+    },
+    {
+      "offset": 69670,
+      "name": "_Dns_InitializeMsgRemoteSockaddr@8"
+    },
+    {
+      "offset": 69670,
+      "name": "__imp__Dns_InitializeMsgRemoteSockaddr@8"
+    },
+    {
+      "offset": 69912,
+      "name": "_Dns_OpenTcpConnectionAndSend@12"
+    },
+    {
+      "offset": 69912,
+      "name": "__imp__Dns_OpenTcpConnectionAndSend@12"
+    },
+    {
+      "offset": 68510,
+      "name": "_Dns_CloseConnection@4"
+    },
+    {
+      "offset": 68510,
+      "name": "__imp__Dns_CloseConnection@4"
+    },
+    {
+      "offset": 68624,
+      "name": "_Dns_CloseSocket@4"
+    },
+    {
+      "offset": 68624,
+      "name": "__imp__Dns_CloseSocket@4"
+    },
+    {
+      "offset": 70850,
+      "name": "_Dns_SendEx@12"
+    },
+    {
+      "offset": 70850,
+      "name": "__imp__Dns_SendEx@12"
+    },
+    {
+      "offset": 70736,
+      "name": "_Dns_SendAndRecvUdp@20"
+    },
+    {
+      "offset": 70736,
+      "name": "__imp__Dns_SendAndRecvUdp@20"
+    },
+    {
+      "offset": 46424,
+      "name": "_DnsAsyncRegisterHostAddrs@40"
+    },
+    {
+      "offset": 46424,
+      "name": "__imp__DnsAsyncRegisterHostAddrs@40"
+    },
+    {
+      "offset": 46546,
+      "name": "_DnsAsyncRegisterInit@4"
+    },
+    {
+      "offset": 46546,
+      "name": "__imp__DnsAsyncRegisterInit@4"
+    },
+    {
+      "offset": 46662,
+      "name": "_DnsAsyncRegisterTerm@0"
+    },
+    {
+      "offset": 46662,
+      "name": "__imp__DnsAsyncRegisterTerm@0"
+    },
+    {
+      "offset": 61578,
+      "name": "_DnsRemoveRegistrations@0"
+    },
+    {
+      "offset": 61578,
+      "name": "__imp__DnsRemoveRegistrations@0"
+    },
+    {
+      "offset": 51276,
+      "name": "_DnsDhcpSrvRegisterInitialize@4"
+    },
+    {
+      "offset": 51276,
+      "name": "__imp__DnsDhcpSrvRegisterInitialize@4"
+    },
+    {
+      "offset": 52010,
+      "name": "_DnsFindAuthoritativeZone@16"
+    },
+    {
+      "offset": 52010,
+      "name": "__imp__DnsFindAuthoritativeZone@16"
+    },
+    {
+      "offset": 74468,
+      "name": "_NetInfo_IsForUpdate@4"
+    },
+    {
+      "offset": 74468,
+      "name": "__imp__NetInfo_IsForUpdate@4"
+    },
+    {
+      "offset": 69208,
+      "name": "_Dns_FindAuthoritativeZoneLib@16"
+    },
+    {
+      "offset": 69208,
+      "name": "__imp__Dns_FindAuthoritativeZoneLib@16"
+    },
+    {
+      "offset": 65090,
+      "name": "_DnsTraceServerConfig@12"
+    },
+    {
+      "offset": 65090,
+      "name": "__imp__DnsTraceServerConfig@12"
+    },
+    {
+      "offset": 78446,
+      "name": "_Trace_Reset@0"
+    },
+    {
+      "offset": 78446,
+      "name": "__imp__Trace_Reset@0"
+    },
+    {
+      "offset": 55334,
+      "name": "_DnsGetProxyInformation@20"
+    },
+    {
+      "offset": 55334,
+      "name": "__imp__DnsGetProxyInformation@20"
+    },
+    {
+      "offset": 55452,
+      "name": "_DnsGetProxyInformationEx@28"
+    },
+    {
+      "offset": 55452,
+      "name": "__imp__DnsGetProxyInformationEx@28"
+    },
+    {
+      "offset": 53298,
+      "name": "_DnsFreeProxyName@4"
+    },
+    {
+      "offset": 53298,
+      "name": "__imp__DnsFreeProxyName@4"
+    },
+    {
+      "offset": 54854,
+      "name": "_DnsGetPolicyTableInfo@16"
+    },
+    {
+      "offset": 54854,
+      "name": "__imp__DnsGetPolicyTableInfo@16"
+    },
+    {
+      "offset": 53184,
+      "name": "_DnsFreePolicyConfig@4"
+    },
+    {
+      "offset": 53184,
+      "name": "__imp__DnsFreePolicyConfig@4"
+    },
+    {
+      "offset": 44714,
+      "name": "_DelaySortDAServerlist@0"
+    },
+    {
+      "offset": 44714,
+      "name": "__imp__DelaySortDAServerlist@0"
+    },
+    {
+      "offset": 55216,
+      "name": "_DnsGetProxyInfoPrivate@16"
+    },
+    {
+      "offset": 55216,
+      "name": "__imp__DnsGetProxyInfoPrivate@16"
+    },
+    {
+      "offset": 54972,
+      "name": "_DnsGetPolicyTableInfoPrivate@16"
+    },
+    {
+      "offset": 54972,
+      "name": "__imp__DnsGetPolicyTableInfoPrivate@16"
+    },
+    {
+      "offset": 65438,
+      "name": "_DnsUpdateMachinePresence@0"
+    },
+    {
+      "offset": 65438,
+      "name": "__imp__DnsUpdateMachinePresence@0"
+    },
+    {
+      "offset": 65312,
+      "name": "_DnsUpdateCaptivePortalPresence@4"
+    },
+    {
+      "offset": 65312,
+      "name": "__imp__DnsUpdateCaptivePortalPresence@4"
+    },
+    {
+      "offset": 72246,
+      "name": "_FlushDnsPolicyUnreachableStatus@0"
+    },
+    {
+      "offset": 72246,
+      "name": "__imp__FlushDnsPolicyUnreachableStatus@0"
+    },
+    {
+      "offset": 46888,
+      "name": "_DnsCheckNrptRuleIntegrity@4"
+    },
+    {
+      "offset": 46888,
+      "name": "__imp__DnsCheckNrptRuleIntegrity@4"
+    },
+    {
+      "offset": 47008,
+      "name": "_DnsCheckNrptRules@12"
+    },
+    {
+      "offset": 47008,
+      "name": "__imp__DnsCheckNrptRules@12"
+    },
+    {
+      "offset": 78908,
+      "name": "_WriteDnsNrptRulesToRegistry@16"
+    },
+    {
+      "offset": 78908,
+      "name": "__imp__WriteDnsNrptRulesToRegistry@16"
+    },
+    {
+      "offset": 75090,
+      "name": "_NetInfo_UpdateServerReachability@12"
+    },
+    {
+      "offset": 75090,
+      "name": "__imp__NetInfo_UpdateServerReachability@12"
+    },
+    {
+      "offset": 51518,
+      "name": "_DnsDisableIdnEncoding@8"
+    },
+    {
+      "offset": 51518,
+      "name": "__imp__DnsDisableIdnEncoding@8"
+    },
+    {
+      "offset": 64266,
+      "name": "_DnsSetQueryRetryTimeouts@24"
+    },
+    {
+      "offset": 64266,
+      "name": "__imp__DnsSetQueryRetryTimeouts@24"
+    },
+    {
+      "offset": 62048,
+      "name": "_DnsResetQueryRetryTimeouts@16"
+    },
+    {
+      "offset": 62048,
+      "name": "__imp__DnsResetQueryRetryTimeouts@16"
+    },
+    {
+      "offset": 55572,
+      "name": "_DnsGetQueryRetryTimeouts@24"
+    },
+    {
+      "offset": 55572,
+      "name": "__imp__DnsGetQueryRetryTimeouts@24"
+    },
+    {
+      "offset": 43858,
+      "name": "_AdaptiveTimeout_ClearInterfaceSpecificConfiguration@0"
+    },
+    {
+      "offset": 43858,
+      "name": "__imp__AdaptiveTimeout_ClearInterfaceSpecificConfiguration@0"
+    },
+    {
+      "offset": 44004,
+      "name": "_AdaptiveTimeout_ResetAdaptiveTimeout@0"
+    },
+    {
+      "offset": 44004,
+      "name": "__imp__AdaptiveTimeout_ResetAdaptiveTimeout@0"
+    },
+    {
+      "offset": 44366,
+      "name": "_Coalesce_UpdateNetVersion@0"
+    },
+    {
+      "offset": 44366,
+      "name": "__imp__Coalesce_UpdateNetVersion@0"
+    },
+    {
+      "offset": 48494,
+      "name": "_DnsConnectionGetProxyInfoForHostUrl@20"
+    },
+    {
+      "offset": 48494,
+      "name": "__imp__DnsConnectionGetProxyInfoForHostUrl@20"
+    },
+    {
+      "offset": 47870,
+      "name": "_DnsConnectionFreeProxyInfoEx@4"
+    },
+    {
+      "offset": 47870,
+      "name": "__imp__DnsConnectionFreeProxyInfoEx@4"
+    },
+    {
+      "offset": 48372,
+      "name": "_DnsConnectionGetProxyInfo@12"
+    },
+    {
+      "offset": 48372,
+      "name": "__imp__DnsConnectionGetProxyInfo@12"
+    },
+    {
+      "offset": 47748,
+      "name": "_DnsConnectionFreeProxyInfo@4"
+    },
+    {
+      "offset": 47748,
+      "name": "__imp__DnsConnectionFreeProxyInfo@4"
+    },
+    {
+      "offset": 49002,
+      "name": "_DnsConnectionSetProxyInfo@12"
+    },
+    {
+      "offset": 49002,
+      "name": "__imp__DnsConnectionSetProxyInfo@12"
+    },
+    {
+      "offset": 47504,
+      "name": "_DnsConnectionDeleteProxyInfo@8"
+    },
+    {
+      "offset": 47504,
+      "name": "__imp__DnsConnectionDeleteProxyInfo@8"
+    },
+    {
+      "offset": 48626,
+      "name": "_DnsConnectionGetProxyList@8"
+    },
+    {
+      "offset": 48626,
+      "name": "__imp__DnsConnectionGetProxyList@8"
+    },
+    {
+      "offset": 47994,
+      "name": "_DnsConnectionFreeProxyList@4"
+    },
+    {
+      "offset": 47994,
+      "name": "__imp__DnsConnectionFreeProxyList@4"
+    },
+    {
+      "offset": 48252,
+      "name": "_DnsConnectionGetNameList@4"
+    },
+    {
+      "offset": 48252,
+      "name": "__imp__DnsConnectionGetNameList@4"
+    },
+    {
+      "offset": 47628,
+      "name": "_DnsConnectionFreeNameList@4"
+    },
+    {
+      "offset": 47628,
+      "name": "__imp__DnsConnectionFreeNameList@4"
+    },
+    {
+      "offset": 49124,
+      "name": "_DnsConnectionUpdateIfIndexTable@4"
+    },
+    {
+      "offset": 49124,
+      "name": "__imp__DnsConnectionUpdateIfIndexTable@4"
+    },
+    {
+      "offset": 48746,
+      "name": "_DnsConnectionSetPolicyEntries@8"
+    },
+    {
+      "offset": 48746,
+      "name": "__imp__DnsConnectionSetPolicyEntries@8"
+    },
+    {
+      "offset": 47242,
+      "name": "_DnsConnectionDeletePolicyEntries@4"
+    },
+    {
+      "offset": 47242,
+      "name": "__imp__DnsConnectionDeletePolicyEntries@4"
+    },
+    {
+      "offset": 78330,
+      "name": "_ThreadPool_QueueWork@8"
+    },
+    {
+      "offset": 78330,
+      "name": "__imp__ThreadPool_QueueWork@8"
+    },
+    {
+      "offset": 55802,
+      "name": "_DnsGetWellKnownServerProperty@12"
+    },
+    {
+      "offset": 55802,
+      "name": "__imp__DnsGetWellKnownServerProperty@12"
+    },
+    {
+      "offset": 64496,
+      "name": "_DnsSetWellKnownServerProperty@12"
+    },
+    {
+      "offset": 64496,
+      "name": "__imp__DnsSetWellKnownServerProperty@12"
+    },
+    {
+      "offset": 53410,
+      "name": "_DnsFreeWellKnownServerProperty@4"
+    },
+    {
+      "offset": 53410,
+      "name": "__imp__DnsFreeWellKnownServerProperty@4"
+    },
+    {
+      "offset": 53536,
+      "name": "_DnsFreeWellKnownServers@8"
+    },
+    {
+      "offset": 53536,
+      "name": "__imp__DnsFreeWellKnownServers@8"
+    },
+    {
+      "offset": 55928,
+      "name": "_DnsGetWellKnownServers@16"
+    },
+    {
+      "offset": 55928,
+      "name": "__imp__DnsGetWellKnownServers@16"
+    },
+    {
+      "offset": 45304,
+      "name": "_DnsAddrArrayCreate@4"
+    },
+    {
+      "offset": 45304,
+      "name": "__imp__DnsAddrArrayCreate@4"
+    },
+    {
+      "offset": 45190,
+      "name": "_DnsAddrArrayAddIp4@12"
+    },
+    {
+      "offset": 45190,
+      "name": "__imp__DnsAddrArrayAddIp4@12"
+    },
+    {
+      "offset": 45074,
+      "name": "_DnsAddrArrayAddAddr@16"
+    },
+    {
+      "offset": 45074,
+      "name": "__imp__DnsAddrArrayAddAddr@16"
+    },
+    {
+      "offset": 45418,
+      "name": "_DnsAddrBuildFromDnsRecord@8"
+    },
+    {
+      "offset": 45418,
+      "name": "__imp__DnsAddrBuildFromDnsRecord@8"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 42492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3609424337,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "@DnsGetDomainName@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "DnsGetDomainName"
+    },
+    {
+      "offset": 42604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4258002723,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "@DnsIsAMailboxType@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "DnsIsAMailboxType"
+    },
+    {
+      "offset": 42716,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3438926626,
+      "sizeOfData": 28,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "@DnsIsNSECType@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "DnsIsNSECType"
+    },
+    {
+      "offset": 42824,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4261275967,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "@DnsIsStatusRcode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "DnsIsStatusRcode"
+    },
+    {
+      "offset": 42936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4121139271,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "@DnsMapRcodeToStatus@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "DnsMapRcodeToStatus"
+    },
+    {
+      "offset": 43050,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4077066262,
+      "sizeOfData": 30,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "@DnsStatusString@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 182,
+      "name": "DnsStatusString"
+    },
+    {
+      "offset": 43160,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3254935366,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "@DnsUnicodeToUtf8@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 187,
+      "name": "DnsUnicodeToUtf8"
+    },
+    {
+      "offset": 43272,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3898312211,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "@DnsUtf8ToUnicode@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 194,
+      "name": "DnsUtf8ToUnicode"
+    },
+    {
+      "offset": 43384,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3687105121,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "@Dns_ReadPacketName@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 233,
+      "name": "Dns_ReadPacketName"
+    },
+    {
+      "offset": 43498,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3928726739,
+      "sizeOfData": 42,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "@Dns_ReadPacketNameAllocate@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 234,
+      "name": "Dns_ReadPacketNameAllocate"
+    },
+    {
+      "offset": 43620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3875296941,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "@Dns_SkipPacketName@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 244,
+      "name": "Dns_SkipPacketName"
+    },
+    {
+      "offset": 43734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3837707641,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "@Dns_WriteDottedNameToPacket@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 248,
+      "name": "Dns_WriteDottedNameToPacket"
+    },
+    {
+      "offset": 43858,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4084170239,
+      "sizeOfData": 66,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_AdaptiveTimeout_ClearInterfaceSpecificConfiguration@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "AdaptiveTimeout_ClearInterfaceSpecificConfiguration"
+    },
+    {
+      "offset": 44004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3672209201,
+      "sizeOfData": 51,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_AdaptiveTimeout_ResetAdaptiveTimeout@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "AdaptiveTimeout_ResetAdaptiveTimeout"
+    },
+    {
+      "offset": 44136,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3743924573,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_AddRefQueryBlobEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "AddRefQueryBlobEx"
+    },
+    {
+      "offset": 44250,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4186305751,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_BreakRecordsIntoBlob@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "BreakRecordsIntoBlob"
+    },
+    {
+      "offset": 44366,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4104779442,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Coalesce_UpdateNetVersion@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "Coalesce_UpdateNetVersion"
+    },
+    {
+      "offset": 44486,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4110072870,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_CombineRecordsInBlob@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "CombineRecordsInBlob"
+    },
+    {
+      "offset": 44602,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3447675917,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DeRefQueryBlobEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "DeRefQueryBlobEx"
+    },
+    {
+      "offset": 44714,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3358611417,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DelaySortDAServerlist@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "DelaySortDAServerlist"
+    },
+    {
+      "offset": 44830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3239063499,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsAcquireContextHandle_A@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "DnsAcquireContextHandle_A"
+    },
+    {
+      "offset": 44952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3948144222,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsAcquireContextHandle_W@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "DnsAcquireContextHandle_W"
+    },
+    {
+      "offset": 45074,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3792122601,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsAddrArrayAddAddr@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "DnsAddrArrayAddAddr"
+    },
+    {
+      "offset": 45190,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3549842200,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsAddrArrayAddIp4@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "DnsAddrArrayAddIp4"
+    },
+    {
+      "offset": 45304,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3481713256,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsAddrArrayCreate@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "DnsAddrArrayCreate"
+    },
+    {
+      "offset": 45418,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4196671624,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsAddrBuildFromDnsRecord@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "DnsAddrBuildFromDnsRecord"
+    },
+    {
+      "offset": 45538,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4150078186,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsAllocateRecord@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "DnsAllocateRecord"
+    },
+    {
+      "offset": 45650,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4055677736,
+      "sizeOfData": 26,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsApiAlloc@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "DnsApiAlloc"
+    },
+    {
+      "offset": 45756,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4228736073,
+      "sizeOfData": 30,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsApiAllocZero@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "DnsApiAllocZero"
+    },
+    {
+      "offset": 45866,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3572111705,
+      "sizeOfData": 25,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsApiFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "DnsApiFree"
+    },
+    {
+      "offset": 45972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3664088417,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsApiHeapReset@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "DnsApiHeapReset"
+    },
+    {
+      "offset": 46084,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3745566930,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsApiOnNetworkChange@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "DnsApiOnNetworkChange"
+    },
+    {
+      "offset": 46200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4275173736,
+      "sizeOfData": 28,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsApiRealloc@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "DnsApiRealloc"
+    },
+    {
+      "offset": 46308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3859590894,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsApiSetDebugGlobals@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "DnsApiSetDebugGlobals"
+    },
+    {
+      "offset": 46424,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3234903705,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsAsyncRegisterHostAddrs@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "DnsAsyncRegisterHostAddrs"
+    },
+    {
+      "offset": 46546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3402719809,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsAsyncRegisterInit@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "DnsAsyncRegisterInit"
+    },
+    {
+      "offset": 46662,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3258518118,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsAsyncRegisterTerm@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "DnsAsyncRegisterTerm"
+    },
+    {
+      "offset": 46778,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3690823189,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsCancelQuery@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "DnsCancelQuery"
+    },
+    {
+      "offset": 46888,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3785993875,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsCheckNrptRuleIntegrity@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "DnsCheckNrptRuleIntegrity"
+    },
+    {
+      "offset": 47008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3689187034,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsCheckNrptRules@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "DnsCheckNrptRules"
+    },
+    {
+      "offset": 47122,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3940182655,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsCleanupTcpConnections@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "DnsCleanupTcpConnections"
+    },
+    {
+      "offset": 47242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3928931165,
+      "sizeOfData": 47,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionDeletePolicyEntries@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "DnsConnectionDeletePolicyEntries"
+    },
+    {
+      "offset": 47370,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3450965161,
+      "sizeOfData": 54,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionDeletePolicyEntriesPrivate@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "DnsConnectionDeletePolicyEntriesPrivate"
+    },
+    {
+      "offset": 47504,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3697599161,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionDeleteProxyInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "DnsConnectionDeleteProxyInfo"
+    },
+    {
+      "offset": 47628,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3730184488,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionFreeNameList@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "DnsConnectionFreeNameList"
+    },
+    {
+      "offset": 47748,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3894359209,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionFreeProxyInfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "DnsConnectionFreeProxyInfo"
+    },
+    {
+      "offset": 47870,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3567338231,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionFreeProxyInfoEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "DnsConnectionFreeProxyInfoEx"
+    },
+    {
+      "offset": 47994,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3297858338,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionFreeProxyList@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "DnsConnectionFreeProxyList"
+    },
+    {
+      "offset": 48116,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3481160092,
+      "sizeOfData": 55,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionGetHandleForHostUrlPrivate@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "DnsConnectionGetHandleForHostUrlPrivate"
+    },
+    {
+      "offset": 48252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3903710883,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionGetNameList@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "DnsConnectionGetNameList"
+    },
+    {
+      "offset": 48372,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4137413227,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionGetProxyInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "DnsConnectionGetProxyInfo"
+    },
+    {
+      "offset": 48494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3930278716,
+      "sizeOfData": 51,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionGetProxyInfoForHostUrl@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "DnsConnectionGetProxyInfoForHostUrl"
+    },
+    {
+      "offset": 48626,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3817250589,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionGetProxyList@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "DnsConnectionGetProxyList"
+    },
+    {
+      "offset": 48746,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4159177935,
+      "sizeOfData": 44,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionSetPolicyEntries@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "DnsConnectionSetPolicyEntries"
+    },
+    {
+      "offset": 48870,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3888840840,
+      "sizeOfData": 52,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionSetPolicyEntriesPrivate@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "DnsConnectionSetPolicyEntriesPrivate"
+    },
+    {
+      "offset": 49002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3544073665,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionSetProxyInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "DnsConnectionSetProxyInfo"
+    },
+    {
+      "offset": 49124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3342564516,
+      "sizeOfData": 46,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsConnectionUpdateIfIndexTable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "DnsConnectionUpdateIfIndexTable"
+    },
+    {
+      "offset": 49250,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4158835663,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsCopyStringEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "DnsCopyStringEx"
+    },
+    {
+      "offset": 49362,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4081213850,
+      "sizeOfData": 53,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsCreateReverseNameStringForIpAddress@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "DnsCreateReverseNameStringForIpAddress"
+    },
+    {
+      "offset": 49496,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3717376711,
+      "sizeOfData": 44,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsCreateStandardDnsNameCopy@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "DnsCreateStandardDnsNameCopy"
+    },
+    {
+      "offset": 49620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3883432932,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsCreateStringCopy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "DnsCreateStringCopy"
+    },
+    {
+      "offset": 49734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3390385282,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDeRegisterLocal@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "DnsDeRegisterLocal"
+    },
+    {
+      "offset": 49848,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3959928907,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDeleteSettings@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "DnsDeleteSettings"
+    },
+    {
+      "offset": 49960,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3273212081,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDhcpRegisterAddrs@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "DnsDhcpRegisterAddrs"
+    },
+    {
+      "offset": 50076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3963282298,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDhcpRegisterHostAddrs@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "DnsDhcpRegisterHostAddrs"
+    },
+    {
+      "offset": 50196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3945042053,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDhcpRegisterInit@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "DnsDhcpRegisterInit"
+    },
+    {
+      "offset": 50310,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4228410969,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDhcpRegisterTerm@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "DnsDhcpRegisterTerm"
+    },
+    {
+      "offset": 50424,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4136162078,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDhcpRemoveRegistrations@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "DnsDhcpRemoveRegistrations"
+    },
+    {
+      "offset": 50546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3981720136,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDhcpSrvRegisterHostAddr@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "DnsDhcpSrvRegisterHostAddr"
+    },
+    {
+      "offset": 50668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3791716716,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDhcpSrvRegisterHostAddrEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "DnsDhcpSrvRegisterHostAddrEx"
+    },
+    {
+      "offset": 50792,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3631167010,
+      "sizeOfData": 42,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDhcpSrvRegisterHostName@48",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "DnsDhcpSrvRegisterHostName"
+    },
+    {
+      "offset": 50914,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3802243463,
+      "sizeOfData": 44,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDhcpSrvRegisterHostNameEx@60",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "DnsDhcpSrvRegisterHostNameEx"
+    },
+    {
+      "offset": 51038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3368698708,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDhcpSrvRegisterInit@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "DnsDhcpSrvRegisterInit"
+    },
+    {
+      "offset": 51156,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4255224820,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDhcpSrvRegisterInitEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "DnsDhcpSrvRegisterInitEx"
+    },
+    {
+      "offset": 51276,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3570334473,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDhcpSrvRegisterInitialize@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "DnsDhcpSrvRegisterInitialize"
+    },
+    {
+      "offset": 51400,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4219250928,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDhcpSrvRegisterTerm@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "DnsDhcpSrvRegisterTerm"
+    },
+    {
+      "offset": 51518,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3780555595,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDisableIdnEncoding@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "DnsDisableIdnEncoding"
+    },
+    {
+      "offset": 51634,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3995505131,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsDowncaseDnsNameLabel@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "DnsDowncaseDnsNameLabel"
+    },
+    {
+      "offset": 51754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3253961975,
+      "sizeOfData": 49,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsExtractRecordsFromMessage_UTF8@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "DnsExtractRecordsFromMessage_UTF8"
+    },
+    {
+      "offset": 51884,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4088842223,
+      "sizeOfData": 46,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsExtractRecordsFromMessage_W@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "DnsExtractRecordsFromMessage_W"
+    },
+    {
+      "offset": 52010,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3667301731,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFindAuthoritativeZone@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "DnsFindAuthoritativeZone"
+    },
+    {
+      "offset": 52130,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3265680761,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFlushResolverCache@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "DnsFlushResolverCache"
+    },
+    {
+      "offset": 52246,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3382409212,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFlushResolverCacheEntry_A@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "DnsFlushResolverCacheEntry_A"
+    },
+    {
+      "offset": 52370,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4232486380,
+      "sizeOfData": 46,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFlushResolverCacheEntry_UTF8@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "DnsFlushResolverCacheEntry_UTF8"
+    },
+    {
+      "offset": 52496,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3940985656,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFlushResolverCacheEntry_W@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "DnsFlushResolverCacheEntry_W"
+    },
+    {
+      "offset": 52620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3785579182,
+      "sizeOfData": 22,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFree@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "DnsFree"
+    },
+    {
+      "offset": 52722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3990735112,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFreeAdaptersInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "DnsFreeAdaptersInfo"
+    },
+    {
+      "offset": 52836,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3327391748,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFreeConfigStructure@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "DnsFreeConfigStructure"
+    },
+    {
+      "offset": 52954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3710745230,
+      "sizeOfData": 30,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFreeNrptRule@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "DnsFreeNrptRule"
+    },
+    {
+      "offset": 53064,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3665351852,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFreeNrptRuleNamesList@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "DnsFreeNrptRuleNamesList"
+    },
+    {
+      "offset": 53184,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3656230046,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFreePolicyConfig@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "DnsFreePolicyConfig"
+    },
+    {
+      "offset": 53298,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3918656117,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFreeProxyName@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "DnsFreeProxyName"
+    },
+    {
+      "offset": 53410,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3835571012,
+      "sizeOfData": 45,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFreeWellKnownServerProperty@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "DnsFreeWellKnownServerProperty"
+    },
+    {
+      "offset": 53536,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3241207539,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsFreeWellKnownServers@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "DnsFreeWellKnownServers"
+    },
+    {
+      "offset": 53654,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3670544978,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetAdaptersInfo@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "DnsGetAdaptersInfo"
+    },
+    {
+      "offset": 53768,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4194393674,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetApplicationIdentifier@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "DnsGetApplicationIdentifier"
+    },
+    {
+      "offset": 53892,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4177924072,
+      "sizeOfData": 47,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetBufferLengthForStringCopy@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "DnsGetBufferLengthForStringCopy"
+    },
+    {
+      "offset": 54020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3755810252,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetCacheDataTable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "DnsGetCacheDataTable"
+    },
+    {
+      "offset": 54136,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3360593688,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetCacheDataTableEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "DnsGetCacheDataTableEx"
+    },
+    {
+      "offset": 54254,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3880801817,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetDnsServerList@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "DnsGetDnsServerList"
+    },
+    {
+      "offset": 54368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4272929037,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetInterfaceSettings@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "DnsGetInterfaceSettings"
+    },
+    {
+      "offset": 54488,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3924756633,
+      "sizeOfData": 45,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetInterfaceSettingsInProc@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "DnsGetInterfaceSettingsInProc"
+    },
+    {
+      "offset": 54614,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3475786990,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetLastFailedUpdateInfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "DnsGetLastFailedUpdateInfo"
+    },
+    {
+      "offset": 54736,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4211901651,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetNrptRuleNamesList@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "DnsGetNrptRuleNamesList"
+    },
+    {
+      "offset": 54854,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4058540452,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetPolicyTableInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "DnsGetPolicyTableInfo"
+    },
+    {
+      "offset": 54972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3256870741,
+      "sizeOfData": 44,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetPolicyTableInfoPrivate@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "DnsGetPolicyTableInfoPrivate"
+    },
+    {
+      "offset": 55096,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3336602508,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetPrimaryDomainName_A@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "DnsGetPrimaryDomainName_A"
+    },
+    {
+      "offset": 55216,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3599096240,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetProxyInfoPrivate@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "DnsGetProxyInfoPrivate"
+    },
+    {
+      "offset": 55334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3620484055,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetProxyInformation@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "DnsGetProxyInformation"
+    },
+    {
+      "offset": 55452,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3622337726,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetProxyInformationEx@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "DnsGetProxyInformationEx"
+    },
+    {
+      "offset": 55572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3912043050,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetQueryRetryTimeouts@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "DnsGetQueryRetryTimeouts"
+    },
+    {
+      "offset": 55692,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3909522398,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetSettings@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "DnsGetSettings"
+    },
+    {
+      "offset": 55802,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3287899421,
+      "sizeOfData": 45,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetWellKnownServerProperty@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "DnsGetWellKnownServerProperty"
+    },
+    {
+      "offset": 55928,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3374491260,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGetWellKnownServers@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "DnsGetWellKnownServers"
+    },
+    {
+      "offset": 56046,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3428260105,
+      "sizeOfData": 23,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsGlobals",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 103,
+      "name": "DnsGlobals"
+    },
+    {
+      "offset": 56150,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3621362646,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsIp6AddressToReverseNameW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "DnsIp6AddressToReverseNameW"
+    },
+    {
+      "offset": 56274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3929847630,
+      "sizeOfData": 42,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsIp6ReverseNameToAddressW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "DnsIp6ReverseNameToAddressW"
+    },
+    {
+      "offset": 56396,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3756874467,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsIpv6AddressToString@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "DnsIpv6AddressToString"
+    },
+    {
+      "offset": 56514,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3951613306,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsIpv6StringToAddress@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "DnsIpv6StringToAddress"
+    },
+    {
+      "offset": 56632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3306755520,
+      "sizeOfData": 47,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsIsStringCountValidForTextType@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "DnsIsStringCountValidForTextType"
+    },
+    {
+      "offset": 56760,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3682938364,
+      "sizeOfData": 27,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsLogEvent@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "DnsLogEvent"
+    },
+    {
+      "offset": 56868,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3773816863,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsModifyRecordsInSet_A@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "DnsModifyRecordsInSet_A"
+    },
+    {
+      "offset": 56988,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3829491902,
+      "sizeOfData": 42,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsModifyRecordsInSet_UTF8@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "DnsModifyRecordsInSet_UTF8"
+    },
+    {
+      "offset": 57110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3473749713,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsModifyRecordsInSet_W@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "DnsModifyRecordsInSet_W"
+    },
+    {
+      "offset": 57230,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3866527583,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsNameCompareEx_A@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "DnsNameCompareEx_A"
+    },
+    {
+      "offset": 57344,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3421796156,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsNameCompareEx_UTF8@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "DnsNameCompareEx_UTF8"
+    },
+    {
+      "offset": 57462,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3518125745,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsNameCompareEx_W@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "DnsNameCompareEx_W"
+    },
+    {
+      "offset": 57576,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4148763950,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsNameCompare_A@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "DnsNameCompare_A"
+    },
+    {
+      "offset": 57688,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3507951329,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsNameCompare_UTF8@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "DnsNameCompare_UTF8"
+    },
+    {
+      "offset": 57802,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3686126421,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsNameCompare_W@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "DnsNameCompare_W"
+    },
+    {
+      "offset": 57914,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4260767163,
+      "sizeOfData": 27,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsNameCopy@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "DnsNameCopy"
+    },
+    {
+      "offset": 58022,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4162210428,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsNameCopyAllocate@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "DnsNameCopyAllocate"
+    },
+    {
+      "offset": 58138,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3872204202,
+      "sizeOfData": 44,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsNetworkInfo_CreateFromFAZ@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "DnsNetworkInfo_CreateFromFAZ"
+    },
+    {
+      "offset": 58262,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4185740828,
+      "sizeOfData": 51,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsNetworkInformation_CreateFromFAZ@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "DnsNetworkInformation_CreateFromFAZ"
+    },
+    {
+      "offset": 58394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3269558712,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsNotifyResolver@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "DnsNotifyResolver"
+    },
+    {
+      "offset": 58506,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3288940293,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsNotifyResolverClusterIp@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "DnsNotifyResolverClusterIp"
+    },
+    {
+      "offset": 58628,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3300438082,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsNotifyResolverEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "DnsNotifyResolverEx"
+    },
+    {
+      "offset": 58744,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3970725560,
+      "sizeOfData": 30,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsQueryConfig@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "DnsQueryConfig"
+    },
+    {
+      "offset": 58854,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3293201495,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsQueryConfigAllocEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "DnsQueryConfigAllocEx"
+    },
+    {
+      "offset": 58972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3760165666,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsQueryConfigDword@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "DnsQueryConfigDword"
+    },
+    {
+      "offset": 59086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4183787029,
+      "sizeOfData": 26,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsQueryEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "DnsQueryEx"
+    },
+    {
+      "offset": 59192,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3565922893,
+      "sizeOfData": 26,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsQueryExA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "DnsQueryExA"
+    },
+    {
+      "offset": 59298,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3948531491,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsQueryExUTF8@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "DnsQueryExUTF8"
+    },
+    {
+      "offset": 59408,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3683518711,
+      "sizeOfData": 26,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsQueryExW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "DnsQueryExW"
+    },
+    {
+      "offset": 59514,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3641921087,
+      "sizeOfData": 26,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsQuery_A@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "DnsQuery_A"
+    },
+    {
+      "offset": 59620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3713206793,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsQuery_UTF8@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "DnsQuery_UTF8"
+    },
+    {
+      "offset": 59730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3676240624,
+      "sizeOfData": 26,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsQuery_W@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "DnsQuery_W"
+    },
+    {
+      "offset": 59836,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3231616488,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRecordBuild_UTF8@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "DnsRecordBuild_UTF8"
+    },
+    {
+      "offset": 59952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4046886882,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRecordBuild_W@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "DnsRecordBuild_W"
+    },
+    {
+      "offset": 60064,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3236438312,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRecordCompare@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "DnsRecordCompare"
+    },
+    {
+      "offset": 60176,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4120152663,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRecordCopyEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "DnsRecordCopyEx"
+    },
+    {
+      "offset": 60288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3767039684,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRecordListFree@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "DnsRecordListFree"
+    },
+    {
+      "offset": 60400,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3753186204,
+      "sizeOfData": 52,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRecordListUnmapV4MappedAAAAInPlace@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "DnsRecordListUnmapV4MappedAAAAInPlace"
+    },
+    {
+      "offset": 60532,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3622547683,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRecordSetCompare@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "DnsRecordSetCompare"
+    },
+    {
+      "offset": 60648,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4064037191,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRecordSetCopyEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "DnsRecordSetCopyEx"
+    },
+    {
+      "offset": 60762,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4219306228,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRecordSetDetach@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "DnsRecordSetDetach"
+    },
+    {
+      "offset": 60876,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4083419386,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRecordStringForType@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "DnsRecordStringForType"
+    },
+    {
+      "offset": 60994,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4042400622,
+      "sizeOfData": 45,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRecordStringForWritableType@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "DnsRecordStringForWritableType"
+    },
+    {
+      "offset": 61120,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3621137831,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRecordTypeForName@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "DnsRecordTypeForName"
+    },
+    {
+      "offset": 61236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4030140488,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRegisterLocal@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "DnsRegisterLocal"
+    },
+    {
+      "offset": 61348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3481935720,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsReleaseContextHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "DnsReleaseContextHandle"
+    },
+    {
+      "offset": 61466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3400270616,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRemoveNrptRule@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "DnsRemoveNrptRule"
+    },
+    {
+      "offset": 61578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3615414446,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsRemoveRegistrations@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "DnsRemoveRegistrations"
+    },
+    {
+      "offset": 61696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4236248408,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsReplaceRecordSetA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "DnsReplaceRecordSetA"
+    },
+    {
+      "offset": 61812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3264249244,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsReplaceRecordSetUTF8@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "DnsReplaceRecordSetUTF8"
+    },
+    {
+      "offset": 61932,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4287430136,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsReplaceRecordSetW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 158,
+      "name": "DnsReplaceRecordSetW"
+    },
+    {
+      "offset": 62048,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4097253117,
+      "sizeOfData": 42,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsResetQueryRetryTimeouts@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 159,
+      "name": "DnsResetQueryRetryTimeouts"
+    },
+    {
+      "offset": 62170,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3615098129,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsResolverOp@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 160,
+      "name": "DnsResolverOp"
+    },
+    {
+      "offset": 62280,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4027185102,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsResolverQueryHvsi@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 161,
+      "name": "DnsResolverQueryHvsi"
+    },
+    {
+      "offset": 62396,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3466980504,
+      "sizeOfData": 50,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsScreenLocalAddrsForRegistration@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 162,
+      "name": "DnsScreenLocalAddrsForRegistration"
+    },
+    {
+      "offset": 62526,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3965557710,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsServiceBrowse@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 163,
+      "name": "DnsServiceBrowse"
+    },
+    {
+      "offset": 62638,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3463215434,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsServiceBrowseCancel@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 164,
+      "name": "DnsServiceBrowseCancel"
+    },
+    {
+      "offset": 62756,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4278966241,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsServiceConstructInstance@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 165,
+      "name": "DnsServiceConstructInstance"
+    },
+    {
+      "offset": 62880,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3605568726,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsServiceCopyInstance@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 166,
+      "name": "DnsServiceCopyInstance"
+    },
+    {
+      "offset": 62998,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4141419217,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsServiceDeRegister@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 167,
+      "name": "DnsServiceDeRegister"
+    },
+    {
+      "offset": 63114,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4070688724,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsServiceFreeInstance@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 168,
+      "name": "DnsServiceFreeInstance"
+    },
+    {
+      "offset": 63232,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4099096433,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsServiceRegister@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 169,
+      "name": "DnsServiceRegister"
+    },
+    {
+      "offset": 63346,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3502478859,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsServiceRegisterCancel@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 170,
+      "name": "DnsServiceRegisterCancel"
+    },
+    {
+      "offset": 63466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3311820509,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsServiceResolve@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 171,
+      "name": "DnsServiceResolve"
+    },
+    {
+      "offset": 63578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3934158871,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsServiceResolveCancel@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 172,
+      "name": "DnsServiceResolveCancel"
+    },
+    {
+      "offset": 63696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3765129192,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsSetConfigDword@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 173,
+      "name": "DnsSetConfigDword"
+    },
+    {
+      "offset": 63810,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4222202371,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsSetConfigValue@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 174,
+      "name": "DnsSetConfigValue"
+    },
+    {
+      "offset": 63924,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4291986023,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsSetInterfaceSettings@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 175,
+      "name": "DnsSetInterfaceSettings"
+    },
+    {
+      "offset": 64044,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3707192066,
+      "sizeOfData": 30,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsSetNrptRule@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 176,
+      "name": "DnsSetNrptRule"
+    },
+    {
+      "offset": 64154,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3955505549,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsSetNrptRules@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 177,
+      "name": "DnsSetNrptRules"
+    },
+    {
+      "offset": 64266,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3564799141,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsSetQueryRetryTimeouts@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 178,
+      "name": "DnsSetQueryRetryTimeouts"
+    },
+    {
+      "offset": 64386,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3265411608,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsSetSettings@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 179,
+      "name": "DnsSetSettings"
+    },
+    {
+      "offset": 64496,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3236875164,
+      "sizeOfData": 45,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsSetWellKnownServerProperty@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 180,
+      "name": "DnsSetWellKnownServerProperty"
+    },
+    {
+      "offset": 64622,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4255701228,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsStartMulticastQuery@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 181,
+      "name": "DnsStartMulticastQuery"
+    },
+    {
+      "offset": 64740,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3671571401,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsStopMulticastQuery@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 183,
+      "name": "DnsStopMulticastQuery"
+    },
+    {
+      "offset": 64856,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3309078389,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsStringCopyAllocateEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 184,
+      "name": "DnsStringCopyAllocateEx"
+    },
+    {
+      "offset": 64976,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3694698050,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsStringToAddress@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 185,
+      "name": "DnsStringToAddress"
+    },
+    {
+      "offset": 65090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4075464295,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsTraceServerConfig@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 186,
+      "name": "DnsTraceServerConfig"
+    },
+    {
+      "offset": 65206,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3743366522,
+      "sizeOfData": 25,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsUpdate@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 188,
+      "name": "DnsUpdate"
+    },
+    {
+      "offset": 65312,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3757095250,
+      "sizeOfData": 45,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsUpdateCaptivePortalPresence@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 189,
+      "name": "DnsUpdateCaptivePortalPresence"
+    },
+    {
+      "offset": 65438,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4178014550,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsUpdateMachinePresence@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 190,
+      "name": "DnsUpdateMachinePresence"
+    },
+    {
+      "offset": 65558,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3670385702,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsUpdateTest_A@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 191,
+      "name": "DnsUpdateTest_A"
+    },
+    {
+      "offset": 65670,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4034699070,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsUpdateTest_UTF8@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 192,
+      "name": "DnsUpdateTest_UTF8"
+    },
+    {
+      "offset": 65784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3349335345,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsUpdateTest_W@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 193,
+      "name": "DnsUpdateTest_W"
+    },
+    {
+      "offset": 65896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4103690740,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsValidateNameOrIp_TempW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 195,
+      "name": "DnsValidateNameOrIp_TempW"
+    },
+    {
+      "offset": 66016,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3234002942,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsValidateName_A@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 196,
+      "name": "DnsValidateName_A"
+    },
+    {
+      "offset": 66128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3339494438,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsValidateName_UTF8@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 197,
+      "name": "DnsValidateName_UTF8"
+    },
+    {
+      "offset": 66244,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3438227547,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsValidateName_W@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 198,
+      "name": "DnsValidateName_W"
+    },
+    {
+      "offset": 66356,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3394860798,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsValidateServerArray_A@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 199,
+      "name": "DnsValidateServerArray_A"
+    },
+    {
+      "offset": 66476,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4222885466,
+      "sizeOfData": 40,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsValidateServerArray_W@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 200,
+      "name": "DnsValidateServerArray_W"
+    },
+    {
+      "offset": 66596,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4285884489,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsValidateServerStatus@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 201,
+      "name": "DnsValidateServerStatus"
+    },
+    {
+      "offset": 66716,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3710864893,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsValidateServer_A@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 202,
+      "name": "DnsValidateServer_A"
+    },
+    {
+      "offset": 66832,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4261490020,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsValidateServer_W@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 203,
+      "name": "DnsValidateServer_W"
+    },
+    {
+      "offset": 66948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3432173526,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsValidateUtf8Byte@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 204,
+      "name": "DnsValidateUtf8Byte"
+    },
+    {
+      "offset": 67062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3324450814,
+      "sizeOfData": 45,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsWriteQuestionToBuffer_UTF8@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 205,
+      "name": "DnsWriteQuestionToBuffer_UTF8"
+    },
+    {
+      "offset": 67188,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3847217531,
+      "sizeOfData": 42,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsWriteQuestionToBuffer_W@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 206,
+      "name": "DnsWriteQuestionToBuffer_W"
+    },
+    {
+      "offset": 67310,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3530993011,
+      "sizeOfData": 52,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsWriteReverseNameStringForIpAddress@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 207,
+      "name": "DnsWriteReverseNameStringForIpAddress"
+    },
+    {
+      "offset": 67442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3752355209,
+      "sizeOfData": 53,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_DnsWriteReverseNameStringForIpAddressW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 208,
+      "name": "DnsWriteReverseNameStringForIpAddressW"
+    },
+    {
+      "offset": 67576,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4156347843,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_AddRecordsToMessage@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 209,
+      "name": "Dns_AddRecordsToMessage"
+    },
+    {
+      "offset": 67696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3997497405,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_AllocateMsgBuf@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 210,
+      "name": "Dns_AllocateMsgBuf"
+    },
+    {
+      "offset": 67810,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3324790008,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_BuildPacket@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 211,
+      "name": "Dns_BuildPacket"
+    },
+    {
+      "offset": 67922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4274390983,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_CacheServiceCleanup@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 212,
+      "name": "Dns_CacheServiceCleanup"
+    },
+    {
+      "offset": 68040,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4227490422,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_CacheServiceInit@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 213,
+      "name": "Dns_CacheServiceInit"
+    },
+    {
+      "offset": 68156,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3955496440,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_CacheServiceInitEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 214,
+      "name": "Dns_CacheServiceInitEx"
+    },
+    {
+      "offset": 68274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3391509047,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_CacheServiceStopIssued@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 215,
+      "name": "Dns_CacheServiceStopIssued"
+    },
+    {
+      "offset": 68396,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4080829531,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_CleanupWinsock@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 216,
+      "name": "Dns_CleanupWinsock"
+    },
+    {
+      "offset": 68510,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4120180876,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_CloseConnection@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 217,
+      "name": "Dns_CloseConnection"
+    },
+    {
+      "offset": 68624,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4276159360,
+      "sizeOfData": 30,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_CloseSocket@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 218,
+      "name": "Dns_CloseSocket"
+    },
+    {
+      "offset": 68734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4217036543,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_CreateMulticastSocket@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 219,
+      "name": "Dns_CreateMulticastSocket"
+    },
+    {
+      "offset": 68856,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3555890018,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_CreateSocket@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 220,
+      "name": "Dns_CreateSocket"
+    },
+    {
+      "offset": 68968,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3271940348,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_CreateSocketEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 221,
+      "name": "Dns_CreateSocketEx"
+    },
+    {
+      "offset": 69082,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3750292530,
+      "sizeOfData": 45,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_ExtractRecordsFromMessage@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 222,
+      "name": "Dns_ExtractRecordsFromMessage"
+    },
+    {
+      "offset": 69208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4184418271,
+      "sizeOfData": 44,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_FindAuthoritativeZoneLib@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 223,
+      "name": "Dns_FindAuthoritativeZoneLib"
+    },
+    {
+      "offset": 69332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3243911657,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_FreeMsgBuf@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 224,
+      "name": "Dns_FreeMsgBuf"
+    },
+    {
+      "offset": 69442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4080003349,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_GetRandomXid@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 225,
+      "name": "Dns_GetRandomXid"
+    },
+    {
+      "offset": 69554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3633619991,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_InitializeMsgBuf@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 226,
+      "name": "Dns_InitializeMsgBuf"
+    },
+    {
+      "offset": 69670,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4283995959,
+      "sizeOfData": 46,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_InitializeMsgRemoteSockaddr@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 227,
+      "name": "Dns_InitializeMsgRemoteSockaddr"
+    },
+    {
+      "offset": 69796,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3887217186,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_InitializeWinsock@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 228,
+      "name": "Dns_InitializeWinsock"
+    },
+    {
+      "offset": 69912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3508721438,
+      "sizeOfData": 44,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_OpenTcpConnectionAndSend@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 229,
+      "name": "Dns_OpenTcpConnectionAndSend"
+    },
+    {
+      "offset": 70036,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4014753110,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_ParseMessage@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 230,
+      "name": "Dns_ParseMessage"
+    },
+    {
+      "offset": 70148,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4209825119,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_ParsePacketRecord@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 231,
+      "name": "Dns_ParsePacketRecord"
+    },
+    {
+      "offset": 70266,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3798989949,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_PingAdapterServers@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 232,
+      "name": "Dns_PingAdapterServers"
+    },
+    {
+      "offset": 70384,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3929781111,
+      "sizeOfData": 49,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_ReadRecordStructureFromPacket@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 235,
+      "name": "Dns_ReadRecordStructureFromPacket"
+    },
+    {
+      "offset": 70514,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4018139382,
+      "sizeOfData": 26,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_RecvTcp@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 236,
+      "name": "Dns_RecvTcp"
+    },
+    {
+      "offset": 70620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3838434056,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_ResetNetworkInfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 237,
+      "name": "Dns_ResetNetworkInfo"
+    },
+    {
+      "offset": 70736,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3228474192,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_SendAndRecvUdp@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 238,
+      "name": "Dns_SendAndRecvUdp"
+    },
+    {
+      "offset": 70850,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3497788388,
+      "sizeOfData": 26,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_SendEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 239,
+      "name": "Dns_SendEx"
+    },
+    {
+      "offset": 70956,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3278285855,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_SetRecordDatalength@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 240,
+      "name": "Dns_SetRecordDatalength"
+    },
+    {
+      "offset": 71074,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3703615986,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_SetRecordsScopeId@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 241,
+      "name": "Dns_SetRecordsScopeId"
+    },
+    {
+      "offset": 71192,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4097684720,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_SetRecordsSection@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 242,
+      "name": "Dns_SetRecordsSection"
+    },
+    {
+      "offset": 71308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3373143429,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_SetRecordsTtl@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 243,
+      "name": "Dns_SetRecordsTtl"
+    },
+    {
+      "offset": 71420,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4226818486,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_SkipToRecord@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 245,
+      "name": "Dns_SkipToRecord"
+    },
+    {
+      "offset": 71532,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3412876168,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_UpdateLib@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 246,
+      "name": "Dns_UpdateLib"
+    },
+    {
+      "offset": 71642,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4205731782,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_UpdateLibEx@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 247,
+      "name": "Dns_UpdateLibEx"
+    },
+    {
+      "offset": 71754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4237704583,
+      "sizeOfData": 42,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_WriteQuestionToMessage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 249,
+      "name": "Dns_WriteQuestionToMessage"
+    },
+    {
+      "offset": 71876,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3759404100,
+      "sizeOfData": 50,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Dns_WriteRecordStructureToPacketEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 250,
+      "name": "Dns_WriteRecordStructureToPacketEx"
+    },
+    {
+      "offset": 72006,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3231432392,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_ExtraInfo_Init@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 251,
+      "name": "ExtraInfo_Init"
+    },
+    {
+      "offset": 72116,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3614124201,
+      "sizeOfData": 49,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Faz_AreServerListsInSameNameSpace@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 252,
+      "name": "Faz_AreServerListsInSameNameSpace"
+    },
+    {
+      "offset": 72246,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3999109781,
+      "sizeOfData": 46,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_FlushDnsPolicyUnreachableStatus@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 253,
+      "name": "FlushDnsPolicyUnreachableStatus"
+    },
+    {
+      "offset": 72372,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3872794642,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_GetCurrentTimeInSeconds@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 254,
+      "name": "GetCurrentTimeInSeconds"
+    },
+    {
+      "offset": 72490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3460100713,
+      "sizeOfData": 30,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_HostsFile_Close@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 255,
+      "name": "HostsFile_Close"
+    },
+    {
+      "offset": 72600,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3370440817,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_HostsFile_Open@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 256,
+      "name": "HostsFile_Open"
+    },
+    {
+      "offset": 72710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3417049501,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_HostsFile_ReadLine@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 257,
+      "name": "HostsFile_ReadLine"
+    },
+    {
+      "offset": 72824,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3764441178,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_IpHelp_IsAddrOnLink@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 258,
+      "name": "IpHelp_IsAddrOnLink"
+    },
+    {
+      "offset": 72938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3628423563,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Local_GetRecordsForLocalName@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 259,
+      "name": "Local_GetRecordsForLocalName"
+    },
+    {
+      "offset": 73062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3306412525,
+      "sizeOfData": 46,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Local_GetRecordsForLocalNameEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 260,
+      "name": "Local_GetRecordsForLocalNameEx"
+    },
+    {
+      "offset": 73188,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4012942028,
+      "sizeOfData": 28,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_Build@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 261,
+      "name": "NetInfo_Build"
+    },
+    {
+      "offset": 73296,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3964228991,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_BuildEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 262,
+      "name": "NetInfo_BuildEx"
+    },
+    {
+      "offset": 73408,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4009349594,
+      "sizeOfData": 28,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_Clean@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 263,
+      "name": "NetInfo_Clean"
+    },
+    {
+      "offset": 73516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3844539634,
+      "sizeOfData": 27,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_Copy@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 264,
+      "name": "NetInfo_Copy"
+    },
+    {
+      "offset": 73624,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3306967218,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_CopyNetworkIndex@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 265,
+      "name": "NetInfo_CopyNetworkIndex"
+    },
+    {
+      "offset": 73744,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3418474415,
+      "sizeOfData": 46,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_CreatePerNetworkNetinfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 266,
+      "name": "NetInfo_CreatePerNetworkNetinfo"
+    },
+    {
+      "offset": 73870,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3682031103,
+      "sizeOfData": 27,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_Free@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 267,
+      "name": "NetInfo_Free"
+    },
+    {
+      "offset": 73978,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3478087694,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_GetAdapterByAddress@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 268,
+      "name": "NetInfo_GetAdapterByAddress"
+    },
+    {
+      "offset": 74102,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3802968707,
+      "sizeOfData": 50,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_GetAdapterByInterfaceIndex@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 269,
+      "name": "NetInfo_GetAdapterByInterfaceIndex"
+    },
+    {
+      "offset": 74232,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3770251143,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_GetAdapterByName@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 270,
+      "name": "NetInfo_GetAdapterByName"
+    },
+    {
+      "offset": 74352,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4186758362,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_IsAddrConfig@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 271,
+      "name": "NetInfo_IsAddrConfig"
+    },
+    {
+      "offset": 74468,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3768815772,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_IsForUpdate@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 272,
+      "name": "NetInfo_IsForUpdate"
+    },
+    {
+      "offset": 74582,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4278022739,
+      "sizeOfData": 42,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_IsTcpipConfigChange@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 273,
+      "name": "NetInfo_IsTcpipConfigChange"
+    },
+    {
+      "offset": 74704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3698279989,
+      "sizeOfData": 44,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_ResetServerPriorities@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 274,
+      "name": "NetInfo_ResetServerPriorities"
+    },
+    {
+      "offset": 74828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3832030244,
+      "sizeOfData": 53,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_UpdateDnsInterfaceConfigChange@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 275,
+      "name": "NetInfo_UpdateDnsInterfaceConfigChange"
+    },
+    {
+      "offset": 74962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4062316348,
+      "sizeOfData": 47,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_UpdateNetworkProperties@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 276,
+      "name": "NetInfo_UpdateNetworkProperties"
+    },
+    {
+      "offset": 75090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3956171214,
+      "sizeOfData": 48,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_NetInfo_UpdateServerReachability@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 277,
+      "name": "NetInfo_UpdateServerReachability"
+    },
+    {
+      "offset": 75218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4086935529,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_QueryDirectEx@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 278,
+      "name": "QueryDirectEx"
+    },
+    {
+      "offset": 75328,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3882721914,
+      "sizeOfData": 28,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Query_Cancel@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 279,
+      "name": "Query_Cancel"
+    },
+    {
+      "offset": 75436,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4269335936,
+      "sizeOfData": 25,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Query_Main@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 280,
+      "name": "Query_Main"
+    },
+    {
+      "offset": 75542,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4261203679,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Reg_FreeUpdateInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 281,
+      "name": "Reg_FreeUpdateInfo"
+    },
+    {
+      "offset": 75656,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3791881970,
+      "sizeOfData": 30,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Reg_GetValueEx@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 282,
+      "name": "Reg_GetValueEx"
+    },
+    {
+      "offset": 75766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3657685127,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Reg_ReadGlobalsEx@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 283,
+      "name": "Reg_ReadGlobalsEx"
+    },
+    {
+      "offset": 75878,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3828660025,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Reg_ReadUpdateInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 284,
+      "name": "Reg_ReadUpdateInfo"
+    },
+    {
+      "offset": 75992,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4259256356,
+      "sizeOfData": 42,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Security_ContextListTimeout@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 285,
+      "name": "Security_ContextListTimeout"
+    },
+    {
+      "offset": 76114,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4095124741,
+      "sizeOfData": 39,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Send_AndRecvUdpWithParam@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 286,
+      "name": "Send_AndRecvUdpWithParam"
+    },
+    {
+      "offset": 76234,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3728210388,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Send_MessagePrivate@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 287,
+      "name": "Send_MessagePrivate"
+    },
+    {
+      "offset": 76350,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3769868849,
+      "sizeOfData": 37,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Send_MessagePrivateEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 288,
+      "name": "Send_MessagePrivateEx"
+    },
+    {
+      "offset": 76468,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3975445059,
+      "sizeOfData": 45,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Send_OpenTcpConnectionAndSend@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 289,
+      "name": "Send_OpenTcpConnectionAndSend"
+    },
+    {
+      "offset": 76594,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3742232748,
+      "sizeOfData": 34,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_CacheCleanup@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 290,
+      "name": "Socket_CacheCleanup"
+    },
+    {
+      "offset": 76708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3579031462,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_CacheInit@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 291,
+      "name": "Socket_CacheInit"
+    },
+    {
+      "offset": 76820,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3406709660,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_CleanupWinsock@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 292,
+      "name": "Socket_CleanupWinsock"
+    },
+    {
+      "offset": 76936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3420972479,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_ClearMessageSockets@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 293,
+      "name": "Socket_ClearMessageSockets"
+    },
+    {
+      "offset": 77058,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4071221456,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_CloseEx@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 294,
+      "name": "Socket_CloseEx"
+    },
+    {
+      "offset": 77168,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4042867385,
+      "sizeOfData": 41,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_CloseMessageSockets@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 295,
+      "name": "Socket_CloseMessageSockets"
+    },
+    {
+      "offset": 77290,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4141708339,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_Create@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 296,
+      "name": "Socket_Create"
+    },
+    {
+      "offset": 77400,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3888892232,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_CreateMulticast@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 297,
+      "name": "Socket_CreateMulticast"
+    },
+    {
+      "offset": 77518,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4262409988,
+      "sizeOfData": 33,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_InitWinsock@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 298,
+      "name": "Socket_InitWinsock"
+    },
+    {
+      "offset": 77632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3551056953,
+      "sizeOfData": 36,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_JoinMulticast@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 299,
+      "name": "Socket_JoinMulticast"
+    },
+    {
+      "offset": 77748,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3464102782,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_RecvFrom@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 300,
+      "name": "Socket_RecvFrom"
+    },
+    {
+      "offset": 77860,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4262284278,
+      "sizeOfData": 44,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_SetMulticastInterface@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 301,
+      "name": "Socket_SetMulticastInterface"
+    },
+    {
+      "offset": 77984,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3693116787,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_SetMulticastLoopBack@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 302,
+      "name": "Socket_SetMulticastLoopBack"
+    },
+    {
+      "offset": 78108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3952307393,
+      "sizeOfData": 29,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_SetTtl@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 303,
+      "name": "Socket_SetTtl"
+    },
+    {
+      "offset": 78218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4293220693,
+      "sizeOfData": 31,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Socket_TcpListen@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 304,
+      "name": "Socket_TcpListen"
+    },
+    {
+      "offset": 78330,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4133135880,
+      "sizeOfData": 35,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_ThreadPool_QueueWork@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 305,
+      "name": "ThreadPool_QueueWork"
+    },
+    {
+      "offset": 78446,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3746873274,
+      "sizeOfData": 26,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Trace_Reset@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 306,
+      "name": "Trace_Reset"
+    },
+    {
+      "offset": 78552,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3838449422,
+      "sizeOfData": 45,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Update_ReplaceAddressRecordsW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 307,
+      "name": "Update_ReplaceAddressRecordsW"
+    },
+    {
+      "offset": 78678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3721700281,
+      "sizeOfData": 32,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Util_IsIp6Running@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 308,
+      "name": "Util_IsIp6Running"
+    },
+    {
+      "offset": 78790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3967778848,
+      "sizeOfData": 38,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_Util_IsRunningOnXboxOne@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 309,
+      "name": "Util_IsRunningOnXboxOne"
+    },
+    {
+      "offset": 78908,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3869078069,
+      "sizeOfData": 43,
+      "dllName": "DNSAPI.dll",
+      "symbolName": "_WriteDnsNrptRulesToRegistry@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 310,
+      "name": "WriteDnsNrptRulesToRegistry"
+    }
+  ]
+}

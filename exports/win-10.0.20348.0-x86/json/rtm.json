@@ -1,0 +1,2805 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_BestMatchInTable@12"
+    },
+    {
+      "name": "_CheckTable@4"
+    },
+    {
+      "name": "_CreateTable@8"
+    },
+    {
+      "name": "_DeleteFromTable@20"
+    },
+    {
+      "name": "_DestroyTable@4"
+    },
+    {
+      "name": "_DumpTable@8"
+    },
+    {
+      "name": "_EnumOverTable@32"
+    },
+    {
+      "name": "_InsertIntoTable@20"
+    },
+    {
+      "name": "_MgmAddGroupMembershipEntry@32"
+    },
+    {
+      "name": "_MgmDeInitialize@0"
+    },
+    {
+      "name": "_MgmDeRegisterMProtocol@4"
+    },
+    {
+      "name": "_MgmDeleteGroupMembershipEntry@32"
+    },
+    {
+      "name": "_MgmGetFirstMfe@12"
+    },
+    {
+      "name": "_MgmGetFirstMfeStats@16"
+    },
+    {
+      "name": "_MgmGetMfe@12"
+    },
+    {
+      "name": "_MgmGetMfeStats@16"
+    },
+    {
+      "name": "_MgmGetNextMfe@16"
+    },
+    {
+      "name": "_MgmGetNextMfeStats@20"
+    },
+    {
+      "name": "_MgmGetProtocolOnInterface@16"
+    },
+    {
+      "name": "_MgmGroupEnumerationEnd@4"
+    },
+    {
+      "name": "_MgmGroupEnumerationGetNext@16"
+    },
+    {
+      "name": "_MgmGroupEnumerationStart@12"
+    },
+    {
+      "name": "_MgmInitialize@8"
+    },
+    {
+      "name": "_MgmRegisterMProtocol@16"
+    },
+    {
+      "name": "_MgmReleaseInterfaceOwnership@12"
+    },
+    {
+      "name": "_MgmTakeInterfaceOwnership@12"
+    },
+    {
+      "name": "_NextMatchInTable@12"
+    },
+    {
+      "name": "_RtmAddNextHop@16"
+    },
+    {
+      "name": "_RtmAddRoute@24"
+    },
+    {
+      "name": "_RtmAddRouteToDest@36"
+    },
+    {
+      "name": "_RtmBlockConvertRoutesToStatic@12"
+    },
+    {
+      "name": "_RtmBlockDeleteRoutes@12"
+    },
+    {
+      "name": "_RtmBlockMethods@16"
+    },
+    {
+      "name": "_RtmBlockSetRouteEnable@16"
+    },
+    {
+      "name": "_RtmCleanupInstances@0"
+    },
+    {
+      "name": "_RtmCloseEnumerationHandle@4"
+    },
+    {
+      "name": "_RtmConvertIpv6AddressAndLengthToNetAddress@28"
+    },
+    {
+      "name": "_RtmConvertNetAddressToIpv6AddressAndLength@16"
+    },
+    {
+      "name": "_RtmCreateBestRouteEnum@16"
+    },
+    {
+      "name": "_RtmCreateDestEnum@24"
+    },
+    {
+      "name": "_RtmCreateEnumerationHandle@12"
+    },
+    {
+      "name": "_RtmCreateNextHopEnum@16"
+    },
+    {
+      "name": "_RtmCreateRouteEnum@36"
+    },
+    {
+      "name": "_RtmCreateRouteList@8"
+    },
+    {
+      "name": "_RtmCreateRouteListEnum@12"
+    },
+    {
+      "name": "_RtmDeleteEnumHandle@8"
+    },
+    {
+      "name": "_RtmDeleteNextHop@12"
+    },
+    {
+      "name": "_RtmDeleteRoute@16"
+    },
+    {
+      "name": "_RtmDeleteRouteList@8"
+    },
+    {
+      "name": "_RtmDeleteRouteTable@4"
+    },
+    {
+      "name": "_RtmDeleteRouteToDest@12"
+    },
+    {
+      "name": "_RtmDequeueRouteChangeMessage@16"
+    },
+    {
+      "name": "_RtmDereferenceHandles@12"
+    },
+    {
+      "name": "_RtmDeregisterClient@4"
+    },
+    {
+      "name": "_RtmDeregisterEntity@4"
+    },
+    {
+      "name": "_RtmDeregisterFromChangeNotification@8"
+    },
+    {
+      "name": "_RtmEnumerateGetNextRoute@8"
+    },
+    {
+      "name": "_RtmFindNextHop@16"
+    },
+    {
+      "name": "_RtmGetAddressFamilyInfo@20"
+    },
+    {
+      "name": "_RtmGetChangeStatus@16"
+    },
+    {
+      "name": "_RtmGetChangedDests@16"
+    },
+    {
+      "name": "_RtmGetDestInfo@20"
+    },
+    {
+      "name": "_RtmGetEntityInfo@12"
+    },
+    {
+      "name": "_RtmGetEntityMethods@16"
+    },
+    {
+      "name": "_RtmGetEnumBestRoutes@16"
+    },
+    {
+      "name": "_RtmGetEnumDests@16"
+    },
+    {
+      "name": "_RtmGetEnumNextHops@16"
+    },
+    {
+      "name": "_RtmGetEnumRoutes@16"
+    },
+    {
+      "name": "_RtmGetExactMatchDestination@20"
+    },
+    {
+      "name": "_RtmGetExactMatchRoute@28"
+    },
+    {
+      "name": "_RtmGetFirstRoute@12"
+    },
+    {
+      "name": "_RtmGetInstanceInfo@16"
+    },
+    {
+      "name": "_RtmGetInstances@8"
+    },
+    {
+      "name": "_RtmGetLessSpecificDestination@20"
+    },
+    {
+      "name": "_RtmGetListEnumRoutes@16"
+    },
+    {
+      "name": "_RtmGetMostSpecificDestination@20"
+    },
+    {
+      "name": "_RtmGetNetworkCount@4"
+    },
+    {
+      "name": "_RtmGetNextHopInfo@12"
+    },
+    {
+      "name": "_RtmGetNextHopPointer@12"
+    },
+    {
+      "name": "_RtmGetNextRoute@12"
+    },
+    {
+      "name": "_RtmGetOpaqueInformationPointer@12"
+    },
+    {
+      "name": "_RtmGetRegisteredEntities@16"
+    },
+    {
+      "name": "_RtmGetRouteAge@4"
+    },
+    {
+      "name": "_RtmGetRouteInfo@16"
+    },
+    {
+      "name": "_RtmGetRoutePointer@12"
+    },
+    {
+      "name": "_RtmHoldDestination@16"
+    },
+    {
+      "name": "_RtmIgnoreChangedDests@16"
+    },
+    {
+      "name": "_RtmInsertInRouteList@16"
+    },
+    {
+      "name": "_RtmInvokeMethod@20"
+    },
+    {
+      "name": "_RtmIsBestRoute@12"
+    },
+    {
+      "name": "_RtmIsMarkedForChangeNotification@16"
+    },
+    {
+      "name": "_RtmIsRoute@12"
+    },
+    {
+      "name": "_RtmLockDestination@16"
+    },
+    {
+      "name": "_RtmLockNextHop@20"
+    },
+    {
+      "name": "_RtmLockRoute@20"
+    },
+    {
+      "name": "_RtmLookupIPDestination@8"
+    },
+    {
+      "name": "_RtmMarkDestForChangeNotification@16"
+    },
+    {
+      "name": "_RtmReadAddressFamilyConfig@12"
+    },
+    {
+      "name": "_RtmReadInstanceConfig@8"
+    },
+    {
+      "name": "_RtmReferenceHandles@12"
+    },
+    {
+      "name": "_RtmRegisterClient@16"
+    },
+    {
+      "name": "_RtmRegisterEntity@24"
+    },
+    {
+      "name": "_RtmRegisterForChangeNotification@20"
+    },
+    {
+      "name": "_RtmReleaseChangedDests@16"
+    },
+    {
+      "name": "_RtmReleaseDestInfo@8"
+    },
+    {
+      "name": "_RtmReleaseDests@12"
+    },
+    {
+      "name": "_RtmReleaseEntities@12"
+    },
+    {
+      "name": "_RtmReleaseEntityInfo@8"
+    },
+    {
+      "name": "_RtmReleaseNextHopInfo@8"
+    },
+    {
+      "name": "_RtmReleaseNextHops@12"
+    },
+    {
+      "name": "_RtmReleaseRouteInfo@8"
+    },
+    {
+      "name": "_RtmReleaseRoutes@12"
+    },
+    {
+      "name": "_RtmUpdateAndUnlockRoute@28"
+    },
+    {
+      "name": "_RtmWriteAddressFamilyConfig@12"
+    },
+    {
+      "name": "_RtmWriteInstanceConfig@8"
+    },
+    {
+      "name": "_SearchInTable@20"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 14878,
+      "name": "__IMPORT_DESCRIPTOR_rtm"
+    },
+    {
+      "offset": 15416,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 15722,
+      "name": "rtm_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 27124,
+      "name": "_RtmReadInstanceConfig@8"
+    },
+    {
+      "offset": 27124,
+      "name": "__imp__RtmReadInstanceConfig@8"
+    },
+    {
+      "offset": 28938,
+      "name": "_RtmWriteInstanceConfig@8"
+    },
+    {
+      "offset": 28938,
+      "name": "__imp__RtmWriteInstanceConfig@8"
+    },
+    {
+      "offset": 27004,
+      "name": "_RtmReadAddressFamilyConfig@12"
+    },
+    {
+      "offset": 27004,
+      "name": "__imp__RtmReadAddressFamilyConfig@12"
+    },
+    {
+      "offset": 28818,
+      "name": "_RtmWriteAddressFamilyConfig@12"
+    },
+    {
+      "offset": 28818,
+      "name": "__imp__RtmWriteAddressFamilyConfig@12"
+    },
+    {
+      "offset": 24176,
+      "name": "_RtmGetInstances@8"
+    },
+    {
+      "offset": 24176,
+      "name": "__imp__RtmGetInstances@8"
+    },
+    {
+      "offset": 24064,
+      "name": "_RtmGetInstanceInfo@16"
+    },
+    {
+      "offset": 24064,
+      "name": "__imp__RtmGetInstanceInfo@16"
+    },
+    {
+      "offset": 22606,
+      "name": "_RtmGetAddressFamilyInfo@20"
+    },
+    {
+      "offset": 22606,
+      "name": "__imp__RtmGetAddressFamilyInfo@20"
+    },
+    {
+      "offset": 27460,
+      "name": "_RtmRegisterEntity@24"
+    },
+    {
+      "offset": 27460,
+      "name": "__imp__RtmRegisterEntity@24"
+    },
+    {
+      "offset": 22142,
+      "name": "_RtmDeregisterEntity@4"
+    },
+    {
+      "offset": 22142,
+      "name": "__imp__RtmDeregisterEntity@4"
+    },
+    {
+      "offset": 25208,
+      "name": "_RtmGetRegisteredEntities@16"
+    },
+    {
+      "offset": 25208,
+      "name": "__imp__RtmGetRegisteredEntities@16"
+    },
+    {
+      "offset": 28030,
+      "name": "_RtmReleaseEntities@12"
+    },
+    {
+      "offset": 28030,
+      "name": "__imp__RtmReleaseEntities@12"
+    },
+    {
+      "offset": 26438,
+      "name": "_RtmLockDestination@16"
+    },
+    {
+      "offset": 26438,
+      "name": "__imp__RtmLockDestination@16"
+    },
+    {
+      "offset": 25084,
+      "name": "_RtmGetOpaqueInformationPointer@12"
+    },
+    {
+      "offset": 25084,
+      "name": "__imp__RtmGetOpaqueInformationPointer@12"
+    },
+    {
+      "offset": 23164,
+      "name": "_RtmGetEntityMethods@16"
+    },
+    {
+      "offset": 23164,
+      "name": "__imp__RtmGetEntityMethods@16"
+    },
+    {
+      "offset": 25992,
+      "name": "_RtmInvokeMethod@20"
+    },
+    {
+      "offset": 25992,
+      "name": "__imp__RtmInvokeMethod@20"
+    },
+    {
+      "offset": 19604,
+      "name": "_RtmBlockMethods@16"
+    },
+    {
+      "offset": 19604,
+      "name": "__imp__RtmBlockMethods@16"
+    },
+    {
+      "offset": 23054,
+      "name": "_RtmGetEntityInfo@12"
+    },
+    {
+      "offset": 23054,
+      "name": "__imp__RtmGetEntityInfo@12"
+    },
+    {
+      "offset": 22946,
+      "name": "_RtmGetDestInfo@20"
+    },
+    {
+      "offset": 22946,
+      "name": "__imp__RtmGetDestInfo@20"
+    },
+    {
+      "offset": 25432,
+      "name": "_RtmGetRouteInfo@16"
+    },
+    {
+      "offset": 25432,
+      "name": "__imp__RtmGetRouteInfo@16"
+    },
+    {
+      "offset": 24752,
+      "name": "_RtmGetNextHopInfo@12"
+    },
+    {
+      "offset": 24752,
+      "name": "__imp__RtmGetNextHopInfo@12"
+    },
+    {
+      "offset": 28142,
+      "name": "_RtmReleaseEntityInfo@8"
+    },
+    {
+      "offset": 28142,
+      "name": "__imp__RtmReleaseEntityInfo@8"
+    },
+    {
+      "offset": 27812,
+      "name": "_RtmReleaseDestInfo@8"
+    },
+    {
+      "offset": 27812,
+      "name": "__imp__RtmReleaseDestInfo@8"
+    },
+    {
+      "offset": 28480,
+      "name": "_RtmReleaseRouteInfo@8"
+    },
+    {
+      "offset": 28480,
+      "name": "__imp__RtmReleaseRouteInfo@8"
+    },
+    {
+      "offset": 28254,
+      "name": "_RtmReleaseNextHopInfo@8"
+    },
+    {
+      "offset": 28254,
+      "name": "__imp__RtmReleaseNextHopInfo@8"
+    },
+    {
+      "offset": 27238,
+      "name": "_RtmReferenceHandles@12"
+    },
+    {
+      "offset": 27238,
+      "name": "__imp__RtmReferenceHandles@12"
+    },
+    {
+      "offset": 21916,
+      "name": "_RtmDereferenceHandles@12"
+    },
+    {
+      "offset": 21916,
+      "name": "__imp__RtmDereferenceHandles@12"
+    },
+    {
+      "offset": 19048,
+      "name": "_RtmAddNextHop@16"
+    },
+    {
+      "offset": 19048,
+      "name": "__imp__RtmAddNextHop@16"
+    },
+    {
+      "offset": 22498,
+      "name": "_RtmFindNextHop@16"
+    },
+    {
+      "offset": 22498,
+      "name": "__imp__RtmFindNextHop@16"
+    },
+    {
+      "offset": 21240,
+      "name": "_RtmDeleteNextHop@12"
+    },
+    {
+      "offset": 21240,
+      "name": "__imp__RtmDeleteNextHop@12"
+    },
+    {
+      "offset": 26550,
+      "name": "_RtmLockNextHop@20"
+    },
+    {
+      "offset": 26550,
+      "name": "__imp__RtmLockNextHop@20"
+    },
+    {
+      "offset": 24862,
+      "name": "_RtmGetNextHopPointer@12"
+    },
+    {
+      "offset": 24862,
+      "name": "__imp__RtmGetNextHopPointer@12"
+    },
+    {
+      "offset": 19258,
+      "name": "_RtmAddRouteToDest@36"
+    },
+    {
+      "offset": 19258,
+      "name": "__imp__RtmAddRouteToDest@36"
+    },
+    {
+      "offset": 21680,
+      "name": "_RtmDeleteRouteToDest@12"
+    },
+    {
+      "offset": 21680,
+      "name": "__imp__RtmDeleteRouteToDest@12"
+    },
+    {
+      "offset": 25652,
+      "name": "_RtmHoldDestination@16"
+    },
+    {
+      "offset": 25652,
+      "name": "__imp__RtmHoldDestination@16"
+    },
+    {
+      "offset": 26658,
+      "name": "_RtmLockRoute@20"
+    },
+    {
+      "offset": 26658,
+      "name": "__imp__RtmLockRoute@20"
+    },
+    {
+      "offset": 28702,
+      "name": "_RtmUpdateAndUnlockRoute@28"
+    },
+    {
+      "offset": 28702,
+      "name": "__imp__RtmUpdateAndUnlockRoute@28"
+    },
+    {
+      "offset": 25540,
+      "name": "_RtmGetRoutePointer@12"
+    },
+    {
+      "offset": 25540,
+      "name": "__imp__RtmGetRoutePointer@12"
+    },
+    {
+      "offset": 20446,
+      "name": "_RtmCreateDestEnum@24"
+    },
+    {
+      "offset": 20446,
+      "name": "__imp__RtmCreateDestEnum@24"
+    },
+    {
+      "offset": 23390,
+      "name": "_RtmGetEnumDests@16"
+    },
+    {
+      "offset": 23390,
+      "name": "__imp__RtmGetEnumDests@16"
+    },
+    {
+      "offset": 27922,
+      "name": "_RtmReleaseDests@12"
+    },
+    {
+      "offset": 27922,
+      "name": "__imp__RtmReleaseDests@12"
+    },
+    {
+      "offset": 20790,
+      "name": "_RtmCreateRouteEnum@36"
+    },
+    {
+      "offset": 20790,
+      "name": "__imp__RtmCreateRouteEnum@36"
+    },
+    {
+      "offset": 23610,
+      "name": "_RtmGetEnumRoutes@16"
+    },
+    {
+      "offset": 23610,
+      "name": "__imp__RtmGetEnumRoutes@16"
+    },
+    {
+      "offset": 28592,
+      "name": "_RtmReleaseRoutes@12"
+    },
+    {
+      "offset": 28592,
+      "name": "__imp__RtmReleaseRoutes@12"
+    },
+    {
+      "offset": 20676,
+      "name": "_RtmCreateNextHopEnum@16"
+    },
+    {
+      "offset": 20676,
+      "name": "__imp__RtmCreateNextHopEnum@16"
+    },
+    {
+      "offset": 23498,
+      "name": "_RtmGetEnumNextHops@16"
+    },
+    {
+      "offset": 23498,
+      "name": "__imp__RtmGetEnumNextHops@16"
+    },
+    {
+      "offset": 28368,
+      "name": "_RtmReleaseNextHops@12"
+    },
+    {
+      "offset": 28368,
+      "name": "__imp__RtmReleaseNextHops@12"
+    },
+    {
+      "offset": 21128,
+      "name": "_RtmDeleteEnumHandle@8"
+    },
+    {
+      "offset": 21128,
+      "name": "__imp__RtmDeleteEnumHandle@8"
+    },
+    {
+      "offset": 20330,
+      "name": "_RtmCreateBestRouteEnum@16"
+    },
+    {
+      "offset": 20330,
+      "name": "__imp__RtmCreateBestRouteEnum@16"
+    },
+    {
+      "offset": 23276,
+      "name": "_RtmGetEnumBestRoutes@16"
+    },
+    {
+      "offset": 23276,
+      "name": "__imp__RtmGetEnumBestRoutes@16"
+    },
+    {
+      "offset": 23720,
+      "name": "_RtmGetExactMatchDestination@20"
+    },
+    {
+      "offset": 23720,
+      "name": "__imp__RtmGetExactMatchDestination@20"
+    },
+    {
+      "offset": 24520,
+      "name": "_RtmGetMostSpecificDestination@20"
+    },
+    {
+      "offset": 24520,
+      "name": "__imp__RtmGetMostSpecificDestination@20"
+    },
+    {
+      "offset": 24284,
+      "name": "_RtmGetLessSpecificDestination@20"
+    },
+    {
+      "offset": 24284,
+      "name": "__imp__RtmGetLessSpecificDestination@20"
+    },
+    {
+      "offset": 23840,
+      "name": "_RtmGetExactMatchRoute@28"
+    },
+    {
+      "offset": 23840,
+      "name": "__imp__RtmGetExactMatchRoute@28"
+    },
+    {
+      "offset": 26100,
+      "name": "_RtmIsBestRoute@12"
+    },
+    {
+      "offset": 26100,
+      "name": "__imp__RtmIsBestRoute@12"
+    },
+    {
+      "offset": 27570,
+      "name": "_RtmRegisterForChangeNotification@20"
+    },
+    {
+      "offset": 27570,
+      "name": "__imp__RtmRegisterForChangeNotification@20"
+    },
+    {
+      "offset": 22834,
+      "name": "_RtmGetChangedDests@16"
+    },
+    {
+      "offset": 22834,
+      "name": "__imp__RtmGetChangedDests@16"
+    },
+    {
+      "offset": 27696,
+      "name": "_RtmReleaseChangedDests@16"
+    },
+    {
+      "offset": 27696,
+      "name": "__imp__RtmReleaseChangedDests@16"
+    },
+    {
+      "offset": 25764,
+      "name": "_RtmIgnoreChangedDests@16"
+    },
+    {
+      "offset": 25764,
+      "name": "__imp__RtmIgnoreChangedDests@16"
+    },
+    {
+      "offset": 22722,
+      "name": "_RtmGetChangeStatus@16"
+    },
+    {
+      "offset": 22722,
+      "name": "__imp__RtmGetChangeStatus@16"
+    },
+    {
+      "offset": 26878,
+      "name": "_RtmMarkDestForChangeNotification@16"
+    },
+    {
+      "offset": 26878,
+      "name": "__imp__RtmMarkDestForChangeNotification@16"
+    },
+    {
+      "offset": 26208,
+      "name": "_RtmIsMarkedForChangeNotification@16"
+    },
+    {
+      "offset": 26208,
+      "name": "__imp__RtmIsMarkedForChangeNotification@16"
+    },
+    {
+      "offset": 22254,
+      "name": "_RtmDeregisterFromChangeNotification@8"
+    },
+    {
+      "offset": 22254,
+      "name": "__imp__RtmDeregisterFromChangeNotification@8"
+    },
+    {
+      "offset": 20902,
+      "name": "_RtmCreateRouteList@8"
+    },
+    {
+      "offset": 20902,
+      "name": "__imp__RtmCreateRouteList@8"
+    },
+    {
+      "offset": 25878,
+      "name": "_RtmInsertInRouteList@16"
+    },
+    {
+      "offset": 25878,
+      "name": "__imp__RtmInsertInRouteList@16"
+    },
+    {
+      "offset": 21012,
+      "name": "_RtmCreateRouteListEnum@12"
+    },
+    {
+      "offset": 21012,
+      "name": "__imp__RtmCreateRouteListEnum@12"
+    },
+    {
+      "offset": 24406,
+      "name": "_RtmGetListEnumRoutes@16"
+    },
+    {
+      "offset": 24406,
+      "name": "__imp__RtmGetListEnumRoutes@16"
+    },
+    {
+      "offset": 21458,
+      "name": "_RtmDeleteRouteList@8"
+    },
+    {
+      "offset": 21458,
+      "name": "__imp__RtmDeleteRouteList@8"
+    },
+    {
+      "offset": 16264,
+      "name": "_CreateTable@8"
+    },
+    {
+      "offset": 16264,
+      "name": "__imp__CreateTable@8"
+    },
+    {
+      "offset": 16788,
+      "name": "_InsertIntoTable@20"
+    },
+    {
+      "offset": 16788,
+      "name": "__imp__InsertIntoTable@20"
+    },
+    {
+      "offset": 29052,
+      "name": "_SearchInTable@20"
+    },
+    {
+      "offset": 29052,
+      "name": "__imp__SearchInTable@20"
+    },
+    {
+      "offset": 16052,
+      "name": "_BestMatchInTable@12"
+    },
+    {
+      "offset": 16052,
+      "name": "__imp__BestMatchInTable@12"
+    },
+    {
+      "offset": 18938,
+      "name": "_NextMatchInTable@12"
+    },
+    {
+      "offset": 18938,
+      "name": "__imp__NextMatchInTable@12"
+    },
+    {
+      "offset": 16682,
+      "name": "_EnumOverTable@32"
+    },
+    {
+      "offset": 16682,
+      "name": "__imp__EnumOverTable@32"
+    },
+    {
+      "offset": 16368,
+      "name": "_DeleteFromTable@20"
+    },
+    {
+      "offset": 16368,
+      "name": "__imp__DeleteFromTable@20"
+    },
+    {
+      "offset": 16476,
+      "name": "_DestroyTable@4"
+    },
+    {
+      "offset": 16476,
+      "name": "__imp__DestroyTable@4"
+    },
+    {
+      "offset": 16162,
+      "name": "_CheckTable@4"
+    },
+    {
+      "offset": 16162,
+      "name": "__imp__CheckTable@4"
+    },
+    {
+      "offset": 16580,
+      "name": "_DumpTable@8"
+    },
+    {
+      "offset": 16580,
+      "name": "__imp__DumpTable@8"
+    },
+    {
+      "offset": 19828,
+      "name": "_RtmCleanupInstances@0"
+    },
+    {
+      "offset": 19828,
+      "name": "__imp__RtmCleanupInstances@0"
+    },
+    {
+      "offset": 21568,
+      "name": "_RtmDeleteRouteTable@4"
+    },
+    {
+      "offset": 21568,
+      "name": "__imp__RtmDeleteRouteTable@4"
+    },
+    {
+      "offset": 27350,
+      "name": "_RtmRegisterClient@16"
+    },
+    {
+      "offset": 27350,
+      "name": "__imp__RtmRegisterClient@16"
+    },
+    {
+      "offset": 22030,
+      "name": "_RtmDeregisterClient@4"
+    },
+    {
+      "offset": 22030,
+      "name": "__imp__RtmDeregisterClient@4"
+    },
+    {
+      "offset": 19154,
+      "name": "_RtmAddRoute@24"
+    },
+    {
+      "offset": 19154,
+      "name": "__imp__RtmAddRoute@24"
+    },
+    {
+      "offset": 21350,
+      "name": "_RtmDeleteRoute@16"
+    },
+    {
+      "offset": 21350,
+      "name": "__imp__RtmDeleteRoute@16"
+    },
+    {
+      "offset": 21794,
+      "name": "_RtmDequeueRouteChangeMessage@16"
+    },
+    {
+      "offset": 21794,
+      "name": "__imp__RtmDequeueRouteChangeMessage@16"
+    },
+    {
+      "offset": 20556,
+      "name": "_RtmCreateEnumerationHandle@12"
+    },
+    {
+      "offset": 20556,
+      "name": "__imp__RtmCreateEnumerationHandle@12"
+    },
+    {
+      "offset": 22382,
+      "name": "_RtmEnumerateGetNextRoute@8"
+    },
+    {
+      "offset": 22382,
+      "name": "__imp__RtmEnumerateGetNextRoute@8"
+    },
+    {
+      "offset": 19940,
+      "name": "_RtmCloseEnumerationHandle@4"
+    },
+    {
+      "offset": 19940,
+      "name": "__imp__RtmCloseEnumerationHandle@4"
+    },
+    {
+      "offset": 23954,
+      "name": "_RtmGetFirstRoute@12"
+    },
+    {
+      "offset": 23954,
+      "name": "__imp__RtmGetFirstRoute@12"
+    },
+    {
+      "offset": 24976,
+      "name": "_RtmGetNextRoute@12"
+    },
+    {
+      "offset": 24976,
+      "name": "__imp__RtmGetNextRoute@12"
+    },
+    {
+      "offset": 19490,
+      "name": "_RtmBlockDeleteRoutes@12"
+    },
+    {
+      "offset": 19490,
+      "name": "__imp__RtmBlockDeleteRoutes@12"
+    },
+    {
+      "offset": 19712,
+      "name": "_RtmBlockSetRouteEnable@16"
+    },
+    {
+      "offset": 19712,
+      "name": "__imp__RtmBlockSetRouteEnable@16"
+    },
+    {
+      "offset": 19368,
+      "name": "_RtmBlockConvertRoutesToStatic@12"
+    },
+    {
+      "offset": 19368,
+      "name": "__imp__RtmBlockConvertRoutesToStatic@12"
+    },
+    {
+      "offset": 26334,
+      "name": "_RtmIsRoute@12"
+    },
+    {
+      "offset": 26334,
+      "name": "__imp__RtmIsRoute@12"
+    },
+    {
+      "offset": 26764,
+      "name": "_RtmLookupIPDestination@8"
+    },
+    {
+      "offset": 26764,
+      "name": "__imp__RtmLookupIPDestination@8"
+    },
+    {
+      "offset": 24642,
+      "name": "_RtmGetNetworkCount@4"
+    },
+    {
+      "offset": 24642,
+      "name": "__imp__RtmGetNetworkCount@4"
+    },
+    {
+      "offset": 25326,
+      "name": "_RtmGetRouteAge@4"
+    },
+    {
+      "offset": 25326,
+      "name": "__imp__RtmGetRouteAge@4"
+    },
+    {
+      "offset": 18478,
+      "name": "_MgmInitialize@8"
+    },
+    {
+      "offset": 18478,
+      "name": "__imp__MgmInitialize@8"
+    },
+    {
+      "offset": 17016,
+      "name": "_MgmDeInitialize@0"
+    },
+    {
+      "offset": 17016,
+      "name": "__imp__MgmDeInitialize@0"
+    },
+    {
+      "offset": 18584,
+      "name": "_MgmRegisterMProtocol@16"
+    },
+    {
+      "offset": 18584,
+      "name": "__imp__MgmRegisterMProtocol@16"
+    },
+    {
+      "offset": 17124,
+      "name": "_MgmDeRegisterMProtocol@4"
+    },
+    {
+      "offset": 17124,
+      "name": "__imp__MgmDeRegisterMProtocol@4"
+    },
+    {
+      "offset": 18820,
+      "name": "_MgmTakeInterfaceOwnership@12"
+    },
+    {
+      "offset": 18820,
+      "name": "__imp__MgmTakeInterfaceOwnership@12"
+    },
+    {
+      "offset": 18698,
+      "name": "_MgmReleaseInterfaceOwnership@12"
+    },
+    {
+      "offset": 18698,
+      "name": "__imp__MgmReleaseInterfaceOwnership@12"
+    },
+    {
+      "offset": 16896,
+      "name": "_MgmAddGroupMembershipEntry@32"
+    },
+    {
+      "offset": 16896,
+      "name": "__imp__MgmAddGroupMembershipEntry@32"
+    },
+    {
+      "offset": 17238,
+      "name": "_MgmDeleteGroupMembershipEntry@32"
+    },
+    {
+      "offset": 17238,
+      "name": "__imp__MgmDeleteGroupMembershipEntry@32"
+    },
+    {
+      "offset": 17580,
+      "name": "_MgmGetMfe@12"
+    },
+    {
+      "offset": 17580,
+      "name": "__imp__MgmGetMfe@12"
+    },
+    {
+      "offset": 17360,
+      "name": "_MgmGetFirstMfe@12"
+    },
+    {
+      "offset": 17360,
+      "name": "__imp__MgmGetFirstMfe@12"
+    },
+    {
+      "offset": 17790,
+      "name": "_MgmGetNextMfe@16"
+    },
+    {
+      "offset": 17790,
+      "name": "__imp__MgmGetNextMfe@16"
+    },
+    {
+      "offset": 18360,
+      "name": "_MgmGroupEnumerationStart@12"
+    },
+    {
+      "offset": 18360,
+      "name": "__imp__MgmGroupEnumerationStart@12"
+    },
+    {
+      "offset": 18240,
+      "name": "_MgmGroupEnumerationGetNext@16"
+    },
+    {
+      "offset": 18240,
+      "name": "__imp__MgmGroupEnumerationGetNext@16"
+    },
+    {
+      "offset": 18126,
+      "name": "_MgmGroupEnumerationEnd@4"
+    },
+    {
+      "offset": 18126,
+      "name": "__imp__MgmGroupEnumerationEnd@4"
+    },
+    {
+      "offset": 18008,
+      "name": "_MgmGetProtocolOnInterface@16"
+    },
+    {
+      "offset": 18008,
+      "name": "__imp__MgmGetProtocolOnInterface@16"
+    },
+    {
+      "offset": 17896,
+      "name": "_MgmGetNextMfeStats@20"
+    },
+    {
+      "offset": 17896,
+      "name": "__imp__MgmGetNextMfeStats@20"
+    },
+    {
+      "offset": 17468,
+      "name": "_MgmGetFirstMfeStats@16"
+    },
+    {
+      "offset": 17468,
+      "name": "__imp__MgmGetFirstMfeStats@16"
+    },
+    {
+      "offset": 17682,
+      "name": "_MgmGetMfeStats@16"
+    },
+    {
+      "offset": 17682,
+      "name": "__imp__MgmGetMfeStats@16"
+    },
+    {
+      "offset": 20194,
+      "name": "_RtmConvertNetAddressToIpv6AddressAndLength@16"
+    },
+    {
+      "offset": 20194,
+      "name": "__imp__RtmConvertNetAddressToIpv6AddressAndLength@16"
+    },
+    {
+      "offset": 20058,
+      "name": "_RtmConvertIpv6AddressAndLengthToNetAddress@28"
+    },
+    {
+      "offset": 20058,
+      "name": "__imp__RtmConvertIpv6AddressAndLengthToNetAddress@28"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 16052,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3775589766,
+      "sizeOfData": 29,
+      "dllName": "rtm.dll",
+      "symbolName": "_BestMatchInTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "BestMatchInTable"
+    },
+    {
+      "offset": 16162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4170099273,
+      "sizeOfData": 22,
+      "dllName": "rtm.dll",
+      "symbolName": "_CheckTable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "CheckTable"
+    },
+    {
+      "offset": 16264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4077157859,
+      "sizeOfData": 23,
+      "dllName": "rtm.dll",
+      "symbolName": "_CreateTable@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "CreateTable"
+    },
+    {
+      "offset": 16368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3783336890,
+      "sizeOfData": 28,
+      "dllName": "rtm.dll",
+      "symbolName": "_DeleteFromTable@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "DeleteFromTable"
+    },
+    {
+      "offset": 16476,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4041294267,
+      "sizeOfData": 24,
+      "dllName": "rtm.dll",
+      "symbolName": "_DestroyTable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "DestroyTable"
+    },
+    {
+      "offset": 16580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3983881930,
+      "sizeOfData": 21,
+      "dllName": "rtm.dll",
+      "symbolName": "_DumpTable@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "DumpTable"
+    },
+    {
+      "offset": 16682,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3795865063,
+      "sizeOfData": 26,
+      "dllName": "rtm.dll",
+      "symbolName": "_EnumOverTable@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "EnumOverTable"
+    },
+    {
+      "offset": 16788,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3666537437,
+      "sizeOfData": 28,
+      "dllName": "rtm.dll",
+      "symbolName": "_InsertIntoTable@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "InsertIntoTable"
+    },
+    {
+      "offset": 16896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3603935648,
+      "sizeOfData": 39,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmAddGroupMembershipEntry@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "MgmAddGroupMembershipEntry"
+    },
+    {
+      "offset": 17016,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3397317553,
+      "sizeOfData": 27,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmDeInitialize@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "MgmDeInitialize"
+    },
+    {
+      "offset": 17124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3308389002,
+      "sizeOfData": 34,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmDeRegisterMProtocol@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "MgmDeRegisterMProtocol"
+    },
+    {
+      "offset": 17238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4152396227,
+      "sizeOfData": 42,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmDeleteGroupMembershipEntry@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "MgmDeleteGroupMembershipEntry"
+    },
+    {
+      "offset": 17360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3855467897,
+      "sizeOfData": 27,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmGetFirstMfe@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "MgmGetFirstMfe"
+    },
+    {
+      "offset": 17468,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3259679242,
+      "sizeOfData": 32,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmGetFirstMfeStats@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "MgmGetFirstMfeStats"
+    },
+    {
+      "offset": 17580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3978426261,
+      "sizeOfData": 22,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmGetMfe@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "MgmGetMfe"
+    },
+    {
+      "offset": 17682,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3969810437,
+      "sizeOfData": 27,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmGetMfeStats@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "MgmGetMfeStats"
+    },
+    {
+      "offset": 17790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4287418079,
+      "sizeOfData": 26,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmGetNextMfe@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "MgmGetNextMfe"
+    },
+    {
+      "offset": 17896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4035262990,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmGetNextMfeStats@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "MgmGetNextMfeStats"
+    },
+    {
+      "offset": 18008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3453655134,
+      "sizeOfData": 38,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmGetProtocolOnInterface@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "MgmGetProtocolOnInterface"
+    },
+    {
+      "offset": 18126,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4172542770,
+      "sizeOfData": 34,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmGroupEnumerationEnd@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "MgmGroupEnumerationEnd"
+    },
+    {
+      "offset": 18240,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3601107531,
+      "sizeOfData": 39,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmGroupEnumerationGetNext@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "MgmGroupEnumerationGetNext"
+    },
+    {
+      "offset": 18360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4246779534,
+      "sizeOfData": 37,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmGroupEnumerationStart@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "MgmGroupEnumerationStart"
+    },
+    {
+      "offset": 18478,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4267157596,
+      "sizeOfData": 25,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmInitialize@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "MgmInitialize"
+    },
+    {
+      "offset": 18584,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3950548542,
+      "sizeOfData": 33,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmRegisterMProtocol@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "MgmRegisterMProtocol"
+    },
+    {
+      "offset": 18698,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3818737610,
+      "sizeOfData": 41,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmReleaseInterfaceOwnership@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "MgmReleaseInterfaceOwnership"
+    },
+    {
+      "offset": 18820,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3363111142,
+      "sizeOfData": 38,
+      "dllName": "rtm.dll",
+      "symbolName": "_MgmTakeInterfaceOwnership@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "MgmTakeInterfaceOwnership"
+    },
+    {
+      "offset": 18938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4200575972,
+      "sizeOfData": 29,
+      "dllName": "rtm.dll",
+      "symbolName": "_NextMatchInTable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "NextMatchInTable"
+    },
+    {
+      "offset": 19048,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4103128081,
+      "sizeOfData": 26,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmAddNextHop@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "RtmAddNextHop"
+    },
+    {
+      "offset": 19154,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3255892409,
+      "sizeOfData": 24,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmAddRoute@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "RtmAddRoute"
+    },
+    {
+      "offset": 19258,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3464052654,
+      "sizeOfData": 30,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmAddRouteToDest@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "RtmAddRouteToDest"
+    },
+    {
+      "offset": 19368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3857138260,
+      "sizeOfData": 42,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmBlockConvertRoutesToStatic@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "RtmBlockConvertRoutesToStatic"
+    },
+    {
+      "offset": 19490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3566164461,
+      "sizeOfData": 33,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmBlockDeleteRoutes@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "RtmBlockDeleteRoutes"
+    },
+    {
+      "offset": 19604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3277776254,
+      "sizeOfData": 28,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmBlockMethods@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "RtmBlockMethods"
+    },
+    {
+      "offset": 19712,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3363648471,
+      "sizeOfData": 35,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmBlockSetRouteEnable@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "RtmBlockSetRouteEnable"
+    },
+    {
+      "offset": 19828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4087170487,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmCleanupInstances@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "RtmCleanupInstances"
+    },
+    {
+      "offset": 19940,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3709699774,
+      "sizeOfData": 37,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmCloseEnumerationHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "RtmCloseEnumerationHandle"
+    },
+    {
+      "offset": 20058,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3453281372,
+      "sizeOfData": 55,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmConvertIpv6AddressAndLengthToNetAddress@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "RtmConvertIpv6AddressAndLengthToNetAddress"
+    },
+    {
+      "offset": 20194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3296419252,
+      "sizeOfData": 55,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmConvertNetAddressToIpv6AddressAndLength@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "RtmConvertNetAddressToIpv6AddressAndLength"
+    },
+    {
+      "offset": 20330,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3869142765,
+      "sizeOfData": 35,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmCreateBestRouteEnum@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "RtmCreateBestRouteEnum"
+    },
+    {
+      "offset": 20446,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3967321731,
+      "sizeOfData": 30,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmCreateDestEnum@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "RtmCreateDestEnum"
+    },
+    {
+      "offset": 20556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3665271117,
+      "sizeOfData": 39,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmCreateEnumerationHandle@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "RtmCreateEnumerationHandle"
+    },
+    {
+      "offset": 20676,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3796314806,
+      "sizeOfData": 33,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmCreateNextHopEnum@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "RtmCreateNextHopEnum"
+    },
+    {
+      "offset": 20790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3628678161,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmCreateRouteEnum@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "RtmCreateRouteEnum"
+    },
+    {
+      "offset": 20902,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3938581343,
+      "sizeOfData": 30,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmCreateRouteList@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "RtmCreateRouteList"
+    },
+    {
+      "offset": 21012,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3481632199,
+      "sizeOfData": 35,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmCreateRouteListEnum@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "RtmCreateRouteListEnum"
+    },
+    {
+      "offset": 21128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3794655362,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmDeleteEnumHandle@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "RtmDeleteEnumHandle"
+    },
+    {
+      "offset": 21240,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3344056122,
+      "sizeOfData": 29,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmDeleteNextHop@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "RtmDeleteNextHop"
+    },
+    {
+      "offset": 21350,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3750540892,
+      "sizeOfData": 27,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmDeleteRoute@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "RtmDeleteRoute"
+    },
+    {
+      "offset": 21458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3231857174,
+      "sizeOfData": 30,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmDeleteRouteList@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "RtmDeleteRouteList"
+    },
+    {
+      "offset": 21568,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3774831175,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmDeleteRouteTable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "RtmDeleteRouteTable"
+    },
+    {
+      "offset": 21680,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4108918340,
+      "sizeOfData": 33,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmDeleteRouteToDest@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "RtmDeleteRouteToDest"
+    },
+    {
+      "offset": 21794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3438590340,
+      "sizeOfData": 41,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmDequeueRouteChangeMessage@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "RtmDequeueRouteChangeMessage"
+    },
+    {
+      "offset": 21916,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4185941608,
+      "sizeOfData": 34,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmDereferenceHandles@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "RtmDereferenceHandles"
+    },
+    {
+      "offset": 22030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4156867622,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmDeregisterClient@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "RtmDeregisterClient"
+    },
+    {
+      "offset": 22142,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3838372566,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmDeregisterEntity@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "RtmDeregisterEntity"
+    },
+    {
+      "offset": 22254,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4021096538,
+      "sizeOfData": 47,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmDeregisterFromChangeNotification@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "RtmDeregisterFromChangeNotification"
+    },
+    {
+      "offset": 22382,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3531878866,
+      "sizeOfData": 36,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmEnumerateGetNextRoute@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "RtmEnumerateGetNextRoute"
+    },
+    {
+      "offset": 22498,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4101706833,
+      "sizeOfData": 27,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmFindNextHop@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "RtmFindNextHop"
+    },
+    {
+      "offset": 22606,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3639213468,
+      "sizeOfData": 36,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetAddressFamilyInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "RtmGetAddressFamilyInfo"
+    },
+    {
+      "offset": 22722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3911286453,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetChangeStatus@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "RtmGetChangeStatus"
+    },
+    {
+      "offset": 22834,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4005715361,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetChangedDests@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "RtmGetChangedDests"
+    },
+    {
+      "offset": 22946,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4099935868,
+      "sizeOfData": 27,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetDestInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "RtmGetDestInfo"
+    },
+    {
+      "offset": 23054,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3591107003,
+      "sizeOfData": 29,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetEntityInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "RtmGetEntityInfo"
+    },
+    {
+      "offset": 23164,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4183111366,
+      "sizeOfData": 32,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetEntityMethods@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "RtmGetEntityMethods"
+    },
+    {
+      "offset": 23276,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3796460940,
+      "sizeOfData": 33,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetEnumBestRoutes@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "RtmGetEnumBestRoutes"
+    },
+    {
+      "offset": 23390,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4142196179,
+      "sizeOfData": 28,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetEnumDests@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "RtmGetEnumDests"
+    },
+    {
+      "offset": 23498,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3984822548,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetEnumNextHops@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "RtmGetEnumNextHops"
+    },
+    {
+      "offset": 23610,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3438922762,
+      "sizeOfData": 29,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetEnumRoutes@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "RtmGetEnumRoutes"
+    },
+    {
+      "offset": 23720,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3345185664,
+      "sizeOfData": 40,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetExactMatchDestination@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "RtmGetExactMatchDestination"
+    },
+    {
+      "offset": 23840,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3495761397,
+      "sizeOfData": 34,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetExactMatchRoute@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "RtmGetExactMatchRoute"
+    },
+    {
+      "offset": 23954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3371936953,
+      "sizeOfData": 29,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetFirstRoute@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "RtmGetFirstRoute"
+    },
+    {
+      "offset": 24064,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3889908904,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetInstanceInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "RtmGetInstanceInfo"
+    },
+    {
+      "offset": 24176,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3365224042,
+      "sizeOfData": 27,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetInstances@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "RtmGetInstances"
+    },
+    {
+      "offset": 24284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4001439091,
+      "sizeOfData": 42,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetLessSpecificDestination@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "RtmGetLessSpecificDestination"
+    },
+    {
+      "offset": 24406,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3881831147,
+      "sizeOfData": 33,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetListEnumRoutes@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "RtmGetListEnumRoutes"
+    },
+    {
+      "offset": 24520,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4272374929,
+      "sizeOfData": 42,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetMostSpecificDestination@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "RtmGetMostSpecificDestination"
+    },
+    {
+      "offset": 24642,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3230666913,
+      "sizeOfData": 30,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetNetworkCount@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "RtmGetNetworkCount"
+    },
+    {
+      "offset": 24752,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4283755667,
+      "sizeOfData": 30,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetNextHopInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "RtmGetNextHopInfo"
+    },
+    {
+      "offset": 24862,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4050805384,
+      "sizeOfData": 33,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetNextHopPointer@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "RtmGetNextHopPointer"
+    },
+    {
+      "offset": 24976,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3947458928,
+      "sizeOfData": 28,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetNextRoute@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "RtmGetNextRoute"
+    },
+    {
+      "offset": 25084,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4002982762,
+      "sizeOfData": 43,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetOpaqueInformationPointer@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "RtmGetOpaqueInformationPointer"
+    },
+    {
+      "offset": 25208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3342136686,
+      "sizeOfData": 37,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetRegisteredEntities@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "RtmGetRegisteredEntities"
+    },
+    {
+      "offset": 25326,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3783463695,
+      "sizeOfData": 26,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetRouteAge@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "RtmGetRouteAge"
+    },
+    {
+      "offset": 25432,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3529044148,
+      "sizeOfData": 28,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetRouteInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "RtmGetRouteInfo"
+    },
+    {
+      "offset": 25540,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3691739477,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmGetRoutePointer@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "RtmGetRoutePointer"
+    },
+    {
+      "offset": 25652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4053026797,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmHoldDestination@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "RtmHoldDestination"
+    },
+    {
+      "offset": 25764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3768389144,
+      "sizeOfData": 34,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmIgnoreChangedDests@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "RtmIgnoreChangedDests"
+    },
+    {
+      "offset": 25878,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4223337540,
+      "sizeOfData": 33,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmInsertInRouteList@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "RtmInsertInRouteList"
+    },
+    {
+      "offset": 25992,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3857460161,
+      "sizeOfData": 28,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmInvokeMethod@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "RtmInvokeMethod"
+    },
+    {
+      "offset": 26100,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4217162208,
+      "sizeOfData": 27,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmIsBestRoute@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "RtmIsBestRoute"
+    },
+    {
+      "offset": 26208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3226746135,
+      "sizeOfData": 45,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmIsMarkedForChangeNotification@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "RtmIsMarkedForChangeNotification"
+    },
+    {
+      "offset": 26334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3641226813,
+      "sizeOfData": 23,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmIsRoute@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "RtmIsRoute"
+    },
+    {
+      "offset": 26438,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4246967745,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmLockDestination@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "RtmLockDestination"
+    },
+    {
+      "offset": 26550,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4120360930,
+      "sizeOfData": 27,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmLockNextHop@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "RtmLockNextHop"
+    },
+    {
+      "offset": 26658,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3437508324,
+      "sizeOfData": 25,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmLockRoute@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "RtmLockRoute"
+    },
+    {
+      "offset": 26764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3464016020,
+      "sizeOfData": 34,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmLookupIPDestination@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "RtmLookupIPDestination"
+    },
+    {
+      "offset": 26878,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3360667457,
+      "sizeOfData": 45,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmMarkDestForChangeNotification@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "RtmMarkDestForChangeNotification"
+    },
+    {
+      "offset": 27004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3375179384,
+      "sizeOfData": 39,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmReadAddressFamilyConfig@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "RtmReadAddressFamilyConfig"
+    },
+    {
+      "offset": 27124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3747937638,
+      "sizeOfData": 33,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmReadInstanceConfig@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "RtmReadInstanceConfig"
+    },
+    {
+      "offset": 27238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4212292381,
+      "sizeOfData": 32,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmReferenceHandles@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "RtmReferenceHandles"
+    },
+    {
+      "offset": 27350,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3970466369,
+      "sizeOfData": 30,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmRegisterClient@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "RtmRegisterClient"
+    },
+    {
+      "offset": 27460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3454433669,
+      "sizeOfData": 30,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmRegisterEntity@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "RtmRegisterEntity"
+    },
+    {
+      "offset": 27570,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3312577802,
+      "sizeOfData": 45,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmRegisterForChangeNotification@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "RtmRegisterForChangeNotification"
+    },
+    {
+      "offset": 27696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4124039742,
+      "sizeOfData": 35,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmReleaseChangedDests@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "RtmReleaseChangedDests"
+    },
+    {
+      "offset": 27812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4208880368,
+      "sizeOfData": 30,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmReleaseDestInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "RtmReleaseDestInfo"
+    },
+    {
+      "offset": 27922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3635807103,
+      "sizeOfData": 28,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmReleaseDests@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "RtmReleaseDests"
+    },
+    {
+      "offset": 28030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4089735532,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmReleaseEntities@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "RtmReleaseEntities"
+    },
+    {
+      "offset": 28142,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3378372223,
+      "sizeOfData": 32,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmReleaseEntityInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "RtmReleaseEntityInfo"
+    },
+    {
+      "offset": 28254,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3824764635,
+      "sizeOfData": 33,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmReleaseNextHopInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "RtmReleaseNextHopInfo"
+    },
+    {
+      "offset": 28368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3225953442,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmReleaseNextHops@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "RtmReleaseNextHops"
+    },
+    {
+      "offset": 28480,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3361158615,
+      "sizeOfData": 31,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmReleaseRouteInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "RtmReleaseRouteInfo"
+    },
+    {
+      "offset": 28592,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3765202171,
+      "sizeOfData": 29,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmReleaseRoutes@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "RtmReleaseRoutes"
+    },
+    {
+      "offset": 28702,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3886197885,
+      "sizeOfData": 36,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmUpdateAndUnlockRoute@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "RtmUpdateAndUnlockRoute"
+    },
+    {
+      "offset": 28818,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3270229582,
+      "sizeOfData": 40,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmWriteAddressFamilyConfig@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "RtmWriteAddressFamilyConfig"
+    },
+    {
+      "offset": 28938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3436977552,
+      "sizeOfData": 34,
+      "dllName": "rtm.dll",
+      "symbolName": "_RtmWriteInstanceConfig@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "RtmWriteInstanceConfig"
+    },
+    {
+      "offset": 29052,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3522283352,
+      "sizeOfData": 26,
+      "dllName": "rtm.dll",
+      "symbolName": "_SearchInTable@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "SearchInTable"
+    }
+  ]
+}

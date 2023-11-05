@@ -1,0 +1,1125 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "??0CVssJetWriter@@QAE@XZ (public: __thiscall CVssJetWriter::CVssJetWriter(void))"
+    },
+    {
+      "name": "??1CVssJetWriter@@UAE@XZ (public: virtual __thiscall CVssJetWriter::~CVssJetWriter(void))"
+    },
+    {
+      "name": "?AreComponentsSelected@CVssJetWriter@@IBG_NXZ (protected: bool __stdcall CVssJetWriter::AreComponentsSelected(void)const )"
+    },
+    {
+      "name": "?GetBackupType@CVssJetWriter@@IBG?AW4_VSS_BACKUP_TYPE@@XZ (protected: enum _VSS_BACKUP_TYPE __stdcall CVssJetWriter::GetBackupType(void)const )"
+    },
+    {
+      "name": "?GetContext@CVssJetWriter@@IBGJXZ (protected: long __stdcall CVssJetWriter::GetContext(void)const )"
+    },
+    {
+      "name": "?GetCurrentLevel@CVssJetWriter@@IBG?AW4_VSS_APPLICATION_LEVEL@@XZ (protected: enum _VSS_APPLICATION_LEVEL __stdcall CVssJetWriter::GetCurrentLevel(void)const )"
+    },
+    {
+      "name": "?GetCurrentSnapshotSetId@CVssJetWriter@@IBG?AU_GUID@@XZ (protected: struct _GUID __stdcall CVssJetWriter::GetCurrentSnapshotSetId(void)const )"
+    },
+    {
+      "name": "?GetCurrentVolumeArray@CVssJetWriter@@IBGPAPBGXZ (protected: unsigned short const * * __stdcall CVssJetWriter::GetCurrentVolumeArray(void)const )"
+    },
+    {
+      "name": "?GetCurrentVolumeCount@CVssJetWriter@@IBGIXZ (protected: unsigned int __stdcall CVssJetWriter::GetCurrentVolumeCount(void)const )"
+    },
+    {
+      "name": "?GetRestoreType@CVssJetWriter@@IBG?AW4_VSS_RESTORE_TYPE@@XZ (protected: enum _VSS_RESTORE_TYPE __stdcall CVssJetWriter::GetRestoreType(void)const )"
+    },
+    {
+      "name": "?GetSnapshotDeviceName@CVssJetWriter@@IBGJPBGPAPBG@Z (protected: long __stdcall CVssJetWriter::GetSnapshotDeviceName(unsigned short const *,unsigned short const * *)const )"
+    },
+    {
+      "name": "?Initialize@CVssJetWriter@@QAGJU_GUID@@PBG_N211K@Z (public: long __stdcall CVssJetWriter::Initialize(struct _GUID,unsigned short const *,bool,bool,unsigned short const *,unsigned short const *,unsigned long))"
+    },
+    {
+      "name": "?IsBootableSystemStateBackedUp@CVssJetWriter@@IBG_NXZ (protected: bool __stdcall CVssJetWriter::IsBootableSystemStateBackedUp(void)const )"
+    },
+    {
+      "name": "?IsPartialFileSupportEnabled@CVssJetWriter@@IBG_NXZ (protected: bool __stdcall CVssJetWriter::IsPartialFileSupportEnabled(void)const )"
+    },
+    {
+      "name": "?IsPathAffected@CVssJetWriter@@IBG_NPBG@Z (protected: bool __stdcall CVssJetWriter::IsPathAffected(unsigned short const *)const )"
+    },
+    {
+      "name": "?OnAbortBegin@CVssJetWriter@@UAGXXZ (public: virtual void __stdcall CVssJetWriter::OnAbortBegin(void))"
+    },
+    {
+      "name": "?OnAbortEnd@CVssJetWriter@@UAGXXZ (public: virtual void __stdcall CVssJetWriter::OnAbortEnd(void))"
+    },
+    {
+      "name": "?OnBackupCompleteBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnBackupCompleteBegin(class IVssWriterComponents *))"
+    },
+    {
+      "name": "?OnBackupCompleteEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnBackupCompleteEnd(class IVssWriterComponents *,bool))"
+    },
+    {
+      "name": "?OnFreezeBegin@CVssJetWriter@@UAG_NXZ (public: virtual bool __stdcall CVssJetWriter::OnFreezeBegin(void))"
+    },
+    {
+      "name": "?OnFreezeEnd@CVssJetWriter@@UAG_N_N@Z (public: virtual bool __stdcall CVssJetWriter::OnFreezeEnd(bool))"
+    },
+    {
+      "name": "?OnIdentify@CVssJetWriter@@UAG_NPAVIVssCreateWriterMetadata@@@Z (public: virtual bool __stdcall CVssJetWriter::OnIdentify(class IVssCreateWriterMetadata *))"
+    },
+    {
+      "name": "?OnPostRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPostRestoreBegin(class IVssWriterComponents *))"
+    },
+    {
+      "name": "?OnPostRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPostRestoreEnd(class IVssWriterComponents *,bool))"
+    },
+    {
+      "name": "?OnPostSnapshot@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPostSnapshot(class IVssWriterComponents *))"
+    },
+    {
+      "name": "?OnPreRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPreRestoreBegin(class IVssWriterComponents *))"
+    },
+    {
+      "name": "?OnPreRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPreRestoreEnd(class IVssWriterComponents *,bool))"
+    },
+    {
+      "name": "?OnPrepareBackupBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPrepareBackupBegin(class IVssWriterComponents *))"
+    },
+    {
+      "name": "?OnPrepareBackupEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPrepareBackupEnd(class IVssWriterComponents *,bool))"
+    },
+    {
+      "name": "?OnPrepareSnapshotBegin@CVssJetWriter@@UAG_NXZ (public: virtual bool __stdcall CVssJetWriter::OnPrepareSnapshotBegin(void))"
+    },
+    {
+      "name": "?OnPrepareSnapshotEnd@CVssJetWriter@@UAG_N_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPrepareSnapshotEnd(bool))"
+    },
+    {
+      "name": "?OnThawBegin@CVssJetWriter@@UAG_NXZ (public: virtual bool __stdcall CVssJetWriter::OnThawBegin(void))"
+    },
+    {
+      "name": "?OnThawEnd@CVssJetWriter@@UAG_N_N@Z (public: virtual bool __stdcall CVssJetWriter::OnThawEnd(bool))"
+    },
+    {
+      "name": "?SetWriterFailure@CVssJetWriter@@IAGJJ@Z (protected: long __stdcall CVssJetWriter::SetWriterFailure(long))"
+    },
+    {
+      "name": "?Uninitialize@CVssJetWriter@@QAGXXZ (public: void __stdcall CVssJetWriter::Uninitialize(void))"
+    },
+    {
+      "name": "_CreateVssBackupComponentsInternal@4"
+    },
+    {
+      "name": "_CreateVssExamineWriterMetadataInternal@8"
+    },
+    {
+      "name": "_CreateVssExpressWriterInternal@4"
+    },
+    {
+      "name": "_CreateVssSnapshotSetDescription@24"
+    },
+    {
+      "name": "_CreateWriter@8"
+    },
+    {
+      "name": "_CreateWriterEx@8"
+    },
+    {
+      "name": "_GetProviderMgmtInterfaceInternal@36"
+    },
+    {
+      "name": "_IsVolumeSnapshottedInternal@12"
+    },
+    {
+      "name": "_LoadVssSnapshotSetDescription@24"
+    },
+    {
+      "name": "_ShouldBlockRevertInternal@8"
+    },
+    {
+      "name": "_VssFreeSnapshotPropertiesInternal@4"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 10158,
+      "name": "__IMPORT_DESCRIPTOR_VSSAPI"
+    },
+    {
+      "offset": 10708,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 11018,
+      "name": "VSSAPI_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 17208,
+      "name": "_IsVolumeSnapshottedInternal@12"
+    },
+    {
+      "offset": 17208,
+      "name": "__imp__IsVolumeSnapshottedInternal@12"
+    },
+    {
+      "offset": 17578,
+      "name": "_VssFreeSnapshotPropertiesInternal@4"
+    },
+    {
+      "offset": 17578,
+      "name": "__imp__VssFreeSnapshotPropertiesInternal@4"
+    },
+    {
+      "offset": 17458,
+      "name": "_ShouldBlockRevertInternal@8"
+    },
+    {
+      "offset": 17458,
+      "name": "__imp__ShouldBlockRevertInternal@8"
+    },
+    {
+      "offset": 16862,
+      "name": "_CreateWriter@8"
+    },
+    {
+      "offset": 16862,
+      "name": "__imp__CreateWriter@8"
+    },
+    {
+      "offset": 16970,
+      "name": "_CreateWriterEx@8"
+    },
+    {
+      "offset": 16970,
+      "name": "__imp__CreateWriterEx@8"
+    },
+    {
+      "offset": 17080,
+      "name": "_GetProviderMgmtInterfaceInternal@36"
+    },
+    {
+      "offset": 17080,
+      "name": "__imp__GetProviderMgmtInterfaceInternal@36"
+    },
+    {
+      "offset": 16346,
+      "name": "_CreateVssBackupComponentsInternal@4"
+    },
+    {
+      "offset": 16346,
+      "name": "__imp__CreateVssBackupComponentsInternal@4"
+    },
+    {
+      "offset": 16474,
+      "name": "_CreateVssExamineWriterMetadataInternal@8"
+    },
+    {
+      "offset": 16474,
+      "name": "__imp__CreateVssExamineWriterMetadataInternal@8"
+    },
+    {
+      "offset": 16608,
+      "name": "_CreateVssExpressWriterInternal@4"
+    },
+    {
+      "offset": 16608,
+      "name": "__imp__CreateVssExpressWriterInternal@4"
+    },
+    {
+      "offset": 16734,
+      "name": "_CreateVssSnapshotSetDescription@24"
+    },
+    {
+      "offset": 16734,
+      "name": "__imp__CreateVssSnapshotSetDescription@24"
+    },
+    {
+      "offset": 17332,
+      "name": "_LoadVssSnapshotSetDescription@24"
+    },
+    {
+      "offset": 17332,
+      "name": "__imp__LoadVssSnapshotSetDescription@24"
+    },
+    {
+      "offset": 16086,
+      "name": "?SetWriterFailure@CVssJetWriter@@IAGJJ@Z"
+    },
+    {
+      "offset": 16086,
+      "name": "__imp_?SetWriterFailure@CVssJetWriter@@IAGJJ@Z"
+    },
+    {
+      "offset": 13166,
+      "name": "?IsPartialFileSupportEnabled@CVssJetWriter@@IBG_NXZ"
+    },
+    {
+      "offset": 13166,
+      "name": "__imp_?IsPartialFileSupportEnabled@CVssJetWriter@@IBG_NXZ"
+    },
+    {
+      "offset": 12582,
+      "name": "?GetRestoreType@CVssJetWriter@@IBG?AW4_VSS_RESTORE_TYPE@@XZ"
+    },
+    {
+      "offset": 12582,
+      "name": "__imp_?GetRestoreType@CVssJetWriter@@IBG?AW4_VSS_RESTORE_TYPE@@XZ"
+    },
+    {
+      "offset": 11724,
+      "name": "?GetBackupType@CVssJetWriter@@IBG?AW4_VSS_BACKUP_TYPE@@XZ"
+    },
+    {
+      "offset": 11724,
+      "name": "__imp_?GetBackupType@CVssJetWriter@@IBG?AW4_VSS_BACKUP_TYPE@@XZ"
+    },
+    {
+      "offset": 11586,
+      "name": "?AreComponentsSelected@CVssJetWriter@@IBG_NXZ"
+    },
+    {
+      "offset": 11586,
+      "name": "__imp_?AreComponentsSelected@CVssJetWriter@@IBG_NXZ"
+    },
+    {
+      "offset": 13020,
+      "name": "?IsBootableSystemStateBackedUp@CVssJetWriter@@IBG_NXZ"
+    },
+    {
+      "offset": 13020,
+      "name": "__imp_?IsBootableSystemStateBackedUp@CVssJetWriter@@IBG_NXZ"
+    },
+    {
+      "offset": 13310,
+      "name": "?IsPathAffected@CVssJetWriter@@IBG_NPBG@Z"
+    },
+    {
+      "offset": 13310,
+      "name": "__imp_?IsPathAffected@CVssJetWriter@@IBG_NPBG@Z"
+    },
+    {
+      "offset": 12000,
+      "name": "?GetCurrentLevel@CVssJetWriter@@IBG?AW4_VSS_APPLICATION_LEVEL@@XZ"
+    },
+    {
+      "offset": 12000,
+      "name": "__imp_?GetCurrentLevel@CVssJetWriter@@IBG?AW4_VSS_APPLICATION_LEVEL@@XZ"
+    },
+    {
+      "offset": 11874,
+      "name": "?GetContext@CVssJetWriter@@IBGJXZ"
+    },
+    {
+      "offset": 11874,
+      "name": "__imp_?GetContext@CVssJetWriter@@IBGJXZ"
+    },
+    {
+      "offset": 12158,
+      "name": "?GetCurrentSnapshotSetId@CVssJetWriter@@IBG?AU_GUID@@XZ"
+    },
+    {
+      "offset": 12158,
+      "name": "__imp_?GetCurrentSnapshotSetId@CVssJetWriter@@IBG?AU_GUID@@XZ"
+    },
+    {
+      "offset": 12734,
+      "name": "?GetSnapshotDeviceName@CVssJetWriter@@IBGJPBGPAPBG@Z"
+    },
+    {
+      "offset": 12734,
+      "name": "__imp_?GetSnapshotDeviceName@CVssJetWriter@@IBGJPBGPAPBG@Z"
+    },
+    {
+      "offset": 12446,
+      "name": "?GetCurrentVolumeCount@CVssJetWriter@@IBGIXZ"
+    },
+    {
+      "offset": 12446,
+      "name": "__imp_?GetCurrentVolumeCount@CVssJetWriter@@IBGIXZ"
+    },
+    {
+      "offset": 12306,
+      "name": "?GetCurrentVolumeArray@CVssJetWriter@@IBGPAPBGXZ"
+    },
+    {
+      "offset": 12306,
+      "name": "__imp_?GetCurrentVolumeArray@CVssJetWriter@@IBGPAPBGXZ"
+    },
+    {
+      "offset": 14598,
+      "name": "?OnPostRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z"
+    },
+    {
+      "offset": 14598,
+      "name": "__imp_?OnPostRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z"
+    },
+    {
+      "offset": 14438,
+      "name": "?OnPostRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 14438,
+      "name": "__imp_?OnPostRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 15072,
+      "name": "?OnPreRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z"
+    },
+    {
+      "offset": 15072,
+      "name": "__imp_?OnPreRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z"
+    },
+    {
+      "offset": 14914,
+      "name": "?OnPreRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 14914,
+      "name": "__imp_?OnPreRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 13860,
+      "name": "?OnBackupCompleteEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z"
+    },
+    {
+      "offset": 13860,
+      "name": "__imp_?OnBackupCompleteEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z"
+    },
+    {
+      "offset": 13698,
+      "name": "?OnBackupCompleteBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 13698,
+      "name": "__imp_?OnBackupCompleteBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 13572,
+      "name": "?OnAbortEnd@CVssJetWriter@@UAGXXZ"
+    },
+    {
+      "offset": 13572,
+      "name": "__imp_?OnAbortEnd@CVssJetWriter@@UAGXXZ"
+    },
+    {
+      "offset": 13444,
+      "name": "?OnAbortBegin@CVssJetWriter@@UAGXXZ"
+    },
+    {
+      "offset": 13444,
+      "name": "__imp_?OnAbortBegin@CVssJetWriter@@UAGXXZ"
+    },
+    {
+      "offset": 14758,
+      "name": "?OnPostSnapshot@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 14758,
+      "name": "__imp_?OnPostSnapshot@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 15958,
+      "name": "?OnThawEnd@CVssJetWriter@@UAG_N_N@Z"
+    },
+    {
+      "offset": 15958,
+      "name": "__imp_?OnThawEnd@CVssJetWriter@@UAG_N_N@Z"
+    },
+    {
+      "offset": 15830,
+      "name": "?OnThawBegin@CVssJetWriter@@UAG_NXZ"
+    },
+    {
+      "offset": 15830,
+      "name": "__imp_?OnThawBegin@CVssJetWriter@@UAG_NXZ"
+    },
+    {
+      "offset": 14152,
+      "name": "?OnFreezeEnd@CVssJetWriter@@UAG_N_N@Z"
+    },
+    {
+      "offset": 14152,
+      "name": "__imp_?OnFreezeEnd@CVssJetWriter@@UAG_N_N@Z"
+    },
+    {
+      "offset": 14022,
+      "name": "?OnFreezeBegin@CVssJetWriter@@UAG_NXZ"
+    },
+    {
+      "offset": 14022,
+      "name": "__imp_?OnFreezeBegin@CVssJetWriter@@UAG_NXZ"
+    },
+    {
+      "offset": 15692,
+      "name": "?OnPrepareSnapshotEnd@CVssJetWriter@@UAG_N_N@Z"
+    },
+    {
+      "offset": 15692,
+      "name": "__imp_?OnPrepareSnapshotEnd@CVssJetWriter@@UAG_N_N@Z"
+    },
+    {
+      "offset": 15554,
+      "name": "?OnPrepareSnapshotBegin@CVssJetWriter@@UAG_NXZ"
+    },
+    {
+      "offset": 15554,
+      "name": "__imp_?OnPrepareSnapshotBegin@CVssJetWriter@@UAG_NXZ"
+    },
+    {
+      "offset": 15392,
+      "name": "?OnPrepareBackupEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z"
+    },
+    {
+      "offset": 15392,
+      "name": "__imp_?OnPrepareBackupEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z"
+    },
+    {
+      "offset": 15230,
+      "name": "?OnPrepareBackupBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 15230,
+      "name": "__imp_?OnPrepareBackupBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 14282,
+      "name": "?OnIdentify@CVssJetWriter@@UAG_NPAVIVssCreateWriterMetadata@@@Z"
+    },
+    {
+      "offset": 14282,
+      "name": "__imp_?OnIdentify@CVssJetWriter@@UAG_NPAVIVssCreateWriterMetadata@@@Z"
+    },
+    {
+      "offset": 16218,
+      "name": "?Uninitialize@CVssJetWriter@@QAGXXZ"
+    },
+    {
+      "offset": 16218,
+      "name": "__imp_?Uninitialize@CVssJetWriter@@QAGXXZ"
+    },
+    {
+      "offset": 12878,
+      "name": "?Initialize@CVssJetWriter@@QAGJU_GUID@@PBG_N211K@Z"
+    },
+    {
+      "offset": 12878,
+      "name": "__imp_?Initialize@CVssJetWriter@@QAGJU_GUID@@PBG_N211K@Z"
+    },
+    {
+      "offset": 11470,
+      "name": "??1CVssJetWriter@@UAE@XZ"
+    },
+    {
+      "offset": 11470,
+      "name": "__imp_??1CVssJetWriter@@UAE@XZ"
+    },
+    {
+      "offset": 11354,
+      "name": "??0CVssJetWriter@@QAE@XZ"
+    },
+    {
+      "offset": 11354,
+      "name": "__imp_??0CVssJetWriter@@QAE@XZ"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 11354,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4189594205,
+      "sizeOfData": 36,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "??0CVssJetWriter@@QAE@XZ (public: __thiscall CVssJetWriter::CVssJetWriter(void))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 0,
+      "name": "??0CVssJetWriter@@QAE@XZ"
+    },
+    {
+      "offset": 11470,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4175287807,
+      "sizeOfData": 36,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "??1CVssJetWriter@@UAE@XZ (public: virtual __thiscall CVssJetWriter::~CVssJetWriter(void))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 2,
+      "name": "??1CVssJetWriter@@UAE@XZ"
+    },
+    {
+      "offset": 11586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3812503851,
+      "sizeOfData": 57,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?AreComponentsSelected@CVssJetWriter@@IBG_NXZ (protected: bool __stdcall CVssJetWriter::AreComponentsSelected(void)const )",
+      "type": "code",
+      "nameType": "name",
+      "hint": 4,
+      "name": "?AreComponentsSelected@CVssJetWriter@@IBG_NXZ"
+    },
+    {
+      "offset": 11724,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3989965067,
+      "sizeOfData": 69,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?GetBackupType@CVssJetWriter@@IBG?AW4_VSS_BACKUP_TYPE@@XZ (protected: enum _VSS_BACKUP_TYPE __stdcall CVssJetWriter::GetBackupType(void)const )",
+      "type": "code",
+      "nameType": "name",
+      "hint": 8,
+      "name": "?GetBackupType@CVssJetWriter@@IBG?AW4_VSS_BACKUP_TYPE@@XZ"
+    },
+    {
+      "offset": 11874,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4255825304,
+      "sizeOfData": 45,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?GetContext@CVssJetWriter@@IBGJXZ (protected: long __stdcall CVssJetWriter::GetContext(void)const )",
+      "type": "code",
+      "nameType": "name",
+      "hint": 10,
+      "name": "?GetContext@CVssJetWriter@@IBGJXZ"
+    },
+    {
+      "offset": 12000,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3679966460,
+      "sizeOfData": 77,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?GetCurrentLevel@CVssJetWriter@@IBG?AW4_VSS_APPLICATION_LEVEL@@XZ (protected: enum _VSS_APPLICATION_LEVEL __stdcall CVssJetWriter::GetCurrentLevel(void)const )",
+      "type": "code",
+      "nameType": "name",
+      "hint": 12,
+      "name": "?GetCurrentLevel@CVssJetWriter@@IBG?AW4_VSS_APPLICATION_LEVEL@@XZ"
+    },
+    {
+      "offset": 12158,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4037440553,
+      "sizeOfData": 67,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?GetCurrentSnapshotSetId@CVssJetWriter@@IBG?AU_GUID@@XZ (protected: struct _GUID __stdcall CVssJetWriter::GetCurrentSnapshotSetId(void)const )",
+      "type": "code",
+      "nameType": "name",
+      "hint": 14,
+      "name": "?GetCurrentSnapshotSetId@CVssJetWriter@@IBG?AU_GUID@@XZ"
+    },
+    {
+      "offset": 12306,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3613398808,
+      "sizeOfData": 60,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?GetCurrentVolumeArray@CVssJetWriter@@IBGPAPBGXZ (protected: unsigned short const * * __stdcall CVssJetWriter::GetCurrentVolumeArray(void)const )",
+      "type": "code",
+      "nameType": "name",
+      "hint": 16,
+      "name": "?GetCurrentVolumeArray@CVssJetWriter@@IBGPAPBGXZ"
+    },
+    {
+      "offset": 12446,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4046571246,
+      "sizeOfData": 56,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?GetCurrentVolumeCount@CVssJetWriter@@IBGIXZ (protected: unsigned int __stdcall CVssJetWriter::GetCurrentVolumeCount(void)const )",
+      "type": "code",
+      "nameType": "name",
+      "hint": 18,
+      "name": "?GetCurrentVolumeCount@CVssJetWriter@@IBGIXZ"
+    },
+    {
+      "offset": 12582,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3590043214,
+      "sizeOfData": 71,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?GetRestoreType@CVssJetWriter@@IBG?AW4_VSS_RESTORE_TYPE@@XZ (protected: enum _VSS_RESTORE_TYPE __stdcall CVssJetWriter::GetRestoreType(void)const )",
+      "type": "code",
+      "nameType": "name",
+      "hint": 20,
+      "name": "?GetRestoreType@CVssJetWriter@@IBG?AW4_VSS_RESTORE_TYPE@@XZ"
+    },
+    {
+      "offset": 12734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3342996759,
+      "sizeOfData": 64,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?GetSnapshotDeviceName@CVssJetWriter@@IBGJPBGPAPBG@Z (protected: long __stdcall CVssJetWriter::GetSnapshotDeviceName(unsigned short const *,unsigned short const * *)const )",
+      "type": "code",
+      "nameType": "name",
+      "hint": 22,
+      "name": "?GetSnapshotDeviceName@CVssJetWriter@@IBGJPBGPAPBG@Z"
+    },
+    {
+      "offset": 12878,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3694276368,
+      "sizeOfData": 62,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?Initialize@CVssJetWriter@@QAGJU_GUID@@PBG_N211K@Z (public: long __stdcall CVssJetWriter::Initialize(struct _GUID,unsigned short const *,bool,bool,unsigned short const *,unsigned short const *,unsigned long))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 24,
+      "name": "?Initialize@CVssJetWriter@@QAGJU_GUID@@PBG_N211K@Z"
+    },
+    {
+      "offset": 13020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3757012348,
+      "sizeOfData": 65,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?IsBootableSystemStateBackedUp@CVssJetWriter@@IBG_NXZ (protected: bool __stdcall CVssJetWriter::IsBootableSystemStateBackedUp(void)const )",
+      "type": "code",
+      "nameType": "name",
+      "hint": 27,
+      "name": "?IsBootableSystemStateBackedUp@CVssJetWriter@@IBG_NXZ"
+    },
+    {
+      "offset": 13166,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3816727310,
+      "sizeOfData": 63,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?IsPartialFileSupportEnabled@CVssJetWriter@@IBG_NXZ (protected: bool __stdcall CVssJetWriter::IsPartialFileSupportEnabled(void)const )",
+      "type": "code",
+      "nameType": "name",
+      "hint": 29,
+      "name": "?IsPartialFileSupportEnabled@CVssJetWriter@@IBG_NXZ"
+    },
+    {
+      "offset": 13310,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3672886238,
+      "sizeOfData": 53,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?IsPathAffected@CVssJetWriter@@IBG_NPBG@Z (protected: bool __stdcall CVssJetWriter::IsPathAffected(unsigned short const *)const )",
+      "type": "code",
+      "nameType": "name",
+      "hint": 31,
+      "name": "?IsPathAffected@CVssJetWriter@@IBG_NPBG@Z"
+    },
+    {
+      "offset": 13444,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3697182022,
+      "sizeOfData": 47,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnAbortBegin@CVssJetWriter@@UAGXXZ (public: virtual void __stdcall CVssJetWriter::OnAbortBegin(void))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 33,
+      "name": "?OnAbortBegin@CVssJetWriter@@UAGXXZ"
+    },
+    {
+      "offset": 13572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3622389412,
+      "sizeOfData": 45,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnAbortEnd@CVssJetWriter@@UAGXXZ (public: virtual void __stdcall CVssJetWriter::OnAbortEnd(void))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 34,
+      "name": "?OnAbortEnd@CVssJetWriter@@UAGXXZ"
+    },
+    {
+      "offset": 13698,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3917078587,
+      "sizeOfData": 82,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnBackupCompleteBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnBackupCompleteBegin(class IVssWriterComponents *))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 37,
+      "name": "?OnBackupCompleteBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 13860,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3923829474,
+      "sizeOfData": 82,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnBackupCompleteEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnBackupCompleteEnd(class IVssWriterComponents *,bool))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 38,
+      "name": "?OnBackupCompleteEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z"
+    },
+    {
+      "offset": 14022,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3258742982,
+      "sizeOfData": 49,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnFreezeBegin@CVssJetWriter@@UAG_NXZ (public: virtual bool __stdcall CVssJetWriter::OnFreezeBegin(void))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 41,
+      "name": "?OnFreezeBegin@CVssJetWriter@@UAG_NXZ"
+    },
+    {
+      "offset": 14152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3511884252,
+      "sizeOfData": 49,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnFreezeEnd@CVssJetWriter@@UAG_N_N@Z (public: virtual bool __stdcall CVssJetWriter::OnFreezeEnd(bool))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 42,
+      "name": "?OnFreezeEnd@CVssJetWriter@@UAG_N_N@Z"
+    },
+    {
+      "offset": 14282,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3999528022,
+      "sizeOfData": 75,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnIdentify@CVssJetWriter@@UAG_NPAVIVssCreateWriterMetadata@@@Z (public: virtual bool __stdcall CVssJetWriter::OnIdentify(class IVssCreateWriterMetadata *))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 43,
+      "name": "?OnIdentify@CVssJetWriter@@UAG_NPAVIVssCreateWriterMetadata@@@Z"
+    },
+    {
+      "offset": 14438,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4213957578,
+      "sizeOfData": 79,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnPostRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPostRestoreBegin(class IVssWriterComponents *))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 46,
+      "name": "?OnPostRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 14598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3895755055,
+      "sizeOfData": 79,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnPostRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPostRestoreEnd(class IVssWriterComponents *,bool))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 47,
+      "name": "?OnPostRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z"
+    },
+    {
+      "offset": 14758,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4021060224,
+      "sizeOfData": 75,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnPostSnapshot@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPostSnapshot(class IVssWriterComponents *))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 48,
+      "name": "?OnPostSnapshot@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 14914,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4290910572,
+      "sizeOfData": 78,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnPreRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPreRestoreBegin(class IVssWriterComponents *))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 51,
+      "name": "?OnPreRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 15072,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4234063513,
+      "sizeOfData": 78,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnPreRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPreRestoreEnd(class IVssWriterComponents *,bool))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 52,
+      "name": "?OnPreRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z"
+    },
+    {
+      "offset": 15230,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3956357099,
+      "sizeOfData": 81,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnPrepareBackupBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPrepareBackupBegin(class IVssWriterComponents *))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 54,
+      "name": "?OnPrepareBackupBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z"
+    },
+    {
+      "offset": 15392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3498308646,
+      "sizeOfData": 81,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnPrepareBackupEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPrepareBackupEnd(class IVssWriterComponents *,bool))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 55,
+      "name": "?OnPrepareBackupEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z"
+    },
+    {
+      "offset": 15554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3867532508,
+      "sizeOfData": 58,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnPrepareSnapshotBegin@CVssJetWriter@@UAG_NXZ (public: virtual bool __stdcall CVssJetWriter::OnPrepareSnapshotBegin(void))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 56,
+      "name": "?OnPrepareSnapshotBegin@CVssJetWriter@@UAG_NXZ"
+    },
+    {
+      "offset": 15692,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3406633316,
+      "sizeOfData": 58,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnPrepareSnapshotEnd@CVssJetWriter@@UAG_N_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPrepareSnapshotEnd(bool))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 57,
+      "name": "?OnPrepareSnapshotEnd@CVssJetWriter@@UAG_N_N@Z"
+    },
+    {
+      "offset": 15830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3856705596,
+      "sizeOfData": 47,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnThawBegin@CVssJetWriter@@UAG_NXZ (public: virtual bool __stdcall CVssJetWriter::OnThawBegin(void))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 58,
+      "name": "?OnThawBegin@CVssJetWriter@@UAG_NXZ"
+    },
+    {
+      "offset": 15958,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3958430895,
+      "sizeOfData": 47,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?OnThawEnd@CVssJetWriter@@UAG_N_N@Z (public: virtual bool __stdcall CVssJetWriter::OnThawEnd(bool))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 59,
+      "name": "?OnThawEnd@CVssJetWriter@@UAG_N_N@Z"
+    },
+    {
+      "offset": 16086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3261352654,
+      "sizeOfData": 52,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?SetWriterFailure@CVssJetWriter@@IAGJJ@Z (protected: long __stdcall CVssJetWriter::SetWriterFailure(long))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 62,
+      "name": "?SetWriterFailure@CVssJetWriter@@IAGJJ@Z"
+    },
+    {
+      "offset": 16218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3318839522,
+      "sizeOfData": 47,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "?Uninitialize@CVssJetWriter@@QAGXXZ (public: void __stdcall CVssJetWriter::Uninitialize(void))",
+      "type": "code",
+      "nameType": "name",
+      "hint": 65,
+      "name": "?Uninitialize@CVssJetWriter@@QAGXXZ"
+    },
+    {
+      "offset": 16346,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3969978546,
+      "sizeOfData": 48,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "_CreateVssBackupComponentsInternal@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "CreateVssBackupComponentsInternal"
+    },
+    {
+      "offset": 16474,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3382823036,
+      "sizeOfData": 53,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "_CreateVssExamineWriterMetadataInternal@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "CreateVssExamineWriterMetadataInternal"
+    },
+    {
+      "offset": 16608,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3514501819,
+      "sizeOfData": 45,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "_CreateVssExpressWriterInternal@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "CreateVssExpressWriterInternal"
+    },
+    {
+      "offset": 16734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3612637231,
+      "sizeOfData": 47,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "_CreateVssSnapshotSetDescription@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "CreateVssSnapshotSetDescription"
+    },
+    {
+      "offset": 16862,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3585370854,
+      "sizeOfData": 27,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "_CreateWriter@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "CreateWriter"
+    },
+    {
+      "offset": 16970,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4224536740,
+      "sizeOfData": 29,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "_CreateWriterEx@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "CreateWriterEx"
+    },
+    {
+      "offset": 17080,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4107018131,
+      "sizeOfData": 48,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "_GetProviderMgmtInterfaceInternal@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "GetProviderMgmtInterfaceInternal"
+    },
+    {
+      "offset": 17208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3679490921,
+      "sizeOfData": 43,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "_IsVolumeSnapshottedInternal@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "IsVolumeSnapshottedInternal"
+    },
+    {
+      "offset": 17332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3940680519,
+      "sizeOfData": 45,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "_LoadVssSnapshotSetDescription@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "LoadVssSnapshotSetDescription"
+    },
+    {
+      "offset": 17458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3800242504,
+      "sizeOfData": 40,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "_ShouldBlockRevertInternal@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "ShouldBlockRevertInternal"
+    },
+    {
+      "offset": 17578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4172776517,
+      "sizeOfData": 48,
+      "dllName": "VSSAPI.DLL",
+      "symbolName": "_VssFreeSnapshotPropertiesInternal@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "VssFreeSnapshotPropertiesInternal"
+    }
+  ]
+}

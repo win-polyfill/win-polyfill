@@ -1,0 +1,982 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\projectedfslib.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     9C0 size
+correct header end
+
+    73 public symbols
+
+     145A __IMPORT_DESCRIPTOR_PROJECTEDFSLIB
+     16A0 __NULL_IMPORT_DESCRIPTOR
+     17DE PROJECTEDFSLIB_NULL_THUNK_DATA
+     193E _PrjAllocateAlignedBuffer@8
+     193E __imp__PrjAllocateAlignedBuffer@8
+     19BE _PrjClearNegativePathCache@8
+     19BE __imp__PrjClearNegativePathCache@8
+     1B30 _PrjCompleteCommand@16
+     1B30 __imp__PrjCompleteCommand@16
+     1D32 _PrjDeleteFile@16
+     1D32 __imp__PrjDeleteFile@16
+     1E1E _PrjDoesNameContainWildCards@4
+     1E1E __imp__PrjDoesNameContainWildCards@4
+     2010 _PrjFillDirEntryBuffer@12
+     2010 __imp__PrjFillDirEntryBuffer@12
+     1F92 _PrjFillDirEntryBuffer2@16
+     1F92 __imp__PrjFillDirEntryBuffer2@16
+     1EA0 _PrjFileNameCompare@8
+     1EA0 __imp__PrjFileNameCompare@8
+     1F1A _PrjFileNameMatch@8
+     1F1A __imp__PrjFileNameMatch@8
+     208E _PrjFreeAlignedBuffer@4
+     208E __imp__PrjFreeAlignedBuffer@4
+     210A _PrjGetOnDiskFileState@8
+     210A __imp__PrjGetOnDiskFileState@8
+     2216 _PrjGetVirtualizationInstanceInfo@8
+     2216 __imp__PrjGetVirtualizationInstanceInfo@8
+     229E _PrjMarkDirectoryAsPlaceholder@16
+     229E __imp__PrjMarkDirectoryAsPlaceholder@16
+     251A _PrjStartVirtualizing@20
+     251A __imp__PrjStartVirtualizing@20
+     261A _PrjStopVirtualizing@4
+     261A __imp__PrjStopVirtualizing@4
+     2694 _PrjUpdateFileIfNeeded@24
+     2694 __imp__PrjUpdateFileIfNeeded@24
+     280A _PrjWriteFileData@24
+     280A __imp__PrjWriteFileData@24
+     2902 _PrjWritePlaceholderInfo@16
+     2902 __imp__PrjWritePlaceholderInfo@16
+     2882 _PrjWritePlaceholderInfo2@20
+     2882 __imp__PrjWritePlaceholderInfo2@20
+     1A3E _PrjCloseFile@8
+     1A3E __imp__PrjCloseFile@8
+     1AB2 _PrjCommandCallbacksInit@8
+     1AB2 __imp__PrjCommandCallbacksInit@8
+     1BAA _PrjConfigureVolume@8
+     1BAA __imp__PrjConfigureVolume@8
+     1C24 _PrjConvertDirectoryToPlaceholder@20
+     1C24 __imp__PrjConvertDirectoryToPlaceholder@20
+     1CAC _PrjCreatePlaceholderAsHardlink@12
+     1CAC __imp__PrjCreatePlaceholderAsHardlink@12
+     1DA8 _PrjDetachDriver@4
+     1DA8 __imp__PrjDetachDriver@4
+     2186 _PrjGetVirtualizationInstanceIdFromHandle@8
+     2186 __imp__PrjGetVirtualizationInstanceIdFromHandle@8
+     2324 _PrjOpenFile@16
+     2324 __imp__PrjOpenFile@16
+     2398 _PrjReadFile@28
+     2398 __imp__PrjReadFile@28
+     240C _PrjStartVirtualizationInstance@32
+     240C __imp__PrjStartVirtualizationInstance@32
+     2492 _PrjStartVirtualizationInstanceEx@20
+     2492 __imp__PrjStartVirtualizationInstanceEx@20
+     2596 _PrjStopVirtualizationInstance@4
+     2596 __imp__PrjStopVirtualizationInstance@4
+     2712 _PrjUpdatePlaceholderIfNeeded@24
+     2712 __imp__PrjUpdatePlaceholderIfNeeded@24
+     2796 _PrjWriteFile@24
+     2796 __imp__PrjWriteFile@24
+     2982 _PrjWritePlaceholderInformation@16
+     2982 __imp__PrjWritePlaceholderInformation@16
+     2A08 _PrjpReadPrjReparsePointData@16
+     2A08 __imp__PrjpReadPrjReparsePointData@16
+
+Archive member name at 145A: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     20A size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        F131491A time date stamp
+             11A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      48 size of raw data
+      8C file pointer to raw data (0000008C to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      D4 file pointer to raw data (000000D4 to 000000E7)
+      E8 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+     106 file pointer to raw data (00000106 to 00000119)
+      E8 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 16A0: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     101 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        E479FAA5 time date stamp
+              C0 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      48 size of raw data
+      64 file pointer to raw data (00000064 to 000000AB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      AC file pointer to raw data (000000AC to 000000BF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 17DE: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     124 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E01E684A time date stamp
+              DC file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      48 size of raw data
+      8C file pointer to raw data (0000008C to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D4 file pointer to raw data (000000D4 to 000000D7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D8 file pointer to raw data (000000D8 to 000000DB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 193E: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1AAFE35
+  SizeOfData   : 0000002F
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjAllocateAlignedBuffer@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : PrjAllocateAlignedBuffer
+
+Archive member name at 19BE: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E30ABC7D
+  SizeOfData   : 00000030
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjClearNegativePathCache@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : PrjClearNegativePathCache
+
+Archive member name at 1A3E: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4AF5A15
+  SizeOfData   : 00000023
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjCloseFile@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : PrjCloseFile
+
+Archive member name at 1AB2: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2DE50A2
+  SizeOfData   : 0000002E
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjCommandCallbacksInit@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : PrjCommandCallbacksInit
+
+Archive member name at 1B30: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDAA4450
+  SizeOfData   : 0000002A
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjCompleteCommand@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : PrjCompleteCommand
+
+Archive member name at 1BAA: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C42FA43B
+  SizeOfData   : 00000029
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjConfigureVolume@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : PrjConfigureVolume
+
+Archive member name at 1C24: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E883ED48
+  SizeOfData   : 00000038
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjConvertDirectoryToPlaceholder@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : PrjConvertDirectoryToPlaceholder
+
+Archive member name at 1CAC: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED6326A2
+  SizeOfData   : 00000036
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjCreatePlaceholderAsHardlink@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : PrjCreatePlaceholderAsHardlink
+
+Archive member name at 1D32: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2787B48
+  SizeOfData   : 00000025
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjDeleteFile@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : PrjDeleteFile
+
+Archive member name at 1DA8: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB8035F1
+  SizeOfData   : 00000026
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjDetachDriver@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : PrjDetachDriver
+
+Archive member name at 1E1E: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C208F67B
+  SizeOfData   : 00000032
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjDoesNameContainWildCards@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : PrjDoesNameContainWildCards
+
+Archive member name at 1EA0: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAC566EE
+  SizeOfData   : 00000029
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjFileNameCompare@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : PrjFileNameCompare
+
+Archive member name at 1F1A: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0FA75BA
+  SizeOfData   : 00000027
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjFileNameMatch@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : PrjFileNameMatch
+
+Archive member name at 1F92: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF6B6B3A
+  SizeOfData   : 0000002E
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjFillDirEntryBuffer2@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : PrjFillDirEntryBuffer2
+
+Archive member name at 2010: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6A12AED
+  SizeOfData   : 0000002D
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjFillDirEntryBuffer@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : PrjFillDirEntryBuffer
+
+Archive member name at 208E: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C800BDA2
+  SizeOfData   : 0000002B
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjFreeAlignedBuffer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : PrjFreeAlignedBuffer
+
+Archive member name at 210A: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7D84A81
+  SizeOfData   : 0000002C
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjGetOnDiskFileState@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : PrjGetOnDiskFileState
+
+Archive member name at 2186: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      53 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6626393
+  SizeOfData   : 0000003F
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjGetVirtualizationInstanceIdFromHandle@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : PrjGetVirtualizationInstanceIdFromHandle
+
+Archive member name at 2216: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCCA4B2F
+  SizeOfData   : 00000037
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjGetVirtualizationInstanceInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : PrjGetVirtualizationInstanceInfo
+
+Archive member name at 229E: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDB05BA9
+  SizeOfData   : 00000035
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjMarkDirectoryAsPlaceholder@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : PrjMarkDirectoryAsPlaceholder
+
+Archive member name at 2324: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1F9DE59
+  SizeOfData   : 00000023
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjOpenFile@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : PrjOpenFile
+
+Archive member name at 2398: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDB24821
+  SizeOfData   : 00000023
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjReadFile@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : PrjReadFile
+
+Archive member name at 240C: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1F77947
+  SizeOfData   : 00000036
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjStartVirtualizationInstance@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : PrjStartVirtualizationInstance
+
+Archive member name at 2492: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7F910C1
+  SizeOfData   : 00000038
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjStartVirtualizationInstanceEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : PrjStartVirtualizationInstanceEx
+
+Archive member name at 251A: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4BAFEC5
+  SizeOfData   : 0000002C
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjStartVirtualizing@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : PrjStartVirtualizing
+
+Archive member name at 2596: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5B06D1F
+  SizeOfData   : 00000034
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjStopVirtualizationInstance@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : PrjStopVirtualizationInstance
+
+Archive member name at 261A: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF79800C
+  SizeOfData   : 0000002A
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjStopVirtualizing@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : PrjStopVirtualizing
+
+Archive member name at 2694: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1181725
+  SizeOfData   : 0000002D
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjUpdateFileIfNeeded@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : PrjUpdateFileIfNeeded
+
+Archive member name at 2712: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F71BD72C
+  SizeOfData   : 00000034
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjUpdatePlaceholderIfNeeded@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : PrjUpdatePlaceholderIfNeeded
+
+Archive member name at 2796: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB48D730
+  SizeOfData   : 00000024
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjWriteFile@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : PrjWriteFile
+
+Archive member name at 280A: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1AA53E2
+  SizeOfData   : 00000028
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjWriteFileData@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : PrjWriteFileData
+
+Archive member name at 2882: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2D7E380
+  SizeOfData   : 00000030
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjWritePlaceholderInfo2@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : PrjWritePlaceholderInfo2
+
+Archive member name at 2902: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F28BFA9F
+  SizeOfData   : 0000002F
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjWritePlaceholderInfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : PrjWritePlaceholderInfo
+
+Archive member name at 2982: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEAFA364
+  SizeOfData   : 00000036
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjWritePlaceholderInformation@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : PrjWritePlaceholderInformation
+
+Archive member name at 2A08: /0              PROJECTEDFSLIB.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C40CB9F9
+  SizeOfData   : 00000033
+  DLL name     : PROJECTEDFSLIB.dll
+  Symbol name  : _PrjpReadPrjReparsePointData@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : PrjpReadPrjReparsePointData
+
+     Exports
+
+       ordinal    name
+
+                  _PrjAllocateAlignedBuffer@8
+                  _PrjClearNegativePathCache@8
+                  _PrjCloseFile@8
+                  _PrjCommandCallbacksInit@8
+                  _PrjCompleteCommand@16
+                  _PrjConfigureVolume@8
+                  _PrjConvertDirectoryToPlaceholder@20
+                  _PrjCreatePlaceholderAsHardlink@12
+                  _PrjDeleteFile@16
+                  _PrjDetachDriver@4
+                  _PrjDoesNameContainWildCards@4
+                  _PrjFileNameCompare@8
+                  _PrjFileNameMatch@8
+                  _PrjFillDirEntryBuffer2@16
+                  _PrjFillDirEntryBuffer@12
+                  _PrjFreeAlignedBuffer@4
+                  _PrjGetOnDiskFileState@8
+                  _PrjGetVirtualizationInstanceIdFromHandle@8
+                  _PrjGetVirtualizationInstanceInfo@8
+                  _PrjMarkDirectoryAsPlaceholder@16
+                  _PrjOpenFile@16
+                  _PrjReadFile@28
+                  _PrjStartVirtualizationInstance@32
+                  _PrjStartVirtualizationInstanceEx@20
+                  _PrjStartVirtualizing@20
+                  _PrjStopVirtualizationInstance@4
+                  _PrjStopVirtualizing@4
+                  _PrjUpdateFileIfNeeded@24
+                  _PrjUpdatePlaceholderIfNeeded@24
+                  _PrjWriteFile@24
+                  _PrjWriteFileData@24
+                  _PrjWritePlaceholderInfo2@20
+                  _PrjWritePlaceholderInfo@16
+                  _PrjWritePlaceholderInformation@16
+                  _PrjpReadPrjReparsePointData@16
+
+  Summary
+
+          D8 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+          14 .idata$6

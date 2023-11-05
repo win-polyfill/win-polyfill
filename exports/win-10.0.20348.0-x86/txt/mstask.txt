@@ -1,0 +1,1051 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\mstask.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+6095D548 time/date Sat May  8 08:03:20 2021
+         uid
+         gid
+       0 mode
+     64C size
+correct header end
+
+    55 public symbols
+
+      DA2 _CLSID_CTask
+      DA2 _CLSID_CTaskScheduler
+      DA2 _IID_IEnumWorkItems
+      DA2 _IID_IProvideTaskPage
+      DA2 _IID_IScheduledWorkItem
+      DA2 _IID_ITask
+      DA2 _IID_ITaskScheduler
+      DA2 _IID_ITaskTrigger
+     B098 __IMPORT_DESCRIPTOR_mstask
+     B2BE __NULL_IMPORT_DESCRIPTOR
+     B3F4 mstask_NULL_THUNK_DATA
+     B544 ConvertAtJobsToTasks
+     B544 __imp_ConvertAtJobsToTasks
+     B5B4 GetNetScheduleAccountInformation
+     B5B4 __imp_GetNetScheduleAccountInformation
+     B630 NetrJobAdd
+     B630 __imp_NetrJobAdd
+     B696 NetrJobDel
+     B696 __imp_NetrJobDel
+     B6FC NetrJobEnum
+     B6FC __imp_NetrJobEnum
+     B764 NetrJobGetInfo
+     B764 __imp_NetrJobGetInfo
+     B7CE SAGetAccountInformation
+     B7CE __imp_SAGetAccountInformation
+     B842 SAGetNSAccountInformation
+     B842 __imp_SAGetNSAccountInformation
+     B8B8 SASetAccountInformation
+     B8B8 __imp_SASetAccountInformation
+     B92C SASetNSAccountInformation
+     B92C __imp_SASetNSAccountInformation
+     B9A2 SetNetScheduleAccountInformation
+     B9A2 __imp_SetNetScheduleAccountInformation
+     BA1E _ConvertAtJobsToTasks@0
+     BA1E __imp__ConvertAtJobsToTasks@0
+     BA92 _GetNetScheduleAccountInformation@12
+     BA92 __imp__GetNetScheduleAccountInformation@12
+     BB12 _NetrJobAdd@12
+     BB12 __imp__NetrJobAdd@12
+     BB7C _NetrJobDel@12
+     BB7C __imp__NetrJobDel@12
+     BBE6 _NetrJobEnum@20
+     BBE6 __imp__NetrJobEnum@20
+     BC52 _NetrJobGetInfo@12
+     BC52 __imp__NetrJobGetInfo@12
+     BCC0 _SAGetAccountInformation@16
+     BCC0 __imp__SAGetAccountInformation@16
+     BD38 _SAGetNSAccountInformation@12
+     BD38 __imp__SAGetNSAccountInformation@12
+     BDB2 _SASetAccountInformation@20
+     BDB2 __imp__SASetAccountInformation@20
+     BE2A _SASetNSAccountInformation@12
+     BE2A __imp__SASetNSAccountInformation@12
+     BEA4 _SetNetScheduleAccountInformation@12
+     BEA4 __imp__SetNetScheduleAccountInformation@12
+
+Archive member name at DA2: /0              d:\os\obj\x86fre\onecore\admin\services\sched\types\uuid\objfre\i386\guids.obj
+6095D548 time/date Sat May  8 08:03:20 2021
+         uid
+         gid
+  100666 mode
+    A2BA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+              14 number of sections
+        6095D548 time date stamp Sat May  8 08:03:20 2021
+            9EAE file pointer to symbol table
+              31 number of symbols
+               0 size of optional header
+               0 characteristics
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+    534C size of raw data
+     334 file pointer to raw data (00000334 to 0000567F)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    5680 file pointer to raw data (00005680 to 0000568F)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IID_ITaskTrigger
+         4 byte align
+         Read Only
+
+SECTION HEADER #3
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    5690 file pointer to raw data (00005690 to 0000569F)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _CLSID_CTask
+         4 byte align
+         Read Only
+
+SECTION HEADER #4
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    56A0 file pointer to raw data (000056A0 to 000056AF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IID_IEnumWorkItems
+         4 byte align
+         Read Only
+
+SECTION HEADER #5
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    56B0 file pointer to raw data (000056B0 to 000056BF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _CLSID_CTaskScheduler
+         4 byte align
+         Read Only
+
+SECTION HEADER #6
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    56C0 file pointer to raw data (000056C0 to 000056CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IID_ITaskScheduler
+         4 byte align
+         Read Only
+
+SECTION HEADER #7
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    56D0 file pointer to raw data (000056D0 to 000056DF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IID_ITask
+         4 byte align
+         Read Only
+
+SECTION HEADER #8
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    56E0 file pointer to raw data (000056E0 to 000056EF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IID_IProvideTaskPage
+         4 byte align
+         Read Only
+
+SECTION HEADER #9
+  .rdata name
+       0 physical address
+       0 virtual address
+      10 size of raw data
+    56F0 file pointer to raw data (000056F0 to 000056FF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+40301040 flags
+         Initialized Data
+         COMDAT; sym= _IID_IScheduledWorkItem
+         4 byte align
+         Read Only
+
+SECTION HEADER #A
+.debug$S name
+       0 physical address
+       0 virtual address
+      2C size of raw data
+    5700 file pointer to raw data (00005700 to 0000572B)
+    572C file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #B
+.debug$S name
+       0 physical address
+       0 virtual address
+      28 size of raw data
+    5740 file pointer to raw data (00005740 to 00005767)
+    5768 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #C
+.debug$S name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    577C file pointer to raw data (0000577C to 000057AB)
+    57AC file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #D
+.debug$S name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    57C0 file pointer to raw data (000057C0 to 000057EF)
+    57F0 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #E
+.debug$S name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    5804 file pointer to raw data (00005804 to 00005833)
+    5834 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #F
+.debug$S name
+       0 physical address
+       0 virtual address
+      24 size of raw data
+    5848 file pointer to raw data (00005848 to 0000586B)
+    586C file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #10
+.debug$S name
+       0 physical address
+       0 virtual address
+      30 size of raw data
+    5880 file pointer to raw data (00005880 to 000058AF)
+    58B0 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #11
+.debug$S name
+       0 physical address
+       0 virtual address
+      34 size of raw data
+    58C4 file pointer to raw data (000058C4 to 000058F7)
+    58F8 file pointer to relocation table
+       0 file pointer to line numbers
+       2 number of relocations
+       0 number of line numbers
+42101040 flags
+         Initialized Data
+         COMDAT (no symbol)
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #12
+.debug$T name
+       0 physical address
+       0 virtual address
+    41B0 size of raw data
+    590C file pointer to raw data (0000590C to 00009ABB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #13
+ .chks64 name
+       0 physical address
+       0 virtual address
+      A0 size of raw data
+    9ABC file pointer to raw data (00009ABC to 00009B5B)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+     A00 flags
+         Info
+         Remove
+         (no align specified)
+
+SECTION HEADER #14
+.drectve name
+       0 physical address
+       0 virtual address
+      32 size of raw data
+    9E7C file pointer to raw data (00009E7C to 00009EAD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+  100A00 flags
+         Info
+         Remove
+         1 byte align
+
+Archive member name at B098: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1EA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        EE2E2C15 time date stamp
+             10A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CC file pointer to raw data (000000CC to 000000DF)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FE file pointer to raw data (000000FE to 00000109)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at B2BE: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        CDE71187 time date stamp
+              B8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      64 file pointer to raw data (00000064 to 000000A3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A4 file pointer to raw data (000000A4 to 000000B7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at B3F4: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     114 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E77B7AE2 time date stamp
+              D4 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CC file pointer to raw data (000000CC to 000000CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data (000000D0 to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at B544: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE3C794D
+  SizeOfData   : 00000020
+  DLL name     : mstask.dll
+  Symbol name  : ConvertAtJobsToTasks
+  Type         : code
+  Name type    : name
+  Hint         : 0
+  Name         : ConvertAtJobsToTasks
+
+Archive member name at B5B4: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAF5C819
+  SizeOfData   : 0000002C
+  DLL name     : mstask.dll
+  Symbol name  : GetNetScheduleAccountInformation
+  Type         : code
+  Name type    : name
+  Hint         : 3
+  Name         : GetNetScheduleAccountInformation
+
+Archive member name at B630: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB9348ED
+  SizeOfData   : 00000016
+  DLL name     : mstask.dll
+  Symbol name  : NetrJobAdd
+  Type         : code
+  Name type    : name
+  Hint         : 4
+  Name         : NetrJobAdd
+
+Archive member name at B696: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2EB34E5
+  SizeOfData   : 00000016
+  DLL name     : mstask.dll
+  Symbol name  : NetrJobDel
+  Type         : code
+  Name type    : name
+  Hint         : 5
+  Name         : NetrJobDel
+
+Archive member name at B6FC: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C96C6AC8
+  SizeOfData   : 00000017
+  DLL name     : mstask.dll
+  Symbol name  : NetrJobEnum
+  Type         : code
+  Name type    : name
+  Hint         : 6
+  Name         : NetrJobEnum
+
+Archive member name at B764: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0EA4B4C
+  SizeOfData   : 0000001A
+  DLL name     : mstask.dll
+  Symbol name  : NetrJobGetInfo
+  Type         : code
+  Name type    : name
+  Hint         : 7
+  Name         : NetrJobGetInfo
+
+Archive member name at B7CE: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9D8ACD0
+  SizeOfData   : 00000023
+  DLL name     : mstask.dll
+  Symbol name  : SAGetAccountInformation
+  Type         : code
+  Name type    : name
+  Hint         : 8
+  Name         : SAGetAccountInformation
+
+Archive member name at B842: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA28FFB9
+  SizeOfData   : 00000025
+  DLL name     : mstask.dll
+  Symbol name  : SAGetNSAccountInformation
+  Type         : code
+  Name type    : name
+  Hint         : 9
+  Name         : SAGetNSAccountInformation
+
+Archive member name at B8B8: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB962D14
+  SizeOfData   : 00000023
+  DLL name     : mstask.dll
+  Symbol name  : SASetAccountInformation
+  Type         : code
+  Name type    : name
+  Hint         : 10
+  Name         : SASetAccountInformation
+
+Archive member name at B92C: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4C93E09
+  SizeOfData   : 00000025
+  DLL name     : mstask.dll
+  Symbol name  : SASetNSAccountInformation
+  Type         : code
+  Name type    : name
+  Hint         : 11
+  Name         : SASetNSAccountInformation
+
+Archive member name at B9A2: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4547CED
+  SizeOfData   : 0000002C
+  DLL name     : mstask.dll
+  Symbol name  : SetNetScheduleAccountInformation
+  Type         : code
+  Name type    : name
+  Hint         : 12
+  Name         : SetNetScheduleAccountInformation
+
+Archive member name at BA1E: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF28EB46
+  SizeOfData   : 00000023
+  DLL name     : mstask.dll
+  Symbol name  : _ConvertAtJobsToTasks@0
+  Type         : code
+  Name type    : name
+  Hint         : 13
+  Name         : _ConvertAtJobsToTasks@0
+
+Archive member name at BA92: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF944BCB
+  SizeOfData   : 00000030
+  DLL name     : mstask.dll
+  Symbol name  : _GetNetScheduleAccountInformation@12
+  Type         : code
+  Name type    : name
+  Hint         : 16
+  Name         : _GetNetScheduleAccountInformation@12
+
+Archive member name at BB12: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7C720AF
+  SizeOfData   : 0000001A
+  DLL name     : mstask.dll
+  Symbol name  : _NetrJobAdd@12
+  Type         : code
+  Name type    : name
+  Hint         : 17
+  Name         : _NetrJobAdd@12
+
+Archive member name at BB7C: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F482B4D2
+  SizeOfData   : 0000001A
+  DLL name     : mstask.dll
+  Symbol name  : _NetrJobDel@12
+  Type         : code
+  Name type    : name
+  Hint         : 18
+  Name         : _NetrJobDel@12
+
+Archive member name at BBE6: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6B9534F
+  SizeOfData   : 0000001B
+  DLL name     : mstask.dll
+  Symbol name  : _NetrJobEnum@20
+  Type         : code
+  Name type    : name
+  Hint         : 19
+  Name         : _NetrJobEnum@20
+
+Archive member name at BC52: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECCD25F3
+  SizeOfData   : 0000001E
+  DLL name     : mstask.dll
+  Symbol name  : _NetrJobGetInfo@12
+  Type         : code
+  Name type    : name
+  Hint         : 20
+  Name         : _NetrJobGetInfo@12
+
+Archive member name at BCC0: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3E90FFB
+  SizeOfData   : 00000027
+  DLL name     : mstask.dll
+  Symbol name  : _SAGetAccountInformation@16
+  Type         : code
+  Name type    : name
+  Hint         : 21
+  Name         : _SAGetAccountInformation@16
+
+Archive member name at BD38: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E51B8806
+  SizeOfData   : 00000029
+  DLL name     : mstask.dll
+  Symbol name  : _SAGetNSAccountInformation@12
+  Type         : code
+  Name type    : name
+  Hint         : 22
+  Name         : _SAGetNSAccountInformation@12
+
+Archive member name at BDB2: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F68F4B89
+  SizeOfData   : 00000027
+  DLL name     : mstask.dll
+  Symbol name  : _SASetAccountInformation@20
+  Type         : code
+  Name type    : name
+  Hint         : 23
+  Name         : _SASetAccountInformation@20
+
+Archive member name at BE2A: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F19CDEAB
+  SizeOfData   : 00000029
+  DLL name     : mstask.dll
+  Symbol name  : _SASetNSAccountInformation@12
+  Type         : code
+  Name type    : name
+  Hint         : 24
+  Name         : _SASetNSAccountInformation@12
+
+Archive member name at BEA4: mstask.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD25BAA9
+  SizeOfData   : 00000030
+  DLL name     : mstask.dll
+  Symbol name  : _SetNetScheduleAccountInformation@12
+  Type         : code
+  Name type    : name
+  Hint         : 25
+  Name         : _SetNetScheduleAccountInformation@12
+
+     Exports
+
+       ordinal    name
+
+                  ConvertAtJobsToTasks
+                  GetNetScheduleAccountInformation
+                  NetrJobAdd
+                  NetrJobDel
+                  NetrJobEnum
+                  NetrJobGetInfo
+                  SAGetAccountInformation
+                  SAGetNSAccountInformation
+                  SASetAccountInformation
+                  SASetNSAccountInformation
+                  SetNetScheduleAccountInformation
+                  _ConvertAtJobsToTasks@0
+                  _GetNetScheduleAccountInformation@12
+                  _NetrJobAdd@12
+                  _NetrJobDel@12
+                  _NetrJobEnum@20
+                  _NetrJobGetInfo@12
+                  _SAGetAccountInformation@16
+                  _SAGetNSAccountInformation@12
+                  _SASetAccountInformation@20
+                  _SASetNSAccountInformation@12
+                  _SetNetScheduleAccountInformation@12
+
+  Summary
+
+          A0 .chks64
+        5578 .debug$S
+        41B0 .debug$T
+          32 .drectve
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6
+          80 .rdata

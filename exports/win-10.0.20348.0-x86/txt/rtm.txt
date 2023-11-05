@@ -1,0 +1,2764 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\rtm.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    1CCA size
+correct header end
+
+    235 public symbols
+
+     3A1E __IMPORT_DESCRIPTOR_rtm
+     3C38 __NULL_IMPORT_DESCRIPTOR
+     3D6A rtm_NULL_THUNK_DATA
+     69F4 _RtmReadInstanceConfig@8
+     69F4 __imp__RtmReadInstanceConfig@8
+     710A _RtmWriteInstanceConfig@8
+     710A __imp__RtmWriteInstanceConfig@8
+     697C _RtmReadAddressFamilyConfig@12
+     697C __imp__RtmReadAddressFamilyConfig@12
+     7092 _RtmWriteAddressFamilyConfig@12
+     7092 __imp__RtmWriteAddressFamilyConfig@12
+     5E70 _RtmGetInstances@8
+     5E70 __imp__RtmGetInstances@8
+     5E00 _RtmGetInstanceInfo@16
+     5E00 __imp__RtmGetInstanceInfo@16
+     584E _RtmGetAddressFamilyInfo@20
+     584E __imp__RtmGetAddressFamilyInfo@20
+     6B44 _RtmRegisterEntity@24
+     6B44 __imp__RtmRegisterEntity@24
+     567E _RtmDeregisterEntity@4
+     567E __imp__RtmDeregisterEntity@4
+     6278 _RtmGetRegisteredEntities@16
+     6278 __imp__RtmGetRegisteredEntities@16
+     6D7E _RtmReleaseEntities@12
+     6D7E __imp__RtmReleaseEntities@12
+     6746 _RtmLockDestination@16
+     6746 __imp__RtmLockDestination@16
+     61FC _RtmGetOpaqueInformationPointer@12
+     61FC __imp__RtmGetOpaqueInformationPointer@12
+     5A7C _RtmGetEntityMethods@16
+     5A7C __imp__RtmGetEntityMethods@16
+     6588 _RtmInvokeMethod@20
+     6588 __imp__RtmInvokeMethod@20
+     4C94 _RtmBlockMethods@16
+     4C94 __imp__RtmBlockMethods@16
+     5A0E _RtmGetEntityInfo@12
+     5A0E __imp__RtmGetEntityInfo@12
+     59A2 _RtmGetDestInfo@20
+     59A2 __imp__RtmGetDestInfo@20
+     6358 _RtmGetRouteInfo@16
+     6358 __imp__RtmGetRouteInfo@16
+     60B0 _RtmGetNextHopInfo@12
+     60B0 __imp__RtmGetNextHopInfo@12
+     6DEE _RtmReleaseEntityInfo@8
+     6DEE __imp__RtmReleaseEntityInfo@8
+     6CA4 _RtmReleaseDestInfo@8
+     6CA4 __imp__RtmReleaseDestInfo@8
+     6F40 _RtmReleaseRouteInfo@8
+     6F40 __imp__RtmReleaseRouteInfo@8
+     6E5E _RtmReleaseNextHopInfo@8
+     6E5E __imp__RtmReleaseNextHopInfo@8
+     6A66 _RtmReferenceHandles@12
+     6A66 __imp__RtmReferenceHandles@12
+     559C _RtmDereferenceHandles@12
+     559C __imp__RtmDereferenceHandles@12
+     4A68 _RtmAddNextHop@16
+     4A68 __imp__RtmAddNextHop@16
+     57E2 _RtmFindNextHop@16
+     57E2 __imp__RtmFindNextHop@16
+     52F8 _RtmDeleteNextHop@12
+     52F8 __imp__RtmDeleteNextHop@12
+     67B6 _RtmLockNextHop@20
+     67B6 __imp__RtmLockNextHop@20
+     611E _RtmGetNextHopPointer@12
+     611E __imp__RtmGetNextHopPointer@12
+     4B3A _RtmAddRouteToDest@36
+     4B3A __imp__RtmAddRouteToDest@36
+     54B0 _RtmDeleteRouteToDest@12
+     54B0 __imp__RtmDeleteRouteToDest@12
+     6434 _RtmHoldDestination@16
+     6434 __imp__RtmHoldDestination@16
+     6822 _RtmLockRoute@20
+     6822 __imp__RtmLockRoute@20
+     701E _RtmUpdateAndUnlockRoute@28
+     701E __imp__RtmUpdateAndUnlockRoute@28
+     63C4 _RtmGetRoutePointer@12
+     63C4 __imp__RtmGetRoutePointer@12
+     4FDE _RtmCreateDestEnum@24
+     4FDE __imp__RtmCreateDestEnum@24
+     5B5E _RtmGetEnumDests@16
+     5B5E __imp__RtmGetEnumDests@16
+     6D12 _RtmReleaseDests@12
+     6D12 __imp__RtmReleaseDests@12
+     5136 _RtmCreateRouteEnum@36
+     5136 __imp__RtmCreateRouteEnum@36
+     5C3A _RtmGetEnumRoutes@16
+     5C3A __imp__RtmGetEnumRoutes@16
+     6FB0 _RtmReleaseRoutes@12
+     6FB0 __imp__RtmReleaseRoutes@12
+     50C4 _RtmCreateNextHopEnum@16
+     50C4 __imp__RtmCreateNextHopEnum@16
+     5BCA _RtmGetEnumNextHops@16
+     5BCA __imp__RtmGetEnumNextHops@16
+     6ED0 _RtmReleaseNextHops@12
+     6ED0 __imp__RtmReleaseNextHops@12
+     5288 _RtmDeleteEnumHandle@8
+     5288 __imp__RtmDeleteEnumHandle@8
+     4F6A _RtmCreateBestRouteEnum@16
+     4F6A __imp__RtmCreateBestRouteEnum@16
+     5AEC _RtmGetEnumBestRoutes@16
+     5AEC __imp__RtmGetEnumBestRoutes@16
+     5CA8 _RtmGetExactMatchDestination@20
+     5CA8 __imp__RtmGetExactMatchDestination@20
+     5FC8 _RtmGetMostSpecificDestination@20
+     5FC8 __imp__RtmGetMostSpecificDestination@20
+     5EDC _RtmGetLessSpecificDestination@20
+     5EDC __imp__RtmGetLessSpecificDestination@20
+     5D20 _RtmGetExactMatchRoute@28
+     5D20 __imp__RtmGetExactMatchRoute@28
+     65F4 _RtmIsBestRoute@12
+     65F4 __imp__RtmIsBestRoute@12
+     6BB2 _RtmRegisterForChangeNotification@20
+     6BB2 __imp__RtmRegisterForChangeNotification@20
+     5932 _RtmGetChangedDests@16
+     5932 __imp__RtmGetChangedDests@16
+     6C30 _RtmReleaseChangedDests@16
+     6C30 __imp__RtmReleaseChangedDests@16
+     64A4 _RtmIgnoreChangedDests@16
+     64A4 __imp__RtmIgnoreChangedDests@16
+     58C2 _RtmGetChangeStatus@16
+     58C2 __imp__RtmGetChangeStatus@16
+     68FE _RtmMarkDestForChangeNotification@16
+     68FE __imp__RtmMarkDestForChangeNotification@16
+     6660 _RtmIsMarkedForChangeNotification@16
+     6660 __imp__RtmIsMarkedForChangeNotification@16
+     56EE _RtmDeregisterFromChangeNotification@8
+     56EE __imp__RtmDeregisterFromChangeNotification@8
+     51A6 _RtmCreateRouteList@8
+     51A6 __imp__RtmCreateRouteList@8
+     6516 _RtmInsertInRouteList@16
+     6516 __imp__RtmInsertInRouteList@16
+     5214 _RtmCreateRouteListEnum@12
+     5214 __imp__RtmCreateRouteListEnum@12
+     5F56 _RtmGetListEnumRoutes@16
+     5F56 __imp__RtmGetListEnumRoutes@16
+     53D2 _RtmDeleteRouteList@8
+     53D2 __imp__RtmDeleteRouteList@8
+     3F88 _CreateTable@8
+     3F88 __imp__CreateTable@8
+     4194 _InsertIntoTable@20
+     4194 __imp__InsertIntoTable@20
+     717C _SearchInTable@20
+     717C __imp__SearchInTable@20
+     3EB4 _BestMatchInTable@12
+     3EB4 __imp__BestMatchInTable@12
+     49FA _NextMatchInTable@12
+     49FA __imp__NextMatchInTable@12
+     412A _EnumOverTable@32
+     412A __imp__EnumOverTable@32
+     3FF0 _DeleteFromTable@20
+     3FF0 __imp__DeleteFromTable@20
+     405C _DestroyTable@4
+     405C __imp__DestroyTable@4
+     3F22 _CheckTable@4
+     3F22 __imp__CheckTable@4
+     40C4 _DumpTable@8
+     40C4 __imp__DumpTable@8
+     4D74 _RtmCleanupInstances@0
+     4D74 __imp__RtmCleanupInstances@0
+     5440 _RtmDeleteRouteTable@4
+     5440 __imp__RtmDeleteRouteTable@4
+     6AD6 _RtmRegisterClient@16
+     6AD6 __imp__RtmRegisterClient@16
+     560E _RtmDeregisterClient@4
+     560E __imp__RtmDeregisterClient@4
+     4AD2 _RtmAddRoute@24
+     4AD2 __imp__RtmAddRoute@24
+     5366 _RtmDeleteRoute@16
+     5366 __imp__RtmDeleteRoute@16
+     5522 _RtmDequeueRouteChangeMessage@16
+     5522 __imp__RtmDequeueRouteChangeMessage@16
+     504C _RtmCreateEnumerationHandle@12
+     504C __imp__RtmCreateEnumerationHandle@12
+     576E _RtmEnumerateGetNextRoute@8
+     576E __imp__RtmEnumerateGetNextRoute@8
+     4DE4 _RtmCloseEnumerationHandle@4
+     4DE4 __imp__RtmCloseEnumerationHandle@4
+     5D92 _RtmGetFirstRoute@12
+     5D92 __imp__RtmGetFirstRoute@12
+     6190 _RtmGetNextRoute@12
+     6190 __imp__RtmGetNextRoute@12
+     4C22 _RtmBlockDeleteRoutes@12
+     4C22 __imp__RtmBlockDeleteRoutes@12
+     4D00 _RtmBlockSetRouteEnable@16
+     4D00 __imp__RtmBlockSetRouteEnable@16
+     4BA8 _RtmBlockConvertRoutesToStatic@12
+     4BA8 __imp__RtmBlockConvertRoutesToStatic@12
+     66DE _RtmIsRoute@12
+     66DE __imp__RtmIsRoute@12
+     688C _RtmLookupIPDestination@8
+     688C __imp__RtmLookupIPDestination@8
+     6042 _RtmGetNetworkCount@4
+     6042 __imp__RtmGetNetworkCount@4
+     62EE _RtmGetRouteAge@4
+     62EE __imp__RtmGetRouteAge@4
+     482E _MgmInitialize@8
+     482E __imp__MgmInitialize@8
+     4278 _MgmDeInitialize@0
+     4278 __imp__MgmDeInitialize@0
+     4898 _MgmRegisterMProtocol@16
+     4898 __imp__MgmRegisterMProtocol@16
+     42E4 _MgmDeRegisterMProtocol@4
+     42E4 __imp__MgmDeRegisterMProtocol@4
+     4984 _MgmTakeInterfaceOwnership@12
+     4984 __imp__MgmTakeInterfaceOwnership@12
+     490A _MgmReleaseInterfaceOwnership@12
+     490A __imp__MgmReleaseInterfaceOwnership@12
+     4200 _MgmAddGroupMembershipEntry@32
+     4200 __imp__MgmAddGroupMembershipEntry@32
+     4356 _MgmDeleteGroupMembershipEntry@32
+     4356 __imp__MgmDeleteGroupMembershipEntry@32
+     44AC _MgmGetMfe@12
+     44AC __imp__MgmGetMfe@12
+     43D0 _MgmGetFirstMfe@12
+     43D0 __imp__MgmGetFirstMfe@12
+     457E _MgmGetNextMfe@16
+     457E __imp__MgmGetNextMfe@16
+     47B8 _MgmGroupEnumerationStart@12
+     47B8 __imp__MgmGroupEnumerationStart@12
+     4740 _MgmGroupEnumerationGetNext@16
+     4740 __imp__MgmGroupEnumerationGetNext@16
+     46CE _MgmGroupEnumerationEnd@4
+     46CE __imp__MgmGroupEnumerationEnd@4
+     4658 _MgmGetProtocolOnInterface@16
+     4658 __imp__MgmGetProtocolOnInterface@16
+     45E8 _MgmGetNextMfeStats@20
+     45E8 __imp__MgmGetNextMfeStats@20
+     443C _MgmGetFirstMfeStats@16
+     443C __imp__MgmGetFirstMfeStats@16
+     4512 _MgmGetMfeStats@16
+     4512 __imp__MgmGetMfeStats@16
+     4EE2 _RtmConvertNetAddressToIpv6AddressAndLength@16
+     4EE2 __imp__RtmConvertNetAddressToIpv6AddressAndLength@16
+     4E5A _RtmConvertIpv6AddressAndLengthToNetAddress@28
+     4E5A __imp__RtmConvertIpv6AddressAndLengthToNetAddress@28
+
+Archive member name at 3A1E: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1DD size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        CE256274 time date stamp
+             103 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3D size of raw data
+      8C file pointer to raw data (0000008C to 000000C8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      C9 file pointer to raw data (000000C9 to 000000DC)
+      DD file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+      FB file pointer to raw data (000000FB to 00000102)
+      DD file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 3C38: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F6 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        CB18E349 time date stamp
+              B5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3D size of raw data
+      64 file pointer to raw data (00000064 to 000000A0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A1 file pointer to raw data (000000A1 to 000000B4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 3D6A: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     10E size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        C8F1DA0D time date stamp
+              D1 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3D size of raw data
+      8C file pointer to raw data (0000008C to 000000C8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      C9 file pointer to raw data (000000C9 to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 3EB4: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E10AED86
+  SizeOfData   : 0000001D
+  DLL name     : rtm.dll
+  Symbol name  : _BestMatchInTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : BestMatchInTable
+
+Archive member name at 3F22: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F88EAA49
+  SizeOfData   : 00000016
+  DLL name     : rtm.dll
+  Symbol name  : _CheckTable@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : CheckTable
+
+Archive member name at 3F88: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3047DE3
+  SizeOfData   : 00000017
+  DLL name     : rtm.dll
+  Symbol name  : _CreateTable@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : CreateTable
+
+Archive member name at 3FF0: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E18123BA
+  SizeOfData   : 0000001C
+  DLL name     : rtm.dll
+  Symbol name  : _DeleteFromTable@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : DeleteFromTable
+
+Archive member name at 405C: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0E141BB
+  SizeOfData   : 00000018
+  DLL name     : rtm.dll
+  Symbol name  : _DestroyTable@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : DestroyTable
+
+Archive member name at 40C4: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      29 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED7536CA
+  SizeOfData   : 00000015
+  DLL name     : rtm.dll
+  Symbol name  : _DumpTable@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : DumpTable
+
+Archive member name at 412A: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2404DE7
+  SizeOfData   : 0000001A
+  DLL name     : rtm.dll
+  Symbol name  : _EnumOverTable@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : EnumOverTable
+
+Archive member name at 4194: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA8AEBDD
+  SizeOfData   : 0000001C
+  DLL name     : rtm.dll
+  Symbol name  : _InsertIntoTable@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : InsertIntoTable
+
+Archive member name at 4200: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6CFB1A0
+  SizeOfData   : 00000027
+  DLL name     : rtm.dll
+  Symbol name  : _MgmAddGroupMembershipEntry@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : MgmAddGroupMembershipEntry
+
+Archive member name at 4278: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA7EF3B1
+  SizeOfData   : 0000001B
+  DLL name     : rtm.dll
+  Symbol name  : _MgmDeInitialize@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : MgmDeInitialize
+
+Archive member name at 42E4: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C532028A
+  SizeOfData   : 00000022
+  DLL name     : rtm.dll
+  Symbol name  : _MgmDeRegisterMProtocol@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : MgmDeRegisterMProtocol
+
+Archive member name at 4356: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F78089C3
+  SizeOfData   : 0000002A
+  DLL name     : rtm.dll
+  Symbol name  : _MgmDeleteGroupMembershipEntry@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : MgmDeleteGroupMembershipEntry
+
+Archive member name at 43D0: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5CDC579
+  SizeOfData   : 0000001B
+  DLL name     : rtm.dll
+  Symbol name  : _MgmGetFirstMfe@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : MgmGetFirstMfe
+
+Archive member name at 443C: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C24AC20A
+  SizeOfData   : 00000020
+  DLL name     : rtm.dll
+  Symbol name  : _MgmGetFirstMfeStats@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : MgmGetFirstMfeStats
+
+Archive member name at 44AC: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED21F795
+  SizeOfData   : 00000016
+  DLL name     : rtm.dll
+  Symbol name  : _MgmGetMfe@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : MgmGetMfe
+
+Archive member name at 4512: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC9E8005
+  SizeOfData   : 0000001B
+  DLL name     : rtm.dll
+  Symbol name  : _MgmGetMfeStats@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : MgmGetMfeStats
+
+Archive member name at 457E: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF8CCEDF
+  SizeOfData   : 0000001A
+  DLL name     : rtm.dll
+  Symbol name  : _MgmGetNextMfe@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : MgmGetNextMfe
+
+Archive member name at 45E8: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0853A0E
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _MgmGetNextMfeStats@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : MgmGetNextMfeStats
+
+Archive member name at 4658: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDDA985E
+  SizeOfData   : 00000026
+  DLL name     : rtm.dll
+  Symbol name  : _MgmGetProtocolOnInterface@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : MgmGetProtocolOnInterface
+
+Archive member name at 46CE: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8B3F332
+  SizeOfData   : 00000022
+  DLL name     : rtm.dll
+  Symbol name  : _MgmGroupEnumerationEnd@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : MgmGroupEnumerationEnd
+
+Archive member name at 4740: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6A48A4B
+  SizeOfData   : 00000027
+  DLL name     : rtm.dll
+  Symbol name  : _MgmGroupEnumerationGetNext@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : MgmGroupEnumerationGetNext
+
+Archive member name at 47B8: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD20B68E
+  SizeOfData   : 00000025
+  DLL name     : rtm.dll
+  Symbol name  : _MgmGroupEnumerationStart@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : MgmGroupEnumerationStart
+
+Archive member name at 482E: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE57A85C
+  SizeOfData   : 00000019
+  DLL name     : rtm.dll
+  Symbol name  : _MgmInitialize@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : MgmInitialize
+
+Archive member name at 4898: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB78963E
+  SizeOfData   : 00000021
+  DLL name     : rtm.dll
+  Symbol name  : _MgmRegisterMProtocol@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : MgmRegisterMProtocol
+
+Archive member name at 490A: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E39D4FCA
+  SizeOfData   : 00000029
+  DLL name     : rtm.dll
+  Symbol name  : _MgmReleaseInterfaceOwnership@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : MgmReleaseInterfaceOwnership
+
+Archive member name at 4984: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C87500E6
+  SizeOfData   : 00000026
+  DLL name     : rtm.dll
+  Symbol name  : _MgmTakeInterfaceOwnership@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : MgmTakeInterfaceOwnership
+
+Archive member name at 49FA: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA5FB3E4
+  SizeOfData   : 0000001D
+  DLL name     : rtm.dll
+  Symbol name  : _NextMatchInTable@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : NextMatchInTable
+
+Archive member name at 4A68: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F490C411
+  SizeOfData   : 0000001A
+  DLL name     : rtm.dll
+  Symbol name  : _RtmAddNextHop@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : RtmAddNextHop
+
+Archive member name at 4AD2: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C210F9B9
+  SizeOfData   : 00000018
+  DLL name     : rtm.dll
+  Symbol name  : _RtmAddRoute@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : RtmAddRoute
+
+Archive member name at 4B3A: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE793FAE
+  SizeOfData   : 0000001E
+  DLL name     : rtm.dll
+  Symbol name  : _RtmAddRouteToDest@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : RtmAddRouteToDest
+
+Archive member name at 4BA8: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5E74254
+  SizeOfData   : 0000002A
+  DLL name     : rtm.dll
+  Symbol name  : _RtmBlockConvertRoutesToStatic@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : RtmBlockConvertRoutesToStatic
+
+Archive member name at 4C22: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D48F59ED
+  SizeOfData   : 00000021
+  DLL name     : rtm.dll
+  Symbol name  : _RtmBlockDeleteRoutes@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : RtmBlockDeleteRoutes
+
+Archive member name at 4C94: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C35EE57E
+  SizeOfData   : 0000001C
+  DLL name     : rtm.dll
+  Symbol name  : _RtmBlockMethods@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : RtmBlockMethods
+
+Archive member name at 4D00: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C87D33D7
+  SizeOfData   : 00000023
+  DLL name     : rtm.dll
+  Symbol name  : _RtmBlockSetRouteEnable@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : RtmBlockSetRouteEnable
+
+Archive member name at 4D74: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F39D45B7
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmCleanupInstances@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : RtmCleanupInstances
+
+Archive member name at 4DE4: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD1D86BE
+  SizeOfData   : 00000025
+  DLL name     : rtm.dll
+  Symbol name  : _RtmCloseEnumerationHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : RtmCloseEnumerationHandle
+
+Archive member name at 4E5A: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDD4E45C
+  SizeOfData   : 00000037
+  DLL name     : rtm.dll
+  Symbol name  : _RtmConvertIpv6AddressAndLengthToNetAddress@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : RtmConvertIpv6AddressAndLengthToNetAddress
+
+Archive member name at 4EE2: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C47B5DB4
+  SizeOfData   : 00000037
+  DLL name     : rtm.dll
+  Symbol name  : _RtmConvertNetAddressToIpv6AddressAndLength@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : RtmConvertNetAddressToIpv6AddressAndLength
+
+Archive member name at 4F6A: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E69E6EED
+  SizeOfData   : 00000023
+  DLL name     : rtm.dll
+  Symbol name  : _RtmCreateBestRouteEnum@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : RtmCreateBestRouteEnum
+
+Archive member name at 4FDE: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC788683
+  SizeOfData   : 0000001E
+  DLL name     : rtm.dll
+  Symbol name  : _RtmCreateDestEnum@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : RtmCreateDestEnum
+
+Archive member name at 504C: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA77994D
+  SizeOfData   : 00000027
+  DLL name     : rtm.dll
+  Symbol name  : _RtmCreateEnumerationHandle@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : RtmCreateEnumerationHandle
+
+Archive member name at 50C4: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2472AB6
+  SizeOfData   : 00000021
+  DLL name     : rtm.dll
+  Symbol name  : _RtmCreateNextHopEnum@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : RtmCreateNextHopEnum
+
+Archive member name at 5136: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8493C11
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmCreateRouteEnum@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : RtmCreateRouteEnum
+
+Archive member name at 51A6: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAC1FB5F
+  SizeOfData   : 0000001E
+  DLL name     : rtm.dll
+  Symbol name  : _RtmCreateRouteList@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : RtmCreateRouteList
+
+Archive member name at 5214: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF857DC7
+  SizeOfData   : 00000023
+  DLL name     : rtm.dll
+  Symbol name  : _RtmCreateRouteListEnum@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : RtmCreateRouteListEnum
+
+Archive member name at 5288: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E22DD882
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmDeleteEnumHandle@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : RtmDeleteEnumHandle
+
+Archive member name at 52F8: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7523F3A
+  SizeOfData   : 0000001D
+  DLL name     : rtm.dll
+  Symbol name  : _RtmDeleteNextHop@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : RtmDeleteNextHop
+
+Archive member name at 5366: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF8CB65C
+  SizeOfData   : 0000001B
+  DLL name     : rtm.dll
+  Symbol name  : _RtmDeleteRoute@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : RtmDeleteRoute
+
+Archive member name at 53D2: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0A23A16
+  SizeOfData   : 0000001E
+  DLL name     : rtm.dll
+  Symbol name  : _RtmDeleteRouteList@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : RtmDeleteRouteList
+
+Archive member name at 5440: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0FF5A47
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmDeleteRouteTable@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : RtmDeleteRouteTable
+
+Archive member name at 54B0: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4E91E44
+  SizeOfData   : 00000021
+  DLL name     : rtm.dll
+  Symbol name  : _RtmDeleteRouteToDest@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : RtmDeleteRouteToDest
+
+Archive member name at 5522: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCF4B984
+  SizeOfData   : 00000029
+  DLL name     : rtm.dll
+  Symbol name  : _RtmDequeueRouteChangeMessage@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : RtmDequeueRouteChangeMessage
+
+Archive member name at 559C: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9806668
+  SizeOfData   : 00000022
+  DLL name     : rtm.dll
+  Symbol name  : _RtmDereferenceHandles@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : RtmDereferenceHandles
+
+Archive member name at 560E: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7C4C426
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmDeregisterClient@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : RtmDeregisterClient
+
+Archive member name at 567E: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4C8EAD6
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmDeregisterEntity@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : RtmDeregisterEntity
+
+Archive member name at 56EE: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFAD105A
+  SizeOfData   : 0000002F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmDeregisterFromChangeNotification@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : RtmDeregisterFromChangeNotification
+
+Archive member name at 576E: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D28431D2
+  SizeOfData   : 00000024
+  DLL name     : rtm.dll
+  Symbol name  : _RtmEnumerateGetNextRoute@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : RtmEnumerateGetNextRoute
+
+Archive member name at 57E2: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F47B1451
+  SizeOfData   : 0000001B
+  DLL name     : rtm.dll
+  Symbol name  : _RtmFindNextHop@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : RtmFindNextHop
+
+Archive member name at 584E: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8E9FD9C
+  SizeOfData   : 00000024
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetAddressFamilyInfo@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : RtmGetAddressFamilyInfo
+
+Archive member name at 58C2: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9217EB5
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetChangeStatus@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : RtmGetChangeStatus
+
+Archive member name at 5932: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EEC25DA1
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetChangedDests@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : RtmGetChangedDests
+
+Archive member name at 59A2: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4600E7C
+  SizeOfData   : 0000001B
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetDestInfo@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : RtmGetDestInfo
+
+Archive member name at 5A0E: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D60BF1BB
+  SizeOfData   : 0000001D
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetEntityInfo@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : RtmGetEntityInfo
+
+Archive member name at 5A7C: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F95536C6
+  SizeOfData   : 00000020
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetEntityMethods@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : RtmGetEntityMethods
+
+Archive member name at 5AEC: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E249658C
+  SizeOfData   : 00000021
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetEnumBestRoutes@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : RtmGetEnumBestRoutes
+
+Archive member name at 5B5E: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6E4E5D3
+  SizeOfData   : 0000001C
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetEnumDests@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : RtmGetEnumDests
+
+Archive member name at 5BCA: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED839114
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetEnumNextHops@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : RtmGetEnumNextHops
+
+Archive member name at 5C3A: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCF9CC0A
+  SizeOfData   : 0000001D
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetEnumRoutes@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : RtmGetEnumRoutes
+
+Archive member name at 5CA8: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7637B80
+  SizeOfData   : 00000028
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetExactMatchDestination@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : RtmGetExactMatchDestination
+
+Archive member name at 5D20: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D05D15F5
+  SizeOfData   : 00000022
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetExactMatchRoute@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : RtmGetExactMatchRoute
+
+Archive member name at 5D92: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8FBACB9
+  SizeOfData   : 0000001D
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetFirstRoute@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : RtmGetFirstRoute
+
+Archive member name at 5E00: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7DB4CA8
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetInstanceInfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : RtmGetInstanceInfo
+
+Archive member name at 5E70: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8953E6A
+  SizeOfData   : 0000001B
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetInstances@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : RtmGetInstances
+
+Archive member name at 5EDC: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE811D73
+  SizeOfData   : 0000002A
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetLessSpecificDestination@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : RtmGetLessSpecificDestination
+
+Archive member name at 5F56: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7600AEB
+  SizeOfData   : 00000021
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetListEnumRoutes@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 74
+  Name         : RtmGetListEnumRoutes
+
+Archive member name at 5FC8: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEA74491
+  SizeOfData   : 0000002A
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetMostSpecificDestination@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 75
+  Name         : RtmGetMostSpecificDestination
+
+Archive member name at 6042: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C09010A1
+  SizeOfData   : 0000001E
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetNetworkCount@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : RtmGetNetworkCount
+
+Archive member name at 60B0: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF54EC93
+  SizeOfData   : 0000001E
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetNextHopInfo@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : RtmGetNextHopInfo
+
+Archive member name at 611E: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1726288
+  SizeOfData   : 00000021
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetNextHopPointer@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : RtmGetNextHopPointer
+
+Archive member name at 6190: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB497170
+  SizeOfData   : 0000001C
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetNextRoute@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : RtmGetNextRoute
+
+Archive member name at 61FC: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE98AB6A
+  SizeOfData   : 0000002B
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetOpaqueInformationPointer@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 80
+  Name         : RtmGetOpaqueInformationPointer
+
+Archive member name at 6278: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C734F56E
+  SizeOfData   : 00000025
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetRegisteredEntities@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : RtmGetRegisteredEntities
+
+Archive member name at 62EE: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E183130F
+  SizeOfData   : 0000001A
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetRouteAge@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 82
+  Name         : RtmGetRouteAge
+
+Archive member name at 6358: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D258F0B4
+  SizeOfData   : 0000001C
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetRouteInfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : RtmGetRouteInfo
+
+Archive member name at 63C4: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC0B7955
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmGetRoutePointer@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 84
+  Name         : RtmGetRoutePointer
+
+Archive member name at 6434: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F19447ED
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmHoldDestination@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 85
+  Name         : RtmHoldDestination
+
+Archive member name at 64A4: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E09D0E18
+  SizeOfData   : 00000022
+  DLL name     : rtm.dll
+  Symbol name  : _RtmIgnoreChangedDests@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 86
+  Name         : RtmIgnoreChangedDests
+
+Archive member name at 6516: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBBB0444
+  SizeOfData   : 00000021
+  DLL name     : rtm.dll
+  Symbol name  : _RtmInsertInRouteList@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 87
+  Name         : RtmInsertInRouteList
+
+Archive member name at 6588: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5EC2BC1
+  SizeOfData   : 0000001C
+  DLL name     : rtm.dll
+  Symbol name  : _RtmInvokeMethod@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 88
+  Name         : RtmInvokeMethod
+
+Archive member name at 65F4: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB5CC9E0
+  SizeOfData   : 0000001B
+  DLL name     : rtm.dll
+  Symbol name  : _RtmIsBestRoute@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 89
+  Name         : RtmIsBestRoute
+
+Archive member name at 6660: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0543D17
+  SizeOfData   : 0000002D
+  DLL name     : rtm.dll
+  Symbol name  : _RtmIsMarkedForChangeNotification@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 90
+  Name         : RtmIsMarkedForChangeNotification
+
+Archive member name at 66DE: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D908B63D
+  SizeOfData   : 00000017
+  DLL name     : rtm.dll
+  Symbol name  : _RtmIsRoute@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 91
+  Name         : RtmIsRoute
+
+Archive member name at 6746: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD2395C1
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmLockDestination@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 92
+  Name         : RtmLockDestination
+
+Archive member name at 67B6: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F597B7E2
+  SizeOfData   : 0000001B
+  DLL name     : rtm.dll
+  Symbol name  : _RtmLockNextHop@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 93
+  Name         : RtmLockNextHop
+
+Archive member name at 6822: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCE436E4
+  SizeOfData   : 00000019
+  DLL name     : rtm.dll
+  Symbol name  : _RtmLockRoute@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 94
+  Name         : RtmLockRoute
+
+Archive member name at 688C: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE78B094
+  SizeOfData   : 00000022
+  DLL name     : rtm.dll
+  Symbol name  : _RtmLookupIPDestination@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 95
+  Name         : RtmLookupIPDestination
+
+Archive member name at 68FE: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C84FB741
+  SizeOfData   : 0000002D
+  DLL name     : rtm.dll
+  Symbol name  : _RtmMarkDestForChangeNotification@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 96
+  Name         : RtmMarkDestForChangeNotification
+
+Archive member name at 697C: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C92D2678
+  SizeOfData   : 00000027
+  DLL name     : rtm.dll
+  Symbol name  : _RtmReadAddressFamilyConfig@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 97
+  Name         : RtmReadAddressFamilyConfig
+
+Archive member name at 69F4: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF64FD66
+  SizeOfData   : 00000021
+  DLL name     : rtm.dll
+  Symbol name  : _RtmReadInstanceConfig@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 98
+  Name         : RtmReadInstanceConfig
+
+Archive member name at 6A66: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB127B1D
+  SizeOfData   : 00000020
+  DLL name     : rtm.dll
+  Symbol name  : _RtmReferenceHandles@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 99
+  Name         : RtmReferenceHandles
+
+Archive member name at 6AD6: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECA88241
+  SizeOfData   : 0000001E
+  DLL name     : rtm.dll
+  Symbol name  : _RtmRegisterClient@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 100
+  Name         : RtmRegisterClient
+
+Archive member name at 6B44: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDE67985
+  SizeOfData   : 0000001E
+  DLL name     : rtm.dll
+  Symbol name  : _RtmRegisterEntity@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 101
+  Name         : RtmRegisterEntity
+
+Archive member name at 6BB2: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C571ED0A
+  SizeOfData   : 0000002D
+  DLL name     : rtm.dll
+  Symbol name  : _RtmRegisterForChangeNotification@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 102
+  Name         : RtmRegisterForChangeNotification
+
+Archive member name at 6C30: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5CFDA3E
+  SizeOfData   : 00000023
+  DLL name     : rtm.dll
+  Symbol name  : _RtmReleaseChangedDests@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 103
+  Name         : RtmReleaseChangedDests
+
+Archive member name at 6CA4: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FADE6AF0
+  SizeOfData   : 0000001E
+  DLL name     : rtm.dll
+  Symbol name  : _RtmReleaseDestInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 104
+  Name         : RtmReleaseDestInfo
+
+Archive member name at 6D12: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8B6037F
+  SizeOfData   : 0000001C
+  DLL name     : rtm.dll
+  Symbol name  : _RtmReleaseDests@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 105
+  Name         : RtmReleaseDests
+
+Archive member name at 6D7E: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3C4696C
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmReleaseEntities@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 106
+  Name         : RtmReleaseEntities
+
+Archive member name at 6DEE: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C95DDE7F
+  SizeOfData   : 00000020
+  DLL name     : rtm.dll
+  Symbol name  : _RtmReleaseEntityInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 107
+  Name         : RtmReleaseEntityInfo
+
+Archive member name at 6E5E: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3F946DB
+  SizeOfData   : 00000021
+  DLL name     : rtm.dll
+  Symbol name  : _RtmReleaseNextHopInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 108
+  Name         : RtmReleaseNextHopInfo
+
+Archive member name at 6ED0: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C04824A2
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmReleaseNextHops@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 109
+  Name         : RtmReleaseNextHops
+
+Archive member name at 6F40: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C85735D7
+  SizeOfData   : 0000001F
+  DLL name     : rtm.dll
+  Symbol name  : _RtmReleaseRouteInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 110
+  Name         : RtmReleaseRouteInfo
+
+Archive member name at 6FB0: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E06C6CFB
+  SizeOfData   : 0000001D
+  DLL name     : rtm.dll
+  Symbol name  : _RtmReleaseRoutes@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 111
+  Name         : RtmReleaseRoutes
+
+Archive member name at 701E: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7A2AC7D
+  SizeOfData   : 00000024
+  DLL name     : rtm.dll
+  Symbol name  : _RtmUpdateAndUnlockRoute@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 112
+  Name         : RtmUpdateAndUnlockRoute
+
+Archive member name at 7092: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2EBBE4E
+  SizeOfData   : 00000028
+  DLL name     : rtm.dll
+  Symbol name  : _RtmWriteAddressFamilyConfig@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 113
+  Name         : RtmWriteAddressFamilyConfig
+
+Archive member name at 710A: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCDC1D90
+  SizeOfData   : 00000022
+  DLL name     : rtm.dll
+  Symbol name  : _RtmWriteInstanceConfig@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 114
+  Name         : RtmWriteInstanceConfig
+
+Archive member name at 717C: rtm.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1F1C758
+  SizeOfData   : 0000001A
+  DLL name     : rtm.dll
+  Symbol name  : _SearchInTable@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 115
+  Name         : SearchInTable
+
+     Exports
+
+       ordinal    name
+
+                  _BestMatchInTable@12
+                  _CheckTable@4
+                  _CreateTable@8
+                  _DeleteFromTable@20
+                  _DestroyTable@4
+                  _DumpTable@8
+                  _EnumOverTable@32
+                  _InsertIntoTable@20
+                  _MgmAddGroupMembershipEntry@32
+                  _MgmDeInitialize@0
+                  _MgmDeRegisterMProtocol@4
+                  _MgmDeleteGroupMembershipEntry@32
+                  _MgmGetFirstMfe@12
+                  _MgmGetFirstMfeStats@16
+                  _MgmGetMfe@12
+                  _MgmGetMfeStats@16
+                  _MgmGetNextMfe@16
+                  _MgmGetNextMfeStats@20
+                  _MgmGetProtocolOnInterface@16
+                  _MgmGroupEnumerationEnd@4
+                  _MgmGroupEnumerationGetNext@16
+                  _MgmGroupEnumerationStart@12
+                  _MgmInitialize@8
+                  _MgmRegisterMProtocol@16
+                  _MgmReleaseInterfaceOwnership@12
+                  _MgmTakeInterfaceOwnership@12
+                  _NextMatchInTable@12
+                  _RtmAddNextHop@16
+                  _RtmAddRoute@24
+                  _RtmAddRouteToDest@36
+                  _RtmBlockConvertRoutesToStatic@12
+                  _RtmBlockDeleteRoutes@12
+                  _RtmBlockMethods@16
+                  _RtmBlockSetRouteEnable@16
+                  _RtmCleanupInstances@0
+                  _RtmCloseEnumerationHandle@4
+                  _RtmConvertIpv6AddressAndLengthToNetAddress@28
+                  _RtmConvertNetAddressToIpv6AddressAndLength@16
+                  _RtmCreateBestRouteEnum@16
+                  _RtmCreateDestEnum@24
+                  _RtmCreateEnumerationHandle@12
+                  _RtmCreateNextHopEnum@16
+                  _RtmCreateRouteEnum@36
+                  _RtmCreateRouteList@8
+                  _RtmCreateRouteListEnum@12
+                  _RtmDeleteEnumHandle@8
+                  _RtmDeleteNextHop@12
+                  _RtmDeleteRoute@16
+                  _RtmDeleteRouteList@8
+                  _RtmDeleteRouteTable@4
+                  _RtmDeleteRouteToDest@12
+                  _RtmDequeueRouteChangeMessage@16
+                  _RtmDereferenceHandles@12
+                  _RtmDeregisterClient@4
+                  _RtmDeregisterEntity@4
+                  _RtmDeregisterFromChangeNotification@8
+                  _RtmEnumerateGetNextRoute@8
+                  _RtmFindNextHop@16
+                  _RtmGetAddressFamilyInfo@20
+                  _RtmGetChangeStatus@16
+                  _RtmGetChangedDests@16
+                  _RtmGetDestInfo@20
+                  _RtmGetEntityInfo@12
+                  _RtmGetEntityMethods@16
+                  _RtmGetEnumBestRoutes@16
+                  _RtmGetEnumDests@16
+                  _RtmGetEnumNextHops@16
+                  _RtmGetEnumRoutes@16
+                  _RtmGetExactMatchDestination@20
+                  _RtmGetExactMatchRoute@28
+                  _RtmGetFirstRoute@12
+                  _RtmGetInstanceInfo@16
+                  _RtmGetInstances@8
+                  _RtmGetLessSpecificDestination@20
+                  _RtmGetListEnumRoutes@16
+                  _RtmGetMostSpecificDestination@20
+                  _RtmGetNetworkCount@4
+                  _RtmGetNextHopInfo@12
+                  _RtmGetNextHopPointer@12
+                  _RtmGetNextRoute@12
+                  _RtmGetOpaqueInformationPointer@12
+                  _RtmGetRegisteredEntities@16
+                  _RtmGetRouteAge@4
+                  _RtmGetRouteInfo@16
+                  _RtmGetRoutePointer@12
+                  _RtmHoldDestination@16
+                  _RtmIgnoreChangedDests@16
+                  _RtmInsertInRouteList@16
+                  _RtmInvokeMethod@20
+                  _RtmIsBestRoute@12
+                  _RtmIsMarkedForChangeNotification@16
+                  _RtmIsRoute@12
+                  _RtmLockDestination@16
+                  _RtmLockNextHop@20
+                  _RtmLockRoute@20
+                  _RtmLookupIPDestination@8
+                  _RtmMarkDestForChangeNotification@16
+                  _RtmReadAddressFamilyConfig@12
+                  _RtmReadInstanceConfig@8
+                  _RtmReferenceHandles@12
+                  _RtmRegisterClient@16
+                  _RtmRegisterEntity@24
+                  _RtmRegisterForChangeNotification@20
+                  _RtmReleaseChangedDests@16
+                  _RtmReleaseDestInfo@8
+                  _RtmReleaseDests@12
+                  _RtmReleaseEntities@12
+                  _RtmReleaseEntityInfo@8
+                  _RtmReleaseNextHopInfo@8
+                  _RtmReleaseNextHops@12
+                  _RtmReleaseRouteInfo@8
+                  _RtmReleaseRoutes@12
+                  _RtmUpdateAndUnlockRoute@28
+                  _RtmWriteAddressFamilyConfig@12
+                  _RtmWriteInstanceConfig@8
+                  _SearchInTable@20
+
+  Summary
+
+          B7 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           8 .idata$6

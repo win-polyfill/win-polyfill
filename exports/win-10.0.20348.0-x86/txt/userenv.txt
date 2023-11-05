@@ -1,0 +1,1798 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\userenv.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    149C size
+correct header end
+
+    149 public symbols
+
+     29C2 __IMPORT_DESCRIPTOR_USERENV
+     2BEC __NULL_IMPORT_DESCRIPTOR
+     2D22 USERENV_NULL_THUNK_DATA
+     481C _LoadUserProfileA@8
+     481C __imp__LoadUserProfileA@8
+     488C _LoadUserProfileW@8
+     488C __imp__LoadUserProfileW@8
+     4E86 _UnloadUserProfile@8
+     4E86 __imp__UnloadUserProfile@8
+     4430 _GetProfilesDirectoryA@8
+     4430 __imp__GetProfilesDirectoryA@8
+     44A6 _GetProfilesDirectoryW@8
+     44A6 __imp__GetProfilesDirectoryW@8
+     407A _GetDefaultUserProfileDirectoryA@8
+     407A __imp__GetDefaultUserProfileDirectoryA@8
+     40FA _GetDefaultUserProfileDirectoryW@8
+     40FA __imp__GetDefaultUserProfileDirectoryW@8
+     3DA0 _GetAllUsersProfileDirectoryA@8
+     3DA0 __imp__GetAllUsersProfileDirectoryA@8
+     3E1C _GetAllUsersProfileDirectoryW@8
+     3E1C __imp__GetAllUsersProfileDirectoryW@8
+     451C _GetUserProfileDirectoryA@12
+     451C __imp__GetUserProfileDirectoryA@12
+     461A _GetUserProfileDirectoryW@12
+     461A __imp__GetUserProfileDirectoryW@12
+     334C _CreateEnvironmentBlock@12
+     334C __imp__CreateEnvironmentBlock@12
+     39E8 _DestroyEnvironmentBlock@4
+     39E8 __imp__DestroyEnvironmentBlock@4
+     3ADA _ExpandEnvironmentStringsForUserA@16
+     3ADA __imp__ExpandEnvironmentStringsForUserA@16
+     3B5C _ExpandEnvironmentStringsForUserW@16
+     3B5C __imp__ExpandEnvironmentStringsForUserW@16
+     43C2 _GetProfileType@4
+     43C2 __imp__GetProfileType@4
+     384A _DeleteProfileW@12
+     384A __imp__DeleteProfileW@12
+     36EA _DeleteProfileA@12
+     36EA __imp__DeleteProfileA@12
+     34A4 _CreateProfile@16
+     34A4 __imp__CreateProfile@16
+     4AE0 _RefreshPolicy@4
+     4AE0 __imp__RefreshPolicy@4
+     3A60 _EnterCriticalPolicySection@4
+     3A60 __imp__EnterCriticalPolicySection@4
+     47A2 _LeaveCriticalPolicySection@4
+     47A2 __imp__LeaveCriticalPolicySection@4
+     417A _GetGPOListA@24
+     417A __imp__GetGPOListA@24
+     41E6 _GetGPOListW@24
+     41E6 __imp__GetGPOListW@24
+     3C50 _FreeGPOListA@4
+     3C50 __imp__FreeGPOListA@4
+     3CBC _FreeGPOListW@4
+     3CBC __imp__FreeGPOListW@4
+     4BBE _RegisterGPNotification@8
+     4BBE __imp__RegisterGPNotification@8
+     4EF8 _UnregisterGPNotification@4
+     4EF8 __imp__UnregisterGPNotification@4
+     49E6 _ProcessGroupPolicyCompleted@12
+     49E6 __imp__ProcessGroupPolicyCompleted@12
+     3F92 _GetAppliedGPOListA@20
+     3F92 __imp__GetAppliedGPOListA@20
+     4006 _GetAppliedGPOListW@20
+     4006 __imp__GetAppliedGPOListW@20
+     4B4E _RefreshPolicyEx@8
+     4B4E __imp__RefreshPolicyEx@8
+     2E74 ?RsopLoggingEnabled@@YGHXZ
+     2E74 __imp_?RsopLoggingEnabled@@YGHXZ
+     4A62 _ProcessGroupPolicyCompletedEx@16
+     4A62 __imp__ProcessGroupPolicyCompletedEx@16
+     4CA2 _RsopAccessCheckByType@44
+     4CA2 __imp__RsopAccessCheckByType@44
+     4D18 _RsopFileAccessCheck@20
+     4D18 __imp__RsopFileAccessCheck@20
+     4E0A _RsopSetPolicySettingStatus@20
+     4E0A __imp__RsopSetPolicySettingStatus@20
+     4D8C _RsopResetPolicySettingStatus@12
+     4D8C __imp__RsopResetPolicySettingStatus@12
+     4FEA _WaitForMachinePolicyForegroundProcessing@0
+     4FEA __imp__WaitForMachinePolicyForegroundProcessing@0
+     5072 _WaitForUserPolicyForegroundProcessing@0
+     5072 __imp__WaitForUserPolicyForegroundProcessing@0
+     4344 _GetPreviousFgPolicyRefreshInfo@8
+     4344 __imp__GetPreviousFgPolicyRefreshInfo@8
+     42CA _GetNextFgPolicyRefreshInfo@8
+     42CA __imp__GetNextFgPolicyRefreshInfo@8
+     3BDE _ForceSyncFgPolicy@4
+     3BDE __imp__ForceSyncFgPolicy@4
+     3D28 _GenerateGPNotification@12
+     3D28 __imp__GenerateGPNotification@12
+     2F68 _AreThereVisibleShutdownScripts@4
+     2F68 __imp__AreThereVisibleShutdownScripts@4
+     2EEC _AreThereVisibleLogoffScripts@4
+     2EEC __imp__AreThereVisibleLogoffScripts@4
+     4694 _HasPolicyForegroundProcessingCompleted@20
+     4694 __imp__HasPolicyForegroundProcessingCompleted@20
+     3148 _CreateAppContainerProfile@24
+     3148 __imp__CreateAppContainerProfile@24
+     3512 _DeleteAppContainerProfile@4
+     3512 __imp__DeleteAppContainerProfile@4
+     3F12 _GetAppContainerRegistryLocation@8
+     3F12 __imp__GetAppContainerRegistryLocation@8
+     3E98 _GetAppContainerFolderPath@8
+     3E98 __imp__GetAppContainerFolderPath@8
+     38BA _DeriveAppContainerSidFromAppContainerName@8
+     38BA __imp__DeriveAppContainerSidFromAppContainerName@8
+     3944 _DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName@12
+     3944 __imp__DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName@12
+     360E _DeleteGroup@8
+     360E __imp__DeleteGroup@8
+     367A _DeleteLinkFile@16
+     367A __imp__DeleteLinkFile@16
+     497A _PingComputer@8
+     497A __imp__PingComputer@8
+     33C4 _CreateGroupEx@16
+     33C4 __imp__CreateGroupEx@16
+     3432 _CreateLinkFileEx@48
+     3432 __imp__CreateLinkFileEx@48
+     305E _CheckXForestLogon@4
+     305E __imp__CheckXForestLogon@4
+     37D2 _DeleteProfileDirectory@12
+     37D2 __imp__DeleteProfileDirectory@12
+     2FE6 _CheckDirectoryOwnership@12
+     2FE6 __imp__CheckDirectoryOwnership@12
+     3244 _CreateDirectoryJunctionsForSystem@0
+     3244 __imp__CreateDirectoryJunctionsForSystem@0
+     32C6 _CreateDirectoryJunctionsForUserProfile@4
+     32C6 __imp__CreateDirectoryJunctionsForUserProfile@4
+     4C34 _RemapProfile@12
+     4C34 __imp__RemapProfile@12
+     30D0 _CopyProfileDirectoryEx2@28
+     30D0 __imp__CopyProfileDirectoryEx2@28
+     4F70 _UpdateAppContainerProfile@28
+     4F70 __imp__UpdateAppContainerProfile@28
+     48FC _LookupAppContainerDisplayName@8
+     48FC __imp__LookupAppContainerDisplayName@8
+     31C2 _CreateAppContainerProfileInternal@28
+     31C2 __imp__CreateAppContainerProfileInternal@28
+     358C _DeleteAppContainerProfileInternal@8
+     358C __imp__DeleteAppContainerProfileInternal@8
+     4252 _GetLongProfilePathName@12
+     4252 __imp__GetLongProfilePathName@12
+     4596 _GetUserProfileDirectoryForUserSidW@12
+     4596 __imp__GetUserProfileDirectoryForUserSidW@12
+     471C _IsAppContainerProfilePresentInternal@12
+     471C __imp__IsAppContainerProfilePresentInternal@12
+     375A _DeleteProfileDirectory2@16
+     375A __imp__DeleteProfileDirectory2@16
+
+Archive member name at 29C2: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1ED size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        D745E0B1 time date stamp
+             10B file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CD file pointer to raw data (000000CD to 000000E0)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FF file pointer to raw data (000000FF to 0000010A)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 2BEC: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        C2EC3F7B time date stamp
+              B9 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      64 file pointer to raw data (00000064 to 000000A4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A5 file pointer to raw data (000000A5 to 000000B8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 2D22: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     116 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        C5E8FC66 time date stamp
+              D5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D1 file pointer to raw data (000000D1 to 000000D4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 2E74: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1510748
+  SizeOfData   : 00000027
+  DLL name     : USERENV.dll
+  Symbol name  : ?RsopLoggingEnabled@@YGHXZ (int __stdcall RsopLoggingEnabled(void))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : RsopLoggingEnabled
+
+Archive member name at 2EEC: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6646D03
+  SizeOfData   : 0000002C
+  DLL name     : USERENV.dll
+  Symbol name  : _AreThereVisibleLogoffScripts@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : AreThereVisibleLogoffScripts
+
+Archive member name at 2F68: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C06B7F31
+  SizeOfData   : 0000002E
+  DLL name     : USERENV.dll
+  Symbol name  : _AreThereVisibleShutdownScripts@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : AreThereVisibleShutdownScripts
+
+Archive member name at 2FE6: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C420B230
+  SizeOfData   : 00000028
+  DLL name     : USERENV.dll
+  Symbol name  : _CheckDirectoryOwnership@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 203
+
+Archive member name at 305E: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F49A3EE5
+  SizeOfData   : 00000021
+  DLL name     : USERENV.dll
+  Symbol name  : _CheckXForestLogon@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 175
+
+Archive member name at 30D0: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC0ECF87
+  SizeOfData   : 00000028
+  DLL name     : USERENV.dll
+  Symbol name  : _CopyProfileDirectoryEx2@28
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 209
+
+Archive member name at 3148: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D65718CC
+  SizeOfData   : 0000002A
+  DLL name     : USERENV.dll
+  Symbol name  : _CreateAppContainerProfile@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : CreateAppContainerProfile
+
+Archive member name at 31C2: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE692A87
+  SizeOfData   : 00000032
+  DLL name     : USERENV.dll
+  Symbol name  : _CreateAppContainerProfileInternal@28
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 212
+
+Archive member name at 3244: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6D71236
+  SizeOfData   : 00000031
+  DLL name     : USERENV.dll
+  Symbol name  : _CreateDirectoryJunctionsForSystem@0
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 206
+
+Archive member name at 32C6: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC910DB9
+  SizeOfData   : 00000036
+  DLL name     : USERENV.dll
+  Symbol name  : _CreateDirectoryJunctionsForUserProfile@4
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 207
+
+Archive member name at 334C: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1B9A638
+  SizeOfData   : 00000027
+  DLL name     : USERENV.dll
+  Symbol name  : _CreateEnvironmentBlock@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : CreateEnvironmentBlock
+
+Archive member name at 33C4: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF06433B
+  SizeOfData   : 0000001E
+  DLL name     : USERENV.dll
+  Symbol name  : _CreateGroupEx@16
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 137
+
+Archive member name at 3432: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB20892B
+  SizeOfData   : 00000021
+  DLL name     : USERENV.dll
+  Symbol name  : _CreateLinkFileEx@48
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 139
+
+Archive member name at 34A4: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE64E942
+  SizeOfData   : 0000001E
+  DLL name     : USERENV.dll
+  Symbol name  : _CreateProfile@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : CreateProfile
+
+Archive member name at 3512: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF6DD495
+  SizeOfData   : 00000029
+  DLL name     : USERENV.dll
+  Symbol name  : _DeleteAppContainerProfile@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : DeleteAppContainerProfile
+
+Archive member name at 358C: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD5A8439
+  SizeOfData   : 00000031
+  DLL name     : USERENV.dll
+  Symbol name  : _DeleteAppContainerProfileInternal@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 213
+
+Archive member name at 360E: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EEBCA0EA
+  SizeOfData   : 0000001B
+  DLL name     : USERENV.dll
+  Symbol name  : _DeleteGroup@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 104
+
+Archive member name at 367A: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC4E509D
+  SizeOfData   : 0000001F
+  DLL name     : USERENV.dll
+  Symbol name  : _DeleteLinkFile@16
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 122
+
+Archive member name at 36EA: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E80EA36F
+  SizeOfData   : 0000001F
+  DLL name     : USERENV.dll
+  Symbol name  : _DeleteProfileA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : DeleteProfileA
+
+Archive member name at 375A: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE5C1E48
+  SizeOfData   : 00000028
+  DLL name     : USERENV.dll
+  Symbol name  : _DeleteProfileDirectory2@16
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 219
+
+Archive member name at 37D2: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3A8BEFF
+  SizeOfData   : 00000027
+  DLL name     : USERENV.dll
+  Symbol name  : _DeleteProfileDirectory@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 202
+
+Archive member name at 384A: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9D7F943
+  SizeOfData   : 0000001F
+  DLL name     : USERENV.dll
+  Symbol name  : _DeleteProfileW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : DeleteProfileW
+
+Archive member name at 38BA: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D849DF44
+  SizeOfData   : 00000039
+  DLL name     : USERENV.dll
+  Symbol name  : _DeriveAppContainerSidFromAppContainerName@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : DeriveAppContainerSidFromAppContainerName
+
+Archive member name at 3944: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      68 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3168954
+  SizeOfData   : 00000054
+  DLL name     : USERENV.dll
+  Symbol name  : _DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName
+
+Archive member name at 39E8: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C59C47F1
+  SizeOfData   : 00000027
+  DLL name     : USERENV.dll
+  Symbol name  : _DestroyEnvironmentBlock@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : DestroyEnvironmentBlock
+
+Archive member name at 3A60: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4F3B737
+  SizeOfData   : 0000002A
+  DLL name     : USERENV.dll
+  Symbol name  : _EnterCriticalPolicySection@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : EnterCriticalPolicySection
+
+Archive member name at 3ADA: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4B4332C
+  SizeOfData   : 00000031
+  DLL name     : USERENV.dll
+  Symbol name  : _ExpandEnvironmentStringsForUserA@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : ExpandEnvironmentStringsForUserA
+
+Archive member name at 3B5C: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F279C22F
+  SizeOfData   : 00000031
+  DLL name     : USERENV.dll
+  Symbol name  : _ExpandEnvironmentStringsForUserW@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : ExpandEnvironmentStringsForUserW
+
+Archive member name at 3BDE: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0627E31
+  SizeOfData   : 00000021
+  DLL name     : USERENV.dll
+  Symbol name  : _ForceSyncFgPolicy@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : ForceSyncFgPolicy
+
+Archive member name at 3C50: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CEFD6C47
+  SizeOfData   : 0000001C
+  DLL name     : USERENV.dll
+  Symbol name  : _FreeGPOListA@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : FreeGPOListA
+
+Archive member name at 3CBC: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0AE32DD
+  SizeOfData   : 0000001C
+  DLL name     : USERENV.dll
+  Symbol name  : _FreeGPOListW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : FreeGPOListW
+
+Archive member name at 3D28: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2B8E4BC
+  SizeOfData   : 00000027
+  DLL name     : USERENV.dll
+  Symbol name  : _GenerateGPNotification@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : GenerateGPNotification
+
+Archive member name at 3DA0: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4F492CC
+  SizeOfData   : 0000002C
+  DLL name     : USERENV.dll
+  Symbol name  : _GetAllUsersProfileDirectoryA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : GetAllUsersProfileDirectoryA
+
+Archive member name at 3E1C: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE8696EC
+  SizeOfData   : 0000002C
+  DLL name     : USERENV.dll
+  Symbol name  : _GetAllUsersProfileDirectoryW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : GetAllUsersProfileDirectoryW
+
+Archive member name at 3E98: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6E25D60
+  SizeOfData   : 00000029
+  DLL name     : USERENV.dll
+  Symbol name  : _GetAppContainerFolderPath@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : GetAppContainerFolderPath
+
+Archive member name at 3F12: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE1F3699
+  SizeOfData   : 0000002F
+  DLL name     : USERENV.dll
+  Symbol name  : _GetAppContainerRegistryLocation@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : GetAppContainerRegistryLocation
+
+Archive member name at 3F92: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE5C4419
+  SizeOfData   : 00000023
+  DLL name     : USERENV.dll
+  Symbol name  : _GetAppliedGPOListA@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : GetAppliedGPOListA
+
+Archive member name at 4006: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5AAF921
+  SizeOfData   : 00000023
+  DLL name     : USERENV.dll
+  Symbol name  : _GetAppliedGPOListW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : GetAppliedGPOListW
+
+Archive member name at 407A: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F672012D
+  SizeOfData   : 0000002F
+  DLL name     : USERENV.dll
+  Symbol name  : _GetDefaultUserProfileDirectoryA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : GetDefaultUserProfileDirectoryA
+
+Archive member name at 40FA: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9FF8950
+  SizeOfData   : 0000002F
+  DLL name     : USERENV.dll
+  Symbol name  : _GetDefaultUserProfileDirectoryW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : GetDefaultUserProfileDirectoryW
+
+Archive member name at 417A: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D457DE8E
+  SizeOfData   : 0000001C
+  DLL name     : USERENV.dll
+  Symbol name  : _GetGPOListA@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : GetGPOListA
+
+Archive member name at 41E6: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C77FE819
+  SizeOfData   : 0000001C
+  DLL name     : USERENV.dll
+  Symbol name  : _GetGPOListW@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : GetGPOListW
+
+Archive member name at 4252: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBBF4B86
+  SizeOfData   : 00000027
+  DLL name     : USERENV.dll
+  Symbol name  : _GetLongProfilePathName@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 214
+
+Archive member name at 42CA: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C56C237F
+  SizeOfData   : 0000002A
+  DLL name     : USERENV.dll
+  Symbol name  : _GetNextFgPolicyRefreshInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : GetNextFgPolicyRefreshInfo
+
+Archive member name at 4344: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1599ED2
+  SizeOfData   : 0000002E
+  DLL name     : USERENV.dll
+  Symbol name  : _GetPreviousFgPolicyRefreshInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : GetPreviousFgPolicyRefreshInfo
+
+Archive member name at 43C2: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6D26DF3
+  SizeOfData   : 0000001E
+  DLL name     : USERENV.dll
+  Symbol name  : _GetProfileType@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : GetProfileType
+
+Archive member name at 4430: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2411CCB
+  SizeOfData   : 00000025
+  DLL name     : USERENV.dll
+  Symbol name  : _GetProfilesDirectoryA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : GetProfilesDirectoryA
+
+Archive member name at 44A6: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBF72579
+  SizeOfData   : 00000025
+  DLL name     : USERENV.dll
+  Symbol name  : _GetProfilesDirectoryW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : GetProfilesDirectoryW
+
+Archive member name at 451C: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5AF4115
+  SizeOfData   : 00000029
+  DLL name     : USERENV.dll
+  Symbol name  : _GetUserProfileDirectoryA@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : GetUserProfileDirectoryA
+
+Archive member name at 4596: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2CCEE15
+  SizeOfData   : 00000033
+  DLL name     : USERENV.dll
+  Symbol name  : _GetUserProfileDirectoryForUserSidW@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 217
+
+Archive member name at 461A: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9A60D01
+  SizeOfData   : 00000029
+  DLL name     : USERENV.dll
+  Symbol name  : _GetUserProfileDirectoryW@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : GetUserProfileDirectoryW
+
+Archive member name at 4694: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2D44767
+  SizeOfData   : 00000037
+  DLL name     : USERENV.dll
+  Symbol name  : _HasPolicyForegroundProcessingCompleted@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : HasPolicyForegroundProcessingCompleted
+
+Archive member name at 471C: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E223DA01
+  SizeOfData   : 00000035
+  DLL name     : USERENV.dll
+  Symbol name  : _IsAppContainerProfilePresentInternal@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 218
+
+Archive member name at 47A2: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F743F8F4
+  SizeOfData   : 0000002A
+  DLL name     : USERENV.dll
+  Symbol name  : _LeaveCriticalPolicySection@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : LeaveCriticalPolicySection
+
+Archive member name at 481C: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CEAC595F
+  SizeOfData   : 00000020
+  DLL name     : USERENV.dll
+  Symbol name  : _LoadUserProfileA@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : LoadUserProfileA
+
+Archive member name at 488C: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECA873CB
+  SizeOfData   : 00000020
+  DLL name     : USERENV.dll
+  Symbol name  : _LoadUserProfileW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : LoadUserProfileW
+
+Archive member name at 48FC: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE29F0B8
+  SizeOfData   : 0000002D
+  DLL name     : USERENV.dll
+  Symbol name  : _LookupAppContainerDisplayName@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 211
+
+Archive member name at 497A: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2A4ED08
+  SizeOfData   : 0000001C
+  DLL name     : USERENV.dll
+  Symbol name  : _PingComputer@8
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 135
+
+Archive member name at 49E6: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F36E932C
+  SizeOfData   : 0000002C
+  DLL name     : USERENV.dll
+  Symbol name  : _ProcessGroupPolicyCompleted@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : ProcessGroupPolicyCompleted
+
+Archive member name at 4A62: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0538A41
+  SizeOfData   : 0000002E
+  DLL name     : USERENV.dll
+  Symbol name  : _ProcessGroupPolicyCompletedEx@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : ProcessGroupPolicyCompletedEx
+
+Archive member name at 4AE0: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E01311C6
+  SizeOfData   : 0000001D
+  DLL name     : USERENV.dll
+  Symbol name  : _RefreshPolicy@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : RefreshPolicy
+
+Archive member name at 4B4E: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE3AC592
+  SizeOfData   : 0000001F
+  DLL name     : USERENV.dll
+  Symbol name  : _RefreshPolicyEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : RefreshPolicyEx
+
+Archive member name at 4BBE: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C888C614
+  SizeOfData   : 00000026
+  DLL name     : USERENV.dll
+  Symbol name  : _RegisterGPNotification@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : RegisterGPNotification
+
+Archive member name at 4C34: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2E84987
+  SizeOfData   : 0000001D
+  DLL name     : USERENV.dll
+  Symbol name  : _RemapProfile@12
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 208
+
+Archive member name at 4CA2: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFA3A7A5
+  SizeOfData   : 00000026
+  DLL name     : USERENV.dll
+  Symbol name  : _RsopAccessCheckByType@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : RsopAccessCheckByType
+
+Archive member name at 4D18: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEE1EBFE
+  SizeOfData   : 00000024
+  DLL name     : USERENV.dll
+  Symbol name  : _RsopFileAccessCheck@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : RsopFileAccessCheck
+
+Archive member name at 4D8C: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFFB7721
+  SizeOfData   : 0000002D
+  DLL name     : USERENV.dll
+  Symbol name  : _RsopResetPolicySettingStatus@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : RsopResetPolicySettingStatus
+
+Archive member name at 4E0A: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9EAC339
+  SizeOfData   : 0000002B
+  DLL name     : USERENV.dll
+  Symbol name  : _RsopSetPolicySettingStatus@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : RsopSetPolicySettingStatus
+
+Archive member name at 4E86: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6FCE115
+  SizeOfData   : 00000021
+  DLL name     : USERENV.dll
+  Symbol name  : _UnloadUserProfile@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : UnloadUserProfile
+
+Archive member name at 4EF8: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC4EE2D9
+  SizeOfData   : 00000028
+  DLL name     : USERENV.dll
+  Symbol name  : _UnregisterGPNotification@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : UnregisterGPNotification
+
+Archive member name at 4F70: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB300E8E
+  SizeOfData   : 0000002A
+  DLL name     : USERENV.dll
+  Symbol name  : _UpdateAppContainerProfile@28
+  Type         : code
+  Name type    : ordinal
+  Ordinal      : 210
+
+Archive member name at 4FEA: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9AE317F
+  SizeOfData   : 00000038
+  DLL name     : USERENV.dll
+  Symbol name  : _WaitForMachinePolicyForegroundProcessing@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : WaitForMachinePolicyForegroundProcessing
+
+Archive member name at 5072: USERENV.dll/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F10D550C
+  SizeOfData   : 00000035
+  DLL name     : USERENV.dll
+  Symbol name  : _WaitForUserPolicyForegroundProcessing@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : WaitForUserPolicyForegroundProcessing
+
+     Exports
+
+       ordinal    name
+
+                  ?RsopLoggingEnabled@@YGHXZ (int __stdcall RsopLoggingEnabled(void))
+                  _AreThereVisibleLogoffScripts@4
+                  _AreThereVisibleShutdownScripts@4
+           203    _CheckDirectoryOwnership@12
+           175    _CheckXForestLogon@4
+           209    _CopyProfileDirectoryEx2@28
+                  _CreateAppContainerProfile@24
+           212    _CreateAppContainerProfileInternal@28
+           206    _CreateDirectoryJunctionsForSystem@0
+           207    _CreateDirectoryJunctionsForUserProfile@4
+                  _CreateEnvironmentBlock@12
+           137    _CreateGroupEx@16
+           139    _CreateLinkFileEx@48
+                  _CreateProfile@16
+                  _DeleteAppContainerProfile@4
+           213    _DeleteAppContainerProfileInternal@8
+           104    _DeleteGroup@8
+           122    _DeleteLinkFile@16
+                  _DeleteProfileA@12
+           219    _DeleteProfileDirectory2@16
+           202    _DeleteProfileDirectory@12
+                  _DeleteProfileW@12
+                  _DeriveAppContainerSidFromAppContainerName@8
+                  _DeriveRestrictedAppContainerSidFromAppContainerSidAndRestrictedName@12
+                  _DestroyEnvironmentBlock@4
+                  _EnterCriticalPolicySection@4
+                  _ExpandEnvironmentStringsForUserA@16
+                  _ExpandEnvironmentStringsForUserW@16
+                  _ForceSyncFgPolicy@4
+                  _FreeGPOListA@4
+                  _FreeGPOListW@4
+                  _GenerateGPNotification@12
+                  _GetAllUsersProfileDirectoryA@8
+                  _GetAllUsersProfileDirectoryW@8
+                  _GetAppContainerFolderPath@8
+                  _GetAppContainerRegistryLocation@8
+                  _GetAppliedGPOListA@20
+                  _GetAppliedGPOListW@20
+                  _GetDefaultUserProfileDirectoryA@8
+                  _GetDefaultUserProfileDirectoryW@8
+                  _GetGPOListA@24
+                  _GetGPOListW@24
+           214    _GetLongProfilePathName@12
+                  _GetNextFgPolicyRefreshInfo@8
+                  _GetPreviousFgPolicyRefreshInfo@8
+                  _GetProfileType@4
+                  _GetProfilesDirectoryA@8
+                  _GetProfilesDirectoryW@8
+                  _GetUserProfileDirectoryA@12
+           217    _GetUserProfileDirectoryForUserSidW@12
+                  _GetUserProfileDirectoryW@12
+                  _HasPolicyForegroundProcessingCompleted@20
+           218    _IsAppContainerProfilePresentInternal@12
+                  _LeaveCriticalPolicySection@4
+                  _LoadUserProfileA@8
+                  _LoadUserProfileW@8
+           211    _LookupAppContainerDisplayName@8
+           135    _PingComputer@8
+                  _ProcessGroupPolicyCompleted@12
+                  _ProcessGroupPolicyCompletedEx@16
+                  _RefreshPolicy@4
+                  _RefreshPolicyEx@8
+                  _RegisterGPNotification@8
+           208    _RemapProfile@12
+                  _RsopAccessCheckByType@44
+                  _RsopFileAccessCheck@20
+                  _RsopResetPolicySettingStatus@12
+                  _RsopSetPolicySettingStatus@20
+                  _UnloadUserProfile@8
+                  _UnregisterGPNotification@4
+           210    _UpdateAppContainerProfile@28
+                  _WaitForMachinePolicyForegroundProcessing@0
+                  _WaitForUserPolicyForegroundProcessing@0
+
+  Summary
+
+          C3 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

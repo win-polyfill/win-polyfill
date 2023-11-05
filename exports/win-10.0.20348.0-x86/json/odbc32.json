@@ -1,0 +1,4241 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_CloseODBCPerfData@0"
+    },
+    {
+      "name": "_CollectODBCPerfData@16"
+    },
+    {
+      "name": "_CursorLibLockDbc@8"
+    },
+    {
+      "name": "_CursorLibLockDesc@8"
+    },
+    {
+      "name": "_CursorLibLockStmt@8"
+    },
+    {
+      "name": "_CursorLibTransact@12"
+    },
+    {
+      "name": "_DllBidEntryPoint@36"
+    },
+    {
+      "name": "_GetODBCSharedData@0"
+    },
+    {
+      "name": "_LockHandle@12"
+    },
+    {
+      "name": "_ODBCGetTryWaitValue@0",
+      "ordinal": 84
+    },
+    {
+      "name": "_ODBCInternalConnectW@36"
+    },
+    {
+      "name": "_ODBCQualifyFileDSNW@4",
+      "ordinal": 301
+    },
+    {
+      "name": "_ODBCSetTryWaitValue@4",
+      "ordinal": 86
+    },
+    {
+      "name": "_OpenODBCPerfData@4"
+    },
+    {
+      "name": "_PostComponentError@4"
+    },
+    {
+      "name": "_PostODBCComponentError@4"
+    },
+    {
+      "name": "_PostODBCError@16"
+    },
+    {
+      "name": "_SQLAllocConnect@8",
+      "ordinal": 1
+    },
+    {
+      "name": "_SQLAllocEnv@4",
+      "ordinal": 2
+    },
+    {
+      "name": "_SQLAllocHandle@12",
+      "ordinal": 24
+    },
+    {
+      "name": "_SQLAllocHandleStd@12",
+      "ordinal": 77
+    },
+    {
+      "name": "_SQLAllocStmt@8",
+      "ordinal": 3
+    },
+    {
+      "name": "_SQLBindCol@24",
+      "ordinal": 4
+    },
+    {
+      "name": "_SQLBindParam@32",
+      "ordinal": 25
+    },
+    {
+      "name": "_SQLBindParameter@40",
+      "ordinal": 72
+    },
+    {
+      "name": "_SQLBrowseConnect@24",
+      "ordinal": 55
+    },
+    {
+      "name": "_SQLBrowseConnectA@24",
+      "ordinal": 255
+    },
+    {
+      "name": "_SQLBrowseConnectW@24",
+      "ordinal": 155
+    },
+    {
+      "name": "_SQLBulkOperations@8",
+      "ordinal": 78
+    },
+    {
+      "name": "_SQLCancel@4",
+      "ordinal": 5
+    },
+    {
+      "name": "_SQLCancelHandle@8"
+    },
+    {
+      "name": "_SQLCloseCursor@4",
+      "ordinal": 26
+    },
+    {
+      "name": "_SQLColAttribute@28",
+      "ordinal": 27
+    },
+    {
+      "name": "_SQLColAttributeA@28",
+      "ordinal": 227
+    },
+    {
+      "name": "_SQLColAttributeW@28",
+      "ordinal": 127
+    },
+    {
+      "name": "_SQLColAttributes@28",
+      "ordinal": 6
+    },
+    {
+      "name": "_SQLColAttributesA@28",
+      "ordinal": 206
+    },
+    {
+      "name": "_SQLColAttributesW@28",
+      "ordinal": 106
+    },
+    {
+      "name": "_SQLColumnPrivileges@36",
+      "ordinal": 56
+    },
+    {
+      "name": "_SQLColumnPrivilegesA@36",
+      "ordinal": 256
+    },
+    {
+      "name": "_SQLColumnPrivilegesW@36",
+      "ordinal": 156
+    },
+    {
+      "name": "_SQLColumns@36",
+      "ordinal": 40
+    },
+    {
+      "name": "_SQLColumnsA@36",
+      "ordinal": 240
+    },
+    {
+      "name": "_SQLColumnsW@36",
+      "ordinal": 140
+    },
+    {
+      "name": "_SQLCompleteAsync@12"
+    },
+    {
+      "name": "_SQLConnect@28",
+      "ordinal": 7
+    },
+    {
+      "name": "_SQLConnectA@28",
+      "ordinal": 207
+    },
+    {
+      "name": "_SQLConnectW@28",
+      "ordinal": 107
+    },
+    {
+      "name": "_SQLCopyDesc@8",
+      "ordinal": 28
+    },
+    {
+      "name": "_SQLDataSources@32",
+      "ordinal": 57
+    },
+    {
+      "name": "_SQLDataSourcesA@32",
+      "ordinal": 257
+    },
+    {
+      "name": "_SQLDataSourcesW@32",
+      "ordinal": 157
+    },
+    {
+      "name": "_SQLDescribeCol@36",
+      "ordinal": 8
+    },
+    {
+      "name": "_SQLDescribeColA@36",
+      "ordinal": 208
+    },
+    {
+      "name": "_SQLDescribeColW@36",
+      "ordinal": 108
+    },
+    {
+      "name": "_SQLDescribeParam@24",
+      "ordinal": 58
+    },
+    {
+      "name": "_SQLDisconnect@4",
+      "ordinal": 9
+    },
+    {
+      "name": "_SQLDriverConnect@32",
+      "ordinal": 41
+    },
+    {
+      "name": "_SQLDriverConnectA@32",
+      "ordinal": 241
+    },
+    {
+      "name": "_SQLDriverConnectW@32",
+      "ordinal": 141
+    },
+    {
+      "name": "_SQLDrivers@32",
+      "ordinal": 71
+    },
+    {
+      "name": "_SQLDriversA@32",
+      "ordinal": 271
+    },
+    {
+      "name": "_SQLDriversW@32",
+      "ordinal": 171
+    },
+    {
+      "name": "_SQLEndTran@12",
+      "ordinal": 29
+    },
+    {
+      "name": "_SQLError@32",
+      "ordinal": 10
+    },
+    {
+      "name": "_SQLErrorA@32",
+      "ordinal": 210
+    },
+    {
+      "name": "_SQLErrorW@32",
+      "ordinal": 110
+    },
+    {
+      "name": "_SQLExecDirect@12",
+      "ordinal": 11
+    },
+    {
+      "name": "_SQLExecDirectA@12",
+      "ordinal": 211
+    },
+    {
+      "name": "_SQLExecDirectW@12",
+      "ordinal": 111
+    },
+    {
+      "name": "_SQLExecute@4",
+      "ordinal": 12
+    },
+    {
+      "name": "_SQLExtendedFetch@20",
+      "ordinal": 59
+    },
+    {
+      "name": "_SQLFetch@4",
+      "ordinal": 13
+    },
+    {
+      "name": "_SQLFetchScroll@12",
+      "ordinal": 30
+    },
+    {
+      "name": "_SQLForeignKeys@52",
+      "ordinal": 60
+    },
+    {
+      "name": "_SQLForeignKeysA@52",
+      "ordinal": 260
+    },
+    {
+      "name": "_SQLForeignKeysW@52",
+      "ordinal": 160
+    },
+    {
+      "name": "_SQLFreeConnect@4",
+      "ordinal": 14
+    },
+    {
+      "name": "_SQLFreeEnv@4",
+      "ordinal": 15
+    },
+    {
+      "name": "_SQLFreeHandle@8",
+      "ordinal": 31
+    },
+    {
+      "name": "_SQLFreeStmt@8",
+      "ordinal": 16
+    },
+    {
+      "name": "_SQLGetConnectAttr@20",
+      "ordinal": 32
+    },
+    {
+      "name": "_SQLGetConnectAttrA@20",
+      "ordinal": 232
+    },
+    {
+      "name": "_SQLGetConnectAttrW@20",
+      "ordinal": 132
+    },
+    {
+      "name": "_SQLGetConnectOption@12",
+      "ordinal": 42
+    },
+    {
+      "name": "_SQLGetConnectOptionA@12",
+      "ordinal": 242
+    },
+    {
+      "name": "_SQLGetConnectOptionW@12",
+      "ordinal": 142
+    },
+    {
+      "name": "_SQLGetCursorName@16",
+      "ordinal": 17
+    },
+    {
+      "name": "_SQLGetCursorNameA@16",
+      "ordinal": 217
+    },
+    {
+      "name": "_SQLGetCursorNameW@16",
+      "ordinal": 117
+    },
+    {
+      "name": "_SQLGetData@24",
+      "ordinal": 43
+    },
+    {
+      "name": "_SQLGetDescField@24",
+      "ordinal": 33
+    },
+    {
+      "name": "_SQLGetDescFieldA@24",
+      "ordinal": 233
+    },
+    {
+      "name": "_SQLGetDescFieldW@24",
+      "ordinal": 133
+    },
+    {
+      "name": "_SQLGetDescRec@44",
+      "ordinal": 34
+    },
+    {
+      "name": "_SQLGetDescRecA@44",
+      "ordinal": 234
+    },
+    {
+      "name": "_SQLGetDescRecW@44",
+      "ordinal": 134
+    },
+    {
+      "name": "_SQLGetDiagField@28",
+      "ordinal": 35
+    },
+    {
+      "name": "_SQLGetDiagFieldA@28",
+      "ordinal": 235
+    },
+    {
+      "name": "_SQLGetDiagFieldW@28",
+      "ordinal": 135
+    },
+    {
+      "name": "_SQLGetDiagRec@32",
+      "ordinal": 36
+    },
+    {
+      "name": "_SQLGetDiagRecA@32",
+      "ordinal": 236
+    },
+    {
+      "name": "_SQLGetDiagRecW@32",
+      "ordinal": 136
+    },
+    {
+      "name": "_SQLGetEnvAttr@20",
+      "ordinal": 37
+    },
+    {
+      "name": "_SQLGetFunctions@12",
+      "ordinal": 44
+    },
+    {
+      "name": "_SQLGetInfo@20",
+      "ordinal": 45
+    },
+    {
+      "name": "_SQLGetInfoA@20",
+      "ordinal": 245
+    },
+    {
+      "name": "_SQLGetInfoW@20",
+      "ordinal": 145
+    },
+    {
+      "name": "_SQLGetStmtAttr@20",
+      "ordinal": 38
+    },
+    {
+      "name": "_SQLGetStmtAttrA@20",
+      "ordinal": 238
+    },
+    {
+      "name": "_SQLGetStmtAttrW@20",
+      "ordinal": 138
+    },
+    {
+      "name": "_SQLGetStmtOption@12",
+      "ordinal": 46
+    },
+    {
+      "name": "_SQLGetTypeInfo@8",
+      "ordinal": 47
+    },
+    {
+      "name": "_SQLGetTypeInfoA@8",
+      "ordinal": 247
+    },
+    {
+      "name": "_SQLGetTypeInfoW@8",
+      "ordinal": 147
+    },
+    {
+      "name": "_SQLMoreResults@4",
+      "ordinal": 61
+    },
+    {
+      "name": "_SQLNativeSql@24",
+      "ordinal": 62
+    },
+    {
+      "name": "_SQLNativeSqlA@24",
+      "ordinal": 262
+    },
+    {
+      "name": "_SQLNativeSqlW@24",
+      "ordinal": 162
+    },
+    {
+      "name": "_SQLNumParams@8",
+      "ordinal": 63
+    },
+    {
+      "name": "_SQLNumResultCols@8",
+      "ordinal": 18
+    },
+    {
+      "name": "_SQLParamData@8",
+      "ordinal": 48
+    },
+    {
+      "name": "_SQLParamOptions@12",
+      "ordinal": 64
+    },
+    {
+      "name": "_SQLPrepare@12",
+      "ordinal": 19
+    },
+    {
+      "name": "_SQLPrepareA@12",
+      "ordinal": 219
+    },
+    {
+      "name": "_SQLPrepareW@12",
+      "ordinal": 119
+    },
+    {
+      "name": "_SQLPrimaryKeys@28",
+      "ordinal": 65
+    },
+    {
+      "name": "_SQLPrimaryKeysA@28",
+      "ordinal": 265
+    },
+    {
+      "name": "_SQLPrimaryKeysW@28",
+      "ordinal": 165
+    },
+    {
+      "name": "_SQLProcedureColumns@36",
+      "ordinal": 66
+    },
+    {
+      "name": "_SQLProcedureColumnsA@36",
+      "ordinal": 266
+    },
+    {
+      "name": "_SQLProcedureColumnsW@36",
+      "ordinal": 166
+    },
+    {
+      "name": "_SQLProcedures@28",
+      "ordinal": 67
+    },
+    {
+      "name": "_SQLProceduresA@28",
+      "ordinal": 267
+    },
+    {
+      "name": "_SQLProceduresW@28",
+      "ordinal": 167
+    },
+    {
+      "name": "_SQLPutData@12",
+      "ordinal": 49
+    },
+    {
+      "name": "_SQLRowCount@8",
+      "ordinal": 20
+    },
+    {
+      "name": "_SQLSetConnectAttr@16",
+      "ordinal": 39
+    },
+    {
+      "name": "_SQLSetConnectAttrA@16",
+      "ordinal": 239
+    },
+    {
+      "name": "_SQLSetConnectAttrW@16",
+      "ordinal": 139
+    },
+    {
+      "name": "_SQLSetConnectOption@12",
+      "ordinal": 50
+    },
+    {
+      "name": "_SQLSetConnectOptionA@12",
+      "ordinal": 250
+    },
+    {
+      "name": "_SQLSetConnectOptionW@12",
+      "ordinal": 150
+    },
+    {
+      "name": "_SQLSetCursorName@12",
+      "ordinal": 21
+    },
+    {
+      "name": "_SQLSetCursorNameA@12",
+      "ordinal": 221
+    },
+    {
+      "name": "_SQLSetCursorNameW@12",
+      "ordinal": 121
+    },
+    {
+      "name": "_SQLSetDescField@20",
+      "ordinal": 73
+    },
+    {
+      "name": "_SQLSetDescFieldA@20",
+      "ordinal": 273
+    },
+    {
+      "name": "_SQLSetDescFieldW@20",
+      "ordinal": 173
+    },
+    {
+      "name": "_SQLSetDescRec@40",
+      "ordinal": 74
+    },
+    {
+      "name": "_SQLSetEnvAttr@16",
+      "ordinal": 75
+    },
+    {
+      "name": "_SQLSetParam@32",
+      "ordinal": 22
+    },
+    {
+      "name": "_SQLSetPos@16",
+      "ordinal": 68
+    },
+    {
+      "name": "_SQLSetScrollOptions@16",
+      "ordinal": 69
+    },
+    {
+      "name": "_SQLSetStmtAttr@16",
+      "ordinal": 76
+    },
+    {
+      "name": "_SQLSetStmtAttrA@16",
+      "ordinal": 276
+    },
+    {
+      "name": "_SQLSetStmtAttrW@16",
+      "ordinal": 176
+    },
+    {
+      "name": "_SQLSetStmtOption@12",
+      "ordinal": 51
+    },
+    {
+      "name": "_SQLSpecialColumns@40",
+      "ordinal": 52
+    },
+    {
+      "name": "_SQLSpecialColumnsA@40",
+      "ordinal": 252
+    },
+    {
+      "name": "_SQLSpecialColumnsW@40",
+      "ordinal": 152
+    },
+    {
+      "name": "_SQLStatistics@36",
+      "ordinal": 53
+    },
+    {
+      "name": "_SQLStatisticsA@36",
+      "ordinal": 253
+    },
+    {
+      "name": "_SQLStatisticsW@36",
+      "ordinal": 153
+    },
+    {
+      "name": "_SQLTablePrivileges@28",
+      "ordinal": 70
+    },
+    {
+      "name": "_SQLTablePrivilegesA@28",
+      "ordinal": 270
+    },
+    {
+      "name": "_SQLTablePrivilegesW@28",
+      "ordinal": 170
+    },
+    {
+      "name": "_SQLTables@36",
+      "ordinal": 54
+    },
+    {
+      "name": "_SQLTablesA@36",
+      "ordinal": 254
+    },
+    {
+      "name": "_SQLTablesW@36",
+      "ordinal": 154
+    },
+    {
+      "name": "_SQLTransact@12",
+      "ordinal": 23
+    },
+    {
+      "name": "_SearchStatusCode@8"
+    },
+    {
+      "name": "_VFreeErrors@4"
+    },
+    {
+      "name": "_VRetrieveDriverErrorsRowCol@24"
+    },
+    {
+      "name": "_ValidateErrorQueue@8"
+    },
+    {
+      "name": "_g_hHeapMalloc"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 18944,
+      "name": "__IMPORT_DESCRIPTOR_ODBC32"
+    },
+    {
+      "offset": 19494,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 19804,
+      "name": "ODBC32_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 20930,
+      "name": "_GetODBCSharedData@0"
+    },
+    {
+      "offset": 20930,
+      "name": "__imp__GetODBCSharedData@0"
+    },
+    {
+      "offset": 21832,
+      "name": "_PostODBCComponentError@4"
+    },
+    {
+      "offset": 21832,
+      "name": "__imp__PostODBCComponentError@4"
+    },
+    {
+      "offset": 21950,
+      "name": "_PostODBCError@16"
+    },
+    {
+      "offset": 21950,
+      "name": "__imp__PostODBCError@16"
+    },
+    {
+      "offset": 21492,
+      "name": "_ODBCSetTryWaitValue@4"
+    },
+    {
+      "offset": 21492,
+      "name": "__imp__ODBCSetTryWaitValue@4"
+    },
+    {
+      "offset": 21148,
+      "name": "_ODBCGetTryWaitValue@0"
+    },
+    {
+      "offset": 21148,
+      "name": "__imp__ODBCGetTryWaitValue@0"
+    },
+    {
+      "offset": 21718,
+      "name": "_PostComponentError@4"
+    },
+    {
+      "offset": 21718,
+      "name": "__imp__PostComponentError@4"
+    },
+    {
+      "offset": 20592,
+      "name": "_CursorLibLockStmt@8"
+    },
+    {
+      "offset": 20592,
+      "name": "__imp__CursorLibLockStmt@8"
+    },
+    {
+      "offset": 20480,
+      "name": "_CursorLibLockDesc@8"
+    },
+    {
+      "offset": 20480,
+      "name": "__imp__CursorLibLockDesc@8"
+    },
+    {
+      "offset": 20368,
+      "name": "_CursorLibLockDbc@8"
+    },
+    {
+      "offset": 20368,
+      "name": "__imp__CursorLibLockDbc@8"
+    },
+    {
+      "offset": 20704,
+      "name": "_CursorLibTransact@12"
+    },
+    {
+      "offset": 20704,
+      "name": "__imp__CursorLibTransact@12"
+    },
+    {
+      "offset": 39330,
+      "name": "_VRetrieveDriverErrorsRowCol@24"
+    },
+    {
+      "offset": 39330,
+      "name": "__imp__VRetrieveDriverErrorsRowCol@24"
+    },
+    {
+      "offset": 39224,
+      "name": "_VFreeErrors@4"
+    },
+    {
+      "offset": 39224,
+      "name": "__imp__VFreeErrors@4"
+    },
+    {
+      "offset": 39112,
+      "name": "_SearchStatusCode@8"
+    },
+    {
+      "offset": 39112,
+      "name": "__imp__SearchStatusCode@8"
+    },
+    {
+      "offset": 39454,
+      "name": "_ValidateErrorQueue@8"
+    },
+    {
+      "offset": 39454,
+      "name": "__imp__ValidateErrorQueue@8"
+    },
+    {
+      "offset": 21042,
+      "name": "_LockHandle@12"
+    },
+    {
+      "offset": 21042,
+      "name": "__imp__LockHandle@12"
+    },
+    {
+      "offset": 21262,
+      "name": "_ODBCInternalConnectW@36"
+    },
+    {
+      "offset": 21262,
+      "name": "__imp__ODBCInternalConnectW@36"
+    },
+    {
+      "offset": 21378,
+      "name": "_ODBCQualifyFileDSNW@4"
+    },
+    {
+      "offset": 21378,
+      "name": "__imp__ODBCQualifyFileDSNW@4"
+    },
+    {
+      "offset": 21606,
+      "name": "_OpenODBCPerfData@4"
+    },
+    {
+      "offset": 21606,
+      "name": "__imp__OpenODBCPerfData@4"
+    },
+    {
+      "offset": 20252,
+      "name": "_CollectODBCPerfData@16"
+    },
+    {
+      "offset": 20252,
+      "name": "__imp__CollectODBCPerfData@16"
+    },
+    {
+      "offset": 20140,
+      "name": "_CloseODBCPerfData@0"
+    },
+    {
+      "offset": 20140,
+      "name": "__imp__CloseODBCPerfData@0"
+    },
+    {
+      "offset": 20818,
+      "name": "_DllBidEntryPoint@36"
+    },
+    {
+      "offset": 20818,
+      "name": "__imp__DllBidEntryPoint@36"
+    },
+    {
+      "offset": 22060,
+      "name": "_SQLAllocConnect@8"
+    },
+    {
+      "offset": 22060,
+      "name": "__imp__SQLAllocConnect@8"
+    },
+    {
+      "offset": 22170,
+      "name": "_SQLAllocEnv@4"
+    },
+    {
+      "offset": 22170,
+      "name": "__imp__SQLAllocEnv@4"
+    },
+    {
+      "offset": 22500,
+      "name": "_SQLAllocStmt@8"
+    },
+    {
+      "offset": 22500,
+      "name": "__imp__SQLAllocStmt@8"
+    },
+    {
+      "offset": 22608,
+      "name": "_SQLBindCol@24"
+    },
+    {
+      "offset": 22608,
+      "name": "__imp__SQLBindCol@24"
+    },
+    {
+      "offset": 23386,
+      "name": "_SQLCancel@4"
+    },
+    {
+      "offset": 23386,
+      "name": "__imp__SQLCancel@4"
+    },
+    {
+      "offset": 24046,
+      "name": "_SQLColAttributes@28"
+    },
+    {
+      "offset": 24046,
+      "name": "__imp__SQLColAttributes@28"
+    },
+    {
+      "offset": 24272,
+      "name": "_SQLColAttributesW@28"
+    },
+    {
+      "offset": 24272,
+      "name": "__imp__SQLColAttributesW@28"
+    },
+    {
+      "offset": 24158,
+      "name": "_SQLColAttributesA@28"
+    },
+    {
+      "offset": 24158,
+      "name": "__imp__SQLColAttributesA@28"
+    },
+    {
+      "offset": 25168,
+      "name": "_SQLConnect@28"
+    },
+    {
+      "offset": 25168,
+      "name": "__imp__SQLConnect@28"
+    },
+    {
+      "offset": 25382,
+      "name": "_SQLConnectW@28"
+    },
+    {
+      "offset": 25382,
+      "name": "__imp__SQLConnectW@28"
+    },
+    {
+      "offset": 25274,
+      "name": "_SQLConnectA@28"
+    },
+    {
+      "offset": 25274,
+      "name": "__imp__SQLConnectA@28"
+    },
+    {
+      "offset": 25930,
+      "name": "_SQLDescribeCol@36"
+    },
+    {
+      "offset": 25930,
+      "name": "__imp__SQLDescribeCol@36"
+    },
+    {
+      "offset": 26152,
+      "name": "_SQLDescribeColW@36"
+    },
+    {
+      "offset": 26152,
+      "name": "__imp__SQLDescribeColW@36"
+    },
+    {
+      "offset": 26040,
+      "name": "_SQLDescribeColA@36"
+    },
+    {
+      "offset": 26040,
+      "name": "__imp__SQLDescribeColA@36"
+    },
+    {
+      "offset": 26376,
+      "name": "_SQLDisconnect@4"
+    },
+    {
+      "offset": 26376,
+      "name": "__imp__SQLDisconnect@4"
+    },
+    {
+      "offset": 27252,
+      "name": "_SQLError@32"
+    },
+    {
+      "offset": 27252,
+      "name": "__imp__SQLError@32"
+    },
+    {
+      "offset": 27462,
+      "name": "_SQLErrorW@32"
+    },
+    {
+      "offset": 27462,
+      "name": "__imp__SQLErrorW@32"
+    },
+    {
+      "offset": 27356,
+      "name": "_SQLErrorA@32"
+    },
+    {
+      "offset": 27356,
+      "name": "__imp__SQLErrorA@32"
+    },
+    {
+      "offset": 27568,
+      "name": "_SQLExecDirect@12"
+    },
+    {
+      "offset": 27568,
+      "name": "__imp__SQLExecDirect@12"
+    },
+    {
+      "offset": 27788,
+      "name": "_SQLExecDirectW@12"
+    },
+    {
+      "offset": 27788,
+      "name": "__imp__SQLExecDirectW@12"
+    },
+    {
+      "offset": 27678,
+      "name": "_SQLExecDirectA@12"
+    },
+    {
+      "offset": 27678,
+      "name": "__imp__SQLExecDirectA@12"
+    },
+    {
+      "offset": 27898,
+      "name": "_SQLExecute@4"
+    },
+    {
+      "offset": 27898,
+      "name": "__imp__SQLExecute@4"
+    },
+    {
+      "offset": 28116,
+      "name": "_SQLFetch@4"
+    },
+    {
+      "offset": 28116,
+      "name": "__imp__SQLFetch@4"
+    },
+    {
+      "offset": 28664,
+      "name": "_SQLFreeConnect@4"
+    },
+    {
+      "offset": 28664,
+      "name": "__imp__SQLFreeConnect@4"
+    },
+    {
+      "offset": 28774,
+      "name": "_SQLFreeEnv@4"
+    },
+    {
+      "offset": 28774,
+      "name": "__imp__SQLFreeEnv@4"
+    },
+    {
+      "offset": 28988,
+      "name": "_SQLFreeStmt@8"
+    },
+    {
+      "offset": 28988,
+      "name": "__imp__SQLFreeStmt@8"
+    },
+    {
+      "offset": 29784,
+      "name": "_SQLGetCursorName@16"
+    },
+    {
+      "offset": 29784,
+      "name": "__imp__SQLGetCursorName@16"
+    },
+    {
+      "offset": 30010,
+      "name": "_SQLGetCursorNameW@16"
+    },
+    {
+      "offset": 30010,
+      "name": "__imp__SQLGetCursorNameW@16"
+    },
+    {
+      "offset": 29896,
+      "name": "_SQLGetCursorNameA@16"
+    },
+    {
+      "offset": 29896,
+      "name": "__imp__SQLGetCursorNameA@16"
+    },
+    {
+      "offset": 33428,
+      "name": "_SQLNumResultCols@8"
+    },
+    {
+      "offset": 33428,
+      "name": "__imp__SQLNumResultCols@8"
+    },
+    {
+      "offset": 33760,
+      "name": "_SQLPrepare@12"
+    },
+    {
+      "offset": 33760,
+      "name": "__imp__SQLPrepare@12"
+    },
+    {
+      "offset": 33974,
+      "name": "_SQLPrepareW@12"
+    },
+    {
+      "offset": 33974,
+      "name": "__imp__SQLPrepareW@12"
+    },
+    {
+      "offset": 33866,
+      "name": "_SQLPrepareA@12"
+    },
+    {
+      "offset": 33866,
+      "name": "__imp__SQLPrepareA@12"
+    },
+    {
+      "offset": 35200,
+      "name": "_SQLRowCount@8"
+    },
+    {
+      "offset": 35200,
+      "name": "__imp__SQLRowCount@8"
+    },
+    {
+      "offset": 35996,
+      "name": "_SQLSetCursorName@12"
+    },
+    {
+      "offset": 35996,
+      "name": "__imp__SQLSetCursorName@12"
+    },
+    {
+      "offset": 36222,
+      "name": "_SQLSetCursorNameW@12"
+    },
+    {
+      "offset": 36222,
+      "name": "__imp__SQLSetCursorNameW@12"
+    },
+    {
+      "offset": 36108,
+      "name": "_SQLSetCursorNameA@12"
+    },
+    {
+      "offset": 36108,
+      "name": "__imp__SQLSetCursorNameA@12"
+    },
+    {
+      "offset": 36892,
+      "name": "_SQLSetParam@32"
+    },
+    {
+      "offset": 36892,
+      "name": "__imp__SQLSetParam@32"
+    },
+    {
+      "offset": 39004,
+      "name": "_SQLTransact@12"
+    },
+    {
+      "offset": 39004,
+      "name": "__imp__SQLTransact@12"
+    },
+    {
+      "offset": 24734,
+      "name": "_SQLColumns@36"
+    },
+    {
+      "offset": 24734,
+      "name": "__imp__SQLColumns@36"
+    },
+    {
+      "offset": 24948,
+      "name": "_SQLColumnsW@36"
+    },
+    {
+      "offset": 24948,
+      "name": "__imp__SQLColumnsW@36"
+    },
+    {
+      "offset": 24840,
+      "name": "_SQLColumnsA@36"
+    },
+    {
+      "offset": 24840,
+      "name": "__imp__SQLColumnsA@36"
+    },
+    {
+      "offset": 26484,
+      "name": "_SQLDriverConnect@32"
+    },
+    {
+      "offset": 26484,
+      "name": "__imp__SQLDriverConnect@32"
+    },
+    {
+      "offset": 26710,
+      "name": "_SQLDriverConnectW@32"
+    },
+    {
+      "offset": 26710,
+      "name": "__imp__SQLDriverConnectW@32"
+    },
+    {
+      "offset": 26596,
+      "name": "_SQLDriverConnectA@32"
+    },
+    {
+      "offset": 26596,
+      "name": "__imp__SQLDriverConnectA@32"
+    },
+    {
+      "offset": 29436,
+      "name": "_SQLGetConnectOption@12"
+    },
+    {
+      "offset": 29436,
+      "name": "__imp__SQLGetConnectOption@12"
+    },
+    {
+      "offset": 29668,
+      "name": "_SQLGetConnectOptionW@12"
+    },
+    {
+      "offset": 29668,
+      "name": "__imp__SQLGetConnectOptionW@12"
+    },
+    {
+      "offset": 29552,
+      "name": "_SQLGetConnectOptionA@12"
+    },
+    {
+      "offset": 29552,
+      "name": "__imp__SQLGetConnectOptionA@12"
+    },
+    {
+      "offset": 30124,
+      "name": "_SQLGetData@24"
+    },
+    {
+      "offset": 30124,
+      "name": "__imp__SQLGetData@24"
+    },
+    {
+      "offset": 31672,
+      "name": "_SQLGetFunctions@12"
+    },
+    {
+      "offset": 31672,
+      "name": "__imp__SQLGetFunctions@12"
+    },
+    {
+      "offset": 31784,
+      "name": "_SQLGetInfo@20"
+    },
+    {
+      "offset": 31784,
+      "name": "__imp__SQLGetInfo@20"
+    },
+    {
+      "offset": 31998,
+      "name": "_SQLGetInfoW@20"
+    },
+    {
+      "offset": 31998,
+      "name": "__imp__SQLGetInfoW@20"
+    },
+    {
+      "offset": 31890,
+      "name": "_SQLGetInfoA@20"
+    },
+    {
+      "offset": 31890,
+      "name": "__imp__SQLGetInfoA@20"
+    },
+    {
+      "offset": 32440,
+      "name": "_SQLGetStmtOption@12"
+    },
+    {
+      "offset": 32440,
+      "name": "__imp__SQLGetStmtOption@12"
+    },
+    {
+      "offset": 32552,
+      "name": "_SQLGetTypeInfo@8"
+    },
+    {
+      "offset": 32552,
+      "name": "__imp__SQLGetTypeInfo@8"
+    },
+    {
+      "offset": 32772,
+      "name": "_SQLGetTypeInfoW@8"
+    },
+    {
+      "offset": 32772,
+      "name": "__imp__SQLGetTypeInfoW@8"
+    },
+    {
+      "offset": 32662,
+      "name": "_SQLGetTypeInfoA@8"
+    },
+    {
+      "offset": 32662,
+      "name": "__imp__SQLGetTypeInfoA@8"
+    },
+    {
+      "offset": 33540,
+      "name": "_SQLParamData@8"
+    },
+    {
+      "offset": 33540,
+      "name": "__imp__SQLParamData@8"
+    },
+    {
+      "offset": 35094,
+      "name": "_SQLPutData@12"
+    },
+    {
+      "offset": 35094,
+      "name": "__imp__SQLPutData@12"
+    },
+    {
+      "offset": 35648,
+      "name": "_SQLSetConnectOption@12"
+    },
+    {
+      "offset": 35648,
+      "name": "__imp__SQLSetConnectOption@12"
+    },
+    {
+      "offset": 35880,
+      "name": "_SQLSetConnectOptionW@12"
+    },
+    {
+      "offset": 35880,
+      "name": "__imp__SQLSetConnectOptionW@12"
+    },
+    {
+      "offset": 35764,
+      "name": "_SQLSetConnectOptionA@12"
+    },
+    {
+      "offset": 35764,
+      "name": "__imp__SQLSetConnectOptionA@12"
+    },
+    {
+      "offset": 37556,
+      "name": "_SQLSetStmtOption@12"
+    },
+    {
+      "offset": 37556,
+      "name": "__imp__SQLSetStmtOption@12"
+    },
+    {
+      "offset": 37668,
+      "name": "_SQLSpecialColumns@40"
+    },
+    {
+      "offset": 37668,
+      "name": "__imp__SQLSpecialColumns@40"
+    },
+    {
+      "offset": 37896,
+      "name": "_SQLSpecialColumnsW@40"
+    },
+    {
+      "offset": 37896,
+      "name": "__imp__SQLSpecialColumnsW@40"
+    },
+    {
+      "offset": 37782,
+      "name": "_SQLSpecialColumnsA@40"
+    },
+    {
+      "offset": 37782,
+      "name": "__imp__SQLSpecialColumnsA@40"
+    },
+    {
+      "offset": 38010,
+      "name": "_SQLStatistics@36"
+    },
+    {
+      "offset": 38010,
+      "name": "__imp__SQLStatistics@36"
+    },
+    {
+      "offset": 38230,
+      "name": "_SQLStatisticsW@36"
+    },
+    {
+      "offset": 38230,
+      "name": "__imp__SQLStatisticsW@36"
+    },
+    {
+      "offset": 38120,
+      "name": "_SQLStatisticsA@36"
+    },
+    {
+      "offset": 38120,
+      "name": "__imp__SQLStatisticsA@36"
+    },
+    {
+      "offset": 38686,
+      "name": "_SQLTables@36"
+    },
+    {
+      "offset": 38686,
+      "name": "__imp__SQLTables@36"
+    },
+    {
+      "offset": 38898,
+      "name": "_SQLTablesW@36"
+    },
+    {
+      "offset": 38898,
+      "name": "__imp__SQLTablesW@36"
+    },
+    {
+      "offset": 38792,
+      "name": "_SQLTablesA@36"
+    },
+    {
+      "offset": 38792,
+      "name": "__imp__SQLTablesA@36"
+    },
+    {
+      "offset": 22934,
+      "name": "_SQLBrowseConnect@24"
+    },
+    {
+      "offset": 22934,
+      "name": "__imp__SQLBrowseConnect@24"
+    },
+    {
+      "offset": 23160,
+      "name": "_SQLBrowseConnectW@24"
+    },
+    {
+      "offset": 23160,
+      "name": "__imp__SQLBrowseConnectW@24"
+    },
+    {
+      "offset": 23046,
+      "name": "_SQLBrowseConnectA@24"
+    },
+    {
+      "offset": 23046,
+      "name": "__imp__SQLBrowseConnectA@24"
+    },
+    {
+      "offset": 24386,
+      "name": "_SQLColumnPrivileges@36"
+    },
+    {
+      "offset": 24386,
+      "name": "__imp__SQLColumnPrivileges@36"
+    },
+    {
+      "offset": 24618,
+      "name": "_SQLColumnPrivilegesW@36"
+    },
+    {
+      "offset": 24618,
+      "name": "__imp__SQLColumnPrivilegesW@36"
+    },
+    {
+      "offset": 24502,
+      "name": "_SQLColumnPrivilegesA@36"
+    },
+    {
+      "offset": 24502,
+      "name": "__imp__SQLColumnPrivilegesA@36"
+    },
+    {
+      "offset": 25596,
+      "name": "_SQLDataSources@32"
+    },
+    {
+      "offset": 25596,
+      "name": "__imp__SQLDataSources@32"
+    },
+    {
+      "offset": 25818,
+      "name": "_SQLDataSourcesW@32"
+    },
+    {
+      "offset": 25818,
+      "name": "__imp__SQLDataSourcesW@32"
+    },
+    {
+      "offset": 25706,
+      "name": "_SQLDataSourcesA@32"
+    },
+    {
+      "offset": 25706,
+      "name": "__imp__SQLDataSourcesA@32"
+    },
+    {
+      "offset": 26264,
+      "name": "_SQLDescribeParam@24"
+    },
+    {
+      "offset": 26264,
+      "name": "__imp__SQLDescribeParam@24"
+    },
+    {
+      "offset": 28004,
+      "name": "_SQLExtendedFetch@20"
+    },
+    {
+      "offset": 28004,
+      "name": "__imp__SQLExtendedFetch@20"
+    },
+    {
+      "offset": 28330,
+      "name": "_SQLForeignKeys@52"
+    },
+    {
+      "offset": 28330,
+      "name": "__imp__SQLForeignKeys@52"
+    },
+    {
+      "offset": 28552,
+      "name": "_SQLForeignKeysW@52"
+    },
+    {
+      "offset": 28552,
+      "name": "__imp__SQLForeignKeysW@52"
+    },
+    {
+      "offset": 28440,
+      "name": "_SQLForeignKeysA@52"
+    },
+    {
+      "offset": 28440,
+      "name": "__imp__SQLForeignKeysA@52"
+    },
+    {
+      "offset": 32882,
+      "name": "_SQLMoreResults@4"
+    },
+    {
+      "offset": 32882,
+      "name": "__imp__SQLMoreResults@4"
+    },
+    {
+      "offset": 32992,
+      "name": "_SQLNativeSql@24"
+    },
+    {
+      "offset": 32992,
+      "name": "__imp__SQLNativeSql@24"
+    },
+    {
+      "offset": 33210,
+      "name": "_SQLNativeSqlW@24"
+    },
+    {
+      "offset": 33210,
+      "name": "__imp__SQLNativeSqlW@24"
+    },
+    {
+      "offset": 33100,
+      "name": "_SQLNativeSqlA@24"
+    },
+    {
+      "offset": 33100,
+      "name": "__imp__SQLNativeSqlA@24"
+    },
+    {
+      "offset": 33320,
+      "name": "_SQLNumParams@8"
+    },
+    {
+      "offset": 33320,
+      "name": "__imp__SQLNumParams@8"
+    },
+    {
+      "offset": 33648,
+      "name": "_SQLParamOptions@12"
+    },
+    {
+      "offset": 33648,
+      "name": "__imp__SQLParamOptions@12"
+    },
+    {
+      "offset": 34082,
+      "name": "_SQLPrimaryKeys@28"
+    },
+    {
+      "offset": 34082,
+      "name": "__imp__SQLPrimaryKeys@28"
+    },
+    {
+      "offset": 34304,
+      "name": "_SQLPrimaryKeysW@28"
+    },
+    {
+      "offset": 34304,
+      "name": "__imp__SQLPrimaryKeysW@28"
+    },
+    {
+      "offset": 34192,
+      "name": "_SQLPrimaryKeysA@28"
+    },
+    {
+      "offset": 34192,
+      "name": "__imp__SQLPrimaryKeysA@28"
+    },
+    {
+      "offset": 34416,
+      "name": "_SQLProcedureColumns@36"
+    },
+    {
+      "offset": 34416,
+      "name": "__imp__SQLProcedureColumns@36"
+    },
+    {
+      "offset": 34648,
+      "name": "_SQLProcedureColumnsW@36"
+    },
+    {
+      "offset": 34648,
+      "name": "__imp__SQLProcedureColumnsW@36"
+    },
+    {
+      "offset": 34532,
+      "name": "_SQLProcedureColumnsA@36"
+    },
+    {
+      "offset": 34532,
+      "name": "__imp__SQLProcedureColumnsA@36"
+    },
+    {
+      "offset": 34764,
+      "name": "_SQLProcedures@28"
+    },
+    {
+      "offset": 34764,
+      "name": "__imp__SQLProcedures@28"
+    },
+    {
+      "offset": 34984,
+      "name": "_SQLProceduresW@28"
+    },
+    {
+      "offset": 34984,
+      "name": "__imp__SQLProceduresW@28"
+    },
+    {
+      "offset": 34874,
+      "name": "_SQLProceduresA@28"
+    },
+    {
+      "offset": 34874,
+      "name": "__imp__SQLProceduresA@28"
+    },
+    {
+      "offset": 37000,
+      "name": "_SQLSetPos@16"
+    },
+    {
+      "offset": 37000,
+      "name": "__imp__SQLSetPos@16"
+    },
+    {
+      "offset": 37106,
+      "name": "_SQLSetScrollOptions@16"
+    },
+    {
+      "offset": 37106,
+      "name": "__imp__SQLSetScrollOptions@16"
+    },
+    {
+      "offset": 38340,
+      "name": "_SQLTablePrivileges@28"
+    },
+    {
+      "offset": 38340,
+      "name": "__imp__SQLTablePrivileges@28"
+    },
+    {
+      "offset": 38570,
+      "name": "_SQLTablePrivilegesW@28"
+    },
+    {
+      "offset": 38570,
+      "name": "__imp__SQLTablePrivilegesW@28"
+    },
+    {
+      "offset": 38454,
+      "name": "_SQLTablePrivilegesA@28"
+    },
+    {
+      "offset": 38454,
+      "name": "__imp__SQLTablePrivilegesA@28"
+    },
+    {
+      "offset": 26824,
+      "name": "_SQLDrivers@32"
+    },
+    {
+      "offset": 26824,
+      "name": "__imp__SQLDrivers@32"
+    },
+    {
+      "offset": 27038,
+      "name": "_SQLDriversW@32"
+    },
+    {
+      "offset": 27038,
+      "name": "__imp__SQLDriversW@32"
+    },
+    {
+      "offset": 26930,
+      "name": "_SQLDriversA@32"
+    },
+    {
+      "offset": 26930,
+      "name": "__imp__SQLDriversA@32"
+    },
+    {
+      "offset": 22822,
+      "name": "_SQLBindParameter@40"
+    },
+    {
+      "offset": 22822,
+      "name": "__imp__SQLBindParameter@40"
+    },
+    {
+      "offset": 22276,
+      "name": "_SQLAllocHandle@12"
+    },
+    {
+      "offset": 22276,
+      "name": "__imp__SQLAllocHandle@12"
+    },
+    {
+      "offset": 22714,
+      "name": "_SQLBindParam@32"
+    },
+    {
+      "offset": 22714,
+      "name": "__imp__SQLBindParam@32"
+    },
+    {
+      "offset": 23600,
+      "name": "_SQLCloseCursor@4"
+    },
+    {
+      "offset": 23600,
+      "name": "__imp__SQLCloseCursor@4"
+    },
+    {
+      "offset": 23710,
+      "name": "_SQLColAttribute@28"
+    },
+    {
+      "offset": 23710,
+      "name": "__imp__SQLColAttribute@28"
+    },
+    {
+      "offset": 23934,
+      "name": "_SQLColAttributeW@28"
+    },
+    {
+      "offset": 23934,
+      "name": "__imp__SQLColAttributeW@28"
+    },
+    {
+      "offset": 23822,
+      "name": "_SQLColAttributeA@28"
+    },
+    {
+      "offset": 23822,
+      "name": "__imp__SQLColAttributeA@28"
+    },
+    {
+      "offset": 25490,
+      "name": "_SQLCopyDesc@8"
+    },
+    {
+      "offset": 25490,
+      "name": "__imp__SQLCopyDesc@8"
+    },
+    {
+      "offset": 27146,
+      "name": "_SQLEndTran@12"
+    },
+    {
+      "offset": 27146,
+      "name": "__imp__SQLEndTran@12"
+    },
+    {
+      "offset": 28220,
+      "name": "_SQLFetchScroll@12"
+    },
+    {
+      "offset": 28220,
+      "name": "__imp__SQLFetchScroll@12"
+    },
+    {
+      "offset": 28880,
+      "name": "_SQLFreeHandle@8"
+    },
+    {
+      "offset": 28880,
+      "name": "__imp__SQLFreeHandle@8"
+    },
+    {
+      "offset": 29094,
+      "name": "_SQLGetConnectAttr@20"
+    },
+    {
+      "offset": 29094,
+      "name": "__imp__SQLGetConnectAttr@20"
+    },
+    {
+      "offset": 29322,
+      "name": "_SQLGetConnectAttrW@20"
+    },
+    {
+      "offset": 29322,
+      "name": "__imp__SQLGetConnectAttrW@20"
+    },
+    {
+      "offset": 29208,
+      "name": "_SQLGetConnectAttrA@20"
+    },
+    {
+      "offset": 29208,
+      "name": "__imp__SQLGetConnectAttrA@20"
+    },
+    {
+      "offset": 30230,
+      "name": "_SQLGetDescField@24"
+    },
+    {
+      "offset": 30230,
+      "name": "__imp__SQLGetDescField@24"
+    },
+    {
+      "offset": 30454,
+      "name": "_SQLGetDescFieldW@24"
+    },
+    {
+      "offset": 30454,
+      "name": "__imp__SQLGetDescFieldW@24"
+    },
+    {
+      "offset": 30342,
+      "name": "_SQLGetDescFieldA@24"
+    },
+    {
+      "offset": 30342,
+      "name": "__imp__SQLGetDescFieldA@24"
+    },
+    {
+      "offset": 30566,
+      "name": "_SQLGetDescRec@44"
+    },
+    {
+      "offset": 30566,
+      "name": "__imp__SQLGetDescRec@44"
+    },
+    {
+      "offset": 30786,
+      "name": "_SQLGetDescRecW@44"
+    },
+    {
+      "offset": 30786,
+      "name": "__imp__SQLGetDescRecW@44"
+    },
+    {
+      "offset": 30676,
+      "name": "_SQLGetDescRecA@44"
+    },
+    {
+      "offset": 30676,
+      "name": "__imp__SQLGetDescRecA@44"
+    },
+    {
+      "offset": 30896,
+      "name": "_SQLGetDiagField@28"
+    },
+    {
+      "offset": 30896,
+      "name": "__imp__SQLGetDiagField@28"
+    },
+    {
+      "offset": 31120,
+      "name": "_SQLGetDiagFieldW@28"
+    },
+    {
+      "offset": 31120,
+      "name": "__imp__SQLGetDiagFieldW@28"
+    },
+    {
+      "offset": 31008,
+      "name": "_SQLGetDiagFieldA@28"
+    },
+    {
+      "offset": 31008,
+      "name": "__imp__SQLGetDiagFieldA@28"
+    },
+    {
+      "offset": 31232,
+      "name": "_SQLGetDiagRec@32"
+    },
+    {
+      "offset": 31232,
+      "name": "__imp__SQLGetDiagRec@32"
+    },
+    {
+      "offset": 31452,
+      "name": "_SQLGetDiagRecW@32"
+    },
+    {
+      "offset": 31452,
+      "name": "__imp__SQLGetDiagRecW@32"
+    },
+    {
+      "offset": 31342,
+      "name": "_SQLGetDiagRecA@32"
+    },
+    {
+      "offset": 31342,
+      "name": "__imp__SQLGetDiagRecA@32"
+    },
+    {
+      "offset": 31562,
+      "name": "_SQLGetEnvAttr@20"
+    },
+    {
+      "offset": 31562,
+      "name": "__imp__SQLGetEnvAttr@20"
+    },
+    {
+      "offset": 32106,
+      "name": "_SQLGetStmtAttr@20"
+    },
+    {
+      "offset": 32106,
+      "name": "__imp__SQLGetStmtAttr@20"
+    },
+    {
+      "offset": 32328,
+      "name": "_SQLGetStmtAttrW@20"
+    },
+    {
+      "offset": 32328,
+      "name": "__imp__SQLGetStmtAttrW@20"
+    },
+    {
+      "offset": 32216,
+      "name": "_SQLGetStmtAttrA@20"
+    },
+    {
+      "offset": 32216,
+      "name": "__imp__SQLGetStmtAttrA@20"
+    },
+    {
+      "offset": 35306,
+      "name": "_SQLSetConnectAttr@16"
+    },
+    {
+      "offset": 35306,
+      "name": "__imp__SQLSetConnectAttr@16"
+    },
+    {
+      "offset": 35534,
+      "name": "_SQLSetConnectAttrW@16"
+    },
+    {
+      "offset": 35534,
+      "name": "__imp__SQLSetConnectAttrW@16"
+    },
+    {
+      "offset": 35420,
+      "name": "_SQLSetConnectAttrA@16"
+    },
+    {
+      "offset": 35420,
+      "name": "__imp__SQLSetConnectAttrA@16"
+    },
+    {
+      "offset": 36336,
+      "name": "_SQLSetDescField@20"
+    },
+    {
+      "offset": 36336,
+      "name": "__imp__SQLSetDescField@20"
+    },
+    {
+      "offset": 36560,
+      "name": "_SQLSetDescFieldW@20"
+    },
+    {
+      "offset": 36560,
+      "name": "__imp__SQLSetDescFieldW@20"
+    },
+    {
+      "offset": 36448,
+      "name": "_SQLSetDescFieldA@20"
+    },
+    {
+      "offset": 36448,
+      "name": "__imp__SQLSetDescFieldA@20"
+    },
+    {
+      "offset": 36672,
+      "name": "_SQLSetDescRec@40"
+    },
+    {
+      "offset": 36672,
+      "name": "__imp__SQLSetDescRec@40"
+    },
+    {
+      "offset": 36782,
+      "name": "_SQLSetEnvAttr@16"
+    },
+    {
+      "offset": 36782,
+      "name": "__imp__SQLSetEnvAttr@16"
+    },
+    {
+      "offset": 37222,
+      "name": "_SQLSetStmtAttr@16"
+    },
+    {
+      "offset": 37222,
+      "name": "__imp__SQLSetStmtAttr@16"
+    },
+    {
+      "offset": 37444,
+      "name": "_SQLSetStmtAttrW@16"
+    },
+    {
+      "offset": 37444,
+      "name": "__imp__SQLSetStmtAttrW@16"
+    },
+    {
+      "offset": 37332,
+      "name": "_SQLSetStmtAttrA@16"
+    },
+    {
+      "offset": 37332,
+      "name": "__imp__SQLSetStmtAttrA@16"
+    },
+    {
+      "offset": 22386,
+      "name": "_SQLAllocHandleStd@12"
+    },
+    {
+      "offset": 22386,
+      "name": "__imp__SQLAllocHandleStd@12"
+    },
+    {
+      "offset": 23274,
+      "name": "_SQLBulkOperations@8"
+    },
+    {
+      "offset": 23274,
+      "name": "__imp__SQLBulkOperations@8"
+    },
+    {
+      "offset": 23490,
+      "name": "_SQLCancelHandle@8"
+    },
+    {
+      "offset": 23490,
+      "name": "__imp__SQLCancelHandle@8"
+    },
+    {
+      "offset": 25056,
+      "name": "_SQLCompleteAsync@12"
+    },
+    {
+      "offset": 25056,
+      "name": "__imp__SQLCompleteAsync@12"
+    },
+    {
+      "offset": 39568,
+      "name": "__imp__g_hHeapMalloc"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 20140,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4245608868,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_CloseODBCPerfData@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "CloseODBCPerfData"
+    },
+    {
+      "offset": 20252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3571077708,
+      "sizeOfData": 35,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_CollectODBCPerfData@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "CollectODBCPerfData"
+    },
+    {
+      "offset": 20368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3361668153,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_CursorLibLockDbc@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "CursorLibLockDbc"
+    },
+    {
+      "offset": 20480,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4059176119,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_CursorLibLockDesc@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "CursorLibLockDesc"
+    },
+    {
+      "offset": 20592,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4185384302,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_CursorLibLockStmt@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "CursorLibLockStmt"
+    },
+    {
+      "offset": 20704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3354371361,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_CursorLibTransact@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "CursorLibTransact"
+    },
+    {
+      "offset": 20818,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3984727149,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_DllBidEntryPoint@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "DllBidEntryPoint"
+    },
+    {
+      "offset": 20930,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3941044764,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_GetODBCSharedData@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "GetODBCSharedData"
+    },
+    {
+      "offset": 21042,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4165750602,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_LockHandle@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "LockHandle"
+    },
+    {
+      "offset": 21148,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4181988743,
+      "sizeOfData": 34,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_ODBCGetTryWaitValue@0",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 84
+    },
+    {
+      "offset": 21262,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3907314384,
+      "sizeOfData": 36,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_ODBCInternalConnectW@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "ODBCInternalConnectW"
+    },
+    {
+      "offset": 21378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3738468263,
+      "sizeOfData": 34,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_ODBCQualifyFileDSNW@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 301
+    },
+    {
+      "offset": 21492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4124776519,
+      "sizeOfData": 34,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_ODBCSetTryWaitValue@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 86
+    },
+    {
+      "offset": 21606,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3987251134,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_OpenODBCPerfData@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "OpenODBCPerfData"
+    },
+    {
+      "offset": 21718,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3986032978,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_PostComponentError@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "PostComponentError"
+    },
+    {
+      "offset": 21832,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3236363693,
+      "sizeOfData": 37,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_PostODBCComponentError@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "PostODBCComponentError"
+    },
+    {
+      "offset": 21950,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3674048083,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_PostODBCError@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "PostODBCError"
+    },
+    {
+      "offset": 22060,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3974752251,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLAllocConnect@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 1
+    },
+    {
+      "offset": 22170,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3864607909,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLAllocEnv@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 2
+    },
+    {
+      "offset": 22276,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4098585525,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLAllocHandle@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 24
+    },
+    {
+      "offset": 22386,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3285979538,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLAllocHandleStd@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 77
+    },
+    {
+      "offset": 22500,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3497797592,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLAllocStmt@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 3
+    },
+    {
+      "offset": 22608,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3906404140,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLBindCol@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 4
+    },
+    {
+      "offset": 22714,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3731087498,
+      "sizeOfData": 28,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLBindParam@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 25
+    },
+    {
+      "offset": 22822,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3632498937,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLBindParameter@40",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 72
+    },
+    {
+      "offset": 22934,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4243659247,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLBrowseConnect@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 55
+    },
+    {
+      "offset": 23046,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3517688459,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLBrowseConnectA@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 255
+    },
+    {
+      "offset": 23160,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3234995425,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLBrowseConnectW@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 155
+    },
+    {
+      "offset": 23274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3362371358,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLBulkOperations@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 78
+    },
+    {
+      "offset": 23386,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3226413315,
+      "sizeOfData": 24,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLCancel@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 5
+    },
+    {
+      "offset": 23490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3532713219,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLCancelHandle@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "SQLCancelHandle"
+    },
+    {
+      "offset": 23600,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4232999064,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLCloseCursor@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 26
+    },
+    {
+      "offset": 23710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3238634452,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLColAttribute@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 27
+    },
+    {
+      "offset": 23822,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4033860937,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLColAttributeA@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 227
+    },
+    {
+      "offset": 23934,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3902252804,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLColAttributeW@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 127
+    },
+    {
+      "offset": 24046,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3370019678,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLColAttributes@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 6
+    },
+    {
+      "offset": 24158,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4229822125,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLColAttributesA@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 206
+    },
+    {
+      "offset": 24272,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3752024182,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLColAttributesW@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 106
+    },
+    {
+      "offset": 24386,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3833076536,
+      "sizeOfData": 35,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLColumnPrivileges@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 56
+    },
+    {
+      "offset": 24502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3357462926,
+      "sizeOfData": 36,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLColumnPrivilegesA@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 256
+    },
+    {
+      "offset": 24618,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3323602420,
+      "sizeOfData": 36,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLColumnPrivilegesW@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 156
+    },
+    {
+      "offset": 24734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3696917169,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLColumns@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 40
+    },
+    {
+      "offset": 24840,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3242480979,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLColumnsA@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 240
+    },
+    {
+      "offset": 24948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4211315811,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLColumnsW@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 140
+    },
+    {
+      "offset": 25056,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4201557167,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLCompleteAsync@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "SQLCompleteAsync"
+    },
+    {
+      "offset": 25168,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4186443030,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLConnect@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 7
+    },
+    {
+      "offset": 25274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3780693420,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLConnectA@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 207
+    },
+    {
+      "offset": 25382,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3918334605,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLConnectW@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 107
+    },
+    {
+      "offset": 25490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3286295383,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLCopyDesc@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 28
+    },
+    {
+      "offset": 25596,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3791647603,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDataSources@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 57
+    },
+    {
+      "offset": 25706,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4261772762,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDataSourcesA@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 257
+    },
+    {
+      "offset": 25818,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4283113619,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDataSourcesW@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 157
+    },
+    {
+      "offset": 25930,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3930231622,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDescribeCol@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 8
+    },
+    {
+      "offset": 26040,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3973729037,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDescribeColA@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 208
+    },
+    {
+      "offset": 26152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3530693768,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDescribeColW@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 108
+    },
+    {
+      "offset": 26264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4178636777,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDescribeParam@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 58
+    },
+    {
+      "offset": 26376,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3419214385,
+      "sizeOfData": 28,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDisconnect@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 9
+    },
+    {
+      "offset": 26484,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3760775394,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDriverConnect@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 41
+    },
+    {
+      "offset": 26596,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3282933177,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDriverConnectA@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 241
+    },
+    {
+      "offset": 26710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4121477949,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDriverConnectW@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 141
+    },
+    {
+      "offset": 26824,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4073036910,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDrivers@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 71
+    },
+    {
+      "offset": 26930,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3750494290,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDriversA@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 271
+    },
+    {
+      "offset": 27038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3558391120,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLDriversW@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 171
+    },
+    {
+      "offset": 27146,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3280525985,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLEndTran@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 29
+    },
+    {
+      "offset": 27252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3512519300,
+      "sizeOfData": 24,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLError@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 10
+    },
+    {
+      "offset": 27356,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3610917343,
+      "sizeOfData": 25,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLErrorA@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 210
+    },
+    {
+      "offset": 27462,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3942709015,
+      "sizeOfData": 25,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLErrorW@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 110
+    },
+    {
+      "offset": 27568,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3766794131,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLExecDirect@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 11
+    },
+    {
+      "offset": 27678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4157059675,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLExecDirectA@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 211
+    },
+    {
+      "offset": 27788,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3746513375,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLExecDirectW@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 111
+    },
+    {
+      "offset": 27898,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3614778969,
+      "sizeOfData": 25,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLExecute@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 12
+    },
+    {
+      "offset": 28004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3894502615,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLExtendedFetch@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 59
+    },
+    {
+      "offset": 28116,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3654154894,
+      "sizeOfData": 23,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLFetch@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 13
+    },
+    {
+      "offset": 28220,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3395963944,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLFetchScroll@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 30
+    },
+    {
+      "offset": 28330,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3935494693,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLForeignKeys@52",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 60
+    },
+    {
+      "offset": 28440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3891310259,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLForeignKeysA@52",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 260
+    },
+    {
+      "offset": 28552,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3925308355,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLForeignKeysW@52",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 160
+    },
+    {
+      "offset": 28664,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3868635713,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLFreeConnect@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 14
+    },
+    {
+      "offset": 28774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3376431162,
+      "sizeOfData": 25,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLFreeEnv@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 15
+    },
+    {
+      "offset": 28880,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3620706200,
+      "sizeOfData": 28,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLFreeHandle@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 31
+    },
+    {
+      "offset": 28988,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4073611300,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLFreeStmt@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 16
+    },
+    {
+      "offset": 29094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4004551527,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetConnectAttr@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 32
+    },
+    {
+      "offset": 29208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3752676799,
+      "sizeOfData": 34,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetConnectAttrA@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 232
+    },
+    {
+      "offset": 29322,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3418021852,
+      "sizeOfData": 34,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetConnectAttrW@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 132
+    },
+    {
+      "offset": 29436,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4036385784,
+      "sizeOfData": 35,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetConnectOption@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 42
+    },
+    {
+      "offset": 29552,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4269774718,
+      "sizeOfData": 36,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetConnectOptionA@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 242
+    },
+    {
+      "offset": 29668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3959523291,
+      "sizeOfData": 36,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetConnectOptionW@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 142
+    },
+    {
+      "offset": 29784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3306275427,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetCursorName@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 17
+    },
+    {
+      "offset": 29896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3483747976,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetCursorNameA@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 217
+    },
+    {
+      "offset": 30010,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3252695603,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetCursorNameW@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 117
+    },
+    {
+      "offset": 30124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3736445110,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetData@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 43
+    },
+    {
+      "offset": 30230,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3403680903,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetDescField@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 33
+    },
+    {
+      "offset": 30342,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3637679333,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetDescFieldA@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 233
+    },
+    {
+      "offset": 30454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3725240640,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetDescFieldW@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 133
+    },
+    {
+      "offset": 30566,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3316066056,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetDescRec@44",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 34
+    },
+    {
+      "offset": 30676,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4068627640,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetDescRecA@44",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 234
+    },
+    {
+      "offset": 30786,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3732939472,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetDescRecW@44",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 134
+    },
+    {
+      "offset": 30896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3516832564,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetDiagField@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 35
+    },
+    {
+      "offset": 31008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3602063163,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetDiagFieldA@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 235
+    },
+    {
+      "offset": 31120,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4260538674,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetDiagFieldW@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 135
+    },
+    {
+      "offset": 31232,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3511661801,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetDiagRec@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 36
+    },
+    {
+      "offset": 31342,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3715728635,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetDiagRecA@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 236
+    },
+    {
+      "offset": 31452,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4220456784,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetDiagRecW@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 136
+    },
+    {
+      "offset": 31562,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4145744402,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetEnvAttr@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 37
+    },
+    {
+      "offset": 31672,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4234899687,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetFunctions@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 44
+    },
+    {
+      "offset": 31784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3547017989,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetInfo@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 45
+    },
+    {
+      "offset": 31890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3861615913,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetInfoA@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 245
+    },
+    {
+      "offset": 31998,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3565015762,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetInfoW@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 145
+    },
+    {
+      "offset": 32106,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4218684638,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetStmtAttr@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 38
+    },
+    {
+      "offset": 32216,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3621024394,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetStmtAttrA@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 238
+    },
+    {
+      "offset": 32328,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4209944376,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetStmtAttrW@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 138
+    },
+    {
+      "offset": 32440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4062228395,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetStmtOption@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 46
+    },
+    {
+      "offset": 32552,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3924334864,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetTypeInfo@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 47
+    },
+    {
+      "offset": 32662,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4206923453,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetTypeInfoA@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 247
+    },
+    {
+      "offset": 32772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3760704365,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLGetTypeInfoW@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 147
+    },
+    {
+      "offset": 32882,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3459831235,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLMoreResults@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 61
+    },
+    {
+      "offset": 32992,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3880817950,
+      "sizeOfData": 28,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLNativeSql@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 62
+    },
+    {
+      "offset": 33100,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3858956235,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLNativeSqlA@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 262
+    },
+    {
+      "offset": 33210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4230924823,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLNativeSqlW@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 162
+    },
+    {
+      "offset": 33320,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3661557929,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLNumParams@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 63
+    },
+    {
+      "offset": 33428,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4160713433,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLNumResultCols@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 18
+    },
+    {
+      "offset": 33540,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3295116625,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLParamData@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 48
+    },
+    {
+      "offset": 33648,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3324818410,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLParamOptions@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 64
+    },
+    {
+      "offset": 33760,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3884196365,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLPrepare@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 19
+    },
+    {
+      "offset": 33866,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3414877294,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLPrepareA@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 219
+    },
+    {
+      "offset": 33974,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3418337351,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLPrepareW@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 119
+    },
+    {
+      "offset": 34082,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4236082461,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLPrimaryKeys@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 65
+    },
+    {
+      "offset": 34192,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3295551388,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLPrimaryKeysA@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 265
+    },
+    {
+      "offset": 34304,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3298082787,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLPrimaryKeysW@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 165
+    },
+    {
+      "offset": 34416,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4287980819,
+      "sizeOfData": 35,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLProcedureColumns@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 66
+    },
+    {
+      "offset": 34532,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3928421051,
+      "sizeOfData": 36,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLProcedureColumnsA@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 266
+    },
+    {
+      "offset": 34648,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3826614383,
+      "sizeOfData": 36,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLProcedureColumnsW@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 166
+    },
+    {
+      "offset": 34764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3299251342,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLProcedures@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 67
+    },
+    {
+      "offset": 34874,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4277392233,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLProceduresA@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 267
+    },
+    {
+      "offset": 34984,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3873652547,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLProceduresW@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 167
+    },
+    {
+      "offset": 35094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3886819711,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLPutData@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 49
+    },
+    {
+      "offset": 35200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4020983814,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLRowCount@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 20
+    },
+    {
+      "offset": 35306,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3677203473,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetConnectAttr@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 39
+    },
+    {
+      "offset": 35420,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4132289395,
+      "sizeOfData": 34,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetConnectAttrA@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 239
+    },
+    {
+      "offset": 35534,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3242376826,
+      "sizeOfData": 34,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetConnectAttrW@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 139
+    },
+    {
+      "offset": 35648,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3701351534,
+      "sizeOfData": 35,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetConnectOption@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 50
+    },
+    {
+      "offset": 35764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3868918017,
+      "sizeOfData": 36,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetConnectOptionA@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 250
+    },
+    {
+      "offset": 35880,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4103534411,
+      "sizeOfData": 36,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetConnectOptionW@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 150
+    },
+    {
+      "offset": 35996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3248052199,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetCursorName@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 21
+    },
+    {
+      "offset": 36108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3885887018,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetCursorNameA@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 221
+    },
+    {
+      "offset": 36222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3881794224,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetCursorNameW@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 121
+    },
+    {
+      "offset": 36336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4258333273,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetDescField@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 73
+    },
+    {
+      "offset": 36448,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4254269452,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetDescFieldA@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 273
+    },
+    {
+      "offset": 36560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4266070837,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetDescFieldW@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 173
+    },
+    {
+      "offset": 36672,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4148716434,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetDescRec@40",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 74
+    },
+    {
+      "offset": 36782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3412853100,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetEnvAttr@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 75
+    },
+    {
+      "offset": 36892,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4000351030,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetParam@32",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 22
+    },
+    {
+      "offset": 37000,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3294616752,
+      "sizeOfData": 25,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetPos@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 68
+    },
+    {
+      "offset": 37106,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4084860867,
+      "sizeOfData": 35,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetScrollOptions@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 69
+    },
+    {
+      "offset": 37222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4148781995,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetStmtAttr@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 76
+    },
+    {
+      "offset": 37332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4182186646,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetStmtAttrA@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 276
+    },
+    {
+      "offset": 37444,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3831295415,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetStmtAttrW@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 176
+    },
+    {
+      "offset": 37556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3773539196,
+      "sizeOfData": 32,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSetStmtOption@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 51
+    },
+    {
+      "offset": 37668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3297974458,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSpecialColumns@40",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 52
+    },
+    {
+      "offset": 37782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3869854843,
+      "sizeOfData": 34,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSpecialColumnsA@40",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 252
+    },
+    {
+      "offset": 37896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3368403116,
+      "sizeOfData": 34,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLSpecialColumnsW@40",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 152
+    },
+    {
+      "offset": 38010,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3345812531,
+      "sizeOfData": 29,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLStatistics@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 53
+    },
+    {
+      "offset": 38120,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3927875747,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLStatisticsA@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 253
+    },
+    {
+      "offset": 38230,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4118471852,
+      "sizeOfData": 30,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLStatisticsW@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 153
+    },
+    {
+      "offset": 38340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4113042825,
+      "sizeOfData": 34,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLTablePrivileges@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 70
+    },
+    {
+      "offset": 38454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3672676718,
+      "sizeOfData": 35,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLTablePrivilegesA@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 270
+    },
+    {
+      "offset": 38570,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3804849531,
+      "sizeOfData": 35,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLTablePrivilegesW@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 170
+    },
+    {
+      "offset": 38686,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3323199717,
+      "sizeOfData": 25,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLTables@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 54
+    },
+    {
+      "offset": 38792,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4242044374,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLTablesA@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 254
+    },
+    {
+      "offset": 38898,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3746155116,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLTablesW@36",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 154
+    },
+    {
+      "offset": 39004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3394181426,
+      "sizeOfData": 27,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SQLTransact@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 23
+    },
+    {
+      "offset": 39112,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3637248552,
+      "sizeOfData": 31,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_SearchStatusCode@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 171,
+      "name": "SearchStatusCode"
+    },
+    {
+      "offset": 39224,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4196502302,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_VFreeErrors@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 172,
+      "name": "VFreeErrors"
+    },
+    {
+      "offset": 39330,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3377398858,
+      "sizeOfData": 43,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_VRetrieveDriverErrorsRowCol@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 173,
+      "name": "VRetrieveDriverErrorsRowCol"
+    },
+    {
+      "offset": 39454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4215577905,
+      "sizeOfData": 33,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_ValidateErrorQueue@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 174,
+      "name": "ValidateErrorQueue"
+    },
+    {
+      "offset": 39568,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3445671237,
+      "sizeOfData": 26,
+      "dllName": "ODBC32.dll",
+      "symbolName": "_g_hHeapMalloc",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 175,
+      "name": "g_hHeapMalloc"
+    }
+  ]
+}

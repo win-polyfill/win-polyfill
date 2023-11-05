@@ -1,0 +1,3314 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\ncrypt.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    249A size
+correct header end
+
+    285 public symbols
+
+     49BE __IMPORT_DESCRIPTOR_ncrypt
+     4BE4 __NULL_IMPORT_DESCRIPTOR
+     4D1A ncrypt_NULL_THUNK_DATA
+     68BE _NCryptCreatePersistedKey@24
+     68BE __imp__NCryptCreatePersistedKey@24
+     69B6 _NCryptDecrypt@32
+     69B6 __imp__NCryptDecrypt@32
+     6A24 _NCryptDeleteKey@8
+     6A24 __imp__NCryptDeleteKey@8
+     6B02 _NCryptEncrypt@32
+     6B02 __imp__NCryptEncrypt@32
+     6B70 _NCryptEnumAlgorithms@20
+     6B70 __imp__NCryptEnumAlgorithms@20
+     6BE4 _NCryptEnumKeys@20
+     6BE4 __imp__NCryptEnumKeys@20
+     6C52 _NCryptEnumStorageProviders@12
+     6C52 __imp__NCryptEnumStorageProviders@12
+     6CCC _NCryptExportKey@32
+     6CCC __imp__NCryptExportKey@32
+     6D3C _NCryptFinalizeKey@8
+     6D3C __imp__NCryptFinalizeKey@8
+     6DAC _NCryptFreeBuffer@4
+     6DAC __imp__NCryptFreeBuffer@4
+     6E1C _NCryptFreeObject@4
+     6E1C __imp__NCryptFreeObject@4
+     6E8C _NCryptGetProperty@24
+     6E8C __imp__NCryptGetProperty@24
+     6F80 _NCryptImportKey@32
+     6F80 __imp__NCryptImportKey@32
+     6FF0 _NCryptIsAlgSupported@12
+     6FF0 __imp__NCryptIsAlgSupported@12
+     7064 _NCryptIsKeyHandle@4
+     7064 __imp__NCryptIsKeyHandle@4
+     7148 _NCryptNotifyChangeKey@12
+     7148 __imp__NCryptNotifyChangeKey@12
+     71BE _NCryptOpenKey@20
+     71BE __imp__NCryptOpenKey@20
+     722C _NCryptOpenStorageProvider@12
+     722C __imp__NCryptOpenStorageProvider@12
+     7514 _NCryptSetProperty@20
+     7514 __imp__NCryptSetProperty@20
+     7586 _NCryptSignHash@32
+     7586 __imp__NCryptSignHash@32
+     784A _NCryptTranslateHandle@24
+     784A __imp__NCryptTranslateHandle@24
+     79A8 _NCryptVerifySignature@28
+     79A8 __imp__NCryptVerifySignature@28
+     7424 _NCryptSecretAgreement@16
+     7424 __imp__NCryptSecretAgreement@16
+     6A92 _NCryptDeriveKey@28
+     6A92 __imp__NCryptDeriveKey@28
+     70D4 _NCryptKeyDerivation@24
+     70D4 __imp__NCryptKeyDerivation@24
+     684C _NCryptCreateClaim@32
+     684C __imp__NCryptCreateClaim@32
+     7936 _NCryptVerifyClaim@32
+     7936 __imp__NCryptVerifyClaim@32
+     749A _NCryptSetAuditingInterface@4
+     749A __imp__NCryptSetAuditingInterface@4
+     739E _NCryptRegisterProtectionDescriptorName@12
+     739E __imp__NCryptRegisterProtectionDescriptorName@12
+     731A _NCryptQueryProtectionDescriptorName@16
+     731A __imp__NCryptQueryProtectionDescriptorName@16
+     6936 _NCryptCreateProtectionDescriptor@12
+     6936 __imp__NCryptCreateProtectionDescriptor@12
+     67CE _NCryptCloseProtectionDescriptor@4
+     67CE __imp__NCryptCloseProtectionDescriptor@4
+     6EFE _NCryptGetProtectionDescriptorInfo@16
+     6EFE __imp__NCryptGetProtectionDescriptorInfo@16
+     72A6 _NCryptProtectSecret@32
+     72A6 __imp__NCryptProtectSecret@32
+     78C0 _NCryptUnprotectSecret@32
+     78C0 __imp__NCryptUnprotectSecret@32
+     7664 _NCryptStreamOpenToProtect@20
+     7664 __imp__NCryptStreamOpenToProtect@20
+     76DE _NCryptStreamOpenToUnprotect@16
+     76DE __imp__NCryptStreamOpenToUnprotect@16
+     775A _NCryptStreamOpenToUnprotectEx@16
+     775A __imp__NCryptStreamOpenToUnprotectEx@16
+     77D8 _NCryptStreamUpdate@16
+     77D8 __imp__NCryptStreamUpdate@16
+     75F4 _NCryptStreamClose@4
+     75F4 __imp__NCryptStreamClose@4
+     4EE2 _BCryptCloseAlgorithmProvider@8
+     4EE2 __imp__BCryptCloseAlgorithmProvider@8
+     50C6 _BCryptCreateHash@28
+     50C6 __imp__BCryptCreateHash@28
+     5136 _BCryptDecrypt@40
+     5136 __imp__BCryptDecrypt@40
+     5370 _BCryptDestroyHash@4
+     5370 __imp__BCryptDestroyHash@4
+     53E0 _BCryptDestroyKey@4
+     53E0 __imp__BCryptDestroyKey@4
+     54C2 _BCryptDuplicateHash@20
+     54C2 __imp__BCryptDuplicateHash@20
+     5536 _BCryptDuplicateKey@20
+     5536 __imp__BCryptDuplicateKey@20
+     55A8 _BCryptEncrypt@40
+     55A8 __imp__BCryptEncrypt@40
+     5616 _BCryptEnumAlgorithms@16
+     5616 __imp__BCryptEnumAlgorithms@16
+     57F8 _BCryptEnumProviders@16
+     57F8 __imp__BCryptEnumProviders@16
+     58E8 _BCryptExportKey@28
+     58E8 __imp__BCryptExportKey@28
+     59CC _BCryptFinishHash@16
+     59CC __imp__BCryptFinishHash@16
+     5958 _BCryptFinalizeKeyPair@8
+     5958 __imp__BCryptFinalizeKeyPair@8
+     5A3C _BCryptFreeBuffer@4
+     5A3C __imp__BCryptFreeBuffer@4
+     5B1C _BCryptGenerateKeyPair@16
+     5B1C __imp__BCryptGenerateKeyPair@16
+     5B92 _BCryptGenerateSymmetricKey@28
+     5B92 __imp__BCryptGenerateSymmetricKey@28
+     5AAC _BCryptGenRandom@16
+     5AAC __imp__BCryptGenRandom@16
+     5C86 _BCryptGetProperty@24
+     5C86 __imp__BCryptGetProperty@24
+     5D62 _BCryptHashData@16
+     5D62 __imp__BCryptHashData@16
+     5DD0 _BCryptImportKey@36
+     5DD0 __imp__BCryptImportKey@36
+     5E40 _BCryptImportKeyPair@28
+     5E40 __imp__BCryptImportKeyPair@28
+     5F28 _BCryptOpenAlgorithmProvider@16
+     5F28 __imp__BCryptOpenAlgorithmProvider@16
+     6320 _BCryptSecretAgreement@16
+     6320 __imp__BCryptSecretAgreement@16
+     5216 _BCryptDeriveKey@28
+     5216 __imp__BCryptDeriveKey@28
+     5450 _BCryptDestroySecret@4
+     5450 __imp__BCryptDestroySecret@4
+     6490 _BCryptSetProperty@20
+     6490 __imp__BCryptSetProperty@20
+     6502 _BCryptSignHash@32
+     6502 __imp__BCryptSignHash@32
+     65F2 _BCryptVerifySignature@28
+     65F2 __imp__BCryptVerifySignature@28
+     5286 _BCryptDeriveKeyCapi@20
+     5286 __imp__BCryptDeriveKeyCapi@20
+     52FA _BCryptDeriveKeyPBKDF2@40
+     52FA __imp__BCryptDeriveKeyPBKDF2@40
+     5EB4 _BCryptKeyDerivation@24
+     5EB4 __imp__BCryptKeyDerivation@24
+     5CF8 _BCryptHash@28
+     5CF8 __imp__BCryptHash@28
+     612E _BCryptQueryProviderRegistration@20
+     612E __imp__BCryptQueryProviderRegistration@20
+     586C _BCryptEnumRegisteredProviders@8
+     586C __imp__BCryptEnumRegisteredProviders@8
+     5052 _BCryptCreateContext@12
+     5052 __imp__BCryptCreateContext@12
+     51A4 _BCryptDeleteContext@8
+     51A4 __imp__BCryptDeleteContext@8
+     5786 _BCryptEnumContexts@12
+     5786 __imp__BCryptEnumContexts@12
+     4F5E _BCryptConfigureContext@12
+     4F5E __imp__BCryptConfigureContext@12
+     5FA4 _BCryptQueryContextConfiguration@16
+     5FA4 __imp__BCryptQueryContextConfiguration@16
+     4E6A _BCryptAddContextFunction@20
+     4E6A __imp__BCryptAddContextFunction@20
+     622E _BCryptRemoveContextFunction@16
+     622E __imp__BCryptRemoveContextFunction@16
+     570C _BCryptEnumContextFunctions@20
+     570C __imp__BCryptEnumContextFunctions@20
+     4FD4 _BCryptConfigureContextFunction@20
+     4FD4 __imp__BCryptConfigureContextFunction@20
+     6024 _BCryptQueryContextFunctionConfiguration@24
+     6024 __imp__BCryptQueryContextFunctionConfiguration@24
+     568A _BCryptEnumContextFunctionProviders@24
+     568A __imp__BCryptEnumContextFunctionProviders@24
+     6410 _BCryptSetContextFunctionProperty@28
+     6410 __imp__BCryptSetContextFunctionProperty@28
+     60AC _BCryptQueryContextFunctionProperty@28
+     60AC __imp__BCryptQueryContextFunctionProperty@28
+     61AE _BCryptRegisterConfigChangeNotify@4
+     61AE __imp__BCryptRegisterConfigChangeNotify@4
+     6570 _BCryptUnregisterConfigChangeNotify@4
+     6570 __imp__BCryptUnregisterConfigChangeNotify@4
+     62AA _BCryptResolveProviders@32
+     62AA __imp__BCryptResolveProviders@32
+     5C0C _BCryptGetFipsAlgorithmMode@4
+     5C0C __imp__BCryptGetFipsAlgorithmMode@4
+     6396 _BCryptSetAuditingInterface@4
+     6396 __imp__BCryptSetAuditingInterface@4
+     7A1E _SslChangeNotify@8
+     7A1E __imp__SslChangeNotify@8
+     7A8C _SslComputeClientAuthHash@32
+     7A8C __imp__SslComputeClientAuthHash@32
+     7B04 _SslComputeEapKeyBlock@32
+     7B04 __imp__SslComputeEapKeyBlock@32
+     7B7A _SslComputeFinishedHash@24
+     7B7A __imp__SslComputeFinishedHash@24
+     7C66 _SslCreateClientAuthHash@24
+     7C66 __imp__SslCreateClientAuthHash@24
+     7CDE _SslCreateEphemeralKey@36
+     7CDE __imp__SslCreateEphemeralKey@36
+     7D54 _SslCreateHandshakeHash@20
+     7D54 __imp__SslCreateHandshakeHash@20
+     7E4C _SslDecryptPacket@40
+     7E4C __imp__SslDecryptPacket@40
+     7EBC _SslDuplicateTranscriptHash@16
+     7EBC __imp__SslDuplicateTranscriptHash@16
+     7F36 _SslEncryptPacket@44
+     7F36 __imp__SslEncryptPacket@44
+     7FA6 _SslEnumCipherSuites@20
+     7FA6 __imp__SslEnumCipherSuites@20
+     8100 _SslEnumProtocolProviders@12
+     8100 __imp__SslEnumProtocolProviders@12
+     8178 _SslExpandBinderKey@20
+     8178 __imp__SslExpandBinderKey@20
+     81EA _SslExpandExporterMasterKey@24
+     81EA __imp__SslExpandExporterMasterKey@24
+     8264 _SslExpandNextGenTrafficKey@20
+     8264 __imp__SslExpandNextGenTrafficKey@20
+     82DE _SslExpandPreSharedKey@28
+     82DE __imp__SslExpandPreSharedKey@28
+     8354 _SslExpandResumptionMasterKey@24
+     8354 __imp__SslExpandResumptionMasterKey@24
+     83D0 _SslExpandTrafficKeys@28
+     83D0 __imp__SslExpandTrafficKeys@28
+     8444 _SslExpandWriteKey@20
+     8444 __imp__SslExpandWriteKey@20
+     84B6 _SslExportKey@28
+     84B6 __imp__SslExportKey@28
+     8522 _SslExportKeyingMaterial@40
+     8522 __imp__SslExportKeyingMaterial@40
+     859A _SslExtractEarlyKey@28
+     859A __imp__SslExtractEarlyKey@28
+     860C _SslExtractHandshakeKey@28
+     860C __imp__SslExtractHandshakeKey@28
+     8682 _SslExtractMasterKey@20
+     8682 __imp__SslExtractMasterKey@20
+     86F6 _SslFreeBuffer@4
+     86F6 __imp__SslFreeBuffer@4
+     8762 _SslFreeObject@8
+     8762 __imp__SslFreeObject@8
+     87CE _SslGenerateMasterKey@44
+     87CE __imp__SslGenerateMasterKey@44
+     88BA _SslGenerateSessionKeys@24
+     88BA __imp__SslGenerateSessionKeys@24
+     8930 _SslGetCipherSuitePRFHashAlgorithm@24
+     8930 __imp__SslGetCipherSuitePRFHashAlgorithm@24
+     89B2 _SslGetKeyProperty@20
+     89B2 __imp__SslGetKeyProperty@20
+     8A24 _SslGetProviderProperty@24
+     8A24 __imp__SslGetProviderProperty@24
+     8A9A _SslHashHandshake@20
+     8A9A __imp__SslHashHandshake@20
+     8B0A _SslImportKey@24
+     8B0A __imp__SslImportKey@24
+     8B76 _SslImportMasterKey@36
+     8B76 __imp__SslImportMasterKey@36
+     8C6A _SslLookupCipherLengths@28
+     8C6A __imp__SslLookupCipherLengths@28
+     8CE0 _SslLookupCipherSuiteInfo@24
+     8CE0 __imp__SslLookupCipherSuiteInfo@24
+     8D58 _SslOpenPrivateKey@16
+     8D58 __imp__SslOpenPrivateKey@16
+     8DCA _SslOpenProvider@12
+     8DCA __imp__SslOpenProvider@12
+     8E3A _SslSignHash@32
+     8E3A __imp__SslSignHash@32
+     8EA6 _SslVerifySignature@28
+     8EA6 __imp__SslVerifySignature@28
+     8BE8 _SslIncrementProviderReferenceCount@4
+     8BE8 __imp__SslIncrementProviderReferenceCount@4
+     7DCA _SslDecrementProviderReferenceCount@4
+     7DCA __imp__SslDecrementProviderReferenceCount@4
+     7BF0 _SslComputeSessionHash@28
+     7BF0 __imp__SslComputeSessionHash@28
+     8842 _SslGeneratePreMasterKey@40
+     8842 __imp__SslGeneratePreMasterKey@40
+     8090 _SslEnumEccCurves@16
+     8090 __imp__SslEnumEccCurves@16
+     801A _SslEnumCipherSuitesEx@20
+     801A __imp__SslEnumCipherSuitesEx@20
+     66E4 _GetKeyStorageInterface@12
+     66E4 __imp__GetKeyStorageInterface@12
+     675A _GetSChannelInterface@12
+     675A __imp__GetSChannelInterface@12
+     6668 _GetIsolationServerInterface@12
+     6668 __imp__GetIsolationServerInterface@12
+
+Archive member name at 49BE: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1EA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        EAA4FB87 time date stamp
+             10A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CC file pointer to raw data (000000CC to 000000DF)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FE file pointer to raw data (000000FE to 00000109)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 4BE4: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        EB7914C5 time date stamp
+              B8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      64 file pointer to raw data (00000064 to 000000A3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A4 file pointer to raw data (000000A4 to 000000B7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 4D1A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     114 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E6D30B2A time date stamp
+              D4 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CC file pointer to raw data (000000CC to 000000CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data (000000D0 to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 4E6A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1A0FB0A
+  SizeOfData   : 00000028
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptAddContextFunction@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : BCryptAddContextFunction
+
+Archive member name at 4EE2: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E368B58E
+  SizeOfData   : 0000002B
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptCloseAlgorithmProvider@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : BCryptCloseAlgorithmProvider
+
+Archive member name at 4F5E: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C71030F3
+  SizeOfData   : 00000026
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptConfigureContext@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : BCryptConfigureContext
+
+Archive member name at 4FD4: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C415C816
+  SizeOfData   : 0000002E
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptConfigureContextFunction@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : BCryptConfigureContextFunction
+
+Archive member name at 5052: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE9030F0
+  SizeOfData   : 00000023
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptCreateContext@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : BCryptCreateContext
+
+Archive member name at 50C6: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8D96EC4
+  SizeOfData   : 00000020
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptCreateHash@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : BCryptCreateHash
+
+Archive member name at 5136: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECBD2AF6
+  SizeOfData   : 0000001D
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptDecrypt@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : BCryptDecrypt
+
+Archive member name at 51A4: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C476ED6A
+  SizeOfData   : 00000022
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptDeleteContext@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : BCryptDeleteContext
+
+Archive member name at 5216: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7CC85B2
+  SizeOfData   : 0000001F
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptDeriveKey@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : BCryptDeriveKey
+
+Archive member name at 5286: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F284E950
+  SizeOfData   : 00000023
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptDeriveKeyCapi@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : BCryptDeriveKeyCapi
+
+Archive member name at 52FA: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E02F4AB4
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptDeriveKeyPBKDF2@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : BCryptDeriveKeyPBKDF2
+
+Archive member name at 5370: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4161315
+  SizeOfData   : 00000020
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptDestroyHash@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : BCryptDestroyHash
+
+Archive member name at 53E0: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE6F0D63
+  SizeOfData   : 0000001F
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptDestroyKey@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : BCryptDestroyKey
+
+Archive member name at 5450: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDF9BAAA
+  SizeOfData   : 00000022
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptDestroySecret@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : BCryptDestroySecret
+
+Archive member name at 54C2: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF5F53D5
+  SizeOfData   : 00000023
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptDuplicateHash@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : BCryptDuplicateHash
+
+Archive member name at 5536: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0CBE4A2
+  SizeOfData   : 00000022
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptDuplicateKey@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : BCryptDuplicateKey
+
+Archive member name at 55A8: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB5874D3
+  SizeOfData   : 0000001D
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptEncrypt@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : BCryptEncrypt
+
+Archive member name at 5616: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F44BE88C
+  SizeOfData   : 00000024
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptEnumAlgorithms@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : BCryptEnumAlgorithms
+
+Archive member name at 568A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9740D62
+  SizeOfData   : 00000032
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptEnumContextFunctionProviders@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : BCryptEnumContextFunctionProviders
+
+Archive member name at 570C: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF39573C
+  SizeOfData   : 0000002A
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptEnumContextFunctions@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : BCryptEnumContextFunctions
+
+Archive member name at 5786: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA2A4316
+  SizeOfData   : 00000022
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptEnumContexts@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : BCryptEnumContexts
+
+Archive member name at 57F8: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0127828
+  SizeOfData   : 00000023
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptEnumProviders@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : BCryptEnumProviders
+
+Archive member name at 586C: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDED5677
+  SizeOfData   : 0000002C
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptEnumRegisteredProviders@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : BCryptEnumRegisteredProviders
+
+Archive member name at 58E8: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C708ED3C
+  SizeOfData   : 0000001F
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptExportKey@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : BCryptExportKey
+
+Archive member name at 5958: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA5647B7
+  SizeOfData   : 00000024
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptFinalizeKeyPair@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : BCryptFinalizeKeyPair
+
+Archive member name at 59CC: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6DE4ED6
+  SizeOfData   : 00000020
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptFinishHash@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : BCryptFinishHash
+
+Archive member name at 5A3C: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D804C032
+  SizeOfData   : 0000001F
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptFreeBuffer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : BCryptFreeBuffer
+
+Archive member name at 5AAC: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E03A68C4
+  SizeOfData   : 0000001F
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptGenRandom@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : BCryptGenRandom
+
+Archive member name at 5B1C: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7D8A78F
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptGenerateKeyPair@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : BCryptGenerateKeyPair
+
+Archive member name at 5B92: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F273BD9E
+  SizeOfData   : 0000002A
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptGenerateSymmetricKey@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : BCryptGenerateSymmetricKey
+
+Archive member name at 5C0C: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2BD8579
+  SizeOfData   : 00000029
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptGetFipsAlgorithmMode@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : BCryptGetFipsAlgorithmMode
+
+Archive member name at 5C86: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C87AE354
+  SizeOfData   : 00000021
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptGetProperty@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : BCryptGetProperty
+
+Archive member name at 5CF8: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E666C918
+  SizeOfData   : 0000001A
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptHash@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : BCryptHash
+
+Archive member name at 5D62: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F274BA08
+  SizeOfData   : 0000001E
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptHashData@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : BCryptHashData
+
+Archive member name at 5DD0: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA85794C
+  SizeOfData   : 0000001F
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptImportKey@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : BCryptImportKey
+
+Archive member name at 5E40: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEEB422C
+  SizeOfData   : 00000023
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptImportKeyPair@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : BCryptImportKeyPair
+
+Archive member name at 5EB4: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2AA346A
+  SizeOfData   : 00000023
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptKeyDerivation@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : BCryptKeyDerivation
+
+Archive member name at 5F28: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D39ABD0F
+  SizeOfData   : 0000002B
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptOpenAlgorithmProvider@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : BCryptOpenAlgorithmProvider
+
+Archive member name at 5FA4: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4FB1A30
+  SizeOfData   : 0000002F
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptQueryContextConfiguration@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : BCryptQueryContextConfiguration
+
+Archive member name at 6024: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8BBFF4E
+  SizeOfData   : 00000037
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptQueryContextFunctionConfiguration@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : BCryptQueryContextFunctionConfiguration
+
+Archive member name at 60AC: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBCFA446
+  SizeOfData   : 00000032
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptQueryContextFunctionProperty@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : BCryptQueryContextFunctionProperty
+
+Archive member name at 612E: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE235611
+  SizeOfData   : 0000002F
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptQueryProviderRegistration@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : BCryptQueryProviderRegistration
+
+Archive member name at 61AE: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D56729F9
+  SizeOfData   : 0000002F
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptRegisterConfigChangeNotify@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : BCryptRegisterConfigChangeNotify
+
+Archive member name at 622E: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE70F863
+  SizeOfData   : 0000002B
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptRemoveContextFunction@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : BCryptRemoveContextFunction
+
+Archive member name at 62AA: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C15EB3FB
+  SizeOfData   : 00000026
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptResolveProviders@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : BCryptResolveProviders
+
+Archive member name at 6320: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF24FC3A
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptSecretAgreement@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : BCryptSecretAgreement
+
+Archive member name at 6396: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C180D123
+  SizeOfData   : 00000029
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptSetAuditingInterface@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : BCryptSetAuditingInterface
+
+Archive member name at 6410: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA01D4A0
+  SizeOfData   : 00000030
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptSetContextFunctionProperty@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : BCryptSetContextFunctionProperty
+
+Archive member name at 6490: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9C8AEF1
+  SizeOfData   : 00000021
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptSetProperty@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : BCryptSetProperty
+
+Archive member name at 6502: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CEB7869E
+  SizeOfData   : 0000001E
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptSignHash@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : BCryptSignHash
+
+Archive member name at 6570: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F445F933
+  SizeOfData   : 00000031
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptUnregisterConfigChangeNotify@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : BCryptUnregisterConfigChangeNotify
+
+Archive member name at 65F2: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4652B12
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _BCryptVerifySignature@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : BCryptVerifySignature
+
+Archive member name at 6668: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D867413C
+  SizeOfData   : 0000002B
+  DLL name     : ncrypt.dll
+  Symbol name  : _GetIsolationServerInterface@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : GetIsolationServerInterface
+
+Archive member name at 66E4: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6E8C26B
+  SizeOfData   : 00000026
+  DLL name     : ncrypt.dll
+  Symbol name  : _GetKeyStorageInterface@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : GetKeyStorageInterface
+
+Archive member name at 675A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1C5DF59
+  SizeOfData   : 00000024
+  DLL name     : ncrypt.dll
+  Symbol name  : _GetSChannelInterface@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : GetSChannelInterface
+
+Archive member name at 67CE: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E27C6660
+  SizeOfData   : 0000002E
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptCloseProtectionDescriptor@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : NCryptCloseProtectionDescriptor
+
+Archive member name at 684C: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C516FDF9
+  SizeOfData   : 00000021
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptCreateClaim@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : NCryptCreateClaim
+
+Archive member name at 68BE: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D951D4A1
+  SizeOfData   : 00000028
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptCreatePersistedKey@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : NCryptCreatePersistedKey
+
+Archive member name at 6936: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C828A708
+  SizeOfData   : 00000030
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptCreateProtectionDescriptor@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : NCryptCreateProtectionDescriptor
+
+Archive member name at 69B6: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F953C1D5
+  SizeOfData   : 0000001D
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptDecrypt@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : NCryptDecrypt
+
+Archive member name at 6A24: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F26B301E
+  SizeOfData   : 0000001E
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptDeleteKey@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : NCryptDeleteKey
+
+Archive member name at 6A92: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5F54F85
+  SizeOfData   : 0000001F
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptDeriveKey@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : NCryptDeriveKey
+
+Archive member name at 6B02: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F711D100
+  SizeOfData   : 0000001D
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptEncrypt@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : NCryptEncrypt
+
+Archive member name at 6B70: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8C6135F
+  SizeOfData   : 00000024
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptEnumAlgorithms@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : NCryptEnumAlgorithms
+
+Archive member name at 6BE4: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3CF2E00
+  SizeOfData   : 0000001E
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptEnumKeys@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : NCryptEnumKeys
+
+Archive member name at 6C52: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA20126F
+  SizeOfData   : 0000002A
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptEnumStorageProviders@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : NCryptEnumStorageProviders
+
+Archive member name at 6CCC: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD4FD881
+  SizeOfData   : 0000001F
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptExportKey@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : NCryptExportKey
+
+Archive member name at 6D3C: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E70A340F
+  SizeOfData   : 00000020
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptFinalizeKey@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : NCryptFinalizeKey
+
+Archive member name at 6DAC: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E29699AC
+  SizeOfData   : 0000001F
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptFreeBuffer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 74
+  Name         : NCryptFreeBuffer
+
+Archive member name at 6E1C: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2C6C6E6
+  SizeOfData   : 0000001F
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptFreeObject@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 75
+  Name         : NCryptFreeObject
+
+Archive member name at 6E8C: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7D98534
+  SizeOfData   : 00000021
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptGetProperty@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : NCryptGetProperty
+
+Archive member name at 6EFE: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E06D9395
+  SizeOfData   : 00000031
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptGetProtectionDescriptorInfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : NCryptGetProtectionDescriptorInfo
+
+Archive member name at 6F80: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA482937
+  SizeOfData   : 0000001F
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptImportKey@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : NCryptImportKey
+
+Archive member name at 6FF0: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF067839
+  SizeOfData   : 00000024
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptIsAlgSupported@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : NCryptIsAlgSupported
+
+Archive member name at 7064: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCE5DFB5
+  SizeOfData   : 00000020
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptIsKeyHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 80
+  Name         : NCryptIsKeyHandle
+
+Archive member name at 70D4: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA0A7031
+  SizeOfData   : 00000023
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptKeyDerivation@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : NCryptKeyDerivation
+
+Archive member name at 7148: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C94F624B
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptNotifyChangeKey@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 82
+  Name         : NCryptNotifyChangeKey
+
+Archive member name at 71BE: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1867BDB
+  SizeOfData   : 0000001D
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptOpenKey@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : NCryptOpenKey
+
+Archive member name at 722C: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0A7E4A3
+  SizeOfData   : 00000029
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptOpenStorageProvider@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 85
+  Name         : NCryptOpenStorageProvider
+
+Archive member name at 72A6: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D96D2AB4
+  SizeOfData   : 00000023
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptProtectSecret@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 87
+  Name         : NCryptProtectSecret
+
+Archive member name at 731A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA4C3EF8
+  SizeOfData   : 00000033
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptQueryProtectionDescriptorName@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 88
+  Name         : NCryptQueryProtectionDescriptorName
+
+Archive member name at 739E: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0A7C789
+  SizeOfData   : 00000036
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptRegisterProtectionDescriptorName@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 89
+  Name         : NCryptRegisterProtectionDescriptorName
+
+Archive member name at 7424: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D8664712
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptSecretAgreement@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 90
+  Name         : NCryptSecretAgreement
+
+Archive member name at 749A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA236765
+  SizeOfData   : 00000029
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptSetAuditingInterface@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 91
+  Name         : NCryptSetAuditingInterface
+
+Archive member name at 7514: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F04ABABA
+  SizeOfData   : 00000021
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptSetProperty@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 92
+  Name         : NCryptSetProperty
+
+Archive member name at 7586: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C92FF893
+  SizeOfData   : 0000001E
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptSignHash@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 93
+  Name         : NCryptSignHash
+
+Archive member name at 75F4: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0CBD1B5
+  SizeOfData   : 00000020
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptStreamClose@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 94
+  Name         : NCryptStreamClose
+
+Archive member name at 7664: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C75323EE
+  SizeOfData   : 00000029
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptStreamOpenToProtect@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 95
+  Name         : NCryptStreamOpenToProtect
+
+Archive member name at 76DE: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA177250
+  SizeOfData   : 0000002B
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptStreamOpenToUnprotect@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 96
+  Name         : NCryptStreamOpenToUnprotect
+
+Archive member name at 775A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE9EFFA7
+  SizeOfData   : 0000002D
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptStreamOpenToUnprotectEx@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 97
+  Name         : NCryptStreamOpenToUnprotectEx
+
+Archive member name at 77D8: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDF224EA
+  SizeOfData   : 00000022
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptStreamUpdate@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 98
+  Name         : NCryptStreamUpdate
+
+Archive member name at 784A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D2A49CF2
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptTranslateHandle@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 99
+  Name         : NCryptTranslateHandle
+
+Archive member name at 78C0: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD1086B3
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptUnprotectSecret@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 101
+  Name         : NCryptUnprotectSecret
+
+Archive member name at 7936: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC537121
+  SizeOfData   : 00000021
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptVerifyClaim@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 102
+  Name         : NCryptVerifyClaim
+
+Archive member name at 79A8: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1E73723
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _NCryptVerifySignature@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 103
+  Name         : NCryptVerifySignature
+
+Archive member name at 7A1E: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAA24BF7
+  SizeOfData   : 0000001E
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslChangeNotify@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 104
+  Name         : SslChangeNotify
+
+Archive member name at 7A8C: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFDA0F81
+  SizeOfData   : 00000028
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslComputeClientAuthHash@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 105
+  Name         : SslComputeClientAuthHash
+
+Archive member name at 7B04: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4521A3A
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslComputeEapKeyBlock@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 106
+  Name         : SslComputeEapKeyBlock
+
+Archive member name at 7B7A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C415E34B
+  SizeOfData   : 00000026
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslComputeFinishedHash@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 107
+  Name         : SslComputeFinishedHash
+
+Archive member name at 7BF0: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F477B188
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslComputeSessionHash@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 108
+  Name         : SslComputeSessionHash
+
+Archive member name at 7C66: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3FF14C8
+  SizeOfData   : 00000027
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslCreateClientAuthHash@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 109
+  Name         : SslCreateClientAuthHash
+
+Archive member name at 7CDE: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D995039B
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslCreateEphemeralKey@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 110
+  Name         : SslCreateEphemeralKey
+
+Archive member name at 7D54: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7EF11C5
+  SizeOfData   : 00000026
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslCreateHandshakeHash@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 111
+  Name         : SslCreateHandshakeHash
+
+Archive member name at 7DCA: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3FE468A
+  SizeOfData   : 00000031
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslDecrementProviderReferenceCount@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 112
+  Name         : SslDecrementProviderReferenceCount
+
+Archive member name at 7E4C: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D912184F
+  SizeOfData   : 00000020
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslDecryptPacket@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 113
+  Name         : SslDecryptPacket
+
+Archive member name at 7EBC: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFDE9DA2
+  SizeOfData   : 0000002A
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslDuplicateTranscriptHash@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 114
+  Name         : SslDuplicateTranscriptHash
+
+Archive member name at 7F36: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C47E3F3F
+  SizeOfData   : 00000020
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslEncryptPacket@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 115
+  Name         : SslEncryptPacket
+
+Archive member name at 7FA6: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3B58B72
+  SizeOfData   : 00000023
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslEnumCipherSuites@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 116
+  Name         : SslEnumCipherSuites
+
+Archive member name at 801A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE10B4D6
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslEnumCipherSuitesEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 117
+  Name         : SslEnumCipherSuitesEx
+
+Archive member name at 8090: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D43C6E48
+  SizeOfData   : 00000020
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslEnumEccCurves@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 118
+  Name         : SslEnumEccCurves
+
+Archive member name at 8100: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F425D239
+  SizeOfData   : 00000028
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslEnumProtocolProviders@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 119
+  Name         : SslEnumProtocolProviders
+
+Archive member name at 8178: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE5455D3
+  SizeOfData   : 00000022
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslExpandBinderKey@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 120
+  Name         : SslExpandBinderKey
+
+Archive member name at 81EA: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E53DCF16
+  SizeOfData   : 0000002A
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslExpandExporterMasterKey@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 121
+  Name         : SslExpandExporterMasterKey
+
+Archive member name at 8264: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C475E5CF
+  SizeOfData   : 0000002A
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslExpandNextGenTrafficKey@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 122
+  Name         : SslExpandNextGenTrafficKey
+
+Archive member name at 82DE: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF2F042E
+  SizeOfData   : 00000025
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslExpandPreSharedKey@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 123
+  Name         : SslExpandPreSharedKey
+
+Archive member name at 8354: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FD601D2E
+  SizeOfData   : 0000002C
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslExpandResumptionMasterKey@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 124
+  Name         : SslExpandResumptionMasterKey
+
+Archive member name at 83D0: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB435B53
+  SizeOfData   : 00000024
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslExpandTrafficKeys@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 125
+  Name         : SslExpandTrafficKeys
+
+Archive member name at 8444: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E03BAD87
+  SizeOfData   : 00000021
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslExpandWriteKey@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 126
+  Name         : SslExpandWriteKey
+
+Archive member name at 84B6: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC04D3F6
+  SizeOfData   : 0000001C
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslExportKey@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 127
+  Name         : SslExportKey
+
+Archive member name at 8522: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E922858C
+  SizeOfData   : 00000027
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslExportKeyingMaterial@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 128
+  Name         : SslExportKeyingMaterial
+
+Archive member name at 859A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCD51699
+  SizeOfData   : 00000022
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslExtractEarlyKey@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 129
+  Name         : SslExtractEarlyKey
+
+Archive member name at 860C: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4C3AE48
+  SizeOfData   : 00000026
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslExtractHandshakeKey@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 130
+  Name         : SslExtractHandshakeKey
+
+Archive member name at 8682: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D315BE44
+  SizeOfData   : 00000023
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslExtractMasterKey@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 131
+  Name         : SslExtractMasterKey
+
+Archive member name at 86F6: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5BB7FB5
+  SizeOfData   : 0000001C
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslFreeBuffer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 132
+  Name         : SslFreeBuffer
+
+Archive member name at 8762: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEA95C74
+  SizeOfData   : 0000001C
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslFreeObject@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 133
+  Name         : SslFreeObject
+
+Archive member name at 87CE: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F722FD79
+  SizeOfData   : 00000024
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslGenerateMasterKey@44
+  Type         : code
+  Name type    : undecorate
+  Hint         : 134
+  Name         : SslGenerateMasterKey
+
+Archive member name at 8842: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB1BC78F
+  SizeOfData   : 00000027
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslGeneratePreMasterKey@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 135
+  Name         : SslGeneratePreMasterKey
+
+Archive member name at 88BA: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF1B5A42
+  SizeOfData   : 00000026
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslGenerateSessionKeys@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 136
+  Name         : SslGenerateSessionKeys
+
+Archive member name at 8930: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F46CFF1A
+  SizeOfData   : 00000031
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslGetCipherSuitePRFHashAlgorithm@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 137
+  Name         : SslGetCipherSuitePRFHashAlgorithm
+
+Archive member name at 89B2: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC30D0DA
+  SizeOfData   : 00000021
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslGetKeyProperty@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 138
+  Name         : SslGetKeyProperty
+
+Archive member name at 8A24: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6F65148
+  SizeOfData   : 00000026
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslGetProviderProperty@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 139
+  Name         : SslGetProviderProperty
+
+Archive member name at 8A9A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5A5CA87
+  SizeOfData   : 00000020
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslHashHandshake@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 140
+  Name         : SslHashHandshake
+
+Archive member name at 8B0A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7C5B77B
+  SizeOfData   : 0000001C
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslImportKey@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 141
+  Name         : SslImportKey
+
+Archive member name at 8B76: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC28D60A
+  SizeOfData   : 00000022
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslImportMasterKey@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 142
+  Name         : SslImportMasterKey
+
+Archive member name at 8BE8: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D76D5A17
+  SizeOfData   : 00000031
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslIncrementProviderReferenceCount@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 143
+  Name         : SslIncrementProviderReferenceCount
+
+Archive member name at 8C6A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E99EEC69
+  SizeOfData   : 00000026
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslLookupCipherLengths@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 144
+  Name         : SslLookupCipherLengths
+
+Archive member name at 8CE0: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8BE562B
+  SizeOfData   : 00000028
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslLookupCipherSuiteInfo@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 145
+  Name         : SslLookupCipherSuiteInfo
+
+Archive member name at 8D58: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7147554
+  SizeOfData   : 00000021
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslOpenPrivateKey@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 146
+  Name         : SslOpenPrivateKey
+
+Archive member name at 8DCA: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDD6A8B5
+  SizeOfData   : 0000001F
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslOpenProvider@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 147
+  Name         : SslOpenProvider
+
+Archive member name at 8E3A: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D766C924
+  SizeOfData   : 0000001B
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslSignHash@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 148
+  Name         : SslSignHash
+
+Archive member name at 8EA6: ncrypt.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6AB9932
+  SizeOfData   : 00000022
+  DLL name     : ncrypt.dll
+  Symbol name  : _SslVerifySignature@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 149
+  Name         : SslVerifySignature
+
+     Exports
+
+       ordinal    name
+
+                  _BCryptAddContextFunction@20
+                  _BCryptCloseAlgorithmProvider@8
+                  _BCryptConfigureContext@12
+                  _BCryptConfigureContextFunction@20
+                  _BCryptCreateContext@12
+                  _BCryptCreateHash@28
+                  _BCryptDecrypt@40
+                  _BCryptDeleteContext@8
+                  _BCryptDeriveKey@28
+                  _BCryptDeriveKeyCapi@20
+                  _BCryptDeriveKeyPBKDF2@40
+                  _BCryptDestroyHash@4
+                  _BCryptDestroyKey@4
+                  _BCryptDestroySecret@4
+                  _BCryptDuplicateHash@20
+                  _BCryptDuplicateKey@20
+                  _BCryptEncrypt@40
+                  _BCryptEnumAlgorithms@16
+                  _BCryptEnumContextFunctionProviders@24
+                  _BCryptEnumContextFunctions@20
+                  _BCryptEnumContexts@12
+                  _BCryptEnumProviders@16
+                  _BCryptEnumRegisteredProviders@8
+                  _BCryptExportKey@28
+                  _BCryptFinalizeKeyPair@8
+                  _BCryptFinishHash@16
+                  _BCryptFreeBuffer@4
+                  _BCryptGenRandom@16
+                  _BCryptGenerateKeyPair@16
+                  _BCryptGenerateSymmetricKey@28
+                  _BCryptGetFipsAlgorithmMode@4
+                  _BCryptGetProperty@24
+                  _BCryptHash@28
+                  _BCryptHashData@16
+                  _BCryptImportKey@36
+                  _BCryptImportKeyPair@28
+                  _BCryptKeyDerivation@24
+                  _BCryptOpenAlgorithmProvider@16
+                  _BCryptQueryContextConfiguration@16
+                  _BCryptQueryContextFunctionConfiguration@24
+                  _BCryptQueryContextFunctionProperty@28
+                  _BCryptQueryProviderRegistration@20
+                  _BCryptRegisterConfigChangeNotify@4
+                  _BCryptRemoveContextFunction@16
+                  _BCryptResolveProviders@32
+                  _BCryptSecretAgreement@16
+                  _BCryptSetAuditingInterface@4
+                  _BCryptSetContextFunctionProperty@28
+                  _BCryptSetProperty@20
+                  _BCryptSignHash@32
+                  _BCryptUnregisterConfigChangeNotify@4
+                  _BCryptVerifySignature@28
+                  _GetIsolationServerInterface@12
+                  _GetKeyStorageInterface@12
+                  _GetSChannelInterface@12
+                  _NCryptCloseProtectionDescriptor@4
+                  _NCryptCreateClaim@32
+                  _NCryptCreatePersistedKey@24
+                  _NCryptCreateProtectionDescriptor@12
+                  _NCryptDecrypt@32
+                  _NCryptDeleteKey@8
+                  _NCryptDeriveKey@28
+                  _NCryptEncrypt@32
+                  _NCryptEnumAlgorithms@20
+                  _NCryptEnumKeys@20
+                  _NCryptEnumStorageProviders@12
+                  _NCryptExportKey@32
+                  _NCryptFinalizeKey@8
+                  _NCryptFreeBuffer@4
+                  _NCryptFreeObject@4
+                  _NCryptGetProperty@24
+                  _NCryptGetProtectionDescriptorInfo@16
+                  _NCryptImportKey@32
+                  _NCryptIsAlgSupported@12
+                  _NCryptIsKeyHandle@4
+                  _NCryptKeyDerivation@24
+                  _NCryptNotifyChangeKey@12
+                  _NCryptOpenKey@20
+                  _NCryptOpenStorageProvider@12
+                  _NCryptProtectSecret@32
+                  _NCryptQueryProtectionDescriptorName@16
+                  _NCryptRegisterProtectionDescriptorName@12
+                  _NCryptSecretAgreement@16
+                  _NCryptSetAuditingInterface@4
+                  _NCryptSetProperty@20
+                  _NCryptSignHash@32
+                  _NCryptStreamClose@4
+                  _NCryptStreamOpenToProtect@20
+                  _NCryptStreamOpenToUnprotect@16
+                  _NCryptStreamOpenToUnprotectEx@16
+                  _NCryptStreamUpdate@16
+                  _NCryptTranslateHandle@24
+                  _NCryptUnprotectSecret@32
+                  _NCryptVerifyClaim@32
+                  _NCryptVerifySignature@28
+                  _SslChangeNotify@8
+                  _SslComputeClientAuthHash@32
+                  _SslComputeEapKeyBlock@32
+                  _SslComputeFinishedHash@24
+                  _SslComputeSessionHash@28
+                  _SslCreateClientAuthHash@24
+                  _SslCreateEphemeralKey@36
+                  _SslCreateHandshakeHash@20
+                  _SslDecrementProviderReferenceCount@4
+                  _SslDecryptPacket@40
+                  _SslDuplicateTranscriptHash@16
+                  _SslEncryptPacket@44
+                  _SslEnumCipherSuites@20
+                  _SslEnumCipherSuitesEx@20
+                  _SslEnumEccCurves@16
+                  _SslEnumProtocolProviders@12
+                  _SslExpandBinderKey@20
+                  _SslExpandExporterMasterKey@24
+                  _SslExpandNextGenTrafficKey@20
+                  _SslExpandPreSharedKey@28
+                  _SslExpandResumptionMasterKey@24
+                  _SslExpandTrafficKeys@28
+                  _SslExpandWriteKey@20
+                  _SslExportKey@28
+                  _SslExportKeyingMaterial@40
+                  _SslExtractEarlyKey@28
+                  _SslExtractHandshakeKey@28
+                  _SslExtractMasterKey@20
+                  _SslFreeBuffer@4
+                  _SslFreeObject@8
+                  _SslGenerateMasterKey@44
+                  _SslGeneratePreMasterKey@40
+                  _SslGenerateSessionKeys@24
+                  _SslGetCipherSuitePRFHashAlgorithm@24
+                  _SslGetKeyProperty@20
+                  _SslGetProviderProperty@24
+                  _SslHashHandshake@20
+                  _SslImportKey@24
+                  _SslImportMasterKey@36
+                  _SslIncrementProviderReferenceCount@4
+                  _SslLookupCipherLengths@28
+                  _SslLookupCipherSuiteInfo@24
+                  _SslOpenPrivateKey@16
+                  _SslOpenProvider@12
+                  _SslSignHash@32
+                  _SslVerifySignature@28
+
+  Summary
+
+          C0 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

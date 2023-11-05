@@ -1,0 +1,6693 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_FwpiExpandCriteria0@20"
+    },
+    {
+      "name": "_FwpiFreeCriteria0@8"
+    },
+    {
+      "name": "_FwpiVpnTriggerAddAppSids@12"
+    },
+    {
+      "name": "_FwpiVpnTriggerAddFilePaths@12"
+    },
+    {
+      "name": "_FwpiVpnTriggerAddSecurityDescriptor@8"
+    },
+    {
+      "name": "_FwpiVpnTriggerConfigureParameters@8"
+    },
+    {
+      "name": "_FwpiVpnTriggerEventSubscribe0@20"
+    },
+    {
+      "name": "_FwpiVpnTriggerEventUnsubscribe0@8"
+    },
+    {
+      "name": "_FwpiVpnTriggerInitializeNrptTriggering@8"
+    },
+    {
+      "name": "_FwpiVpnTriggerRemoveAppSids@4"
+    },
+    {
+      "name": "_FwpiVpnTriggerRemoveFilePaths@4"
+    },
+    {
+      "name": "_FwpiVpnTriggerRemoveSecurityDescriptor@4"
+    },
+    {
+      "name": "_FwpiVpnTriggerResetNrptTriggering@4"
+    },
+    {
+      "name": "_FwpiVpnTriggerSetStateDisconnected@8"
+    },
+    {
+      "name": "_FwpiVpnTriggerUninitializeNrptTriggering@4"
+    },
+    {
+      "name": "_FwpmCalloutAdd0@16"
+    },
+    {
+      "name": "_FwpmCalloutCreateEnumHandle0@12"
+    },
+    {
+      "name": "_FwpmCalloutDeleteById0@8"
+    },
+    {
+      "name": "_FwpmCalloutDeleteByKey0@8"
+    },
+    {
+      "name": "_FwpmCalloutDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_FwpmCalloutEnum0@20"
+    },
+    {
+      "name": "_FwpmCalloutGetById0@12"
+    },
+    {
+      "name": "_FwpmCalloutGetByKey0@12"
+    },
+    {
+      "name": "_FwpmCalloutGetSecurityInfoByKey0@32"
+    },
+    {
+      "name": "_FwpmCalloutSetSecurityInfoByKey0@28"
+    },
+    {
+      "name": "_FwpmCalloutSubscribeChanges0@20"
+    },
+    {
+      "name": "_FwpmCalloutSubscriptionsGet0@12"
+    },
+    {
+      "name": "_FwpmCalloutUnsubscribeChanges0@8"
+    },
+    {
+      "name": "_FwpmConnectionCreateEnumHandle0@12"
+    },
+    {
+      "name": "_FwpmConnectionDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_FwpmConnectionEnum0@20"
+    },
+    {
+      "name": "_FwpmConnectionGetById0@16"
+    },
+    {
+      "name": "_FwpmConnectionGetSecurityInfo0@28"
+    },
+    {
+      "name": "_FwpmConnectionSetSecurityInfo0@24"
+    },
+    {
+      "name": "_FwpmConnectionSubscribe0@20"
+    },
+    {
+      "name": "_FwpmConnectionUnsubscribe0@8"
+    },
+    {
+      "name": "_FwpmDiagnoseNetFailure0@12"
+    },
+    {
+      "name": "_FwpmDynamicKeywordSubscribe0@16"
+    },
+    {
+      "name": "_FwpmDynamicKeywordUnsubscribe0@4"
+    },
+    {
+      "name": "_FwpmEngineClose0@4"
+    },
+    {
+      "name": "_FwpmEngineGetOption0@12"
+    },
+    {
+      "name": "_FwpmEngineGetSecurityInfo0@28"
+    },
+    {
+      "name": "_FwpmEngineOpen0@20"
+    },
+    {
+      "name": "_FwpmEngineSetOption0@12"
+    },
+    {
+      "name": "_FwpmEngineSetSecurityInfo0@24"
+    },
+    {
+      "name": "_FwpmEventProviderCreate0@8"
+    },
+    {
+      "name": "_FwpmEventProviderDestroy0@4"
+    },
+    {
+      "name": "_FwpmEventProviderFireNetEvent0@16"
+    },
+    {
+      "name": "_FwpmEventProviderFireNetEventEx0@20"
+    },
+    {
+      "name": "_FwpmEventProviderIsNetEventTypeEnabled0@12"
+    },
+    {
+      "name": "_FwpmFilterAdd0@16"
+    },
+    {
+      "name": "_FwpmFilterCreateEnumHandle0@12"
+    },
+    {
+      "name": "_FwpmFilterDeleteById0@12"
+    },
+    {
+      "name": "_FwpmFilterDeleteByKey0@8"
+    },
+    {
+      "name": "_FwpmFilterDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_FwpmFilterEnum0@20"
+    },
+    {
+      "name": "_FwpmFilterGetById0@16"
+    },
+    {
+      "name": "_FwpmFilterGetByKey0@12"
+    },
+    {
+      "name": "_FwpmFilterGetSecurityInfoByKey0@32"
+    },
+    {
+      "name": "_FwpmFilterSetSecurityInfoByKey0@28"
+    },
+    {
+      "name": "_FwpmFilterSubscribeChanges0@20"
+    },
+    {
+      "name": "_FwpmFilterSubscriptionsGet0@12"
+    },
+    {
+      "name": "_FwpmFilterUnsubscribeChanges0@8"
+    },
+    {
+      "name": "_FwpmFreeMemory0@4"
+    },
+    {
+      "name": "_FwpmGetAppIdFromFileName0@8"
+    },
+    {
+      "name": "_FwpmGetSidFromOnlineId0@8"
+    },
+    {
+      "name": "_FwpmIPsecS2STunnelAddConditions0@28"
+    },
+    {
+      "name": "_FwpmIPsecS2STunnelAddInterfaceToCompartment0@12"
+    },
+    {
+      "name": "_FwpmIPsecS2STunnelGetInterfaceForCompartment0@12"
+    },
+    {
+      "name": "_FwpmIPsecS2STunnelRemoveConditions0@28"
+    },
+    {
+      "name": "_FwpmIPsecS2STunnelRemoveInterfaceFromCompartment0@8"
+    },
+    {
+      "name": "_FwpmIPsecTunnelAdd0@28"
+    },
+    {
+      "name": "_FwpmIPsecTunnelAdd1@32"
+    },
+    {
+      "name": "_FwpmIPsecTunnelAdd2@32"
+    },
+    {
+      "name": "_FwpmIPsecTunnelAdd3@32"
+    },
+    {
+      "name": "_FwpmIPsecTunnelAddConditions0@20"
+    },
+    {
+      "name": "_FwpmIPsecTunnelDeleteByKey0@8"
+    },
+    {
+      "name": "_FwpmLayerCreateEnumHandle0@12"
+    },
+    {
+      "name": "_FwpmLayerDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_FwpmLayerEnum0@20"
+    },
+    {
+      "name": "_FwpmLayerGetById0@12"
+    },
+    {
+      "name": "_FwpmLayerGetByKey0@12"
+    },
+    {
+      "name": "_FwpmLayerGetSecurityInfoByKey0@32"
+    },
+    {
+      "name": "_FwpmLayerSetSecurityInfoByKey0@28"
+    },
+    {
+      "name": "_FwpmNetEventCreateEnumHandle0@12"
+    },
+    {
+      "name": "_FwpmNetEventCreateEnumHandleEx@16"
+    },
+    {
+      "name": "_FwpmNetEventDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_FwpmNetEventEnum0@20"
+    },
+    {
+      "name": "_FwpmNetEventEnum1@20"
+    },
+    {
+      "name": "_FwpmNetEventEnum2@20"
+    },
+    {
+      "name": "_FwpmNetEventEnum3@20"
+    },
+    {
+      "name": "_FwpmNetEventEnum4@20"
+    },
+    {
+      "name": "_FwpmNetEventEnum5@20"
+    },
+    {
+      "name": "_FwpmNetEventSubscribe0@20"
+    },
+    {
+      "name": "_FwpmNetEventSubscribe1@20"
+    },
+    {
+      "name": "_FwpmNetEventSubscribe2@20"
+    },
+    {
+      "name": "_FwpmNetEventSubscribe3@20"
+    },
+    {
+      "name": "_FwpmNetEventSubscribe4@20"
+    },
+    {
+      "name": "_FwpmNetEventSubscriptionsGet0@12"
+    },
+    {
+      "name": "_FwpmNetEventUnsubscribe0@8"
+    },
+    {
+      "name": "_FwpmNetEventsGetSecurityInfo0@28"
+    },
+    {
+      "name": "_FwpmNetEventsLost0@8"
+    },
+    {
+      "name": "_FwpmNetEventsSetSecurityInfo0@24"
+    },
+    {
+      "name": "_FwpmProcessNameResolutionEvent0@16"
+    },
+    {
+      "name": "_FwpmProviderAdd0@12"
+    },
+    {
+      "name": "_FwpmProviderContextAdd0@16"
+    },
+    {
+      "name": "_FwpmProviderContextAdd1@16"
+    },
+    {
+      "name": "_FwpmProviderContextAdd2@16"
+    },
+    {
+      "name": "_FwpmProviderContextAdd3@16"
+    },
+    {
+      "name": "_FwpmProviderContextCreateEnumHandle0@12"
+    },
+    {
+      "name": "_FwpmProviderContextDeleteById0@12"
+    },
+    {
+      "name": "_FwpmProviderContextDeleteByKey0@8"
+    },
+    {
+      "name": "_FwpmProviderContextDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_FwpmProviderContextEnum0@20"
+    },
+    {
+      "name": "_FwpmProviderContextEnum1@20"
+    },
+    {
+      "name": "_FwpmProviderContextEnum2@20"
+    },
+    {
+      "name": "_FwpmProviderContextEnum3@20"
+    },
+    {
+      "name": "_FwpmProviderContextGetById0@16"
+    },
+    {
+      "name": "_FwpmProviderContextGetById1@16"
+    },
+    {
+      "name": "_FwpmProviderContextGetById2@16"
+    },
+    {
+      "name": "_FwpmProviderContextGetById3@16"
+    },
+    {
+      "name": "_FwpmProviderContextGetByKey0@12"
+    },
+    {
+      "name": "_FwpmProviderContextGetByKey1@12"
+    },
+    {
+      "name": "_FwpmProviderContextGetByKey2@12"
+    },
+    {
+      "name": "_FwpmProviderContextGetByKey3@12"
+    },
+    {
+      "name": "_FwpmProviderContextGetSecurityInfoByKey0@32"
+    },
+    {
+      "name": "_FwpmProviderContextSetSecurityInfoByKey0@28"
+    },
+    {
+      "name": "_FwpmProviderContextSubscribeChanges0@20"
+    },
+    {
+      "name": "_FwpmProviderContextSubscriptionsGet0@12"
+    },
+    {
+      "name": "_FwpmProviderContextUnsubscribeChanges0@8"
+    },
+    {
+      "name": "_FwpmProviderCreateEnumHandle0@12"
+    },
+    {
+      "name": "_FwpmProviderDeleteByKey0@8"
+    },
+    {
+      "name": "_FwpmProviderDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_FwpmProviderEnum0@20"
+    },
+    {
+      "name": "_FwpmProviderGetByKey0@12"
+    },
+    {
+      "name": "_FwpmProviderGetSecurityInfoByKey0@32"
+    },
+    {
+      "name": "_FwpmProviderSetSecurityInfoByKey0@28"
+    },
+    {
+      "name": "_FwpmProviderSubscribeChanges0@20"
+    },
+    {
+      "name": "_FwpmProviderSubscriptionsGet0@12"
+    },
+    {
+      "name": "_FwpmProviderUnsubscribeChanges0@8"
+    },
+    {
+      "name": "_FwpmSessionCreateEnumHandle0@12"
+    },
+    {
+      "name": "_FwpmSessionDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_FwpmSessionEnum0@20"
+    },
+    {
+      "name": "_FwpmSubLayerAdd0@12"
+    },
+    {
+      "name": "_FwpmSubLayerCreateEnumHandle0@12"
+    },
+    {
+      "name": "_FwpmSubLayerDeleteByKey0@8"
+    },
+    {
+      "name": "_FwpmSubLayerDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_FwpmSubLayerEnum0@20"
+    },
+    {
+      "name": "_FwpmSubLayerGetByKey0@12"
+    },
+    {
+      "name": "_FwpmSubLayerGetSecurityInfoByKey0@32"
+    },
+    {
+      "name": "_FwpmSubLayerSetSecurityInfoByKey0@28"
+    },
+    {
+      "name": "_FwpmSubLayerSubscribeChanges0@20"
+    },
+    {
+      "name": "_FwpmSubLayerSubscriptionsGet0@12"
+    },
+    {
+      "name": "_FwpmSubLayerUnsubscribeChanges0@8"
+    },
+    {
+      "name": "_FwpmSystemPortsGet0@8"
+    },
+    {
+      "name": "_FwpmSystemPortsSubscribe0@20"
+    },
+    {
+      "name": "_FwpmSystemPortsUnsubscribe0@8"
+    },
+    {
+      "name": "_FwpmTraceRestoreDefaults0@0"
+    },
+    {
+      "name": "_FwpmTransactionAbort0@4"
+    },
+    {
+      "name": "_FwpmTransactionBegin0@8"
+    },
+    {
+      "name": "_FwpmTransactionCommit0@4"
+    },
+    {
+      "name": "_FwpmvSwitchEventSubscribe0@20"
+    },
+    {
+      "name": "_FwpmvSwitchEventUnsubscribe0@8"
+    },
+    {
+      "name": "_FwpmvSwitchEventsGetSecurityInfo0@28"
+    },
+    {
+      "name": "_FwpmvSwitchEventsSetSecurityInfo0@24"
+    },
+    {
+      "name": "_FwppConnectionGetByIPsecInfo@20"
+    },
+    {
+      "name": "_FwppConnectionGetByS2STunnelId@16"
+    },
+    {
+      "name": "_FwppConnectionGetS2STunnelId@16"
+    },
+    {
+      "name": "_FwppGetMD5HashBytes@16"
+    },
+    {
+      "name": "_FwppIPsecSaContextCreate@36"
+    },
+    {
+      "name": "_FwpsAleEndpointCreateEnumHandle0@12"
+    },
+    {
+      "name": "_FwpsAleEndpointDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_FwpsAleEndpointEnum0@20"
+    },
+    {
+      "name": "_FwpsAleEndpointGetById0@16"
+    },
+    {
+      "name": "_FwpsAleEndpointGetSecurityInfo0@28"
+    },
+    {
+      "name": "_FwpsAleEndpointSetSecurityInfo0@24"
+    },
+    {
+      "name": "_FwpsAleExplicitCredentialsQuery0@16"
+    },
+    {
+      "name": "_FwpsAleGetPortStatus0@12"
+    },
+    {
+      "name": "_FwpsClassifyUser0@28"
+    },
+    {
+      "name": "_FwpsFreeMemory0@4"
+    },
+    {
+      "name": "_FwpsGetInProcReplicaOffset0@4"
+    },
+    {
+      "name": "_FwpsLayerCreateInProcReplica0@8"
+    },
+    {
+      "name": "_FwpsLayerReleaseInProcReplica0@8"
+    },
+    {
+      "name": "_FwpsOpenToken0@20"
+    },
+    {
+      "name": "_FwpsQueryIPsecDosFWUsed0@8"
+    },
+    {
+      "name": "_FwpsQueryIPsecOffloadDone0@8"
+    },
+    {
+      "name": "_GetUnifiedTraceHandle@4"
+    },
+    {
+      "name": "_IPsecDospGetSecurityInfo0@28"
+    },
+    {
+      "name": "_IPsecDospGetStatistics0@8"
+    },
+    {
+      "name": "_IPsecDospSetSecurityInfo0@24"
+    },
+    {
+      "name": "_IPsecDospStateCreateEnumHandle0@12"
+    },
+    {
+      "name": "_IPsecDospStateDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_IPsecDospStateEnum0@20"
+    },
+    {
+      "name": "_IPsecGetKeyFromDictator0@16"
+    },
+    {
+      "name": "_IPsecGetStatistics0@8"
+    },
+    {
+      "name": "_IPsecGetStatistics1@8"
+    },
+    {
+      "name": "_IPsecKeyDictationCheck0@16"
+    },
+    {
+      "name": "_IPsecKeyManagerAddAndRegister0@16"
+    },
+    {
+      "name": "_IPsecKeyManagerGetSecurityInfoByKey0@32"
+    },
+    {
+      "name": "_IPsecKeyManagerSetSecurityInfoByKey0@28"
+    },
+    {
+      "name": "_IPsecKeyManagerUnregisterAndDelete0@8"
+    },
+    {
+      "name": "_IPsecKeyManagersGet0@12"
+    },
+    {
+      "name": "_IPsecKeyModuleAdd0@12"
+    },
+    {
+      "name": "_IPsecKeyModuleDelete0@8"
+    },
+    {
+      "name": "_IPsecKeyModuleUpdateAcquire0@20"
+    },
+    {
+      "name": "_IPsecKeyNotification0@12"
+    },
+    {
+      "name": "_IPsecSaContextAddInbound0@16"
+    },
+    {
+      "name": "_IPsecSaContextAddInbound1@16"
+    },
+    {
+      "name": "_IPsecSaContextAddInboundAndTrackConnection@28"
+    },
+    {
+      "name": "_IPsecSaContextAddOutbound0@16"
+    },
+    {
+      "name": "_IPsecSaContextAddOutbound1@16"
+    },
+    {
+      "name": "_IPsecSaContextAddOutboundAndTrackConnection@28"
+    },
+    {
+      "name": "_IPsecSaContextCreate0@16"
+    },
+    {
+      "name": "_IPsecSaContextCreate1@20"
+    },
+    {
+      "name": "_IPsecSaContextCreateEnumHandle0@12"
+    },
+    {
+      "name": "_IPsecSaContextDeleteById0@12"
+    },
+    {
+      "name": "_IPsecSaContextDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_IPsecSaContextEnum0@20"
+    },
+    {
+      "name": "_IPsecSaContextEnum1@20"
+    },
+    {
+      "name": "_IPsecSaContextExpire0@12"
+    },
+    {
+      "name": "_IPsecSaContextGetById0@16"
+    },
+    {
+      "name": "_IPsecSaContextGetById1@16"
+    },
+    {
+      "name": "_IPsecSaContextGetSpi0@20"
+    },
+    {
+      "name": "_IPsecSaContextGetSpi1@20"
+    },
+    {
+      "name": "_IPsecSaContextSetSpi0@20"
+    },
+    {
+      "name": "_IPsecSaContextSubscribe0@20"
+    },
+    {
+      "name": "_IPsecSaContextSubscriptionsGet0@12"
+    },
+    {
+      "name": "_IPsecSaContextUnsubscribe0@8"
+    },
+    {
+      "name": "_IPsecSaContextUpdate0@16"
+    },
+    {
+      "name": "_IPsecSaCreateEnumHandle0@12"
+    },
+    {
+      "name": "_IPsecSaDbGetSecurityInfo0@28"
+    },
+    {
+      "name": "_IPsecSaDbSetSecurityInfo0@24"
+    },
+    {
+      "name": "_IPsecSaDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_IPsecSaEnum0@20"
+    },
+    {
+      "name": "_IPsecSaEnum1@20"
+    },
+    {
+      "name": "_IPsecSaInitiateAsync0@16"
+    },
+    {
+      "name": "_IkeextGetConfigParameters0@4"
+    },
+    {
+      "name": "_IkeextGetStatistics0@8"
+    },
+    {
+      "name": "_IkeextGetStatistics1@8"
+    },
+    {
+      "name": "_IkeextSaCreateEnumHandle0@12"
+    },
+    {
+      "name": "_IkeextSaDbGetSecurityInfo0@28"
+    },
+    {
+      "name": "_IkeextSaDbSetSecurityInfo0@24"
+    },
+    {
+      "name": "_IkeextSaDeleteById0@12"
+    },
+    {
+      "name": "_IkeextSaDestroyEnumHandle0@8"
+    },
+    {
+      "name": "_IkeextSaEnum0@20"
+    },
+    {
+      "name": "_IkeextSaEnum1@20"
+    },
+    {
+      "name": "_IkeextSaEnum2@20"
+    },
+    {
+      "name": "_IkeextSaGetById0@16"
+    },
+    {
+      "name": "_IkeextSaGetById1@20"
+    },
+    {
+      "name": "_IkeextSaGetById2@20"
+    },
+    {
+      "name": "_IkeextSaUpdateAdditionalAddressesByTunnelId0@24"
+    },
+    {
+      "name": "_IkeextSaUpdatePreferredAddressesByTunnelId0@24"
+    },
+    {
+      "name": "_IkeextSetConfigParameters0@4"
+    },
+    {
+      "name": "_NamespaceCallout@12"
+    },
+    {
+      "name": "_WFPRIODequeueCompletion@12"
+    },
+    {
+      "name": "_WSADeleteSocketPeerTargetName@20"
+    },
+    {
+      "name": "_WSAImpersonateSocketPeer@12"
+    },
+    {
+      "name": "_WSAQuerySocketSecurity@28"
+    },
+    {
+      "name": "_WSARevertImpersonation@0"
+    },
+    {
+      "name": "_WSASetSocketPeerTargetName@20"
+    },
+    {
+      "name": "_WSASetSocketSecurity@20"
+    },
+    {
+      "name": "_WfpCloseDPConfigureHandle@4"
+    },
+    {
+      "name": "_WfpConfigureDPSecurityDescriptor@12"
+    },
+    {
+      "name": "_WfpCreateDPConfigureHandle@4"
+    },
+    {
+      "name": "_WfpRIOChannelClose@4"
+    },
+    {
+      "name": "_WfpRIOCleanupRequestQueue@8"
+    },
+    {
+      "name": "_WfpRIOCloseCompletionQueue@8"
+    },
+    {
+      "name": "_WfpRIOCreateChannel@12"
+    },
+    {
+      "name": "_WfpRIOCreateCompletionQueue@16"
+    },
+    {
+      "name": "_WfpRIOCreateRequestQueue@36"
+    },
+    {
+      "name": "_WfpRIODeregisterBuffer@12"
+    },
+    {
+      "name": "_WfpRIOIndicateActivityThreshold@8"
+    },
+    {
+      "name": "_WfpRIONotify@8"
+    },
+    {
+      "name": "_WfpRIOReceive@28"
+    },
+    {
+      "name": "_WfpRIORegisterBuffer@16"
+    },
+    {
+      "name": "_WfpRIOResume@4"
+    },
+    {
+      "name": "_WfpRIOSend@28"
+    },
+    {
+      "name": "_WfpRIOSuspend@4"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 41498,
+      "name": "__IMPORT_DESCRIPTOR_fwpuclnt"
+    },
+    {
+      "offset": 42056,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 42368,
+      "name": "fwpuclnt_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 50540,
+      "name": "_FwpmFreeMemory0@4"
+    },
+    {
+      "offset": 50540,
+      "name": "__imp__FwpmFreeMemory0@4"
+    },
+    {
+      "offset": 47954,
+      "name": "_FwpmEngineOpen0@20"
+    },
+    {
+      "offset": 47954,
+      "name": "__imp__FwpmEngineOpen0@20"
+    },
+    {
+      "offset": 47598,
+      "name": "_FwpmEngineClose0@4"
+    },
+    {
+      "offset": 47598,
+      "name": "__imp__FwpmEngineClose0@4"
+    },
+    {
+      "offset": 47712,
+      "name": "_FwpmEngineGetOption0@12"
+    },
+    {
+      "offset": 47712,
+      "name": "__imp__FwpmEngineGetOption0@12"
+    },
+    {
+      "offset": 48068,
+      "name": "_FwpmEngineSetOption0@12"
+    },
+    {
+      "offset": 48068,
+      "name": "__imp__FwpmEngineSetOption0@12"
+    },
+    {
+      "offset": 47830,
+      "name": "_FwpmEngineGetSecurityInfo0@28"
+    },
+    {
+      "offset": 47830,
+      "name": "__imp__FwpmEngineGetSecurityInfo0@28"
+    },
+    {
+      "offset": 48186,
+      "name": "_FwpmEngineSetSecurityInfo0@24"
+    },
+    {
+      "offset": 48186,
+      "name": "__imp__FwpmEngineSetSecurityInfo0@24"
+    },
+    {
+      "offset": 60158,
+      "name": "_FwpmSessionCreateEnumHandle0@12"
+    },
+    {
+      "offset": 60158,
+      "name": "__imp__FwpmSessionCreateEnumHandle0@12"
+    },
+    {
+      "offset": 60410,
+      "name": "_FwpmSessionEnum0@20"
+    },
+    {
+      "offset": 60410,
+      "name": "__imp__FwpmSessionEnum0@20"
+    },
+    {
+      "offset": 60284,
+      "name": "_FwpmSessionDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 60284,
+      "name": "__imp__FwpmSessionDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 62504,
+      "name": "_FwpmTransactionBegin0@8"
+    },
+    {
+      "offset": 62504,
+      "name": "__imp__FwpmTransactionBegin0@8"
+    },
+    {
+      "offset": 62622,
+      "name": "_FwpmTransactionCommit0@4"
+    },
+    {
+      "offset": 62622,
+      "name": "__imp__FwpmTransactionCommit0@4"
+    },
+    {
+      "offset": 62386,
+      "name": "_FwpmTransactionAbort0@4"
+    },
+    {
+      "offset": 62386,
+      "name": "__imp__FwpmTransactionAbort0@4"
+    },
+    {
+      "offset": 55594,
+      "name": "_FwpmProviderAdd0@12"
+    },
+    {
+      "offset": 55594,
+      "name": "__imp__FwpmProviderAdd0@12"
+    },
+    {
+      "offset": 59024,
+      "name": "_FwpmProviderDeleteByKey0@8"
+    },
+    {
+      "offset": 59024,
+      "name": "__imp__FwpmProviderDeleteByKey0@8"
+    },
+    {
+      "offset": 59390,
+      "name": "_FwpmProviderGetByKey0@12"
+    },
+    {
+      "offset": 59390,
+      "name": "__imp__FwpmProviderGetByKey0@12"
+    },
+    {
+      "offset": 58896,
+      "name": "_FwpmProviderCreateEnumHandle0@12"
+    },
+    {
+      "offset": 58896,
+      "name": "__imp__FwpmProviderCreateEnumHandle0@12"
+    },
+    {
+      "offset": 59274,
+      "name": "_FwpmProviderEnum0@20"
+    },
+    {
+      "offset": 59274,
+      "name": "__imp__FwpmProviderEnum0@20"
+    },
+    {
+      "offset": 59146,
+      "name": "_FwpmProviderDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 59146,
+      "name": "__imp__FwpmProviderDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 59510,
+      "name": "_FwpmProviderGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 59510,
+      "name": "__imp__FwpmProviderGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 59642,
+      "name": "_FwpmProviderSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 59642,
+      "name": "__imp__FwpmProviderSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 59774,
+      "name": "_FwpmProviderSubscribeChanges0@20"
+    },
+    {
+      "offset": 59774,
+      "name": "__imp__FwpmProviderSubscribeChanges0@20"
+    },
+    {
+      "offset": 60030,
+      "name": "_FwpmProviderUnsubscribeChanges0@8"
+    },
+    {
+      "offset": 60030,
+      "name": "__imp__FwpmProviderUnsubscribeChanges0@8"
+    },
+    {
+      "offset": 59902,
+      "name": "_FwpmProviderSubscriptionsGet0@12"
+    },
+    {
+      "offset": 59902,
+      "name": "__imp__FwpmProviderSubscriptionsGet0@12"
+    },
+    {
+      "offset": 55708,
+      "name": "_FwpmProviderContextAdd0@16"
+    },
+    {
+      "offset": 55708,
+      "name": "__imp__FwpmProviderContextAdd0@16"
+    },
+    {
+      "offset": 56330,
+      "name": "_FwpmProviderContextDeleteById0@12"
+    },
+    {
+      "offset": 56330,
+      "name": "__imp__FwpmProviderContextDeleteById0@12"
+    },
+    {
+      "offset": 56458,
+      "name": "_FwpmProviderContextDeleteByKey0@8"
+    },
+    {
+      "offset": 56458,
+      "name": "__imp__FwpmProviderContextDeleteByKey0@8"
+    },
+    {
+      "offset": 57208,
+      "name": "_FwpmProviderContextGetById0@16"
+    },
+    {
+      "offset": 57208,
+      "name": "__imp__FwpmProviderContextGetById0@16"
+    },
+    {
+      "offset": 57712,
+      "name": "_FwpmProviderContextGetByKey0@12"
+    },
+    {
+      "offset": 57712,
+      "name": "__imp__FwpmProviderContextGetByKey0@12"
+    },
+    {
+      "offset": 56196,
+      "name": "_FwpmProviderContextCreateEnumHandle0@12"
+    },
+    {
+      "offset": 56196,
+      "name": "__imp__FwpmProviderContextCreateEnumHandle0@12"
+    },
+    {
+      "offset": 56720,
+      "name": "_FwpmProviderContextEnum0@20"
+    },
+    {
+      "offset": 56720,
+      "name": "__imp__FwpmProviderContextEnum0@20"
+    },
+    {
+      "offset": 56586,
+      "name": "_FwpmProviderContextDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 56586,
+      "name": "__imp__FwpmProviderContextDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 58216,
+      "name": "_FwpmProviderContextGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 58216,
+      "name": "__imp__FwpmProviderContextGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 58354,
+      "name": "_FwpmProviderContextSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 58354,
+      "name": "__imp__FwpmProviderContextSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 58492,
+      "name": "_FwpmProviderContextSubscribeChanges0@20"
+    },
+    {
+      "offset": 58492,
+      "name": "__imp__FwpmProviderContextSubscribeChanges0@20"
+    },
+    {
+      "offset": 58760,
+      "name": "_FwpmProviderContextUnsubscribeChanges0@8"
+    },
+    {
+      "offset": 58760,
+      "name": "__imp__FwpmProviderContextUnsubscribeChanges0@8"
+    },
+    {
+      "offset": 58626,
+      "name": "_FwpmProviderContextSubscriptionsGet0@12"
+    },
+    {
+      "offset": 58626,
+      "name": "__imp__FwpmProviderContextSubscriptionsGet0@12"
+    },
+    {
+      "offset": 60524,
+      "name": "_FwpmSubLayerAdd0@12"
+    },
+    {
+      "offset": 60524,
+      "name": "__imp__FwpmSubLayerAdd0@12"
+    },
+    {
+      "offset": 60766,
+      "name": "_FwpmSubLayerDeleteByKey0@8"
+    },
+    {
+      "offset": 60766,
+      "name": "__imp__FwpmSubLayerDeleteByKey0@8"
+    },
+    {
+      "offset": 61132,
+      "name": "_FwpmSubLayerGetByKey0@12"
+    },
+    {
+      "offset": 61132,
+      "name": "__imp__FwpmSubLayerGetByKey0@12"
+    },
+    {
+      "offset": 60638,
+      "name": "_FwpmSubLayerCreateEnumHandle0@12"
+    },
+    {
+      "offset": 60638,
+      "name": "__imp__FwpmSubLayerCreateEnumHandle0@12"
+    },
+    {
+      "offset": 61016,
+      "name": "_FwpmSubLayerEnum0@20"
+    },
+    {
+      "offset": 61016,
+      "name": "__imp__FwpmSubLayerEnum0@20"
+    },
+    {
+      "offset": 60888,
+      "name": "_FwpmSubLayerDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 60888,
+      "name": "__imp__FwpmSubLayerDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 61252,
+      "name": "_FwpmSubLayerGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 61252,
+      "name": "__imp__FwpmSubLayerGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 61384,
+      "name": "_FwpmSubLayerSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 61384,
+      "name": "__imp__FwpmSubLayerSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 61516,
+      "name": "_FwpmSubLayerSubscribeChanges0@20"
+    },
+    {
+      "offset": 61516,
+      "name": "__imp__FwpmSubLayerSubscribeChanges0@20"
+    },
+    {
+      "offset": 61772,
+      "name": "_FwpmSubLayerUnsubscribeChanges0@8"
+    },
+    {
+      "offset": 61772,
+      "name": "__imp__FwpmSubLayerUnsubscribeChanges0@8"
+    },
+    {
+      "offset": 61644,
+      "name": "_FwpmSubLayerSubscriptionsGet0@12"
+    },
+    {
+      "offset": 61644,
+      "name": "__imp__FwpmSubLayerSubscriptionsGet0@12"
+    },
+    {
+      "offset": 52674,
+      "name": "_FwpmLayerGetById0@12"
+    },
+    {
+      "offset": 52674,
+      "name": "__imp__FwpmLayerGetById0@12"
+    },
+    {
+      "offset": 52790,
+      "name": "_FwpmLayerGetByKey0@12"
+    },
+    {
+      "offset": 52790,
+      "name": "__imp__FwpmLayerGetByKey0@12"
+    },
+    {
+      "offset": 52314,
+      "name": "_FwpmLayerCreateEnumHandle0@12"
+    },
+    {
+      "offset": 52314,
+      "name": "__imp__FwpmLayerCreateEnumHandle0@12"
+    },
+    {
+      "offset": 52562,
+      "name": "_FwpmLayerEnum0@20"
+    },
+    {
+      "offset": 52562,
+      "name": "__imp__FwpmLayerEnum0@20"
+    },
+    {
+      "offset": 52438,
+      "name": "_FwpmLayerDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 52438,
+      "name": "__imp__FwpmLayerDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 52906,
+      "name": "_FwpmLayerGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 52906,
+      "name": "__imp__FwpmLayerGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 53034,
+      "name": "_FwpmLayerSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 53034,
+      "name": "__imp__FwpmLayerSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 44626,
+      "name": "_FwpmCalloutAdd0@16"
+    },
+    {
+      "offset": 44626,
+      "name": "__imp__FwpmCalloutAdd0@16"
+    },
+    {
+      "offset": 44866,
+      "name": "_FwpmCalloutDeleteById0@8"
+    },
+    {
+      "offset": 44866,
+      "name": "__imp__FwpmCalloutDeleteById0@8"
+    },
+    {
+      "offset": 44986,
+      "name": "_FwpmCalloutDeleteByKey0@8"
+    },
+    {
+      "offset": 44986,
+      "name": "__imp__FwpmCalloutDeleteByKey0@8"
+    },
+    {
+      "offset": 45346,
+      "name": "_FwpmCalloutGetById0@12"
+    },
+    {
+      "offset": 45346,
+      "name": "__imp__FwpmCalloutGetById0@12"
+    },
+    {
+      "offset": 45464,
+      "name": "_FwpmCalloutGetByKey0@12"
+    },
+    {
+      "offset": 45464,
+      "name": "__imp__FwpmCalloutGetByKey0@12"
+    },
+    {
+      "offset": 44740,
+      "name": "_FwpmCalloutCreateEnumHandle0@12"
+    },
+    {
+      "offset": 44740,
+      "name": "__imp__FwpmCalloutCreateEnumHandle0@12"
+    },
+    {
+      "offset": 45232,
+      "name": "_FwpmCalloutEnum0@20"
+    },
+    {
+      "offset": 45232,
+      "name": "__imp__FwpmCalloutEnum0@20"
+    },
+    {
+      "offset": 45106,
+      "name": "_FwpmCalloutDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 45106,
+      "name": "__imp__FwpmCalloutDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 45582,
+      "name": "_FwpmCalloutGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 45582,
+      "name": "__imp__FwpmCalloutGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 45712,
+      "name": "_FwpmCalloutSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 45712,
+      "name": "__imp__FwpmCalloutSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 45842,
+      "name": "_FwpmCalloutSubscribeChanges0@20"
+    },
+    {
+      "offset": 45842,
+      "name": "__imp__FwpmCalloutSubscribeChanges0@20"
+    },
+    {
+      "offset": 46094,
+      "name": "_FwpmCalloutUnsubscribeChanges0@8"
+    },
+    {
+      "offset": 46094,
+      "name": "__imp__FwpmCalloutUnsubscribeChanges0@8"
+    },
+    {
+      "offset": 45968,
+      "name": "_FwpmCalloutSubscriptionsGet0@12"
+    },
+    {
+      "offset": 45968,
+      "name": "__imp__FwpmCalloutSubscriptionsGet0@12"
+    },
+    {
+      "offset": 48950,
+      "name": "_FwpmFilterAdd0@16"
+    },
+    {
+      "offset": 48950,
+      "name": "__imp__FwpmFilterAdd0@16"
+    },
+    {
+      "offset": 49188,
+      "name": "_FwpmFilterDeleteById0@12"
+    },
+    {
+      "offset": 49188,
+      "name": "__imp__FwpmFilterDeleteById0@12"
+    },
+    {
+      "offset": 49308,
+      "name": "_FwpmFilterDeleteByKey0@8"
+    },
+    {
+      "offset": 49308,
+      "name": "__imp__FwpmFilterDeleteByKey0@8"
+    },
+    {
+      "offset": 49668,
+      "name": "_FwpmFilterGetById0@16"
+    },
+    {
+      "offset": 49668,
+      "name": "__imp__FwpmFilterGetById0@16"
+    },
+    {
+      "offset": 49784,
+      "name": "_FwpmFilterGetByKey0@12"
+    },
+    {
+      "offset": 49784,
+      "name": "__imp__FwpmFilterGetByKey0@12"
+    },
+    {
+      "offset": 49062,
+      "name": "_FwpmFilterCreateEnumHandle0@12"
+    },
+    {
+      "offset": 49062,
+      "name": "__imp__FwpmFilterCreateEnumHandle0@12"
+    },
+    {
+      "offset": 49554,
+      "name": "_FwpmFilterEnum0@20"
+    },
+    {
+      "offset": 49554,
+      "name": "__imp__FwpmFilterEnum0@20"
+    },
+    {
+      "offset": 49428,
+      "name": "_FwpmFilterDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 49428,
+      "name": "__imp__FwpmFilterDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 49902,
+      "name": "_FwpmFilterGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 49902,
+      "name": "__imp__FwpmFilterGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 50032,
+      "name": "_FwpmFilterSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 50032,
+      "name": "__imp__FwpmFilterSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 50162,
+      "name": "_FwpmFilterSubscribeChanges0@20"
+    },
+    {
+      "offset": 50162,
+      "name": "__imp__FwpmFilterSubscribeChanges0@20"
+    },
+    {
+      "offset": 50414,
+      "name": "_FwpmFilterUnsubscribeChanges0@8"
+    },
+    {
+      "offset": 50414,
+      "name": "__imp__FwpmFilterUnsubscribeChanges0@8"
+    },
+    {
+      "offset": 50288,
+      "name": "_FwpmFilterSubscriptionsGet0@12"
+    },
+    {
+      "offset": 50288,
+      "name": "__imp__FwpmFilterSubscriptionsGet0@12"
+    },
+    {
+      "offset": 50652,
+      "name": "_FwpmGetAppIdFromFileName0@8"
+    },
+    {
+      "offset": 50652,
+      "name": "__imp__FwpmGetAppIdFromFileName0@8"
+    },
+    {
+      "offset": 51590,
+      "name": "_FwpmIPsecTunnelAdd0@28"
+    },
+    {
+      "offset": 51590,
+      "name": "__imp__FwpmIPsecTunnelAdd0@28"
+    },
+    {
+      "offset": 52190,
+      "name": "_FwpmIPsecTunnelDeleteByKey0@8"
+    },
+    {
+      "offset": 52190,
+      "name": "__imp__FwpmIPsecTunnelDeleteByKey0@8"
+    },
+    {
+      "offset": 66836,
+      "name": "_IPsecGetStatistics0@8"
+    },
+    {
+      "offset": 66836,
+      "name": "__imp__IPsecGetStatistics0@8"
+    },
+    {
+      "offset": 69094,
+      "name": "_IPsecSaContextCreate0@16"
+    },
+    {
+      "offset": 69094,
+      "name": "__imp__IPsecSaContextCreate0@16"
+    },
+    {
+      "offset": 69464,
+      "name": "_IPsecSaContextDeleteById0@12"
+    },
+    {
+      "offset": 69464,
+      "name": "__imp__IPsecSaContextDeleteById0@12"
+    },
+    {
+      "offset": 70074,
+      "name": "_IPsecSaContextGetById0@16"
+    },
+    {
+      "offset": 70074,
+      "name": "__imp__IPsecSaContextGetById0@16"
+    },
+    {
+      "offset": 70314,
+      "name": "_IPsecSaContextGetSpi0@20"
+    },
+    {
+      "offset": 70314,
+      "name": "__imp__IPsecSaContextGetSpi0@20"
+    },
+    {
+      "offset": 70554,
+      "name": "_IPsecSaContextSetSpi0@20"
+    },
+    {
+      "offset": 70554,
+      "name": "__imp__IPsecSaContextSetSpi0@20"
+    },
+    {
+      "offset": 68316,
+      "name": "_IPsecSaContextAddInbound0@16"
+    },
+    {
+      "offset": 68316,
+      "name": "__imp__IPsecSaContextAddInbound0@16"
+    },
+    {
+      "offset": 68704,
+      "name": "_IPsecSaContextAddOutbound0@16"
+    },
+    {
+      "offset": 68704,
+      "name": "__imp__IPsecSaContextAddOutbound0@16"
+    },
+    {
+      "offset": 69954,
+      "name": "_IPsecSaContextExpire0@12"
+    },
+    {
+      "offset": 69954,
+      "name": "__imp__IPsecSaContextExpire0@12"
+    },
+    {
+      "offset": 69334,
+      "name": "_IPsecSaContextCreateEnumHandle0@12"
+    },
+    {
+      "offset": 69334,
+      "name": "__imp__IPsecSaContextCreateEnumHandle0@12"
+    },
+    {
+      "offset": 69718,
+      "name": "_IPsecSaContextEnum0@20"
+    },
+    {
+      "offset": 69718,
+      "name": "__imp__IPsecSaContextEnum0@20"
+    },
+    {
+      "offset": 69588,
+      "name": "_IPsecSaContextDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 69588,
+      "name": "__imp__IPsecSaContextDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 71170,
+      "name": "_IPsecSaCreateEnumHandle0@12"
+    },
+    {
+      "offset": 71170,
+      "name": "__imp__IPsecSaCreateEnumHandle0@12"
+    },
+    {
+      "offset": 71662,
+      "name": "_IPsecSaEnum0@20"
+    },
+    {
+      "offset": 71662,
+      "name": "__imp__IPsecSaEnum0@20"
+    },
+    {
+      "offset": 71540,
+      "name": "_IPsecSaDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 71540,
+      "name": "__imp__IPsecSaDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 71292,
+      "name": "_IPsecSaDbGetSecurityInfo0@28"
+    },
+    {
+      "offset": 71292,
+      "name": "__imp__IPsecSaDbGetSecurityInfo0@28"
+    },
+    {
+      "offset": 71416,
+      "name": "_IPsecSaDbSetSecurityInfo0@24"
+    },
+    {
+      "offset": 71416,
+      "name": "__imp__IPsecSaDbSetSecurityInfo0@24"
+    },
+    {
+      "offset": 72126,
+      "name": "_IkeextGetStatistics0@8"
+    },
+    {
+      "offset": 72126,
+      "name": "__imp__IkeextGetStatistics0@8"
+    },
+    {
+      "offset": 72734,
+      "name": "_IkeextSaDeleteById0@12"
+    },
+    {
+      "offset": 72734,
+      "name": "__imp__IkeextSaDeleteById0@12"
+    },
+    {
+      "offset": 73312,
+      "name": "_IkeextSaGetById0@16"
+    },
+    {
+      "offset": 73312,
+      "name": "__imp__IkeextSaGetById0@16"
+    },
+    {
+      "offset": 72362,
+      "name": "_IkeextSaCreateEnumHandle0@12"
+    },
+    {
+      "offset": 72362,
+      "name": "__imp__IkeextSaCreateEnumHandle0@12"
+    },
+    {
+      "offset": 72976,
+      "name": "_IkeextSaEnum0@20"
+    },
+    {
+      "offset": 72976,
+      "name": "__imp__IkeextSaEnum0@20"
+    },
+    {
+      "offset": 72852,
+      "name": "_IkeextSaDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 72852,
+      "name": "__imp__IkeextSaDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 72486,
+      "name": "_IkeextSaDbGetSecurityInfo0@28"
+    },
+    {
+      "offset": 72486,
+      "name": "__imp__IkeextSaDbGetSecurityInfo0@28"
+    },
+    {
+      "offset": 72610,
+      "name": "_IkeextSaDbSetSecurityInfo0@24"
+    },
+    {
+      "offset": 72610,
+      "name": "__imp__IkeextSaDbSetSecurityInfo0@24"
+    },
+    {
+      "offset": 53162,
+      "name": "_FwpmNetEventCreateEnumHandle0@12"
+    },
+    {
+      "offset": 53162,
+      "name": "__imp__FwpmNetEventCreateEnumHandle0@12"
+    },
+    {
+      "offset": 53546,
+      "name": "_FwpmNetEventEnum0@20"
+    },
+    {
+      "offset": 53546,
+      "name": "__imp__FwpmNetEventEnum0@20"
+    },
+    {
+      "offset": 53418,
+      "name": "_FwpmNetEventDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 53418,
+      "name": "__imp__FwpmNetEventDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 55092,
+      "name": "_FwpmNetEventsGetSecurityInfo0@28"
+    },
+    {
+      "offset": 55092,
+      "name": "__imp__FwpmNetEventsGetSecurityInfo0@28"
+    },
+    {
+      "offset": 55336,
+      "name": "_FwpmNetEventsSetSecurityInfo0@24"
+    },
+    {
+      "offset": 55336,
+      "name": "__imp__FwpmNetEventsSetSecurityInfo0@24"
+    },
+    {
+      "offset": 74912,
+      "name": "_WSASetSocketSecurity@20"
+    },
+    {
+      "offset": 74912,
+      "name": "__imp__WSASetSocketSecurity@20"
+    },
+    {
+      "offset": 74548,
+      "name": "_WSAQuerySocketSecurity@28"
+    },
+    {
+      "offset": 74548,
+      "name": "__imp__WSAQuerySocketSecurity@28"
+    },
+    {
+      "offset": 74788,
+      "name": "_WSASetSocketPeerTargetName@20"
+    },
+    {
+      "offset": 74788,
+      "name": "__imp__WSASetSocketPeerTargetName@20"
+    },
+    {
+      "offset": 74298,
+      "name": "_WSADeleteSocketPeerTargetName@20"
+    },
+    {
+      "offset": 74298,
+      "name": "__imp__WSADeleteSocketPeerTargetName@20"
+    },
+    {
+      "offset": 74426,
+      "name": "_WSAImpersonateSocketPeer@12"
+    },
+    {
+      "offset": 74426,
+      "name": "__imp__WSAImpersonateSocketPeer@12"
+    },
+    {
+      "offset": 74668,
+      "name": "_WSARevertImpersonation@0"
+    },
+    {
+      "offset": 74668,
+      "name": "__imp__WSARevertImpersonation@0"
+    },
+    {
+      "offset": 55830,
+      "name": "_FwpmProviderContextAdd1@16"
+    },
+    {
+      "offset": 55830,
+      "name": "__imp__FwpmProviderContextAdd1@16"
+    },
+    {
+      "offset": 57334,
+      "name": "_FwpmProviderContextGetById1@16"
+    },
+    {
+      "offset": 57334,
+      "name": "__imp__FwpmProviderContextGetById1@16"
+    },
+    {
+      "offset": 57838,
+      "name": "_FwpmProviderContextGetByKey1@12"
+    },
+    {
+      "offset": 57838,
+      "name": "__imp__FwpmProviderContextGetByKey1@12"
+    },
+    {
+      "offset": 56842,
+      "name": "_FwpmProviderContextEnum1@20"
+    },
+    {
+      "offset": 56842,
+      "name": "__imp__FwpmProviderContextEnum1@20"
+    },
+    {
+      "offset": 51708,
+      "name": "_FwpmIPsecTunnelAdd1@32"
+    },
+    {
+      "offset": 51708,
+      "name": "__imp__FwpmIPsecTunnelAdd1@32"
+    },
+    {
+      "offset": 66952,
+      "name": "_IPsecGetStatistics1@8"
+    },
+    {
+      "offset": 66952,
+      "name": "__imp__IPsecGetStatistics1@8"
+    },
+    {
+      "offset": 69214,
+      "name": "_IPsecSaContextCreate1@20"
+    },
+    {
+      "offset": 69214,
+      "name": "__imp__IPsecSaContextCreate1@20"
+    },
+    {
+      "offset": 70194,
+      "name": "_IPsecSaContextGetById1@16"
+    },
+    {
+      "offset": 70194,
+      "name": "__imp__IPsecSaContextGetById1@16"
+    },
+    {
+      "offset": 70434,
+      "name": "_IPsecSaContextGetSpi1@20"
+    },
+    {
+      "offset": 70434,
+      "name": "__imp__IPsecSaContextGetSpi1@20"
+    },
+    {
+      "offset": 68440,
+      "name": "_IPsecSaContextAddInbound1@16"
+    },
+    {
+      "offset": 68440,
+      "name": "__imp__IPsecSaContextAddInbound1@16"
+    },
+    {
+      "offset": 68828,
+      "name": "_IPsecSaContextAddOutbound1@16"
+    },
+    {
+      "offset": 68828,
+      "name": "__imp__IPsecSaContextAddOutbound1@16"
+    },
+    {
+      "offset": 71050,
+      "name": "_IPsecSaContextUpdate0@16"
+    },
+    {
+      "offset": 71050,
+      "name": "__imp__IPsecSaContextUpdate0@16"
+    },
+    {
+      "offset": 69836,
+      "name": "_IPsecSaContextEnum1@20"
+    },
+    {
+      "offset": 69836,
+      "name": "__imp__IPsecSaContextEnum1@20"
+    },
+    {
+      "offset": 71772,
+      "name": "_IPsecSaEnum1@20"
+    },
+    {
+      "offset": 71772,
+      "name": "__imp__IPsecSaEnum1@20"
+    },
+    {
+      "offset": 66092,
+      "name": "_IPsecDospGetStatistics0@8"
+    },
+    {
+      "offset": 66092,
+      "name": "__imp__IPsecDospGetStatistics0@8"
+    },
+    {
+      "offset": 66336,
+      "name": "_IPsecDospStateCreateEnumHandle0@12"
+    },
+    {
+      "offset": 66336,
+      "name": "__imp__IPsecDospStateCreateEnumHandle0@12"
+    },
+    {
+      "offset": 66596,
+      "name": "_IPsecDospStateEnum0@20"
+    },
+    {
+      "offset": 66596,
+      "name": "__imp__IPsecDospStateEnum0@20"
+    },
+    {
+      "offset": 66466,
+      "name": "_IPsecDospStateDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 66466,
+      "name": "__imp__IPsecDospStateDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 65968,
+      "name": "_IPsecDospGetSecurityInfo0@28"
+    },
+    {
+      "offset": 65968,
+      "name": "__imp__IPsecDospGetSecurityInfo0@28"
+    },
+    {
+      "offset": 66212,
+      "name": "_IPsecDospSetSecurityInfo0@24"
+    },
+    {
+      "offset": 66212,
+      "name": "__imp__IPsecDospSetSecurityInfo0@24"
+    },
+    {
+      "offset": 72244,
+      "name": "_IkeextGetStatistics1@8"
+    },
+    {
+      "offset": 72244,
+      "name": "__imp__IkeextGetStatistics1@8"
+    },
+    {
+      "offset": 73426,
+      "name": "_IkeextSaGetById1@20"
+    },
+    {
+      "offset": 73426,
+      "name": "__imp__IkeextSaGetById1@20"
+    },
+    {
+      "offset": 73088,
+      "name": "_IkeextSaEnum1@20"
+    },
+    {
+      "offset": 73088,
+      "name": "__imp__IkeextSaEnum1@20"
+    },
+    {
+      "offset": 53662,
+      "name": "_FwpmNetEventEnum1@20"
+    },
+    {
+      "offset": 53662,
+      "name": "__imp__FwpmNetEventEnum1@20"
+    },
+    {
+      "offset": 54242,
+      "name": "_FwpmNetEventSubscribe0@20"
+    },
+    {
+      "offset": 54242,
+      "name": "__imp__FwpmNetEventSubscribe0@20"
+    },
+    {
+      "offset": 54970,
+      "name": "_FwpmNetEventUnsubscribe0@8"
+    },
+    {
+      "offset": 54970,
+      "name": "__imp__FwpmNetEventUnsubscribe0@8"
+    },
+    {
+      "offset": 54842,
+      "name": "_FwpmNetEventSubscriptionsGet0@12"
+    },
+    {
+      "offset": 54842,
+      "name": "__imp__FwpmNetEventSubscriptionsGet0@12"
+    },
+    {
+      "offset": 61900,
+      "name": "_FwpmSystemPortsGet0@8"
+    },
+    {
+      "offset": 61900,
+      "name": "__imp__FwpmSystemPortsGet0@8"
+    },
+    {
+      "offset": 62016,
+      "name": "_FwpmSystemPortsSubscribe0@20"
+    },
+    {
+      "offset": 62016,
+      "name": "__imp__FwpmSystemPortsSubscribe0@20"
+    },
+    {
+      "offset": 62140,
+      "name": "_FwpmSystemPortsUnsubscribe0@8"
+    },
+    {
+      "offset": 62140,
+      "name": "__imp__FwpmSystemPortsUnsubscribe0@8"
+    },
+    {
+      "offset": 47344,
+      "name": "_FwpmDynamicKeywordSubscribe0@16"
+    },
+    {
+      "offset": 47344,
+      "name": "__imp__FwpmDynamicKeywordSubscribe0@16"
+    },
+    {
+      "offset": 47470,
+      "name": "_FwpmDynamicKeywordUnsubscribe0@4"
+    },
+    {
+      "offset": 47470,
+      "name": "__imp__FwpmDynamicKeywordUnsubscribe0@4"
+    },
+    {
+      "offset": 65492,
+      "name": "_FwpsOpenToken0@20"
+    },
+    {
+      "offset": 65492,
+      "name": "__imp__FwpsOpenToken0@20"
+    },
+    {
+      "offset": 64254,
+      "name": "_FwpsAleEndpointGetById0@16"
+    },
+    {
+      "offset": 64254,
+      "name": "__imp__FwpsAleEndpointGetById0@16"
+    },
+    {
+      "offset": 63876,
+      "name": "_FwpsAleEndpointCreateEnumHandle0@12"
+    },
+    {
+      "offset": 63876,
+      "name": "__imp__FwpsAleEndpointCreateEnumHandle0@12"
+    },
+    {
+      "offset": 64136,
+      "name": "_FwpsAleEndpointEnum0@20"
+    },
+    {
+      "offset": 64136,
+      "name": "__imp__FwpsAleEndpointEnum0@20"
+    },
+    {
+      "offset": 64006,
+      "name": "_FwpsAleEndpointDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 64006,
+      "name": "__imp__FwpsAleEndpointDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 64376,
+      "name": "_FwpsAleEndpointGetSecurityInfo0@28"
+    },
+    {
+      "offset": 64376,
+      "name": "__imp__FwpsAleEndpointGetSecurityInfo0@28"
+    },
+    {
+      "offset": 64506,
+      "name": "_FwpsAleEndpointSetSecurityInfo0@24"
+    },
+    {
+      "offset": 64506,
+      "name": "__imp__FwpsAleEndpointSetSecurityInfo0@24"
+    },
+    {
+      "offset": 55952,
+      "name": "_FwpmProviderContextAdd2@16"
+    },
+    {
+      "offset": 55952,
+      "name": "__imp__FwpmProviderContextAdd2@16"
+    },
+    {
+      "offset": 57460,
+      "name": "_FwpmProviderContextGetById2@16"
+    },
+    {
+      "offset": 57460,
+      "name": "__imp__FwpmProviderContextGetById2@16"
+    },
+    {
+      "offset": 57964,
+      "name": "_FwpmProviderContextGetByKey2@12"
+    },
+    {
+      "offset": 57964,
+      "name": "__imp__FwpmProviderContextGetByKey2@12"
+    },
+    {
+      "offset": 56964,
+      "name": "_FwpmProviderContextEnum2@20"
+    },
+    {
+      "offset": 56964,
+      "name": "__imp__FwpmProviderContextEnum2@20"
+    },
+    {
+      "offset": 51826,
+      "name": "_FwpmIPsecTunnelAdd2@32"
+    },
+    {
+      "offset": 51826,
+      "name": "__imp__FwpmIPsecTunnelAdd2@32"
+    },
+    {
+      "offset": 70674,
+      "name": "_IPsecSaContextSubscribe0@20"
+    },
+    {
+      "offset": 70674,
+      "name": "__imp__IPsecSaContextSubscribe0@20"
+    },
+    {
+      "offset": 70926,
+      "name": "_IPsecSaContextUnsubscribe0@8"
+    },
+    {
+      "offset": 70926,
+      "name": "__imp__IPsecSaContextUnsubscribe0@8"
+    },
+    {
+      "offset": 70796,
+      "name": "_IPsecSaContextSubscriptionsGet0@12"
+    },
+    {
+      "offset": 70796,
+      "name": "__imp__IPsecSaContextSubscriptionsGet0@12"
+    },
+    {
+      "offset": 67190,
+      "name": "_IPsecKeyManagerAddAndRegister0@16"
+    },
+    {
+      "offset": 67190,
+      "name": "__imp__IPsecKeyManagerAddAndRegister0@16"
+    },
+    {
+      "offset": 67586,
+      "name": "_IPsecKeyManagerUnregisterAndDelete0@8"
+    },
+    {
+      "offset": 67586,
+      "name": "__imp__IPsecKeyManagerUnregisterAndDelete0@8"
+    },
+    {
+      "offset": 67718,
+      "name": "_IPsecKeyManagersGet0@12"
+    },
+    {
+      "offset": 67718,
+      "name": "__imp__IPsecKeyManagersGet0@12"
+    },
+    {
+      "offset": 67318,
+      "name": "_IPsecKeyManagerGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 67318,
+      "name": "__imp__IPsecKeyManagerGetSecurityInfoByKey0@32"
+    },
+    {
+      "offset": 67452,
+      "name": "_IPsecKeyManagerSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 67452,
+      "name": "__imp__IPsecKeyManagerSetSecurityInfoByKey0@28"
+    },
+    {
+      "offset": 73540,
+      "name": "_IkeextSaGetById2@20"
+    },
+    {
+      "offset": 73540,
+      "name": "__imp__IkeextSaGetById2@20"
+    },
+    {
+      "offset": 73200,
+      "name": "_IkeextSaEnum2@20"
+    },
+    {
+      "offset": 73200,
+      "name": "__imp__IkeextSaEnum2@20"
+    },
+    {
+      "offset": 53778,
+      "name": "_FwpmNetEventEnum2@20"
+    },
+    {
+      "offset": 53778,
+      "name": "__imp__FwpmNetEventEnum2@20"
+    },
+    {
+      "offset": 54362,
+      "name": "_FwpmNetEventSubscribe1@20"
+    },
+    {
+      "offset": 54362,
+      "name": "__imp__FwpmNetEventSubscribe1@20"
+    },
+    {
+      "offset": 46600,
+      "name": "_FwpmConnectionGetById0@16"
+    },
+    {
+      "offset": 46600,
+      "name": "__imp__FwpmConnectionGetById0@16"
+    },
+    {
+      "offset": 46482,
+      "name": "_FwpmConnectionEnum0@20"
+    },
+    {
+      "offset": 46482,
+      "name": "__imp__FwpmConnectionEnum0@20"
+    },
+    {
+      "offset": 46222,
+      "name": "_FwpmConnectionCreateEnumHandle0@12"
+    },
+    {
+      "offset": 46222,
+      "name": "__imp__FwpmConnectionCreateEnumHandle0@12"
+    },
+    {
+      "offset": 46352,
+      "name": "_FwpmConnectionDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 46352,
+      "name": "__imp__FwpmConnectionDestroyEnumHandle0@8"
+    },
+    {
+      "offset": 46720,
+      "name": "_FwpmConnectionGetSecurityInfo0@28"
+    },
+    {
+      "offset": 46720,
+      "name": "__imp__FwpmConnectionGetSecurityInfo0@28"
+    },
+    {
+      "offset": 46848,
+      "name": "_FwpmConnectionSetSecurityInfo0@24"
+    },
+    {
+      "offset": 46848,
+      "name": "__imp__FwpmConnectionSetSecurityInfo0@24"
+    },
+    {
+      "offset": 46976,
+      "name": "_FwpmConnectionSubscribe0@20"
+    },
+    {
+      "offset": 46976,
+      "name": "__imp__FwpmConnectionSubscribe0@20"
+    },
+    {
+      "offset": 47098,
+      "name": "_FwpmConnectionUnsubscribe0@8"
+    },
+    {
+      "offset": 47098,
+      "name": "__imp__FwpmConnectionUnsubscribe0@8"
+    },
+    {
+      "offset": 62742,
+      "name": "_FwpmvSwitchEventSubscribe0@20"
+    },
+    {
+      "offset": 62742,
+      "name": "__imp__FwpmvSwitchEventSubscribe0@20"
+    },
+    {
+      "offset": 62866,
+      "name": "_FwpmvSwitchEventUnsubscribe0@8"
+    },
+    {
+      "offset": 62866,
+      "name": "__imp__FwpmvSwitchEventUnsubscribe0@8"
+    },
+    {
+      "offset": 62992,
+      "name": "_FwpmvSwitchEventsGetSecurityInfo0@28"
+    },
+    {
+      "offset": 62992,
+      "name": "__imp__FwpmvSwitchEventsGetSecurityInfo0@28"
+    },
+    {
+      "offset": 63124,
+      "name": "_FwpmvSwitchEventsSetSecurityInfo0@24"
+    },
+    {
+      "offset": 63124,
+      "name": "__imp__FwpmvSwitchEventsSetSecurityInfo0@24"
+    },
+    {
+      "offset": 53894,
+      "name": "_FwpmNetEventEnum3@20"
+    },
+    {
+      "offset": 53894,
+      "name": "__imp__FwpmNetEventEnum3@20"
+    },
+    {
+      "offset": 54482,
+      "name": "_FwpmNetEventSubscribe2@20"
+    },
+    {
+      "offset": 54482,
+      "name": "__imp__FwpmNetEventSubscribe2@20"
+    },
+    {
+      "offset": 54010,
+      "name": "_FwpmNetEventEnum4@20"
+    },
+    {
+      "offset": 54010,
+      "name": "__imp__FwpmNetEventEnum4@20"
+    },
+    {
+      "offset": 54602,
+      "name": "_FwpmNetEventSubscribe3@20"
+    },
+    {
+      "offset": 54602,
+      "name": "__imp__FwpmNetEventSubscribe3@20"
+    },
+    {
+      "offset": 56074,
+      "name": "_FwpmProviderContextAdd3@16"
+    },
+    {
+      "offset": 56074,
+      "name": "__imp__FwpmProviderContextAdd3@16"
+    },
+    {
+      "offset": 57586,
+      "name": "_FwpmProviderContextGetById3@16"
+    },
+    {
+      "offset": 57586,
+      "name": "__imp__FwpmProviderContextGetById3@16"
+    },
+    {
+      "offset": 58090,
+      "name": "_FwpmProviderContextGetByKey3@12"
+    },
+    {
+      "offset": 58090,
+      "name": "__imp__FwpmProviderContextGetByKey3@12"
+    },
+    {
+      "offset": 57086,
+      "name": "_FwpmProviderContextEnum3@20"
+    },
+    {
+      "offset": 57086,
+      "name": "__imp__FwpmProviderContextEnum3@20"
+    },
+    {
+      "offset": 51944,
+      "name": "_FwpmIPsecTunnelAdd3@32"
+    },
+    {
+      "offset": 51944,
+      "name": "__imp__FwpmIPsecTunnelAdd3@32"
+    },
+    {
+      "offset": 54126,
+      "name": "_FwpmNetEventEnum5@20"
+    },
+    {
+      "offset": 54126,
+      "name": "__imp__FwpmNetEventEnum5@20"
+    },
+    {
+      "offset": 54722,
+      "name": "_FwpmNetEventSubscribe4@20"
+    },
+    {
+      "offset": 54722,
+      "name": "__imp__FwpmNetEventSubscribe4@20"
+    },
+    {
+      "offset": 65002,
+      "name": "_FwpsFreeMemory0@4"
+    },
+    {
+      "offset": 65002,
+      "name": "__imp__FwpsFreeMemory0@4"
+    },
+    {
+      "offset": 62264,
+      "name": "_FwpmTraceRestoreDefaults0@0"
+    },
+    {
+      "offset": 62264,
+      "name": "__imp__FwpmTraceRestoreDefaults0@0"
+    },
+    {
+      "offset": 64886,
+      "name": "_FwpsClassifyUser0@28"
+    },
+    {
+      "offset": 64886,
+      "name": "__imp__FwpsClassifyUser0@28"
+    },
+    {
+      "offset": 65238,
+      "name": "_FwpsLayerCreateInProcReplica0@8"
+    },
+    {
+      "offset": 65238,
+      "name": "__imp__FwpsLayerCreateInProcReplica0@8"
+    },
+    {
+      "offset": 65364,
+      "name": "_FwpsLayerReleaseInProcReplica0@8"
+    },
+    {
+      "offset": 65364,
+      "name": "__imp__FwpsLayerReleaseInProcReplica0@8"
+    },
+    {
+      "offset": 71882,
+      "name": "_IPsecSaInitiateAsync0@16"
+    },
+    {
+      "offset": 71882,
+      "name": "__imp__IPsecSaInitiateAsync0@16"
+    },
+    {
+      "offset": 73796,
+      "name": "_IkeextSaUpdatePreferredAddressesByTunnelId0@24"
+    },
+    {
+      "offset": 73796,
+      "name": "__imp__IkeextSaUpdatePreferredAddressesByTunnelId0@24"
+    },
+    {
+      "offset": 73654,
+      "name": "_IkeextSaUpdateAdditionalAddressesByTunnelId0@24"
+    },
+    {
+      "offset": 73654,
+      "name": "__imp__IkeextSaUpdateAdditionalAddressesByTunnelId0@24"
+    },
+    {
+      "offset": 72002,
+      "name": "_IkeextGetConfigParameters0@4"
+    },
+    {
+      "offset": 72002,
+      "name": "__imp__IkeextGetConfigParameters0@4"
+    },
+    {
+      "offset": 73938,
+      "name": "_IkeextSetConfigParameters0@4"
+    },
+    {
+      "offset": 73938,
+      "name": "__imp__IkeextSetConfigParameters0@4"
+    },
+    {
+      "offset": 64636,
+      "name": "_FwpsAleExplicitCredentialsQuery0@16"
+    },
+    {
+      "offset": 64636,
+      "name": "__imp__FwpsAleExplicitCredentialsQuery0@16"
+    },
+    {
+      "offset": 47222,
+      "name": "_FwpmDiagnoseNetFailure0@12"
+    },
+    {
+      "offset": 47222,
+      "name": "__imp__FwpmDiagnoseNetFailure0@12"
+    },
+    {
+      "offset": 64766,
+      "name": "_FwpsAleGetPortStatus0@12"
+    },
+    {
+      "offset": 64766,
+      "name": "__imp__FwpsAleGetPortStatus0@12"
+    },
+    {
+      "offset": 52062,
+      "name": "_FwpmIPsecTunnelAddConditions0@20"
+    },
+    {
+      "offset": 52062,
+      "name": "__imp__FwpmIPsecTunnelAddConditions0@20"
+    },
+    {
+      "offset": 50894,
+      "name": "_FwpmIPsecS2STunnelAddConditions0@28"
+    },
+    {
+      "offset": 50894,
+      "name": "__imp__FwpmIPsecS2STunnelAddConditions0@28"
+    },
+    {
+      "offset": 51310,
+      "name": "_FwpmIPsecS2STunnelRemoveConditions0@28"
+    },
+    {
+      "offset": 51310,
+      "name": "__imp__FwpmIPsecS2STunnelRemoveConditions0@28"
+    },
+    {
+      "offset": 51024,
+      "name": "_FwpmIPsecS2STunnelAddInterfaceToCompartment0@12"
+    },
+    {
+      "offset": 51024,
+      "name": "__imp__FwpmIPsecS2STunnelAddInterfaceToCompartment0@12"
+    },
+    {
+      "offset": 51166,
+      "name": "_FwpmIPsecS2STunnelGetInterfaceForCompartment0@12"
+    },
+    {
+      "offset": 51166,
+      "name": "__imp__FwpmIPsecS2STunnelGetInterfaceForCompartment0@12"
+    },
+    {
+      "offset": 51444,
+      "name": "_FwpmIPsecS2STunnelRemoveInterfaceFromCompartment0@8"
+    },
+    {
+      "offset": 51444,
+      "name": "__imp__FwpmIPsecS2STunnelRemoveInterfaceFromCompartment0@8"
+    },
+    {
+      "offset": 67836,
+      "name": "_IPsecKeyModuleAdd0@12"
+    },
+    {
+      "offset": 67836,
+      "name": "__imp__IPsecKeyModuleAdd0@12"
+    },
+    {
+      "offset": 67952,
+      "name": "_IPsecKeyModuleDelete0@8"
+    },
+    {
+      "offset": 67952,
+      "name": "__imp__IPsecKeyModuleDelete0@8"
+    },
+    {
+      "offset": 68070,
+      "name": "_IPsecKeyModuleUpdateAcquire0@20"
+    },
+    {
+      "offset": 68070,
+      "name": "__imp__IPsecKeyModuleUpdateAcquire0@20"
+    },
+    {
+      "offset": 67068,
+      "name": "_IPsecKeyDictationCheck0@16"
+    },
+    {
+      "offset": 67068,
+      "name": "__imp__IPsecKeyDictationCheck0@16"
+    },
+    {
+      "offset": 66714,
+      "name": "_IPsecGetKeyFromDictator0@16"
+    },
+    {
+      "offset": 66714,
+      "name": "__imp__IPsecGetKeyFromDictator0@16"
+    },
+    {
+      "offset": 68196,
+      "name": "_IPsecKeyNotification0@12"
+    },
+    {
+      "offset": 68196,
+      "name": "__imp__IPsecKeyNotification0@12"
+    },
+    {
+      "offset": 65726,
+      "name": "_FwpsQueryIPsecOffloadDone0@8"
+    },
+    {
+      "offset": 65726,
+      "name": "__imp__FwpsQueryIPsecOffloadDone0@8"
+    },
+    {
+      "offset": 65850,
+      "name": "_GetUnifiedTraceHandle@4"
+    },
+    {
+      "offset": 65850,
+      "name": "__imp__GetUnifiedTraceHandle@4"
+    },
+    {
+      "offset": 65604,
+      "name": "_FwpsQueryIPsecDosFWUsed0@8"
+    },
+    {
+      "offset": 65604,
+      "name": "__imp__FwpsQueryIPsecDosFWUsed0@8"
+    },
+    {
+      "offset": 48310,
+      "name": "_FwpmEventProviderCreate0@8"
+    },
+    {
+      "offset": 48310,
+      "name": "__imp__FwpmEventProviderCreate0@8"
+    },
+    {
+      "offset": 48432,
+      "name": "_FwpmEventProviderDestroy0@4"
+    },
+    {
+      "offset": 48432,
+      "name": "__imp__FwpmEventProviderDestroy0@4"
+    },
+    {
+      "offset": 55220,
+      "name": "_FwpmNetEventsLost0@8"
+    },
+    {
+      "offset": 55220,
+      "name": "__imp__FwpmNetEventsLost0@8"
+    },
+    {
+      "offset": 48812,
+      "name": "_FwpmEventProviderIsNetEventTypeEnabled0@12"
+    },
+    {
+      "offset": 48812,
+      "name": "__imp__FwpmEventProviderIsNetEventTypeEnabled0@12"
+    },
+    {
+      "offset": 48554,
+      "name": "_FwpmEventProviderFireNetEvent0@16"
+    },
+    {
+      "offset": 48554,
+      "name": "__imp__FwpmEventProviderFireNetEvent0@16"
+    },
+    {
+      "offset": 48682,
+      "name": "_FwpmEventProviderFireNetEventEx0@20"
+    },
+    {
+      "offset": 48682,
+      "name": "__imp__FwpmEventProviderFireNetEventEx0@20"
+    },
+    {
+      "offset": 55464,
+      "name": "_FwpmProcessNameResolutionEvent0@16"
+    },
+    {
+      "offset": 55464,
+      "name": "__imp__FwpmProcessNameResolutionEvent0@16"
+    },
+    {
+      "offset": 68564,
+      "name": "_IPsecSaContextAddInboundAndTrackConnection@28"
+    },
+    {
+      "offset": 68564,
+      "name": "__imp__IPsecSaContextAddInboundAndTrackConnection@28"
+    },
+    {
+      "offset": 68952,
+      "name": "_IPsecSaContextAddOutboundAndTrackConnection@28"
+    },
+    {
+      "offset": 68952,
+      "name": "__imp__IPsecSaContextAddOutboundAndTrackConnection@28"
+    },
+    {
+      "offset": 42708,
+      "name": "_FwpiExpandCriteria0@20"
+    },
+    {
+      "offset": 42708,
+      "name": "__imp__FwpiExpandCriteria0@20"
+    },
+    {
+      "offset": 42826,
+      "name": "_FwpiFreeCriteria0@8"
+    },
+    {
+      "offset": 42826,
+      "name": "__imp__FwpiFreeCriteria0@8"
+    },
+    {
+      "offset": 76604,
+      "name": "_WfpRIORegisterBuffer@16"
+    },
+    {
+      "offset": 76604,
+      "name": "__imp__WfpRIORegisterBuffer@16"
+    },
+    {
+      "offset": 75886,
+      "name": "_WfpRIOCreateCompletionQueue@16"
+    },
+    {
+      "offset": 75886,
+      "name": "__imp__WfpRIOCreateCompletionQueue@16"
+    },
+    {
+      "offset": 76012,
+      "name": "_WfpRIOCreateRequestQueue@36"
+    },
+    {
+      "offset": 76012,
+      "name": "__imp__WfpRIOCreateRequestQueue@36"
+    },
+    {
+      "offset": 76492,
+      "name": "_WfpRIOReceive@28"
+    },
+    {
+      "offset": 76492,
+      "name": "__imp__WfpRIOReceive@28"
+    },
+    {
+      "offset": 76832,
+      "name": "_WfpRIOSend@28"
+    },
+    {
+      "offset": 76832,
+      "name": "__imp__WfpRIOSend@28"
+    },
+    {
+      "offset": 74176,
+      "name": "_WFPRIODequeueCompletion@12"
+    },
+    {
+      "offset": 74176,
+      "name": "__imp__WFPRIODequeueCompletion@12"
+    },
+    {
+      "offset": 76382,
+      "name": "_WfpRIONotify@8"
+    },
+    {
+      "offset": 76382,
+      "name": "__imp__WfpRIONotify@8"
+    },
+    {
+      "offset": 75522,
+      "name": "_WfpRIOCleanupRequestQueue@8"
+    },
+    {
+      "offset": 75522,
+      "name": "__imp__WfpRIOCleanupRequestQueue@8"
+    },
+    {
+      "offset": 75644,
+      "name": "_WfpRIOCloseCompletionQueue@8"
+    },
+    {
+      "offset": 75644,
+      "name": "__imp__WfpRIOCloseCompletionQueue@8"
+    },
+    {
+      "offset": 76134,
+      "name": "_WfpRIODeregisterBuffer@12"
+    },
+    {
+      "offset": 76134,
+      "name": "__imp__WfpRIODeregisterBuffer@12"
+    },
+    {
+      "offset": 76940,
+      "name": "_WfpRIOSuspend@4"
+    },
+    {
+      "offset": 76940,
+      "name": "__imp__WfpRIOSuspend@4"
+    },
+    {
+      "offset": 76722,
+      "name": "_WfpRIOResume@4"
+    },
+    {
+      "offset": 76722,
+      "name": "__imp__WfpRIOResume@4"
+    },
+    {
+      "offset": 75768,
+      "name": "_WfpRIOCreateChannel@12"
+    },
+    {
+      "offset": 75768,
+      "name": "__imp__WfpRIOCreateChannel@12"
+    },
+    {
+      "offset": 75406,
+      "name": "_WfpRIOChannelClose@4"
+    },
+    {
+      "offset": 75406,
+      "name": "__imp__WfpRIOChannelClose@4"
+    },
+    {
+      "offset": 76254,
+      "name": "_WfpRIOIndicateActivityThreshold@8"
+    },
+    {
+      "offset": 76254,
+      "name": "__imp__WfpRIOIndicateActivityThreshold@8"
+    },
+    {
+      "offset": 75282,
+      "name": "_WfpCreateDPConfigureHandle@4"
+    },
+    {
+      "offset": 75282,
+      "name": "__imp__WfpCreateDPConfigureHandle@4"
+    },
+    {
+      "offset": 75152,
+      "name": "_WfpConfigureDPSecurityDescriptor@12"
+    },
+    {
+      "offset": 75152,
+      "name": "__imp__WfpConfigureDPSecurityDescriptor@12"
+    },
+    {
+      "offset": 75030,
+      "name": "_WfpCloseDPConfigureHandle@4"
+    },
+    {
+      "offset": 75030,
+      "name": "__imp__WfpCloseDPConfigureHandle@4"
+    },
+    {
+      "offset": 42940,
+      "name": "_FwpiVpnTriggerAddAppSids@12"
+    },
+    {
+      "offset": 42940,
+      "name": "__imp__FwpiVpnTriggerAddAppSids@12"
+    },
+    {
+      "offset": 43840,
+      "name": "_FwpiVpnTriggerRemoveAppSids@4"
+    },
+    {
+      "offset": 43840,
+      "name": "__imp__FwpiVpnTriggerRemoveAppSids@4"
+    },
+    {
+      "offset": 43062,
+      "name": "_FwpiVpnTriggerAddFilePaths@12"
+    },
+    {
+      "offset": 43062,
+      "name": "__imp__FwpiVpnTriggerAddFilePaths@12"
+    },
+    {
+      "offset": 43964,
+      "name": "_FwpiVpnTriggerRemoveFilePaths@4"
+    },
+    {
+      "offset": 43964,
+      "name": "__imp__FwpiVpnTriggerRemoveFilePaths@4"
+    },
+    {
+      "offset": 43186,
+      "name": "_FwpiVpnTriggerAddSecurityDescriptor@8"
+    },
+    {
+      "offset": 43186,
+      "name": "__imp__FwpiVpnTriggerAddSecurityDescriptor@8"
+    },
+    {
+      "offset": 44090,
+      "name": "_FwpiVpnTriggerRemoveSecurityDescriptor@4"
+    },
+    {
+      "offset": 44090,
+      "name": "__imp__FwpiVpnTriggerRemoveSecurityDescriptor@4"
+    },
+    {
+      "offset": 43448,
+      "name": "_FwpiVpnTriggerEventSubscribe0@20"
+    },
+    {
+      "offset": 43448,
+      "name": "__imp__FwpiVpnTriggerEventSubscribe0@20"
+    },
+    {
+      "offset": 43576,
+      "name": "_FwpiVpnTriggerEventUnsubscribe0@8"
+    },
+    {
+      "offset": 43576,
+      "name": "__imp__FwpiVpnTriggerEventUnsubscribe0@8"
+    },
+    {
+      "offset": 44356,
+      "name": "_FwpiVpnTriggerSetStateDisconnected@8"
+    },
+    {
+      "offset": 44356,
+      "name": "__imp__FwpiVpnTriggerSetStateDisconnected@8"
+    },
+    {
+      "offset": 43704,
+      "name": "_FwpiVpnTriggerInitializeNrptTriggering@8"
+    },
+    {
+      "offset": 43704,
+      "name": "__imp__FwpiVpnTriggerInitializeNrptTriggering@8"
+    },
+    {
+      "offset": 44488,
+      "name": "_FwpiVpnTriggerUninitializeNrptTriggering@4"
+    },
+    {
+      "offset": 44488,
+      "name": "__imp__FwpiVpnTriggerUninitializeNrptTriggering@4"
+    },
+    {
+      "offset": 44226,
+      "name": "_FwpiVpnTriggerResetNrptTriggering@4"
+    },
+    {
+      "offset": 44226,
+      "name": "__imp__FwpiVpnTriggerResetNrptTriggering@4"
+    },
+    {
+      "offset": 43318,
+      "name": "_FwpiVpnTriggerConfigureParameters@8"
+    },
+    {
+      "offset": 43318,
+      "name": "__imp__FwpiVpnTriggerConfigureParameters@8"
+    },
+    {
+      "offset": 63256,
+      "name": "_FwppConnectionGetByIPsecInfo@20"
+    },
+    {
+      "offset": 63256,
+      "name": "__imp__FwppConnectionGetByIPsecInfo@20"
+    },
+    {
+      "offset": 63754,
+      "name": "_FwppIPsecSaContextCreate@36"
+    },
+    {
+      "offset": 63754,
+      "name": "__imp__FwppIPsecSaContextCreate@36"
+    },
+    {
+      "offset": 63382,
+      "name": "_FwppConnectionGetByS2STunnelId@16"
+    },
+    {
+      "offset": 63382,
+      "name": "__imp__FwppConnectionGetByS2STunnelId@16"
+    },
+    {
+      "offset": 63510,
+      "name": "_FwppConnectionGetS2STunnelId@16"
+    },
+    {
+      "offset": 63510,
+      "name": "__imp__FwppConnectionGetS2STunnelId@16"
+    },
+    {
+      "offset": 65114,
+      "name": "_FwpsGetInProcReplicaOffset0@4"
+    },
+    {
+      "offset": 65114,
+      "name": "__imp__FwpsGetInProcReplicaOffset0@4"
+    },
+    {
+      "offset": 74062,
+      "name": "_NamespaceCallout@12"
+    },
+    {
+      "offset": 74062,
+      "name": "__imp__NamespaceCallout@12"
+    },
+    {
+      "offset": 50774,
+      "name": "_FwpmGetSidFromOnlineId0@8"
+    },
+    {
+      "offset": 50774,
+      "name": "__imp__FwpmGetSidFromOnlineId0@8"
+    },
+    {
+      "offset": 63636,
+      "name": "_FwppGetMD5HashBytes@16"
+    },
+    {
+      "offset": 63636,
+      "name": "__imp__FwppGetMD5HashBytes@16"
+    },
+    {
+      "offset": 53290,
+      "name": "_FwpmNetEventCreateEnumHandleEx@16"
+    },
+    {
+      "offset": 53290,
+      "name": "__imp__FwpmNetEventCreateEnumHandleEx@16"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 42708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3810624352,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiExpandCriteria0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "FwpiExpandCriteria0"
+    },
+    {
+      "offset": 42826,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4097503626,
+      "sizeOfData": 34,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiFreeCriteria0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "FwpiFreeCriteria0"
+    },
+    {
+      "offset": 42940,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3344173491,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiVpnTriggerAddAppSids@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "FwpiVpnTriggerAddAppSids"
+    },
+    {
+      "offset": 43062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4073162899,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiVpnTriggerAddFilePaths@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "FwpiVpnTriggerAddFilePaths"
+    },
+    {
+      "offset": 43186,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3310773912,
+      "sizeOfData": 52,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiVpnTriggerAddSecurityDescriptor@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "FwpiVpnTriggerAddSecurityDescriptor"
+    },
+    {
+      "offset": 43318,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3690021853,
+      "sizeOfData": 50,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiVpnTriggerConfigureParameters@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "FwpiVpnTriggerConfigureParameters"
+    },
+    {
+      "offset": 43448,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3339798618,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiVpnTriggerEventSubscribe0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "FwpiVpnTriggerEventSubscribe0"
+    },
+    {
+      "offset": 43576,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3231207591,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiVpnTriggerEventUnsubscribe0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "FwpiVpnTriggerEventUnsubscribe0"
+    },
+    {
+      "offset": 43704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3885849414,
+      "sizeOfData": 55,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiVpnTriggerInitializeNrptTriggering@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "FwpiVpnTriggerInitializeNrptTriggering"
+    },
+    {
+      "offset": 43840,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3668613894,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiVpnTriggerRemoveAppSids@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "FwpiVpnTriggerRemoveAppSids"
+    },
+    {
+      "offset": 43964,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3811010768,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiVpnTriggerRemoveFilePaths@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "FwpiVpnTriggerRemoveFilePaths"
+    },
+    {
+      "offset": 44090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4001640820,
+      "sizeOfData": 55,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiVpnTriggerRemoveSecurityDescriptor@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "FwpiVpnTriggerRemoveSecurityDescriptor"
+    },
+    {
+      "offset": 44226,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3996733698,
+      "sizeOfData": 50,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiVpnTriggerResetNrptTriggering@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "FwpiVpnTriggerResetNrptTriggering"
+    },
+    {
+      "offset": 44356,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4103638003,
+      "sizeOfData": 51,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiVpnTriggerSetStateDisconnected@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "FwpiVpnTriggerSetStateDisconnected"
+    },
+    {
+      "offset": 44488,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4232981391,
+      "sizeOfData": 57,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpiVpnTriggerUninitializeNrptTriggering@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "FwpiVpnTriggerUninitializeNrptTriggering"
+    },
+    {
+      "offset": 44626,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3468614551,
+      "sizeOfData": 33,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmCalloutAdd0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "FwpmCalloutAdd0"
+    },
+    {
+      "offset": 44740,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4225213493,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmCalloutCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "FwpmCalloutCreateEnumHandle0"
+    },
+    {
+      "offset": 44866,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3229022381,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmCalloutDeleteById0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "FwpmCalloutDeleteById0"
+    },
+    {
+      "offset": 44986,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4145181629,
+      "sizeOfData": 40,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmCalloutDeleteByKey0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "FwpmCalloutDeleteByKey0"
+    },
+    {
+      "offset": 45106,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4213775000,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmCalloutDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "FwpmCalloutDestroyEnumHandle0"
+    },
+    {
+      "offset": 45232,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3878345333,
+      "sizeOfData": 34,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmCalloutEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "FwpmCalloutEnum0"
+    },
+    {
+      "offset": 45346,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3707371478,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmCalloutGetById0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "FwpmCalloutGetById0"
+    },
+    {
+      "offset": 45464,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3844828027,
+      "sizeOfData": 38,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmCalloutGetByKey0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "FwpmCalloutGetByKey0"
+    },
+    {
+      "offset": 45582,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4164135187,
+      "sizeOfData": 50,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmCalloutGetSecurityInfoByKey0@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "FwpmCalloutGetSecurityInfoByKey0"
+    },
+    {
+      "offset": 45712,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3712038575,
+      "sizeOfData": 50,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmCalloutSetSecurityInfoByKey0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "FwpmCalloutSetSecurityInfoByKey0"
+    },
+    {
+      "offset": 45842,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3971928313,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmCalloutSubscribeChanges0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "FwpmCalloutSubscribeChanges0"
+    },
+    {
+      "offset": 45968,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3699818030,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmCalloutSubscriptionsGet0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "FwpmCalloutSubscriptionsGet0"
+    },
+    {
+      "offset": 46094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3595648012,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmCalloutUnsubscribeChanges0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "FwpmCalloutUnsubscribeChanges0"
+    },
+    {
+      "offset": 46222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3896739566,
+      "sizeOfData": 49,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmConnectionCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "FwpmConnectionCreateEnumHandle0"
+    },
+    {
+      "offset": 46352,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3632080272,
+      "sizeOfData": 49,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmConnectionDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "FwpmConnectionDestroyEnumHandle0"
+    },
+    {
+      "offset": 46482,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3414546303,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmConnectionEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "FwpmConnectionEnum0"
+    },
+    {
+      "offset": 46600,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3390649565,
+      "sizeOfData": 40,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmConnectionGetById0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "FwpmConnectionGetById0"
+    },
+    {
+      "offset": 46720,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3940836470,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmConnectionGetSecurityInfo0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "FwpmConnectionGetSecurityInfo0"
+    },
+    {
+      "offset": 46848,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4196793036,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmConnectionSetSecurityInfo0@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "FwpmConnectionSetSecurityInfo0"
+    },
+    {
+      "offset": 46976,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3784479837,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmConnectionSubscribe0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "FwpmConnectionSubscribe0"
+    },
+    {
+      "offset": 47098,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3896147186,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmConnectionUnsubscribe0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "FwpmConnectionUnsubscribe0"
+    },
+    {
+      "offset": 47222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3853534189,
+      "sizeOfData": 41,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmDiagnoseNetFailure0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "FwpmDiagnoseNetFailure0"
+    },
+    {
+      "offset": 47344,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3357756855,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmDynamicKeywordSubscribe0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "FwpmDynamicKeywordSubscribe0"
+    },
+    {
+      "offset": 47470,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3812814338,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmDynamicKeywordUnsubscribe0@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "FwpmDynamicKeywordUnsubscribe0"
+    },
+    {
+      "offset": 47598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3615029179,
+      "sizeOfData": 33,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmEngineClose0@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "FwpmEngineClose0"
+    },
+    {
+      "offset": 47712,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3719909765,
+      "sizeOfData": 38,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmEngineGetOption0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "FwpmEngineGetOption0"
+    },
+    {
+      "offset": 47830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3934560185,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmEngineGetSecurityInfo0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "FwpmEngineGetSecurityInfo0"
+    },
+    {
+      "offset": 47954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4256850479,
+      "sizeOfData": 33,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmEngineOpen0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "FwpmEngineOpen0"
+    },
+    {
+      "offset": 48068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3355189471,
+      "sizeOfData": 38,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmEngineSetOption0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "FwpmEngineSetOption0"
+    },
+    {
+      "offset": 48186,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3957421751,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmEngineSetSecurityInfo0@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "FwpmEngineSetSecurityInfo0"
+    },
+    {
+      "offset": 48310,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3820040902,
+      "sizeOfData": 41,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmEventProviderCreate0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "FwpmEventProviderCreate0"
+    },
+    {
+      "offset": 48432,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3716578005,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmEventProviderDestroy0@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "FwpmEventProviderDestroy0"
+    },
+    {
+      "offset": 48554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3550613283,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmEventProviderFireNetEvent0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "FwpmEventProviderFireNetEvent0"
+    },
+    {
+      "offset": 48682,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4117038302,
+      "sizeOfData": 50,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmEventProviderFireNetEventEx0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "FwpmEventProviderFireNetEventEx0"
+    },
+    {
+      "offset": 48812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3925924094,
+      "sizeOfData": 57,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmEventProviderIsNetEventTypeEnabled0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "FwpmEventProviderIsNetEventTypeEnabled0"
+    },
+    {
+      "offset": 48950,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3237494445,
+      "sizeOfData": 32,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFilterAdd0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "FwpmFilterAdd0"
+    },
+    {
+      "offset": 49062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4079656562,
+      "sizeOfData": 45,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFilterCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "FwpmFilterCreateEnumHandle0"
+    },
+    {
+      "offset": 49188,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3657965884,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFilterDeleteById0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "FwpmFilterDeleteById0"
+    },
+    {
+      "offset": 49308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3314651693,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFilterDeleteByKey0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "FwpmFilterDeleteByKey0"
+    },
+    {
+      "offset": 49428,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3511678606,
+      "sizeOfData": 45,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFilterDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "FwpmFilterDestroyEnumHandle0"
+    },
+    {
+      "offset": 49554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3970380835,
+      "sizeOfData": 33,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFilterEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "FwpmFilterEnum0"
+    },
+    {
+      "offset": 49668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3520924201,
+      "sizeOfData": 36,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFilterGetById0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "FwpmFilterGetById0"
+    },
+    {
+      "offset": 49784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4177679263,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFilterGetByKey0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "FwpmFilterGetByKey0"
+    },
+    {
+      "offset": 49902,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4057287494,
+      "sizeOfData": 49,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFilterGetSecurityInfoByKey0@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "FwpmFilterGetSecurityInfoByKey0"
+    },
+    {
+      "offset": 50032,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3865009879,
+      "sizeOfData": 49,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFilterSetSecurityInfoByKey0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "FwpmFilterSetSecurityInfoByKey0"
+    },
+    {
+      "offset": 50162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3886988876,
+      "sizeOfData": 45,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFilterSubscribeChanges0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "FwpmFilterSubscribeChanges0"
+    },
+    {
+      "offset": 50288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3752411194,
+      "sizeOfData": 45,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFilterSubscriptionsGet0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "FwpmFilterSubscriptionsGet0"
+    },
+    {
+      "offset": 50414,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3702741827,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFilterUnsubscribeChanges0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "FwpmFilterUnsubscribeChanges0"
+    },
+    {
+      "offset": 50540,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3791856587,
+      "sizeOfData": 32,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmFreeMemory0@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "FwpmFreeMemory0"
+    },
+    {
+      "offset": 50652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3681205356,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmGetAppIdFromFileName0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "FwpmGetAppIdFromFileName0"
+    },
+    {
+      "offset": 50774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3867103611,
+      "sizeOfData": 40,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmGetSidFromOnlineId0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "FwpmGetSidFromOnlineId0"
+    },
+    {
+      "offset": 50894,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3425253610,
+      "sizeOfData": 50,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmIPsecS2STunnelAddConditions0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "FwpmIPsecS2STunnelAddConditions0"
+    },
+    {
+      "offset": 51024,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3819444357,
+      "sizeOfData": 62,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmIPsecS2STunnelAddInterfaceToCompartment0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "FwpmIPsecS2STunnelAddInterfaceToCompartment0"
+    },
+    {
+      "offset": 51166,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3476010796,
+      "sizeOfData": 63,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmIPsecS2STunnelGetInterfaceForCompartment0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "FwpmIPsecS2STunnelGetInterfaceForCompartment0"
+    },
+    {
+      "offset": 51310,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3598546243,
+      "sizeOfData": 53,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmIPsecS2STunnelRemoveConditions0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "FwpmIPsecS2STunnelRemoveConditions0"
+    },
+    {
+      "offset": 51444,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3620897888,
+      "sizeOfData": 66,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmIPsecS2STunnelRemoveInterfaceFromCompartment0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "FwpmIPsecS2STunnelRemoveInterfaceFromCompartment0"
+    },
+    {
+      "offset": 51590,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3583099671,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmIPsecTunnelAdd0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "FwpmIPsecTunnelAdd0"
+    },
+    {
+      "offset": 51708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3837093023,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmIPsecTunnelAdd1@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "FwpmIPsecTunnelAdd1"
+    },
+    {
+      "offset": 51826,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3528017179,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmIPsecTunnelAdd2@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "FwpmIPsecTunnelAdd2"
+    },
+    {
+      "offset": 51944,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3310538077,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmIPsecTunnelAdd3@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "FwpmIPsecTunnelAdd3"
+    },
+    {
+      "offset": 52062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3825641233,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmIPsecTunnelAddConditions0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "FwpmIPsecTunnelAddConditions0"
+    },
+    {
+      "offset": 52190,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4246054559,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmIPsecTunnelDeleteByKey0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "FwpmIPsecTunnelDeleteByKey0"
+    },
+    {
+      "offset": 52314,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4042487052,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmLayerCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "FwpmLayerCreateEnumHandle0"
+    },
+    {
+      "offset": 52438,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3699326557,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmLayerDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "FwpmLayerDestroyEnumHandle0"
+    },
+    {
+      "offset": 52562,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3711118466,
+      "sizeOfData": 32,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmLayerEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "FwpmLayerEnum0"
+    },
+    {
+      "offset": 52674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3511558874,
+      "sizeOfData": 35,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmLayerGetById0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "FwpmLayerGetById0"
+    },
+    {
+      "offset": 52790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4042780462,
+      "sizeOfData": 36,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmLayerGetByKey0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "FwpmLayerGetByKey0"
+    },
+    {
+      "offset": 52906,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3320643392,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmLayerGetSecurityInfoByKey0@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "FwpmLayerGetSecurityInfoByKey0"
+    },
+    {
+      "offset": 53034,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3722045286,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmLayerSetSecurityInfoByKey0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "FwpmLayerSetSecurityInfoByKey0"
+    },
+    {
+      "offset": 53162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4029001877,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "FwpmNetEventCreateEnumHandle0"
+    },
+    {
+      "offset": 53290,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3386977146,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventCreateEnumHandleEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "FwpmNetEventCreateEnumHandleEx"
+    },
+    {
+      "offset": 53418,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3658028144,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "FwpmNetEventDestroyEnumHandle0"
+    },
+    {
+      "offset": 53546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4193483428,
+      "sizeOfData": 35,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "FwpmNetEventEnum0"
+    },
+    {
+      "offset": 53662,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3279363684,
+      "sizeOfData": 35,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventEnum1@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "FwpmNetEventEnum1"
+    },
+    {
+      "offset": 53778,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4058369951,
+      "sizeOfData": 35,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventEnum2@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "FwpmNetEventEnum2"
+    },
+    {
+      "offset": 53894,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4277702074,
+      "sizeOfData": 35,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventEnum3@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "FwpmNetEventEnum3"
+    },
+    {
+      "offset": 54010,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4052127679,
+      "sizeOfData": 35,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventEnum4@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "FwpmNetEventEnum4"
+    },
+    {
+      "offset": 54126,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3767284601,
+      "sizeOfData": 35,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventEnum5@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "FwpmNetEventEnum5"
+    },
+    {
+      "offset": 54242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4289097737,
+      "sizeOfData": 40,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventSubscribe0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "FwpmNetEventSubscribe0"
+    },
+    {
+      "offset": 54362,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3386366978,
+      "sizeOfData": 40,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventSubscribe1@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "FwpmNetEventSubscribe1"
+    },
+    {
+      "offset": 54482,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4153786699,
+      "sizeOfData": 40,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventSubscribe2@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "FwpmNetEventSubscribe2"
+    },
+    {
+      "offset": 54602,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3479151296,
+      "sizeOfData": 40,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventSubscribe3@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "FwpmNetEventSubscribe3"
+    },
+    {
+      "offset": 54722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3408428834,
+      "sizeOfData": 40,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventSubscribe4@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "FwpmNetEventSubscribe4"
+    },
+    {
+      "offset": 54842,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3589863062,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventSubscriptionsGet0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "FwpmNetEventSubscriptionsGet0"
+    },
+    {
+      "offset": 54970,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3418950537,
+      "sizeOfData": 41,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventUnsubscribe0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "FwpmNetEventUnsubscribe0"
+    },
+    {
+      "offset": 55092,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3266095147,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventsGetSecurityInfo0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "FwpmNetEventsGetSecurityInfo0"
+    },
+    {
+      "offset": 55220,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4107620268,
+      "sizeOfData": 35,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventsLost0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "FwpmNetEventsLost0"
+    },
+    {
+      "offset": 55336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3920513375,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmNetEventsSetSecurityInfo0@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "FwpmNetEventsSetSecurityInfo0"
+    },
+    {
+      "offset": 55464,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4260056507,
+      "sizeOfData": 49,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProcessNameResolutionEvent0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "FwpmProcessNameResolutionEvent0"
+    },
+    {
+      "offset": 55594,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4181607830,
+      "sizeOfData": 34,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderAdd0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "FwpmProviderAdd0"
+    },
+    {
+      "offset": 55708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3999760706,
+      "sizeOfData": 41,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextAdd0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "FwpmProviderContextAdd0"
+    },
+    {
+      "offset": 55830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3676305844,
+      "sizeOfData": 41,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextAdd1@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "FwpmProviderContextAdd1"
+    },
+    {
+      "offset": 55952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4004181808,
+      "sizeOfData": 41,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextAdd2@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "FwpmProviderContextAdd2"
+    },
+    {
+      "offset": 56074,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4248115391,
+      "sizeOfData": 41,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextAdd3@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "FwpmProviderContextAdd3"
+    },
+    {
+      "offset": 56196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3816811898,
+      "sizeOfData": 54,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "FwpmProviderContextCreateEnumHandle0"
+    },
+    {
+      "offset": 56330,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3634439915,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextDeleteById0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "FwpmProviderContextDeleteById0"
+    },
+    {
+      "offset": 56458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4009927687,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextDeleteByKey0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "FwpmProviderContextDeleteByKey0"
+    },
+    {
+      "offset": 56586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3958386932,
+      "sizeOfData": 54,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "FwpmProviderContextDestroyEnumHandle0"
+    },
+    {
+      "offset": 56720,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3235206187,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "FwpmProviderContextEnum0"
+    },
+    {
+      "offset": 56842,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3821029528,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextEnum1@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "FwpmProviderContextEnum1"
+    },
+    {
+      "offset": 56964,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3224145539,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextEnum2@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "FwpmProviderContextEnum2"
+    },
+    {
+      "offset": 57086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3308613102,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextEnum3@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "FwpmProviderContextEnum3"
+    },
+    {
+      "offset": 57208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4048772238,
+      "sizeOfData": 45,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextGetById0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "FwpmProviderContextGetById0"
+    },
+    {
+      "offset": 57334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3988948579,
+      "sizeOfData": 45,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextGetById1@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "FwpmProviderContextGetById1"
+    },
+    {
+      "offset": 57460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4274162060,
+      "sizeOfData": 45,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextGetById2@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "FwpmProviderContextGetById2"
+    },
+    {
+      "offset": 57586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3558572950,
+      "sizeOfData": 45,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextGetById3@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "FwpmProviderContextGetById3"
+    },
+    {
+      "offset": 57712,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4091792527,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextGetByKey0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "FwpmProviderContextGetByKey0"
+    },
+    {
+      "offset": 57838,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3320153943,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextGetByKey1@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "FwpmProviderContextGetByKey1"
+    },
+    {
+      "offset": 57964,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3639947248,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextGetByKey2@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "FwpmProviderContextGetByKey2"
+    },
+    {
+      "offset": 58090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3770872701,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextGetByKey3@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "FwpmProviderContextGetByKey3"
+    },
+    {
+      "offset": 58216,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3689509507,
+      "sizeOfData": 58,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextGetSecurityInfoByKey0@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "FwpmProviderContextGetSecurityInfoByKey0"
+    },
+    {
+      "offset": 58354,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4099890668,
+      "sizeOfData": 58,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextSetSecurityInfoByKey0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "FwpmProviderContextSetSecurityInfoByKey0"
+    },
+    {
+      "offset": 58492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4289398491,
+      "sizeOfData": 54,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextSubscribeChanges0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "FwpmProviderContextSubscribeChanges0"
+    },
+    {
+      "offset": 58626,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3663214155,
+      "sizeOfData": 54,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextSubscriptionsGet0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "FwpmProviderContextSubscriptionsGet0"
+    },
+    {
+      "offset": 58760,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4283856171,
+      "sizeOfData": 55,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderContextUnsubscribeChanges0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "FwpmProviderContextUnsubscribeChanges0"
+    },
+    {
+      "offset": 58896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4270462705,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "FwpmProviderCreateEnumHandle0"
+    },
+    {
+      "offset": 59024,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3694270903,
+      "sizeOfData": 41,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderDeleteByKey0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "FwpmProviderDeleteByKey0"
+    },
+    {
+      "offset": 59146,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4005125937,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "FwpmProviderDestroyEnumHandle0"
+    },
+    {
+      "offset": 59274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4157263245,
+      "sizeOfData": 35,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "FwpmProviderEnum0"
+    },
+    {
+      "offset": 59390,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4122742471,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderGetByKey0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "FwpmProviderGetByKey0"
+    },
+    {
+      "offset": 59510,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3954604890,
+      "sizeOfData": 51,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderGetSecurityInfoByKey0@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "FwpmProviderGetSecurityInfoByKey0"
+    },
+    {
+      "offset": 59642,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3807882750,
+      "sizeOfData": 51,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderSetSecurityInfoByKey0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "FwpmProviderSetSecurityInfoByKey0"
+    },
+    {
+      "offset": 59774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3231138918,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderSubscribeChanges0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "FwpmProviderSubscribeChanges0"
+    },
+    {
+      "offset": 59902,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3890473182,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderSubscriptionsGet0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "FwpmProviderSubscriptionsGet0"
+    },
+    {
+      "offset": 60030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4008682302,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmProviderUnsubscribeChanges0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "FwpmProviderUnsubscribeChanges0"
+    },
+    {
+      "offset": 60158,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3327938411,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSessionCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "FwpmSessionCreateEnumHandle0"
+    },
+    {
+      "offset": 60284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3261029086,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSessionDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "FwpmSessionDestroyEnumHandle0"
+    },
+    {
+      "offset": 60410,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3412900151,
+      "sizeOfData": 34,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSessionEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "FwpmSessionEnum0"
+    },
+    {
+      "offset": 60524,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3237969101,
+      "sizeOfData": 34,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSubLayerAdd0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "FwpmSubLayerAdd0"
+    },
+    {
+      "offset": 60638,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3282215353,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSubLayerCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "FwpmSubLayerCreateEnumHandle0"
+    },
+    {
+      "offset": 60766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4029341434,
+      "sizeOfData": 41,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSubLayerDeleteByKey0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "FwpmSubLayerDeleteByKey0"
+    },
+    {
+      "offset": 60888,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4177707261,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSubLayerDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "FwpmSubLayerDestroyEnumHandle0"
+    },
+    {
+      "offset": 61016,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4151541504,
+      "sizeOfData": 35,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSubLayerEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "FwpmSubLayerEnum0"
+    },
+    {
+      "offset": 61132,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3962020088,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSubLayerGetByKey0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "FwpmSubLayerGetByKey0"
+    },
+    {
+      "offset": 61252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3747188065,
+      "sizeOfData": 51,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSubLayerGetSecurityInfoByKey0@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "FwpmSubLayerGetSecurityInfoByKey0"
+    },
+    {
+      "offset": 61384,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3572246248,
+      "sizeOfData": 51,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSubLayerSetSecurityInfoByKey0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "FwpmSubLayerSetSecurityInfoByKey0"
+    },
+    {
+      "offset": 61516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3997354428,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSubLayerSubscribeChanges0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "FwpmSubLayerSubscribeChanges0"
+    },
+    {
+      "offset": 61644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4102623580,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSubLayerSubscriptionsGet0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "FwpmSubLayerSubscriptionsGet0"
+    },
+    {
+      "offset": 61772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4034513148,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSubLayerUnsubscribeChanges0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "FwpmSubLayerUnsubscribeChanges0"
+    },
+    {
+      "offset": 61900,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3348990840,
+      "sizeOfData": 36,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSystemPortsGet0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "FwpmSystemPortsGet0"
+    },
+    {
+      "offset": 62016,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3928509511,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSystemPortsSubscribe0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "FwpmSystemPortsSubscribe0"
+    },
+    {
+      "offset": 62140,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3260386127,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmSystemPortsUnsubscribe0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "FwpmSystemPortsUnsubscribe0"
+    },
+    {
+      "offset": 62264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4090773347,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmTraceRestoreDefaults0@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "FwpmTraceRestoreDefaults0"
+    },
+    {
+      "offset": 62386,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3253783796,
+      "sizeOfData": 38,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmTransactionAbort0@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 158,
+      "name": "FwpmTransactionAbort0"
+    },
+    {
+      "offset": 62504,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3678556401,
+      "sizeOfData": 38,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmTransactionBegin0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 159,
+      "name": "FwpmTransactionBegin0"
+    },
+    {
+      "offset": 62622,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3873154560,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmTransactionCommit0@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 160,
+      "name": "FwpmTransactionCommit0"
+    },
+    {
+      "offset": 62742,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3754987767,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmvSwitchEventSubscribe0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 161,
+      "name": "FwpmvSwitchEventSubscribe0"
+    },
+    {
+      "offset": 62866,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3527769866,
+      "sizeOfData": 45,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmvSwitchEventUnsubscribe0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 162,
+      "name": "FwpmvSwitchEventUnsubscribe0"
+    },
+    {
+      "offset": 62992,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4095515368,
+      "sizeOfData": 51,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmvSwitchEventsGetSecurityInfo0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 163,
+      "name": "FwpmvSwitchEventsGetSecurityInfo0"
+    },
+    {
+      "offset": 63124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3377431740,
+      "sizeOfData": 51,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpmvSwitchEventsSetSecurityInfo0@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 164,
+      "name": "FwpmvSwitchEventsSetSecurityInfo0"
+    },
+    {
+      "offset": 63256,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3411251377,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwppConnectionGetByIPsecInfo@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 165,
+      "name": "FwppConnectionGetByIPsecInfo"
+    },
+    {
+      "offset": 63382,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3717357582,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwppConnectionGetByS2STunnelId@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 166,
+      "name": "FwppConnectionGetByS2STunnelId"
+    },
+    {
+      "offset": 63510,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3882145753,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwppConnectionGetS2STunnelId@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 167,
+      "name": "FwppConnectionGetS2STunnelId"
+    },
+    {
+      "offset": 63636,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3241073303,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwppGetMD5HashBytes@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 168,
+      "name": "FwppGetMD5HashBytes"
+    },
+    {
+      "offset": 63754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3994923738,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwppIPsecSaContextCreate@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 169,
+      "name": "FwppIPsecSaContextCreate"
+    },
+    {
+      "offset": 63876,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3449941144,
+      "sizeOfData": 50,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsAleEndpointCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 170,
+      "name": "FwpsAleEndpointCreateEnumHandle0"
+    },
+    {
+      "offset": 64006,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3940213500,
+      "sizeOfData": 50,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsAleEndpointDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 171,
+      "name": "FwpsAleEndpointDestroyEnumHandle0"
+    },
+    {
+      "offset": 64136,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3441423457,
+      "sizeOfData": 38,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsAleEndpointEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 172,
+      "name": "FwpsAleEndpointEnum0"
+    },
+    {
+      "offset": 64254,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4119640361,
+      "sizeOfData": 41,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsAleEndpointGetById0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 173,
+      "name": "FwpsAleEndpointGetById0"
+    },
+    {
+      "offset": 64376,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4013904044,
+      "sizeOfData": 49,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsAleEndpointGetSecurityInfo0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 174,
+      "name": "FwpsAleEndpointGetSecurityInfo0"
+    },
+    {
+      "offset": 64506,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3829671793,
+      "sizeOfData": 49,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsAleEndpointSetSecurityInfo0@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 175,
+      "name": "FwpsAleEndpointSetSecurityInfo0"
+    },
+    {
+      "offset": 64636,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4154308617,
+      "sizeOfData": 50,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsAleExplicitCredentialsQuery0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 176,
+      "name": "FwpsAleExplicitCredentialsQuery0"
+    },
+    {
+      "offset": 64766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3781330466,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsAleGetPortStatus0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 177,
+      "name": "FwpsAleGetPortStatus0"
+    },
+    {
+      "offset": 64886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3718857970,
+      "sizeOfData": 35,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsClassifyUser0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 178,
+      "name": "FwpsClassifyUser0"
+    },
+    {
+      "offset": 65002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3245712773,
+      "sizeOfData": 32,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsFreeMemory0@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 179,
+      "name": "FwpsFreeMemory0"
+    },
+    {
+      "offset": 65114,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3755922863,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsGetInProcReplicaOffset0@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 180,
+      "name": "FwpsGetInProcReplicaOffset0"
+    },
+    {
+      "offset": 65238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3538704328,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsLayerCreateInProcReplica0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 181,
+      "name": "FwpsLayerCreateInProcReplica0"
+    },
+    {
+      "offset": 65364,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3469067543,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsLayerReleaseInProcReplica0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 182,
+      "name": "FwpsLayerReleaseInProcReplica0"
+    },
+    {
+      "offset": 65492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3325493720,
+      "sizeOfData": 32,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsOpenToken0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 183,
+      "name": "FwpsOpenToken0"
+    },
+    {
+      "offset": 65604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4144017621,
+      "sizeOfData": 41,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsQueryIPsecDosFWUsed0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 184,
+      "name": "FwpsQueryIPsecDosFWUsed0"
+    },
+    {
+      "offset": 65726,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3973871018,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_FwpsQueryIPsecOffloadDone0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 185,
+      "name": "FwpsQueryIPsecOffloadDone0"
+    },
+    {
+      "offset": 65850,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3944070219,
+      "sizeOfData": 38,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_GetUnifiedTraceHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 186,
+      "name": "GetUnifiedTraceHandle"
+    },
+    {
+      "offset": 65968,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4293027078,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecDospGetSecurityInfo0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 187,
+      "name": "IPsecDospGetSecurityInfo0"
+    },
+    {
+      "offset": 66092,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3430936348,
+      "sizeOfData": 40,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecDospGetStatistics0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 188,
+      "name": "IPsecDospGetStatistics0"
+    },
+    {
+      "offset": 66212,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3592440803,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecDospSetSecurityInfo0@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 189,
+      "name": "IPsecDospSetSecurityInfo0"
+    },
+    {
+      "offset": 66336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3972365083,
+      "sizeOfData": 49,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecDospStateCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 190,
+      "name": "IPsecDospStateCreateEnumHandle0"
+    },
+    {
+      "offset": 66466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3506604407,
+      "sizeOfData": 49,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecDospStateDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 191,
+      "name": "IPsecDospStateDestroyEnumHandle0"
+    },
+    {
+      "offset": 66596,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4210656121,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecDospStateEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 192,
+      "name": "IPsecDospStateEnum0"
+    },
+    {
+      "offset": 66714,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3847761974,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecGetKeyFromDictator0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 193,
+      "name": "IPsecGetKeyFromDictator0"
+    },
+    {
+      "offset": 66836,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4267802899,
+      "sizeOfData": 36,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecGetStatistics0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 194,
+      "name": "IPsecGetStatistics0"
+    },
+    {
+      "offset": 66952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3408632119,
+      "sizeOfData": 36,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecGetStatistics1@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 195,
+      "name": "IPsecGetStatistics1"
+    },
+    {
+      "offset": 67068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4215461045,
+      "sizeOfData": 41,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecKeyDictationCheck0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 196,
+      "name": "IPsecKeyDictationCheck0"
+    },
+    {
+      "offset": 67190,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3393567564,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecKeyManagerAddAndRegister0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 197,
+      "name": "IPsecKeyManagerAddAndRegister0"
+    },
+    {
+      "offset": 67318,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3414691020,
+      "sizeOfData": 54,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecKeyManagerGetSecurityInfoByKey0@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 198,
+      "name": "IPsecKeyManagerGetSecurityInfoByKey0"
+    },
+    {
+      "offset": 67452,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3822243610,
+      "sizeOfData": 54,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecKeyManagerSetSecurityInfoByKey0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 199,
+      "name": "IPsecKeyManagerSetSecurityInfoByKey0"
+    },
+    {
+      "offset": 67586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3845246443,
+      "sizeOfData": 52,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecKeyManagerUnregisterAndDelete0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 200,
+      "name": "IPsecKeyManagerUnregisterAndDelete0"
+    },
+    {
+      "offset": 67718,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4124820106,
+      "sizeOfData": 38,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecKeyManagersGet0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 201,
+      "name": "IPsecKeyManagersGet0"
+    },
+    {
+      "offset": 67836,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3261586679,
+      "sizeOfData": 36,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecKeyModuleAdd0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 202,
+      "name": "IPsecKeyModuleAdd0"
+    },
+    {
+      "offset": 67952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3223975670,
+      "sizeOfData": 38,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecKeyModuleDelete0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 203,
+      "name": "IPsecKeyModuleDelete0"
+    },
+    {
+      "offset": 68070,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3318920963,
+      "sizeOfData": 46,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecKeyModuleUpdateAcquire0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 204,
+      "name": "IPsecKeyModuleUpdateAcquire0"
+    },
+    {
+      "offset": 68196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3807751870,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecKeyNotification0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 205,
+      "name": "IPsecKeyNotification0"
+    },
+    {
+      "offset": 68316,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3684929360,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextAddInbound0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 206,
+      "name": "IPsecSaContextAddInbound0"
+    },
+    {
+      "offset": 68440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3581919722,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextAddInbound1@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 207,
+      "name": "IPsecSaContextAddInbound1"
+    },
+    {
+      "offset": 68564,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4150597577,
+      "sizeOfData": 60,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextAddInboundAndTrackConnection@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 208,
+      "name": "IPsecSaContextAddInboundAndTrackConnection"
+    },
+    {
+      "offset": 68704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3930391196,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextAddOutbound0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 209,
+      "name": "IPsecSaContextAddOutbound0"
+    },
+    {
+      "offset": 68828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3472105394,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextAddOutbound1@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 210,
+      "name": "IPsecSaContextAddOutbound1"
+    },
+    {
+      "offset": 68952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3295677885,
+      "sizeOfData": 61,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextAddOutboundAndTrackConnection@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 211,
+      "name": "IPsecSaContextAddOutboundAndTrackConnection"
+    },
+    {
+      "offset": 69094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4110563785,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextCreate0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 212,
+      "name": "IPsecSaContextCreate0"
+    },
+    {
+      "offset": 69214,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3816616154,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextCreate1@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 213,
+      "name": "IPsecSaContextCreate1"
+    },
+    {
+      "offset": 69334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4093483690,
+      "sizeOfData": 49,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 214,
+      "name": "IPsecSaContextCreateEnumHandle0"
+    },
+    {
+      "offset": 69464,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4214577522,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextDeleteById0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 215,
+      "name": "IPsecSaContextDeleteById0"
+    },
+    {
+      "offset": 69588,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3602973353,
+      "sizeOfData": 49,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 216,
+      "name": "IPsecSaContextDestroyEnumHandle0"
+    },
+    {
+      "offset": 69718,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3261300296,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 217,
+      "name": "IPsecSaContextEnum0"
+    },
+    {
+      "offset": 69836,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3809539688,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextEnum1@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 218,
+      "name": "IPsecSaContextEnum1"
+    },
+    {
+      "offset": 69954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3853112667,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextExpire0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 219,
+      "name": "IPsecSaContextExpire0"
+    },
+    {
+      "offset": 70074,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3861466484,
+      "sizeOfData": 40,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextGetById0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 220,
+      "name": "IPsecSaContextGetById0"
+    },
+    {
+      "offset": 70194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3627599536,
+      "sizeOfData": 40,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextGetById1@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 221,
+      "name": "IPsecSaContextGetById1"
+    },
+    {
+      "offset": 70314,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3928157742,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextGetSpi0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 222,
+      "name": "IPsecSaContextGetSpi0"
+    },
+    {
+      "offset": 70434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3679081974,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextGetSpi1@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 223,
+      "name": "IPsecSaContextGetSpi1"
+    },
+    {
+      "offset": 70554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3971738779,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextSetSpi0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 224,
+      "name": "IPsecSaContextSetSpi0"
+    },
+    {
+      "offset": 70674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3623862218,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextSubscribe0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 225,
+      "name": "IPsecSaContextSubscribe0"
+    },
+    {
+      "offset": 70796,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3362092220,
+      "sizeOfData": 49,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextSubscriptionsGet0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 226,
+      "name": "IPsecSaContextSubscriptionsGet0"
+    },
+    {
+      "offset": 70926,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3339044342,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextUnsubscribe0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 227,
+      "name": "IPsecSaContextUnsubscribe0"
+    },
+    {
+      "offset": 71050,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3783264357,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaContextUpdate0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 228,
+      "name": "IPsecSaContextUpdate0"
+    },
+    {
+      "offset": 71170,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3742396931,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 229,
+      "name": "IPsecSaCreateEnumHandle0"
+    },
+    {
+      "offset": 71292,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3837661788,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaDbGetSecurityInfo0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 230,
+      "name": "IPsecSaDbGetSecurityInfo0"
+    },
+    {
+      "offset": 71416,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4068082110,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaDbSetSecurityInfo0@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 231,
+      "name": "IPsecSaDbSetSecurityInfo0"
+    },
+    {
+      "offset": 71540,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3942333359,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 232,
+      "name": "IPsecSaDestroyEnumHandle0"
+    },
+    {
+      "offset": 71662,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3901933715,
+      "sizeOfData": 30,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 233,
+      "name": "IPsecSaEnum0"
+    },
+    {
+      "offset": 71772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4279628520,
+      "sizeOfData": 30,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaEnum1@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 234,
+      "name": "IPsecSaEnum1"
+    },
+    {
+      "offset": 71882,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3978790854,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IPsecSaInitiateAsync0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 235,
+      "name": "IPsecSaInitiateAsync0"
+    },
+    {
+      "offset": 72002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4172344022,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextGetConfigParameters0@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 236,
+      "name": "IkeextGetConfigParameters0"
+    },
+    {
+      "offset": 72126,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3315328629,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextGetStatistics0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 237,
+      "name": "IkeextGetStatistics0"
+    },
+    {
+      "offset": 72244,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4100564213,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextGetStatistics1@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 238,
+      "name": "IkeextGetStatistics1"
+    },
+    {
+      "offset": 72362,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3858812973,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSaCreateEnumHandle0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 239,
+      "name": "IkeextSaCreateEnumHandle0"
+    },
+    {
+      "offset": 72486,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4210526925,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSaDbGetSecurityInfo0@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 240,
+      "name": "IkeextSaDbGetSecurityInfo0"
+    },
+    {
+      "offset": 72610,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3871569370,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSaDbSetSecurityInfo0@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 241,
+      "name": "IkeextSaDbSetSecurityInfo0"
+    },
+    {
+      "offset": 72734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4125201054,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSaDeleteById0@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 242,
+      "name": "IkeextSaDeleteById0"
+    },
+    {
+      "offset": 72852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3743545436,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSaDestroyEnumHandle0@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 243,
+      "name": "IkeextSaDestroyEnumHandle0"
+    },
+    {
+      "offset": 72976,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3386675595,
+      "sizeOfData": 31,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSaEnum0@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 244,
+      "name": "IkeextSaEnum0"
+    },
+    {
+      "offset": 73088,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3600768222,
+      "sizeOfData": 31,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSaEnum1@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 245,
+      "name": "IkeextSaEnum1"
+    },
+    {
+      "offset": 73200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3271585772,
+      "sizeOfData": 31,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSaEnum2@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 246,
+      "name": "IkeextSaEnum2"
+    },
+    {
+      "offset": 73312,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4219584328,
+      "sizeOfData": 34,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSaGetById0@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 247,
+      "name": "IkeextSaGetById0"
+    },
+    {
+      "offset": 73426,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3390883633,
+      "sizeOfData": 34,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSaGetById1@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 248,
+      "name": "IkeextSaGetById1"
+    },
+    {
+      "offset": 73540,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4240613926,
+      "sizeOfData": 34,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSaGetById2@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 249,
+      "name": "IkeextSaGetById2"
+    },
+    {
+      "offset": 73654,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4210917032,
+      "sizeOfData": 62,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSaUpdateAdditionalAddressesByTunnelId0@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 250,
+      "name": "IkeextSaUpdateAdditionalAddressesByTunnelId0"
+    },
+    {
+      "offset": 73796,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4210035405,
+      "sizeOfData": 61,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSaUpdatePreferredAddressesByTunnelId0@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 251,
+      "name": "IkeextSaUpdatePreferredAddressesByTunnelId0"
+    },
+    {
+      "offset": 73938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3658787516,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_IkeextSetConfigParameters0@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 252,
+      "name": "IkeextSetConfigParameters0"
+    },
+    {
+      "offset": 74062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3263897601,
+      "sizeOfData": 34,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_NamespaceCallout@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 253,
+      "name": "NamespaceCallout"
+    },
+    {
+      "offset": 74176,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3397521975,
+      "sizeOfData": 41,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WFPRIODequeueCompletion@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 254,
+      "name": "WFPRIODequeueCompletion"
+    },
+    {
+      "offset": 74298,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3462375923,
+      "sizeOfData": 47,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WSADeleteSocketPeerTargetName@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 255,
+      "name": "WSADeleteSocketPeerTargetName"
+    },
+    {
+      "offset": 74426,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3492495327,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WSAImpersonateSocketPeer@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 256,
+      "name": "WSAImpersonateSocketPeer"
+    },
+    {
+      "offset": 74548,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4030998275,
+      "sizeOfData": 40,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WSAQuerySocketSecurity@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 257,
+      "name": "WSAQuerySocketSecurity"
+    },
+    {
+      "offset": 74668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3634150615,
+      "sizeOfData": 39,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WSARevertImpersonation@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 258,
+      "name": "WSARevertImpersonation"
+    },
+    {
+      "offset": 74788,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4282992789,
+      "sizeOfData": 44,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WSASetSocketPeerTargetName@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 259,
+      "name": "WSASetSocketPeerTargetName"
+    },
+    {
+      "offset": 74912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4129135336,
+      "sizeOfData": 38,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WSASetSocketSecurity@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 260,
+      "name": "WSASetSocketSecurity"
+    },
+    {
+      "offset": 75030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3911458671,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpCloseDPConfigureHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 261,
+      "name": "WfpCloseDPConfigureHandle"
+    },
+    {
+      "offset": 75152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3559988020,
+      "sizeOfData": 50,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpConfigureDPSecurityDescriptor@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 262,
+      "name": "WfpConfigureDPSecurityDescriptor"
+    },
+    {
+      "offset": 75282,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4076830249,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpCreateDPConfigureHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 263,
+      "name": "WfpCreateDPConfigureHandle"
+    },
+    {
+      "offset": 75406,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3827215820,
+      "sizeOfData": 35,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIOChannelClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 264,
+      "name": "WfpRIOChannelClose"
+    },
+    {
+      "offset": 75522,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3405286066,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIOCleanupRequestQueue@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 265,
+      "name": "WfpRIOCleanupRequestQueue"
+    },
+    {
+      "offset": 75644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3441858704,
+      "sizeOfData": 43,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIOCloseCompletionQueue@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 266,
+      "name": "WfpRIOCloseCompletionQueue"
+    },
+    {
+      "offset": 75768,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4071245259,
+      "sizeOfData": 37,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIOCreateChannel@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 267,
+      "name": "WfpRIOCreateChannel"
+    },
+    {
+      "offset": 75886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3518382697,
+      "sizeOfData": 45,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIOCreateCompletionQueue@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 268,
+      "name": "WfpRIOCreateCompletionQueue"
+    },
+    {
+      "offset": 76012,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3795570366,
+      "sizeOfData": 42,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIOCreateRequestQueue@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 269,
+      "name": "WfpRIOCreateRequestQueue"
+    },
+    {
+      "offset": 76134,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3448445782,
+      "sizeOfData": 40,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIODeregisterBuffer@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 270,
+      "name": "WfpRIODeregisterBuffer"
+    },
+    {
+      "offset": 76254,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4084804561,
+      "sizeOfData": 48,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIOIndicateActivityThreshold@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 271,
+      "name": "WfpRIOIndicateActivityThreshold"
+    },
+    {
+      "offset": 76382,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3511294475,
+      "sizeOfData": 29,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIONotify@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 272,
+      "name": "WfpRIONotify"
+    },
+    {
+      "offset": 76492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3813696291,
+      "sizeOfData": 31,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIOReceive@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 273,
+      "name": "WfpRIOReceive"
+    },
+    {
+      "offset": 76604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3652174543,
+      "sizeOfData": 38,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIORegisterBuffer@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 274,
+      "name": "WfpRIORegisterBuffer"
+    },
+    {
+      "offset": 76722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3677140705,
+      "sizeOfData": 29,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIOResume@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 275,
+      "name": "WfpRIOResume"
+    },
+    {
+      "offset": 76832,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3652484537,
+      "sizeOfData": 28,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIOSend@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 276,
+      "name": "WfpRIOSend"
+    },
+    {
+      "offset": 76940,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4158587867,
+      "sizeOfData": 30,
+      "dllName": "fwpuclnt.dll",
+      "symbolName": "_WfpRIOSuspend@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 277,
+      "name": "WfpRIOSuspend"
+    }
+  ]
+}

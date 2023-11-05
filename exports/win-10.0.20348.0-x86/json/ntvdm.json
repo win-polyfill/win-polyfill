@@ -1,0 +1,3921 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_BlockWOWIdle@4"
+    },
+    {
+      "name": "_CurrentMonitorTeb"
+    },
+    {
+      "name": "_DBGNotifyDebugged@4"
+    },
+    {
+      "name": "_DBGNotifyNewTask@8"
+    },
+    {
+      "name": "_DBGNotifyRemoteThreadAddress@8"
+    },
+    {
+      "name": "_DispatchInterrupts@0"
+    },
+    {
+      "name": "_Dos_Flag_Addr"
+    },
+    {
+      "name": "_DpmiSetIncrementalAlloc@4"
+    },
+    {
+      "name": "_ExpLdt"
+    },
+    {
+      "name": "_FlatAddress"
+    },
+    {
+      "name": "_GetDOSAppName@4"
+    },
+    {
+      "name": "_InitialVdmDbgFlags"
+    },
+    {
+      "name": "_InitialVdmTibFlags"
+    },
+    {
+      "name": "_IsCdRomFile@4"
+    },
+    {
+      "name": "_MGetVdmPointer@12"
+    },
+    {
+      "name": "_RedirectLongFileName@12"
+    },
+    {
+      "name": "_RedirectShortFileName@12"
+    },
+    {
+      "name": "_RegisterWOWIdle@0"
+    },
+    {
+      "name": "_ResumeTimerThread@0"
+    },
+    {
+      "name": "_SelectorLimit"
+    },
+    {
+      "name": "_SetShadowDescriptorEntries@8"
+    },
+    {
+      "name": "_ShortPathEnvVar@4"
+    },
+    {
+      "name": "_Sim32pGetVDMPointer@8"
+    },
+    {
+      "name": "_SoftPcEoi@8"
+    },
+    {
+      "name": "_SuspendTimerThread@0"
+    },
+    {
+      "name": "_VDDAllocMem@12"
+    },
+    {
+      "name": "_VDDAllocateDosHandle@12"
+    },
+    {
+      "name": "_VDDAssociateNtHandle@12"
+    },
+    {
+      "name": "_VDDDeInstallIOHook@12"
+    },
+    {
+      "name": "_VDDDeInstallMemoryHook@12"
+    },
+    {
+      "name": "_VDDDeInstallUserHook@4"
+    },
+    {
+      "name": "_VDDExcludeMem@12"
+    },
+    {
+      "name": "_VDDFreeMem@12"
+    },
+    {
+      "name": "_VDDIncludeMem@12"
+    },
+    {
+      "name": "_VDDInstallIOHook@16"
+    },
+    {
+      "name": "_VDDInstallMemoryHook@16"
+    },
+    {
+      "name": "_VDDInstallUserHook@20"
+    },
+    {
+      "name": "_VDDQueryDMA@12"
+    },
+    {
+      "name": "_VDDReleaseDosHandle@8"
+    },
+    {
+      "name": "_VDDReleaseIrqLine@8"
+    },
+    {
+      "name": "_VDDRequestDMA@16"
+    },
+    {
+      "name": "_VDDReserveIrqLine@8"
+    },
+    {
+      "name": "_VDDRetrieveNtHandle@16"
+    },
+    {
+      "name": "_VDDSetDMA@16"
+    },
+    {
+      "name": "_VDDSimulate16@0"
+    },
+    {
+      "name": "_VDDTerminateVDM@0"
+    },
+    {
+      "name": "_VdmDbgAttach@0"
+    },
+    {
+      "name": "_VdmGetParametersInfoError@0"
+    },
+    {
+      "name": "_VdmMapFlat@12"
+    },
+    {
+      "name": "_VdmParametersInfo@12"
+    },
+    {
+      "name": "_VdmTraceEvent@12"
+    },
+    {
+      "name": "_WOWSysErrorBox@20"
+    },
+    {
+      "name": "_WaitIfIdle@0"
+    },
+    {
+      "name": "_call_ica_hw_interrupt@12"
+    },
+    {
+      "name": "_cmdCheckTemp@4"
+    },
+    {
+      "name": "_cmdCheckTempInit@0"
+    },
+    {
+      "name": "_cpu_createthread@8"
+    },
+    {
+      "name": "_demClientErrorEx@12"
+    },
+    {
+      "name": "_demFileDelete@4"
+    },
+    {
+      "name": "_demFileFindFirst@12"
+    },
+    {
+      "name": "_demFileFindNext@4"
+    },
+    {
+      "name": "_demGetFileTimeByHandle_WOW@4"
+    },
+    {
+      "name": "_demGetPhysicalDriveType@4"
+    },
+    {
+      "name": "_demIsShortPathName@8"
+    },
+    {
+      "name": "_demLFNCleanup@0"
+    },
+    {
+      "name": "_demLFNGetCurrentDirectory@8"
+    },
+    {
+      "name": "_demSetCurrentDirectoryGetDrive@8"
+    },
+    {
+      "name": "_demWOWLFNAllocateSearchHandle@4"
+    },
+    {
+      "name": "_demWOWLFNCloseSearchHandle@4"
+    },
+    {
+      "name": "_demWOWLFNEntry@4"
+    },
+    {
+      "name": "_demWOWLFNGetSearchHandle@4"
+    },
+    {
+      "name": "_demWOWLFNInit@4"
+    },
+    {
+      "name": "_fSeparateWow"
+    },
+    {
+      "name": "_getAF@0"
+    },
+    {
+      "name": "_getAH@0"
+    },
+    {
+      "name": "_getAL@0"
+    },
+    {
+      "name": "_getAX@0"
+    },
+    {
+      "name": "_getBH@0"
+    },
+    {
+      "name": "_getBL@0"
+    },
+    {
+      "name": "_getBP@0"
+    },
+    {
+      "name": "_getBX@0"
+    },
+    {
+      "name": "_getCF@0"
+    },
+    {
+      "name": "_getCH@0"
+    },
+    {
+      "name": "_getCL@0"
+    },
+    {
+      "name": "_getCS@0"
+    },
+    {
+      "name": "_getCX@0"
+    },
+    {
+      "name": "_getDF@0"
+    },
+    {
+      "name": "_getDH@0"
+    },
+    {
+      "name": "_getDI@0"
+    },
+    {
+      "name": "_getDL@0"
+    },
+    {
+      "name": "_getDS@0"
+    },
+    {
+      "name": "_getDX@0"
+    },
+    {
+      "name": "_getEAX@0"
+    },
+    {
+      "name": "_getEBP@0"
+    },
+    {
+      "name": "_getEBX@0"
+    },
+    {
+      "name": "_getECX@0"
+    },
+    {
+      "name": "_getEDI@0"
+    },
+    {
+      "name": "_getEDX@0"
+    },
+    {
+      "name": "_getEFLAGS@0"
+    },
+    {
+      "name": "_getEIP@0"
+    },
+    {
+      "name": "_getES@0"
+    },
+    {
+      "name": "_getESI@0"
+    },
+    {
+      "name": "_getESP@0"
+    },
+    {
+      "name": "_getFS@0"
+    },
+    {
+      "name": "_getGS@0"
+    },
+    {
+      "name": "_getIF@0"
+    },
+    {
+      "name": "_getIP@0"
+    },
+    {
+      "name": "_getIntelRegistersPointer@0"
+    },
+    {
+      "name": "_getMSW@0"
+    },
+    {
+      "name": "_getOF@0"
+    },
+    {
+      "name": "_getPF@0"
+    },
+    {
+      "name": "_getSF@0"
+    },
+    {
+      "name": "_getSI@0"
+    },
+    {
+      "name": "_getSP@0"
+    },
+    {
+      "name": "_getSS@0"
+    },
+    {
+      "name": "_getZF@0"
+    },
+    {
+      "name": "_host_CreateThread@24"
+    },
+    {
+      "name": "_host_ExitThread@4"
+    },
+    {
+      "name": "_host_com_close@4"
+    },
+    {
+      "name": "_host_direct_access_error@4"
+    },
+    {
+      "name": "_host_simulate@0"
+    },
+    {
+      "name": "_pDeviceChain"
+    },
+    {
+      "name": "_setAF@4"
+    },
+    {
+      "name": "_setAH@4"
+    },
+    {
+      "name": "_setAL@4"
+    },
+    {
+      "name": "_setAX@4"
+    },
+    {
+      "name": "_setBH@4"
+    },
+    {
+      "name": "_setBL@4"
+    },
+    {
+      "name": "_setBP@4"
+    },
+    {
+      "name": "_setBX@4"
+    },
+    {
+      "name": "_setCF@4"
+    },
+    {
+      "name": "_setCH@4"
+    },
+    {
+      "name": "_setCL@4"
+    },
+    {
+      "name": "_setCS@4"
+    },
+    {
+      "name": "_setCX@4"
+    },
+    {
+      "name": "_setDF@4"
+    },
+    {
+      "name": "_setDH@4"
+    },
+    {
+      "name": "_setDI@4"
+    },
+    {
+      "name": "_setDL@4"
+    },
+    {
+      "name": "_setDS@4"
+    },
+    {
+      "name": "_setDX@4"
+    },
+    {
+      "name": "_setEAX@4"
+    },
+    {
+      "name": "_setEBP@4"
+    },
+    {
+      "name": "_setEBX@4"
+    },
+    {
+      "name": "_setECX@4"
+    },
+    {
+      "name": "_setEDI@4"
+    },
+    {
+      "name": "_setEDX@4"
+    },
+    {
+      "name": "_setEFLAGS@4"
+    },
+    {
+      "name": "_setEIP@4"
+    },
+    {
+      "name": "_setES@4"
+    },
+    {
+      "name": "_setESI@4"
+    },
+    {
+      "name": "_setESP@4"
+    },
+    {
+      "name": "_setFS@4"
+    },
+    {
+      "name": "_setGS@4"
+    },
+    {
+      "name": "_setIF@4"
+    },
+    {
+      "name": "_setIP@4"
+    },
+    {
+      "name": "_setMSW@4"
+    },
+    {
+      "name": "_setOF@4"
+    },
+    {
+      "name": "_setPF@4"
+    },
+    {
+      "name": "_setSF@4"
+    },
+    {
+      "name": "_setSI@4"
+    },
+    {
+      "name": "_setSP@4"
+    },
+    {
+      "name": "_setSS@4"
+    },
+    {
+      "name": "_setZF@4"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 14388,
+      "name": "__IMPORT_DESCRIPTOR_ntvdm"
+    },
+    {
+      "offset": 14934,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 15242,
+      "name": "ntvdm_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 17108,
+      "name": "_MGetVdmPointer@12"
+    },
+    {
+      "offset": 17108,
+      "name": "__imp__MGetVdmPointer@12"
+    },
+    {
+      "offset": 15682,
+      "name": "__imp__CurrentMonitorTeb"
+    },
+    {
+      "offset": 17672,
+      "name": "__imp__SelectorLimit"
+    },
+    {
+      "offset": 16354,
+      "name": "_DpmiSetIncrementalAlloc@4"
+    },
+    {
+      "offset": 16354,
+      "name": "__imp__DpmiSetIncrementalAlloc@4"
+    },
+    {
+      "offset": 25608,
+      "name": "__imp__getEAX@0"
+    },
+    {
+      "offset": 25608,
+      "name": "_getEAX@0"
+    },
+    {
+      "offset": 25808,
+      "name": "__imp__getEBX@0"
+    },
+    {
+      "offset": 25808,
+      "name": "_getEBX@0"
+    },
+    {
+      "offset": 25908,
+      "name": "__imp__getECX@0"
+    },
+    {
+      "offset": 25908,
+      "name": "_getECX@0"
+    },
+    {
+      "offset": 26108,
+      "name": "__imp__getEDX@0"
+    },
+    {
+      "offset": 26108,
+      "name": "_getEDX@0"
+    },
+    {
+      "offset": 26612,
+      "name": "__imp__getESP@0"
+    },
+    {
+      "offset": 26612,
+      "name": "_getESP@0"
+    },
+    {
+      "offset": 25708,
+      "name": "__imp__getEBP@0"
+    },
+    {
+      "offset": 25708,
+      "name": "_getEBP@0"
+    },
+    {
+      "offset": 26512,
+      "name": "__imp__getESI@0"
+    },
+    {
+      "offset": 26512,
+      "name": "_getESI@0"
+    },
+    {
+      "offset": 26008,
+      "name": "__imp__getEDI@0"
+    },
+    {
+      "offset": 26008,
+      "name": "_getEDI@0"
+    },
+    {
+      "offset": 26712,
+      "name": "__imp__getFS@0"
+    },
+    {
+      "offset": 26712,
+      "name": "_getFS@0"
+    },
+    {
+      "offset": 26812,
+      "name": "__imp__getGS@0"
+    },
+    {
+      "offset": 26812,
+      "name": "_getGS@0"
+    },
+    {
+      "offset": 30590,
+      "name": "__imp__setEAX@4"
+    },
+    {
+      "offset": 30590,
+      "name": "_setEAX@4"
+    },
+    {
+      "offset": 30790,
+      "name": "__imp__setEBX@4"
+    },
+    {
+      "offset": 30790,
+      "name": "_setEBX@4"
+    },
+    {
+      "offset": 30890,
+      "name": "__imp__setECX@4"
+    },
+    {
+      "offset": 30890,
+      "name": "_setECX@4"
+    },
+    {
+      "offset": 31090,
+      "name": "__imp__setEDX@4"
+    },
+    {
+      "offset": 31090,
+      "name": "_setEDX@4"
+    },
+    {
+      "offset": 31594,
+      "name": "__imp__setESP@4"
+    },
+    {
+      "offset": 31594,
+      "name": "_setESP@4"
+    },
+    {
+      "offset": 30690,
+      "name": "__imp__setEBP@4"
+    },
+    {
+      "offset": 30690,
+      "name": "_setEBP@4"
+    },
+    {
+      "offset": 31494,
+      "name": "__imp__setESI@4"
+    },
+    {
+      "offset": 31494,
+      "name": "_setESI@4"
+    },
+    {
+      "offset": 30990,
+      "name": "__imp__setEDI@4"
+    },
+    {
+      "offset": 30990,
+      "name": "_setEDI@4"
+    },
+    {
+      "offset": 31694,
+      "name": "__imp__setFS@4"
+    },
+    {
+      "offset": 31694,
+      "name": "_setFS@4"
+    },
+    {
+      "offset": 31794,
+      "name": "__imp__setGS@4"
+    },
+    {
+      "offset": 31794,
+      "name": "_setGS@4"
+    },
+    {
+      "offset": 32094,
+      "name": "__imp__setMSW@4"
+    },
+    {
+      "offset": 32094,
+      "name": "_setMSW@4"
+    },
+    {
+      "offset": 26312,
+      "name": "__imp__getEIP@0"
+    },
+    {
+      "offset": 26312,
+      "name": "_getEIP@0"
+    },
+    {
+      "offset": 31294,
+      "name": "__imp__setEIP@4"
+    },
+    {
+      "offset": 31294,
+      "name": "_setEIP@4"
+    },
+    {
+      "offset": 26208,
+      "name": "__imp__getEFLAGS@0"
+    },
+    {
+      "offset": 26208,
+      "name": "_getEFLAGS@0"
+    },
+    {
+      "offset": 31190,
+      "name": "__imp__setEFLAGS@4"
+    },
+    {
+      "offset": 31190,
+      "name": "_setEFLAGS@4"
+    },
+    {
+      "offset": 27230,
+      "name": "__imp__getMSW@0"
+    },
+    {
+      "offset": 27230,
+      "name": "_getMSW@0"
+    },
+    {
+      "offset": 24008,
+      "name": "__imp__getAX@0"
+    },
+    {
+      "offset": 24008,
+      "name": "_getAX@0"
+    },
+    {
+      "offset": 23908,
+      "name": "__imp__getAL@0"
+    },
+    {
+      "offset": 23908,
+      "name": "_getAL@0"
+    },
+    {
+      "offset": 23808,
+      "name": "__imp__getAH@0"
+    },
+    {
+      "offset": 23808,
+      "name": "_getAH@0"
+    },
+    {
+      "offset": 24408,
+      "name": "__imp__getBX@0"
+    },
+    {
+      "offset": 24408,
+      "name": "_getBX@0"
+    },
+    {
+      "offset": 24208,
+      "name": "__imp__getBL@0"
+    },
+    {
+      "offset": 24208,
+      "name": "_getBL@0"
+    },
+    {
+      "offset": 24108,
+      "name": "__imp__getBH@0"
+    },
+    {
+      "offset": 24108,
+      "name": "_getBH@0"
+    },
+    {
+      "offset": 24908,
+      "name": "__imp__getCX@0"
+    },
+    {
+      "offset": 24908,
+      "name": "_getCX@0"
+    },
+    {
+      "offset": 24708,
+      "name": "__imp__getCL@0"
+    },
+    {
+      "offset": 24708,
+      "name": "_getCL@0"
+    },
+    {
+      "offset": 24608,
+      "name": "__imp__getCH@0"
+    },
+    {
+      "offset": 24608,
+      "name": "_getCH@0"
+    },
+    {
+      "offset": 25508,
+      "name": "__imp__getDX@0"
+    },
+    {
+      "offset": 25508,
+      "name": "_getDX@0"
+    },
+    {
+      "offset": 25308,
+      "name": "__imp__getDL@0"
+    },
+    {
+      "offset": 25308,
+      "name": "_getDL@0"
+    },
+    {
+      "offset": 25108,
+      "name": "__imp__getDH@0"
+    },
+    {
+      "offset": 25108,
+      "name": "_getDH@0"
+    },
+    {
+      "offset": 27730,
+      "name": "__imp__getSP@0"
+    },
+    {
+      "offset": 27730,
+      "name": "_getSP@0"
+    },
+    {
+      "offset": 24308,
+      "name": "__imp__getBP@0"
+    },
+    {
+      "offset": 24308,
+      "name": "_getBP@0"
+    },
+    {
+      "offset": 27630,
+      "name": "__imp__getSI@0"
+    },
+    {
+      "offset": 27630,
+      "name": "_getSI@0"
+    },
+    {
+      "offset": 25208,
+      "name": "__imp__getDI@0"
+    },
+    {
+      "offset": 25208,
+      "name": "_getDI@0"
+    },
+    {
+      "offset": 27012,
+      "name": "__imp__getIP@0"
+    },
+    {
+      "offset": 27012,
+      "name": "_getIP@0"
+    },
+    {
+      "offset": 24808,
+      "name": "__imp__getCS@0"
+    },
+    {
+      "offset": 24808,
+      "name": "_getCS@0"
+    },
+    {
+      "offset": 27830,
+      "name": "__imp__getSS@0"
+    },
+    {
+      "offset": 27830,
+      "name": "_getSS@0"
+    },
+    {
+      "offset": 25408,
+      "name": "__imp__getDS@0"
+    },
+    {
+      "offset": 25408,
+      "name": "_getDS@0"
+    },
+    {
+      "offset": 26412,
+      "name": "__imp__getES@0"
+    },
+    {
+      "offset": 26412,
+      "name": "_getES@0"
+    },
+    {
+      "offset": 24508,
+      "name": "__imp__getCF@0"
+    },
+    {
+      "offset": 24508,
+      "name": "_getCF@0"
+    },
+    {
+      "offset": 27430,
+      "name": "__imp__getPF@0"
+    },
+    {
+      "offset": 27430,
+      "name": "_getPF@0"
+    },
+    {
+      "offset": 23708,
+      "name": "__imp__getAF@0"
+    },
+    {
+      "offset": 23708,
+      "name": "_getAF@0"
+    },
+    {
+      "offset": 27930,
+      "name": "__imp__getZF@0"
+    },
+    {
+      "offset": 27930,
+      "name": "_getZF@0"
+    },
+    {
+      "offset": 27530,
+      "name": "__imp__getSF@0"
+    },
+    {
+      "offset": 27530,
+      "name": "_getSF@0"
+    },
+    {
+      "offset": 26912,
+      "name": "__imp__getIF@0"
+    },
+    {
+      "offset": 26912,
+      "name": "_getIF@0"
+    },
+    {
+      "offset": 25008,
+      "name": "__imp__getDF@0"
+    },
+    {
+      "offset": 25008,
+      "name": "_getDF@0"
+    },
+    {
+      "offset": 27330,
+      "name": "__imp__getOF@0"
+    },
+    {
+      "offset": 27330,
+      "name": "_getOF@0"
+    },
+    {
+      "offset": 28990,
+      "name": "__imp__setAX@4"
+    },
+    {
+      "offset": 28990,
+      "name": "_setAX@4"
+    },
+    {
+      "offset": 28790,
+      "name": "__imp__setAH@4"
+    },
+    {
+      "offset": 28790,
+      "name": "_setAH@4"
+    },
+    {
+      "offset": 28890,
+      "name": "__imp__setAL@4"
+    },
+    {
+      "offset": 28890,
+      "name": "_setAL@4"
+    },
+    {
+      "offset": 29390,
+      "name": "__imp__setBX@4"
+    },
+    {
+      "offset": 29390,
+      "name": "_setBX@4"
+    },
+    {
+      "offset": 29090,
+      "name": "__imp__setBH@4"
+    },
+    {
+      "offset": 29090,
+      "name": "_setBH@4"
+    },
+    {
+      "offset": 29190,
+      "name": "__imp__setBL@4"
+    },
+    {
+      "offset": 29190,
+      "name": "_setBL@4"
+    },
+    {
+      "offset": 29890,
+      "name": "__imp__setCX@4"
+    },
+    {
+      "offset": 29890,
+      "name": "_setCX@4"
+    },
+    {
+      "offset": 29590,
+      "name": "__imp__setCH@4"
+    },
+    {
+      "offset": 29590,
+      "name": "_setCH@4"
+    },
+    {
+      "offset": 29690,
+      "name": "__imp__setCL@4"
+    },
+    {
+      "offset": 29690,
+      "name": "_setCL@4"
+    },
+    {
+      "offset": 30490,
+      "name": "__imp__setDX@4"
+    },
+    {
+      "offset": 30490,
+      "name": "_setDX@4"
+    },
+    {
+      "offset": 30090,
+      "name": "__imp__setDH@4"
+    },
+    {
+      "offset": 30090,
+      "name": "_setDH@4"
+    },
+    {
+      "offset": 30290,
+      "name": "__imp__setDL@4"
+    },
+    {
+      "offset": 30290,
+      "name": "_setDL@4"
+    },
+    {
+      "offset": 32594,
+      "name": "__imp__setSP@4"
+    },
+    {
+      "offset": 32594,
+      "name": "_setSP@4"
+    },
+    {
+      "offset": 29290,
+      "name": "__imp__setBP@4"
+    },
+    {
+      "offset": 29290,
+      "name": "_setBP@4"
+    },
+    {
+      "offset": 32494,
+      "name": "__imp__setSI@4"
+    },
+    {
+      "offset": 32494,
+      "name": "_setSI@4"
+    },
+    {
+      "offset": 30190,
+      "name": "__imp__setDI@4"
+    },
+    {
+      "offset": 30190,
+      "name": "_setDI@4"
+    },
+    {
+      "offset": 31994,
+      "name": "__imp__setIP@4"
+    },
+    {
+      "offset": 31994,
+      "name": "_setIP@4"
+    },
+    {
+      "offset": 29790,
+      "name": "__imp__setCS@4"
+    },
+    {
+      "offset": 29790,
+      "name": "_setCS@4"
+    },
+    {
+      "offset": 32694,
+      "name": "__imp__setSS@4"
+    },
+    {
+      "offset": 32694,
+      "name": "_setSS@4"
+    },
+    {
+      "offset": 30390,
+      "name": "__imp__setDS@4"
+    },
+    {
+      "offset": 30390,
+      "name": "_setDS@4"
+    },
+    {
+      "offset": 31394,
+      "name": "__imp__setES@4"
+    },
+    {
+      "offset": 31394,
+      "name": "_setES@4"
+    },
+    {
+      "offset": 29490,
+      "name": "__imp__setCF@4"
+    },
+    {
+      "offset": 29490,
+      "name": "_setCF@4"
+    },
+    {
+      "offset": 32294,
+      "name": "__imp__setPF@4"
+    },
+    {
+      "offset": 32294,
+      "name": "_setPF@4"
+    },
+    {
+      "offset": 28690,
+      "name": "__imp__setAF@4"
+    },
+    {
+      "offset": 28690,
+      "name": "_setAF@4"
+    },
+    {
+      "offset": 32794,
+      "name": "__imp__setZF@4"
+    },
+    {
+      "offset": 32794,
+      "name": "_setZF@4"
+    },
+    {
+      "offset": 32394,
+      "name": "__imp__setSF@4"
+    },
+    {
+      "offset": 32394,
+      "name": "_setSF@4"
+    },
+    {
+      "offset": 31894,
+      "name": "__imp__setIF@4"
+    },
+    {
+      "offset": 31894,
+      "name": "_setIF@4"
+    },
+    {
+      "offset": 29990,
+      "name": "__imp__setDF@4"
+    },
+    {
+      "offset": 29990,
+      "name": "_setDF@4"
+    },
+    {
+      "offset": 32194,
+      "name": "__imp__setOF@4"
+    },
+    {
+      "offset": 32194,
+      "name": "_setOF@4"
+    },
+    {
+      "offset": 28478,
+      "name": "__imp__host_simulate@0"
+    },
+    {
+      "offset": 28478,
+      "name": "_host_simulate@0"
+    },
+    {
+      "offset": 28030,
+      "name": "__imp__host_CreateThread@24"
+    },
+    {
+      "offset": 28030,
+      "name": "_host_CreateThread@24"
+    },
+    {
+      "offset": 28142,
+      "name": "__imp__host_ExitThread@4"
+    },
+    {
+      "offset": 28142,
+      "name": "_host_ExitThread@4"
+    },
+    {
+      "offset": 18008,
+      "name": "_Sim32pGetVDMPointer@8"
+    },
+    {
+      "offset": 18008,
+      "name": "__imp__Sim32pGetVDMPointer@8"
+    },
+    {
+      "offset": 27112,
+      "name": "__imp__getIntelRegistersPointer@0"
+    },
+    {
+      "offset": 27112,
+      "name": "_getIntelRegistersPointer@0"
+    },
+    {
+      "offset": 17450,
+      "name": "_RegisterWOWIdle@0"
+    },
+    {
+      "offset": 17450,
+      "name": "__imp__RegisterWOWIdle@0"
+    },
+    {
+      "offset": 15576,
+      "name": "_BlockWOWIdle@4"
+    },
+    {
+      "offset": 15576,
+      "name": "__imp__BlockWOWIdle@4"
+    },
+    {
+      "offset": 18226,
+      "name": "_SuspendTimerThread@0"
+    },
+    {
+      "offset": 18226,
+      "name": "__imp__SuspendTimerThread@0"
+    },
+    {
+      "offset": 17560,
+      "name": "_ResumeTimerThread@0"
+    },
+    {
+      "offset": 17560,
+      "name": "__imp__ResumeTimerThread@0"
+    },
+    {
+      "offset": 21440,
+      "name": "__imp__call_ica_hw_interrupt@12"
+    },
+    {
+      "offset": 21440,
+      "name": "_call_ica_hw_interrupt@12"
+    },
+    {
+      "offset": 16136,
+      "name": "_DispatchInterrupts@0"
+    },
+    {
+      "offset": 16136,
+      "name": "__imp__DispatchInterrupts@0"
+    },
+    {
+      "offset": 16472,
+      "name": "__imp__ExpLdt"
+    },
+    {
+      "offset": 16570,
+      "name": "__imp__FlatAddress"
+    },
+    {
+      "offset": 28586,
+      "name": "__imp__pDeviceChain"
+    },
+    {
+      "offset": 23604,
+      "name": "__imp__fSeparateWow"
+    },
+    {
+      "offset": 16248,
+      "name": "__imp__Dos_Flag_Addr"
+    },
+    {
+      "offset": 28252,
+      "name": "__imp__host_com_close@4"
+    },
+    {
+      "offset": 28252,
+      "name": "_host_com_close@4"
+    },
+    {
+      "offset": 28360,
+      "name": "__imp__host_direct_access_error@4"
+    },
+    {
+      "offset": 28360,
+      "name": "_host_direct_access_error@4"
+    },
+    {
+      "offset": 19344,
+      "name": "_VDDInstallIOHook@16"
+    },
+    {
+      "offset": 19344,
+      "name": "__imp__VDDInstallIOHook@16"
+    },
+    {
+      "offset": 18676,
+      "name": "_VDDDeInstallIOHook@12"
+    },
+    {
+      "offset": 18676,
+      "name": "__imp__VDDDeInstallIOHook@12"
+    },
+    {
+      "offset": 20018,
+      "name": "_VDDRequestDMA@16"
+    },
+    {
+      "offset": 20018,
+      "name": "__imp__VDDRequestDMA@16"
+    },
+    {
+      "offset": 20352,
+      "name": "_VDDSetDMA@16"
+    },
+    {
+      "offset": 20352,
+      "name": "__imp__VDDSetDMA@16"
+    },
+    {
+      "offset": 19686,
+      "name": "_VDDQueryDMA@12"
+    },
+    {
+      "offset": 19686,
+      "name": "__imp__VDDQueryDMA@12"
+    },
+    {
+      "offset": 19456,
+      "name": "_VDDInstallMemoryHook@16"
+    },
+    {
+      "offset": 19456,
+      "name": "__imp__VDDInstallMemoryHook@16"
+    },
+    {
+      "offset": 18790,
+      "name": "_VDDDeInstallMemoryHook@12"
+    },
+    {
+      "offset": 18790,
+      "name": "__imp__VDDDeInstallMemoryHook@12"
+    },
+    {
+      "offset": 18338,
+      "name": "_VDDAllocMem@12"
+    },
+    {
+      "offset": 18338,
+      "name": "__imp__VDDAllocMem@12"
+    },
+    {
+      "offset": 19130,
+      "name": "_VDDFreeMem@12"
+    },
+    {
+      "offset": 19130,
+      "name": "__imp__VDDFreeMem@12"
+    },
+    {
+      "offset": 19236,
+      "name": "_VDDIncludeMem@12"
+    },
+    {
+      "offset": 19236,
+      "name": "__imp__VDDIncludeMem@12"
+    },
+    {
+      "offset": 19022,
+      "name": "_VDDExcludeMem@12"
+    },
+    {
+      "offset": 19022,
+      "name": "__imp__VDDExcludeMem@12"
+    },
+    {
+      "offset": 20564,
+      "name": "_VDDTerminateVDM@0"
+    },
+    {
+      "offset": 20564,
+      "name": "__imp__VDDTerminateVDM@0"
+    },
+    {
+      "offset": 19572,
+      "name": "_VDDInstallUserHook@20"
+    },
+    {
+      "offset": 19572,
+      "name": "__imp__VDDInstallUserHook@20"
+    },
+    {
+      "offset": 18908,
+      "name": "_VDDDeInstallUserHook@4"
+    },
+    {
+      "offset": 18908,
+      "name": "__imp__VDDDeInstallUserHook@4"
+    },
+    {
+      "offset": 20456,
+      "name": "_VDDSimulate16@0"
+    },
+    {
+      "offset": 20456,
+      "name": "__imp__VDDSimulate16@0"
+    },
+    {
+      "offset": 20126,
+      "name": "_VDDReserveIrqLine@8"
+    },
+    {
+      "offset": 20126,
+      "name": "__imp__VDDReserveIrqLine@8"
+    },
+    {
+      "offset": 19906,
+      "name": "_VDDReleaseIrqLine@8"
+    },
+    {
+      "offset": 19906,
+      "name": "__imp__VDDReleaseIrqLine@8"
+    },
+    {
+      "offset": 18444,
+      "name": "_VDDAllocateDosHandle@12"
+    },
+    {
+      "offset": 18444,
+      "name": "__imp__VDDAllocateDosHandle@12"
+    },
+    {
+      "offset": 18560,
+      "name": "_VDDAssociateNtHandle@12"
+    },
+    {
+      "offset": 18560,
+      "name": "__imp__VDDAssociateNtHandle@12"
+    },
+    {
+      "offset": 19792,
+      "name": "_VDDReleaseDosHandle@8"
+    },
+    {
+      "offset": 19792,
+      "name": "__imp__VDDReleaseDosHandle@8"
+    },
+    {
+      "offset": 20238,
+      "name": "_VDDRetrieveNtHandle@16"
+    },
+    {
+      "offset": 20238,
+      "name": "__imp__VDDRetrieveNtHandle@16"
+    },
+    {
+      "offset": 15904,
+      "name": "_DBGNotifyNewTask@8"
+    },
+    {
+      "offset": 15904,
+      "name": "__imp__DBGNotifyNewTask@8"
+    },
+    {
+      "offset": 16014,
+      "name": "_DBGNotifyRemoteThreadAddress@8"
+    },
+    {
+      "offset": 16014,
+      "name": "__imp__DBGNotifyRemoteThreadAddress@8"
+    },
+    {
+      "offset": 15792,
+      "name": "_DBGNotifyDebugged@4"
+    },
+    {
+      "offset": 15792,
+      "name": "__imp__DBGNotifyDebugged@4"
+    },
+    {
+      "offset": 21772,
+      "name": "__imp__cpu_createthread@8"
+    },
+    {
+      "offset": 21772,
+      "name": "_cpu_createthread@8"
+    },
+    {
+      "offset": 21336,
+      "name": "_WaitIfIdle@0"
+    },
+    {
+      "offset": 21336,
+      "name": "__imp__WaitIfIdle@0"
+    },
+    {
+      "offset": 21226,
+      "name": "_WOWSysErrorBox@20"
+    },
+    {
+      "offset": 21226,
+      "name": "__imp__WOWSysErrorBox@20"
+    },
+    {
+      "offset": 18122,
+      "name": "_SoftPcEoi@8"
+    },
+    {
+      "offset": 18122,
+      "name": "__imp__SoftPcEoi@8"
+    },
+    {
+      "offset": 17898,
+      "name": "_ShortPathEnvVar@4"
+    },
+    {
+      "offset": 17898,
+      "name": "__imp__ShortPathEnvVar@4"
+    },
+    {
+      "offset": 17334,
+      "name": "_RedirectShortFileName@12"
+    },
+    {
+      "offset": 17334,
+      "name": "__imp__RedirectShortFileName@12"
+    },
+    {
+      "offset": 17218,
+      "name": "_RedirectLongFileName@12"
+    },
+    {
+      "offset": 17218,
+      "name": "__imp__RedirectLongFileName@12"
+    },
+    {
+      "offset": 21994,
+      "name": "__imp__demFileDelete@4"
+    },
+    {
+      "offset": 21994,
+      "name": "_demFileDelete@4"
+    },
+    {
+      "offset": 22102,
+      "name": "__imp__demFileFindFirst@12"
+    },
+    {
+      "offset": 22102,
+      "name": "_demFileFindFirst@12"
+    },
+    {
+      "offset": 22214,
+      "name": "__imp__demFileFindNext@4"
+    },
+    {
+      "offset": 22214,
+      "name": "_demFileFindNext@4"
+    },
+    {
+      "offset": 21882,
+      "name": "__imp__demClientErrorEx@12"
+    },
+    {
+      "offset": 21882,
+      "name": "_demClientErrorEx@12"
+    },
+    {
+      "offset": 23270,
+      "name": "__imp__demWOWLFNEntry@4"
+    },
+    {
+      "offset": 23270,
+      "name": "_demWOWLFNEntry@4"
+    },
+    {
+      "offset": 23496,
+      "name": "__imp__demWOWLFNInit@4"
+    },
+    {
+      "offset": 23496,
+      "name": "_demWOWLFNInit@4"
+    },
+    {
+      "offset": 22324,
+      "name": "__imp__demGetFileTimeByHandle_WOW@4"
+    },
+    {
+      "offset": 22324,
+      "name": "_demGetFileTimeByHandle_WOW@4"
+    },
+    {
+      "offset": 22562,
+      "name": "__imp__demIsShortPathName@8"
+    },
+    {
+      "offset": 22562,
+      "name": "_demIsShortPathName@8"
+    },
+    {
+      "offset": 22782,
+      "name": "__imp__demLFNGetCurrentDirectory@8"
+    },
+    {
+      "offset": 22782,
+      "name": "_demLFNGetCurrentDirectory@8"
+    },
+    {
+      "offset": 22902,
+      "name": "__imp__demSetCurrentDirectoryGetDrive@8"
+    },
+    {
+      "offset": 22902,
+      "name": "_demSetCurrentDirectoryGetDrive@8"
+    },
+    {
+      "offset": 22444,
+      "name": "__imp__demGetPhysicalDriveType@4"
+    },
+    {
+      "offset": 22444,
+      "name": "_demGetPhysicalDriveType@4"
+    },
+    {
+      "offset": 21662,
+      "name": "__imp__cmdCheckTempInit@0"
+    },
+    {
+      "offset": 21662,
+      "name": "_cmdCheckTempInit@0"
+    },
+    {
+      "offset": 21556,
+      "name": "__imp__cmdCheckTemp@4"
+    },
+    {
+      "offset": 21556,
+      "name": "_cmdCheckTemp@4"
+    },
+    {
+      "offset": 23026,
+      "name": "__imp__demWOWLFNAllocateSearchHandle@4"
+    },
+    {
+      "offset": 23026,
+      "name": "_demWOWLFNAllocateSearchHandle@4"
+    },
+    {
+      "offset": 23378,
+      "name": "__imp__demWOWLFNGetSearchHandle@4"
+    },
+    {
+      "offset": 23378,
+      "name": "_demWOWLFNGetSearchHandle@4"
+    },
+    {
+      "offset": 23150,
+      "name": "__imp__demWOWLFNCloseSearchHandle@4"
+    },
+    {
+      "offset": 23150,
+      "name": "_demWOWLFNCloseSearchHandle@4"
+    },
+    {
+      "offset": 22674,
+      "name": "__imp__demLFNCleanup@0"
+    },
+    {
+      "offset": 22674,
+      "name": "_demLFNCleanup@0"
+    },
+    {
+      "offset": 17778,
+      "name": "_SetShadowDescriptorEntries@8"
+    },
+    {
+      "offset": 17778,
+      "name": "__imp__SetShadowDescriptorEntries@8"
+    },
+    {
+      "offset": 21118,
+      "name": "_VdmTraceEvent@12"
+    },
+    {
+      "offset": 21118,
+      "name": "__imp__VdmTraceEvent@12"
+    },
+    {
+      "offset": 21006,
+      "name": "_VdmParametersInfo@12"
+    },
+    {
+      "offset": 21006,
+      "name": "__imp__VdmParametersInfo@12"
+    },
+    {
+      "offset": 20780,
+      "name": "_VdmGetParametersInfoError@0"
+    },
+    {
+      "offset": 20780,
+      "name": "__imp__VdmGetParametersInfoError@0"
+    },
+    {
+      "offset": 20900,
+      "name": "_VdmMapFlat@12"
+    },
+    {
+      "offset": 20900,
+      "name": "__imp__VdmMapFlat@12"
+    },
+    {
+      "offset": 20674,
+      "name": "_VdmDbgAttach@0"
+    },
+    {
+      "offset": 20674,
+      "name": "__imp__VdmDbgAttach@0"
+    },
+    {
+      "offset": 17002,
+      "name": "_IsCdRomFile@4"
+    },
+    {
+      "offset": 17002,
+      "name": "__imp__IsCdRomFile@4"
+    },
+    {
+      "offset": 16674,
+      "name": "_GetDOSAppName@4"
+    },
+    {
+      "offset": 16674,
+      "name": "__imp__GetDOSAppName@4"
+    },
+    {
+      "offset": 16892,
+      "name": "__imp__InitialVdmTibFlags"
+    },
+    {
+      "offset": 16782,
+      "name": "__imp__InitialVdmDbgFlags"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 15576,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3325444456,
+      "sizeOfData": 26,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_BlockWOWIdle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "BlockWOWIdle"
+    },
+    {
+      "offset": 15682,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3646028008,
+      "sizeOfData": 29,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_CurrentMonitorTeb",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 1,
+      "name": "CurrentMonitorTeb"
+    },
+    {
+      "offset": 15792,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4165637123,
+      "sizeOfData": 31,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_DBGNotifyDebugged@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "DBGNotifyDebugged"
+    },
+    {
+      "offset": 15904,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3343523717,
+      "sizeOfData": 30,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_DBGNotifyNewTask@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "DBGNotifyNewTask"
+    },
+    {
+      "offset": 16014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4228933113,
+      "sizeOfData": 42,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_DBGNotifyRemoteThreadAddress@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "DBGNotifyRemoteThreadAddress"
+    },
+    {
+      "offset": 16136,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3342691450,
+      "sizeOfData": 32,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_DispatchInterrupts@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "DispatchInterrupts"
+    },
+    {
+      "offset": 16248,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4037862066,
+      "sizeOfData": 25,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_Dos_Flag_Addr",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 6,
+      "name": "Dos_Flag_Addr"
+    },
+    {
+      "offset": 16354,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3907480499,
+      "sizeOfData": 37,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_DpmiSetIncrementalAlloc@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "DpmiSetIncrementalAlloc"
+    },
+    {
+      "offset": 16472,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3916886446,
+      "sizeOfData": 18,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_ExpLdt",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 8,
+      "name": "ExpLdt"
+    },
+    {
+      "offset": 16570,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3846135917,
+      "sizeOfData": 23,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_FlatAddress",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 9,
+      "name": "FlatAddress"
+    },
+    {
+      "offset": 16674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3697075682,
+      "sizeOfData": 27,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_GetDOSAppName@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "GetDOSAppName"
+    },
+    {
+      "offset": 16782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4006724279,
+      "sizeOfData": 30,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_InitialVdmDbgFlags",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 11,
+      "name": "InitialVdmDbgFlags"
+    },
+    {
+      "offset": 16892,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3901238208,
+      "sizeOfData": 30,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_InitialVdmTibFlags",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 12,
+      "name": "InitialVdmTibFlags"
+    },
+    {
+      "offset": 17002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3383426906,
+      "sizeOfData": 25,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_IsCdRomFile@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "IsCdRomFile"
+    },
+    {
+      "offset": 17108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3786981914,
+      "sizeOfData": 29,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_MGetVdmPointer@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "MGetVdmPointer"
+    },
+    {
+      "offset": 17218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3938381768,
+      "sizeOfData": 35,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_RedirectLongFileName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "RedirectLongFileName"
+    },
+    {
+      "offset": 17334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4216257938,
+      "sizeOfData": 36,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_RedirectShortFileName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "RedirectShortFileName"
+    },
+    {
+      "offset": 17450,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3742906051,
+      "sizeOfData": 29,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_RegisterWOWIdle@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "RegisterWOWIdle"
+    },
+    {
+      "offset": 17560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4268000102,
+      "sizeOfData": 31,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_ResumeTimerThread@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "ResumeTimerThread"
+    },
+    {
+      "offset": 17672,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4136040266,
+      "sizeOfData": 25,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_SelectorLimit",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 19,
+      "name": "SelectorLimit"
+    },
+    {
+      "offset": 17778,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3653575521,
+      "sizeOfData": 40,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_SetShadowDescriptorEntries@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "SetShadowDescriptorEntries"
+    },
+    {
+      "offset": 17898,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3491159936,
+      "sizeOfData": 29,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_ShortPathEnvVar@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "ShortPathEnvVar"
+    },
+    {
+      "offset": 18008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4187441067,
+      "sizeOfData": 33,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_Sim32pGetVDMPointer@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "Sim32pGetVDMPointer"
+    },
+    {
+      "offset": 18122,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3707190404,
+      "sizeOfData": 23,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_SoftPcEoi@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "SoftPcEoi"
+    },
+    {
+      "offset": 18226,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3617617534,
+      "sizeOfData": 32,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_SuspendTimerThread@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "SuspendTimerThread"
+    },
+    {
+      "offset": 18338,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4211724075,
+      "sizeOfData": 26,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDAllocMem@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "VDDAllocMem"
+    },
+    {
+      "offset": 18444,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3673839872,
+      "sizeOfData": 35,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDAllocateDosHandle@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "VDDAllocateDosHandle"
+    },
+    {
+      "offset": 18560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3632482953,
+      "sizeOfData": 35,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDAssociateNtHandle@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "VDDAssociateNtHandle"
+    },
+    {
+      "offset": 18676,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4282575629,
+      "sizeOfData": 33,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDDeInstallIOHook@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "VDDDeInstallIOHook"
+    },
+    {
+      "offset": 18790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3461184296,
+      "sizeOfData": 37,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDDeInstallMemoryHook@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "VDDDeInstallMemoryHook"
+    },
+    {
+      "offset": 18908,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3900066356,
+      "sizeOfData": 34,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDDeInstallUserHook@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "VDDDeInstallUserHook"
+    },
+    {
+      "offset": 19022,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3733630922,
+      "sizeOfData": 28,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDExcludeMem@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "VDDExcludeMem"
+    },
+    {
+      "offset": 19130,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3258875204,
+      "sizeOfData": 25,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDFreeMem@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "VDDFreeMem"
+    },
+    {
+      "offset": 19236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3979784648,
+      "sizeOfData": 28,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDIncludeMem@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "VDDIncludeMem"
+    },
+    {
+      "offset": 19344,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4104750870,
+      "sizeOfData": 31,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDInstallIOHook@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "VDDInstallIOHook"
+    },
+    {
+      "offset": 19456,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3229241069,
+      "sizeOfData": 35,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDInstallMemoryHook@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "VDDInstallMemoryHook"
+    },
+    {
+      "offset": 19572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3543095451,
+      "sizeOfData": 33,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDInstallUserHook@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "VDDInstallUserHook"
+    },
+    {
+      "offset": 19686,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3573197556,
+      "sizeOfData": 26,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDQueryDMA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "VDDQueryDMA"
+    },
+    {
+      "offset": 19792,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4092757283,
+      "sizeOfData": 33,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDReleaseDosHandle@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "VDDReleaseDosHandle"
+    },
+    {
+      "offset": 19906,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3701117987,
+      "sizeOfData": 31,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDReleaseIrqLine@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "VDDReleaseIrqLine"
+    },
+    {
+      "offset": 20018,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3723194285,
+      "sizeOfData": 28,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDRequestDMA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "VDDRequestDMA"
+    },
+    {
+      "offset": 20126,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4217578547,
+      "sizeOfData": 31,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDReserveIrqLine@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "VDDReserveIrqLine"
+    },
+    {
+      "offset": 20238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3618100572,
+      "sizeOfData": 34,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDRetrieveNtHandle@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "VDDRetrieveNtHandle"
+    },
+    {
+      "offset": 20352,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4136919418,
+      "sizeOfData": 24,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDSetDMA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "VDDSetDMA"
+    },
+    {
+      "offset": 20456,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4211547029,
+      "sizeOfData": 27,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDSimulate16@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "VDDSimulate16"
+    },
+    {
+      "offset": 20564,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3986990879,
+      "sizeOfData": 29,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VDDTerminateVDM@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "VDDTerminateVDM"
+    },
+    {
+      "offset": 20674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3901579606,
+      "sizeOfData": 26,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VdmDbgAttach@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "VdmDbgAttach"
+    },
+    {
+      "offset": 20780,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3825230035,
+      "sizeOfData": 39,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VdmGetParametersInfoError@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "VdmGetParametersInfoError"
+    },
+    {
+      "offset": 20900,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4089674260,
+      "sizeOfData": 25,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VdmMapFlat@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "VdmMapFlat"
+    },
+    {
+      "offset": 21006,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4181132720,
+      "sizeOfData": 32,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VdmParametersInfo@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "VdmParametersInfo"
+    },
+    {
+      "offset": 21118,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3484186754,
+      "sizeOfData": 28,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_VdmTraceEvent@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "VdmTraceEvent"
+    },
+    {
+      "offset": 21226,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3413753258,
+      "sizeOfData": 29,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_WOWSysErrorBox@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "WOWSysErrorBox"
+    },
+    {
+      "offset": 21336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3816043601,
+      "sizeOfData": 24,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_WaitIfIdle@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "WaitIfIdle"
+    },
+    {
+      "offset": 21440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3832923085,
+      "sizeOfData": 36,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_call_ica_hw_interrupt@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "call_ica_hw_interrupt"
+    },
+    {
+      "offset": 21556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3489369859,
+      "sizeOfData": 26,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_cmdCheckTemp@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "cmdCheckTemp"
+    },
+    {
+      "offset": 21662,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3396398752,
+      "sizeOfData": 30,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_cmdCheckTempInit@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "cmdCheckTempInit"
+    },
+    {
+      "offset": 21772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3841743811,
+      "sizeOfData": 30,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_cpu_createthread@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "cpu_createthread"
+    },
+    {
+      "offset": 21882,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3375254981,
+      "sizeOfData": 31,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demClientErrorEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "demClientErrorEx"
+    },
+    {
+      "offset": 21994,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3341880353,
+      "sizeOfData": 27,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demFileDelete@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "demFileDelete"
+    },
+    {
+      "offset": 22102,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3275492868,
+      "sizeOfData": 31,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demFileFindFirst@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "demFileFindFirst"
+    },
+    {
+      "offset": 22214,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3759268584,
+      "sizeOfData": 29,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demFileFindNext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "demFileFindNext"
+    },
+    {
+      "offset": 22324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3949906089,
+      "sizeOfData": 40,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demGetFileTimeByHandle_WOW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "demGetFileTimeByHandle_WOW"
+    },
+    {
+      "offset": 22444,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3930068970,
+      "sizeOfData": 37,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demGetPhysicalDriveType@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "demGetPhysicalDriveType"
+    },
+    {
+      "offset": 22562,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4074670511,
+      "sizeOfData": 32,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demIsShortPathName@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "demIsShortPathName"
+    },
+    {
+      "offset": 22674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3403659537,
+      "sizeOfData": 27,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demLFNCleanup@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "demLFNCleanup"
+    },
+    {
+      "offset": 22782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3514723214,
+      "sizeOfData": 39,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demLFNGetCurrentDirectory@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "demLFNGetCurrentDirectory"
+    },
+    {
+      "offset": 22902,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4043321207,
+      "sizeOfData": 44,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demSetCurrentDirectoryGetDrive@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "demSetCurrentDirectoryGetDrive"
+    },
+    {
+      "offset": 23026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4282182342,
+      "sizeOfData": 43,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demWOWLFNAllocateSearchHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "demWOWLFNAllocateSearchHandle"
+    },
+    {
+      "offset": 23150,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4200839335,
+      "sizeOfData": 40,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demWOWLFNCloseSearchHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "demWOWLFNCloseSearchHandle"
+    },
+    {
+      "offset": 23270,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3817843812,
+      "sizeOfData": 28,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demWOWLFNEntry@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "demWOWLFNEntry"
+    },
+    {
+      "offset": 23378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4009120974,
+      "sizeOfData": 38,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demWOWLFNGetSearchHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "demWOWLFNGetSearchHandle"
+    },
+    {
+      "offset": 23496,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3843816660,
+      "sizeOfData": 27,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_demWOWLFNInit@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "demWOWLFNInit"
+    },
+    {
+      "offset": 23604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3801753566,
+      "sizeOfData": 24,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_fSeparateWow",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 72,
+      "name": "fSeparateWow"
+    },
+    {
+      "offset": 23708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3351135623,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getAF@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "getAF"
+    },
+    {
+      "offset": 23808,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3758395695,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getAH@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "getAH"
+    },
+    {
+      "offset": 23908,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3353377746,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getAL@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "getAL"
+    },
+    {
+      "offset": 24008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4143263966,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getAX@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "getAX"
+    },
+    {
+      "offset": 24108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4092496753,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getBH@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "getBH"
+    },
+    {
+      "offset": 24208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3503975272,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getBL@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "getBL"
+    },
+    {
+      "offset": 24308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3314125285,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getBP@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "getBP"
+    },
+    {
+      "offset": 24408,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4016254285,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getBX@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "getBX"
+    },
+    {
+      "offset": 24508,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3723837806,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getCF@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "getCF"
+    },
+    {
+      "offset": 24608,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3999659089,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getCH@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "getCH"
+    },
+    {
+      "offset": 24708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4008122728,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getCL@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "getCL"
+    },
+    {
+      "offset": 24808,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3954356192,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getCS@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "getCS"
+    },
+    {
+      "offset": 24908,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4012918688,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getCX@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "getCX"
+    },
+    {
+      "offset": 25008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3953239951,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getDF@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "getDF"
+    },
+    {
+      "offset": 25108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4181976728,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getDH@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "getDH"
+    },
+    {
+      "offset": 25208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3700994519,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getDI@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "getDI"
+    },
+    {
+      "offset": 25308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4008563941,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getDL@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "getDL"
+    },
+    {
+      "offset": 25408,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3718451003,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getDS@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "getDS"
+    },
+    {
+      "offset": 25508,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3667739032,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getDX@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "getDX"
+    },
+    {
+      "offset": 25608,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3866024195,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getEAX@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "getEAX"
+    },
+    {
+      "offset": 25708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3386631632,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getEBP@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "getEBP"
+    },
+    {
+      "offset": 25808,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3685445497,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getEBX@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "getEBX"
+    },
+    {
+      "offset": 25908,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3413310241,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getECX@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "getECX"
+    },
+    {
+      "offset": 26008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4113876620,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getEDI@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "getEDI"
+    },
+    {
+      "offset": 26108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3767754562,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getEDX@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "getEDX"
+    },
+    {
+      "offset": 26208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3386588175,
+      "sizeOfData": 23,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getEFLAGS@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "getEFLAGS"
+    },
+    {
+      "offset": 26312,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3937274792,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getEIP@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "getEIP"
+    },
+    {
+      "offset": 26412,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4076315047,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getES@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "getES"
+    },
+    {
+      "offset": 26512,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4276122355,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getESI@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "getESI"
+    },
+    {
+      "offset": 26612,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3944460156,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getESP@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "getESP"
+    },
+    {
+      "offset": 26712,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3522734246,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getFS@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "getFS"
+    },
+    {
+      "offset": 26812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3292579743,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getGS@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "getGS"
+    },
+    {
+      "offset": 26912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3849233528,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getIF@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "getIF"
+    },
+    {
+      "offset": 27012,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4270090218,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getIP@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "getIP"
+    },
+    {
+      "offset": 27112,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3660040949,
+      "sizeOfData": 38,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getIntelRegistersPointer@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "getIntelRegistersPointer"
+    },
+    {
+      "offset": 27230,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3630722273,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getMSW@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "getMSW"
+    },
+    {
+      "offset": 27330,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3973105710,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getOF@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "getOF"
+    },
+    {
+      "offset": 27430,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3264432800,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getPF@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "getPF"
+    },
+    {
+      "offset": 27530,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3980269205,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getSF@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "getSF"
+    },
+    {
+      "offset": 27630,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3599694578,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getSI@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "getSI"
+    },
+    {
+      "offset": 27730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4023777779,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getSP@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "getSP"
+    },
+    {
+      "offset": 27830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3504102837,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getSS@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "getSS"
+    },
+    {
+      "offset": 27930,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4101006114,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_getZF@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "getZF"
+    },
+    {
+      "offset": 28030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3456204254,
+      "sizeOfData": 32,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_host_CreateThread@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "host_CreateThread"
+    },
+    {
+      "offset": 28142,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3660986206,
+      "sizeOfData": 29,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_host_ExitThread@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "host_ExitThread"
+    },
+    {
+      "offset": 28252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4153576993,
+      "sizeOfData": 28,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_host_com_close@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "host_com_close"
+    },
+    {
+      "offset": 28360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3920507259,
+      "sizeOfData": 38,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_host_direct_access_error@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "host_direct_access_error"
+    },
+    {
+      "offset": 28478,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3404510259,
+      "sizeOfData": 27,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_host_simulate@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "host_simulate"
+    },
+    {
+      "offset": 28586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4093737805,
+      "sizeOfData": 24,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_pDeviceChain",
+      "type": "data",
+      "nameType": "no prefix",
+      "hint": 121,
+      "name": "pDeviceChain"
+    },
+    {
+      "offset": 28690,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3883286653,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setAF@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "setAF"
+    },
+    {
+      "offset": 28790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3539902311,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setAH@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "setAH"
+    },
+    {
+      "offset": 28890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3975284466,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setAL@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "setAL"
+    },
+    {
+      "offset": 28990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4160713363,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setAX@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "setAX"
+    },
+    {
+      "offset": 29090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3265285147,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setBH@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "setBH"
+    },
+    {
+      "offset": 29190,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3223413010,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setBL@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "setBL"
+    },
+    {
+      "offset": 29290,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3870959744,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setBP@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "setBP"
+    },
+    {
+      "offset": 29390,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3983743390,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setBX@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "setBX"
+    },
+    {
+      "offset": 29490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3244827904,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setCF@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "setCF"
+    },
+    {
+      "offset": 29590,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3763820369,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setCH@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "setCH"
+    },
+    {
+      "offset": 29690,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3390859661,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setCL@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "setCL"
+    },
+    {
+      "offset": 29790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3310789360,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setCS@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "setCS"
+    },
+    {
+      "offset": 29890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3566910378,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setCX@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "setCX"
+    },
+    {
+      "offset": 29990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3400920892,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setDF@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "setDF"
+    },
+    {
+      "offset": 30090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4096472825,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setDH@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "setDH"
+    },
+    {
+      "offset": 30190,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3421757352,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setDI@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "setDI"
+    },
+    {
+      "offset": 30290,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4236633600,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setDL@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "setDL"
+    },
+    {
+      "offset": 30390,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3556777162,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setDS@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "setDS"
+    },
+    {
+      "offset": 30490,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3705009656,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setDX@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "setDX"
+    },
+    {
+      "offset": 30590,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4119971497,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setEAX@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "setEAX"
+    },
+    {
+      "offset": 30690,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3411541144,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setEBP@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "setEBP"
+    },
+    {
+      "offset": 30790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3838787499,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setEBX@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "setEBX"
+    },
+    {
+      "offset": 30890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3759146488,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setECX@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "setECX"
+    },
+    {
+      "offset": 30990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3376372591,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setEDI@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "setEDI"
+    },
+    {
+      "offset": 31090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3653088485,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setEDX@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "setEDX"
+    },
+    {
+      "offset": 31190,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3274993272,
+      "sizeOfData": 23,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setEFLAGS@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "setEFLAGS"
+    },
+    {
+      "offset": 31294,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3938440264,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setEIP@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "setEIP"
+    },
+    {
+      "offset": 31394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3723770297,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setES@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "setES"
+    },
+    {
+      "offset": 31494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4265907424,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setESI@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "setESI"
+    },
+    {
+      "offset": 31594,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3496261411,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setESP@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "setESP"
+    },
+    {
+      "offset": 31694,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3618515489,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setFS@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "setFS"
+    },
+    {
+      "offset": 31794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3589612359,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setGS@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "setGS"
+    },
+    {
+      "offset": 31894,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3916761909,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setIF@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "setIF"
+    },
+    {
+      "offset": 31994,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4025549201,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setIP@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "setIP"
+    },
+    {
+      "offset": 32094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3851742549,
+      "sizeOfData": 20,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setMSW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "setMSW"
+    },
+    {
+      "offset": 32194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3506920561,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setOF@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "setOF"
+    },
+    {
+      "offset": 32294,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4099398068,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setPF@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 158,
+      "name": "setPF"
+    },
+    {
+      "offset": 32394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3331184718,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setSF@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 159,
+      "name": "setSF"
+    },
+    {
+      "offset": 32494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3396940743,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setSI@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 160,
+      "name": "setSI"
+    },
+    {
+      "offset": 32594,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4274287275,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setSP@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 161,
+      "name": "setSP"
+    },
+    {
+      "offset": 32694,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4197993360,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setSS@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 162,
+      "name": "setSS"
+    },
+    {
+      "offset": 32794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3704759142,
+      "sizeOfData": 19,
+      "dllName": "ntvdm.exe",
+      "symbolName": "_setZF@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 163,
+      "name": "setZF"
+    }
+  ]
+}

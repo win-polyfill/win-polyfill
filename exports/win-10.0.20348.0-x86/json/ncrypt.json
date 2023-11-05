@@ -1,0 +1,3405 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_BCryptAddContextFunction@20"
+    },
+    {
+      "name": "_BCryptCloseAlgorithmProvider@8"
+    },
+    {
+      "name": "_BCryptConfigureContext@12"
+    },
+    {
+      "name": "_BCryptConfigureContextFunction@20"
+    },
+    {
+      "name": "_BCryptCreateContext@12"
+    },
+    {
+      "name": "_BCryptCreateHash@28"
+    },
+    {
+      "name": "_BCryptDecrypt@40"
+    },
+    {
+      "name": "_BCryptDeleteContext@8"
+    },
+    {
+      "name": "_BCryptDeriveKey@28"
+    },
+    {
+      "name": "_BCryptDeriveKeyCapi@20"
+    },
+    {
+      "name": "_BCryptDeriveKeyPBKDF2@40"
+    },
+    {
+      "name": "_BCryptDestroyHash@4"
+    },
+    {
+      "name": "_BCryptDestroyKey@4"
+    },
+    {
+      "name": "_BCryptDestroySecret@4"
+    },
+    {
+      "name": "_BCryptDuplicateHash@20"
+    },
+    {
+      "name": "_BCryptDuplicateKey@20"
+    },
+    {
+      "name": "_BCryptEncrypt@40"
+    },
+    {
+      "name": "_BCryptEnumAlgorithms@16"
+    },
+    {
+      "name": "_BCryptEnumContextFunctionProviders@24"
+    },
+    {
+      "name": "_BCryptEnumContextFunctions@20"
+    },
+    {
+      "name": "_BCryptEnumContexts@12"
+    },
+    {
+      "name": "_BCryptEnumProviders@16"
+    },
+    {
+      "name": "_BCryptEnumRegisteredProviders@8"
+    },
+    {
+      "name": "_BCryptExportKey@28"
+    },
+    {
+      "name": "_BCryptFinalizeKeyPair@8"
+    },
+    {
+      "name": "_BCryptFinishHash@16"
+    },
+    {
+      "name": "_BCryptFreeBuffer@4"
+    },
+    {
+      "name": "_BCryptGenRandom@16"
+    },
+    {
+      "name": "_BCryptGenerateKeyPair@16"
+    },
+    {
+      "name": "_BCryptGenerateSymmetricKey@28"
+    },
+    {
+      "name": "_BCryptGetFipsAlgorithmMode@4"
+    },
+    {
+      "name": "_BCryptGetProperty@24"
+    },
+    {
+      "name": "_BCryptHash@28"
+    },
+    {
+      "name": "_BCryptHashData@16"
+    },
+    {
+      "name": "_BCryptImportKey@36"
+    },
+    {
+      "name": "_BCryptImportKeyPair@28"
+    },
+    {
+      "name": "_BCryptKeyDerivation@24"
+    },
+    {
+      "name": "_BCryptOpenAlgorithmProvider@16"
+    },
+    {
+      "name": "_BCryptQueryContextConfiguration@16"
+    },
+    {
+      "name": "_BCryptQueryContextFunctionConfiguration@24"
+    },
+    {
+      "name": "_BCryptQueryContextFunctionProperty@28"
+    },
+    {
+      "name": "_BCryptQueryProviderRegistration@20"
+    },
+    {
+      "name": "_BCryptRegisterConfigChangeNotify@4"
+    },
+    {
+      "name": "_BCryptRemoveContextFunction@16"
+    },
+    {
+      "name": "_BCryptResolveProviders@32"
+    },
+    {
+      "name": "_BCryptSecretAgreement@16"
+    },
+    {
+      "name": "_BCryptSetAuditingInterface@4"
+    },
+    {
+      "name": "_BCryptSetContextFunctionProperty@28"
+    },
+    {
+      "name": "_BCryptSetProperty@20"
+    },
+    {
+      "name": "_BCryptSignHash@32"
+    },
+    {
+      "name": "_BCryptUnregisterConfigChangeNotify@4"
+    },
+    {
+      "name": "_BCryptVerifySignature@28"
+    },
+    {
+      "name": "_GetIsolationServerInterface@12"
+    },
+    {
+      "name": "_GetKeyStorageInterface@12"
+    },
+    {
+      "name": "_GetSChannelInterface@12"
+    },
+    {
+      "name": "_NCryptCloseProtectionDescriptor@4"
+    },
+    {
+      "name": "_NCryptCreateClaim@32"
+    },
+    {
+      "name": "_NCryptCreatePersistedKey@24"
+    },
+    {
+      "name": "_NCryptCreateProtectionDescriptor@12"
+    },
+    {
+      "name": "_NCryptDecrypt@32"
+    },
+    {
+      "name": "_NCryptDeleteKey@8"
+    },
+    {
+      "name": "_NCryptDeriveKey@28"
+    },
+    {
+      "name": "_NCryptEncrypt@32"
+    },
+    {
+      "name": "_NCryptEnumAlgorithms@20"
+    },
+    {
+      "name": "_NCryptEnumKeys@20"
+    },
+    {
+      "name": "_NCryptEnumStorageProviders@12"
+    },
+    {
+      "name": "_NCryptExportKey@32"
+    },
+    {
+      "name": "_NCryptFinalizeKey@8"
+    },
+    {
+      "name": "_NCryptFreeBuffer@4"
+    },
+    {
+      "name": "_NCryptFreeObject@4"
+    },
+    {
+      "name": "_NCryptGetProperty@24"
+    },
+    {
+      "name": "_NCryptGetProtectionDescriptorInfo@16"
+    },
+    {
+      "name": "_NCryptImportKey@32"
+    },
+    {
+      "name": "_NCryptIsAlgSupported@12"
+    },
+    {
+      "name": "_NCryptIsKeyHandle@4"
+    },
+    {
+      "name": "_NCryptKeyDerivation@24"
+    },
+    {
+      "name": "_NCryptNotifyChangeKey@12"
+    },
+    {
+      "name": "_NCryptOpenKey@20"
+    },
+    {
+      "name": "_NCryptOpenStorageProvider@12"
+    },
+    {
+      "name": "_NCryptProtectSecret@32"
+    },
+    {
+      "name": "_NCryptQueryProtectionDescriptorName@16"
+    },
+    {
+      "name": "_NCryptRegisterProtectionDescriptorName@12"
+    },
+    {
+      "name": "_NCryptSecretAgreement@16"
+    },
+    {
+      "name": "_NCryptSetAuditingInterface@4"
+    },
+    {
+      "name": "_NCryptSetProperty@20"
+    },
+    {
+      "name": "_NCryptSignHash@32"
+    },
+    {
+      "name": "_NCryptStreamClose@4"
+    },
+    {
+      "name": "_NCryptStreamOpenToProtect@20"
+    },
+    {
+      "name": "_NCryptStreamOpenToUnprotect@16"
+    },
+    {
+      "name": "_NCryptStreamOpenToUnprotectEx@16"
+    },
+    {
+      "name": "_NCryptStreamUpdate@16"
+    },
+    {
+      "name": "_NCryptTranslateHandle@24"
+    },
+    {
+      "name": "_NCryptUnprotectSecret@32"
+    },
+    {
+      "name": "_NCryptVerifyClaim@32"
+    },
+    {
+      "name": "_NCryptVerifySignature@28"
+    },
+    {
+      "name": "_SslChangeNotify@8"
+    },
+    {
+      "name": "_SslComputeClientAuthHash@32"
+    },
+    {
+      "name": "_SslComputeEapKeyBlock@32"
+    },
+    {
+      "name": "_SslComputeFinishedHash@24"
+    },
+    {
+      "name": "_SslComputeSessionHash@28"
+    },
+    {
+      "name": "_SslCreateClientAuthHash@24"
+    },
+    {
+      "name": "_SslCreateEphemeralKey@36"
+    },
+    {
+      "name": "_SslCreateHandshakeHash@20"
+    },
+    {
+      "name": "_SslDecrementProviderReferenceCount@4"
+    },
+    {
+      "name": "_SslDecryptPacket@40"
+    },
+    {
+      "name": "_SslDuplicateTranscriptHash@16"
+    },
+    {
+      "name": "_SslEncryptPacket@44"
+    },
+    {
+      "name": "_SslEnumCipherSuites@20"
+    },
+    {
+      "name": "_SslEnumCipherSuitesEx@20"
+    },
+    {
+      "name": "_SslEnumEccCurves@16"
+    },
+    {
+      "name": "_SslEnumProtocolProviders@12"
+    },
+    {
+      "name": "_SslExpandBinderKey@20"
+    },
+    {
+      "name": "_SslExpandExporterMasterKey@24"
+    },
+    {
+      "name": "_SslExpandNextGenTrafficKey@20"
+    },
+    {
+      "name": "_SslExpandPreSharedKey@28"
+    },
+    {
+      "name": "_SslExpandResumptionMasterKey@24"
+    },
+    {
+      "name": "_SslExpandTrafficKeys@28"
+    },
+    {
+      "name": "_SslExpandWriteKey@20"
+    },
+    {
+      "name": "_SslExportKey@28"
+    },
+    {
+      "name": "_SslExportKeyingMaterial@40"
+    },
+    {
+      "name": "_SslExtractEarlyKey@28"
+    },
+    {
+      "name": "_SslExtractHandshakeKey@28"
+    },
+    {
+      "name": "_SslExtractMasterKey@20"
+    },
+    {
+      "name": "_SslFreeBuffer@4"
+    },
+    {
+      "name": "_SslFreeObject@8"
+    },
+    {
+      "name": "_SslGenerateMasterKey@44"
+    },
+    {
+      "name": "_SslGeneratePreMasterKey@40"
+    },
+    {
+      "name": "_SslGenerateSessionKeys@24"
+    },
+    {
+      "name": "_SslGetCipherSuitePRFHashAlgorithm@24"
+    },
+    {
+      "name": "_SslGetKeyProperty@20"
+    },
+    {
+      "name": "_SslGetProviderProperty@24"
+    },
+    {
+      "name": "_SslHashHandshake@20"
+    },
+    {
+      "name": "_SslImportKey@24"
+    },
+    {
+      "name": "_SslImportMasterKey@36"
+    },
+    {
+      "name": "_SslIncrementProviderReferenceCount@4"
+    },
+    {
+      "name": "_SslLookupCipherLengths@28"
+    },
+    {
+      "name": "_SslLookupCipherSuiteInfo@24"
+    },
+    {
+      "name": "_SslOpenPrivateKey@16"
+    },
+    {
+      "name": "_SslOpenProvider@12"
+    },
+    {
+      "name": "_SslSignHash@32"
+    },
+    {
+      "name": "_SslVerifySignature@28"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 18878,
+      "name": "__IMPORT_DESCRIPTOR_ncrypt"
+    },
+    {
+      "offset": 19428,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 19738,
+      "name": "ncrypt_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 26814,
+      "name": "_NCryptCreatePersistedKey@24"
+    },
+    {
+      "offset": 26814,
+      "name": "__imp__NCryptCreatePersistedKey@24"
+    },
+    {
+      "offset": 27062,
+      "name": "_NCryptDecrypt@32"
+    },
+    {
+      "offset": 27062,
+      "name": "__imp__NCryptDecrypt@32"
+    },
+    {
+      "offset": 27172,
+      "name": "_NCryptDeleteKey@8"
+    },
+    {
+      "offset": 27172,
+      "name": "__imp__NCryptDeleteKey@8"
+    },
+    {
+      "offset": 27394,
+      "name": "_NCryptEncrypt@32"
+    },
+    {
+      "offset": 27394,
+      "name": "__imp__NCryptEncrypt@32"
+    },
+    {
+      "offset": 27504,
+      "name": "_NCryptEnumAlgorithms@20"
+    },
+    {
+      "offset": 27504,
+      "name": "__imp__NCryptEnumAlgorithms@20"
+    },
+    {
+      "offset": 27620,
+      "name": "_NCryptEnumKeys@20"
+    },
+    {
+      "offset": 27620,
+      "name": "__imp__NCryptEnumKeys@20"
+    },
+    {
+      "offset": 27730,
+      "name": "_NCryptEnumStorageProviders@12"
+    },
+    {
+      "offset": 27730,
+      "name": "__imp__NCryptEnumStorageProviders@12"
+    },
+    {
+      "offset": 27852,
+      "name": "_NCryptExportKey@32"
+    },
+    {
+      "offset": 27852,
+      "name": "__imp__NCryptExportKey@32"
+    },
+    {
+      "offset": 27964,
+      "name": "_NCryptFinalizeKey@8"
+    },
+    {
+      "offset": 27964,
+      "name": "__imp__NCryptFinalizeKey@8"
+    },
+    {
+      "offset": 28076,
+      "name": "_NCryptFreeBuffer@4"
+    },
+    {
+      "offset": 28076,
+      "name": "__imp__NCryptFreeBuffer@4"
+    },
+    {
+      "offset": 28188,
+      "name": "_NCryptFreeObject@4"
+    },
+    {
+      "offset": 28188,
+      "name": "__imp__NCryptFreeObject@4"
+    },
+    {
+      "offset": 28300,
+      "name": "_NCryptGetProperty@24"
+    },
+    {
+      "offset": 28300,
+      "name": "__imp__NCryptGetProperty@24"
+    },
+    {
+      "offset": 28544,
+      "name": "_NCryptImportKey@32"
+    },
+    {
+      "offset": 28544,
+      "name": "__imp__NCryptImportKey@32"
+    },
+    {
+      "offset": 28656,
+      "name": "_NCryptIsAlgSupported@12"
+    },
+    {
+      "offset": 28656,
+      "name": "__imp__NCryptIsAlgSupported@12"
+    },
+    {
+      "offset": 28772,
+      "name": "_NCryptIsKeyHandle@4"
+    },
+    {
+      "offset": 28772,
+      "name": "__imp__NCryptIsKeyHandle@4"
+    },
+    {
+      "offset": 29000,
+      "name": "_NCryptNotifyChangeKey@12"
+    },
+    {
+      "offset": 29000,
+      "name": "__imp__NCryptNotifyChangeKey@12"
+    },
+    {
+      "offset": 29118,
+      "name": "_NCryptOpenKey@20"
+    },
+    {
+      "offset": 29118,
+      "name": "__imp__NCryptOpenKey@20"
+    },
+    {
+      "offset": 29228,
+      "name": "_NCryptOpenStorageProvider@12"
+    },
+    {
+      "offset": 29228,
+      "name": "__imp__NCryptOpenStorageProvider@12"
+    },
+    {
+      "offset": 29972,
+      "name": "_NCryptSetProperty@20"
+    },
+    {
+      "offset": 29972,
+      "name": "__imp__NCryptSetProperty@20"
+    },
+    {
+      "offset": 30086,
+      "name": "_NCryptSignHash@32"
+    },
+    {
+      "offset": 30086,
+      "name": "__imp__NCryptSignHash@32"
+    },
+    {
+      "offset": 30794,
+      "name": "_NCryptTranslateHandle@24"
+    },
+    {
+      "offset": 30794,
+      "name": "__imp__NCryptTranslateHandle@24"
+    },
+    {
+      "offset": 31144,
+      "name": "_NCryptVerifySignature@28"
+    },
+    {
+      "offset": 31144,
+      "name": "__imp__NCryptVerifySignature@28"
+    },
+    {
+      "offset": 29732,
+      "name": "_NCryptSecretAgreement@16"
+    },
+    {
+      "offset": 29732,
+      "name": "__imp__NCryptSecretAgreement@16"
+    },
+    {
+      "offset": 27282,
+      "name": "_NCryptDeriveKey@28"
+    },
+    {
+      "offset": 27282,
+      "name": "__imp__NCryptDeriveKey@28"
+    },
+    {
+      "offset": 28884,
+      "name": "_NCryptKeyDerivation@24"
+    },
+    {
+      "offset": 28884,
+      "name": "__imp__NCryptKeyDerivation@24"
+    },
+    {
+      "offset": 26700,
+      "name": "_NCryptCreateClaim@32"
+    },
+    {
+      "offset": 26700,
+      "name": "__imp__NCryptCreateClaim@32"
+    },
+    {
+      "offset": 31030,
+      "name": "_NCryptVerifyClaim@32"
+    },
+    {
+      "offset": 31030,
+      "name": "__imp__NCryptVerifyClaim@32"
+    },
+    {
+      "offset": 29850,
+      "name": "_NCryptSetAuditingInterface@4"
+    },
+    {
+      "offset": 29850,
+      "name": "__imp__NCryptSetAuditingInterface@4"
+    },
+    {
+      "offset": 29598,
+      "name": "_NCryptRegisterProtectionDescriptorName@12"
+    },
+    {
+      "offset": 29598,
+      "name": "__imp__NCryptRegisterProtectionDescriptorName@12"
+    },
+    {
+      "offset": 29466,
+      "name": "_NCryptQueryProtectionDescriptorName@16"
+    },
+    {
+      "offset": 29466,
+      "name": "__imp__NCryptQueryProtectionDescriptorName@16"
+    },
+    {
+      "offset": 26934,
+      "name": "_NCryptCreateProtectionDescriptor@12"
+    },
+    {
+      "offset": 26934,
+      "name": "__imp__NCryptCreateProtectionDescriptor@12"
+    },
+    {
+      "offset": 26574,
+      "name": "_NCryptCloseProtectionDescriptor@4"
+    },
+    {
+      "offset": 26574,
+      "name": "__imp__NCryptCloseProtectionDescriptor@4"
+    },
+    {
+      "offset": 28414,
+      "name": "_NCryptGetProtectionDescriptorInfo@16"
+    },
+    {
+      "offset": 28414,
+      "name": "__imp__NCryptGetProtectionDescriptorInfo@16"
+    },
+    {
+      "offset": 29350,
+      "name": "_NCryptProtectSecret@32"
+    },
+    {
+      "offset": 29350,
+      "name": "__imp__NCryptProtectSecret@32"
+    },
+    {
+      "offset": 30912,
+      "name": "_NCryptUnprotectSecret@32"
+    },
+    {
+      "offset": 30912,
+      "name": "__imp__NCryptUnprotectSecret@32"
+    },
+    {
+      "offset": 30308,
+      "name": "_NCryptStreamOpenToProtect@20"
+    },
+    {
+      "offset": 30308,
+      "name": "__imp__NCryptStreamOpenToProtect@20"
+    },
+    {
+      "offset": 30430,
+      "name": "_NCryptStreamOpenToUnprotect@16"
+    },
+    {
+      "offset": 30430,
+      "name": "__imp__NCryptStreamOpenToUnprotect@16"
+    },
+    {
+      "offset": 30554,
+      "name": "_NCryptStreamOpenToUnprotectEx@16"
+    },
+    {
+      "offset": 30554,
+      "name": "__imp__NCryptStreamOpenToUnprotectEx@16"
+    },
+    {
+      "offset": 30680,
+      "name": "_NCryptStreamUpdate@16"
+    },
+    {
+      "offset": 30680,
+      "name": "__imp__NCryptStreamUpdate@16"
+    },
+    {
+      "offset": 30196,
+      "name": "_NCryptStreamClose@4"
+    },
+    {
+      "offset": 30196,
+      "name": "__imp__NCryptStreamClose@4"
+    },
+    {
+      "offset": 20194,
+      "name": "_BCryptCloseAlgorithmProvider@8"
+    },
+    {
+      "offset": 20194,
+      "name": "__imp__BCryptCloseAlgorithmProvider@8"
+    },
+    {
+      "offset": 20678,
+      "name": "_BCryptCreateHash@28"
+    },
+    {
+      "offset": 20678,
+      "name": "__imp__BCryptCreateHash@28"
+    },
+    {
+      "offset": 20790,
+      "name": "_BCryptDecrypt@40"
+    },
+    {
+      "offset": 20790,
+      "name": "__imp__BCryptDecrypt@40"
+    },
+    {
+      "offset": 21360,
+      "name": "_BCryptDestroyHash@4"
+    },
+    {
+      "offset": 21360,
+      "name": "__imp__BCryptDestroyHash@4"
+    },
+    {
+      "offset": 21472,
+      "name": "_BCryptDestroyKey@4"
+    },
+    {
+      "offset": 21472,
+      "name": "__imp__BCryptDestroyKey@4"
+    },
+    {
+      "offset": 21698,
+      "name": "_BCryptDuplicateHash@20"
+    },
+    {
+      "offset": 21698,
+      "name": "__imp__BCryptDuplicateHash@20"
+    },
+    {
+      "offset": 21814,
+      "name": "_BCryptDuplicateKey@20"
+    },
+    {
+      "offset": 21814,
+      "name": "__imp__BCryptDuplicateKey@20"
+    },
+    {
+      "offset": 21928,
+      "name": "_BCryptEncrypt@40"
+    },
+    {
+      "offset": 21928,
+      "name": "__imp__BCryptEncrypt@40"
+    },
+    {
+      "offset": 22038,
+      "name": "_BCryptEnumAlgorithms@16"
+    },
+    {
+      "offset": 22038,
+      "name": "__imp__BCryptEnumAlgorithms@16"
+    },
+    {
+      "offset": 22520,
+      "name": "_BCryptEnumProviders@16"
+    },
+    {
+      "offset": 22520,
+      "name": "__imp__BCryptEnumProviders@16"
+    },
+    {
+      "offset": 22760,
+      "name": "_BCryptExportKey@28"
+    },
+    {
+      "offset": 22760,
+      "name": "__imp__BCryptExportKey@28"
+    },
+    {
+      "offset": 22988,
+      "name": "_BCryptFinishHash@16"
+    },
+    {
+      "offset": 22988,
+      "name": "__imp__BCryptFinishHash@16"
+    },
+    {
+      "offset": 22872,
+      "name": "_BCryptFinalizeKeyPair@8"
+    },
+    {
+      "offset": 22872,
+      "name": "__imp__BCryptFinalizeKeyPair@8"
+    },
+    {
+      "offset": 23100,
+      "name": "_BCryptFreeBuffer@4"
+    },
+    {
+      "offset": 23100,
+      "name": "__imp__BCryptFreeBuffer@4"
+    },
+    {
+      "offset": 23324,
+      "name": "_BCryptGenerateKeyPair@16"
+    },
+    {
+      "offset": 23324,
+      "name": "__imp__BCryptGenerateKeyPair@16"
+    },
+    {
+      "offset": 23442,
+      "name": "_BCryptGenerateSymmetricKey@28"
+    },
+    {
+      "offset": 23442,
+      "name": "__imp__BCryptGenerateSymmetricKey@28"
+    },
+    {
+      "offset": 23212,
+      "name": "_BCryptGenRandom@16"
+    },
+    {
+      "offset": 23212,
+      "name": "__imp__BCryptGenRandom@16"
+    },
+    {
+      "offset": 23686,
+      "name": "_BCryptGetProperty@24"
+    },
+    {
+      "offset": 23686,
+      "name": "__imp__BCryptGetProperty@24"
+    },
+    {
+      "offset": 23906,
+      "name": "_BCryptHashData@16"
+    },
+    {
+      "offset": 23906,
+      "name": "__imp__BCryptHashData@16"
+    },
+    {
+      "offset": 24016,
+      "name": "_BCryptImportKey@36"
+    },
+    {
+      "offset": 24016,
+      "name": "__imp__BCryptImportKey@36"
+    },
+    {
+      "offset": 24128,
+      "name": "_BCryptImportKeyPair@28"
+    },
+    {
+      "offset": 24128,
+      "name": "__imp__BCryptImportKeyPair@28"
+    },
+    {
+      "offset": 24360,
+      "name": "_BCryptOpenAlgorithmProvider@16"
+    },
+    {
+      "offset": 24360,
+      "name": "__imp__BCryptOpenAlgorithmProvider@16"
+    },
+    {
+      "offset": 25376,
+      "name": "_BCryptSecretAgreement@16"
+    },
+    {
+      "offset": 25376,
+      "name": "__imp__BCryptSecretAgreement@16"
+    },
+    {
+      "offset": 21014,
+      "name": "_BCryptDeriveKey@28"
+    },
+    {
+      "offset": 21014,
+      "name": "__imp__BCryptDeriveKey@28"
+    },
+    {
+      "offset": 21584,
+      "name": "_BCryptDestroySecret@4"
+    },
+    {
+      "offset": 21584,
+      "name": "__imp__BCryptDestroySecret@4"
+    },
+    {
+      "offset": 25744,
+      "name": "_BCryptSetProperty@20"
+    },
+    {
+      "offset": 25744,
+      "name": "__imp__BCryptSetProperty@20"
+    },
+    {
+      "offset": 25858,
+      "name": "_BCryptSignHash@32"
+    },
+    {
+      "offset": 25858,
+      "name": "__imp__BCryptSignHash@32"
+    },
+    {
+      "offset": 26098,
+      "name": "_BCryptVerifySignature@28"
+    },
+    {
+      "offset": 26098,
+      "name": "__imp__BCryptVerifySignature@28"
+    },
+    {
+      "offset": 21126,
+      "name": "_BCryptDeriveKeyCapi@20"
+    },
+    {
+      "offset": 21126,
+      "name": "__imp__BCryptDeriveKeyCapi@20"
+    },
+    {
+      "offset": 21242,
+      "name": "_BCryptDeriveKeyPBKDF2@40"
+    },
+    {
+      "offset": 21242,
+      "name": "__imp__BCryptDeriveKeyPBKDF2@40"
+    },
+    {
+      "offset": 24244,
+      "name": "_BCryptKeyDerivation@24"
+    },
+    {
+      "offset": 24244,
+      "name": "__imp__BCryptKeyDerivation@24"
+    },
+    {
+      "offset": 23800,
+      "name": "_BCryptHash@28"
+    },
+    {
+      "offset": 23800,
+      "name": "__imp__BCryptHash@28"
+    },
+    {
+      "offset": 24878,
+      "name": "_BCryptQueryProviderRegistration@20"
+    },
+    {
+      "offset": 24878,
+      "name": "__imp__BCryptQueryProviderRegistration@20"
+    },
+    {
+      "offset": 22636,
+      "name": "_BCryptEnumRegisteredProviders@8"
+    },
+    {
+      "offset": 22636,
+      "name": "__imp__BCryptEnumRegisteredProviders@8"
+    },
+    {
+      "offset": 20562,
+      "name": "_BCryptCreateContext@12"
+    },
+    {
+      "offset": 20562,
+      "name": "__imp__BCryptCreateContext@12"
+    },
+    {
+      "offset": 20900,
+      "name": "_BCryptDeleteContext@8"
+    },
+    {
+      "offset": 20900,
+      "name": "__imp__BCryptDeleteContext@8"
+    },
+    {
+      "offset": 22406,
+      "name": "_BCryptEnumContexts@12"
+    },
+    {
+      "offset": 22406,
+      "name": "__imp__BCryptEnumContexts@12"
+    },
+    {
+      "offset": 20318,
+      "name": "_BCryptConfigureContext@12"
+    },
+    {
+      "offset": 20318,
+      "name": "__imp__BCryptConfigureContext@12"
+    },
+    {
+      "offset": 24484,
+      "name": "_BCryptQueryContextConfiguration@16"
+    },
+    {
+      "offset": 24484,
+      "name": "__imp__BCryptQueryContextConfiguration@16"
+    },
+    {
+      "offset": 20074,
+      "name": "_BCryptAddContextFunction@20"
+    },
+    {
+      "offset": 20074,
+      "name": "__imp__BCryptAddContextFunction@20"
+    },
+    {
+      "offset": 25134,
+      "name": "_BCryptRemoveContextFunction@16"
+    },
+    {
+      "offset": 25134,
+      "name": "__imp__BCryptRemoveContextFunction@16"
+    },
+    {
+      "offset": 22284,
+      "name": "_BCryptEnumContextFunctions@20"
+    },
+    {
+      "offset": 22284,
+      "name": "__imp__BCryptEnumContextFunctions@20"
+    },
+    {
+      "offset": 20436,
+      "name": "_BCryptConfigureContextFunction@20"
+    },
+    {
+      "offset": 20436,
+      "name": "__imp__BCryptConfigureContextFunction@20"
+    },
+    {
+      "offset": 24612,
+      "name": "_BCryptQueryContextFunctionConfiguration@24"
+    },
+    {
+      "offset": 24612,
+      "name": "__imp__BCryptQueryContextFunctionConfiguration@24"
+    },
+    {
+      "offset": 22154,
+      "name": "_BCryptEnumContextFunctionProviders@24"
+    },
+    {
+      "offset": 22154,
+      "name": "__imp__BCryptEnumContextFunctionProviders@24"
+    },
+    {
+      "offset": 25616,
+      "name": "_BCryptSetContextFunctionProperty@28"
+    },
+    {
+      "offset": 25616,
+      "name": "__imp__BCryptSetContextFunctionProperty@28"
+    },
+    {
+      "offset": 24748,
+      "name": "_BCryptQueryContextFunctionProperty@28"
+    },
+    {
+      "offset": 24748,
+      "name": "__imp__BCryptQueryContextFunctionProperty@28"
+    },
+    {
+      "offset": 25006,
+      "name": "_BCryptRegisterConfigChangeNotify@4"
+    },
+    {
+      "offset": 25006,
+      "name": "__imp__BCryptRegisterConfigChangeNotify@4"
+    },
+    {
+      "offset": 25968,
+      "name": "_BCryptUnregisterConfigChangeNotify@4"
+    },
+    {
+      "offset": 25968,
+      "name": "__imp__BCryptUnregisterConfigChangeNotify@4"
+    },
+    {
+      "offset": 25258,
+      "name": "_BCryptResolveProviders@32"
+    },
+    {
+      "offset": 25258,
+      "name": "__imp__BCryptResolveProviders@32"
+    },
+    {
+      "offset": 23564,
+      "name": "_BCryptGetFipsAlgorithmMode@4"
+    },
+    {
+      "offset": 23564,
+      "name": "__imp__BCryptGetFipsAlgorithmMode@4"
+    },
+    {
+      "offset": 25494,
+      "name": "_BCryptSetAuditingInterface@4"
+    },
+    {
+      "offset": 25494,
+      "name": "__imp__BCryptSetAuditingInterface@4"
+    },
+    {
+      "offset": 31262,
+      "name": "_SslChangeNotify@8"
+    },
+    {
+      "offset": 31262,
+      "name": "__imp__SslChangeNotify@8"
+    },
+    {
+      "offset": 31372,
+      "name": "_SslComputeClientAuthHash@32"
+    },
+    {
+      "offset": 31372,
+      "name": "__imp__SslComputeClientAuthHash@32"
+    },
+    {
+      "offset": 31492,
+      "name": "_SslComputeEapKeyBlock@32"
+    },
+    {
+      "offset": 31492,
+      "name": "__imp__SslComputeEapKeyBlock@32"
+    },
+    {
+      "offset": 31610,
+      "name": "_SslComputeFinishedHash@24"
+    },
+    {
+      "offset": 31610,
+      "name": "__imp__SslComputeFinishedHash@24"
+    },
+    {
+      "offset": 31846,
+      "name": "_SslCreateClientAuthHash@24"
+    },
+    {
+      "offset": 31846,
+      "name": "__imp__SslCreateClientAuthHash@24"
+    },
+    {
+      "offset": 31966,
+      "name": "_SslCreateEphemeralKey@36"
+    },
+    {
+      "offset": 31966,
+      "name": "__imp__SslCreateEphemeralKey@36"
+    },
+    {
+      "offset": 32084,
+      "name": "_SslCreateHandshakeHash@20"
+    },
+    {
+      "offset": 32084,
+      "name": "__imp__SslCreateHandshakeHash@20"
+    },
+    {
+      "offset": 32332,
+      "name": "_SslDecryptPacket@40"
+    },
+    {
+      "offset": 32332,
+      "name": "__imp__SslDecryptPacket@40"
+    },
+    {
+      "offset": 32444,
+      "name": "_SslDuplicateTranscriptHash@16"
+    },
+    {
+      "offset": 32444,
+      "name": "__imp__SslDuplicateTranscriptHash@16"
+    },
+    {
+      "offset": 32566,
+      "name": "_SslEncryptPacket@44"
+    },
+    {
+      "offset": 32566,
+      "name": "__imp__SslEncryptPacket@44"
+    },
+    {
+      "offset": 32678,
+      "name": "_SslEnumCipherSuites@20"
+    },
+    {
+      "offset": 32678,
+      "name": "__imp__SslEnumCipherSuites@20"
+    },
+    {
+      "offset": 33024,
+      "name": "_SslEnumProtocolProviders@12"
+    },
+    {
+      "offset": 33024,
+      "name": "__imp__SslEnumProtocolProviders@12"
+    },
+    {
+      "offset": 33144,
+      "name": "_SslExpandBinderKey@20"
+    },
+    {
+      "offset": 33144,
+      "name": "__imp__SslExpandBinderKey@20"
+    },
+    {
+      "offset": 33258,
+      "name": "_SslExpandExporterMasterKey@24"
+    },
+    {
+      "offset": 33258,
+      "name": "__imp__SslExpandExporterMasterKey@24"
+    },
+    {
+      "offset": 33380,
+      "name": "_SslExpandNextGenTrafficKey@20"
+    },
+    {
+      "offset": 33380,
+      "name": "__imp__SslExpandNextGenTrafficKey@20"
+    },
+    {
+      "offset": 33502,
+      "name": "_SslExpandPreSharedKey@28"
+    },
+    {
+      "offset": 33502,
+      "name": "__imp__SslExpandPreSharedKey@28"
+    },
+    {
+      "offset": 33620,
+      "name": "_SslExpandResumptionMasterKey@24"
+    },
+    {
+      "offset": 33620,
+      "name": "__imp__SslExpandResumptionMasterKey@24"
+    },
+    {
+      "offset": 33744,
+      "name": "_SslExpandTrafficKeys@28"
+    },
+    {
+      "offset": 33744,
+      "name": "__imp__SslExpandTrafficKeys@28"
+    },
+    {
+      "offset": 33860,
+      "name": "_SslExpandWriteKey@20"
+    },
+    {
+      "offset": 33860,
+      "name": "__imp__SslExpandWriteKey@20"
+    },
+    {
+      "offset": 33974,
+      "name": "_SslExportKey@28"
+    },
+    {
+      "offset": 33974,
+      "name": "__imp__SslExportKey@28"
+    },
+    {
+      "offset": 34082,
+      "name": "_SslExportKeyingMaterial@40"
+    },
+    {
+      "offset": 34082,
+      "name": "__imp__SslExportKeyingMaterial@40"
+    },
+    {
+      "offset": 34202,
+      "name": "_SslExtractEarlyKey@28"
+    },
+    {
+      "offset": 34202,
+      "name": "__imp__SslExtractEarlyKey@28"
+    },
+    {
+      "offset": 34316,
+      "name": "_SslExtractHandshakeKey@28"
+    },
+    {
+      "offset": 34316,
+      "name": "__imp__SslExtractHandshakeKey@28"
+    },
+    {
+      "offset": 34434,
+      "name": "_SslExtractMasterKey@20"
+    },
+    {
+      "offset": 34434,
+      "name": "__imp__SslExtractMasterKey@20"
+    },
+    {
+      "offset": 34550,
+      "name": "_SslFreeBuffer@4"
+    },
+    {
+      "offset": 34550,
+      "name": "__imp__SslFreeBuffer@4"
+    },
+    {
+      "offset": 34658,
+      "name": "_SslFreeObject@8"
+    },
+    {
+      "offset": 34658,
+      "name": "__imp__SslFreeObject@8"
+    },
+    {
+      "offset": 34766,
+      "name": "_SslGenerateMasterKey@44"
+    },
+    {
+      "offset": 34766,
+      "name": "__imp__SslGenerateMasterKey@44"
+    },
+    {
+      "offset": 35002,
+      "name": "_SslGenerateSessionKeys@24"
+    },
+    {
+      "offset": 35002,
+      "name": "__imp__SslGenerateSessionKeys@24"
+    },
+    {
+      "offset": 35120,
+      "name": "_SslGetCipherSuitePRFHashAlgorithm@24"
+    },
+    {
+      "offset": 35120,
+      "name": "__imp__SslGetCipherSuitePRFHashAlgorithm@24"
+    },
+    {
+      "offset": 35250,
+      "name": "_SslGetKeyProperty@20"
+    },
+    {
+      "offset": 35250,
+      "name": "__imp__SslGetKeyProperty@20"
+    },
+    {
+      "offset": 35364,
+      "name": "_SslGetProviderProperty@24"
+    },
+    {
+      "offset": 35364,
+      "name": "__imp__SslGetProviderProperty@24"
+    },
+    {
+      "offset": 35482,
+      "name": "_SslHashHandshake@20"
+    },
+    {
+      "offset": 35482,
+      "name": "__imp__SslHashHandshake@20"
+    },
+    {
+      "offset": 35594,
+      "name": "_SslImportKey@24"
+    },
+    {
+      "offset": 35594,
+      "name": "__imp__SslImportKey@24"
+    },
+    {
+      "offset": 35702,
+      "name": "_SslImportMasterKey@36"
+    },
+    {
+      "offset": 35702,
+      "name": "__imp__SslImportMasterKey@36"
+    },
+    {
+      "offset": 35946,
+      "name": "_SslLookupCipherLengths@28"
+    },
+    {
+      "offset": 35946,
+      "name": "__imp__SslLookupCipherLengths@28"
+    },
+    {
+      "offset": 36064,
+      "name": "_SslLookupCipherSuiteInfo@24"
+    },
+    {
+      "offset": 36064,
+      "name": "__imp__SslLookupCipherSuiteInfo@24"
+    },
+    {
+      "offset": 36184,
+      "name": "_SslOpenPrivateKey@16"
+    },
+    {
+      "offset": 36184,
+      "name": "__imp__SslOpenPrivateKey@16"
+    },
+    {
+      "offset": 36298,
+      "name": "_SslOpenProvider@12"
+    },
+    {
+      "offset": 36298,
+      "name": "__imp__SslOpenProvider@12"
+    },
+    {
+      "offset": 36410,
+      "name": "_SslSignHash@32"
+    },
+    {
+      "offset": 36410,
+      "name": "__imp__SslSignHash@32"
+    },
+    {
+      "offset": 36518,
+      "name": "_SslVerifySignature@28"
+    },
+    {
+      "offset": 36518,
+      "name": "__imp__SslVerifySignature@28"
+    },
+    {
+      "offset": 35816,
+      "name": "_SslIncrementProviderReferenceCount@4"
+    },
+    {
+      "offset": 35816,
+      "name": "__imp__SslIncrementProviderReferenceCount@4"
+    },
+    {
+      "offset": 32202,
+      "name": "_SslDecrementProviderReferenceCount@4"
+    },
+    {
+      "offset": 32202,
+      "name": "__imp__SslDecrementProviderReferenceCount@4"
+    },
+    {
+      "offset": 31728,
+      "name": "_SslComputeSessionHash@28"
+    },
+    {
+      "offset": 31728,
+      "name": "__imp__SslComputeSessionHash@28"
+    },
+    {
+      "offset": 34882,
+      "name": "_SslGeneratePreMasterKey@40"
+    },
+    {
+      "offset": 34882,
+      "name": "__imp__SslGeneratePreMasterKey@40"
+    },
+    {
+      "offset": 32912,
+      "name": "_SslEnumEccCurves@16"
+    },
+    {
+      "offset": 32912,
+      "name": "__imp__SslEnumEccCurves@16"
+    },
+    {
+      "offset": 32794,
+      "name": "_SslEnumCipherSuitesEx@20"
+    },
+    {
+      "offset": 32794,
+      "name": "__imp__SslEnumCipherSuitesEx@20"
+    },
+    {
+      "offset": 26340,
+      "name": "_GetKeyStorageInterface@12"
+    },
+    {
+      "offset": 26340,
+      "name": "__imp__GetKeyStorageInterface@12"
+    },
+    {
+      "offset": 26458,
+      "name": "_GetSChannelInterface@12"
+    },
+    {
+      "offset": 26458,
+      "name": "__imp__GetSChannelInterface@12"
+    },
+    {
+      "offset": 26216,
+      "name": "_GetIsolationServerInterface@12"
+    },
+    {
+      "offset": 26216,
+      "name": "__imp__GetIsolationServerInterface@12"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 20074,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3248552714,
+      "sizeOfData": 40,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptAddContextFunction@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "BCryptAddContextFunction"
+    },
+    {
+      "offset": 20194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3815290254,
+      "sizeOfData": 43,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptCloseAlgorithmProvider@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "BCryptCloseAlgorithmProvider"
+    },
+    {
+      "offset": 20318,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3339727091,
+      "sizeOfData": 38,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptConfigureContext@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "BCryptConfigureContext"
+    },
+    {
+      "offset": 20436,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3289761814,
+      "sizeOfData": 46,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptConfigureContextFunction@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "BCryptConfigureContextFunction"
+    },
+    {
+      "offset": 20562,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3465556208,
+      "sizeOfData": 35,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptCreateContext@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "BCryptCreateContext"
+    },
+    {
+      "offset": 20678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3638128324,
+      "sizeOfData": 32,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptCreateHash@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "BCryptCreateHash"
+    },
+    {
+      "offset": 20790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3971820278,
+      "sizeOfData": 29,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptDecrypt@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "BCryptDecrypt"
+    },
+    {
+      "offset": 20900,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3296128362,
+      "sizeOfData": 34,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptDeleteContext@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "BCryptDeleteContext"
+    },
+    {
+      "offset": 21014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3352069554,
+      "sizeOfData": 31,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptDeriveKey@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "BCryptDeriveKey"
+    },
+    {
+      "offset": 21126,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4068796752,
+      "sizeOfData": 35,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptDeriveKeyCapi@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "BCryptDeriveKeyCapi"
+    },
+    {
+      "offset": 21242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3761195700,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptDeriveKeyPBKDF2@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "BCryptDeriveKeyPBKDF2"
+    },
+    {
+      "offset": 21360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3826651925,
+      "sizeOfData": 32,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptDestroyHash@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "BCryptDestroyHash"
+    },
+    {
+      "offset": 21472,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3463384419,
+      "sizeOfData": 31,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptDestroyKey@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "BCryptDestroyKey"
+    },
+    {
+      "offset": 21584,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3724130986,
+      "sizeOfData": 34,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptDestroySecret@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "BCryptDestroySecret"
+    },
+    {
+      "offset": 21698,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4284437461,
+      "sizeOfData": 35,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptDuplicateHash@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "BCryptDuplicateHash"
+    },
+    {
+      "offset": 21814,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4039894178,
+      "sizeOfData": 34,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptDuplicateKey@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "BCryptDuplicateKey"
+    },
+    {
+      "offset": 21928,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3948442835,
+      "sizeOfData": 29,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptEncrypt@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "BCryptEncrypt"
+    },
+    {
+      "offset": 22038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4098615436,
+      "sizeOfData": 36,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptEnumAlgorithms@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "BCryptEnumAlgorithms"
+    },
+    {
+      "offset": 22154,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4185132386,
+      "sizeOfData": 50,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptEnumContextFunctionProviders@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "BCryptEnumContextFunctionProviders"
+    },
+    {
+      "offset": 22284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4281947964,
+      "sizeOfData": 42,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptEnumContextFunctions@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "BCryptEnumContextFunctions"
+    },
+    {
+      "offset": 22406,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3391767318,
+      "sizeOfData": 34,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptEnumContexts@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "BCryptEnumContexts"
+    },
+    {
+      "offset": 22520,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4027742248,
+      "sizeOfData": 35,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptEnumProviders@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "BCryptEnumProviders"
+    },
+    {
+      "offset": 22636,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3723318903,
+      "sizeOfData": 44,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptEnumRegisteredProviders@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "BCryptEnumRegisteredProviders"
+    },
+    {
+      "offset": 22760,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3339251004,
+      "sizeOfData": 31,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptExportKey@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "BCryptExportKey"
+    },
+    {
+      "offset": 22872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4199958455,
+      "sizeOfData": 36,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptFinalizeKeyPair@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "BCryptFinalizeKeyPair"
+    },
+    {
+      "offset": 22988,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3336457942,
+      "sizeOfData": 32,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptFinishHash@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "BCryptFinishHash"
+    },
+    {
+      "offset": 23100,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3624190002,
+      "sizeOfData": 31,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptFreeBuffer@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "BCryptFreeBuffer"
+    },
+    {
+      "offset": 23212,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3761924292,
+      "sizeOfData": 31,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptGenRandom@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "BCryptGenRandom"
+    },
+    {
+      "offset": 23324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3352864655,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptGenerateKeyPair@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "BCryptGenerateKeyPair"
+    },
+    {
+      "offset": 23442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4067671454,
+      "sizeOfData": 42,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptGenerateSymmetricKey@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "BCryptGenerateSymmetricKey"
+    },
+    {
+      "offset": 23564,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3804071289,
+      "sizeOfData": 41,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptGetFipsAlgorithmMode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "BCryptGetFipsAlgorithmMode"
+    },
+    {
+      "offset": 23686,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3363496788,
+      "sizeOfData": 33,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptGetProperty@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "BCryptGetProperty"
+    },
+    {
+      "offset": 23800,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3865495832,
+      "sizeOfData": 26,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptHash@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "BCryptHash"
+    },
+    {
+      "offset": 23906,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4067736072,
+      "sizeOfData": 30,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptHashData@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "BCryptHashData"
+    },
+    {
+      "offset": 24016,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4203051340,
+      "sizeOfData": 31,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptImportKey@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "BCryptImportKey"
+    },
+    {
+      "offset": 24128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4276830764,
+      "sizeOfData": 35,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptImportKeyPair@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "BCryptImportKeyPair"
+    },
+    {
+      "offset": 24244,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3265934442,
+      "sizeOfData": 35,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptKeyDerivation@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "BCryptKeyDerivation"
+    },
+    {
+      "offset": 24360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3550133519,
+      "sizeOfData": 43,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptOpenAlgorithmProvider@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "BCryptOpenAlgorithmProvider"
+    },
+    {
+      "offset": 24484,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3841661488,
+      "sizeOfData": 47,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptQueryContextConfiguration@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "BCryptQueryContextConfiguration"
+    },
+    {
+      "offset": 24612,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3367763790,
+      "sizeOfData": 55,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptQueryContextFunctionConfiguration@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "BCryptQueryContextFunctionConfiguration"
+    },
+    {
+      "offset": 24748,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3687818310,
+      "sizeOfData": 50,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptQueryContextFunctionProperty@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "BCryptQueryContextFunctionProperty"
+    },
+    {
+      "offset": 24878,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4263728657,
+      "sizeOfData": 47,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptQueryProviderRegistration@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "BCryptQueryProviderRegistration"
+    },
+    {
+      "offset": 25006,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3580307961,
+      "sizeOfData": 47,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptRegisterConfigChangeNotify@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "BCryptRegisterConfigChangeNotify"
+    },
+    {
+      "offset": 25134,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4000381027,
+      "sizeOfData": 43,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptRemoveContextFunction@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "BCryptRemoveContextFunction"
+    },
+    {
+      "offset": 25258,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3244209147,
+      "sizeOfData": 38,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptResolveProviders@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "BCryptResolveProviders"
+    },
+    {
+      "offset": 25376,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4012178490,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptSecretAgreement@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "BCryptSecretAgreement"
+    },
+    {
+      "offset": 25494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3246444835,
+      "sizeOfData": 41,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptSetAuditingInterface@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "BCryptSetAuditingInterface"
+    },
+    {
+      "offset": 25616,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4194423968,
+      "sizeOfData": 48,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptSetContextFunctionProperty@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "BCryptSetContextFunctionProperty"
+    },
+    {
+      "offset": 25744,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3922243313,
+      "sizeOfData": 33,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptSetProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "BCryptSetProperty"
+    },
+    {
+      "offset": 25858,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3468134046,
+      "sizeOfData": 30,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptSignHash@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "BCryptSignHash"
+    },
+    {
+      "offset": 25968,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4098226483,
+      "sizeOfData": 49,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptUnregisterConfigChangeNotify@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "BCryptUnregisterConfigChangeNotify"
+    },
+    {
+      "offset": 26098,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3831835410,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_BCryptVerifySignature@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "BCryptVerifySignature"
+    },
+    {
+      "offset": 26216,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3630645564,
+      "sizeOfData": 43,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_GetIsolationServerInterface@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "GetIsolationServerInterface"
+    },
+    {
+      "offset": 26340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4142449259,
+      "sizeOfData": 38,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_GetKeyStorageInterface@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "GetKeyStorageInterface"
+    },
+    {
+      "offset": 26458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4056276825,
+      "sizeOfData": 36,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_GetSChannelInterface@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "GetSChannelInterface"
+    },
+    {
+      "offset": 26574,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3799803488,
+      "sizeOfData": 46,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptCloseProtectionDescriptor@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "NCryptCloseProtectionDescriptor"
+    },
+    {
+      "offset": 26700,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3306618361,
+      "sizeOfData": 33,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptCreateClaim@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "NCryptCreateClaim"
+    },
+    {
+      "offset": 26814,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3646018721,
+      "sizeOfData": 40,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptCreatePersistedKey@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "NCryptCreatePersistedKey"
+    },
+    {
+      "offset": 26934,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3358107400,
+      "sizeOfData": 48,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptCreateProtectionDescriptor@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "NCryptCreateProtectionDescriptor"
+    },
+    {
+      "offset": 27062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4183015893,
+      "sizeOfData": 29,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptDecrypt@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "NCryptDecrypt"
+    },
+    {
+      "offset": 27172,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4067110942,
+      "sizeOfData": 30,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptDeleteKey@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "NCryptDeleteKey"
+    },
+    {
+      "offset": 27282,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4126494597,
+      "sizeOfData": 31,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptDeriveKey@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "NCryptDeriveKey"
+    },
+    {
+      "offset": 27394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4145139968,
+      "sizeOfData": 29,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptEncrypt@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "NCryptEncrypt"
+    },
+    {
+      "offset": 27504,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3905295199,
+      "sizeOfData": 36,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptEnumAlgorithms@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "NCryptEnumAlgorithms"
+    },
+    {
+      "offset": 27620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3285134848,
+      "sizeOfData": 30,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptEnumKeys@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "NCryptEnumKeys"
+    },
+    {
+      "offset": 27730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3927970415,
+      "sizeOfData": 42,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptEnumStorageProviders@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "NCryptEnumStorageProviders"
+    },
+    {
+      "offset": 27852,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3712997505,
+      "sizeOfData": 31,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptExportKey@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "NCryptExportKey"
+    },
+    {
+      "offset": 27964,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3876205583,
+      "sizeOfData": 32,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptFinalizeKey@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "NCryptFinalizeKey"
+    },
+    {
+      "offset": 28076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3801520556,
+      "sizeOfData": 31,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptFreeBuffer@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "NCryptFreeBuffer"
+    },
+    {
+      "offset": 28188,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3536242406,
+      "sizeOfData": 31,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptFreeObject@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "NCryptFreeObject"
+    },
+    {
+      "offset": 28300,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3621356852,
+      "sizeOfData": 33,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptGetProperty@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "NCryptGetProperty"
+    },
+    {
+      "offset": 28414,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3765277589,
+      "sizeOfData": 49,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptGetProtectionDescriptorInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "NCryptGetProtectionDescriptorInfo"
+    },
+    {
+      "offset": 28544,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4199033143,
+      "sizeOfData": 31,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptImportKey@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "NCryptImportKey"
+    },
+    {
+      "offset": 28656,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3473307705,
+      "sizeOfData": 36,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptIsAlgSupported@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "NCryptIsAlgSupported"
+    },
+    {
+      "offset": 28772,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3437617077,
+      "sizeOfData": 32,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptIsKeyHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "NCryptIsKeyHandle"
+    },
+    {
+      "offset": 28884,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4194988081,
+      "sizeOfData": 35,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptKeyDerivation@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "NCryptKeyDerivation"
+    },
+    {
+      "offset": 29000,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3377422923,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptNotifyChangeKey@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "NCryptNotifyChangeKey"
+    },
+    {
+      "offset": 29118,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4052122587,
+      "sizeOfData": 29,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptOpenKey@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "NCryptOpenKey"
+    },
+    {
+      "offset": 29228,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4037534883,
+      "sizeOfData": 41,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptOpenStorageProvider@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "NCryptOpenStorageProvider"
+    },
+    {
+      "offset": 29350,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3647810228,
+      "sizeOfData": 35,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptProtectSecret@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "NCryptProtectSecret"
+    },
+    {
+      "offset": 29466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4199300856,
+      "sizeOfData": 51,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptQueryProtectionDescriptorName@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "NCryptQueryProtectionDescriptorName"
+    },
+    {
+      "offset": 29598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4037527433,
+      "sizeOfData": 54,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptRegisterProtectionDescriptorName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "NCryptRegisterProtectionDescriptorName"
+    },
+    {
+      "offset": 29732,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3630581522,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptSecretAgreement@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "NCryptSecretAgreement"
+    },
+    {
+      "offset": 29850,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3928188773,
+      "sizeOfData": 41,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptSetAuditingInterface@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "NCryptSetAuditingInterface"
+    },
+    {
+      "offset": 29972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4031429306,
+      "sizeOfData": 33,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptSetProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "NCryptSetProperty"
+    },
+    {
+      "offset": 30086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3375364243,
+      "sizeOfData": 30,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptSignHash@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "NCryptSignHash"
+    },
+    {
+      "offset": 30196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4039889333,
+      "sizeOfData": 32,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptStreamClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "NCryptStreamClose"
+    },
+    {
+      "offset": 30308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3344114670,
+      "sizeOfData": 41,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptStreamOpenToProtect@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "NCryptStreamOpenToProtect"
+    },
+    {
+      "offset": 30430,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3390534224,
+      "sizeOfData": 43,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptStreamOpenToUnprotect@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "NCryptStreamOpenToUnprotect"
+    },
+    {
+      "offset": 30554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4003397543,
+      "sizeOfData": 45,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptStreamOpenToUnprotectEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "NCryptStreamOpenToUnprotectEx"
+    },
+    {
+      "offset": 30680,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3723633898,
+      "sizeOfData": 34,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptStreamUpdate@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "NCryptStreamUpdate"
+    },
+    {
+      "offset": 30794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3534003442,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptTranslateHandle@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "NCryptTranslateHandle"
+    },
+    {
+      "offset": 30912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3708847795,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptUnprotectSecret@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "NCryptUnprotectSecret"
+    },
+    {
+      "offset": 31030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3696455969,
+      "sizeOfData": 33,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptVerifyClaim@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "NCryptVerifyClaim"
+    },
+    {
+      "offset": 31144,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3790026531,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_NCryptVerifySignature@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "NCryptVerifySignature"
+    },
+    {
+      "offset": 31262,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3936504823,
+      "sizeOfData": 30,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslChangeNotify@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "SslChangeNotify"
+    },
+    {
+      "offset": 31372,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4292480897,
+      "sizeOfData": 40,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslComputeClientAuthHash@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "SslComputeClientAuthHash"
+    },
+    {
+      "offset": 31492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4099021370,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslComputeEapKeyBlock@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "SslComputeEapKeyBlock"
+    },
+    {
+      "offset": 31610,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3289768779,
+      "sizeOfData": 38,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslComputeFinishedHash@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "SslComputeFinishedHash"
+    },
+    {
+      "offset": 31728,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4101484936,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslComputeSessionHash@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "SslComputeSessionHash"
+    },
+    {
+      "offset": 31846,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3825145032,
+      "sizeOfData": 39,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslCreateClientAuthHash@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "SslCreateClientAuthHash"
+    },
+    {
+      "offset": 31966,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3650421659,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslCreateEphemeralKey@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "SslCreateEphemeralKey"
+    },
+    {
+      "offset": 32084,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4159640005,
+      "sizeOfData": 38,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslCreateHandshakeHash@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "SslCreateHandshakeHash"
+    },
+    {
+      "offset": 32202,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3288221322,
+      "sizeOfData": 49,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslDecrementProviderReferenceCount@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "SslDecrementProviderReferenceCount"
+    },
+    {
+      "offset": 32332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3641841743,
+      "sizeOfData": 32,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslDecryptPacket@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "SslDecryptPacket"
+    },
+    {
+      "offset": 32444,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4024343970,
+      "sizeOfData": 42,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslDuplicateTranscriptHash@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "SslDuplicateTranscriptHash"
+    },
+    {
+      "offset": 32566,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3296608063,
+      "sizeOfData": 32,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslEncryptPacket@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "SslEncryptPacket"
+    },
+    {
+      "offset": 32678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3551890290,
+      "sizeOfData": 35,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslEnumCipherSuites@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "SslEnumCipherSuites"
+    },
+    {
+      "offset": 32794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4262507734,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslEnumCipherSuitesEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "SslEnumCipherSuitesEx"
+    },
+    {
+      "offset": 32912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3560730184,
+      "sizeOfData": 32,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslEnumEccCurves@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "SslEnumEccCurves"
+    },
+    {
+      "offset": 33024,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4096119353,
+      "sizeOfData": 40,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslEnumProtocolProviders@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "SslEnumProtocolProviders"
+    },
+    {
+      "offset": 33144,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4266939859,
+      "sizeOfData": 34,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslExpandBinderKey@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "SslExpandBinderKey"
+    },
+    {
+      "offset": 33258,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3846033174,
+      "sizeOfData": 42,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslExpandExporterMasterKey@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "SslExpandExporterMasterKey"
+    },
+    {
+      "offset": 33380,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3296060879,
+      "sizeOfData": 42,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslExpandNextGenTrafficKey@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "SslExpandNextGenTrafficKey"
+    },
+    {
+      "offset": 33502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3744400430,
+      "sizeOfData": 37,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslExpandPreSharedKey@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "SslExpandPreSharedKey"
+    },
+    {
+      "offset": 33620,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4250934574,
+      "sizeOfData": 44,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslExpandResumptionMasterKey@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "SslExpandResumptionMasterKey"
+    },
+    {
+      "offset": 33744,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3947060051,
+      "sizeOfData": 36,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslExpandTrafficKeys@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "SslExpandTrafficKeys"
+    },
+    {
+      "offset": 33860,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3762007431,
+      "sizeOfData": 33,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslExpandWriteKey@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "SslExpandWriteKey"
+    },
+    {
+      "offset": 33974,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4228174838,
+      "sizeOfData": 28,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslExportKey@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "SslExportKey"
+    },
+    {
+      "offset": 34082,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3911353740,
+      "sizeOfData": 39,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslExportKeyingMaterial@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "SslExportKeyingMaterial"
+    },
+    {
+      "offset": 34202,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4241823385,
+      "sizeOfData": 34,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslExtractEarlyKey@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "SslExtractEarlyKey"
+    },
+    {
+      "offset": 34316,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3301158472,
+      "sizeOfData": 38,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslExtractHandshakeKey@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "SslExtractHandshakeKey"
+    },
+    {
+      "offset": 34434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3541417540,
+      "sizeOfData": 35,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslExtractMasterKey@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "SslExtractMasterKey"
+    },
+    {
+      "offset": 34550,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3317399477,
+      "sizeOfData": 28,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslFreeBuffer@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "SslFreeBuffer"
+    },
+    {
+      "offset": 34658,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4272512116,
+      "sizeOfData": 28,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslFreeObject@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "SslFreeObject"
+    },
+    {
+      "offset": 34766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4146265465,
+      "sizeOfData": 36,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslGenerateMasterKey@44",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "SslGenerateMasterKey"
+    },
+    {
+      "offset": 34882,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3676030863,
+      "sizeOfData": 39,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslGeneratePreMasterKey@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "SslGeneratePreMasterKey"
+    },
+    {
+      "offset": 35002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3474676290,
+      "sizeOfData": 38,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslGenerateSessionKeys@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "SslGenerateSessionKeys"
+    },
+    {
+      "offset": 35120,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4100783898,
+      "sizeOfData": 49,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslGetCipherSuitePRFHashAlgorithm@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "SslGetCipherSuitePRFHashAlgorithm"
+    },
+    {
+      "offset": 35250,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4231057626,
+      "sizeOfData": 33,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslGetKeyProperty@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "SslGetKeyProperty"
+    },
+    {
+      "offset": 35364,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3338031432,
+      "sizeOfData": 38,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslGetProviderProperty@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "SslGetProviderProperty"
+    },
+    {
+      "offset": 35482,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3852847751,
+      "sizeOfData": 32,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslHashHandshake@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "SslHashHandshake"
+    },
+    {
+      "offset": 35594,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3888494459,
+      "sizeOfData": 28,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslImportKey@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "SslImportKey"
+    },
+    {
+      "offset": 35702,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3425228298,
+      "sizeOfData": 34,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslImportMasterKey@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "SslImportMasterKey"
+    },
+    {
+      "offset": 35816,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3614267927,
+      "sizeOfData": 49,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslIncrementProviderReferenceCount@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "SslIncrementProviderReferenceCount"
+    },
+    {
+      "offset": 35946,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3919506537,
+      "sizeOfData": 38,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslLookupCipherLengths@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "SslLookupCipherLengths"
+    },
+    {
+      "offset": 36064,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3367917099,
+      "sizeOfData": 40,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslLookupCipherSuiteInfo@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "SslLookupCipherSuiteInfo"
+    },
+    {
+      "offset": 36184,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3608442196,
+      "sizeOfData": 33,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslOpenPrivateKey@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "SslOpenPrivateKey"
+    },
+    {
+      "offset": 36298,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4258703541,
+      "sizeOfData": 31,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslOpenProvider@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "SslOpenProvider"
+    },
+    {
+      "offset": 36410,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3613837604,
+      "sizeOfData": 27,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslSignHash@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "SslSignHash"
+    },
+    {
+      "offset": 36518,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3601570098,
+      "sizeOfData": 34,
+      "dllName": "ncrypt.dll",
+      "symbolName": "_SslVerifySignature@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "SslVerifySignature"
+    }
+  ]
+}

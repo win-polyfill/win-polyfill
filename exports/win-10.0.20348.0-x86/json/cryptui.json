@@ -1,0 +1,1317 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "?AddChainToStore@@YGHPAXPBU_CERT_CONTEXT@@KPAPAXHPAU_CERT_TRUST_STATUS@@@Z (int __stdcall AddChainToStore(void *,struct _CERT_CONTEXT const *,unsigned long,void * *,int,struct _CERT_TRUST_STATUS *))"
+    },
+    {
+      "name": "?CertDllLogMismatchPinRules@@YGJPBG000000@Z (long __stdcall CertDllLogMismatchPinRules(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *))"
+    },
+    {
+      "name": "?CertDllProtectedRootMessageBox@@YGHPAXPBU_CERT_CONTEXT@@KI@Z (int __stdcall CertDllProtectedRootMessageBox(void *,struct _CERT_CONTEXT const *,unsigned long,unsigned int))"
+    },
+    {
+      "name": "?CompareCertificate@@YGHJJJ@Z (int __stdcall CompareCertificate(long,long,long))"
+    },
+    {
+      "name": "?CryptUIDlgAddPolicyServer@@YGJPAUHWND__@@KHPAPAU_PolicyUrlProperties@@KHP6GJ0PAGW4X509EnrollmentAuthFlags@@W4X509EnrollmentPolicyLoadOption@@W4X509CertificateEnrollmentContext@@PAPAUIX509EnrollmentPolicyServer@@@ZPAPAG88PAK@Z (long __stdcall CryptUIDlgAddPolicyServer(struct HWND__ *,unsigned long,int,struct _PolicyUrlProperties * *,unsigned long,int,long (__stdcall*)(struct HWND__ *,unsigned short *,enum X509EnrollmentAuthFlags,enum X509EnrollmentPolicyLoadOption,enum X509CertificateEnrollmentContext,struct IX509EnrollmentPolicyServer * *),unsigned short * *,unsigned short * *,unsigned short * *,unsigned long *))"
+    },
+    {
+      "name": "?CryptUIDlgAddPolicyServerWithPriority@@YGJPAUHWND__@@KHPAPAU_PolicyUrlProperties@@KHP6GJ0PAGW4X509EnrollmentAuthFlags@@W4X509EnrollmentPolicyLoadOption@@W4X509CertificateEnrollmentContext@@PAPAUIX509EnrollmentPolicyServer@@@ZPAPAG88PAK9@Z (long __stdcall CryptUIDlgAddPolicyServerWithPriority(struct HWND__ *,unsigned long,int,struct _PolicyUrlProperties * *,unsigned long,int,long (__stdcall*)(struct HWND__ *,unsigned short *,enum X509EnrollmentAuthFlags,enum X509EnrollmentPolicyLoadOption,enum X509CertificateEnrollmentContext,struct IX509EnrollmentPolicyServer * *),unsigned short * *,unsigned short * *,unsigned short * *,unsigned long *,unsigned long *))"
+    },
+    {
+      "name": "?CryptUIDlgPropertyPolicy@@YGJPAUHWND__@@HHPBG1KPAPAU_PolicyUrlProperties@@KPAKPAPAPAG3@Z (long __stdcall CryptUIDlgPropertyPolicy(struct HWND__ *,int,int,unsigned short const *,unsigned short const *,unsigned long,struct _PolicyUrlProperties * *,unsigned long,unsigned long *,unsigned short * * *,unsigned long *))"
+    },
+    {
+      "name": "?DisplayHtmlHelp@@YGXPAUHWND__@@PBG@Z (void __stdcall DisplayHtmlHelp(struct HWND__ *,unsigned short const *))"
+    },
+    {
+      "name": "?FormatDateStringAutoLayout@@YGHPAPAGU_FILETIME@@H@Z (int __stdcall FormatDateStringAutoLayout(unsigned short * *,struct _FILETIME,int))"
+    },
+    {
+      "name": "?GetUnknownErrorString@@YGHPAPAGK@Z (int __stdcall GetUnknownErrorString(unsigned short * *,unsigned long))"
+    },
+    {
+      "name": "?InvokeHelpLink@@YGXPAUHWND__@@@Z (void __stdcall InvokeHelpLink(struct HWND__ *))"
+    },
+    {
+      "name": "?MyFormatEnhancedKeyUsageString@@YGHPAPAGPBU_CERT_CONTEXT@@HH@Z (int __stdcall MyFormatEnhancedKeyUsageString(unsigned short * *,struct _CERT_CONTEXT const *,int,int))"
+    },
+    {
+      "name": "_ACUIProviderInvokeUI@4"
+    },
+    {
+      "name": "_CertSelectionGetSerializedBlob@12"
+    },
+    {
+      "name": "_CommonInit@0"
+    },
+    {
+      "name": "_CryptDllProtectPrompt@16"
+    },
+    {
+      "name": "_CryptUIDlgCertMgr@4"
+    },
+    {
+      "name": "_CryptUIDlgFreeCAContext@4"
+    },
+    {
+      "name": "_CryptUIDlgFreePolicyServerContext@4"
+    },
+    {
+      "name": "_CryptUIDlgSelectCA@4"
+    },
+    {
+      "name": "_CryptUIDlgSelectCertificateA@4"
+    },
+    {
+      "name": "_CryptUIDlgSelectCertificateFromStore@28"
+    },
+    {
+      "name": "_CryptUIDlgSelectCertificateW@4"
+    },
+    {
+      "name": "_CryptUIDlgSelectPolicyServer@4"
+    },
+    {
+      "name": "_CryptUIDlgSelectStoreA@4"
+    },
+    {
+      "name": "_CryptUIDlgSelectStoreW@4"
+    },
+    {
+      "name": "_CryptUIDlgViewCRLA@4"
+    },
+    {
+      "name": "_CryptUIDlgViewCRLW@4"
+    },
+    {
+      "name": "_CryptUIDlgViewCTLA@4"
+    },
+    {
+      "name": "_CryptUIDlgViewCTLW@4"
+    },
+    {
+      "name": "_CryptUIDlgViewCertificateA@8"
+    },
+    {
+      "name": "_CryptUIDlgViewCertificatePropertiesA@8"
+    },
+    {
+      "name": "_CryptUIDlgViewCertificatePropertiesW@8"
+    },
+    {
+      "name": "_CryptUIDlgViewCertificateW@8"
+    },
+    {
+      "name": "_CryptUIDlgViewContext@24"
+    },
+    {
+      "name": "_CryptUIDlgViewSignerInfoA@4"
+    },
+    {
+      "name": "_CryptUIDlgViewSignerInfoW@4"
+    },
+    {
+      "name": "_CryptUIFreeCertificatePropertiesPagesA@8"
+    },
+    {
+      "name": "_CryptUIFreeCertificatePropertiesPagesW@8"
+    },
+    {
+      "name": "_CryptUIFreeViewSignaturesPagesA@8"
+    },
+    {
+      "name": "_CryptUIFreeViewSignaturesPagesW@8"
+    },
+    {
+      "name": "_CryptUIGetCertificatePropertiesPagesA@16"
+    },
+    {
+      "name": "_CryptUIGetCertificatePropertiesPagesW@16"
+    },
+    {
+      "name": "_CryptUIGetViewSignaturesPagesA@12"
+    },
+    {
+      "name": "_CryptUIGetViewSignaturesPagesW@12"
+    },
+    {
+      "name": "_CryptUIStartCertMgr@16"
+    },
+    {
+      "name": "_CryptUIViewExpiringCerts@24"
+    },
+    {
+      "name": "_CryptUIWizBuildCTL@24"
+    },
+    {
+      "name": "_CryptUIWizDigitalSign@20"
+    },
+    {
+      "name": "_CryptUIWizExport@20"
+    },
+    {
+      "name": "_CryptUIWizFreeDigitalSignContext@4"
+    },
+    {
+      "name": "_CryptUIWizImport@20"
+    },
+    {
+      "name": "_CryptUIWizImportInternal@20"
+    },
+    {
+      "name": "_IsWizardExtensionAvailable@0"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 10826,
+      "name": "__IMPORT_DESCRIPTOR_CRYPTUI"
+    },
+    {
+      "offset": 11380,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 11690,
+      "name": "CRYPTUI_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 18904,
+      "name": "_CryptUIWizImport@20"
+    },
+    {
+      "offset": 18904,
+      "name": "__imp__CryptUIWizImport@20"
+    },
+    {
+      "offset": 19018,
+      "name": "_CryptUIWizImportInternal@20"
+    },
+    {
+      "offset": 19018,
+      "name": "__imp__CryptUIWizImportInternal@20"
+    },
+    {
+      "offset": 18662,
+      "name": "_CryptUIWizExport@20"
+    },
+    {
+      "offset": 18662,
+      "name": "__imp__CryptUIWizExport@20"
+    },
+    {
+      "offset": 18428,
+      "name": "_CryptUIWizBuildCTL@24"
+    },
+    {
+      "offset": 18428,
+      "name": "__imp__CryptUIWizBuildCTL@24"
+    },
+    {
+      "offset": 18544,
+      "name": "_CryptUIWizDigitalSign@20"
+    },
+    {
+      "offset": 18544,
+      "name": "__imp__CryptUIWizDigitalSign@20"
+    },
+    {
+      "offset": 18776,
+      "name": "_CryptUIWizFreeDigitalSignContext@4"
+    },
+    {
+      "offset": 18776,
+      "name": "__imp__CryptUIWizFreeDigitalSignContext@4"
+    },
+    {
+      "offset": 16658,
+      "name": "_CryptUIDlgViewCertificateW@8"
+    },
+    {
+      "offset": 16658,
+      "name": "__imp__CryptUIDlgViewCertificateW@8"
+    },
+    {
+      "offset": 16272,
+      "name": "_CryptUIDlgViewCertificateA@8"
+    },
+    {
+      "offset": 16272,
+      "name": "__imp__CryptUIDlgViewCertificateA@8"
+    },
+    {
+      "offset": 14244,
+      "name": "_CertSelectionGetSerializedBlob@12"
+    },
+    {
+      "offset": 14244,
+      "name": "__imp__CertSelectionGetSerializedBlob@12"
+    },
+    {
+      "offset": 16526,
+      "name": "_CryptUIDlgViewCertificatePropertiesW@8"
+    },
+    {
+      "offset": 16526,
+      "name": "__imp__CryptUIDlgViewCertificatePropertiesW@8"
+    },
+    {
+      "offset": 16394,
+      "name": "_CryptUIDlgViewCertificatePropertiesA@8"
+    },
+    {
+      "offset": 16394,
+      "name": "__imp__CryptUIDlgViewCertificatePropertiesA@8"
+    },
+    {
+      "offset": 17800,
+      "name": "_CryptUIGetCertificatePropertiesPagesW@16"
+    },
+    {
+      "offset": 17800,
+      "name": "__imp__CryptUIGetCertificatePropertiesPagesW@16"
+    },
+    {
+      "offset": 17666,
+      "name": "_CryptUIGetCertificatePropertiesPagesA@16"
+    },
+    {
+      "offset": 17666,
+      "name": "__imp__CryptUIGetCertificatePropertiesPagesA@16"
+    },
+    {
+      "offset": 17276,
+      "name": "_CryptUIFreeCertificatePropertiesPagesW@8"
+    },
+    {
+      "offset": 17276,
+      "name": "__imp__CryptUIFreeCertificatePropertiesPagesW@8"
+    },
+    {
+      "offset": 17142,
+      "name": "_CryptUIFreeCertificatePropertiesPagesA@8"
+    },
+    {
+      "offset": 17142,
+      "name": "__imp__CryptUIFreeCertificatePropertiesPagesA@8"
+    },
+    {
+      "offset": 16158,
+      "name": "_CryptUIDlgViewCTLW@4"
+    },
+    {
+      "offset": 16158,
+      "name": "__imp__CryptUIDlgViewCTLW@4"
+    },
+    {
+      "offset": 16044,
+      "name": "_CryptUIDlgViewCTLA@4"
+    },
+    {
+      "offset": 16044,
+      "name": "__imp__CryptUIDlgViewCTLA@4"
+    },
+    {
+      "offset": 15930,
+      "name": "_CryptUIDlgViewCRLW@4"
+    },
+    {
+      "offset": 15930,
+      "name": "__imp__CryptUIDlgViewCRLW@4"
+    },
+    {
+      "offset": 15816,
+      "name": "_CryptUIDlgViewCRLA@4"
+    },
+    {
+      "offset": 15816,
+      "name": "__imp__CryptUIDlgViewCRLA@4"
+    },
+    {
+      "offset": 17020,
+      "name": "_CryptUIDlgViewSignerInfoW@4"
+    },
+    {
+      "offset": 17020,
+      "name": "__imp__CryptUIDlgViewSignerInfoW@4"
+    },
+    {
+      "offset": 16898,
+      "name": "_CryptUIDlgViewSignerInfoA@4"
+    },
+    {
+      "offset": 16898,
+      "name": "__imp__CryptUIDlgViewSignerInfoA@4"
+    },
+    {
+      "offset": 18062,
+      "name": "_CryptUIGetViewSignaturesPagesW@12"
+    },
+    {
+      "offset": 18062,
+      "name": "__imp__CryptUIGetViewSignaturesPagesW@12"
+    },
+    {
+      "offset": 17934,
+      "name": "_CryptUIGetViewSignaturesPagesA@12"
+    },
+    {
+      "offset": 17934,
+      "name": "__imp__CryptUIGetViewSignaturesPagesA@12"
+    },
+    {
+      "offset": 17538,
+      "name": "_CryptUIFreeViewSignaturesPagesW@8"
+    },
+    {
+      "offset": 17538,
+      "name": "__imp__CryptUIFreeViewSignaturesPagesW@8"
+    },
+    {
+      "offset": 17410,
+      "name": "_CryptUIFreeViewSignaturesPagesA@8"
+    },
+    {
+      "offset": 17410,
+      "name": "__imp__CryptUIFreeViewSignaturesPagesA@8"
+    },
+    {
+      "offset": 15698,
+      "name": "_CryptUIDlgSelectStoreW@4"
+    },
+    {
+      "offset": 15698,
+      "name": "__imp__CryptUIDlgSelectStoreW@4"
+    },
+    {
+      "offset": 15580,
+      "name": "_CryptUIDlgSelectStoreA@4"
+    },
+    {
+      "offset": 15580,
+      "name": "__imp__CryptUIDlgSelectStoreA@4"
+    },
+    {
+      "offset": 15332,
+      "name": "_CryptUIDlgSelectCertificateW@4"
+    },
+    {
+      "offset": 15332,
+      "name": "__imp__CryptUIDlgSelectCertificateW@4"
+    },
+    {
+      "offset": 15074,
+      "name": "_CryptUIDlgSelectCertificateA@4"
+    },
+    {
+      "offset": 15074,
+      "name": "__imp__CryptUIDlgSelectCertificateA@4"
+    },
+    {
+      "offset": 14960,
+      "name": "_CryptUIDlgSelectCA@4"
+    },
+    {
+      "offset": 14960,
+      "name": "__imp__CryptUIDlgSelectCA@4"
+    },
+    {
+      "offset": 14710,
+      "name": "_CryptUIDlgFreeCAContext@4"
+    },
+    {
+      "offset": 14710,
+      "name": "__imp__CryptUIDlgFreeCAContext@4"
+    },
+    {
+      "offset": 14596,
+      "name": "_CryptUIDlgCertMgr@4"
+    },
+    {
+      "offset": 14596,
+      "name": "__imp__CryptUIDlgCertMgr@4"
+    },
+    {
+      "offset": 18190,
+      "name": "_CryptUIStartCertMgr@16"
+    },
+    {
+      "offset": 18190,
+      "name": "__imp__CryptUIStartCertMgr@16"
+    },
+    {
+      "offset": 14128,
+      "name": "_ACUIProviderInvokeUI@4"
+    },
+    {
+      "offset": 14128,
+      "name": "__imp__ACUIProviderInvokeUI@4"
+    },
+    {
+      "offset": 16780,
+      "name": "_CryptUIDlgViewContext@24"
+    },
+    {
+      "offset": 16780,
+      "name": "__imp__CryptUIDlgViewContext@24"
+    },
+    {
+      "offset": 15198,
+      "name": "_CryptUIDlgSelectCertificateFromStore@28"
+    },
+    {
+      "offset": 15198,
+      "name": "__imp__CryptUIDlgSelectCertificateFromStore@28"
+    },
+    {
+      "offset": 18306,
+      "name": "_CryptUIViewExpiringCerts@24"
+    },
+    {
+      "offset": 18306,
+      "name": "__imp__CryptUIViewExpiringCerts@24"
+    },
+    {
+      "offset": 15456,
+      "name": "_CryptUIDlgSelectPolicyServer@4"
+    },
+    {
+      "offset": 15456,
+      "name": "__imp__CryptUIDlgSelectPolicyServer@4"
+    },
+    {
+      "offset": 14830,
+      "name": "_CryptUIDlgFreePolicyServerContext@4"
+    },
+    {
+      "offset": 14830,
+      "name": "__imp__CryptUIDlgFreePolicyServerContext@4"
+    },
+    {
+      "offset": 12608,
+      "name": "?CryptUIDlgAddPolicyServer@@YGJPAUHWND__@@KHPAPAU_PolicyUrlProperties@@KHP6GJ0PAGW4X509EnrollmentAuthFlags@@W4X509EnrollmentPolicyLoadOption@@W4X509CertificateEnrollmentContext@@PAPAUIX509EnrollmentPolicyServer@@@ZPAPAG88PAK@Z"
+    },
+    {
+      "offset": 12608,
+      "name": "__imp_?CryptUIDlgAddPolicyServer@@YGJPAUHWND__@@KHPAPAU_PolicyUrlProperties@@KHP6GJ0PAGW4X509EnrollmentAuthFlags@@W4X509EnrollmentPolicyLoadOption@@W4X509CertificateEnrollmentContext@@PAPAUIX509EnrollmentPolicyServer@@@ZPAPAG88PAK@Z"
+    },
+    {
+      "offset": 13260,
+      "name": "?CryptUIDlgPropertyPolicy@@YGJPAUHWND__@@HHPBG1KPAPAU_PolicyUrlProperties@@KPAKPAPAPAG3@Z"
+    },
+    {
+      "offset": 13260,
+      "name": "__imp_?CryptUIDlgPropertyPolicy@@YGJPAUHWND__@@HHPBG1KPAPAU_PolicyUrlProperties@@KPAKPAPAPAG3@Z"
+    },
+    {
+      "offset": 12928,
+      "name": "?CryptUIDlgAddPolicyServerWithPriority@@YGJPAUHWND__@@KHPAPAU_PolicyUrlProperties@@KHP6GJ0PAGW4X509EnrollmentAuthFlags@@W4X509EnrollmentPolicyLoadOption@@W4X509CertificateEnrollmentContext@@PAPAUIX509EnrollmentPolicyServer@@@ZPAPAG88PAK9@Z"
+    },
+    {
+      "offset": 12928,
+      "name": "__imp_?CryptUIDlgAddPolicyServerWithPriority@@YGJPAUHWND__@@KHPAPAU_PolicyUrlProperties@@KHP6GJ0PAGW4X509EnrollmentAuthFlags@@W4X509EnrollmentPolicyLoadOption@@W4X509CertificateEnrollmentContext@@PAPAUIX509EnrollmentPolicyServer@@@ZPAPAG88PAK9@Z"
+    },
+    {
+      "offset": 14372,
+      "name": "_CommonInit@0"
+    },
+    {
+      "offset": 14372,
+      "name": "__imp__CommonInit@0"
+    },
+    {
+      "offset": 13972,
+      "name": "?MyFormatEnhancedKeyUsageString@@YGHPAPAGPBU_CERT_CONTEXT@@HH@Z"
+    },
+    {
+      "offset": 13972,
+      "name": "__imp_?MyFormatEnhancedKeyUsageString@@YGHPAPAGPBU_CERT_CONTEXT@@HH@Z"
+    },
+    {
+      "offset": 12486,
+      "name": "?CompareCertificate@@YGHJJJ@Z"
+    },
+    {
+      "offset": 12486,
+      "name": "__imp_?CompareCertificate@@YGHJJJ@Z"
+    },
+    {
+      "offset": 13442,
+      "name": "?DisplayHtmlHelp@@YGXPAUHWND__@@PBG@Z"
+    },
+    {
+      "offset": 13442,
+      "name": "__imp_?DisplayHtmlHelp@@YGXPAUHWND__@@PBG@Z"
+    },
+    {
+      "offset": 13846,
+      "name": "?InvokeHelpLink@@YGXPAUHWND__@@@Z"
+    },
+    {
+      "offset": 13846,
+      "name": "__imp_?InvokeHelpLink@@YGXPAUHWND__@@@Z"
+    },
+    {
+      "offset": 12028,
+      "name": "?AddChainToStore@@YGHPAXPBU_CERT_CONTEXT@@KPAPAXHPAU_CERT_TRUST_STATUS@@@Z"
+    },
+    {
+      "offset": 12028,
+      "name": "__imp_?AddChainToStore@@YGHPAXPBU_CERT_CONTEXT@@KPAPAXHPAU_CERT_TRUST_STATUS@@@Z"
+    },
+    {
+      "offset": 13718,
+      "name": "?GetUnknownErrorString@@YGHPAPAGK@Z"
+    },
+    {
+      "offset": 13718,
+      "name": "__imp_?GetUnknownErrorString@@YGHPAPAGK@Z"
+    },
+    {
+      "offset": 13572,
+      "name": "?FormatDateStringAutoLayout@@YGHPAPAGU_FILETIME@@H@Z"
+    },
+    {
+      "offset": 13572,
+      "name": "__imp_?FormatDateStringAutoLayout@@YGHPAPAGU_FILETIME@@H@Z"
+    },
+    {
+      "offset": 19140,
+      "name": "_IsWizardExtensionAvailable@0"
+    },
+    {
+      "offset": 19140,
+      "name": "__imp__IsWizardExtensionAvailable@0"
+    },
+    {
+      "offset": 12332,
+      "name": "?CertDllProtectedRootMessageBox@@YGHPAXPBU_CERT_CONTEXT@@KI@Z"
+    },
+    {
+      "offset": 12332,
+      "name": "__imp_?CertDllProtectedRootMessageBox@@YGHPAXPBU_CERT_CONTEXT@@KI@Z"
+    },
+    {
+      "offset": 12196,
+      "name": "?CertDllLogMismatchPinRules@@YGJPBG000000@Z"
+    },
+    {
+      "offset": 12196,
+      "name": "__imp_?CertDllLogMismatchPinRules@@YGJPBG000000@Z"
+    },
+    {
+      "offset": 14478,
+      "name": "_CryptDllProtectPrompt@16"
+    },
+    {
+      "offset": 14478,
+      "name": "__imp__CryptDllProtectPrompt@16"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 12028,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4057888731,
+      "sizeOfData": 87,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "?AddChainToStore@@YGHPAXPBU_CERT_CONTEXT@@KPAPAXHPAU_CERT_TRUST_STATUS@@@Z (int __stdcall AddChainToStore(void *,struct _CERT_CONTEXT const *,unsigned long,void * *,int,struct _CERT_TRUST_STATUS *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "AddChainToStore"
+    },
+    {
+      "offset": 12196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3299992852,
+      "sizeOfData": 56,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "?CertDllLogMismatchPinRules@@YGJPBG000000@Z (long __stdcall CertDllLogMismatchPinRules(unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *,unsigned short const *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "CertDllLogMismatchPinRules"
+    },
+    {
+      "offset": 12332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3805116676,
+      "sizeOfData": 74,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "?CertDllProtectedRootMessageBox@@YGHPAXPBU_CERT_CONTEXT@@KI@Z (int __stdcall CertDllProtectedRootMessageBox(void *,struct _CERT_CONTEXT const *,unsigned long,unsigned int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "CertDllProtectedRootMessageBox"
+    },
+    {
+      "offset": 12486,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3283692466,
+      "sizeOfData": 42,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "?CompareCertificate@@YGHJJJ@Z (int __stdcall CompareCertificate(long,long,long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "CompareCertificate"
+    },
+    {
+      "offset": 12608,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4046454549,
+      "sizeOfData": 239,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "?CryptUIDlgAddPolicyServer@@YGJPAUHWND__@@KHPAPAU_PolicyUrlProperties@@KHP6GJ0PAGW4X509EnrollmentAuthFlags@@W4X509EnrollmentPolicyLoadOption@@W4X509CertificateEnrollmentContext@@PAPAUIX509EnrollmentPolicyServer@@@ZPAPAG88PAK@Z (long __stdcall CryptUIDlgAddPolicyServer(struct HWND__ *,unsigned long,int,struct _PolicyUrlProperties * *,unsigned long,int,long (__stdcall*)(struct HWND__ *,unsigned short *,enum X509EnrollmentAuthFlags,enum X509EnrollmentPolicyLoadOption,enum X509CertificateEnrollmentContext,struct IX509EnrollmentPolicyServer * *),unsigned short * *,unsigned short * *,unsigned short * *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "CryptUIDlgAddPolicyServer"
+    },
+    {
+      "offset": 12928,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4026402937,
+      "sizeOfData": 252,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "?CryptUIDlgAddPolicyServerWithPriority@@YGJPAUHWND__@@KHPAPAU_PolicyUrlProperties@@KHP6GJ0PAGW4X509EnrollmentAuthFlags@@W4X509EnrollmentPolicyLoadOption@@W4X509CertificateEnrollmentContext@@PAPAUIX509EnrollmentPolicyServer@@@ZPAPAG88PAK9@Z (long __stdcall CryptUIDlgAddPolicyServerWithPriority(struct HWND__ *,unsigned long,int,struct _PolicyUrlProperties * *,unsigned long,int,long (__stdcall*)(struct HWND__ *,unsigned short *,enum X509EnrollmentAuthFlags,enum X509EnrollmentPolicyLoadOption,enum X509CertificateEnrollmentContext,struct IX509EnrollmentPolicyServer * *),unsigned short * *,unsigned short * *,unsigned short * *,unsigned long *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "CryptUIDlgAddPolicyServerWithPriority"
+    },
+    {
+      "offset": 13260,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4257328038,
+      "sizeOfData": 102,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "?CryptUIDlgPropertyPolicy@@YGJPAUHWND__@@HHPBG1KPAPAU_PolicyUrlProperties@@KPAKPAPAPAG3@Z (long __stdcall CryptUIDlgPropertyPolicy(struct HWND__ *,int,int,unsigned short const *,unsigned short const *,unsigned long,struct _PolicyUrlProperties * *,unsigned long,unsigned long *,unsigned short * * *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "CryptUIDlgPropertyPolicy"
+    },
+    {
+      "offset": 13442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3892317935,
+      "sizeOfData": 50,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "?DisplayHtmlHelp@@YGXPAUHWND__@@PBG@Z (void __stdcall DisplayHtmlHelp(struct HWND__ *,unsigned short const *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "DisplayHtmlHelp"
+    },
+    {
+      "offset": 13572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3470559611,
+      "sizeOfData": 65,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "?FormatDateStringAutoLayout@@YGHPAPAGU_FILETIME@@H@Z (int __stdcall FormatDateStringAutoLayout(unsigned short * *,struct _FILETIME,int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "FormatDateStringAutoLayout"
+    },
+    {
+      "offset": 13718,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3913299395,
+      "sizeOfData": 48,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "?GetUnknownErrorString@@YGHPAPAGK@Z (int __stdcall GetUnknownErrorString(unsigned short * *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "GetUnknownErrorString"
+    },
+    {
+      "offset": 13846,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3226357593,
+      "sizeOfData": 46,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "?InvokeHelpLink@@YGXPAUHWND__@@@Z (void __stdcall InvokeHelpLink(struct HWND__ *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "InvokeHelpLink"
+    },
+    {
+      "offset": 13972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3402294141,
+      "sizeOfData": 76,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "?MyFormatEnhancedKeyUsageString@@YGHPAPAGPBU_CERT_CONTEXT@@HH@Z (int __stdcall MyFormatEnhancedKeyUsageString(unsigned short * *,struct _CERT_CONTEXT const *,int,int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "MyFormatEnhancedKeyUsageString"
+    },
+    {
+      "offset": 14128,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3615139701,
+      "sizeOfData": 36,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_ACUIProviderInvokeUI@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "ACUIProviderInvokeUI"
+    },
+    {
+      "offset": 14244,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3488635810,
+      "sizeOfData": 47,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CertSelectionGetSerializedBlob@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "CertSelectionGetSerializedBlob"
+    },
+    {
+      "offset": 14372,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3596961361,
+      "sizeOfData": 26,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CommonInit@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "CommonInit"
+    },
+    {
+      "offset": 14478,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3414405198,
+      "sizeOfData": 38,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptDllProtectPrompt@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "CryptDllProtectPrompt"
+    },
+    {
+      "offset": 14596,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3248811620,
+      "sizeOfData": 33,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgCertMgr@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "CryptUIDlgCertMgr"
+    },
+    {
+      "offset": 14710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3617019603,
+      "sizeOfData": 39,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgFreeCAContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "CryptUIDlgFreeCAContext"
+    },
+    {
+      "offset": 14830,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3419989502,
+      "sizeOfData": 49,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgFreePolicyServerContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "CryptUIDlgFreePolicyServerContext"
+    },
+    {
+      "offset": 14960,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3616265502,
+      "sizeOfData": 34,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgSelectCA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "CryptUIDlgSelectCA"
+    },
+    {
+      "offset": 15074,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3863906382,
+      "sizeOfData": 44,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgSelectCertificateA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "CryptUIDlgSelectCertificateA"
+    },
+    {
+      "offset": 15198,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3794865038,
+      "sizeOfData": 53,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgSelectCertificateFromStore@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "CryptUIDlgSelectCertificateFromStore"
+    },
+    {
+      "offset": 15332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4269078181,
+      "sizeOfData": 44,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgSelectCertificateW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "CryptUIDlgSelectCertificateW"
+    },
+    {
+      "offset": 15456,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3896587441,
+      "sizeOfData": 44,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgSelectPolicyServer@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "CryptUIDlgSelectPolicyServer"
+    },
+    {
+      "offset": 15580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3349377359,
+      "sizeOfData": 38,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgSelectStoreA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "CryptUIDlgSelectStoreA"
+    },
+    {
+      "offset": 15698,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3619453081,
+      "sizeOfData": 38,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgSelectStoreW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "CryptUIDlgSelectStoreW"
+    },
+    {
+      "offset": 15816,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3256559893,
+      "sizeOfData": 34,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgViewCRLA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "CryptUIDlgViewCRLA"
+    },
+    {
+      "offset": 15930,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4048825801,
+      "sizeOfData": 34,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgViewCRLW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "CryptUIDlgViewCRLW"
+    },
+    {
+      "offset": 16044,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3927066182,
+      "sizeOfData": 34,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgViewCTLA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "CryptUIDlgViewCTLA"
+    },
+    {
+      "offset": 16158,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4012372363,
+      "sizeOfData": 34,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgViewCTLW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "CryptUIDlgViewCTLW"
+    },
+    {
+      "offset": 16272,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3827273062,
+      "sizeOfData": 42,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgViewCertificateA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "CryptUIDlgViewCertificateA"
+    },
+    {
+      "offset": 16394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3975581066,
+      "sizeOfData": 52,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgViewCertificatePropertiesA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "CryptUIDlgViewCertificatePropertiesA"
+    },
+    {
+      "offset": 16526,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4115488043,
+      "sizeOfData": 52,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgViewCertificatePropertiesW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "CryptUIDlgViewCertificatePropertiesW"
+    },
+    {
+      "offset": 16658,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3590605668,
+      "sizeOfData": 42,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgViewCertificateW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "CryptUIDlgViewCertificateW"
+    },
+    {
+      "offset": 16780,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3472238152,
+      "sizeOfData": 38,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgViewContext@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "CryptUIDlgViewContext"
+    },
+    {
+      "offset": 16898,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3623024982,
+      "sizeOfData": 41,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgViewSignerInfoA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "CryptUIDlgViewSignerInfoA"
+    },
+    {
+      "offset": 17020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4178496745,
+      "sizeOfData": 41,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIDlgViewSignerInfoW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "CryptUIDlgViewSignerInfoW"
+    },
+    {
+      "offset": 17142,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4239757141,
+      "sizeOfData": 54,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIFreeCertificatePropertiesPagesA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "CryptUIFreeCertificatePropertiesPagesA"
+    },
+    {
+      "offset": 17276,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3824457008,
+      "sizeOfData": 54,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIFreeCertificatePropertiesPagesW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "CryptUIFreeCertificatePropertiesPagesW"
+    },
+    {
+      "offset": 17410,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3499083715,
+      "sizeOfData": 47,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIFreeViewSignaturesPagesA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "CryptUIFreeViewSignaturesPagesA"
+    },
+    {
+      "offset": 17538,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4218681921,
+      "sizeOfData": 47,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIFreeViewSignaturesPagesW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "CryptUIFreeViewSignaturesPagesW"
+    },
+    {
+      "offset": 17666,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3395522407,
+      "sizeOfData": 54,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIGetCertificatePropertiesPagesA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "CryptUIGetCertificatePropertiesPagesA"
+    },
+    {
+      "offset": 17800,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4290253838,
+      "sizeOfData": 54,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIGetCertificatePropertiesPagesW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "CryptUIGetCertificatePropertiesPagesW"
+    },
+    {
+      "offset": 17934,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3555115288,
+      "sizeOfData": 47,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIGetViewSignaturesPagesA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "CryptUIGetViewSignaturesPagesA"
+    },
+    {
+      "offset": 18062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3963825993,
+      "sizeOfData": 47,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIGetViewSignaturesPagesW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "CryptUIGetViewSignaturesPagesW"
+    },
+    {
+      "offset": 18190,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4022532982,
+      "sizeOfData": 36,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIStartCertMgr@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "CryptUIStartCertMgr"
+    },
+    {
+      "offset": 18306,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4234410461,
+      "sizeOfData": 41,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIViewExpiringCerts@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "CryptUIViewExpiringCerts"
+    },
+    {
+      "offset": 18428,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4102393184,
+      "sizeOfData": 35,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIWizBuildCTL@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "CryptUIWizBuildCTL"
+    },
+    {
+      "offset": 18544,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3725845680,
+      "sizeOfData": 38,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIWizDigitalSign@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "CryptUIWizDigitalSign"
+    },
+    {
+      "offset": 18662,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3501580989,
+      "sizeOfData": 33,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIWizExport@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "CryptUIWizExport"
+    },
+    {
+      "offset": 18776,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3545981156,
+      "sizeOfData": 48,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIWizFreeDigitalSignContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "CryptUIWizFreeDigitalSignContext"
+    },
+    {
+      "offset": 18904,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3703208896,
+      "sizeOfData": 33,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIWizImport@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "CryptUIWizImport"
+    },
+    {
+      "offset": 19018,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4254770315,
+      "sizeOfData": 41,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_CryptUIWizImportInternal@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "CryptUIWizImportInternal"
+    },
+    {
+      "offset": 19140,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3822886574,
+      "sizeOfData": 42,
+      "dllName": "CRYPTUI.dll",
+      "symbolName": "_IsWizardExtensionAvailable@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "IsWizardExtensionAvailable"
+    }
+  ]
+}

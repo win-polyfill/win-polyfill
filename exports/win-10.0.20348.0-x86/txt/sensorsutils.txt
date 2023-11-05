@@ -1,0 +1,1708 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\sensorsutils.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    1600 size
+correct header end
+
+    139 public symbols
+
+     2CDA __IMPORT_DESCRIPTOR_SensorsUtilsV2
+     2F20 __NULL_IMPORT_DESCRIPTOR
+     305E SensorsUtilsV2_NULL_THUNK_DATA
+     4378 _GetPerformanceTime@4
+     4378 __imp__GetPerformanceTime@4
+     44DE _GetTimeStampFromFileTime@8
+     44DE __imp__GetTimeStampFromFileTime@8
+     42F8 _GetFileTimeFromTimeStamp@8
+     42F8 __imp__GetFileTimeFromTimeStamp@8
+     427A _GetFileTimeDifference@12
+     427A __imp__GetFileTimeDifference@12
+     31BE _AddMillisecondsToFileTime@12
+     31BE __imp__AddMillisecondsToFileTime@12
+     45E4 _InitPropVariantFromFloat@8
+     45E4 __imp__InitPropVariantFromFloat@8
+     4E5E _PropKeyFindKeyGetPropVariant@16
+     4E5E __imp__PropKeyFindKeyGetPropVariant@16
+     4FE0 _PropKeyFindKeySetPropVariant@16
+     4FE0 __imp__PropKeyFindKeySetPropVariant@16
+     4A5E _PropKeyFindKeyGetFileTime@12
+     4A5E __imp__PropKeyFindKeyGetFileTime@12
+     4B5E _PropKeyFindKeyGetGuid@12
+     4B5E __imp__PropKeyFindKeyGetGuid@12
+     4960 _PropKeyFindKeyGetBool@12
+     4960 __imp__PropKeyFindKeyGetBool@12
+     4EE2 _PropKeyFindKeyGetUlong@12
+     4EE2 __imp__PropKeyFindKeyGetUlong@12
+     4F60 _PropKeyFindKeyGetUshort@12
+     4F60 __imp__PropKeyFindKeyGetUshort@12
+     4AE0 _PropKeyFindKeyGetFloat@12
+     4AE0 __imp__PropKeyFindKeyGetFloat@12
+     49DE _PropKeyFindKeyGetDouble@12
+     49DE __imp__PropKeyFindKeyGetDouble@12
+     4BDC _PropKeyFindKeyGetInt32@12
+     4BDC __imp__PropKeyFindKeyGetInt32@12
+     4C5A _PropKeyFindKeyGetInt64@12
+     4C5A __imp__PropKeyFindKeyGetInt64@12
+     4D5A _PropKeyFindKeyGetNthUlong@16
+     4D5A __imp__PropKeyFindKeyGetNthUlong@16
+     4DDC _PropKeyFindKeyGetNthUshort@16
+     4DDC __imp__PropKeyFindKeyGetNthUshort@16
+     4CD8 _PropKeyFindKeyGetNthInt64@16
+     4CD8 __imp__PropKeyFindKeyGetNthInt64@16
+     47E0 _IsKeyPresentInPropertyList@8
+     47E0 __imp__IsKeyPresentInPropertyList@8
+     475C _IsKeyPresentInCollectionList@8
+     475C __imp__IsKeyPresentInCollectionList@8
+     4664 _IsCollectionListSame@8
+     4664 __imp__IsCollectionListSame@8
+     5064 _PropVariantGetInformation@20
+     5064 __imp__PropVariantGetInformation@20
+     50E6 _PropertiesListCopy@8
+     50E6 __imp__PropertiesListCopy@8
+     5160 _PropertiesListGetFillableCount@4
+     5160 __imp__PropertiesListGetFillableCount@4
+     32D2 _CollectionsListCopyAndMarshall@8
+     32D2 __imp__CollectionsListCopyAndMarshall@8
+     3616 _CollectionsListMarshall@4
+     3616 __imp__CollectionsListMarshall@4
+     346A _CollectionsListGetMarshalledSize@4
+     346A __imp__CollectionsListGetMarshalledSize@4
+     37B6 _CollectionsListUpdateMarshalledPointer@4
+     37B6 __imp__CollectionsListUpdateMarshalledPointer@4
+     34F2 _CollectionsListGetMarshalledSizeWithoutSerialization@4
+     34F2 __imp__CollectionsListGetMarshalledSizeWithoutSerialization@4
+     358E _CollectionsListGetSerializedSize@4
+     358E __imp__CollectionsListGetSerializedSize@4
+     3694 _CollectionsListSerializeToBuffer@12
+     3694 __imp__CollectionsListSerializeToBuffer@12
+     3240 _CollectionsListAllocateBufferAndSerialize@12
+     3240 __imp__CollectionsListAllocateBufferAndSerialize@12
+     3358 _CollectionsListDeserializeFromBuffer@12
+     3358 __imp__CollectionsListDeserializeFromBuffer@12
+     541C _SerializationBufferAllocate@8
+     541C __imp__SerializationBufferAllocate@8
+     549E _SerializationBufferFree@4
+     549E __imp__SerializationBufferFree@4
+     38D0 _ConvertCollectionToAccelerometerData@16
+     38D0 __imp__ConvertCollectionToAccelerometerData@16
+     39E4 _ConvertCollectionToLightSensorData@8
+     39E4 __imp__ConvertCollectionToLightSensorData@8
+     3A6E _ConvertCollectionToLightSensorDataWithColor@20
+     3A6E __imp__ConvertCollectionToLightSensorDataWithColor@20
+     395C _ConvertCollectionToGyroscopeData@8
+     395C __imp__ConvertCollectionToGyroscopeData@8
+     3B02 _ConvertCollectionToMagnetometerData@12
+     3B02 __imp__ConvertCollectionToMagnetometerData@12
+     3B8E _ConvertCollectionToOrientationData@28
+     3B8E __imp__ConvertCollectionToOrientationData@28
+     3C18 _ConvertCollectionToProximitySensorData@16
+     3C18 __imp__ConvertCollectionToProximitySensorData@16
+     3844 _ConvertAccelerometerDataToCollection@16
+     3844 __imp__ConvertAccelerometerDataToCollection@16
+     3DB4 _ConvertLightSensorDataToCollection@8
+     3DB4 __imp__ConvertLightSensorDataToCollection@8
+     3E3E _ConvertLightSensorDataWithColorToCollection@24
+     3E3E __imp__ConvertLightSensorDataWithColorToCollection@24
+     3D2C _ConvertGyroscopeDataToCollection@12
+     3D2C __imp__ConvertGyroscopeDataToCollection@12
+     3ED2 _ConvertMagnetometerDataToCollection@16
+     3ED2 __imp__ConvertMagnetometerDataToCollection@16
+     3F5E _ConvertOrientationDataToCollection@32
+     3F5E __imp__ConvertOrientationDataToCollection@32
+     3FE8 _ConvertProximitySensorDataToCollection@16
+     3FE8 __imp__ConvertProximitySensorDataToCollection@16
+     4076 _ConvertSimpleOrientationDataToCollection@12
+     4076 __imp__ConvertSimpleOrientationDataToCollection@12
+     3CA6 _ConvertFloat3DDataToCollection@12
+     3CA6 __imp__ConvertFloat3DDataToCollection@12
+     51E6 _SensorCollectionGetAt@16
+     51E6 __imp__SensorCollectionGetAt@16
+     33E4 _CollectionsListGetFillableCount@4
+     33E4 __imp__CollectionsListGetFillableCount@4
+     4106 _EvaluateActivityThresholds@12
+     4106 __imp__EvaluateActivityThresholds@12
+     371C _CollectionsListSortSubscribedActivitiesByConfidence@8
+     371C __imp__CollectionsListSortSubscribedActivitiesByConfidence@8
+     48DC _MapActivityConfidenceToState@12
+     48DC __imp__MapActivityConfidenceToState@12
+     455E _InitPropVariantFromCLSIDArray@12
+     455E __imp__InitPropVariantFromCLSIDArray@12
+     4862 _IsSensorSubscribed@20
+     4862 __imp__IsSensorSubscribed@20
+     46E0 _IsGUIDPresentInList@12
+     46E0 __imp__IsGUIDPresentInList@12
+     43F2 _GetSetting@8
+     43F2 __imp__GetSetting@8
+     4188 _GetBiosInformation@12
+     4188 __imp__GetBiosInformation@12
+     4464 _GetSystemTableInfo@16
+     4464 __imp__GetSystemTableInfo@16
+     4202 _GetDeviceClassStr@4
+     4202 __imp__GetDeviceClassStr@4
+     5264 _SensorsQueryDeviceCompatFlags@8
+     5264 __imp__SensorsQueryDeviceCompatFlags@8
+     5382 _SensorsQueryDeviceCompatFlagsUsingSystemInformation@4
+     5382 __imp__SensorsQueryDeviceCompatFlagsUsingSystemInformation@4
+     52E8 _SensorsQueryDeviceCompatFlagsUsingSmbiosInformation@4
+     52E8 __imp__SensorsQueryDeviceCompatFlagsUsingSmbiosInformation@4
+
+Archive member name at 2CDA: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     20A size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        DE70754C time date stamp
+             11A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      48 size of raw data
+      8C file pointer to raw data (0000008C to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      D4 file pointer to raw data (000000D4 to 000000E7)
+      E8 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+     106 file pointer to raw data (00000106 to 00000119)
+      E8 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 2F20: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     101 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        FD2EDED3 time date stamp
+              C0 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      48 size of raw data
+      64 file pointer to raw data (00000064 to 000000AB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      AC file pointer to raw data (000000AC to 000000BF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 305E: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     124 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        D04A32E0 time date stamp
+              DC file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      48 size of raw data
+      8C file pointer to raw data (0000008C to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D4 file pointer to raw data (000000D4 to 000000D7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D8 file pointer to raw data (000000D8 to 000000DB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 31BE: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDF8E1C9
+  SizeOfData   : 00000031
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _AddMillisecondsToFileTime@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : AddMillisecondsToFileTime
+
+Archive member name at 3240: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      55 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF88CBB0
+  SizeOfData   : 00000041
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _CollectionsListAllocateBufferAndSerialize@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : CollectionsListAllocateBufferAndSerialize
+
+Archive member name at 32D2: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1AF8BA5
+  SizeOfData   : 00000035
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _CollectionsListCopyAndMarshall@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : CollectionsListCopyAndMarshall
+
+Archive member name at 3358: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      50 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE8B8311
+  SizeOfData   : 0000003C
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _CollectionsListDeserializeFromBuffer@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : CollectionsListDeserializeFromBuffer
+
+Archive member name at 33E4: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F589D7AF
+  SizeOfData   : 00000036
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _CollectionsListGetFillableCount@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : CollectionsListGetFillableCount
+
+Archive member name at 346A: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E438E156
+  SizeOfData   : 00000037
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _CollectionsListGetMarshalledSize@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : CollectionsListGetMarshalledSize
+
+Archive member name at 34F2: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAB3B02E
+  SizeOfData   : 0000004B
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _CollectionsListGetMarshalledSizeWithoutSerialization@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : CollectionsListGetMarshalledSizeWithoutSerialization
+
+Archive member name at 358E: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB2C9C50
+  SizeOfData   : 00000037
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _CollectionsListGetSerializedSize@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : CollectionsListGetSerializedSize
+
+Archive member name at 3616: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D21C2F4C
+  SizeOfData   : 0000002E
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _CollectionsListMarshall@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : CollectionsListMarshall
+
+Archive member name at 3694: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6B5E7B7
+  SizeOfData   : 00000038
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _CollectionsListSerializeToBuffer@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : CollectionsListSerializeToBuffer
+
+Archive member name at 371C: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0B08489
+  SizeOfData   : 0000004A
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _CollectionsListSortSubscribedActivitiesByConfidence@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : CollectionsListSortSubscribedActivitiesByConfidence
+
+Archive member name at 37B6: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      51 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5FAC967
+  SizeOfData   : 0000003D
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _CollectionsListUpdateMarshalledPointer@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : CollectionsListUpdateMarshalledPointer
+
+Archive member name at 3844: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      50 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB4A75F4
+  SizeOfData   : 0000003C
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertAccelerometerDataToCollection@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : ConvertAccelerometerDataToCollection
+
+Archive member name at 38D0: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      50 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C30FC40D
+  SizeOfData   : 0000003C
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertCollectionToAccelerometerData@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : ConvertCollectionToAccelerometerData
+
+Archive member name at 395C: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C92C9CD9
+  SizeOfData   : 00000037
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertCollectionToGyroscopeData@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : ConvertCollectionToGyroscopeData
+
+Archive member name at 39E4: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCEC491F
+  SizeOfData   : 00000039
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertCollectionToLightSensorData@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : ConvertCollectionToLightSensorData
+
+Archive member name at 3A6E: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      57 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB59745D
+  SizeOfData   : 00000043
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertCollectionToLightSensorDataWithColor@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : ConvertCollectionToLightSensorDataWithColor
+
+Archive member name at 3B02: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0D355D2
+  SizeOfData   : 0000003B
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertCollectionToMagnetometerData@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : ConvertCollectionToMagnetometerData
+
+Archive member name at 3B8E: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE688C12
+  SizeOfData   : 0000003A
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertCollectionToOrientationData@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : ConvertCollectionToOrientationData
+
+Archive member name at 3C18: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      52 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCCFE1B7
+  SizeOfData   : 0000003E
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertCollectionToProximitySensorData@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : ConvertCollectionToProximitySensorData
+
+Archive member name at 3CA6: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2A194B5
+  SizeOfData   : 00000036
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertFloat3DDataToCollection@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : ConvertFloat3DDataToCollection
+
+Archive member name at 3D2C: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB43DF41
+  SizeOfData   : 00000038
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertGyroscopeDataToCollection@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : ConvertGyroscopeDataToCollection
+
+Archive member name at 3DB4: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EEF34526
+  SizeOfData   : 00000039
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertLightSensorDataToCollection@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : ConvertLightSensorDataToCollection
+
+Archive member name at 3E3E: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      57 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E59A5BE7
+  SizeOfData   : 00000043
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertLightSensorDataWithColorToCollection@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : ConvertLightSensorDataWithColorToCollection
+
+Archive member name at 3ED2: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3AE4EEE
+  SizeOfData   : 0000003B
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertMagnetometerDataToCollection@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : ConvertMagnetometerDataToCollection
+
+Archive member name at 3F5E: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2042F00
+  SizeOfData   : 0000003A
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertOrientationDataToCollection@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : ConvertOrientationDataToCollection
+
+Archive member name at 3FE8: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      52 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBDAABE2
+  SizeOfData   : 0000003E
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertProximitySensorDataToCollection@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : ConvertProximitySensorDataToCollection
+
+Archive member name at 4076: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      54 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E25EBE7A
+  SizeOfData   : 00000040
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _ConvertSimpleOrientationDataToCollection@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : ConvertSimpleOrientationDataToCollection
+
+Archive member name at 4106: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F60885DA
+  SizeOfData   : 00000032
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _EvaluateActivityThresholds@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : EvaluateActivityThresholds
+
+Archive member name at 4188: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC79A42C
+  SizeOfData   : 0000002A
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _GetBiosInformation@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : GetBiosInformation
+
+Archive member name at 4202: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC81D648
+  SizeOfData   : 00000028
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _GetDeviceClassStr@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : GetDeviceClassStr
+
+Archive member name at 427A: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7E473DA
+  SizeOfData   : 0000002D
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _GetFileTimeDifference@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : GetFileTimeDifference
+
+Archive member name at 42F8: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8263822
+  SizeOfData   : 0000002F
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _GetFileTimeFromTimeStamp@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : GetFileTimeFromTimeStamp
+
+Archive member name at 4378: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCC7A270
+  SizeOfData   : 00000029
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _GetPerformanceTime@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : GetPerformanceTime
+
+Archive member name at 43F2: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFBF3D24
+  SizeOfData   : 00000021
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _GetSetting@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : GetSetting
+
+Archive member name at 4464: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA287936
+  SizeOfData   : 0000002A
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _GetSystemTableInfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : GetSystemTableInfo
+
+Archive member name at 44DE: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4A50CAD
+  SizeOfData   : 0000002F
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _GetTimeStampFromFileTime@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : GetTimeStampFromFileTime
+
+Archive member name at 455E: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F93154C2
+  SizeOfData   : 00000035
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _InitPropVariantFromCLSIDArray@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : InitPropVariantFromCLSIDArray
+
+Archive member name at 45E4: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1EC0C4B
+  SizeOfData   : 0000002F
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _InitPropVariantFromFloat@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : InitPropVariantFromFloat
+
+Archive member name at 4664: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDCB9B85
+  SizeOfData   : 0000002B
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _IsCollectionListSame@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : IsCollectionListSame
+
+Archive member name at 46E0: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9163F5F
+  SizeOfData   : 0000002B
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _IsGUIDPresentInList@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : IsGUIDPresentInList
+
+Archive member name at 475C: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEEBA940
+  SizeOfData   : 00000033
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _IsKeyPresentInCollectionList@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : IsKeyPresentInCollectionList
+
+Archive member name at 47E0: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2E7F9B1
+  SizeOfData   : 00000031
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _IsKeyPresentInPropertyList@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : IsKeyPresentInPropertyList
+
+Archive member name at 4862: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7499B0E
+  SizeOfData   : 0000002A
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _IsSensorSubscribed@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : IsSensorSubscribed
+
+Archive member name at 48DC: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E077AC3F
+  SizeOfData   : 00000034
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _MapActivityConfidenceToState@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : MapActivityConfidenceToState
+
+Archive member name at 4960: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA0BFB53
+  SizeOfData   : 0000002D
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeyGetBool@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : PropKeyFindKeyGetBool
+
+Archive member name at 49DE: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5AD1AF6
+  SizeOfData   : 0000002F
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeyGetDouble@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : PropKeyFindKeyGetDouble
+
+Archive member name at 4A5E: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC79446F
+  SizeOfData   : 00000031
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeyGetFileTime@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : PropKeyFindKeyGetFileTime
+
+Archive member name at 4AE0: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD815179
+  SizeOfData   : 0000002E
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeyGetFloat@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : PropKeyFindKeyGetFloat
+
+Archive member name at 4B5E: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3464649
+  SizeOfData   : 0000002D
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeyGetGuid@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : PropKeyFindKeyGetGuid
+
+Archive member name at 4BDC: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3D4C824
+  SizeOfData   : 0000002E
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeyGetInt32@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : PropKeyFindKeyGetInt32
+
+Archive member name at 4C5A: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6826C10
+  SizeOfData   : 0000002E
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeyGetInt64@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : PropKeyFindKeyGetInt64
+
+Archive member name at 4CD8: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C73EBB41
+  SizeOfData   : 00000031
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeyGetNthInt64@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : PropKeyFindKeyGetNthInt64
+
+Archive member name at 4D5A: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF35E1E2
+  SizeOfData   : 00000031
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeyGetNthUlong@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : PropKeyFindKeyGetNthUlong
+
+Archive member name at 4DDC: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4C72CAD
+  SizeOfData   : 00000032
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeyGetNthUshort@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : PropKeyFindKeyGetNthUshort
+
+Archive member name at 4E5E: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2EF451A
+  SizeOfData   : 00000034
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeyGetPropVariant@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : PropKeyFindKeyGetPropVariant
+
+Archive member name at 4EE2: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F050BC8D
+  SizeOfData   : 0000002E
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeyGetUlong@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : PropKeyFindKeyGetUlong
+
+Archive member name at 4F60: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB7126DC
+  SizeOfData   : 0000002F
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeyGetUshort@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : PropKeyFindKeyGetUshort
+
+Archive member name at 4FE0: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C561A00E
+  SizeOfData   : 00000034
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropKeyFindKeySetPropVariant@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : PropKeyFindKeySetPropVariant
+
+Archive member name at 5064: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C72953B4
+  SizeOfData   : 00000031
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropVariantGetInformation@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : PropVariantGetInformation
+
+Archive member name at 50E6: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FED90441
+  SizeOfData   : 00000029
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropertiesListCopy@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : PropertiesListCopy
+
+Archive member name at 5160: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E260671B
+  SizeOfData   : 00000035
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _PropertiesListGetFillableCount@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : PropertiesListGetFillableCount
+
+Archive member name at 51E6: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFE4560E
+  SizeOfData   : 0000002D
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _SensorCollectionGetAt@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : SensorCollectionGetAt
+
+Archive member name at 5264: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF66DBDE
+  SizeOfData   : 00000034
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _SensorsQueryDeviceCompatFlags@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : SensorsQueryDeviceCompatFlags
+
+Archive member name at 52E8: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EEE0248E
+  SizeOfData   : 0000004A
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _SensorsQueryDeviceCompatFlagsUsingSmbiosInformation@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : SensorsQueryDeviceCompatFlagsUsingSmbiosInformation
+
+Archive member name at 5382: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB76565A
+  SizeOfData   : 0000004A
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _SensorsQueryDeviceCompatFlagsUsingSystemInformation@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : SensorsQueryDeviceCompatFlagsUsingSystemInformation
+
+Archive member name at 541C: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF849D15
+  SizeOfData   : 00000032
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _SerializationBufferAllocate@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : SerializationBufferAllocate
+
+Archive member name at 549E: /0              SensorsUtilsV2.dll
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F43304F2
+  SizeOfData   : 0000002E
+  DLL name     : SensorsUtilsV2.dll
+  Symbol name  : _SerializationBufferFree@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : SerializationBufferFree
+
+     Exports
+
+       ordinal    name
+
+                  _AddMillisecondsToFileTime@12
+                  _CollectionsListAllocateBufferAndSerialize@12
+                  _CollectionsListCopyAndMarshall@8
+                  _CollectionsListDeserializeFromBuffer@12
+                  _CollectionsListGetFillableCount@4
+                  _CollectionsListGetMarshalledSize@4
+                  _CollectionsListGetMarshalledSizeWithoutSerialization@4
+                  _CollectionsListGetSerializedSize@4
+                  _CollectionsListMarshall@4
+                  _CollectionsListSerializeToBuffer@12
+                  _CollectionsListSortSubscribedActivitiesByConfidence@8
+                  _CollectionsListUpdateMarshalledPointer@4
+                  _ConvertAccelerometerDataToCollection@16
+                  _ConvertCollectionToAccelerometerData@16
+                  _ConvertCollectionToGyroscopeData@8
+                  _ConvertCollectionToLightSensorData@8
+                  _ConvertCollectionToLightSensorDataWithColor@20
+                  _ConvertCollectionToMagnetometerData@12
+                  _ConvertCollectionToOrientationData@28
+                  _ConvertCollectionToProximitySensorData@16
+                  _ConvertFloat3DDataToCollection@12
+                  _ConvertGyroscopeDataToCollection@12
+                  _ConvertLightSensorDataToCollection@8
+                  _ConvertLightSensorDataWithColorToCollection@24
+                  _ConvertMagnetometerDataToCollection@16
+                  _ConvertOrientationDataToCollection@32
+                  _ConvertProximitySensorDataToCollection@16
+                  _ConvertSimpleOrientationDataToCollection@12
+                  _EvaluateActivityThresholds@12
+                  _GetBiosInformation@12
+                  _GetDeviceClassStr@4
+                  _GetFileTimeDifference@12
+                  _GetFileTimeFromTimeStamp@8
+                  _GetPerformanceTime@4
+                  _GetSetting@8
+                  _GetSystemTableInfo@16
+                  _GetTimeStampFromFileTime@8
+                  _InitPropVariantFromCLSIDArray@12
+                  _InitPropVariantFromFloat@8
+                  _IsCollectionListSame@8
+                  _IsGUIDPresentInList@12
+                  _IsKeyPresentInCollectionList@8
+                  _IsKeyPresentInPropertyList@8
+                  _IsSensorSubscribed@20
+                  _MapActivityConfidenceToState@12
+                  _PropKeyFindKeyGetBool@12
+                  _PropKeyFindKeyGetDouble@12
+                  _PropKeyFindKeyGetFileTime@12
+                  _PropKeyFindKeyGetFloat@12
+                  _PropKeyFindKeyGetGuid@12
+                  _PropKeyFindKeyGetInt32@12
+                  _PropKeyFindKeyGetInt64@12
+                  _PropKeyFindKeyGetNthInt64@16
+                  _PropKeyFindKeyGetNthUlong@16
+                  _PropKeyFindKeyGetNthUshort@16
+                  _PropKeyFindKeyGetPropVariant@16
+                  _PropKeyFindKeyGetUlong@12
+                  _PropKeyFindKeyGetUshort@12
+                  _PropKeyFindKeySetPropVariant@16
+                  _PropVariantGetInformation@20
+                  _PropertiesListCopy@8
+                  _PropertiesListGetFillableCount@4
+                  _SensorCollectionGetAt@16
+                  _SensorsQueryDeviceCompatFlags@8
+                  _SensorsQueryDeviceCompatFlagsUsingSmbiosInformation@4
+                  _SensorsQueryDeviceCompatFlagsUsingSystemInformation@4
+                  _SerializationBufferAllocate@8
+                  _SerializationBufferFree@4
+
+  Summary
+
+          D8 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+          14 .idata$6

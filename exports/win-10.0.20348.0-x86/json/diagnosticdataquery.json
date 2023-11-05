@@ -1,0 +1,909 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_DdqCancelDiagnosticRecordOperation@4"
+    },
+    {
+      "name": "_DdqCloseSession@4"
+    },
+    {
+      "name": "_DdqCreateSession@8"
+    },
+    {
+      "name": "_DdqExtractDiagnosticReport@16"
+    },
+    {
+      "name": "_DdqFreeDiagnosticRecordLocaleTags@4"
+    },
+    {
+      "name": "_DdqFreeDiagnosticRecordPage@4"
+    },
+    {
+      "name": "_DdqFreeDiagnosticRecordProducerCategories@4"
+    },
+    {
+      "name": "_DdqFreeDiagnosticRecordProducers@4"
+    },
+    {
+      "name": "_DdqFreeDiagnosticReport@4"
+    },
+    {
+      "name": "_DdqGetDiagnosticDataAccessLevelAllowed@4"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordAtIndex@12"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordBinaryDistribution@24"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordCategoryAtIndex@12"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordCategoryCount@8"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordCount@8"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordLocaleTagAtIndex@12"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordLocaleTagCount@8"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordLocaleTags@12"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordPage@28"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordPayload@16"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordProducerAtIndex@12"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordProducerCategories@12"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordProducerCount@8"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordProducers@8"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordStats@20"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordSummary@16"
+    },
+    {
+      "name": "_DdqGetDiagnosticRecordTagDistribution@20"
+    },
+    {
+      "name": "_DdqGetDiagnosticReport@12"
+    },
+    {
+      "name": "_DdqGetDiagnosticReportAtIndex@12"
+    },
+    {
+      "name": "_DdqGetDiagnosticReportCount@8"
+    },
+    {
+      "name": "_DdqGetDiagnosticReportStoreReportCount@12"
+    },
+    {
+      "name": "_DdqGetSessionAccessLevel@8"
+    },
+    {
+      "name": "_DdqGetTranscriptConfiguration@8"
+    },
+    {
+      "name": "_DdqIsDiagnosticRecordSampledIn@36"
+    },
+    {
+      "name": "_DdqSetTranscriptConfiguration@8"
+    },
+    {
+      "name": "_UtcSendTraceLogging2@56"
+    },
+    {
+      "name": "_UtcSendTraceLogging@40"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 6630,
+      "name": "__IMPORT_DESCRIPTOR_DiagnosticDataQuery"
+    },
+    {
+      "offset": 7232,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 7554,
+      "name": "DiagnosticDataQuery_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 8182,
+      "name": "_DdqCreateSession@8"
+    },
+    {
+      "offset": 8182,
+      "name": "__imp__DdqCreateSession@8"
+    },
+    {
+      "offset": 8058,
+      "name": "_DdqCloseSession@4"
+    },
+    {
+      "offset": 8058,
+      "name": "__imp__DdqCloseSession@4"
+    },
+    {
+      "offset": 12264,
+      "name": "_DdqGetSessionAccessLevel@8"
+    },
+    {
+      "offset": 12264,
+      "name": "__imp__DdqGetSessionAccessLevel@8"
+    },
+    {
+      "offset": 9142,
+      "name": "_DdqGetDiagnosticDataAccessLevelAllowed@4"
+    },
+    {
+      "offset": 9142,
+      "name": "__imp__DdqGetDiagnosticDataAccessLevelAllowed@4"
+    },
+    {
+      "offset": 11290,
+      "name": "_DdqGetDiagnosticRecordStats@20"
+    },
+    {
+      "offset": 11290,
+      "name": "__imp__DdqGetDiagnosticRecordStats@20"
+    },
+    {
+      "offset": 10572,
+      "name": "_DdqGetDiagnosticRecordPayload@16"
+    },
+    {
+      "offset": 10572,
+      "name": "__imp__DdqGetDiagnosticRecordPayload@16"
+    },
+    {
+      "offset": 10294,
+      "name": "_DdqGetDiagnosticRecordLocaleTags@12"
+    },
+    {
+      "offset": 10294,
+      "name": "__imp__DdqGetDiagnosticRecordLocaleTags@12"
+    },
+    {
+      "offset": 8442,
+      "name": "_DdqFreeDiagnosticRecordLocaleTags@4"
+    },
+    {
+      "offset": 8442,
+      "name": "__imp__DdqFreeDiagnosticRecordLocaleTags@4"
+    },
+    {
+      "offset": 10002,
+      "name": "_DdqGetDiagnosticRecordLocaleTagAtIndex@12"
+    },
+    {
+      "offset": 10002,
+      "name": "__imp__DdqGetDiagnosticRecordLocaleTagAtIndex@12"
+    },
+    {
+      "offset": 10150,
+      "name": "_DdqGetDiagnosticRecordLocaleTagCount@8"
+    },
+    {
+      "offset": 10150,
+      "name": "__imp__DdqGetDiagnosticRecordLocaleTagCount@8"
+    },
+    {
+      "offset": 11150,
+      "name": "_DdqGetDiagnosticRecordProducers@8"
+    },
+    {
+      "offset": 11150,
+      "name": "__imp__DdqGetDiagnosticRecordProducers@8"
+    },
+    {
+      "offset": 8870,
+      "name": "_DdqFreeDiagnosticRecordProducers@4"
+    },
+    {
+      "offset": 8870,
+      "name": "__imp__DdqFreeDiagnosticRecordProducers@4"
+    },
+    {
+      "offset": 10710,
+      "name": "_DdqGetDiagnosticRecordProducerAtIndex@12"
+    },
+    {
+      "offset": 10710,
+      "name": "__imp__DdqGetDiagnosticRecordProducerAtIndex@12"
+    },
+    {
+      "offset": 11006,
+      "name": "_DdqGetDiagnosticRecordProducerCount@8"
+    },
+    {
+      "offset": 11006,
+      "name": "__imp__DdqGetDiagnosticRecordProducerCount@8"
+    },
+    {
+      "offset": 10856,
+      "name": "_DdqGetDiagnosticRecordProducerCategories@12"
+    },
+    {
+      "offset": 10856,
+      "name": "__imp__DdqGetDiagnosticRecordProducerCategories@12"
+    },
+    {
+      "offset": 8720,
+      "name": "_DdqFreeDiagnosticRecordProducerCategories@4"
+    },
+    {
+      "offset": 8720,
+      "name": "__imp__DdqFreeDiagnosticRecordProducerCategories@4"
+    },
+    {
+      "offset": 9576,
+      "name": "_DdqGetDiagnosticRecordCategoryAtIndex@12"
+    },
+    {
+      "offset": 9576,
+      "name": "__imp__DdqGetDiagnosticRecordCategoryAtIndex@12"
+    },
+    {
+      "offset": 9722,
+      "name": "_DdqGetDiagnosticRecordCategoryCount@8"
+    },
+    {
+      "offset": 9722,
+      "name": "__imp__DdqGetDiagnosticRecordCategoryCount@8"
+    },
+    {
+      "offset": 12534,
+      "name": "_DdqIsDiagnosticRecordSampledIn@36"
+    },
+    {
+      "offset": 12534,
+      "name": "__imp__DdqIsDiagnosticRecordSampledIn@36"
+    },
+    {
+      "offset": 10436,
+      "name": "_DdqGetDiagnosticRecordPage@28"
+    },
+    {
+      "offset": 10436,
+      "name": "__imp__DdqGetDiagnosticRecordPage@28"
+    },
+    {
+      "offset": 8584,
+      "name": "_DdqFreeDiagnosticRecordPage@4"
+    },
+    {
+      "offset": 8584,
+      "name": "__imp__DdqFreeDiagnosticRecordPage@4"
+    },
+    {
+      "offset": 9288,
+      "name": "_DdqGetDiagnosticRecordAtIndex@12"
+    },
+    {
+      "offset": 9288,
+      "name": "__imp__DdqGetDiagnosticRecordAtIndex@12"
+    },
+    {
+      "offset": 9866,
+      "name": "_DdqGetDiagnosticRecordCount@8"
+    },
+    {
+      "offset": 9866,
+      "name": "__imp__DdqGetDiagnosticRecordCount@8"
+    },
+    {
+      "offset": 12116,
+      "name": "_DdqGetDiagnosticReportStoreReportCount@12"
+    },
+    {
+      "offset": 12116,
+      "name": "__imp__DdqGetDiagnosticReportStoreReportCount@12"
+    },
+    {
+      "offset": 7916,
+      "name": "_DdqCancelDiagnosticRecordOperation@4"
+    },
+    {
+      "offset": 7916,
+      "name": "__imp__DdqCancelDiagnosticRecordOperation@4"
+    },
+    {
+      "offset": 11710,
+      "name": "_DdqGetDiagnosticReport@12"
+    },
+    {
+      "offset": 11710,
+      "name": "__imp__DdqGetDiagnosticReport@12"
+    },
+    {
+      "offset": 9010,
+      "name": "_DdqFreeDiagnosticReport@4"
+    },
+    {
+      "offset": 9010,
+      "name": "__imp__DdqFreeDiagnosticReport@4"
+    },
+    {
+      "offset": 11842,
+      "name": "_DdqGetDiagnosticReportAtIndex@12"
+    },
+    {
+      "offset": 11842,
+      "name": "__imp__DdqGetDiagnosticReportAtIndex@12"
+    },
+    {
+      "offset": 11980,
+      "name": "_DdqGetDiagnosticReportCount@8"
+    },
+    {
+      "offset": 11980,
+      "name": "__imp__DdqGetDiagnosticReportCount@8"
+    },
+    {
+      "offset": 8306,
+      "name": "_DdqExtractDiagnosticReport@16"
+    },
+    {
+      "offset": 8306,
+      "name": "__imp__DdqExtractDiagnosticReport@16"
+    },
+    {
+      "offset": 11564,
+      "name": "_DdqGetDiagnosticRecordTagDistribution@20"
+    },
+    {
+      "offset": 11564,
+      "name": "__imp__DdqGetDiagnosticRecordTagDistribution@20"
+    },
+    {
+      "offset": 9426,
+      "name": "_DdqGetDiagnosticRecordBinaryDistribution@24"
+    },
+    {
+      "offset": 9426,
+      "name": "__imp__DdqGetDiagnosticRecordBinaryDistribution@24"
+    },
+    {
+      "offset": 11426,
+      "name": "_DdqGetDiagnosticRecordSummary@16"
+    },
+    {
+      "offset": 11426,
+      "name": "__imp__DdqGetDiagnosticRecordSummary@16"
+    },
+    {
+      "offset": 12674,
+      "name": "_DdqSetTranscriptConfiguration@8"
+    },
+    {
+      "offset": 12674,
+      "name": "__imp__DdqSetTranscriptConfiguration@8"
+    },
+    {
+      "offset": 12396,
+      "name": "_DdqGetTranscriptConfiguration@8"
+    },
+    {
+      "offset": 12396,
+      "name": "__imp__DdqGetTranscriptConfiguration@8"
+    },
+    {
+      "offset": 12942,
+      "name": "_UtcSendTraceLogging@40"
+    },
+    {
+      "offset": 12942,
+      "name": "__imp__UtcSendTraceLogging@40"
+    },
+    {
+      "offset": 12812,
+      "name": "_UtcSendTraceLogging2@56"
+    },
+    {
+      "offset": 12812,
+      "name": "__imp__UtcSendTraceLogging2@56"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 7916,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3711863087,
+      "sizeOfData": 62,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqCancelDiagnosticRecordOperation@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "DdqCancelDiagnosticRecordOperation"
+    },
+    {
+      "offset": 8058,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3346264741,
+      "sizeOfData": 43,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqCloseSession@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "DdqCloseSession"
+    },
+    {
+      "offset": 8182,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3545872354,
+      "sizeOfData": 44,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqCreateSession@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "DdqCreateSession"
+    },
+    {
+      "offset": 8306,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3692001873,
+      "sizeOfData": 55,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqExtractDiagnosticReport@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "DdqExtractDiagnosticReport"
+    },
+    {
+      "offset": 8442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3886262206,
+      "sizeOfData": 61,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqFreeDiagnosticRecordLocaleTags@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "DdqFreeDiagnosticRecordLocaleTags"
+    },
+    {
+      "offset": 8584,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3800714744,
+      "sizeOfData": 55,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqFreeDiagnosticRecordPage@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "DdqFreeDiagnosticRecordPage"
+    },
+    {
+      "offset": 8720,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3535026576,
+      "sizeOfData": 69,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqFreeDiagnosticRecordProducerCategories@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "DdqFreeDiagnosticRecordProducerCategories"
+    },
+    {
+      "offset": 8870,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3284798188,
+      "sizeOfData": 60,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqFreeDiagnosticRecordProducers@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "DdqFreeDiagnosticRecordProducers"
+    },
+    {
+      "offset": 9010,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3976165227,
+      "sizeOfData": 51,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqFreeDiagnosticReport@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "DdqFreeDiagnosticReport"
+    },
+    {
+      "offset": 9142,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3427395763,
+      "sizeOfData": 66,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticDataAccessLevelAllowed@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "DdqGetDiagnosticDataAccessLevelAllowed"
+    },
+    {
+      "offset": 9288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3225593556,
+      "sizeOfData": 58,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordAtIndex@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "DdqGetDiagnosticRecordAtIndex"
+    },
+    {
+      "offset": 9426,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3440290834,
+      "sizeOfData": 69,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordBinaryDistribution@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "DdqGetDiagnosticRecordBinaryDistribution"
+    },
+    {
+      "offset": 9576,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3485208445,
+      "sizeOfData": 66,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordCategoryAtIndex@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "DdqGetDiagnosticRecordCategoryAtIndex"
+    },
+    {
+      "offset": 9722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4188092886,
+      "sizeOfData": 63,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordCategoryCount@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "DdqGetDiagnosticRecordCategoryCount"
+    },
+    {
+      "offset": 9866,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4252720178,
+      "sizeOfData": 55,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordCount@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "DdqGetDiagnosticRecordCount"
+    },
+    {
+      "offset": 10002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3801985666,
+      "sizeOfData": 67,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordLocaleTagAtIndex@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "DdqGetDiagnosticRecordLocaleTagAtIndex"
+    },
+    {
+      "offset": 10150,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3583096300,
+      "sizeOfData": 64,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordLocaleTagCount@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "DdqGetDiagnosticRecordLocaleTagCount"
+    },
+    {
+      "offset": 10294,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4047286146,
+      "sizeOfData": 61,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordLocaleTags@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "DdqGetDiagnosticRecordLocaleTags"
+    },
+    {
+      "offset": 10436,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3802084713,
+      "sizeOfData": 55,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordPage@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "DdqGetDiagnosticRecordPage"
+    },
+    {
+      "offset": 10572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3838718401,
+      "sizeOfData": 58,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordPayload@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "DdqGetDiagnosticRecordPayload"
+    },
+    {
+      "offset": 10710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3700220645,
+      "sizeOfData": 66,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordProducerAtIndex@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "DdqGetDiagnosticRecordProducerAtIndex"
+    },
+    {
+      "offset": 10856,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3340036402,
+      "sizeOfData": 69,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordProducerCategories@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "DdqGetDiagnosticRecordProducerCategories"
+    },
+    {
+      "offset": 11006,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3321085365,
+      "sizeOfData": 63,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordProducerCount@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "DdqGetDiagnosticRecordProducerCount"
+    },
+    {
+      "offset": 11150,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3596492836,
+      "sizeOfData": 59,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordProducers@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "DdqGetDiagnosticRecordProducers"
+    },
+    {
+      "offset": 11290,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4219664858,
+      "sizeOfData": 56,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordStats@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "DdqGetDiagnosticRecordStats"
+    },
+    {
+      "offset": 11426,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3448245089,
+      "sizeOfData": 58,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordSummary@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "DdqGetDiagnosticRecordSummary"
+    },
+    {
+      "offset": 11564,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3493251940,
+      "sizeOfData": 66,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticRecordTagDistribution@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "DdqGetDiagnosticRecordTagDistribution"
+    },
+    {
+      "offset": 11710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4137253480,
+      "sizeOfData": 51,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticReport@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "DdqGetDiagnosticReport"
+    },
+    {
+      "offset": 11842,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3993721560,
+      "sizeOfData": 58,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticReportAtIndex@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "DdqGetDiagnosticReportAtIndex"
+    },
+    {
+      "offset": 11980,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3720786951,
+      "sizeOfData": 55,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticReportCount@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "DdqGetDiagnosticReportCount"
+    },
+    {
+      "offset": 12116,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3865739502,
+      "sizeOfData": 67,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetDiagnosticReportStoreReportCount@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "DdqGetDiagnosticReportStoreReportCount"
+    },
+    {
+      "offset": 12264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3988164865,
+      "sizeOfData": 52,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetSessionAccessLevel@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "DdqGetSessionAccessLevel"
+    },
+    {
+      "offset": 12396,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3542994978,
+      "sizeOfData": 57,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqGetTranscriptConfiguration@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "DdqGetTranscriptConfiguration"
+    },
+    {
+      "offset": 12534,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3503369349,
+      "sizeOfData": 59,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqIsDiagnosticRecordSampledIn@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "DdqIsDiagnosticRecordSampledIn"
+    },
+    {
+      "offset": 12674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3881196043,
+      "sizeOfData": 57,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_DdqSetTranscriptConfiguration@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "DdqSetTranscriptConfiguration"
+    },
+    {
+      "offset": 12812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4138943454,
+      "sizeOfData": 49,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_UtcSendTraceLogging2@56",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "UtcSendTraceLogging2"
+    },
+    {
+      "offset": 12942,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4114202708,
+      "sizeOfData": 48,
+      "dllName": "DiagnosticDataQuery.dll",
+      "symbolName": "_UtcSendTraceLogging@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "UtcSendTraceLogging"
+    }
+  ]
+}

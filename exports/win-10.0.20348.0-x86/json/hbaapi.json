@@ -1,0 +1,2253 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_HBA_CloseAdapter"
+    },
+    {
+      "name": "_HBA_FreeLibrary"
+    },
+    {
+      "name": "_HBA_GetAdapterAttributes"
+    },
+    {
+      "name": "_HBA_GetAdapterName"
+    },
+    {
+      "name": "_HBA_GetAdapterPortAttributes"
+    },
+    {
+      "name": "_HBA_GetBindingCapability"
+    },
+    {
+      "name": "_HBA_GetBindingSupport"
+    },
+    {
+      "name": "_HBA_GetDiscoveredPortAttributes"
+    },
+    {
+      "name": "_HBA_GetEventBuffer"
+    },
+    {
+      "name": "_HBA_GetFC4Statistics"
+    },
+    {
+      "name": "_HBA_GetFCPStatistics"
+    },
+    {
+      "name": "_HBA_GetFcpPersistentBinding"
+    },
+    {
+      "name": "_HBA_GetFcpTargetMapping"
+    },
+    {
+      "name": "_HBA_GetFcpTargetMappingV2"
+    },
+    {
+      "name": "_HBA_GetNumberOfAdapters"
+    },
+    {
+      "name": "_HBA_GetPersistentBindingV2"
+    },
+    {
+      "name": "_HBA_GetPortAttributesByWWN"
+    },
+    {
+      "name": "_HBA_GetPortStatistics"
+    },
+    {
+      "name": "_HBA_GetRNIDMgmtInfo"
+    },
+    {
+      "name": "_HBA_GetVendorLibraryAttributes"
+    },
+    {
+      "name": "_HBA_GetVersion"
+    },
+    {
+      "name": "_HBA_GetWrapperLibraryAttributes"
+    },
+    {
+      "name": "_HBA_LoadLibrary"
+    },
+    {
+      "name": "_HBA_OpenAdapter"
+    },
+    {
+      "name": "_HBA_OpenAdapterByWWN"
+    },
+    {
+      "name": "_HBA_RefreshAdapterConfiguration"
+    },
+    {
+      "name": "_HBA_RefreshInformation"
+    },
+    {
+      "name": "_HBA_RegisterForAdapterAddEvents"
+    },
+    {
+      "name": "_HBA_RegisterForAdapterEvents"
+    },
+    {
+      "name": "_HBA_RegisterForAdapterPortEvents"
+    },
+    {
+      "name": "_HBA_RegisterForAdapterPortStatEvents"
+    },
+    {
+      "name": "_HBA_RegisterForLinkEvents"
+    },
+    {
+      "name": "_HBA_RegisterForTargetEvents"
+    },
+    {
+      "name": "_HBA_RegisterLibrary"
+    },
+    {
+      "name": "_HBA_RegisterLibraryV2"
+    },
+    {
+      "name": "_HBA_RemoveAllPersistentBindings"
+    },
+    {
+      "name": "_HBA_RemoveCallback"
+    },
+    {
+      "name": "_HBA_RemovePersistentBinding"
+    },
+    {
+      "name": "_HBA_ResetStatistics"
+    },
+    {
+      "name": "_HBA_ScsiInquiryV2"
+    },
+    {
+      "name": "_HBA_ScsiReadCapacityV2"
+    },
+    {
+      "name": "_HBA_ScsiReportLUNsV2"
+    },
+    {
+      "name": "_HBA_SendCTPassThru"
+    },
+    {
+      "name": "_HBA_SendCTPassThruV2"
+    },
+    {
+      "name": "_HBA_SendLIRR"
+    },
+    {
+      "name": "_HBA_SendRLS"
+    },
+    {
+      "name": "_HBA_SendRNID"
+    },
+    {
+      "name": "_HBA_SendRNIDV2"
+    },
+    {
+      "name": "_HBA_SendRPL"
+    },
+    {
+      "name": "_HBA_SendRPS"
+    },
+    {
+      "name": "_HBA_SendReadCapacity"
+    },
+    {
+      "name": "_HBA_SendReportLUNs"
+    },
+    {
+      "name": "_HBA_SendSRL"
+    },
+    {
+      "name": "_HBA_SendScsiInquiry"
+    },
+    {
+      "name": "_HBA_SetBindingSupport"
+    },
+    {
+      "name": "_HBA_SetPersistentBindingV2"
+    },
+    {
+      "name": "_HBA_SetRNIDMgmtInfo"
+    },
+    {
+      "name": "_HbaGetAdapterNameByDeviceInstanceId@8"
+    },
+    {
+      "name": "_SMHBA_GetAdapterAttributes"
+    },
+    {
+      "name": "_SMHBA_GetAdapterPortAttributes"
+    },
+    {
+      "name": "_SMHBA_GetBindingCapability"
+    },
+    {
+      "name": "_SMHBA_GetBindingSupport"
+    },
+    {
+      "name": "_SMHBA_GetDiscoveredPortAttributes"
+    },
+    {
+      "name": "_SMHBA_GetFCPhyAttributes"
+    },
+    {
+      "name": "_SMHBA_GetLUNStatistics"
+    },
+    {
+      "name": "_SMHBA_GetNumberOfPorts"
+    },
+    {
+      "name": "_SMHBA_GetPersistentBinding"
+    },
+    {
+      "name": "_SMHBA_GetPhyStatistics"
+    },
+    {
+      "name": "_SMHBA_GetPortAttributesByWWN"
+    },
+    {
+      "name": "_SMHBA_GetPortType"
+    },
+    {
+      "name": "_SMHBA_GetProtocolStatistics"
+    },
+    {
+      "name": "_SMHBA_GetSASPhyAttributes"
+    },
+    {
+      "name": "_SMHBA_GetTargetMapping"
+    },
+    {
+      "name": "_SMHBA_GetVendorLibraryAttributes"
+    },
+    {
+      "name": "_SMHBA_GetVersion"
+    },
+    {
+      "name": "_SMHBA_GetWrapperLibraryAttributes"
+    },
+    {
+      "name": "_SMHBA_RegisterForAdapterAddEvents"
+    },
+    {
+      "name": "_SMHBA_RegisterForAdapterEvents"
+    },
+    {
+      "name": "_SMHBA_RegisterForAdapterPhyStatEvents"
+    },
+    {
+      "name": "_SMHBA_RegisterForAdapterPortEvents"
+    },
+    {
+      "name": "_SMHBA_RegisterForAdapterPortStatEvents"
+    },
+    {
+      "name": "_SMHBA_RegisterForTargetEvents"
+    },
+    {
+      "name": "_SMHBA_RegisterLibrary"
+    },
+    {
+      "name": "_SMHBA_RemoveAllPersistentBindings"
+    },
+    {
+      "name": "_SMHBA_RemovePersistentBinding"
+    },
+    {
+      "name": "_SMHBA_ScsiInquiry"
+    },
+    {
+      "name": "_SMHBA_ScsiReadCapacity"
+    },
+    {
+      "name": "_SMHBA_ScsiReportLuns"
+    },
+    {
+      "name": "_SMHBA_SendECHO"
+    },
+    {
+      "name": "_SMHBA_SendSMPPassThru"
+    },
+    {
+      "name": "_SMHBA_SendTEST"
+    },
+    {
+      "name": "_SMHBA_SetBindingSupport"
+    },
+    {
+      "name": "_SMHBA_SetPersistentBinding"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 12274,
+      "name": "__IMPORT_DESCRIPTOR_HBAAPI"
+    },
+    {
+      "offset": 12824,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 13134,
+      "name": "HBAAPI_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 17338,
+      "name": "_HBA_RegisterLibrary"
+    },
+    {
+      "offset": 17338,
+      "name": "__imp__HBA_RegisterLibrary"
+    },
+    {
+      "offset": 15796,
+      "name": "_HBA_GetVersion"
+    },
+    {
+      "offset": 15796,
+      "name": "__imp__HBA_GetVersion"
+    },
+    {
+      "offset": 16028,
+      "name": "_HBA_LoadLibrary"
+    },
+    {
+      "offset": 16028,
+      "name": "__imp__HBA_LoadLibrary"
+    },
+    {
+      "offset": 13580,
+      "name": "_HBA_FreeLibrary"
+    },
+    {
+      "offset": 13580,
+      "name": "__imp__HBA_FreeLibrary"
+    },
+    {
+      "offset": 15090,
+      "name": "_HBA_GetNumberOfAdapters"
+    },
+    {
+      "offset": 15090,
+      "name": "__imp__HBA_GetNumberOfAdapters"
+    },
+    {
+      "offset": 13806,
+      "name": "_HBA_GetAdapterName"
+    },
+    {
+      "offset": 13806,
+      "name": "__imp__HBA_GetAdapterName"
+    },
+    {
+      "offset": 16136,
+      "name": "_HBA_OpenAdapter"
+    },
+    {
+      "offset": 16136,
+      "name": "__imp__HBA_OpenAdapter"
+    },
+    {
+      "offset": 13470,
+      "name": "_HBA_CloseAdapter"
+    },
+    {
+      "offset": 13470,
+      "name": "__imp__HBA_CloseAdapter"
+    },
+    {
+      "offset": 13688,
+      "name": "_HBA_GetAdapterAttributes"
+    },
+    {
+      "offset": 13688,
+      "name": "__imp__HBA_GetAdapterAttributes"
+    },
+    {
+      "offset": 13918,
+      "name": "_HBA_GetAdapterPortAttributes"
+    },
+    {
+      "offset": 13918,
+      "name": "__imp__HBA_GetAdapterPortAttributes"
+    },
+    {
+      "offset": 15446,
+      "name": "_HBA_GetPortStatistics"
+    },
+    {
+      "offset": 15446,
+      "name": "__imp__HBA_GetPortStatistics"
+    },
+    {
+      "offset": 14272,
+      "name": "_HBA_GetDiscoveredPortAttributes"
+    },
+    {
+      "offset": 14272,
+      "name": "__imp__HBA_GetDiscoveredPortAttributes"
+    },
+    {
+      "offset": 15326,
+      "name": "_HBA_GetPortAttributesByWWN"
+    },
+    {
+      "offset": 15326,
+      "name": "__imp__HBA_GetPortAttributesByWWN"
+    },
+    {
+      "offset": 18372,
+      "name": "_HBA_SendCTPassThru"
+    },
+    {
+      "offset": 18372,
+      "name": "__imp__HBA_SendCTPassThru"
+    },
+    {
+      "offset": 14396,
+      "name": "_HBA_GetEventBuffer"
+    },
+    {
+      "offset": 14396,
+      "name": "__imp__HBA_GetEventBuffer"
+    },
+    {
+      "offset": 19906,
+      "name": "_HBA_SetRNIDMgmtInfo"
+    },
+    {
+      "offset": 19906,
+      "name": "__imp__HBA_SetRNIDMgmtInfo"
+    },
+    {
+      "offset": 15560,
+      "name": "_HBA_GetRNIDMgmtInfo"
+    },
+    {
+      "offset": 15560,
+      "name": "__imp__HBA_GetRNIDMgmtInfo"
+    },
+    {
+      "offset": 18808,
+      "name": "_HBA_SendRNID"
+    },
+    {
+      "offset": 18808,
+      "name": "__imp__HBA_SendRNID"
+    },
+    {
+      "offset": 14856,
+      "name": "_HBA_GetFcpTargetMapping"
+    },
+    {
+      "offset": 14856,
+      "name": "__imp__HBA_GetFcpTargetMapping"
+    },
+    {
+      "offset": 14736,
+      "name": "_HBA_GetFcpPersistentBinding"
+    },
+    {
+      "offset": 14736,
+      "name": "__imp__HBA_GetFcpPersistentBinding"
+    },
+    {
+      "offset": 19560,
+      "name": "_HBA_SendScsiInquiry"
+    },
+    {
+      "offset": 19560,
+      "name": "__imp__HBA_SendScsiInquiry"
+    },
+    {
+      "offset": 19344,
+      "name": "_HBA_SendReportLUNs"
+    },
+    {
+      "offset": 19344,
+      "name": "__imp__HBA_SendReportLUNs"
+    },
+    {
+      "offset": 19230,
+      "name": "_HBA_SendReadCapacity"
+    },
+    {
+      "offset": 19230,
+      "name": "__imp__HBA_SendReadCapacity"
+    },
+    {
+      "offset": 16482,
+      "name": "_HBA_RefreshInformation"
+    },
+    {
+      "offset": 16482,
+      "name": "__imp__HBA_RefreshInformation"
+    },
+    {
+      "offset": 17920,
+      "name": "_HBA_ResetStatistics"
+    },
+    {
+      "offset": 17920,
+      "name": "__imp__HBA_ResetStatistics"
+    },
+    {
+      "offset": 17450,
+      "name": "_HBA_RegisterLibraryV2"
+    },
+    {
+      "offset": 17450,
+      "name": "__imp__HBA_RegisterLibraryV2"
+    },
+    {
+      "offset": 17688,
+      "name": "_HBA_RemoveCallback"
+    },
+    {
+      "offset": 17688,
+      "name": "__imp__HBA_RemoveCallback"
+    },
+    {
+      "offset": 16598,
+      "name": "_HBA_RegisterForAdapterAddEvents"
+    },
+    {
+      "offset": 16598,
+      "name": "__imp__HBA_RegisterForAdapterAddEvents"
+    },
+    {
+      "offset": 16722,
+      "name": "_HBA_RegisterForAdapterEvents"
+    },
+    {
+      "offset": 16722,
+      "name": "__imp__HBA_RegisterForAdapterEvents"
+    },
+    {
+      "offset": 16844,
+      "name": "_HBA_RegisterForAdapterPortEvents"
+    },
+    {
+      "offset": 16844,
+      "name": "__imp__HBA_RegisterForAdapterPortEvents"
+    },
+    {
+      "offset": 16970,
+      "name": "_HBA_RegisterForAdapterPortStatEvents"
+    },
+    {
+      "offset": 16970,
+      "name": "__imp__HBA_RegisterForAdapterPortStatEvents"
+    },
+    {
+      "offset": 17218,
+      "name": "_HBA_RegisterForTargetEvents"
+    },
+    {
+      "offset": 17218,
+      "name": "__imp__HBA_RegisterForTargetEvents"
+    },
+    {
+      "offset": 17100,
+      "name": "_HBA_RegisterForLinkEvents"
+    },
+    {
+      "offset": 17100,
+      "name": "__imp__HBA_RegisterForLinkEvents"
+    },
+    {
+      "offset": 16244,
+      "name": "_HBA_OpenAdapterByWWN"
+    },
+    {
+      "offset": 16244,
+      "name": "__imp__HBA_OpenAdapterByWWN"
+    },
+    {
+      "offset": 16358,
+      "name": "_HBA_RefreshAdapterConfiguration"
+    },
+    {
+      "offset": 16358,
+      "name": "__imp__HBA_RefreshAdapterConfiguration"
+    },
+    {
+      "offset": 18484,
+      "name": "_HBA_SendCTPassThruV2"
+    },
+    {
+      "offset": 18484,
+      "name": "__imp__HBA_SendCTPassThruV2"
+    },
+    {
+      "offset": 18914,
+      "name": "_HBA_SendRNIDV2"
+    },
+    {
+      "offset": 18914,
+      "name": "__imp__HBA_SendRNIDV2"
+    },
+    {
+      "offset": 19022,
+      "name": "_HBA_SendRPL"
+    },
+    {
+      "offset": 19022,
+      "name": "__imp__HBA_SendRPL"
+    },
+    {
+      "offset": 19126,
+      "name": "_HBA_SendRPS"
+    },
+    {
+      "offset": 19126,
+      "name": "__imp__HBA_SendRPS"
+    },
+    {
+      "offset": 19456,
+      "name": "_HBA_SendSRL"
+    },
+    {
+      "offset": 19456,
+      "name": "__imp__HBA_SendSRL"
+    },
+    {
+      "offset": 18598,
+      "name": "_HBA_SendLIRR"
+    },
+    {
+      "offset": 18598,
+      "name": "__imp__HBA_SendLIRR"
+    },
+    {
+      "offset": 18704,
+      "name": "_HBA_SendRLS"
+    },
+    {
+      "offset": 18704,
+      "name": "__imp__HBA_SendRLS"
+    },
+    {
+      "offset": 14508,
+      "name": "_HBA_GetFC4Statistics"
+    },
+    {
+      "offset": 14508,
+      "name": "__imp__HBA_GetFC4Statistics"
+    },
+    {
+      "offset": 14622,
+      "name": "_HBA_GetFCPStatistics"
+    },
+    {
+      "offset": 14622,
+      "name": "__imp__HBA_GetFCPStatistics"
+    },
+    {
+      "offset": 15904,
+      "name": "_HBA_GetWrapperLibraryAttributes"
+    },
+    {
+      "offset": 15904,
+      "name": "__imp__HBA_GetWrapperLibraryAttributes"
+    },
+    {
+      "offset": 15672,
+      "name": "_HBA_GetVendorLibraryAttributes"
+    },
+    {
+      "offset": 15672,
+      "name": "__imp__HBA_GetVendorLibraryAttributes"
+    },
+    {
+      "offset": 18032,
+      "name": "_HBA_ScsiInquiryV2"
+    },
+    {
+      "offset": 18032,
+      "name": "__imp__HBA_ScsiInquiryV2"
+    },
+    {
+      "offset": 18258,
+      "name": "_HBA_ScsiReportLUNsV2"
+    },
+    {
+      "offset": 18258,
+      "name": "__imp__HBA_ScsiReportLUNsV2"
+    },
+    {
+      "offset": 18142,
+      "name": "_HBA_ScsiReadCapacityV2"
+    },
+    {
+      "offset": 18142,
+      "name": "__imp__HBA_ScsiReadCapacityV2"
+    },
+    {
+      "offset": 14972,
+      "name": "_HBA_GetFcpTargetMappingV2"
+    },
+    {
+      "offset": 14972,
+      "name": "__imp__HBA_GetFcpTargetMappingV2"
+    },
+    {
+      "offset": 14040,
+      "name": "_HBA_GetBindingCapability"
+    },
+    {
+      "offset": 14040,
+      "name": "__imp__HBA_GetBindingCapability"
+    },
+    {
+      "offset": 14158,
+      "name": "_HBA_GetBindingSupport"
+    },
+    {
+      "offset": 14158,
+      "name": "__imp__HBA_GetBindingSupport"
+    },
+    {
+      "offset": 19672,
+      "name": "_HBA_SetBindingSupport"
+    },
+    {
+      "offset": 19672,
+      "name": "__imp__HBA_SetBindingSupport"
+    },
+    {
+      "offset": 15206,
+      "name": "_HBA_GetPersistentBindingV2"
+    },
+    {
+      "offset": 15206,
+      "name": "__imp__HBA_GetPersistentBindingV2"
+    },
+    {
+      "offset": 19786,
+      "name": "_HBA_SetPersistentBindingV2"
+    },
+    {
+      "offset": 19786,
+      "name": "__imp__HBA_SetPersistentBindingV2"
+    },
+    {
+      "offset": 17800,
+      "name": "_HBA_RemovePersistentBinding"
+    },
+    {
+      "offset": 17800,
+      "name": "__imp__HBA_RemovePersistentBinding"
+    },
+    {
+      "offset": 17564,
+      "name": "_HBA_RemoveAllPersistentBindings"
+    },
+    {
+      "offset": 17564,
+      "name": "__imp__HBA_RemoveAllPersistentBindings"
+    },
+    {
+      "offset": 22052,
+      "name": "_SMHBA_GetVersion"
+    },
+    {
+      "offset": 22052,
+      "name": "__imp__SMHBA_GetVersion"
+    },
+    {
+      "offset": 23050,
+      "name": "_SMHBA_RegisterLibrary"
+    },
+    {
+      "offset": 23050,
+      "name": "__imp__SMHBA_RegisterLibrary"
+    },
+    {
+      "offset": 22162,
+      "name": "_SMHBA_GetWrapperLibraryAttributes"
+    },
+    {
+      "offset": 22162,
+      "name": "__imp__SMHBA_GetWrapperLibraryAttributes"
+    },
+    {
+      "offset": 21926,
+      "name": "_SMHBA_GetVendorLibraryAttributes"
+    },
+    {
+      "offset": 21926,
+      "name": "__imp__SMHBA_GetVendorLibraryAttributes"
+    },
+    {
+      "offset": 21572,
+      "name": "_SMHBA_GetProtocolStatistics"
+    },
+    {
+      "offset": 21572,
+      "name": "__imp__SMHBA_GetProtocolStatistics"
+    },
+    {
+      "offset": 20988,
+      "name": "_SMHBA_GetNumberOfPorts"
+    },
+    {
+      "offset": 20988,
+      "name": "__imp__SMHBA_GetNumberOfPorts"
+    },
+    {
+      "offset": 20148,
+      "name": "_SMHBA_GetAdapterAttributes"
+    },
+    {
+      "offset": 20148,
+      "name": "__imp__SMHBA_GetAdapterAttributes"
+    },
+    {
+      "offset": 21224,
+      "name": "_SMHBA_GetPhyStatistics"
+    },
+    {
+      "offset": 21224,
+      "name": "__imp__SMHBA_GetPhyStatistics"
+    },
+    {
+      "offset": 20628,
+      "name": "_SMHBA_GetDiscoveredPortAttributes"
+    },
+    {
+      "offset": 20628,
+      "name": "__imp__SMHBA_GetDiscoveredPortAttributes"
+    },
+    {
+      "offset": 21340,
+      "name": "_SMHBA_GetPortAttributesByWWN"
+    },
+    {
+      "offset": 21340,
+      "name": "__imp__SMHBA_GetPortAttributesByWWN"
+    },
+    {
+      "offset": 21462,
+      "name": "_SMHBA_GetPortType"
+    },
+    {
+      "offset": 21462,
+      "name": "__imp__SMHBA_GetPortType"
+    },
+    {
+      "offset": 20268,
+      "name": "_SMHBA_GetAdapterPortAttributes"
+    },
+    {
+      "offset": 20268,
+      "name": "__imp__SMHBA_GetAdapterPortAttributes"
+    },
+    {
+      "offset": 20754,
+      "name": "_SMHBA_GetFCPhyAttributes"
+    },
+    {
+      "offset": 20754,
+      "name": "__imp__SMHBA_GetFCPhyAttributes"
+    },
+    {
+      "offset": 21692,
+      "name": "_SMHBA_GetSASPhyAttributes"
+    },
+    {
+      "offset": 21692,
+      "name": "__imp__SMHBA_GetSASPhyAttributes"
+    },
+    {
+      "offset": 20872,
+      "name": "_SMHBA_GetLUNStatistics"
+    },
+    {
+      "offset": 20872,
+      "name": "__imp__SMHBA_GetLUNStatistics"
+    },
+    {
+      "offset": 21810,
+      "name": "_SMHBA_GetTargetMapping"
+    },
+    {
+      "offset": 21810,
+      "name": "__imp__SMHBA_GetTargetMapping"
+    },
+    {
+      "offset": 20392,
+      "name": "_SMHBA_GetBindingCapability"
+    },
+    {
+      "offset": 20392,
+      "name": "__imp__SMHBA_GetBindingCapability"
+    },
+    {
+      "offset": 20512,
+      "name": "_SMHBA_GetBindingSupport"
+    },
+    {
+      "offset": 20512,
+      "name": "__imp__SMHBA_GetBindingSupport"
+    },
+    {
+      "offset": 24082,
+      "name": "_SMHBA_SetBindingSupport"
+    },
+    {
+      "offset": 24082,
+      "name": "__imp__SMHBA_SetBindingSupport"
+    },
+    {
+      "offset": 21104,
+      "name": "_SMHBA_GetPersistentBinding"
+    },
+    {
+      "offset": 21104,
+      "name": "__imp__SMHBA_GetPersistentBinding"
+    },
+    {
+      "offset": 24198,
+      "name": "_SMHBA_SetPersistentBinding"
+    },
+    {
+      "offset": 24198,
+      "name": "__imp__SMHBA_SetPersistentBinding"
+    },
+    {
+      "offset": 23290,
+      "name": "_SMHBA_RemovePersistentBinding"
+    },
+    {
+      "offset": 23290,
+      "name": "__imp__SMHBA_RemovePersistentBinding"
+    },
+    {
+      "offset": 23164,
+      "name": "_SMHBA_RemoveAllPersistentBindings"
+    },
+    {
+      "offset": 23164,
+      "name": "__imp__SMHBA_RemoveAllPersistentBindings"
+    },
+    {
+      "offset": 23412,
+      "name": "_SMHBA_ScsiInquiry"
+    },
+    {
+      "offset": 23412,
+      "name": "__imp__SMHBA_ScsiInquiry"
+    },
+    {
+      "offset": 23638,
+      "name": "_SMHBA_ScsiReportLuns"
+    },
+    {
+      "offset": 23638,
+      "name": "__imp__SMHBA_ScsiReportLuns"
+    },
+    {
+      "offset": 23522,
+      "name": "_SMHBA_ScsiReadCapacity"
+    },
+    {
+      "offset": 23522,
+      "name": "__imp__SMHBA_ScsiReadCapacity"
+    },
+    {
+      "offset": 23974,
+      "name": "_SMHBA_SendTEST"
+    },
+    {
+      "offset": 23974,
+      "name": "__imp__SMHBA_SendTEST"
+    },
+    {
+      "offset": 23752,
+      "name": "_SMHBA_SendECHO"
+    },
+    {
+      "offset": 23752,
+      "name": "__imp__SMHBA_SendECHO"
+    },
+    {
+      "offset": 23860,
+      "name": "_SMHBA_SendSMPPassThru"
+    },
+    {
+      "offset": 23860,
+      "name": "__imp__SMHBA_SendSMPPassThru"
+    },
+    {
+      "offset": 22288,
+      "name": "_SMHBA_RegisterForAdapterAddEvents"
+    },
+    {
+      "offset": 22288,
+      "name": "__imp__SMHBA_RegisterForAdapterAddEvents"
+    },
+    {
+      "offset": 22414,
+      "name": "_SMHBA_RegisterForAdapterEvents"
+    },
+    {
+      "offset": 22414,
+      "name": "__imp__SMHBA_RegisterForAdapterEvents"
+    },
+    {
+      "offset": 22668,
+      "name": "_SMHBA_RegisterForAdapterPortEvents"
+    },
+    {
+      "offset": 22668,
+      "name": "__imp__SMHBA_RegisterForAdapterPortEvents"
+    },
+    {
+      "offset": 22796,
+      "name": "_SMHBA_RegisterForAdapterPortStatEvents"
+    },
+    {
+      "offset": 22796,
+      "name": "__imp__SMHBA_RegisterForAdapterPortStatEvents"
+    },
+    {
+      "offset": 22538,
+      "name": "_SMHBA_RegisterForAdapterPhyStatEvents"
+    },
+    {
+      "offset": 22538,
+      "name": "__imp__SMHBA_RegisterForAdapterPhyStatEvents"
+    },
+    {
+      "offset": 22928,
+      "name": "_SMHBA_RegisterForTargetEvents"
+    },
+    {
+      "offset": 22928,
+      "name": "__imp__SMHBA_RegisterForTargetEvents"
+    },
+    {
+      "offset": 20018,
+      "name": "_HbaGetAdapterNameByDeviceInstanceId@8"
+    },
+    {
+      "offset": 20018,
+      "name": "__imp__HbaGetAdapterNameByDeviceInstanceId@8"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 13470,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3228235266,
+      "sizeOfData": 29,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_CloseAdapter",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 0,
+      "name": "HBA_CloseAdapter"
+    },
+    {
+      "offset": 13580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3565131131,
+      "sizeOfData": 28,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_FreeLibrary",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 1,
+      "name": "HBA_FreeLibrary"
+    },
+    {
+      "offset": 13688,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3533606404,
+      "sizeOfData": 37,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetAdapterAttributes",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 2,
+      "name": "HBA_GetAdapterAttributes"
+    },
+    {
+      "offset": 13806,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4089688205,
+      "sizeOfData": 31,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetAdapterName",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 3,
+      "name": "HBA_GetAdapterName"
+    },
+    {
+      "offset": 13918,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3749983049,
+      "sizeOfData": 41,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetAdapterPortAttributes",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 4,
+      "name": "HBA_GetAdapterPortAttributes"
+    },
+    {
+      "offset": 14040,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4105713213,
+      "sizeOfData": 37,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetBindingCapability",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 5,
+      "name": "HBA_GetBindingCapability"
+    },
+    {
+      "offset": 14158,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3862204163,
+      "sizeOfData": 34,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetBindingSupport",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 6,
+      "name": "HBA_GetBindingSupport"
+    },
+    {
+      "offset": 14272,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3802501857,
+      "sizeOfData": 44,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetDiscoveredPortAttributes",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 7,
+      "name": "HBA_GetDiscoveredPortAttributes"
+    },
+    {
+      "offset": 14396,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3649627727,
+      "sizeOfData": 31,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetEventBuffer",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 8,
+      "name": "HBA_GetEventBuffer"
+    },
+    {
+      "offset": 14508,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3319286952,
+      "sizeOfData": 33,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetFC4Statistics",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 9,
+      "name": "HBA_GetFC4Statistics"
+    },
+    {
+      "offset": 14622,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3498145097,
+      "sizeOfData": 33,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetFCPStatistics",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 10,
+      "name": "HBA_GetFCPStatistics"
+    },
+    {
+      "offset": 14736,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3791250448,
+      "sizeOfData": 40,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetFcpPersistentBinding",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 11,
+      "name": "HBA_GetFcpPersistentBinding"
+    },
+    {
+      "offset": 14856,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3368540533,
+      "sizeOfData": 36,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetFcpTargetMapping",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 12,
+      "name": "HBA_GetFcpTargetMapping"
+    },
+    {
+      "offset": 14972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3430933373,
+      "sizeOfData": 38,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetFcpTargetMappingV2",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 13,
+      "name": "HBA_GetFcpTargetMappingV2"
+    },
+    {
+      "offset": 15090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3255475873,
+      "sizeOfData": 36,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetNumberOfAdapters",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 14,
+      "name": "HBA_GetNumberOfAdapters"
+    },
+    {
+      "offset": 15206,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3611875357,
+      "sizeOfData": 39,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetPersistentBindingV2",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 15,
+      "name": "HBA_GetPersistentBindingV2"
+    },
+    {
+      "offset": 15326,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3426396028,
+      "sizeOfData": 39,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetPortAttributesByWWN",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 16,
+      "name": "HBA_GetPortAttributesByWWN"
+    },
+    {
+      "offset": 15446,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4003548406,
+      "sizeOfData": 34,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetPortStatistics",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 17,
+      "name": "HBA_GetPortStatistics"
+    },
+    {
+      "offset": 15560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3569440578,
+      "sizeOfData": 32,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetRNIDMgmtInfo",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 18,
+      "name": "HBA_GetRNIDMgmtInfo"
+    },
+    {
+      "offset": 15672,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4116441425,
+      "sizeOfData": 43,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetVendorLibraryAttributes",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 19,
+      "name": "HBA_GetVendorLibraryAttributes"
+    },
+    {
+      "offset": 15796,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4043179451,
+      "sizeOfData": 27,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetVersion",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 20,
+      "name": "HBA_GetVersion"
+    },
+    {
+      "offset": 15904,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3609538610,
+      "sizeOfData": 44,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_GetWrapperLibraryAttributes",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 21,
+      "name": "HBA_GetWrapperLibraryAttributes"
+    },
+    {
+      "offset": 16028,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4089546445,
+      "sizeOfData": 28,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_LoadLibrary",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 22,
+      "name": "HBA_LoadLibrary"
+    },
+    {
+      "offset": 16136,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4136425506,
+      "sizeOfData": 28,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_OpenAdapter",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 23,
+      "name": "HBA_OpenAdapter"
+    },
+    {
+      "offset": 16244,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3886511428,
+      "sizeOfData": 33,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_OpenAdapterByWWN",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 24,
+      "name": "HBA_OpenAdapterByWWN"
+    },
+    {
+      "offset": 16358,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4209954541,
+      "sizeOfData": 44,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_RefreshAdapterConfiguration",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 25,
+      "name": "HBA_RefreshAdapterConfiguration"
+    },
+    {
+      "offset": 16482,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3260628120,
+      "sizeOfData": 35,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_RefreshInformation",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 26,
+      "name": "HBA_RefreshInformation"
+    },
+    {
+      "offset": 16598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3712458431,
+      "sizeOfData": 44,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_RegisterForAdapterAddEvents",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 27,
+      "name": "HBA_RegisterForAdapterAddEvents"
+    },
+    {
+      "offset": 16722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3585229590,
+      "sizeOfData": 41,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_RegisterForAdapterEvents",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 28,
+      "name": "HBA_RegisterForAdapterEvents"
+    },
+    {
+      "offset": 16844,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4253235939,
+      "sizeOfData": 45,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_RegisterForAdapterPortEvents",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 29,
+      "name": "HBA_RegisterForAdapterPortEvents"
+    },
+    {
+      "offset": 16970,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4056987403,
+      "sizeOfData": 49,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_RegisterForAdapterPortStatEvents",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 30,
+      "name": "HBA_RegisterForAdapterPortStatEvents"
+    },
+    {
+      "offset": 17100,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3448657369,
+      "sizeOfData": 38,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_RegisterForLinkEvents",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 31,
+      "name": "HBA_RegisterForLinkEvents"
+    },
+    {
+      "offset": 17218,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3990097762,
+      "sizeOfData": 40,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_RegisterForTargetEvents",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 32,
+      "name": "HBA_RegisterForTargetEvents"
+    },
+    {
+      "offset": 17338,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4036389188,
+      "sizeOfData": 32,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_RegisterLibrary",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 33,
+      "name": "HBA_RegisterLibrary"
+    },
+    {
+      "offset": 17450,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3803026939,
+      "sizeOfData": 34,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_RegisterLibraryV2",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 34,
+      "name": "HBA_RegisterLibraryV2"
+    },
+    {
+      "offset": 17564,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3395049554,
+      "sizeOfData": 44,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_RemoveAllPersistentBindings",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 35,
+      "name": "HBA_RemoveAllPersistentBindings"
+    },
+    {
+      "offset": 17688,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3289050522,
+      "sizeOfData": 31,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_RemoveCallback",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 36,
+      "name": "HBA_RemoveCallback"
+    },
+    {
+      "offset": 17800,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3349759785,
+      "sizeOfData": 40,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_RemovePersistentBinding",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 37,
+      "name": "HBA_RemovePersistentBinding"
+    },
+    {
+      "offset": 17920,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3414533560,
+      "sizeOfData": 32,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_ResetStatistics",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 38,
+      "name": "HBA_ResetStatistics"
+    },
+    {
+      "offset": 18032,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3495982338,
+      "sizeOfData": 30,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_ScsiInquiryV2",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 39,
+      "name": "HBA_ScsiInquiryV2"
+    },
+    {
+      "offset": 18142,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4180020577,
+      "sizeOfData": 35,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_ScsiReadCapacityV2",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 40,
+      "name": "HBA_ScsiReadCapacityV2"
+    },
+    {
+      "offset": 18258,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3359467662,
+      "sizeOfData": 33,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_ScsiReportLUNsV2",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 41,
+      "name": "HBA_ScsiReportLUNsV2"
+    },
+    {
+      "offset": 18372,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3824114024,
+      "sizeOfData": 31,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SendCTPassThru",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 42,
+      "name": "HBA_SendCTPassThru"
+    },
+    {
+      "offset": 18484,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3318761190,
+      "sizeOfData": 33,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SendCTPassThruV2",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 43,
+      "name": "HBA_SendCTPassThruV2"
+    },
+    {
+      "offset": 18598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3828305326,
+      "sizeOfData": 25,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SendLIRR",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 44,
+      "name": "HBA_SendLIRR"
+    },
+    {
+      "offset": 18704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4238233453,
+      "sizeOfData": 24,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SendRLS",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 45,
+      "name": "HBA_SendRLS"
+    },
+    {
+      "offset": 18808,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4014246100,
+      "sizeOfData": 25,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SendRNID",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 46,
+      "name": "HBA_SendRNID"
+    },
+    {
+      "offset": 18914,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3447733108,
+      "sizeOfData": 27,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SendRNIDV2",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 47,
+      "name": "HBA_SendRNIDV2"
+    },
+    {
+      "offset": 19022,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3326344781,
+      "sizeOfData": 24,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SendRPL",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 48,
+      "name": "HBA_SendRPL"
+    },
+    {
+      "offset": 19126,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3388407434,
+      "sizeOfData": 24,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SendRPS",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 49,
+      "name": "HBA_SendRPS"
+    },
+    {
+      "offset": 19230,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3691418414,
+      "sizeOfData": 33,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SendReadCapacity",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 50,
+      "name": "HBA_SendReadCapacity"
+    },
+    {
+      "offset": 19344,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4181905347,
+      "sizeOfData": 31,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SendReportLUNs",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 51,
+      "name": "HBA_SendReportLUNs"
+    },
+    {
+      "offset": 19456,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4100168407,
+      "sizeOfData": 24,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SendSRL",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 52,
+      "name": "HBA_SendSRL"
+    },
+    {
+      "offset": 19560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3829674512,
+      "sizeOfData": 32,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SendScsiInquiry",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 53,
+      "name": "HBA_SendScsiInquiry"
+    },
+    {
+      "offset": 19672,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3982329786,
+      "sizeOfData": 34,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SetBindingSupport",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 54,
+      "name": "HBA_SetBindingSupport"
+    },
+    {
+      "offset": 19786,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3788155704,
+      "sizeOfData": 39,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SetPersistentBindingV2",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 55,
+      "name": "HBA_SetPersistentBindingV2"
+    },
+    {
+      "offset": 19906,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4013605925,
+      "sizeOfData": 32,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HBA_SetRNIDMgmtInfo",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 56,
+      "name": "HBA_SetRNIDMgmtInfo"
+    },
+    {
+      "offset": 20018,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3945136743,
+      "sizeOfData": 50,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_HbaGetAdapterNameByDeviceInstanceId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "HbaGetAdapterNameByDeviceInstanceId"
+    },
+    {
+      "offset": 20148,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3548344358,
+      "sizeOfData": 39,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetAdapterAttributes",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 58,
+      "name": "SMHBA_GetAdapterAttributes"
+    },
+    {
+      "offset": 20268,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3678312703,
+      "sizeOfData": 43,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetAdapterPortAttributes",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 59,
+      "name": "SMHBA_GetAdapterPortAttributes"
+    },
+    {
+      "offset": 20392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4000740401,
+      "sizeOfData": 39,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetBindingCapability",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 60,
+      "name": "SMHBA_GetBindingCapability"
+    },
+    {
+      "offset": 20512,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4028458306,
+      "sizeOfData": 36,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetBindingSupport",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 61,
+      "name": "SMHBA_GetBindingSupport"
+    },
+    {
+      "offset": 20628,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3725718801,
+      "sizeOfData": 46,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetDiscoveredPortAttributes",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 62,
+      "name": "SMHBA_GetDiscoveredPortAttributes"
+    },
+    {
+      "offset": 20754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4278870079,
+      "sizeOfData": 37,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetFCPhyAttributes",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 63,
+      "name": "SMHBA_GetFCPhyAttributes"
+    },
+    {
+      "offset": 20872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3998085970,
+      "sizeOfData": 35,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetLUNStatistics",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 64,
+      "name": "SMHBA_GetLUNStatistics"
+    },
+    {
+      "offset": 20988,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3458648404,
+      "sizeOfData": 35,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetNumberOfPorts",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 65,
+      "name": "SMHBA_GetNumberOfPorts"
+    },
+    {
+      "offset": 21104,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3676663099,
+      "sizeOfData": 39,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetPersistentBinding",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 66,
+      "name": "SMHBA_GetPersistentBinding"
+    },
+    {
+      "offset": 21224,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3623818352,
+      "sizeOfData": 35,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetPhyStatistics",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 67,
+      "name": "SMHBA_GetPhyStatistics"
+    },
+    {
+      "offset": 21340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3895467271,
+      "sizeOfData": 41,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetPortAttributesByWWN",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 68,
+      "name": "SMHBA_GetPortAttributesByWWN"
+    },
+    {
+      "offset": 21462,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4125408964,
+      "sizeOfData": 30,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetPortType",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 69,
+      "name": "SMHBA_GetPortType"
+    },
+    {
+      "offset": 21572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3722732948,
+      "sizeOfData": 40,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetProtocolStatistics",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 70,
+      "name": "SMHBA_GetProtocolStatistics"
+    },
+    {
+      "offset": 21692,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3848557594,
+      "sizeOfData": 38,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetSASPhyAttributes",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 71,
+      "name": "SMHBA_GetSASPhyAttributes"
+    },
+    {
+      "offset": 21810,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3434497984,
+      "sizeOfData": 35,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetTargetMapping",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 72,
+      "name": "SMHBA_GetTargetMapping"
+    },
+    {
+      "offset": 21926,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3886383927,
+      "sizeOfData": 45,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetVendorLibraryAttributes",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 73,
+      "name": "SMHBA_GetVendorLibraryAttributes"
+    },
+    {
+      "offset": 22052,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3523727178,
+      "sizeOfData": 29,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetVersion",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 74,
+      "name": "SMHBA_GetVersion"
+    },
+    {
+      "offset": 22162,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4045441581,
+      "sizeOfData": 46,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_GetWrapperLibraryAttributes",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 75,
+      "name": "SMHBA_GetWrapperLibraryAttributes"
+    },
+    {
+      "offset": 22288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4281102391,
+      "sizeOfData": 46,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_RegisterForAdapterAddEvents",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 76,
+      "name": "SMHBA_RegisterForAdapterAddEvents"
+    },
+    {
+      "offset": 22414,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3749711121,
+      "sizeOfData": 43,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_RegisterForAdapterEvents",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 77,
+      "name": "SMHBA_RegisterForAdapterEvents"
+    },
+    {
+      "offset": 22538,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4104738725,
+      "sizeOfData": 50,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_RegisterForAdapterPhyStatEvents",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 78,
+      "name": "SMHBA_RegisterForAdapterPhyStatEvents"
+    },
+    {
+      "offset": 22668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4014430135,
+      "sizeOfData": 47,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_RegisterForAdapterPortEvents",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 79,
+      "name": "SMHBA_RegisterForAdapterPortEvents"
+    },
+    {
+      "offset": 22796,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4050918059,
+      "sizeOfData": 51,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_RegisterForAdapterPortStatEvents",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 80,
+      "name": "SMHBA_RegisterForAdapterPortStatEvents"
+    },
+    {
+      "offset": 22928,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3927470267,
+      "sizeOfData": 42,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_RegisterForTargetEvents",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 81,
+      "name": "SMHBA_RegisterForTargetEvents"
+    },
+    {
+      "offset": 23050,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3500604097,
+      "sizeOfData": 34,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_RegisterLibrary",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 82,
+      "name": "SMHBA_RegisterLibrary"
+    },
+    {
+      "offset": 23164,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4122114594,
+      "sizeOfData": 46,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_RemoveAllPersistentBindings",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 83,
+      "name": "SMHBA_RemoveAllPersistentBindings"
+    },
+    {
+      "offset": 23290,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3400892682,
+      "sizeOfData": 42,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_RemovePersistentBinding",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 84,
+      "name": "SMHBA_RemovePersistentBinding"
+    },
+    {
+      "offset": 23412,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3626425289,
+      "sizeOfData": 30,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_ScsiInquiry",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 85,
+      "name": "SMHBA_ScsiInquiry"
+    },
+    {
+      "offset": 23522,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3852127976,
+      "sizeOfData": 35,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_ScsiReadCapacity",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 86,
+      "name": "SMHBA_ScsiReadCapacity"
+    },
+    {
+      "offset": 23638,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3880149655,
+      "sizeOfData": 33,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_ScsiReportLuns",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 87,
+      "name": "SMHBA_ScsiReportLuns"
+    },
+    {
+      "offset": 23752,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3336902926,
+      "sizeOfData": 27,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_SendECHO",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 88,
+      "name": "SMHBA_SendECHO"
+    },
+    {
+      "offset": 23860,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3993471178,
+      "sizeOfData": 34,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_SendSMPPassThru",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 89,
+      "name": "SMHBA_SendSMPPassThru"
+    },
+    {
+      "offset": 23974,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3715602287,
+      "sizeOfData": 27,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_SendTEST",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 90,
+      "name": "SMHBA_SendTEST"
+    },
+    {
+      "offset": 24082,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3765401662,
+      "sizeOfData": 36,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_SetBindingSupport",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 91,
+      "name": "SMHBA_SetBindingSupport"
+    },
+    {
+      "offset": 24198,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3705840123,
+      "sizeOfData": 39,
+      "dllName": "HBAAPI.dll",
+      "symbolName": "_SMHBA_SetPersistentBinding",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 92,
+      "name": "SMHBA_SetPersistentBinding"
+    }
+  ]
+}

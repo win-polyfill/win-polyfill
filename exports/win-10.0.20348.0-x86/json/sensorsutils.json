@@ -1,0 +1,1653 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_AddMillisecondsToFileTime@12"
+    },
+    {
+      "name": "_CollectionsListAllocateBufferAndSerialize@12"
+    },
+    {
+      "name": "_CollectionsListCopyAndMarshall@8"
+    },
+    {
+      "name": "_CollectionsListDeserializeFromBuffer@12"
+    },
+    {
+      "name": "_CollectionsListGetFillableCount@4"
+    },
+    {
+      "name": "_CollectionsListGetMarshalledSize@4"
+    },
+    {
+      "name": "_CollectionsListGetMarshalledSizeWithoutSerialization@4"
+    },
+    {
+      "name": "_CollectionsListGetSerializedSize@4"
+    },
+    {
+      "name": "_CollectionsListMarshall@4"
+    },
+    {
+      "name": "_CollectionsListSerializeToBuffer@12"
+    },
+    {
+      "name": "_CollectionsListSortSubscribedActivitiesByConfidence@8"
+    },
+    {
+      "name": "_CollectionsListUpdateMarshalledPointer@4"
+    },
+    {
+      "name": "_ConvertAccelerometerDataToCollection@16"
+    },
+    {
+      "name": "_ConvertCollectionToAccelerometerData@16"
+    },
+    {
+      "name": "_ConvertCollectionToGyroscopeData@8"
+    },
+    {
+      "name": "_ConvertCollectionToLightSensorData@8"
+    },
+    {
+      "name": "_ConvertCollectionToLightSensorDataWithColor@20"
+    },
+    {
+      "name": "_ConvertCollectionToMagnetometerData@12"
+    },
+    {
+      "name": "_ConvertCollectionToOrientationData@28"
+    },
+    {
+      "name": "_ConvertCollectionToProximitySensorData@16"
+    },
+    {
+      "name": "_ConvertFloat3DDataToCollection@12"
+    },
+    {
+      "name": "_ConvertGyroscopeDataToCollection@12"
+    },
+    {
+      "name": "_ConvertLightSensorDataToCollection@8"
+    },
+    {
+      "name": "_ConvertLightSensorDataWithColorToCollection@24"
+    },
+    {
+      "name": "_ConvertMagnetometerDataToCollection@16"
+    },
+    {
+      "name": "_ConvertOrientationDataToCollection@32"
+    },
+    {
+      "name": "_ConvertProximitySensorDataToCollection@16"
+    },
+    {
+      "name": "_ConvertSimpleOrientationDataToCollection@12"
+    },
+    {
+      "name": "_EvaluateActivityThresholds@12"
+    },
+    {
+      "name": "_GetBiosInformation@12"
+    },
+    {
+      "name": "_GetDeviceClassStr@4"
+    },
+    {
+      "name": "_GetFileTimeDifference@12"
+    },
+    {
+      "name": "_GetFileTimeFromTimeStamp@8"
+    },
+    {
+      "name": "_GetPerformanceTime@4"
+    },
+    {
+      "name": "_GetSetting@8"
+    },
+    {
+      "name": "_GetSystemTableInfo@16"
+    },
+    {
+      "name": "_GetTimeStampFromFileTime@8"
+    },
+    {
+      "name": "_InitPropVariantFromCLSIDArray@12"
+    },
+    {
+      "name": "_InitPropVariantFromFloat@8"
+    },
+    {
+      "name": "_IsCollectionListSame@8"
+    },
+    {
+      "name": "_IsGUIDPresentInList@12"
+    },
+    {
+      "name": "_IsKeyPresentInCollectionList@8"
+    },
+    {
+      "name": "_IsKeyPresentInPropertyList@8"
+    },
+    {
+      "name": "_IsSensorSubscribed@20"
+    },
+    {
+      "name": "_MapActivityConfidenceToState@12"
+    },
+    {
+      "name": "_PropKeyFindKeyGetBool@12"
+    },
+    {
+      "name": "_PropKeyFindKeyGetDouble@12"
+    },
+    {
+      "name": "_PropKeyFindKeyGetFileTime@12"
+    },
+    {
+      "name": "_PropKeyFindKeyGetFloat@12"
+    },
+    {
+      "name": "_PropKeyFindKeyGetGuid@12"
+    },
+    {
+      "name": "_PropKeyFindKeyGetInt32@12"
+    },
+    {
+      "name": "_PropKeyFindKeyGetInt64@12"
+    },
+    {
+      "name": "_PropKeyFindKeyGetNthInt64@16"
+    },
+    {
+      "name": "_PropKeyFindKeyGetNthUlong@16"
+    },
+    {
+      "name": "_PropKeyFindKeyGetNthUshort@16"
+    },
+    {
+      "name": "_PropKeyFindKeyGetPropVariant@16"
+    },
+    {
+      "name": "_PropKeyFindKeyGetUlong@12"
+    },
+    {
+      "name": "_PropKeyFindKeyGetUshort@12"
+    },
+    {
+      "name": "_PropKeyFindKeySetPropVariant@16"
+    },
+    {
+      "name": "_PropVariantGetInformation@20"
+    },
+    {
+      "name": "_PropertiesListCopy@8"
+    },
+    {
+      "name": "_PropertiesListGetFillableCount@4"
+    },
+    {
+      "name": "_SensorCollectionGetAt@16"
+    },
+    {
+      "name": "_SensorsQueryDeviceCompatFlags@8"
+    },
+    {
+      "name": "_SensorsQueryDeviceCompatFlagsUsingSmbiosInformation@4"
+    },
+    {
+      "name": "_SensorsQueryDeviceCompatFlagsUsingSystemInformation@4"
+    },
+    {
+      "name": "_SerializationBufferAllocate@8"
+    },
+    {
+      "name": "_SerializationBufferFree@4"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 11482,
+      "name": "__IMPORT_DESCRIPTOR_SensorsUtilsV2"
+    },
+    {
+      "offset": 12064,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 12382,
+      "name": "SensorsUtilsV2_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 17272,
+      "name": "_GetPerformanceTime@4"
+    },
+    {
+      "offset": 17272,
+      "name": "__imp__GetPerformanceTime@4"
+    },
+    {
+      "offset": 17630,
+      "name": "_GetTimeStampFromFileTime@8"
+    },
+    {
+      "offset": 17630,
+      "name": "__imp__GetTimeStampFromFileTime@8"
+    },
+    {
+      "offset": 17144,
+      "name": "_GetFileTimeFromTimeStamp@8"
+    },
+    {
+      "offset": 17144,
+      "name": "__imp__GetFileTimeFromTimeStamp@8"
+    },
+    {
+      "offset": 17018,
+      "name": "_GetFileTimeDifference@12"
+    },
+    {
+      "offset": 17018,
+      "name": "__imp__GetFileTimeDifference@12"
+    },
+    {
+      "offset": 12734,
+      "name": "_AddMillisecondsToFileTime@12"
+    },
+    {
+      "offset": 12734,
+      "name": "__imp__AddMillisecondsToFileTime@12"
+    },
+    {
+      "offset": 17892,
+      "name": "_InitPropVariantFromFloat@8"
+    },
+    {
+      "offset": 17892,
+      "name": "__imp__InitPropVariantFromFloat@8"
+    },
+    {
+      "offset": 20062,
+      "name": "_PropKeyFindKeyGetPropVariant@16"
+    },
+    {
+      "offset": 20062,
+      "name": "__imp__PropKeyFindKeyGetPropVariant@16"
+    },
+    {
+      "offset": 20448,
+      "name": "_PropKeyFindKeySetPropVariant@16"
+    },
+    {
+      "offset": 20448,
+      "name": "__imp__PropKeyFindKeySetPropVariant@16"
+    },
+    {
+      "offset": 19038,
+      "name": "_PropKeyFindKeyGetFileTime@12"
+    },
+    {
+      "offset": 19038,
+      "name": "__imp__PropKeyFindKeyGetFileTime@12"
+    },
+    {
+      "offset": 19294,
+      "name": "_PropKeyFindKeyGetGuid@12"
+    },
+    {
+      "offset": 19294,
+      "name": "__imp__PropKeyFindKeyGetGuid@12"
+    },
+    {
+      "offset": 18784,
+      "name": "_PropKeyFindKeyGetBool@12"
+    },
+    {
+      "offset": 18784,
+      "name": "__imp__PropKeyFindKeyGetBool@12"
+    },
+    {
+      "offset": 20194,
+      "name": "_PropKeyFindKeyGetUlong@12"
+    },
+    {
+      "offset": 20194,
+      "name": "__imp__PropKeyFindKeyGetUlong@12"
+    },
+    {
+      "offset": 20320,
+      "name": "_PropKeyFindKeyGetUshort@12"
+    },
+    {
+      "offset": 20320,
+      "name": "__imp__PropKeyFindKeyGetUshort@12"
+    },
+    {
+      "offset": 19168,
+      "name": "_PropKeyFindKeyGetFloat@12"
+    },
+    {
+      "offset": 19168,
+      "name": "__imp__PropKeyFindKeyGetFloat@12"
+    },
+    {
+      "offset": 18910,
+      "name": "_PropKeyFindKeyGetDouble@12"
+    },
+    {
+      "offset": 18910,
+      "name": "__imp__PropKeyFindKeyGetDouble@12"
+    },
+    {
+      "offset": 19420,
+      "name": "_PropKeyFindKeyGetInt32@12"
+    },
+    {
+      "offset": 19420,
+      "name": "__imp__PropKeyFindKeyGetInt32@12"
+    },
+    {
+      "offset": 19546,
+      "name": "_PropKeyFindKeyGetInt64@12"
+    },
+    {
+      "offset": 19546,
+      "name": "__imp__PropKeyFindKeyGetInt64@12"
+    },
+    {
+      "offset": 19802,
+      "name": "_PropKeyFindKeyGetNthUlong@16"
+    },
+    {
+      "offset": 19802,
+      "name": "__imp__PropKeyFindKeyGetNthUlong@16"
+    },
+    {
+      "offset": 19932,
+      "name": "_PropKeyFindKeyGetNthUshort@16"
+    },
+    {
+      "offset": 19932,
+      "name": "__imp__PropKeyFindKeyGetNthUshort@16"
+    },
+    {
+      "offset": 19672,
+      "name": "_PropKeyFindKeyGetNthInt64@16"
+    },
+    {
+      "offset": 19672,
+      "name": "__imp__PropKeyFindKeyGetNthInt64@16"
+    },
+    {
+      "offset": 18400,
+      "name": "_IsKeyPresentInPropertyList@8"
+    },
+    {
+      "offset": 18400,
+      "name": "__imp__IsKeyPresentInPropertyList@8"
+    },
+    {
+      "offset": 18268,
+      "name": "_IsKeyPresentInCollectionList@8"
+    },
+    {
+      "offset": 18268,
+      "name": "__imp__IsKeyPresentInCollectionList@8"
+    },
+    {
+      "offset": 18020,
+      "name": "_IsCollectionListSame@8"
+    },
+    {
+      "offset": 18020,
+      "name": "__imp__IsCollectionListSame@8"
+    },
+    {
+      "offset": 20580,
+      "name": "_PropVariantGetInformation@20"
+    },
+    {
+      "offset": 20580,
+      "name": "__imp__PropVariantGetInformation@20"
+    },
+    {
+      "offset": 20710,
+      "name": "_PropertiesListCopy@8"
+    },
+    {
+      "offset": 20710,
+      "name": "__imp__PropertiesListCopy@8"
+    },
+    {
+      "offset": 20832,
+      "name": "_PropertiesListGetFillableCount@4"
+    },
+    {
+      "offset": 20832,
+      "name": "__imp__PropertiesListGetFillableCount@4"
+    },
+    {
+      "offset": 13010,
+      "name": "_CollectionsListCopyAndMarshall@8"
+    },
+    {
+      "offset": 13010,
+      "name": "__imp__CollectionsListCopyAndMarshall@8"
+    },
+    {
+      "offset": 13846,
+      "name": "_CollectionsListMarshall@4"
+    },
+    {
+      "offset": 13846,
+      "name": "__imp__CollectionsListMarshall@4"
+    },
+    {
+      "offset": 13418,
+      "name": "_CollectionsListGetMarshalledSize@4"
+    },
+    {
+      "offset": 13418,
+      "name": "__imp__CollectionsListGetMarshalledSize@4"
+    },
+    {
+      "offset": 14262,
+      "name": "_CollectionsListUpdateMarshalledPointer@4"
+    },
+    {
+      "offset": 14262,
+      "name": "__imp__CollectionsListUpdateMarshalledPointer@4"
+    },
+    {
+      "offset": 13554,
+      "name": "_CollectionsListGetMarshalledSizeWithoutSerialization@4"
+    },
+    {
+      "offset": 13554,
+      "name": "__imp__CollectionsListGetMarshalledSizeWithoutSerialization@4"
+    },
+    {
+      "offset": 13710,
+      "name": "_CollectionsListGetSerializedSize@4"
+    },
+    {
+      "offset": 13710,
+      "name": "__imp__CollectionsListGetSerializedSize@4"
+    },
+    {
+      "offset": 13972,
+      "name": "_CollectionsListSerializeToBuffer@12"
+    },
+    {
+      "offset": 13972,
+      "name": "__imp__CollectionsListSerializeToBuffer@12"
+    },
+    {
+      "offset": 12864,
+      "name": "_CollectionsListAllocateBufferAndSerialize@12"
+    },
+    {
+      "offset": 12864,
+      "name": "__imp__CollectionsListAllocateBufferAndSerialize@12"
+    },
+    {
+      "offset": 13144,
+      "name": "_CollectionsListDeserializeFromBuffer@12"
+    },
+    {
+      "offset": 13144,
+      "name": "__imp__CollectionsListDeserializeFromBuffer@12"
+    },
+    {
+      "offset": 21532,
+      "name": "_SerializationBufferAllocate@8"
+    },
+    {
+      "offset": 21532,
+      "name": "__imp__SerializationBufferAllocate@8"
+    },
+    {
+      "offset": 21662,
+      "name": "_SerializationBufferFree@4"
+    },
+    {
+      "offset": 21662,
+      "name": "__imp__SerializationBufferFree@4"
+    },
+    {
+      "offset": 14544,
+      "name": "_ConvertCollectionToAccelerometerData@16"
+    },
+    {
+      "offset": 14544,
+      "name": "__imp__ConvertCollectionToAccelerometerData@16"
+    },
+    {
+      "offset": 14820,
+      "name": "_ConvertCollectionToLightSensorData@8"
+    },
+    {
+      "offset": 14820,
+      "name": "__imp__ConvertCollectionToLightSensorData@8"
+    },
+    {
+      "offset": 14958,
+      "name": "_ConvertCollectionToLightSensorDataWithColor@20"
+    },
+    {
+      "offset": 14958,
+      "name": "__imp__ConvertCollectionToLightSensorDataWithColor@20"
+    },
+    {
+      "offset": 14684,
+      "name": "_ConvertCollectionToGyroscopeData@8"
+    },
+    {
+      "offset": 14684,
+      "name": "__imp__ConvertCollectionToGyroscopeData@8"
+    },
+    {
+      "offset": 15106,
+      "name": "_ConvertCollectionToMagnetometerData@12"
+    },
+    {
+      "offset": 15106,
+      "name": "__imp__ConvertCollectionToMagnetometerData@12"
+    },
+    {
+      "offset": 15246,
+      "name": "_ConvertCollectionToOrientationData@28"
+    },
+    {
+      "offset": 15246,
+      "name": "__imp__ConvertCollectionToOrientationData@28"
+    },
+    {
+      "offset": 15384,
+      "name": "_ConvertCollectionToProximitySensorData@16"
+    },
+    {
+      "offset": 15384,
+      "name": "__imp__ConvertCollectionToProximitySensorData@16"
+    },
+    {
+      "offset": 14404,
+      "name": "_ConvertAccelerometerDataToCollection@16"
+    },
+    {
+      "offset": 14404,
+      "name": "__imp__ConvertAccelerometerDataToCollection@16"
+    },
+    {
+      "offset": 15796,
+      "name": "_ConvertLightSensorDataToCollection@8"
+    },
+    {
+      "offset": 15796,
+      "name": "__imp__ConvertLightSensorDataToCollection@8"
+    },
+    {
+      "offset": 15934,
+      "name": "_ConvertLightSensorDataWithColorToCollection@24"
+    },
+    {
+      "offset": 15934,
+      "name": "__imp__ConvertLightSensorDataWithColorToCollection@24"
+    },
+    {
+      "offset": 15660,
+      "name": "_ConvertGyroscopeDataToCollection@12"
+    },
+    {
+      "offset": 15660,
+      "name": "__imp__ConvertGyroscopeDataToCollection@12"
+    },
+    {
+      "offset": 16082,
+      "name": "_ConvertMagnetometerDataToCollection@16"
+    },
+    {
+      "offset": 16082,
+      "name": "__imp__ConvertMagnetometerDataToCollection@16"
+    },
+    {
+      "offset": 16222,
+      "name": "_ConvertOrientationDataToCollection@32"
+    },
+    {
+      "offset": 16222,
+      "name": "__imp__ConvertOrientationDataToCollection@32"
+    },
+    {
+      "offset": 16360,
+      "name": "_ConvertProximitySensorDataToCollection@16"
+    },
+    {
+      "offset": 16360,
+      "name": "__imp__ConvertProximitySensorDataToCollection@16"
+    },
+    {
+      "offset": 16502,
+      "name": "_ConvertSimpleOrientationDataToCollection@12"
+    },
+    {
+      "offset": 16502,
+      "name": "__imp__ConvertSimpleOrientationDataToCollection@12"
+    },
+    {
+      "offset": 15526,
+      "name": "_ConvertFloat3DDataToCollection@12"
+    },
+    {
+      "offset": 15526,
+      "name": "__imp__ConvertFloat3DDataToCollection@12"
+    },
+    {
+      "offset": 20966,
+      "name": "_SensorCollectionGetAt@16"
+    },
+    {
+      "offset": 20966,
+      "name": "__imp__SensorCollectionGetAt@16"
+    },
+    {
+      "offset": 13284,
+      "name": "_CollectionsListGetFillableCount@4"
+    },
+    {
+      "offset": 13284,
+      "name": "__imp__CollectionsListGetFillableCount@4"
+    },
+    {
+      "offset": 16646,
+      "name": "_EvaluateActivityThresholds@12"
+    },
+    {
+      "offset": 16646,
+      "name": "__imp__EvaluateActivityThresholds@12"
+    },
+    {
+      "offset": 14108,
+      "name": "_CollectionsListSortSubscribedActivitiesByConfidence@8"
+    },
+    {
+      "offset": 14108,
+      "name": "__imp__CollectionsListSortSubscribedActivitiesByConfidence@8"
+    },
+    {
+      "offset": 18652,
+      "name": "_MapActivityConfidenceToState@12"
+    },
+    {
+      "offset": 18652,
+      "name": "__imp__MapActivityConfidenceToState@12"
+    },
+    {
+      "offset": 17758,
+      "name": "_InitPropVariantFromCLSIDArray@12"
+    },
+    {
+      "offset": 17758,
+      "name": "__imp__InitPropVariantFromCLSIDArray@12"
+    },
+    {
+      "offset": 18530,
+      "name": "_IsSensorSubscribed@20"
+    },
+    {
+      "offset": 18530,
+      "name": "__imp__IsSensorSubscribed@20"
+    },
+    {
+      "offset": 18144,
+      "name": "_IsGUIDPresentInList@12"
+    },
+    {
+      "offset": 18144,
+      "name": "__imp__IsGUIDPresentInList@12"
+    },
+    {
+      "offset": 17394,
+      "name": "_GetSetting@8"
+    },
+    {
+      "offset": 17394,
+      "name": "__imp__GetSetting@8"
+    },
+    {
+      "offset": 16776,
+      "name": "_GetBiosInformation@12"
+    },
+    {
+      "offset": 16776,
+      "name": "__imp__GetBiosInformation@12"
+    },
+    {
+      "offset": 17508,
+      "name": "_GetSystemTableInfo@16"
+    },
+    {
+      "offset": 17508,
+      "name": "__imp__GetSystemTableInfo@16"
+    },
+    {
+      "offset": 16898,
+      "name": "_GetDeviceClassStr@4"
+    },
+    {
+      "offset": 16898,
+      "name": "__imp__GetDeviceClassStr@4"
+    },
+    {
+      "offset": 21092,
+      "name": "_SensorsQueryDeviceCompatFlags@8"
+    },
+    {
+      "offset": 21092,
+      "name": "__imp__SensorsQueryDeviceCompatFlags@8"
+    },
+    {
+      "offset": 21378,
+      "name": "_SensorsQueryDeviceCompatFlagsUsingSystemInformation@4"
+    },
+    {
+      "offset": 21378,
+      "name": "__imp__SensorsQueryDeviceCompatFlagsUsingSystemInformation@4"
+    },
+    {
+      "offset": 21224,
+      "name": "_SensorsQueryDeviceCompatFlagsUsingSmbiosInformation@4"
+    },
+    {
+      "offset": 21224,
+      "name": "__imp__SensorsQueryDeviceCompatFlagsUsingSmbiosInformation@4"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 12734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4260946377,
+      "sizeOfData": 49,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_AddMillisecondsToFileTime@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "AddMillisecondsToFileTime"
+    },
+    {
+      "offset": 12864,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4018719664,
+      "sizeOfData": 65,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_CollectionsListAllocateBufferAndSerialize@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "CollectionsListAllocateBufferAndSerialize"
+    },
+    {
+      "offset": 13010,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3249507237,
+      "sizeOfData": 53,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_CollectionsListCopyAndMarshall@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "CollectionsListCopyAndMarshall"
+    },
+    {
+      "offset": 13144,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4270555921,
+      "sizeOfData": 60,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_CollectionsListDeserializeFromBuffer@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "CollectionsListDeserializeFromBuffer"
+    },
+    {
+      "offset": 13284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4119451567,
+      "sizeOfData": 54,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_CollectionsListGetFillableCount@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "CollectionsListGetFillableCount"
+    },
+    {
+      "offset": 13418,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3828932950,
+      "sizeOfData": 55,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_CollectionsListGetMarshalledSize@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "CollectionsListGetMarshalledSize"
+    },
+    {
+      "offset": 13554,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3400773678,
+      "sizeOfData": 75,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_CollectionsListGetMarshalledSizeWithoutSerialization@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "CollectionsListGetMarshalledSizeWithoutSerialization"
+    },
+    {
+      "offset": 13710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3677133904,
+      "sizeOfData": 55,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_CollectionsListGetSerializedSize@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "CollectionsListGetSerializedSize"
+    },
+    {
+      "offset": 13846,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3525062476,
+      "sizeOfData": 46,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_CollectionsListMarshall@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "CollectionsListMarshall"
+    },
+    {
+      "offset": 13972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3870681015,
+      "sizeOfData": 56,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_CollectionsListSerializeToBuffer@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "CollectionsListSerializeToBuffer"
+    },
+    {
+      "offset": 14108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4038100105,
+      "sizeOfData": 74,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_CollectionsListSortSubscribedActivitiesByConfidence@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "CollectionsListSortSubscribedActivitiesByConfidence"
+    },
+    {
+      "offset": 14262,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3858418023,
+      "sizeOfData": 61,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_CollectionsListUpdateMarshalledPointer@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "CollectionsListUpdateMarshalledPointer"
+    },
+    {
+      "offset": 14404,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3947525620,
+      "sizeOfData": 60,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertAccelerometerDataToCollection@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "ConvertAccelerometerDataToCollection"
+    },
+    {
+      "offset": 14544,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3272590349,
+      "sizeOfData": 60,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertCollectionToAccelerometerData@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "ConvertCollectionToAccelerometerData"
+    },
+    {
+      "offset": 14684,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3375144153,
+      "sizeOfData": 55,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertCollectionToGyroscopeData@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "ConvertCollectionToGyroscopeData"
+    },
+    {
+      "offset": 14820,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3706472735,
+      "sizeOfData": 57,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertCollectionToLightSensorData@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "ConvertCollectionToLightSensorData"
+    },
+    {
+      "offset": 14958,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4216943709,
+      "sizeOfData": 67,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertCollectionToLightSensorDataWithColor@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "ConvertCollectionToLightSensorDataWithColor"
+    },
+    {
+      "offset": 15106,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3503510994,
+      "sizeOfData": 59,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertCollectionToMagnetometerData@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "ConvertCollectionToMagnetometerData"
+    },
+    {
+      "offset": 15246,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4268264466,
+      "sizeOfData": 58,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertCollectionToOrientationData@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "ConvertCollectionToOrientationData"
+    },
+    {
+      "offset": 15384,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3704611255,
+      "sizeOfData": 62,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertCollectionToProximitySensorData@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "ConvertCollectionToProximitySensorData"
+    },
+    {
+      "offset": 15526,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4070675637,
+      "sizeOfData": 54,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertFloat3DDataToCollection@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "ConvertFloat3DDataToCollection"
+    },
+    {
+      "offset": 15660,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3947093825,
+      "sizeOfData": 56,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertGyroscopeDataToCollection@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "ConvertGyroscopeDataToCollection"
+    },
+    {
+      "offset": 15796,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4008920358,
+      "sizeOfData": 57,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertLightSensorDataToCollection@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "ConvertLightSensorDataToCollection"
+    },
+    {
+      "offset": 15934,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3852098535,
+      "sizeOfData": 67,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertLightSensorDataWithColorToCollection@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "ConvertLightSensorDataWithColorToCollection"
+    },
+    {
+      "offset": 16082,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3551416046,
+      "sizeOfData": 59,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertMagnetometerDataToCollection@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "ConvertMagnetometerDataToCollection"
+    },
+    {
+      "offset": 16222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3255054080,
+      "sizeOfData": 58,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertOrientationDataToCollection@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "ConvertOrientationDataToCollection"
+    },
+    {
+      "offset": 16360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3420105698,
+      "sizeOfData": 62,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertProximitySensorDataToCollection@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "ConvertProximitySensorDataToCollection"
+    },
+    {
+      "offset": 16502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3797859962,
+      "sizeOfData": 64,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_ConvertSimpleOrientationDataToCollection@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "ConvertSimpleOrientationDataToCollection"
+    },
+    {
+      "offset": 16646,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4127753690,
+      "sizeOfData": 50,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_EvaluateActivityThresholds@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "EvaluateActivityThresholds"
+    },
+    {
+      "offset": 16776,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4235830316,
+      "sizeOfData": 42,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_GetBiosInformation@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "GetBiosInformation"
+    },
+    {
+      "offset": 16898,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4236367432,
+      "sizeOfData": 40,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_GetDeviceClassStr@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "GetDeviceClassStr"
+    },
+    {
+      "offset": 17018,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3890508762,
+      "sizeOfData": 45,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_GetFileTimeDifference@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "GetFileTimeDifference"
+    },
+    {
+      "offset": 17144,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3357947938,
+      "sizeOfData": 47,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_GetFileTimeFromTimeStamp@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "GetFileTimeFromTimeStamp"
+    },
+    {
+      "offset": 17272,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3435635312,
+      "sizeOfData": 41,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_GetPerformanceTime@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "GetPerformanceTime"
+    },
+    {
+      "offset": 17394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4290723108,
+      "sizeOfData": 33,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_GetSetting@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "GetSetting"
+    },
+    {
+      "offset": 17508,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3391650102,
+      "sizeOfData": 42,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_GetSystemTableInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "GetSystemTableInfo"
+    },
+    {
+      "offset": 17630,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3299151021,
+      "sizeOfData": 47,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_GetTimeStampFromFileTime@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "GetTimeStampFromFileTime"
+    },
+    {
+      "offset": 17758,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4180759746,
+      "sizeOfData": 53,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_InitPropVariantFromCLSIDArray@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "InitPropVariantFromCLSIDArray"
+    },
+    {
+      "offset": 17892,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4058778699,
+      "sizeOfData": 47,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_InitPropVariantFromFloat@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "InitPropVariantFromFloat"
+    },
+    {
+      "offset": 18020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3989543813,
+      "sizeOfData": 43,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_IsCollectionListSame@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "IsCollectionListSame"
+    },
+    {
+      "offset": 18144,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3373678431,
+      "sizeOfData": 43,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_IsGUIDPresentInList@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "IsGUIDPresentInList"
+    },
+    {
+      "offset": 18268,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3739986240,
+      "sizeOfData": 51,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_IsKeyPresentInCollectionList@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "IsKeyPresentInCollectionList"
+    },
+    {
+      "offset": 18400,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4075289009,
+      "sizeOfData": 49,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_IsKeyPresentInPropertyList@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "IsKeyPresentInPropertyList"
+    },
+    {
+      "offset": 18530,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3343489806,
+      "sizeOfData": 42,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_IsSensorSubscribed@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "IsSensorSubscribed"
+    },
+    {
+      "offset": 18652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3765939263,
+      "sizeOfData": 52,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_MapActivityConfidenceToState@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "MapActivityConfidenceToState"
+    },
+    {
+      "offset": 18784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4195089235,
+      "sizeOfData": 45,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeyGetBool@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "PropKeyFindKeyGetBool"
+    },
+    {
+      "offset": 18910,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3853327094,
+      "sizeOfData": 47,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeyGetDouble@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "PropKeyFindKeyGetDouble"
+    },
+    {
+      "offset": 19038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3430499439,
+      "sizeOfData": 49,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeyGetFileTime@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "PropKeyFindKeyGetFileTime"
+    },
+    {
+      "offset": 19168,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3716239737,
+      "sizeOfData": 46,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeyGetFloat@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "PropKeyFindKeyGetFloat"
+    },
+    {
+      "offset": 19294,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3276162633,
+      "sizeOfData": 45,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeyGetGuid@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "PropKeyFindKeyGetGuid"
+    },
+    {
+      "offset": 19420,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3285501988,
+      "sizeOfData": 46,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeyGetInt32@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "PropKeyFindKeyGetInt32"
+    },
+    {
+      "offset": 19546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4135742480,
+      "sizeOfData": 46,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeyGetInt64@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "PropKeyFindKeyGetInt64"
+    },
+    {
+      "offset": 19672,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3342777153,
+      "sizeOfData": 49,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeyGetNthInt64@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "PropKeyFindKeyGetNthInt64"
+    },
+    {
+      "offset": 19802,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4281721314,
+      "sizeOfData": 49,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeyGetNthUlong@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "PropKeyFindKeyGetNthUlong"
+    },
+    {
+      "offset": 19932,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3569822893,
+      "sizeOfData": 50,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeyGetNthUshort@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "PropKeyFindKeyGetNthUshort"
+    },
+    {
+      "offset": 20062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3807331610,
+      "sizeOfData": 52,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeyGetPropVariant@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "PropKeyFindKeyGetPropVariant"
+    },
+    {
+      "offset": 20194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4031822989,
+      "sizeOfData": 46,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeyGetUlong@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "PropKeyFindKeyGetUlong"
+    },
+    {
+      "offset": 20320,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3413190364,
+      "sizeOfData": 47,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeyGetUshort@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "PropKeyFindKeyGetUshort"
+    },
+    {
+      "offset": 20448,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3311509518,
+      "sizeOfData": 52,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropKeyFindKeySetPropVariant@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "PropKeyFindKeySetPropVariant"
+    },
+    {
+      "offset": 20580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3341374388,
+      "sizeOfData": 49,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropVariantGetInformation@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "PropVariantGetInformation"
+    },
+    {
+      "offset": 20710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4275635265,
+      "sizeOfData": 41,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropertiesListCopy@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "PropertiesListCopy"
+    },
+    {
+      "offset": 20832,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3797968667,
+      "sizeOfData": 53,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_PropertiesListGetFillableCount@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "PropertiesListGetFillableCount"
+    },
+    {
+      "offset": 20966,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3756283406,
+      "sizeOfData": 45,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_SensorCollectionGetAt@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "SensorCollectionGetAt"
+    },
+    {
+      "offset": 21092,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4016495582,
+      "sizeOfData": 52,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_SensorsQueryDeviceCompatFlags@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "SensorsQueryDeviceCompatFlags"
+    },
+    {
+      "offset": 21224,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4007666830,
+      "sizeOfData": 74,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_SensorsQueryDeviceCompatFlagsUsingSmbiosInformation@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "SensorsQueryDeviceCompatFlagsUsingSmbiosInformation"
+    },
+    {
+      "offset": 21378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3681965658,
+      "sizeOfData": 74,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_SensorsQueryDeviceCompatFlagsUsingSystemInformation@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "SensorsQueryDeviceCompatFlagsUsingSystemInformation"
+    },
+    {
+      "offset": 21532,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4286881045,
+      "sizeOfData": 50,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_SerializationBufferAllocate@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "SerializationBufferAllocate"
+    },
+    {
+      "offset": 21662,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4096984306,
+      "sizeOfData": 46,
+      "dllName": "SensorsUtilsV2.dll",
+      "symbolName": "_SerializationBufferFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "SerializationBufferFree"
+    }
+  ]
+}

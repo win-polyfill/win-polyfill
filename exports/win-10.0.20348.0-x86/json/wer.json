@@ -1,0 +1,3501 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "?WerSysprepCleanup@@YGKXZ (unsigned long __stdcall WerSysprepCleanup(void))"
+    },
+    {
+      "name": "?WerSysprepGeneralize@@YGKXZ (unsigned long __stdcall WerSysprepGeneralize(void))"
+    },
+    {
+      "name": "?WerUnattendedSetup@@YGXXZ (void __stdcall WerUnattendedSetup(void))"
+    },
+    {
+      "name": "?WerpAddAppCompatData@@YGJPAXPBG1@Z (long __stdcall WerpAddAppCompatData(void *,unsigned short const *,unsigned short const *))"
+    },
+    {
+      "name": "?WerpAddIfRegisteredForAppLocalDump@@YGJPAX0PBG@Z (long __stdcall WerpAddIfRegisteredForAppLocalDump(void *,void *,unsigned short const *))"
+    },
+    {
+      "name": "?WerpAddMemoryBlock@@YGJPAXK0KK@Z (long __stdcall WerpAddMemoryBlock(void *,unsigned long,void *,unsigned long,unsigned long))"
+    },
+    {
+      "name": "?WerpAddRegisteredDataToReport@@YGJPAX0@Z (long __stdcall WerpAddRegisteredDataToReport(void *,void *))"
+    },
+    {
+      "name": "?WerpAddRegisteredDumpsToReport@@YGJPAX0@Z (long __stdcall WerpAddRegisteredDumpsToReport(void *,void *))"
+    },
+    {
+      "name": "?WerpAddRegisteredMetadataToReport@@YGJPAX0@Z (long __stdcall WerpAddRegisteredMetadataToReport(void *,void *))"
+    },
+    {
+      "name": "?WerpArchiveReport@@YGJPAXPBGHPAPAXPAH@Z (long __stdcall WerpArchiveReport(void *,unsigned short const *,int,void * *,int *))"
+    },
+    {
+      "name": "?WerpCancelUpload@@YGJPAX@Z (long __stdcall WerpCancelUpload(void *))"
+    },
+    {
+      "name": "?WerpCleanWer@@YGJXZ (long __stdcall WerpCleanWer(void))"
+    },
+    {
+      "name": "?WerpCloseStore@@YGXPAX@Z (void __stdcall WerpCloseStore(void *))"
+    },
+    {
+      "name": "?WerpCreateMachineStore@@YGJPAPAX@Z (long __stdcall WerpCreateMachineStore(void * *))"
+    },
+    {
+      "name": "?WerpDeleteReport@@YGJPAXPBG@Z (long __stdcall WerpDeleteReport(void *,unsigned short const *))"
+    },
+    {
+      "name": "?WerpDestroyWerString@@YGXPAPAX@Z (void __stdcall WerpDestroyWerString(void * *))"
+    },
+    {
+      "name": "?WerpEnumerateStoreNext@@YGJPAXPAPAX@Z (long __stdcall WerpEnumerateStoreNext(void *,void * *))"
+    },
+    {
+      "name": "?WerpEnumerateStoreStart@@YGJPAX@Z (long __stdcall WerpEnumerateStoreStart(void *))"
+    },
+    {
+      "name": "?WerpFlushImageCache@@YGKPAU_WERP_IMAGE_CACHE@@K@Z (unsigned long __stdcall WerpFlushImageCache(struct _WERP_IMAGE_CACHE *,unsigned long))"
+    },
+    {
+      "name": "?WerpForceDeferredCollection@@YGKPAXP6GX0KPBGPAD@Z0@Z (unsigned long __stdcall WerpForceDeferredCollection(void *,void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *))"
+    },
+    {
+      "name": "?WerpFreeUnmappedVaRanges@@YGXPAU_WERP_UNMAPPED_VA_RANGES@@@Z (void __stdcall WerpFreeUnmappedVaRanges(struct _WERP_UNMAPPED_VA_RANGES *))"
+    },
+    {
+      "name": "?WerpGetBucketId@@YGJPAXPAPAX@Z (long __stdcall WerpGetBucketId(void *,void * *))"
+    },
+    {
+      "name": "?WerpGetDynamicParameter@@YGJPAXKPAPBG1@Z (long __stdcall WerpGetDynamicParameter(void *,unsigned long,unsigned short const * *,unsigned short const * *))"
+    },
+    {
+      "name": "?WerpGetEventType@@YGJPAXPAPBG@Z (long __stdcall WerpGetEventType(void *,unsigned short const * *))"
+    },
+    {
+      "name": "?WerpGetExtendedDiagData@@YGJPAXPAPAXPAK@Z (long __stdcall WerpGetExtendedDiagData(void *,void * *,unsigned long *))"
+    },
+    {
+      "name": "?WerpGetFileByIndex@@YGJPAXKPAW4_WER_FILE_TYPE@@PAKPAPBG33@Z (long __stdcall WerpGetFileByIndex(void *,unsigned long,enum _WER_FILE_TYPE *,unsigned long *,unsigned short const * *,unsigned short const * *,unsigned short const * *))"
+    },
+    {
+      "name": "?WerpGetFilePathByIndex@@YGJPAXKPAPBG@Z (long __stdcall WerpGetFilePathByIndex(void *,unsigned long,unsigned short const * *))"
+    },
+    {
+      "name": "?WerpGetLegacyBucketId@@YGJPAXPAPAX@Z (long __stdcall WerpGetLegacyBucketId(void *,void * *))"
+    },
+    {
+      "name": "?WerpGetLoadedModuleByIndex@@YGJPAXKPAPBG@Z (long __stdcall WerpGetLoadedModuleByIndex(void *,unsigned long,unsigned short const * *))"
+    },
+    {
+      "name": "?WerpGetNumFiles@@YGJPAXPAK@Z (long __stdcall WerpGetNumFiles(void *,unsigned long *))"
+    },
+    {
+      "name": "?WerpGetNumLoadedModules@@YGJPAXPAK@Z (long __stdcall WerpGetNumLoadedModules(void *,unsigned long *))"
+    },
+    {
+      "name": "?WerpGetNumSigParams@@YGJPAXPAK@Z (long __stdcall WerpGetNumSigParams(void *,unsigned long *))"
+    },
+    {
+      "name": "?WerpGetPathOfWERTempDirectory@@YGJPAGK@Z (long __stdcall WerpGetPathOfWERTempDirectory(unsigned short *,unsigned long))"
+    },
+    {
+      "name": "?WerpGetReportCount@@YGJPAXPAK@Z (long __stdcall WerpGetReportCount(void *,unsigned long *))"
+    },
+    {
+      "name": "?WerpGetReportFinalConsent@@YGJPAXPAW4_CONSENT_SETTING@@@Z (long __stdcall WerpGetReportFinalConsent(void *,enum _CONSENT_SETTING *))"
+    },
+    {
+      "name": "?WerpGetReportFlags@@YGJPAXPAK@Z (long __stdcall WerpGetReportFlags(void *,unsigned long *))"
+    },
+    {
+      "name": "?WerpGetReportId@@YGJPAXPAGK@Z (long __stdcall WerpGetReportId(void *,unsigned short *,unsigned long))"
+    },
+    {
+      "name": "?WerpGetReportInformation@@YGJPAXPAPBU_WER_REPORT_INFORMATION_V5@@@Z (long __stdcall WerpGetReportInformation(void *,struct _WER_REPORT_INFORMATION_V5 const * *))"
+    },
+    {
+      "name": "?WerpGetReportSettings@@YGJPAXPAPAVCSettings@@@Z (long __stdcall WerpGetReportSettings(void *,class CSettings * *))"
+    },
+    {
+      "name": "?WerpGetReportTime@@YGJPAXPAU_FILETIME@@@Z (long __stdcall WerpGetReportTime(void *,struct _FILETIME *))"
+    },
+    {
+      "name": "?WerpGetReportType@@YGJPAXPAW4_WER_REPORT_TYPE@@@Z (long __stdcall WerpGetReportType(void *,enum _WER_REPORT_TYPE *))"
+    },
+    {
+      "name": "?WerpGetResponseId@@YGJPAXPAH1@Z (long __stdcall WerpGetResponseId(void *,int *,int *))"
+    },
+    {
+      "name": "?WerpGetSigParamByIndex@@YGJPAXKPAPBG1@Z (long __stdcall WerpGetSigParamByIndex(void *,unsigned long,unsigned short const * *,unsigned short const * *))"
+    },
+    {
+      "name": "?WerpGetStorePath@@YGJW4_REPORT_STORE_TYPES@@PAGPAK@Z (long __stdcall WerpGetStorePath(enum _REPORT_STORE_TYPES,unsigned short *,unsigned long *))"
+    },
+    {
+      "name": "?WerpGetStoreType@@YGJPAXPAW4_REPORT_STORE_TYPES@@@Z (long __stdcall WerpGetStoreType(void *,enum _REPORT_STORE_TYPES *))"
+    },
+    {
+      "name": "?WerpGetTextFromReport@@YGJPAXPBGPAPBG@Z (long __stdcall WerpGetTextFromReport(void *,unsigned short const *,unsigned short const * *))"
+    },
+    {
+      "name": "?WerpGetUIParamByIndex@@YGJPAXKPAPBG@Z (long __stdcall WerpGetUIParamByIndex(void *,unsigned long,unsigned short const * *))"
+    },
+    {
+      "name": "?WerpGetUploadTime@@YGJPAXPAU_FILETIME@@@Z (long __stdcall WerpGetUploadTime(void *,struct _FILETIME *))"
+    },
+    {
+      "name": "?WerpGetWerStringData@@YGPBGPAX@Z (unsigned short const * __stdcall WerpGetWerStringData(void *))"
+    },
+    {
+      "name": "?WerpGetWow64Process@@YGJPAXPAK1@Z (long __stdcall WerpGetWow64Process(void *,unsigned long *,unsigned long *))"
+    },
+    {
+      "name": "?WerpHashApplicationParameters@@YGXPAEPBG1PAGK@Z (void __stdcall WerpHashApplicationParameters(unsigned char *,unsigned short const *,unsigned short const *,unsigned short *,unsigned long))"
+    },
+    {
+      "name": "?WerpInitializeImageCache@@YGJPAU_WERP_IMAGE_CACHE@@K@Z (long __stdcall WerpInitializeImageCache(struct _WERP_IMAGE_CACHE *,unsigned long))"
+    },
+    {
+      "name": "?WerpIsOnBattery@@YGHXZ (int __stdcall WerpIsOnBattery(void))"
+    },
+    {
+      "name": "?WerpIsTransportAvailable@@YGJHPAH@Z (long __stdcall WerpIsTransportAvailable(int,int *))"
+    },
+    {
+      "name": "?WerpLoadReportFromBuffer@@YGJPAXKPAPAXH@Z (long __stdcall WerpLoadReportFromBuffer(void *,unsigned long,void * *,int))"
+    },
+    {
+      "name": "?WerpOpenMachineArchive@@YGJPAPAX@Z (long __stdcall WerpOpenMachineArchive(void * *))"
+    },
+    {
+      "name": "?WerpOpenMachineQueue@@YGJPAPAX@Z (long __stdcall WerpOpenMachineQueue(void * *))"
+    },
+    {
+      "name": "?WerpPromptUser@@YGJPAXPAUHWND__@@PAU_WER_USER_PROMPT_INPUT@@PAH@Z (long __stdcall WerpPromptUser(void *,struct HWND__ *,struct _WER_USER_PROMPT_INPUT *,int *))"
+    },
+    {
+      "name": "?WerpPruneStore@@YGJPAX@Z (long __stdcall WerpPruneStore(void *))"
+    },
+    {
+      "name": "?WerpReportCancel@@YGJPAX@Z (long __stdcall WerpReportCancel(void *))"
+    },
+    {
+      "name": "?WerpReportSetMaxProcessHoldMilliseconds@@YGJPAXK@Z (long __stdcall WerpReportSetMaxProcessHoldMilliseconds(void *,unsigned long))"
+    },
+    {
+      "name": "?WerpReportSprintfParameter@@YAJPAXKPAUHINSTANCE__@@IPBGZZ (long __cdecl WerpReportSprintfParameter(void *,unsigned long,struct HINSTANCE__ *,unsigned int,unsigned short const *,...))"
+    },
+    {
+      "name": "?WerpReserveMachineQueueReportDir@@YGJPAXPAGK@Z (long __stdcall WerpReserveMachineQueueReportDir(void *,unsigned short *,unsigned long))"
+    },
+    {
+      "name": "?WerpResetTransientImageCacheStatistics@@YGXPAU_WERP_IMAGE_CACHE@@@Z (void __stdcall WerpResetTransientImageCacheStatistics(struct _WERP_IMAGE_CACHE *))"
+    },
+    {
+      "name": "?WerpRestartApplication@@YGJPAXPBG1PAH2@Z (long __stdcall WerpRestartApplication(void *,unsigned short const *,unsigned short const *,int *,int *))"
+    },
+    {
+      "name": "?WerpSetDynamicParameter@@YGJPAXKPBG1@Z (long __stdcall WerpSetDynamicParameter(void *,unsigned long,unsigned short const *,unsigned short const *))"
+    },
+    {
+      "name": "?WerpSetEventName@@YGJPAXPBG@Z (long __stdcall WerpSetEventName(void *,unsigned short const *))"
+    },
+    {
+      "name": "?WerpSetProcessTimelines@@YGJPAXPBU_WER_PROCESS_TIMELINES@@K@Z (long __stdcall WerpSetProcessTimelines(void *,struct _WER_PROCESS_TIMELINES const *,unsigned long))"
+    },
+    {
+      "name": "?WerpSetQuickDumpType@@YGJPAXW4_WER_DUMP_TYPE@@@Z (long __stdcall WerpSetQuickDumpType(void *,enum _WER_DUMP_TYPE))"
+    },
+    {
+      "name": "?WerpSetReportApplicationIdentity@@YGJPAXPAE@Z (long __stdcall WerpSetReportApplicationIdentity(void *,unsigned char *))"
+    },
+    {
+      "name": "?WerpSetReportFlags@@YGJPAXK@Z (long __stdcall WerpSetReportFlags(void *,unsigned long))"
+    },
+    {
+      "name": "?WerpSetReportInformation@@YGJPAXPBU_WER_REPORT_INFORMATION_V5@@@Z (long __stdcall WerpSetReportInformation(void *,struct _WER_REPORT_INFORMATION_V5 const *))"
+    },
+    {
+      "name": "?WerpSetReportIsFatal@@YGJPAXH@Z (long __stdcall WerpSetReportIsFatal(void *,int))"
+    },
+    {
+      "name": "?WerpSetReportNamespaceParameter@@YGJPAXKPBG1@Z (long __stdcall WerpSetReportNamespaceParameter(void *,unsigned long,unsigned short const *,unsigned short const *))"
+    },
+    {
+      "name": "?WerpSetReportTime@@YGJPAXPAU_FILETIME@@@Z (long __stdcall WerpSetReportTime(void *,struct _FILETIME *))"
+    },
+    {
+      "name": "?WerpSetReportUploadContextToken@@YGJPAX0@Z (long __stdcall WerpSetReportUploadContextToken(void *,void *))"
+    },
+    {
+      "name": "?WerpSetTelemetryAppParams@@YGJPAXPBU_WER_TELEMETRY_APP_PARAMS@@@Z (long __stdcall WerpSetTelemetryAppParams(void *,struct _WER_TELEMETRY_APP_PARAMS const *))"
+    },
+    {
+      "name": "?WerpSetTelemetryKernelParams@@YGJPAXK@Z (long __stdcall WerpSetTelemetryKernelParams(void *,unsigned long))"
+    },
+    {
+      "name": "?WerpSetTelemetryServiceParams@@YGJPAXPBG1H@Z (long __stdcall WerpSetTelemetryServiceParams(void *,unsigned short const *,unsigned short const *,int))"
+    },
+    {
+      "name": "?WerpShowUpsellUI@@YGJPAUHWND__@@PAH@Z (long __stdcall WerpShowUpsellUI(struct HWND__ *,int *))"
+    },
+    {
+      "name": "?WerpStitchedMinidumpVmPostReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXKKJ@Z (long __stdcall WerpStitchedMinidumpVmPostReadCallback(struct _WERP_STITCHED_DUMP_WRITER *,unsigned long *,unsigned __int64,void *,unsigned long,unsigned long,long))"
+    },
+    {
+      "name": "?WerpStitchedMinidumpVmPreReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXK@Z (long __stdcall WerpStitchedMinidumpVmPreReadCallback(struct _WERP_STITCHED_DUMP_WRITER *,unsigned long *,unsigned __int64,void *,unsigned long))"
+    },
+    {
+      "name": "?WerpStitchedMinidumpVmQueryCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAU_MINIDUMP_MEMORY_INFO@@_K@Z (long __stdcall WerpStitchedMinidumpVmQueryCallback(struct _WERP_STITCHED_DUMP_WRITER *,struct _MINIDUMP_MEMORY_INFO *,unsigned __int64))"
+    },
+    {
+      "name": "?WerpSubmitReportFromStore@@YGJPAXPBG0PAVIReportUI@@PAPAXKPAW4_WER_SUBMIT_RESULT@@@Z (long __stdcall WerpSubmitReportFromStore(void *,unsigned short const *,void *,class IReportUI *,void * *,unsigned long,enum _WER_SUBMIT_RESULT *))"
+    },
+    {
+      "name": "?WerpTraceAuxMemDumpStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_AUXILIARY_MEMORY_DUMP@@PAT_LARGE_INTEGER@@5@Z (void __stdcall WerpTraceAuxMemDumpStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_AUXILIARY_MEMORY_DUMP *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))"
+    },
+    {
+      "name": "?WerpTraceDuration@@YGXP6GXPAXKPBGPAD@Z0KPAT_LARGE_INTEGER@@44@Z (void __stdcall WerpTraceDuration(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,unsigned long,union _LARGE_INTEGER *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))"
+    },
+    {
+      "name": "?WerpTraceImageCacheStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_IMAGE_CACHE@@PAT_LARGE_INTEGER@@@Z (void __stdcall WerpTraceImageCacheStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_IMAGE_CACHE *,union _LARGE_INTEGER *))"
+    },
+    {
+      "name": "?WerpTraceSnapshotStatistics@@YGXP6GXPAXKPBGPAD@Z00@Z (void __stdcall WerpTraceSnapshotStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,void *))"
+    },
+    {
+      "name": "?WerpTraceStitchedDumpWriterStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_STITCHED_DUMP_WRITER@@PAT_LARGE_INTEGER@@@Z (void __stdcall WerpTraceStitchedDumpWriterStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_STITCHED_DUMP_WRITER *,union _LARGE_INTEGER *))"
+    },
+    {
+      "name": "?WerpTraceUnmappedVaRangesStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_UNMAPPED_VA_RANGES@@PAT_LARGE_INTEGER@@5@Z (void __stdcall WerpTraceUnmappedVaRangesStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_UNMAPPED_VA_RANGES *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))"
+    },
+    {
+      "name": "?WerpUnmapProcessViews@@YGJPAU_WERP_UNMAPPED_VA_RANGES@@PAXK@Z (long __stdcall WerpUnmapProcessViews(struct _WERP_UNMAPPED_VA_RANGES *,void *,unsigned long))"
+    },
+    {
+      "name": "?WerpValidateReportKey@@YGJPBG@Z (long __stdcall WerpValidateReportKey(unsigned short const *))"
+    },
+    {
+      "name": "?WerpWalkGatherBlocks@@YGJPAU_WER_GATHER@@PAPAXPAX1@Z (long __stdcall WerpWalkGatherBlocks(struct _WER_GATHER *,void * *,void *,void * *))"
+    },
+    {
+      "name": "_CloseThreadWaitChainSession@4"
+    },
+    {
+      "name": "_GetThreadWaitChain@28"
+    },
+    {
+      "name": "_OpenThreadWaitChainSession@8"
+    },
+    {
+      "name": "_RegisterWaitChainCOMCallback@8"
+    },
+    {
+      "name": "_WerAddExcludedApplication@8"
+    },
+    {
+      "name": "_WerFreeString@4"
+    },
+    {
+      "name": "_WerRemoveExcludedApplication@8"
+    },
+    {
+      "name": "_WerReportAddDump@28"
+    },
+    {
+      "name": "_WerReportAddFile@16"
+    },
+    {
+      "name": "_WerReportCloseHandle@4"
+    },
+    {
+      "name": "_WerReportCreate@16"
+    },
+    {
+      "name": "_WerReportSetParameter@16"
+    },
+    {
+      "name": "_WerReportSetUIOption@12"
+    },
+    {
+      "name": "_WerReportSubmit@16"
+    },
+    {
+      "name": "_WerStoreClose@4"
+    },
+    {
+      "name": "_WerStoreGetFirstReportKey@8"
+    },
+    {
+      "name": "_WerStoreGetNextReportKey@8"
+    },
+    {
+      "name": "_WerStoreGetReportCount@8"
+    },
+    {
+      "name": "_WerStoreGetSizeOnDisk@8"
+    },
+    {
+      "name": "_WerStoreOpen@8"
+    },
+    {
+      "name": "_WerStorePurge@0"
+    },
+    {
+      "name": "_WerStoreQueryReportMetadataV1@12"
+    },
+    {
+      "name": "_WerStoreQueryReportMetadataV2@12"
+    },
+    {
+      "name": "_WerStoreQueryReportMetadataV3@12"
+    },
+    {
+      "name": "_WerStoreUploadReport@16"
+    },
+    {
+      "name": "_WerpAddFile@24"
+    },
+    {
+      "name": "_WerpAddFileBuffer@28"
+    },
+    {
+      "name": "_WerpAddFileCallback@28"
+    },
+    {
+      "name": "_WerpAddTerminationReason@16"
+    },
+    {
+      "name": "_WerpAuxmdDumpProcessImages@8"
+    },
+    {
+      "name": "_WerpAuxmdDumpRegisteredBlocks@4"
+    },
+    {
+      "name": "_WerpAuxmdFree@4"
+    },
+    {
+      "name": "_WerpAuxmdFreeCopyBuffer@4"
+    },
+    {
+      "name": "_WerpAuxmdHashVaRanges@8"
+    },
+    {
+      "name": "_WerpAuxmdInitialize@16"
+    },
+    {
+      "name": "_WerpAuxmdMapFile@4"
+    },
+    {
+      "name": "_WerpCreateIntegratorReportId@4"
+    },
+    {
+      "name": "_WerpExtractReportFiles@12"
+    },
+    {
+      "name": "_WerpFreeString@4"
+    },
+    {
+      "name": "_WerpGetIntegratorReportId@8"
+    },
+    {
+      "name": "_WerpGetReportConsent@12"
+    },
+    {
+      "name": "_WerpGetStoreLocation@12"
+    },
+    {
+      "name": "_WerpIsDisabled@8"
+    },
+    {
+      "name": "_WerpLoadReport@20"
+    },
+    {
+      "name": "_WerpSetAuxiliaryArchivePath@8"
+    },
+    {
+      "name": "_WerpSetCallBack@12"
+    },
+    {
+      "name": "_WerpSetDefaultUserConsent@8"
+    },
+    {
+      "name": "_WerpSetExitListeners@0"
+    },
+    {
+      "name": "_WerpSetIntegratorReportId@8"
+    },
+    {
+      "name": "_WerpSetIptEnabled@8"
+    },
+    {
+      "name": "_WerpSetReportOption@12"
+    },
+    {
+      "name": "_WerpSetTtdStatus@8"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 27254,
+      "name": "__IMPORT_DESCRIPTOR_wer"
+    },
+    {
+      "offset": 27792,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 28098,
+      "name": "wer_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 42236,
+      "name": "_WerReportCreate@16"
+    },
+    {
+      "offset": 42236,
+      "name": "__imp__WerReportCreate@16"
+    },
+    {
+      "offset": 42344,
+      "name": "_WerReportSetParameter@16"
+    },
+    {
+      "offset": 42344,
+      "name": "__imp__WerReportSetParameter@16"
+    },
+    {
+      "offset": 42458,
+      "name": "_WerReportSetUIOption@12"
+    },
+    {
+      "offset": 42458,
+      "name": "__imp__WerReportSetUIOption@12"
+    },
+    {
+      "offset": 42014,
+      "name": "_WerReportAddFile@16"
+    },
+    {
+      "offset": 42014,
+      "name": "__imp__WerReportAddFile@16"
+    },
+    {
+      "offset": 41904,
+      "name": "_WerReportAddDump@28"
+    },
+    {
+      "offset": 41904,
+      "name": "__imp__WerReportAddDump@28"
+    },
+    {
+      "offset": 42572,
+      "name": "_WerReportSubmit@16"
+    },
+    {
+      "offset": 42572,
+      "name": "__imp__WerReportSubmit@16"
+    },
+    {
+      "offset": 42124,
+      "name": "_WerReportCloseHandle@4"
+    },
+    {
+      "offset": 42124,
+      "name": "__imp__WerReportCloseHandle@4"
+    },
+    {
+      "offset": 43248,
+      "name": "_WerStoreOpen@8"
+    },
+    {
+      "offset": 43248,
+      "name": "__imp__WerStoreOpen@8"
+    },
+    {
+      "offset": 42680,
+      "name": "_WerStoreClose@4"
+    },
+    {
+      "offset": 42680,
+      "name": "__imp__WerStoreClose@4"
+    },
+    {
+      "offset": 41678,
+      "name": "_WerFreeString@4"
+    },
+    {
+      "offset": 41678,
+      "name": "__imp__WerFreeString@4"
+    },
+    {
+      "offset": 42786,
+      "name": "_WerStoreGetFirstReportKey@8"
+    },
+    {
+      "offset": 42786,
+      "name": "__imp__WerStoreGetFirstReportKey@8"
+    },
+    {
+      "offset": 42904,
+      "name": "_WerStoreGetNextReportKey@8"
+    },
+    {
+      "offset": 42904,
+      "name": "__imp__WerStoreGetNextReportKey@8"
+    },
+    {
+      "offset": 43020,
+      "name": "_WerStoreGetReportCount@8"
+    },
+    {
+      "offset": 43020,
+      "name": "__imp__WerStoreGetReportCount@8"
+    },
+    {
+      "offset": 43134,
+      "name": "_WerStoreGetSizeOnDisk@8"
+    },
+    {
+      "offset": 43134,
+      "name": "__imp__WerStoreGetSizeOnDisk@8"
+    },
+    {
+      "offset": 43352,
+      "name": "_WerStorePurge@0"
+    },
+    {
+      "offset": 43352,
+      "name": "__imp__WerStorePurge@0"
+    },
+    {
+      "offset": 43458,
+      "name": "_WerStoreQueryReportMetadataV1@12"
+    },
+    {
+      "offset": 43458,
+      "name": "__imp__WerStoreQueryReportMetadataV1@12"
+    },
+    {
+      "offset": 43580,
+      "name": "_WerStoreQueryReportMetadataV2@12"
+    },
+    {
+      "offset": 43580,
+      "name": "__imp__WerStoreQueryReportMetadataV2@12"
+    },
+    {
+      "offset": 43702,
+      "name": "_WerStoreQueryReportMetadataV3@12"
+    },
+    {
+      "offset": 43702,
+      "name": "__imp__WerStoreQueryReportMetadataV3@12"
+    },
+    {
+      "offset": 43824,
+      "name": "_WerStoreUploadReport@16"
+    },
+    {
+      "offset": 43824,
+      "name": "__imp__WerStoreUploadReport@16"
+    },
+    {
+      "offset": 29038,
+      "name": "?WerpAddMemoryBlock@@YGJPAXK0KK@Z"
+    },
+    {
+      "offset": 29038,
+      "name": "__imp_?WerpAddMemoryBlock@@YGJPAXK0KK@Z"
+    },
+    {
+      "offset": 46200,
+      "name": "_WerpSetCallBack@12"
+    },
+    {
+      "offset": 46200,
+      "name": "__imp__WerpSetCallBack@12"
+    },
+    {
+      "offset": 35918,
+      "name": "?WerpPruneStore@@YGJPAX@Z"
+    },
+    {
+      "offset": 35918,
+      "name": "__imp_?WerpPruneStore@@YGJPAX@Z"
+    },
+    {
+      "offset": 29802,
+      "name": "?WerpCleanWer@@YGJXZ"
+    },
+    {
+      "offset": 29802,
+      "name": "__imp_?WerpCleanWer@@YGJXZ"
+    },
+    {
+      "offset": 29912,
+      "name": "?WerpCloseStore@@YGXPAX@Z"
+    },
+    {
+      "offset": 29912,
+      "name": "__imp_?WerpCloseStore@@YGXPAX@Z"
+    },
+    {
+      "offset": 30150,
+      "name": "?WerpDeleteReport@@YGJPAXPBG@Z"
+    },
+    {
+      "offset": 30150,
+      "name": "__imp_?WerpDeleteReport@@YGJPAXPBG@Z"
+    },
+    {
+      "offset": 30392,
+      "name": "?WerpEnumerateStoreNext@@YGJPAXPAPAX@Z"
+    },
+    {
+      "offset": 30392,
+      "name": "__imp_?WerpEnumerateStoreNext@@YGJPAXPAPAX@Z"
+    },
+    {
+      "offset": 30520,
+      "name": "?WerpEnumerateStoreStart@@YGJPAX@Z"
+    },
+    {
+      "offset": 30520,
+      "name": "__imp_?WerpEnumerateStoreStart@@YGJPAX@Z"
+    },
+    {
+      "offset": 45972,
+      "name": "_WerpLoadReport@20"
+    },
+    {
+      "offset": 45972,
+      "name": "__imp__WerpLoadReport@20"
+    },
+    {
+      "offset": 35640,
+      "name": "?WerpOpenMachineQueue@@YGJPAPAX@Z"
+    },
+    {
+      "offset": 35640,
+      "name": "__imp_?WerpOpenMachineQueue@@YGJPAPAX@Z"
+    },
+    {
+      "offset": 33944,
+      "name": "?WerpGetStorePath@@YGJW4_REPORT_STORE_TYPES@@PAGPAK@Z"
+    },
+    {
+      "offset": 33944,
+      "name": "__imp_?WerpGetStorePath@@YGJW4_REPORT_STORE_TYPES@@PAGPAK@Z"
+    },
+    {
+      "offset": 32482,
+      "name": "?WerpGetPathOfWERTempDirectory@@YGJPAGK@Z"
+    },
+    {
+      "offset": 32482,
+      "name": "__imp_?WerpGetPathOfWERTempDirectory@@YGJPAGK@Z"
+    },
+    {
+      "offset": 43938,
+      "name": "_WerpAddFile@24"
+    },
+    {
+      "offset": 43938,
+      "name": "__imp__WerpAddFile@24"
+    },
+    {
+      "offset": 44042,
+      "name": "_WerpAddFileBuffer@28"
+    },
+    {
+      "offset": 44042,
+      "name": "__imp__WerpAddFileBuffer@28"
+    },
+    {
+      "offset": 44152,
+      "name": "_WerpAddFileCallback@28"
+    },
+    {
+      "offset": 44152,
+      "name": "__imp__WerpAddFileCallback@28"
+    },
+    {
+      "offset": 36860,
+      "name": "?WerpSetDynamicParameter@@YGJPAXKPBG1@Z"
+    },
+    {
+      "offset": 36860,
+      "name": "__imp_?WerpSetDynamicParameter@@YGJPAXKPBG1@Z"
+    },
+    {
+      "offset": 39424,
+      "name": "?WerpSubmitReportFromStore@@YGJPAXPBG0PAVIReportUI@@PAPAXKPAW4_WER_SUBMIT_RESULT@@@Z"
+    },
+    {
+      "offset": 39424,
+      "name": "__imp_?WerpSubmitReportFromStore@@YGJPAXPBG0PAVIReportUI@@PAPAXKPAW4_WER_SUBMIT_RESULT@@@Z"
+    },
+    {
+      "offset": 31076,
+      "name": "?WerpGetBucketId@@YGJPAXPAPAX@Z"
+    },
+    {
+      "offset": 31076,
+      "name": "__imp_?WerpGetBucketId@@YGJPAXPAPAX@Z"
+    },
+    {
+      "offset": 31326,
+      "name": "?WerpGetEventType@@YGJPAXPAPBG@Z"
+    },
+    {
+      "offset": 31326,
+      "name": "__imp_?WerpGetEventType@@YGJPAXPAPBG@Z"
+    },
+    {
+      "offset": 31448,
+      "name": "?WerpGetExtendedDiagData@@YGJPAXPAPAXPAK@Z"
+    },
+    {
+      "offset": 31448,
+      "name": "__imp_?WerpGetExtendedDiagData@@YGJPAXPAPAXPAK@Z"
+    },
+    {
+      "offset": 31730,
+      "name": "?WerpGetFilePathByIndex@@YGJPAXKPAPBG@Z"
+    },
+    {
+      "offset": 31730,
+      "name": "__imp_?WerpGetFilePathByIndex@@YGJPAXKPAPBG@Z"
+    },
+    {
+      "offset": 31580,
+      "name": "?WerpGetFileByIndex@@YGJPAXKPAW4_WER_FILE_TYPE@@PAKPAPBG33@Z"
+    },
+    {
+      "offset": 31580,
+      "name": "__imp_?WerpGetFileByIndex@@YGJPAXKPAW4_WER_FILE_TYPE@@PAKPAPBG33@Z"
+    },
+    {
+      "offset": 31858,
+      "name": "?WerpGetLegacyBucketId@@YGJPAXPAPAX@Z"
+    },
+    {
+      "offset": 31858,
+      "name": "__imp_?WerpGetLegacyBucketId@@YGJPAXPAPAX@Z"
+    },
+    {
+      "offset": 32116,
+      "name": "?WerpGetNumFiles@@YGJPAXPAK@Z"
+    },
+    {
+      "offset": 32116,
+      "name": "__imp_?WerpGetNumFiles@@YGJPAXPAK@Z"
+    },
+    {
+      "offset": 32360,
+      "name": "?WerpGetNumSigParams@@YGJPAXPAK@Z"
+    },
+    {
+      "offset": 32360,
+      "name": "__imp_?WerpGetNumSigParams@@YGJPAXPAK@Z"
+    },
+    {
+      "offset": 33814,
+      "name": "?WerpGetSigParamByIndex@@YGJPAXKPAPBG1@Z"
+    },
+    {
+      "offset": 33814,
+      "name": "__imp_?WerpGetSigParamByIndex@@YGJPAXKPAPBG1@Z"
+    },
+    {
+      "offset": 34358,
+      "name": "?WerpGetUIParamByIndex@@YGJPAXKPAPBG@Z"
+    },
+    {
+      "offset": 34358,
+      "name": "__imp_?WerpGetUIParamByIndex@@YGJPAXKPAPBG@Z"
+    },
+    {
+      "offset": 33420,
+      "name": "?WerpGetReportTime@@YGJPAXPAU_FILETIME@@@Z"
+    },
+    {
+      "offset": 33420,
+      "name": "__imp_?WerpGetReportTime@@YGJPAXPAU_FILETIME@@@Z"
+    },
+    {
+      "offset": 38068,
+      "name": "?WerpSetReportTime@@YGJPAXPAU_FILETIME@@@Z"
+    },
+    {
+      "offset": 38068,
+      "name": "__imp_?WerpSetReportTime@@YGJPAXPAU_FILETIME@@@Z"
+    },
+    {
+      "offset": 33552,
+      "name": "?WerpGetReportType@@YGJPAXPAW4_WER_REPORT_TYPE@@@Z"
+    },
+    {
+      "offset": 33552,
+      "name": "__imp_?WerpGetReportType@@YGJPAXPAW4_WER_REPORT_TYPE@@@Z"
+    },
+    {
+      "offset": 35146,
+      "name": "?WerpIsOnBattery@@YGHXZ"
+    },
+    {
+      "offset": 35146,
+      "name": "__imp_?WerpIsOnBattery@@YGHXZ"
+    },
+    {
+      "offset": 35258,
+      "name": "?WerpIsTransportAvailable@@YGJHPAH@Z"
+    },
+    {
+      "offset": 35258,
+      "name": "__imp_?WerpIsTransportAvailable@@YGJHPAH@Z"
+    },
+    {
+      "offset": 30270,
+      "name": "?WerpDestroyWerString@@YGXPAPAX@Z"
+    },
+    {
+      "offset": 30270,
+      "name": "__imp_?WerpDestroyWerString@@YGXPAPAX@Z"
+    },
+    {
+      "offset": 34618,
+      "name": "?WerpGetWerStringData@@YGPBGPAX@Z"
+    },
+    {
+      "offset": 34618,
+      "name": "__imp_?WerpGetWerStringData@@YGPBGPAX@Z"
+    },
+    {
+      "offset": 33124,
+      "name": "?WerpGetReportInformation@@YGJPAXPAPBU_WER_REPORT_INFORMATION_V5@@@Z"
+    },
+    {
+      "offset": 33124,
+      "name": "__imp_?WerpGetReportInformation@@YGJPAXPAPBU_WER_REPORT_INFORMATION_V5@@@Z"
+    },
+    {
+      "offset": 45752,
+      "name": "_WerpGetStoreLocation@12"
+    },
+    {
+      "offset": 45752,
+      "name": "__imp__WerpGetStoreLocation@12"
+    },
+    {
+      "offset": 30026,
+      "name": "?WerpCreateMachineStore@@YGJPAPAX@Z"
+    },
+    {
+      "offset": 30026,
+      "name": "__imp_?WerpCreateMachineStore@@YGJPAPAX@Z"
+    },
+    {
+      "offset": 35516,
+      "name": "?WerpOpenMachineArchive@@YGJPAPAX@Z"
+    },
+    {
+      "offset": 35516,
+      "name": "__imp_?WerpOpenMachineArchive@@YGJPAPAX@Z"
+    },
+    {
+      "offset": 29686,
+      "name": "?WerpCancelUpload@@YGJPAX@Z"
+    },
+    {
+      "offset": 29686,
+      "name": "__imp_?WerpCancelUpload@@YGJPAX@Z"
+    },
+    {
+      "offset": 32734,
+      "name": "?WerpGetReportFinalConsent@@YGJPAXPAW4_CONSENT_SETTING@@@Z"
+    },
+    {
+      "offset": 32734,
+      "name": "__imp_?WerpGetReportFinalConsent@@YGJPAXPAW4_CONSENT_SETTING@@@Z"
+    },
+    {
+      "offset": 34228,
+      "name": "?WerpGetTextFromReport@@YGJPAXPBGPAPBG@Z"
+    },
+    {
+      "offset": 34228,
+      "name": "__imp_?WerpGetTextFromReport@@YGJPAXPBGPAPBG@Z"
+    },
+    {
+      "offset": 28776,
+      "name": "?WerpAddAppCompatData@@YGJPAXPBG1@Z"
+    },
+    {
+      "offset": 28776,
+      "name": "__imp_?WerpAddAppCompatData@@YGJPAXPBG1@Z"
+    },
+    {
+      "offset": 45298,
+      "name": "_WerpExtractReportFiles@12"
+    },
+    {
+      "offset": 45298,
+      "name": "__imp__WerpExtractReportFiles@12"
+    },
+    {
+      "offset": 37654,
+      "name": "?WerpSetReportInformation@@YGJPAXPBU_WER_REPORT_INFORMATION_V5@@@Z"
+    },
+    {
+      "offset": 37654,
+      "name": "__imp_?WerpSetReportInformation@@YGJPAXPBU_WER_REPORT_INFORMATION_V5@@@Z"
+    },
+    {
+      "offset": 36730,
+      "name": "?WerpRestartApplication@@YGJPAXPBG1PAH2@Z"
+    },
+    {
+      "offset": 36730,
+      "name": "__imp_?WerpRestartApplication@@YGJPAXPBG1PAH2@Z"
+    },
+    {
+      "offset": 33692,
+      "name": "?WerpGetResponseId@@YGJPAXPAH1@Z"
+    },
+    {
+      "offset": 33692,
+      "name": "__imp_?WerpGetResponseId@@YGJPAXPAH1@Z"
+    },
+    {
+      "offset": 35762,
+      "name": "?WerpPromptUser@@YGJPAXPAUHWND__@@PAU_WER_USER_PROMPT_INPUT@@PAH@Z"
+    },
+    {
+      "offset": 35762,
+      "name": "__imp_?WerpPromptUser@@YGJPAXPAUHWND__@@PAU_WER_USER_PROMPT_INPUT@@PAH@Z"
+    },
+    {
+      "offset": 34486,
+      "name": "?WerpGetUploadTime@@YGJPAXPAU_FILETIME@@@Z"
+    },
+    {
+      "offset": 34486,
+      "name": "__imp_?WerpGetUploadTime@@YGJPAXPAU_FILETIME@@@Z"
+    },
+    {
+      "offset": 36988,
+      "name": "?WerpSetEventName@@YGJPAXPBG@Z"
+    },
+    {
+      "offset": 36988,
+      "name": "__imp_?WerpSetEventName@@YGJPAXPBG@Z"
+    },
+    {
+      "offset": 37534,
+      "name": "?WerpSetReportFlags@@YGJPAXK@Z"
+    },
+    {
+      "offset": 37534,
+      "name": "__imp_?WerpSetReportFlags@@YGJPAXK@Z"
+    },
+    {
+      "offset": 32882,
+      "name": "?WerpGetReportFlags@@YGJPAXPAK@Z"
+    },
+    {
+      "offset": 32882,
+      "name": "__imp_?WerpGetReportFlags@@YGJPAXPAK@Z"
+    },
+    {
+      "offset": 29160,
+      "name": "?WerpAddRegisteredDataToReport@@YGJPAX0@Z"
+    },
+    {
+      "offset": 29160,
+      "name": "__imp_?WerpAddRegisteredDataToReport@@YGJPAX0@Z"
+    },
+    {
+      "offset": 29290,
+      "name": "?WerpAddRegisteredDumpsToReport@@YGJPAX0@Z"
+    },
+    {
+      "offset": 29290,
+      "name": "__imp_?WerpAddRegisteredDumpsToReport@@YGJPAX0@Z"
+    },
+    {
+      "offset": 29422,
+      "name": "?WerpAddRegisteredMetadataToReport@@YGJPAX0@Z"
+    },
+    {
+      "offset": 29422,
+      "name": "__imp_?WerpAddRegisteredMetadataToReport@@YGJPAX0@Z"
+    },
+    {
+      "offset": 28900,
+      "name": "?WerpAddIfRegisteredForAppLocalDump@@YGJPAX0PBG@Z"
+    },
+    {
+      "offset": 28900,
+      "name": "__imp_?WerpAddIfRegisteredForAppLocalDump@@YGJPAX0PBG@Z"
+    },
+    {
+      "offset": 45638,
+      "name": "_WerpGetReportConsent@12"
+    },
+    {
+      "offset": 45638,
+      "name": "__imp__WerpGetReportConsent@12"
+    },
+    {
+      "offset": 31196,
+      "name": "?WerpGetDynamicParameter@@YGJPAXKPAPBG1@Z"
+    },
+    {
+      "offset": 31196,
+      "name": "__imp_?WerpGetDynamicParameter@@YGJPAXKPAPBG1@Z"
+    },
+    {
+      "offset": 38752,
+      "name": "?WerpShowUpsellUI@@YGJPAUHWND__@@PAH@Z"
+    },
+    {
+      "offset": 38752,
+      "name": "__imp_?WerpShowUpsellUI@@YGJPAUHWND__@@PAH@Z"
+    },
+    {
+      "offset": 29556,
+      "name": "?WerpArchiveReport@@YGJPAXPBGHPAPAXPAH@Z"
+    },
+    {
+      "offset": 29556,
+      "name": "__imp_?WerpArchiveReport@@YGJPAXPBGHPAPAXPAH@Z"
+    },
+    {
+      "offset": 36032,
+      "name": "?WerpReportCancel@@YGJPAX@Z"
+    },
+    {
+      "offset": 36032,
+      "name": "__imp_?WerpReportCancel@@YGJPAX@Z"
+    },
+    {
+      "offset": 34086,
+      "name": "?WerpGetStoreType@@YGJPAXPAW4_REPORT_STORE_TYPES@@@Z"
+    },
+    {
+      "offset": 34086,
+      "name": "__imp_?WerpGetStoreType@@YGJPAXPAW4_REPORT_STORE_TYPES@@@Z"
+    },
+    {
+      "offset": 38200,
+      "name": "?WerpSetReportUploadContextToken@@YGJPAX0@Z"
+    },
+    {
+      "offset": 38200,
+      "name": "__imp_?WerpSetReportUploadContextToken@@YGJPAX0@Z"
+    },
+    {
+      "offset": 45866,
+      "name": "_WerpIsDisabled@8"
+    },
+    {
+      "offset": 45866,
+      "name": "__imp__WerpIsDisabled@8"
+    },
+    {
+      "offset": 33282,
+      "name": "?WerpGetReportSettings@@YGJPAXPAPAVCSettings@@@Z"
+    },
+    {
+      "offset": 33282,
+      "name": "__imp_?WerpGetReportSettings@@YGJPAXPAPAVCSettings@@@Z"
+    },
+    {
+      "offset": 32234,
+      "name": "?WerpGetNumLoadedModules@@YGJPAXPAK@Z"
+    },
+    {
+      "offset": 32234,
+      "name": "__imp_?WerpGetNumLoadedModules@@YGJPAXPAK@Z"
+    },
+    {
+      "offset": 31984,
+      "name": "?WerpGetLoadedModuleByIndex@@YGJPAXKPAPBG@Z"
+    },
+    {
+      "offset": 31984,
+      "name": "__imp_?WerpGetLoadedModuleByIndex@@YGJPAXKPAPBG@Z"
+    },
+    {
+      "offset": 46538,
+      "name": "_WerpSetIntegratorReportId@8"
+    },
+    {
+      "offset": 46538,
+      "name": "__imp__WerpSetIntegratorReportId@8"
+    },
+    {
+      "offset": 45520,
+      "name": "_WerpGetIntegratorReportId@8"
+    },
+    {
+      "offset": 45520,
+      "name": "__imp__WerpGetIntegratorReportId@8"
+    },
+    {
+      "offset": 45178,
+      "name": "_WerpCreateIntegratorReportId@4"
+    },
+    {
+      "offset": 45178,
+      "name": "__imp__WerpCreateIntegratorReportId@4"
+    },
+    {
+      "offset": 45414,
+      "name": "_WerpFreeString@4"
+    },
+    {
+      "offset": 45414,
+      "name": "__imp__WerpFreeString@4"
+    },
+    {
+      "offset": 46308,
+      "name": "_WerpSetDefaultUserConsent@8"
+    },
+    {
+      "offset": 46308,
+      "name": "__imp__WerpSetDefaultUserConsent@8"
+    },
+    {
+      "offset": 34740,
+      "name": "?WerpGetWow64Process@@YGJPAXPAK1@Z"
+    },
+    {
+      "offset": 34740,
+      "name": "__imp_?WerpGetWow64Process@@YGJPAXPAK1@Z"
+    },
+    {
+      "offset": 37932,
+      "name": "?WerpSetReportNamespaceParameter@@YGJPAXKPBG1@Z"
+    },
+    {
+      "offset": 37932,
+      "name": "__imp_?WerpSetReportNamespaceParameter@@YGJPAXKPBG1@Z"
+    },
+    {
+      "offset": 36436,
+      "name": "?WerpReserveMachineQueueReportDir@@YGJPAXPAGK@Z"
+    },
+    {
+      "offset": 36436,
+      "name": "__imp_?WerpReserveMachineQueueReportDir@@YGJPAXPAGK@Z"
+    },
+    {
+      "offset": 40826,
+      "name": "?WerpValidateReportKey@@YGJPBG@Z"
+    },
+    {
+      "offset": 40826,
+      "name": "__imp_?WerpValidateReportKey@@YGJPBG@Z"
+    },
+    {
+      "offset": 35384,
+      "name": "?WerpLoadReportFromBuffer@@YGJPAXKPAPAXH@Z"
+    },
+    {
+      "offset": 35384,
+      "name": "__imp_?WerpLoadReportFromBuffer@@YGJPAXKPAPAXH@Z"
+    },
+    {
+      "offset": 36288,
+      "name": "?WerpReportSprintfParameter@@YAJPAXKPAUHINSTANCE__@@IPBGZZ"
+    },
+    {
+      "offset": 36288,
+      "name": "__imp_?WerpReportSprintfParameter@@YAJPAXKPAUHINSTANCE__@@IPBGZZ"
+    },
+    {
+      "offset": 46080,
+      "name": "_WerpSetAuxiliaryArchivePath@8"
+    },
+    {
+      "offset": 46080,
+      "name": "__imp__WerpSetAuxiliaryArchivePath@8"
+    },
+    {
+      "offset": 34864,
+      "name": "?WerpHashApplicationParameters@@YGXPAEPBG1PAGK@Z"
+    },
+    {
+      "offset": 34864,
+      "name": "__imp_?WerpHashApplicationParameters@@YGXPAEPBG1PAGK@Z"
+    },
+    {
+      "offset": 37398,
+      "name": "?WerpSetReportApplicationIdentity@@YGJPAXPAE@Z"
+    },
+    {
+      "offset": 37398,
+      "name": "__imp_?WerpSetReportApplicationIdentity@@YGJPAXPAE@Z"
+    },
+    {
+      "offset": 38332,
+      "name": "?WerpSetTelemetryAppParams@@YGJPAXPBU_WER_TELEMETRY_APP_PARAMS@@@Z"
+    },
+    {
+      "offset": 38332,
+      "name": "__imp_?WerpSetTelemetryAppParams@@YGJPAXPBU_WER_TELEMETRY_APP_PARAMS@@@Z"
+    },
+    {
+      "offset": 38618,
+      "name": "?WerpSetTelemetryServiceParams@@YGJPAXPBG1H@Z"
+    },
+    {
+      "offset": 38618,
+      "name": "__imp_?WerpSetTelemetryServiceParams@@YGJPAXPBG1H@Z"
+    },
+    {
+      "offset": 38488,
+      "name": "?WerpSetTelemetryKernelParams@@YGJPAXK@Z"
+    },
+    {
+      "offset": 38488,
+      "name": "__imp_?WerpSetTelemetryKernelParams@@YGJPAXK@Z"
+    },
+    {
+      "offset": 37108,
+      "name": "?WerpSetProcessTimelines@@YGJPAXPBU_WER_PROCESS_TIMELINES@@K@Z"
+    },
+    {
+      "offset": 37108,
+      "name": "__imp_?WerpSetProcessTimelines@@YGJPAXPBU_WER_PROCESS_TIMELINES@@K@Z"
+    },
+    {
+      "offset": 40674,
+      "name": "?WerpUnmapProcessViews@@YGJPAU_WERP_UNMAPPED_VA_RANGES@@PAXK@Z"
+    },
+    {
+      "offset": 40674,
+      "name": "__imp_?WerpUnmapProcessViews@@YGJPAU_WERP_UNMAPPED_VA_RANGES@@PAXK@Z"
+    },
+    {
+      "offset": 30926,
+      "name": "?WerpFreeUnmappedVaRanges@@YGXPAU_WERP_UNMAPPED_VA_RANGES@@@Z"
+    },
+    {
+      "offset": 30926,
+      "name": "__imp_?WerpFreeUnmappedVaRanges@@YGXPAU_WERP_UNMAPPED_VA_RANGES@@@Z"
+    },
+    {
+      "offset": 44382,
+      "name": "_WerpAuxmdDumpProcessImages@8"
+    },
+    {
+      "offset": 44382,
+      "name": "__imp__WerpAuxmdDumpProcessImages@8"
+    },
+    {
+      "offset": 44500,
+      "name": "_WerpAuxmdDumpRegisteredBlocks@4"
+    },
+    {
+      "offset": 44500,
+      "name": "__imp__WerpAuxmdDumpRegisteredBlocks@4"
+    },
+    {
+      "offset": 45070,
+      "name": "_WerpAuxmdMapFile@4"
+    },
+    {
+      "offset": 45070,
+      "name": "__imp__WerpAuxmdMapFile@4"
+    },
+    {
+      "offset": 44844,
+      "name": "_WerpAuxmdHashVaRanges@8"
+    },
+    {
+      "offset": 44844,
+      "name": "__imp__WerpAuxmdHashVaRanges@8"
+    },
+    {
+      "offset": 44958,
+      "name": "_WerpAuxmdInitialize@16"
+    },
+    {
+      "offset": 44958,
+      "name": "__imp__WerpAuxmdInitialize@16"
+    },
+    {
+      "offset": 44728,
+      "name": "_WerpAuxmdFreeCopyBuffer@4"
+    },
+    {
+      "offset": 44728,
+      "name": "__imp__WerpAuxmdFreeCopyBuffer@4"
+    },
+    {
+      "offset": 44622,
+      "name": "_WerpAuxmdFree@4"
+    },
+    {
+      "offset": 44622,
+      "name": "__imp__WerpAuxmdFree@4"
+    },
+    {
+      "offset": 35002,
+      "name": "?WerpInitializeImageCache@@YGJPAU_WERP_IMAGE_CACHE@@K@Z"
+    },
+    {
+      "offset": 35002,
+      "name": "__imp_?WerpInitializeImageCache@@YGJPAU_WERP_IMAGE_CACHE@@K@Z"
+    },
+    {
+      "offset": 30644,
+      "name": "?WerpFlushImageCache@@YGKPAU_WERP_IMAGE_CACHE@@K@Z"
+    },
+    {
+      "offset": 30644,
+      "name": "__imp_?WerpFlushImageCache@@YGKPAU_WERP_IMAGE_CACHE@@K@Z"
+    },
+    {
+      "offset": 36572,
+      "name": "?WerpResetTransientImageCacheStatistics@@YGXPAU_WERP_IMAGE_CACHE@@@Z"
+    },
+    {
+      "offset": 36572,
+      "name": "__imp_?WerpResetTransientImageCacheStatistics@@YGXPAU_WERP_IMAGE_CACHE@@@Z"
+    },
+    {
+      "offset": 39232,
+      "name": "?WerpStitchedMinidumpVmQueryCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAU_MINIDUMP_MEMORY_INFO@@_K@Z"
+    },
+    {
+      "offset": 39232,
+      "name": "__imp_?WerpStitchedMinidumpVmQueryCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAU_MINIDUMP_MEMORY_INFO@@_K@Z"
+    },
+    {
+      "offset": 39058,
+      "name": "?WerpStitchedMinidumpVmPreReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXK@Z"
+    },
+    {
+      "offset": 39058,
+      "name": "__imp_?WerpStitchedMinidumpVmPreReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXK@Z"
+    },
+    {
+      "offset": 38880,
+      "name": "?WerpStitchedMinidumpVmPostReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXKKJ@Z"
+    },
+    {
+      "offset": 38880,
+      "name": "__imp_?WerpStitchedMinidumpVmPostReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXKKJ@Z"
+    },
+    {
+      "offset": 39598,
+      "name": "?WerpTraceAuxMemDumpStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_AUXILIARY_MEMORY_DUMP@@PAT_LARGE_INTEGER@@5@Z"
+    },
+    {
+      "offset": 39598,
+      "name": "__imp_?WerpTraceAuxMemDumpStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_AUXILIARY_MEMORY_DUMP@@PAT_LARGE_INTEGER@@5@Z"
+    },
+    {
+      "offset": 39948,
+      "name": "?WerpTraceImageCacheStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_IMAGE_CACHE@@PAT_LARGE_INTEGER@@@Z"
+    },
+    {
+      "offset": 39948,
+      "name": "__imp_?WerpTraceImageCacheStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_IMAGE_CACHE@@PAT_LARGE_INTEGER@@@Z"
+    },
+    {
+      "offset": 40132,
+      "name": "?WerpTraceSnapshotStatistics@@YGXP6GXPAXKPBGPAD@Z00@Z"
+    },
+    {
+      "offset": 40132,
+      "name": "__imp_?WerpTraceSnapshotStatistics@@YGXP6GXPAXKPBGPAD@Z00@Z"
+    },
+    {
+      "offset": 40274,
+      "name": "?WerpTraceStitchedDumpWriterStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_STITCHED_DUMP_WRITER@@PAT_LARGE_INTEGER@@@Z"
+    },
+    {
+      "offset": 40274,
+      "name": "__imp_?WerpTraceStitchedDumpWriterStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_STITCHED_DUMP_WRITER@@PAT_LARGE_INTEGER@@@Z"
+    },
+    {
+      "offset": 40476,
+      "name": "?WerpTraceUnmappedVaRangesStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_UNMAPPED_VA_RANGES@@PAT_LARGE_INTEGER@@5@Z"
+    },
+    {
+      "offset": 40476,
+      "name": "__imp_?WerpTraceUnmappedVaRangesStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_UNMAPPED_VA_RANGES@@PAT_LARGE_INTEGER@@5@Z"
+    },
+    {
+      "offset": 39794,
+      "name": "?WerpTraceDuration@@YGXP6GXPAXKPBGPAD@Z0KPAT_LARGE_INTEGER@@44@Z"
+    },
+    {
+      "offset": 39794,
+      "name": "__imp_?WerpTraceDuration@@YGXP6GXPAXKPBGPAD@Z0KPAT_LARGE_INTEGER@@44@Z"
+    },
+    {
+      "offset": 30784,
+      "name": "?WerpForceDeferredCollection@@YGKPAXP6GX0KPBGPAD@Z0@Z"
+    },
+    {
+      "offset": 30784,
+      "name": "__imp_?WerpForceDeferredCollection@@YGKPAXP6GX0KPBGPAD@Z0@Z"
+    },
+    {
+      "offset": 40948,
+      "name": "?WerpWalkGatherBlocks@@YGJPAU_WER_GATHER@@PAPAXPAX1@Z"
+    },
+    {
+      "offset": 40948,
+      "name": "__imp_?WerpWalkGatherBlocks@@YGJPAU_WER_GATHER@@PAPAXPAX1@Z"
+    },
+    {
+      "offset": 32612,
+      "name": "?WerpGetReportCount@@YGJPAXPAK@Z"
+    },
+    {
+      "offset": 32612,
+      "name": "__imp_?WerpGetReportCount@@YGJPAXPAK@Z"
+    },
+    {
+      "offset": 44264,
+      "name": "_WerpAddTerminationReason@16"
+    },
+    {
+      "offset": 44264,
+      "name": "__imp__WerpAddTerminationReason@16"
+    },
+    {
+      "offset": 46766,
+      "name": "_WerpSetReportOption@12"
+    },
+    {
+      "offset": 46766,
+      "name": "__imp__WerpSetReportOption@12"
+    },
+    {
+      "offset": 46656,
+      "name": "_WerpSetIptEnabled@8"
+    },
+    {
+      "offset": 46656,
+      "name": "__imp__WerpSetIptEnabled@8"
+    },
+    {
+      "offset": 37810,
+      "name": "?WerpSetReportIsFatal@@YGJPAXH@Z"
+    },
+    {
+      "offset": 37810,
+      "name": "__imp_?WerpSetReportIsFatal@@YGJPAXH@Z"
+    },
+    {
+      "offset": 37260,
+      "name": "?WerpSetQuickDumpType@@YGJPAXW4_WER_DUMP_TYPE@@@Z"
+    },
+    {
+      "offset": 37260,
+      "name": "__imp_?WerpSetQuickDumpType@@YGJPAXW4_WER_DUMP_TYPE@@@Z"
+    },
+    {
+      "offset": 33004,
+      "name": "?WerpGetReportId@@YGJPAXPAGK@Z"
+    },
+    {
+      "offset": 33004,
+      "name": "__imp_?WerpGetReportId@@YGJPAXPAGK@Z"
+    },
+    {
+      "offset": 46878,
+      "name": "_WerpSetTtdStatus@8"
+    },
+    {
+      "offset": 46878,
+      "name": "__imp__WerpSetTtdStatus@8"
+    },
+    {
+      "offset": 46426,
+      "name": "_WerpSetExitListeners@0"
+    },
+    {
+      "offset": 46426,
+      "name": "__imp__WerpSetExitListeners@0"
+    },
+    {
+      "offset": 36148,
+      "name": "?WerpReportSetMaxProcessHoldMilliseconds@@YGJPAXK@Z"
+    },
+    {
+      "offset": 36148,
+      "name": "__imp_?WerpReportSetMaxProcessHoldMilliseconds@@YGJPAXK@Z"
+    },
+    {
+      "offset": 41560,
+      "name": "_WerAddExcludedApplication@8"
+    },
+    {
+      "offset": 41560,
+      "name": "__imp__WerAddExcludedApplication@8"
+    },
+    {
+      "offset": 41784,
+      "name": "_WerRemoveExcludedApplication@8"
+    },
+    {
+      "offset": 41784,
+      "name": "__imp__WerRemoveExcludedApplication@8"
+    },
+    {
+      "offset": 28660,
+      "name": "?WerUnattendedSetup@@YGXXZ"
+    },
+    {
+      "offset": 28660,
+      "name": "__imp_?WerUnattendedSetup@@YGXXZ"
+    },
+    {
+      "offset": 28542,
+      "name": "?WerSysprepGeneralize@@YGKXZ"
+    },
+    {
+      "offset": 28542,
+      "name": "__imp_?WerSysprepGeneralize@@YGKXZ"
+    },
+    {
+      "offset": 28428,
+      "name": "?WerSysprepCleanup@@YGKXZ"
+    },
+    {
+      "offset": 28428,
+      "name": "__imp_?WerSysprepCleanup@@YGKXZ"
+    },
+    {
+      "offset": 41322,
+      "name": "_OpenThreadWaitChainSession@8"
+    },
+    {
+      "offset": 41322,
+      "name": "__imp__OpenThreadWaitChainSession@8"
+    },
+    {
+      "offset": 41090,
+      "name": "_CloseThreadWaitChainSession@4"
+    },
+    {
+      "offset": 41090,
+      "name": "__imp__CloseThreadWaitChainSession@4"
+    },
+    {
+      "offset": 41210,
+      "name": "_GetThreadWaitChain@28"
+    },
+    {
+      "offset": 41210,
+      "name": "__imp__GetThreadWaitChain@28"
+    },
+    {
+      "offset": 41440,
+      "name": "_RegisterWaitChainCOMCallback@8"
+    },
+    {
+      "offset": 41440,
+      "name": "__imp__RegisterWaitChainCOMCallback@8"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 28428,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3439248024,
+      "sizeOfData": 34,
+      "dllName": "wer.dll",
+      "symbolName": "?WerSysprepCleanup@@YGKXZ (unsigned long __stdcall WerSysprepCleanup(void))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "WerSysprepCleanup"
+    },
+    {
+      "offset": 28542,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4005051461,
+      "sizeOfData": 37,
+      "dllName": "wer.dll",
+      "symbolName": "?WerSysprepGeneralize@@YGKXZ (unsigned long __stdcall WerSysprepGeneralize(void))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "WerSysprepGeneralize"
+    },
+    {
+      "offset": 28660,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3867624464,
+      "sizeOfData": 35,
+      "dllName": "wer.dll",
+      "symbolName": "?WerUnattendedSetup@@YGXXZ (void __stdcall WerUnattendedSetup(void))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "WerUnattendedSetup"
+    },
+    {
+      "offset": 28776,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3548831476,
+      "sizeOfData": 44,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpAddAppCompatData@@YGJPAXPBG1@Z (long __stdcall WerpAddAppCompatData(void *,unsigned short const *,unsigned short const *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "WerpAddAppCompatData"
+    },
+    {
+      "offset": 28900,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3862769249,
+      "sizeOfData": 58,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpAddIfRegisteredForAppLocalDump@@YGJPAX0PBG@Z (long __stdcall WerpAddIfRegisteredForAppLocalDump(void *,void *,unsigned short const *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "WerpAddIfRegisteredForAppLocalDump"
+    },
+    {
+      "offset": 29038,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3456546008,
+      "sizeOfData": 42,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpAddMemoryBlock@@YGJPAXK0KK@Z (long __stdcall WerpAddMemoryBlock(void *,unsigned long,void *,unsigned long,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "WerpAddMemoryBlock"
+    },
+    {
+      "offset": 29160,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3656731956,
+      "sizeOfData": 50,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpAddRegisteredDataToReport@@YGJPAX0@Z (long __stdcall WerpAddRegisteredDataToReport(void *,void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "WerpAddRegisteredDataToReport"
+    },
+    {
+      "offset": 29290,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4000374274,
+      "sizeOfData": 51,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpAddRegisteredDumpsToReport@@YGJPAX0@Z (long __stdcall WerpAddRegisteredDumpsToReport(void *,void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "WerpAddRegisteredDumpsToReport"
+    },
+    {
+      "offset": 29422,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3766887261,
+      "sizeOfData": 54,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpAddRegisteredMetadataToReport@@YGJPAX0@Z (long __stdcall WerpAddRegisteredMetadataToReport(void *,void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "WerpAddRegisteredMetadataToReport"
+    },
+    {
+      "offset": 29556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3385330042,
+      "sizeOfData": 49,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpArchiveReport@@YGJPAXPBGHPAPAXPAH@Z (long __stdcall WerpArchiveReport(void *,unsigned short const *,int,void * *,int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "WerpArchiveReport"
+    },
+    {
+      "offset": 29686,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4171643866,
+      "sizeOfData": 36,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpCancelUpload@@YGJPAX@Z (long __stdcall WerpCancelUpload(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "WerpCancelUpload"
+    },
+    {
+      "offset": 29802,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4278478540,
+      "sizeOfData": 29,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpCleanWer@@YGJXZ (long __stdcall WerpCleanWer(void))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "WerpCleanWer"
+    },
+    {
+      "offset": 29912,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3633502845,
+      "sizeOfData": 34,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpCloseStore@@YGXPAX@Z (void __stdcall WerpCloseStore(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "WerpCloseStore"
+    },
+    {
+      "offset": 30026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3976991940,
+      "sizeOfData": 44,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpCreateMachineStore@@YGJPAPAX@Z (long __stdcall WerpCreateMachineStore(void * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "WerpCreateMachineStore"
+    },
+    {
+      "offset": 30150,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3878095186,
+      "sizeOfData": 39,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpDeleteReport@@YGJPAXPBG@Z (long __stdcall WerpDeleteReport(void *,unsigned short const *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "WerpDeleteReport"
+    },
+    {
+      "offset": 30270,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3295520066,
+      "sizeOfData": 42,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpDestroyWerString@@YGXPAPAX@Z (void __stdcall WerpDestroyWerString(void * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "WerpDestroyWerString"
+    },
+    {
+      "offset": 30392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3486585488,
+      "sizeOfData": 47,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpEnumerateStoreNext@@YGJPAXPAPAX@Z (long __stdcall WerpEnumerateStoreNext(void *,void * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "WerpEnumerateStoreNext"
+    },
+    {
+      "offset": 30520,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4104914953,
+      "sizeOfData": 43,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpEnumerateStoreStart@@YGJPAX@Z (long __stdcall WerpEnumerateStoreStart(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "WerpEnumerateStoreStart"
+    },
+    {
+      "offset": 30644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3558134470,
+      "sizeOfData": 59,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpFlushImageCache@@YGKPAU_WERP_IMAGE_CACHE@@K@Z (unsigned long __stdcall WerpFlushImageCache(struct _WERP_IMAGE_CACHE *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "WerpFlushImageCache"
+    },
+    {
+      "offset": 30784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3505840582,
+      "sizeOfData": 62,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpForceDeferredCollection@@YGKPAXP6GX0KPBGPAD@Z0@Z (unsigned long __stdcall WerpForceDeferredCollection(void *,void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "WerpForceDeferredCollection"
+    },
+    {
+      "offset": 30926,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3570864319,
+      "sizeOfData": 70,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpFreeUnmappedVaRanges@@YGXPAU_WERP_UNMAPPED_VA_RANGES@@@Z (void __stdcall WerpFreeUnmappedVaRanges(struct _WERP_UNMAPPED_VA_RANGES *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "WerpFreeUnmappedVaRanges"
+    },
+    {
+      "offset": 31076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4093840072,
+      "sizeOfData": 40,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetBucketId@@YGJPAXPAPAX@Z (long __stdcall WerpGetBucketId(void *,void * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "WerpGetBucketId"
+    },
+    {
+      "offset": 31196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3871521350,
+      "sizeOfData": 50,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetDynamicParameter@@YGJPAXKPAPBG1@Z (long __stdcall WerpGetDynamicParameter(void *,unsigned long,unsigned short const * *,unsigned short const * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "WerpGetDynamicParameter"
+    },
+    {
+      "offset": 31326,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3964790621,
+      "sizeOfData": 41,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetEventType@@YGJPAXPAPBG@Z (long __stdcall WerpGetEventType(void *,unsigned short const * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "WerpGetEventType"
+    },
+    {
+      "offset": 31448,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3962176736,
+      "sizeOfData": 51,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetExtendedDiagData@@YGJPAXPAPAXPAK@Z (long __stdcall WerpGetExtendedDiagData(void *,void * *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "WerpGetExtendedDiagData"
+    },
+    {
+      "offset": 31580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4039288955,
+      "sizeOfData": 69,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetFileByIndex@@YGJPAXKPAW4_WER_FILE_TYPE@@PAKPAPBG33@Z (long __stdcall WerpGetFileByIndex(void *,unsigned long,enum _WER_FILE_TYPE *,unsigned long *,unsigned short const * *,unsigned short const * *,unsigned short const * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "WerpGetFileByIndex"
+    },
+    {
+      "offset": 31730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3514805370,
+      "sizeOfData": 48,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetFilePathByIndex@@YGJPAXKPAPBG@Z (long __stdcall WerpGetFilePathByIndex(void *,unsigned long,unsigned short const * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "WerpGetFilePathByIndex"
+    },
+    {
+      "offset": 31858,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3719494167,
+      "sizeOfData": 46,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetLegacyBucketId@@YGJPAXPAPAX@Z (long __stdcall WerpGetLegacyBucketId(void *,void * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "WerpGetLegacyBucketId"
+    },
+    {
+      "offset": 31984,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3570193873,
+      "sizeOfData": 52,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetLoadedModuleByIndex@@YGJPAXKPAPBG@Z (long __stdcall WerpGetLoadedModuleByIndex(void *,unsigned long,unsigned short const * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "WerpGetLoadedModuleByIndex"
+    },
+    {
+      "offset": 32116,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3735417356,
+      "sizeOfData": 38,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetNumFiles@@YGJPAXPAK@Z (long __stdcall WerpGetNumFiles(void *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "WerpGetNumFiles"
+    },
+    {
+      "offset": 32234,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3740715746,
+      "sizeOfData": 46,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetNumLoadedModules@@YGJPAXPAK@Z (long __stdcall WerpGetNumLoadedModules(void *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "WerpGetNumLoadedModules"
+    },
+    {
+      "offset": 32360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3901384286,
+      "sizeOfData": 42,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetNumSigParams@@YGJPAXPAK@Z (long __stdcall WerpGetNumSigParams(void *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "WerpGetNumSigParams"
+    },
+    {
+      "offset": 32482,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3283569256,
+      "sizeOfData": 50,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetPathOfWERTempDirectory@@YGJPAGK@Z (long __stdcall WerpGetPathOfWERTempDirectory(unsigned short *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "WerpGetPathOfWERTempDirectory"
+    },
+    {
+      "offset": 32612,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4237866401,
+      "sizeOfData": 41,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetReportCount@@YGJPAXPAK@Z (long __stdcall WerpGetReportCount(void *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "WerpGetReportCount"
+    },
+    {
+      "offset": 32734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3907058921,
+      "sizeOfData": 67,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetReportFinalConsent@@YGJPAXPAW4_CONSENT_SETTING@@@Z (long __stdcall WerpGetReportFinalConsent(void *,enum _CONSENT_SETTING *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "WerpGetReportFinalConsent"
+    },
+    {
+      "offset": 32882,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3486907423,
+      "sizeOfData": 41,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetReportFlags@@YGJPAXPAK@Z (long __stdcall WerpGetReportFlags(void *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "WerpGetReportFlags"
+    },
+    {
+      "offset": 33004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3843770836,
+      "sizeOfData": 39,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetReportId@@YGJPAXPAGK@Z (long __stdcall WerpGetReportId(void *,unsigned short *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "WerpGetReportId"
+    },
+    {
+      "offset": 33124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3257503611,
+      "sizeOfData": 77,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetReportInformation@@YGJPAXPAPBU_WER_REPORT_INFORMATION_V5@@@Z (long __stdcall WerpGetReportInformation(void *,struct _WER_REPORT_INFORMATION_V5 const * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "WerpGetReportInformation"
+    },
+    {
+      "offset": 33282,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3736765838,
+      "sizeOfData": 57,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetReportSettings@@YGJPAXPAPAVCSettings@@@Z (long __stdcall WerpGetReportSettings(void *,class CSettings * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "WerpGetReportSettings"
+    },
+    {
+      "offset": 33420,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3522160773,
+      "sizeOfData": 51,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetReportTime@@YGJPAXPAU_FILETIME@@@Z (long __stdcall WerpGetReportTime(void *,struct _FILETIME *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "WerpGetReportTime"
+    },
+    {
+      "offset": 33552,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3345140975,
+      "sizeOfData": 59,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetReportType@@YGJPAXPAW4_WER_REPORT_TYPE@@@Z (long __stdcall WerpGetReportType(void *,enum _WER_REPORT_TYPE *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "WerpGetReportType"
+    },
+    {
+      "offset": 33692,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3874603153,
+      "sizeOfData": 41,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetResponseId@@YGJPAXPAH1@Z (long __stdcall WerpGetResponseId(void *,int *,int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "WerpGetResponseId"
+    },
+    {
+      "offset": 33814,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3887890022,
+      "sizeOfData": 49,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetSigParamByIndex@@YGJPAXKPAPBG1@Z (long __stdcall WerpGetSigParamByIndex(void *,unsigned long,unsigned short const * *,unsigned short const * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "WerpGetSigParamByIndex"
+    },
+    {
+      "offset": 33944,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3717626015,
+      "sizeOfData": 62,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetStorePath@@YGJW4_REPORT_STORE_TYPES@@PAGPAK@Z (long __stdcall WerpGetStorePath(enum _REPORT_STORE_TYPES,unsigned short *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "WerpGetStorePath"
+    },
+    {
+      "offset": 34086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3521389465,
+      "sizeOfData": 61,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetStoreType@@YGJPAXPAW4_REPORT_STORE_TYPES@@@Z (long __stdcall WerpGetStoreType(void *,enum _REPORT_STORE_TYPES *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "WerpGetStoreType"
+    },
+    {
+      "offset": 34228,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4101736159,
+      "sizeOfData": 49,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetTextFromReport@@YGJPAXPBGPAPBG@Z (long __stdcall WerpGetTextFromReport(void *,unsigned short const *,unsigned short const * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "WerpGetTextFromReport"
+    },
+    {
+      "offset": 34358,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3387718018,
+      "sizeOfData": 47,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetUIParamByIndex@@YGJPAXKPAPBG@Z (long __stdcall WerpGetUIParamByIndex(void *,unsigned long,unsigned short const * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "WerpGetUIParamByIndex"
+    },
+    {
+      "offset": 34486,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3361177195,
+      "sizeOfData": 51,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetUploadTime@@YGJPAXPAU_FILETIME@@@Z (long __stdcall WerpGetUploadTime(void *,struct _FILETIME *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "WerpGetUploadTime"
+    },
+    {
+      "offset": 34618,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4121891538,
+      "sizeOfData": 42,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetWerStringData@@YGPBGPAX@Z (unsigned short const * __stdcall WerpGetWerStringData(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "WerpGetWerStringData"
+    },
+    {
+      "offset": 34740,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4098616928,
+      "sizeOfData": 43,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpGetWow64Process@@YGJPAXPAK1@Z (long __stdcall WerpGetWow64Process(void *,unsigned long *,unsigned long *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "WerpGetWow64Process"
+    },
+    {
+      "offset": 34864,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4101795489,
+      "sizeOfData": 57,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpHashApplicationParameters@@YGXPAEPBG1PAGK@Z (void __stdcall WerpHashApplicationParameters(unsigned char *,unsigned short const *,unsigned short const *,unsigned short *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "WerpHashApplicationParameters"
+    },
+    {
+      "offset": 35002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4063439143,
+      "sizeOfData": 64,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpInitializeImageCache@@YGJPAU_WERP_IMAGE_CACHE@@K@Z (long __stdcall WerpInitializeImageCache(struct _WERP_IMAGE_CACHE *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "WerpInitializeImageCache"
+    },
+    {
+      "offset": 35146,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3645181856,
+      "sizeOfData": 32,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpIsOnBattery@@YGHXZ (int __stdcall WerpIsOnBattery(void))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "WerpIsOnBattery"
+    },
+    {
+      "offset": 35258,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3822724357,
+      "sizeOfData": 45,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpIsTransportAvailable@@YGJHPAH@Z (long __stdcall WerpIsTransportAvailable(int,int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "WerpIsTransportAvailable"
+    },
+    {
+      "offset": 35384,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4134851645,
+      "sizeOfData": 51,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpLoadReportFromBuffer@@YGJPAXKPAPAXH@Z (long __stdcall WerpLoadReportFromBuffer(void *,unsigned long,void * *,int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "WerpLoadReportFromBuffer"
+    },
+    {
+      "offset": 35516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3278212622,
+      "sizeOfData": 44,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpOpenMachineArchive@@YGJPAPAX@Z (long __stdcall WerpOpenMachineArchive(void * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "WerpOpenMachineArchive"
+    },
+    {
+      "offset": 35640,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3564754202,
+      "sizeOfData": 42,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpOpenMachineQueue@@YGJPAPAX@Z (long __stdcall WerpOpenMachineQueue(void * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "WerpOpenMachineQueue"
+    },
+    {
+      "offset": 35762,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3526946150,
+      "sizeOfData": 75,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpPromptUser@@YGJPAXPAUHWND__@@PAU_WER_USER_PROMPT_INPUT@@PAH@Z (long __stdcall WerpPromptUser(void *,struct HWND__ *,struct _WER_USER_PROMPT_INPUT *,int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "WerpPromptUser"
+    },
+    {
+      "offset": 35918,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3727650133,
+      "sizeOfData": 34,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpPruneStore@@YGJPAX@Z (long __stdcall WerpPruneStore(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "WerpPruneStore"
+    },
+    {
+      "offset": 36032,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3530337487,
+      "sizeOfData": 36,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpReportCancel@@YGJPAX@Z (long __stdcall WerpReportCancel(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "WerpReportCancel"
+    },
+    {
+      "offset": 36148,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3945330148,
+      "sizeOfData": 60,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpReportSetMaxProcessHoldMilliseconds@@YGJPAXK@Z (long __stdcall WerpReportSetMaxProcessHoldMilliseconds(void *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "WerpReportSetMaxProcessHoldMilliseconds"
+    },
+    {
+      "offset": 36288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3225020396,
+      "sizeOfData": 67,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpReportSprintfParameter@@YAJPAXKPAUHINSTANCE__@@IPBGZZ (long __cdecl WerpReportSprintfParameter(void *,unsigned long,struct HINSTANCE__ *,unsigned int,unsigned short const *,...))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "WerpReportSprintfParameter"
+    },
+    {
+      "offset": 36436,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4251637643,
+      "sizeOfData": 56,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpReserveMachineQueueReportDir@@YGJPAXPAGK@Z (long __stdcall WerpReserveMachineQueueReportDir(void *,unsigned short *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "WerpReserveMachineQueueReportDir"
+    },
+    {
+      "offset": 36572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3336974337,
+      "sizeOfData": 77,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpResetTransientImageCacheStatistics@@YGXPAU_WERP_IMAGE_CACHE@@@Z (void __stdcall WerpResetTransientImageCacheStatistics(struct _WERP_IMAGE_CACHE *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "WerpResetTransientImageCacheStatistics"
+    },
+    {
+      "offset": 36730,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3945398142,
+      "sizeOfData": 50,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpRestartApplication@@YGJPAXPBG1PAH2@Z (long __stdcall WerpRestartApplication(void *,unsigned short const *,unsigned short const *,int *,int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "WerpRestartApplication"
+    },
+    {
+      "offset": 36860,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3225003617,
+      "sizeOfData": 48,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetDynamicParameter@@YGJPAXKPBG1@Z (long __stdcall WerpSetDynamicParameter(void *,unsigned long,unsigned short const *,unsigned short const *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "WerpSetDynamicParameter"
+    },
+    {
+      "offset": 36988,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3246744129,
+      "sizeOfData": 39,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetEventName@@YGJPAXPBG@Z (long __stdcall WerpSetEventName(void *,unsigned short const *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "WerpSetEventName"
+    },
+    {
+      "offset": 37108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3623422324,
+      "sizeOfData": 71,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetProcessTimelines@@YGJPAXPBU_WER_PROCESS_TIMELINES@@K@Z (long __stdcall WerpSetProcessTimelines(void *,struct _WER_PROCESS_TIMELINES const *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "WerpSetProcessTimelines"
+    },
+    {
+      "offset": 37260,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3958934622,
+      "sizeOfData": 58,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetQuickDumpType@@YGJPAXW4_WER_DUMP_TYPE@@@Z (long __stdcall WerpSetQuickDumpType(void *,enum _WER_DUMP_TYPE))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "WerpSetQuickDumpType"
+    },
+    {
+      "offset": 37398,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3959015246,
+      "sizeOfData": 55,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetReportApplicationIdentity@@YGJPAXPAE@Z (long __stdcall WerpSetReportApplicationIdentity(void *,unsigned char *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "WerpSetReportApplicationIdentity"
+    },
+    {
+      "offset": 37534,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4031470331,
+      "sizeOfData": 39,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetReportFlags@@YGJPAXK@Z (long __stdcall WerpSetReportFlags(void *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "WerpSetReportFlags"
+    },
+    {
+      "offset": 37654,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3414402692,
+      "sizeOfData": 75,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetReportInformation@@YGJPAXPBU_WER_REPORT_INFORMATION_V5@@@Z (long __stdcall WerpSetReportInformation(void *,struct _WER_REPORT_INFORMATION_V5 const *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "WerpSetReportInformation"
+    },
+    {
+      "offset": 37810,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3269086652,
+      "sizeOfData": 41,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetReportIsFatal@@YGJPAXH@Z (long __stdcall WerpSetReportIsFatal(void *,int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "WerpSetReportIsFatal"
+    },
+    {
+      "offset": 37932,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3540266473,
+      "sizeOfData": 56,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetReportNamespaceParameter@@YGJPAXKPBG1@Z (long __stdcall WerpSetReportNamespaceParameter(void *,unsigned long,unsigned short const *,unsigned short const *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "WerpSetReportNamespaceParameter"
+    },
+    {
+      "offset": 38068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3753784039,
+      "sizeOfData": 51,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetReportTime@@YGJPAXPAU_FILETIME@@@Z (long __stdcall WerpSetReportTime(void *,struct _FILETIME *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "WerpSetReportTime"
+    },
+    {
+      "offset": 38200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4021420326,
+      "sizeOfData": 52,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetReportUploadContextToken@@YGJPAX0@Z (long __stdcall WerpSetReportUploadContextToken(void *,void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "WerpSetReportUploadContextToken"
+    },
+    {
+      "offset": 38332,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3346561811,
+      "sizeOfData": 75,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetTelemetryAppParams@@YGJPAXPBU_WER_TELEMETRY_APP_PARAMS@@@Z (long __stdcall WerpSetTelemetryAppParams(void *,struct _WER_TELEMETRY_APP_PARAMS const *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "WerpSetTelemetryAppParams"
+    },
+    {
+      "offset": 38488,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3274313626,
+      "sizeOfData": 49,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetTelemetryKernelParams@@YGJPAXK@Z (long __stdcall WerpSetTelemetryKernelParams(void *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "WerpSetTelemetryKernelParams"
+    },
+    {
+      "offset": 38618,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3696888677,
+      "sizeOfData": 54,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSetTelemetryServiceParams@@YGJPAXPBG1H@Z (long __stdcall WerpSetTelemetryServiceParams(void *,unsigned short const *,unsigned short const *,int))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "WerpSetTelemetryServiceParams"
+    },
+    {
+      "offset": 38752,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3728654619,
+      "sizeOfData": 47,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpShowUpsellUI@@YGJPAUHWND__@@PAH@Z (long __stdcall WerpShowUpsellUI(struct HWND__ *,int *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "WerpShowUpsellUI"
+    },
+    {
+      "offset": 38880,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3768462805,
+      "sizeOfData": 97,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpStitchedMinidumpVmPostReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXKKJ@Z (long __stdcall WerpStitchedMinidumpVmPostReadCallback(struct _WERP_STITCHED_DUMP_WRITER *,unsigned long *,unsigned __int64,void *,unsigned long,unsigned long,long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "WerpStitchedMinidumpVmPostReadCallback"
+    },
+    {
+      "offset": 39058,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3732325256,
+      "sizeOfData": 94,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpStitchedMinidumpVmPreReadCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAK_KPAXK@Z (long __stdcall WerpStitchedMinidumpVmPreReadCallback(struct _WERP_STITCHED_DUMP_WRITER *,unsigned long *,unsigned __int64,void *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "WerpStitchedMinidumpVmPreReadCallback"
+    },
+    {
+      "offset": 39232,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3390446977,
+      "sizeOfData": 111,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpStitchedMinidumpVmQueryCallback@@YGJPAU_WERP_STITCHED_DUMP_WRITER@@PAU_MINIDUMP_MEMORY_INFO@@_K@Z (long __stdcall WerpStitchedMinidumpVmQueryCallback(struct _WERP_STITCHED_DUMP_WRITER *,struct _MINIDUMP_MEMORY_INFO *,unsigned __int64))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "WerpStitchedMinidumpVmQueryCallback"
+    },
+    {
+      "offset": 39424,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3991761603,
+      "sizeOfData": 93,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpSubmitReportFromStore@@YGJPAXPBG0PAVIReportUI@@PAPAXKPAW4_WER_SUBMIT_RESULT@@@Z (long __stdcall WerpSubmitReportFromStore(void *,unsigned short const *,void *,class IReportUI *,void * *,unsigned long,enum _WER_SUBMIT_RESULT *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "WerpSubmitReportFromStore"
+    },
+    {
+      "offset": 39598,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3418592572,
+      "sizeOfData": 115,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpTraceAuxMemDumpStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_AUXILIARY_MEMORY_DUMP@@PAT_LARGE_INTEGER@@5@Z (void __stdcall WerpTraceAuxMemDumpStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_AUXILIARY_MEMORY_DUMP *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "WerpTraceAuxMemDumpStatistics"
+    },
+    {
+      "offset": 39794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4090122985,
+      "sizeOfData": 73,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpTraceDuration@@YGXP6GXPAXKPBGPAD@Z0KPAT_LARGE_INTEGER@@44@Z (void __stdcall WerpTraceDuration(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,unsigned long,union _LARGE_INTEGER *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "WerpTraceDuration"
+    },
+    {
+      "offset": 39948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3801982089,
+      "sizeOfData": 104,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpTraceImageCacheStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_IMAGE_CACHE@@PAT_LARGE_INTEGER@@@Z (void __stdcall WerpTraceImageCacheStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_IMAGE_CACHE *,union _LARGE_INTEGER *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "WerpTraceImageCacheStatistics"
+    },
+    {
+      "offset": 40132,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3333060056,
+      "sizeOfData": 62,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpTraceSnapshotStatistics@@YGXP6GXPAXKPBGPAD@Z00@Z (void __stdcall WerpTraceSnapshotStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "WerpTraceSnapshotStatistics"
+    },
+    {
+      "offset": 40274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4294590213,
+      "sizeOfData": 121,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpTraceStitchedDumpWriterStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_STITCHED_DUMP_WRITER@@PAT_LARGE_INTEGER@@@Z (void __stdcall WerpTraceStitchedDumpWriterStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_STITCHED_DUMP_WRITER *,union _LARGE_INTEGER *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "WerpTraceStitchedDumpWriterStatistics"
+    },
+    {
+      "offset": 40476,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3548778435,
+      "sizeOfData": 118,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpTraceUnmappedVaRangesStatistics@@YGXP6GXPAXKPBGPAD@Z0PAU_WERP_UNMAPPED_VA_RANGES@@PAT_LARGE_INTEGER@@5@Z (void __stdcall WerpTraceUnmappedVaRangesStatistics(void (__stdcall*)(void *,unsigned long,unsigned short const *,char *),void *,struct _WERP_UNMAPPED_VA_RANGES *,union _LARGE_INTEGER *,union _LARGE_INTEGER *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "WerpTraceUnmappedVaRangesStatistics"
+    },
+    {
+      "offset": 40674,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4186009043,
+      "sizeOfData": 71,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpUnmapProcessViews@@YGJPAU_WERP_UNMAPPED_VA_RANGES@@PAXK@Z (long __stdcall WerpUnmapProcessViews(struct _WERP_UNMAPPED_VA_RANGES *,void *,unsigned long))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "WerpUnmapProcessViews"
+    },
+    {
+      "offset": 40826,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3705728443,
+      "sizeOfData": 41,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpValidateReportKey@@YGJPBG@Z (long __stdcall WerpValidateReportKey(unsigned short const *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "WerpValidateReportKey"
+    },
+    {
+      "offset": 40948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3371347111,
+      "sizeOfData": 62,
+      "dllName": "wer.dll",
+      "symbolName": "?WerpWalkGatherBlocks@@YGJPAU_WER_GATHER@@PAPAXPAX1@Z (long __stdcall WerpWalkGatherBlocks(struct _WER_GATHER *,void * *,void *,void * *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "WerpWalkGatherBlocks"
+    },
+    {
+      "offset": 41090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3358531033,
+      "sizeOfData": 39,
+      "dllName": "wer.dll",
+      "symbolName": "_CloseThreadWaitChainSession@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "CloseThreadWaitChainSession"
+    },
+    {
+      "offset": 41210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4187591565,
+      "sizeOfData": 31,
+      "dllName": "wer.dll",
+      "symbolName": "_GetThreadWaitChain@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "GetThreadWaitChain"
+    },
+    {
+      "offset": 41322,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3294535278,
+      "sizeOfData": 38,
+      "dllName": "wer.dll",
+      "symbolName": "_OpenThreadWaitChainSession@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "OpenThreadWaitChainSession"
+    },
+    {
+      "offset": 41440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3536290109,
+      "sizeOfData": 40,
+      "dllName": "wer.dll",
+      "symbolName": "_RegisterWaitChainCOMCallback@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "RegisterWaitChainCOMCallback"
+    },
+    {
+      "offset": 41560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3455066222,
+      "sizeOfData": 37,
+      "dllName": "wer.dll",
+      "symbolName": "_WerAddExcludedApplication@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "WerAddExcludedApplication"
+    },
+    {
+      "offset": 41678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4184262596,
+      "sizeOfData": 25,
+      "dllName": "wer.dll",
+      "symbolName": "_WerFreeString@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "WerFreeString"
+    },
+    {
+      "offset": 41784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4052149816,
+      "sizeOfData": 40,
+      "dllName": "wer.dll",
+      "symbolName": "_WerRemoveExcludedApplication@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "WerRemoveExcludedApplication"
+    },
+    {
+      "offset": 41904,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3596587440,
+      "sizeOfData": 29,
+      "dllName": "wer.dll",
+      "symbolName": "_WerReportAddDump@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "WerReportAddDump"
+    },
+    {
+      "offset": 42014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3464127115,
+      "sizeOfData": 29,
+      "dllName": "wer.dll",
+      "symbolName": "_WerReportAddFile@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "WerReportAddFile"
+    },
+    {
+      "offset": 42124,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3456571442,
+      "sizeOfData": 32,
+      "dllName": "wer.dll",
+      "symbolName": "_WerReportCloseHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "WerReportCloseHandle"
+    },
+    {
+      "offset": 42236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3361553863,
+      "sizeOfData": 28,
+      "dllName": "wer.dll",
+      "symbolName": "_WerReportCreate@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "WerReportCreate"
+    },
+    {
+      "offset": 42344,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3628162948,
+      "sizeOfData": 34,
+      "dllName": "wer.dll",
+      "symbolName": "_WerReportSetParameter@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "WerReportSetParameter"
+    },
+    {
+      "offset": 42458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3993836349,
+      "sizeOfData": 33,
+      "dllName": "wer.dll",
+      "symbolName": "_WerReportSetUIOption@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "WerReportSetUIOption"
+    },
+    {
+      "offset": 42572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3635338482,
+      "sizeOfData": 28,
+      "dllName": "wer.dll",
+      "symbolName": "_WerReportSubmit@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "WerReportSubmit"
+    },
+    {
+      "offset": 42680,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3925611088,
+      "sizeOfData": 25,
+      "dllName": "wer.dll",
+      "symbolName": "_WerStoreClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "WerStoreClose"
+    },
+    {
+      "offset": 42786,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3659754085,
+      "sizeOfData": 37,
+      "dllName": "wer.dll",
+      "symbolName": "_WerStoreGetFirstReportKey@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "WerStoreGetFirstReportKey"
+    },
+    {
+      "offset": 42904,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3282968363,
+      "sizeOfData": 36,
+      "dllName": "wer.dll",
+      "symbolName": "_WerStoreGetNextReportKey@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "WerStoreGetNextReportKey"
+    },
+    {
+      "offset": 43020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3422293711,
+      "sizeOfData": 34,
+      "dllName": "wer.dll",
+      "symbolName": "_WerStoreGetReportCount@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "WerStoreGetReportCount"
+    },
+    {
+      "offset": 43134,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4194433372,
+      "sizeOfData": 33,
+      "dllName": "wer.dll",
+      "symbolName": "_WerStoreGetSizeOnDisk@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "WerStoreGetSizeOnDisk"
+    },
+    {
+      "offset": 43248,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3618854404,
+      "sizeOfData": 24,
+      "dllName": "wer.dll",
+      "symbolName": "_WerStoreOpen@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "WerStoreOpen"
+    },
+    {
+      "offset": 43352,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3334594373,
+      "sizeOfData": 25,
+      "dllName": "wer.dll",
+      "symbolName": "_WerStorePurge@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "WerStorePurge"
+    },
+    {
+      "offset": 43458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4080458890,
+      "sizeOfData": 42,
+      "dllName": "wer.dll",
+      "symbolName": "_WerStoreQueryReportMetadataV1@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "WerStoreQueryReportMetadataV1"
+    },
+    {
+      "offset": 43580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3658969717,
+      "sizeOfData": 42,
+      "dllName": "wer.dll",
+      "symbolName": "_WerStoreQueryReportMetadataV2@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "WerStoreQueryReportMetadataV2"
+    },
+    {
+      "offset": 43702,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3682036051,
+      "sizeOfData": 42,
+      "dllName": "wer.dll",
+      "symbolName": "_WerStoreQueryReportMetadataV3@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "WerStoreQueryReportMetadataV3"
+    },
+    {
+      "offset": 43824,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3347977919,
+      "sizeOfData": 33,
+      "dllName": "wer.dll",
+      "symbolName": "_WerStoreUploadReport@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "WerStoreUploadReport"
+    },
+    {
+      "offset": 43938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4252561008,
+      "sizeOfData": 24,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpAddFile@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "WerpAddFile"
+    },
+    {
+      "offset": 44042,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4291144860,
+      "sizeOfData": 30,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpAddFileBuffer@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "WerpAddFileBuffer"
+    },
+    {
+      "offset": 44152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3334412029,
+      "sizeOfData": 32,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpAddFileCallback@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "WerpAddFileCallback"
+    },
+    {
+      "offset": 44264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3381039745,
+      "sizeOfData": 37,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpAddTerminationReason@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "WerpAddTerminationReason"
+    },
+    {
+      "offset": 44382,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3682699025,
+      "sizeOfData": 38,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpAuxmdDumpProcessImages@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "WerpAuxmdDumpProcessImages"
+    },
+    {
+      "offset": 44500,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3754805191,
+      "sizeOfData": 41,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpAuxmdDumpRegisteredBlocks@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "WerpAuxmdDumpRegisteredBlocks"
+    },
+    {
+      "offset": 44622,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3493815973,
+      "sizeOfData": 25,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpAuxmdFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "WerpAuxmdFree"
+    },
+    {
+      "offset": 44728,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3894180382,
+      "sizeOfData": 35,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpAuxmdFreeCopyBuffer@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "WerpAuxmdFreeCopyBuffer"
+    },
+    {
+      "offset": 44844,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3653195294,
+      "sizeOfData": 33,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpAuxmdHashVaRanges@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "WerpAuxmdHashVaRanges"
+    },
+    {
+      "offset": 44958,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3656966464,
+      "sizeOfData": 32,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpAuxmdInitialize@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "WerpAuxmdInitialize"
+    },
+    {
+      "offset": 45070,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3404947246,
+      "sizeOfData": 28,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpAuxmdMapFile@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "WerpAuxmdMapFile"
+    },
+    {
+      "offset": 45178,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3713162735,
+      "sizeOfData": 40,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpCreateIntegratorReportId@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "WerpCreateIntegratorReportId"
+    },
+    {
+      "offset": 45298,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4131653236,
+      "sizeOfData": 35,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpExtractReportFiles@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "WerpExtractReportFiles"
+    },
+    {
+      "offset": 45414,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3926987318,
+      "sizeOfData": 26,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpFreeString@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "WerpFreeString"
+    },
+    {
+      "offset": 45520,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3391059303,
+      "sizeOfData": 37,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpGetIntegratorReportId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "WerpGetIntegratorReportId"
+    },
+    {
+      "offset": 45638,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3499691587,
+      "sizeOfData": 33,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpGetReportConsent@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "WerpGetReportConsent"
+    },
+    {
+      "offset": 45752,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3999037152,
+      "sizeOfData": 33,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpGetStoreLocation@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "WerpGetStoreLocation"
+    },
+    {
+      "offset": 45866,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4011572970,
+      "sizeOfData": 26,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpIsDisabled@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "WerpIsDisabled"
+    },
+    {
+      "offset": 45972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4064528280,
+      "sizeOfData": 27,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpLoadReport@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "WerpLoadReport"
+    },
+    {
+      "offset": 46080,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3574165705,
+      "sizeOfData": 39,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpSetAuxiliaryArchivePath@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "WerpSetAuxiliaryArchivePath"
+    },
+    {
+      "offset": 46200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3969397883,
+      "sizeOfData": 28,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpSetCallBack@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "WerpSetCallBack"
+    },
+    {
+      "offset": 46308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3824106038,
+      "sizeOfData": 37,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpSetDefaultUserConsent@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "WerpSetDefaultUserConsent"
+    },
+    {
+      "offset": 46426,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4019763149,
+      "sizeOfData": 32,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpSetExitListeners@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "WerpSetExitListeners"
+    },
+    {
+      "offset": 46538,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4042844774,
+      "sizeOfData": 37,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpSetIntegratorReportId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "WerpSetIntegratorReportId"
+    },
+    {
+      "offset": 46656,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4113540872,
+      "sizeOfData": 29,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpSetIptEnabled@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "WerpSetIptEnabled"
+    },
+    {
+      "offset": 46766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3888390488,
+      "sizeOfData": 32,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpSetReportOption@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "WerpSetReportOption"
+    },
+    {
+      "offset": 46878,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3631360685,
+      "sizeOfData": 28,
+      "dllName": "wer.dll",
+      "symbolName": "_WerpSetTtdStatus@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "WerpSetTtdStatus"
+    }
+  ]
+}

@@ -1,0 +1,2610 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\powrprof.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    1F22 size
+correct header end
+
+    221 public symbols
+
+     3ECE __IMPORT_DESCRIPTOR_POWRPROF
+     40FC __NULL_IMPORT_DESCRIPTOR
+     4234 POWRPROF_NULL_THUNK_DATA
+     4982 _GetPwrDiskSpindownRange@8
+     4982 __imp__GetPwrDiskSpindownRange@8
+     46BC _EnumPwrSchemes@8
+     46BC __imp__EnumPwrSchemes@8
+     7490 _ReadPwrScheme@8
+     7490 __imp__ReadPwrScheme@8
+     73A4 _ReadGlobalPwrPolicy@4
+     73A4 __imp__ReadGlobalPwrPolicy@4
+     7748 _WritePwrScheme@16
+     7748 __imp__WritePwrScheme@16
+     765A _WriteGlobalPwrPolicy@4
+     765A __imp__WriteGlobalPwrPolicy@4
+     4476 _DeletePwrScheme@4
+     4476 __imp__DeletePwrScheme@4
+     4822 _GetActivePwrScheme@4
+     4822 __imp__GetActivePwrScheme@4
+     74FE _SetActivePwrScheme@12
+     74FE __imp__SetActivePwrScheme@12
+     4B5C _IsPwrSuspendAllowed@0
+     4B5C __imp__IsPwrSuspendAllowed@0
+     4A70 _IsPwrHibernateAllowed@0
+     4A70 __imp__IsPwrHibernateAllowed@0
+     4AE6 _IsPwrShutdownAllowed@0
+     4AE6 __imp__IsPwrShutdownAllowed@0
+     49FA _IsAdminOverrideActive@4
+     49FA __imp__IsAdminOverrideActive@4
+     7572 _SetSuspendState@12
+     7572 __imp__SetSuspendState@12
+     75E4 _ValidatePowerPolicies@8
+     75E4 __imp__ValidatePowerPolicies@8
+     4896 _GetCurrentPowerPolicies@8
+     4896 __imp__GetCurrentPowerPolicies@8
+     4400 _CanUserWritePwrScheme@0
+     4400 __imp__CanUserWritePwrScheme@0
+     7418 _ReadProcessorPwrScheme@8
+     7418 __imp__ReadProcessorPwrScheme@8
+     76D0 _WriteProcessorPwrScheme@8
+     76D0 __imp__WriteProcessorPwrScheme@8
+     64DC _PowerReportThermalEvent@4
+     64DC __imp__PowerReportThermalEvent@4
+     45D0 _DevicePowerOpen@4
+     45D0 __imp__DevicePowerOpen@4
+     44E6 _DevicePowerClose@0
+     44E6 __imp__DevicePowerClose@0
+     4558 _DevicePowerEnumDevices@20
+     4558 __imp__DevicePowerEnumDevices@20
+     4640 _DevicePowerSetDeviceState@12
+     4640 __imp__DevicePowerSetDeviceState@12
+     615A _PowerRegisterForEffectivePowerModeNotifications@16
+     615A __imp__PowerRegisterForEffectivePowerModeNotifications@16
+     694A _PowerUnregisterFromEffectivePowerModeNotifications@4
+     694A __imp__PowerUnregisterFromEffectivePowerModeNotifications@4
+     593E _PowerReadACValueIndex@20
+     593E __imp__PowerReadACValueIndex@20
+     5AA2 _PowerReadDCValueIndex@20
+     5AA2 __imp__PowerReadDCValueIndex@20
+     5B90 _PowerReadFriendlyName@24
+     5B90 __imp__PowerReadFriendlyName@24
+     5B1A _PowerReadDescription@24
+     5B1A __imp__PowerReadDescription@24
+     5D86 _PowerReadPossibleValue@28
+     5D86 __imp__PowerReadPossibleValue@28
+     5D06 _PowerReadPossibleFriendlyName@24
+     5D06 __imp__PowerReadPossibleFriendlyName@24
+     5C88 _PowerReadPossibleDescription@24
+     5C88 __imp__PowerReadPossibleDescription@24
+     5DFE _PowerReadSecurityDescriptor@12
+     5DFE __imp__PowerReadSecurityDescriptor@12
+     5E7C _PowerReadSettingAttributes@8
+     5E7C __imp__PowerReadSettingAttributes@8
+     5FE6 _PowerReadValueMin@16
+     5FE6 __imp__PowerReadValueMin@16
+     5F72 _PowerReadValueMax@16
+     5F72 __imp__PowerReadValueMax@16
+     5EF8 _PowerReadValueIncrement@16
+     5EF8 __imp__PowerReadValueIncrement@16
+     605A _PowerReadValueUnitsSpecifier@20
+     605A __imp__PowerReadValueUnitsSpecifier@20
+     5852 _PowerReadACDefaultIndex@20
+     5852 __imp__PowerReadACDefaultIndex@20
+     59B6 _PowerReadDCDefaultIndex@20
+     59B6 __imp__PowerReadDCDefaultIndex@20
+     5C08 _PowerReadIconResourceSpecifier@24
+     5C08 __imp__PowerReadIconResourceSpecifier@24
+     566C _PowerIsSettingRangeDefined@8
+     566C __imp__PowerIsSettingRangeDefined@8
+     6E52 _PowerWriteFriendlyName@24
+     6E52 __imp__PowerWriteFriendlyName@24
+     6DDA _PowerWriteDescription@24
+     6DDA __imp__PowerWriteDescription@24
+     704C _PowerWritePossibleValue@28
+     704C __imp__PowerWritePossibleValue@28
+     6FCC _PowerWritePossibleFriendlyName@24
+     6FCC __imp__PowerWritePossibleFriendlyName@24
+     6F4C _PowerWritePossibleDescription@24
+     6F4C __imp__PowerWritePossibleDescription@24
+     70C6 _PowerWriteSecurityDescriptor@12
+     70C6 __imp__PowerWriteSecurityDescriptor@12
+     7144 _PowerWriteSettingAttributes@12
+     7144 __imp__PowerWriteSettingAttributes@12
+     72B0 _PowerWriteValueMin@16
+     72B0 __imp__PowerWriteValueMin@16
+     723C _PowerWriteValueMax@16
+     723C __imp__PowerWriteValueMax@16
+     71C2 _PowerWriteValueIncrement@16
+     71C2 __imp__PowerWriteValueIncrement@16
+     7324 _PowerWriteValueUnitsSpecifier@20
+     7324 __imp__PowerWriteValueUnitsSpecifier@20
+     6BF6 _PowerWriteACDefaultIndex@20
+     6BF6 __imp__PowerWriteACDefaultIndex@20
+     6CE8 _PowerWriteDCDefaultIndex@20
+     6CE8 __imp__PowerWriteDCDefaultIndex@20
+     6ECA _PowerWriteIconResourceSpecifier@24
+     6ECA __imp__PowerWriteIconResourceSpecifier@24
+     5498 _PowerDuplicateScheme@12
+     5498 __imp__PowerDuplicateScheme@12
+     532C _PowerDeleteScheme@8
+     532C __imp__PowerDeleteScheme@8
+     636C _PowerRemovePowerSetting@8
+     636C __imp__PowerRemovePowerSetting@8
+     4FB8 _PowerCreateSetting@12
+     4FB8 __imp__PowerCreateSetting@12
+     4F3C _PowerCreatePossibleSetting@16
+     4F3C __imp__PowerCreatePossibleSetting@16
+     55F4 _PowerImportPowerScheme@12
+     55F4 __imp__PowerImportPowerScheme@12
+     550E _PowerEnumerate@28
+     550E __imp__PowerEnumerate@28
+     66D4 _PowerSetAlsBrightnessOffset@4
+     66D4 __imp__PowerSetAlsBrightnessOffset@4
+     56E8 _PowerOpenSystemPowerKey@12
+     56E8 __imp__PowerOpenSystemPowerKey@12
+     5762 _PowerOpenUserPowerKey@12
+     5762 __imp__PowerOpenUserPowerKey@12
+     57DA _PowerPolicyToGUIDFormat@8
+     57DA __imp__PowerPolicyToGUIDFormat@8
+     47AA _GUIDFormatToPowerPolicy@8
+     47AA __imp__GUIDFormatToPowerPolicy@8
+     472C _GUIDFormatToGlobalPowerPolicy@8
+     472C __imp__GUIDFormatToGlobalPowerPolicy@8
+     52AA _PowerDebugDumpSystemPowerPolicy@12
+     52AA __imp__PowerDebugDumpSystemPowerPolicy@12
+     512A _PowerDebugDumpPowerPolicy@12
+     512A __imp__PowerDebugDumpPowerPolicy@12
+     5222 _PowerDebugDumpSystemPowerCapabilities@12
+     5222 __imp__PowerDebugDumpSystemPowerCapabilities@12
+     50A8 _PowerDebugDifSystemPowerPolicies@16
+     50A8 __imp__PowerDebugDifSystemPowerPolicies@16
+     502C _PowerDebugDifPowerPolicies@16
+     502C __imp__PowerDebugDifPowerPolicies@16
+     51A6 _PowerDebugDumpPowerScheme@12
+     51A6 __imp__PowerDebugDumpPowerScheme@12
+     4D3C _PowerCanRestoreIndividualDefaultPowerScheme@4
+     4D3C __imp__PowerCanRestoreIndividualDefaultPowerScheme@4
+     65D4 _PowerRestoreIndividualDefaultPowerScheme@4
+     65D4 __imp__PowerRestoreIndividualDefaultPowerScheme@4
+     6554 _PowerRestoreDefaultPowerSchemes@0
+     6554 __imp__PowerRestoreDefaultPowerSchemes@0
+     63E4 _PowerReplaceDefaultPowerSchemes@0
+     63E4 __imp__PowerReplaceDefaultPowerSchemes@0
+     6750 _PowerSettingAccessCheck@8
+     6750 __imp__PowerSettingAccessCheck@8
+     67C8 _PowerSettingAccessCheckEx@12
+     67C8 __imp__PowerSettingAccessCheckEx@12
+     539E _PowerDeterminePlatformRole@0
+     539E __imp__PowerDeterminePlatformRole@0
+     4CBC _PowerApplyPowerRequestOverride@0
+     4CBC __imp__PowerApplyPowerRequestOverride@0
+     4BD0 _LoadCurrentPwrScheme@16
+     4BD0 __imp__LoadCurrentPwrScheme@16
+     4C46 _MergeLegacyPwrScheme@16
+     4C46 __imp__MergeLegacyPwrScheme@16
+     4388 _CallNtPowerInformation@20
+     4388 __imp__CallNtPowerInformation@20
+     490E _GetPwrCapabilities@4
+     490E __imp__GetPwrCapabilities@4
+     541A _PowerDeterminePlatformRoleEx@4
+     541A __imp__PowerDeterminePlatformRoleEx@4
+     62E4 _PowerRegisterSuspendResumeNotification@12
+     62E4 __imp__PowerRegisterSuspendResumeNotification@12
+     69DE _PowerUnregisterSuspendResumeNotification@4
+     69DE __imp__PowerUnregisterSuspendResumeNotification@4
+     58CC _PowerReadACValue@28
+     58CC __imp__PowerReadACValue@28
+     5A30 _PowerReadDCValue@28
+     5A30 __imp__PowerReadDCValue@28
+     6C70 _PowerWriteACValueIndex@20
+     6C70 __imp__PowerWriteACValueIndex@20
+     6D62 _PowerWriteDCValueIndex@20
+     6D62 __imp__PowerWriteDCValueIndex@20
+     557E _PowerGetActiveScheme@8
+     557E __imp__PowerGetActiveScheme@8
+     665E _PowerSetActiveScheme@8
+     665E __imp__PowerSetActiveScheme@8
+     6844 _PowerSettingRegisterNotification@16
+     6844 __imp__PowerSettingRegisterNotification@16
+     68C6 _PowerSettingUnregisterNotification@4
+     68C6 __imp__PowerSettingUnregisterNotification@4
+     60D8 _PowerRegisterEnvironmentalMonitor@8
+     60D8 __imp__PowerRegisterEnvironmentalMonitor@8
+     6A68 _PowerUpdateEnvironmentalMonitorState@12
+     6A68 __imp__PowerUpdateEnvironmentalMonitorState@12
+     6AEE _PowerUpdateEnvironmentalMonitorThresholds@12
+     6AEE __imp__PowerUpdateEnvironmentalMonitorThresholds@12
+     4DC8 _PowerCloseEnvironmentalMonitor@4
+     4DC8 __imp__PowerCloseEnvironmentalMonitor@4
+     626A _PowerRegisterLimitsPolicy@8
+     626A __imp__PowerRegisterLimitsPolicy@8
+     4EC4 _PowerCloseLimitsPolicy@4
+     4EC4 __imp__PowerCloseLimitsPolicy@4
+     6464 _PowerReportLimitsEvent@4
+     6464 __imp__PowerReportLimitsEvent@4
+     61EC _PowerRegisterLimitsMitigation@8
+     61EC __imp__PowerRegisterLimitsMitigation@8
+     6B7A _PowerUpdateLimitsMitigation@8
+     6B7A __imp__PowerUpdateLimitsMitigation@8
+     4E48 _PowerCloseLimitsMitigation@4
+     4E48 __imp__PowerCloseLimitsMitigation@4
+
+Archive member name at 3ECE: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1F2 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        C1C11B37 time date stamp
+             10E file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CE file pointer to raw data (000000CE to 000000E1)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       E size of raw data
+     100 file pointer to raw data (00000100 to 0000010D)
+      E2 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 40FC: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FB size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        F38B7B91 time date stamp
+              BA file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      64 file pointer to raw data (00000064 to 000000A5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A6 file pointer to raw data (000000A6 to 000000B9)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 4234: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     118 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E0BB24BD time date stamp
+              D6 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      42 size of raw data
+      8C file pointer to raw data (0000008C to 000000CD)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CE file pointer to raw data (000000CE to 000000D1)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D2 file pointer to raw data (000000D2 to 000000D5)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 4388: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD558752
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _CallNtPowerInformation@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : CallNtPowerInformation
+
+Archive member name at 4400: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0C7E648
+  SizeOfData   : 00000026
+  DLL name     : POWRPROF.dll
+  Symbol name  : _CanUserWritePwrScheme@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : CanUserWritePwrScheme
+
+Archive member name at 4476: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFEAF27B
+  SizeOfData   : 00000020
+  DLL name     : POWRPROF.dll
+  Symbol name  : _DeletePwrScheme@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : DeletePwrScheme
+
+Archive member name at 44E6: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F93CAEDE
+  SizeOfData   : 00000021
+  DLL name     : POWRPROF.dll
+  Symbol name  : _DevicePowerClose@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : DevicePowerClose
+
+Archive member name at 4558: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB60AC71
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _DevicePowerEnumDevices@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : DevicePowerEnumDevices
+
+Archive member name at 45D0: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F12F6967
+  SizeOfData   : 00000020
+  DLL name     : POWRPROF.dll
+  Symbol name  : _DevicePowerOpen@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : DevicePowerOpen
+
+Archive member name at 4640: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E99CFD67
+  SizeOfData   : 0000002B
+  DLL name     : POWRPROF.dll
+  Symbol name  : _DevicePowerSetDeviceState@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : DevicePowerSetDeviceState
+
+Archive member name at 46BC: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5C4A984
+  SizeOfData   : 0000001F
+  DLL name     : POWRPROF.dll
+  Symbol name  : _EnumPwrSchemes@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : EnumPwrSchemes
+
+Archive member name at 472C: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1D2ABC1
+  SizeOfData   : 0000002E
+  DLL name     : POWRPROF.dll
+  Symbol name  : _GUIDFormatToGlobalPowerPolicy@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : GUIDFormatToGlobalPowerPolicy
+
+Archive member name at 47AA: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C86B2810
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _GUIDFormatToPowerPolicy@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : GUIDFormatToPowerPolicy
+
+Archive member name at 4822: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9B1944C
+  SizeOfData   : 00000023
+  DLL name     : POWRPROF.dll
+  Symbol name  : _GetActivePwrScheme@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : GetActivePwrScheme
+
+Archive member name at 4896: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E07AFAD3
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _GetCurrentPowerPolicies@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : GetCurrentPowerPolicies
+
+Archive member name at 490E: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE70A2F1
+  SizeOfData   : 00000023
+  DLL name     : POWRPROF.dll
+  Symbol name  : _GetPwrCapabilities@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : GetPwrCapabilities
+
+Archive member name at 4982: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F556CB42
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _GetPwrDiskSpindownRange@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : GetPwrDiskSpindownRange
+
+Archive member name at 49FA: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1B2F1DD
+  SizeOfData   : 00000026
+  DLL name     : POWRPROF.dll
+  Symbol name  : _IsAdminOverrideActive@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : IsAdminOverrideActive
+
+Archive member name at 4A70: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAD7F3C1
+  SizeOfData   : 00000026
+  DLL name     : POWRPROF.dll
+  Symbol name  : _IsPwrHibernateAllowed@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : IsPwrHibernateAllowed
+
+Archive member name at 4AE6: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9030C8E
+  SizeOfData   : 00000025
+  DLL name     : POWRPROF.dll
+  Symbol name  : _IsPwrShutdownAllowed@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : IsPwrShutdownAllowed
+
+Archive member name at 4B5C: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7E1B072
+  SizeOfData   : 00000024
+  DLL name     : POWRPROF.dll
+  Symbol name  : _IsPwrSuspendAllowed@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : IsPwrSuspendAllowed
+
+Archive member name at 4BD0: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D21D3D1A
+  SizeOfData   : 00000026
+  DLL name     : POWRPROF.dll
+  Symbol name  : _LoadCurrentPwrScheme@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : LoadCurrentPwrScheme
+
+Archive member name at 4C46: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC6E75A1
+  SizeOfData   : 00000026
+  DLL name     : POWRPROF.dll
+  Symbol name  : _MergeLegacyPwrScheme@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : MergeLegacyPwrScheme
+
+Archive member name at 4CBC: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0EEBF37
+  SizeOfData   : 0000002F
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerApplyPowerRequestOverride@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : PowerApplyPowerRequestOverride
+
+Archive member name at 4D3C: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      50 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFD6E9DE
+  SizeOfData   : 0000003C
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerCanRestoreIndividualDefaultPowerScheme@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : PowerCanRestoreIndividualDefaultPowerScheme
+
+Archive member name at 4DC8: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0E9A57F
+  SizeOfData   : 0000002F
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerCloseEnvironmentalMonitor@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : PowerCloseEnvironmentalMonitor
+
+Archive member name at 4E48: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5BAF146
+  SizeOfData   : 0000002B
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerCloseLimitsMitigation@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : PowerCloseLimitsMitigation
+
+Archive member name at 4EC4: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1890A49
+  SizeOfData   : 00000027
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerCloseLimitsPolicy@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : PowerCloseLimitsPolicy
+
+Archive member name at 4F3C: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA990C20
+  SizeOfData   : 0000002C
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerCreatePossibleSetting@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : PowerCreatePossibleSetting
+
+Archive member name at 4FB8: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD21020C
+  SizeOfData   : 00000024
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerCreateSetting@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : PowerCreateSetting
+
+Archive member name at 502C: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4E522BE
+  SizeOfData   : 0000002C
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerDebugDifPowerPolicies@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : PowerDebugDifPowerPolicies
+
+Archive member name at 50A8: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1F6FAF3
+  SizeOfData   : 00000032
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerDebugDifSystemPowerPolicies@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : PowerDebugDifSystemPowerPolicies
+
+Archive member name at 512A: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE389546
+  SizeOfData   : 0000002B
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerDebugDumpPowerPolicy@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : PowerDebugDumpPowerPolicy
+
+Archive member name at 51A6: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB0C3CDE
+  SizeOfData   : 0000002B
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerDebugDumpPowerScheme@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : PowerDebugDumpPowerScheme
+
+Archive member name at 5222: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAEFD7A9
+  SizeOfData   : 00000037
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerDebugDumpSystemPowerCapabilities@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : PowerDebugDumpSystemPowerCapabilities
+
+Archive member name at 52AA: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FCC5A0CD
+  SizeOfData   : 00000031
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerDebugDumpSystemPowerPolicy@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : PowerDebugDumpSystemPowerPolicy
+
+Archive member name at 532C: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6F8AB0D
+  SizeOfData   : 00000022
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerDeleteScheme@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : PowerDeleteScheme
+
+Archive member name at 539E: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6DA0FDC
+  SizeOfData   : 0000002B
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerDeterminePlatformRole@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : PowerDeterminePlatformRole
+
+Archive member name at 541A: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA6C6593
+  SizeOfData   : 0000002D
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerDeterminePlatformRoleEx@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : PowerDeterminePlatformRoleEx
+
+Archive member name at 5498: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAE7376A
+  SizeOfData   : 00000026
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerDuplicateScheme@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : PowerDuplicateScheme
+
+Archive member name at 550E: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7082E2F
+  SizeOfData   : 00000020
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerEnumerate@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : PowerEnumerate
+
+Archive member name at 557E: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7F1EF92
+  SizeOfData   : 00000025
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerGetActiveScheme@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : PowerGetActiveScheme
+
+Archive member name at 55F4: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4F18250
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerImportPowerScheme@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : PowerImportPowerScheme
+
+Archive member name at 566C: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2F063FC
+  SizeOfData   : 0000002B
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerIsSettingRangeDefined@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : PowerIsSettingRangeDefined
+
+Archive member name at 56E8: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCEADAB1
+  SizeOfData   : 00000029
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerOpenSystemPowerKey@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : PowerOpenSystemPowerKey
+
+Archive member name at 5762: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEDAB1D5
+  SizeOfData   : 00000027
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerOpenUserPowerKey@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : PowerOpenUserPowerKey
+
+Archive member name at 57DA: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0F3F44D
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerPolicyToGUIDFormat@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : PowerPolicyToGUIDFormat
+
+Archive member name at 5852: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAF607F7
+  SizeOfData   : 00000029
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadACDefaultIndex@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : PowerReadACDefaultIndex
+
+Archive member name at 58CC: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA243412
+  SizeOfData   : 00000022
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadACValue@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : PowerReadACValue
+
+Archive member name at 593E: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB902017
+  SizeOfData   : 00000027
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadACValueIndex@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : PowerReadACValueIndex
+
+Archive member name at 59B6: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEA1A71B
+  SizeOfData   : 00000029
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadDCDefaultIndex@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : PowerReadDCDefaultIndex
+
+Archive member name at 5A30: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0B9033D
+  SizeOfData   : 00000022
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadDCValue@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : PowerReadDCValue
+
+Archive member name at 5AA2: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFAA329B
+  SizeOfData   : 00000027
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadDCValueIndex@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : PowerReadDCValueIndex
+
+Archive member name at 5B1A: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F21150A8
+  SizeOfData   : 00000026
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadDescription@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : PowerReadDescription
+
+Archive member name at 5B90: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9850F11
+  SizeOfData   : 00000027
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadFriendlyName@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : PowerReadFriendlyName
+
+Archive member name at 5C08: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C509D929
+  SizeOfData   : 00000030
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadIconResourceSpecifier@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : PowerReadIconResourceSpecifier
+
+Archive member name at 5C88: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E094728A
+  SizeOfData   : 0000002E
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadPossibleDescription@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : PowerReadPossibleDescription
+
+Archive member name at 5D06: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D322BCCE
+  SizeOfData   : 0000002F
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadPossibleFriendlyName@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : PowerReadPossibleFriendlyName
+
+Archive member name at 5D86: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6DA9394
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadPossibleValue@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : PowerReadPossibleValue
+
+Archive member name at 5DFE: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF087EE5
+  SizeOfData   : 0000002D
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadSecurityDescriptor@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : PowerReadSecurityDescriptor
+
+Archive member name at 5E7C: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C226EE62
+  SizeOfData   : 0000002B
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadSettingAttributes@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : PowerReadSettingAttributes
+
+Archive member name at 5EF8: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB256FD3
+  SizeOfData   : 00000029
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadValueIncrement@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : PowerReadValueIncrement
+
+Archive member name at 5F72: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECA28F21
+  SizeOfData   : 00000023
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadValueMax@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : PowerReadValueMax
+
+Archive member name at 5FE6: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFC2C27F
+  SizeOfData   : 00000023
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadValueMin@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 74
+  Name         : PowerReadValueMin
+
+Archive member name at 605A: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB0C121E
+  SizeOfData   : 0000002E
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReadValueUnitsSpecifier@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 75
+  Name         : PowerReadValueUnitsSpecifier
+
+Archive member name at 60D8: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EABFEA73
+  SizeOfData   : 00000032
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerRegisterEnvironmentalMonitor@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : PowerRegisterEnvironmentalMonitor
+
+Archive member name at 615A: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      55 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBBF1501
+  SizeOfData   : 00000041
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerRegisterForEffectivePowerModeNotifications@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : PowerRegisterForEffectivePowerModeNotifications
+
+Archive member name at 61EC: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8FB11BE
+  SizeOfData   : 0000002E
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerRegisterLimitsMitigation@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : PowerRegisterLimitsMitigation
+
+Archive member name at 626A: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F290C111
+  SizeOfData   : 0000002A
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerRegisterLimitsPolicy@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 80
+  Name         : PowerRegisterLimitsPolicy
+
+Archive member name at 62E4: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1484360
+  SizeOfData   : 00000038
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerRegisterSuspendResumeNotification@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : PowerRegisterSuspendResumeNotification
+
+Archive member name at 636C: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EED6218E
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerRemovePowerSetting@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 82
+  Name         : PowerRemovePowerSetting
+
+Archive member name at 63E4: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D51356E4
+  SizeOfData   : 00000030
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReplaceDefaultPowerSchemes@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : PowerReplaceDefaultPowerSchemes
+
+Archive member name at 6464: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D30D6CDA
+  SizeOfData   : 00000027
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReportLimitsEvent@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 84
+  Name         : PowerReportLimitsEvent
+
+Archive member name at 64DC: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFD93DE5
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerReportThermalEvent@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 85
+  Name         : PowerReportThermalEvent
+
+Archive member name at 6554: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8D3A57F
+  SizeOfData   : 00000030
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerRestoreDefaultPowerSchemes@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 88
+  Name         : PowerRestoreDefaultPowerSchemes
+
+Archive member name at 65D4: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C692DE4A
+  SizeOfData   : 00000039
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerRestoreIndividualDefaultPowerScheme@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 89
+  Name         : PowerRestoreIndividualDefaultPowerScheme
+
+Archive member name at 665E: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4DE9EA8
+  SizeOfData   : 00000025
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerSetActiveScheme@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 91
+  Name         : PowerSetActiveScheme
+
+Archive member name at 66D4: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6482889
+  SizeOfData   : 0000002C
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerSetAlsBrightnessOffset@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 92
+  Name         : PowerSetAlsBrightnessOffset
+
+Archive member name at 6750: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1EE2E75
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerSettingAccessCheck@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 95
+  Name         : PowerSettingAccessCheck
+
+Archive member name at 67C8: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE096237
+  SizeOfData   : 0000002B
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerSettingAccessCheckEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 96
+  Name         : PowerSettingAccessCheckEx
+
+Archive member name at 6844: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E45AFB22
+  SizeOfData   : 00000032
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerSettingRegisterNotification@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 97
+  Name         : PowerSettingRegisterNotification
+
+Archive member name at 68C6: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB8411F3
+  SizeOfData   : 00000033
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerSettingUnregisterNotification@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 99
+  Name         : PowerSettingUnregisterNotification
+
+Archive member name at 694A: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      57 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB86DE24
+  SizeOfData   : 00000043
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerUnregisterFromEffectivePowerModeNotifications@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 100
+  Name         : PowerUnregisterFromEffectivePowerModeNotifications
+
+Archive member name at 69DE: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D53543A6
+  SizeOfData   : 00000039
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerUnregisterSuspendResumeNotification@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 101
+  Name         : PowerUnregisterSuspendResumeNotification
+
+Archive member name at 6A68: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3474ABD
+  SizeOfData   : 00000036
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerUpdateEnvironmentalMonitorState@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 102
+  Name         : PowerUpdateEnvironmentalMonitorState
+
+Archive member name at 6AEE: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA7B8A36
+  SizeOfData   : 0000003B
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerUpdateEnvironmentalMonitorThresholds@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 103
+  Name         : PowerUpdateEnvironmentalMonitorThresholds
+
+Archive member name at 6B7A: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3934171
+  SizeOfData   : 0000002C
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerUpdateLimitsMitigation@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 104
+  Name         : PowerUpdateLimitsMitigation
+
+Archive member name at 6BF6: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E72BF90E
+  SizeOfData   : 0000002A
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWriteACDefaultIndex@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 105
+  Name         : PowerWriteACDefaultIndex
+
+Archive member name at 6C70: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D744297E
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWriteACValueIndex@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 107
+  Name         : PowerWriteACValueIndex
+
+Archive member name at 6CE8: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F02740F6
+  SizeOfData   : 0000002A
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWriteDCDefaultIndex@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 108
+  Name         : PowerWriteDCDefaultIndex
+
+Archive member name at 6D62: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D68D333B
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWriteDCValueIndex@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 110
+  Name         : PowerWriteDCValueIndex
+
+Archive member name at 6DDA: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA44F9EC
+  SizeOfData   : 00000027
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWriteDescription@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 111
+  Name         : PowerWriteDescription
+
+Archive member name at 6E52: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC01E910
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWriteFriendlyName@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 112
+  Name         : PowerWriteFriendlyName
+
+Archive member name at 6ECA: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7954DC5
+  SizeOfData   : 00000031
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWriteIconResourceSpecifier@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 113
+  Name         : PowerWriteIconResourceSpecifier
+
+Archive member name at 6F4C: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBC57BE0
+  SizeOfData   : 0000002F
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWritePossibleDescription@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 114
+  Name         : PowerWritePossibleDescription
+
+Archive member name at 6FCC: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F053AA8D
+  SizeOfData   : 00000030
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWritePossibleFriendlyName@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 115
+  Name         : PowerWritePossibleFriendlyName
+
+Archive member name at 704C: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF070DB4
+  SizeOfData   : 00000029
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWritePossibleValue@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 116
+  Name         : PowerWritePossibleValue
+
+Archive member name at 70C6: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC03CEFA
+  SizeOfData   : 0000002E
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWriteSecurityDescriptor@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 117
+  Name         : PowerWriteSecurityDescriptor
+
+Archive member name at 7144: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB06015E
+  SizeOfData   : 0000002D
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWriteSettingAttributes@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 118
+  Name         : PowerWriteSettingAttributes
+
+Archive member name at 71C2: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF7CDDC1
+  SizeOfData   : 0000002A
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWriteValueIncrement@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 119
+  Name         : PowerWriteValueIncrement
+
+Archive member name at 723C: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2029139
+  SizeOfData   : 00000024
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWriteValueMax@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 120
+  Name         : PowerWriteValueMax
+
+Archive member name at 72B0: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F87EB351
+  SizeOfData   : 00000024
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWriteValueMin@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 121
+  Name         : PowerWriteValueMin
+
+Archive member name at 7324: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6F11335
+  SizeOfData   : 0000002F
+  DLL name     : POWRPROF.dll
+  Symbol name  : _PowerWriteValueUnitsSpecifier@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 122
+  Name         : PowerWriteValueUnitsSpecifier
+
+Archive member name at 73A4: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3F0C97E
+  SizeOfData   : 00000024
+  DLL name     : POWRPROF.dll
+  Symbol name  : _ReadGlobalPwrPolicy@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 123
+  Name         : ReadGlobalPwrPolicy
+
+Archive member name at 7418: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE1CADED
+  SizeOfData   : 00000027
+  DLL name     : POWRPROF.dll
+  Symbol name  : _ReadProcessorPwrScheme@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 124
+  Name         : ReadProcessorPwrScheme
+
+Archive member name at 7490: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9E4D904
+  SizeOfData   : 0000001E
+  DLL name     : POWRPROF.dll
+  Symbol name  : _ReadPwrScheme@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 125
+  Name         : ReadPwrScheme
+
+Archive member name at 74FE: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0EC6840
+  SizeOfData   : 00000024
+  DLL name     : POWRPROF.dll
+  Symbol name  : _SetActivePwrScheme@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 126
+  Name         : SetActivePwrScheme
+
+Archive member name at 7572: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7A1D7FD
+  SizeOfData   : 00000021
+  DLL name     : POWRPROF.dll
+  Symbol name  : _SetSuspendState@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 127
+  Name         : SetSuspendState
+
+Archive member name at 75E4: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCFCFD4E
+  SizeOfData   : 00000026
+  DLL name     : POWRPROF.dll
+  Symbol name  : _ValidatePowerPolicies@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 128
+  Name         : ValidatePowerPolicies
+
+Archive member name at 765A: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAB69529
+  SizeOfData   : 00000025
+  DLL name     : POWRPROF.dll
+  Symbol name  : _WriteGlobalPwrPolicy@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 129
+  Name         : WriteGlobalPwrPolicy
+
+Archive member name at 76D0: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CFF18B10
+  SizeOfData   : 00000028
+  DLL name     : POWRPROF.dll
+  Symbol name  : _WriteProcessorPwrScheme@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 130
+  Name         : WriteProcessorPwrScheme
+
+Archive member name at 7748: POWRPROF.dll/   
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC353154
+  SizeOfData   : 00000020
+  DLL name     : POWRPROF.dll
+  Symbol name  : _WritePwrScheme@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 131
+  Name         : WritePwrScheme
+
+     Exports
+
+       ordinal    name
+
+                  _CallNtPowerInformation@20
+                  _CanUserWritePwrScheme@0
+                  _DeletePwrScheme@4
+                  _DevicePowerClose@0
+                  _DevicePowerEnumDevices@20
+                  _DevicePowerOpen@4
+                  _DevicePowerSetDeviceState@12
+                  _EnumPwrSchemes@8
+                  _GUIDFormatToGlobalPowerPolicy@8
+                  _GUIDFormatToPowerPolicy@8
+                  _GetActivePwrScheme@4
+                  _GetCurrentPowerPolicies@8
+                  _GetPwrCapabilities@4
+                  _GetPwrDiskSpindownRange@8
+                  _IsAdminOverrideActive@4
+                  _IsPwrHibernateAllowed@0
+                  _IsPwrShutdownAllowed@0
+                  _IsPwrSuspendAllowed@0
+                  _LoadCurrentPwrScheme@16
+                  _MergeLegacyPwrScheme@16
+                  _PowerApplyPowerRequestOverride@0
+                  _PowerCanRestoreIndividualDefaultPowerScheme@4
+                  _PowerCloseEnvironmentalMonitor@4
+                  _PowerCloseLimitsMitigation@4
+                  _PowerCloseLimitsPolicy@4
+                  _PowerCreatePossibleSetting@16
+                  _PowerCreateSetting@12
+                  _PowerDebugDifPowerPolicies@16
+                  _PowerDebugDifSystemPowerPolicies@16
+                  _PowerDebugDumpPowerPolicy@12
+                  _PowerDebugDumpPowerScheme@12
+                  _PowerDebugDumpSystemPowerCapabilities@12
+                  _PowerDebugDumpSystemPowerPolicy@12
+                  _PowerDeleteScheme@8
+                  _PowerDeterminePlatformRole@0
+                  _PowerDeterminePlatformRoleEx@4
+                  _PowerDuplicateScheme@12
+                  _PowerEnumerate@28
+                  _PowerGetActiveScheme@8
+                  _PowerImportPowerScheme@12
+                  _PowerIsSettingRangeDefined@8
+                  _PowerOpenSystemPowerKey@12
+                  _PowerOpenUserPowerKey@12
+                  _PowerPolicyToGUIDFormat@8
+                  _PowerReadACDefaultIndex@20
+                  _PowerReadACValue@28
+                  _PowerReadACValueIndex@20
+                  _PowerReadDCDefaultIndex@20
+                  _PowerReadDCValue@28
+                  _PowerReadDCValueIndex@20
+                  _PowerReadDescription@24
+                  _PowerReadFriendlyName@24
+                  _PowerReadIconResourceSpecifier@24
+                  _PowerReadPossibleDescription@24
+                  _PowerReadPossibleFriendlyName@24
+                  _PowerReadPossibleValue@28
+                  _PowerReadSecurityDescriptor@12
+                  _PowerReadSettingAttributes@8
+                  _PowerReadValueIncrement@16
+                  _PowerReadValueMax@16
+                  _PowerReadValueMin@16
+                  _PowerReadValueUnitsSpecifier@20
+                  _PowerRegisterEnvironmentalMonitor@8
+                  _PowerRegisterForEffectivePowerModeNotifications@16
+                  _PowerRegisterLimitsMitigation@8
+                  _PowerRegisterLimitsPolicy@8
+                  _PowerRegisterSuspendResumeNotification@12
+                  _PowerRemovePowerSetting@8
+                  _PowerReplaceDefaultPowerSchemes@0
+                  _PowerReportLimitsEvent@4
+                  _PowerReportThermalEvent@4
+                  _PowerRestoreDefaultPowerSchemes@0
+                  _PowerRestoreIndividualDefaultPowerScheme@4
+                  _PowerSetActiveScheme@8
+                  _PowerSetAlsBrightnessOffset@4
+                  _PowerSettingAccessCheck@8
+                  _PowerSettingAccessCheckEx@12
+                  _PowerSettingRegisterNotification@16
+                  _PowerSettingUnregisterNotification@4
+                  _PowerUnregisterFromEffectivePowerModeNotifications@4
+                  _PowerUnregisterSuspendResumeNotification@4
+                  _PowerUpdateEnvironmentalMonitorState@12
+                  _PowerUpdateEnvironmentalMonitorThresholds@12
+                  _PowerUpdateLimitsMitigation@8
+                  _PowerWriteACDefaultIndex@20
+                  _PowerWriteACValueIndex@20
+                  _PowerWriteDCDefaultIndex@20
+                  _PowerWriteDCValueIndex@20
+                  _PowerWriteDescription@24
+                  _PowerWriteFriendlyName@24
+                  _PowerWriteIconResourceSpecifier@24
+                  _PowerWritePossibleDescription@24
+                  _PowerWritePossibleFriendlyName@24
+                  _PowerWritePossibleValue@28
+                  _PowerWriteSecurityDescriptor@12
+                  _PowerWriteSettingAttributes@12
+                  _PowerWriteValueIncrement@16
+                  _PowerWriteValueMax@16
+                  _PowerWriteValueMin@16
+                  _PowerWriteValueUnitsSpecifier@20
+                  _ReadGlobalPwrPolicy@4
+                  _ReadProcessorPwrScheme@8
+                  _ReadPwrScheme@8
+                  _SetActivePwrScheme@12
+                  _SetSuspendState@12
+                  _ValidatePowerPolicies@8
+                  _WriteGlobalPwrPolicy@4
+                  _WriteProcessorPwrScheme@8
+                  _WritePwrScheme@16
+
+  Summary
+
+          C6 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           E .idata$6

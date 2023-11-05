@@ -1,0 +1,2349 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "?BthpEnableA2DPIfPresent@@YGKPBU_BLUETOOTH_ADDRESS@@W4BTH_SDP_QUERY_TYPE@@@Z (unsigned long __stdcall BthpEnableA2DPIfPresent(struct _BLUETOOTH_ADDRESS const *,enum BTH_SDP_QUERY_TYPE))"
+    },
+    {
+      "name": "?BthpSetServiceState@@YGKPAXPBU_BLUETOOTH_DEVICE_INFO@@KPBU_GUID@@K0EEE@Z (unsigned long __stdcall BthpSetServiceState(void *,struct _BLUETOOTH_DEVICE_INFO const *,unsigned long,struct _GUID const *,unsigned long,void *,unsigned char,unsigned char,unsigned char))"
+    },
+    {
+      "name": "?BthpSetServiceStateEx@@YGKPAXPBU_BLUETOOTH_DEVICE_INFO@@KPBU_GUID@@K0EEEE@Z (unsigned long __stdcall BthpSetServiceStateEx(void *,struct _BLUETOOTH_DEVICE_INFO const *,unsigned long,struct _GUID const *,unsigned long,void *,unsigned char,unsigned char,unsigned char,unsigned char))"
+    },
+    {
+      "name": "_BluetoothAddressToString@12"
+    },
+    {
+      "name": "_BluetoothCheckForUnsupportedGuid@4"
+    },
+    {
+      "name": "_BluetoothDisconnectDevice@8"
+    },
+    {
+      "name": "_BluetoothEnableConnectableAndDiscoverable@12"
+    },
+    {
+      "name": "_BluetoothEnableDiscovery@8"
+    },
+    {
+      "name": "_BluetoothEnableIncomingConnections@8"
+    },
+    {
+      "name": "_BluetoothEnumerateInstalledServices@16"
+    },
+    {
+      "name": "_BluetoothEnumerateInstalledServicesEx@16"
+    },
+    {
+      "name": "_BluetoothEnumerateLocalServices@12"
+    },
+    {
+      "name": "_BluetoothFindBrowseGroupClose@4"
+    },
+    {
+      "name": "_BluetoothFindClassIdClose@4"
+    },
+    {
+      "name": "_BluetoothFindDeviceClose@4"
+    },
+    {
+      "name": "_BluetoothFindFirstBrowseGroup@8"
+    },
+    {
+      "name": "_BluetoothFindFirstClassId@8"
+    },
+    {
+      "name": "_BluetoothFindFirstDevice@8"
+    },
+    {
+      "name": "_BluetoothFindFirstProfileDescriptor@8"
+    },
+    {
+      "name": "_BluetoothFindFirstProtocolDescriptorStack@8"
+    },
+    {
+      "name": "_BluetoothFindFirstProtocolEntry@8"
+    },
+    {
+      "name": "_BluetoothFindFirstRadio@8"
+    },
+    {
+      "name": "_BluetoothFindFirstService@8"
+    },
+    {
+      "name": "_BluetoothFindFirstServiceEx@12"
+    },
+    {
+      "name": "_BluetoothFindNextBrowseGroup@8"
+    },
+    {
+      "name": "_BluetoothFindNextClassId@8"
+    },
+    {
+      "name": "_BluetoothFindNextDevice@8"
+    },
+    {
+      "name": "_BluetoothFindNextProfileDescriptor@8"
+    },
+    {
+      "name": "_BluetoothFindNextProtocolDescriptorStack@8"
+    },
+    {
+      "name": "_BluetoothFindNextProtocolEntry@8"
+    },
+    {
+      "name": "_BluetoothFindNextRadio@8"
+    },
+    {
+      "name": "_BluetoothFindNextService@8"
+    },
+    {
+      "name": "_BluetoothFindProfileDescriptorClose@4"
+    },
+    {
+      "name": "_BluetoothFindProtocolDescriptorStackClose@4"
+    },
+    {
+      "name": "_BluetoothFindProtocolEntryClose@4"
+    },
+    {
+      "name": "_BluetoothFindRadioClose@4"
+    },
+    {
+      "name": "_BluetoothFindServiceClose@4"
+    },
+    {
+      "name": "_BluetoothGATTAbortReliableWrite@16"
+    },
+    {
+      "name": "_BluetoothGATTBeginReliableWrite@12"
+    },
+    {
+      "name": "_BluetoothGATTEndReliableWrite@16"
+    },
+    {
+      "name": "_BluetoothGATTGetCharacteristicValue@24"
+    },
+    {
+      "name": "_BluetoothGATTGetCharacteristics@24"
+    },
+    {
+      "name": "_BluetoothGATTGetDescriptorValue@24"
+    },
+    {
+      "name": "_BluetoothGATTGetDescriptors@24"
+    },
+    {
+      "name": "_BluetoothGATTGetIncludedServices@24"
+    },
+    {
+      "name": "_BluetoothGATTGetServices@20"
+    },
+    {
+      "name": "_BluetoothGATTRegisterEvent@28"
+    },
+    {
+      "name": "_BluetoothGATTSetCharacteristicValue@24"
+    },
+    {
+      "name": "_BluetoothGATTSetDescriptorValue@16"
+    },
+    {
+      "name": "_BluetoothGATTUnregisterEvent@8"
+    },
+    {
+      "name": "_BluetoothGetDeviceInfo@8"
+    },
+    {
+      "name": "_BluetoothGetLocalServiceInfo@16"
+    },
+    {
+      "name": "_BluetoothGetRadioInfo@8"
+    },
+    {
+      "name": "_BluetoothGetServicePnpInstance@24"
+    },
+    {
+      "name": "_BluetoothIsBluetoothServiceRunning@0"
+    },
+    {
+      "name": "_BluetoothIsConnectable@4"
+    },
+    {
+      "name": "_BluetoothIsConnectableByDefault@0"
+    },
+    {
+      "name": "_BluetoothIsDiscoverable@4"
+    },
+    {
+      "name": "_BluetoothIsDiscoverableByDefault@0"
+    },
+    {
+      "name": "_BluetoothIsSwiftPairEnabledByDefault@0"
+    },
+    {
+      "name": "_BluetoothIsTopOfServiceGroup@24"
+    },
+    {
+      "name": "_BluetoothIsVersionAvailable@8"
+    },
+    {
+      "name": "_BluetoothMapStatusToError@4"
+    },
+    {
+      "name": "_BluetoothRegisterForAuthentication@16"
+    },
+    {
+      "name": "_BluetoothRegisterForAuthenticationEx@16"
+    },
+    {
+      "name": "_BluetoothRegisterForAuthenticationInternal@20"
+    },
+    {
+      "name": "_BluetoothRemoveDevice@4"
+    },
+    {
+      "name": "_BluetoothSdpEnumAttributes@16"
+    },
+    {
+      "name": "_BluetoothSdpGetAttributeValue@16"
+    },
+    {
+      "name": "_BluetoothSdpGetContainerElementData@16"
+    },
+    {
+      "name": "_BluetoothSdpGetElementData@12"
+    },
+    {
+      "name": "_BluetoothSdpGetInnerRecord@12"
+    },
+    {
+      "name": "_BluetoothSdpGetNextRecord@8"
+    },
+    {
+      "name": "_BluetoothSdpGetString@24"
+    },
+    {
+      "name": "_BluetoothSendAuthenticationResponse@12"
+    },
+    {
+      "name": "_BluetoothSendAuthenticationResponseEx@8"
+    },
+    {
+      "name": "_BluetoothSetLocalServiceInfo@16"
+    },
+    {
+      "name": "_BluetoothSetServiceState@16"
+    },
+    {
+      "name": "_BluetoothSetServiceStateEx@20"
+    },
+    {
+      "name": "_BluetoothSppEnableIncomingComPort@8"
+    },
+    {
+      "name": "_BluetoothSppFindNextOpenComPort@4"
+    },
+    {
+      "name": "_BluetoothUnregisterAuthentication@4"
+    },
+    {
+      "name": "_BluetoothUpdateDeviceRecord@4"
+    },
+    {
+      "name": "_BthpCleanupBRDeviceNode@8"
+    },
+    {
+      "name": "_BthpCleanupDeviceLocalServices@4"
+    },
+    {
+      "name": "_BthpCleanupDeviceRemoteServices@4"
+    },
+    {
+      "name": "_BthpCleanupLEDeviceNodes@16"
+    },
+    {
+      "name": "_BthpEnableAllServices@8"
+    },
+    {
+      "name": "_BthpEnableRadioSoftware@4"
+    },
+    {
+      "name": "_BthpFindPnpInfo@16"
+    },
+    {
+      "name": "_BthpGATTCloseSession@8"
+    },
+    {
+      "name": "_BthpInnerRecord@12"
+    },
+    {
+      "name": "_BthpIsRadioSoftwareEnabled@4"
+    },
+    {
+      "name": "_BthpNextRecord@8"
+    },
+    {
+      "name": "_BthpRegisterForAuthentication@28"
+    },
+    {
+      "name": "_BthpShouldForceAuthentication@4"
+    },
+    {
+      "name": "_BthpTransposeAndExtendBytes@12"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 16408,
+      "name": "__IMPORT_DESCRIPTOR_BluetoothApis"
+    },
+    {
+      "offset": 16986,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 17302,
+      "name": "BluetoothApis_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 25838,
+      "name": "_BluetoothIsVersionAvailable@8"
+    },
+    {
+      "offset": 25838,
+      "name": "__imp__BluetoothIsVersionAvailable@8"
+    },
+    {
+      "offset": 24914,
+      "name": "_BluetoothIsBluetoothServiceRunning@0"
+    },
+    {
+      "offset": 24914,
+      "name": "__imp__BluetoothIsBluetoothServiceRunning@0"
+    },
+    {
+      "offset": 25568,
+      "name": "_BluetoothIsSwiftPairEnabledByDefault@0"
+    },
+    {
+      "offset": 25568,
+      "name": "__imp__BluetoothIsSwiftPairEnabledByDefault@0"
+    },
+    {
+      "offset": 18176,
+      "name": "_BluetoothAddressToString@12"
+    },
+    {
+      "offset": 18176,
+      "name": "__imp__BluetoothAddressToString@12"
+    },
+    {
+      "offset": 25968,
+      "name": "_BluetoothMapStatusToError@4"
+    },
+    {
+      "offset": 25968,
+      "name": "__imp__BluetoothMapStatusToError@4"
+    },
+    {
+      "offset": 28094,
+      "name": "_BluetoothSetServiceStateEx@20"
+    },
+    {
+      "offset": 28094,
+      "name": "__imp__BluetoothSetServiceStateEx@20"
+    },
+    {
+      "offset": 19110,
+      "name": "_BluetoothEnumerateInstalledServicesEx@16"
+    },
+    {
+      "offset": 19110,
+      "name": "__imp__BluetoothEnumerateInstalledServicesEx@16"
+    },
+    {
+      "offset": 19250,
+      "name": "_BluetoothEnumerateLocalServices@12"
+    },
+    {
+      "offset": 19250,
+      "name": "__imp__BluetoothEnumerateLocalServices@12"
+    },
+    {
+      "offset": 24780,
+      "name": "_BluetoothGetServicePnpInstance@24"
+    },
+    {
+      "offset": 24780,
+      "name": "__imp__BluetoothGetServicePnpInstance@24"
+    },
+    {
+      "offset": 20572,
+      "name": "_BluetoothFindFirstRadio@8"
+    },
+    {
+      "offset": 20572,
+      "name": "__imp__BluetoothFindFirstRadio@8"
+    },
+    {
+      "offset": 21748,
+      "name": "_BluetoothFindNextRadio@8"
+    },
+    {
+      "offset": 21748,
+      "name": "__imp__BluetoothFindNextRadio@8"
+    },
+    {
+      "offset": 22414,
+      "name": "_BluetoothFindRadioClose@4"
+    },
+    {
+      "offset": 22414,
+      "name": "__imp__BluetoothFindRadioClose@4"
+    },
+    {
+      "offset": 24656,
+      "name": "_BluetoothGetRadioInfo@8"
+    },
+    {
+      "offset": 24656,
+      "name": "__imp__BluetoothGetRadioInfo@8"
+    },
+    {
+      "offset": 20030,
+      "name": "_BluetoothFindFirstDevice@8"
+    },
+    {
+      "offset": 20030,
+      "name": "__imp__BluetoothFindFirstDevice@8"
+    },
+    {
+      "offset": 21212,
+      "name": "_BluetoothFindNextDevice@8"
+    },
+    {
+      "offset": 21212,
+      "name": "__imp__BluetoothFindNextDevice@8"
+    },
+    {
+      "offset": 19644,
+      "name": "_BluetoothFindDeviceClose@4"
+    },
+    {
+      "offset": 19644,
+      "name": "__imp__BluetoothFindDeviceClose@4"
+    },
+    {
+      "offset": 28630,
+      "name": "_BluetoothUpdateDeviceRecord@4"
+    },
+    {
+      "offset": 28630,
+      "name": "__imp__BluetoothUpdateDeviceRecord@4"
+    },
+    {
+      "offset": 26520,
+      "name": "_BluetoothRemoveDevice@4"
+    },
+    {
+      "offset": 26520,
+      "name": "__imp__BluetoothRemoveDevice@4"
+    },
+    {
+      "offset": 19902,
+      "name": "_BluetoothFindFirstClassId@8"
+    },
+    {
+      "offset": 19902,
+      "name": "__imp__BluetoothFindFirstClassId@8"
+    },
+    {
+      "offset": 21086,
+      "name": "_BluetoothFindNextClassId@8"
+    },
+    {
+      "offset": 21086,
+      "name": "__imp__BluetoothFindNextClassId@8"
+    },
+    {
+      "offset": 19516,
+      "name": "_BluetoothFindClassIdClose@4"
+    },
+    {
+      "offset": 19516,
+      "name": "__imp__BluetoothFindClassIdClose@4"
+    },
+    {
+      "offset": 20294,
+      "name": "_BluetoothFindFirstProtocolDescriptorStack@8"
+    },
+    {
+      "offset": 20294,
+      "name": "__imp__BluetoothFindFirstProtocolDescriptorStack@8"
+    },
+    {
+      "offset": 21474,
+      "name": "_BluetoothFindNextProtocolDescriptorStack@8"
+    },
+    {
+      "offset": 21474,
+      "name": "__imp__BluetoothFindNextProtocolDescriptorStack@8"
+    },
+    {
+      "offset": 22136,
+      "name": "_BluetoothFindProtocolDescriptorStackClose@4"
+    },
+    {
+      "offset": 22136,
+      "name": "__imp__BluetoothFindProtocolDescriptorStackClose@4"
+    },
+    {
+      "offset": 20438,
+      "name": "_BluetoothFindFirstProtocolEntry@8"
+    },
+    {
+      "offset": 20438,
+      "name": "__imp__BluetoothFindFirstProtocolEntry@8"
+    },
+    {
+      "offset": 21616,
+      "name": "_BluetoothFindNextProtocolEntry@8"
+    },
+    {
+      "offset": 21616,
+      "name": "__imp__BluetoothFindNextProtocolEntry@8"
+    },
+    {
+      "offset": 22280,
+      "name": "_BluetoothFindProtocolEntryClose@4"
+    },
+    {
+      "offset": 22280,
+      "name": "__imp__BluetoothFindProtocolEntryClose@4"
+    },
+    {
+      "offset": 19770,
+      "name": "_BluetoothFindFirstBrowseGroup@8"
+    },
+    {
+      "offset": 19770,
+      "name": "__imp__BluetoothFindFirstBrowseGroup@8"
+    },
+    {
+      "offset": 20956,
+      "name": "_BluetoothFindNextBrowseGroup@8"
+    },
+    {
+      "offset": 20956,
+      "name": "__imp__BluetoothFindNextBrowseGroup@8"
+    },
+    {
+      "offset": 19384,
+      "name": "_BluetoothFindBrowseGroupClose@4"
+    },
+    {
+      "offset": 19384,
+      "name": "__imp__BluetoothFindBrowseGroupClose@4"
+    },
+    {
+      "offset": 20156,
+      "name": "_BluetoothFindFirstProfileDescriptor@8"
+    },
+    {
+      "offset": 20156,
+      "name": "__imp__BluetoothFindFirstProfileDescriptor@8"
+    },
+    {
+      "offset": 21338,
+      "name": "_BluetoothFindNextProfileDescriptor@8"
+    },
+    {
+      "offset": 21338,
+      "name": "__imp__BluetoothFindNextProfileDescriptor@8"
+    },
+    {
+      "offset": 21998,
+      "name": "_BluetoothFindProfileDescriptorClose@4"
+    },
+    {
+      "offset": 21998,
+      "name": "__imp__BluetoothFindProfileDescriptorClose@4"
+    },
+    {
+      "offset": 20826,
+      "name": "_BluetoothFindFirstServiceEx@12"
+    },
+    {
+      "offset": 20826,
+      "name": "__imp__BluetoothFindFirstServiceEx@12"
+    },
+    {
+      "offset": 20698,
+      "name": "_BluetoothFindFirstService@8"
+    },
+    {
+      "offset": 20698,
+      "name": "__imp__BluetoothFindFirstService@8"
+    },
+    {
+      "offset": 21872,
+      "name": "_BluetoothFindNextService@8"
+    },
+    {
+      "offset": 21872,
+      "name": "__imp__BluetoothFindNextService@8"
+    },
+    {
+      "offset": 22540,
+      "name": "_BluetoothFindServiceClose@4"
+    },
+    {
+      "offset": 22540,
+      "name": "__imp__BluetoothFindServiceClose@4"
+    },
+    {
+      "offset": 18438,
+      "name": "_BluetoothDisconnectDevice@8"
+    },
+    {
+      "offset": 18438,
+      "name": "__imp__BluetoothDisconnectDevice@8"
+    },
+    {
+      "offset": 24400,
+      "name": "_BluetoothGetDeviceInfo@8"
+    },
+    {
+      "offset": 24400,
+      "name": "__imp__BluetoothGetDeviceInfo@8"
+    },
+    {
+      "offset": 27834,
+      "name": "_BluetoothSetLocalServiceInfo@16"
+    },
+    {
+      "offset": 27834,
+      "name": "__imp__BluetoothSetLocalServiceInfo@16"
+    },
+    {
+      "offset": 24524,
+      "name": "_BluetoothGetLocalServiceInfo@16"
+    },
+    {
+      "offset": 24524,
+      "name": "__imp__BluetoothGetLocalServiceInfo@16"
+    },
+    {
+      "offset": 27966,
+      "name": "_BluetoothSetServiceState@16"
+    },
+    {
+      "offset": 27966,
+      "name": "__imp__BluetoothSetServiceState@16"
+    },
+    {
+      "offset": 18972,
+      "name": "_BluetoothEnumerateInstalledServices@16"
+    },
+    {
+      "offset": 18972,
+      "name": "__imp__BluetoothEnumerateInstalledServices@16"
+    },
+    {
+      "offset": 26096,
+      "name": "_BluetoothRegisterForAuthentication@16"
+    },
+    {
+      "offset": 26096,
+      "name": "__imp__BluetoothRegisterForAuthentication@16"
+    },
+    {
+      "offset": 26234,
+      "name": "_BluetoothRegisterForAuthenticationEx@16"
+    },
+    {
+      "offset": 26234,
+      "name": "__imp__BluetoothRegisterForAuthenticationEx@16"
+    },
+    {
+      "offset": 28494,
+      "name": "_BluetoothUnregisterAuthentication@4"
+    },
+    {
+      "offset": 28494,
+      "name": "__imp__BluetoothUnregisterAuthentication@4"
+    },
+    {
+      "offset": 27556,
+      "name": "_BluetoothSendAuthenticationResponse@12"
+    },
+    {
+      "offset": 27556,
+      "name": "__imp__BluetoothSendAuthenticationResponse@12"
+    },
+    {
+      "offset": 27694,
+      "name": "_BluetoothSendAuthenticationResponseEx@8"
+    },
+    {
+      "offset": 27694,
+      "name": "__imp__BluetoothSendAuthenticationResponseEx@8"
+    },
+    {
+      "offset": 18710,
+      "name": "_BluetoothEnableDiscovery@8"
+    },
+    {
+      "offset": 18710,
+      "name": "__imp__BluetoothEnableDiscovery@8"
+    },
+    {
+      "offset": 25308,
+      "name": "_BluetoothIsDiscoverable@4"
+    },
+    {
+      "offset": 25308,
+      "name": "__imp__BluetoothIsDiscoverable@4"
+    },
+    {
+      "offset": 25434,
+      "name": "_BluetoothIsDiscoverableByDefault@0"
+    },
+    {
+      "offset": 25434,
+      "name": "__imp__BluetoothIsDiscoverableByDefault@0"
+    },
+    {
+      "offset": 18836,
+      "name": "_BluetoothEnableIncomingConnections@8"
+    },
+    {
+      "offset": 18836,
+      "name": "__imp__BluetoothEnableIncomingConnections@8"
+    },
+    {
+      "offset": 25050,
+      "name": "_BluetoothIsConnectable@4"
+    },
+    {
+      "offset": 25050,
+      "name": "__imp__BluetoothIsConnectable@4"
+    },
+    {
+      "offset": 25174,
+      "name": "_BluetoothIsConnectableByDefault@0"
+    },
+    {
+      "offset": 25174,
+      "name": "__imp__BluetoothIsConnectableByDefault@0"
+    },
+    {
+      "offset": 18566,
+      "name": "_BluetoothEnableConnectableAndDiscoverable@12"
+    },
+    {
+      "offset": 18566,
+      "name": "__imp__BluetoothEnableConnectableAndDiscoverable@12"
+    },
+    {
+      "offset": 26374,
+      "name": "_BluetoothRegisterForAuthenticationInternal@20"
+    },
+    {
+      "offset": 26374,
+      "name": "__imp__BluetoothRegisterForAuthenticationInternal@20"
+    },
+    {
+      "offset": 28224,
+      "name": "_BluetoothSppEnableIncomingComPort@8"
+    },
+    {
+      "offset": 28224,
+      "name": "__imp__BluetoothSppEnableIncomingComPort@8"
+    },
+    {
+      "offset": 28360,
+      "name": "_BluetoothSppFindNextOpenComPort@4"
+    },
+    {
+      "offset": 28360,
+      "name": "__imp__BluetoothSppFindNextOpenComPort@4"
+    },
+    {
+      "offset": 26644,
+      "name": "_BluetoothSdpEnumAttributes@16"
+    },
+    {
+      "offset": 26644,
+      "name": "__imp__BluetoothSdpEnumAttributes@16"
+    },
+    {
+      "offset": 26774,
+      "name": "_BluetoothSdpGetAttributeValue@16"
+    },
+    {
+      "offset": 26774,
+      "name": "__imp__BluetoothSdpGetAttributeValue@16"
+    },
+    {
+      "offset": 27044,
+      "name": "_BluetoothSdpGetElementData@12"
+    },
+    {
+      "offset": 27044,
+      "name": "__imp__BluetoothSdpGetElementData@12"
+    },
+    {
+      "offset": 26906,
+      "name": "_BluetoothSdpGetContainerElementData@16"
+    },
+    {
+      "offset": 26906,
+      "name": "__imp__BluetoothSdpGetContainerElementData@16"
+    },
+    {
+      "offset": 27432,
+      "name": "_BluetoothSdpGetString@24"
+    },
+    {
+      "offset": 27432,
+      "name": "__imp__BluetoothSdpGetString@24"
+    },
+    {
+      "offset": 27304,
+      "name": "_BluetoothSdpGetNextRecord@8"
+    },
+    {
+      "offset": 27304,
+      "name": "__imp__BluetoothSdpGetNextRecord@8"
+    },
+    {
+      "offset": 27174,
+      "name": "_BluetoothSdpGetInnerRecord@12"
+    },
+    {
+      "offset": 27174,
+      "name": "__imp__BluetoothSdpGetInnerRecord@12"
+    },
+    {
+      "offset": 25706,
+      "name": "_BluetoothIsTopOfServiceGroup@24"
+    },
+    {
+      "offset": 25706,
+      "name": "__imp__BluetoothIsTopOfServiceGroup@24"
+    },
+    {
+      "offset": 18304,
+      "name": "_BluetoothCheckForUnsupportedGuid@4"
+    },
+    {
+      "offset": 18304,
+      "name": "__imp__BluetoothCheckForUnsupportedGuid@4"
+    },
+    {
+      "offset": 23740,
+      "name": "_BluetoothGATTGetServices@20"
+    },
+    {
+      "offset": 23740,
+      "name": "__imp__BluetoothGATTGetServices@20"
+    },
+    {
+      "offset": 23604,
+      "name": "_BluetoothGATTGetIncludedServices@24"
+    },
+    {
+      "offset": 23604,
+      "name": "__imp__BluetoothGATTGetIncludedServices@24"
+    },
+    {
+      "offset": 23206,
+      "name": "_BluetoothGATTGetCharacteristics@24"
+    },
+    {
+      "offset": 23206,
+      "name": "__imp__BluetoothGATTGetCharacteristics@24"
+    },
+    {
+      "offset": 23474,
+      "name": "_BluetoothGATTGetDescriptors@24"
+    },
+    {
+      "offset": 23474,
+      "name": "__imp__BluetoothGATTGetDescriptors@24"
+    },
+    {
+      "offset": 23068,
+      "name": "_BluetoothGATTGetCharacteristicValue@24"
+    },
+    {
+      "offset": 23068,
+      "name": "__imp__BluetoothGATTGetCharacteristicValue@24"
+    },
+    {
+      "offset": 23340,
+      "name": "_BluetoothGATTGetDescriptorValue@24"
+    },
+    {
+      "offset": 23340,
+      "name": "__imp__BluetoothGATTGetDescriptorValue@24"
+    },
+    {
+      "offset": 22802,
+      "name": "_BluetoothGATTBeginReliableWrite@12"
+    },
+    {
+      "offset": 22802,
+      "name": "__imp__BluetoothGATTBeginReliableWrite@12"
+    },
+    {
+      "offset": 23998,
+      "name": "_BluetoothGATTSetCharacteristicValue@24"
+    },
+    {
+      "offset": 23998,
+      "name": "__imp__BluetoothGATTSetCharacteristicValue@24"
+    },
+    {
+      "offset": 22936,
+      "name": "_BluetoothGATTEndReliableWrite@16"
+    },
+    {
+      "offset": 22936,
+      "name": "__imp__BluetoothGATTEndReliableWrite@16"
+    },
+    {
+      "offset": 22668,
+      "name": "_BluetoothGATTAbortReliableWrite@16"
+    },
+    {
+      "offset": 22668,
+      "name": "__imp__BluetoothGATTAbortReliableWrite@16"
+    },
+    {
+      "offset": 24136,
+      "name": "_BluetoothGATTSetDescriptorValue@16"
+    },
+    {
+      "offset": 24136,
+      "name": "__imp__BluetoothGATTSetDescriptorValue@16"
+    },
+    {
+      "offset": 23868,
+      "name": "_BluetoothGATTRegisterEvent@28"
+    },
+    {
+      "offset": 23868,
+      "name": "__imp__BluetoothGATTRegisterEvent@28"
+    },
+    {
+      "offset": 24270,
+      "name": "_BluetoothGATTUnregisterEvent@8"
+    },
+    {
+      "offset": 24270,
+      "name": "__imp__BluetoothGATTUnregisterEvent@8"
+    },
+    {
+      "offset": 29280,
+      "name": "_BthpEnableAllServices@8"
+    },
+    {
+      "offset": 29280,
+      "name": "__imp__BthpEnableAllServices@8"
+    },
+    {
+      "offset": 17652,
+      "name": "?BthpEnableA2DPIfPresent@@YGKPBU_BLUETOOTH_ADDRESS@@W4BTH_SDP_QUERY_TYPE@@@Z"
+    },
+    {
+      "offset": 17652,
+      "name": "__imp_?BthpEnableA2DPIfPresent@@YGKPBU_BLUETOOTH_ADDRESS@@W4BTH_SDP_QUERY_TYPE@@@Z"
+    },
+    {
+      "offset": 17828,
+      "name": "?BthpSetServiceState@@YGKPAXPBU_BLUETOOTH_DEVICE_INFO@@KPBU_GUID@@K0EEE@Z"
+    },
+    {
+      "offset": 17828,
+      "name": "__imp_?BthpSetServiceState@@YGKPAXPBU_BLUETOOTH_DEVICE_INFO@@KPBU_GUID@@K0EEE@Z"
+    },
+    {
+      "offset": 18000,
+      "name": "?BthpSetServiceStateEx@@YGKPAXPBU_BLUETOOTH_DEVICE_INFO@@KPBU_GUID@@K0EEEE@Z"
+    },
+    {
+      "offset": 18000,
+      "name": "__imp_?BthpSetServiceStateEx@@YGKPAXPBU_BLUETOOTH_DEVICE_INFO@@KPBU_GUID@@K0EEEE@Z"
+    },
+    {
+      "offset": 29530,
+      "name": "_BthpFindPnpInfo@16"
+    },
+    {
+      "offset": 29530,
+      "name": "__imp__BthpFindPnpInfo@16"
+    },
+    {
+      "offset": 30016,
+      "name": "_BthpNextRecord@8"
+    },
+    {
+      "offset": 30016,
+      "name": "__imp__BthpNextRecord@8"
+    },
+    {
+      "offset": 29770,
+      "name": "_BthpInnerRecord@12"
+    },
+    {
+      "offset": 29770,
+      "name": "__imp__BthpInnerRecord@12"
+    },
+    {
+      "offset": 30396,
+      "name": "_BthpTransposeAndExtendBytes@12"
+    },
+    {
+      "offset": 30396,
+      "name": "__imp__BthpTransposeAndExtendBytes@12"
+    },
+    {
+      "offset": 28886,
+      "name": "_BthpCleanupDeviceLocalServices@4"
+    },
+    {
+      "offset": 28886,
+      "name": "__imp__BthpCleanupDeviceLocalServices@4"
+    },
+    {
+      "offset": 29018,
+      "name": "_BthpCleanupDeviceRemoteServices@4"
+    },
+    {
+      "offset": 29018,
+      "name": "__imp__BthpCleanupDeviceRemoteServices@4"
+    },
+    {
+      "offset": 29152,
+      "name": "_BthpCleanupLEDeviceNodes@16"
+    },
+    {
+      "offset": 29152,
+      "name": "__imp__BthpCleanupLEDeviceNodes@16"
+    },
+    {
+      "offset": 28760,
+      "name": "_BthpCleanupBRDeviceNode@8"
+    },
+    {
+      "offset": 28760,
+      "name": "__imp__BthpCleanupBRDeviceNode@8"
+    },
+    {
+      "offset": 29404,
+      "name": "_BthpEnableRadioSoftware@4"
+    },
+    {
+      "offset": 29404,
+      "name": "__imp__BthpEnableRadioSoftware@4"
+    },
+    {
+      "offset": 29888,
+      "name": "_BthpIsRadioSoftwareEnabled@4"
+    },
+    {
+      "offset": 29888,
+      "name": "__imp__BthpIsRadioSoftwareEnabled@4"
+    },
+    {
+      "offset": 30132,
+      "name": "_BthpRegisterForAuthentication@28"
+    },
+    {
+      "offset": 30132,
+      "name": "__imp__BthpRegisterForAuthentication@28"
+    },
+    {
+      "offset": 29648,
+      "name": "_BthpGATTCloseSession@8"
+    },
+    {
+      "offset": 29648,
+      "name": "__imp__BthpGATTCloseSession@8"
+    },
+    {
+      "offset": 30264,
+      "name": "_BthpShouldForceAuthentication@4"
+    },
+    {
+      "offset": 30264,
+      "name": "__imp__BthpShouldForceAuthentication@4"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 17652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3248305459,
+      "sizeOfData": 95,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "?BthpEnableA2DPIfPresent@@YGKPBU_BLUETOOTH_ADDRESS@@W4BTH_SDP_QUERY_TYPE@@@Z (unsigned long __stdcall BthpEnableA2DPIfPresent(struct _BLUETOOTH_ADDRESS const *,enum BTH_SDP_QUERY_TYPE))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "BthpEnableA2DPIfPresent"
+    },
+    {
+      "offset": 17828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3825673928,
+      "sizeOfData": 92,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "?BthpSetServiceState@@YGKPAXPBU_BLUETOOTH_DEVICE_INFO@@KPBU_GUID@@K0EEE@Z (unsigned long __stdcall BthpSetServiceState(void *,struct _BLUETOOTH_DEVICE_INFO const *,unsigned long,struct _GUID const *,unsigned long,void *,unsigned char,unsigned char,unsigned char))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "BthpSetServiceState"
+    },
+    {
+      "offset": 18000,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3528221398,
+      "sizeOfData": 95,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "?BthpSetServiceStateEx@@YGKPAXPBU_BLUETOOTH_DEVICE_INFO@@KPBU_GUID@@K0EEEE@Z (unsigned long __stdcall BthpSetServiceStateEx(void *,struct _BLUETOOTH_DEVICE_INFO const *,unsigned long,struct _GUID const *,unsigned long,void *,unsigned char,unsigned char,unsigned char,unsigned char))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "BthpSetServiceStateEx"
+    },
+    {
+      "offset": 18176,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3886770703,
+      "sizeOfData": 47,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothAddressToString@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "BluetoothAddressToString"
+    },
+    {
+      "offset": 18304,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3304570711,
+      "sizeOfData": 54,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothCheckForUnsupportedGuid@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "BluetoothCheckForUnsupportedGuid"
+    },
+    {
+      "offset": 18438,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3335251454,
+      "sizeOfData": 47,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothDisconnectDevice@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "BluetoothDisconnectDevice"
+    },
+    {
+      "offset": 18566,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3330428583,
+      "sizeOfData": 64,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothEnableConnectableAndDiscoverable@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "BluetoothEnableConnectableAndDiscoverable"
+    },
+    {
+      "offset": 18710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4133571856,
+      "sizeOfData": 46,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothEnableDiscovery@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "BluetoothEnableDiscovery"
+    },
+    {
+      "offset": 18836,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4129352409,
+      "sizeOfData": 56,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothEnableIncomingConnections@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "BluetoothEnableIncomingConnections"
+    },
+    {
+      "offset": 18972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3524661148,
+      "sizeOfData": 58,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothEnumerateInstalledServices@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "BluetoothEnumerateInstalledServices"
+    },
+    {
+      "offset": 19110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4041889150,
+      "sizeOfData": 60,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothEnumerateInstalledServicesEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "BluetoothEnumerateInstalledServicesEx"
+    },
+    {
+      "offset": 19250,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4041645498,
+      "sizeOfData": 54,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothEnumerateLocalServices@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "BluetoothEnumerateLocalServices"
+    },
+    {
+      "offset": 19384,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4262319110,
+      "sizeOfData": 51,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindBrowseGroupClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "BluetoothFindBrowseGroupClose"
+    },
+    {
+      "offset": 19516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3285770281,
+      "sizeOfData": 47,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindClassIdClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "BluetoothFindClassIdClose"
+    },
+    {
+      "offset": 19644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4270196618,
+      "sizeOfData": 46,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindDeviceClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "BluetoothFindDeviceClose"
+    },
+    {
+      "offset": 19770,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4251815369,
+      "sizeOfData": 51,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindFirstBrowseGroup@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "BluetoothFindFirstBrowseGroup"
+    },
+    {
+      "offset": 19902,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3991986608,
+      "sizeOfData": 47,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindFirstClassId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "BluetoothFindFirstClassId"
+    },
+    {
+      "offset": 20030,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3719502867,
+      "sizeOfData": 46,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindFirstDevice@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "BluetoothFindFirstDevice"
+    },
+    {
+      "offset": 20156,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4103630038,
+      "sizeOfData": 57,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindFirstProfileDescriptor@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "BluetoothFindFirstProfileDescriptor"
+    },
+    {
+      "offset": 20294,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4208402752,
+      "sizeOfData": 63,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindFirstProtocolDescriptorStack@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "BluetoothFindFirstProtocolDescriptorStack"
+    },
+    {
+      "offset": 20438,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4132390201,
+      "sizeOfData": 53,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindFirstProtocolEntry@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "BluetoothFindFirstProtocolEntry"
+    },
+    {
+      "offset": 20572,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3251319031,
+      "sizeOfData": 45,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindFirstRadio@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "BluetoothFindFirstRadio"
+    },
+    {
+      "offset": 20698,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3545919131,
+      "sizeOfData": 47,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindFirstService@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "BluetoothFindFirstService"
+    },
+    {
+      "offset": 20826,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3519170883,
+      "sizeOfData": 50,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindFirstServiceEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "BluetoothFindFirstServiceEx"
+    },
+    {
+      "offset": 20956,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4153083518,
+      "sizeOfData": 50,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindNextBrowseGroup@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "BluetoothFindNextBrowseGroup"
+    },
+    {
+      "offset": 21086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4142935150,
+      "sizeOfData": 46,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindNextClassId@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "BluetoothFindNextClassId"
+    },
+    {
+      "offset": 21212,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3693093081,
+      "sizeOfData": 45,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindNextDevice@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "BluetoothFindNextDevice"
+    },
+    {
+      "offset": 21338,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3319184172,
+      "sizeOfData": 56,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindNextProfileDescriptor@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "BluetoothFindNextProfileDescriptor"
+    },
+    {
+      "offset": 21474,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4227113464,
+      "sizeOfData": 62,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindNextProtocolDescriptorStack@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "BluetoothFindNextProtocolDescriptorStack"
+    },
+    {
+      "offset": 21616,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3497240694,
+      "sizeOfData": 52,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindNextProtocolEntry@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "BluetoothFindNextProtocolEntry"
+    },
+    {
+      "offset": 21748,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4163632684,
+      "sizeOfData": 44,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindNextRadio@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "BluetoothFindNextRadio"
+    },
+    {
+      "offset": 21872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3691263559,
+      "sizeOfData": 46,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindNextService@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "BluetoothFindNextService"
+    },
+    {
+      "offset": 21998,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3581132362,
+      "sizeOfData": 57,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindProfileDescriptorClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "BluetoothFindProfileDescriptorClose"
+    },
+    {
+      "offset": 22136,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4048857235,
+      "sizeOfData": 63,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindProtocolDescriptorStackClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "BluetoothFindProtocolDescriptorStackClose"
+    },
+    {
+      "offset": 22280,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3231993001,
+      "sizeOfData": 53,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindProtocolEntryClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "BluetoothFindProtocolEntryClose"
+    },
+    {
+      "offset": 22414,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3285098278,
+      "sizeOfData": 45,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindRadioClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "BluetoothFindRadioClose"
+    },
+    {
+      "offset": 22540,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4172207556,
+      "sizeOfData": 47,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothFindServiceClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "BluetoothFindServiceClose"
+    },
+    {
+      "offset": 22668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3944324891,
+      "sizeOfData": 54,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGATTAbortReliableWrite@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "BluetoothGATTAbortReliableWrite"
+    },
+    {
+      "offset": 22802,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3268069407,
+      "sizeOfData": 54,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGATTBeginReliableWrite@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "BluetoothGATTBeginReliableWrite"
+    },
+    {
+      "offset": 22936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4287682301,
+      "sizeOfData": 52,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGATTEndReliableWrite@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "BluetoothGATTEndReliableWrite"
+    },
+    {
+      "offset": 23068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3370166265,
+      "sizeOfData": 58,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGATTGetCharacteristicValue@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "BluetoothGATTGetCharacteristicValue"
+    },
+    {
+      "offset": 23206,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3681145179,
+      "sizeOfData": 54,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGATTGetCharacteristics@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "BluetoothGATTGetCharacteristics"
+    },
+    {
+      "offset": 23340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4127042588,
+      "sizeOfData": 54,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGATTGetDescriptorValue@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "BluetoothGATTGetDescriptorValue"
+    },
+    {
+      "offset": 23474,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4238907185,
+      "sizeOfData": 50,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGATTGetDescriptors@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "BluetoothGATTGetDescriptors"
+    },
+    {
+      "offset": 23604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3413056848,
+      "sizeOfData": 55,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGATTGetIncludedServices@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "BluetoothGATTGetIncludedServices"
+    },
+    {
+      "offset": 23740,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3612897698,
+      "sizeOfData": 47,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGATTGetServices@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "BluetoothGATTGetServices"
+    },
+    {
+      "offset": 23868,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3897549833,
+      "sizeOfData": 49,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGATTRegisterEvent@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "BluetoothGATTRegisterEvent"
+    },
+    {
+      "offset": 23998,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3602209128,
+      "sizeOfData": 58,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGATTSetCharacteristicValue@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "BluetoothGATTSetCharacteristicValue"
+    },
+    {
+      "offset": 24136,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4291534680,
+      "sizeOfData": 54,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGATTSetDescriptorValue@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "BluetoothGATTSetDescriptorValue"
+    },
+    {
+      "offset": 24270,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4030015395,
+      "sizeOfData": 50,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGATTUnregisterEvent@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "BluetoothGATTUnregisterEvent"
+    },
+    {
+      "offset": 24400,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3730797188,
+      "sizeOfData": 44,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGetDeviceInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "BluetoothGetDeviceInfo"
+    },
+    {
+      "offset": 24524,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3428184931,
+      "sizeOfData": 51,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGetLocalServiceInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "BluetoothGetLocalServiceInfo"
+    },
+    {
+      "offset": 24656,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3597279272,
+      "sizeOfData": 43,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGetRadioInfo@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "BluetoothGetRadioInfo"
+    },
+    {
+      "offset": 24780,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3500998369,
+      "sizeOfData": 53,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothGetServicePnpInstance@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "BluetoothGetServicePnpInstance"
+    },
+    {
+      "offset": 24914,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4031043447,
+      "sizeOfData": 56,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothIsBluetoothServiceRunning@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "BluetoothIsBluetoothServiceRunning"
+    },
+    {
+      "offset": 25050,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3912857293,
+      "sizeOfData": 44,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothIsConnectable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "BluetoothIsConnectable"
+    },
+    {
+      "offset": 25174,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3923289001,
+      "sizeOfData": 53,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothIsConnectableByDefault@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "BluetoothIsConnectableByDefault"
+    },
+    {
+      "offset": 25308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3629886959,
+      "sizeOfData": 45,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothIsDiscoverable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "BluetoothIsDiscoverable"
+    },
+    {
+      "offset": 25434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3359289403,
+      "sizeOfData": 54,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothIsDiscoverableByDefault@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "BluetoothIsDiscoverableByDefault"
+    },
+    {
+      "offset": 25568,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4257540124,
+      "sizeOfData": 58,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothIsSwiftPairEnabledByDefault@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "BluetoothIsSwiftPairEnabledByDefault"
+    },
+    {
+      "offset": 25706,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3481792849,
+      "sizeOfData": 51,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothIsTopOfServiceGroup@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "BluetoothIsTopOfServiceGroup"
+    },
+    {
+      "offset": 25838,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3428530523,
+      "sizeOfData": 49,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothIsVersionAvailable@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "BluetoothIsVersionAvailable"
+    },
+    {
+      "offset": 25968,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3368381230,
+      "sizeOfData": 47,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothMapStatusToError@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "BluetoothMapStatusToError"
+    },
+    {
+      "offset": 26096,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3484747867,
+      "sizeOfData": 57,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothRegisterForAuthentication@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "BluetoothRegisterForAuthentication"
+    },
+    {
+      "offset": 26234,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3570056668,
+      "sizeOfData": 59,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothRegisterForAuthenticationEx@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "BluetoothRegisterForAuthenticationEx"
+    },
+    {
+      "offset": 26374,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3950088820,
+      "sizeOfData": 65,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothRegisterForAuthenticationInternal@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "BluetoothRegisterForAuthenticationInternal"
+    },
+    {
+      "offset": 26520,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4178216676,
+      "sizeOfData": 43,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothRemoveDevice@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "BluetoothRemoveDevice"
+    },
+    {
+      "offset": 26644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3282090846,
+      "sizeOfData": 49,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSdpEnumAttributes@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "BluetoothSdpEnumAttributes"
+    },
+    {
+      "offset": 26774,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3439616405,
+      "sizeOfData": 52,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSdpGetAttributeValue@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "BluetoothSdpGetAttributeValue"
+    },
+    {
+      "offset": 26906,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3322039484,
+      "sizeOfData": 58,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSdpGetContainerElementData@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "BluetoothSdpGetContainerElementData"
+    },
+    {
+      "offset": 27044,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3584111217,
+      "sizeOfData": 49,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSdpGetElementData@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "BluetoothSdpGetElementData"
+    },
+    {
+      "offset": 27174,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3373440202,
+      "sizeOfData": 49,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSdpGetInnerRecord@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "BluetoothSdpGetInnerRecord"
+    },
+    {
+      "offset": 27304,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3648349536,
+      "sizeOfData": 47,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSdpGetNextRecord@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "BluetoothSdpGetNextRecord"
+    },
+    {
+      "offset": 27432,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3670223468,
+      "sizeOfData": 44,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSdpGetString@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "BluetoothSdpGetString"
+    },
+    {
+      "offset": 27556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3897963278,
+      "sizeOfData": 58,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSendAuthenticationResponse@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "BluetoothSendAuthenticationResponse"
+    },
+    {
+      "offset": 27694,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3734779331,
+      "sizeOfData": 59,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSendAuthenticationResponseEx@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "BluetoothSendAuthenticationResponseEx"
+    },
+    {
+      "offset": 27834,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4211918561,
+      "sizeOfData": 51,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSetLocalServiceInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "BluetoothSetLocalServiceInfo"
+    },
+    {
+      "offset": 27966,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3844567923,
+      "sizeOfData": 47,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSetServiceState@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "BluetoothSetServiceState"
+    },
+    {
+      "offset": 28094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3368909227,
+      "sizeOfData": 49,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSetServiceStateEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "BluetoothSetServiceStateEx"
+    },
+    {
+      "offset": 28224,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4122142585,
+      "sizeOfData": 55,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSppEnableIncomingComPort@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "BluetoothSppEnableIncomingComPort"
+    },
+    {
+      "offset": 28360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3930709976,
+      "sizeOfData": 53,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothSppFindNextOpenComPort@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "BluetoothSppFindNextOpenComPort"
+    },
+    {
+      "offset": 28494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4250229180,
+      "sizeOfData": 55,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothUnregisterAuthentication@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "BluetoothUnregisterAuthentication"
+    },
+    {
+      "offset": 28630,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3910838379,
+      "sizeOfData": 49,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BluetoothUpdateDeviceRecord@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "BluetoothUpdateDeviceRecord"
+    },
+    {
+      "offset": 28760,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3572203772,
+      "sizeOfData": 45,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpCleanupBRDeviceNode@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "BthpCleanupBRDeviceNode"
+    },
+    {
+      "offset": 28886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3313975556,
+      "sizeOfData": 52,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpCleanupDeviceLocalServices@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "BthpCleanupDeviceLocalServices"
+    },
+    {
+      "offset": 29018,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4270857777,
+      "sizeOfData": 53,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpCleanupDeviceRemoteServices@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "BthpCleanupDeviceRemoteServices"
+    },
+    {
+      "offset": 29152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4015677726,
+      "sizeOfData": 47,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpCleanupLEDeviceNodes@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "BthpCleanupLEDeviceNodes"
+    },
+    {
+      "offset": 29280,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3411593315,
+      "sizeOfData": 43,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpEnableAllServices@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "BthpEnableAllServices"
+    },
+    {
+      "offset": 29404,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3897001794,
+      "sizeOfData": 45,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpEnableRadioSoftware@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "BthpEnableRadioSoftware"
+    },
+    {
+      "offset": 29530,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3296938594,
+      "sizeOfData": 38,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpFindPnpInfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "BthpFindPnpInfo"
+    },
+    {
+      "offset": 29648,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3852088987,
+      "sizeOfData": 42,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpGATTCloseSession@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "BthpGATTCloseSession"
+    },
+    {
+      "offset": 29770,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3931905653,
+      "sizeOfData": 38,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpInnerRecord@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "BthpInnerRecord"
+    },
+    {
+      "offset": 29888,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3449598253,
+      "sizeOfData": 48,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpIsRadioSoftwareEnabled@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "BthpIsRadioSoftwareEnabled"
+    },
+    {
+      "offset": 30016,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4045646075,
+      "sizeOfData": 36,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpNextRecord@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "BthpNextRecord"
+    },
+    {
+      "offset": 30132,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3454485810,
+      "sizeOfData": 52,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpRegisterForAuthentication@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "BthpRegisterForAuthentication"
+    },
+    {
+      "offset": 30264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3851065325,
+      "sizeOfData": 51,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpShouldForceAuthentication@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "BthpShouldForceAuthentication"
+    },
+    {
+      "offset": 30396,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3869725745,
+      "sizeOfData": 50,
+      "dllName": "BluetoothApis.dll",
+      "symbolName": "_BthpTransposeAndExtendBytes@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "BthpTransposeAndExtendBytes"
+    }
+  ]
+}

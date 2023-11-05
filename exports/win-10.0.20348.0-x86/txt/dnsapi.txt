@@ -1,0 +1,7053 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\dnsapi.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    5062 size
+correct header end
+
+    624 public symbols
+
+     A150 __IMPORT_DESCRIPTOR_DNSAPI
+     A376 __NULL_IMPORT_DESCRIPTOR
+     A4AC DNSAPI_NULL_THUNK_DATA
+     AF1E _DnsAcquireContextHandle_A@12
+     AF1E __imp__DnsAcquireContextHandle_A@12
+     AF98 _DnsAcquireContextHandle_W@12
+     AF98 __imp__DnsAcquireContextHandle_W@12
+     EFA4 _DnsReleaseContextHandle@4
+     EFA4 __imp__DnsReleaseContextHandle@4
+     DE9C _DnsModifyRecordsInSet_UTF8@24
+     DE9C __imp__DnsModifyRecordsInSet_UTF8@24
+     DE24 _DnsModifyRecordsInSet_A@24
+     DE24 __imp__DnsModifyRecordsInSet_A@24
+     DF16 _DnsModifyRecordsInSet_W@24
+     DF16 __imp__DnsModifyRecordsInSet_W@24
+     F174 _DnsReplaceRecordSetUTF8@20
+     F174 __imp__DnsReplaceRecordSetUTF8@20
+     F100 _DnsReplaceRecordSetA@20
+     F100 __imp__DnsReplaceRecordSetA@20
+     F1EC _DnsReplaceRecordSetW@20
+     F1EC __imp__DnsReplaceRecordSetW@20
+     E8E4 _DnsQuery_UTF8@24
+     E8E4 __imp__DnsQuery_UTF8@24
+     E87A _DnsQuery_A@24
+     E87A __imp__DnsQuery_A@24
+     E952 _DnsQuery_W@24
+     E952 __imp__DnsQuery_W@24
+     E6CE _DnsQueryEx@12
+     E6CE __imp__DnsQueryEx@12
+     B6BA _DnsCancelQuery@4
+     B6BA __imp__DnsCancelQuery@4
+     F524 _DnsServiceConstructInstance@40
+     F524 __imp__DnsServiceConstructInstance@40
+     F5A0 _DnsServiceCopyInstance@4
+     F5A0 __imp__DnsServiceCopyInstance@4
+     F68A _DnsServiceFreeInstance@4
+     F68A __imp__DnsServiceFreeInstance@4
+     F43E _DnsServiceBrowse@8
+     F43E __imp__DnsServiceBrowse@8
+     F7EA _DnsServiceResolve@8
+     F7EA __imp__DnsServiceResolve@8
+     F700 _DnsServiceRegister@8
+     F700 __imp__DnsServiceRegister@8
+     F616 _DnsServiceDeRegister@8
+     F616 __imp__DnsServiceDeRegister@8
+     F4AE _DnsServiceBrowseCancel@4
+     F4AE __imp__DnsServiceBrowseCancel@4
+     F85A _DnsServiceResolveCancel@4
+     F85A __imp__DnsServiceResolveCancel@4
+     F772 _DnsServiceRegisterCancel@4
+     F772 __imp__DnsServiceRegisterCancel@4
+     EF34 _DnsRegisterLocal@16
+     EF34 __imp__DnsRegisterLocal@16
+     C246 _DnsDeRegisterLocal@8
+     C246 __imp__DnsDeRegisterLocal@8
+     FC6E _DnsStartMulticastQuery@8
+     FC6E __imp__DnsStartMulticastQuery@8
+     FCE4 _DnsStopMulticastQuery@4
+     FCE4 __imp__DnsStopMulticastQuery@4
+     E810 _DnsQueryExW@4
+     E810 __imp__DnsQueryExW@4
+     E738 _DnsQueryExA@4
+     E738 __imp__DnsQueryExA@4
+     E7A2 _DnsQueryExUTF8@4
+     E7A2 __imp__DnsQueryExUTF8@4
+     EB10 _DnsRecordCopyEx@12
+     EB10 __imp__DnsRecordCopyEx@12
+     ECE8 _DnsRecordSetCopyEx@12
+     ECE8 __imp__DnsRecordSetCopyEx@12
+     EAA0 _DnsRecordCompare@8
+     EAA0 __imp__DnsRecordCompare@8
+     EC74 _DnsRecordSetCompare@16
+     EC74 __imp__DnsRecordSetCompare@16
+     ED5A _DnsRecordSetDetach@4
+     ED5A __imp__DnsRecordSetDetach@4
+     EB80 _DnsRecordListFree@8
+     EB80 __imp__DnsRecordListFree@8
+    10674 _DnsWriteQuestionToBuffer_W@24
+    10674 __imp__DnsWriteQuestionToBuffer_W@24
+    105F6 _DnsWriteQuestionToBuffer_UTF8@24
+    105F6 __imp__DnsWriteQuestionToBuffer_UTF8@24
+     CAAC _DnsExtractRecordsFromMessage_W@12
+     CAAC __imp__DnsExtractRecordsFromMessage_W@12
+     CA2A _DnsExtractRecordsFromMessage_UTF8@12
+     CA2A __imp__DnsExtractRecordsFromMessage_UTF8@12
+     E1CA _DnsNameCompare_W@8
+     E1CA __imp__DnsNameCompare_W@8
+     E0E8 _DnsNameCompare_A@8
+     E0E8 __imp__DnsNameCompare_A@8
+    10250 _DnsValidateName_UTF8@8
+    10250 __imp__DnsValidateName_UTF8@8
+    102C4 _DnsValidateName_W@8
+    102C4 __imp__DnsValidateName_W@8
+    101E0 _DnsValidateName_A@8
+    101E0 __imp__DnsValidateName_A@8
+     E578 _DnsQueryConfig@24
+     E578 __imp__DnsQueryConfig@24
+     CD8C _DnsFree@8
+     CD8C __imp__DnsFree@8
+     C414 _DnsDhcpRegisterInit@0
+     C414 __imp__DnsDhcpRegisterInit@0
+     C486 _DnsDhcpRegisterTerm@0
+     C486 __imp__DnsDhcpRegisterTerm@0
+     C39C _DnsDhcpRegisterHostAddrs@40
+     C39C __imp__DnsDhcpRegisterHostAddrs@40
+     C328 _DnsDhcpRegisterAddrs@4
+     C328 __imp__DnsDhcpRegisterAddrs@4
+     C4F8 _DnsDhcpRemoveRegistrations@0
+     C4F8 __imp__DnsDhcpRemoveRegistrations@0
+     C75E _DnsDhcpSrvRegisterInit@8
+     C75E __imp__DnsDhcpSrvRegisterInit@8
+     C8C8 _DnsDhcpSrvRegisterTerm@0
+     C8C8 __imp__DnsDhcpSrvRegisterTerm@0
+     C668 _DnsDhcpSrvRegisterHostName@48
+     C668 __imp__DnsDhcpSrvRegisterHostName@48
+     C572 _DnsDhcpSrvRegisterHostAddr@4
+     C572 __imp__DnsDhcpSrvRegisterHostAddr@4
+     C6E2 _DnsDhcpSrvRegisterHostNameEx@60
+     C6E2 __imp__DnsDhcpSrvRegisterHostNameEx@60
+     C5EC _DnsDhcpSrvRegisterHostAddrEx@4
+     C5EC __imp__DnsDhcpSrvRegisterHostAddrEx@4
+     C7D4 _DnsDhcpSrvRegisterInitEx@12
+     C7D4 __imp__DnsDhcpSrvRegisterInitEx@12
+    10086 _DnsUpdateTest_UTF8@16
+    10086 __imp__DnsUpdateTest_UTF8@16
+    10016 _DnsUpdateTest_A@16
+    10016 __imp__DnsUpdateTest_A@16
+    100F8 _DnsUpdateTest_W@16
+    100F8 __imp__DnsUpdateTest_W@16
+     F2DA _DnsResolverOp@12
+     F2DA __imp__DnsResolverOp@12
+     E41A _DnsNotifyResolver@8
+     E41A __imp__DnsNotifyResolver@8
+     E504 _DnsNotifyResolverEx@16
+     E504 __imp__DnsNotifyResolverEx@16
+     CBA2 _DnsFlushResolverCache@0
+     CBA2 __imp__DnsFlushResolverCache@0
+     CC92 _DnsFlushResolverCacheEntry_UTF8@4
+     CC92 __imp__DnsFlushResolverCacheEntry_UTF8@4
+     CC16 _DnsFlushResolverCacheEntry_A@4
+     CC16 __imp__DnsFlushResolverCacheEntry_A@4
+     CD10 _DnsFlushResolverCacheEntry_W@4
+     CD10 __imp__DnsFlushResolverCacheEntry_W@4
+     D304 _DnsGetCacheDataTable@4
+     D304 __imp__DnsGetCacheDataTable@4
+     D378 _DnsGetCacheDataTableEx@12
+     D378 __imp__DnsGetCacheDataTableEx@12
+     F348 _DnsResolverQueryHvsi@32
+     F348 __imp__DnsResolverQueryHvsi@32
+     E158 _DnsNameCompare_UTF8@8
+     E158 __imp__DnsNameCompare_UTF8@8
+     E076 _DnsNameCompareEx_W@12
+     E076 __imp__DnsNameCompareEx_W@12
+     DF8E _DnsNameCompareEx_A@12
+     DF8E __imp__DnsNameCompareEx_A@12
+     E000 _DnsNameCompareEx_UTF8@12
+     E000 __imp__DnsNameCompareEx_UTF8@12
+    10168 _DnsValidateNameOrIp_TempW@8
+    10168 __imp__DnsValidateNameOrIp_TempW@8
+    108E2 _Dns_BuildPacket@28
+    108E2 __imp__Dns_BuildPacket@28
+    11194 _Dns_ParseMessage@20
+    11194 __imp__Dns_ParseMessage@20
+     D196 _DnsGetAdaptersInfo@24
+     D196 __imp__DnsGetAdaptersInfo@24
+     CDF2 _DnsFreeAdaptersInfo@8
+     CDF2 __imp__DnsFreeAdaptersInfo@8
+     E5E6 _DnsQueryConfigAllocEx@12
+     E5E6 __imp__DnsQueryConfigAllocEx@12
+     CE64 _DnsFreeConfigStructure@8
+     CE64 __imp__DnsFreeConfigStructure@8
+     E65C _DnsQueryConfigDword@8
+     E65C __imp__DnsQueryConfigDword@8
+     F8D0 _DnsSetConfigDword@12
+     F8D0 __imp__DnsSetConfigDword@12
+     F942 _DnsSetConfigValue@20
+     F942 __imp__DnsSetConfigValue@20
+     D98C _DnsGetSettings@4
+     D98C __imp__DnsGetSettings@4
+     FB82 _DnsSetSettings@4
+     FB82 __imp__DnsSetSettings@4
+     C2B8 _DnsDeleteSettings@8
+     C2B8 __imp__DnsDeleteSettings@8
+     D460 _DnsGetInterfaceSettings@20
+     D460 __imp__DnsGetInterfaceSettings@20
+     F9B4 _DnsSetInterfaceSettings@20
+     F9B4 __imp__DnsSetInterfaceSettings@20
+     D4D8 _DnsGetInterfaceSettingsInProc@20
+     D4D8 __imp__DnsGetInterfaceSettingsInProc@20
+     B394 _DnsApiHeapReset@12
+     B394 __imp__DnsApiHeapReset@12
+     B252 _DnsApiAlloc@4
+     B252 __imp__DnsApiAlloc@4
+     B2BC _DnsApiAllocZero@4
+     B2BC __imp__DnsApiAllocZero@4
+     B478 _DnsApiRealloc@8
+     B478 __imp__DnsApiRealloc@8
+     B32A _DnsApiFree@4
+     B32A __imp__DnsApiFree@4
+     B4E4 _DnsApiSetDebugGlobals@4
+     B4E4 __imp__DnsApiSetDebugGlobals@4
+    10424 _DnsValidateServerStatus@12
+    10424 __imp__DnsValidateServerStatus@12
+     D208 _DnsGetApplicationIdentifier@12
+     D208 __imp__DnsGetApplicationIdentifier@12
+     B90A _DnsConnectionDeletePolicyEntriesPrivate@8
+     B90A __imp__DnsConnectionDeletePolicyEntriesPrivate@8
+     BBF4 _DnsConnectionGetHandleForHostUrlPrivate@24
+     BBF4 __imp__DnsConnectionGetHandleForHostUrlPrivate@24
+     BEE6 _DnsConnectionSetPolicyEntriesPrivate@12
+     BEE6 __imp__DnsConnectionSetPolicyEntriesPrivate@12
+     F01A _DnsRemoveNrptRule@4
+     F01A __imp__DnsRemoveNrptRule@4
+     FA2C _DnsSetNrptRule@12
+     FA2C __imp__DnsSetNrptRule@12
+     FA9A _DnsSetNrptRules@16
+     FA9A __imp__DnsSetNrptRules@16
+     CEDA _DnsFreeNrptRule@4
+     CEDA __imp__DnsFreeNrptRule@4
+     D5D0 _DnsGetNrptRuleNamesList@8
+     D5D0 __imp__DnsGetNrptRuleNamesList@8
+     CF48 _DnsFreeNrptRuleNamesList@8
+     CF48 __imp__DnsFreeNrptRuleNamesList@8
+     E31A _DnsNetworkInfo_CreateFromFAZ@20
+     E31A __imp__DnsNetworkInfo_CreateFromFAZ@20
+     E396 _DnsNetworkInformation_CreateFromFAZ@16
+     E396 __imp__DnsNetworkInformation_CreateFromFAZ@16
+     F3BC _DnsScreenLocalAddrsForRegistration@12
+     F3BC __imp__DnsScreenLocalAddrsForRegistration@12
+    109C8 _Dns_CacheServiceInit@0
+    109C8 __imp__Dns_CacheServiceInit@0
+    10A3C _Dns_CacheServiceInitEx@12
+    10A3C __imp__Dns_CacheServiceInitEx@12
+    10952 _Dns_CacheServiceCleanup@0
+    10952 __imp__Dns_CacheServiceCleanup@0
+    10AB2 _Dns_CacheServiceStopIssued@0
+    10AB2 __imp__Dns_CacheServiceStopIssued@0
+     DAEE __imp__DnsGlobals
+    127F6 _Reg_ReadGlobalsEx@8
+    127F6 __imp__Reg_ReadGlobalsEx@8
+    12788 _Reg_GetValueEx@28
+    12788 __imp__Reg_GetValueEx@28
+    11F2C _NetInfo_Copy@4
+    11F2C __imp__NetInfo_Copy@4
+    1208E _NetInfo_Free@4
+    1208E __imp__NetInfo_Free@4
+    11F98 _NetInfo_CopyNetworkIndex@8
+    11F98 __imp__NetInfo_CopyNetworkIndex@8
+    11DE4 _NetInfo_Build@8
+    11DE4 __imp__NetInfo_Build@8
+    11E50 _NetInfo_BuildEx@12
+    11E50 __imp__NetInfo_BuildEx@12
+    11EC0 _NetInfo_Clean@8
+    11EC0 __imp__NetInfo_Clean@8
+    123D0 _NetInfo_ResetServerPriorities@8
+    123D0 __imp__NetInfo_ResetServerPriorities@8
+    12176 _NetInfo_GetAdapterByInterfaceIndex@12
+    12176 __imp__NetInfo_GetAdapterByInterfaceIndex@12
+    121F8 _NetInfo_GetAdapterByName@8
+    121F8 __imp__NetInfo_GetAdapterByName@8
+    120FA _NetInfo_GetAdapterByAddress@12
+    120FA __imp__NetInfo_GetAdapterByAddress@12
+    12270 _NetInfo_IsAddrConfig@8
+    12270 __imp__NetInfo_IsAddrConfig@8
+    12010 _NetInfo_CreatePerNetworkNetinfo@8
+    12010 __imp__NetInfo_CreatePerNetworkNetinfo@8
+    124D2 _NetInfo_UpdateNetworkProperties@28
+    124D2 __imp__NetInfo_UpdateNetworkProperties@28
+    12356 _NetInfo_IsTcpipConfigChange@4
+    12356 __imp__NetInfo_IsTcpipConfigChange@4
+    1244C _NetInfo_UpdateDnsInterfaceConfigChange@4
+    1244C __imp__NetInfo_UpdateDnsInterfaceConfigChange@4
+    113DC _Dns_ResetNetworkInfo@4
+    113DC __imp__Dns_ResetNetworkInfo@4
+    12640 _Query_Cancel@12
+    12640 __imp__Query_Cancel@12
+    126AC _Query_Main@4
+    126AC __imp__Query_Main@4
+     ADC6 _CombineRecordsInBlob@8
+     ADC6 __imp__CombineRecordsInBlob@8
+     ACDA _BreakRecordsIntoBlob@12
+     ACDA __imp__BreakRecordsIntoBlob@12
+    11CEA _Local_GetRecordsForLocalName@8
+    11CEA __imp__Local_GetRecordsForLocalName@8
+    11D66 _Local_GetRecordsForLocalNameEx@20
+    11D66 __imp__Local_GetRecordsForLocalNameEx@20
+     AC68 _AddRefQueryBlobEx@16
+     AC68 __imp__AddRefQueryBlobEx@16
+     AE3A _DeRefQueryBlobEx@16
+     AE3A __imp__DeRefQueryBlobEx@16
+    11B98 _HostsFile_Open@4
+    11B98 __imp__HostsFile_Open@4
+    11B2A _HostsFile_Close@4
+    11B2A __imp__HostsFile_Close@4
+    11C06 _HostsFile_ReadLine@4
+    11C06 __imp__HostsFile_ReadLine@4
+     DDB8 _DnsLogEvent@16
+     DDB8 __imp__DnsLogEvent@16
+    11946 _ExtraInfo_Init@8
+    11946 __imp__ExtraInfo_Init@8
+    119B4 _Faz_AreServerListsInSameNameSpace@12
+    119B4 __imp__Faz_AreServerListsInSameNameSpace@12
+    132D8 _Update_ReplaceAddressRecordsW@20
+    132D8 __imp__Update_ReplaceAddressRecordsW@20
+    128D8 _Security_ContextListTimeout@4
+    128D8 __imp__Security_ContextListTimeout@4
+    12716 _Reg_FreeUpdateInfo@8
+    12716 __imp__Reg_FreeUpdateInfo@8
+    12866 _Reg_ReadUpdateInfo@8
+    12866 __imp__Reg_ReadUpdateInfo@8
+    12B32 _Socket_CacheCleanup@0
+    12B32 __imp__Socket_CacheCleanup@0
+    12BA4 _Socket_CacheInit@4
+    12BA4 __imp__Socket_CacheInit@4
+    12DEA _Socket_Create@20
+    12DEA __imp__Socket_Create@20
+    12E58 _Socket_CreateMulticast@20
+    12E58 __imp__Socket_CreateMulticast@20
+    12D02 _Socket_CloseEx@8
+    12D02 __imp__Socket_CloseEx@8
+    12ECE _Socket_InitWinsock@4
+    12ECE __imp__Socket_InitWinsock@4
+    12C14 _Socket_CleanupWinsock@0
+    12C14 __imp__Socket_CleanupWinsock@0
+    1311C _Socket_SetTtl@20
+    1311C __imp__Socket_SetTtl@20
+    130A0 _Socket_SetMulticastLoopBack@12
+    130A0 __imp__Socket_SetMulticastLoopBack@12
+    12F40 _Socket_JoinMulticast@20
+    12F40 __imp__Socket_JoinMulticast@20
+    13024 _Socket_SetMulticastInterface@16
+    13024 __imp__Socket_SetMulticastInterface@16
+    1318A _Socket_TcpListen@4
+    1318A __imp__Socket_TcpListen@4
+    12FB4 _Socket_RecvFrom@40
+    12FB4 __imp__Socket_RecvFrom@40
+    1176C _Dns_UpdateLib@20
+    1176C __imp__Dns_UpdateLib@20
+    1127A _Dns_PingAdapterServers@4
+    1127A __imp__Dns_PingAdapterServers@4
+    107F8 _Dns_AddRecordsToMessage@12
+    107F8 __imp__Dns_AddRecordsToMessage@12
+    10DDA _Dns_ExtractRecordsFromMessage@12
+    10DDA __imp__Dns_ExtractRecordsFromMessage@12
+     A978 @Dns_ReadPacketName@28
+     A978 __imp_@Dns_ReadPacketName@28
+    10870 _Dns_AllocateMsgBuf@4
+    10870 __imp__Dns_AllocateMsgBuf@4
+    13356 _Util_IsIp6Running@0
+    13356 __imp__Util_IsIp6Running@0
+    10FB2 _Dns_InitializeMsgBuf@4
+    10FB2 __imp__Dns_InitializeMsgBuf@4
+    115A2 _Dns_SetRecordsScopeId@12
+    115A2 __imp__Dns_SetRecordsScopeId@12
+    11618 _Dns_SetRecordsSection@8
+    11618 __imp__Dns_SetRecordsSection@8
+    1168C _Dns_SetRecordsTtl@8
+    1168C __imp__Dns_SetRecordsTtl@8
+    10ED4 _Dns_FreeMsgBuf@4
+    10ED4 __imp__Dns_FreeMsgBuf@4
+    125D2 _QueryDirectEx@40
+    125D2 __imp__QueryDirectEx@40
+    117DA _Dns_UpdateLibEx@28
+    117DA __imp__Dns_UpdateLibEx@28
+     FEB6 _DnsUpdate@20
+     FEB6 __imp__DnsUpdate@20
+    12C88 _Socket_ClearMessageSockets@4
+    12C88 __imp__Socket_ClearMessageSockets@4
+    12D70 _Socket_CloseMessageSockets@4
+    12D70 __imp__Socket_CloseMessageSockets@4
+    12AB4 _Send_OpenTcpConnectionAndSend@12
+    12AB4 __imp__Send_OpenTcpConnectionAndSend@12
+    129CA _Send_MessagePrivate@12
+    129CA __imp__Send_MessagePrivate@12
+    12A3E _Send_MessagePrivateEx@16
+    12A3E __imp__Send_MessagePrivateEx@16
+    11372 _Dns_RecvTcp@4
+    11372 __imp__Dns_RecvTcp@4
+     B812 _DnsCleanupTcpConnections@4
+     B812 __imp__DnsCleanupTcpConnections@4
+     B404 _DnsApiOnNetworkChange@8
+     B404 __imp__DnsApiOnNetworkChange@8
+    12952 _Send_AndRecvUdpWithParam@4
+    12952 __imp__Send_AndRecvUdpWithParam@4
+    116FC _Dns_SkipToRecord@12
+    116FC __imp__Dns_SkipToRecord@12
+    1152C _Dns_SetRecordDatalength@8
+    1152C __imp__Dns_SetRecordDatalength@8
+    11204 _Dns_ParsePacketRecord@12
+    11204 __imp__Dns_ParsePacketRecord@12
+    112F0 _Dns_ReadRecordStructureFromPacket@12
+    112F0 __imp__Dns_ReadRecordStructureFromPacket@12
+    10F42 _Dns_GetRandomXid@4
+    10F42 __imp__Dns_GetRandomXid@4
+    1184A _Dns_WriteQuestionToMessage@16
+    1184A __imp__Dns_WriteQuestionToMessage@16
+    118C4 _Dns_WriteRecordStructureToPacketEx@20
+    118C4 __imp__Dns_WriteRecordStructureToPacketEx@20
+     AAD6 @Dns_WriteDottedNameToPacket@24
+     AAD6 __imp_@Dns_WriteDottedNameToPacket@24
+     A9EA @Dns_ReadPacketNameAllocate@28
+     A9EA __imp_@Dns_ReadPacketNameAllocate@28
+     AA64 @Dns_SkipPacketName@8
+     AA64 __imp_@Dns_SkipPacketName@8
+     B1E2 _DnsAllocateRecord@4
+     B1E2 __imp__DnsAllocateRecord@4
+     E9BC _DnsRecordBuild_UTF8@28
+     E9BC __imp__DnsRecordBuild_UTF8@28
+     EA30 _DnsRecordBuild_W@28
+     EA30 __imp__DnsRecordBuild_W@28
+    11AB4 _GetCurrentTimeInSeconds@0
+    11AB4 __imp__GetCurrentTimeInSeconds@0
+    133C6 _Util_IsRunningOnXboxOne@0
+    133C6 __imp__Util_IsRunningOnXboxOne@0
+    11C78 _IpHelp_IsAddrOnLink@4
+    11C78 __imp__IpHelp_IsAddrOnLink@4
+     A82A @DnsStatusString@4
+     A82A __imp_@DnsStatusString@4
+     A7B8 @DnsMapRcodeToStatus@4
+     A7B8 __imp_@DnsMapRcodeToStatus@4
+     A748 @DnsIsStatusRcode@4
+     A748 __imp_@DnsIsStatusRcode@4
+     A5FC @DnsGetDomainName@4
+     A5FC __imp_@DnsGetDomainName@4
+     EEC0 _DnsRecordTypeForName@8
+     EEC0 __imp__DnsRecordTypeForName@8
+     EDCC _DnsRecordStringForType@4
+     EDCC __imp__DnsRecordStringForType@4
+     EE42 _DnsRecordStringForWritableType@4
+     EE42 __imp__DnsRecordStringForWritableType@4
+     DD38 _DnsIsStringCountValidForTextType@8
+     DD38 __imp__DnsIsStringCountValidForTextType@8
+     A66C @DnsIsAMailboxType@4
+     A66C __imp_@DnsIsAMailboxType@4
+     A6DC @DnsIsNSECType@4
+     A6DC __imp_@DnsIsNSECType@4
+     A898 @DnsUnicodeToUtf8@16
+     A898 __imp_@DnsUnicodeToUtf8@16
+     C9B2 _DnsDowncaseDnsNameLabel@16
+     C9B2 __imp__DnsDowncaseDnsNameLabel@16
+     A908 @DnsUtf8ToUnicode@16
+     A908 __imp_@DnsUtf8ToUnicode@16
+     C158 _DnsCreateStandardDnsNameCopy@12
+     C158 __imp__DnsCreateStandardDnsNameCopy@12
+    10584 _DnsValidateUtf8Byte@8
+    10584 __imp__DnsValidateUtf8Byte@8
+     E23A _DnsNameCopy@24
+     E23A __imp__DnsNameCopy@24
+     E2A6 _DnsNameCopyAllocate@16
+     E2A6 __imp__DnsNameCopyAllocate@16
+     C1D4 _DnsCreateStringCopy@8
+     C1D4 __imp__DnsCreateStringCopy@8
+     D284 _DnsGetBufferLengthForStringCopy@16
+     D284 __imp__DnsGetBufferLengthForStringCopy@16
+     C062 _DnsCopyStringEx@20
+     C062 __imp__DnsCopyStringEx@20
+     FD58 _DnsStringCopyAllocateEx@16
+     FD58 __imp__DnsStringCopyAllocateEx@16
+     FDD0 _DnsStringToAddress@24
+     FDD0 __imp__DnsStringToAddress@24
+    10510 _DnsValidateServer_W@12
+    10510 __imp__DnsValidateServer_W@12
+    1049C _DnsValidateServer_A@12
+    1049C __imp__DnsValidateServer_A@12
+    103AC _DnsValidateServerArray_W@12
+    103AC __imp__DnsValidateServerArray_W@12
+    10334 _DnsValidateServerArray_A@12
+    10334 __imp__DnsValidateServerArray_A@12
+    106EE _DnsWriteReverseNameStringForIpAddress@8
+    106EE __imp__DnsWriteReverseNameStringForIpAddress@8
+    10772 _DnsWriteReverseNameStringForIpAddressW@8
+    10772 __imp__DnsWriteReverseNameStringForIpAddressW@8
+     C0D2 _DnsCreateReverseNameStringForIpAddress@4
+     C0D2 __imp__DnsCreateReverseNameStringForIpAddress@4
+     DBD2 _DnsIp6ReverseNameToAddressW@8
+     DBD2 __imp__DnsIp6ReverseNameToAddressW@8
+     DB56 _DnsIp6AddressToReverseNameW@20
+     DB56 __imp__DnsIp6AddressToReverseNameW@20
+     DCC2 _DnsIpv6StringToAddress@12
+     DCC2 __imp__DnsIpv6StringToAddress@12
+     DC4C _DnsIpv6AddressToString@8
+     DC4C __imp__DnsIpv6AddressToString@8
+     EBF0 _DnsRecordListUnmapV4MappedAAAAInPlace@4
+     EBF0 __imp__DnsRecordListUnmapV4MappedAAAAInPlace@4
+     E48A _DnsNotifyResolverClusterIp@8
+     E48A __imp__DnsNotifyResolverClusterIp@8
+     D738 _DnsGetPrimaryDomainName_A@0
+     D738 __imp__DnsGetPrimaryDomainName_A@0
+     D3EE _DnsGetDnsServerList@4
+     D3EE __imp__DnsGetDnsServerList@4
+     D556 _DnsGetLastFailedUpdateInfo@4
+     D556 __imp__DnsGetLastFailedUpdateInfo@4
+    110A4 _Dns_InitializeWinsock@0
+    110A4 __imp__Dns_InitializeWinsock@0
+    10B2C _Dns_CleanupWinsock@0
+    10B2C __imp__Dns_CleanupWinsock@0
+    10C7E _Dns_CreateMulticastSocket@20
+    10C7E __imp__Dns_CreateMulticastSocket@20
+    10CF8 _Dns_CreateSocket@12
+    10CF8 __imp__Dns_CreateSocket@12
+    10D68 _Dns_CreateSocketEx@20
+    10D68 __imp__Dns_CreateSocketEx@20
+    11026 _Dns_InitializeMsgRemoteSockaddr@8
+    11026 __imp__Dns_InitializeMsgRemoteSockaddr@8
+    11118 _Dns_OpenTcpConnectionAndSend@12
+    11118 __imp__Dns_OpenTcpConnectionAndSend@12
+    10B9E _Dns_CloseConnection@4
+    10B9E __imp__Dns_CloseConnection@4
+    10C10 _Dns_CloseSocket@4
+    10C10 __imp__Dns_CloseSocket@4
+    114C2 _Dns_SendEx@12
+    114C2 __imp__Dns_SendEx@12
+    11450 _Dns_SendAndRecvUdp@20
+    11450 __imp__Dns_SendAndRecvUdp@20
+     B558 _DnsAsyncRegisterHostAddrs@40
+     B558 __imp__DnsAsyncRegisterHostAddrs@40
+     B5D2 _DnsAsyncRegisterInit@4
+     B5D2 __imp__DnsAsyncRegisterInit@4
+     B646 _DnsAsyncRegisterTerm@0
+     B646 __imp__DnsAsyncRegisterTerm@0
+     F08A _DnsRemoveRegistrations@0
+     F08A __imp__DnsRemoveRegistrations@0
+     C84C _DnsDhcpSrvRegisterInitialize@4
+     C84C __imp__DnsDhcpSrvRegisterInitialize@4
+     CB2A _DnsFindAuthoritativeZone@16
+     CB2A __imp__DnsFindAuthoritativeZone@16
+    122E4 _NetInfo_IsForUpdate@4
+    122E4 __imp__NetInfo_IsForUpdate@4
+    10E58 _Dns_FindAuthoritativeZoneLib@16
+    10E58 __imp__Dns_FindAuthoritativeZoneLib@16
+     FE42 _DnsTraceServerConfig@12
+     FE42 __imp__DnsTraceServerConfig@12
+    1326E _Trace_Reset@0
+    1326E __imp__Trace_Reset@0
+     D826 _DnsGetProxyInformation@20
+     D826 __imp__DnsGetProxyInformation@20
+     D89C _DnsGetProxyInformationEx@28
+     D89C __imp__DnsGetProxyInformationEx@28
+     D032 _DnsFreeProxyName@4
+     D032 __imp__DnsFreeProxyName@4
+     D646 _DnsGetPolicyTableInfo@16
+     D646 __imp__DnsGetPolicyTableInfo@16
+     CFC0 _DnsFreePolicyConfig@4
+     CFC0 __imp__DnsFreePolicyConfig@4
+     AEAA _DelaySortDAServerlist@0
+     AEAA __imp__DelaySortDAServerlist@0
+     D7B0 _DnsGetProxyInfoPrivate@16
+     D7B0 __imp__DnsGetProxyInfoPrivate@16
+     D6BC _DnsGetPolicyTableInfoPrivate@16
+     D6BC __imp__DnsGetPolicyTableInfoPrivate@16
+     FF9E _DnsUpdateMachinePresence@0
+     FF9E __imp__DnsUpdateMachinePresence@0
+     FF20 _DnsUpdateCaptivePortalPresence@4
+     FF20 __imp__DnsUpdateCaptivePortalPresence@4
+    11A36 _FlushDnsPolicyUnreachableStatus@0
+    11A36 __imp__FlushDnsPolicyUnreachableStatus@0
+     B728 _DnsCheckNrptRuleIntegrity@4
+     B728 __imp__DnsCheckNrptRuleIntegrity@4
+     B7A0 _DnsCheckNrptRules@12
+     B7A0 __imp__DnsCheckNrptRules@12
+    1343C _WriteDnsNrptRulesToRegistry@16
+    1343C __imp__WriteDnsNrptRulesToRegistry@16
+    12552 _NetInfo_UpdateServerReachability@12
+    12552 __imp__NetInfo_UpdateServerReachability@12
+     C93E _DnsDisableIdnEncoding@8
+     C93E __imp__DnsDisableIdnEncoding@8
+     FB0A _DnsSetQueryRetryTimeouts@24
+     FB0A __imp__DnsSetQueryRetryTimeouts@24
+     F260 _DnsResetQueryRetryTimeouts@16
+     F260 __imp__DnsResetQueryRetryTimeouts@16
+     D914 _DnsGetQueryRetryTimeouts@24
+     D914 __imp__DnsGetQueryRetryTimeouts@24
+     AB52 _AdaptiveTimeout_ClearInterfaceSpecificConfiguration@0
+     AB52 __imp__AdaptiveTimeout_ClearInterfaceSpecificConfiguration@0
+     ABE4 _AdaptiveTimeout_ResetAdaptiveTimeout@0
+     ABE4 __imp__AdaptiveTimeout_ResetAdaptiveTimeout@0
+     AD4E _Coalesce_UpdateNetVersion@0
+     AD4E __imp__Coalesce_UpdateNetVersion@0
+     BD6E _DnsConnectionGetProxyInfoForHostUrl@20
+     BD6E __imp__DnsConnectionGetProxyInfoForHostUrl@20
+     BAFE _DnsConnectionFreeProxyInfoEx@4
+     BAFE __imp__DnsConnectionFreeProxyInfoEx@4
+     BCF4 _DnsConnectionGetProxyInfo@12
+     BCF4 __imp__DnsConnectionGetProxyInfo@12
+     BA84 _DnsConnectionFreeProxyInfo@4
+     BA84 __imp__DnsConnectionFreeProxyInfo@4
+     BF6A _DnsConnectionSetProxyInfo@12
+     BF6A __imp__DnsConnectionSetProxyInfo@12
+     B990 _DnsConnectionDeleteProxyInfo@8
+     B990 __imp__DnsConnectionDeleteProxyInfo@8
+     BDF2 _DnsConnectionGetProxyList@8
+     BDF2 __imp__DnsConnectionGetProxyList@8
+     BB7A _DnsConnectionFreeProxyList@4
+     BB7A __imp__DnsConnectionFreeProxyList@4
+     BC7C _DnsConnectionGetNameList@4
+     BC7C __imp__DnsConnectionGetNameList@4
+     BA0C _DnsConnectionFreeNameList@4
+     BA0C __imp__DnsConnectionFreeNameList@4
+     BFE4 _DnsConnectionUpdateIfIndexTable@4
+     BFE4 __imp__DnsConnectionUpdateIfIndexTable@4
+     BE6A _DnsConnectionSetPolicyEntries@8
+     BE6A __imp__DnsConnectionSetPolicyEntries@8
+     B88A _DnsConnectionDeletePolicyEntries@4
+     B88A __imp__DnsConnectionDeletePolicyEntries@4
+    131FA _ThreadPool_QueueWork@8
+    131FA __imp__ThreadPool_QueueWork@8
+     D9FA _DnsGetWellKnownServerProperty@12
+     D9FA __imp__DnsGetWellKnownServerProperty@12
+     FBF0 _DnsSetWellKnownServerProperty@12
+     FBF0 __imp__DnsSetWellKnownServerProperty@12
+     D0A2 _DnsFreeWellKnownServerProperty@4
+     D0A2 __imp__DnsFreeWellKnownServerProperty@4
+     D120 _DnsFreeWellKnownServers@8
+     D120 __imp__DnsFreeWellKnownServers@8
+     DA78 _DnsGetWellKnownServers@16
+     DA78 __imp__DnsGetWellKnownServers@16
+     B0F8 _DnsAddrArrayCreate@4
+     B0F8 __imp__DnsAddrArrayCreate@4
+     B086 _DnsAddrArrayAddIp4@12
+     B086 __imp__DnsAddrArrayAddIp4@12
+     B012 _DnsAddrArrayAddAddr@16
+     B012 __imp__DnsAddrArrayAddAddr@16
+     B16A _DnsAddrBuildFromDnsRecord@8
+     B16A __imp__DnsAddrBuildFromDnsRecord@8
+
+Archive member name at A150: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1EA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        EB418587 time date stamp
+             10A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CC file pointer to raw data (000000CC to 000000DF)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FE file pointer to raw data (000000FE to 00000109)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at A376: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        CF35D5E2 time date stamp
+              B8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      64 file pointer to raw data (00000064 to 000000A3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A4 file pointer to raw data (000000A4 to 000000B7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at A4AC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     114 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E9A45B9D time date stamp
+              D4 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CC file pointer to raw data (000000CC to 000000CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data (000000D0 to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at A5FC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D72371D1
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : @DnsGetDomainName@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 88
+  Name         : DnsGetDomainName
+
+Archive member name at A66C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDCBF723
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : @DnsIsAMailboxType@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 108
+  Name         : DnsIsAMailboxType
+
+Archive member name at A6DC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCF9DB22
+  SizeOfData   : 0000001C
+  DLL name     : DNSAPI.dll
+  Symbol name  : @DnsIsNSECType@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 109
+  Name         : DnsIsNSECType
+
+Archive member name at A748: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDFDE93F
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : @DnsIsStatusRcode@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 110
+  Name         : DnsIsStatusRcode
+
+Archive member name at A7B8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5A39847
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : @DnsMapRcodeToStatus@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 113
+  Name         : DnsMapRcodeToStatus
+
+Archive member name at A82A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3031816
+  SizeOfData   : 0000001E
+  DLL name     : DNSAPI.dll
+  Symbol name  : @DnsStatusString@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 182
+  Name         : DnsStatusString
+
+Archive member name at A898: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2025F46
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : @DnsUnicodeToUtf8@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 187
+  Name         : DnsUnicodeToUtf8
+
+Archive member name at A908: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E85B8613
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : @DnsUtf8ToUnicode@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 194
+  Name         : DnsUtf8ToUnicode
+
+Archive member name at A978: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBC4C261
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : @Dns_ReadPacketName@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 233
+  Name         : Dns_ReadPacketName
+
+Archive member name at A9EA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA2B9CD3
+  SizeOfData   : 0000002A
+  DLL name     : DNSAPI.dll
+  Symbol name  : @Dns_ReadPacketNameAllocate@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 234
+  Name         : Dns_ReadPacketNameAllocate
+
+Archive member name at AA64: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6FC56AD
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : @Dns_SkipPacketName@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 244
+  Name         : Dns_SkipPacketName
+
+Archive member name at AAD6: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4BEC579
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : @Dns_WriteDottedNameToPacket@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 248
+  Name         : Dns_WriteDottedNameToPacket
+
+Archive member name at AB52: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      56 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F36F7DFF
+  SizeOfData   : 00000042
+  DLL name     : DNSAPI.dll
+  Symbol name  : _AdaptiveTimeout_ClearInterfaceSpecificConfiguration@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : AdaptiveTimeout_ClearInterfaceSpecificConfiguration
+
+Archive member name at ABE4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAE17731
+  SizeOfData   : 00000033
+  DLL name     : DNSAPI.dll
+  Symbol name  : _AdaptiveTimeout_ResetAdaptiveTimeout@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : AdaptiveTimeout_ResetAdaptiveTimeout
+
+Archive member name at AC68: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF27C15D
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _AddRefQueryBlobEx@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : AddRefQueryBlobEx
+
+Archive member name at ACDA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F985F4D7
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _BreakRecordsIntoBlob@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : BreakRecordsIntoBlob
+
+Archive member name at AD4E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4A9F6B2
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Coalesce_UpdateNetVersion@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : Coalesce_UpdateNetVersion
+
+Archive member name at ADC6: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4FABC26
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _CombineRecordsInBlob@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : CombineRecordsInBlob
+
+Archive member name at AE3A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CD7F5C0D
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DeRefQueryBlobEx@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : DeRefQueryBlobEx
+
+Archive member name at AEAA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C83057D9
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DelaySortDAServerlist@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : DelaySortDAServerlist
+
+Archive member name at AF1E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1102FCB
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsAcquireContextHandle_A@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : DnsAcquireContextHandle_A
+
+Archive member name at AF98: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB53E65E
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsAcquireContextHandle_W@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : DnsAcquireContextHandle_W
+
+Archive member name at B012: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E20732E9
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsAddrArrayAddAddr@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : DnsAddrArrayAddAddr
+
+Archive member name at B086: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3964B18
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsAddrArrayAddIp4@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : DnsAddrArrayAddIp4
+
+Archive member name at B0F8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF86BA68
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsAddrArrayCreate@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : DnsAddrArrayCreate
+
+Archive member name at B16A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA242088
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsAddrBuildFromDnsRecord@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : DnsAddrBuildFromDnsRecord
+
+Archive member name at B1E2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F75D2AEA
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsAllocateRecord@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : DnsAllocateRecord
+
+Archive member name at B252: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1BCBB28
+  SizeOfData   : 0000001A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsApiAlloc@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : DnsApiAlloc
+
+Archive member name at B2BC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC0D6449
+  SizeOfData   : 0000001E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsApiAllocZero@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : DnsApiAllocZero
+
+Archive member name at B32A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4EA1959
+  SizeOfData   : 00000019
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsApiFree@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : DnsApiFree
+
+Archive member name at B394: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA658D61
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsApiHeapReset@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : DnsApiHeapReset
+
+Archive member name at B404: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF40D0D2
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsApiOnNetworkChange@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : DnsApiOnNetworkChange
+
+Archive member name at B478: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FED1F968
+  SizeOfData   : 0000001C
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsApiRealloc@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : DnsApiRealloc
+
+Archive member name at B4E4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E60CAEEE
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsApiSetDebugGlobals@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : DnsApiSetDebugGlobals
+
+Archive member name at B558: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0D0B699
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsAsyncRegisterHostAddrs@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : DnsAsyncRegisterHostAddrs
+
+Archive member name at B5D2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAD16241
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsAsyncRegisterInit@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : DnsAsyncRegisterInit
+
+Archive member name at B646: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2390A66
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsAsyncRegisterTerm@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : DnsAsyncRegisterTerm
+
+Archive member name at B6BA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBFD7E15
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsCancelQuery@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : DnsCancelQuery
+
+Archive member name at B728: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1A9AE93
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsCheckNrptRuleIntegrity@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : DnsCheckNrptRuleIntegrity
+
+Archive member name at B7A0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBE486DA
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsCheckNrptRules@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : DnsCheckNrptRules
+
+Archive member name at B812: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EADA6A7F
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsCleanupTcpConnections@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : DnsCleanupTcpConnections
+
+Archive member name at B88A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA2EBB5D
+  SizeOfData   : 0000002F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionDeletePolicyEntries@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : DnsConnectionDeletePolicyEntries
+
+Archive member name at B90A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CDB18CA9
+  SizeOfData   : 00000036
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionDeletePolicyEntriesPrivate@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : DnsConnectionDeletePolicyEntriesPrivate
+
+Archive member name at B990: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC64E2B9
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionDeleteProxyInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : DnsConnectionDeleteProxyInfo
+
+Archive member name at BA0C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE561928
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionFreeNameList@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : DnsConnectionFreeNameList
+
+Archive member name at BA84: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E81F34A9
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionFreeProxyInfo@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : DnsConnectionFreeProxyInfo
+
+Archive member name at BAFE: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4A142F7
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionFreeProxyInfoEx@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : DnsConnectionFreeProxyInfoEx
+
+Archive member name at BB7A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4915322
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionFreeProxyList@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : DnsConnectionFreeProxyList
+
+Archive member name at BBF4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF7E499C
+  SizeOfData   : 00000037
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionGetHandleForHostUrlPrivate@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : DnsConnectionGetHandleForHostUrlPrivate
+
+Archive member name at BC7C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E8ADE6A3
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionGetNameList@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : DnsConnectionGetNameList
+
+Archive member name at BCF4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F69BEA6B
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionGetProxyInfo@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : DnsConnectionGetProxyInfo
+
+Archive member name at BD6E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA434B3C
+  SizeOfData   : 00000033
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionGetProxyInfoForHostUrl@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : DnsConnectionGetProxyInfoForHostUrl
+
+Archive member name at BDF2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3869F1D
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionGetProxyList@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 40
+  Name         : DnsConnectionGetProxyList
+
+Archive member name at BE6A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7E804CF
+  SizeOfData   : 0000002C
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionSetPolicyEntries@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 41
+  Name         : DnsConnectionSetPolicyEntries
+
+Archive member name at BEE6: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7CB0088
+  SizeOfData   : 00000034
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionSetPolicyEntriesPrivate@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 42
+  Name         : DnsConnectionSetPolicyEntriesPrivate
+
+Archive member name at BF6A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D33E45C1
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionSetProxyInfo@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 43
+  Name         : DnsConnectionSetProxyInfo
+
+Archive member name at BFE4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C73B7CA4
+  SizeOfData   : 0000002E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsConnectionUpdateIfIndexTable@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 44
+  Name         : DnsConnectionUpdateIfIndexTable
+
+Archive member name at C062: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7E2CBCF
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsCopyStringEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 45
+  Name         : DnsCopyStringEx
+
+Archive member name at C0D2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F342619A
+  SizeOfData   : 00000035
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsCreateReverseNameStringForIpAddress@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 46
+  Name         : DnsCreateReverseNameStringForIpAddress
+
+Archive member name at C158: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD92AAC7
+  SizeOfData   : 0000002C
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsCreateStandardDnsNameCopy@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 47
+  Name         : DnsCreateStandardDnsNameCopy
+
+Archive member name at C1D4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7787BE4
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsCreateStringCopy@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 48
+  Name         : DnsCreateStringCopy
+
+Archive member name at C246: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA152C82
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDeRegisterLocal@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 49
+  Name         : DnsDeRegisterLocal
+
+Archive member name at C2B8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC07B84B
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDeleteSettings@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : DnsDeleteSettings
+
+Archive member name at C328: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C31940B1
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDhcpRegisterAddrs@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 51
+  Name         : DnsDhcpRegisterAddrs
+
+Archive member name at C39C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC3AE37A
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDhcpRegisterHostAddrs@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 52
+  Name         : DnsDhcpRegisterHostAddrs
+
+Archive member name at C414: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB249085
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDhcpRegisterInit@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 53
+  Name         : DnsDhcpRegisterInit
+
+Archive member name at C486: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC086E59
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDhcpRegisterTerm@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 54
+  Name         : DnsDhcpRegisterTerm
+
+Archive member name at C4F8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F688D31E
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDhcpRemoveRegistrations@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 55
+  Name         : DnsDhcpRemoveRegistrations
+
+Archive member name at C572: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ED543A48
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDhcpSrvRegisterHostAddr@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 56
+  Name         : DnsDhcpSrvRegisterHostAddr
+
+Archive member name at C5EC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E201016C
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDhcpSrvRegisterHostAddrEx@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 57
+  Name         : DnsDhcpSrvRegisterHostAddrEx
+
+Archive member name at C668: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D86F3622
+  SizeOfData   : 0000002A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDhcpSrvRegisterHostName@48
+  Type         : code
+  Name type    : undecorate
+  Hint         : 58
+  Name         : DnsDhcpSrvRegisterHostName
+
+Archive member name at C6E2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2A1A187
+  SizeOfData   : 0000002C
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDhcpSrvRegisterHostNameEx@60
+  Type         : code
+  Name type    : undecorate
+  Hint         : 59
+  Name         : DnsDhcpSrvRegisterHostNameEx
+
+Archive member name at C75E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8CA4354
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDhcpSrvRegisterInit@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 60
+  Name         : DnsDhcpSrvRegisterInit
+
+Archive member name at C7D4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDA193F4
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDhcpSrvRegisterInitEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 61
+  Name         : DnsDhcpSrvRegisterInitEx
+
+Archive member name at C84C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4CEFB09
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDhcpSrvRegisterInitialize@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 62
+  Name         : DnsDhcpSrvRegisterInitialize
+
+Archive member name at C8C8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB7CA8F0
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDhcpSrvRegisterTerm@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 63
+  Name         : DnsDhcpSrvRegisterTerm
+
+Archive member name at C93E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E156B34B
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDisableIdnEncoding@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 64
+  Name         : DnsDisableIdnEncoding
+
+Archive member name at C9B2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE2691EB
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsDowncaseDnsNameLabel@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 65
+  Name         : DnsDowncaseDnsNameLabel
+
+Archive member name at CA2A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1F384F7
+  SizeOfData   : 00000031
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsExtractRecordsFromMessage_UTF8@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 66
+  Name         : DnsExtractRecordsFromMessage_UTF8
+
+Archive member name at CAAC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3B6C7EF
+  SizeOfData   : 0000002E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsExtractRecordsFromMessage_W@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : DnsExtractRecordsFromMessage_W
+
+Archive member name at CB2A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA969563
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFindAuthoritativeZone@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : DnsFindAuthoritativeZone
+
+Archive member name at CBA2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2A65579
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFlushResolverCache@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : DnsFlushResolverCache
+
+Archive member name at CC16: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C99B77FC
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFlushResolverCacheEntry_A@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : DnsFlushResolverCacheEntry_A
+
+Archive member name at CC92: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC469DEC
+  SizeOfData   : 0000002E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFlushResolverCacheEntry_UTF8@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : DnsFlushResolverCacheEntry_UTF8
+
+Archive member name at CD10: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAE6AB38
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFlushResolverCacheEntry_W@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : DnsFlushResolverCacheEntry_W
+
+Archive member name at CD8C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1A35AAE
+  SizeOfData   : 00000016
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFree@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 73
+  Name         : DnsFree
+
+Archive member name at CDF2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDDDC908
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFreeAdaptersInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 74
+  Name         : DnsFreeAdaptersInfo
+
+Archive member name at CE64: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C653F804
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFreeConfigStructure@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 75
+  Name         : DnsFreeConfigStructure
+
+Archive member name at CEDA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD2D7A8E
+  SizeOfData   : 0000001E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFreeNrptRule@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : DnsFreeNrptRule
+
+Archive member name at CF48: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA78D4AC
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFreeNrptRuleNamesList@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 77
+  Name         : DnsFreeNrptRuleNamesList
+
+Archive member name at CFC0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9EDA49E
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFreePolicyConfig@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : DnsFreePolicyConfig
+
+Archive member name at D032: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E991F275
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFreeProxyName@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : DnsFreeProxyName
+
+Archive member name at D0A2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E49E2B44
+  SizeOfData   : 0000002D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFreeWellKnownServerProperty@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 80
+  Name         : DnsFreeWellKnownServerProperty
+
+Archive member name at D120: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C130E6F3
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsFreeWellKnownServers@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : DnsFreeWellKnownServers
+
+Archive member name at D196: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAC81252
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetAdaptersInfo@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 82
+  Name         : DnsGetAdaptersInfo
+
+Archive member name at D208: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA015E4A
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetApplicationIdentifier@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : DnsGetApplicationIdentifier
+
+Archive member name at D284: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9060FE8
+  SizeOfData   : 0000002F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetBufferLengthForStringCopy@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 84
+  Name         : DnsGetBufferLengthForStringCopy
+
+Archive member name at D304: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFDD1DCC
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetCacheDataTable@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 85
+  Name         : DnsGetCacheDataTable
+
+Archive member name at D378: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C84E9718
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetCacheDataTableEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 86
+  Name         : DnsGetCacheDataTableEx
+
+Archive member name at D3EE: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7505619
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetDnsServerList@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 87
+  Name         : DnsGetDnsServerList
+
+Archive member name at D460: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEAFB90D
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetInterfaceSettings@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 89
+  Name         : DnsGetInterfaceSettings
+
+Archive member name at D4D8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9EF0899
+  SizeOfData   : 0000002D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetInterfaceSettingsInProc@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 90
+  Name         : DnsGetInterfaceSettingsInProc
+
+Archive member name at D556: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF2C4CEE
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetLastFailedUpdateInfo@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 91
+  Name         : DnsGetLastFailedUpdateInfo
+
+Archive member name at D5D0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB0C84D3
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetNrptRuleNamesList@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 92
+  Name         : DnsGetNrptRuleNamesList
+
+Archive member name at D646: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1E869A4
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetPolicyTableInfo@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 93
+  Name         : DnsGetPolicyTableInfo
+
+Archive member name at D6BC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C21FE755
+  SizeOfData   : 0000002C
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetPolicyTableInfoPrivate@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 94
+  Name         : DnsGetPolicyTableInfoPrivate
+
+Archive member name at D738: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6E0838C
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetPrimaryDomainName_A@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 95
+  Name         : DnsGetPrimaryDomainName_A
+
+Archive member name at D7B0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D685D9B0
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetProxyInfoPrivate@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 96
+  Name         : DnsGetProxyInfoPrivate
+
+Archive member name at D826: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7CC33D7
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetProxyInformation@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 97
+  Name         : DnsGetProxyInformation
+
+Archive member name at D89C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7E87CBE
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetProxyInformationEx@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 98
+  Name         : DnsGetProxyInformationEx
+
+Archive member name at D914: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E92D0A2A
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetQueryRetryTimeouts@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 99
+  Name         : DnsGetQueryRetryTimeouts
+
+Archive member name at D98C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E90693DE
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetSettings@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 100
+  Name         : DnsGetSettings
+
+Archive member name at D9FA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3F95D1D
+  SizeOfData   : 0000002D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetWellKnownServerProperty@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 101
+  Name         : DnsGetWellKnownServerProperty
+
+Archive member name at DA78: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C922A67C
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGetWellKnownServers@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 102
+  Name         : DnsGetWellKnownServers
+
+Archive member name at DAEE: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC571909
+  SizeOfData   : 00000017
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsGlobals
+  Type         : data
+  Name type    : no prefix
+  Hint         : 103
+  Name         : DnsGlobals
+
+Archive member name at DB56: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7D99BD6
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsIp6AddressToReverseNameW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 104
+  Name         : DnsIp6AddressToReverseNameW
+
+Archive member name at DBD2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA3CB74E
+  SizeOfData   : 0000002A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsIp6ReverseNameToAddressW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 105
+  Name         : DnsIp6ReverseNameToAddressW
+
+Archive member name at DC4C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFED5AE3
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsIpv6AddressToString@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 106
+  Name         : DnsIpv6AddressToString
+
+Archive member name at DCC2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB88D57A
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsIpv6StringToAddress@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 107
+  Name         : DnsIpv6StringToAddress
+
+Archive member name at DD38: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C51915C0
+  SizeOfData   : 0000002F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsIsStringCountValidForTextType@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 111
+  Name         : DnsIsStringCountValidForTextType
+
+Archive member name at DDB8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB852DFC
+  SizeOfData   : 0000001B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsLogEvent@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 112
+  Name         : DnsLogEvent
+
+Archive member name at DE24: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0EFE01F
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsModifyRecordsInSet_A@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 114
+  Name         : DnsModifyRecordsInSet_A
+
+Archive member name at DE9C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E44168BE
+  SizeOfData   : 0000002A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsModifyRecordsInSet_UTF8@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 115
+  Name         : DnsModifyRecordsInSet_UTF8
+
+Archive member name at DF16: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF0D36D1
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsModifyRecordsInSet_W@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 116
+  Name         : DnsModifyRecordsInSet_W
+
+Archive member name at DF8E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E676875F
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsNameCompareEx_A@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 117
+  Name         : DnsNameCompareEx_A
+
+Archive member name at E000: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBF4773C
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsNameCompareEx_UTF8@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 118
+  Name         : DnsNameCompareEx_UTF8
+
+Archive member name at E076: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1B256B1
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsNameCompareEx_W@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 119
+  Name         : DnsNameCompareEx_W
+
+Archive member name at E0E8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7491D2E
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsNameCompare_A@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 120
+  Name         : DnsNameCompare_A
+
+Archive member name at E158: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D11716E1
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsNameCompare_UTF8@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 121
+  Name         : DnsNameCompare_UTF8
+
+Archive member name at E1CA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DBB5D355
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsNameCompare_W@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 122
+  Name         : DnsNameCompare_W
+
+Archive member name at E23A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDF625BB
+  SizeOfData   : 0000001B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsNameCopy@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 123
+  Name         : DnsNameCopy
+
+Archive member name at E2A6: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8164A7C
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsNameCopyAllocate@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 124
+  Name         : DnsNameCopyAllocate
+
+Archive member name at E31A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6CD25AA
+  SizeOfData   : 0000002C
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsNetworkInfo_CreateFromFAZ@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 125
+  Name         : DnsNetworkInfo_CreateFromFAZ
+
+Archive member name at E396: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F97D561C
+  SizeOfData   : 00000033
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsNetworkInformation_CreateFromFAZ@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 126
+  Name         : DnsNetworkInformation_CreateFromFAZ
+
+Archive member name at E41A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2E181B8
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsNotifyResolver@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 127
+  Name         : DnsNotifyResolver
+
+Archive member name at E48A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4093F05
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsNotifyResolverClusterIp@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 128
+  Name         : DnsNotifyResolverClusterIp
+
+Archive member name at E504: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4B8B042
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsNotifyResolverEx@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 129
+  Name         : DnsNotifyResolverEx
+
+Archive member name at E578: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECAC76B8
+  SizeOfData   : 0000001E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsQueryConfig@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 130
+  Name         : DnsQueryConfig
+
+Archive member name at E5E6: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C44A4457
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsQueryConfigAllocEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 131
+  Name         : DnsQueryConfigAllocEx
+
+Archive member name at E65C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E01F9322
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsQueryConfigDword@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 132
+  Name         : DnsQueryConfigDword
+
+Archive member name at E6CE: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F95F8615
+  SizeOfData   : 0000001A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsQueryEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 133
+  Name         : DnsQueryEx
+
+Archive member name at E738: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D48BAA4D
+  SizeOfData   : 0000001A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsQueryExA@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 134
+  Name         : DnsQueryExA
+
+Archive member name at E7A2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB59CF23
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsQueryExUTF8@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 135
+  Name         : DnsQueryExUTF8
+
+Archive member name at E810: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB8E08F7
+  SizeOfData   : 0000001A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsQueryExW@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 136
+  Name         : DnsQueryExW
+
+Archive member name at E87A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D9134E3F
+  SizeOfData   : 0000001A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsQuery_A@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 137
+  Name         : DnsQuery_A
+
+Archive member name at E8E4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD530A09
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsQuery_UTF8@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 138
+  Name         : DnsQuery_UTF8
+
+Archive member name at E952: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB1EFAF0
+  SizeOfData   : 0000001A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsQuery_W@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 139
+  Name         : DnsQuery_W
+
+Archive member name at E9BC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C09E8DE8
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRecordBuild_UTF8@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 140
+  Name         : DnsRecordBuild_UTF8
+
+Archive member name at EA30: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F13697E2
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRecordBuild_W@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 141
+  Name         : DnsRecordBuild_W
+
+Archive member name at EAA0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0E82128
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRecordCompare@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 142
+  Name         : DnsRecordCompare
+
+Archive member name at EB10: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5948A57
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRecordCopyEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 143
+  Name         : DnsRecordCopyEx
+
+Archive member name at EB80: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E08876C4
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRecordListFree@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 144
+  Name         : DnsRecordListFree
+
+Archive member name at EBF0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFB5139C
+  SizeOfData   : 00000034
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRecordListUnmapV4MappedAAAAInPlace@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 145
+  Name         : DnsRecordListUnmapV4MappedAAAAInPlace
+
+Archive member name at EC74: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7EBB0E3
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRecordSetCompare@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 146
+  Name         : DnsRecordSetCompare
+
+Archive member name at ECE8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F23C4947
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRecordSetCopyEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 147
+  Name         : DnsRecordSetCopyEx
+
+Archive member name at ED5A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB7D80F4
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRecordSetDetach@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 148
+  Name         : DnsRecordSetDetach
+
+Archive member name at EDCC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F36408FA
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRecordStringForType@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 149
+  Name         : DnsRecordStringForType
+
+Archive member name at EE42: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0F2236E
+  SizeOfData   : 0000002D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRecordStringForWritableType@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 150
+  Name         : DnsRecordStringForWritableType
+
+Archive member name at EEC0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7D62DA7
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRecordTypeForName@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 151
+  Name         : DnsRecordTypeForName
+
+Archive member name at EF34: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0371048
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRegisterLocal@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 152
+  Name         : DnsRegisterLocal
+
+Archive member name at EFA4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF8A1F68
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsReleaseContextHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 153
+  Name         : DnsReleaseContextHandle
+
+Archive member name at F01A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAAC0318
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRemoveNrptRule@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 154
+  Name         : DnsRemoveNrptRule
+
+Archive member name at F08A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D77ED8AE
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsRemoveRegistrations@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 155
+  Name         : DnsRemoveRegistrations
+
+Archive member name at F100: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC800558
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsReplaceRecordSetA@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 156
+  Name         : DnsReplaceRecordSetA
+
+Archive member name at F174: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2907D9C
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsReplaceRecordSetUTF8@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 157
+  Name         : DnsReplaceRecordSetUTF8
+
+Archive member name at F1EC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF8CFDF8
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsReplaceRecordSetW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 158
+  Name         : DnsReplaceRecordSetW
+
+Archive member name at F260: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4371EFD
+  SizeOfData   : 0000002A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsResetQueryRetryTimeouts@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 159
+  Name         : DnsResetQueryRetryTimeouts
+
+Archive member name at F2DA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D77A0511
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsResolverOp@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 160
+  Name         : DnsResolverOp
+
+Archive member name at F348: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F009F7CE
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsResolverQueryHvsi@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 161
+  Name         : DnsResolverQueryHvsi
+
+Archive member name at F3BC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CEA5EC98
+  SizeOfData   : 00000032
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsScreenLocalAddrsForRegistration@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 162
+  Name         : DnsScreenLocalAddrsForRegistration
+
+Archive member name at F43E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC5D9BCE
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsServiceBrowse@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 163
+  Name         : DnsServiceBrowse
+
+Archive member name at F4AE: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE6C794A
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsServiceBrowseCancel@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 164
+  Name         : DnsServiceBrowseCancel
+
+Archive member name at F524: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF0BD7E1
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsServiceConstructInstance@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 165
+  Name         : DnsServiceConstructInstance
+
+Archive member name at F5A0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D6E89CD6
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsServiceCopyInstance@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 166
+  Name         : DnsServiceCopyInstance
+
+Archive member name at F616: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6D90AD1
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsServiceDeRegister@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 167
+  Name         : DnsServiceDeRegister
+
+Archive member name at F68A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2A1C7D4
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsServiceFreeInstance@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 168
+  Name         : DnsServiceFreeInstance
+
+Archive member name at F700: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4533F71
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsServiceRegister@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 169
+  Name         : DnsServiceRegister
+
+Archive member name at F772: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0C3960B
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsServiceRegisterCancel@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 170
+  Name         : DnsServiceRegisterCancel
+
+Archive member name at F7EA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5665EDD
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsServiceResolve@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 171
+  Name         : DnsServiceResolve
+
+Archive member name at F85A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA7E8017
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsServiceResolveCancel@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 172
+  Name         : DnsServiceResolveCancel
+
+Archive member name at F8D0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E06B4FE8
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsSetConfigDword@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 173
+  Name         : DnsSetConfigDword
+
+Archive member name at F942: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBA9B203
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsSetConfigValue@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 174
+  Name         : DnsSetConfigValue
+
+Archive member name at F9B4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFD28267
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsSetInterfaceSettings@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 175
+  Name         : DnsSetInterfaceSettings
+
+Archive member name at FA2C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCF74302
+  SizeOfData   : 0000001E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsSetNrptRule@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 176
+  Name         : DnsSetNrptRule
+
+Archive member name at FA9A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBC4398D
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsSetNrptRules@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 177
+  Name         : DnsSetNrptRules
+
+Archive member name at FB0A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D47A84A5
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsSetQueryRetryTimeouts@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 178
+  Name         : DnsSetQueryRetryTimeouts
+
+Archive member name at FB82: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2A23A18
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsSetSettings@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 179
+  Name         : DnsSetSettings
+
+Archive member name at FBF0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0EECB9C
+  SizeOfData   : 0000002D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsSetWellKnownServerProperty@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 180
+  Name         : DnsSetWellKnownServerProperty
+
+Archive member name at FC6E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDA8D8EC
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsStartMulticastQuery@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 181
+  Name         : DnsStartMulticastQuery
+
+Archive member name at FCE4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAD7BBC9
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsStopMulticastQuery@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 183
+  Name         : DnsStopMulticastQuery
+
+Archive member name at FD58: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C53C8775
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsStringCopyAllocateEx@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 184
+  Name         : DnsStringCopyAllocateEx
+
+Archive member name at FDD0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC389E42
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsStringToAddress@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 185
+  Name         : DnsStringToAddress
+
+Archive member name at FE42: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2EAA667
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsTraceServerConfig@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 186
+  Name         : DnsTraceServerConfig
+
+Archive member name at FEB6: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF1F3D7A
+  SizeOfData   : 00000019
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsUpdate@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 188
+  Name         : DnsUpdate
+
+Archive member name at FF20: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFF0B952
+  SizeOfData   : 0000002D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsUpdateCaptivePortalPresence@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 189
+  Name         : DnsUpdateCaptivePortalPresence
+
+Archive member name at FF9E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9077156
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsUpdateMachinePresence@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 190
+  Name         : DnsUpdateMachinePresence
+
+Archive member name at 10016: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAC5A426
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsUpdateTest_A@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 191
+  Name         : DnsUpdateTest_A
+
+Archive member name at 10086: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F07C9F3E
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsUpdateTest_UTF8@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 192
+  Name         : DnsUpdateTest_UTF8
+
+Archive member name at 100F8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7A2CD31
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsUpdateTest_W@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 193
+  Name         : DnsUpdateTest_W
+
+Archive member name at 10168: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F49959F4
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsValidateNameOrIp_TempW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 195
+  Name         : DnsValidateNameOrIp_TempW
+
+Archive member name at 101E0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0C2F7FE
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsValidateName_A@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 196
+  Name         : DnsValidateName_A
+
+Archive member name at 10250: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C70CA426
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsValidateName_UTF8@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 197
+  Name         : DnsValidateName_UTF8
+
+Archive member name at 102C4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CCEF305B
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsValidateName_W@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 198
+  Name         : DnsValidateName_W
+
+Archive member name at 10334: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA5976FE
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsValidateServerArray_A@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 199
+  Name         : DnsValidateServerArray_A
+
+Archive member name at 103AC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBB41E5A
+  SizeOfData   : 00000028
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsValidateServerArray_W@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 200
+  Name         : DnsValidateServerArray_W
+
+Archive member name at 10424: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF756849
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsValidateServerStatus@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 201
+  Name         : DnsValidateServerStatus
+
+Archive member name at 1049C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DD2F4DFD
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsValidateServer_A@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 202
+  Name         : DnsValidateServer_A
+
+Archive member name at 10510: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE012D64
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsValidateServer_W@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 203
+  Name         : DnsValidateServer_W
+
+Archive member name at 10584: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC92CFD6
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsValidateUtf8Byte@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 204
+  Name         : DnsValidateUtf8Byte
+
+Archive member name at 105F6: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C62717FE
+  SizeOfData   : 0000002D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsWriteQuestionToBuffer_UTF8@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 205
+  Name         : DnsWriteQuestionToBuffer_UTF8
+
+Archive member name at 10674: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E54FE17B
+  SizeOfData   : 0000002A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsWriteQuestionToBuffer_W@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 206
+  Name         : DnsWriteQuestionToBuffer_W
+
+Archive member name at 106EE: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D276AD73
+  SizeOfData   : 00000034
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsWriteReverseNameStringForIpAddress@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 207
+  Name         : DnsWriteReverseNameStringForIpAddress
+
+Archive member name at 10772: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFA86589
+  SizeOfData   : 00000035
+  DLL name     : DNSAPI.dll
+  Symbol name  : _DnsWriteReverseNameStringForIpAddressW@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 208
+  Name         : DnsWriteReverseNameStringForIpAddressW
+
+Archive member name at 107F8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7BCD5C3
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_AddRecordsToMessage@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 209
+  Name         : Dns_AddRecordsToMessage
+
+Archive member name at 10870: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE44F83D
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_AllocateMsgBuf@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 210
+  Name         : Dns_AllocateMsgBuf
+
+Archive member name at 108E2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C62C44F8
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_BuildPacket@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 211
+  Name         : Dns_BuildPacket
+
+Archive member name at 10952: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEC607C7
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_CacheServiceCleanup@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 212
+  Name         : Dns_CacheServiceCleanup
+
+Archive member name at 109C8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBFA6276
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_CacheServiceInit@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 213
+  Name         : Dns_CacheServiceInit
+
+Archive member name at 10A3C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBC415F8
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_CacheServiceInitEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 214
+  Name         : Dns_CacheServiceInitEx
+
+Archive member name at 10AB2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA265237
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_CacheServiceStopIssued@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 215
+  Name         : Dns_CacheServiceStopIssued
+
+Archive member name at 10B2C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F33C845B
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_CleanupWinsock@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 216
+  Name         : Dns_CleanupWinsock
+
+Archive member name at 10B9E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F594F88C
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_CloseConnection@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 217
+  Name         : Dns_CloseConnection
+
+Archive member name at 10C10: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEE10380
+  SizeOfData   : 0000001E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_CloseSocket@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 218
+  Name         : Dns_CloseSocket
+
+Archive member name at 10C7E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB5ADEFF
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_CreateMulticastSocket@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 219
+  Name         : Dns_CreateMulticastSocket
+
+Archive member name at 10CF8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3F29362
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_CreateSocket@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 220
+  Name         : Dns_CreateSocket
+
+Archive member name at 10D68: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C305D8FC
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_CreateSocketEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 221
+  Name         : Dns_CreateSocketEx
+
+Archive member name at 10DDA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF88EC32
+  SizeOfData   : 0000002D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_ExtractRecordsFromMessage@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 222
+  Name         : Dns_ExtractRecordsFromMessage
+
+Archive member name at 10E58: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F96927DF
+  SizeOfData   : 0000002C
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_FindAuthoritativeZoneLib@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 223
+  Name         : Dns_FindAuthoritativeZoneLib
+
+Archive member name at 10ED4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C15A29E9
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_FreeMsgBuf@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 224
+  Name         : Dns_FreeMsgBuf
+
+Archive member name at 10F42: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F32FE915
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_GetRandomXid@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 225
+  Name         : Dns_GetRandomXid
+
+Archive member name at 10FB2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D894A417
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_InitializeMsgBuf@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 226
+  Name         : Dns_InitializeMsgBuf
+
+Archive member name at 11026: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF589737
+  SizeOfData   : 0000002E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_InitializeMsgRemoteSockaddr@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 227
+  Name         : Dns_InitializeMsgRemoteSockaddr
+
+Archive member name at 110A4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7B23A22
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_InitializeWinsock@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 228
+  Name         : Dns_InitializeWinsock
+
+Archive member name at 11118: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D122D71E
+  SizeOfData   : 0000002C
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_OpenTcpConnectionAndSend@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 229
+  Name         : Dns_OpenTcpConnectionAndSend
+
+Archive member name at 11194: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF4C4556
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_ParseMessage@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 230
+  Name         : Dns_ParseMessage
+
+Archive member name at 11204: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAECD55F
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_ParsePacketRecord@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 231
+  Name         : Dns_ParsePacketRecord
+
+Archive member name at 1127A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E26FFC7D
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_PingAdapterServers@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 232
+  Name         : Dns_PingAdapterServers
+
+Archive member name at 112F0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA3BB377
+  SizeOfData   : 00000031
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_ReadRecordStructureFromPacket@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 235
+  Name         : Dns_ReadRecordStructureFromPacket
+
+Archive member name at 11372: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF7FF0F6
+  SizeOfData   : 0000001A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_RecvTcp@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 236
+  Name         : Dns_RecvTcp
+
+Archive member name at 113DC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4C9DB08
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_ResetNetworkInfo@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 237
+  Name         : Dns_ResetNetworkInfo
+
+Archive member name at 11450: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C06E9B50
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_SendAndRecvUdp@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 238
+  Name         : Dns_SendAndRecvUdp
+
+Archive member name at 114C2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D07C03E4
+  SizeOfData   : 0000001A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_SendEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 239
+  Name         : Dns_SendEx
+
+Archive member name at 1152C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C366AC1F
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_SetRecordDatalength@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 240
+  Name         : Dns_SetRecordDatalength
+
+Archive member name at 115A2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCC0B1F2
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_SetRecordsScopeId@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 241
+  Name         : Dns_SetRecordsScopeId
+
+Archive member name at 11618: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F43DB4F0
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_SetRecordsSection@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 242
+  Name         : Dns_SetRecordsSection
+
+Archive member name at 1168C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C90E1585
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_SetRecordsTtl@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 243
+  Name         : Dns_SetRecordsTtl
+
+Archive member name at 116FC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBF021B6
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_SkipToRecord@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 245
+  Name         : Dns_SkipToRecord
+
+Archive member name at 1176C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB6C5B88
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_UpdateLib@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 246
+  Name         : Dns_UpdateLib
+
+Archive member name at 117DA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FAAE5FC6
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_UpdateLibEx@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 247
+  Name         : Dns_UpdateLibEx
+
+Archive member name at 1184A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC963D87
+  SizeOfData   : 0000002A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_WriteQuestionToMessage@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 249
+  Name         : Dns_WriteQuestionToMessage
+
+Archive member name at 118C4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E013F444
+  SizeOfData   : 00000032
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Dns_WriteRecordStructureToPacketEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 250
+  Name         : Dns_WriteRecordStructureToPacketEx
+
+Archive member name at 11946: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C09BBEC8
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _ExtraInfo_Init@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 251
+  Name         : ExtraInfo_Init
+
+Archive member name at 119B4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D76B28A9
+  SizeOfData   : 00000031
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Faz_AreServerListsInSameNameSpace@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 252
+  Name         : Faz_AreServerListsInSameNameSpace
+
+Archive member name at 11A36: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE5D9295
+  SizeOfData   : 0000002E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _FlushDnsPolicyUnreachableStatus@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 253
+  Name         : FlushDnsPolicyUnreachableStatus
+
+Archive member name at 11AB4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6D62812
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _GetCurrentTimeInSeconds@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 254
+  Name         : GetCurrentTimeInSeconds
+
+Archive member name at 11B2A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE3CF269
+  SizeOfData   : 0000001E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _HostsFile_Close@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 255
+  Name         : HostsFile_Close
+
+Archive member name at 11B98: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C8E4D871
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _HostsFile_Open@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 256
+  Name         : HostsFile_Open
+
+Archive member name at 11C06: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBAC099D
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _HostsFile_ReadLine@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 257
+  Name         : HostsFile_ReadLine
+
+Archive member name at 11C78: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E060D05A
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _IpHelp_IsAddrOnLink@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 258
+  Name         : IpHelp_IsAddrOnLink
+
+Archive member name at 11CEA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D845598B
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Local_GetRecordsForLocalName@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 259
+  Name         : Local_GetRecordsForLocalName
+
+Archive member name at 11D66: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C513D9ED
+  SizeOfData   : 0000002E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Local_GetRecordsForLocalNameEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 260
+  Name         : Local_GetRecordsForLocalNameEx
+
+Archive member name at 11DE4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF30A2CC
+  SizeOfData   : 0000001C
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_Build@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 261
+  Name         : NetInfo_Build
+
+Archive member name at 11E50: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC49557F
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_BuildEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 262
+  Name         : NetInfo_BuildEx
+
+Archive member name at 11EC0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EEF9D1DA
+  SizeOfData   : 0000001C
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_Clean@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 263
+  Name         : NetInfo_Clean
+
+Archive member name at 11F2C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E52704F2
+  SizeOfData   : 0000001B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_Copy@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 264
+  Name         : NetInfo_Copy
+
+Archive member name at 11F98: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C51C50B2
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_CopyNetworkIndex@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 265
+  Name         : NetInfo_CopyNetworkIndex
+
+Archive member name at 12010: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBC1C7AF
+  SizeOfData   : 0000002E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_CreatePerNetworkNetinfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 266
+  Name         : NetInfo_CreatePerNetworkNetinfo
+
+Archive member name at 1208E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB7755FF
+  SizeOfData   : 0000001B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_Free@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 267
+  Name         : NetInfo_Free
+
+Archive member name at 120FA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF4F680E
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_GetAdapterByAddress@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 268
+  Name         : NetInfo_GetAdapterByAddress
+
+Archive member name at 12176: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2ACB283
+  SizeOfData   : 00000032
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_GetAdapterByInterfaceIndex@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 269
+  Name         : NetInfo_GetAdapterByInterfaceIndex
+
+Archive member name at 121F8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0B97787
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_GetAdapterByName@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 270
+  Name         : NetInfo_GetAdapterByName
+
+Archive member name at 12270: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F98CDCDA
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_IsAddrConfig@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 271
+  Name         : NetInfo_IsAddrConfig
+
+Archive member name at 122E4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0A3909C
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_IsForUpdate@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 272
+  Name         : NetInfo_IsForUpdate
+
+Archive member name at 12356: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEFD7253
+  SizeOfData   : 0000002A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_IsTcpipConfigChange@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 273
+  Name         : NetInfo_IsTcpipConfigChange
+
+Archive member name at 123D0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC6F4635
+  SizeOfData   : 0000002C
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_ResetServerPriorities@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 274
+  Name         : NetInfo_ResetServerPriorities
+
+Archive member name at 1244C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4682424
+  SizeOfData   : 00000035
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_UpdateDnsInterfaceConfigChange@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 275
+  Name         : NetInfo_UpdateDnsInterfaceConfigChange
+
+Archive member name at 124D2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F222073C
+  SizeOfData   : 0000002F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_UpdateNetworkProperties@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 276
+  Name         : NetInfo_UpdateNetworkProperties
+
+Archive member name at 12552: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBCE61CE
+  SizeOfData   : 00000030
+  DLL name     : DNSAPI.dll
+  Symbol name  : _NetInfo_UpdateServerReachability@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 277
+  Name         : NetInfo_UpdateServerReachability
+
+Archive member name at 125D2: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F399AFE9
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _QueryDirectEx@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 278
+  Name         : QueryDirectEx
+
+Archive member name at 12640: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E76DA27A
+  SizeOfData   : 0000001C
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Query_Cancel@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 279
+  Name         : Query_Cancel
+
+Archive member name at 126AC: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE78E580
+  SizeOfData   : 00000019
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Query_Main@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 280
+  Name         : Query_Main
+
+Archive member name at 12716: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDFCCEDF
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Reg_FreeUpdateInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 281
+  Name         : Reg_FreeUpdateInfo
+
+Archive member name at 12788: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E20386F2
+  SizeOfData   : 0000001E
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Reg_GetValueEx@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 282
+  Name         : Reg_GetValueEx
+
+Archive member name at 127F6: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DA03D887
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Reg_ReadGlobalsEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 283
+  Name         : Reg_ReadGlobalsEx
+
+Archive member name at 12866: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E434B739
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Reg_ReadUpdateInfo@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 284
+  Name         : Reg_ReadUpdateInfo
+
+Archive member name at 128D8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDDF1824
+  SizeOfData   : 0000002A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Security_ContextListTimeout@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 285
+  Name         : Security_ContextListTimeout
+
+Archive member name at 12952: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F416A505
+  SizeOfData   : 00000027
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Send_AndRecvUdpWithParam@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 286
+  Name         : Send_AndRecvUdpWithParam
+
+Archive member name at 129CA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DE37F9D4
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Send_MessagePrivate@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 287
+  Name         : Send_MessagePrivate
+
+Archive member name at 12A3E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0B3A231
+  SizeOfData   : 00000025
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Send_MessagePrivateEx@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 288
+  Name         : Send_MessagePrivateEx
+
+Archive member name at 12AB4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECF47A43
+  SizeOfData   : 0000002D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Send_OpenTcpConnectionAndSend@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 289
+  Name         : Send_OpenTcpConnectionAndSend
+
+Archive member name at 12B32: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF0DF0AC
+  SizeOfData   : 00000022
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_CacheCleanup@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 290
+  Name         : Socket_CacheCleanup
+
+Archive member name at 12BA4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D553AFA6
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_CacheInit@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 291
+  Name         : Socket_CacheInit
+
+Archive member name at 12C14: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB0E439C
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_CleanupWinsock@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 292
+  Name         : Socket_CleanupWinsock
+
+Archive member name at 12C88: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CBE7E5BF
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_ClearMessageSockets@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 293
+  Name         : Socket_ClearMessageSockets
+
+Archive member name at 12D02: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2A9E8D0
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_CloseEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 294
+  Name         : Socket_CloseEx
+
+Archive member name at 12D70: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0F942B9
+  SizeOfData   : 00000029
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_CloseMessageSockets@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 295
+  Name         : Socket_CloseMessageSockets
+
+Archive member name at 12DEA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F6DD7433
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_Create@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 296
+  Name         : Socket_Create
+
+Archive member name at 12E58: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7CBC948
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_CreateMulticast@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 297
+  Name         : Socket_CreateMulticast
+
+Archive member name at 12ECE: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE0F3704
+  SizeOfData   : 00000021
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_InitWinsock@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 298
+  Name         : Socket_InitWinsock
+
+Archive member name at 12F40: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3A8D439
+  SizeOfData   : 00000024
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_JoinMulticast@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 299
+  Name         : Socket_JoinMulticast
+
+Archive member name at 12FB4: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE7A037E
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_RecvFrom@40
+  Type         : code
+  Name type    : undecorate
+  Hint         : 300
+  Name         : Socket_RecvFrom
+
+Archive member name at 13024: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE0D4BF6
+  SizeOfData   : 0000002C
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_SetMulticastInterface@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 301
+  Name         : Socket_SetMulticastInterface
+
+Archive member name at 130A0: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC207D73
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_SetMulticastLoopBack@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 302
+  Name         : Socket_SetMulticastLoopBack
+
+Archive member name at 1311C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB936CC1
+  SizeOfData   : 0000001D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_SetTtl@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 303
+  Name         : Socket_SetTtl
+
+Archive member name at 1318A: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFE55955
+  SizeOfData   : 0000001F
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Socket_TcpListen@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 304
+  Name         : Socket_TcpListen
+
+Archive member name at 131FA: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F65AA608
+  SizeOfData   : 00000023
+  DLL name     : DNSAPI.dll
+  Symbol name  : _ThreadPool_QueueWork@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 305
+  Name         : ThreadPool_QueueWork
+
+Archive member name at 1326E: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF54BFBA
+  SizeOfData   : 0000001A
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Trace_Reset@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 306
+  Name         : Trace_Reset
+
+Archive member name at 132D8: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4CA170E
+  SizeOfData   : 0000002D
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Update_ReplaceAddressRecordsW@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 307
+  Name         : Update_ReplaceAddressRecordsW
+
+Archive member name at 13356: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDD4A3B9
+  SizeOfData   : 00000020
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Util_IsIp6Running@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 308
+  Name         : Util_IsIp6Running
+
+Archive member name at 133C6: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC7F8020
+  SizeOfData   : 00000026
+  DLL name     : DNSAPI.dll
+  Symbol name  : _Util_IsRunningOnXboxOne@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 309
+  Name         : Util_IsRunningOnXboxOne
+
+Archive member name at 1343C: DNSAPI.dll/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E69D7235
+  SizeOfData   : 0000002B
+  DLL name     : DNSAPI.dll
+  Symbol name  : _WriteDnsNrptRulesToRegistry@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 310
+  Name         : WriteDnsNrptRulesToRegistry
+
+     Exports
+
+       ordinal    name
+
+                  @DnsGetDomainName@4
+                  @DnsIsAMailboxType@4
+                  @DnsIsNSECType@4
+                  @DnsIsStatusRcode@4
+                  @DnsMapRcodeToStatus@4
+                  @DnsStatusString@4
+                  @DnsUnicodeToUtf8@16
+                  @DnsUtf8ToUnicode@16
+                  @Dns_ReadPacketName@28
+                  @Dns_ReadPacketNameAllocate@28
+                  @Dns_SkipPacketName@8
+                  @Dns_WriteDottedNameToPacket@24
+                  _AdaptiveTimeout_ClearInterfaceSpecificConfiguration@0
+                  _AdaptiveTimeout_ResetAdaptiveTimeout@0
+                  _AddRefQueryBlobEx@16
+                  _BreakRecordsIntoBlob@12
+                  _Coalesce_UpdateNetVersion@0
+                  _CombineRecordsInBlob@8
+                  _DeRefQueryBlobEx@16
+                  _DelaySortDAServerlist@0
+                  _DnsAcquireContextHandle_A@12
+                  _DnsAcquireContextHandle_W@12
+                  _DnsAddrArrayAddAddr@16
+                  _DnsAddrArrayAddIp4@12
+                  _DnsAddrArrayCreate@4
+                  _DnsAddrBuildFromDnsRecord@8
+                  _DnsAllocateRecord@4
+                  _DnsApiAlloc@4
+                  _DnsApiAllocZero@4
+                  _DnsApiFree@4
+                  _DnsApiHeapReset@12
+                  _DnsApiOnNetworkChange@8
+                  _DnsApiRealloc@8
+                  _DnsApiSetDebugGlobals@4
+                  _DnsAsyncRegisterHostAddrs@40
+                  _DnsAsyncRegisterInit@4
+                  _DnsAsyncRegisterTerm@0
+                  _DnsCancelQuery@4
+                  _DnsCheckNrptRuleIntegrity@4
+                  _DnsCheckNrptRules@12
+                  _DnsCleanupTcpConnections@4
+                  _DnsConnectionDeletePolicyEntries@4
+                  _DnsConnectionDeletePolicyEntriesPrivate@8
+                  _DnsConnectionDeleteProxyInfo@8
+                  _DnsConnectionFreeNameList@4
+                  _DnsConnectionFreeProxyInfo@4
+                  _DnsConnectionFreeProxyInfoEx@4
+                  _DnsConnectionFreeProxyList@4
+                  _DnsConnectionGetHandleForHostUrlPrivate@24
+                  _DnsConnectionGetNameList@4
+                  _DnsConnectionGetProxyInfo@12
+                  _DnsConnectionGetProxyInfoForHostUrl@20
+                  _DnsConnectionGetProxyList@8
+                  _DnsConnectionSetPolicyEntries@8
+                  _DnsConnectionSetPolicyEntriesPrivate@12
+                  _DnsConnectionSetProxyInfo@12
+                  _DnsConnectionUpdateIfIndexTable@4
+                  _DnsCopyStringEx@20
+                  _DnsCreateReverseNameStringForIpAddress@4
+                  _DnsCreateStandardDnsNameCopy@12
+                  _DnsCreateStringCopy@8
+                  _DnsDeRegisterLocal@8
+                  _DnsDeleteSettings@8
+                  _DnsDhcpRegisterAddrs@4
+                  _DnsDhcpRegisterHostAddrs@40
+                  _DnsDhcpRegisterInit@0
+                  _DnsDhcpRegisterTerm@0
+                  _DnsDhcpRemoveRegistrations@0
+                  _DnsDhcpSrvRegisterHostAddr@4
+                  _DnsDhcpSrvRegisterHostAddrEx@4
+                  _DnsDhcpSrvRegisterHostName@48
+                  _DnsDhcpSrvRegisterHostNameEx@60
+                  _DnsDhcpSrvRegisterInit@8
+                  _DnsDhcpSrvRegisterInitEx@12
+                  _DnsDhcpSrvRegisterInitialize@4
+                  _DnsDhcpSrvRegisterTerm@0
+                  _DnsDisableIdnEncoding@8
+                  _DnsDowncaseDnsNameLabel@16
+                  _DnsExtractRecordsFromMessage_UTF8@12
+                  _DnsExtractRecordsFromMessage_W@12
+                  _DnsFindAuthoritativeZone@16
+                  _DnsFlushResolverCache@0
+                  _DnsFlushResolverCacheEntry_A@4
+                  _DnsFlushResolverCacheEntry_UTF8@4
+                  _DnsFlushResolverCacheEntry_W@4
+                  _DnsFree@8
+                  _DnsFreeAdaptersInfo@8
+                  _DnsFreeConfigStructure@8
+                  _DnsFreeNrptRule@4
+                  _DnsFreeNrptRuleNamesList@8
+                  _DnsFreePolicyConfig@4
+                  _DnsFreeProxyName@4
+                  _DnsFreeWellKnownServerProperty@4
+                  _DnsFreeWellKnownServers@8
+                  _DnsGetAdaptersInfo@24
+                  _DnsGetApplicationIdentifier@12
+                  _DnsGetBufferLengthForStringCopy@16
+                  _DnsGetCacheDataTable@4
+                  _DnsGetCacheDataTableEx@12
+                  _DnsGetDnsServerList@4
+                  _DnsGetInterfaceSettings@20
+                  _DnsGetInterfaceSettingsInProc@20
+                  _DnsGetLastFailedUpdateInfo@4
+                  _DnsGetNrptRuleNamesList@8
+                  _DnsGetPolicyTableInfo@16
+                  _DnsGetPolicyTableInfoPrivate@16
+                  _DnsGetPrimaryDomainName_A@0
+                  _DnsGetProxyInfoPrivate@16
+                  _DnsGetProxyInformation@20
+                  _DnsGetProxyInformationEx@28
+                  _DnsGetQueryRetryTimeouts@24
+                  _DnsGetSettings@4
+                  _DnsGetWellKnownServerProperty@12
+                  _DnsGetWellKnownServers@16
+                  _DnsGlobals
+                  _DnsIp6AddressToReverseNameW@20
+                  _DnsIp6ReverseNameToAddressW@8
+                  _DnsIpv6AddressToString@8
+                  _DnsIpv6StringToAddress@12
+                  _DnsIsStringCountValidForTextType@8
+                  _DnsLogEvent@16
+                  _DnsModifyRecordsInSet_A@24
+                  _DnsModifyRecordsInSet_UTF8@24
+                  _DnsModifyRecordsInSet_W@24
+                  _DnsNameCompareEx_A@12
+                  _DnsNameCompareEx_UTF8@12
+                  _DnsNameCompareEx_W@12
+                  _DnsNameCompare_A@8
+                  _DnsNameCompare_UTF8@8
+                  _DnsNameCompare_W@8
+                  _DnsNameCopy@24
+                  _DnsNameCopyAllocate@16
+                  _DnsNetworkInfo_CreateFromFAZ@20
+                  _DnsNetworkInformation_CreateFromFAZ@16
+                  _DnsNotifyResolver@8
+                  _DnsNotifyResolverClusterIp@8
+                  _DnsNotifyResolverEx@16
+                  _DnsQueryConfig@24
+                  _DnsQueryConfigAllocEx@12
+                  _DnsQueryConfigDword@8
+                  _DnsQueryEx@12
+                  _DnsQueryExA@4
+                  _DnsQueryExUTF8@4
+                  _DnsQueryExW@4
+                  _DnsQuery_A@24
+                  _DnsQuery_UTF8@24
+                  _DnsQuery_W@24
+                  _DnsRecordBuild_UTF8@28
+                  _DnsRecordBuild_W@28
+                  _DnsRecordCompare@8
+                  _DnsRecordCopyEx@12
+                  _DnsRecordListFree@8
+                  _DnsRecordListUnmapV4MappedAAAAInPlace@4
+                  _DnsRecordSetCompare@16
+                  _DnsRecordSetCopyEx@12
+                  _DnsRecordSetDetach@4
+                  _DnsRecordStringForType@4
+                  _DnsRecordStringForWritableType@4
+                  _DnsRecordTypeForName@8
+                  _DnsRegisterLocal@16
+                  _DnsReleaseContextHandle@4
+                  _DnsRemoveNrptRule@4
+                  _DnsRemoveRegistrations@0
+                  _DnsReplaceRecordSetA@20
+                  _DnsReplaceRecordSetUTF8@20
+                  _DnsReplaceRecordSetW@20
+                  _DnsResetQueryRetryTimeouts@16
+                  _DnsResolverOp@12
+                  _DnsResolverQueryHvsi@32
+                  _DnsScreenLocalAddrsForRegistration@12
+                  _DnsServiceBrowse@8
+                  _DnsServiceBrowseCancel@4
+                  _DnsServiceConstructInstance@40
+                  _DnsServiceCopyInstance@4
+                  _DnsServiceDeRegister@8
+                  _DnsServiceFreeInstance@4
+                  _DnsServiceRegister@8
+                  _DnsServiceRegisterCancel@4
+                  _DnsServiceResolve@8
+                  _DnsServiceResolveCancel@4
+                  _DnsSetConfigDword@12
+                  _DnsSetConfigValue@20
+                  _DnsSetInterfaceSettings@20
+                  _DnsSetNrptRule@12
+                  _DnsSetNrptRules@16
+                  _DnsSetQueryRetryTimeouts@24
+                  _DnsSetSettings@4
+                  _DnsSetWellKnownServerProperty@12
+                  _DnsStartMulticastQuery@8
+                  _DnsStopMulticastQuery@4
+                  _DnsStringCopyAllocateEx@16
+                  _DnsStringToAddress@24
+                  _DnsTraceServerConfig@12
+                  _DnsUpdate@20
+                  _DnsUpdateCaptivePortalPresence@4
+                  _DnsUpdateMachinePresence@0
+                  _DnsUpdateTest_A@16
+                  _DnsUpdateTest_UTF8@16
+                  _DnsUpdateTest_W@16
+                  _DnsValidateNameOrIp_TempW@8
+                  _DnsValidateName_A@8
+                  _DnsValidateName_UTF8@8
+                  _DnsValidateName_W@8
+                  _DnsValidateServerArray_A@12
+                  _DnsValidateServerArray_W@12
+                  _DnsValidateServerStatus@12
+                  _DnsValidateServer_A@12
+                  _DnsValidateServer_W@12
+                  _DnsValidateUtf8Byte@8
+                  _DnsWriteQuestionToBuffer_UTF8@24
+                  _DnsWriteQuestionToBuffer_W@24
+                  _DnsWriteReverseNameStringForIpAddress@8
+                  _DnsWriteReverseNameStringForIpAddressW@8
+                  _Dns_AddRecordsToMessage@12
+                  _Dns_AllocateMsgBuf@4
+                  _Dns_BuildPacket@28
+                  _Dns_CacheServiceCleanup@0
+                  _Dns_CacheServiceInit@0
+                  _Dns_CacheServiceInitEx@12
+                  _Dns_CacheServiceStopIssued@0
+                  _Dns_CleanupWinsock@0
+                  _Dns_CloseConnection@4
+                  _Dns_CloseSocket@4
+                  _Dns_CreateMulticastSocket@20
+                  _Dns_CreateSocket@12
+                  _Dns_CreateSocketEx@20
+                  _Dns_ExtractRecordsFromMessage@12
+                  _Dns_FindAuthoritativeZoneLib@16
+                  _Dns_FreeMsgBuf@4
+                  _Dns_GetRandomXid@4
+                  _Dns_InitializeMsgBuf@4
+                  _Dns_InitializeMsgRemoteSockaddr@8
+                  _Dns_InitializeWinsock@0
+                  _Dns_OpenTcpConnectionAndSend@12
+                  _Dns_ParseMessage@20
+                  _Dns_ParsePacketRecord@12
+                  _Dns_PingAdapterServers@4
+                  _Dns_ReadRecordStructureFromPacket@12
+                  _Dns_RecvTcp@4
+                  _Dns_ResetNetworkInfo@4
+                  _Dns_SendAndRecvUdp@20
+                  _Dns_SendEx@12
+                  _Dns_SetRecordDatalength@8
+                  _Dns_SetRecordsScopeId@12
+                  _Dns_SetRecordsSection@8
+                  _Dns_SetRecordsTtl@8
+                  _Dns_SkipToRecord@12
+                  _Dns_UpdateLib@20
+                  _Dns_UpdateLibEx@28
+                  _Dns_WriteQuestionToMessage@16
+                  _Dns_WriteRecordStructureToPacketEx@20
+                  _ExtraInfo_Init@8
+                  _Faz_AreServerListsInSameNameSpace@12
+                  _FlushDnsPolicyUnreachableStatus@0
+                  _GetCurrentTimeInSeconds@0
+                  _HostsFile_Close@4
+                  _HostsFile_Open@4
+                  _HostsFile_ReadLine@4
+                  _IpHelp_IsAddrOnLink@4
+                  _Local_GetRecordsForLocalName@8
+                  _Local_GetRecordsForLocalNameEx@20
+                  _NetInfo_Build@8
+                  _NetInfo_BuildEx@12
+                  _NetInfo_Clean@8
+                  _NetInfo_Copy@4
+                  _NetInfo_CopyNetworkIndex@8
+                  _NetInfo_CreatePerNetworkNetinfo@8
+                  _NetInfo_Free@4
+                  _NetInfo_GetAdapterByAddress@12
+                  _NetInfo_GetAdapterByInterfaceIndex@12
+                  _NetInfo_GetAdapterByName@8
+                  _NetInfo_IsAddrConfig@8
+                  _NetInfo_IsForUpdate@4
+                  _NetInfo_IsTcpipConfigChange@4
+                  _NetInfo_ResetServerPriorities@8
+                  _NetInfo_UpdateDnsInterfaceConfigChange@4
+                  _NetInfo_UpdateNetworkProperties@28
+                  _NetInfo_UpdateServerReachability@12
+                  _QueryDirectEx@40
+                  _Query_Cancel@12
+                  _Query_Main@4
+                  _Reg_FreeUpdateInfo@8
+                  _Reg_GetValueEx@28
+                  _Reg_ReadGlobalsEx@8
+                  _Reg_ReadUpdateInfo@8
+                  _Security_ContextListTimeout@4
+                  _Send_AndRecvUdpWithParam@4
+                  _Send_MessagePrivate@12
+                  _Send_MessagePrivateEx@16
+                  _Send_OpenTcpConnectionAndSend@12
+                  _Socket_CacheCleanup@0
+                  _Socket_CacheInit@4
+                  _Socket_CleanupWinsock@0
+                  _Socket_ClearMessageSockets@4
+                  _Socket_CloseEx@8
+                  _Socket_CloseMessageSockets@4
+                  _Socket_Create@20
+                  _Socket_CreateMulticast@20
+                  _Socket_InitWinsock@4
+                  _Socket_JoinMulticast@20
+                  _Socket_RecvFrom@40
+                  _Socket_SetMulticastInterface@16
+                  _Socket_SetMulticastLoopBack@12
+                  _Socket_SetTtl@20
+                  _Socket_TcpListen@4
+                  _ThreadPool_QueueWork@8
+                  _Trace_Reset@0
+                  _Update_ReplaceAddressRecordsW@20
+                  _Util_IsIp6Running@0
+                  _Util_IsRunningOnXboxOne@0
+                  _WriteDnsNrptRulesToRegistry@16
+
+  Summary
+
+          C0 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

@@ -1,0 +1,1224 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\vssapi.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+    1392 size
+correct header end
+
+    95 public symbols
+
+     27AE __IMPORT_DESCRIPTOR_VSSAPI
+     29D4 __NULL_IMPORT_DESCRIPTOR
+     2B0A VSSAPI_NULL_THUNK_DATA
+     4338 _IsVolumeSnapshottedInternal@12
+     4338 __imp__IsVolumeSnapshottedInternal@12
+     44AA _VssFreeSnapshotPropertiesInternal@4
+     44AA __imp__VssFreeSnapshotPropertiesInternal@4
+     4432 _ShouldBlockRevertInternal@8
+     4432 __imp__ShouldBlockRevertInternal@8
+     41DE _CreateWriter@8
+     41DE __imp__CreateWriter@8
+     424A _CreateWriterEx@8
+     424A __imp__CreateWriterEx@8
+     42B8 _GetProviderMgmtInterfaceInternal@36
+     42B8 __imp__GetProviderMgmtInterfaceInternal@36
+     3FDA _CreateVssBackupComponentsInternal@4
+     3FDA __imp__CreateVssBackupComponentsInternal@4
+     405A _CreateVssExamineWriterMetadataInternal@8
+     405A __imp__CreateVssExamineWriterMetadataInternal@8
+     40E0 _CreateVssExpressWriterInternal@4
+     40E0 __imp__CreateVssExpressWriterInternal@4
+     415E _CreateVssSnapshotSetDescription@24
+     415E __imp__CreateVssSnapshotSetDescription@24
+     43B4 _LoadVssSnapshotSetDescription@24
+     43B4 __imp__LoadVssSnapshotSetDescription@24
+     3ED6 ?SetWriterFailure@CVssJetWriter@@IAGJJ@Z
+     3ED6 __imp_?SetWriterFailure@CVssJetWriter@@IAGJJ@Z
+     336E ?IsPartialFileSupportEnabled@CVssJetWriter@@IBG_NXZ
+     336E __imp_?IsPartialFileSupportEnabled@CVssJetWriter@@IBG_NXZ
+     3126 ?GetRestoreType@CVssJetWriter@@IBG?AW4_VSS_RESTORE_TYPE@@XZ
+     3126 __imp_?GetRestoreType@CVssJetWriter@@IBG?AW4_VSS_RESTORE_TYPE@@XZ
+     2DCC ?GetBackupType@CVssJetWriter@@IBG?AW4_VSS_BACKUP_TYPE@@XZ
+     2DCC __imp_?GetBackupType@CVssJetWriter@@IBG?AW4_VSS_BACKUP_TYPE@@XZ
+     2D42 ?AreComponentsSelected@CVssJetWriter@@IBG_NXZ
+     2D42 __imp_?AreComponentsSelected@CVssJetWriter@@IBG_NXZ
+     32DC ?IsBootableSystemStateBackedUp@CVssJetWriter@@IBG_NXZ
+     32DC __imp_?IsBootableSystemStateBackedUp@CVssJetWriter@@IBG_NXZ
+     33FE ?IsPathAffected@CVssJetWriter@@IBG_NPBG@Z
+     33FE __imp_?IsPathAffected@CVssJetWriter@@IBG_NPBG@Z
+     2EE0 ?GetCurrentLevel@CVssJetWriter@@IBG?AW4_VSS_APPLICATION_LEVEL@@XZ
+     2EE0 __imp_?GetCurrentLevel@CVssJetWriter@@IBG?AW4_VSS_APPLICATION_LEVEL@@XZ
+     2E62 ?GetContext@CVssJetWriter@@IBGJXZ
+     2E62 __imp_?GetContext@CVssJetWriter@@IBGJXZ
+     2F7E ?GetCurrentSnapshotSetId@CVssJetWriter@@IBG?AU_GUID@@XZ
+     2F7E __imp_?GetCurrentSnapshotSetId@CVssJetWriter@@IBG?AU_GUID@@XZ
+     31BE ?GetSnapshotDeviceName@CVssJetWriter@@IBGJPBGPAPBG@Z
+     31BE __imp_?GetSnapshotDeviceName@CVssJetWriter@@IBGJPBGPAPBG@Z
+     309E ?GetCurrentVolumeCount@CVssJetWriter@@IBGIXZ
+     309E __imp_?GetCurrentVolumeCount@CVssJetWriter@@IBGIXZ
+     3012 ?GetCurrentVolumeArray@CVssJetWriter@@IBGPAPBGXZ
+     3012 __imp_?GetCurrentVolumeArray@CVssJetWriter@@IBGPAPBGXZ
+     3906 ?OnPostRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z
+     3906 __imp_?OnPostRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z
+     3866 ?OnPostRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+     3866 __imp_?OnPostRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+     3AE0 ?OnPreRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z
+     3AE0 __imp_?OnPreRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z
+     3A42 ?OnPreRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+     3A42 __imp_?OnPreRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+     3624 ?OnBackupCompleteEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z
+     3624 __imp_?OnBackupCompleteEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z
+     3582 ?OnBackupCompleteBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+     3582 __imp_?OnBackupCompleteBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+     3504 ?OnAbortEnd@CVssJetWriter@@UAGXXZ
+     3504 __imp_?OnAbortEnd@CVssJetWriter@@UAGXXZ
+     3484 ?OnAbortBegin@CVssJetWriter@@UAGXXZ
+     3484 __imp_?OnAbortBegin@CVssJetWriter@@UAGXXZ
+     39A6 ?OnPostSnapshot@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+     39A6 __imp_?OnPostSnapshot@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+     3E56 ?OnThawEnd@CVssJetWriter@@UAG_N_N@Z
+     3E56 __imp_?OnThawEnd@CVssJetWriter@@UAG_N_N@Z
+     3DD6 ?OnThawBegin@CVssJetWriter@@UAG_NXZ
+     3DD6 __imp_?OnThawBegin@CVssJetWriter@@UAG_NXZ
+     3748 ?OnFreezeEnd@CVssJetWriter@@UAG_N_N@Z
+     3748 __imp_?OnFreezeEnd@CVssJetWriter@@UAG_N_N@Z
+     36C6 ?OnFreezeBegin@CVssJetWriter@@UAG_NXZ
+     36C6 __imp_?OnFreezeBegin@CVssJetWriter@@UAG_NXZ
+     3D4C ?OnPrepareSnapshotEnd@CVssJetWriter@@UAG_N_N@Z
+     3D4C __imp_?OnPrepareSnapshotEnd@CVssJetWriter@@UAG_N_N@Z
+     3CC2 ?OnPrepareSnapshotBegin@CVssJetWriter@@UAG_NXZ
+     3CC2 __imp_?OnPrepareSnapshotBegin@CVssJetWriter@@UAG_NXZ
+     3C20 ?OnPrepareBackupEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z
+     3C20 __imp_?OnPrepareBackupEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z
+     3B7E ?OnPrepareBackupBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+     3B7E __imp_?OnPrepareBackupBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+     37CA ?OnIdentify@CVssJetWriter@@UAG_NPAVIVssCreateWriterMetadata@@@Z
+     37CA __imp_?OnIdentify@CVssJetWriter@@UAG_NPAVIVssCreateWriterMetadata@@@Z
+     3F5A ?Uninitialize@CVssJetWriter@@QAGXXZ
+     3F5A __imp_?Uninitialize@CVssJetWriter@@QAGXXZ
+     324E ?Initialize@CVssJetWriter@@QAGJU_GUID@@PBG_N211K@Z
+     324E __imp_?Initialize@CVssJetWriter@@QAGJU_GUID@@PBG_N211K@Z
+     2CCE ??1CVssJetWriter@@UAE@XZ
+     2CCE __imp_??1CVssJetWriter@@UAE@XZ
+     2C5A ??0CVssJetWriter@@QAE@XZ
+     2C5A __imp_??0CVssJetWriter@@QAE@XZ
+
+Archive member name at 27AE: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1EA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        CBA22C9D time date stamp
+             10A file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CC file pointer to raw data (000000CC to 000000DF)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FE file pointer to raw data (000000FE to 00000109)
+      E0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 29D4: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F9 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        EC602E3A time date stamp
+              B8 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      64 file pointer to raw data (00000064 to 000000A3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A4 file pointer to raw data (000000A4 to 000000B7)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 2B0A: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     114 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        DB118E7F time date stamp
+              D4 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      40 size of raw data
+      8C file pointer to raw data (0000008C to 000000CB)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CC file pointer to raw data (000000CC to 000000CF)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D0 file pointer to raw data (000000D0 to 000000D3)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 2C5A: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9B8225D
+  SizeOfData   : 00000024
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ??0CVssJetWriter@@QAE@XZ (public: __thiscall CVssJetWriter::CVssJetWriter(void))
+  Type         : code
+  Name type    : name
+  Hint         : 0
+  Name         : ??0CVssJetWriter@@QAE@XZ
+
+Archive member name at 2CCE: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8DDD5FF
+  SizeOfData   : 00000024
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ??1CVssJetWriter@@UAE@XZ (public: virtual __thiscall CVssJetWriter::~CVssJetWriter(void))
+  Type         : code
+  Name type    : name
+  Hint         : 2
+  Name         : ??1CVssJetWriter@@UAE@XZ
+
+Archive member name at 2D42: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E33E312B
+  SizeOfData   : 00000039
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?AreComponentsSelected@CVssJetWriter@@IBG_NXZ (protected: bool __stdcall CVssJetWriter::AreComponentsSelected(void)const )
+  Type         : code
+  Name type    : name
+  Hint         : 4
+  Name         : ?AreComponentsSelected@CVssJetWriter@@IBG_NXZ
+
+Archive member name at 2DCC: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      59 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EDD2090B
+  SizeOfData   : 00000045
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?GetBackupType@CVssJetWriter@@IBG?AW4_VSS_BACKUP_TYPE@@XZ (protected: enum _VSS_BACKUP_TYPE __stdcall CVssJetWriter::GetBackupType(void)const )
+  Type         : code
+  Name type    : name
+  Hint         : 8
+  Name         : ?GetBackupType@CVssJetWriter@@IBG?AW4_VSS_BACKUP_TYPE@@XZ
+
+Archive member name at 2E62: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FDAABD98
+  SizeOfData   : 0000002D
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?GetContext@CVssJetWriter@@IBGJXZ (protected: long __stdcall CVssJetWriter::GetContext(void)const )
+  Type         : code
+  Name type    : name
+  Hint         : 10
+  Name         : ?GetContext@CVssJetWriter@@IBGJXZ
+
+Archive member name at 2EE0: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      61 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB57D4FC
+  SizeOfData   : 0000004D
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?GetCurrentLevel@CVssJetWriter@@IBG?AW4_VSS_APPLICATION_LEVEL@@XZ (protected: enum _VSS_APPLICATION_LEVEL __stdcall CVssJetWriter::GetCurrentLevel(void)const )
+  Type         : code
+  Name type    : name
+  Hint         : 12
+  Name         : ?GetCurrentLevel@CVssJetWriter@@IBG?AW4_VSS_APPLICATION_LEVEL@@XZ
+
+Archive member name at 2F7E: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      57 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F0A67429
+  SizeOfData   : 00000043
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?GetCurrentSnapshotSetId@CVssJetWriter@@IBG?AU_GUID@@XZ (protected: struct _GUID __stdcall CVssJetWriter::GetCurrentSnapshotSetId(void)const )
+  Type         : code
+  Name type    : name
+  Hint         : 14
+  Name         : ?GetCurrentSnapshotSetId@CVssJetWriter@@IBG?AU_GUID@@XZ
+
+Archive member name at 3012: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      50 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7601718
+  SizeOfData   : 0000003C
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?GetCurrentVolumeArray@CVssJetWriter@@IBGPAPBGXZ (protected: unsigned short const * * __stdcall CVssJetWriter::GetCurrentVolumeArray(void)const )
+  Type         : code
+  Name type    : name
+  Hint         : 16
+  Name         : ?GetCurrentVolumeArray@CVssJetWriter@@IBGPAPBGXZ
+
+Archive member name at 309E: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F131C6EE
+  SizeOfData   : 00000038
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?GetCurrentVolumeCount@CVssJetWriter@@IBGIXZ (protected: unsigned int __stdcall CVssJetWriter::GetCurrentVolumeCount(void)const )
+  Type         : code
+  Name type    : name
+  Hint         : 18
+  Name         : ?GetCurrentVolumeCount@CVssJetWriter@@IBGIXZ
+
+Archive member name at 3126: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5FBB64E
+  SizeOfData   : 00000047
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?GetRestoreType@CVssJetWriter@@IBG?AW4_VSS_RESTORE_TYPE@@XZ (protected: enum _VSS_RESTORE_TYPE __stdcall CVssJetWriter::GetRestoreType(void)const )
+  Type         : code
+  Name type    : name
+  Hint         : 20
+  Name         : ?GetRestoreType@CVssJetWriter@@IBG?AW4_VSS_RESTORE_TYPE@@XZ
+
+Archive member name at 31BE: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      54 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7421517
+  SizeOfData   : 00000040
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?GetSnapshotDeviceName@CVssJetWriter@@IBGJPBGPAPBG@Z (protected: long __stdcall CVssJetWriter::GetSnapshotDeviceName(unsigned short const *,unsigned short const * *)const )
+  Type         : code
+  Name type    : name
+  Hint         : 22
+  Name         : ?GetSnapshotDeviceName@CVssJetWriter@@IBGJPBGPAPBG@Z
+
+Archive member name at 324E: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      52 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC322F10
+  SizeOfData   : 0000003E
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?Initialize@CVssJetWriter@@QAGJU_GUID@@PBG_N211K@Z (public: long __stdcall CVssJetWriter::Initialize(struct _GUID,unsigned short const *,bool,bool,unsigned short const *,unsigned short const *,unsigned long))
+  Type         : code
+  Name type    : name
+  Hint         : 24
+  Name         : ?Initialize@CVssJetWriter@@QAGJU_GUID@@PBG_N211K@Z
+
+Archive member name at 32DC: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      55 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFEF757C
+  SizeOfData   : 00000041
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?IsBootableSystemStateBackedUp@CVssJetWriter@@IBG_NXZ (protected: bool __stdcall CVssJetWriter::IsBootableSystemStateBackedUp(void)const )
+  Type         : code
+  Name type    : name
+  Hint         : 27
+  Name         : ?IsBootableSystemStateBackedUp@CVssJetWriter@@IBG_NXZ
+
+Archive member name at 336E: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      53 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E37EA30E
+  SizeOfData   : 0000003F
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?IsPartialFileSupportEnabled@CVssJetWriter@@IBG_NXZ (protected: bool __stdcall CVssJetWriter::IsPartialFileSupportEnabled(void)const )
+  Type         : code
+  Name type    : name
+  Hint         : 29
+  Name         : ?IsPartialFileSupportEnabled@CVssJetWriter@@IBG_NXZ
+
+Archive member name at 33FE: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAEBCBDE
+  SizeOfData   : 00000035
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?IsPathAffected@CVssJetWriter@@IBG_NPBG@Z (protected: bool __stdcall CVssJetWriter::IsPathAffected(unsigned short const *)const )
+  Type         : code
+  Name type    : name
+  Hint         : 31
+  Name         : ?IsPathAffected@CVssJetWriter@@IBG_NPBG@Z
+
+Archive member name at 3484: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC5E8546
+  SizeOfData   : 0000002F
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnAbortBegin@CVssJetWriter@@UAGXXZ (public: virtual void __stdcall CVssJetWriter::OnAbortBegin(void))
+  Type         : code
+  Name type    : name
+  Hint         : 33
+  Name         : ?OnAbortBegin@CVssJetWriter@@UAGXXZ
+
+Archive member name at 3504: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7E946A4
+  SizeOfData   : 0000002D
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnAbortEnd@CVssJetWriter@@UAGXXZ (public: virtual void __stdcall CVssJetWriter::OnAbortEnd(void))
+  Type         : code
+  Name type    : name
+  Hint         : 34
+  Name         : ?OnAbortEnd@CVssJetWriter@@UAGXXZ
+
+Archive member name at 3582: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      66 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E979E03B
+  SizeOfData   : 00000052
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnBackupCompleteBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnBackupCompleteBegin(class IVssWriterComponents *))
+  Type         : code
+  Name type    : name
+  Hint         : 37
+  Name         : ?OnBackupCompleteBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+
+Archive member name at 3624: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      66 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9E0E2E2
+  SizeOfData   : 00000052
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnBackupCompleteEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnBackupCompleteEnd(class IVssWriterComponents *,bool))
+  Type         : code
+  Name type    : name
+  Hint         : 38
+  Name         : ?OnBackupCompleteEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z
+
+Archive member name at 36C6: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C23C78C6
+  SizeOfData   : 00000031
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnFreezeBegin@CVssJetWriter@@UAG_NXZ (public: virtual bool __stdcall CVssJetWriter::OnFreezeBegin(void))
+  Type         : code
+  Name type    : name
+  Hint         : 41
+  Name         : ?OnFreezeBegin@CVssJetWriter@@UAG_NXZ
+
+Archive member name at 3748: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D15319DC
+  SizeOfData   : 00000031
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnFreezeEnd@CVssJetWriter@@UAG_N_N@Z (public: virtual bool __stdcall CVssJetWriter::OnFreezeEnd(bool))
+  Type         : code
+  Name type    : name
+  Hint         : 42
+  Name         : ?OnFreezeEnd@CVssJetWriter@@UAG_N_N@Z
+
+Archive member name at 37CA: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EE63F456
+  SizeOfData   : 0000004B
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnIdentify@CVssJetWriter@@UAG_NPAVIVssCreateWriterMetadata@@@Z (public: virtual bool __stdcall CVssJetWriter::OnIdentify(class IVssCreateWriterMetadata *))
+  Type         : code
+  Name type    : name
+  Hint         : 43
+  Name         : ?OnIdentify@CVssJetWriter@@UAG_NPAVIVssCreateWriterMetadata@@@Z
+
+Archive member name at 3866: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      63 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB2BE3CA
+  SizeOfData   : 0000004F
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnPostRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPostRestoreBegin(class IVssWriterComponents *))
+  Type         : code
+  Name type    : name
+  Hint         : 46
+  Name         : ?OnPostRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+
+Archive member name at 3906: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      63 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E834812F
+  SizeOfData   : 0000004F
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnPostRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPostRestoreEnd(class IVssWriterComponents *,bool))
+  Type         : code
+  Name type    : name
+  Hint         : 47
+  Name         : ?OnPostRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z
+
+Archive member name at 39A6: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EFAC8280
+  SizeOfData   : 0000004B
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnPostSnapshot@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPostSnapshot(class IVssWriterComponents *))
+  Type         : code
+  Name type    : name
+  Hint         : 48
+  Name         : ?OnPostSnapshot@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+
+Archive member name at 3A42: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      62 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFC2196C
+  SizeOfData   : 0000004E
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnPreRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPreRestoreBegin(class IVssWriterComponents *))
+  Type         : code
+  Name type    : name
+  Hint         : 51
+  Name         : ?OnPreRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+
+Archive member name at 3AE0: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      62 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC5EAE99
+  SizeOfData   : 0000004E
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnPreRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPreRestoreEnd(class IVssWriterComponents *,bool))
+  Type         : code
+  Name type    : name
+  Hint         : 52
+  Name         : ?OnPreRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z
+
+Archive member name at 3B7E: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      65 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBD137EB
+  SizeOfData   : 00000051
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnPrepareBackupBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPrepareBackupBegin(class IVssWriterComponents *))
+  Type         : code
+  Name type    : name
+  Hint         : 54
+  Name         : ?OnPrepareBackupBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z
+
+Archive member name at 3C20: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      65 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D083F426
+  SizeOfData   : 00000051
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnPrepareBackupEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPrepareBackupEnd(class IVssWriterComponents *,bool))
+  Type         : code
+  Name type    : name
+  Hint         : 55
+  Name         : ?OnPrepareBackupEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z
+
+Archive member name at 3CC2: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E685DCDC
+  SizeOfData   : 0000003A
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnPrepareSnapshotBegin@CVssJetWriter@@UAG_NXZ (public: virtual bool __stdcall CVssJetWriter::OnPrepareSnapshotBegin(void))
+  Type         : code
+  Name type    : name
+  Hint         : 56
+  Name         : ?OnPrepareSnapshotBegin@CVssJetWriter@@UAG_NXZ
+
+Archive member name at 3D4C: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB0D1964
+  SizeOfData   : 0000003A
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnPrepareSnapshotEnd@CVssJetWriter@@UAG_N_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPrepareSnapshotEnd(bool))
+  Type         : code
+  Name type    : name
+  Hint         : 57
+  Name         : ?OnPrepareSnapshotEnd@CVssJetWriter@@UAG_N_N@Z
+
+Archive member name at 3DD6: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5E0A83C
+  SizeOfData   : 0000002F
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnThawBegin@CVssJetWriter@@UAG_NXZ (public: virtual bool __stdcall CVssJetWriter::OnThawBegin(void))
+  Type         : code
+  Name type    : name
+  Hint         : 58
+  Name         : ?OnThawBegin@CVssJetWriter@@UAG_NXZ
+
+Archive member name at 3E56: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EBF0DCAF
+  SizeOfData   : 0000002F
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?OnThawEnd@CVssJetWriter@@UAG_N_N@Z (public: virtual bool __stdcall CVssJetWriter::OnThawEnd(bool))
+  Type         : code
+  Name type    : name
+  Hint         : 59
+  Name         : ?OnThawEnd@CVssJetWriter@@UAG_N_N@Z
+
+Archive member name at 3ED6: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C2644ACE
+  SizeOfData   : 00000034
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?SetWriterFailure@CVssJetWriter@@IAGJJ@Z (protected: long __stdcall CVssJetWriter::SetWriterFailure(long))
+  Type         : code
+  Name type    : name
+  Hint         : 62
+  Name         : ?SetWriterFailure@CVssJetWriter@@IAGJJ@Z
+
+Archive member name at 3F5A: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5D178E2
+  SizeOfData   : 0000002F
+  DLL name     : VSSAPI.DLL
+  Symbol name  : ?Uninitialize@CVssJetWriter@@QAGXXZ (public: void __stdcall CVssJetWriter::Uninitialize(void))
+  Type         : code
+  Name type    : name
+  Hint         : 65
+  Name         : ?Uninitialize@CVssJetWriter@@QAGXXZ
+
+Archive member name at 3FDA: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: ECA110B2
+  SizeOfData   : 00000030
+  DLL name     : VSSAPI.DLL
+  Symbol name  : _CreateVssBackupComponentsInternal@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 67
+  Name         : CreateVssBackupComponentsInternal
+
+Archive member name at 405A: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C9A1C87C
+  SizeOfData   : 00000035
+  DLL name     : VSSAPI.DLL
+  Symbol name  : _CreateVssExamineWriterMetadataInternal@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 68
+  Name         : CreateVssExamineWriterMetadataInternal
+
+Archive member name at 40E0: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D17B0ABB
+  SizeOfData   : 0000002D
+  DLL name     : VSSAPI.DLL
+  Symbol name  : _CreateVssExpressWriterInternal@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 69
+  Name         : CreateVssExpressWriterInternal
+
+Archive member name at 415E: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D754782F
+  SizeOfData   : 0000002F
+  DLL name     : VSSAPI.DLL
+  Symbol name  : _CreateVssSnapshotSetDescription@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 70
+  Name         : CreateVssSnapshotSetDescription
+
+Archive member name at 41DE: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5B46AE6
+  SizeOfData   : 0000001B
+  DLL name     : VSSAPI.DLL
+  Symbol name  : _CreateWriter@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 71
+  Name         : CreateWriter
+
+Archive member name at 424A: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FBCD50A4
+  SizeOfData   : 0000001D
+  DLL name     : VSSAPI.DLL
+  Symbol name  : _CreateWriterEx@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 72
+  Name         : CreateWriterEx
+
+Archive member name at 42B8: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4CC1F93
+  SizeOfData   : 00000030
+  DLL name     : VSSAPI.DLL
+  Symbol name  : _GetProviderMgmtInterfaceInternal@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 76
+  Name         : GetProviderMgmtInterfaceInternal
+
+Archive member name at 4338: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB509369
+  SizeOfData   : 0000002B
+  DLL name     : VSSAPI.DLL
+  Symbol name  : _IsVolumeSnapshottedInternal@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 78
+  Name         : IsVolumeSnapshottedInternal
+
+Archive member name at 43B4: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EAE20347
+  SizeOfData   : 0000002D
+  DLL name     : VSSAPI.DLL
+  Symbol name  : _LoadVssSnapshotSetDescription@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 79
+  Name         : LoadVssSnapshotSetDescription
+
+Archive member name at 4432: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E2831948
+  SizeOfData   : 00000028
+  DLL name     : VSSAPI.DLL
+  Symbol name  : _ShouldBlockRevertInternal@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 81
+  Name         : ShouldBlockRevertInternal
+
+Archive member name at 44AA: VSSAPI.DLL/     
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8B78445
+  SizeOfData   : 00000030
+  DLL name     : VSSAPI.DLL
+  Symbol name  : _VssFreeSnapshotPropertiesInternal@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 83
+  Name         : VssFreeSnapshotPropertiesInternal
+
+     Exports
+
+       ordinal    name
+
+                  ??0CVssJetWriter@@QAE@XZ (public: __thiscall CVssJetWriter::CVssJetWriter(void))
+                  ??1CVssJetWriter@@UAE@XZ (public: virtual __thiscall CVssJetWriter::~CVssJetWriter(void))
+                  ?AreComponentsSelected@CVssJetWriter@@IBG_NXZ (protected: bool __stdcall CVssJetWriter::AreComponentsSelected(void)const )
+                  ?GetBackupType@CVssJetWriter@@IBG?AW4_VSS_BACKUP_TYPE@@XZ (protected: enum _VSS_BACKUP_TYPE __stdcall CVssJetWriter::GetBackupType(void)const )
+                  ?GetContext@CVssJetWriter@@IBGJXZ (protected: long __stdcall CVssJetWriter::GetContext(void)const )
+                  ?GetCurrentLevel@CVssJetWriter@@IBG?AW4_VSS_APPLICATION_LEVEL@@XZ (protected: enum _VSS_APPLICATION_LEVEL __stdcall CVssJetWriter::GetCurrentLevel(void)const )
+                  ?GetCurrentSnapshotSetId@CVssJetWriter@@IBG?AU_GUID@@XZ (protected: struct _GUID __stdcall CVssJetWriter::GetCurrentSnapshotSetId(void)const )
+                  ?GetCurrentVolumeArray@CVssJetWriter@@IBGPAPBGXZ (protected: unsigned short const * * __stdcall CVssJetWriter::GetCurrentVolumeArray(void)const )
+                  ?GetCurrentVolumeCount@CVssJetWriter@@IBGIXZ (protected: unsigned int __stdcall CVssJetWriter::GetCurrentVolumeCount(void)const )
+                  ?GetRestoreType@CVssJetWriter@@IBG?AW4_VSS_RESTORE_TYPE@@XZ (protected: enum _VSS_RESTORE_TYPE __stdcall CVssJetWriter::GetRestoreType(void)const )
+                  ?GetSnapshotDeviceName@CVssJetWriter@@IBGJPBGPAPBG@Z (protected: long __stdcall CVssJetWriter::GetSnapshotDeviceName(unsigned short const *,unsigned short const * *)const )
+                  ?Initialize@CVssJetWriter@@QAGJU_GUID@@PBG_N211K@Z (public: long __stdcall CVssJetWriter::Initialize(struct _GUID,unsigned short const *,bool,bool,unsigned short const *,unsigned short const *,unsigned long))
+                  ?IsBootableSystemStateBackedUp@CVssJetWriter@@IBG_NXZ (protected: bool __stdcall CVssJetWriter::IsBootableSystemStateBackedUp(void)const )
+                  ?IsPartialFileSupportEnabled@CVssJetWriter@@IBG_NXZ (protected: bool __stdcall CVssJetWriter::IsPartialFileSupportEnabled(void)const )
+                  ?IsPathAffected@CVssJetWriter@@IBG_NPBG@Z (protected: bool __stdcall CVssJetWriter::IsPathAffected(unsigned short const *)const )
+                  ?OnAbortBegin@CVssJetWriter@@UAGXXZ (public: virtual void __stdcall CVssJetWriter::OnAbortBegin(void))
+                  ?OnAbortEnd@CVssJetWriter@@UAGXXZ (public: virtual void __stdcall CVssJetWriter::OnAbortEnd(void))
+                  ?OnBackupCompleteBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnBackupCompleteBegin(class IVssWriterComponents *))
+                  ?OnBackupCompleteEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnBackupCompleteEnd(class IVssWriterComponents *,bool))
+                  ?OnFreezeBegin@CVssJetWriter@@UAG_NXZ (public: virtual bool __stdcall CVssJetWriter::OnFreezeBegin(void))
+                  ?OnFreezeEnd@CVssJetWriter@@UAG_N_N@Z (public: virtual bool __stdcall CVssJetWriter::OnFreezeEnd(bool))
+                  ?OnIdentify@CVssJetWriter@@UAG_NPAVIVssCreateWriterMetadata@@@Z (public: virtual bool __stdcall CVssJetWriter::OnIdentify(class IVssCreateWriterMetadata *))
+                  ?OnPostRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPostRestoreBegin(class IVssWriterComponents *))
+                  ?OnPostRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPostRestoreEnd(class IVssWriterComponents *,bool))
+                  ?OnPostSnapshot@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPostSnapshot(class IVssWriterComponents *))
+                  ?OnPreRestoreBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPreRestoreBegin(class IVssWriterComponents *))
+                  ?OnPreRestoreEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPreRestoreEnd(class IVssWriterComponents *,bool))
+                  ?OnPrepareBackupBegin@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@@Z (public: virtual bool __stdcall CVssJetWriter::OnPrepareBackupBegin(class IVssWriterComponents *))
+                  ?OnPrepareBackupEnd@CVssJetWriter@@UAG_NPAVIVssWriterComponents@@_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPrepareBackupEnd(class IVssWriterComponents *,bool))
+                  ?OnPrepareSnapshotBegin@CVssJetWriter@@UAG_NXZ (public: virtual bool __stdcall CVssJetWriter::OnPrepareSnapshotBegin(void))
+                  ?OnPrepareSnapshotEnd@CVssJetWriter@@UAG_N_N@Z (public: virtual bool __stdcall CVssJetWriter::OnPrepareSnapshotEnd(bool))
+                  ?OnThawBegin@CVssJetWriter@@UAG_NXZ (public: virtual bool __stdcall CVssJetWriter::OnThawBegin(void))
+                  ?OnThawEnd@CVssJetWriter@@UAG_N_N@Z (public: virtual bool __stdcall CVssJetWriter::OnThawEnd(bool))
+                  ?SetWriterFailure@CVssJetWriter@@IAGJJ@Z (protected: long __stdcall CVssJetWriter::SetWriterFailure(long))
+                  ?Uninitialize@CVssJetWriter@@QAGXXZ (public: void __stdcall CVssJetWriter::Uninitialize(void))
+                  _CreateVssBackupComponentsInternal@4
+                  _CreateVssExamineWriterMetadataInternal@8
+                  _CreateVssExpressWriterInternal@4
+                  _CreateVssSnapshotSetDescription@24
+                  _CreateWriter@8
+                  _CreateWriterEx@8
+                  _GetProviderMgmtInterfaceInternal@36
+                  _IsVolumeSnapshottedInternal@12
+                  _LoadVssSnapshotSetDescription@24
+                  _ShouldBlockRevertInternal@8
+                  _VssFreeSnapshotPropertiesInternal@4
+
+  Summary
+
+          C0 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

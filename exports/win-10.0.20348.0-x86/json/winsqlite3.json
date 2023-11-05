@@ -1,0 +1,6453 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_sqlite3_aggregate_context@8"
+    },
+    {
+      "name": "_sqlite3_aggregate_count@4"
+    },
+    {
+      "name": "_sqlite3_auto_extension@4"
+    },
+    {
+      "name": "_sqlite3_backup_finish@4"
+    },
+    {
+      "name": "_sqlite3_backup_init@16"
+    },
+    {
+      "name": "_sqlite3_backup_pagecount@4"
+    },
+    {
+      "name": "_sqlite3_backup_remaining@4"
+    },
+    {
+      "name": "_sqlite3_backup_step@8"
+    },
+    {
+      "name": "_sqlite3_bind_blob64@24"
+    },
+    {
+      "name": "_sqlite3_bind_blob@20"
+    },
+    {
+      "name": "_sqlite3_bind_double@16"
+    },
+    {
+      "name": "_sqlite3_bind_int64@16"
+    },
+    {
+      "name": "_sqlite3_bind_int@12"
+    },
+    {
+      "name": "_sqlite3_bind_null@8"
+    },
+    {
+      "name": "_sqlite3_bind_parameter_count@4"
+    },
+    {
+      "name": "_sqlite3_bind_parameter_index@8"
+    },
+    {
+      "name": "_sqlite3_bind_parameter_name@8"
+    },
+    {
+      "name": "_sqlite3_bind_pointer@20"
+    },
+    {
+      "name": "_sqlite3_bind_text16@20"
+    },
+    {
+      "name": "_sqlite3_bind_text64@28"
+    },
+    {
+      "name": "_sqlite3_bind_text@20"
+    },
+    {
+      "name": "_sqlite3_bind_value@12"
+    },
+    {
+      "name": "_sqlite3_bind_zeroblob64@16"
+    },
+    {
+      "name": "_sqlite3_bind_zeroblob@12"
+    },
+    {
+      "name": "_sqlite3_blob_bytes@4"
+    },
+    {
+      "name": "_sqlite3_blob_close@4"
+    },
+    {
+      "name": "_sqlite3_blob_open@32"
+    },
+    {
+      "name": "_sqlite3_blob_read@16"
+    },
+    {
+      "name": "_sqlite3_blob_reopen@12"
+    },
+    {
+      "name": "_sqlite3_blob_write@16"
+    },
+    {
+      "name": "_sqlite3_busy_handler@12"
+    },
+    {
+      "name": "_sqlite3_busy_timeout@8"
+    },
+    {
+      "name": "_sqlite3_cancel_auto_extension@4"
+    },
+    {
+      "name": "_sqlite3_changes@4"
+    },
+    {
+      "name": "_sqlite3_clear_bindings@4"
+    },
+    {
+      "name": "_sqlite3_close@4"
+    },
+    {
+      "name": "_sqlite3_close_v2@4"
+    },
+    {
+      "name": "_sqlite3_collation_needed16@12"
+    },
+    {
+      "name": "_sqlite3_collation_needed@12"
+    },
+    {
+      "name": "_sqlite3_column_blob@8"
+    },
+    {
+      "name": "_sqlite3_column_bytes16@8"
+    },
+    {
+      "name": "_sqlite3_column_bytes@8"
+    },
+    {
+      "name": "_sqlite3_column_count@4"
+    },
+    {
+      "name": "_sqlite3_column_database_name16@8"
+    },
+    {
+      "name": "_sqlite3_column_database_name@8"
+    },
+    {
+      "name": "_sqlite3_column_decltype16@8"
+    },
+    {
+      "name": "_sqlite3_column_decltype@8"
+    },
+    {
+      "name": "_sqlite3_column_double@8"
+    },
+    {
+      "name": "_sqlite3_column_int64@8"
+    },
+    {
+      "name": "_sqlite3_column_int@8"
+    },
+    {
+      "name": "_sqlite3_column_name16@8"
+    },
+    {
+      "name": "_sqlite3_column_name@8"
+    },
+    {
+      "name": "_sqlite3_column_origin_name16@8"
+    },
+    {
+      "name": "_sqlite3_column_origin_name@8"
+    },
+    {
+      "name": "_sqlite3_column_table_name16@8"
+    },
+    {
+      "name": "_sqlite3_column_table_name@8"
+    },
+    {
+      "name": "_sqlite3_column_text16@8"
+    },
+    {
+      "name": "_sqlite3_column_text@8"
+    },
+    {
+      "name": "_sqlite3_column_type@8"
+    },
+    {
+      "name": "_sqlite3_column_value@8"
+    },
+    {
+      "name": "_sqlite3_commit_hook@12"
+    },
+    {
+      "name": "_sqlite3_compileoption_get@4"
+    },
+    {
+      "name": "_sqlite3_compileoption_used@4"
+    },
+    {
+      "name": "_sqlite3_complete16@4"
+    },
+    {
+      "name": "_sqlite3_complete@4"
+    },
+    {
+      "name": "_sqlite3_config"
+    },
+    {
+      "name": "_sqlite3_context_db_handle@4"
+    },
+    {
+      "name": "_sqlite3_create_collation16@20"
+    },
+    {
+      "name": "_sqlite3_create_collation@20"
+    },
+    {
+      "name": "_sqlite3_create_collation_v2@24"
+    },
+    {
+      "name": "_sqlite3_create_function16@32"
+    },
+    {
+      "name": "_sqlite3_create_function@32"
+    },
+    {
+      "name": "_sqlite3_create_function_v2@36"
+    },
+    {
+      "name": "_sqlite3_create_module@16"
+    },
+    {
+      "name": "_sqlite3_create_module_v2@20"
+    },
+    {
+      "name": "_sqlite3_create_window_function@40"
+    },
+    {
+      "name": "_sqlite3_data_count@4"
+    },
+    {
+      "name": "_sqlite3_data_directory"
+    },
+    {
+      "name": "_sqlite3_db_cacheflush@4"
+    },
+    {
+      "name": "_sqlite3_db_config"
+    },
+    {
+      "name": "_sqlite3_db_filename@8"
+    },
+    {
+      "name": "_sqlite3_db_handle@4"
+    },
+    {
+      "name": "_sqlite3_db_mutex@4"
+    },
+    {
+      "name": "_sqlite3_db_readonly@8"
+    },
+    {
+      "name": "_sqlite3_db_release_memory@4"
+    },
+    {
+      "name": "_sqlite3_db_status@20"
+    },
+    {
+      "name": "_sqlite3_declare_vtab@8"
+    },
+    {
+      "name": "_sqlite3_deserialize@32"
+    },
+    {
+      "name": "_sqlite3_enable_load_extension@8"
+    },
+    {
+      "name": "_sqlite3_enable_shared_cache@4"
+    },
+    {
+      "name": "_sqlite3_errcode@4"
+    },
+    {
+      "name": "_sqlite3_errmsg16@4"
+    },
+    {
+      "name": "_sqlite3_errmsg@4"
+    },
+    {
+      "name": "_sqlite3_errstr@4"
+    },
+    {
+      "name": "_sqlite3_exec@20"
+    },
+    {
+      "name": "_sqlite3_expanded_sql@4"
+    },
+    {
+      "name": "_sqlite3_expired@4"
+    },
+    {
+      "name": "_sqlite3_extended_errcode@4"
+    },
+    {
+      "name": "_sqlite3_extended_result_codes@8"
+    },
+    {
+      "name": "_sqlite3_file_control@16"
+    },
+    {
+      "name": "_sqlite3_finalize@4"
+    },
+    {
+      "name": "_sqlite3_free@4"
+    },
+    {
+      "name": "_sqlite3_free_table@4"
+    },
+    {
+      "name": "_sqlite3_fts3_may_be_corrupt"
+    },
+    {
+      "name": "_sqlite3_get_autocommit@4"
+    },
+    {
+      "name": "_sqlite3_get_auxdata@8"
+    },
+    {
+      "name": "_sqlite3_get_table@24"
+    },
+    {
+      "name": "_sqlite3_global_recover@0"
+    },
+    {
+      "name": "_sqlite3_initialize@0"
+    },
+    {
+      "name": "_sqlite3_interrupt@4"
+    },
+    {
+      "name": "_sqlite3_keyword_check@8"
+    },
+    {
+      "name": "_sqlite3_keyword_count@0"
+    },
+    {
+      "name": "_sqlite3_keyword_name@12"
+    },
+    {
+      "name": "_sqlite3_last_insert_rowid@4"
+    },
+    {
+      "name": "_sqlite3_libversion@0"
+    },
+    {
+      "name": "_sqlite3_libversion_number@0"
+    },
+    {
+      "name": "_sqlite3_limit@12"
+    },
+    {
+      "name": "_sqlite3_load_extension@16"
+    },
+    {
+      "name": "_sqlite3_log"
+    },
+    {
+      "name": "_sqlite3_malloc64@8"
+    },
+    {
+      "name": "_sqlite3_malloc@4"
+    },
+    {
+      "name": "_sqlite3_memory_alarm@16"
+    },
+    {
+      "name": "_sqlite3_memory_highwater@4"
+    },
+    {
+      "name": "_sqlite3_memory_used@0"
+    },
+    {
+      "name": "_sqlite3_mprintf"
+    },
+    {
+      "name": "_sqlite3_msize@4"
+    },
+    {
+      "name": "_sqlite3_mutex_alloc@4"
+    },
+    {
+      "name": "_sqlite3_mutex_enter@4"
+    },
+    {
+      "name": "_sqlite3_mutex_free@4"
+    },
+    {
+      "name": "_sqlite3_mutex_leave@4"
+    },
+    {
+      "name": "_sqlite3_mutex_try@4"
+    },
+    {
+      "name": "_sqlite3_next_stmt@8"
+    },
+    {
+      "name": "_sqlite3_open16@8"
+    },
+    {
+      "name": "_sqlite3_open@8"
+    },
+    {
+      "name": "_sqlite3_open_v2@16"
+    },
+    {
+      "name": "_sqlite3_os_end@0"
+    },
+    {
+      "name": "_sqlite3_os_init@0"
+    },
+    {
+      "name": "_sqlite3_overload_function@12"
+    },
+    {
+      "name": "_sqlite3_prepare16@20"
+    },
+    {
+      "name": "_sqlite3_prepare16_v2@20"
+    },
+    {
+      "name": "_sqlite3_prepare16_v3@24"
+    },
+    {
+      "name": "_sqlite3_prepare@20"
+    },
+    {
+      "name": "_sqlite3_prepare_v2@20"
+    },
+    {
+      "name": "_sqlite3_prepare_v3@24"
+    },
+    {
+      "name": "_sqlite3_profile@12"
+    },
+    {
+      "name": "_sqlite3_progress_handler@16"
+    },
+    {
+      "name": "_sqlite3_randomness@8"
+    },
+    {
+      "name": "_sqlite3_realloc64@12"
+    },
+    {
+      "name": "_sqlite3_realloc@8"
+    },
+    {
+      "name": "_sqlite3_release_memory@4"
+    },
+    {
+      "name": "_sqlite3_reset@4"
+    },
+    {
+      "name": "_sqlite3_reset_auto_extension@0"
+    },
+    {
+      "name": "_sqlite3_result_blob64@20"
+    },
+    {
+      "name": "_sqlite3_result_blob@16"
+    },
+    {
+      "name": "_sqlite3_result_double@12"
+    },
+    {
+      "name": "_sqlite3_result_error16@12"
+    },
+    {
+      "name": "_sqlite3_result_error@12"
+    },
+    {
+      "name": "_sqlite3_result_error_code@8"
+    },
+    {
+      "name": "_sqlite3_result_error_nomem@4"
+    },
+    {
+      "name": "_sqlite3_result_error_toobig@4"
+    },
+    {
+      "name": "_sqlite3_result_int64@12"
+    },
+    {
+      "name": "_sqlite3_result_int@8"
+    },
+    {
+      "name": "_sqlite3_result_null@4"
+    },
+    {
+      "name": "_sqlite3_result_pointer@16"
+    },
+    {
+      "name": "_sqlite3_result_subtype@8"
+    },
+    {
+      "name": "_sqlite3_result_text16@16"
+    },
+    {
+      "name": "_sqlite3_result_text16be@16"
+    },
+    {
+      "name": "_sqlite3_result_text16le@16"
+    },
+    {
+      "name": "_sqlite3_result_text64@24"
+    },
+    {
+      "name": "_sqlite3_result_text@16"
+    },
+    {
+      "name": "_sqlite3_result_value@8"
+    },
+    {
+      "name": "_sqlite3_result_zeroblob64@12"
+    },
+    {
+      "name": "_sqlite3_result_zeroblob@8"
+    },
+    {
+      "name": "_sqlite3_rollback_hook@12"
+    },
+    {
+      "name": "_sqlite3_rtree_geometry_callback@16"
+    },
+    {
+      "name": "_sqlite3_rtree_query_callback@20"
+    },
+    {
+      "name": "_sqlite3_serialize@16"
+    },
+    {
+      "name": "_sqlite3_set_authorizer@12"
+    },
+    {
+      "name": "_sqlite3_set_auxdata@16"
+    },
+    {
+      "name": "_sqlite3_set_last_insert_rowid@12"
+    },
+    {
+      "name": "_sqlite3_shutdown@0"
+    },
+    {
+      "name": "_sqlite3_sleep@4"
+    },
+    {
+      "name": "_sqlite3_snprintf"
+    },
+    {
+      "name": "_sqlite3_soft_heap_limit64@8"
+    },
+    {
+      "name": "_sqlite3_soft_heap_limit@4"
+    },
+    {
+      "name": "_sqlite3_sourceid@0"
+    },
+    {
+      "name": "_sqlite3_sql@4"
+    },
+    {
+      "name": "_sqlite3_status64@16"
+    },
+    {
+      "name": "_sqlite3_status@16"
+    },
+    {
+      "name": "_sqlite3_step@4"
+    },
+    {
+      "name": "_sqlite3_stmt_busy@4"
+    },
+    {
+      "name": "_sqlite3_stmt_isexplain@4"
+    },
+    {
+      "name": "_sqlite3_stmt_readonly@4"
+    },
+    {
+      "name": "_sqlite3_stmt_status@12"
+    },
+    {
+      "name": "_sqlite3_str_append@12"
+    },
+    {
+      "name": "_sqlite3_str_appendall@8"
+    },
+    {
+      "name": "_sqlite3_str_appendchar@12"
+    },
+    {
+      "name": "_sqlite3_str_appendf"
+    },
+    {
+      "name": "_sqlite3_str_errcode@4"
+    },
+    {
+      "name": "_sqlite3_str_finish@4"
+    },
+    {
+      "name": "_sqlite3_str_length@4"
+    },
+    {
+      "name": "_sqlite3_str_new@4"
+    },
+    {
+      "name": "_sqlite3_str_reset@4"
+    },
+    {
+      "name": "_sqlite3_str_value@4"
+    },
+    {
+      "name": "_sqlite3_str_vappendf@12"
+    },
+    {
+      "name": "_sqlite3_strglob@8"
+    },
+    {
+      "name": "_sqlite3_stricmp@8"
+    },
+    {
+      "name": "_sqlite3_strlike@12"
+    },
+    {
+      "name": "_sqlite3_strnicmp@12"
+    },
+    {
+      "name": "_sqlite3_system_errno@4"
+    },
+    {
+      "name": "_sqlite3_table_column_metadata@36"
+    },
+    {
+      "name": "_sqlite3_temp_directory"
+    },
+    {
+      "name": "_sqlite3_test_control"
+    },
+    {
+      "name": "_sqlite3_thread_cleanup@0"
+    },
+    {
+      "name": "_sqlite3_threadsafe@0"
+    },
+    {
+      "name": "_sqlite3_total_changes@4"
+    },
+    {
+      "name": "_sqlite3_trace@12"
+    },
+    {
+      "name": "_sqlite3_trace_v2@16"
+    },
+    {
+      "name": "_sqlite3_transfer_bindings@8"
+    },
+    {
+      "name": "_sqlite3_update_hook@12"
+    },
+    {
+      "name": "_sqlite3_uri_boolean@12"
+    },
+    {
+      "name": "_sqlite3_uri_int64@16"
+    },
+    {
+      "name": "_sqlite3_uri_parameter@8"
+    },
+    {
+      "name": "_sqlite3_user_data@4"
+    },
+    {
+      "name": "_sqlite3_value_blob@4"
+    },
+    {
+      "name": "_sqlite3_value_bytes16@4"
+    },
+    {
+      "name": "_sqlite3_value_bytes@4"
+    },
+    {
+      "name": "_sqlite3_value_double@4"
+    },
+    {
+      "name": "_sqlite3_value_dup@4"
+    },
+    {
+      "name": "_sqlite3_value_free@4"
+    },
+    {
+      "name": "_sqlite3_value_frombind@4"
+    },
+    {
+      "name": "_sqlite3_value_int64@4"
+    },
+    {
+      "name": "_sqlite3_value_int@4"
+    },
+    {
+      "name": "_sqlite3_value_nochange@4"
+    },
+    {
+      "name": "_sqlite3_value_numeric_type@4"
+    },
+    {
+      "name": "_sqlite3_value_pointer@8"
+    },
+    {
+      "name": "_sqlite3_value_subtype@4"
+    },
+    {
+      "name": "_sqlite3_value_text16@4"
+    },
+    {
+      "name": "_sqlite3_value_text16be@4"
+    },
+    {
+      "name": "_sqlite3_value_text16le@4"
+    },
+    {
+      "name": "_sqlite3_value_text@4"
+    },
+    {
+      "name": "_sqlite3_value_type@4"
+    },
+    {
+      "name": "_sqlite3_version"
+    },
+    {
+      "name": "_sqlite3_vfs_find@4"
+    },
+    {
+      "name": "_sqlite3_vfs_register@8"
+    },
+    {
+      "name": "_sqlite3_vfs_unregister@4"
+    },
+    {
+      "name": "_sqlite3_vmprintf@8"
+    },
+    {
+      "name": "_sqlite3_vsnprintf@16"
+    },
+    {
+      "name": "_sqlite3_vtab_collation@8"
+    },
+    {
+      "name": "_sqlite3_vtab_config"
+    },
+    {
+      "name": "_sqlite3_vtab_nochange@4"
+    },
+    {
+      "name": "_sqlite3_vtab_on_conflict@4"
+    },
+    {
+      "name": "_sqlite3_wal_autocheckpoint@8"
+    },
+    {
+      "name": "_sqlite3_wal_checkpoint@8"
+    },
+    {
+      "name": "_sqlite3_wal_checkpoint_v2@20"
+    },
+    {
+      "name": "_sqlite3_wal_hook@12"
+    },
+    {
+      "name": "_sqlite3_win32_is_nt@0"
+    },
+    {
+      "name": "_sqlite3_win32_mbcs_to_utf8@4"
+    },
+    {
+      "name": "_sqlite3_win32_mbcs_to_utf8_v2@8"
+    },
+    {
+      "name": "_sqlite3_win32_set_directory16@8"
+    },
+    {
+      "name": "_sqlite3_win32_set_directory8@8"
+    },
+    {
+      "name": "_sqlite3_win32_set_directory@8"
+    },
+    {
+      "name": "_sqlite3_win32_sleep@4"
+    },
+    {
+      "name": "_sqlite3_win32_unicode_to_utf8@4"
+    },
+    {
+      "name": "_sqlite3_win32_utf8_to_mbcs@4"
+    },
+    {
+      "name": "_sqlite3_win32_utf8_to_mbcs_v2@8"
+    },
+    {
+      "name": "_sqlite3_win32_utf8_to_unicode@4"
+    },
+    {
+      "name": "_sqlite3_win32_write_debug@8"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 35194,
+      "name": "__IMPORT_DESCRIPTOR_winsqlite3"
+    },
+    {
+      "offset": 35760,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 36074,
+      "name": "winsqlite3_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 36418,
+      "name": "__imp__sqlite3_aggregate_context@8"
+    },
+    {
+      "offset": 36418,
+      "name": "_sqlite3_aggregate_context@8"
+    },
+    {
+      "offset": 36542,
+      "name": "__imp__sqlite3_aggregate_count@4"
+    },
+    {
+      "offset": 36542,
+      "name": "_sqlite3_aggregate_count@4"
+    },
+    {
+      "offset": 36664,
+      "name": "__imp__sqlite3_auto_extension@4"
+    },
+    {
+      "offset": 36664,
+      "name": "_sqlite3_auto_extension@4"
+    },
+    {
+      "offset": 36786,
+      "name": "__imp__sqlite3_backup_finish@4"
+    },
+    {
+      "offset": 36786,
+      "name": "_sqlite3_backup_finish@4"
+    },
+    {
+      "offset": 36906,
+      "name": "__imp__sqlite3_backup_init@16"
+    },
+    {
+      "offset": 36906,
+      "name": "_sqlite3_backup_init@16"
+    },
+    {
+      "offset": 37026,
+      "name": "__imp__sqlite3_backup_pagecount@4"
+    },
+    {
+      "offset": 37026,
+      "name": "_sqlite3_backup_pagecount@4"
+    },
+    {
+      "offset": 37150,
+      "name": "__imp__sqlite3_backup_remaining@4"
+    },
+    {
+      "offset": 37150,
+      "name": "_sqlite3_backup_remaining@4"
+    },
+    {
+      "offset": 37274,
+      "name": "__imp__sqlite3_backup_step@8"
+    },
+    {
+      "offset": 37274,
+      "name": "_sqlite3_backup_step@8"
+    },
+    {
+      "offset": 37512,
+      "name": "__imp__sqlite3_bind_blob@20"
+    },
+    {
+      "offset": 37512,
+      "name": "_sqlite3_bind_blob@20"
+    },
+    {
+      "offset": 37392,
+      "name": "__imp__sqlite3_bind_blob64@24"
+    },
+    {
+      "offset": 37392,
+      "name": "_sqlite3_bind_blob64@24"
+    },
+    {
+      "offset": 37630,
+      "name": "__imp__sqlite3_bind_double@16"
+    },
+    {
+      "offset": 37630,
+      "name": "_sqlite3_bind_double@16"
+    },
+    {
+      "offset": 37868,
+      "name": "__imp__sqlite3_bind_int@12"
+    },
+    {
+      "offset": 37868,
+      "name": "_sqlite3_bind_int@12"
+    },
+    {
+      "offset": 37750,
+      "name": "__imp__sqlite3_bind_int64@16"
+    },
+    {
+      "offset": 37750,
+      "name": "_sqlite3_bind_int64@16"
+    },
+    {
+      "offset": 37984,
+      "name": "__imp__sqlite3_bind_null@8"
+    },
+    {
+      "offset": 37984,
+      "name": "_sqlite3_bind_null@8"
+    },
+    {
+      "offset": 38100,
+      "name": "__imp__sqlite3_bind_parameter_count@4"
+    },
+    {
+      "offset": 38100,
+      "name": "_sqlite3_bind_parameter_count@4"
+    },
+    {
+      "offset": 38228,
+      "name": "__imp__sqlite3_bind_parameter_index@8"
+    },
+    {
+      "offset": 38228,
+      "name": "_sqlite3_bind_parameter_index@8"
+    },
+    {
+      "offset": 38356,
+      "name": "__imp__sqlite3_bind_parameter_name@8"
+    },
+    {
+      "offset": 38356,
+      "name": "_sqlite3_bind_parameter_name@8"
+    },
+    {
+      "offset": 38482,
+      "name": "__imp__sqlite3_bind_pointer@20"
+    },
+    {
+      "offset": 38482,
+      "name": "_sqlite3_bind_pointer@20"
+    },
+    {
+      "offset": 38842,
+      "name": "__imp__sqlite3_bind_text@20"
+    },
+    {
+      "offset": 38842,
+      "name": "_sqlite3_bind_text@20"
+    },
+    {
+      "offset": 38602,
+      "name": "__imp__sqlite3_bind_text16@20"
+    },
+    {
+      "offset": 38602,
+      "name": "_sqlite3_bind_text16@20"
+    },
+    {
+      "offset": 38722,
+      "name": "__imp__sqlite3_bind_text64@28"
+    },
+    {
+      "offset": 38722,
+      "name": "_sqlite3_bind_text64@28"
+    },
+    {
+      "offset": 38960,
+      "name": "__imp__sqlite3_bind_value@12"
+    },
+    {
+      "offset": 38960,
+      "name": "_sqlite3_bind_value@12"
+    },
+    {
+      "offset": 39202,
+      "name": "__imp__sqlite3_bind_zeroblob@12"
+    },
+    {
+      "offset": 39202,
+      "name": "_sqlite3_bind_zeroblob@12"
+    },
+    {
+      "offset": 39078,
+      "name": "__imp__sqlite3_bind_zeroblob64@16"
+    },
+    {
+      "offset": 39078,
+      "name": "_sqlite3_bind_zeroblob64@16"
+    },
+    {
+      "offset": 39324,
+      "name": "__imp__sqlite3_blob_bytes@4"
+    },
+    {
+      "offset": 39324,
+      "name": "_sqlite3_blob_bytes@4"
+    },
+    {
+      "offset": 39442,
+      "name": "__imp__sqlite3_blob_close@4"
+    },
+    {
+      "offset": 39442,
+      "name": "_sqlite3_blob_close@4"
+    },
+    {
+      "offset": 39560,
+      "name": "__imp__sqlite3_blob_open@32"
+    },
+    {
+      "offset": 39560,
+      "name": "_sqlite3_blob_open@32"
+    },
+    {
+      "offset": 39678,
+      "name": "__imp__sqlite3_blob_read@16"
+    },
+    {
+      "offset": 39678,
+      "name": "_sqlite3_blob_read@16"
+    },
+    {
+      "offset": 39796,
+      "name": "__imp__sqlite3_blob_reopen@12"
+    },
+    {
+      "offset": 39796,
+      "name": "_sqlite3_blob_reopen@12"
+    },
+    {
+      "offset": 39916,
+      "name": "__imp__sqlite3_blob_write@16"
+    },
+    {
+      "offset": 39916,
+      "name": "_sqlite3_blob_write@16"
+    },
+    {
+      "offset": 40034,
+      "name": "__imp__sqlite3_busy_handler@12"
+    },
+    {
+      "offset": 40034,
+      "name": "_sqlite3_busy_handler@12"
+    },
+    {
+      "offset": 40154,
+      "name": "__imp__sqlite3_busy_timeout@8"
+    },
+    {
+      "offset": 40154,
+      "name": "_sqlite3_busy_timeout@8"
+    },
+    {
+      "offset": 40274,
+      "name": "__imp__sqlite3_cancel_auto_extension@4"
+    },
+    {
+      "offset": 40274,
+      "name": "_sqlite3_cancel_auto_extension@4"
+    },
+    {
+      "offset": 40402,
+      "name": "__imp__sqlite3_changes@4"
+    },
+    {
+      "offset": 40402,
+      "name": "_sqlite3_changes@4"
+    },
+    {
+      "offset": 40516,
+      "name": "__imp__sqlite3_clear_bindings@4"
+    },
+    {
+      "offset": 40516,
+      "name": "_sqlite3_clear_bindings@4"
+    },
+    {
+      "offset": 40638,
+      "name": "__imp__sqlite3_close@4"
+    },
+    {
+      "offset": 40638,
+      "name": "_sqlite3_close@4"
+    },
+    {
+      "offset": 40750,
+      "name": "__imp__sqlite3_close_v2@4"
+    },
+    {
+      "offset": 40750,
+      "name": "_sqlite3_close_v2@4"
+    },
+    {
+      "offset": 40992,
+      "name": "__imp__sqlite3_collation_needed@12"
+    },
+    {
+      "offset": 40992,
+      "name": "_sqlite3_collation_needed@12"
+    },
+    {
+      "offset": 40866,
+      "name": "__imp__sqlite3_collation_needed16@12"
+    },
+    {
+      "offset": 40866,
+      "name": "_sqlite3_collation_needed16@12"
+    },
+    {
+      "offset": 41116,
+      "name": "__imp__sqlite3_column_blob@8"
+    },
+    {
+      "offset": 41116,
+      "name": "_sqlite3_column_blob@8"
+    },
+    {
+      "offset": 41356,
+      "name": "__imp__sqlite3_column_bytes@8"
+    },
+    {
+      "offset": 41356,
+      "name": "_sqlite3_column_bytes@8"
+    },
+    {
+      "offset": 41234,
+      "name": "__imp__sqlite3_column_bytes16@8"
+    },
+    {
+      "offset": 41234,
+      "name": "_sqlite3_column_bytes16@8"
+    },
+    {
+      "offset": 41476,
+      "name": "__imp__sqlite3_column_count@4"
+    },
+    {
+      "offset": 41476,
+      "name": "_sqlite3_column_count@4"
+    },
+    {
+      "offset": 41726,
+      "name": "__imp__sqlite3_column_database_name@8"
+    },
+    {
+      "offset": 41726,
+      "name": "_sqlite3_column_database_name@8"
+    },
+    {
+      "offset": 41596,
+      "name": "__imp__sqlite3_column_database_name16@8"
+    },
+    {
+      "offset": 41596,
+      "name": "_sqlite3_column_database_name16@8"
+    },
+    {
+      "offset": 41978,
+      "name": "__imp__sqlite3_column_decltype@8"
+    },
+    {
+      "offset": 41978,
+      "name": "_sqlite3_column_decltype@8"
+    },
+    {
+      "offset": 41854,
+      "name": "__imp__sqlite3_column_decltype16@8"
+    },
+    {
+      "offset": 41854,
+      "name": "_sqlite3_column_decltype16@8"
+    },
+    {
+      "offset": 42100,
+      "name": "__imp__sqlite3_column_double@8"
+    },
+    {
+      "offset": 42100,
+      "name": "_sqlite3_column_double@8"
+    },
+    {
+      "offset": 42340,
+      "name": "__imp__sqlite3_column_int@8"
+    },
+    {
+      "offset": 42340,
+      "name": "_sqlite3_column_int@8"
+    },
+    {
+      "offset": 42220,
+      "name": "__imp__sqlite3_column_int64@8"
+    },
+    {
+      "offset": 42220,
+      "name": "_sqlite3_column_int64@8"
+    },
+    {
+      "offset": 42578,
+      "name": "__imp__sqlite3_column_name@8"
+    },
+    {
+      "offset": 42578,
+      "name": "_sqlite3_column_name@8"
+    },
+    {
+      "offset": 42458,
+      "name": "__imp__sqlite3_column_name16@8"
+    },
+    {
+      "offset": 42458,
+      "name": "_sqlite3_column_name16@8"
+    },
+    {
+      "offset": 42824,
+      "name": "__imp__sqlite3_column_origin_name@8"
+    },
+    {
+      "offset": 42824,
+      "name": "_sqlite3_column_origin_name@8"
+    },
+    {
+      "offset": 42696,
+      "name": "__imp__sqlite3_column_origin_name16@8"
+    },
+    {
+      "offset": 42696,
+      "name": "_sqlite3_column_origin_name16@8"
+    },
+    {
+      "offset": 43076,
+      "name": "__imp__sqlite3_column_table_name@8"
+    },
+    {
+      "offset": 43076,
+      "name": "_sqlite3_column_table_name@8"
+    },
+    {
+      "offset": 42950,
+      "name": "__imp__sqlite3_column_table_name16@8"
+    },
+    {
+      "offset": 42950,
+      "name": "_sqlite3_column_table_name16@8"
+    },
+    {
+      "offset": 43320,
+      "name": "__imp__sqlite3_column_text@8"
+    },
+    {
+      "offset": 43320,
+      "name": "_sqlite3_column_text@8"
+    },
+    {
+      "offset": 43200,
+      "name": "__imp__sqlite3_column_text16@8"
+    },
+    {
+      "offset": 43200,
+      "name": "_sqlite3_column_text16@8"
+    },
+    {
+      "offset": 43438,
+      "name": "__imp__sqlite3_column_type@8"
+    },
+    {
+      "offset": 43438,
+      "name": "_sqlite3_column_type@8"
+    },
+    {
+      "offset": 43556,
+      "name": "__imp__sqlite3_column_value@8"
+    },
+    {
+      "offset": 43556,
+      "name": "_sqlite3_column_value@8"
+    },
+    {
+      "offset": 43676,
+      "name": "__imp__sqlite3_commit_hook@12"
+    },
+    {
+      "offset": 43676,
+      "name": "_sqlite3_commit_hook@12"
+    },
+    {
+      "offset": 43796,
+      "name": "__imp__sqlite3_compileoption_get@4"
+    },
+    {
+      "offset": 43796,
+      "name": "_sqlite3_compileoption_get@4"
+    },
+    {
+      "offset": 43920,
+      "name": "__imp__sqlite3_compileoption_used@4"
+    },
+    {
+      "offset": 43920,
+      "name": "_sqlite3_compileoption_used@4"
+    },
+    {
+      "offset": 44164,
+      "name": "__imp__sqlite3_complete@4"
+    },
+    {
+      "offset": 44164,
+      "name": "_sqlite3_complete@4"
+    },
+    {
+      "offset": 44046,
+      "name": "__imp__sqlite3_complete16@4"
+    },
+    {
+      "offset": 44046,
+      "name": "_sqlite3_complete16@4"
+    },
+    {
+      "offset": 44280,
+      "name": "__imp__sqlite3_config"
+    },
+    {
+      "offset": 44280,
+      "name": "_sqlite3_config"
+    },
+    {
+      "offset": 44392,
+      "name": "__imp__sqlite3_context_db_handle@4"
+    },
+    {
+      "offset": 44392,
+      "name": "_sqlite3_context_db_handle@4"
+    },
+    {
+      "offset": 44642,
+      "name": "__imp__sqlite3_create_collation@20"
+    },
+    {
+      "offset": 44642,
+      "name": "_sqlite3_create_collation@20"
+    },
+    {
+      "offset": 44766,
+      "name": "__imp__sqlite3_create_collation_v2@24"
+    },
+    {
+      "offset": 44766,
+      "name": "_sqlite3_create_collation_v2@24"
+    },
+    {
+      "offset": 44516,
+      "name": "__imp__sqlite3_create_collation16@20"
+    },
+    {
+      "offset": 44516,
+      "name": "_sqlite3_create_collation16@20"
+    },
+    {
+      "offset": 45020,
+      "name": "__imp__sqlite3_create_function@32"
+    },
+    {
+      "offset": 45020,
+      "name": "_sqlite3_create_function@32"
+    },
+    {
+      "offset": 45144,
+      "name": "__imp__sqlite3_create_function_v2@36"
+    },
+    {
+      "offset": 45144,
+      "name": "_sqlite3_create_function_v2@36"
+    },
+    {
+      "offset": 44894,
+      "name": "__imp__sqlite3_create_function16@32"
+    },
+    {
+      "offset": 44894,
+      "name": "_sqlite3_create_function16@32"
+    },
+    {
+      "offset": 45270,
+      "name": "__imp__sqlite3_create_module@16"
+    },
+    {
+      "offset": 45270,
+      "name": "_sqlite3_create_module@16"
+    },
+    {
+      "offset": 45392,
+      "name": "__imp__sqlite3_create_module_v2@20"
+    },
+    {
+      "offset": 45392,
+      "name": "_sqlite3_create_module_v2@20"
+    },
+    {
+      "offset": 45516,
+      "name": "__imp__sqlite3_create_window_function@40"
+    },
+    {
+      "offset": 45516,
+      "name": "_sqlite3_create_window_function@40"
+    },
+    {
+      "offset": 45646,
+      "name": "__imp__sqlite3_data_count@4"
+    },
+    {
+      "offset": 45646,
+      "name": "_sqlite3_data_count@4"
+    },
+    {
+      "offset": 45764,
+      "name": "__imp__sqlite3_data_directory"
+    },
+    {
+      "offset": 45764,
+      "name": "_sqlite3_data_directory"
+    },
+    {
+      "offset": 45884,
+      "name": "__imp__sqlite3_db_cacheflush@4"
+    },
+    {
+      "offset": 45884,
+      "name": "_sqlite3_db_cacheflush@4"
+    },
+    {
+      "offset": 46004,
+      "name": "__imp__sqlite3_db_config"
+    },
+    {
+      "offset": 46004,
+      "name": "_sqlite3_db_config"
+    },
+    {
+      "offset": 46118,
+      "name": "__imp__sqlite3_db_filename@8"
+    },
+    {
+      "offset": 46118,
+      "name": "_sqlite3_db_filename@8"
+    },
+    {
+      "offset": 46236,
+      "name": "__imp__sqlite3_db_handle@4"
+    },
+    {
+      "offset": 46236,
+      "name": "_sqlite3_db_handle@4"
+    },
+    {
+      "offset": 46352,
+      "name": "__imp__sqlite3_db_mutex@4"
+    },
+    {
+      "offset": 46352,
+      "name": "_sqlite3_db_mutex@4"
+    },
+    {
+      "offset": 46468,
+      "name": "__imp__sqlite3_db_readonly@8"
+    },
+    {
+      "offset": 46468,
+      "name": "_sqlite3_db_readonly@8"
+    },
+    {
+      "offset": 46586,
+      "name": "__imp__sqlite3_db_release_memory@4"
+    },
+    {
+      "offset": 46586,
+      "name": "_sqlite3_db_release_memory@4"
+    },
+    {
+      "offset": 46710,
+      "name": "__imp__sqlite3_db_status@20"
+    },
+    {
+      "offset": 46710,
+      "name": "_sqlite3_db_status@20"
+    },
+    {
+      "offset": 46828,
+      "name": "__imp__sqlite3_declare_vtab@8"
+    },
+    {
+      "offset": 46828,
+      "name": "_sqlite3_declare_vtab@8"
+    },
+    {
+      "offset": 46948,
+      "name": "__imp__sqlite3_deserialize@32"
+    },
+    {
+      "offset": 46948,
+      "name": "_sqlite3_deserialize@32"
+    },
+    {
+      "offset": 47068,
+      "name": "__imp__sqlite3_enable_load_extension@8"
+    },
+    {
+      "offset": 47068,
+      "name": "_sqlite3_enable_load_extension@8"
+    },
+    {
+      "offset": 47196,
+      "name": "__imp__sqlite3_enable_shared_cache@4"
+    },
+    {
+      "offset": 47196,
+      "name": "_sqlite3_enable_shared_cache@4"
+    },
+    {
+      "offset": 47322,
+      "name": "__imp__sqlite3_errcode@4"
+    },
+    {
+      "offset": 47322,
+      "name": "_sqlite3_errcode@4"
+    },
+    {
+      "offset": 47552,
+      "name": "__imp__sqlite3_errmsg@4"
+    },
+    {
+      "offset": 47552,
+      "name": "_sqlite3_errmsg@4"
+    },
+    {
+      "offset": 47436,
+      "name": "__imp__sqlite3_errmsg16@4"
+    },
+    {
+      "offset": 47436,
+      "name": "_sqlite3_errmsg16@4"
+    },
+    {
+      "offset": 47666,
+      "name": "__imp__sqlite3_errstr@4"
+    },
+    {
+      "offset": 47666,
+      "name": "_sqlite3_errstr@4"
+    },
+    {
+      "offset": 47780,
+      "name": "__imp__sqlite3_exec@20"
+    },
+    {
+      "offset": 47780,
+      "name": "_sqlite3_exec@20"
+    },
+    {
+      "offset": 47892,
+      "name": "__imp__sqlite3_expanded_sql@4"
+    },
+    {
+      "offset": 47892,
+      "name": "_sqlite3_expanded_sql@4"
+    },
+    {
+      "offset": 48012,
+      "name": "__imp__sqlite3_expired@4"
+    },
+    {
+      "offset": 48012,
+      "name": "_sqlite3_expired@4"
+    },
+    {
+      "offset": 48126,
+      "name": "__imp__sqlite3_extended_errcode@4"
+    },
+    {
+      "offset": 48126,
+      "name": "_sqlite3_extended_errcode@4"
+    },
+    {
+      "offset": 48250,
+      "name": "__imp__sqlite3_extended_result_codes@8"
+    },
+    {
+      "offset": 48250,
+      "name": "_sqlite3_extended_result_codes@8"
+    },
+    {
+      "offset": 48378,
+      "name": "__imp__sqlite3_file_control@16"
+    },
+    {
+      "offset": 48378,
+      "name": "_sqlite3_file_control@16"
+    },
+    {
+      "offset": 48498,
+      "name": "__imp__sqlite3_finalize@4"
+    },
+    {
+      "offset": 48498,
+      "name": "_sqlite3_finalize@4"
+    },
+    {
+      "offset": 48614,
+      "name": "__imp__sqlite3_free@4"
+    },
+    {
+      "offset": 48614,
+      "name": "_sqlite3_free@4"
+    },
+    {
+      "offset": 48726,
+      "name": "__imp__sqlite3_free_table@4"
+    },
+    {
+      "offset": 48726,
+      "name": "_sqlite3_free_table@4"
+    },
+    {
+      "offset": 48844,
+      "name": "__imp__sqlite3_fts3_may_be_corrupt"
+    },
+    {
+      "offset": 48844,
+      "name": "_sqlite3_fts3_may_be_corrupt"
+    },
+    {
+      "offset": 48968,
+      "name": "__imp__sqlite3_get_autocommit@4"
+    },
+    {
+      "offset": 48968,
+      "name": "_sqlite3_get_autocommit@4"
+    },
+    {
+      "offset": 49090,
+      "name": "__imp__sqlite3_get_auxdata@8"
+    },
+    {
+      "offset": 49090,
+      "name": "_sqlite3_get_auxdata@8"
+    },
+    {
+      "offset": 49208,
+      "name": "__imp__sqlite3_get_table@24"
+    },
+    {
+      "offset": 49208,
+      "name": "_sqlite3_get_table@24"
+    },
+    {
+      "offset": 49326,
+      "name": "__imp__sqlite3_global_recover@0"
+    },
+    {
+      "offset": 49326,
+      "name": "_sqlite3_global_recover@0"
+    },
+    {
+      "offset": 49448,
+      "name": "__imp__sqlite3_initialize@0"
+    },
+    {
+      "offset": 49448,
+      "name": "_sqlite3_initialize@0"
+    },
+    {
+      "offset": 49566,
+      "name": "__imp__sqlite3_interrupt@4"
+    },
+    {
+      "offset": 49566,
+      "name": "_sqlite3_interrupt@4"
+    },
+    {
+      "offset": 49682,
+      "name": "__imp__sqlite3_keyword_check@8"
+    },
+    {
+      "offset": 49682,
+      "name": "_sqlite3_keyword_check@8"
+    },
+    {
+      "offset": 49802,
+      "name": "__imp__sqlite3_keyword_count@0"
+    },
+    {
+      "offset": 49802,
+      "name": "_sqlite3_keyword_count@0"
+    },
+    {
+      "offset": 49922,
+      "name": "__imp__sqlite3_keyword_name@12"
+    },
+    {
+      "offset": 49922,
+      "name": "_sqlite3_keyword_name@12"
+    },
+    {
+      "offset": 50042,
+      "name": "__imp__sqlite3_last_insert_rowid@4"
+    },
+    {
+      "offset": 50042,
+      "name": "_sqlite3_last_insert_rowid@4"
+    },
+    {
+      "offset": 50166,
+      "name": "__imp__sqlite3_libversion@0"
+    },
+    {
+      "offset": 50166,
+      "name": "_sqlite3_libversion@0"
+    },
+    {
+      "offset": 50284,
+      "name": "__imp__sqlite3_libversion_number@0"
+    },
+    {
+      "offset": 50284,
+      "name": "_sqlite3_libversion_number@0"
+    },
+    {
+      "offset": 50408,
+      "name": "__imp__sqlite3_limit@12"
+    },
+    {
+      "offset": 50408,
+      "name": "_sqlite3_limit@12"
+    },
+    {
+      "offset": 50522,
+      "name": "__imp__sqlite3_load_extension@16"
+    },
+    {
+      "offset": 50522,
+      "name": "_sqlite3_load_extension@16"
+    },
+    {
+      "offset": 50644,
+      "name": "__imp__sqlite3_log"
+    },
+    {
+      "offset": 50644,
+      "name": "_sqlite3_log"
+    },
+    {
+      "offset": 50868,
+      "name": "__imp__sqlite3_malloc@4"
+    },
+    {
+      "offset": 50868,
+      "name": "_sqlite3_malloc@4"
+    },
+    {
+      "offset": 50752,
+      "name": "__imp__sqlite3_malloc64@8"
+    },
+    {
+      "offset": 50752,
+      "name": "_sqlite3_malloc64@8"
+    },
+    {
+      "offset": 50982,
+      "name": "__imp__sqlite3_memory_alarm@16"
+    },
+    {
+      "offset": 50982,
+      "name": "_sqlite3_memory_alarm@16"
+    },
+    {
+      "offset": 51102,
+      "name": "__imp__sqlite3_memory_highwater@4"
+    },
+    {
+      "offset": 51102,
+      "name": "_sqlite3_memory_highwater@4"
+    },
+    {
+      "offset": 51226,
+      "name": "__imp__sqlite3_memory_used@0"
+    },
+    {
+      "offset": 51226,
+      "name": "_sqlite3_memory_used@0"
+    },
+    {
+      "offset": 51344,
+      "name": "__imp__sqlite3_mprintf"
+    },
+    {
+      "offset": 51344,
+      "name": "_sqlite3_mprintf"
+    },
+    {
+      "offset": 51456,
+      "name": "__imp__sqlite3_msize@4"
+    },
+    {
+      "offset": 51456,
+      "name": "_sqlite3_msize@4"
+    },
+    {
+      "offset": 51568,
+      "name": "__imp__sqlite3_mutex_alloc@4"
+    },
+    {
+      "offset": 51568,
+      "name": "_sqlite3_mutex_alloc@4"
+    },
+    {
+      "offset": 51686,
+      "name": "__imp__sqlite3_mutex_enter@4"
+    },
+    {
+      "offset": 51686,
+      "name": "_sqlite3_mutex_enter@4"
+    },
+    {
+      "offset": 51804,
+      "name": "__imp__sqlite3_mutex_free@4"
+    },
+    {
+      "offset": 51804,
+      "name": "_sqlite3_mutex_free@4"
+    },
+    {
+      "offset": 51922,
+      "name": "__imp__sqlite3_mutex_leave@4"
+    },
+    {
+      "offset": 51922,
+      "name": "_sqlite3_mutex_leave@4"
+    },
+    {
+      "offset": 52040,
+      "name": "__imp__sqlite3_mutex_try@4"
+    },
+    {
+      "offset": 52040,
+      "name": "_sqlite3_mutex_try@4"
+    },
+    {
+      "offset": 52156,
+      "name": "__imp__sqlite3_next_stmt@8"
+    },
+    {
+      "offset": 52156,
+      "name": "_sqlite3_next_stmt@8"
+    },
+    {
+      "offset": 52386,
+      "name": "__imp__sqlite3_open@8"
+    },
+    {
+      "offset": 52386,
+      "name": "_sqlite3_open@8"
+    },
+    {
+      "offset": 52498,
+      "name": "__imp__sqlite3_open_v2@16"
+    },
+    {
+      "offset": 52498,
+      "name": "_sqlite3_open_v2@16"
+    },
+    {
+      "offset": 52272,
+      "name": "__imp__sqlite3_open16@8"
+    },
+    {
+      "offset": 52272,
+      "name": "_sqlite3_open16@8"
+    },
+    {
+      "offset": 52614,
+      "name": "__imp__sqlite3_os_end@0"
+    },
+    {
+      "offset": 52614,
+      "name": "_sqlite3_os_end@0"
+    },
+    {
+      "offset": 52728,
+      "name": "__imp__sqlite3_os_init@0"
+    },
+    {
+      "offset": 52728,
+      "name": "_sqlite3_os_init@0"
+    },
+    {
+      "offset": 52842,
+      "name": "__imp__sqlite3_overload_function@12"
+    },
+    {
+      "offset": 52842,
+      "name": "_sqlite3_overload_function@12"
+    },
+    {
+      "offset": 53326,
+      "name": "__imp__sqlite3_prepare@20"
+    },
+    {
+      "offset": 53326,
+      "name": "_sqlite3_prepare@20"
+    },
+    {
+      "offset": 53442,
+      "name": "__imp__sqlite3_prepare_v2@20"
+    },
+    {
+      "offset": 53442,
+      "name": "_sqlite3_prepare_v2@20"
+    },
+    {
+      "offset": 53560,
+      "name": "__imp__sqlite3_prepare_v3@24"
+    },
+    {
+      "offset": 53560,
+      "name": "_sqlite3_prepare_v3@24"
+    },
+    {
+      "offset": 52968,
+      "name": "__imp__sqlite3_prepare16@20"
+    },
+    {
+      "offset": 52968,
+      "name": "_sqlite3_prepare16@20"
+    },
+    {
+      "offset": 53086,
+      "name": "__imp__sqlite3_prepare16_v2@20"
+    },
+    {
+      "offset": 53086,
+      "name": "_sqlite3_prepare16_v2@20"
+    },
+    {
+      "offset": 53206,
+      "name": "__imp__sqlite3_prepare16_v3@24"
+    },
+    {
+      "offset": 53206,
+      "name": "_sqlite3_prepare16_v3@24"
+    },
+    {
+      "offset": 53678,
+      "name": "__imp__sqlite3_profile@12"
+    },
+    {
+      "offset": 53678,
+      "name": "_sqlite3_profile@12"
+    },
+    {
+      "offset": 53794,
+      "name": "__imp__sqlite3_progress_handler@16"
+    },
+    {
+      "offset": 53794,
+      "name": "_sqlite3_progress_handler@16"
+    },
+    {
+      "offset": 53918,
+      "name": "__imp__sqlite3_randomness@8"
+    },
+    {
+      "offset": 53918,
+      "name": "_sqlite3_randomness@8"
+    },
+    {
+      "offset": 54154,
+      "name": "__imp__sqlite3_realloc@8"
+    },
+    {
+      "offset": 54154,
+      "name": "_sqlite3_realloc@8"
+    },
+    {
+      "offset": 54036,
+      "name": "__imp__sqlite3_realloc64@12"
+    },
+    {
+      "offset": 54036,
+      "name": "_sqlite3_realloc64@12"
+    },
+    {
+      "offset": 54268,
+      "name": "__imp__sqlite3_release_memory@4"
+    },
+    {
+      "offset": 54268,
+      "name": "_sqlite3_release_memory@4"
+    },
+    {
+      "offset": 54390,
+      "name": "__imp__sqlite3_reset@4"
+    },
+    {
+      "offset": 54390,
+      "name": "_sqlite3_reset@4"
+    },
+    {
+      "offset": 54502,
+      "name": "__imp__sqlite3_reset_auto_extension@0"
+    },
+    {
+      "offset": 54502,
+      "name": "_sqlite3_reset_auto_extension@0"
+    },
+    {
+      "offset": 54752,
+      "name": "__imp__sqlite3_result_blob@16"
+    },
+    {
+      "offset": 54752,
+      "name": "_sqlite3_result_blob@16"
+    },
+    {
+      "offset": 54630,
+      "name": "__imp__sqlite3_result_blob64@20"
+    },
+    {
+      "offset": 54630,
+      "name": "_sqlite3_result_blob64@20"
+    },
+    {
+      "offset": 54872,
+      "name": "__imp__sqlite3_result_double@12"
+    },
+    {
+      "offset": 54872,
+      "name": "_sqlite3_result_double@12"
+    },
+    {
+      "offset": 55116,
+      "name": "__imp__sqlite3_result_error@12"
+    },
+    {
+      "offset": 55116,
+      "name": "_sqlite3_result_error@12"
+    },
+    {
+      "offset": 55236,
+      "name": "__imp__sqlite3_result_error_code@8"
+    },
+    {
+      "offset": 55236,
+      "name": "_sqlite3_result_error_code@8"
+    },
+    {
+      "offset": 55360,
+      "name": "__imp__sqlite3_result_error_nomem@4"
+    },
+    {
+      "offset": 55360,
+      "name": "_sqlite3_result_error_nomem@4"
+    },
+    {
+      "offset": 55486,
+      "name": "__imp__sqlite3_result_error_toobig@4"
+    },
+    {
+      "offset": 55486,
+      "name": "_sqlite3_result_error_toobig@4"
+    },
+    {
+      "offset": 54994,
+      "name": "__imp__sqlite3_result_error16@12"
+    },
+    {
+      "offset": 54994,
+      "name": "_sqlite3_result_error16@12"
+    },
+    {
+      "offset": 55732,
+      "name": "__imp__sqlite3_result_int@8"
+    },
+    {
+      "offset": 55732,
+      "name": "_sqlite3_result_int@8"
+    },
+    {
+      "offset": 55612,
+      "name": "__imp__sqlite3_result_int64@12"
+    },
+    {
+      "offset": 55612,
+      "name": "_sqlite3_result_int64@12"
+    },
+    {
+      "offset": 55850,
+      "name": "__imp__sqlite3_result_null@4"
+    },
+    {
+      "offset": 55850,
+      "name": "_sqlite3_result_null@4"
+    },
+    {
+      "offset": 55968,
+      "name": "__imp__sqlite3_result_pointer@16"
+    },
+    {
+      "offset": 55968,
+      "name": "_sqlite3_result_pointer@16"
+    },
+    {
+      "offset": 56090,
+      "name": "__imp__sqlite3_result_subtype@8"
+    },
+    {
+      "offset": 56090,
+      "name": "_sqlite3_result_subtype@8"
+    },
+    {
+      "offset": 56704,
+      "name": "__imp__sqlite3_result_text@16"
+    },
+    {
+      "offset": 56704,
+      "name": "_sqlite3_result_text@16"
+    },
+    {
+      "offset": 56212,
+      "name": "__imp__sqlite3_result_text16@16"
+    },
+    {
+      "offset": 56212,
+      "name": "_sqlite3_result_text16@16"
+    },
+    {
+      "offset": 56334,
+      "name": "__imp__sqlite3_result_text16be@16"
+    },
+    {
+      "offset": 56334,
+      "name": "_sqlite3_result_text16be@16"
+    },
+    {
+      "offset": 56458,
+      "name": "__imp__sqlite3_result_text16le@16"
+    },
+    {
+      "offset": 56458,
+      "name": "_sqlite3_result_text16le@16"
+    },
+    {
+      "offset": 56582,
+      "name": "__imp__sqlite3_result_text64@24"
+    },
+    {
+      "offset": 56582,
+      "name": "_sqlite3_result_text64@24"
+    },
+    {
+      "offset": 56824,
+      "name": "__imp__sqlite3_result_value@8"
+    },
+    {
+      "offset": 56824,
+      "name": "_sqlite3_result_value@8"
+    },
+    {
+      "offset": 57070,
+      "name": "__imp__sqlite3_result_zeroblob@8"
+    },
+    {
+      "offset": 57070,
+      "name": "_sqlite3_result_zeroblob@8"
+    },
+    {
+      "offset": 56944,
+      "name": "__imp__sqlite3_result_zeroblob64@12"
+    },
+    {
+      "offset": 56944,
+      "name": "_sqlite3_result_zeroblob64@12"
+    },
+    {
+      "offset": 57192,
+      "name": "__imp__sqlite3_rollback_hook@12"
+    },
+    {
+      "offset": 57192,
+      "name": "_sqlite3_rollback_hook@12"
+    },
+    {
+      "offset": 57314,
+      "name": "__imp__sqlite3_rtree_geometry_callback@16"
+    },
+    {
+      "offset": 57314,
+      "name": "_sqlite3_rtree_geometry_callback@16"
+    },
+    {
+      "offset": 57446,
+      "name": "__imp__sqlite3_rtree_query_callback@20"
+    },
+    {
+      "offset": 57446,
+      "name": "_sqlite3_rtree_query_callback@20"
+    },
+    {
+      "offset": 57574,
+      "name": "__imp__sqlite3_serialize@16"
+    },
+    {
+      "offset": 57574,
+      "name": "_sqlite3_serialize@16"
+    },
+    {
+      "offset": 57692,
+      "name": "__imp__sqlite3_set_authorizer@12"
+    },
+    {
+      "offset": 57692,
+      "name": "_sqlite3_set_authorizer@12"
+    },
+    {
+      "offset": 57814,
+      "name": "__imp__sqlite3_set_auxdata@16"
+    },
+    {
+      "offset": 57814,
+      "name": "_sqlite3_set_auxdata@16"
+    },
+    {
+      "offset": 57934,
+      "name": "__imp__sqlite3_set_last_insert_rowid@12"
+    },
+    {
+      "offset": 57934,
+      "name": "_sqlite3_set_last_insert_rowid@12"
+    },
+    {
+      "offset": 58064,
+      "name": "__imp__sqlite3_shutdown@0"
+    },
+    {
+      "offset": 58064,
+      "name": "_sqlite3_shutdown@0"
+    },
+    {
+      "offset": 58180,
+      "name": "__imp__sqlite3_sleep@4"
+    },
+    {
+      "offset": 58180,
+      "name": "_sqlite3_sleep@4"
+    },
+    {
+      "offset": 58292,
+      "name": "__imp__sqlite3_snprintf"
+    },
+    {
+      "offset": 58292,
+      "name": "_sqlite3_snprintf"
+    },
+    {
+      "offset": 58530,
+      "name": "__imp__sqlite3_soft_heap_limit@4"
+    },
+    {
+      "offset": 58530,
+      "name": "_sqlite3_soft_heap_limit@4"
+    },
+    {
+      "offset": 58406,
+      "name": "__imp__sqlite3_soft_heap_limit64@8"
+    },
+    {
+      "offset": 58406,
+      "name": "_sqlite3_soft_heap_limit64@8"
+    },
+    {
+      "offset": 58652,
+      "name": "__imp__sqlite3_sourceid@0"
+    },
+    {
+      "offset": 58652,
+      "name": "_sqlite3_sourceid@0"
+    },
+    {
+      "offset": 58768,
+      "name": "__imp__sqlite3_sql@4"
+    },
+    {
+      "offset": 58768,
+      "name": "_sqlite3_sql@4"
+    },
+    {
+      "offset": 58994,
+      "name": "__imp__sqlite3_status@16"
+    },
+    {
+      "offset": 58994,
+      "name": "_sqlite3_status@16"
+    },
+    {
+      "offset": 58878,
+      "name": "__imp__sqlite3_status64@16"
+    },
+    {
+      "offset": 58878,
+      "name": "_sqlite3_status64@16"
+    },
+    {
+      "offset": 59108,
+      "name": "__imp__sqlite3_step@4"
+    },
+    {
+      "offset": 59108,
+      "name": "_sqlite3_step@4"
+    },
+    {
+      "offset": 59220,
+      "name": "__imp__sqlite3_stmt_busy@4"
+    },
+    {
+      "offset": 59220,
+      "name": "_sqlite3_stmt_busy@4"
+    },
+    {
+      "offset": 59336,
+      "name": "__imp__sqlite3_stmt_isexplain@4"
+    },
+    {
+      "offset": 59336,
+      "name": "_sqlite3_stmt_isexplain@4"
+    },
+    {
+      "offset": 59458,
+      "name": "__imp__sqlite3_stmt_readonly@4"
+    },
+    {
+      "offset": 59458,
+      "name": "_sqlite3_stmt_readonly@4"
+    },
+    {
+      "offset": 59578,
+      "name": "__imp__sqlite3_stmt_status@12"
+    },
+    {
+      "offset": 59578,
+      "name": "_sqlite3_stmt_status@12"
+    },
+    {
+      "offset": 59698,
+      "name": "__imp__sqlite3_str_append@12"
+    },
+    {
+      "offset": 59698,
+      "name": "_sqlite3_str_append@12"
+    },
+    {
+      "offset": 59816,
+      "name": "__imp__sqlite3_str_appendall@8"
+    },
+    {
+      "offset": 59816,
+      "name": "_sqlite3_str_appendall@8"
+    },
+    {
+      "offset": 59936,
+      "name": "__imp__sqlite3_str_appendchar@12"
+    },
+    {
+      "offset": 59936,
+      "name": "_sqlite3_str_appendchar@12"
+    },
+    {
+      "offset": 60058,
+      "name": "__imp__sqlite3_str_appendf"
+    },
+    {
+      "offset": 60058,
+      "name": "_sqlite3_str_appendf"
+    },
+    {
+      "offset": 60174,
+      "name": "__imp__sqlite3_str_errcode@4"
+    },
+    {
+      "offset": 60174,
+      "name": "_sqlite3_str_errcode@4"
+    },
+    {
+      "offset": 60292,
+      "name": "__imp__sqlite3_str_finish@4"
+    },
+    {
+      "offset": 60292,
+      "name": "_sqlite3_str_finish@4"
+    },
+    {
+      "offset": 60410,
+      "name": "__imp__sqlite3_str_length@4"
+    },
+    {
+      "offset": 60410,
+      "name": "_sqlite3_str_length@4"
+    },
+    {
+      "offset": 60528,
+      "name": "__imp__sqlite3_str_new@4"
+    },
+    {
+      "offset": 60528,
+      "name": "_sqlite3_str_new@4"
+    },
+    {
+      "offset": 60642,
+      "name": "__imp__sqlite3_str_reset@4"
+    },
+    {
+      "offset": 60642,
+      "name": "_sqlite3_str_reset@4"
+    },
+    {
+      "offset": 60758,
+      "name": "__imp__sqlite3_str_value@4"
+    },
+    {
+      "offset": 60758,
+      "name": "_sqlite3_str_value@4"
+    },
+    {
+      "offset": 60874,
+      "name": "__imp__sqlite3_str_vappendf@12"
+    },
+    {
+      "offset": 60874,
+      "name": "_sqlite3_str_vappendf@12"
+    },
+    {
+      "offset": 60994,
+      "name": "__imp__sqlite3_strglob@8"
+    },
+    {
+      "offset": 60994,
+      "name": "_sqlite3_strglob@8"
+    },
+    {
+      "offset": 61108,
+      "name": "__imp__sqlite3_stricmp@8"
+    },
+    {
+      "offset": 61108,
+      "name": "_sqlite3_stricmp@8"
+    },
+    {
+      "offset": 61222,
+      "name": "__imp__sqlite3_strlike@12"
+    },
+    {
+      "offset": 61222,
+      "name": "_sqlite3_strlike@12"
+    },
+    {
+      "offset": 61338,
+      "name": "__imp__sqlite3_strnicmp@12"
+    },
+    {
+      "offset": 61338,
+      "name": "_sqlite3_strnicmp@12"
+    },
+    {
+      "offset": 61454,
+      "name": "__imp__sqlite3_system_errno@4"
+    },
+    {
+      "offset": 61454,
+      "name": "_sqlite3_system_errno@4"
+    },
+    {
+      "offset": 61574,
+      "name": "__imp__sqlite3_table_column_metadata@36"
+    },
+    {
+      "offset": 61574,
+      "name": "_sqlite3_table_column_metadata@36"
+    },
+    {
+      "offset": 61704,
+      "name": "__imp__sqlite3_temp_directory"
+    },
+    {
+      "offset": 61704,
+      "name": "_sqlite3_temp_directory"
+    },
+    {
+      "offset": 61824,
+      "name": "__imp__sqlite3_test_control"
+    },
+    {
+      "offset": 61824,
+      "name": "_sqlite3_test_control"
+    },
+    {
+      "offset": 61942,
+      "name": "__imp__sqlite3_thread_cleanup@0"
+    },
+    {
+      "offset": 61942,
+      "name": "_sqlite3_thread_cleanup@0"
+    },
+    {
+      "offset": 62064,
+      "name": "__imp__sqlite3_threadsafe@0"
+    },
+    {
+      "offset": 62064,
+      "name": "_sqlite3_threadsafe@0"
+    },
+    {
+      "offset": 62182,
+      "name": "__imp__sqlite3_total_changes@4"
+    },
+    {
+      "offset": 62182,
+      "name": "_sqlite3_total_changes@4"
+    },
+    {
+      "offset": 62302,
+      "name": "__imp__sqlite3_trace@12"
+    },
+    {
+      "offset": 62302,
+      "name": "_sqlite3_trace@12"
+    },
+    {
+      "offset": 62416,
+      "name": "__imp__sqlite3_trace_v2@16"
+    },
+    {
+      "offset": 62416,
+      "name": "_sqlite3_trace_v2@16"
+    },
+    {
+      "offset": 62532,
+      "name": "__imp__sqlite3_transfer_bindings@8"
+    },
+    {
+      "offset": 62532,
+      "name": "_sqlite3_transfer_bindings@8"
+    },
+    {
+      "offset": 62656,
+      "name": "__imp__sqlite3_update_hook@12"
+    },
+    {
+      "offset": 62656,
+      "name": "_sqlite3_update_hook@12"
+    },
+    {
+      "offset": 62776,
+      "name": "__imp__sqlite3_uri_boolean@12"
+    },
+    {
+      "offset": 62776,
+      "name": "_sqlite3_uri_boolean@12"
+    },
+    {
+      "offset": 62896,
+      "name": "__imp__sqlite3_uri_int64@16"
+    },
+    {
+      "offset": 62896,
+      "name": "_sqlite3_uri_int64@16"
+    },
+    {
+      "offset": 63014,
+      "name": "__imp__sqlite3_uri_parameter@8"
+    },
+    {
+      "offset": 63014,
+      "name": "_sqlite3_uri_parameter@8"
+    },
+    {
+      "offset": 63134,
+      "name": "__imp__sqlite3_user_data@4"
+    },
+    {
+      "offset": 63134,
+      "name": "_sqlite3_user_data@4"
+    },
+    {
+      "offset": 63250,
+      "name": "__imp__sqlite3_value_blob@4"
+    },
+    {
+      "offset": 63250,
+      "name": "_sqlite3_value_blob@4"
+    },
+    {
+      "offset": 63488,
+      "name": "__imp__sqlite3_value_bytes@4"
+    },
+    {
+      "offset": 63488,
+      "name": "_sqlite3_value_bytes@4"
+    },
+    {
+      "offset": 63368,
+      "name": "__imp__sqlite3_value_bytes16@4"
+    },
+    {
+      "offset": 63368,
+      "name": "_sqlite3_value_bytes16@4"
+    },
+    {
+      "offset": 63606,
+      "name": "__imp__sqlite3_value_double@4"
+    },
+    {
+      "offset": 63606,
+      "name": "_sqlite3_value_double@4"
+    },
+    {
+      "offset": 63726,
+      "name": "__imp__sqlite3_value_dup@4"
+    },
+    {
+      "offset": 63726,
+      "name": "_sqlite3_value_dup@4"
+    },
+    {
+      "offset": 63842,
+      "name": "__imp__sqlite3_value_free@4"
+    },
+    {
+      "offset": 63842,
+      "name": "_sqlite3_value_free@4"
+    },
+    {
+      "offset": 63960,
+      "name": "__imp__sqlite3_value_frombind@4"
+    },
+    {
+      "offset": 63960,
+      "name": "_sqlite3_value_frombind@4"
+    },
+    {
+      "offset": 64200,
+      "name": "__imp__sqlite3_value_int@4"
+    },
+    {
+      "offset": 64200,
+      "name": "_sqlite3_value_int@4"
+    },
+    {
+      "offset": 64082,
+      "name": "__imp__sqlite3_value_int64@4"
+    },
+    {
+      "offset": 64082,
+      "name": "_sqlite3_value_int64@4"
+    },
+    {
+      "offset": 64316,
+      "name": "__imp__sqlite3_value_nochange@4"
+    },
+    {
+      "offset": 64316,
+      "name": "_sqlite3_value_nochange@4"
+    },
+    {
+      "offset": 64438,
+      "name": "__imp__sqlite3_value_numeric_type@4"
+    },
+    {
+      "offset": 64438,
+      "name": "_sqlite3_value_numeric_type@4"
+    },
+    {
+      "offset": 64564,
+      "name": "__imp__sqlite3_value_pointer@8"
+    },
+    {
+      "offset": 64564,
+      "name": "_sqlite3_value_pointer@8"
+    },
+    {
+      "offset": 64684,
+      "name": "__imp__sqlite3_value_subtype@4"
+    },
+    {
+      "offset": 64684,
+      "name": "_sqlite3_value_subtype@4"
+    },
+    {
+      "offset": 65168,
+      "name": "__imp__sqlite3_value_text@4"
+    },
+    {
+      "offset": 65168,
+      "name": "_sqlite3_value_text@4"
+    },
+    {
+      "offset": 64804,
+      "name": "__imp__sqlite3_value_text16@4"
+    },
+    {
+      "offset": 64804,
+      "name": "_sqlite3_value_text16@4"
+    },
+    {
+      "offset": 64924,
+      "name": "__imp__sqlite3_value_text16be@4"
+    },
+    {
+      "offset": 64924,
+      "name": "_sqlite3_value_text16be@4"
+    },
+    {
+      "offset": 65046,
+      "name": "__imp__sqlite3_value_text16le@4"
+    },
+    {
+      "offset": 65046,
+      "name": "_sqlite3_value_text16le@4"
+    },
+    {
+      "offset": 65286,
+      "name": "__imp__sqlite3_value_type@4"
+    },
+    {
+      "offset": 65286,
+      "name": "_sqlite3_value_type@4"
+    },
+    {
+      "offset": 65404,
+      "name": "__imp__sqlite3_version"
+    },
+    {
+      "offset": 65404,
+      "name": "_sqlite3_version"
+    },
+    {
+      "offset": 65516,
+      "name": "__imp__sqlite3_vfs_find@4"
+    },
+    {
+      "offset": 65516,
+      "name": "_sqlite3_vfs_find@4"
+    },
+    {
+      "offset": 65632,
+      "name": "__imp__sqlite3_vfs_register@8"
+    },
+    {
+      "offset": 65632,
+      "name": "_sqlite3_vfs_register@8"
+    },
+    {
+      "offset": 65752,
+      "name": "__imp__sqlite3_vfs_unregister@4"
+    },
+    {
+      "offset": 65752,
+      "name": "_sqlite3_vfs_unregister@4"
+    },
+    {
+      "offset": 65874,
+      "name": "__imp__sqlite3_vmprintf@8"
+    },
+    {
+      "offset": 65874,
+      "name": "_sqlite3_vmprintf@8"
+    },
+    {
+      "offset": 65990,
+      "name": "__imp__sqlite3_vsnprintf@16"
+    },
+    {
+      "offset": 65990,
+      "name": "_sqlite3_vsnprintf@16"
+    },
+    {
+      "offset": 66108,
+      "name": "__imp__sqlite3_vtab_collation@8"
+    },
+    {
+      "offset": 66108,
+      "name": "_sqlite3_vtab_collation@8"
+    },
+    {
+      "offset": 66230,
+      "name": "__imp__sqlite3_vtab_config"
+    },
+    {
+      "offset": 66230,
+      "name": "_sqlite3_vtab_config"
+    },
+    {
+      "offset": 66346,
+      "name": "__imp__sqlite3_vtab_nochange@4"
+    },
+    {
+      "offset": 66346,
+      "name": "_sqlite3_vtab_nochange@4"
+    },
+    {
+      "offset": 66466,
+      "name": "__imp__sqlite3_vtab_on_conflict@4"
+    },
+    {
+      "offset": 66466,
+      "name": "_sqlite3_vtab_on_conflict@4"
+    },
+    {
+      "offset": 66590,
+      "name": "__imp__sqlite3_wal_autocheckpoint@8"
+    },
+    {
+      "offset": 66590,
+      "name": "_sqlite3_wal_autocheckpoint@8"
+    },
+    {
+      "offset": 66716,
+      "name": "__imp__sqlite3_wal_checkpoint@8"
+    },
+    {
+      "offset": 66716,
+      "name": "_sqlite3_wal_checkpoint@8"
+    },
+    {
+      "offset": 66838,
+      "name": "__imp__sqlite3_wal_checkpoint_v2@20"
+    },
+    {
+      "offset": 66838,
+      "name": "_sqlite3_wal_checkpoint_v2@20"
+    },
+    {
+      "offset": 66964,
+      "name": "__imp__sqlite3_wal_hook@12"
+    },
+    {
+      "offset": 66964,
+      "name": "_sqlite3_wal_hook@12"
+    },
+    {
+      "offset": 67080,
+      "name": "__imp__sqlite3_win32_is_nt@0"
+    },
+    {
+      "offset": 67080,
+      "name": "_sqlite3_win32_is_nt@0"
+    },
+    {
+      "offset": 67198,
+      "name": "__imp__sqlite3_win32_mbcs_to_utf8@4"
+    },
+    {
+      "offset": 67198,
+      "name": "_sqlite3_win32_mbcs_to_utf8@4"
+    },
+    {
+      "offset": 67324,
+      "name": "__imp__sqlite3_win32_mbcs_to_utf8_v2@8"
+    },
+    {
+      "offset": 67324,
+      "name": "_sqlite3_win32_mbcs_to_utf8_v2@8"
+    },
+    {
+      "offset": 67708,
+      "name": "__imp__sqlite3_win32_set_directory@8"
+    },
+    {
+      "offset": 67708,
+      "name": "_sqlite3_win32_set_directory@8"
+    },
+    {
+      "offset": 67452,
+      "name": "__imp__sqlite3_win32_set_directory16@8"
+    },
+    {
+      "offset": 67452,
+      "name": "_sqlite3_win32_set_directory16@8"
+    },
+    {
+      "offset": 67580,
+      "name": "__imp__sqlite3_win32_set_directory8@8"
+    },
+    {
+      "offset": 67580,
+      "name": "_sqlite3_win32_set_directory8@8"
+    },
+    {
+      "offset": 67834,
+      "name": "__imp__sqlite3_win32_sleep@4"
+    },
+    {
+      "offset": 67834,
+      "name": "_sqlite3_win32_sleep@4"
+    },
+    {
+      "offset": 67952,
+      "name": "__imp__sqlite3_win32_unicode_to_utf8@4"
+    },
+    {
+      "offset": 67952,
+      "name": "_sqlite3_win32_unicode_to_utf8@4"
+    },
+    {
+      "offset": 68080,
+      "name": "__imp__sqlite3_win32_utf8_to_mbcs@4"
+    },
+    {
+      "offset": 68080,
+      "name": "_sqlite3_win32_utf8_to_mbcs@4"
+    },
+    {
+      "offset": 68206,
+      "name": "__imp__sqlite3_win32_utf8_to_mbcs_v2@8"
+    },
+    {
+      "offset": 68206,
+      "name": "_sqlite3_win32_utf8_to_mbcs_v2@8"
+    },
+    {
+      "offset": 68334,
+      "name": "__imp__sqlite3_win32_utf8_to_unicode@4"
+    },
+    {
+      "offset": 68334,
+      "name": "_sqlite3_win32_utf8_to_unicode@4"
+    },
+    {
+      "offset": 68462,
+      "name": "__imp__sqlite3_win32_write_debug@8"
+    },
+    {
+      "offset": 68462,
+      "name": "_sqlite3_win32_write_debug@8"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 36418,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_aggregate_context@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "sqlite3_aggregate_context"
+    },
+    {
+      "offset": 36542,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 42,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_aggregate_count@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "sqlite3_aggregate_count"
+    },
+    {
+      "offset": 36664,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_auto_extension@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "sqlite3_auto_extension"
+    },
+    {
+      "offset": 36786,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_backup_finish@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "sqlite3_backup_finish"
+    },
+    {
+      "offset": 36906,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_backup_init@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "sqlite3_backup_init"
+    },
+    {
+      "offset": 37026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 43,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_backup_pagecount@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "sqlite3_backup_pagecount"
+    },
+    {
+      "offset": 37150,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 43,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_backup_remaining@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "sqlite3_backup_remaining"
+    },
+    {
+      "offset": 37274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_backup_step@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "sqlite3_backup_step"
+    },
+    {
+      "offset": 37392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_blob64@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "sqlite3_bind_blob64"
+    },
+    {
+      "offset": 37512,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_blob@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "sqlite3_bind_blob"
+    },
+    {
+      "offset": 37630,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_double@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "sqlite3_bind_double"
+    },
+    {
+      "offset": 37750,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_int64@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "sqlite3_bind_int64"
+    },
+    {
+      "offset": 37868,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_int@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "sqlite3_bind_int"
+    },
+    {
+      "offset": 37984,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_null@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "sqlite3_bind_null"
+    },
+    {
+      "offset": 38100,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 47,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_parameter_count@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "sqlite3_bind_parameter_count"
+    },
+    {
+      "offset": 38228,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 47,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_parameter_index@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "sqlite3_bind_parameter_index"
+    },
+    {
+      "offset": 38356,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 46,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_parameter_name@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "sqlite3_bind_parameter_name"
+    },
+    {
+      "offset": 38482,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_pointer@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "sqlite3_bind_pointer"
+    },
+    {
+      "offset": 38602,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_text16@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "sqlite3_bind_text16"
+    },
+    {
+      "offset": 38722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_text64@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "sqlite3_bind_text64"
+    },
+    {
+      "offset": 38842,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_text@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "sqlite3_bind_text"
+    },
+    {
+      "offset": 38960,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_value@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "sqlite3_bind_value"
+    },
+    {
+      "offset": 39078,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 43,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_zeroblob64@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "sqlite3_bind_zeroblob64"
+    },
+    {
+      "offset": 39202,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_bind_zeroblob@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "sqlite3_bind_zeroblob"
+    },
+    {
+      "offset": 39324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_blob_bytes@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "sqlite3_blob_bytes"
+    },
+    {
+      "offset": 39442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_blob_close@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "sqlite3_blob_close"
+    },
+    {
+      "offset": 39560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_blob_open@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "sqlite3_blob_open"
+    },
+    {
+      "offset": 39678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_blob_read@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "sqlite3_blob_read"
+    },
+    {
+      "offset": 39796,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_blob_reopen@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "sqlite3_blob_reopen"
+    },
+    {
+      "offset": 39916,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_blob_write@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "sqlite3_blob_write"
+    },
+    {
+      "offset": 40034,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_busy_handler@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "sqlite3_busy_handler"
+    },
+    {
+      "offset": 40154,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_busy_timeout@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "sqlite3_busy_timeout"
+    },
+    {
+      "offset": 40274,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 48,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_cancel_auto_extension@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "sqlite3_cancel_auto_extension"
+    },
+    {
+      "offset": 40402,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 34,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_changes@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "sqlite3_changes"
+    },
+    {
+      "offset": 40516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_clear_bindings@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "sqlite3_clear_bindings"
+    },
+    {
+      "offset": 40638,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 32,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_close@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "sqlite3_close"
+    },
+    {
+      "offset": 40750,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_close_v2@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "sqlite3_close_v2"
+    },
+    {
+      "offset": 40866,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 46,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_collation_needed16@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "sqlite3_collation_needed16"
+    },
+    {
+      "offset": 40992,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_collation_needed@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "sqlite3_collation_needed"
+    },
+    {
+      "offset": 41116,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_blob@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "sqlite3_column_blob"
+    },
+    {
+      "offset": 41234,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_bytes16@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "sqlite3_column_bytes16"
+    },
+    {
+      "offset": 41356,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_bytes@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "sqlite3_column_bytes"
+    },
+    {
+      "offset": 41476,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_count@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "sqlite3_column_count"
+    },
+    {
+      "offset": 41596,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 49,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_database_name16@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "sqlite3_column_database_name16"
+    },
+    {
+      "offset": 41726,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 47,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_database_name@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "sqlite3_column_database_name"
+    },
+    {
+      "offset": 41854,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_decltype16@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "sqlite3_column_decltype16"
+    },
+    {
+      "offset": 41978,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 42,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_decltype@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "sqlite3_column_decltype"
+    },
+    {
+      "offset": 42100,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_double@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "sqlite3_column_double"
+    },
+    {
+      "offset": 42220,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_int64@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "sqlite3_column_int64"
+    },
+    {
+      "offset": 42340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_int@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 48,
+      "name": "sqlite3_column_int"
+    },
+    {
+      "offset": 42458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_name16@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "sqlite3_column_name16"
+    },
+    {
+      "offset": 42578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_name@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "sqlite3_column_name"
+    },
+    {
+      "offset": 42696,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 47,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_origin_name16@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "sqlite3_column_origin_name16"
+    },
+    {
+      "offset": 42824,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 45,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_origin_name@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "sqlite3_column_origin_name"
+    },
+    {
+      "offset": 42950,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 46,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_table_name16@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "sqlite3_column_table_name16"
+    },
+    {
+      "offset": 43076,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_table_name@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "sqlite3_column_table_name"
+    },
+    {
+      "offset": 43200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_text16@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "sqlite3_column_text16"
+    },
+    {
+      "offset": 43320,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_text@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "sqlite3_column_text"
+    },
+    {
+      "offset": 43438,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_type@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "sqlite3_column_type"
+    },
+    {
+      "offset": 43556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_column_value@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "sqlite3_column_value"
+    },
+    {
+      "offset": 43676,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_commit_hook@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 60,
+      "name": "sqlite3_commit_hook"
+    },
+    {
+      "offset": 43796,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_compileoption_get@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "sqlite3_compileoption_get"
+    },
+    {
+      "offset": 43920,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 45,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_compileoption_used@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "sqlite3_compileoption_used"
+    },
+    {
+      "offset": 44046,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_complete16@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "sqlite3_complete16"
+    },
+    {
+      "offset": 44164,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_complete@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "sqlite3_complete"
+    },
+    {
+      "offset": 44280,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 31,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_config",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 65,
+      "name": "sqlite3_config"
+    },
+    {
+      "offset": 44392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_context_db_handle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "sqlite3_context_db_handle"
+    },
+    {
+      "offset": 44516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 46,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_create_collation16@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "sqlite3_create_collation16"
+    },
+    {
+      "offset": 44642,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_create_collation@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "sqlite3_create_collation"
+    },
+    {
+      "offset": 44766,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 47,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_create_collation_v2@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "sqlite3_create_collation_v2"
+    },
+    {
+      "offset": 44894,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 45,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_create_function16@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "sqlite3_create_function16"
+    },
+    {
+      "offset": 45020,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 43,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_create_function@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "sqlite3_create_function"
+    },
+    {
+      "offset": 45144,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 46,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_create_function_v2@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "sqlite3_create_function_v2"
+    },
+    {
+      "offset": 45270,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_create_module@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "sqlite3_create_module"
+    },
+    {
+      "offset": 45392,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_create_module_v2@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "sqlite3_create_module_v2"
+    },
+    {
+      "offset": 45516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 50,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_create_window_function@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "sqlite3_create_window_function"
+    },
+    {
+      "offset": 45646,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_data_count@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "sqlite3_data_count"
+    },
+    {
+      "offset": 45764,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_data_directory",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 77,
+      "name": "sqlite3_data_directory"
+    },
+    {
+      "offset": 45884,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_db_cacheflush@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "sqlite3_db_cacheflush"
+    },
+    {
+      "offset": 46004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 34,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_db_config",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 79,
+      "name": "sqlite3_db_config"
+    },
+    {
+      "offset": 46118,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_db_filename@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "sqlite3_db_filename"
+    },
+    {
+      "offset": 46236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_db_handle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "sqlite3_db_handle"
+    },
+    {
+      "offset": 46352,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_db_mutex@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 82,
+      "name": "sqlite3_db_mutex"
+    },
+    {
+      "offset": 46468,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_db_readonly@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "sqlite3_db_readonly"
+    },
+    {
+      "offset": 46586,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_db_release_memory@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 84,
+      "name": "sqlite3_db_release_memory"
+    },
+    {
+      "offset": 46710,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_db_status@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "sqlite3_db_status"
+    },
+    {
+      "offset": 46828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_declare_vtab@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "sqlite3_declare_vtab"
+    },
+    {
+      "offset": 46948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_deserialize@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "sqlite3_deserialize"
+    },
+    {
+      "offset": 47068,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 48,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_enable_load_extension@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "sqlite3_enable_load_extension"
+    },
+    {
+      "offset": 47196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 46,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_enable_shared_cache@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 89,
+      "name": "sqlite3_enable_shared_cache"
+    },
+    {
+      "offset": 47322,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 34,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_errcode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "sqlite3_errcode"
+    },
+    {
+      "offset": 47436,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_errmsg16@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "sqlite3_errmsg16"
+    },
+    {
+      "offset": 47552,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 33,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_errmsg@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "sqlite3_errmsg"
+    },
+    {
+      "offset": 47666,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 33,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_errstr@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 93,
+      "name": "sqlite3_errstr"
+    },
+    {
+      "offset": 47780,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 32,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_exec@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "sqlite3_exec"
+    },
+    {
+      "offset": 47892,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_expanded_sql@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "sqlite3_expanded_sql"
+    },
+    {
+      "offset": 48012,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 34,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_expired@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "sqlite3_expired"
+    },
+    {
+      "offset": 48126,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 43,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_extended_errcode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "sqlite3_extended_errcode"
+    },
+    {
+      "offset": 48250,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 48,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_extended_result_codes@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "sqlite3_extended_result_codes"
+    },
+    {
+      "offset": 48378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_file_control@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "sqlite3_file_control"
+    },
+    {
+      "offset": 48498,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_finalize@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "sqlite3_finalize"
+    },
+    {
+      "offset": 48614,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 31,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_free@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "sqlite3_free"
+    },
+    {
+      "offset": 48726,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_free_table@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "sqlite3_free_table"
+    },
+    {
+      "offset": 48844,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_fts3_may_be_corrupt",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 103,
+      "name": "sqlite3_fts3_may_be_corrupt"
+    },
+    {
+      "offset": 48968,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_get_autocommit@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "sqlite3_get_autocommit"
+    },
+    {
+      "offset": 49090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_get_auxdata@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "sqlite3_get_auxdata"
+    },
+    {
+      "offset": 49208,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_get_table@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "sqlite3_get_table"
+    },
+    {
+      "offset": 49326,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_global_recover@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "sqlite3_global_recover"
+    },
+    {
+      "offset": 49448,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_initialize@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "sqlite3_initialize"
+    },
+    {
+      "offset": 49566,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_interrupt@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "sqlite3_interrupt"
+    },
+    {
+      "offset": 49682,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_keyword_check@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "sqlite3_keyword_check"
+    },
+    {
+      "offset": 49802,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_keyword_count@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "sqlite3_keyword_count"
+    },
+    {
+      "offset": 49922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_keyword_name@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "sqlite3_keyword_name"
+    },
+    {
+      "offset": 50042,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_last_insert_rowid@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "sqlite3_last_insert_rowid"
+    },
+    {
+      "offset": 50166,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_libversion@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "sqlite3_libversion"
+    },
+    {
+      "offset": 50284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_libversion_number@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "sqlite3_libversion_number"
+    },
+    {
+      "offset": 50408,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 33,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_limit@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "sqlite3_limit"
+    },
+    {
+      "offset": 50522,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 42,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_load_extension@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "sqlite3_load_extension"
+    },
+    {
+      "offset": 50644,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 28,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_log",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 118,
+      "name": "sqlite3_log"
+    },
+    {
+      "offset": 50752,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_malloc64@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "sqlite3_malloc64"
+    },
+    {
+      "offset": 50868,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 33,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_malloc@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "sqlite3_malloc"
+    },
+    {
+      "offset": 50982,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_memory_alarm@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "sqlite3_memory_alarm"
+    },
+    {
+      "offset": 51102,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 43,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_memory_highwater@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "sqlite3_memory_highwater"
+    },
+    {
+      "offset": 51226,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_memory_used@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "sqlite3_memory_used"
+    },
+    {
+      "offset": 51344,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 32,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_mprintf",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 124,
+      "name": "sqlite3_mprintf"
+    },
+    {
+      "offset": 51456,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 32,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_msize@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "sqlite3_msize"
+    },
+    {
+      "offset": 51568,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_mutex_alloc@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "sqlite3_mutex_alloc"
+    },
+    {
+      "offset": 51686,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_mutex_enter@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "sqlite3_mutex_enter"
+    },
+    {
+      "offset": 51804,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_mutex_free@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "sqlite3_mutex_free"
+    },
+    {
+      "offset": 51922,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_mutex_leave@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "sqlite3_mutex_leave"
+    },
+    {
+      "offset": 52040,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_mutex_try@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "sqlite3_mutex_try"
+    },
+    {
+      "offset": 52156,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_next_stmt@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "sqlite3_next_stmt"
+    },
+    {
+      "offset": 52272,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 33,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_open16@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "sqlite3_open16"
+    },
+    {
+      "offset": 52386,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 31,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_open@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "sqlite3_open"
+    },
+    {
+      "offset": 52498,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_open_v2@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "sqlite3_open_v2"
+    },
+    {
+      "offset": 52614,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 33,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_os_end@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "sqlite3_os_end"
+    },
+    {
+      "offset": 52728,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 34,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_os_init@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "sqlite3_os_init"
+    },
+    {
+      "offset": 52842,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 45,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_overload_function@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "sqlite3_overload_function"
+    },
+    {
+      "offset": 52968,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_prepare16@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "sqlite3_prepare16"
+    },
+    {
+      "offset": 53086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_prepare16_v2@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "sqlite3_prepare16_v2"
+    },
+    {
+      "offset": 53206,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_prepare16_v3@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "sqlite3_prepare16_v3"
+    },
+    {
+      "offset": 53326,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_prepare@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "sqlite3_prepare"
+    },
+    {
+      "offset": 53442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_prepare_v2@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "sqlite3_prepare_v2"
+    },
+    {
+      "offset": 53560,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_prepare_v3@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "sqlite3_prepare_v3"
+    },
+    {
+      "offset": 53678,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_profile@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "sqlite3_profile"
+    },
+    {
+      "offset": 53794,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_progress_handler@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 145,
+      "name": "sqlite3_progress_handler"
+    },
+    {
+      "offset": 53918,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_randomness@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 146,
+      "name": "sqlite3_randomness"
+    },
+    {
+      "offset": 54036,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_realloc64@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 148,
+      "name": "sqlite3_realloc64"
+    },
+    {
+      "offset": 54154,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 34,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_realloc@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 147,
+      "name": "sqlite3_realloc"
+    },
+    {
+      "offset": 54268,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_release_memory@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 149,
+      "name": "sqlite3_release_memory"
+    },
+    {
+      "offset": 54390,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 32,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_reset@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "sqlite3_reset"
+    },
+    {
+      "offset": 54502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 47,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_reset_auto_extension@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "sqlite3_reset_auto_extension"
+    },
+    {
+      "offset": 54630,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_blob64@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 153,
+      "name": "sqlite3_result_blob64"
+    },
+    {
+      "offset": 54752,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_blob@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 152,
+      "name": "sqlite3_result_blob"
+    },
+    {
+      "offset": 54872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_double@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 154,
+      "name": "sqlite3_result_double"
+    },
+    {
+      "offset": 54994,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 42,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_error16@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 156,
+      "name": "sqlite3_result_error16"
+    },
+    {
+      "offset": 55116,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_error@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "sqlite3_result_error"
+    },
+    {
+      "offset": 55236,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_error_code@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 157,
+      "name": "sqlite3_result_error_code"
+    },
+    {
+      "offset": 55360,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 45,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_error_nomem@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 158,
+      "name": "sqlite3_result_error_nomem"
+    },
+    {
+      "offset": 55486,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 46,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_error_toobig@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 159,
+      "name": "sqlite3_result_error_toobig"
+    },
+    {
+      "offset": 55612,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_int64@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 161,
+      "name": "sqlite3_result_int64"
+    },
+    {
+      "offset": 55732,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_int@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 160,
+      "name": "sqlite3_result_int"
+    },
+    {
+      "offset": 55850,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_null@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 162,
+      "name": "sqlite3_result_null"
+    },
+    {
+      "offset": 55968,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 42,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_pointer@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 163,
+      "name": "sqlite3_result_pointer"
+    },
+    {
+      "offset": 56090,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_subtype@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 164,
+      "name": "sqlite3_result_subtype"
+    },
+    {
+      "offset": 56212,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_text16@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 166,
+      "name": "sqlite3_result_text16"
+    },
+    {
+      "offset": 56334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 43,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_text16be@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 167,
+      "name": "sqlite3_result_text16be"
+    },
+    {
+      "offset": 56458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 43,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_text16le@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 168,
+      "name": "sqlite3_result_text16le"
+    },
+    {
+      "offset": 56582,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_text64@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 169,
+      "name": "sqlite3_result_text64"
+    },
+    {
+      "offset": 56704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_text@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 165,
+      "name": "sqlite3_result_text"
+    },
+    {
+      "offset": 56824,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_value@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 170,
+      "name": "sqlite3_result_value"
+    },
+    {
+      "offset": 56944,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 45,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_zeroblob64@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 172,
+      "name": "sqlite3_result_zeroblob64"
+    },
+    {
+      "offset": 57070,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 42,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_result_zeroblob@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 171,
+      "name": "sqlite3_result_zeroblob"
+    },
+    {
+      "offset": 57192,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_rollback_hook@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 173,
+      "name": "sqlite3_rollback_hook"
+    },
+    {
+      "offset": 57314,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 51,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_rtree_geometry_callback@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 174,
+      "name": "sqlite3_rtree_geometry_callback"
+    },
+    {
+      "offset": 57446,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 48,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_rtree_query_callback@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 175,
+      "name": "sqlite3_rtree_query_callback"
+    },
+    {
+      "offset": 57574,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_serialize@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 176,
+      "name": "sqlite3_serialize"
+    },
+    {
+      "offset": 57692,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 42,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_set_authorizer@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 177,
+      "name": "sqlite3_set_authorizer"
+    },
+    {
+      "offset": 57814,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_set_auxdata@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 178,
+      "name": "sqlite3_set_auxdata"
+    },
+    {
+      "offset": 57934,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 49,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_set_last_insert_rowid@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 179,
+      "name": "sqlite3_set_last_insert_rowid"
+    },
+    {
+      "offset": 58064,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_shutdown@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 180,
+      "name": "sqlite3_shutdown"
+    },
+    {
+      "offset": 58180,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 32,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_sleep@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 181,
+      "name": "sqlite3_sleep"
+    },
+    {
+      "offset": 58292,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 33,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_snprintf",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 182,
+      "name": "sqlite3_snprintf"
+    },
+    {
+      "offset": 58406,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_soft_heap_limit64@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 184,
+      "name": "sqlite3_soft_heap_limit64"
+    },
+    {
+      "offset": 58530,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 42,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_soft_heap_limit@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 183,
+      "name": "sqlite3_soft_heap_limit"
+    },
+    {
+      "offset": 58652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_sourceid@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 185,
+      "name": "sqlite3_sourceid"
+    },
+    {
+      "offset": 58768,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 30,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_sql@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 186,
+      "name": "sqlite3_sql"
+    },
+    {
+      "offset": 58878,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_status64@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 188,
+      "name": "sqlite3_status64"
+    },
+    {
+      "offset": 58994,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 34,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_status@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 187,
+      "name": "sqlite3_status"
+    },
+    {
+      "offset": 59108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 31,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_step@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 189,
+      "name": "sqlite3_step"
+    },
+    {
+      "offset": 59220,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_stmt_busy@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 190,
+      "name": "sqlite3_stmt_busy"
+    },
+    {
+      "offset": 59336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_stmt_isexplain@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 191,
+      "name": "sqlite3_stmt_isexplain"
+    },
+    {
+      "offset": 59458,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_stmt_readonly@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 192,
+      "name": "sqlite3_stmt_readonly"
+    },
+    {
+      "offset": 59578,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_stmt_status@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 193,
+      "name": "sqlite3_stmt_status"
+    },
+    {
+      "offset": 59698,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_str_append@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 194,
+      "name": "sqlite3_str_append"
+    },
+    {
+      "offset": 59816,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_str_appendall@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 195,
+      "name": "sqlite3_str_appendall"
+    },
+    {
+      "offset": 59936,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 42,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_str_appendchar@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 196,
+      "name": "sqlite3_str_appendchar"
+    },
+    {
+      "offset": 60058,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_str_appendf",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 197,
+      "name": "sqlite3_str_appendf"
+    },
+    {
+      "offset": 60174,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_str_errcode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 198,
+      "name": "sqlite3_str_errcode"
+    },
+    {
+      "offset": 60292,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_str_finish@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 199,
+      "name": "sqlite3_str_finish"
+    },
+    {
+      "offset": 60410,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_str_length@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 200,
+      "name": "sqlite3_str_length"
+    },
+    {
+      "offset": 60528,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 34,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_str_new@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 201,
+      "name": "sqlite3_str_new"
+    },
+    {
+      "offset": 60642,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_str_reset@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 202,
+      "name": "sqlite3_str_reset"
+    },
+    {
+      "offset": 60758,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_str_value@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 203,
+      "name": "sqlite3_str_value"
+    },
+    {
+      "offset": 60874,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_str_vappendf@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 204,
+      "name": "sqlite3_str_vappendf"
+    },
+    {
+      "offset": 60994,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 34,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_strglob@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 205,
+      "name": "sqlite3_strglob"
+    },
+    {
+      "offset": 61108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 34,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_stricmp@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 206,
+      "name": "sqlite3_stricmp"
+    },
+    {
+      "offset": 61222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_strlike@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 207,
+      "name": "sqlite3_strlike"
+    },
+    {
+      "offset": 61338,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_strnicmp@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 208,
+      "name": "sqlite3_strnicmp"
+    },
+    {
+      "offset": 61454,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_system_errno@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 209,
+      "name": "sqlite3_system_errno"
+    },
+    {
+      "offset": 61574,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 49,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_table_column_metadata@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 210,
+      "name": "sqlite3_table_column_metadata"
+    },
+    {
+      "offset": 61704,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_temp_directory",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 211,
+      "name": "sqlite3_temp_directory"
+    },
+    {
+      "offset": 61824,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_test_control",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 212,
+      "name": "sqlite3_test_control"
+    },
+    {
+      "offset": 61942,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_thread_cleanup@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 213,
+      "name": "sqlite3_thread_cleanup"
+    },
+    {
+      "offset": 62064,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_threadsafe@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 214,
+      "name": "sqlite3_threadsafe"
+    },
+    {
+      "offset": 62182,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_total_changes@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 215,
+      "name": "sqlite3_total_changes"
+    },
+    {
+      "offset": 62302,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 33,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_trace@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 216,
+      "name": "sqlite3_trace"
+    },
+    {
+      "offset": 62416,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_trace_v2@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 217,
+      "name": "sqlite3_trace_v2"
+    },
+    {
+      "offset": 62532,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_transfer_bindings@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 218,
+      "name": "sqlite3_transfer_bindings"
+    },
+    {
+      "offset": 62656,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_update_hook@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 219,
+      "name": "sqlite3_update_hook"
+    },
+    {
+      "offset": 62776,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_uri_boolean@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 220,
+      "name": "sqlite3_uri_boolean"
+    },
+    {
+      "offset": 62896,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_uri_int64@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 221,
+      "name": "sqlite3_uri_int64"
+    },
+    {
+      "offset": 63014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_uri_parameter@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 222,
+      "name": "sqlite3_uri_parameter"
+    },
+    {
+      "offset": 63134,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_user_data@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 223,
+      "name": "sqlite3_user_data"
+    },
+    {
+      "offset": 63250,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_blob@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 224,
+      "name": "sqlite3_value_blob"
+    },
+    {
+      "offset": 63368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_bytes16@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 226,
+      "name": "sqlite3_value_bytes16"
+    },
+    {
+      "offset": 63488,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_bytes@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 225,
+      "name": "sqlite3_value_bytes"
+    },
+    {
+      "offset": 63606,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_double@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 227,
+      "name": "sqlite3_value_double"
+    },
+    {
+      "offset": 63726,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_dup@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 228,
+      "name": "sqlite3_value_dup"
+    },
+    {
+      "offset": 63842,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_free@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 229,
+      "name": "sqlite3_value_free"
+    },
+    {
+      "offset": 63960,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_frombind@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 230,
+      "name": "sqlite3_value_frombind"
+    },
+    {
+      "offset": 64082,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_int64@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 232,
+      "name": "sqlite3_value_int64"
+    },
+    {
+      "offset": 64200,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_int@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 231,
+      "name": "sqlite3_value_int"
+    },
+    {
+      "offset": 64316,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_nochange@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 233,
+      "name": "sqlite3_value_nochange"
+    },
+    {
+      "offset": 64438,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 45,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_numeric_type@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 234,
+      "name": "sqlite3_value_numeric_type"
+    },
+    {
+      "offset": 64564,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_pointer@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 235,
+      "name": "sqlite3_value_pointer"
+    },
+    {
+      "offset": 64684,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_subtype@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 236,
+      "name": "sqlite3_value_subtype"
+    },
+    {
+      "offset": 64804,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_text16@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 238,
+      "name": "sqlite3_value_text16"
+    },
+    {
+      "offset": 64924,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_text16be@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 239,
+      "name": "sqlite3_value_text16be"
+    },
+    {
+      "offset": 65046,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_text16le@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 240,
+      "name": "sqlite3_value_text16le"
+    },
+    {
+      "offset": 65168,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_text@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 237,
+      "name": "sqlite3_value_text"
+    },
+    {
+      "offset": 65286,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_value_type@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 241,
+      "name": "sqlite3_value_type"
+    },
+    {
+      "offset": 65404,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 32,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_version",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 242,
+      "name": "sqlite3_version"
+    },
+    {
+      "offset": 65516,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_vfs_find@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 243,
+      "name": "sqlite3_vfs_find"
+    },
+    {
+      "offset": 65632,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 39,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_vfs_register@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 244,
+      "name": "sqlite3_vfs_register"
+    },
+    {
+      "offset": 65752,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_vfs_unregister@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 245,
+      "name": "sqlite3_vfs_unregister"
+    },
+    {
+      "offset": 65874,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 35,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_vmprintf@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 246,
+      "name": "sqlite3_vmprintf"
+    },
+    {
+      "offset": 65990,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 37,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_vsnprintf@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 247,
+      "name": "sqlite3_vsnprintf"
+    },
+    {
+      "offset": 66108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_vtab_collation@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 248,
+      "name": "sqlite3_vtab_collation"
+    },
+    {
+      "offset": 66230,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_vtab_config",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 249,
+      "name": "sqlite3_vtab_config"
+    },
+    {
+      "offset": 66346,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 40,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_vtab_nochange@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 250,
+      "name": "sqlite3_vtab_nochange"
+    },
+    {
+      "offset": 66466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 43,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_vtab_on_conflict@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 251,
+      "name": "sqlite3_vtab_on_conflict"
+    },
+    {
+      "offset": 66590,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 45,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_wal_autocheckpoint@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 252,
+      "name": "sqlite3_wal_autocheckpoint"
+    },
+    {
+      "offset": 66716,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 41,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_wal_checkpoint@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 253,
+      "name": "sqlite3_wal_checkpoint"
+    },
+    {
+      "offset": 66838,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 45,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_wal_checkpoint_v2@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 254,
+      "name": "sqlite3_wal_checkpoint_v2"
+    },
+    {
+      "offset": 66964,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 36,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_wal_hook@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 255,
+      "name": "sqlite3_wal_hook"
+    },
+    {
+      "offset": 67080,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_win32_is_nt@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 256,
+      "name": "sqlite3_win32_is_nt"
+    },
+    {
+      "offset": 67198,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 45,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_win32_mbcs_to_utf8@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 257,
+      "name": "sqlite3_win32_mbcs_to_utf8"
+    },
+    {
+      "offset": 67324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 48,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_win32_mbcs_to_utf8_v2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 258,
+      "name": "sqlite3_win32_mbcs_to_utf8_v2"
+    },
+    {
+      "offset": 67452,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 48,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_win32_set_directory16@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 260,
+      "name": "sqlite3_win32_set_directory16"
+    },
+    {
+      "offset": 67580,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 47,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_win32_set_directory8@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 261,
+      "name": "sqlite3_win32_set_directory8"
+    },
+    {
+      "offset": 67708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 46,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_win32_set_directory@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 259,
+      "name": "sqlite3_win32_set_directory"
+    },
+    {
+      "offset": 67834,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 38,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_win32_sleep@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 262,
+      "name": "sqlite3_win32_sleep"
+    },
+    {
+      "offset": 67952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 48,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_win32_unicode_to_utf8@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 263,
+      "name": "sqlite3_win32_unicode_to_utf8"
+    },
+    {
+      "offset": 68080,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 45,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_win32_utf8_to_mbcs@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 264,
+      "name": "sqlite3_win32_utf8_to_mbcs"
+    },
+    {
+      "offset": 68206,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 48,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_win32_utf8_to_mbcs_v2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 265,
+      "name": "sqlite3_win32_utf8_to_mbcs_v2"
+    },
+    {
+      "offset": 68334,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 48,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_win32_utf8_to_unicode@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 266,
+      "name": "sqlite3_win32_utf8_to_unicode"
+    },
+    {
+      "offset": 68462,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 1562783513,
+      "sizeOfData": 44,
+      "dllName": "winsqlite3.dll",
+      "symbolName": "_sqlite3_win32_write_debug@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 267,
+      "name": "sqlite3_win32_write_debug"
+    }
+  ]
+}

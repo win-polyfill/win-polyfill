@@ -1,0 +1,4533 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_socket@12",
+      "ordinal": 23
+    },
+    {
+      "name": "_shutdown@8",
+      "ordinal": 22
+    },
+    {
+      "name": "_setsockopt@20",
+      "ordinal": 21
+    },
+    {
+      "name": "_sendto@24",
+      "ordinal": 20
+    },
+    {
+      "name": "_send@16",
+      "ordinal": 19
+    },
+    {
+      "name": "_select@20",
+      "ordinal": 18
+    },
+    {
+      "name": "_recvfrom@24",
+      "ordinal": 17
+    },
+    {
+      "name": "_recv@16",
+      "ordinal": 16
+    },
+    {
+      "name": "_ntohs@4",
+      "ordinal": 15
+    },
+    {
+      "name": "_ntohl@4",
+      "ordinal": 14
+    },
+    {
+      "name": "_listen@8",
+      "ordinal": 13
+    },
+    {
+      "name": "_ioctlsocket@12",
+      "ordinal": 10
+    },
+    {
+      "name": "_inet_pton@12"
+    },
+    {
+      "name": "_inet_ntop@16"
+    },
+    {
+      "name": "_inet_ntoa@4",
+      "ordinal": 12
+    },
+    {
+      "name": "_inet_addr@4",
+      "ordinal": 11
+    },
+    {
+      "name": "_htons@4",
+      "ordinal": 9
+    },
+    {
+      "name": "_htonl@4",
+      "ordinal": 8
+    },
+    {
+      "name": "_getsockopt@20",
+      "ordinal": 7
+    },
+    {
+      "name": "_getsockname@12",
+      "ordinal": 6
+    },
+    {
+      "name": "_getservbyport@8",
+      "ordinal": 56
+    },
+    {
+      "name": "_getservbyname@8",
+      "ordinal": 55
+    },
+    {
+      "name": "_getprotobynumber@4",
+      "ordinal": 54
+    },
+    {
+      "name": "_getprotobyname@4",
+      "ordinal": 53
+    },
+    {
+      "name": "_getpeername@12",
+      "ordinal": 5
+    },
+    {
+      "name": "_getnameinfo@28"
+    },
+    {
+      "name": "_gethostname@8",
+      "ordinal": 57
+    },
+    {
+      "name": "_gethostbyname@4",
+      "ordinal": 52
+    },
+    {
+      "name": "_gethostbyaddr@12",
+      "ordinal": 51
+    },
+    {
+      "name": "_getaddrinfo@16"
+    },
+    {
+      "name": "_freeaddrinfo@4"
+    },
+    {
+      "name": "_connect@12",
+      "ordinal": 4
+    },
+    {
+      "name": "_closesocket@4",
+      "ordinal": 3
+    },
+    {
+      "name": "_bind@12",
+      "ordinal": 2
+    },
+    {
+      "name": "_accept@12",
+      "ordinal": 1
+    },
+    {
+      "name": "___WSAFDIsSet@8",
+      "ordinal": 151
+    },
+    {
+      "name": "_WahWriteLSPEvent@8"
+    },
+    {
+      "name": "_WahWaitForNotification@16"
+    },
+    {
+      "name": "_WahRemoveHandleContext@8"
+    },
+    {
+      "name": "_WahReferenceContextByHandle@8"
+    },
+    {
+      "name": "_WahQueueUserApc@16"
+    },
+    {
+      "name": "_WahOpenNotificationHandleHelper@4"
+    },
+    {
+      "name": "_WahOpenHandleHelper@4"
+    },
+    {
+      "name": "_WahOpenCurrentThread@8"
+    },
+    {
+      "name": "_WahOpenApcHelper@4"
+    },
+    {
+      "name": "_WahNotifyAllProcesses@4"
+    },
+    {
+      "name": "_WahInsertHandleContext@8"
+    },
+    {
+      "name": "_WahEnumerateHandleContexts@12"
+    },
+    {
+      "name": "_WahEnableNonIFSHandleSupport@0"
+    },
+    {
+      "name": "_WahDisableNonIFSHandleSupport@0"
+    },
+    {
+      "name": "_WahDestroyHandleContextTable@4"
+    },
+    {
+      "name": "_WahCreateSocketHandle@8"
+    },
+    {
+      "name": "_WahCreateNotificationHandle@8"
+    },
+    {
+      "name": "_WahCreateHandleContextTable@4"
+    },
+    {
+      "name": "_WahCompleteRequest@20"
+    },
+    {
+      "name": "_WahCloseThread@8"
+    },
+    {
+      "name": "_WahCloseSocketHandle@8"
+    },
+    {
+      "name": "_WahCloseNotificationHandleHelper@4"
+    },
+    {
+      "name": "_WahCloseHandleHelper@4"
+    },
+    {
+      "name": "_WahCloseApcHelper@4"
+    },
+    {
+      "name": "_WSCWriteProviderOrderEx@12"
+    },
+    {
+      "name": "_WSCWriteProviderOrder@8"
+    },
+    {
+      "name": "_WSCWriteNameSpaceOrder@8"
+    },
+    {
+      "name": "_WSCUpdateProviderEx@24"
+    },
+    {
+      "name": "_WSCUpdateProvider@20"
+    },
+    {
+      "name": "_WSCUnInstallNameSpaceEx2@8"
+    },
+    {
+      "name": "_WSCUnInstallNameSpace@4"
+    },
+    {
+      "name": "_WSCSetProviderInfo@24"
+    },
+    {
+      "name": "_WSCSetApplicationCategoryEx@32"
+    },
+    {
+      "name": "_WSCSetApplicationCategory@28"
+    },
+    {
+      "name": "_WSCInstallProviderEx@28"
+    },
+    {
+      "name": "_WSCInstallProviderAndChains@32"
+    },
+    {
+      "name": "_WSCInstallProvider@20"
+    },
+    {
+      "name": "_WSCInstallNameSpaceEx@24"
+    },
+    {
+      "name": "_WSCInstallNameSpaceEx2@28"
+    },
+    {
+      "name": "_WSCInstallNameSpace@20"
+    },
+    {
+      "name": "_WSCGetProviderPath@16"
+    },
+    {
+      "name": "_WSCGetProviderInfo@24"
+    },
+    {
+      "name": "_WSCGetApplicationCategoryEx@28"
+    },
+    {
+      "name": "_WSCGetApplicationCategory@24"
+    },
+    {
+      "name": "_WSCEnumProtocolsEx@20"
+    },
+    {
+      "name": "_WSCEnumProtocols@16"
+    },
+    {
+      "name": "_WSCEnableNSProvider@8"
+    },
+    {
+      "name": "_WSCDeinstallProviderEx@12"
+    },
+    {
+      "name": "_WSCDeinstallProvider@8"
+    },
+    {
+      "name": "_WSAWaitForMultipleEvents@20"
+    },
+    {
+      "name": "_WSAUnhookBlockingHook@0",
+      "ordinal": 110
+    },
+    {
+      "name": "_WSAUnadvertiseProvider@4"
+    },
+    {
+      "name": "_WSAStringToAddressW@20"
+    },
+    {
+      "name": "_WSAStringToAddressA@20"
+    },
+    {
+      "name": "_WSAStartup@8",
+      "ordinal": 115
+    },
+    {
+      "name": "_WSASocketW@24"
+    },
+    {
+      "name": "_WSASocketA@24"
+    },
+    {
+      "name": "_WSASetServiceW@12"
+    },
+    {
+      "name": "_WSASetServiceA@12"
+    },
+    {
+      "name": "_WSASetLastError@4",
+      "ordinal": 112
+    },
+    {
+      "name": "_WSASetEvent@4"
+    },
+    {
+      "name": "_WSASetBlockingHook@4",
+      "ordinal": 109
+    },
+    {
+      "name": "_WSASendTo@36"
+    },
+    {
+      "name": "_WSASendMsg@24"
+    },
+    {
+      "name": "_WSASendDisconnect@8"
+    },
+    {
+      "name": "_WSASend@28"
+    },
+    {
+      "name": "_WSAResetEvent@4"
+    },
+    {
+      "name": "_WSARemoveServiceClass@4"
+    },
+    {
+      "name": "_WSARecvFrom@36"
+    },
+    {
+      "name": "_WSARecvDisconnect@8"
+    },
+    {
+      "name": "_WSARecv@28"
+    },
+    {
+      "name": "_WSAProviderConfigChange@12"
+    },
+    {
+      "name": "_WSAProviderCompleteAsyncCall@8"
+    },
+    {
+      "name": "_WSAPoll@12"
+    },
+    {
+      "name": "_WSANtohs@12"
+    },
+    {
+      "name": "_WSANtohl@12"
+    },
+    {
+      "name": "_WSANSPIoctl@32"
+    },
+    {
+      "name": "_WSALookupServiceNextW@16"
+    },
+    {
+      "name": "_WSALookupServiceNextA@16"
+    },
+    {
+      "name": "_WSALookupServiceEnd@4"
+    },
+    {
+      "name": "_WSALookupServiceBeginW@12"
+    },
+    {
+      "name": "_WSALookupServiceBeginA@12"
+    },
+    {
+      "name": "_WSAJoinLeaf@32"
+    },
+    {
+      "name": "_WSAIsBlocking@0",
+      "ordinal": 114
+    },
+    {
+      "name": "_WSAIoctl@36"
+    },
+    {
+      "name": "_WSAInstallServiceClassW@4"
+    },
+    {
+      "name": "_WSAInstallServiceClassA@4"
+    },
+    {
+      "name": "_WSAHtons@12"
+    },
+    {
+      "name": "_WSAHtonl@12"
+    },
+    {
+      "name": "_WSAGetServiceClassNameByClassIdW@12"
+    },
+    {
+      "name": "_WSAGetServiceClassNameByClassIdA@12"
+    },
+    {
+      "name": "_WSAGetServiceClassInfoW@16"
+    },
+    {
+      "name": "_WSAGetServiceClassInfoA@16"
+    },
+    {
+      "name": "_WSAGetQOSByName@12"
+    },
+    {
+      "name": "_WSAGetOverlappedResult@20"
+    },
+    {
+      "name": "_WSAGetLastError@0",
+      "ordinal": 111
+    },
+    {
+      "name": "_WSAEventSelect@12"
+    },
+    {
+      "name": "_WSAEnumProtocolsW@12"
+    },
+    {
+      "name": "_WSAEnumProtocolsA@12"
+    },
+    {
+      "name": "_WSAEnumNetworkEvents@12"
+    },
+    {
+      "name": "_WSAEnumNameSpaceProvidersW@8"
+    },
+    {
+      "name": "_WSAEnumNameSpaceProvidersExW@8"
+    },
+    {
+      "name": "_WSAEnumNameSpaceProvidersExA@8"
+    },
+    {
+      "name": "_WSAEnumNameSpaceProvidersA@8"
+    },
+    {
+      "name": "_WSADuplicateSocketW@12"
+    },
+    {
+      "name": "_WSADuplicateSocketA@12"
+    },
+    {
+      "name": "_WSACreateEvent@0"
+    },
+    {
+      "name": "_WSAConnectByNameW@36"
+    },
+    {
+      "name": "_WSAConnectByNameA@36"
+    },
+    {
+      "name": "_WSAConnectByList@32"
+    },
+    {
+      "name": "_WSAConnect@28"
+    },
+    {
+      "name": "_WSACloseEvent@4"
+    },
+    {
+      "name": "_WSACleanup@0",
+      "ordinal": 116
+    },
+    {
+      "name": "_WSACancelBlockingCall@0",
+      "ordinal": 113
+    },
+    {
+      "name": "_WSACancelAsyncRequest@4",
+      "ordinal": 108
+    },
+    {
+      "name": "_WSAAsyncSelect@16",
+      "ordinal": 101
+    },
+    {
+      "name": "_WSAAsyncGetServByPort@24",
+      "ordinal": 106
+    },
+    {
+      "name": "_WSAAsyncGetServByName@24",
+      "ordinal": 107
+    },
+    {
+      "name": "_WSAAsyncGetProtoByNumber@20",
+      "ordinal": 104
+    },
+    {
+      "name": "_WSAAsyncGetProtoByName@20",
+      "ordinal": 105
+    },
+    {
+      "name": "_WSAAsyncGetHostByName@20",
+      "ordinal": 103
+    },
+    {
+      "name": "_WSAAsyncGetHostByAddr@28",
+      "ordinal": 102
+    },
+    {
+      "name": "_WSAAdvertiseProvider@8"
+    },
+    {
+      "name": "_WSAAddressToStringW@20"
+    },
+    {
+      "name": "_WSAAddressToStringA@20"
+    },
+    {
+      "name": "_WSAAccept@20"
+    },
+    {
+      "name": "_WPUGetProviderPathEx@20"
+    },
+    {
+      "name": "_WPUCompleteOverlappedRequest@20"
+    },
+    {
+      "name": "_WEP@0",
+      "ordinal": 500
+    },
+    {
+      "name": "_SetAddrInfoExW@48"
+    },
+    {
+      "name": "_SetAddrInfoExA@48"
+    },
+    {
+      "name": "_ProcessSocketNotifications@28"
+    },
+    {
+      "name": "_InetPtonW@12"
+    },
+    {
+      "name": "_InetNtopW@16"
+    },
+    {
+      "name": "_GetNameInfoW@28"
+    },
+    {
+      "name": "_GetHostNameW@8"
+    },
+    {
+      "name": "_GetAddrInfoW@16"
+    },
+    {
+      "name": "_GetAddrInfoExW@40"
+    },
+    {
+      "name": "_GetAddrInfoExOverlappedResult@4"
+    },
+    {
+      "name": "_GetAddrInfoExCancel@4"
+    },
+    {
+      "name": "_GetAddrInfoExA@40"
+    },
+    {
+      "name": "_FreeAddrInfoW@4"
+    },
+    {
+      "name": "_FreeAddrInfoExW@4"
+    },
+    {
+      "name": "_FreeAddrInfoEx@4"
+    },
+    {
+      "name": "?WSApSetPostRoutine@@YGHPAX@Z (int __stdcall WSApSetPostRoutine(void *))"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 23222,
+      "name": "__imp__socket@12"
+    },
+    {
+      "offset": 23222,
+      "name": "_socket@12"
+    },
+    {
+      "offset": 23324,
+      "name": "__imp__shutdown@8"
+    },
+    {
+      "offset": 23324,
+      "name": "_shutdown@8"
+    },
+    {
+      "offset": 23428,
+      "name": "__imp__setsockopt@20"
+    },
+    {
+      "offset": 23428,
+      "name": "_setsockopt@20"
+    },
+    {
+      "offset": 23534,
+      "name": "__imp__sendto@24"
+    },
+    {
+      "offset": 23534,
+      "name": "_sendto@24"
+    },
+    {
+      "offset": 23636,
+      "name": "__imp__send@16"
+    },
+    {
+      "offset": 23636,
+      "name": "_send@16"
+    },
+    {
+      "offset": 23736,
+      "name": "__imp__select@20"
+    },
+    {
+      "offset": 23736,
+      "name": "_select@20"
+    },
+    {
+      "offset": 23838,
+      "name": "__imp__recvfrom@24"
+    },
+    {
+      "offset": 23838,
+      "name": "_recvfrom@24"
+    },
+    {
+      "offset": 23942,
+      "name": "__imp__recv@16"
+    },
+    {
+      "offset": 23942,
+      "name": "_recv@16"
+    },
+    {
+      "offset": 24042,
+      "name": "__imp__ntohs@4"
+    },
+    {
+      "offset": 24042,
+      "name": "_ntohs@4"
+    },
+    {
+      "offset": 24142,
+      "name": "__imp__ntohl@4"
+    },
+    {
+      "offset": 24142,
+      "name": "_ntohl@4"
+    },
+    {
+      "offset": 24242,
+      "name": "__imp__listen@8"
+    },
+    {
+      "offset": 24242,
+      "name": "_listen@8"
+    },
+    {
+      "offset": 24344,
+      "name": "__imp__ioctlsocket@12"
+    },
+    {
+      "offset": 24344,
+      "name": "_ioctlsocket@12"
+    },
+    {
+      "offset": 24452,
+      "name": "__imp__inet_pton@12"
+    },
+    {
+      "offset": 24452,
+      "name": "_inet_pton@12"
+    },
+    {
+      "offset": 24558,
+      "name": "__imp__inet_ntop@16"
+    },
+    {
+      "offset": 24558,
+      "name": "_inet_ntop@16"
+    },
+    {
+      "offset": 24664,
+      "name": "__imp__inet_ntoa@4"
+    },
+    {
+      "offset": 24664,
+      "name": "_inet_ntoa@4"
+    },
+    {
+      "offset": 24768,
+      "name": "__imp__inet_addr@4"
+    },
+    {
+      "offset": 24768,
+      "name": "_inet_addr@4"
+    },
+    {
+      "offset": 24872,
+      "name": "__imp__htons@4"
+    },
+    {
+      "offset": 24872,
+      "name": "_htons@4"
+    },
+    {
+      "offset": 24972,
+      "name": "__imp__htonl@4"
+    },
+    {
+      "offset": 24972,
+      "name": "_htonl@4"
+    },
+    {
+      "offset": 25072,
+      "name": "__imp__getsockopt@20"
+    },
+    {
+      "offset": 25072,
+      "name": "_getsockopt@20"
+    },
+    {
+      "offset": 25178,
+      "name": "__imp__getsockname@12"
+    },
+    {
+      "offset": 25178,
+      "name": "_getsockname@12"
+    },
+    {
+      "offset": 25286,
+      "name": "__imp__getservbyport@8"
+    },
+    {
+      "offset": 25286,
+      "name": "_getservbyport@8"
+    },
+    {
+      "offset": 25394,
+      "name": "__imp__getservbyname@8"
+    },
+    {
+      "offset": 25394,
+      "name": "_getservbyname@8"
+    },
+    {
+      "offset": 25502,
+      "name": "__imp__getprotobynumber@4"
+    },
+    {
+      "offset": 25502,
+      "name": "_getprotobynumber@4"
+    },
+    {
+      "offset": 25614,
+      "name": "__imp__getprotobyname@4"
+    },
+    {
+      "offset": 25614,
+      "name": "_getprotobyname@4"
+    },
+    {
+      "offset": 25724,
+      "name": "__imp__getpeername@12"
+    },
+    {
+      "offset": 25724,
+      "name": "_getpeername@12"
+    },
+    {
+      "offset": 25832,
+      "name": "__imp__getnameinfo@28"
+    },
+    {
+      "offset": 25832,
+      "name": "_getnameinfo@28"
+    },
+    {
+      "offset": 25940,
+      "name": "__imp__gethostname@8"
+    },
+    {
+      "offset": 25940,
+      "name": "_gethostname@8"
+    },
+    {
+      "offset": 26046,
+      "name": "__imp__gethostbyname@4"
+    },
+    {
+      "offset": 26046,
+      "name": "_gethostbyname@4"
+    },
+    {
+      "offset": 26154,
+      "name": "__imp__gethostbyaddr@12"
+    },
+    {
+      "offset": 26154,
+      "name": "_gethostbyaddr@12"
+    },
+    {
+      "offset": 26264,
+      "name": "__imp__getaddrinfo@16"
+    },
+    {
+      "offset": 26264,
+      "name": "_getaddrinfo@16"
+    },
+    {
+      "offset": 26372,
+      "name": "__imp__freeaddrinfo@4"
+    },
+    {
+      "offset": 26372,
+      "name": "_freeaddrinfo@4"
+    },
+    {
+      "offset": 26480,
+      "name": "__imp__connect@12"
+    },
+    {
+      "offset": 26480,
+      "name": "_connect@12"
+    },
+    {
+      "offset": 26584,
+      "name": "__imp__closesocket@4"
+    },
+    {
+      "offset": 26584,
+      "name": "_closesocket@4"
+    },
+    {
+      "offset": 26690,
+      "name": "__imp__bind@12"
+    },
+    {
+      "offset": 26690,
+      "name": "_bind@12"
+    },
+    {
+      "offset": 26790,
+      "name": "__imp__accept@12"
+    },
+    {
+      "offset": 26790,
+      "name": "_accept@12"
+    },
+    {
+      "offset": 26892,
+      "name": "___WSAFDIsSet@8"
+    },
+    {
+      "offset": 26892,
+      "name": "__imp____WSAFDIsSet@8"
+    },
+    {
+      "offset": 27000,
+      "name": "_WahWriteLSPEvent@8"
+    },
+    {
+      "offset": 27000,
+      "name": "__imp__WahWriteLSPEvent@8"
+    },
+    {
+      "offset": 27112,
+      "name": "_WahWaitForNotification@16"
+    },
+    {
+      "offset": 27112,
+      "name": "__imp__WahWaitForNotification@16"
+    },
+    {
+      "offset": 27230,
+      "name": "_WahRemoveHandleContext@8"
+    },
+    {
+      "offset": 27230,
+      "name": "__imp__WahRemoveHandleContext@8"
+    },
+    {
+      "offset": 27348,
+      "name": "_WahReferenceContextByHandle@8"
+    },
+    {
+      "offset": 27348,
+      "name": "__imp__WahReferenceContextByHandle@8"
+    },
+    {
+      "offset": 27470,
+      "name": "_WahQueueUserApc@16"
+    },
+    {
+      "offset": 27470,
+      "name": "__imp__WahQueueUserApc@16"
+    },
+    {
+      "offset": 27582,
+      "name": "_WahOpenNotificationHandleHelper@4"
+    },
+    {
+      "offset": 27582,
+      "name": "__imp__WahOpenNotificationHandleHelper@4"
+    },
+    {
+      "offset": 27708,
+      "name": "_WahOpenHandleHelper@4"
+    },
+    {
+      "offset": 27708,
+      "name": "__imp__WahOpenHandleHelper@4"
+    },
+    {
+      "offset": 27822,
+      "name": "_WahOpenCurrentThread@8"
+    },
+    {
+      "offset": 27822,
+      "name": "__imp__WahOpenCurrentThread@8"
+    },
+    {
+      "offset": 27938,
+      "name": "_WahOpenApcHelper@4"
+    },
+    {
+      "offset": 27938,
+      "name": "__imp__WahOpenApcHelper@4"
+    },
+    {
+      "offset": 28050,
+      "name": "_WahNotifyAllProcesses@4"
+    },
+    {
+      "offset": 28050,
+      "name": "__imp__WahNotifyAllProcesses@4"
+    },
+    {
+      "offset": 28166,
+      "name": "_WahInsertHandleContext@8"
+    },
+    {
+      "offset": 28166,
+      "name": "__imp__WahInsertHandleContext@8"
+    },
+    {
+      "offset": 28284,
+      "name": "_WahEnumerateHandleContexts@12"
+    },
+    {
+      "offset": 28284,
+      "name": "__imp__WahEnumerateHandleContexts@12"
+    },
+    {
+      "offset": 28406,
+      "name": "_WahEnableNonIFSHandleSupport@0"
+    },
+    {
+      "offset": 28406,
+      "name": "__imp__WahEnableNonIFSHandleSupport@0"
+    },
+    {
+      "offset": 28530,
+      "name": "_WahDisableNonIFSHandleSupport@0"
+    },
+    {
+      "offset": 28530,
+      "name": "__imp__WahDisableNonIFSHandleSupport@0"
+    },
+    {
+      "offset": 28654,
+      "name": "_WahDestroyHandleContextTable@4"
+    },
+    {
+      "offset": 28654,
+      "name": "__imp__WahDestroyHandleContextTable@4"
+    },
+    {
+      "offset": 28778,
+      "name": "_WahCreateSocketHandle@8"
+    },
+    {
+      "offset": 28778,
+      "name": "__imp__WahCreateSocketHandle@8"
+    },
+    {
+      "offset": 28894,
+      "name": "_WahCreateNotificationHandle@8"
+    },
+    {
+      "offset": 28894,
+      "name": "__imp__WahCreateNotificationHandle@8"
+    },
+    {
+      "offset": 29016,
+      "name": "_WahCreateHandleContextTable@4"
+    },
+    {
+      "offset": 29016,
+      "name": "__imp__WahCreateHandleContextTable@4"
+    },
+    {
+      "offset": 29138,
+      "name": "_WahCompleteRequest@20"
+    },
+    {
+      "offset": 29138,
+      "name": "__imp__WahCompleteRequest@20"
+    },
+    {
+      "offset": 29252,
+      "name": "_WahCloseThread@8"
+    },
+    {
+      "offset": 29252,
+      "name": "__imp__WahCloseThread@8"
+    },
+    {
+      "offset": 29362,
+      "name": "_WahCloseSocketHandle@8"
+    },
+    {
+      "offset": 29362,
+      "name": "__imp__WahCloseSocketHandle@8"
+    },
+    {
+      "offset": 29478,
+      "name": "_WahCloseNotificationHandleHelper@4"
+    },
+    {
+      "offset": 29478,
+      "name": "__imp__WahCloseNotificationHandleHelper@4"
+    },
+    {
+      "offset": 29606,
+      "name": "_WahCloseHandleHelper@4"
+    },
+    {
+      "offset": 29606,
+      "name": "__imp__WahCloseHandleHelper@4"
+    },
+    {
+      "offset": 29722,
+      "name": "_WahCloseApcHelper@4"
+    },
+    {
+      "offset": 29722,
+      "name": "__imp__WahCloseApcHelper@4"
+    },
+    {
+      "offset": 29834,
+      "name": "_WSCWriteProviderOrderEx@12"
+    },
+    {
+      "offset": 29834,
+      "name": "__imp__WSCWriteProviderOrderEx@12"
+    },
+    {
+      "offset": 29954,
+      "name": "_WSCWriteProviderOrder@8"
+    },
+    {
+      "offset": 29954,
+      "name": "__imp__WSCWriteProviderOrder@8"
+    },
+    {
+      "offset": 30070,
+      "name": "_WSCWriteNameSpaceOrder@8"
+    },
+    {
+      "offset": 30070,
+      "name": "__imp__WSCWriteNameSpaceOrder@8"
+    },
+    {
+      "offset": 30188,
+      "name": "_WSCUpdateProviderEx@24"
+    },
+    {
+      "offset": 30188,
+      "name": "__imp__WSCUpdateProviderEx@24"
+    },
+    {
+      "offset": 30304,
+      "name": "_WSCUpdateProvider@20"
+    },
+    {
+      "offset": 30304,
+      "name": "__imp__WSCUpdateProvider@20"
+    },
+    {
+      "offset": 30418,
+      "name": "_WSCUnInstallNameSpaceEx2@8"
+    },
+    {
+      "offset": 30418,
+      "name": "__imp__WSCUnInstallNameSpaceEx2@8"
+    },
+    {
+      "offset": 30538,
+      "name": "_WSCUnInstallNameSpace@4"
+    },
+    {
+      "offset": 30538,
+      "name": "__imp__WSCUnInstallNameSpace@4"
+    },
+    {
+      "offset": 30654,
+      "name": "_WSCSetProviderInfo@24"
+    },
+    {
+      "offset": 30654,
+      "name": "__imp__WSCSetProviderInfo@24"
+    },
+    {
+      "offset": 30768,
+      "name": "_WSCSetApplicationCategoryEx@32"
+    },
+    {
+      "offset": 30768,
+      "name": "__imp__WSCSetApplicationCategoryEx@32"
+    },
+    {
+      "offset": 30892,
+      "name": "_WSCSetApplicationCategory@28"
+    },
+    {
+      "offset": 30892,
+      "name": "__imp__WSCSetApplicationCategory@28"
+    },
+    {
+      "offset": 31014,
+      "name": "_WSCInstallProviderEx@28"
+    },
+    {
+      "offset": 31014,
+      "name": "__imp__WSCInstallProviderEx@28"
+    },
+    {
+      "offset": 31130,
+      "name": "_WSCInstallProviderAndChains@32"
+    },
+    {
+      "offset": 31130,
+      "name": "__imp__WSCInstallProviderAndChains@32"
+    },
+    {
+      "offset": 31254,
+      "name": "_WSCInstallProvider@20"
+    },
+    {
+      "offset": 31254,
+      "name": "__imp__WSCInstallProvider@20"
+    },
+    {
+      "offset": 31368,
+      "name": "_WSCInstallNameSpaceEx@24"
+    },
+    {
+      "offset": 31368,
+      "name": "__imp__WSCInstallNameSpaceEx@24"
+    },
+    {
+      "offset": 31486,
+      "name": "_WSCInstallNameSpaceEx2@28"
+    },
+    {
+      "offset": 31486,
+      "name": "__imp__WSCInstallNameSpaceEx2@28"
+    },
+    {
+      "offset": 31604,
+      "name": "_WSCInstallNameSpace@20"
+    },
+    {
+      "offset": 31604,
+      "name": "__imp__WSCInstallNameSpace@20"
+    },
+    {
+      "offset": 31720,
+      "name": "_WSCGetProviderPath@16"
+    },
+    {
+      "offset": 31720,
+      "name": "__imp__WSCGetProviderPath@16"
+    },
+    {
+      "offset": 31834,
+      "name": "_WSCGetProviderInfo@24"
+    },
+    {
+      "offset": 31834,
+      "name": "__imp__WSCGetProviderInfo@24"
+    },
+    {
+      "offset": 31948,
+      "name": "_WSCGetApplicationCategoryEx@28"
+    },
+    {
+      "offset": 31948,
+      "name": "__imp__WSCGetApplicationCategoryEx@28"
+    },
+    {
+      "offset": 32072,
+      "name": "_WSCGetApplicationCategory@24"
+    },
+    {
+      "offset": 32072,
+      "name": "__imp__WSCGetApplicationCategory@24"
+    },
+    {
+      "offset": 32194,
+      "name": "_WSCEnumProtocolsEx@20"
+    },
+    {
+      "offset": 32194,
+      "name": "__imp__WSCEnumProtocolsEx@20"
+    },
+    {
+      "offset": 32308,
+      "name": "_WSCEnumProtocols@16"
+    },
+    {
+      "offset": 32308,
+      "name": "__imp__WSCEnumProtocols@16"
+    },
+    {
+      "offset": 32420,
+      "name": "_WSCEnableNSProvider@8"
+    },
+    {
+      "offset": 32420,
+      "name": "__imp__WSCEnableNSProvider@8"
+    },
+    {
+      "offset": 32534,
+      "name": "_WSCDeinstallProviderEx@12"
+    },
+    {
+      "offset": 32534,
+      "name": "__imp__WSCDeinstallProviderEx@12"
+    },
+    {
+      "offset": 32652,
+      "name": "_WSCDeinstallProvider@8"
+    },
+    {
+      "offset": 32652,
+      "name": "__imp__WSCDeinstallProvider@8"
+    },
+    {
+      "offset": 32768,
+      "name": "_WSAWaitForMultipleEvents@20"
+    },
+    {
+      "offset": 32768,
+      "name": "__imp__WSAWaitForMultipleEvents@20"
+    },
+    {
+      "offset": 32888,
+      "name": "_WSAUnhookBlockingHook@0"
+    },
+    {
+      "offset": 32888,
+      "name": "__imp__WSAUnhookBlockingHook@0"
+    },
+    {
+      "offset": 33004,
+      "name": "_WSAUnadvertiseProvider@4"
+    },
+    {
+      "offset": 33004,
+      "name": "__imp__WSAUnadvertiseProvider@4"
+    },
+    {
+      "offset": 33122,
+      "name": "_WSAStringToAddressW@20"
+    },
+    {
+      "offset": 33122,
+      "name": "__imp__WSAStringToAddressW@20"
+    },
+    {
+      "offset": 33238,
+      "name": "_WSAStringToAddressA@20"
+    },
+    {
+      "offset": 33238,
+      "name": "__imp__WSAStringToAddressA@20"
+    },
+    {
+      "offset": 33354,
+      "name": "_WSAStartup@8"
+    },
+    {
+      "offset": 33354,
+      "name": "__imp__WSAStartup@8"
+    },
+    {
+      "offset": 33460,
+      "name": "_WSASocketW@24"
+    },
+    {
+      "offset": 33460,
+      "name": "__imp__WSASocketW@24"
+    },
+    {
+      "offset": 33566,
+      "name": "_WSASocketA@24"
+    },
+    {
+      "offset": 33566,
+      "name": "__imp__WSASocketA@24"
+    },
+    {
+      "offset": 33672,
+      "name": "_WSASetServiceW@12"
+    },
+    {
+      "offset": 33672,
+      "name": "__imp__WSASetServiceW@12"
+    },
+    {
+      "offset": 33782,
+      "name": "_WSASetServiceA@12"
+    },
+    {
+      "offset": 33782,
+      "name": "__imp__WSASetServiceA@12"
+    },
+    {
+      "offset": 33892,
+      "name": "_WSASetLastError@4"
+    },
+    {
+      "offset": 33892,
+      "name": "__imp__WSASetLastError@4"
+    },
+    {
+      "offset": 34002,
+      "name": "_WSASetEvent@4"
+    },
+    {
+      "offset": 34002,
+      "name": "__imp__WSASetEvent@4"
+    },
+    {
+      "offset": 34108,
+      "name": "_WSASetBlockingHook@4"
+    },
+    {
+      "offset": 34108,
+      "name": "__imp__WSASetBlockingHook@4"
+    },
+    {
+      "offset": 34222,
+      "name": "_WSASendTo@36"
+    },
+    {
+      "offset": 34222,
+      "name": "__imp__WSASendTo@36"
+    },
+    {
+      "offset": 34328,
+      "name": "_WSASendMsg@24"
+    },
+    {
+      "offset": 34328,
+      "name": "__imp__WSASendMsg@24"
+    },
+    {
+      "offset": 34434,
+      "name": "_WSASendDisconnect@8"
+    },
+    {
+      "offset": 34434,
+      "name": "__imp__WSASendDisconnect@8"
+    },
+    {
+      "offset": 34546,
+      "name": "_WSASend@28"
+    },
+    {
+      "offset": 34546,
+      "name": "__imp__WSASend@28"
+    },
+    {
+      "offset": 34650,
+      "name": "_WSAResetEvent@4"
+    },
+    {
+      "offset": 34650,
+      "name": "__imp__WSAResetEvent@4"
+    },
+    {
+      "offset": 34758,
+      "name": "_WSARemoveServiceClass@4"
+    },
+    {
+      "offset": 34758,
+      "name": "__imp__WSARemoveServiceClass@4"
+    },
+    {
+      "offset": 34874,
+      "name": "_WSARecvFrom@36"
+    },
+    {
+      "offset": 34874,
+      "name": "__imp__WSARecvFrom@36"
+    },
+    {
+      "offset": 34982,
+      "name": "_WSARecvDisconnect@8"
+    },
+    {
+      "offset": 34982,
+      "name": "__imp__WSARecvDisconnect@8"
+    },
+    {
+      "offset": 35094,
+      "name": "_WSARecv@28"
+    },
+    {
+      "offset": 35094,
+      "name": "__imp__WSARecv@28"
+    },
+    {
+      "offset": 35198,
+      "name": "_WSAProviderConfigChange@12"
+    },
+    {
+      "offset": 35198,
+      "name": "__imp__WSAProviderConfigChange@12"
+    },
+    {
+      "offset": 35318,
+      "name": "_WSAProviderCompleteAsyncCall@8"
+    },
+    {
+      "offset": 35318,
+      "name": "__imp__WSAProviderCompleteAsyncCall@8"
+    },
+    {
+      "offset": 35442,
+      "name": "_WSAPoll@12"
+    },
+    {
+      "offset": 35442,
+      "name": "__imp__WSAPoll@12"
+    },
+    {
+      "offset": 35546,
+      "name": "_WSANtohs@12"
+    },
+    {
+      "offset": 35546,
+      "name": "__imp__WSANtohs@12"
+    },
+    {
+      "offset": 35650,
+      "name": "_WSANtohl@12"
+    },
+    {
+      "offset": 35650,
+      "name": "__imp__WSANtohl@12"
+    },
+    {
+      "offset": 35754,
+      "name": "_WSANSPIoctl@32"
+    },
+    {
+      "offset": 35754,
+      "name": "__imp__WSANSPIoctl@32"
+    },
+    {
+      "offset": 35862,
+      "name": "_WSALookupServiceNextW@16"
+    },
+    {
+      "offset": 35862,
+      "name": "__imp__WSALookupServiceNextW@16"
+    },
+    {
+      "offset": 35980,
+      "name": "_WSALookupServiceNextA@16"
+    },
+    {
+      "offset": 35980,
+      "name": "__imp__WSALookupServiceNextA@16"
+    },
+    {
+      "offset": 36098,
+      "name": "_WSALookupServiceEnd@4"
+    },
+    {
+      "offset": 36098,
+      "name": "__imp__WSALookupServiceEnd@4"
+    },
+    {
+      "offset": 36212,
+      "name": "_WSALookupServiceBeginW@12"
+    },
+    {
+      "offset": 36212,
+      "name": "__imp__WSALookupServiceBeginW@12"
+    },
+    {
+      "offset": 36330,
+      "name": "_WSALookupServiceBeginA@12"
+    },
+    {
+      "offset": 36330,
+      "name": "__imp__WSALookupServiceBeginA@12"
+    },
+    {
+      "offset": 36448,
+      "name": "_WSAJoinLeaf@32"
+    },
+    {
+      "offset": 36448,
+      "name": "__imp__WSAJoinLeaf@32"
+    },
+    {
+      "offset": 36556,
+      "name": "_WSAIsBlocking@0"
+    },
+    {
+      "offset": 36556,
+      "name": "__imp__WSAIsBlocking@0"
+    },
+    {
+      "offset": 36664,
+      "name": "_WSAIoctl@36"
+    },
+    {
+      "offset": 36664,
+      "name": "__imp__WSAIoctl@36"
+    },
+    {
+      "offset": 36768,
+      "name": "_WSAInstallServiceClassW@4"
+    },
+    {
+      "offset": 36768,
+      "name": "__imp__WSAInstallServiceClassW@4"
+    },
+    {
+      "offset": 36886,
+      "name": "_WSAInstallServiceClassA@4"
+    },
+    {
+      "offset": 36886,
+      "name": "__imp__WSAInstallServiceClassA@4"
+    },
+    {
+      "offset": 37004,
+      "name": "_WSAHtons@12"
+    },
+    {
+      "offset": 37004,
+      "name": "__imp__WSAHtons@12"
+    },
+    {
+      "offset": 37108,
+      "name": "_WSAHtonl@12"
+    },
+    {
+      "offset": 37108,
+      "name": "__imp__WSAHtonl@12"
+    },
+    {
+      "offset": 37212,
+      "name": "_WSAGetServiceClassNameByClassIdW@12"
+    },
+    {
+      "offset": 37212,
+      "name": "__imp__WSAGetServiceClassNameByClassIdW@12"
+    },
+    {
+      "offset": 37340,
+      "name": "_WSAGetServiceClassNameByClassIdA@12"
+    },
+    {
+      "offset": 37340,
+      "name": "__imp__WSAGetServiceClassNameByClassIdA@12"
+    },
+    {
+      "offset": 37468,
+      "name": "_WSAGetServiceClassInfoW@16"
+    },
+    {
+      "offset": 37468,
+      "name": "__imp__WSAGetServiceClassInfoW@16"
+    },
+    {
+      "offset": 37588,
+      "name": "_WSAGetServiceClassInfoA@16"
+    },
+    {
+      "offset": 37588,
+      "name": "__imp__WSAGetServiceClassInfoA@16"
+    },
+    {
+      "offset": 37708,
+      "name": "_WSAGetQOSByName@12"
+    },
+    {
+      "offset": 37708,
+      "name": "__imp__WSAGetQOSByName@12"
+    },
+    {
+      "offset": 37820,
+      "name": "_WSAGetOverlappedResult@20"
+    },
+    {
+      "offset": 37820,
+      "name": "__imp__WSAGetOverlappedResult@20"
+    },
+    {
+      "offset": 37938,
+      "name": "_WSAGetLastError@0"
+    },
+    {
+      "offset": 37938,
+      "name": "__imp__WSAGetLastError@0"
+    },
+    {
+      "offset": 38048,
+      "name": "_WSAEventSelect@12"
+    },
+    {
+      "offset": 38048,
+      "name": "__imp__WSAEventSelect@12"
+    },
+    {
+      "offset": 38158,
+      "name": "_WSAEnumProtocolsW@12"
+    },
+    {
+      "offset": 38158,
+      "name": "__imp__WSAEnumProtocolsW@12"
+    },
+    {
+      "offset": 38272,
+      "name": "_WSAEnumProtocolsA@12"
+    },
+    {
+      "offset": 38272,
+      "name": "__imp__WSAEnumProtocolsA@12"
+    },
+    {
+      "offset": 38386,
+      "name": "_WSAEnumNetworkEvents@12"
+    },
+    {
+      "offset": 38386,
+      "name": "__imp__WSAEnumNetworkEvents@12"
+    },
+    {
+      "offset": 38502,
+      "name": "_WSAEnumNameSpaceProvidersW@8"
+    },
+    {
+      "offset": 38502,
+      "name": "__imp__WSAEnumNameSpaceProvidersW@8"
+    },
+    {
+      "offset": 38624,
+      "name": "_WSAEnumNameSpaceProvidersExW@8"
+    },
+    {
+      "offset": 38624,
+      "name": "__imp__WSAEnumNameSpaceProvidersExW@8"
+    },
+    {
+      "offset": 38748,
+      "name": "_WSAEnumNameSpaceProvidersExA@8"
+    },
+    {
+      "offset": 38748,
+      "name": "__imp__WSAEnumNameSpaceProvidersExA@8"
+    },
+    {
+      "offset": 38872,
+      "name": "_WSAEnumNameSpaceProvidersA@8"
+    },
+    {
+      "offset": 38872,
+      "name": "__imp__WSAEnumNameSpaceProvidersA@8"
+    },
+    {
+      "offset": 38994,
+      "name": "_WSADuplicateSocketW@12"
+    },
+    {
+      "offset": 38994,
+      "name": "__imp__WSADuplicateSocketW@12"
+    },
+    {
+      "offset": 39110,
+      "name": "_WSADuplicateSocketA@12"
+    },
+    {
+      "offset": 39110,
+      "name": "__imp__WSADuplicateSocketA@12"
+    },
+    {
+      "offset": 39226,
+      "name": "_WSACreateEvent@0"
+    },
+    {
+      "offset": 39226,
+      "name": "__imp__WSACreateEvent@0"
+    },
+    {
+      "offset": 39336,
+      "name": "_WSAConnectByNameW@36"
+    },
+    {
+      "offset": 39336,
+      "name": "__imp__WSAConnectByNameW@36"
+    },
+    {
+      "offset": 39450,
+      "name": "_WSAConnectByNameA@36"
+    },
+    {
+      "offset": 39450,
+      "name": "__imp__WSAConnectByNameA@36"
+    },
+    {
+      "offset": 39564,
+      "name": "_WSAConnectByList@32"
+    },
+    {
+      "offset": 39564,
+      "name": "__imp__WSAConnectByList@32"
+    },
+    {
+      "offset": 39676,
+      "name": "_WSAConnect@28"
+    },
+    {
+      "offset": 39676,
+      "name": "__imp__WSAConnect@28"
+    },
+    {
+      "offset": 39782,
+      "name": "_WSACloseEvent@4"
+    },
+    {
+      "offset": 39782,
+      "name": "__imp__WSACloseEvent@4"
+    },
+    {
+      "offset": 39890,
+      "name": "_WSACleanup@0"
+    },
+    {
+      "offset": 39890,
+      "name": "__imp__WSACleanup@0"
+    },
+    {
+      "offset": 39996,
+      "name": "_WSACancelBlockingCall@0"
+    },
+    {
+      "offset": 39996,
+      "name": "__imp__WSACancelBlockingCall@0"
+    },
+    {
+      "offset": 40112,
+      "name": "_WSACancelAsyncRequest@4"
+    },
+    {
+      "offset": 40112,
+      "name": "__imp__WSACancelAsyncRequest@4"
+    },
+    {
+      "offset": 40228,
+      "name": "_WSAAsyncSelect@16"
+    },
+    {
+      "offset": 40228,
+      "name": "__imp__WSAAsyncSelect@16"
+    },
+    {
+      "offset": 40338,
+      "name": "_WSAAsyncGetServByPort@24"
+    },
+    {
+      "offset": 40338,
+      "name": "__imp__WSAAsyncGetServByPort@24"
+    },
+    {
+      "offset": 40456,
+      "name": "_WSAAsyncGetServByName@24"
+    },
+    {
+      "offset": 40456,
+      "name": "__imp__WSAAsyncGetServByName@24"
+    },
+    {
+      "offset": 40574,
+      "name": "_WSAAsyncGetProtoByNumber@20"
+    },
+    {
+      "offset": 40574,
+      "name": "__imp__WSAAsyncGetProtoByNumber@20"
+    },
+    {
+      "offset": 40694,
+      "name": "_WSAAsyncGetProtoByName@20"
+    },
+    {
+      "offset": 40694,
+      "name": "__imp__WSAAsyncGetProtoByName@20"
+    },
+    {
+      "offset": 40812,
+      "name": "_WSAAsyncGetHostByName@20"
+    },
+    {
+      "offset": 40812,
+      "name": "__imp__WSAAsyncGetHostByName@20"
+    },
+    {
+      "offset": 40930,
+      "name": "_WSAAsyncGetHostByAddr@28"
+    },
+    {
+      "offset": 40930,
+      "name": "__imp__WSAAsyncGetHostByAddr@28"
+    },
+    {
+      "offset": 41048,
+      "name": "_WSAAdvertiseProvider@8"
+    },
+    {
+      "offset": 41048,
+      "name": "__imp__WSAAdvertiseProvider@8"
+    },
+    {
+      "offset": 41164,
+      "name": "_WSAAddressToStringW@20"
+    },
+    {
+      "offset": 41164,
+      "name": "__imp__WSAAddressToStringW@20"
+    },
+    {
+      "offset": 41280,
+      "name": "_WSAAddressToStringA@20"
+    },
+    {
+      "offset": 41280,
+      "name": "__imp__WSAAddressToStringA@20"
+    },
+    {
+      "offset": 41396,
+      "name": "_WSAAccept@20"
+    },
+    {
+      "offset": 41396,
+      "name": "__imp__WSAAccept@20"
+    },
+    {
+      "offset": 41502,
+      "name": "_WPUGetProviderPathEx@20"
+    },
+    {
+      "offset": 41502,
+      "name": "__imp__WPUGetProviderPathEx@20"
+    },
+    {
+      "offset": 41618,
+      "name": "_WPUCompleteOverlappedRequest@20"
+    },
+    {
+      "offset": 41618,
+      "name": "__imp__WPUCompleteOverlappedRequest@20"
+    },
+    {
+      "offset": 41742,
+      "name": "_WEP@0"
+    },
+    {
+      "offset": 41742,
+      "name": "__imp__WEP@0"
+    },
+    {
+      "offset": 41840,
+      "name": "_SetAddrInfoExW@48"
+    },
+    {
+      "offset": 41840,
+      "name": "__imp__SetAddrInfoExW@48"
+    },
+    {
+      "offset": 41950,
+      "name": "_SetAddrInfoExA@48"
+    },
+    {
+      "offset": 41950,
+      "name": "__imp__SetAddrInfoExA@48"
+    },
+    {
+      "offset": 42060,
+      "name": "_ProcessSocketNotifications@28"
+    },
+    {
+      "offset": 42060,
+      "name": "__imp__ProcessSocketNotifications@28"
+    },
+    {
+      "offset": 42182,
+      "name": "_InetPtonW@12"
+    },
+    {
+      "offset": 42182,
+      "name": "__imp__InetPtonW@12"
+    },
+    {
+      "offset": 42288,
+      "name": "_InetNtopW@16"
+    },
+    {
+      "offset": 42288,
+      "name": "__imp__InetNtopW@16"
+    },
+    {
+      "offset": 42394,
+      "name": "_GetNameInfoW@28"
+    },
+    {
+      "offset": 42394,
+      "name": "__imp__GetNameInfoW@28"
+    },
+    {
+      "offset": 42502,
+      "name": "_GetHostNameW@8"
+    },
+    {
+      "offset": 42502,
+      "name": "__imp__GetHostNameW@8"
+    },
+    {
+      "offset": 42610,
+      "name": "_GetAddrInfoW@16"
+    },
+    {
+      "offset": 42610,
+      "name": "__imp__GetAddrInfoW@16"
+    },
+    {
+      "offset": 42718,
+      "name": "_GetAddrInfoExW@40"
+    },
+    {
+      "offset": 42718,
+      "name": "__imp__GetAddrInfoExW@40"
+    },
+    {
+      "offset": 42828,
+      "name": "_GetAddrInfoExOverlappedResult@4"
+    },
+    {
+      "offset": 42828,
+      "name": "__imp__GetAddrInfoExOverlappedResult@4"
+    },
+    {
+      "offset": 42952,
+      "name": "_GetAddrInfoExCancel@4"
+    },
+    {
+      "offset": 42952,
+      "name": "__imp__GetAddrInfoExCancel@4"
+    },
+    {
+      "offset": 43066,
+      "name": "_GetAddrInfoExA@40"
+    },
+    {
+      "offset": 43066,
+      "name": "__imp__GetAddrInfoExA@40"
+    },
+    {
+      "offset": 43176,
+      "name": "_FreeAddrInfoW@4"
+    },
+    {
+      "offset": 43176,
+      "name": "__imp__FreeAddrInfoW@4"
+    },
+    {
+      "offset": 43284,
+      "name": "_FreeAddrInfoExW@4"
+    },
+    {
+      "offset": 43284,
+      "name": "__imp__FreeAddrInfoExW@4"
+    },
+    {
+      "offset": 43394,
+      "name": "_FreeAddrInfoEx@4"
+    },
+    {
+      "offset": 43394,
+      "name": "__imp__FreeAddrInfoEx@4"
+    },
+    {
+      "offset": 43504,
+      "name": "?WSApSetPostRoutine@@YGHPAX@Z"
+    },
+    {
+      "offset": 43504,
+      "name": "__imp_?WSApSetPostRoutine@@YGHPAX@Z"
+    },
+    {
+      "offset": 43626,
+      "name": "WS2_32_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 43962,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 44272,
+      "name": "__IMPORT_DESCRIPTOR_WS2_32"
+    },
+    {
+      "offset": 44822,
+      "name": "??_C@_13CGOKJPIL@?$AA?1@"
+    },
+    {
+      "offset": 44822,
+      "name": "??_C@_13FPGAJAPJ@?$AA?2@"
+    },
+    {
+      "offset": 44822,
+      "name": "??_C@_15MNCACJLI@?$AA?2?$AA?1@"
+    },
+    {
+      "offset": 44822,
+      "name": "_AddressFamilyInformation"
+    },
+    {
+      "offset": 44822,
+      "name": "_BUGCHECK_EFI_GUID"
+    },
+    {
+      "offset": 44822,
+      "name": "_ExPoolZeroingNativelySupported"
+    },
+    {
+      "offset": 44822,
+      "name": "_RtlAlternateDosPathSeperatorString"
+    },
+    {
+      "offset": 44822,
+      "name": "_RtlDosPathSeperatorsString"
+    },
+    {
+      "offset": 44822,
+      "name": "_RtlNtPathSeperatorString"
+    },
+    {
+      "offset": 44822,
+      "name": "_eui48_broadcast"
+    },
+    {
+      "offset": 44822,
+      "name": "_in4addr_alligmpv3routersonlink"
+    },
+    {
+      "offset": 44822,
+      "name": "_in4addr_allnodesonlink"
+    },
+    {
+      "offset": 44822,
+      "name": "_in4addr_allroutersonlink"
+    },
+    {
+      "offset": 44822,
+      "name": "_in4addr_allteredohostsonlink"
+    },
+    {
+      "offset": 44822,
+      "name": "_in4addr_any"
+    },
+    {
+      "offset": 44822,
+      "name": "_in4addr_broadcast"
+    },
+    {
+      "offset": 44822,
+      "name": "_in4addr_linklocalprefix"
+    },
+    {
+      "offset": 44822,
+      "name": "_in4addr_loopback"
+    },
+    {
+      "offset": 44822,
+      "name": "_in4addr_multicastprefix"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_6to4prefix"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_allmldv2routersonlink"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_allnodesonlink"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_allnodesonnode"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_allroutersonlink"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_any"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_linklocalprefix"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_loopback"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_multicastprefix"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_solicitednodemulticastprefix"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_teredoinitiallinklocaladdress"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_teredoprefix"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_teredoprefix_old"
+    },
+    {
+      "offset": 44822,
+      "name": "_in6addr_v4mappedprefix"
+    },
+    {
+      "offset": 44822,
+      "name": "_scopeid_unspecified"
+    },
+    {
+      "offset": 162002,
+      "name": "_HV_GUID_BROADCAST"
+    },
+    {
+      "offset": 162002,
+      "name": "_HV_GUID_CHILDREN"
+    },
+    {
+      "offset": 162002,
+      "name": "_HV_GUID_LOOPBACK"
+    },
+    {
+      "offset": 162002,
+      "name": "_HV_GUID_PARENT"
+    },
+    {
+      "offset": 162002,
+      "name": "_HV_GUID_SILOHOST"
+    },
+    {
+      "offset": 162002,
+      "name": "_HV_GUID_VSOCK_TEMPLATE"
+    },
+    {
+      "offset": 162002,
+      "name": "_HV_GUID_ZERO"
+    },
+    {
+      "offset": 162002,
+      "name": "_sockaddr_size"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 23222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3463373579,
+      "sizeOfData": 22,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_socket@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 23
+    },
+    {
+      "offset": 23324,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3834870220,
+      "sizeOfData": 23,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_shutdown@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 22
+    },
+    {
+      "offset": 23428,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3347885918,
+      "sizeOfData": 26,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_setsockopt@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 21
+    },
+    {
+      "offset": 23534,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3992720758,
+      "sizeOfData": 22,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_sendto@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 20
+    },
+    {
+      "offset": 23636,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3648442578,
+      "sizeOfData": 20,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_send@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 19
+    },
+    {
+      "offset": 23736,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4049660527,
+      "sizeOfData": 22,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_select@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 18
+    },
+    {
+      "offset": 23838,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3296629870,
+      "sizeOfData": 24,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_recvfrom@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 17
+    },
+    {
+      "offset": 23942,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4291536363,
+      "sizeOfData": 20,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_recv@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 16
+    },
+    {
+      "offset": 24042,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4053428074,
+      "sizeOfData": 20,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_ntohs@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 15
+    },
+    {
+      "offset": 24142,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4080209068,
+      "sizeOfData": 20,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_ntohl@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 14
+    },
+    {
+      "offset": 24242,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3723009619,
+      "sizeOfData": 21,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_listen@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 13
+    },
+    {
+      "offset": 24344,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3364093404,
+      "sizeOfData": 27,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_ioctlsocket@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 10
+    },
+    {
+      "offset": 24452,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3757529939,
+      "sizeOfData": 25,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_inet_pton@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 168,
+      "name": "inet_pton"
+    },
+    {
+      "offset": 24558,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3432740447,
+      "sizeOfData": 25,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_inet_ntop@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 167,
+      "name": "inet_ntop"
+    },
+    {
+      "offset": 24664,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3771628629,
+      "sizeOfData": 24,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_inet_ntoa@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 12
+    },
+    {
+      "offset": 24768,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3765990939,
+      "sizeOfData": 24,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_inet_addr@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 11
+    },
+    {
+      "offset": 24872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3510721599,
+      "sizeOfData": 20,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_htons@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 9
+    },
+    {
+      "offset": 24972,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3459940536,
+      "sizeOfData": 20,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_htonl@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 8
+    },
+    {
+      "offset": 25072,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4253854865,
+      "sizeOfData": 26,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_getsockopt@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 7
+    },
+    {
+      "offset": 25178,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3727667891,
+      "sizeOfData": 27,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_getsockname@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 6
+    },
+    {
+      "offset": 25286,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3686234473,
+      "sizeOfData": 28,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_getservbyport@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 56
+    },
+    {
+      "offset": 25394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4001058423,
+      "sizeOfData": 28,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_getservbyname@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 55
+    },
+    {
+      "offset": 25502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4216753522,
+      "sizeOfData": 31,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_getprotobynumber@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 54
+    },
+    {
+      "offset": 25614,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3417576233,
+      "sizeOfData": 29,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_getprotobyname@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 53
+    },
+    {
+      "offset": 25724,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4192306642,
+      "sizeOfData": 27,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_getpeername@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 5
+    },
+    {
+      "offset": 25832,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4094444305,
+      "sizeOfData": 27,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_getnameinfo@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 155,
+      "name": "getnameinfo"
+    },
+    {
+      "offset": 25940,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3901918256,
+      "sizeOfData": 26,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_gethostname@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 57
+    },
+    {
+      "offset": 26046,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3805747715,
+      "sizeOfData": 28,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_gethostbyname@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 52
+    },
+    {
+      "offset": 26154,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3244791109,
+      "sizeOfData": 29,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_gethostbyaddr@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 51
+    },
+    {
+      "offset": 26264,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3983097428,
+      "sizeOfData": 27,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_getaddrinfo@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 151,
+      "name": "getaddrinfo"
+    },
+    {
+      "offset": 26372,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3937042518,
+      "sizeOfData": 27,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_freeaddrinfo@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 150,
+      "name": "freeaddrinfo"
+    },
+    {
+      "offset": 26480,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3960281864,
+      "sizeOfData": 23,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_connect@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 4
+    },
+    {
+      "offset": 26584,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3820623434,
+      "sizeOfData": 26,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_closesocket@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 3
+    },
+    {
+      "offset": 26690,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4010866293,
+      "sizeOfData": 20,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_bind@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 2
+    },
+    {
+      "offset": 26790,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3450128537,
+      "sizeOfData": 22,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_accept@12",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 1
+    },
+    {
+      "offset": 26892,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3268959259,
+      "sizeOfData": 27,
+      "dllName": "WS2_32.dll",
+      "symbolName": "___WSAFDIsSet@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 151
+    },
+    {
+      "offset": 27000,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3667809109,
+      "sizeOfData": 31,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahWriteLSPEvent@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 144,
+      "name": "WahWriteLSPEvent"
+    },
+    {
+      "offset": 27112,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4159644114,
+      "sizeOfData": 38,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahWaitForNotification@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 143,
+      "name": "WahWaitForNotification"
+    },
+    {
+      "offset": 27230,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3534810430,
+      "sizeOfData": 37,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahRemoveHandleContext@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 142,
+      "name": "WahRemoveHandleContext"
+    },
+    {
+      "offset": 27348,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3625840153,
+      "sizeOfData": 42,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahReferenceContextByHandle@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 141,
+      "name": "WahReferenceContextByHandle"
+    },
+    {
+      "offset": 27470,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3291120018,
+      "sizeOfData": 31,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahQueueUserApc@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 140,
+      "name": "WahQueueUserApc"
+    },
+    {
+      "offset": 27582,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3572487957,
+      "sizeOfData": 46,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahOpenNotificationHandleHelper@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 139,
+      "name": "WahOpenNotificationHandleHelper"
+    },
+    {
+      "offset": 27708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3495992683,
+      "sizeOfData": 34,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahOpenHandleHelper@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 138,
+      "name": "WahOpenHandleHelper"
+    },
+    {
+      "offset": 27822,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3300738190,
+      "sizeOfData": 35,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahOpenCurrentThread@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 137,
+      "name": "WahOpenCurrentThread"
+    },
+    {
+      "offset": 27938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3807956604,
+      "sizeOfData": 31,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahOpenApcHelper@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 136,
+      "name": "WahOpenApcHelper"
+    },
+    {
+      "offset": 28050,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3524154474,
+      "sizeOfData": 36,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahNotifyAllProcesses@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 135,
+      "name": "WahNotifyAllProcesses"
+    },
+    {
+      "offset": 28166,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3504197683,
+      "sizeOfData": 37,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahInsertHandleContext@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 134,
+      "name": "WahInsertHandleContext"
+    },
+    {
+      "offset": 28284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3616272503,
+      "sizeOfData": 42,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahEnumerateHandleContexts@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 133,
+      "name": "WahEnumerateHandleContexts"
+    },
+    {
+      "offset": 28406,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4252208233,
+      "sizeOfData": 43,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahEnableNonIFSHandleSupport@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 132,
+      "name": "WahEnableNonIFSHandleSupport"
+    },
+    {
+      "offset": 28530,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3438007231,
+      "sizeOfData": 44,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahDisableNonIFSHandleSupport@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 131,
+      "name": "WahDisableNonIFSHandleSupport"
+    },
+    {
+      "offset": 28654,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4061950026,
+      "sizeOfData": 43,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahDestroyHandleContextTable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 130,
+      "name": "WahDestroyHandleContextTable"
+    },
+    {
+      "offset": 28778,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3251414490,
+      "sizeOfData": 36,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahCreateSocketHandle@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 129,
+      "name": "WahCreateSocketHandle"
+    },
+    {
+      "offset": 28894,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3260936828,
+      "sizeOfData": 42,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahCreateNotificationHandle@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 128,
+      "name": "WahCreateNotificationHandle"
+    },
+    {
+      "offset": 29016,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3962865235,
+      "sizeOfData": 42,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahCreateHandleContextTable@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 127,
+      "name": "WahCreateHandleContextTable"
+    },
+    {
+      "offset": 29138,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4159165686,
+      "sizeOfData": 34,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahCompleteRequest@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 126,
+      "name": "WahCompleteRequest"
+    },
+    {
+      "offset": 29252,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3331977530,
+      "sizeOfData": 29,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahCloseThread@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 125,
+      "name": "WahCloseThread"
+    },
+    {
+      "offset": 29362,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3996150098,
+      "sizeOfData": 35,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahCloseSocketHandle@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 124,
+      "name": "WahCloseSocketHandle"
+    },
+    {
+      "offset": 29478,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3637214030,
+      "sizeOfData": 47,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahCloseNotificationHandleHelper@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 123,
+      "name": "WahCloseNotificationHandleHelper"
+    },
+    {
+      "offset": 29606,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3386028415,
+      "sizeOfData": 35,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahCloseHandleHelper@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 122,
+      "name": "WahCloseHandleHelper"
+    },
+    {
+      "offset": 29722,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3883364756,
+      "sizeOfData": 32,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WahCloseApcHelper@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 121,
+      "name": "WahCloseApcHelper"
+    },
+    {
+      "offset": 29834,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3799517223,
+      "sizeOfData": 39,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCWriteProviderOrderEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 120,
+      "name": "WSCWriteProviderOrderEx"
+    },
+    {
+      "offset": 29954,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3345063572,
+      "sizeOfData": 36,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCWriteProviderOrder@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 119,
+      "name": "WSCWriteProviderOrder"
+    },
+    {
+      "offset": 30070,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4084356059,
+      "sizeOfData": 37,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCWriteNameSpaceOrder@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 118,
+      "name": "WSCWriteNameSpaceOrder"
+    },
+    {
+      "offset": 30188,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4233411573,
+      "sizeOfData": 35,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCUpdateProviderEx@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 117,
+      "name": "WSCUpdateProviderEx"
+    },
+    {
+      "offset": 30304,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3468892265,
+      "sizeOfData": 33,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCUpdateProvider@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 116,
+      "name": "WSCUpdateProvider"
+    },
+    {
+      "offset": 30418,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3574024675,
+      "sizeOfData": 39,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCUnInstallNameSpaceEx2@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 115,
+      "name": "WSCUnInstallNameSpaceEx2"
+    },
+    {
+      "offset": 30538,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4239362845,
+      "sizeOfData": 36,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCUnInstallNameSpace@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 114,
+      "name": "WSCUnInstallNameSpace"
+    },
+    {
+      "offset": 30654,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3870050060,
+      "sizeOfData": 34,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCSetProviderInfo@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 113,
+      "name": "WSCSetProviderInfo"
+    },
+    {
+      "offset": 30768,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3659576797,
+      "sizeOfData": 43,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCSetApplicationCategoryEx@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 112,
+      "name": "WSCSetApplicationCategoryEx"
+    },
+    {
+      "offset": 30892,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3237638923,
+      "sizeOfData": 41,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCSetApplicationCategory@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 111,
+      "name": "WSCSetApplicationCategory"
+    },
+    {
+      "offset": 31014,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3280036223,
+      "sizeOfData": 36,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCInstallProviderEx@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 110,
+      "name": "WSCInstallProviderEx"
+    },
+    {
+      "offset": 31130,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3880099730,
+      "sizeOfData": 43,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCInstallProviderAndChains@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 109,
+      "name": "WSCInstallProviderAndChains"
+    },
+    {
+      "offset": 31254,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4205480544,
+      "sizeOfData": 34,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCInstallProvider@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 108,
+      "name": "WSCInstallProvider"
+    },
+    {
+      "offset": 31368,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3595975303,
+      "sizeOfData": 37,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCInstallNameSpaceEx@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 106,
+      "name": "WSCInstallNameSpaceEx"
+    },
+    {
+      "offset": 31486,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3714589233,
+      "sizeOfData": 38,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCInstallNameSpaceEx2@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 107,
+      "name": "WSCInstallNameSpaceEx2"
+    },
+    {
+      "offset": 31604,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4153816909,
+      "sizeOfData": 35,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCInstallNameSpace@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 105,
+      "name": "WSCInstallNameSpace"
+    },
+    {
+      "offset": 31720,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3843553310,
+      "sizeOfData": 34,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCGetProviderPath@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 104,
+      "name": "WSCGetProviderPath"
+    },
+    {
+      "offset": 31834,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3829817027,
+      "sizeOfData": 34,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCGetProviderInfo@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 103,
+      "name": "WSCGetProviderInfo"
+    },
+    {
+      "offset": 31948,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3675760406,
+      "sizeOfData": 43,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCGetApplicationCategoryEx@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 102,
+      "name": "WSCGetApplicationCategoryEx"
+    },
+    {
+      "offset": 32072,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4255539054,
+      "sizeOfData": 41,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCGetApplicationCategory@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 101,
+      "name": "WSCGetApplicationCategory"
+    },
+    {
+      "offset": 32194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3872639177,
+      "sizeOfData": 34,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCEnumProtocolsEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 100,
+      "name": "WSCEnumProtocolsEx"
+    },
+    {
+      "offset": 32308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4142339066,
+      "sizeOfData": 32,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCEnumProtocols@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 99,
+      "name": "WSCEnumProtocols"
+    },
+    {
+      "offset": 32420,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3321853938,
+      "sizeOfData": 34,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCEnableNSProvider@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 98,
+      "name": "WSCEnableNSProvider"
+    },
+    {
+      "offset": 32534,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3521151218,
+      "sizeOfData": 38,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCDeinstallProviderEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 97,
+      "name": "WSCDeinstallProviderEx"
+    },
+    {
+      "offset": 32652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3695129340,
+      "sizeOfData": 35,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSCDeinstallProvider@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 96,
+      "name": "WSCDeinstallProvider"
+    },
+    {
+      "offset": 32768,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3432610858,
+      "sizeOfData": 40,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAWaitForMultipleEvents@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 94,
+      "name": "WSAWaitForMultipleEvents"
+    },
+    {
+      "offset": 32888,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3688194228,
+      "sizeOfData": 36,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAUnhookBlockingHook@0",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 110
+    },
+    {
+      "offset": 33004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3760009982,
+      "sizeOfData": 37,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAUnadvertiseProvider@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 92,
+      "name": "WSAUnadvertiseProvider"
+    },
+    {
+      "offset": 33122,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3771696719,
+      "sizeOfData": 35,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAStringToAddressW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 91,
+      "name": "WSAStringToAddressW"
+    },
+    {
+      "offset": 33238,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3986497005,
+      "sizeOfData": 35,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAStringToAddressA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 90,
+      "name": "WSAStringToAddressA"
+    },
+    {
+      "offset": 33354,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3666497150,
+      "sizeOfData": 25,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAStartup@8",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 115
+    },
+    {
+      "offset": 33460,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4093420986,
+      "sizeOfData": 26,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSASocketW@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 88,
+      "name": "WSASocketW"
+    },
+    {
+      "offset": 33566,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3277436012,
+      "sizeOfData": 26,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSASocketA@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 87,
+      "name": "WSASocketA"
+    },
+    {
+      "offset": 33672,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4132578678,
+      "sizeOfData": 30,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSASetServiceW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 86,
+      "name": "WSASetServiceW"
+    },
+    {
+      "offset": 33782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4006593185,
+      "sizeOfData": 30,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSASetServiceA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 85,
+      "name": "WSASetServiceA"
+    },
+    {
+      "offset": 33892,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3678150804,
+      "sizeOfData": 30,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSASetLastError@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 112
+    },
+    {
+      "offset": 34002,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4145272180,
+      "sizeOfData": 26,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSASetEvent@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 83,
+      "name": "WSASetEvent"
+    },
+    {
+      "offset": 34108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3912222396,
+      "sizeOfData": 33,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSASetBlockingHook@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 109
+    },
+    {
+      "offset": 34222,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4025110426,
+      "sizeOfData": 25,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSASendTo@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 81,
+      "name": "WSASendTo"
+    },
+    {
+      "offset": 34328,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3431713966,
+      "sizeOfData": 26,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSASendMsg@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 80,
+      "name": "WSASendMsg"
+    },
+    {
+      "offset": 34434,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4217600935,
+      "sizeOfData": 32,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSASendDisconnect@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 79,
+      "name": "WSASendDisconnect"
+    },
+    {
+      "offset": 34546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4073101980,
+      "sizeOfData": 23,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSASend@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 78,
+      "name": "WSASend"
+    },
+    {
+      "offset": 34650,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3975133758,
+      "sizeOfData": 28,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAResetEvent@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 77,
+      "name": "WSAResetEvent"
+    },
+    {
+      "offset": 34758,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3851280753,
+      "sizeOfData": 36,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSARemoveServiceClass@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 76,
+      "name": "WSARemoveServiceClass"
+    },
+    {
+      "offset": 34874,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3245671804,
+      "sizeOfData": 27,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSARecvFrom@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 75,
+      "name": "WSARecvFrom"
+    },
+    {
+      "offset": 34982,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3714470306,
+      "sizeOfData": 32,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSARecvDisconnect@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 74,
+      "name": "WSARecvDisconnect"
+    },
+    {
+      "offset": 35094,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3406043891,
+      "sizeOfData": 23,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSARecv@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 73,
+      "name": "WSARecv"
+    },
+    {
+      "offset": 35198,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3373983427,
+      "sizeOfData": 39,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAProviderConfigChange@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 72,
+      "name": "WSAProviderConfigChange"
+    },
+    {
+      "offset": 35318,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3371306688,
+      "sizeOfData": 43,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAProviderCompleteAsyncCall@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 71,
+      "name": "WSAProviderCompleteAsyncCall"
+    },
+    {
+      "offset": 35442,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3506721188,
+      "sizeOfData": 23,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAPoll@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 70,
+      "name": "WSAPoll"
+    },
+    {
+      "offset": 35546,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3702390488,
+      "sizeOfData": 24,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSANtohs@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 69,
+      "name": "WSANtohs"
+    },
+    {
+      "offset": 35650,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3742871752,
+      "sizeOfData": 24,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSANtohl@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 68,
+      "name": "WSANtohl"
+    },
+    {
+      "offset": 35754,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4255324872,
+      "sizeOfData": 27,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSANSPIoctl@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 67,
+      "name": "WSANSPIoctl"
+    },
+    {
+      "offset": 35862,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4004647776,
+      "sizeOfData": 37,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSALookupServiceNextW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 66,
+      "name": "WSALookupServiceNextW"
+    },
+    {
+      "offset": 35980,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3862334743,
+      "sizeOfData": 37,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSALookupServiceNextA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 65,
+      "name": "WSALookupServiceNextA"
+    },
+    {
+      "offset": 36098,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3607523997,
+      "sizeOfData": 34,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSALookupServiceEnd@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 64,
+      "name": "WSALookupServiceEnd"
+    },
+    {
+      "offset": 36212,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3478354299,
+      "sizeOfData": 38,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSALookupServiceBeginW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 63,
+      "name": "WSALookupServiceBeginW"
+    },
+    {
+      "offset": 36330,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4168746226,
+      "sizeOfData": 38,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSALookupServiceBeginA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 62,
+      "name": "WSALookupServiceBeginA"
+    },
+    {
+      "offset": 36448,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3710026377,
+      "sizeOfData": 27,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAJoinLeaf@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 61,
+      "name": "WSAJoinLeaf"
+    },
+    {
+      "offset": 36556,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3622252726,
+      "sizeOfData": 28,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAIsBlocking@0",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 114
+    },
+    {
+      "offset": 36664,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3587699829,
+      "sizeOfData": 24,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAIoctl@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 59,
+      "name": "WSAIoctl"
+    },
+    {
+      "offset": 36768,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3888740144,
+      "sizeOfData": 38,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAInstallServiceClassW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 58,
+      "name": "WSAInstallServiceClassW"
+    },
+    {
+      "offset": 36886,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3649336324,
+      "sizeOfData": 38,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAInstallServiceClassA@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 57,
+      "name": "WSAInstallServiceClassA"
+    },
+    {
+      "offset": 37004,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3550458412,
+      "sizeOfData": 24,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAHtons@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 56,
+      "name": "WSAHtons"
+    },
+    {
+      "offset": 37108,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3687028618,
+      "sizeOfData": 24,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAHtonl@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 55,
+      "name": "WSAHtonl"
+    },
+    {
+      "offset": 37212,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4259542037,
+      "sizeOfData": 48,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAGetServiceClassNameByClassIdW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 54,
+      "name": "WSAGetServiceClassNameByClassIdW"
+    },
+    {
+      "offset": 37340,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3856205178,
+      "sizeOfData": 48,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAGetServiceClassNameByClassIdA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 53,
+      "name": "WSAGetServiceClassNameByClassIdA"
+    },
+    {
+      "offset": 37468,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3815238686,
+      "sizeOfData": 39,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAGetServiceClassInfoW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 52,
+      "name": "WSAGetServiceClassInfoW"
+    },
+    {
+      "offset": 37588,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3222813366,
+      "sizeOfData": 39,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAGetServiceClassInfoA@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 51,
+      "name": "WSAGetServiceClassInfoA"
+    },
+    {
+      "offset": 37708,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3743378382,
+      "sizeOfData": 31,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAGetQOSByName@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "WSAGetQOSByName"
+    },
+    {
+      "offset": 37820,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3616689386,
+      "sizeOfData": 38,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAGetOverlappedResult@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 49,
+      "name": "WSAGetOverlappedResult"
+    },
+    {
+      "offset": 37938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4251273782,
+      "sizeOfData": 30,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAGetLastError@0",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 111
+    },
+    {
+      "offset": 38048,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3721558347,
+      "sizeOfData": 30,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAEventSelect@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 47,
+      "name": "WSAEventSelect"
+    },
+    {
+      "offset": 38158,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3221359474,
+      "sizeOfData": 33,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAEnumProtocolsW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 46,
+      "name": "WSAEnumProtocolsW"
+    },
+    {
+      "offset": 38272,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4248412812,
+      "sizeOfData": 33,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAEnumProtocolsA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 45,
+      "name": "WSAEnumProtocolsA"
+    },
+    {
+      "offset": 38386,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3590737601,
+      "sizeOfData": 36,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAEnumNetworkEvents@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 44,
+      "name": "WSAEnumNetworkEvents"
+    },
+    {
+      "offset": 38502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4231469864,
+      "sizeOfData": 41,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAEnumNameSpaceProvidersW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 43,
+      "name": "WSAEnumNameSpaceProvidersW"
+    },
+    {
+      "offset": 38624,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3338293057,
+      "sizeOfData": 43,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAEnumNameSpaceProvidersExW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 42,
+      "name": "WSAEnumNameSpaceProvidersExW"
+    },
+    {
+      "offset": 38748,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3906556912,
+      "sizeOfData": 43,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAEnumNameSpaceProvidersExA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 41,
+      "name": "WSAEnumNameSpaceProvidersExA"
+    },
+    {
+      "offset": 38872,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4026913210,
+      "sizeOfData": 41,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAEnumNameSpaceProvidersA@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 40,
+      "name": "WSAEnumNameSpaceProvidersA"
+    },
+    {
+      "offset": 38994,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4269554375,
+      "sizeOfData": 35,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSADuplicateSocketW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 39,
+      "name": "WSADuplicateSocketW"
+    },
+    {
+      "offset": 39110,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4108510157,
+      "sizeOfData": 35,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSADuplicateSocketA@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 38,
+      "name": "WSADuplicateSocketA"
+    },
+    {
+      "offset": 39226,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3358622412,
+      "sizeOfData": 29,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSACreateEvent@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 37,
+      "name": "WSACreateEvent"
+    },
+    {
+      "offset": 39336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4200355002,
+      "sizeOfData": 33,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAConnectByNameW@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 36,
+      "name": "WSAConnectByNameW"
+    },
+    {
+      "offset": 39450,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3320658562,
+      "sizeOfData": 33,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAConnectByNameA@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "WSAConnectByNameA"
+    },
+    {
+      "offset": 39564,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3511996142,
+      "sizeOfData": 32,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAConnectByList@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "WSAConnectByList"
+    },
+    {
+      "offset": 39676,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4081284783,
+      "sizeOfData": 26,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAConnect@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "WSAConnect"
+    },
+    {
+      "offset": 39782,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3673919628,
+      "sizeOfData": 28,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSACloseEvent@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "WSACloseEvent"
+    },
+    {
+      "offset": 39890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3225434051,
+      "sizeOfData": 25,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSACleanup@0",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 116
+    },
+    {
+      "offset": 39996,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3303723729,
+      "sizeOfData": 36,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSACancelBlockingCall@0",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 113
+    },
+    {
+      "offset": 40112,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3638018708,
+      "sizeOfData": 36,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSACancelAsyncRequest@4",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 108
+    },
+    {
+      "offset": 40228,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4287457315,
+      "sizeOfData": 30,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAAsyncSelect@16",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 101
+    },
+    {
+      "offset": 40338,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3550195509,
+      "sizeOfData": 37,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAAsyncGetServByPort@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 106
+    },
+    {
+      "offset": 40456,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3795280487,
+      "sizeOfData": 37,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAAsyncGetServByName@24",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 107
+    },
+    {
+      "offset": 40574,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3554094674,
+      "sizeOfData": 40,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAAsyncGetProtoByNumber@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 104
+    },
+    {
+      "offset": 40694,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3765448579,
+      "sizeOfData": 38,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAAsyncGetProtoByName@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 105
+    },
+    {
+      "offset": 40812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4034210899,
+      "sizeOfData": 37,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAAsyncGetHostByName@20",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 103
+    },
+    {
+      "offset": 40930,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4030668976,
+      "sizeOfData": 37,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAAsyncGetHostByAddr@28",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 102
+    },
+    {
+      "offset": 41048,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4185339173,
+      "sizeOfData": 35,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAAdvertiseProvider@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "WSAAdvertiseProvider"
+    },
+    {
+      "offset": 41164,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3772729543,
+      "sizeOfData": 35,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAAddressToStringW@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "WSAAddressToStringW"
+    },
+    {
+      "offset": 41280,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3856969353,
+      "sizeOfData": 35,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAAddressToStringA@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "WSAAddressToStringA"
+    },
+    {
+      "offset": 41396,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3792644653,
+      "sizeOfData": 25,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WSAAccept@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "WSAAccept"
+    },
+    {
+      "offset": 41502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3408299799,
+      "sizeOfData": 36,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WPUGetProviderPathEx@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "WPUGetProviderPathEx"
+    },
+    {
+      "offset": 41618,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3651128871,
+      "sizeOfData": 44,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WPUCompleteOverlappedRequest@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "WPUCompleteOverlappedRequest"
+    },
+    {
+      "offset": 41742,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3822891148,
+      "sizeOfData": 18,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_WEP@0",
+      "type": "code",
+      "nameType": "ordinal",
+      "ordinal": 500
+    },
+    {
+      "offset": 41840,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3628228480,
+      "sizeOfData": 30,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_SetAddrInfoExW@48",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "SetAddrInfoExW"
+    },
+    {
+      "offset": 41950,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3430727262,
+      "sizeOfData": 30,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_SetAddrInfoExA@48",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "SetAddrInfoExA"
+    },
+    {
+      "offset": 42060,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4273104961,
+      "sizeOfData": 42,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_ProcessSocketNotifications@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "ProcessSocketNotifications"
+    },
+    {
+      "offset": 42182,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3674719504,
+      "sizeOfData": 25,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_InetPtonW@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "InetPtonW"
+    },
+    {
+      "offset": 42288,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3844317379,
+      "sizeOfData": 25,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_InetNtopW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "InetNtopW"
+    },
+    {
+      "offset": 42394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3557766568,
+      "sizeOfData": 28,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_GetNameInfoW@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "GetNameInfoW"
+    },
+    {
+      "offset": 42502,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3282564186,
+      "sizeOfData": 27,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_GetHostNameW@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "GetHostNameW"
+    },
+    {
+      "offset": 42610,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3427307266,
+      "sizeOfData": 28,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_GetAddrInfoW@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "GetAddrInfoW"
+    },
+    {
+      "offset": 42718,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3917002599,
+      "sizeOfData": 30,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_GetAddrInfoExW@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "GetAddrInfoExW"
+    },
+    {
+      "offset": 42828,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3579573770,
+      "sizeOfData": 44,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_GetAddrInfoExOverlappedResult@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "GetAddrInfoExOverlappedResult"
+    },
+    {
+      "offset": 42952,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3434204149,
+      "sizeOfData": 34,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_GetAddrInfoExCancel@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "GetAddrInfoExCancel"
+    },
+    {
+      "offset": 43066,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3370477683,
+      "sizeOfData": 30,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_GetAddrInfoExA@40",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "GetAddrInfoExA"
+    },
+    {
+      "offset": 43176,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3310682447,
+      "sizeOfData": 28,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_FreeAddrInfoW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "FreeAddrInfoW"
+    },
+    {
+      "offset": 43284,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4260573938,
+      "sizeOfData": 30,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_FreeAddrInfoExW@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "FreeAddrInfoExW"
+    },
+    {
+      "offset": 43394,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3648369789,
+      "sizeOfData": 29,
+      "dllName": "WS2_32.dll",
+      "symbolName": "_FreeAddrInfoEx@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "FreeAddrInfoEx"
+    },
+    {
+      "offset": 43504,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3764835667,
+      "sizeOfData": 41,
+      "dllName": "WS2_32.dll",
+      "symbolName": "?WSApSetPostRoutine@@YGHPAX@Z (int __stdcall WSApSetPostRoutine(void *))",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 95,
+      "name": "WSApSetPostRoutine"
+    }
+  ]
+}

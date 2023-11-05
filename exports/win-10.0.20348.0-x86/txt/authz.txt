@@ -1,0 +1,1004 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\authz.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     B5E size
+correct header end
+
+    75 public symbols
+
+     1746 __IMPORT_DESCRIPTOR_AUTHZ
+     1968 __NULL_IMPORT_DESCRIPTOR
+     1A9C AUTHZ_NULL_THUNK_DATA
+     24FA _AuthzInitializeResourceManager@24
+     24FA __imp__AuthzInitializeResourceManager@24
+     2578 _AuthzInitializeResourceManagerEx@12
+     2578 __imp__AuthzInitializeResourceManagerEx@12
+     2478 _AuthzInitializeRemoteResourceManager@8
+     2478 __imp__AuthzInitializeRemoteResourceManager@8
+     2004 _AuthzFreeResourceManager@4
+     2004 __imp__AuthzFreeResourceManager@4
+     20F8 _AuthzInitializeCompoundContext@12
+     20F8 __imp__AuthzInitializeCompoundContext@12
+     2278 _AuthzInitializeContextFromToken@32
+     2278 __imp__AuthzInitializeContextFromToken@32
+     21FC _AuthzInitializeContextFromSid@32
+     21FC __imp__AuthzInitializeContextFromSid@32
+     2176 _AuthzInitializeContextFromAuthzContext@28
+     2176 __imp__AuthzInitializeContextFromAuthzContext@28
+     207A _AuthzGetInformationFromContext@20
+     207A __imp__AuthzGetInformationFromContext@20
+     1C5A _AuthzAddSidsToContext@24
+     1C5A __imp__AuthzAddSidsToContext@24
+     1F28 _AuthzFreeContext@4
+     1F28 __imp__AuthzFreeContext@4
+     26E6 _AuthzModifySecurityAttributes@12
+     26E6 __imp__AuthzModifySecurityAttributes@12
+     2676 _AuthzModifyClaims@16
+     2676 __imp__AuthzModifyClaims@16
+     2762 _AuthzModifySids@16
+     2762 __imp__AuthzModifySids@16
+     2A3C _AuthzSetAppContainerInformation@16
+     2A3C __imp__AuthzSetAppContainerInformation@16
+     1BEA _AuthzAccessCheck@36
+     1BEA __imp__AuthzAccessCheck@36
+     1CCE _AuthzCachedAccessCheck@20
+     1CCE __imp__AuthzCachedAccessCheck@20
+     27D0 _AuthzOpenObjectAudit@32
+     27D0 __imp__AuthzOpenObjectAudit@32
+     1F96 _AuthzFreeHandle@4
+     1F96 __imp__AuthzFreeHandle@4
+     22F6 _AuthzInitializeObjectAccessAuditEvent
+     22F6 __imp__AuthzInitializeObjectAccessAuditEvent
+     2378 _AuthzInitializeObjectAccessAuditEvent2
+     2378 __imp__AuthzInitializeObjectAccessAuditEvent2
+     1E36 _AuthzFreeAuditEvent@4
+     1E36 __imp__AuthzFreeAuditEvent@4
+     23FA _AuthzInitializeRemoteAccessCheck@4
+     23FA __imp__AuthzInitializeRemoteAccessCheck@4
+     2ABA _AuthzShutdownRemoteAccessCheck@0
+     2ABA __imp__AuthzShutdownRemoteAccessCheck@0
+     2CB8 _AuthziLogAuditEvent@12
+     2CB8 __imp__AuthziLogAuditEvent@12
+     25F8 _AuthzInstallSecurityEventSource@8
+     25F8 __imp__AuthzInstallSecurityEventSource@8
+     2B36 _AuthzUninstallSecurityEventSource@8
+     2B36 __imp__AuthzUninstallSecurityEventSource@8
+     1D44 _AuthzEnumerateSecurityEventSources@16
+     1D44 __imp__AuthzEnumerateSecurityEventSources@16
+     28C6 _AuthzRegisterSecurityEventSource@12
+     28C6 __imp__AuthzRegisterSecurityEventSource@12
+     2C38 _AuthzUnregisterSecurityEventSource@8
+     2C38 __imp__AuthzUnregisterSecurityEventSource@8
+     29BA _AuthzReportSecurityEventFromParams@20
+     29BA __imp__AuthzReportSecurityEventFromParams@20
+     2946 _AuthzReportSecurityEvent
+     2946 __imp__AuthzReportSecurityEvent
+     1DC6 _AuthzEvaluateSacl@24
+     1DC6 __imp__AuthzEvaluateSacl@24
+     2844 _AuthzRegisterCapChangeNotification@12
+     2844 __imp__AuthzRegisterCapChangeNotification@12
+     2BB6 _AuthzUnregisterCapChangeNotification@4
+     2BB6 __imp__AuthzUnregisterCapChangeNotification@4
+     1EA8 _AuthzFreeCentralAccessPolicyCache@0
+     1EA8 __imp__AuthzFreeCentralAccessPolicyCache@0
+
+Archive member name at 1746: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1E5 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        F4424397 time date stamp
+             107 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      8C file pointer to raw data (0000008C to 000000CA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CB file pointer to raw data (000000CB to 000000DE)
+      DF file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       A size of raw data
+      FD file pointer to raw data (000000FD to 00000106)
+      DF file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 1968: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F8 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        C7576163 time date stamp
+              B7 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      64 file pointer to raw data (00000064 to 000000A2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A3 file pointer to raw data (000000A3 to 000000B6)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1A9C: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     112 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        CAB1D6CE time date stamp
+              D3 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3F size of raw data
+      8C file pointer to raw data (0000008C to 000000CA)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CB file pointer to raw data (000000CB to 000000CE)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CF file pointer to raw data (000000CF to 000000D2)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1BEA: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E98A250D
+  SizeOfData   : 0000001F
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzAccessCheck@36
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : AuthzAccessCheck
+
+Archive member name at 1C5A: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F9C8C175
+  SizeOfData   : 00000024
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzAddSidsToContext@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : AuthzAddSidsToContext
+
+Archive member name at 1CCE: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC48F2BB
+  SizeOfData   : 00000025
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzCachedAccessCheck@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : AuthzCachedAccessCheck
+
+Archive member name at 1D44: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAF795D2
+  SizeOfData   : 00000031
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzEnumerateSecurityEventSources@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : AuthzEnumerateSecurityEventSources
+
+Archive member name at 1DC6: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF870407
+  SizeOfData   : 00000020
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzEvaluateSacl@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : AuthzEvaluateSacl
+
+Archive member name at 1E36: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F807C883
+  SizeOfData   : 00000021
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzFreeAuditEvent@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : AuthzFreeAuditEvent
+
+Archive member name at 1EA8: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0D2C058
+  SizeOfData   : 0000002F
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzFreeCentralAccessPolicyCache@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : AuthzFreeCentralAccessPolicyCache
+
+Archive member name at 1F28: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D967528F
+  SizeOfData   : 0000001E
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzFreeContext@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : AuthzFreeContext
+
+Archive member name at 1F96: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E0CAAE66
+  SizeOfData   : 0000001D
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzFreeHandle@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : AuthzFreeHandle
+
+Archive member name at 2004: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F4B82983
+  SizeOfData   : 00000026
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzFreeResourceManager@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : AuthzFreeResourceManager
+
+Archive member name at 207A: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA723A7E
+  SizeOfData   : 0000002D
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzGetInformationFromContext@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : AuthzGetInformationFromContext
+
+Archive member name at 20F8: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB75C9A2
+  SizeOfData   : 0000002D
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzInitializeCompoundContext@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : AuthzInitializeCompoundContext
+
+Archive member name at 2176: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      49 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1326338
+  SizeOfData   : 00000035
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzInitializeContextFromAuthzContext@28
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : AuthzInitializeContextFromAuthzContext
+
+Archive member name at 21FC: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7F05188
+  SizeOfData   : 0000002C
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzInitializeContextFromSid@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : AuthzInitializeContextFromSid
+
+Archive member name at 2278: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C1F65E58
+  SizeOfData   : 0000002E
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzInitializeContextFromToken@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : AuthzInitializeContextFromToken
+
+Archive member name at 22F6: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DCD21A2C
+  SizeOfData   : 00000031
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzInitializeObjectAccessAuditEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 16
+  Name         : AuthzInitializeObjectAccessAuditEvent
+
+Archive member name at 2378: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FA3D4C52
+  SizeOfData   : 00000032
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzInitializeObjectAccessAuditEvent2
+  Type         : code
+  Name type    : no prefix
+  Hint         : 17
+  Name         : AuthzInitializeObjectAccessAuditEvent2
+
+Archive member name at 23FA: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4D6557B
+  SizeOfData   : 0000002E
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzInitializeRemoteAccessCheck@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : AuthzInitializeRemoteAccessCheck
+
+Archive member name at 2478: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D1AAB5C7
+  SizeOfData   : 00000032
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzInitializeRemoteResourceManager@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : AuthzInitializeRemoteResourceManager
+
+Archive member name at 24FA: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF7E1198
+  SizeOfData   : 0000002D
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzInitializeResourceManager@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : AuthzInitializeResourceManager
+
+Archive member name at 2578: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C17FEB0B
+  SizeOfData   : 0000002F
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzInitializeResourceManagerEx@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : AuthzInitializeResourceManagerEx
+
+Archive member name at 25F8: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D4D2FD53
+  SizeOfData   : 0000002D
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzInstallSecurityEventSource@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : AuthzInstallSecurityEventSource
+
+Archive member name at 2676: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB567A13
+  SizeOfData   : 00000020
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzModifyClaims@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : AuthzModifyClaims
+
+Archive member name at 26E6: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C577E486
+  SizeOfData   : 0000002C
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzModifySecurityAttributes@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : AuthzModifySecurityAttributes
+
+Archive member name at 2762: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FC02EE36
+  SizeOfData   : 0000001E
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzModifySids@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : AuthzModifySids
+
+Archive member name at 27D0: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA43D505
+  SizeOfData   : 00000023
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzOpenObjectAudit@32
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : AuthzOpenObjectAudit
+
+Archive member name at 2844: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C64714D8
+  SizeOfData   : 00000031
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzRegisterCapChangeNotification@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : AuthzRegisterCapChangeNotification
+
+Archive member name at 28C6: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EF740B95
+  SizeOfData   : 0000002F
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzRegisterSecurityEventSource@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : AuthzRegisterSecurityEventSource
+
+Archive member name at 2946: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D007A0CD
+  SizeOfData   : 00000024
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzReportSecurityEvent
+  Type         : code
+  Name type    : no prefix
+  Hint         : 29
+  Name         : AuthzReportSecurityEvent
+
+Archive member name at 29BA: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F761F302
+  SizeOfData   : 00000031
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzReportSecurityEventFromParams@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : AuthzReportSecurityEventFromParams
+
+Archive member name at 2A3C: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E32DB5F9
+  SizeOfData   : 0000002E
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzSetAppContainerInformation@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : AuthzSetAppContainerInformation
+
+Archive member name at 2ABA: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E022C689
+  SizeOfData   : 0000002C
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzShutdownRemoteAccessCheck@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : AuthzShutdownRemoteAccessCheck
+
+Archive member name at 2B36: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F8469173
+  SizeOfData   : 0000002F
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzUninstallSecurityEventSource@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : AuthzUninstallSecurityEventSource
+
+Archive member name at 2BB6: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      46 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFBD8F91
+  SizeOfData   : 00000032
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzUnregisterCapChangeNotification@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : AuthzUnregisterCapChangeNotification
+
+Archive member name at 2C38: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      44 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D15477E7
+  SizeOfData   : 00000030
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthzUnregisterSecurityEventSource@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : AuthzUnregisterSecurityEventSource
+
+Archive member name at 2CB8: AUTHZ.dll/      
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F2105344
+  SizeOfData   : 00000022
+  DLL name     : AUTHZ.dll
+  Symbol name  : _AuthziLogAuditEvent@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 50
+  Name         : AuthziLogAuditEvent
+
+     Exports
+
+       ordinal    name
+
+                  _AuthzAccessCheck@36
+                  _AuthzAddSidsToContext@24
+                  _AuthzCachedAccessCheck@20
+                  _AuthzEnumerateSecurityEventSources@16
+                  _AuthzEvaluateSacl@24
+                  _AuthzFreeAuditEvent@4
+                  _AuthzFreeCentralAccessPolicyCache@0
+                  _AuthzFreeContext@4
+                  _AuthzFreeHandle@4
+                  _AuthzFreeResourceManager@4
+                  _AuthzGetInformationFromContext@20
+                  _AuthzInitializeCompoundContext@12
+                  _AuthzInitializeContextFromAuthzContext@28
+                  _AuthzInitializeContextFromSid@32
+                  _AuthzInitializeContextFromToken@32
+                  _AuthzInitializeObjectAccessAuditEvent
+                  _AuthzInitializeObjectAccessAuditEvent2
+                  _AuthzInitializeRemoteAccessCheck@4
+                  _AuthzInitializeRemoteResourceManager@8
+                  _AuthzInitializeResourceManager@24
+                  _AuthzInitializeResourceManagerEx@12
+                  _AuthzInstallSecurityEventSource@8
+                  _AuthzModifyClaims@16
+                  _AuthzModifySecurityAttributes@12
+                  _AuthzModifySids@16
+                  _AuthzOpenObjectAudit@32
+                  _AuthzRegisterCapChangeNotification@12
+                  _AuthzRegisterSecurityEventSource@12
+                  _AuthzReportSecurityEvent
+                  _AuthzReportSecurityEventFromParams@20
+                  _AuthzSetAppContainerInformation@16
+                  _AuthzShutdownRemoteAccessCheck@0
+                  _AuthzUninstallSecurityEventSource@8
+                  _AuthzUnregisterCapChangeNotification@4
+                  _AuthzUnregisterSecurityEventSource@8
+                  _AuthziLogAuditEvent@12
+
+  Summary
+
+          BD .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           A .idata$6

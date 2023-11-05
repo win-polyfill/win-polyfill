@@ -1,0 +1,960 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\rtworkq.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     960 size
+correct header end
+
+    71 public symbols
+
+     134A __IMPORT_DESCRIPTOR_RTWorkQ
+     1574 __NULL_IMPORT_DESCRIPTOR
+     16AA RTWorkQ_NULL_THUNK_DATA
+     2514 _RtwqStartup@0
+     2514 __imp__RtwqStartup@0
+     24A8 _RtwqShutdown@0
+     24A8 __imp__RtwqShutdown@0
+     1F9A _RtwqLockSharedWorkQueue@16
+     1F9A __imp__RtwqLockSharedWorkQueue@16
+     2012 _RtwqLockWorkQueue@4
+     2012 __imp__RtwqLockWorkQueue@4
+     2666 _RtwqUnlockWorkQueue@4
+     2666 __imp__RtwqUnlockWorkQueue@4
+     1EB8 _RtwqJoinWorkQueue@12
+     1EB8 __imp__RtwqJoinWorkQueue@12
+     2580 _RtwqUnjoinWorkQueue@8
+     2580 __imp__RtwqUnjoinWorkQueue@8
+     1B54 _RtwqCreateAsyncResult@16
+     1B54 __imp__RtwqCreateAsyncResult@16
+     1F2A _RtwqLockPlatform@0
+     1F2A __imp__RtwqLockPlatform@0
+     25F4 _RtwqUnlockPlatform@0
+     25F4 __imp__RtwqUnlockPlatform@0
+     21E6 _RtwqRegisterPlatformWithMMCSS@12
+     21E6 __imp__RtwqRegisterPlatformWithMMCSS@12
+     2756 _RtwqUnregisterPlatformFromMMCSS@0
+     2756 __imp__RtwqUnregisterPlatformFromMMCSS@0
+     20FC _RtwqPutWorkItem@12
+     20FC __imp__RtwqPutWorkItem@12
+     2084 _RtwqPutWaitingWorkItem@16
+     2084 __imp__RtwqPutWaitingWorkItem@16
+     1874 _RtwqAllocateSerialWorkQueue@8
+     1874 __imp__RtwqAllocateSerialWorkQueue@8
+     22DE _RtwqScheduleWorkItem@16
+     22DE __imp__RtwqScheduleWorkItem@16
+     17FC _RtwqAddPeriodicCallback@12
+     17FC __imp__RtwqAddPeriodicCallback@12
+     2264 _RtwqRemovePeriodicCallback@4
+     2264 __imp__RtwqRemovePeriodicCallback@4
+     1AE2 _RtwqCancelWorkItem@8
+     1AE2 __imp__RtwqCancelWorkItem@8
+     18F0 _RtwqAllocateWorkQueue@8
+     18F0 __imp__RtwqAllocateWorkQueue@8
+     1966 _RtwqBeginRegisterWorkQueueWithMMCSS@24
+     1966 __imp__RtwqBeginRegisterWorkQueueWithMMCSS@24
+     19EA _RtwqBeginUnregisterWorkQueueWithMMCSS@12
+     19EA __imp__RtwqBeginUnregisterWorkQueueWithMMCSS@12
+     1BCA _RtwqEndRegisterWorkQueueWithMMCSS@8
+     1BCA __imp__RtwqEndRegisterWorkQueueWithMMCSS@8
+     1C4C _RtwqEndUnregisterWorkQueueWithMMCSS@4
+     1C4C __imp__RtwqEndUnregisterWorkQueueWithMMCSS@4
+     1CD0 _RtwqGetWorkQueueMMCSSClass@12
+     1CD0 __imp__RtwqGetWorkQueueMMCSSClass@12
+     1DCA _RtwqGetWorkQueueMMCSSTaskId@8
+     1DCA __imp__RtwqGetWorkQueueMMCSSTaskId@8
+     1D4C _RtwqGetWorkQueueMMCSSPriority@8
+     1D4C __imp__RtwqGetWorkQueueMMCSSPriority@8
+     1E46 _RtwqInvokeCallback@4
+     1E46 __imp__RtwqInvokeCallback@4
+     216C _RtwqRegisterPlatformEvents@4
+     216C __imp__RtwqRegisterPlatformEvents@4
+     26DA _RtwqUnregisterPlatformEvents@4
+     26DA __imp__RtwqUnregisterPlatformEvents@4
+     2436 _RtwqSetLongRunning@8
+     2436 __imp__RtwqSetLongRunning@8
+     23C6 _RtwqSetDeadline@16
+     23C6 __imp__RtwqSetDeadline@16
+     1A70 _RtwqCancelDeadline@4
+     1A70 __imp__RtwqCancelDeadline@4
+     2354 _RtwqSetDeadline2@24
+     2354 __imp__RtwqSetDeadline2@24
+
+Archive member name at 134A: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1ED size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        E2AC7F69 time date stamp
+             10B file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      CD file pointer to raw data (000000CD to 000000E0)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       C size of raw data
+      FF file pointer to raw data (000000FF to 0000010A)
+      E1 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 1574: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      FA size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        C4AB3178 time date stamp
+              B9 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      64 file pointer to raw data (00000064 to 000000A4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A5 file pointer to raw data (000000A5 to 000000B8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 16AA: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     116 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        CDD28D38 time date stamp
+              D5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      41 size of raw data
+      8C file pointer to raw data (0000008C to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      D1 file pointer to raw data (000000D1 to 000000D4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 17FC: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D7EF3FF8
+  SizeOfData   : 00000028
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqAddPeriodicCallback@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : RtwqAddPeriodicCallback
+
+Archive member name at 1874: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E3D462A8
+  SizeOfData   : 0000002B
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqAllocateSerialWorkQueue@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : RtwqAllocateSerialWorkQueue
+
+Archive member name at 18F0: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C3092F4D
+  SizeOfData   : 00000025
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqAllocateWorkQueue@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : RtwqAllocateWorkQueue
+
+Archive member name at 1966: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      48 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA2AD1F6
+  SizeOfData   : 00000034
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqBeginRegisterWorkQueueWithMMCSS@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : RtwqBeginRegisterWorkQueueWithMMCSS
+
+Archive member name at 19EA: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E97E1F03
+  SizeOfData   : 00000036
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqBeginUnregisterWorkQueueWithMMCSS@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : RtwqBeginUnregisterWorkQueueWithMMCSS
+
+Archive member name at 1A70: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DEFE3F00
+  SizeOfData   : 00000022
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqCancelDeadline@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : RtwqCancelDeadline
+
+Archive member name at 1AE2: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D65115CC
+  SizeOfData   : 00000022
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqCancelWorkItem@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : RtwqCancelWorkItem
+
+Archive member name at 1B54: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7F0995D
+  SizeOfData   : 00000026
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqCreateAsyncResult@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : RtwqCreateAsyncResult
+
+Archive member name at 1BCA: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      45 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB9AAF3B
+  SizeOfData   : 00000031
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqEndRegisterWorkQueueWithMMCSS@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : RtwqEndRegisterWorkQueueWithMMCSS
+
+Archive member name at 1C4C: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      47 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C7AB9D71
+  SizeOfData   : 00000033
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqEndUnregisterWorkQueueWithMMCSS@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : RtwqEndUnregisterWorkQueueWithMMCSS
+
+Archive member name at 1CD0: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6175E75
+  SizeOfData   : 0000002B
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqGetWorkQueueMMCSSClass@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : RtwqGetWorkQueueMMCSSClass
+
+Archive member name at 1D4C: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB1E9B88
+  SizeOfData   : 0000002D
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqGetWorkQueueMMCSSPriority@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : RtwqGetWorkQueueMMCSSPriority
+
+Archive member name at 1DCA: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DC87FAA5
+  SizeOfData   : 0000002B
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqGetWorkQueueMMCSSTaskId@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : RtwqGetWorkQueueMMCSSTaskId
+
+Archive member name at 1E46: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C0AF640B
+  SizeOfData   : 00000022
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqInvokeCallback@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : RtwqInvokeCallback
+
+Archive member name at 1EB8: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F7B86240
+  SizeOfData   : 00000022
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqJoinWorkQueue@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : RtwqJoinWorkQueue
+
+Archive member name at 1F2A: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CC209052
+  SizeOfData   : 00000020
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqLockPlatform@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : RtwqLockPlatform
+
+Archive member name at 1F9A: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D0B09D0B
+  SizeOfData   : 00000028
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqLockSharedWorkQueue@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : RtwqLockSharedWorkQueue
+
+Archive member name at 2012: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6892B42
+  SizeOfData   : 00000021
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqLockWorkQueue@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : RtwqLockWorkQueue
+
+Archive member name at 2084: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DF85C5C6
+  SizeOfData   : 00000027
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqPutWaitingWorkItem@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : RtwqPutWaitingWorkItem
+
+Archive member name at 20FC: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C4E20F60
+  SizeOfData   : 00000020
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqPutWorkItem@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : RtwqPutWorkItem
+
+Archive member name at 216C: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FE0F6583
+  SizeOfData   : 0000002A
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqRegisterPlatformEvents@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : RtwqRegisterPlatformEvents
+
+Archive member name at 21E6: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C42AD070
+  SizeOfData   : 0000002E
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqRegisterPlatformWithMMCSS@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : RtwqRegisterPlatformWithMMCSS
+
+Archive member name at 2264: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E80D8FE8
+  SizeOfData   : 0000002A
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqRemovePeriodicCallback@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : RtwqRemovePeriodicCallback
+
+Archive member name at 22DE: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB330837
+  SizeOfData   : 00000025
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqScheduleWorkItem@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : RtwqScheduleWorkItem
+
+Archive member name at 2354: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CEAA7BD5
+  SizeOfData   : 00000021
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqSetDeadline2@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : RtwqSetDeadline2
+
+Archive member name at 23C6: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      34 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FFBB96BF
+  SizeOfData   : 00000020
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqSetDeadline@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : RtwqSetDeadline
+
+Archive member name at 2436: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E38BB653
+  SizeOfData   : 00000022
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqSetLongRunning@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : RtwqSetLongRunning
+
+Archive member name at 24A8: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CF46B6EB
+  SizeOfData   : 0000001C
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqShutdown@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : RtwqShutdown
+
+Archive member name at 2514: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F63199F2
+  SizeOfData   : 0000001B
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqStartup@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : RtwqStartup
+
+Archive member name at 2580: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1558928
+  SizeOfData   : 00000023
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqUnjoinWorkQueue@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : RtwqUnjoinWorkQueue
+
+Archive member name at 25F4: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DFBFE94F
+  SizeOfData   : 00000022
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqUnlockPlatform@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : RtwqUnlockPlatform
+
+Archive member name at 2666: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FF0F8E01
+  SizeOfData   : 00000023
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqUnlockWorkQueue@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : RtwqUnlockWorkQueue
+
+Archive member name at 26DA: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D40B55EE
+  SizeOfData   : 0000002C
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqUnregisterPlatformEvents@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : RtwqUnregisterPlatformEvents
+
+Archive member name at 2756: RTWorkQ.DLL/    
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DAA0CAC6
+  SizeOfData   : 0000002F
+  DLL name     : RTWorkQ.DLL
+  Symbol name  : _RtwqUnregisterPlatformFromMMCSS@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : RtwqUnregisterPlatformFromMMCSS
+
+     Exports
+
+       ordinal    name
+
+                  _RtwqAddPeriodicCallback@12
+                  _RtwqAllocateSerialWorkQueue@8
+                  _RtwqAllocateWorkQueue@8
+                  _RtwqBeginRegisterWorkQueueWithMMCSS@24
+                  _RtwqBeginUnregisterWorkQueueWithMMCSS@12
+                  _RtwqCancelDeadline@4
+                  _RtwqCancelWorkItem@8
+                  _RtwqCreateAsyncResult@16
+                  _RtwqEndRegisterWorkQueueWithMMCSS@8
+                  _RtwqEndUnregisterWorkQueueWithMMCSS@4
+                  _RtwqGetWorkQueueMMCSSClass@12
+                  _RtwqGetWorkQueueMMCSSPriority@8
+                  _RtwqGetWorkQueueMMCSSTaskId@8
+                  _RtwqInvokeCallback@4
+                  _RtwqJoinWorkQueue@12
+                  _RtwqLockPlatform@0
+                  _RtwqLockSharedWorkQueue@16
+                  _RtwqLockWorkQueue@4
+                  _RtwqPutWaitingWorkItem@16
+                  _RtwqPutWorkItem@12
+                  _RtwqRegisterPlatformEvents@4
+                  _RtwqRegisterPlatformWithMMCSS@12
+                  _RtwqRemovePeriodicCallback@4
+                  _RtwqScheduleWorkItem@16
+                  _RtwqSetDeadline2@24
+                  _RtwqSetDeadline@16
+                  _RtwqSetLongRunning@8
+                  _RtwqShutdown@0
+                  _RtwqStartup@0
+                  _RtwqUnjoinWorkQueue@8
+                  _RtwqUnlockPlatform@0
+                  _RtwqUnlockWorkQueue@4
+                  _RtwqUnregisterPlatformEvents@4
+                  _RtwqUnregisterPlatformFromMMCSS@0
+
+  Summary
+
+          C3 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           C .idata$6

@@ -1,0 +1,885 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_AuthzAccessCheck@36"
+    },
+    {
+      "name": "_AuthzAddSidsToContext@24"
+    },
+    {
+      "name": "_AuthzCachedAccessCheck@20"
+    },
+    {
+      "name": "_AuthzEnumerateSecurityEventSources@16"
+    },
+    {
+      "name": "_AuthzEvaluateSacl@24"
+    },
+    {
+      "name": "_AuthzFreeAuditEvent@4"
+    },
+    {
+      "name": "_AuthzFreeCentralAccessPolicyCache@0"
+    },
+    {
+      "name": "_AuthzFreeContext@4"
+    },
+    {
+      "name": "_AuthzFreeHandle@4"
+    },
+    {
+      "name": "_AuthzFreeResourceManager@4"
+    },
+    {
+      "name": "_AuthzGetInformationFromContext@20"
+    },
+    {
+      "name": "_AuthzInitializeCompoundContext@12"
+    },
+    {
+      "name": "_AuthzInitializeContextFromAuthzContext@28"
+    },
+    {
+      "name": "_AuthzInitializeContextFromSid@32"
+    },
+    {
+      "name": "_AuthzInitializeContextFromToken@32"
+    },
+    {
+      "name": "_AuthzInitializeObjectAccessAuditEvent"
+    },
+    {
+      "name": "_AuthzInitializeObjectAccessAuditEvent2"
+    },
+    {
+      "name": "_AuthzInitializeRemoteAccessCheck@4"
+    },
+    {
+      "name": "_AuthzInitializeRemoteResourceManager@8"
+    },
+    {
+      "name": "_AuthzInitializeResourceManager@24"
+    },
+    {
+      "name": "_AuthzInitializeResourceManagerEx@12"
+    },
+    {
+      "name": "_AuthzInstallSecurityEventSource@8"
+    },
+    {
+      "name": "_AuthzModifyClaims@16"
+    },
+    {
+      "name": "_AuthzModifySecurityAttributes@12"
+    },
+    {
+      "name": "_AuthzModifySids@16"
+    },
+    {
+      "name": "_AuthzOpenObjectAudit@32"
+    },
+    {
+      "name": "_AuthzRegisterCapChangeNotification@12"
+    },
+    {
+      "name": "_AuthzRegisterSecurityEventSource@12"
+    },
+    {
+      "name": "_AuthzReportSecurityEvent"
+    },
+    {
+      "name": "_AuthzReportSecurityEventFromParams@20"
+    },
+    {
+      "name": "_AuthzSetAppContainerInformation@16"
+    },
+    {
+      "name": "_AuthzShutdownRemoteAccessCheck@0"
+    },
+    {
+      "name": "_AuthzUninstallSecurityEventSource@8"
+    },
+    {
+      "name": "_AuthzUnregisterCapChangeNotification@4"
+    },
+    {
+      "name": "_AuthzUnregisterSecurityEventSource@8"
+    },
+    {
+      "name": "_AuthziLogAuditEvent@12"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 5958,
+      "name": "__IMPORT_DESCRIPTOR_AUTHZ"
+    },
+    {
+      "offset": 6504,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 6812,
+      "name": "AUTHZ_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 9466,
+      "name": "_AuthzInitializeResourceManager@24"
+    },
+    {
+      "offset": 9466,
+      "name": "__imp__AuthzInitializeResourceManager@24"
+    },
+    {
+      "offset": 9592,
+      "name": "_AuthzInitializeResourceManagerEx@12"
+    },
+    {
+      "offset": 9592,
+      "name": "__imp__AuthzInitializeResourceManagerEx@12"
+    },
+    {
+      "offset": 9336,
+      "name": "_AuthzInitializeRemoteResourceManager@8"
+    },
+    {
+      "offset": 9336,
+      "name": "__imp__AuthzInitializeRemoteResourceManager@8"
+    },
+    {
+      "offset": 8196,
+      "name": "_AuthzFreeResourceManager@4"
+    },
+    {
+      "offset": 8196,
+      "name": "__imp__AuthzFreeResourceManager@4"
+    },
+    {
+      "offset": 8440,
+      "name": "_AuthzInitializeCompoundContext@12"
+    },
+    {
+      "offset": 8440,
+      "name": "__imp__AuthzInitializeCompoundContext@12"
+    },
+    {
+      "offset": 8824,
+      "name": "_AuthzInitializeContextFromToken@32"
+    },
+    {
+      "offset": 8824,
+      "name": "__imp__AuthzInitializeContextFromToken@32"
+    },
+    {
+      "offset": 8700,
+      "name": "_AuthzInitializeContextFromSid@32"
+    },
+    {
+      "offset": 8700,
+      "name": "__imp__AuthzInitializeContextFromSid@32"
+    },
+    {
+      "offset": 8566,
+      "name": "_AuthzInitializeContextFromAuthzContext@28"
+    },
+    {
+      "offset": 8566,
+      "name": "__imp__AuthzInitializeContextFromAuthzContext@28"
+    },
+    {
+      "offset": 8314,
+      "name": "_AuthzGetInformationFromContext@20"
+    },
+    {
+      "offset": 8314,
+      "name": "__imp__AuthzGetInformationFromContext@20"
+    },
+    {
+      "offset": 7258,
+      "name": "_AuthzAddSidsToContext@24"
+    },
+    {
+      "offset": 7258,
+      "name": "__imp__AuthzAddSidsToContext@24"
+    },
+    {
+      "offset": 7976,
+      "name": "_AuthzFreeContext@4"
+    },
+    {
+      "offset": 7976,
+      "name": "__imp__AuthzFreeContext@4"
+    },
+    {
+      "offset": 9958,
+      "name": "_AuthzModifySecurityAttributes@12"
+    },
+    {
+      "offset": 9958,
+      "name": "__imp__AuthzModifySecurityAttributes@12"
+    },
+    {
+      "offset": 9846,
+      "name": "_AuthzModifyClaims@16"
+    },
+    {
+      "offset": 9846,
+      "name": "__imp__AuthzModifyClaims@16"
+    },
+    {
+      "offset": 10082,
+      "name": "_AuthzModifySids@16"
+    },
+    {
+      "offset": 10082,
+      "name": "__imp__AuthzModifySids@16"
+    },
+    {
+      "offset": 10812,
+      "name": "_AuthzSetAppContainerInformation@16"
+    },
+    {
+      "offset": 10812,
+      "name": "__imp__AuthzSetAppContainerInformation@16"
+    },
+    {
+      "offset": 7146,
+      "name": "_AuthzAccessCheck@36"
+    },
+    {
+      "offset": 7146,
+      "name": "__imp__AuthzAccessCheck@36"
+    },
+    {
+      "offset": 7374,
+      "name": "_AuthzCachedAccessCheck@20"
+    },
+    {
+      "offset": 7374,
+      "name": "__imp__AuthzCachedAccessCheck@20"
+    },
+    {
+      "offset": 10192,
+      "name": "_AuthzOpenObjectAudit@32"
+    },
+    {
+      "offset": 10192,
+      "name": "__imp__AuthzOpenObjectAudit@32"
+    },
+    {
+      "offset": 8086,
+      "name": "_AuthzFreeHandle@4"
+    },
+    {
+      "offset": 8086,
+      "name": "__imp__AuthzFreeHandle@4"
+    },
+    {
+      "offset": 8950,
+      "name": "_AuthzInitializeObjectAccessAuditEvent"
+    },
+    {
+      "offset": 8950,
+      "name": "__imp__AuthzInitializeObjectAccessAuditEvent"
+    },
+    {
+      "offset": 9080,
+      "name": "_AuthzInitializeObjectAccessAuditEvent2"
+    },
+    {
+      "offset": 9080,
+      "name": "__imp__AuthzInitializeObjectAccessAuditEvent2"
+    },
+    {
+      "offset": 7734,
+      "name": "_AuthzFreeAuditEvent@4"
+    },
+    {
+      "offset": 7734,
+      "name": "__imp__AuthzFreeAuditEvent@4"
+    },
+    {
+      "offset": 9210,
+      "name": "_AuthzInitializeRemoteAccessCheck@4"
+    },
+    {
+      "offset": 9210,
+      "name": "__imp__AuthzInitializeRemoteAccessCheck@4"
+    },
+    {
+      "offset": 10938,
+      "name": "_AuthzShutdownRemoteAccessCheck@0"
+    },
+    {
+      "offset": 10938,
+      "name": "__imp__AuthzShutdownRemoteAccessCheck@0"
+    },
+    {
+      "offset": 11448,
+      "name": "_AuthziLogAuditEvent@12"
+    },
+    {
+      "offset": 11448,
+      "name": "__imp__AuthziLogAuditEvent@12"
+    },
+    {
+      "offset": 9720,
+      "name": "_AuthzInstallSecurityEventSource@8"
+    },
+    {
+      "offset": 9720,
+      "name": "__imp__AuthzInstallSecurityEventSource@8"
+    },
+    {
+      "offset": 11062,
+      "name": "_AuthzUninstallSecurityEventSource@8"
+    },
+    {
+      "offset": 11062,
+      "name": "__imp__AuthzUninstallSecurityEventSource@8"
+    },
+    {
+      "offset": 7492,
+      "name": "_AuthzEnumerateSecurityEventSources@16"
+    },
+    {
+      "offset": 7492,
+      "name": "__imp__AuthzEnumerateSecurityEventSources@16"
+    },
+    {
+      "offset": 10438,
+      "name": "_AuthzRegisterSecurityEventSource@12"
+    },
+    {
+      "offset": 10438,
+      "name": "__imp__AuthzRegisterSecurityEventSource@12"
+    },
+    {
+      "offset": 11320,
+      "name": "_AuthzUnregisterSecurityEventSource@8"
+    },
+    {
+      "offset": 11320,
+      "name": "__imp__AuthzUnregisterSecurityEventSource@8"
+    },
+    {
+      "offset": 10682,
+      "name": "_AuthzReportSecurityEventFromParams@20"
+    },
+    {
+      "offset": 10682,
+      "name": "__imp__AuthzReportSecurityEventFromParams@20"
+    },
+    {
+      "offset": 10566,
+      "name": "_AuthzReportSecurityEvent"
+    },
+    {
+      "offset": 10566,
+      "name": "__imp__AuthzReportSecurityEvent"
+    },
+    {
+      "offset": 7622,
+      "name": "_AuthzEvaluateSacl@24"
+    },
+    {
+      "offset": 7622,
+      "name": "__imp__AuthzEvaluateSacl@24"
+    },
+    {
+      "offset": 10308,
+      "name": "_AuthzRegisterCapChangeNotification@12"
+    },
+    {
+      "offset": 10308,
+      "name": "__imp__AuthzRegisterCapChangeNotification@12"
+    },
+    {
+      "offset": 11190,
+      "name": "_AuthzUnregisterCapChangeNotification@4"
+    },
+    {
+      "offset": 11190,
+      "name": "__imp__AuthzUnregisterCapChangeNotification@4"
+    },
+    {
+      "offset": 7848,
+      "name": "_AuthzFreeCentralAccessPolicyCache@0"
+    },
+    {
+      "offset": 7848,
+      "name": "__imp__AuthzFreeCentralAccessPolicyCache@0"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 7146,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3918144781,
+      "sizeOfData": 31,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzAccessCheck@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "AuthzAccessCheck"
+    },
+    {
+      "offset": 7258,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4190683509,
+      "sizeOfData": 36,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzAddSidsToContext@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "AuthzAddSidsToContext"
+    },
+    {
+      "offset": 7374,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3695768251,
+      "sizeOfData": 37,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzCachedAccessCheck@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "AuthzCachedAccessCheck"
+    },
+    {
+      "offset": 7492,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3673658834,
+      "sizeOfData": 49,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzEnumerateSecurityEventSources@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "AuthzEnumerateSecurityEventSources"
+    },
+    {
+      "offset": 7622,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4287038471,
+      "sizeOfData": 32,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzEvaluateSacl@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "AuthzEvaluateSacl"
+    },
+    {
+      "offset": 7734,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4161259651,
+      "sizeOfData": 33,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzFreeAuditEvent@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "AuthzFreeAuditEvent"
+    },
+    {
+      "offset": 7848,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3503472728,
+      "sizeOfData": 47,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzFreeCentralAccessPolicyCache@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "AuthzFreeCentralAccessPolicyCache"
+    },
+    {
+      "offset": 7976,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3647427215,
+      "sizeOfData": 30,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzFreeContext@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "AuthzFreeContext"
+    },
+    {
+      "offset": 8086,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3771379302,
+      "sizeOfData": 29,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzFreeHandle@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 9,
+      "name": "AuthzFreeHandle"
+    },
+    {
+      "offset": 8196,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4105709955,
+      "sizeOfData": 38,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzFreeResourceManager@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 10,
+      "name": "AuthzFreeResourceManager"
+    },
+    {
+      "offset": 8314,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4201790078,
+      "sizeOfData": 45,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzGetInformationFromContext@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 11,
+      "name": "AuthzGetInformationFromContext"
+    },
+    {
+      "offset": 8440,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4218800546,
+      "sizeOfData": 45,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzInitializeCompoundContext@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "AuthzInitializeCompoundContext"
+    },
+    {
+      "offset": 8566,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3778175800,
+      "sizeOfData": 53,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzInitializeContextFromAuthzContext@28",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "AuthzInitializeContextFromAuthzContext"
+    },
+    {
+      "offset": 8700,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4159721864,
+      "sizeOfData": 44,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzInitializeContextFromSid@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "AuthzInitializeContextFromSid"
+    },
+    {
+      "offset": 8824,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3254148696,
+      "sizeOfData": 46,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzInitializeContextFromToken@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "AuthzInitializeContextFromToken"
+    },
+    {
+      "offset": 8950,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3704756780,
+      "sizeOfData": 49,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzInitializeObjectAccessAuditEvent",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 16,
+      "name": "AuthzInitializeObjectAccessAuditEvent"
+    },
+    {
+      "offset": 9080,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4198321234,
+      "sizeOfData": 50,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzInitializeObjectAccessAuditEvent2",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 17,
+      "name": "AuthzInitializeObjectAccessAuditEvent2"
+    },
+    {
+      "offset": 9210,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3839251835,
+      "sizeOfData": 46,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzInitializeRemoteAccessCheck@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "AuthzInitializeRemoteAccessCheck"
+    },
+    {
+      "offset": 9336,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3517625799,
+      "sizeOfData": 50,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzInitializeRemoteResourceManager@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "AuthzInitializeRemoteResourceManager"
+    },
+    {
+      "offset": 9466,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4286452120,
+      "sizeOfData": 45,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzInitializeResourceManager@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "AuthzInitializeResourceManager"
+    },
+    {
+      "offset": 9592,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3246385931,
+      "sizeOfData": 47,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzInitializeResourceManagerEx@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "AuthzInitializeResourceManagerEx"
+    },
+    {
+      "offset": 9720,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3570597203,
+      "sizeOfData": 45,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzInstallSecurityEventSource@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "AuthzInstallSecurityEventSource"
+    },
+    {
+      "offset": 9846,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3411442195,
+      "sizeOfData": 32,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzModifyClaims@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "AuthzModifyClaims"
+    },
+    {
+      "offset": 9958,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3312968838,
+      "sizeOfData": 44,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzModifySecurityAttributes@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "AuthzModifySecurityAttributes"
+    },
+    {
+      "offset": 10082,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4228050486,
+      "sizeOfData": 30,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzModifySids@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "AuthzModifySids"
+    },
+    {
+      "offset": 10192,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3393443077,
+      "sizeOfData": 35,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzOpenObjectAudit@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "AuthzOpenObjectAudit"
+    },
+    {
+      "offset": 10308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3326547160,
+      "sizeOfData": 49,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzRegisterCapChangeNotification@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "AuthzRegisterCapChangeNotification"
+    },
+    {
+      "offset": 10438,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4017359765,
+      "sizeOfData": 47,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzRegisterSecurityEventSource@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "AuthzRegisterSecurityEventSource"
+    },
+    {
+      "offset": 10566,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3490160845,
+      "sizeOfData": 36,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzReportSecurityEvent",
+      "type": "code",
+      "nameType": "no prefix",
+      "hint": 29,
+      "name": "AuthzReportSecurityEvent"
+    },
+    {
+      "offset": 10682,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4150391554,
+      "sizeOfData": 49,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzReportSecurityEventFromParams@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "AuthzReportSecurityEventFromParams"
+    },
+    {
+      "offset": 10812,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3811423737,
+      "sizeOfData": 46,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzSetAppContainerInformation@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 31,
+      "name": "AuthzSetAppContainerInformation"
+    },
+    {
+      "offset": 10938,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3760375433,
+      "sizeOfData": 44,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzShutdownRemoteAccessCheck@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 32,
+      "name": "AuthzShutdownRemoteAccessCheck"
+    },
+    {
+      "offset": 11062,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4165374323,
+      "sizeOfData": 47,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzUninstallSecurityEventSource@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 33,
+      "name": "AuthzUninstallSecurityEventSource"
+    },
+    {
+      "offset": 11190,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3753742225,
+      "sizeOfData": 50,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzUnregisterCapChangeNotification@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 34,
+      "name": "AuthzUnregisterCapChangeNotification"
+    },
+    {
+      "offset": 11320,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3511973863,
+      "sizeOfData": 48,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthzUnregisterSecurityEventSource@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 35,
+      "name": "AuthzUnregisterSecurityEventSource"
+    },
+    {
+      "offset": 11448,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4061156164,
+      "sizeOfData": 34,
+      "dllName": "AUTHZ.dll",
+      "symbolName": "_AuthziLogAuditEvent@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 50,
+      "name": "AuthziLogAuditEvent"
+    }
+  ]
+}

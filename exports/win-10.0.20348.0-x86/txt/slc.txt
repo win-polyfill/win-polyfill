@@ -1,0 +1,1092 @@
+Microsoft (R) COFF/PE Dumper Version 14.00.24245.0
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+
+Dump of file C:\Program Files (x86)\Windows Kits\10\Lib\10.0.20348.0\um\x86\slc.lib
+
+File Type: LIBRARY
+
+Archive member name at 8: /               
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     B2A size
+correct header end
+
+    83 public symbols
+
+     16DE __IMPORT_DESCRIPTOR_SLC
+     18F8 __NULL_IMPORT_DESCRIPTOR
+     1A2A SLC_NULL_THUNK_DATA
+     293E _SLOpen@4
+     293E __imp__SLOpen@4
+     1D12 _SLClose@4
+     1D12 __imp__SLClose@4
+     1D76 _SLConsumeRight@20
+     1D76 __imp__SLConsumeRight@20
+     2854 _SLInstallProofOfPurchase@24
+     2854 __imp__SLInstallProofOfPurchase@24
+     2C3E _SLUninstallProofOfPurchase@8
+     2C3E __imp__SLUninstallProofOfPurchase@8
+     27E6 _SLInstallLicense@16
+     27E6 __imp__SLInstallLicense@16
+     2BD0 _SLUninstallLicense@8
+     2BD0 __imp__SLUninstallLicense@8
+     1FB6 _SLGenerateOfflineInstallationId@12
+     1FB6 __imp__SLGenerateOfflineInstallationId@12
+     2032 _SLGenerateOfflineInstallationIdEx@16
+     2032 __imp__SLGenerateOfflineInstallationIdEx@16
+     1E54 _SLDepositOfflineConfirmationId@16
+     1E54 __imp__SLDepositOfflineConfirmationId@16
+     1ED0 _SLDepositOfflineConfirmationIdEx@20
+     1ED0 __imp__SLDepositOfflineConfirmationIdEx@20
+     261C _SLGetSLIDList@24
+     261C __imp__SLGetSLIDList@24
+     227E _SLGetLicenseFileId@16
+     227E __imp__SLGetLicenseFileId@16
+     23DE _SLGetPKeyId@24
+     23DE __imp__SLGetPKeyId@24
+     2A0A _SLRegisterEvent@16
+     2A0A __imp__SLRegisterEvent@16
+     2CB4 _SLUnregisterEvent@16
+     2CB4 __imp__SLUnregisterEvent@16
+     1F4E _SLFireEvent@12
+     1F4E __imp__SLFireEvent@12
+     2214 _SLGetLicense@16
+     2214 __imp__SLGetLicense@16
+     219C _SLGetInstalledProductKeyIds@16
+     219C __imp__SLGetInstalledProductKeyIds@16
+     2AE8 _SLSetCurrentProductKey@12
+     2AE8 __imp__SLSetCurrentProductKey@12
+     25A4 _SLGetProductSkuInformation@24
+     25A4 __imp__SLGetProductSkuInformation@24
+     2446 _SLGetPKeyInformation@24
+     2446 __imp__SLGetPKeyInformation@24
+     22EE _SLGetLicenseInformation@24
+     22EE __imp__SLGetLicenseInformation@24
+     2362 _SLGetLicensingStatusInformation@24
+     2362 __imp__SLGetLicensingStatusInformation@24
+     24B8 _SLGetPolicyInformation@20
+     24B8 __imp__SLGetPolicyInformation@20
+     252C _SLGetPolicyInformationDWORD@12
+     252C __imp__SLGetPolicyInformationDWORD@12
+     2686 _SLGetServiceInformation@20
+     2686 __imp__SLGetServiceInformation@20
+     20B0 _SLGetApplicationInformation@24
+     20B0 __imp__SLGetApplicationInformation@24
+     2A76 _SLRegisterWindowsEvent@8
+     2A76 __imp__SLRegisterWindowsEvent@8
+     2D22 _SLUnregisterWindowsEvent@8
+     2D22 __imp__SLUnregisterWindowsEvent@8
+     26FA _SLGetWindowsInformation@16
+     26FA __imp__SLGetWindowsInformation@16
+     276E _SLGetWindowsInformationDWORD@8
+     276E __imp__SLGetWindowsInformationDWORD@8
+     29A0 _SLReArmWindows@0
+     29A0 __imp__SLReArmWindows@0
+     1DE2 _SLConsumeWindowsRight@4
+     1DE2 __imp__SLConsumeWindowsRight@4
+     1B74 ?SLpCheckProductKey@@YGJPAUDIGITALPID4@@PAH@Z
+     1B74 __imp_?SLpCheckProductKey@@YGJPAUDIGITALPID4@@PAH@Z
+     1C92 ?SLpUpdateComponentTokens@@YGJPAXPAH@Z
+     1C92 __imp_?SLpUpdateComponentTokens@@YGJPAXPAH@Z
+     1BFA ?SLpGetGenuineLocal@@YGJPAXPBU_GUID@@PAW4_SL_GENUINE_STATE@@@Z
+     1BFA __imp_?SLpGetGenuineLocal@@YGJPAXPBU_GUID@@PAW4_SL_GENUINE_STATE@@@Z
+     2128 _SLGetGenuineInformation@20
+     2128 __imp__SLGetGenuineInformation@20
+     2B5C _SLSetGenuineInformation@20
+     2B5C __imp__SLSetGenuineInformation@20
+     28CA _SLIsWindowsGenuineLocal@4
+     28CA __imp__SLIsWindowsGenuineLocal@4
+
+Archive member name at 16DE: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     1DD size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        CF68D3A1 time date stamp
+             103 file pointer to symbol table
+               8 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3D size of raw data
+      8C file pointer to raw data (0000008C to 000000C8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$2 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      C9 file pointer to raw data (000000C9 to 000000DC)
+      DD file pointer to relocation table
+       0 file pointer to line numbers
+       3 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$6 name
+       0 physical address
+       0 virtual address
+       8 size of raw data
+      FB file pointer to raw data (000000FB to 00000102)
+      DD file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0200040 flags
+         Initialized Data
+         2 byte align
+         Read Write
+
+Archive member name at 18F8: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      F6 size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               2 number of sections
+        C191DADE time date stamp
+              B5 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3D size of raw data
+      64 file pointer to raw data (00000064 to 000000A0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$3 name
+       0 physical address
+       0 virtual address
+      14 size of raw data
+      A1 file pointer to raw data (000000A1 to 000000B4)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1A2A: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+     10E size
+correct header end
+
+FILE HEADER VALUES
+             14C machine (x86)
+               3 number of sections
+        C206FF57 time date stamp
+              D1 file pointer to symbol table
+               2 number of symbols
+               0 size of optional header
+             100 characteristics
+                   32 bit word machine
+
+SECTION HEADER #1
+.debug$S name
+       0 physical address
+       0 virtual address
+      3D size of raw data
+      8C file pointer to raw data (0000008C to 000000C8)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+42100040 flags
+         Initialized Data
+         Discardable
+         1 byte align
+         Read Only
+
+SECTION HEADER #2
+.idata$5 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      C9 file pointer to raw data (000000C9 to 000000CC)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+SECTION HEADER #3
+.idata$4 name
+       0 physical address
+       0 virtual address
+       4 size of raw data
+      CD file pointer to raw data (000000CD to 000000D0)
+       0 file pointer to relocation table
+       0 file pointer to line numbers
+       0 number of relocations
+       0 number of line numbers
+C0300040 flags
+         Initialized Data
+         4 byte align
+         Read Write
+
+Archive member name at 1B74: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      4A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D5AB47D2
+  SizeOfData   : 00000036
+  DLL name     : SLC.dll
+  Symbol name  : ?SLpCheckProductKey@@YGJPAUDIGITALPID4@@PAH@Z (long __stdcall SLpCheckProductKey(struct DIGITALPID4 *,int *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 37
+  Name         : SLpCheckProductKey
+
+Archive member name at 1BFA: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      5B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C02C4EBB
+  SizeOfData   : 00000047
+  DLL name     : SLC.dll
+  Symbol name  : ?SLpGetGenuineLocal@@YGJPAXPBU_GUID@@PAW4_SL_GENUINE_STATE@@@Z (long __stdcall SLpGetGenuineLocal(void *,struct _GUID const *,enum _SL_GENUINE_STATE *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 38
+  Name         : SLpGetGenuineLocal
+
+Archive member name at 1C92: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      43 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1AEFC16
+  SizeOfData   : 0000002F
+  DLL name     : SLC.dll
+  Symbol name  : ?SLpUpdateComponentTokens@@YGJPAXPAH@Z (long __stdcall SLpUpdateComponentTokens(void *,int *))
+  Type         : code
+  Name type    : undecorate
+  Hint         : 39
+  Name         : SLpUpdateComponentTokens
+
+Archive member name at 1D12: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      27 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FB049F9A
+  SizeOfData   : 00000013
+  DLL name     : SLC.dll
+  Symbol name  : _SLClose@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 0
+  Name         : SLClose
+
+Archive member name at 1D76: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C5C0995A
+  SizeOfData   : 0000001B
+  DLL name     : SLC.dll
+  Symbol name  : _SLConsumeRight@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 1
+  Name         : SLConsumeRight
+
+Archive member name at 1DE2: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E9BDBBE5
+  SizeOfData   : 00000021
+  DLL name     : SLC.dll
+  Symbol name  : _SLConsumeWindowsRight@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 2
+  Name         : SLConsumeWindowsRight
+
+Archive member name at 1E54: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3F size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DDC11990
+  SizeOfData   : 0000002B
+  DLL name     : SLC.dll
+  Symbol name  : _SLDepositOfflineConfirmationId@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 3
+  Name         : SLDepositOfflineConfirmationId
+
+Archive member name at 1ED0: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      41 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EA0017CC
+  SizeOfData   : 0000002D
+  DLL name     : SLC.dll
+  Symbol name  : _SLDepositOfflineConfirmationIdEx@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 4
+  Name         : SLDepositOfflineConfirmationIdEx
+
+Archive member name at 1F4E: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F5283B44
+  SizeOfData   : 00000018
+  DLL name     : SLC.dll
+  Symbol name  : _SLFireEvent@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 5
+  Name         : SLFireEvent
+
+Archive member name at 1FB6: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F3502501
+  SizeOfData   : 0000002C
+  DLL name     : SLC.dll
+  Symbol name  : _SLGenerateOfflineInstallationId@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 6
+  Name         : SLGenerateOfflineInstallationId
+
+Archive member name at 2032: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      42 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E69241C1
+  SizeOfData   : 0000002E
+  DLL name     : SLC.dll
+  Symbol name  : _SLGenerateOfflineInstallationIdEx@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 7
+  Name         : SLGenerateOfflineInstallationIdEx
+
+Archive member name at 20B0: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB3F49E5
+  SizeOfData   : 00000028
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetApplicationInformation@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 8
+  Name         : SLGetApplicationInformation
+
+Archive member name at 2128: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D898463A
+  SizeOfData   : 00000024
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetGenuineInformation@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 9
+  Name         : SLGetGenuineInformation
+
+Archive member name at 219C: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F90B1B19
+  SizeOfData   : 00000028
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetInstalledProductKeyIds@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 10
+  Name         : SLGetInstalledProductKeyIds
+
+Archive member name at 2214: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2D size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C144BD4A
+  SizeOfData   : 00000019
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetLicense@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 11
+  Name         : SLGetLicense
+
+Archive member name at 227E: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      33 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EC89F072
+  SizeOfData   : 0000001F
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetLicenseFileId@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 12
+  Name         : SLGetLicenseFileId
+
+Archive member name at 22EE: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E4E9F9B5
+  SizeOfData   : 00000024
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetLicenseInformation@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 13
+  Name         : SLGetLicenseInformation
+
+Archive member name at 2362: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      40 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: FEAC8882
+  SizeOfData   : 0000002C
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetLicensingStatusInformation@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 14
+  Name         : SLGetLicensingStatusInformation
+
+Archive member name at 23DE: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E6047DDC
+  SizeOfData   : 00000018
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetPKeyId@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 15
+  Name         : SLGetPKeyId
+
+Archive member name at 2446: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      35 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C21C8587
+  SizeOfData   : 00000021
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetPKeyInformation@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 16
+  Name         : SLGetPKeyInformation
+
+Archive member name at 24B8: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3643557
+  SizeOfData   : 00000023
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetPolicyInformation@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 17
+  Name         : SLGetPolicyInformation
+
+Archive member name at 252C: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE0DC373
+  SizeOfData   : 00000028
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetPolicyInformationDWORD@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 18
+  Name         : SLGetPolicyInformationDWORD
+
+Archive member name at 25A4: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3B size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F48EA429
+  SizeOfData   : 00000027
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetProductSkuInformation@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 19
+  Name         : SLGetProductSkuInformation
+
+Archive member name at 261C: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EEA0CFD1
+  SizeOfData   : 0000001A
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetSLIDList@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 20
+  Name         : SLGetSLIDList
+
+Archive member name at 2686: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F721BC99
+  SizeOfData   : 00000024
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetServiceInformation@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 21
+  Name         : SLGetServiceInformation
+
+Archive member name at 26FA: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E54AD7EE
+  SizeOfData   : 00000024
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetWindowsInformation@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 22
+  Name         : SLGetWindowsInformation
+
+Archive member name at 276E: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3C size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D664C06A
+  SizeOfData   : 00000028
+  DLL name     : SLC.dll
+  Symbol name  : _SLGetWindowsInformationDWORD@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 23
+  Name         : SLGetWindowsInformationDWORD
+
+Archive member name at 27E6: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      31 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: C6E5F4EB
+  SizeOfData   : 0000001D
+  DLL name     : SLC.dll
+  Symbol name  : _SLInstallLicense@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 24
+  Name         : SLInstallLicense
+
+Archive member name at 2854: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      39 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: D3A1667A
+  SizeOfData   : 00000025
+  DLL name     : SLC.dll
+  Symbol name  : _SLInstallProofOfPurchase@24
+  Type         : code
+  Name type    : undecorate
+  Hint         : 25
+  Name         : SLInstallProofOfPurchase
+
+Archive member name at 28CA: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CA619EF8
+  SizeOfData   : 00000023
+  DLL name     : SLC.dll
+  Symbol name  : _SLIsWindowsGenuineLocal@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 26
+  Name         : SLIsWindowsGenuineLocal
+
+Archive member name at 293E: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      26 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CE838D92
+  SizeOfData   : 00000012
+  DLL name     : SLC.dll
+  Symbol name  : _SLOpen@4
+  Type         : code
+  Name type    : undecorate
+  Hint         : 27
+  Name         : SLOpen
+
+Archive member name at 29A0: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      2E size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: DB5D6807
+  SizeOfData   : 0000001A
+  DLL name     : SLC.dll
+  Symbol name  : _SLReArmWindows@0
+  Type         : code
+  Name type    : undecorate
+  Hint         : 28
+  Name         : SLReArmWindows
+
+Archive member name at 2A0A: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      30 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F1C3FFAC
+  SizeOfData   : 0000001C
+  DLL name     : SLC.dll
+  Symbol name  : _SLRegisterEvent@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 29
+  Name         : SLRegisterEvent
+
+Archive member name at 2A76: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      36 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: F317A192
+  SizeOfData   : 00000022
+  DLL name     : SLC.dll
+  Symbol name  : _SLRegisterWindowsEvent@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 30
+  Name         : SLRegisterWindowsEvent
+
+Archive member name at 2AE8: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      37 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CAD6B980
+  SizeOfData   : 00000023
+  DLL name     : SLC.dll
+  Symbol name  : _SLSetCurrentProductKey@12
+  Type         : code
+  Name type    : undecorate
+  Hint         : 31
+  Name         : SLSetCurrentProductKey
+
+Archive member name at 2B5C: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: CB31CF55
+  SizeOfData   : 00000024
+  DLL name     : SLC.dll
+  Symbol name  : _SLSetGenuineInformation@20
+  Type         : code
+  Name type    : undecorate
+  Hint         : 32
+  Name         : SLSetGenuineInformation
+
+Archive member name at 2BD0: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E1C04434
+  SizeOfData   : 0000001E
+  DLL name     : SLC.dll
+  Symbol name  : _SLUninstallLicense@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 33
+  Name         : SLUninstallLicense
+
+Archive member name at 2C3E: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      3A size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: EB09DC1E
+  SizeOfData   : 00000026
+  DLL name     : SLC.dll
+  Symbol name  : _SLUninstallProofOfPurchase@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 34
+  Name         : SLUninstallProofOfPurchase
+
+Archive member name at 2CB4: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      32 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E5E9422E
+  SizeOfData   : 0000001E
+  DLL name     : SLC.dll
+  Symbol name  : _SLUnregisterEvent@16
+  Type         : code
+  Name type    : undecorate
+  Hint         : 35
+  Name         : SLUnregisterEvent
+
+Archive member name at 2D22: SLC.dll/        
+FFFFFFFF time/date
+         uid
+         gid
+       0 mode
+      38 size
+correct header end
+
+  Version      : 0
+  Machine      : 14C (x86)
+  TimeDateStamp: E7F2A77E
+  SizeOfData   : 00000024
+  DLL name     : SLC.dll
+  Symbol name  : _SLUnregisterWindowsEvent@8
+  Type         : code
+  Name type    : undecorate
+  Hint         : 36
+  Name         : SLUnregisterWindowsEvent
+
+     Exports
+
+       ordinal    name
+
+                  ?SLpCheckProductKey@@YGJPAUDIGITALPID4@@PAH@Z (long __stdcall SLpCheckProductKey(struct DIGITALPID4 *,int *))
+                  ?SLpGetGenuineLocal@@YGJPAXPBU_GUID@@PAW4_SL_GENUINE_STATE@@@Z (long __stdcall SLpGetGenuineLocal(void *,struct _GUID const *,enum _SL_GENUINE_STATE *))
+                  ?SLpUpdateComponentTokens@@YGJPAXPAH@Z (long __stdcall SLpUpdateComponentTokens(void *,int *))
+                  _SLClose@4
+                  _SLConsumeRight@20
+                  _SLConsumeWindowsRight@4
+                  _SLDepositOfflineConfirmationId@16
+                  _SLDepositOfflineConfirmationIdEx@20
+                  _SLFireEvent@12
+                  _SLGenerateOfflineInstallationId@12
+                  _SLGenerateOfflineInstallationIdEx@16
+                  _SLGetApplicationInformation@24
+                  _SLGetGenuineInformation@20
+                  _SLGetInstalledProductKeyIds@16
+                  _SLGetLicense@16
+                  _SLGetLicenseFileId@16
+                  _SLGetLicenseInformation@24
+                  _SLGetLicensingStatusInformation@24
+                  _SLGetPKeyId@24
+                  _SLGetPKeyInformation@24
+                  _SLGetPolicyInformation@20
+                  _SLGetPolicyInformationDWORD@12
+                  _SLGetProductSkuInformation@24
+                  _SLGetSLIDList@24
+                  _SLGetServiceInformation@20
+                  _SLGetWindowsInformation@16
+                  _SLGetWindowsInformationDWORD@8
+                  _SLInstallLicense@16
+                  _SLInstallProofOfPurchase@24
+                  _SLIsWindowsGenuineLocal@4
+                  _SLOpen@4
+                  _SLReArmWindows@0
+                  _SLRegisterEvent@16
+                  _SLRegisterWindowsEvent@8
+                  _SLSetCurrentProductKey@12
+                  _SLSetGenuineInformation@20
+                  _SLUninstallLicense@8
+                  _SLUninstallProofOfPurchase@8
+                  _SLUnregisterEvent@16
+                  _SLUnregisterWindowsEvent@8
+
+  Summary
+
+          B7 .debug$S
+          14 .idata$2
+          14 .idata$3
+           4 .idata$4
+           4 .idata$5
+           8 .idata$6

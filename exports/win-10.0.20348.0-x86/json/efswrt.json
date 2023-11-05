@@ -1,0 +1,693 @@
+{
+  "dllExports": [],
+  "libExports": [
+    {
+      "name": "_CdplGetFileProtectionLevel@8"
+    },
+    {
+      "name": "_CdplIsAppAllowedToRun@8"
+    },
+    {
+      "name": "_CdplIsAppDataProtectionSupported@16"
+    },
+    {
+      "name": "_CdplIsSupported@4"
+    },
+    {
+      "name": "_CdplProtectFileToLevel@8"
+    },
+    {
+      "name": "_CdplProtectFileToLevelWithResult@12"
+    },
+    {
+      "name": "_CdplProtectKnownUserFolders@0"
+    },
+    {
+      "name": "_CdplProtectSecretToLevel@20"
+    },
+    {
+      "name": "_CdplUnprotectSecret@16"
+    },
+    {
+      "name": "_DpmBufferFree@4"
+    },
+    {
+      "name": "_DpmProtectSecretToIdentity@32"
+    },
+    {
+      "name": "_DpmStreamClose@4"
+    },
+    {
+      "name": "_DpmStreamOpenToProtectToIdentity@20"
+    },
+    {
+      "name": "_DpmStreamOpenToUnprotect@12"
+    },
+    {
+      "name": "_DpmStreamUpdate@16"
+    },
+    {
+      "name": "_DpmUnprotectSecret@24"
+    },
+    {
+      "name": "_EnterpriseDataCopyProtection@12"
+    },
+    {
+      "name": "_EnterpriseDataGetStatus@8"
+    },
+    {
+      "name": "_EnterpriseDataProtect@12"
+    },
+    {
+      "name": "_EnterpriseDataRevoke@4"
+    },
+    {
+      "name": "_FreeIdentityProtectorList@4"
+    },
+    {
+      "name": "_GetEnterpriseActionForCopy@36"
+    },
+    {
+      "name": "_GetEnterpriseIdForNetworkPath@12"
+    },
+    {
+      "name": "_ProtectFileToEnterpriseIdentity@8"
+    },
+    {
+      "name": "_ProtectFileToIdentity@12"
+    },
+    {
+      "name": "_ProtectOrReprotectFileToIdentity@8"
+    },
+    {
+      "name": "_QueryIdentityProtectors@8"
+    },
+    {
+      "name": "_UnprotectFile@8"
+    }
+  ],
+  "libPublicSymbols": [
+    {
+      "offset": 4218,
+      "name": "__IMPORT_DESCRIPTOR_efswrt"
+    },
+    {
+      "offset": 4768,
+      "name": "__NULL_IMPORT_DESCRIPTOR"
+    },
+    {
+      "offset": 5078,
+      "name": "efswrt_NULL_THUNK_DATA"
+    },
+    {
+      "offset": 7550,
+      "name": "_EnterpriseDataProtect@12"
+    },
+    {
+      "offset": 7550,
+      "name": "__imp__EnterpriseDataProtect@12"
+    },
+    {
+      "offset": 7308,
+      "name": "_EnterpriseDataCopyProtection@12"
+    },
+    {
+      "offset": 7308,
+      "name": "__imp__EnterpriseDataCopyProtection@12"
+    },
+    {
+      "offset": 7668,
+      "name": "_EnterpriseDataRevoke@4"
+    },
+    {
+      "offset": 7668,
+      "name": "__imp__EnterpriseDataRevoke@4"
+    },
+    {
+      "offset": 7432,
+      "name": "_EnterpriseDataGetStatus@8"
+    },
+    {
+      "offset": 7432,
+      "name": "__imp__EnterpriseDataGetStatus@8"
+    },
+    {
+      "offset": 8278,
+      "name": "_ProtectFileToIdentity@12"
+    },
+    {
+      "offset": 8278,
+      "name": "__imp__ProtectFileToIdentity@12"
+    },
+    {
+      "offset": 7904,
+      "name": "_GetEnterpriseActionForCopy@36"
+    },
+    {
+      "offset": 7904,
+      "name": "__imp__GetEnterpriseActionForCopy@36"
+    },
+    {
+      "offset": 8026,
+      "name": "_GetEnterpriseIdForNetworkPath@12"
+    },
+    {
+      "offset": 8026,
+      "name": "__imp__GetEnterpriseIdForNetworkPath@12"
+    },
+    {
+      "offset": 8524,
+      "name": "_QueryIdentityProtectors@8"
+    },
+    {
+      "offset": 8524,
+      "name": "__imp__QueryIdentityProtectors@8"
+    },
+    {
+      "offset": 7784,
+      "name": "_FreeIdentityProtectorList@4"
+    },
+    {
+      "offset": 7784,
+      "name": "__imp__FreeIdentityProtectorList@4"
+    },
+    {
+      "offset": 6602,
+      "name": "_DpmProtectSecretToIdentity@32"
+    },
+    {
+      "offset": 6602,
+      "name": "__imp__DpmProtectSecretToIdentity@32"
+    },
+    {
+      "offset": 7194,
+      "name": "_DpmUnprotectSecret@24"
+    },
+    {
+      "offset": 7194,
+      "name": "__imp__DpmUnprotectSecret@24"
+    },
+    {
+      "offset": 6494,
+      "name": "_DpmBufferFree@4"
+    },
+    {
+      "offset": 6494,
+      "name": "__imp__DpmBufferFree@4"
+    },
+    {
+      "offset": 6834,
+      "name": "_DpmStreamOpenToProtectToIdentity@20"
+    },
+    {
+      "offset": 6834,
+      "name": "__imp__DpmStreamOpenToProtectToIdentity@20"
+    },
+    {
+      "offset": 6962,
+      "name": "_DpmStreamOpenToUnprotect@12"
+    },
+    {
+      "offset": 6962,
+      "name": "__imp__DpmStreamOpenToUnprotect@12"
+    },
+    {
+      "offset": 7082,
+      "name": "_DpmStreamUpdate@16"
+    },
+    {
+      "offset": 7082,
+      "name": "__imp__DpmStreamUpdate@16"
+    },
+    {
+      "offset": 6724,
+      "name": "_DpmStreamClose@4"
+    },
+    {
+      "offset": 6724,
+      "name": "__imp__DpmStreamClose@4"
+    },
+    {
+      "offset": 8152,
+      "name": "_ProtectFileToEnterpriseIdentity@8"
+    },
+    {
+      "offset": 8152,
+      "name": "__imp__ProtectFileToEnterpriseIdentity@8"
+    },
+    {
+      "offset": 8642,
+      "name": "_UnprotectFile@8"
+    },
+    {
+      "offset": 8642,
+      "name": "__imp__UnprotectFile@8"
+    },
+    {
+      "offset": 8396,
+      "name": "_ProtectOrReprotectFileToIdentity@8"
+    },
+    {
+      "offset": 8396,
+      "name": "__imp__ProtectOrReprotectFileToIdentity@8"
+    },
+    {
+      "offset": 5652,
+      "name": "_CdplIsAppDataProtectionSupported@16"
+    },
+    {
+      "offset": 5652,
+      "name": "__imp__CdplIsAppDataProtectionSupported@16"
+    },
+    {
+      "offset": 5890,
+      "name": "_CdplProtectFileToLevel@8"
+    },
+    {
+      "offset": 5890,
+      "name": "__imp__CdplProtectFileToLevel@8"
+    },
+    {
+      "offset": 5414,
+      "name": "_CdplGetFileProtectionLevel@8"
+    },
+    {
+      "offset": 5414,
+      "name": "__imp__CdplGetFileProtectionLevel@8"
+    },
+    {
+      "offset": 6136,
+      "name": "_CdplProtectKnownUserFolders@0"
+    },
+    {
+      "offset": 6136,
+      "name": "__imp__CdplProtectKnownUserFolders@0"
+    },
+    {
+      "offset": 6258,
+      "name": "_CdplProtectSecretToLevel@20"
+    },
+    {
+      "offset": 6258,
+      "name": "__imp__CdplProtectSecretToLevel@20"
+    },
+    {
+      "offset": 6378,
+      "name": "_CdplUnprotectSecret@16"
+    },
+    {
+      "offset": 6378,
+      "name": "__imp__CdplUnprotectSecret@16"
+    },
+    {
+      "offset": 5536,
+      "name": "_CdplIsAppAllowedToRun@8"
+    },
+    {
+      "offset": 5536,
+      "name": "__imp__CdplIsAppAllowedToRun@8"
+    },
+    {
+      "offset": 5780,
+      "name": "_CdplIsSupported@4"
+    },
+    {
+      "offset": 5780,
+      "name": "__imp__CdplIsSupported@4"
+    },
+    {
+      "offset": 6008,
+      "name": "_CdplProtectFileToLevelWithResult@12"
+    },
+    {
+      "offset": 6008,
+      "name": "__imp__CdplProtectFileToLevelWithResult@12"
+    }
+  ],
+  "libSymbols": [
+    {
+      "offset": 5414,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3926080046,
+      "sizeOfData": 41,
+      "dllName": "efswrt.dll",
+      "symbolName": "_CdplGetFileProtectionLevel@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 0,
+      "name": "CdplGetFileProtectionLevel"
+    },
+    {
+      "offset": 5536,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3258113155,
+      "sizeOfData": 36,
+      "dllName": "efswrt.dll",
+      "symbolName": "_CdplIsAppAllowedToRun@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 1,
+      "name": "CdplIsAppAllowedToRun"
+    },
+    {
+      "offset": 5652,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3551140250,
+      "sizeOfData": 48,
+      "dllName": "efswrt.dll",
+      "symbolName": "_CdplIsAppDataProtectionSupported@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 2,
+      "name": "CdplIsAppDataProtectionSupported"
+    },
+    {
+      "offset": 5780,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3476370988,
+      "sizeOfData": 30,
+      "dllName": "efswrt.dll",
+      "symbolName": "_CdplIsSupported@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 3,
+      "name": "CdplIsSupported"
+    },
+    {
+      "offset": 5890,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3239905951,
+      "sizeOfData": 37,
+      "dllName": "efswrt.dll",
+      "symbolName": "_CdplProtectFileToLevel@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 4,
+      "name": "CdplProtectFileToLevel"
+    },
+    {
+      "offset": 6008,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3248477497,
+      "sizeOfData": 48,
+      "dllName": "efswrt.dll",
+      "symbolName": "_CdplProtectFileToLevelWithResult@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 5,
+      "name": "CdplProtectFileToLevelWithResult"
+    },
+    {
+      "offset": 6136,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4248935155,
+      "sizeOfData": 42,
+      "dllName": "efswrt.dll",
+      "symbolName": "_CdplProtectKnownUserFolders@0",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 6,
+      "name": "CdplProtectKnownUserFolders"
+    },
+    {
+      "offset": 6258,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3884363977,
+      "sizeOfData": 40,
+      "dllName": "efswrt.dll",
+      "symbolName": "_CdplProtectSecretToLevel@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 7,
+      "name": "CdplProtectSecretToLevel"
+    },
+    {
+      "offset": 6378,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3822819714,
+      "sizeOfData": 35,
+      "dllName": "efswrt.dll",
+      "symbolName": "_CdplUnprotectSecret@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 8,
+      "name": "CdplUnprotectSecret"
+    },
+    {
+      "offset": 6494,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3438891994,
+      "sizeOfData": 28,
+      "dllName": "efswrt.dll",
+      "symbolName": "_DpmBufferFree@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 12,
+      "name": "DpmBufferFree"
+    },
+    {
+      "offset": 6602,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3672096738,
+      "sizeOfData": 42,
+      "dllName": "efswrt.dll",
+      "symbolName": "_DpmProtectSecretToIdentity@32",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 13,
+      "name": "DpmProtectSecretToIdentity"
+    },
+    {
+      "offset": 6724,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3309222987,
+      "sizeOfData": 29,
+      "dllName": "efswrt.dll",
+      "symbolName": "_DpmStreamClose@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 14,
+      "name": "DpmStreamClose"
+    },
+    {
+      "offset": 6834,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3474351099,
+      "sizeOfData": 48,
+      "dllName": "efswrt.dll",
+      "symbolName": "_DpmStreamOpenToProtectToIdentity@20",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 15,
+      "name": "DpmStreamOpenToProtectToIdentity"
+    },
+    {
+      "offset": 6962,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3539882824,
+      "sizeOfData": 40,
+      "dllName": "efswrt.dll",
+      "symbolName": "_DpmStreamOpenToUnprotect@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 16,
+      "name": "DpmStreamOpenToUnprotect"
+    },
+    {
+      "offset": 7082,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4058269813,
+      "sizeOfData": 31,
+      "dllName": "efswrt.dll",
+      "symbolName": "_DpmStreamUpdate@16",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 17,
+      "name": "DpmStreamUpdate"
+    },
+    {
+      "offset": 7194,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3332731211,
+      "sizeOfData": 34,
+      "dllName": "efswrt.dll",
+      "symbolName": "_DpmUnprotectSecret@24",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 18,
+      "name": "DpmUnprotectSecret"
+    },
+    {
+      "offset": 7308,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4006290000,
+      "sizeOfData": 44,
+      "dllName": "efswrt.dll",
+      "symbolName": "_EnterpriseDataCopyProtection@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 19,
+      "name": "EnterpriseDataCopyProtection"
+    },
+    {
+      "offset": 7432,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4088800068,
+      "sizeOfData": 38,
+      "dllName": "efswrt.dll",
+      "symbolName": "_EnterpriseDataGetStatus@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 20,
+      "name": "EnterpriseDataGetStatus"
+    },
+    {
+      "offset": 7550,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3989335368,
+      "sizeOfData": 37,
+      "dllName": "efswrt.dll",
+      "symbolName": "_EnterpriseDataProtect@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 21,
+      "name": "EnterpriseDataProtect"
+    },
+    {
+      "offset": 7668,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3583336684,
+      "sizeOfData": 35,
+      "dllName": "efswrt.dll",
+      "symbolName": "_EnterpriseDataRevoke@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 22,
+      "name": "EnterpriseDataRevoke"
+    },
+    {
+      "offset": 7784,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4213993135,
+      "sizeOfData": 40,
+      "dllName": "efswrt.dll",
+      "symbolName": "_FreeIdentityProtectorList@4",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 23,
+      "name": "FreeIdentityProtectorList"
+    },
+    {
+      "offset": 7904,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3238898429,
+      "sizeOfData": 42,
+      "dllName": "efswrt.dll",
+      "symbolName": "_GetEnterpriseActionForCopy@36",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 24,
+      "name": "GetEnterpriseActionForCopy"
+    },
+    {
+      "offset": 8026,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3308000298,
+      "sizeOfData": 45,
+      "dllName": "efswrt.dll",
+      "symbolName": "_GetEnterpriseIdForNetworkPath@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 25,
+      "name": "GetEnterpriseIdForNetworkPath"
+    },
+    {
+      "offset": 8152,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3389312087,
+      "sizeOfData": 46,
+      "dllName": "efswrt.dll",
+      "symbolName": "_ProtectFileToEnterpriseIdentity@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 26,
+      "name": "ProtectFileToEnterpriseIdentity"
+    },
+    {
+      "offset": 8278,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3397301803,
+      "sizeOfData": 37,
+      "dllName": "efswrt.dll",
+      "symbolName": "_ProtectFileToIdentity@12",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 27,
+      "name": "ProtectFileToIdentity"
+    },
+    {
+      "offset": 8396,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 3672598590,
+      "sizeOfData": 47,
+      "dllName": "efswrt.dll",
+      "symbolName": "_ProtectOrReprotectFileToIdentity@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 28,
+      "name": "ProtectOrReprotectFileToIdentity"
+    },
+    {
+      "offset": 8524,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4033496355,
+      "sizeOfData": 38,
+      "dllName": "efswrt.dll",
+      "symbolName": "_QueryIdentityProtectors@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 29,
+      "name": "QueryIdentityProtectors"
+    },
+    {
+      "offset": 8642,
+      "version": 0,
+      "machine": 332,
+      "timeDateStamp": 4136492029,
+      "sizeOfData": 28,
+      "dllName": "efswrt.dll",
+      "symbolName": "_UnprotectFile@8",
+      "type": "code",
+      "nameType": "undecorate",
+      "hint": 30,
+      "name": "UnprotectFile"
+    }
+  ]
+}
