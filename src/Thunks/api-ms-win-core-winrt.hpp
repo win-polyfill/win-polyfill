@@ -43,6 +43,7 @@ namespace YY
         void,
         WINAPI,
         RoUninitialize,
+        VOID
             )
         {
             if (auto const pRoUninitialize = try_get_RoUninitialize())
