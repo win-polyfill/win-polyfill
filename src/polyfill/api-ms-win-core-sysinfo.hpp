@@ -9,6 +9,7 @@ __DEFINE_THUNK(kernel32, 0, ULONGLONG, WINAPI, GetTickCount64, VOID)
     {
         return pGetTickCount64();
     }
+    auto tickCount32Bit = GetTickCount();
     // https://docs.microsoft.com/en-us/windows/win32/api/winternl/nf-winternl-ntquerysysteminformation
     if (auto const pNtQuerySystemInformation = wp_get_NtQuerySystemInformation())
     {
@@ -18,11 +19,12 @@ __DEFINE_THUNK(kernel32, 0, ULONGLONG, WINAPI, GetTickCount64, VOID)
         if (0 == pNtQuerySystemInformation(SystemTimeOfDayInformation, &st, sizeof(st), &oSize) &&
             (oSize == sizeof(st)))
         {
-            return (st.CurrentTime.QuadPart - st.BootTime.QuadPart) / 10000;
+            ULONGLONG timeElapsed = (st.CurrentTime.QuadPart - st.BootTime.QuadPart) / 10000;
+            return ((timeElapsed >> 32) << 32) + tickCount32Bit;
         }
     }
 
-    __pragma(warning(suppress : 28159)) return GetTickCount();
+    __pragma(warning(suppress : 28159)) return tickCount32Bit;
 }
 #endif
 
