@@ -312,8 +312,9 @@ __End:
 }
 #endif
 
-#if (WP_SUPPORT_VERSION < NTDDI_WINXP)
-
+#if (WP_SUPPORT_VERSION < NTDDI_WIN10_RS3)
+// wp_GetNativeSystemInfo are called by wp_IsWow64GuestMachineSupported
+// so make the guard of wp_GetNativeSystemInfo to be same as wp_IsWow64GuestMachineSupported
 // Windows XP [desktop apps | UWP apps]
 // Windows Server 2003 [desktop apps | UWP apps]
 __DEFINE_THUNK(kernel32, 4, VOID, WINAPI, GetNativeSystemInfo, _Out_ LPSYSTEM_INFO lpSystemInfo)
