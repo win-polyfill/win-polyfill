@@ -813,7 +813,7 @@ namespace YY
             *ppv = nullptr;
 
             PIDLIST_ABSOLUTE pidl;
-            auto hr = ::SHParseDisplayName(pszPath, pbc, &pidl, 0, nullptr);
+            auto hr = SHParseDisplayName(pszPath, pbc, &pidl, 0, nullptr);
             if (SUCCEEDED(hr))
             {
                 hr = internal::SHCreateItemFromIDList(pidl, riid, ppv);

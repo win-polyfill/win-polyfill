@@ -116,7 +116,7 @@ namespace YY
             do
             {
                 DWORD _uSize = _cbTable;
-                _lStatus = ::GetIfTable(_pTable, &_uSize, FALSE);
+                _lStatus = GetIfTable(_pTable, &_uSize, FALSE);
                 if (_lStatus != NO_ERROR)
                     break;
 

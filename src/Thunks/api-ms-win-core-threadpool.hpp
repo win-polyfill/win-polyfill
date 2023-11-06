@@ -238,7 +238,7 @@ namespace YY
                 pWork->p24 = 0;
                 pWork->p2C = 0;
 
-                ::InitializeSRWLock(&pWork->srwLock);
+                InitializeSRWLock(&pWork->srwLock);
 
                 pWork->Context = pv;
 
@@ -317,7 +317,7 @@ namespace YY
                 _Outptr_ _TP_WORK* pWork
                 )
             {
-                ::AcquireSRWLockExclusive(&pWork->CleanupGroup->srwLock);
+                AcquireSRWLockExclusive(&pWork->CleanupGroup->srwLock);
 
                 pWork->p14 = &pWork->CleanupGroup->pC;
                 pWork->p18 = pWork->CleanupGroup->p10;
@@ -325,7 +325,7 @@ namespace YY
                 *(void**)pWork->CleanupGroup->p10 = pWork->p14;
                 pWork->CleanupGroup->p10 = &pWork->p14;
 
-                ::ReleaseSRWLockExclusive(&pWork->CleanupGroup->srwLock);
+                ReleaseSRWLockExclusive(&pWork->CleanupGroup->srwLock);
             }
 
             static

@@ -135,7 +135,7 @@ namespace YY
 
                         }
                     }
-                    return ::DefWindowProcW(_hWnd, _uMsg, _wParam, _lParam);
+                    return DefWindowProcW(_hWnd, _uMsg, _wParam, _lParam);
                 }
 
                 bool AddRef()
@@ -192,7 +192,7 @@ namespace YY
                                             WNDCLASSW wc = {};
 
                                             wc.style = CS_HREDRAW | CS_VREDRAW;
-                                            wc.lpfnWndProc = &DefWindowProcW;
+                                            wc.lpfnWndProc = DefWindowProcW;
                                             wc.cbClsExtra = 0;
                                             wc.cbWndExtra = 0;
                                             wc.hInstance = NULL;
