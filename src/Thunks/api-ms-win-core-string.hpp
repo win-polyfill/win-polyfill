@@ -35,7 +35,7 @@ namespace YY
             const auto Locale = LocaleNameToLCID(lpLocaleName, 0);
             if (Locale == 0)
             {
-                return 0;
+                return CompareStringW(LOCALE_USER_DEFAULT, dwCmpFlags, lpString1, cchCount1, lpString2, cchCount2);
             }
 
             return CompareStringW(Locale, dwCmpFlags, lpString1, cchCount1, lpString2, cchCount2);
