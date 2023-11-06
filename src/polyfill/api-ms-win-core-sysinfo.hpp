@@ -9,6 +9,18 @@ __DEFINE_THUNK(kernel32, 0, ULONGLONG, WINAPI, GetTickCount64, VOID)
     {
         return pGetTickCount64();
     }
+    // https://docs.microsoft.com/en-us/windows/win32/api/winternl/nf-winternl-ntquerysysteminformation
+    if (auto const pNtQuerySystemInformation = wp_get_NtQuerySystemInformation())
+    {
+        SYSTEM_TIMEOFDAY_INFORMATION st = {0};
+        ULONG oSize = 0;
+        // https://docs.microsoft.com/en-us/windows-hardware/drivers/kernel/using-ntstatus-values
+        if (0 == pNtQuerySystemInformation(SystemTimeOfDayInformation, &st, sizeof(st), &oSize) &&
+            (oSize == sizeof(st)))
+        {
+            return (st.CurrentTime.QuadPart - st.BootTime.QuadPart) / 10000;
+        }
+    }
 
     __pragma(warning(suppress : 28159)) return GetTickCount();
 }
