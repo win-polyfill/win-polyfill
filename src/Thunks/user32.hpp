@@ -379,7 +379,25 @@ namespace YY
             {
                 return pSystemParametersInfoForDpi(uiAction, uiParam, pvParam, fWinIni, dpi);
             }
-
+            /**
+             * @brief
+             * https://docs.microsoft.com/en-us/windows/win32/api/winuser/ns-winuser-nonclientmetricsa
+             * Windows Server 2003 and Windows XP/2000:  If an application that is compiled for Windows
+             * Server 2008 or Windows Vista must also run on Windows Server 2003 or Windows XP/2000, use the
+             * GetVersionEx function to check the operating system version at run time and, if the
+             * application is running on Windows Server 2003 or Windows XP/2000, subtract the size of the
+             * iPaddedBorderWidth member from the cbSize member of the NONCLIENTMETRICS structure before
+             * calling the SystemParametersInfo function.
+             */
+            if (NtCurrentTeb()->ProcessEnvironmentBlock->OSMajorVersion < 6)
+            {
+                if (SPI_GETNONCLIENTMETRICS == uiAction)
+                {
+                    auto pInfo = (NONCLIENTMETRICSW *)pvParam;
+                    pInfo->cbSize -= sizeof(pInfo->iPaddedBorderWidth);
+                    uiParam -= sizeof(pInfo->iPaddedBorderWidth);
+                }
+            }
             if (!SystemParametersInfoW(uiAction, uiParam, pvParam, fWinIni))
                 return FALSE;
 
@@ -391,6 +409,10 @@ namespace YY
 
                 if (nDpiX != dpi)
                 {
+                    if (dpi == 0)
+                    {
+                        dpi = nDpiX;
+                    }
                     if (SPI_GETICONTITLELOGFONT == uiAction)
                     {
                         if (auto pInfo = (LOGFONTW*)pvParam)
