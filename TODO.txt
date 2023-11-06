@@ -4,5 +4,20 @@ Polyfill IsProcessorFeaturePresent
 Fixes LoadLibrary for __declspec(thread) on Windows XP and Windows 20000
 http://www.nynaeve.net/?p=189
 
-EncodePointer and DecodePointer only present on Windows XP SP2 and upper
+done EncodePointer and DecodePointer only present on Windows XP SP2 and upper
 https://devblogs.microsoft.com/oldnewthing/20201113-00/?p=104447
+
+实现正确的WSAPoll for windows 10 and lower
+实现dwrite
+WaitOnAddress 是不是要增加个数（当前1024）
+创建.o 文件用于编译 Qt6|Qt5.15
+Chrome 80
+兼容 vs2022
+green the server
+km 兼容 c
+
+TODOs
+移动 call_once_context 到 头文件
+
+测试每一个函数 至少调用一下
+特别是pdh.dll shell32.dll 在Win7下
